@@ -1,50 +1,277 @@
 {
   "data": "2026-05-19",
-  "dia_consultado": "amanha",
-  "gerado_em": "2026-05-18T12:11:56.317046",
+  "variante": "",
+  "gerado_em": "2026-05-18T12:15:29.585779",
   "total_partidas_analisadas": 10,
-  "entradas": [],
-  "evitar": [],
-  "pdfs": [
+  "total_partidas_disponiveis": 10,
+  "entradas": [
     {
+      "horario": "15h30",
+      "liga": "Belgium Pro League",
       "jogo": "KRC Genk x Royal Antwerp FC",
-      "arquivo": "pdfs/2026-05-19/Belgium_Pro_League/001_15h30_KRC_Genk_x_Royal_Antwerp_FC.pdf"
+      "mercado_principal": "Mais 2.5 gols",
+      "odd_principal": "1.85",
+      "fair_odd_calculada": "1.56",
+      "valor_esperado": "+18.4% EV (odd de mercado 1.85 vs fair odd 1.56)",
+      "mercado_secundario": "Back KRC Genk",
+      "odd_secundaria": "1.90",
+      "desempenho_1t": "KRC Genk marca 0.47 gols e sofre 0.79 no 1ºT; Royal Antwerp FC marca 0.42 e sofre 0.58 no 1ºT.",
+      "desempenho_2t": "KRC Genk marca 0.89 gols e sofre 0.37 no 2ºT; Royal Antwerp FC marca 0.47 e sofre 0.58 no 2ºT.",
+      "motivacao_tecnica": "KRC Genk, 7º colocado, busca consolidar sua posição na parte de cima da tabela. Possui um ataque eficaz (1.37 GM/jogo, 1.98 xG Favor) e uma defesa consistente em casa. O Royal Antwerp FC (13º) tem um desempenho inferior (1.00 PPG, 0.89 GM/jogo) e cede muitos espaços, especialmente defensivamente (1.64 xG Contra). O alto xG combinado (3.22) e a média de gols do Genk (2.53 total) indicam uma partida aberta. A capacidade do Genk de marcar no 2º tempo (0.89 GM/2ºT) e o Antwerp sofrer gols (0.58 GS/2ºT) contribuem para a expectativa de gols.",
+      "coeficiente_regularidade": "Casa (KRC Genk): CV moderado (resultados mistos, mas ataque consistente). Fora (Royal Antwerp FC): CV baixo (desempenho inconstante, mais derrotas).",
+      "mando_de_campo": "KRC Genk tem desempenho forte em casa, onde concentra boa parte de seus pontos e tem ataque mais efetivo. Royal Antwerp FC tem desempenho mediano fora.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "KRC Genk tem capacidade de criar jogadas elaboradas e finalizações de média distância (18.05 finalizações/jogo). Royal Antwerp FC tende a ser mais reativo e buscar contra-ataques.",
+      "momento_gols": "KRC Genk marca 27% dos seus gols entre 76-90min. Royal Antwerp FC sofre 23% dos seus gols entre 76-90min. Há uma janela para gols tardios.",
+      "jogadores_chave": "KRC Genk: Bryan Heynen, Zakaria El Ouahdi. Royal Antwerp FC: Vincent Janssen.",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "Pré-jogo para Over 2.5 gols.",
+      "situacao_saida": "Cash-out em caso de gol rápido contra a posição ou mudança tática defensiva inesperada.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "Mercado Over 2.5 é explosivo. Esperar pode significar perder o valor da odd.",
+        "gatilho_saida_parcial": "Reduzir exposição em escanteio ou falta perigosa contra, especialmente se o placar estiver favorável à posição.",
+        "hard_stop": "Saída total em caso de gol anulado por VAR contra a posição (se já houve entrada ao vivo) ou expulsão de jogador chave do time atacante."
+      },
+      "over_limite_70": {
+        "elegivel": true,
+        "favorito": "KRC Genk",
+        "indice_gols_final": "KRC Genk 27% (7 gols) após 76min; Royal Antwerp FC sofre 23% (5 gols) após 76min. KRC Genk marca 0.89 GM/2ºT.",
+        "condicao_entrada": "Entrar se KRC Genk vencer por 2 gols de diferença após 70min",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar)",
+        "odd_esperada": "1.80 a 2.50",
+        "stake_recomendada": "1%",
+        "observacoes": "Foco na capacidade ofensiva do Genk no 2º tempo e a vulnerabilidade do Antwerp."
+      },
+      "confirmacao_visual": {
+        "elegivel": true,
+        "perfil_tatico": "KRC Genk com pressão alta e busca por transições rápidas, dominando a posse e tentando quebrar linhas defensivas do adversário. Busca finalizações de fora da área e infiltrações pelos lados do campo.",
+        "gatilhos_aceleracao": "Recuperação rápida de segunda bola na metade ofensiva, subida coordenada da linha defensiva do Genk, passes rápidos e objetivos no terço final. Aceleração da troca de passes no meio-campo para envolver a defesa adversária.",
+        "alerta_armadilha": "Royal Antwerp FC adotando uma linha defensiva extremamente baixa e cedendo o meio-campo para explorar contra-ataques com velocidade pelos pontas.",
+        "mercado_recomendado": "Back KRC Genk ao vivo OU Mais 0.5 gols no segundo tempo",
+        "momento_observacao": "A partir dos 20-25 minutos do 1º tempo para ver o encaixe, e principalmente no início do 2º tempo para confirmar o ritmo."
+      }
     },
     {
-      "jogo": "Sporting Charleroi x OH Leuven",
-      "arquivo": "pdfs/2026-05-19/Belgium_Pro_League/002_15h30_Sporting_Charleroi_x_OH_Leuven.pdf"
-    },
-    {
-      "jogo": "KVC Westerlo x Standard Liège",
-      "arquivo": "pdfs/2026-05-19/Belgium_Pro_League/003_15h30_KVC_Westerlo_x_Standard_Liège.pdf"
-    },
-    {
+      "horario": "08h35",
+      "liga": "China Chinese Super League",
       "jogo": "Sichuan Jiuniu x Dalian Zhixing",
-      "arquivo": "pdfs/2026-05-19/China_Chinese_Super_League/004_08h35_Sichuan_Jiuniu_x_Dalian_Zhixing.pdf"
+      "mercado_principal": "Mais 3.5 gols",
+      "odd_principal": "2.30",
+      "fair_odd_calculada": "2.04",
+      "valor_esperado": "+12.7% EV (odd de mercado 2.30 vs fair odd 2.04)",
+      "mercado_secundario": "Mais 2.5 gols",
+      "odd_secundaria": "1.70",
+      "desempenho_1t": "Sichuan marca 1.00 e sofre 0.67 no 1ºT; Dalian marca 0.50 e sofre 1.17 no 1ºT.",
+      "desempenho_2t": "Sichuan marca 0.83 e sofre 0.83 no 2ºT; Dalian marca 0.83 e sofre 1.50 no 2ºT.",
+      "motivacao_tecnica": "Sichuan Jiuniu (11º) é o favorito neste confronto, com um bom ataque (1.83 GM/jogo) e aproveitamento de 50% de vitórias. O Dalian Zhixing (10º) apresenta uma defesa extremamente frágil, sofrendo 2.67 gols/jogo e tendo 83% dos seus jogos com Over 2.5 gols. A média combinada de gols dos jogos de ambas as equipes é de 3.66, com o Dalian sofrendo 1.50 gols no 2º tempo. Essa fragilidade defensiva do Dalian, especialmente na segunda etapa, aliada à capacidade ofensiva do Sichuan, cria um ambiente propício para muitos gols.",
+      "coeficiente_regularidade": "Casa (Sichuan Jiuniu): CV baixo (boa consistência, 3 vitórias em 6 jogos). Fora (Dalian Zhixing): CV alto (muita inconstância e defesa muito vulnerável).",
+      "mando_de_campo": "Sichuan Jiuniu tem desempenho sólido em casa, com 50% de vitórias. Dalian Zhixing sofre significativamente jogando fora de casa, com uma alta média de gols sofridos.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Sichuan tem Wesley Moraes (5 Gols, 2 Assistências) como principal figura ofensiva, sendo capaz de construir jogadas ou finalizar rapidamente. Dalian tem Frank Opoku Acheampong (5 Gols, 1 Assistência) mas depende mais de erros adversários, e tem defesa que não consegue segurar pressão.",
+      "momento_gols": "Sichuan marca 36% dos seus gols entre 76-90min. Dalian sofre 13% dos seus gols entre 76-90min. Ambos os times apresentam alta incidência de gols no 2º tempo, sendo o Dalian mais vulnerável (1.50 GS/2ºT).",
+      "jogadores_chave": "Sichuan Jiuniu: Wesley Moraes, Eden Karzev. Dalian Zhixing: Frank Opoku Acheampong, Nicolae Claudiu Stanciu.",
+      "placares_provaveis": "3x1, 3x2, 4x1",
+      "momento_entrada": "Pré-jogo para Mais 3.5 gols.",
+      "situacao_saida": "Cash-out em caso de jogo travado sem gols no 1º tempo ou expulsão precoce.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "A fragilidade defensiva do Dalian pode gerar um mercado explosivo, com odds se ajustando rapidamente. Forçar para capturar o valor inicial.",
+        "gatilho_saida_parcial": "Se o jogo estiver 0x0 até os 30 minutos do 1º tempo, considerar redução de stake. Escanteio ou falta perigosa contra Dalian, se o placar estiver baixo.",
+        "hard_stop": "Saída total se o Dalian marcar um gol muito cedo e recuar completamente, mudando o cenário ofensivo, ou se o Sichuan tiver um jogador expulso."
+      },
+      "over_limite_70": {
+        "elegivel": true,
+        "favorito": "Sichuan Jiuniu",
+        "indice_gols_final": "Sichuan Jiuniu 36% (4 gols) após 76min; Dalian Zhixing sofre 1.50 gols no 2º tempo. Dalian tem uma das defesas mais vazadas do campeonato.",
+        "condicao_entrada": "Entrar se Sichuan Jiuniu vencer por 2 gols de diferença após 70min",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "A defesa do Dalian é muito vulnerável, e o Sichuan tem histórico de gols tardios. Grande potencial para mais gols se o favorito estiver na frente."
+      },
+      "confirmacao_visual": {
+        "elegivel": true,
+        "perfil_tatico": "Sichuan Jiuniu com foco em ataque posicional, buscando passes rápidos e infiltrações na área, explorando a linha defensiva alta do Dalian. Recuperação de bola no campo de ataque para criar novas oportunidades rapidamente.",
+        "gatilhos_aceleracao": "Pressão alta do Sichuan, recuperação de bola na metade ofensiva, transições rápidas com passes verticais e velocidade de circulação no terço final. Movimentação constante dos atacantes para abrir espaços.",
+        "alerta_armadilha": "Dalian Zhixing com uma linha defensiva muito recuada, tentando atrair o Sichuan para contra-ataques utilizando a velocidade de Frank Opoku Acheampong.",
+        "mercado_recomendado": "Back Sichuan Jiuniu ao vivo OU Mais 0.5 gols no segundo tempo",
+        "momento_observacao": "A partir do 2º tempo, observando a intensidade do Sichuan e a capacidade de reação do Dalian à pressão."
+      }
     },
     {
-      "jogo": "Tianjin Teda x Henan Jianye",
-      "arquivo": "pdfs/2026-05-19/China_Chinese_Super_League/005_08h35_Tianjin_Teda_x_Henan_Jianye.pdf"
-    },
-    {
+      "horario": "09h00",
+      "liga": "China Chinese Super League",
       "jogo": "Chengdu Better City FC x Shanghai SIPG",
-      "arquivo": "pdfs/2026-05-19/China_Chinese_Super_League/006_09h00_Chengdu_Better_City_FC_x_Shanghai_SIPG.pdf"
+      "mercado_principal": "Mais 3.5 gols",
+      "odd_principal": "2.80",
+      "fair_odd_calculada": "2.50",
+      "valor_esperado": "+12% EV (odd de mercado 2.80 vs fair odd 2.50)",
+      "mercado_secundario": "Handicap Asiático Chengdu -2.5",
+      "odd_secundaria": "2.00",
+      "desempenho_1t": "Chengdu marca 1.50 e sofre 0.33 no 1ºT; Shanghai marca 0.40 e sofre 0.20 no 1ºT.",
+      "desempenho_2t": "Chengdu marca 1.83 e sofre 0.17 no 2ºT; Shanghai marca 0.40 e sofre 1.40 no 2ºT.",
+      "motivacao_tecnica": "Chengdu Better City FC é o líder isolado da liga, com 100% de vitórias, 3.00 PPG e um ataque avassalador (3.33 GM/jogo) e defesa quase intransponível (0.50 GS/jogo). Shanghai SIPG é o lanterna, sem vitórias (0.40 PPG), com um ataque fraco (0.80 GM/jogo) e defesa vulnerável (1.60 GS/jogo). A diferença de qualidade é abissal. Chengdu vence 100% dos 2º tempos e marca 1.83 gols nesse período, enquanto Shanghai sofre 1.40 gols no 2º tempo. O xG total de 3.05 é conservador, e os números reais indicam uma alta probabilidade de goleada e muitos gols.",
+      "coeficiente_regularidade": "Casa (Chengdu Better City FC): CV extremamente baixo (100% de consistência e vitórias). Fora (Shanghai SIPG): CV extremamente alto (totalmente inconsistente, nenhuma vitória, defesa frágil).",
+      "mando_de_campo": "Chengdu tem um mando de campo dominante, onde obtém 100% de seus pontos e demonstra total superioridade. Shanghai tem desempenho desastroso fora de casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Chengdu é um time com forte poderio ofensivo, com Wellington Alves (7 Gols, 5 Assistências) e Felipe de Sousa (9 Gols, 1 Assistência) liderando o ataque. Eles utilizam jogadas rápidas pelos lados e triangulações no terço final. Shanghai busca raros contra-ataques.",
+      "momento_gols": "Chengdu marca 35% de seus gols entre 76-90min e 25% entre 31-45min, demonstrando capacidade de marcar em diversos momentos. Shanghai sofre a maioria de seus gols no 2º tempo, principalmente entre 46-75min (38% + 38%).",
+      "jogadores_chave": "Chengdu Better City FC: Wellington Alves da Silva, Felipe de Sousa Silva, Shihao Wei. Shanghai SIPG: Mateus Da Silva Vital Assumpção.",
+      "placares_provaveis": "3x0, 4x0, 4x1",
+      "momento_entrada": "Pré-jogo para Mais 3.5 gols.",
+      "situacao_saida": "Cash-out se o Chengdu marcar um gol e diminuir o ritmo, ou se o Shanghai conseguir se fechar defensivamente de forma inesperada.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "O domínio do Chengdu é tão grande que o mercado de gols pode subir rapidamente. É fundamental entrar antes da odd de valor desaparecer.",
+        "gatilho_saida_parcial": "Se o jogo estiver 0x0 ao final do 1º tempo, ou se o Shanghai surpreender com um gol inicial e adotar uma postura extremamente defensiva.",
+        "hard_stop": "Saída total se Chengdu perder um jogador chave por lesão grave ou expulsão, comprometendo sua capacidade ofensiva dominante."
+      },
+      "over_limite_70": {
+        "elegivel": true,
+        "favorito": "Chengdu Better City FC",
+        "indice_gols_final": "Chengdu marca 35% (7 gols) após 76min; Chengdu marca 1.83 GM/2ºT e Shanghai sofre 1.40 GS/2ºT.",
+        "condicao_entrada": "Entrar se Chengdu Better City FC vencer por 2 gols de diferença após 70min",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "Chengdu é uma máquina de fazer gols, especialmente no segundo tempo. Se já estiver vencendo por boa margem, a pressão continuará."
+      },
+      "confirmacao_visual": {
+        "elegivel": true,
+        "perfil_tatico": "Chengdu atua com alta intensidade, pressão constante, com suas linhas ofensivas e de meio-campo avançadas no campo adversário. Busca a rápida recuperação da posse de bola e transições verticais para finalizar.",
+        "gatilhos_aceleracao": "Encaixe defensivo perfeito na metade ofensiva do campo, subida coordenada de zagueiros e laterais, e passes rápidos com alta movimentação no terço final. Troca de posições ofensiva constante.",
+        "alerta_armadilha": "Shanghai SIPG recuando em bloco baixo desde o início, sem dar espaços entre as linhas, forçando Chengdu a tentar finalizações de longe.",
+        "mercado_recomendado": "Back Chengdu Better City FC ao vivo OU Mais 0.5 gols no segundo tempo",
+        "momento_observacao": "Desde o início do jogo, observando a postura avassaladora do Chengdu. O 2º tempo será crucial para ver a manutenção da pressão."
+      }
     },
     {
-      "jogo": "Qingdao Youth Island x Beijing Guoan",
-      "arquivo": "pdfs/2026-05-19/China_Chinese_Super_League/007_09h00_Qingdao_Youth_Island_x_Beijing_Guoan.pdf"
-    },
-    {
+      "horario": "15h30",
+      "liga": "England Premier League",
       "jogo": "AFC Bournemouth x Manchester City",
-      "arquivo": "pdfs/2026-05-19/England_Premier_League/008_15h30_AFC_Bournemouth_x_Manchester_City.pdf"
+      "mercado_principal": "Mais 2.5 gols",
+      "odd_principal": "1.80",
+      "fair_odd_calculada": "1.51",
+      "valor_esperado": "+18.8% EV (odd de mercado 1.80 vs fair odd 1.51)",
+      "mercado_secundario": "Ambas Marcam",
+      "odd_secundaria": "1.75",
+      "desempenho_1t": "Bournemouth marca 0.61 e sofre 0.39 no 1ºT; Man City marca 0.83 e sofre 0.17 no 1ºT.",
+      "desempenho_2t": "Bournemouth marca 0.94 e sofre 0.67 no 2ºT; Man City marca 0.89 e sofre 0.94 no 2ºT.",
+      "motivacao_tecnica": "Manchester City é o favorito (2º colocado, 1.78 PPG) contra o Bournemouth (11º, 1.67 PPG). Embora a diferença na tabela não seja tão grande, a qualidade técnica do City é superior. Ambos os times têm alta média de gols marcados (City 1.72 GM/jogo, Bournemouth 1.56 GM/jogo) e um xG combinado de 3.36, o que sugere um jogo com muitos gols. O Bournemouth, apesar de não ser um favorito claro, tem a capacidade de marcar (1.64 xG Favor) e o City, mesmo sendo forte, sofre 1.22 xG Contra e 0.94 GS/2ºT.",
+      "coeficiente_regularidade": "Casa (AFC Bournemouth): CV moderado (resultados inconsistentes, mas boa capacidade de reação). Fora (Manchester City): CV baixo (consistência geral, mas tem tido mais empates e derrotas em algumas fases, o que indica um CV ligeiramente mais alto que um líder absoluto).",
+      "mando_de_campo": "AFC Bournemouth tem desempenho decente em casa, sendo capaz de incomodar adversários maiores. Manchester City mantém seu alto nível, mas não tem anomalias de desempenho fora de casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Manchester City com posse de bola dominante e jogadas elaboradas, com Haaland (26 Gols, 8 Assistências) como principal artilheiro. Bournemouth tenta explorar transições rápidas e a capacidade de seus pontas. Ambos possuem jogadores decisivos em seus ataques.",
+      "momento_gols": "Ambos os times marcam e sofrem muitos gols no 2º tempo. City sofre 45% de seus gols entre 61-75min e 25% entre 76-90min. Bournemouth marca 36% de seus gols entre 76-90min. Há boa janela para gols tardios de ambos os lados.",
+      "jogadores_chave": "AFC Bournemouth: Antoine Semenyo, Marcus Tavernier. Manchester City: Erling Haaland, Phil Foden, Jeremy Doku.",
+      "placares_provaveis": "1x2, 1x3, 2x2",
+      "momento_entrada": "Pré-jogo para Mais 2.5 gols.",
+      "situacao_saida": "Cash-out em caso de um primeiro tempo sem gols e jogo muito fechado.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "Por ser um mercado explosivo com potencial para gols rápidos, as odds podem flutuar rapidamente, exigindo entrada imediata para capturar o valor.",
+        "gatilho_saida_parcial": "Reduzir exposição se houver um gol muito cedo (nos primeiros 10 minutos) e o ritmo do jogo diminuir drasticamente, ou se houver expulsão de um jogador chave ofensivo de qualquer equipe.",
+        "hard_stop": "Saída total se o jogo estiver 0x0 ao final do 1º tempo e as equipes demonstrarem pouca criatividade, ou em caso de lesão de atacante-chave."
+      },
+      "over_limite_70": null,
+      "confirmacao_visual": {
+        "elegivel": true,
+        "perfil_tatico": "Manchester City com controle total da posse de bola, pressão alta e circulação rápida no terço final, buscando espaços. Bournemouth com transições rápidas e agressividade nos contra-ataques.",
+        "gatilhos_aceleracao": "Encaixe defensivo rápido do City na metade ofensiva, subida das linhas defensivas e de meio-campo para pressionar o adversário na própria área, e aumento da velocidade e objetividade dos passes no ataque do City.",
+        "alerta_armadilha": "Bournemouth recuando e se fechando completamente após um gol, forçando o City a tentar jogadas individuais ou chutes de fora da área sem sucesso.",
+        "mercado_recomendado": "Back Manchester City ao vivo OU Mais 0.5 gols no segundo tempo",
+        "momento_observacao": "Observar o ritmo do City e a capacidade do Bournemouth de responder aos ataques, especialmente após os 20-30 minutos e no 2º tempo."
+      }
     },
     {
-      "jogo": "Chelsea x Tottenham Hotspur",
-      "arquivo": "pdfs/2026-05-19/England_Premier_League/009_16h15_Chelsea_x_Tottenham_Hotspur.pdf"
-    },
-    {
+      "horario": "15h00",
+      "liga": "Italy Serie B",
       "jogo": "Monza x Juve Stabia",
-      "arquivo": "pdfs/2026-05-19/Italy_Serie_B/010_15h00_Monza_x_Juve_Stabia.pdf"
+      "mercado_principal": "Back Monza",
+      "odd_principal": "1.50",
+      "fair_odd_calculada": "1.35",
+      "valor_esperado": "+11% EV (odd de mercado 1.50 vs fair odd 1.35)",
+      "mercado_secundario": "Mais 2.5 gols",
+      "odd_secundaria": "2.10",
+      "desempenho_1t": "Monza marca 0.68 e sofre 0.32 no 1ºT; Juve Stabia marca 0.60 e sofre 0.55 no 1ºT.",
+      "desempenho_2t": "Monza marca 1.11 e sofre 0.32 no 2ºT; Juve Stabia marca 0.40 e sofre 0.95 no 2ºT.",
+      "motivacao_tecnica": "Monza é o favorito absoluto (3º colocado, 2.42 PPG, 74% de vitórias) e tem uma defesa extremamente sólida (0.63 GS/jogo). Juve Stabia é um time de meio de tabela (9º, 1.05 PPG, 20% de vitórias) com uma defesa mais frágil (1.50 GS/jogo). A superioridade do Monza, especialmente em casa, e sua alta taxa de vitórias (74%) o tornam um candidato forte. O Monza tem um ataque que cresce no 2º tempo (1.11 GM/2ºT), enquanto Juve Stabia sofre bastante nesse período (0.95 GS/2ºT).",
+      "coeficiente_regularidade": "Casa (Monza): CV extremamente baixo (alta consistência e dominância). Fora (Juve Stabia): CV moderado (desempenho irregular, mas com alguns bons resultados).",
+      "mando_de_campo": "Monza tem um mando de campo fortíssimo, onde constrói a maioria de seus resultados expressivos e vitórias. Juve Stabia tem desempenho mediano fora de casa, mas tende a sofrer mais gols.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Monza tem Dany Mota Carvalho (5 Gols, 3 Assistências) e Andrea Petagna (9 Gols, 3 Assistências), utilizando um jogo ofensivo com trocas de passes e movimentação. Juve Stabia busca mais jogadas individuais e depende da inspiração de Leonardo Candellone (7 Gols, 2 Assistências).",
+      "momento_gols": "Monza marca 63% dos seus gols no 2º tempo. Juve Stabia sofre 75% dos seus gols no 2º tempo. Monza também tem uma boa distribuição de gols no final do 1º tempo (18% entre 31-45min). Grande propensão para gols do Monza no 2º tempo.",
+      "jogadores_chave": "Monza: Dany Mota Carvalho, Andrea Petagna, Paulo Azzi. Juve Stabia: Leonardo Candellone, Nicola Mosti.",
+      "placares_provaveis": "2x0, 2x1, 3x0",
+      "momento_entrada": "Pré-jogo para Back Monza.",
+      "situacao_saida": "Cash-out em caso de um gol inesperado da Juve Stabia, alterando a dinâmica do jogo.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "Monza é um favorito claro, e a odd de vitória tende a cair rapidamente. Forçar a entrada para garantir o valor.",
+        "gatilho_saida_parcial": "Se a Juve Stabia conseguir um gol de empate inesperado, reduzir exposição. Em caso de contra-ataques perigosos do adversário que não resultem em gol, mas demonstrem fragilidade defensiva.",
+        "hard_stop": "Saída total em caso de expulsão de um jogador chave do Monza no início do jogo, ou se a Juve Stabia se mostrar muito mais resiliente defensivamente do que o esperado."
+      },
+      "over_limite_70": {
+        "elegivel": true,
+        "favorito": "Monza",
+        "indice_gols_final": "Monza marca 21% (7 gols) após 76min; Monza marca 1.11 GM/2ºT e Juve Stabia sofre 0.95 GS/2ºT.",
+        "condicao_entrada": "Entrar se Monza vencer por 2 gols de diferença após 70min",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar)",
+        "odd_esperada": "1.70 a 2.30",
+        "stake_recomendada": "1%",
+        "observacoes": "Monza tem um ataque forte no 2º tempo, e a Juve Stabia é vulnerável nesse período. É uma oportunidade clara se o placar estiver favorável."
+      },
+      "confirmacao_visual": {
+        "elegivel": true,
+        "perfil_tatico": "Monza opera com controle da posse de bola, buscando triangulações e infiltrações pelos corredores. Sua defesa é sólida e as linhas se mantêm compactas. Busca quebrar a defesa adversária com paciência e velocidade na finalização.",
+        "gatilhos_aceleracao": "Pressão alta efetiva, recuperando a bola rapidamente no campo adversário, linhas ofensivas e de meio-campo avançadas e aumento da velocidade dos passes no terço final para criar oportunidades de gol.",
+        "alerta_armadilha": "Juve Stabia se fecha em um bloco defensivo muito baixo, sem dar espaços, e busca lançamentos longos para seus atacantes isolados, forçando o Monza a erros.",
+        "mercado_recomendado": "Back Monza ao vivo OU Mais 0.5 gols no segundo tempo",
+        "momento_observacao": "Observar a organização tática do Monza no 1º tempo e a intensidade na fase ofensiva, reforçando a confiança para o 2º tempo."
+      }
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "15h30",
+      "jogo": "Sporting Charleroi x OH Leuven",
+      "liga": "Belgium Pro League",
+      "motivo": "Partida equilibrada sem um favorito claro, valor esperado marginal para o mercado de gols."
+    },
+    {
+      "horario": "15h30",
+      "jogo": "KVC Westerlo x Standard Liège",
+      "liga": "Belgium Pro League",
+      "motivo": "Favorito (Standard) não tem histórico de gols tardios suficientemente alto para Over Limite 70+, e valor marginal em outros mercados."
+    },
+    {
+      "horario": "08h35",
+      "jogo": "Tianjin Teda x Henan Jianye",
+      "liga": "China Chinese Super League",
+      "motivo": "Ambas as equipes são de baixo desempenho ofensivo, sugerindo um jogo com poucos gols. Não há favorito claro para Over Limite 70+."
+    },
+    {
+      "horario": "09h00",
+      "jogo": "Qingdao Youth Island x Beijing Guoan",
+      "liga": "China Chinese Super League",
+      "motivo": "Qingdao é um time de poucos gols, com amostra pequena de jogos, tornando as estatísticas de gols tardios pouco confiáveis. Não há valor claro."
+    },
+    {
+      "horario": "16h15",
+      "jogo": "Chelsea x Tottenham Hotspur",
+      "liga": "England Premier League",
+      "motivo": "Clássico com alto grau de imprevisibilidade. Não há um favorito claro para a estratégia Over Limite 70+."
     }
   ]
 }
