@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowLeft, Clock, Trophy, TrendingUp } from 'lucide-react';
+import { ArrowLeft, Clock, Trophy, TrendingUp, Zap, AlertCircle } from 'lucide-react';
 import { getEntrada, listarRelatorios, entradaSlug } from '@/lib/relatorios';
 
 export function generateStaticParams() {
@@ -114,6 +114,94 @@ export default function EntradaPage({
           </div>
         )}
       </div>
+
+      {/* Método Over Limite 70+ — só aparece se elegível */}
+      {entrada.over_limite_70?.elegivel && (
+        <div className="card p-6 mb-6 ring-2 ring-purple-300 dark:ring-purple-800 bg-purple-50/40 dark:bg-purple-950/20">
+          <div className="flex items-center gap-2 mb-4">
+            <div className="w-8 h-8 rounded-lg bg-purple-600 dark:bg-purple-700 flex items-center justify-center">
+              <Zap size={18} className="text-white" />
+            </div>
+            <div>
+              <h2 className="font-bold text-lg leading-tight">Over Limite 70+</h2>
+              <div className="text-xs text-purple-700 dark:text-purple-300">Entrada ao vivo</div>
+            </div>
+          </div>
+
+          {entrada.over_limite_70.favorito && (
+            <div className="mb-3 text-sm">
+              <span className="text-ink-500">Favorito:</span>{' '}
+              <strong>{entrada.over_limite_70.favorito}</strong>
+            </div>
+          )}
+
+          {entrada.over_limite_70.condicao_entrada && (
+            <div className="mb-3 p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-purple-200 dark:ring-purple-900">
+              <div className="text-[11px] uppercase tracking-wider text-purple-600 dark:text-purple-400 font-semibold mb-1 flex items-center gap-1">
+                <AlertCircle size={11} />
+                Gatilho de entrada
+              </div>
+              <div className="text-sm leading-relaxed">
+                {entrada.over_limite_70.condicao_entrada}
+              </div>
+            </div>
+          )}
+
+          <div className="grid sm:grid-cols-2 gap-3 mb-3">
+            {entrada.over_limite_70.mercado_sugerido && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  Mercado sugerido
+                </div>
+                <div className="text-sm font-medium">
+                  {entrada.over_limite_70.mercado_sugerido}
+                </div>
+              </div>
+            )}
+            {entrada.over_limite_70.odd_esperada && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  ODD esperada
+                </div>
+                <div className="text-sm font-medium tabular-nums">
+                  {entrada.over_limite_70.odd_esperada}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {entrada.over_limite_70.indice_gols_final && (
+            <div className="mb-3 p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+              <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                Índice de gols no final
+              </div>
+              <div className="text-sm leading-relaxed">
+                {entrada.over_limite_70.indice_gols_final}
+              </div>
+            </div>
+          )}
+
+          {entrada.over_limite_70.observacoes && (
+            <div className="mb-3 p-3 rounded-md bg-amber-50 dark:bg-amber-950/30 ring-1 ring-amber-200 dark:ring-amber-900">
+              <div className="text-[11px] uppercase tracking-wider text-amber-700 dark:text-amber-400 font-semibold mb-1">
+                Observações
+              </div>
+              <div className="text-sm leading-relaxed">
+                {entrada.over_limite_70.observacoes}
+              </div>
+            </div>
+          )}
+
+          {entrada.over_limite_70.stake_recomendada && (
+            <div className="flex items-center gap-2 text-sm pt-2 border-t border-purple-200 dark:border-purple-900">
+              <span className="text-ink-500">Stake recomendada:</span>
+              <span className="pill bg-purple-100 text-purple-800 dark:bg-purple-950 dark:text-purple-200 text-sm px-2.5 py-1">
+                {entrada.over_limite_70.stake_recomendada}
+              </span>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Análise detalhada */}
       <div className="space-y-3">

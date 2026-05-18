@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowLeft, ExternalLink, TrendingUp, AlertTriangle, Clock, Trophy } from 'lucide-react';
+import { ArrowLeft, ExternalLink, TrendingUp, AlertTriangle, Clock, Trophy, Zap } from 'lucide-react';
 import { getRelatorio, listarRelatorios, entradaSlug } from '@/lib/relatorios';
 
 export function generateStaticParams() {
@@ -65,9 +65,16 @@ export default function RelatorioPage({ params }: { params: { slug: string } }) 
                   <div className="font-semibold text-base mb-1 line-clamp-2">{entrada.jogo}</div>
 
                   {entrada.liga && (
-                    <div className="flex items-center gap-1 text-xs text-ink-500 mb-3">
+                    <div className="flex items-center gap-1 text-xs text-ink-500 mb-2">
                       <Trophy size={11} />
                       <span className="truncate">{entrada.liga}</span>
+                    </div>
+                  )}
+
+                  {entrada.over_limite_70?.elegivel && (
+                    <div className="flex items-center gap-1 text-[11px] font-medium text-purple-700 dark:text-purple-300 bg-purple-50 dark:bg-purple-950/40 rounded px-2 py-1 mb-3 w-fit">
+                      <Zap size={11} />
+                      Over Limite 70+
                     </div>
                   )}
 

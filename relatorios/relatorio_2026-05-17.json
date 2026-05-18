@@ -1,0 +1,93 @@
+{
+  "data": "2026-05-17",
+  "gerado_em": "2026-05-17T18:30:00",
+  "total_partidas_analisadas": 3,
+  "entradas": [
+    {
+      "horario": "13:00",
+      "liga": "Bundesliga",
+      "jogo": "Bayern de Munique x Stuttgart",
+      "mercado_principal": "Mais de 2.5 gols",
+      "odd_principal": "1.65",
+      "mercado_secundario": "Ambas marcam - Sim",
+      "odd_secundaria": "1.55",
+      "desempenho_1t": "Bayern marca 1.8 no 1º tempo em casa",
+      "desempenho_2t": "Stuttgart sofre 1.4 no 2º tempo como visitante",
+      "motivacao_tecnica": "Bayern com elenco completo, jogando em casa, vem de 5 vitórias seguidas com média de 3.2 gols por jogo. Stuttgart tem defesa porosa fora de casa (12 gols sofridos em 6 jogos). Histórico recente mostra placares abertos entre os dois.",
+      "especificidades_gols": "Bayern: 65% dos gols vêm de jogada elaborada. Stuttgart marca de contra-ataque (45% dos gols).",
+      "momento_gols": "Bayern abre placar em até 25min em 70% dos jogos em casa.",
+      "jogadores_chave": "Harry Kane, Musiala (Bayern); Undav, Führich (Stuttgart)",
+      "placares_provaveis": "3x1, 2x1, 3x2",
+      "momento_entrada": "Pré-jogo ou após o 1º gol do Bayern",
+      "situacao_saida": "Cash-out se 0x0 aos 35min",
+      "stake_recomendada": "2%",
+      "over_limite_70": {
+        "elegivel": true,
+        "favorito": "Bayern de Munique",
+        "indice_gols_final": "Bayern em casa tem média de 1.1 gols após os 70min nos últimos 10 jogos. Stuttgart sofre 0.8 gols nos últimos 20min como visitante.",
+        "condicao_entrada": "Entrar se o Bayern estiver vencendo por 2 gols de diferença (ex: 2x0 ou 3x1) após os 70 minutos.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
+        "odd_esperada": "1.65 a 2.00",
+        "stake_recomendada": "1%",
+        "observacoes": "Bayern tende a manter pressão ofensiva mesmo vencendo. Atenção se houver expulsão ou substituições defensivas."
+      }
+    },
+    {
+      "horario": "14:30",
+      "liga": "La Liga",
+      "jogo": "Real Madrid x Getafe",
+      "mercado_principal": "Vitória Real Madrid",
+      "odd_principal": "1.40",
+      "mercado_secundario": "Real Madrid -1.5 handicap",
+      "odd_secundaria": "1.95",
+      "desempenho_1t": "Real domina o 1º tempo em casa",
+      "desempenho_2t": "Getafe se desorganiza nos últimos 30min",
+      "motivacao_tecnica": "Real vem de 4 vitórias seguidas no Bernabéu por 2+ gols. Getafe joga retrancado mas perde organização nos minutos finais. Histórico: 5 vitórias do Real nos últimos 5 confrontos.",
+      "especificidades_gols": "Bellingham e Vinícius criam 75% dos lances ofensivos.",
+      "momento_gols": "Placar se abre após os 60min.",
+      "jogadores_chave": "Bellingham, Vini Jr, Mbappé (Real)",
+      "placares_provaveis": "2x0, 3x0, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out se Real não marcar até 40min",
+      "stake_recomendada": "3%",
+      "over_limite_70": {
+        "elegivel": true,
+        "favorito": "Real Madrid",
+        "indice_gols_final": "Real Madrid em casa contra times defensivos: 75% dos jogos têm gol após o minuto 75. Getafe cede em média 1 gol nos últimos 15min como visitante.",
+        "condicao_entrada": "Entrar quando o Real estiver vencendo por 2 gols (ex: 2x0) após os 70 minutos.",
+        "mercado_sugerido": "Mais 2.5 gols (se placar 2x0) ou Mais 3.5 (se 3x1)",
+        "odd_esperada": "1.70 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "Real costuma manter ritmo ofensivo. Atenção: Ancelotti faz substituições conservadoras quando jogo está controlado."
+      }
+    },
+    {
+      "horario": "16:00",
+      "liga": "Premier League",
+      "jogo": "Manchester City x Brighton",
+      "mercado_principal": "Escanteios mais de 10.5",
+      "odd_principal": "1.85",
+      "mercado_secundario": "Casa marca 2+ gols",
+      "odd_secundaria": "1.70",
+      "desempenho_1t": "City pressiona desde o apito inicial",
+      "desempenho_2t": "Brighton joga aberto e cede território",
+      "motivacao_tecnica": "City força volume ofensivo contra adversários que não retrancam. Brighton joga linha alta, favorecendo escanteios. Média de City em casa: 7.2 escanteios.",
+      "especificidades_gols": "City marca 60% dos gols via cruzamentos e escanteios.",
+      "momento_gols": "Picos de escanteios entre 20-35min e 70-85min.",
+      "jogadores_chave": "Haaland, Foden, De Bruyne (City)",
+      "placares_provaveis": "3x1, 2x1, 4x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Sair se City sair atrás aos 30min",
+      "stake_recomendada": "2%",
+      "over_limite_70": null
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "18:00",
+      "liga": "Brasileirão Série A",
+      "jogo": "Atlético-MG x Cuiabá",
+      "motivo": "Times em má fase, ambos com 5 jogos sem vencer. Tendência de jogo travado."
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
+export type OverLimite70 = {
+  elegivel?: boolean;
+  favorito?: string;
+  indice_gols_final?: string;
+  condicao_entrada?: string;
+  mercado_sugerido?: string;
+  odd_esperada?: string;
+  stake_recomendada?: string;
+  observacoes?: string;
+};
+
 export type Entrada = {
   horario: string;
   liga: string;
@@ -19,6 +30,7 @@ export type Entrada = {
   momento_entrada?: string;
   situacao_saida?: string;
   stake_recomendada?: string;
+  over_limite_70?: OverLimite70 | null;
 };
 
 export type Evitar = {
