@@ -31,7 +31,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/" className="font-bold tracking-tight text-lg hover:opacity-70 transition">
               📊 Análises Trader
             </Link>
-            <ThemeToggle />
+            <div className="flex items-center gap-1 sm:gap-3">
+              <Link
+                href="/auditoria/"
+                className="text-sm font-medium px-3 py-1.5 rounded-md hover:bg-ink-100 dark:hover:bg-ink-800 transition"
+              >
+                Auditoria
+              </Link>
+              <ThemeToggle />
+            </div>
           </div>
         </header>
         <main className="max-w-6xl mx-auto px-4 py-6">{children}</main>
