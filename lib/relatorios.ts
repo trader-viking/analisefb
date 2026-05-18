@@ -1,21 +1,49 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
+export type Entrada = {
+  horario: string;
+  liga: string;
+  jogo: string;
+  mercado_principal: string;
+  odd_principal: string;
+  mercado_secundario?: string;
+  odd_secundaria?: string;
+  desempenho_1t?: string;
+  desempenho_2t?: string;
+  motivacao_tecnica?: string;
+  especificidades_gols?: string;
+  momento_gols?: string;
+  jogadores_chave?: string;
+  placares_provaveis?: string;
+  momento_entrada?: string;
+  situacao_saida?: string;
+  stake_recomendada?: string;
+};
+
+export type Evitar = {
+  horario: string;
+  liga: string;
+  jogo: string;
+  motivo: string;
+};
+
 export type Relatorio = {
-  slug: string;          // ex: "2026-05-17"
-  arquivo: string;       // ex: "relatorio_2026-05-17.md"
-  data: string;          // ex: "2026-05-17"
-  variante: string;      // ex: "" | "amostra5" | "liga_Premier"
-  titulo: string;        // ex: "17 de maio de 2026"
-  subtitulo?: string;    // ex: "Liga Premier" ou "Amostra 5"
-  conteudo: string;      // Markdown bruto
-  tamanho: number;       // bytes do .md
+  slug: string;
+  arquivo: string;
+  data: string;
+  variante: string;
+  titulo: string;
+  subtitulo?: string;
+  gerado_em?: string;
+  total_partidas_analisadas?: number;
+  entradas: Entrada[];
+  evitar: Evitar[];
 };
 
 const RELATORIOS_DIR = path.join(process.cwd(), 'relatorios');
 
 function formatarData(iso: string): string {
-  // "2026-05-17" -> "17 de maio de 2026"
   const meses = [
     'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
     'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro',
@@ -27,12 +55,7 @@ function formatarData(iso: string): string {
 }
 
 function parseFilename(arquivo: string): { data: string; variante: string } | null {
-  // relatorio_2026-05-17.md
-  // relatorio_2026-05-17_amostra5.md
-  // relatorio_2026-05-17_liga_Premier.md
-  // relatorio_2026-05-17_busca3.md
-  // relatorio_2026-05-17_nums5.md
-  const m = arquivo.match(/^relatorio_(\d{4}-\d{2}-\d{2})(?:_(.+))?\.md$/);
+  const m = arquivo.match(/^relatorio_(\d{4}-\d{2}-\d{2})(?:_(.+))?\.json$/);
   if (!m) return null;
   return { data: m[1], variante: m[2] || '' };
 }
@@ -49,32 +72,34 @@ function descreveVariante(v: string): string | undefined {
 
 export function listarRelatorios(): Relatorio[] {
   if (!fs.existsSync(RELATORIOS_DIR)) return [];
-  const arquivos = fs
-    .readdirSync(RELATORIOS_DIR)
-    .filter((f) => f.endsWith('.md'));
+  const arquivos = fs.readdirSync(RELATORIOS_DIR).filter((f) => f.endsWith('.json'));
 
   const relatorios: Relatorio[] = arquivos
     .map((arquivo) => {
       const parsed = parseFilename(arquivo);
       if (!parsed) return null;
-      const fullPath = path.join(RELATORIOS_DIR, arquivo);
-      const conteudo = fs.readFileSync(fullPath, 'utf-8');
-      const stat = fs.statSync(fullPath);
-      const slug = arquivo.replace(/^relatorio_/, '').replace(/\.md$/, '');
-      return {
-        slug,
-        arquivo,
-        data: parsed.data,
-        variante: parsed.variante,
-        titulo: formatarData(parsed.data),
-        subtitulo: descreveVariante(parsed.variante),
-        conteudo,
-        tamanho: stat.size,
-      } as Relatorio;
+      try {
+        const fullPath = path.join(RELATORIOS_DIR, arquivo);
+        const dados = JSON.parse(fs.readFileSync(fullPath, 'utf-8'));
+        const slug = arquivo.replace(/^relatorio_/, '').replace(/\.json$/, '');
+        return {
+          slug,
+          arquivo,
+          data: parsed.data,
+          variante: parsed.variante,
+          titulo: formatarData(parsed.data),
+          subtitulo: descreveVariante(parsed.variante),
+          gerado_em: dados.gerado_em,
+          total_partidas_analisadas: dados.total_partidas_analisadas,
+          entradas: Array.isArray(dados.entradas) ? dados.entradas : [],
+          evitar: Array.isArray(dados.evitar) ? dados.evitar : [],
+        } as Relatorio;
+      } catch {
+        return null;
+      }
     })
     .filter((r): r is Relatorio => r !== null);
 
-  // Mais recente primeiro; dentro da mesma data, completo antes de variantes
   relatorios.sort((a, b) => {
     if (a.data !== b.data) return b.data.localeCompare(a.data);
     if (!a.variante && b.variante) return -1;
@@ -87,4 +112,30 @@ export function listarRelatorios(): Relatorio[] {
 
 export function getRelatorio(slug: string): Relatorio | null {
   return listarRelatorios().find((r) => r.slug === slug) || null;
+}
+
+export function entradaSlug(entrada: Entrada, idx: number): string {
+  const horario = (entrada.horario || '').replace(':', '');
+  const jogo = (entrada.jogo || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 50);
+  return `${idx}-${horario}-${jogo}`;
+}
+
+export function getEntrada(
+  slug: string,
+  entradaSlugStr: string
+): { relatorio: Relatorio; entrada: Entrada; idx: number } | null {
+  const relatorio = getRelatorio(slug);
+  if (!relatorio) return null;
+  for (let i = 0; i < relatorio.entradas.length; i++) {
+    if (entradaSlug(relatorio.entradas[i], i) === entradaSlugStr) {
+      return { relatorio, entrada: relatorio.entradas[i], idx: i };
+    }
+  }
+  return null;
 }
