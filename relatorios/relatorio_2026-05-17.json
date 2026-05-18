@@ -1,0 +1,97 @@
+{
+  "data": "2026-05-17",
+  "gerado_em": "2026-05-17T18:30:00",
+  "total_partidas_analisadas": 2,
+  "entradas": [
+    {
+      "horario": "13:00",
+      "liga": "Bundesliga",
+      "jogo": "Bayern de Munique x Stuttgart",
+      "mercado_principal": "Mais de 2.5 gols",
+      "odd_principal": "1.85",
+      "fair_odd_calculada": "1.60",
+      "valor_esperado": "+13.5% EV — odd de mercado (1.85) está 13.5% acima da Fair Odd (1.60).",
+      "mercado_secundario": "Ambas marcam - Sim",
+      "odd_secundaria": "1.55",
+      "desempenho_1t": "Bayern marca 1.8 no 1º tempo em casa; Stuttgart sofre 0.9 no 1ºT fora",
+      "desempenho_2t": "Bayern marca 1.4 no 2º tempo; Stuttgart sofre 1.4 no 2ºT como visitante",
+      "motivacao_tecnica": "Bayern com elenco completo, jogando em casa, vem de 5 vitórias seguidas com média de 3.2 gols. Stuttgart tem defesa porosa fora (12 gols sofridos em 6 jogos) mas ataque eficiente que marcou em 8 dos últimos 10. A liga alemã historicamente tem média alta de gols.",
+      "coeficiente_regularidade": "Bayern: CV muito baixo (0.18) — performance extremamente consistente. Stuttgart: CV moderado (0.42) — alterna jogos abertos com jogos travados, mas raramente é zerado.",
+      "mando_de_campo": "Bayern faz 78% dos pontos em casa nesta temporada — anomalia positiva relevante. Allianz Arena historicamente intimida adversários médios.",
+      "condicoes_campo": "Gramado em ótimo estado, clima ameno, sem viagens longas. Sem fatores de equalização técnica.",
+      "desfalques_chave": "Elenco do Bayern completo. Stuttgart sem Anton (zagueiro líder) — impacto significativo na defesa, aumenta a Fair Odd de Over.",
+      "especificidades_gols": "Bayern: 65% dos gols vêm de jogada elaborada, 20% de bola parada. Stuttgart marca muito de contra-ataque (45%) e exige espaço.",
+      "momento_gols": "Bayern abre placar em até 25min em 70% dos jogos em casa. Stuttgart marca tarde — 60% dos gols após os 60min.",
+      "jogadores_chave": "Harry Kane, Musiala, Olise (Bayern); Undav, Führich (Stuttgart)",
+      "placares_provaveis": "3x1, 2x1, 3x2",
+      "momento_entrada": "Pré-jogo ou após o 1º gol do Bayern",
+      "situacao_saida": "Cash-out se 0x0 aos 35min ou Stuttgart à frente no intervalo",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Mercado de Over 2.5 tende a estar lateralizado no pré-jogo. Vale propor uma odd um pouco acima de 1.85 e aguardar matching para captura de melhor preço.",
+        "gatilho_saida_parcial": "Reduzir 50% da exposição se Stuttgart conseguir escanteio perigoso após os 30min com 0x0 no placar. Reduzir 100% em caso de cartão vermelho contra Bayern.",
+        "hard_stop": "Sair imediatamente se: (1) Bayern sofrer gol antes de marcar, (2) Stuttgart se fechar com bloco baixo após os 20min, ou (3) qualquer expulsão no Bayern."
+      },
+      "over_limite_70": {
+        "elegivel": true,
+        "favorito": "Bayern de Munique",
+        "indice_gols_final": "Bayern em casa tem média de 1.1 gols após os 70min nos últimos 10 jogos. Stuttgart sofre 0.8 gols nos últimos 20min como visitante.",
+        "condicao_entrada": "Entrar quando Bayern estiver vencendo por 2 gols de diferença (ex: 2x0 ou 3x1) após o minuto 70.",
+        "mercado_sugerido": "Mais X.5 gols — uma linha acima do placar atual no momento da entrada",
+        "odd_esperada": "1.65 a 2.00",
+        "stake_recomendada": "1%",
+        "observacoes": "Bayern tende a manter pressão ofensiva mesmo vencendo. Atenção a substituições defensivas de Kompany após o minuto 75."
+      },
+      "confirmacao_visual": {
+        "elegivel": true,
+        "perfil_tatico": "Bayern joga com pressão alta tipo gegenpressing. Busca recuperação rápida na metade ofensiva e exploração dos espaços entre linhas com Kane funcionando como pivô.",
+        "gatilhos_aceleracao": "Linhas defensiva e de meio subindo acima da linha central; recuperação de segundas bolas no terço final; circulação rápida com 2 toques no setor ofensivo; Olise/Sané tentando dribles na linha.",
+        "alerta_armadilha": "Stuttgart pode armar bloco baixo intencional para explorar contra-ataques com velocidade de Führich. Se a defesa do Stuttgart estiver muito recuada e organizada após os 25min, reduzir exposição.",
+        "mercado_recomendado": "Back Bayern ao vivo se gatilhos confirmados; alternativamente, Mais 0.5 gols no 1º tempo",
+        "momento_observacao": "Janela 15-35min do 1º tempo — quando Bayern típico decide o jogo"
+      }
+    },
+    {
+      "horario": "16:00",
+      "liga": "Premier League",
+      "jogo": "Brighton x Crystal Palace",
+      "mercado_principal": "Mais de 2.5 gols",
+      "odd_principal": "2.05",
+      "fair_odd_calculada": "1.95",
+      "valor_esperado": "+5% EV — leve valor, entrada com stake menor.",
+      "mercado_secundario": "Ambas marcam - Sim",
+      "odd_secundaria": "1.75",
+      "desempenho_1t": "Brighton marca 1.1 no 1ºT em casa; Palace sofre 1.2 fora",
+      "desempenho_2t": "Ambos marcam mais no 2º tempo",
+      "motivacao_tecnica": "Derby do sul da Inglaterra, ambos com necessidade de pontos. Brighton joga aberto sob Hürzeler; Palace teve mudança de técnico recentemente e ainda busca identidade. Histórico de gols entre os dois.",
+      "coeficiente_regularidade": "Brighton: CV moderado (0.45). Palace: CV alto (0.62) — muito inconsistente, dificulta projeção precisa.",
+      "mando_de_campo": "Brighton faz 60% dos pontos em casa — leve vantagem, sem anomalia notável.",
+      "condicoes_campo": "Gramado em bom estado, sem chuva prevista.",
+      "desfalques_chave": "Brighton sem Mitoma (criação pela esquerda) — reduz potencial ofensivo. Palace com Eze recuperado e disponível.",
+      "especificidades_gols": "Brighton: gols de jogada elaborada e infiltrações pelos meias. Palace: muitos gols de transição com Mateta e contra-ataques.",
+      "momento_gols": "Distribuição equilibrada nos dois tempos, sem janela específica dominante.",
+      "jogadores_chave": "Welbeck, Pedro (Brighton); Mateta, Eze (Palace)",
+      "placares_provaveis": "2x1, 1x1, 2x2",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out se 0x0 aos 40min",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "EV moderado (+5%), preço justo no mercado. Propor odd ligeiramente acima para capturar valor extra ou não entrar.",
+        "gatilho_saida_parcial": "Reduzir 50% se 0x0 persistir até os 35min, especialmente se ambos os times estiverem com poucas finalizações.",
+        "hard_stop": "Sair se qualquer time se fechar com bloco baixo ou se houver expulsão antes dos 60min sem gol no placar."
+      },
+      "over_limite_70": null,
+      "confirmacao_visual": null
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "18:00",
+      "liga": "Brasileirão Série A",
+      "jogo": "Atlético-MG x Cuiabá",
+      "motivo": "Times em má fase, ambos com 5 jogos sem vencer. Tendência de jogo travado e poucos gols. Sem valor esperado positivo nas odds atuais."
+    }
+  ]
+}

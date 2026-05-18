@@ -12,17 +12,39 @@ export type OverLimite70 = {
   observacoes?: string;
 };
 
+export type ConfirmacaoVisual = {
+  elegivel?: boolean;
+  perfil_tatico?: string;
+  gatilhos_aceleracao?: string;
+  alerta_armadilha?: string;
+  mercado_recomendado?: string;
+  momento_observacao?: string;
+};
+
+export type PlanoExecucao = {
+  abordagem?: string;
+  justificativa_abordagem?: string;
+  gatilho_saida_parcial?: string;
+  hard_stop?: string;
+};
+
 export type Entrada = {
   horario: string;
   liga: string;
   jogo: string;
   mercado_principal: string;
   odd_principal: string;
+  fair_odd_calculada?: string;
+  valor_esperado?: string;
   mercado_secundario?: string;
   odd_secundaria?: string;
   desempenho_1t?: string;
   desempenho_2t?: string;
   motivacao_tecnica?: string;
+  coeficiente_regularidade?: string;
+  mando_de_campo?: string;
+  condicoes_campo?: string;
+  desfalques_chave?: string;
   especificidades_gols?: string;
   momento_gols?: string;
   jogadores_chave?: string;
@@ -30,7 +52,9 @@ export type Entrada = {
   momento_entrada?: string;
   situacao_saida?: string;
   stake_recomendada?: string;
+  plano_execucao?: PlanoExecucao | null;
   over_limite_70?: OverLimite70 | null;
+  confirmacao_visual?: ConfirmacaoVisual | null;
 };
 
 export type Evitar = {

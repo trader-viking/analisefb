@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowLeft, Clock, Trophy, TrendingUp, Zap, AlertCircle } from 'lucide-react';
+import {
+  ArrowLeft, Clock, Trophy, TrendingUp, Zap, AlertCircle,
+  Eye, Target, BarChart3, MapPin, UserMinus, ShieldAlert, Activity,
+} from 'lucide-react';
 import { getEntrada, listarRelatorios, entradaSlug } from '@/lib/relatorios';
 
 export function generateStaticParams() {
@@ -17,13 +20,15 @@ type Campo = {
   rotulo: string;
   valor?: string;
   destaque?: boolean;
+  icone?: React.ReactNode;
 };
 
-function CampoDetalhe({ rotulo, valor, destaque }: Campo) {
+function CampoDetalhe({ rotulo, valor, destaque, icone }: Campo) {
   if (!valor || !valor.trim()) return null;
   return (
     <div className={destaque ? 'card p-4 bg-ink-50/50 dark:bg-ink-900/50' : 'card p-4'}>
-      <div className="text-[11px] uppercase tracking-wider text-ink-500 font-medium mb-1.5">
+      <div className="text-[11px] uppercase tracking-wider text-ink-500 font-medium mb-1.5 flex items-center gap-1.5">
+        {icone}
         {rotulo}
       </div>
       <div className="text-sm leading-relaxed text-ink-800 dark:text-ink-200 whitespace-pre-line">
@@ -69,9 +74,11 @@ export default function EntradaPage({
           )}
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mb-4">{entrada.jogo}</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mb-4">
+          {entrada.jogo}
+        </h1>
 
-        {/* Resumo dos mercados */}
+        {/* Mercados */}
         <div className="grid sm:grid-cols-2 gap-3">
           <div className="bg-emerald-50 dark:bg-emerald-950/30 ring-1 ring-emerald-200 dark:ring-emerald-900 rounded-lg p-4">
             <div className="flex items-center gap-1.5 text-[11px] uppercase tracking-wider text-emerald-700 dark:text-emerald-400 font-medium mb-1">
@@ -105,6 +112,34 @@ export default function EntradaPage({
           )}
         </div>
 
+        {/* Fair Odd e Valor Esperado */}
+        {(entrada.fair_odd_calculada || entrada.valor_esperado) && (
+          <div className="mt-4 grid sm:grid-cols-2 gap-3">
+            {entrada.fair_odd_calculada && (
+              <div className="p-3 rounded-md bg-blue-50 dark:bg-blue-950/30 ring-1 ring-blue-200 dark:ring-blue-900">
+                <div className="text-[11px] uppercase tracking-wider text-blue-700 dark:text-blue-400 font-semibold mb-1 flex items-center gap-1">
+                  <BarChart3 size={11} />
+                  Fair Odd calculada
+                </div>
+                <div className="text-lg font-bold tabular-nums">
+                  {entrada.fair_odd_calculada}
+                </div>
+              </div>
+            )}
+            {entrada.valor_esperado && (
+              <div className="p-3 rounded-md bg-blue-50 dark:bg-blue-950/30 ring-1 ring-blue-200 dark:ring-blue-900">
+                <div className="text-[11px] uppercase tracking-wider text-blue-700 dark:text-blue-400 font-semibold mb-1 flex items-center gap-1">
+                  <Target size={11} />
+                  Valor esperado
+                </div>
+                <div className="text-sm font-medium leading-relaxed">
+                  {entrada.valor_esperado}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
         {entrada.stake_recomendada && (
           <div className="mt-4 flex items-center gap-2 text-sm">
             <span className="text-ink-500">Stake recomendada:</span>
@@ -115,7 +150,7 @@ export default function EntradaPage({
         )}
       </div>
 
-      {/* Método Over Limite 70+ — só aparece se elegível */}
+      {/* Over Limite 70+ */}
       {entrada.over_limite_70?.elegivel && (
         <div className="card p-6 mb-6 ring-2 ring-purple-300 dark:ring-purple-800 bg-purple-50/40 dark:bg-purple-950/20">
           <div className="flex items-center gap-2 mb-4">
@@ -124,7 +159,9 @@ export default function EntradaPage({
             </div>
             <div>
               <h2 className="font-bold text-lg leading-tight">Over Limite 70+</h2>
-              <div className="text-xs text-purple-700 dark:text-purple-300">Entrada ao vivo</div>
+              <div className="text-xs text-purple-700 dark:text-purple-300">
+                Entrada ao vivo
+              </div>
             </div>
           </div>
 
@@ -203,7 +240,142 @@ export default function EntradaPage({
         </div>
       )}
 
-      {/* Análise detalhada */}
+      {/* Confirmação Visual */}
+      {entrada.confirmacao_visual?.elegivel && (
+        <div className="card p-6 mb-6 ring-2 ring-orange-300 dark:ring-orange-800 bg-orange-50/40 dark:bg-orange-950/20">
+          <div className="flex items-center gap-2 mb-4">
+            <div className="w-8 h-8 rounded-lg bg-orange-600 dark:bg-orange-700 flex items-center justify-center">
+              <Eye size={18} className="text-white" />
+            </div>
+            <div>
+              <h2 className="font-bold text-lg leading-tight">Confirmação Visual</h2>
+              <div className="text-xs text-orange-700 dark:text-orange-300">
+                Gatilhos táticos ao vivo
+              </div>
+            </div>
+          </div>
+
+          {entrada.confirmacao_visual.perfil_tatico && (
+            <div className="mb-3 p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-orange-200 dark:ring-orange-900">
+              <div className="text-[11px] uppercase tracking-wider text-orange-600 dark:text-orange-400 font-semibold mb-1">
+                Perfil tático esperado
+              </div>
+              <div className="text-sm leading-relaxed">
+                {entrada.confirmacao_visual.perfil_tatico}
+              </div>
+            </div>
+          )}
+
+          {entrada.confirmacao_visual.gatilhos_aceleracao && (
+            <div className="mb-3 p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-emerald-200 dark:ring-emerald-900">
+              <div className="text-[11px] uppercase tracking-wider text-emerald-700 dark:text-emerald-400 font-semibold mb-1 flex items-center gap-1">
+                <Activity size={11} />
+                Gatilhos de aceleração (Back)
+              </div>
+              <div className="text-sm leading-relaxed">
+                {entrada.confirmacao_visual.gatilhos_aceleracao}
+              </div>
+            </div>
+          )}
+
+          {entrada.confirmacao_visual.alerta_armadilha && (
+            <div className="mb-3 p-3 rounded-md bg-amber-50 dark:bg-amber-950/30 ring-1 ring-amber-200 dark:ring-amber-900">
+              <div className="text-[11px] uppercase tracking-wider text-amber-700 dark:text-amber-400 font-semibold mb-1 flex items-center gap-1">
+                <ShieldAlert size={11} />
+                Alerta de armadilha
+              </div>
+              <div className="text-sm leading-relaxed">
+                {entrada.confirmacao_visual.alerta_armadilha}
+              </div>
+            </div>
+          )}
+
+          <div className="grid sm:grid-cols-2 gap-3">
+            {entrada.confirmacao_visual.mercado_recomendado && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  Mercado recomendado
+                </div>
+                <div className="text-sm font-medium">
+                  {entrada.confirmacao_visual.mercado_recomendado}
+                </div>
+              </div>
+            )}
+            {entrada.confirmacao_visual.momento_observacao && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  Janela de observação
+                </div>
+                <div className="text-sm font-medium">
+                  {entrada.confirmacao_visual.momento_observacao}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Plano de Execução */}
+      {entrada.plano_execucao && (
+        entrada.plano_execucao.abordagem ||
+        entrada.plano_execucao.gatilho_saida_parcial ||
+        entrada.plano_execucao.hard_stop
+      ) && (
+        <div className="card p-6 mb-6 ring-2 ring-rose-300 dark:ring-rose-800 bg-rose-50/40 dark:bg-rose-950/20">
+          <div className="flex items-center gap-2 mb-4">
+            <div className="w-8 h-8 rounded-lg bg-rose-600 dark:bg-rose-700 flex items-center justify-center">
+              <Target size={18} className="text-white" />
+            </div>
+            <div>
+              <h2 className="font-bold text-lg leading-tight">Plano de Execução</h2>
+              <div className="text-xs text-rose-700 dark:text-rose-300">
+                Regras de entrada e saída
+              </div>
+            </div>
+          </div>
+
+          {entrada.plano_execucao.abordagem && (
+            <div className="mb-3 p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-rose-200 dark:ring-rose-900">
+              <div className="text-[11px] uppercase tracking-wider text-rose-600 dark:text-rose-400 font-semibold mb-1">
+                Abordagem
+              </div>
+              <div className="text-sm font-semibold uppercase">
+                {entrada.plano_execucao.abordagem}
+              </div>
+              {entrada.plano_execucao.justificativa_abordagem && (
+                <div className="text-sm leading-relaxed mt-1 text-ink-600 dark:text-ink-400">
+                  {entrada.plano_execucao.justificativa_abordagem}
+                </div>
+              )}
+            </div>
+          )}
+
+          {entrada.plano_execucao.gatilho_saida_parcial && (
+            <div className="mb-3 p-3 rounded-md bg-amber-50 dark:bg-amber-950/30 ring-1 ring-amber-200 dark:ring-amber-900">
+              <div className="text-[11px] uppercase tracking-wider text-amber-700 dark:text-amber-400 font-semibold mb-1">
+                Saída parcial
+              </div>
+              <div className="text-sm leading-relaxed">
+                {entrada.plano_execucao.gatilho_saida_parcial}
+              </div>
+            </div>
+          )}
+
+          {entrada.plano_execucao.hard_stop && (
+            <div className="p-3 rounded-md bg-red-50 dark:bg-red-950/30 ring-1 ring-red-200 dark:ring-red-900">
+              <div className="text-[11px] uppercase tracking-wider text-red-700 dark:text-red-400 font-semibold mb-1 flex items-center gap-1">
+                <AlertCircle size={11} />
+                Hard Stop (saída obrigatória)
+              </div>
+              <div className="text-sm leading-relaxed font-medium">
+                {entrada.plano_execucao.hard_stop}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Análise Pré-jogo Detalhada */}
       <div className="space-y-3">
         <CampoDetalhe
           rotulo="Motivação técnica"
@@ -215,6 +387,30 @@ export default function EntradaPage({
           <CampoDetalhe rotulo="Desempenho 1º tempo" valor={entrada.desempenho_1t} />
           <CampoDetalhe rotulo="Desempenho 2º tempo" valor={entrada.desempenho_2t} />
         </div>
+
+        <CampoDetalhe
+          rotulo="Coeficiente de Regularidade (CV)"
+          valor={entrada.coeficiente_regularidade}
+          icone={<BarChart3 size={11} />}
+        />
+
+        <div className="grid sm:grid-cols-2 gap-3">
+          <CampoDetalhe
+            rotulo="Mando de campo"
+            valor={entrada.mando_de_campo}
+            icone={<MapPin size={11} />}
+          />
+          <CampoDetalhe
+            rotulo="Condições de campo"
+            valor={entrada.condicoes_campo}
+          />
+        </div>
+
+        <CampoDetalhe
+          rotulo="Desfalques-chave"
+          valor={entrada.desfalques_chave}
+          icone={<UserMinus size={11} />}
+        />
 
         <CampoDetalhe
           rotulo="Especificidades dos gols"
