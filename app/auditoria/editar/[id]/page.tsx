@@ -6,12 +6,22 @@ import { listarTrades } from '@/lib/trades';
 import { listarRelatorios } from '@/lib/relatorios';
 
 export function generateStaticParams() {
-  return listarTrades().map((t) => ({ id: t.id }));
+  const trades = listarTrades();
+  // Se não houver trades, retorna um placeholder pra satisfazer o build estático.
+  // A página vai dar 404 normalmente quando acessada.
+  if (trades.length === 0) {
+    return [{ id: '_placeholder' }];
+  }
+  return trades.map((t) => ({ id: t.id }));
 }
 
 export default function EditarPage({ params }: { params: { id: string } }) {
+  const decodedId = decodeURIComponent(params.id);
+  // Página placeholder pra satisfazer o build estático quando não há trades
+  if (decodedId === '_placeholder') notFound();
+
   const trades = listarTrades();
-  const trade = trades.find((t) => t.id === decodeURIComponent(params.id));
+  const trade = trades.find((t) => t.id === decodedId);
   if (!trade) notFound();
 
   const relatorios = listarRelatorios().slice(0, 5);
