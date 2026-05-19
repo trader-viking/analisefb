@@ -18,16 +18,12 @@ type SugestaoJogo = {
 };
 
 const METODOS = [
-  'Pré-jogo Over',
-  'Pré-jogo Under',
-  'Pré-jogo Vitória',
-  'Pré-jogo Ambas Marcam',
+  'Back Favorito',
+  'Lay Zebra',
   'Over Limite 70+',
+  'Back 2x2',
+  'Back Goleada',
   'Confirmação Visual',
-  'Back ao vivo',
-  'Lay ao vivo',
-  'Escanteios',
-  'Cartões',
   'Outro',
 ];
 
@@ -55,8 +51,8 @@ export default function FormularioTrade({ modoEdicao = false, tradeInicial, suge
   const [stakePct, setStakePct] = useState<string>(
     tradeInicial?.stake_pct?.toString() || ''
   );
-  const [resultado, setResultado] = useState<'green' | 'red'>(
-    tradeInicial?.resultado || 'green'
+  const [resultado, setResultado] = useState<'green' | 'red' | 'pendente'>(
+    tradeInicial?.resultado || 'pendente'
   );
   const [criteriosAtendidos, setCriteriosAtendidos] = useState(
     tradeInicial?.criterios_atendidos ?? true
@@ -342,11 +338,22 @@ export default function FormularioTrade({ modoEdicao = false, tradeInicial, suge
           <label className="block text-xs font-semibold uppercase tracking-wider text-ink-500 mb-1.5">
             Resultado
           </label>
-          <div className="grid grid-cols-2 gap-2">
+          <div className="grid grid-cols-3 gap-2">
+            <button
+              type="button"
+              onClick={() => setResultado('pendente')}
+              className={`px-3 py-2 rounded-lg font-semibold transition text-sm ${
+                resultado === 'pendente'
+                  ? 'bg-amber-500 text-white'
+                  : 'ring-1 ring-ink-200 dark:ring-ink-700 hover:bg-ink-50 dark:hover:bg-ink-800'
+              }`}
+            >
+              Pendente
+            </button>
             <button
               type="button"
               onClick={() => setResultado('green')}
-              className={`px-3 py-2 rounded-lg font-semibold transition ${
+              className={`px-3 py-2 rounded-lg font-semibold transition text-sm ${
                 resultado === 'green'
                   ? 'bg-emerald-600 text-white'
                   : 'ring-1 ring-ink-200 dark:ring-ink-700 hover:bg-ink-50 dark:hover:bg-ink-800'
@@ -357,7 +364,7 @@ export default function FormularioTrade({ modoEdicao = false, tradeInicial, suge
             <button
               type="button"
               onClick={() => setResultado('red')}
-              className={`px-3 py-2 rounded-lg font-semibold transition ${
+              className={`px-3 py-2 rounded-lg font-semibold transition text-sm ${
                 resultado === 'red'
                   ? 'bg-red-600 text-white'
                   : 'ring-1 ring-ink-200 dark:ring-ink-700 hover:bg-ink-50 dark:hover:bg-ink-800'
@@ -366,6 +373,11 @@ export default function FormularioTrade({ modoEdicao = false, tradeInicial, suge
               Red
             </button>
           </div>
+          {resultado === 'pendente' && (
+            <p className="text-[11px] text-ink-500 mt-1">
+              A auditoria automática vai marcar Green/Red quando o jogo terminar.
+            </p>
+          )}
         </div>
 
         <div>

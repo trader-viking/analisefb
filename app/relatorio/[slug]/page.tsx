@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowLeft, ExternalLink, TrendingUp, AlertTriangle, Clock, Trophy, Zap, Eye } from 'lucide-react';
+import { ArrowLeft, ExternalLink, TrendingUp, AlertTriangle, Clock, Trophy } from 'lucide-react';
+import { BadgeMetodo, metodosAtivos } from '@/components/BadgeMetodo';
 import { getRelatorio, listarRelatorios, entradaSlug } from '@/lib/relatorios';
 
 export function generateStaticParams() {
@@ -71,22 +72,17 @@ export default function RelatorioPage({ params }: { params: { slug: string } }) 
                     </div>
                   )}
 
-                  {(entrada.over_limite_70?.elegivel || entrada.confirmacao_visual?.elegivel) && (
-                    <div className="flex flex-wrap gap-1 mb-3">
-                      {entrada.over_limite_70?.elegivel && (
-                        <div className="flex items-center gap-1 text-[11px] font-medium text-purple-700 dark:text-purple-300 bg-purple-50 dark:bg-purple-950/40 rounded px-2 py-1">
-                          <Zap size={11} />
-                          Over Limite 70+
-                        </div>
-                      )}
-                      {entrada.confirmacao_visual?.elegivel && (
-                        <div className="flex items-center gap-1 text-[11px] font-medium text-orange-700 dark:text-orange-300 bg-orange-50 dark:bg-orange-950/40 rounded px-2 py-1">
-                          <Eye size={11} />
-                          Confirmação Visual
-                        </div>
-                      )}
-                    </div>
-                  )}
+                  {(() => {
+                    const metodos = metodosAtivos(entrada);
+                    if (metodos.length === 0) return null;
+                    return (
+                      <div className="flex flex-wrap gap-1 mb-3">
+                        {metodos.map((m) => (
+                          <BadgeMetodo key={m} metodo={m} />
+                        ))}
+                      </div>
+                    );
+                  })()}
 
                   <div className="bg-ink-50 dark:bg-ink-950/50 rounded-md p-3 mb-3">
                     <div className="text-[11px] uppercase tracking-wider text-ink-500 mb-1 font-medium">

@@ -2,24 +2,29 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 export type Trade = {
-  id: string;                    // ID único do trade
-  data: string;                  // YYYY-MM-DD
-  jogo: string;                  // Time A x Time B
+  id: string;
+  data: string;
+  jogo: string;
   liga?: string;
-  metodo: string;                // "Pré-jogo Over", "Over Limite 70+", "Confirmação Visual", etc.
-  mercado: string;               // ex: "Mais 2.5 gols"
+  metodo: string;
+  mercado: string;
   odd_entrada: number;
-  odd_saida?: number;            // se cash-out parcial; senão deixa em branco
-  stake_pct: number;             // ex: 2 (significa 2%)
-  resultado: 'green' | 'red';    // ganhou ou perdeu
-  criterios_atendidos: boolean;  // o método foi seguido à risca?
+  odd_saida?: number;
+  stake_pct: number;
+  resultado: 'green' | 'red' | 'pendente';
+  criterios_atendidos: boolean;
   observacoes?: string;
-  trader?: string;               // opcional: nome do trader (no caso de grupo)
+  trader?: string;
+  // Campos preenchidos pela auditoria automática:
+  placar_final?: string;        // ex: "2x1"
+  placar_ht?: string;           // ex: "1x0"
+  auditado_em?: string;         // ISO timestamp
+  auditoria_motivo?: string;    // explicação do veredito
 };
 
 export type TradeEnriquecido = Trade & {
-  classificacao_tecnica: 'correct_green' | 'correct_red' | 'false_green' | 'false_red';
-  lucro_unidades: number;        // em unidades de stake (1 unidade = 1% da banca)
+  classificacao_tecnica: 'correct_green' | 'correct_red' | 'false_green' | 'false_red' | 'pendente';
+  lucro_unidades: number;        // 0 se pendente
 };
 
 export type Estatisticas = {
@@ -69,7 +74,11 @@ export function listarTrades(): TradeEnriquecido[] {
 }
 
 function enriquecer(t: Trade): TradeEnriquecido {
-  // Lucro: se green = stake * (odd - 1), se red = -stake
+  // Pendente: sem lucro/perda computados ainda
+  if (t.resultado === 'pendente' || !t.resultado) {
+    return { ...t, classificacao_tecnica: 'pendente', lucro_unidades: 0 };
+  }
+
   const lucro_unidades = t.resultado === 'green'
     ? t.stake_pct * (t.odd_entrada - 1)
     : -t.stake_pct;
@@ -84,7 +93,10 @@ function enriquecer(t: Trade): TradeEnriquecido {
 }
 
 export function calcularEstatisticas(trades: TradeEnriquecido[]): Estatisticas {
-  if (trades.length === 0) {
+  // Filtra pendentes — só conta trades já finalizados
+  const tradesFinalizados = trades.filter(t => t.resultado === 'green' || t.resultado === 'red');
+
+  if (tradesFinalizados.length === 0) {
     return {
       total_trades: 0, total_greens: 0, total_reds: 0, taxa_acerto: 0,
       correct_greens: 0, correct_reds: 0, false_greens: 0, false_reds: 0, taxa_tecnica: 0,
@@ -95,21 +107,20 @@ export function calcularEstatisticas(trades: TradeEnriquecido[]): Estatisticas {
     };
   }
 
-  const total = trades.length;
-  const greens = trades.filter(t => t.resultado === 'green').length;
+  const total = tradesFinalizados.length;
+  const greens = tradesFinalizados.filter(t => t.resultado === 'green').length;
   const reds = total - greens;
 
-  const correct_greens = trades.filter(t => t.classificacao_tecnica === 'correct_green').length;
-  const correct_reds = trades.filter(t => t.classificacao_tecnica === 'correct_red').length;
-  const false_greens = trades.filter(t => t.classificacao_tecnica === 'false_green').length;
-  const false_reds = trades.filter(t => t.classificacao_tecnica === 'false_red').length;
-  const com_criterios = trades.filter(t => t.criterios_atendidos).length;
+  const correct_greens = tradesFinalizados.filter(t => t.classificacao_tecnica === 'correct_green').length;
+  const correct_reds = tradesFinalizados.filter(t => t.classificacao_tecnica === 'correct_red').length;
+  const false_greens = tradesFinalizados.filter(t => t.classificacao_tecnica === 'false_green').length;
+  const false_reds = tradesFinalizados.filter(t => t.classificacao_tecnica === 'false_red').length;
+  const com_criterios = tradesFinalizados.filter(t => t.criterios_atendidos).length;
 
-  const lucro_total = trades.reduce((acc, t) => acc + t.lucro_unidades, 0);
-  const stakes_total = trades.reduce((acc, t) => acc + t.stake_pct, 0);
+  const lucro_total = tradesFinalizados.reduce((acc, t) => acc + t.lucro_unidades, 0);
+  const stakes_total = tradesFinalizados.reduce((acc, t) => acc + t.stake_pct, 0);
 
-  // Curva acumulada (ordem cronológica)
-  const tradesCronologico = [...trades].sort((a, b) => a.data.localeCompare(b.data));
+  const tradesCronologico = [...tradesFinalizados].sort((a, b) => a.data.localeCompare(b.data));
   let saldo = 0;
   let pico = 0;
   let drawdown_max = 0;
@@ -122,9 +133,8 @@ export function calcularEstatisticas(trades: TradeEnriquecido[]): Estatisticas {
     curva.push({ data: t.data, saldo: Math.round(saldo * 100) / 100 });
   }
 
-  // Por dia
   const porDia = new Map<string, number>();
-  for (const t of trades) {
+  for (const t of tradesFinalizados) {
     porDia.set(t.data, (porDia.get(t.data) || 0) + t.lucro_unidades);
   }
   let melhor_dia: Estatisticas['melhor_dia'] = null;
@@ -134,9 +144,8 @@ export function calcularEstatisticas(trades: TradeEnriquecido[]): Estatisticas {
     if (!pior_dia || lucro < pior_dia.lucro) pior_dia = { data, lucro: Math.round(lucro * 100) / 100 };
   }
 
-  // Por método
   const porMetodo: Estatisticas['por_metodo'] = {};
-  for (const t of trades) {
+  for (const t of tradesFinalizados) {
     if (!porMetodo[t.metodo]) {
       porMetodo[t.metodo] = { trades: 0, lucro: 0, taxa_acerto: 0 };
     }
@@ -144,7 +153,7 @@ export function calcularEstatisticas(trades: TradeEnriquecido[]): Estatisticas {
     porMetodo[t.metodo].lucro += t.lucro_unidades;
   }
   for (const m of Object.keys(porMetodo)) {
-    const greensDoMetodo = trades.filter(t => t.metodo === m && t.resultado === 'green').length;
+    const greensDoMetodo = tradesFinalizados.filter(t => t.metodo === m && t.resultado === 'green').length;
     porMetodo[m].taxa_acerto = Math.round((greensDoMetodo / porMetodo[m].trades) * 1000) / 10;
     porMetodo[m].lucro = Math.round(porMetodo[m].lucro * 100) / 100;
   }
@@ -162,4 +171,8 @@ export function calcularEstatisticas(trades: TradeEnriquecido[]): Estatisticas {
     pico_acumulado: Math.round(pico * 100) / 100,
     melhor_dia, pior_dia, por_metodo: porMetodo, curva_acumulada: curva,
   };
+}
+
+export function contarPendentes(trades: TradeEnriquecido[]): number {
+  return trades.filter(t => t.resultado === 'pendente' || !t.resultado).length;
 }

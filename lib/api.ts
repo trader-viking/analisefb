@@ -13,7 +13,7 @@ export type TradeInput = {
   odd_entrada: number;
   odd_saida?: number;
   stake_pct: number;
-  resultado: 'green' | 'red';
+  resultado: 'green' | 'red' | 'pendente';
   criterios_atendidos: boolean;
   observacoes?: string;
 };
@@ -53,6 +53,15 @@ export async function apiEditarTrade(id: string, trade: Partial<TradeInput>) {
 export async function apiDeletarTrade(id: string) {
   const r = await fetch(apiUrl(`/trades/${encodeURIComponent(id)}`), {
     method: 'DELETE',
+    credentials: 'include',
+  });
+  if (!r.ok) throw new Error((await r.json()).erro || `Falha ${r.status}`);
+  return r.json();
+}
+
+export async function apiRodarAuditoria() {
+  const r = await fetch(apiUrl('/auditar'), {
+    method: 'POST',
     credentials: 'include',
   });
   if (!r.ok) throw new Error((await r.json()).erro || `Falha ${r.status}`);

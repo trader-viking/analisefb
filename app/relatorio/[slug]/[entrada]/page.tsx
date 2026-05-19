@@ -3,8 +3,10 @@ import { notFound } from 'next/navigation';
 import {
   ArrowLeft, Clock, Trophy, TrendingUp, Zap, AlertCircle,
   Eye, Target, BarChart3, MapPin, UserMinus, ShieldAlert, Activity,
+  ChevronsUp, ChevronsDown, Equal, Crown,
 } from 'lucide-react';
 import { getEntrada, listarRelatorios, entradaSlug } from '@/lib/relatorios';
+import { BadgeMetodo, metodosAtivos } from '@/components/BadgeMetodo';
 
 export function generateStaticParams() {
   const params: { slug: string; entrada: string }[] = [];
@@ -74,9 +76,21 @@ export default function EntradaPage({
           )}
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mb-4">
+        <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mb-3">
           {entrada.jogo}
         </h1>
+
+        {(() => {
+          const metodos = metodosAtivos(entrada);
+          if (metodos.length === 0) return null;
+          return (
+            <div className="flex flex-wrap gap-1.5 mb-4">
+              {metodos.map((m) => (
+                <BadgeMetodo key={m} metodo={m} size="md" />
+              ))}
+            </div>
+          );
+        })()}
 
         {/* Mercados */}
         <div className="grid sm:grid-cols-2 gap-3">
@@ -150,8 +164,304 @@ export default function EntradaPage({
         )}
       </div>
 
+      {/* Back Favorito */}
+      {entrada.back_favorito?.aplicavel && (
+        <div className="card p-6 mb-6 ring-2 ring-emerald-300 dark:ring-emerald-800 bg-emerald-50/40 dark:bg-emerald-950/20">
+          <div className="flex items-center gap-2 mb-4">
+            <div className="w-8 h-8 rounded-lg bg-emerald-600 dark:bg-emerald-700 flex items-center justify-center">
+              <ChevronsUp size={18} className="text-white" />
+            </div>
+            <div>
+              <h2 className="font-bold text-lg leading-tight">Back Favorito</h2>
+              <div className="text-xs text-emerald-700 dark:text-emerald-300">
+                {entrada.back_favorito.modo === 'ao_vivo' ? 'Entrada ao vivo' : 'Entrada pré-jogo'}
+              </div>
+            </div>
+          </div>
+
+          {entrada.back_favorito.favorito && (
+            <div className="mb-3 text-sm">
+              <span className="text-ink-500">Favorito:</span>{' '}
+              <strong>{entrada.back_favorito.favorito}</strong>
+            </div>
+          )}
+
+          <div className="grid sm:grid-cols-2 gap-3 mb-3">
+            {entrada.back_favorito.odd_alvo && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  ODD alvo
+                </div>
+                <div className="text-sm font-medium tabular-nums">{entrada.back_favorito.odd_alvo}</div>
+              </div>
+            )}
+            {entrada.back_favorito.stake_recomendada && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  Stake recomendada
+                </div>
+                <div className="text-sm font-medium">{entrada.back_favorito.stake_recomendada}</div>
+              </div>
+            )}
+          </div>
+
+          {entrada.back_favorito.razao && (
+            <div className="mb-3 p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-emerald-200 dark:ring-emerald-900">
+              <div className="text-[11px] uppercase tracking-wider text-emerald-700 dark:text-emerald-400 font-semibold mb-1">
+                Razão
+              </div>
+              <div className="text-sm leading-relaxed">{entrada.back_favorito.razao}</div>
+            </div>
+          )}
+
+          {entrada.back_favorito.gatilho_ao_vivo && entrada.back_favorito.modo === 'ao_vivo' && (
+            <div className="p-3 rounded-md bg-sky-50 dark:bg-sky-950/30 ring-1 ring-sky-200 dark:ring-sky-900">
+              <div className="text-[11px] uppercase tracking-wider text-sky-700 dark:text-sky-400 font-semibold mb-1 flex items-center gap-1">
+                <AlertCircle size={11} />
+                Gatilho ao vivo
+              </div>
+              <div className="text-sm leading-relaxed">{entrada.back_favorito.gatilho_ao_vivo}</div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Lay Zebra */}
+      {entrada.lay_zebra?.aplicavel && (
+        <div className="card p-6 mb-6 ring-2 ring-red-300 dark:ring-red-800 bg-red-50/40 dark:bg-red-950/20">
+          <div className="flex items-center gap-2 mb-4">
+            <div className="w-8 h-8 rounded-lg bg-red-600 dark:bg-red-700 flex items-center justify-center">
+              <ChevronsDown size={18} className="text-white" />
+            </div>
+            <div>
+              <h2 className="font-bold text-lg leading-tight">Lay Zebra</h2>
+              <div className="text-xs text-red-700 dark:text-red-300">
+                {entrada.lay_zebra.modo === 'ao_vivo' ? 'Entrada ao vivo' : 'Entrada pré-jogo'}
+              </div>
+            </div>
+          </div>
+
+          {entrada.lay_zebra.zebra && (
+            <div className="mb-3 text-sm">
+              <span className="text-ink-500">Apostando contra:</span>{' '}
+              <strong>{entrada.lay_zebra.zebra}</strong>
+            </div>
+          )}
+
+          <div className="grid sm:grid-cols-2 gap-3 mb-3">
+            {entrada.lay_zebra.odd_zebra_alvo && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  ODD da zebra
+                </div>
+                <div className="text-sm font-medium tabular-nums">{entrada.lay_zebra.odd_zebra_alvo}</div>
+              </div>
+            )}
+            {entrada.lay_zebra.stake_recomendada && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  Stake recomendada
+                </div>
+                <div className="text-sm font-medium">{entrada.lay_zebra.stake_recomendada}</div>
+              </div>
+            )}
+          </div>
+
+          {entrada.lay_zebra.razao && (
+            <div className="mb-3 p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-red-200 dark:ring-red-900">
+              <div className="text-[11px] uppercase tracking-wider text-red-700 dark:text-red-400 font-semibold mb-1">
+                Razão
+              </div>
+              <div className="text-sm leading-relaxed">{entrada.lay_zebra.razao}</div>
+            </div>
+          )}
+
+          {entrada.lay_zebra.gatilho_ao_vivo && entrada.lay_zebra.modo === 'ao_vivo' && (
+            <div className="p-3 rounded-md bg-sky-50 dark:bg-sky-950/30 ring-1 ring-sky-200 dark:ring-sky-900">
+              <div className="text-[11px] uppercase tracking-wider text-sky-700 dark:text-sky-400 font-semibold mb-1 flex items-center gap-1">
+                <AlertCircle size={11} />
+                Gatilho ao vivo
+              </div>
+              <div className="text-sm leading-relaxed">{entrada.lay_zebra.gatilho_ao_vivo}</div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Back 2x2 */}
+      {entrada.back_2x2?.aplicavel && (
+        <div className="card p-6 mb-6 ring-2 ring-orange-300 dark:ring-orange-800 bg-orange-50/40 dark:bg-orange-950/20">
+          <div className="flex items-center gap-2 mb-4">
+            <div className="w-8 h-8 rounded-lg bg-orange-600 dark:bg-orange-700 flex items-center justify-center">
+              <Equal size={18} className="text-white" />
+            </div>
+            <div>
+              <h2 className="font-bold text-lg leading-tight">Back 2x2</h2>
+              <div className="text-xs text-orange-700 dark:text-orange-300">
+                Placar exato — pré-jogo
+              </div>
+            </div>
+          </div>
+
+          {/* Índices estatísticos — destaque visual */}
+          {(entrada.back_2x2.indice_over_2_5 ||
+            entrada.back_2x2.indice_ambas_marcam ||
+            entrada.back_2x2.indice_over_ht) && (
+            <div className="mb-4">
+              <div className="text-[11px] uppercase tracking-wider text-orange-700 dark:text-orange-400 font-semibold mb-2">
+                Critérios estatísticos
+              </div>
+              <div className="grid sm:grid-cols-3 gap-2">
+                {entrada.back_2x2.indice_over_2_5 && (
+                  <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-orange-200 dark:ring-orange-900">
+                    <div className="text-[10px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                      Over 2.5
+                    </div>
+                    <div className="text-sm font-medium leading-tight">
+                      {entrada.back_2x2.indice_over_2_5}
+                    </div>
+                  </div>
+                )}
+                {entrada.back_2x2.indice_ambas_marcam && (
+                  <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-orange-200 dark:ring-orange-900">
+                    <div className="text-[10px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                      Ambas marcam
+                    </div>
+                    <div className="text-sm font-medium leading-tight">
+                      {entrada.back_2x2.indice_ambas_marcam}
+                    </div>
+                  </div>
+                )}
+                {entrada.back_2x2.indice_over_ht && (
+                  <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-orange-200 dark:ring-orange-900">
+                    <div className="text-[10px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                      Over 0.5 HT
+                    </div>
+                    <div className="text-sm font-medium leading-tight">
+                      {entrada.back_2x2.indice_over_ht}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+
+          <div className="grid sm:grid-cols-2 gap-3 mb-3">
+            {entrada.back_2x2.odd_alvo && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  ODD alvo
+                </div>
+                <div className="text-sm font-medium tabular-nums">{entrada.back_2x2.odd_alvo}</div>
+              </div>
+            )}
+            {entrada.back_2x2.stake_recomendada && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  Stake recomendada
+                </div>
+                <div className="text-sm font-medium">{entrada.back_2x2.stake_recomendada}</div>
+              </div>
+            )}
+          </div>
+
+          {entrada.back_2x2.razao && (
+            <div className="mb-3 p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-orange-200 dark:ring-orange-900">
+              <div className="text-[11px] uppercase tracking-wider text-orange-700 dark:text-orange-400 font-semibold mb-1">
+                Razão da entrada
+              </div>
+              <div className="text-sm leading-relaxed">{entrada.back_2x2.razao}</div>
+            </div>
+          )}
+
+          {/* Regra de saída — destaque vermelho */}
+          {entrada.back_2x2.regra_saida && (
+            <div className="p-3 rounded-md bg-red-50 dark:bg-red-950/30 ring-1 ring-red-200 dark:ring-red-900">
+              <div className="text-[11px] uppercase tracking-wider text-red-700 dark:text-red-400 font-semibold mb-1 flex items-center gap-1">
+                <AlertCircle size={11} />
+                Regra de saída obrigatória
+              </div>
+              <div className="text-sm leading-relaxed font-medium">
+                {entrada.back_2x2.regra_saida}
+              </div>
+            </div>
+          )}
+
+          {entrada.back_2x2.gatilho_ao_vivo && entrada.back_2x2.modo === 'ao_vivo' && (
+            <div className="mt-3 p-3 rounded-md bg-sky-50 dark:bg-sky-950/30 ring-1 ring-sky-200 dark:ring-sky-900">
+              <div className="text-[11px] uppercase tracking-wider text-sky-700 dark:text-sky-400 font-semibold mb-1 flex items-center gap-1">
+                <AlertCircle size={11} />
+                Gatilho ao vivo
+              </div>
+              <div className="text-sm leading-relaxed">{entrada.back_2x2.gatilho_ao_vivo}</div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Back Goleada */}
+      {entrada.back_goleada?.aplicavel && (
+        <div className="card p-6 mb-6 ring-2 ring-yellow-300 dark:ring-yellow-800 bg-yellow-50/40 dark:bg-yellow-950/20">
+          <div className="flex items-center gap-2 mb-4">
+            <div className="w-8 h-8 rounded-lg bg-yellow-500 dark:bg-yellow-600 flex items-center justify-center">
+              <Crown size={18} className="text-white" />
+            </div>
+            <div>
+              <h2 className="font-bold text-lg leading-tight">Back Goleada</h2>
+              <div className="text-xs text-yellow-700 dark:text-yellow-300">
+                Time marca 4+ e vence — {entrada.back_goleada.modo === 'ao_vivo' ? 'ao vivo' : 'pré-jogo'}
+              </div>
+            </div>
+          </div>
+
+          {entrada.back_goleada.candidato && (
+            <div className="mb-3 text-sm">
+              <span className="text-ink-500">Candidato à goleada:</span>{' '}
+              <strong>{entrada.back_goleada.candidato}</strong>
+            </div>
+          )}
+
+          <div className="grid sm:grid-cols-2 gap-3 mb-3">
+            {entrada.back_goleada.mercado_sugerido && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  Mercado sugerido
+                </div>
+                <div className="text-sm font-medium">{entrada.back_goleada.mercado_sugerido}</div>
+              </div>
+            )}
+            {entrada.back_goleada.odd_esperada && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  ODD esperada
+                </div>
+                <div className="text-sm font-medium tabular-nums">{entrada.back_goleada.odd_esperada}</div>
+              </div>
+            )}
+          </div>
+
+          {entrada.back_goleada.razao && (
+            <div className="mb-3 p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-yellow-200 dark:ring-yellow-900">
+              <div className="text-[11px] uppercase tracking-wider text-yellow-700 dark:text-yellow-400 font-semibold mb-1">
+                Razão
+              </div>
+              <div className="text-sm leading-relaxed">{entrada.back_goleada.razao}</div>
+            </div>
+          )}
+
+          {entrada.back_goleada.stake_recomendada && (
+            <div className="flex items-center gap-2 text-sm pt-2 border-t border-yellow-200 dark:border-yellow-900">
+              <span className="text-ink-500">Stake recomendada:</span>
+              <span className="pill bg-yellow-100 text-yellow-800 dark:bg-yellow-950 dark:text-yellow-200 text-sm px-2.5 py-1">
+                {entrada.back_goleada.stake_recomendada}
+              </span>
+            </div>
+          )}
+        </div>
+      )}
+
       {/* Over Limite 70+ */}
-      {entrada.over_limite_70?.elegivel && (
+      {(entrada.over_limite_70?.aplicavel || entrada.over_limite_70?.elegivel) && (
         <div className="card p-6 mb-6 ring-2 ring-purple-300 dark:ring-purple-800 bg-purple-50/40 dark:bg-purple-950/20">
           <div className="flex items-center gap-2 mb-4">
             <div className="w-8 h-8 rounded-lg bg-purple-600 dark:bg-purple-700 flex items-center justify-center">
@@ -241,7 +551,7 @@ export default function EntradaPage({
       )}
 
       {/* Confirmação Visual */}
-      {entrada.confirmacao_visual?.elegivel && (
+      {(entrada.confirmacao_visual?.aplicavel || entrada.confirmacao_visual?.elegivel) && (
         <div className="card p-6 mb-6 ring-2 ring-orange-300 dark:ring-orange-800 bg-orange-50/40 dark:bg-orange-950/20">
           <div className="flex items-center gap-2 mb-4">
             <div className="w-8 h-8 rounded-lg bg-orange-600 dark:bg-orange-700 flex items-center justify-center">

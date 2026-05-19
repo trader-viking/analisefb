@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 export type OverLimite70 = {
+  aplicavel?: boolean;
   elegivel?: boolean;
   favorito?: string;
   indice_gols_final?: string;
@@ -12,7 +13,51 @@ export type OverLimite70 = {
   observacoes?: string;
 };
 
+export type BackFavorito = {
+  aplicavel?: boolean;
+  modo?: string;
+  favorito?: string;
+  odd_alvo?: string;
+  razao?: string;
+  gatilho_ao_vivo?: string;
+  stake_recomendada?: string;
+};
+
+export type LayZebra = {
+  aplicavel?: boolean;
+  modo?: string;
+  zebra?: string;
+  odd_zebra_alvo?: string;
+  razao?: string;
+  gatilho_ao_vivo?: string;
+  stake_recomendada?: string;
+};
+
+export type Back2x2 = {
+  aplicavel?: boolean;
+  razao?: string;
+  indice_over_2_5?: string;
+  indice_ambas_marcam?: string;
+  indice_over_ht?: string;
+  modo?: string;
+  odd_alvo?: string;
+  regra_saida?: string;
+  gatilho_ao_vivo?: string;
+  stake_recomendada?: string;
+};
+
+export type BackGoleada = {
+  aplicavel?: boolean;
+  candidato?: string;
+  razao?: string;
+  modo?: string;
+  mercado_sugerido?: string;
+  odd_esperada?: string;
+  stake_recomendada?: string;
+};
+
 export type ConfirmacaoVisual = {
+  aplicavel?: boolean;
   elegivel?: boolean;
   perfil_tatico?: string;
   gatilhos_aceleracao?: string;
@@ -32,6 +77,7 @@ export type Entrada = {
   horario: string;
   liga: string;
   jogo: string;
+  metodos_aplicados?: string[];
   mercado_principal: string;
   odd_principal: string;
   fair_odd_calculada?: string;
@@ -53,7 +99,11 @@ export type Entrada = {
   situacao_saida?: string;
   stake_recomendada?: string;
   plano_execucao?: PlanoExecucao | null;
+  back_favorito?: BackFavorito | null;
+  lay_zebra?: LayZebra | null;
   over_limite_70?: OverLimite70 | null;
+  back_2x2?: Back2x2 | null;
+  back_goleada?: BackGoleada | null;
   confirmacao_visual?: ConfirmacaoVisual | null;
 };
 

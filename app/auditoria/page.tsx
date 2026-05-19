@@ -2,13 +2,15 @@ import Link from 'next/link';
 import {
   ArrowLeft, TrendingUp, TrendingDown, Target, Activity,
   Award, AlertTriangle, CheckCircle2, XCircle, BarChart3,
-  Calendar, Trophy, Percent, FileText, Plus, Edit2,
+  Calendar, Trophy, Percent, FileText, Plus, Edit2, Clock,
 } from 'lucide-react';
-import { listarTrades, calcularEstatisticas } from '@/lib/trades';
+import { listarTrades, calcularEstatisticas, contarPendentes } from '@/lib/trades';
+import BotaoAuditar from '@/components/BotaoAuditar';
 
 export default function AuditoriaPage() {
   const trades = listarTrades();
   const stats = calcularEstatisticas(trades);
+  const pendentes = contarPendentes(trades);
 
   if (trades.length === 0) {
     return (
@@ -61,14 +63,25 @@ export default function AuditoriaPage() {
       <div className="flex items-center justify-between mb-8 flex-wrap gap-3">
         <div>
           <h1 className="text-3xl font-bold tracking-tight mb-1">Auditoria</h1>
-          <p className="text-sm text-ink-500">
-            {stats.total_trades} trade{stats.total_trades === 1 ? '' : 's'} registrado{stats.total_trades === 1 ? '' : 's'}
+          <p className="text-sm text-ink-500 flex items-center gap-3 flex-wrap">
+            <span>
+              {stats.total_trades} finalizado{stats.total_trades === 1 ? '' : 's'}
+            </span>
+            {pendentes > 0 && (
+              <span className="inline-flex items-center gap-1 text-amber-600 dark:text-amber-400">
+                <Clock size={12} />
+                {pendentes} pendente{pendentes === 1 ? '' : 's'}
+              </span>
+            )}
           </p>
         </div>
-        <Link href="/auditoria/registrar/" className="btn btn-primary">
-          <Plus size={16} />
-          Registrar trade
-        </Link>
+        <div className="flex items-center gap-2 flex-wrap">
+          <BotaoAuditar />
+          <Link href="/auditoria/registrar/" className="btn btn-primary">
+            <Plus size={16} />
+            Registrar trade
+          </Link>
+        </div>
       </div>
 
       {/* KPIs Principais */}
@@ -257,6 +270,7 @@ export default function AuditoriaPage() {
                   <th className="text-left px-3 py-2.5 font-semibold">Método</th>
                   <th className="text-right px-3 py-2.5 font-semibold">Odd</th>
                   <th className="text-right px-3 py-2.5 font-semibold">Stake</th>
+                  <th className="text-center px-3 py-2.5 font-semibold">Placar</th>
                   <th className="text-center px-3 py-2.5 font-semibold">Resultado</th>
                   <th className="text-center px-3 py-2.5 font-semibold">Critérios</th>
                   <th className="text-right px-3 py-2.5 font-semibold">Lucro</th>
@@ -264,41 +278,52 @@ export default function AuditoriaPage() {
                 </tr>
               </thead>
               <tbody>
-                {trades.map((t) => (
-                  <tr key={t.id} className="border-t border-ink-100 dark:border-ink-900 hover:bg-ink-50 dark:hover:bg-ink-900/50">
-                    <td className="px-3 py-2.5 text-ink-500 tabular-nums whitespace-nowrap">{t.data}</td>
-                    <td className="px-3 py-2.5 font-medium">{t.jogo}</td>
-                    <td className="px-3 py-2.5 text-ink-600 dark:text-ink-400 text-xs">{t.metodo}</td>
-                    <td className="px-3 py-2.5 text-right tabular-nums">{t.odd_entrada}</td>
-                    <td className="px-3 py-2.5 text-right tabular-nums">{t.stake_pct}%</td>
-                    <td className="px-3 py-2.5 text-center">
-                      {t.resultado === 'green' ? (
-                        <span className="pill bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300">G</span>
-                      ) : (
-                        <span className="pill bg-red-100 text-red-800 dark:bg-red-950 dark:text-red-300">R</span>
-                      )}
-                    </td>
-                    <td className="px-3 py-2.5 text-center">
-                      {t.criterios_atendidos ? (
-                        <CheckCircle2 size={14} className="inline text-emerald-600 dark:text-emerald-400" />
-                      ) : (
-                        <XCircle size={14} className="inline text-amber-600 dark:text-amber-400" />
-                      )}
-                    </td>
-                    <td className={`px-3 py-2.5 text-right tabular-nums font-medium ${t.lucro_unidades >= 0 ? 'text-emerald-600 dark:text-emerald-400' : 'text-red-600 dark:text-red-400'}`}>
-                      {t.lucro_unidades >= 0 ? '+' : ''}{Math.round(t.lucro_unidades * 100) / 100}u
-                    </td>
-                    <td className="px-3 py-2.5 text-right">
-                      <Link
-                        href={`/auditoria/editar/${encodeURIComponent(t.id)}/`}
-                        className="inline-flex items-center gap-1 text-ink-500 hover:text-ink-900 dark:hover:text-ink-100 text-xs"
-                      >
-                        <Edit2 size={12} />
-                        Editar
-                      </Link>
-                    </td>
-                  </tr>
-                ))}
+                {trades.map((t) => {
+                  const pendente = t.resultado === 'pendente' || !t.resultado;
+                  return (
+                    <tr key={t.id} className={`border-t border-ink-100 dark:border-ink-900 hover:bg-ink-50 dark:hover:bg-ink-900/50 ${pendente ? 'opacity-70' : ''}`}>
+                      <td className="px-3 py-2.5 text-ink-500 tabular-nums whitespace-nowrap">{t.data}</td>
+                      <td className="px-3 py-2.5 font-medium">{t.jogo}</td>
+                      <td className="px-3 py-2.5 text-ink-600 dark:text-ink-400 text-xs">{t.metodo}</td>
+                      <td className="px-3 py-2.5 text-right tabular-nums">{t.odd_entrada}</td>
+                      <td className="px-3 py-2.5 text-right tabular-nums">{t.stake_pct}%</td>
+                      <td className="px-3 py-2.5 text-center tabular-nums text-ink-500 text-xs">
+                        {t.placar_final || (pendente ? '—' : '—')}
+                      </td>
+                      <td className="px-3 py-2.5 text-center">
+                        {pendente ? (
+                          <span className="pill bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300 inline-flex items-center gap-1">
+                            <Clock size={10} />
+                            Pendente
+                          </span>
+                        ) : t.resultado === 'green' ? (
+                          <span className="pill bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300">G</span>
+                        ) : (
+                          <span className="pill bg-red-100 text-red-800 dark:bg-red-950 dark:text-red-300">R</span>
+                        )}
+                      </td>
+                      <td className="px-3 py-2.5 text-center">
+                        {t.criterios_atendidos ? (
+                          <CheckCircle2 size={14} className="inline text-emerald-600 dark:text-emerald-400" />
+                        ) : (
+                          <XCircle size={14} className="inline text-amber-600 dark:text-amber-400" />
+                        )}
+                      </td>
+                      <td className={`px-3 py-2.5 text-right tabular-nums font-medium ${pendente ? 'text-ink-400' : t.lucro_unidades >= 0 ? 'text-emerald-600 dark:text-emerald-400' : 'text-red-600 dark:text-red-400'}`}>
+                        {pendente ? '—' : `${t.lucro_unidades >= 0 ? '+' : ''}${Math.round(t.lucro_unidades * 100) / 100}u`}
+                      </td>
+                      <td className="px-3 py-2.5 text-right">
+                        <Link
+                          href={`/auditoria/editar/${encodeURIComponent(t.id)}/`}
+                          className="inline-flex items-center gap-1 text-ink-500 hover:text-ink-900 dark:hover:text-ink-100 text-xs"
+                        >
+                          <Edit2 size={12} />
+                          Editar
+                        </Link>
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>
