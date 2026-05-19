@@ -7,6 +7,7 @@ import {
 } from 'lucide-react';
 import { getEntrada, listarRelatorios, entradaSlug } from '@/lib/relatorios';
 import { BadgeMetodo, metodosAtivos } from '@/components/BadgeMetodo';
+import BotoesAposta from '@/components/BotoesAposta';
 
 export function generateStaticParams() {
   const params: { slug: string; entrada: string }[] = [];
@@ -162,6 +163,10 @@ export default function EntradaPage({
             </span>
           </div>
         )}
+
+        <div className="mt-5 pt-5 border-t border-ink-200 dark:border-ink-800">
+          <BotoesAposta jogo={entrada.jogo} />
+        </div>
       </div>
 
       {/* Back Favorito */}

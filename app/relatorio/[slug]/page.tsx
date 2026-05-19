@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, ExternalLink, TrendingUp, AlertTriangle, Clock, Trophy } from 'lucide-react';
 import { BadgeMetodo, metodosAtivos } from '@/components/BadgeMetodo';
+import BotoesApostaMini from '@/components/BotoesApostaMini';
 import { getRelatorio, listarRelatorios, entradaSlug } from '@/lib/relatorios';
 
 export function generateStaticParams() {
@@ -98,14 +99,17 @@ export default function RelatorioPage({ params }: { params: { slug: string } }) 
                     </div>
                   </div>
 
-                  <Link
-                    href={`/relatorio/${relatorio.slug}/${eSlug}/`}
-                    target="_blank"
-                    className="btn btn-secondary justify-center mt-auto"
-                  >
-                    Ver detalhes
-                    <ExternalLink size={14} />
-                  </Link>
+                  <div className="mt-auto pt-3 border-t border-ink-100 dark:border-ink-800 space-y-2">
+                    <BotoesApostaMini jogo={entrada.jogo} />
+                    <Link
+                      href={`/relatorio/${relatorio.slug}/${eSlug}/`}
+                      target="_blank"
+                      className="btn btn-secondary justify-center w-full"
+                    >
+                      Ver detalhes
+                      <ExternalLink size={14} />
+                    </Link>
+                  </div>
                 </div>
               );
             })}
