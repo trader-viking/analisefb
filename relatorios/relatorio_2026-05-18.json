@@ -1,194 +1,733 @@
 {
   "data": "2026-05-18",
   "variante": "",
-  "gerado_em": "2026-05-18T12:04:48.930633",
+  "gerado_em": "2026-05-19T08:09:26.565655",
   "total_partidas_analisadas": 19,
   "total_partidas_disponiveis": 19,
   "entradas": [
     {
-      "horario": "14:00",
-      "liga": "Egypt Egyptian Premier League",
-      "jogo": "Al Mokawloon x Wadi Degla",
-      "mercado_principal": "Mais 2.5 gols",
-      "odd_principal": "1.90",
-      "fair_odd_calculada": "1.65",
-      "valor_esperado": "+15% EV (odd de mercado 1.90 vs fair odd 1.65)",
-      "mercado_secundario": "Mais 1.5 gols no 2º tempo",
-      "odd_secundaria": "2.40",
-      "desempenho_1t": "Wadi Degla marca 0.29 no 1ºT em média, Al Mokawloon sofre 0.31 no 1ºT em média.",
-      "desempenho_2t": "Wadi Degla marca 0.86 gols no 2ºT em média, Al Mokawloon sofre 0.63 gols no 2ºT em média.",
-      "motivacao_tecnica": "Wadi Degla (5º lugar, 1.57 PPG) busca se manter na parte de cima da tabela, vindo de uma sequência mista, mas com um ataque eficaz (1.14 gols/jogo). Al Mokawloon (15º lugar, 1.06 PPG) está na zona de rebaixamento e busca desesperadamente pontos, mas tem um ataque pouco eficiente (0.75 gols/jogo) e defesa vulnerável. Wadi Degla tem um histórico forte de gols no segundo tempo (12 de seus 16 gols) e especialmente entre 61-75 minutos (44% dos gols) e 76-90 minutos (31% dos gols). Al Mokawloon, por sua vez, sofre 40% de seus gols após os 76 minutos. Essa combinação aponta para um cenário onde Wadi Degla pode capitalizar sobre o cansaço e a defesa do Al Mokawloon na reta final da partida, tornando a aposta em gols tardios uma oportunidade de valor.",
-      "coeficiente_regularidade": "Casa: CV moderado / Fora: CV baixo (consistência na performance)",
-      "mando_de_campo": "Al Mokawloon joga em casa, mas seu desempenho geral é fraco. Wadi Degla tem um bom desempenho como visitante.",
+      "horario": "13:05",
+      "liga": "Saudi Arabia First Division",
+      "jogo": "Al Draih x Al Jabalain",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70",
+        "back_goleada"
+      ],
+      "mercado_principal": "Back Goleada (Al Draih marca 4+ gols e vence)",
+      "odd_principal": "3.80",
+      "fair_odd_calculada": "3.00",
+      "valor_esperado": "+26.6% EV — odd 3.80 vs Fair Odd 3.00 (estimado para goleada)",
+      "mercado_secundario": "Vitória Al Draih",
+      "odd_secundaria": "1.75",
+      "desempenho_1t": "Al Draih marca 1.12 no 1ºT; Al Jabalain sofre 0.47 no 1ºT",
+      "desempenho_2t": "Al Draih marca 1.59 no 2ºT; Al Jabalain sofre 0.65 no 2ºT",
+      "motivacao_tecnica": "Al Draih é o líder com favoritismo extremo (2.53 PPJ, 82% de vitórias) e um ataque esmagador (2.71 gols/jogo, 2.00 xG a favor). Al Jabalain, apesar de estar em 7º lugar, tem um PPJ significativamente menor (1.53) e uma defesa que sofre gols (1.12 gols sofridos/jogo, xG contra 1.25), que, embora não seja 'muito frágil' na média, é vulnerável contra um ataque tão potente. Al Draih marca muitos gols no final do jogo (30% entre 76-90 minutos), enquanto Al Jabalain também sofre gols tardios (33%). O cenário é excelente para Back Goleada, e o Over Limite 70+ é altamente promissor.",
+      "coeficiente_regularidade": "Casa: CV baixo (excelente) / Visitante: CV moderado",
+      "mando_de_campo": "Al Draih, o líder da liga, joga em casa, onde é muito forte.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Wadi Degla tem um atacante prolífico (Franck Boli com 9 gols) e capacidade de finalizar jogadas, muitas vezes com transições rápidas e bolas em profundidade. Al Mokawloon tende a ser mais reativo.",
-      "momento_gols": "Wadi Degla: 61-75min (44%) e 76-90min (31%). Al Mokawloon sofre 76-90min (40%).",
-      "jogadores_chave": "Wadi Degla: Franck Boli (9 gols), Mahmoud Diasty (5 gols, 5 assistências). Al Mokawloon: Shoukri Nagib (6 gols), Mohamed Salem (5 gols, 2 assistências).",
-      "placares_provaveis": "0x2, 1x2, 1x3",
-      "momento_entrada": "Ao vivo, confirmando o domínio do favorito no 2º tempo, ou aplicando o gatilho 'Over Limite 70+'.",
-      "situacao_saida": "Cash-out se Wadi Degla marcar um gol cedo no segundo tempo e o ritmo cair, ou se Al Mokawloon surpreender com um gol que equilibre o placar e mude a dinâmica do jogo.",
-      "stake_recomendada": "2%",
+      "especificidades_gols": "Al Draih marca prolíficamente em ambos os tempos, com destaque para o segundo. Al Jabalain tem uma defesa que cede gols, especialmente na reta final.",
+      "momento_gols": "Al Draih marca 30% de seus gols entre 76-90 minutos. Al Jabalain sofre 33% de seus gols entre 76-90 minutos e 21% entre 31-45 minutos.",
+      "jogadores_chave": "Al Draih: Gaëtan Laborde (27 G), Moussa Marega (19 G, 8 A), Óscar Rodríguez (7 G, 9 A). Al Jabalain: Cheikh Touré (19 G, 5 A), João Pedro Novais (14 G, 13 A).",
+      "placares_provaveis": "3x0, 4x0, 3x1, 4x1, 5x1",
+      "momento_entrada": "Pré-jogo para Back Goleada, Back Favorito e Lay Zebra. Ao vivo para Over Limite 70+.",
+      "situacao_saida": "Goleada: Cash-out se o placar atingir 3x0 ou 3x1 no segundo tempo com tempo para mais um gol. Back Favorito/Lay Zebra: Proteção em 1x0 ou 2x0. Over Limite: Após o gol ou odd desvalorizada.",
+      "stake_recomendada": "1% para Goleada",
       "plano_execucao": {
         "abordagem": "forçar",
-        "justificativa_abordagem": "Wadi Degla tem um perfil de acelerar no 2º tempo e marcar gols tardios. Esperar pode resultar em perda de valor da odd, que tende a cair rapidamente ao sinal de gol.",
-        "gatilho_saida_parcial": "Se o Al Mokawloon começar a ter contra-ataques perigosos consecutivos, ou se o Wadi Degla demonstrar complacência após um gol.",
-        "hard_stop": "Gol do adversário que iguale o placar, ou lesão de um dos atacantes-chave de Wadi Degla, ou mudança tática do Al Mokawloon para uma defesa ultra-fechada bem-sucedida."
+        "justificativa_abordagem": "O favoritismo extremo do Al Draih e o seu ataque avassalador, combinado com a vulnerabilidade defensiva do Al Jabalain, justificam a busca por uma goleada.",
+        "gatilho_saida_parcial": "Goleada: Se Al Draih estiver vencendo por 3-0 ou 3-1, considerar proteger parte do lucro. Back Favorito: Se Al Draih abrir 1 gol de vantagem.",
+        "hard_stop": "Perda total da stake caso o Al Draih não consiga abrir uma vantagem significativa ou sofra um gol inesperado que mude a dinâmica da goleada."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Al Draih",
+        "odd_alvo": "1.75",
+        "razao": "Al Draih é o líder incontestável da liga com aproveitamento de 2.53 PPJ e 82% de vitórias, jogando em casa contra um adversário de meio de tabela.",
+        "gatilho_ao_vivo": "null",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Al Jabalain",
+        "odd_zebra_alvo": "6.00",
+        "razao": "Al Jabalain é a zebra clara, com um desempenho inferior e enfrentando o líder da liga, o que infla sua odd de vitória.",
+        "gatilho_ao_vivo": "null",
+        "stake_recomendada": "2%"
       },
       "over_limite_70": {
-        "elegivel": true,
-        "favorito": "Wadi Degla",
-        "indice_gols_final": "Wadi Degla marca 44% de seus gols entre 61-75min e 31% entre 76-90min. Al Mokawloon sofre 40% de seus gols após 76min.",
-        "condicao_entrada": "Entrar se Wadi Degla vencer por 2 gols de diferença após os 70min.",
+        "aplicavel": true,
+        "favorito": "Al Draih",
+        "indice_gols_final": "Al Draih marca 30% dos seus gols entre 76-90 minutos. Al Jabalain sofre 33% dos seus gols entre 76-90 minutos.",
+        "condicao_entrada": "Entrar se Al Draih vencer por 2 gols após 70min.",
         "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
-        "odd_esperada": "1.60 a 2.20",
+        "odd_esperada": "1.60 a 2.00",
         "stake_recomendada": "1%",
-        "observacoes": "Monitorar a postura do Al Mokawloon. Se recuar totalmente sem ceder chances claras, a entrada pode ser arriscada."
+        "observacoes": "Padrão de gols tardios é muito forte para ambos os lados."
       },
-      "confirmacao_visual": {
-        "elegivel": true,
-        "perfil_tatico": "Wadi Degla com perfil ofensivo e de controle de jogo, buscando manter a posse e a pressão no campo adversário, procurando espaços na defesa do Al Mokawloon.",
-        "gatilhos_aceleracao": "Encaixe defensivo de Wadi Degla na metade ofensiva do campo, subida coordenada das linhas e aumento da velocidade de passes no terço final adversário.",
-        "alerta_armadilha": "Sinais de que o Al Mokawloon está cedendo espaço de propósito na defesa para atrair o Wadi Degla e explorar contra-ataques em velocidade, ou se a linha defensiva do favorito estiver desorganizada."
-      }
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "candidato": "Al Draih",
+        "razao": "Favoritismo extremo do líder Al Draih (2.53 PPJ, 2.71 gols/jogo) contra uma equipe que, embora não 'muito frágil', é vulnerável à pressão de um ataque tão potente e sofre muitos gols no final do jogo.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Al Draih - Total de Gols Acima de 3.5",
+        "odd_esperada": "3.50 a 5.00",
+        "stake_recomendada": "1%"
+      },
+      "confirmacao_visual": null
     },
     {
-      "horario": "16:00",
-      "liga": "England Premier League",
-      "jogo": "Arsenal x Burnley",
-      "mercado_principal": "Mais 3.5 gols",
-      "odd_principal": "2.00",
-      "fair_odd_calculada": "1.65",
-      "valor_esperado": "+21% EV (odd de mercado 2.00 vs fair odd 1.65)",
-      "mercado_secundario": "Handicap Asiático -2.5 Arsenal",
-      "odd_secundaria": "2.30",
-      "desempenho_1t": "Arsenal marca 0.94 no 1ºT em média, Burnley sofre 1.00 no 1ºT em média.",
-      "desempenho_2t": "Arsenal marca 1.28 gols no 2ºT em média, Burnley sofre 1.50 gols no 2ºT em média.",
-      "motivacao_tecnica": "O Arsenal é um forte candidato ao título (2º lugar), com um ataque avassalador (40 gols em 18 jogos, média de 2.22 gols/jogo) e uma defesa sólida (0.61 gols/jogo). Enfrenta o Burnley, que está na zona de rebaixamento (19º), com uma das piores defesas da liga (45 gols sofridos em 18 jogos, média de 2.50 gols/jogo). A diferença de qualidade e motivação é gritante. O Arsenal tem uma alta incidência de gols no final das partidas (28% após 76min), e o Burnley sofre muitos gols na mesma faixa (24% após 76min), além de conceder 1.50 gols no 2º tempo em média. Os xG confirmam essa disparidade (Arsenal: 1.85 xG Favor / 0.83 xG Contra; Burnley: 0.99 xG Favor / 1.91 xG Contra). Isso configura um cenário ideal para o 'Over Limite 70+', com o Arsenal dominando e buscando ampliar o placar até o fim, capitalizando sobre a fragilidade defensiva do Burnley.",
-      "coeficiente_regularidade": "Casa: CV baixo (muito consistente) / Fora: CV alto (inconsistência defensiva)",
-      "mando_de_campo": "Arsenal joga em casa, onde é extremamente forte (78% de vitórias). O Burnley tem um desempenho muito fraco como visitante, raramente pontuando.",
-      "condicoes_campo": "sem fatores relevantes (campo em excelentes condições, clima favorável)",
+      "horario": "14:30",
+      "liga": "Romania Liga I",
+      "jogo": "Hermannstadt x FCSB",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória FCSB",
+      "odd_principal": "1.80",
+      "fair_odd_calculada": "1.69",
+      "valor_esperado": "+6.2% EV — odd 1.80 vs Fair Odd 1.69",
+      "mercado_secundario": "Lay Hermannstadt (apostar contra vitória do Hermannstadt)",
+      "odd_secundaria": "5.50",
+      "desempenho_1t": "FCSB marca 0.89 no 1ºT; Hermannstadt sofre 0.50 no 1ºT",
+      "desempenho_2t": "FCSB marca 0.94 no 2ºT; Hermannstadt sofre 1.00 no 2ºT",
+      "motivacao_tecnica": "FCSB (6º, 1.39 PPJ) é superior ao Hermannstadt (15º, 0.94 PPJ) e demonstra um ataque mais eficiente (1.83 Gols Marcados/jogo, 1.90 xG a favor). Hermannstadt apresenta fragilidade defensiva (1.50 Gols Sofridos/jogo, 1.31 xG contra). A forma recente do Hermannstadt é inconsistente. O Lay Zebra contra o Hermannstadt é atraente, dada a baixa probabilidade de vitória e a provável odd inflada. O Back Favorito no FCSB também tem valor. Há potencial para o Over Limite 70+ se o FCSB abrir boa vantagem, considerando o padrão de gols no final do jogo e a fragilidade do Hermannstadt.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
+      "mando_de_campo": "Hermannstadt faz 22% dos pontos em casa, não sendo um fator de grande força.",
+      "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Arsenal utiliza jogadas elaboradas, pressão alta e tem múltiplos artilheiros que podem finalizar de diversas formas. O Burnley, apesar de fraco defensivamente, pode tentar contra-ataques rápidos para um gol de honra, dado seu alto percentual de 'Ambas Marcam' (78%).",
-      "momento_gols": "Arsenal: 31-45min (28%) e 76-90min (28%). Burnley sofre 61-75min (22%) e 76-90min (24%). Forte indicação de gols no final do 2º tempo.",
-      "jogadores_chave": "Arsenal: Viktor Gyökeres (14 gols), Bukayo Saka (7 gols, 5 assistências), Leandro Trossard (6 gols, 6 assistências). Burnley: Jaidon Anthony (8 gols), Zian Flemming (10 gols).",
-      "placares_provaveis": "3x0, 3x1, 4x0, 4x1",
-      "momento_entrada": "Pré-jogo para 'Mais 3.5 Gols', ou ao vivo aplicando o gatilho 'Over Limite 70+'.",
-      "situacao_saida": "Cash-out se o Arsenal marcar muito cedo e reduzir o ritmo de ataque de forma perceptível, ou se o Burnley conseguir uma postura defensiva extrema e eficaz, dificultando a criação de chances claras do favorito.",
+      "especificidades_gols": "FCSB marca consistentemente em ambos os tempos. Hermannstadt tem deficiência na marcação e sofre gols em todas as janelas, especialmente no segundo tempo.",
+      "momento_gols": "FCSB tem picos de gols entre 31-45 (24%) e 61-75 (24%). Hermannstadt sofre muitos gols no segundo tempo, com 22% entre 61-75 e 22% entre 76-90 minutos.",
+      "jogadores_chave": "FCSB: Florin Tănase (15 G, 8 A), Darius Olaru (10 G, 7 A). Hermannstadt: Aurelian Chițu (9 G, 3 A).",
+      "placares_provaveis": "0x1, 0x2, 1x2, 1x3",
+      "momento_entrada": "Pré-jogo para Back Favorito/Lay Zebra. Ao vivo para Over Limite 70+.",
+      "situacao_saida": "Back Favorito/Lay Zebra: Saída em lucro parcial no 1x0 ou 2x0. Over Limite: Após o gol ou com odd desvalorizada por falta de chances.",
       "stake_recomendada": "2%",
       "plano_execucao": {
-        "abordagem": "forçar",
-        "justificativa_abordagem": "Este é um mercado explosivo. O valor pode desaparecer rapidamente se o Arsenal começar a marcar cedo ou se o mercado se ajustar à expectativa de muitos gols.",
-        "gatilho_saida_parcial": "Se o Burnley conseguir manter o placar baixo até o intervalo (ex: 0x0 ou 1x0), ou se o Arsenal tiver um jogador importante expulso.",
-        "hard_stop": "Gol do Burnley que mude drasticamente a expectativa de goleada do Arsenal, lesão de um atacante-chave do Arsenal, ou uma mudança tática do Burnley para uma defesa ultra-fechada que se mostre efetiva."
+        "abordagem": "propor",
+        "justificativa_abordagem": "Aposta em favorito sólido e Lay em zebra fraca, com boa gestão de risco ao vivo para Over Limite.",
+        "gatilho_saida_parcial": "Lay Zebra: Se Hermannstadt empatar ou vencer, reavaliar. Back Favorito: Se FCSB abrir vantagem de 1 gol. Over Limite: Com 1 gol do favorito para proteger.",
+        "hard_stop": "Perda total da stake em caso de virada da zebra ou placar não favorável no Over Limite."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "FCSB",
+        "odd_alvo": "1.80",
+        "razao": "FCSB é o time com melhor desempenho, ataque produtivo e maior taxa de vitórias em comparação com a frágil defesa do Hermannstadt.",
+        "gatilho_ao_vivo": "null",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Hermannstadt",
+        "odd_zebra_alvo": "5.50",
+        "razao": "Hermannstadt é um time de baixo aproveitamento (0.94 PPJ), na 15ª posição, com defesa vulnerável. Sua odd de vitória deve ser inflada, oferecendo valor para o Lay.",
+        "gatilho_ao_vivo": "lay após zebra marcar primeiro, se for considerado gol fortuito ou não sustentável pela pressão do favorito.",
+        "stake_recomendada": "2%"
       },
       "over_limite_70": {
-        "elegivel": true,
-        "favorito": "Arsenal",
-        "indice_gols_final": "Arsenal marcou 28% de seus gols após 76min. Burnley sofreu 24% de seus gols após 76min. Arsenal marcou 1.28 gols no 2º tempo e Burnley sofreu 1.50 gols no 2º tempo.",
-        "condicao_entrada": "Entrar se Arsenal vencer por 2 gols de diferença após os 70min.",
+        "aplicavel": true,
+        "favorito": "FCSB",
+        "indice_gols_final": "FCSB marca 15% dos gols entre 76-90 minutos. Hermannstadt sofre 22% dos gols entre 76-90 minutos.",
+        "condicao_entrada": "Entrar se FCSB vencer por 2 gols após 70min.",
         "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
-        "odd_esperada": "1.60 a 2.20",
+        "odd_esperada": "1.80 a 2.20",
         "stake_recomendada": "1%",
-        "observacoes": "Atenção à intensidade e à linha alta do Arsenal. Se a equipe relaxar após garantir a vitória, o ritmo pode cair. No entanto, sua busca por saldo de gols no campeonato deve manter a pressão."
+        "observacoes": "Alta fragilidade defensiva do Hermannstadt no final do jogo e ataque persistente do FCSB."
       },
+      "back_2x2": null,
+      "back_goleada": null,
       "confirmacao_visual": {
-        "elegivel": true,
-        "perfil_tatico": "Arsenal com perfil de pressão alta intensa ('Encaixe defensivo'), posse de bola dominante com 'Subida das linhas' e 'Velocidade de passes' no terço final, buscando constantemente a profundidade e a quebra das linhas defensivas do Burnley.",
-        "gatilhos_aceleracao": "Pressão alta que resulte em recuperação de segundas bolas na metade ofensiva, linhas defensiva e de meio do Arsenal progredindo em direção à área adversária, aumento notável da velocidade de circulação da bola e de triangulações no terço final.",
-        "alerta_armadilha": "Sinais de que o Burnley está adotando uma linha defensiva extremamente baixa, com foco total em congestionar a área, e que o Arsenal tem dificuldade em criar chances claras, optando por passes laterais e sem profundidade. Isso pode indicar que o Burnley está cedendo espaço intencionalmente para um contra-ataque."
+        "aplicavel": true,
+        "perfil_tatico": "FCSB deve buscar o domínio da posse e pressionar a defesa adversária. Hermannstadt provavelmente jogará recuado, buscando contra-ataques.",
+        "gatilhos_aceleracao": "Dominância clara do FCSB, com muitas finalizações e transições rápidas. Hermannstadt mostrando desorganização defensiva ou cansaço.",
+        "alerta_armadilha": "FCSB com posse estéril ou Hermannstadt conseguindo neutralizar as ações ofensivas do favorito.",
+        "mercado_recomendado": "Back Favorito (ao vivo) ou Over Limite 70+",
+        "momento_observacao": "Primeiros 15-20 minutos para leitura tática, e a partir dos 70 minutos para o gatilho de Over Limite."
       }
     },
     {
-      "horario": "20:00",
+      "horario": "14:30",
+      "liga": "Romania Liga I",
+      "jogo": "SSC Farul x Metaloglobus",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70",
+        "back_goleada"
+      ],
+      "mercado_principal": "Back Goleada (Farul marca 4+ gols e vence)",
+      "odd_principal": "4.50",
+      "fair_odd_calculada": "3.50",
+      "valor_esperado": "+28.5% EV — odd 4.50 vs Fair Odd 3.50 (estimado para goleada)",
+      "mercado_secundario": "Vitória SSC Farul",
+      "odd_secundaria": "1.25",
+      "desempenho_1t": "Farul marca 1.00 no 1ºT; Metaloglobus sofre 1.16 no 1ºT",
+      "desempenho_2t": "Farul marca 0.63 no 2ºT; Metaloglobus sofre 1.53 no 2ºT",
+      "motivacao_tecnica": "SSC Farul é um favorito extremo (1.53 PPJ) contra o Metaloglobus, lanterna da liga sem nenhuma vitória em 19 jogos (0.21 PPJ). A defesa do Metaloglobus é extremamente frágil (2.68 gols sofridos/jogo), o que é um fator crucial para uma goleada. O Farul tem um ataque produtivo (1.63 gols/jogo) e joga em casa. As condições são ideais para o método Back Goleada. Adicionalmente, Back Favorito e Lay Zebra são escolhas com alto valor. O potencial de gols tardios também é alto, tornando o Over Limite 70+ aplicável se o Farul estiver com vantagem.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto (consistência em perder)",
+      "mando_de_campo": "SSC Farul joga em casa, onde geralmente se mostra mais forte.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Farul tem um ataque diversificado, marcando em ambos os tempos. Metaloglobus sofre muitos gols, especialmente no segundo tempo, indicando cansaço e desorganização.",
+      "momento_gols": "Farul marca 29% dos gols entre 31-45 minutos. Metaloglobus sofre 29% dos gols entre 76-90 minutos e 18% entre 31-45 e 61-75 minutos, mostrando fragilidade em todas as fases do jogo.",
+      "jogadores_chave": "Farul: Alexandru Ișfan (10 G, 4 A), Ionut Larie (6 G). Metaloglobus: Dragoş Huiban (6 G), Florin Purece (7 G, 7 A).",
+      "placares_provaveis": "3x0, 4x0, 3x1, 4x1, 5x0",
+      "momento_entrada": "Pré-jogo para Back Goleada, Back Favorito e Lay Zebra. Ao vivo para Over Limite 70+.",
+      "situacao_saida": "Back Goleada: Cash-out se o placar atingir 3x0 ou 3x1 no segundo tempo com tempo para mais um gol. Back Favorito/Lay Zebra: Proteção em 1x0 ou 2x0. Over Limite: Após o gol ou odd desvalorizada.",
+      "stake_recomendada": "1% para Goleada (maior risco, maior retorno potencial)",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "Desequilíbrio extremo entre os times, com zebra sem vitórias e defesa muito frágil, justifica uma aposta mais agressiva na goleada.",
+        "gatilho_saida_parcial": "Goleada: Se o Farul estiver vencendo por 3-0 ou 3-1, proteger parte do lucro. Back Favorito: Se Farul abrir 1 gol de vantagem.",
+        "hard_stop": "Perda total da stake caso o Farul não consiga abrir uma vantagem significativa ou sofra um gol inesperado que mude a dinâmica da goleada."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "SSC Farul",
+        "odd_alvo": "1.25",
+        "razao": "Favoritismo esmagador do Farul (1.53 PPJ) contra o lanterna Metaloglobus (0.21 PPJ), que não venceu nenhum jogo na temporada.",
+        "gatilho_ao_vivo": "null",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Metaloglobus",
+        "odd_zebra_alvo": "8.00",
+        "razao": "Metaloglobus é o lanterna, sem vitórias na temporada e com uma defesa extremamente frágil. A probabilidade de vitória é mínima, tornando o Lay muito seguro.",
+        "gatilho_ao_vivo": "null",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "SSC Farul",
+        "indice_gols_final": "Metaloglobus sofre 29% dos seus gols entre 76-90 minutos. Farul mantém pressão ofensiva no final.",
+        "condicao_entrada": "Entrar se SSC Farul vencer por 2 gols após 70min.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
+        "odd_esperada": "1.70 a 2.10",
+        "stake_recomendada": "1%",
+        "observacoes": "A extrema fragilidade defensiva do Metaloglobus no final do jogo é um fator chave."
+      },
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "candidato": "SSC Farul",
+        "razao": "Favoritismo EXTREMO (Farul 1.53 PPJ vs Metaloglobus 0.21 PPJ, 0 vitórias). Metaloglobus com defesa MUITO frágil (2.68 gols sofridos/jogo). Farul em boa fase ofensiva (1.63 gols/jogo).",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "SSC Farul - Total de Gols Acima de 3.5",
+        "odd_esperada": "3.50 a 6.00",
+        "stake_recomendada": "1%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "15:30",
+      "liga": "Spain Segunda División",
+      "jogo": "Leganés x SD Huesca",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Leganés",
+      "odd_principal": "1.50",
+      "fair_odd_calculada": "1.35",
+      "valor_esperado": "+11.3% EV — odd 1.50 vs Fair Odd 1.35",
+      "mercado_secundario": "Lay SD Huesca (apostar contra vitória do SD Huesca)",
+      "odd_secundaria": "7.00",
+      "desempenho_1t": "Leganés marca 0.53 no 1ºT; SD Huesca sofre 0.79 no 1ºT",
+      "desempenho_2t": "Leganés marca 0.63 no 2ºT; SD Huesca sofre 1.21 no 2ºT",
+      "motivacao_tecnica": "Leganés é o favorito claro (1.21 PPJ) jogando em casa contra o SD Huesca, que é o lanterna da liga (0.42 PPJ) e está em péssima fase, com 7 derrotas nos últimos 8 jogos e apenas 2 vitórias em 19 jogos. A defesa do Huesca é muito frágil (2.00 gols sofridos/jogo). O Back Favorito no Leganés oferece excelente valor. O Lay Zebra contra o Huesca também é uma aposta muito segura. O Over Limite 70+ é aplicável se o Leganés estiver com uma boa vantagem, dada a fragilidade defensiva do Huesca e o padrão de gols no final do jogo.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto (muito irregular e ruim)",
+      "mando_de_campo": "Leganés joga em casa, buscando consolidar sua posição contra um time em crise.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Leganés tem ataque consistente. SD Huesca sofre muitos gols, especialmente no segundo tempo, indicando cansaço e falta de organização.",
+      "momento_gols": "Leganés marca 32% dos gols entre 76-90 minutos. SD Huesca sofre 26% dos gols entre 46-60 minutos e 18% entre 76-90 minutos, mostrando fragilidade constante na segunda etapa.",
+      "jogadores_chave": "Leganés: Álex Millán (6 G, 1 A), Gonzalo Melero (5 G, 1 A), Luis Henrique (4 G, 6 A). SD Huesca: Óscar Sielva (7 G, 6 A), Enol Rodríguez (5 G, 1 A).",
+      "placares_provaveis": "2x0, 2x1, 3x0",
+      "momento_entrada": "Pré-jogo para Back Favorito/Lay Zebra. Ao vivo para Over Limite 70+.",
+      "situacao_saida": "Back Favorito/Lay Zebra: Proteção de lucro em 1x0 ou 2x0. Over Limite: Após o gol ou odd desvalorizada por falta de chances.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favorito claro com boa odd e zebra em péssima fase, o que oferece uma aposta relativamente segura. O Over Limite é um complemento para valor ao vivo.",
+        "gatilho_saida_parcial": "Lay Zebra: Se Huesca empatar ou vencer, reavaliar. Back Favorito: Se Leganés abrir vantagem de 1 gol. Over Limite: Com 1 gol do favorito para proteger.",
+        "hard_stop": "Perda total da stake em caso de virada da zebra ou placar não favorável no Over Limite."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Leganés",
+        "odd_alvo": "1.50",
+        "razao": "Leganés é o favorito claro jogando em casa contra o lanterna SD Huesca, que está em uma sequência de resultados muito ruins e possui uma defesa frágil.",
+        "gatilho_ao_vivo": "null",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "SD Huesca",
+        "odd_zebra_alvo": "7.00",
+        "razao": "SD Huesca é o último colocado, com apenas 11% de vitórias e uma defesa que sofre 2.00 gols por jogo. Sua odd de vitória é inflada, tornando o Lay muito atrativo.",
+        "gatilho_ao_vivo": "lay após zebra marcar primeiro, se for considerado gol fortuito ou não sustentável pela pressão do favorito.",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "Leganés",
+        "indice_gols_final": "Leganés marca 32% dos gols entre 76-90 minutos. SD Huesca sofre 18% dos gols entre 76-90 minutos, além de 26% entre 46-60 minutos.",
+        "condicao_entrada": "Entrar se Leganés vencer por 2 gols após 70min.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
+        "odd_esperada": "1.70 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "A fragilidade defensiva do Huesca, especialmente no segundo tempo, sugere que mais gols são prováveis se o Leganés tiver uma boa vantagem."
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Leganés deve dominar a posse e buscar o gol, enquanto Huesca deve se defender e tentar explorar contra-ataques isolados.",
+        "gatilhos_aceleracao": "Leganés pressionando alto, com muitas finalizações e Huesca demonstrando desorganização defensiva.",
+        "alerta_armadilha": "Leganés com dificuldade para criar chances claras ou Huesca conseguindo conter o ímpeto ofensivo do Leganés.",
+        "mercado_recomendado": "Back Favorito (ao vivo) ou Over Limite 70+",
+        "momento_observacao": "Primeiros 15-20 minutos para leitura tática, e a partir dos 70 minutos para o gatilho de Over Limite."
+      }
+    },
+    {
+      "horario": "18:30",
+      "liga": "Uruguay Primera División",
+      "jogo": "Deportivo Maldonado x Danubio",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70",
+        "back_goleada"
+      ],
+      "mercado_principal": "Over Limite 70+ (Mais X.5 gols)",
+      "odd_principal": "1.85",
+      "fair_odd_calculada": "1.60",
+      "valor_esperado": "+15.6% EV — odd 1.85 vs Fair Odd 1.60 (estimado)",
+      "mercado_secundario": "Vitória Deportivo Maldonado",
+      "odd_secundaria": "1.55",
+      "desempenho_1t": "Maldonado marca 1.14 no 1ºT; Danubio sofre 0.38 no 1ºT",
+      "desempenho_2t": "Maldonado marca 0.71 no 2ºT; Danubio sofre 1.50 no 2ºT",
+      "motivacao_tecnica": "Deportivo Maldonado é o líder com um favoritismo claro (2.57 PPJ, 86% de vitórias em 7 jogos) contra o Danubio (1.00 PPJ, 25% de vitórias). A defesa do Danubio é muito frágil (1.88 gols sofridos/jogo, xG contra 1.55) e, crucialmente, sofre 47% dos seus gols entre 76-90 minutos. O Maldonado, embora não marque 3+ gols por jogo na média geral (1.86), tem um ataque muito eficiente e joga em casa. O cenário para o Over Limite 70+ é EXTREMAMENTE FORTE, dada a vulnerabilidade tardia do Danubio. Back Favorito e Lay Zebra também são muito promissores. Back Goleada também é aplicável, considerando a superioridade e a fragilidade adversária.",
+      "coeficiente_regularidade": "Casa: CV baixo (excelente) / Visitante: CV alto (muito inconsistente)",
+      "mando_de_campo": "Deportivo Maldonado, o líder da liga, joga em casa, onde é muito forte.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Maldonado marca consistentemente em ambos os tempos, com foco nos minutos finais. Danubio sofre muitos gols, com uma fragilidade acentuada no segundo tempo.",
+      "momento_gols": "Danubio sofre 47% dos seus gols entre 76-90 minutos e 20% entre 61-75 minutos. Maldonado marca 23% dos seus gols entre 76-90 minutos. Este é um padrão de gols tardios muito forte para a entrada Over Limite 70+.",
+      "jogadores_chave": "Maldonado: Alis Noble (6 G), Christian Tabó (4 G). Danubio: Mateo Peralta (3 G), Maicol Ferreira (2 G, 2 A).",
+      "placares_provaveis": "2x0, 3x0, 3x1, 4x0",
+      "momento_entrada": "Ao vivo para Over Limite 70+. Pré-jogo para Back Favorito/Lay Zebra/Back Goleada.",
+      "situacao_saida": "Over Limite: Após o gol ou odd desvalorizada. Back Favorito/Lay Zebra/Back Goleada: Cash-out em lucro parcial com o desenrolar do jogo.",
+      "stake_recomendada": "1% para Over Limite 70+ (devido à especificidade do gatilho)",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "A extrema fragilidade do Danubio no final do jogo e o forte ataque do Maldonado criam uma janela de oportunidade muito clara para o Over Limite 70+, complementada por outras apostas de valor pré-jogo.",
+        "gatilho_saida_parcial": "Over Limite: Se houver 1 gol após a entrada. Back Favorito/Goleada: Se Maldonado abrir vantagem de 1 ou 2 gols.",
+        "hard_stop": "Perda total da stake caso o placar se mantenha ou haja uma virada inesperada."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Deportivo Maldonado",
+        "odd_alvo": "1.55",
+        "razao": "Maldonado é o líder da liga, com aproveitamento de 2.57 PPJ e 86% de vitórias, jogando em casa contra um adversário de meio de tabela com desempenho fraco.",
+        "gatilho_ao_vivo": "null",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Danubio",
+        "odd_zebra_alvo": "6.50",
+        "razao": "Danubio é a zebra clara, com desempenho inconsistente, baixa taxa de vitórias (25%) e uma defesa frágil que infla sua odd de vitória.",
+        "gatilho_ao_vivo": "null",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "Deportivo Maldonado",
+        "indice_gols_final": "Danubio sofre 47% dos seus gols entre 76-90 minutos. Deportivo Maldonado marca 23% dos seus gols no mesmo período.",
+        "condicao_entrada": "Entrar se Deportivo Maldonado vencer por 2 gols após 70min.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "A fragilidade extrema do Danubio no final do jogo é o fator determinante."
+      },
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "candidato": "Deportivo Maldonado",
+        "razao": "Favoritismo extremo do Maldonado (2.57 PPJ, 86% vitórias) contra uma defesa frágil do Danubio (1.88 gols sofridos/jogo). Embora o ataque do Maldonado seja de 1.86 gols/jogo (não 3+), a superioridade geral e a fragilidade do adversário justificam a aposta na goleada.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Deportivo Maldonado - Total de Gols Acima de 3.5",
+        "odd_esperada": "4.00 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "20h00",
       "liga": "Bolivia LFPB",
       "jogo": "Real Potosí x San Antonio Bulo Bulo",
-      "mercado_principal": "Mais 2.5 gols",
-      "odd_principal": "1.80",
-      "fair_odd_calculada": "1.55",
-      "valor_esperado": "+16% EV (odd de mercado 1.80 vs fair odd 1.55)",
-      "mercado_secundario": "Real Potosí para vencer e Mais 2.5 gols",
-      "odd_secundaria": "2.20",
-      "desempenho_1t": "Casa marca 0.67 no 1ºT em média, Visitante sofre 1.00 no 1ºT em média. No 2ºT, Casa marca 0.67 e Visitante sofre 1.33.",
-      "desempenho_2t": "Real Potosí marca 0.67 gols no 2ºT em média, San Antonio Bulo Bulo sofre 1.33 gols no 2ºT em média.",
-      "motivacao_tecnica": "Real Potosí (12º) busca subir na tabela e tem um desempenho razoável (1.33 PPG, 1W 1D 1L). Enfrenta o lanterna San Antonio Bulo Bulo (14º), que perdeu todos os seus 3 jogos (0.00 PPG, 0W 0D 3L), sofreu 7 gols (2.33 gols/jogo) e marcou apenas 3. O xG do Real Potosí (2.19) é significativamente maior que o do San Antonio (1.59), e o xG contra do San Antonio (1.76) é alto, indicando fragilidade defensiva. Ambos os times mostram forte tendência a gols no segundo tempo e, crucialmente, após os 70 minutos. Real Potosí marcou 50% de seus gols e sofreu 50% de seus gols após os 76 minutos. San Antonio marcou 67% e sofreu 29% de seus gols após os 76 minutos. Este cenário sugere que o jogo tende a ser aberto e ter mais ação na reta final, especialmente com o favorito pressionando e o adversário cedendo espaços.",
-      "coeficiente_regularidade": "Casa: CV baixo (alta consistência) / Fora: CV baixo (consistentemente ruim)",
-      "mando_de_campo": "Real Potosí joga em casa, buscando consolidar sua posição. San Antonio Bulo Bulo tem desempenho 0.00 pontos por jogo como visitante.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Real Potosí tem capacidade de construção e boa finalização (alto xG a favor). San Antonio, apesar da fragilidade, conseguiu marcar gols em seus jogos, muitas vezes aproveitando falhas adversárias ou em momentos de desorganização defensiva.",
-      "momento_gols": "Real Potosí: 16-30min e 76-90min. San Antonio Bulo Bulo: 46-60min e 76-90min. Ambos com alta incidência de gols no final (76-90min).",
-      "jogadores_chave": "Real Potosí: Jeferson Rivas Tirado (2 gols), Gonzalo Reynaldo Añasgo (1 gol, 2 assistências). San Antonio Bulo Bulo: Rafael Menacho (4 gols), Andrés Felipe Córdoba Benítez (2 gols, 1 assistência).",
-      "placares_provaveis": "2x1, 3x1, 3x2",
-      "momento_entrada": "Pré-jogo para Over 2.5 gols, ou ao vivo na segunda metade do 2º tempo aplicando o gatilho 'Over Limite 70+'.",
-      "situacao_saida": "Cash-out se o jogo perder intensidade ofensiva do favorito, se o placar já estiver alto e seguro, ou se o favorito demonstrar satisfação com o resultado.",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Real Potosí",
+      "odd_principal": "1.70",
+      "fair_odd_calculada": "1.45",
+      "valor_esperado": "+17.2% EV — odd 1.70 vs Fair Odd 1.45",
+      "mercado_secundario": "Lay San Antonio Bulo Bulo",
+      "odd_secundaria": "5.50",
+      "desempenho_1t": "Real Potosí: 0.67 gols marcados, 0.00 gols sofridos no 1ºT. San Antonio: 0.00 gols marcados, 1.00 gols sofridos no 1ºT.",
+      "desempenho_2t": "Real Potosí: 0.67 gols marcados, 0.67 gols sofridos no 2ºT. San Antonio: 1.00 gols marcados, 1.33 gols sofridos no 2ºT.",
+      "motivacao_tecnica": "Real Potosí demonstra um claro favoritismo jogando em casa contra um San Antonio Bulo Bulo que não conquistou nenhum ponto e tem uma defesa extremamente frágil (2.33 gols sofridos/jogo). O xG a favor do Real Potosí (2.19) é bem superior ao do San Antonio (1.59), e a diferença de xG contra (Real Potosí 1.43 vs San Antonio 1.76) indica superioridade defensiva do mandante. Real Potosí tem 33% de vitórias e San Antonio 0%. A média de gols sofridos do San Antonio Bulo Bulo fora de casa é um fator chave, aumentando a probabilidade de vitória do Potosí. A baixa porcentagem de ambas marcam para o Real Potosí (33%) e a falha em marcar no 1º tempo para o San Antonio (100%) reforçam o cenário de domínio do mandante. A alta taxa de gols sofridos pelo San Antonio no 2º tempo (1.33) sugere que o Over Limite 70+ pode ser uma boa entrada se o Real Potosí estiver na frente.",
+      "coeficiente_regularidade": "Real Potosí: CV baixo (defesa consistente em casa) / San Antonio: CV alto (desempenho inconsistente)",
+      "mando_de_campo": "Real Potosí faz 1.33 pontos por jogo em casa, mostrando boa performance inicial. San Antonio Bulo Bulo não marcou pontos fora.",
+      "condicoes_campo": "Sem fatores relevantes reportados.",
+      "desfalques_chave": "Elenco completo para ambos os times.",
+      "especificidades_gols": "Real Potosí marca mais no 2º tempo (50% dos gols após 75min). San Antonio Bulo Bulo sofre muito no 2º tempo (29% dos gols sofridos após 75min).",
+      "momento_gols": "Real Potosí tem 50% dos gols marcados entre 16-30 min e 76-90 min. San Antonio sofre 29% dos gols entre 76-90 min.",
+      "jogadores_chave": "Real Potosí: Jeferson Rivas Tirado (2 gols em 5 jogos). San Antonio: Rafael Menacho (4 gols em 6 jogos).",
+      "placares_provaveis": "2x0, 2x1, 3x0",
+      "momento_entrada": "Pré-jogo para Back Favorito/Lay Zebra. Ao vivo para Over Limite 70+.",
+      "situacao_saida": "Proteger lucro com cash-out parcial se Real Potosí abrir boa vantagem para Back Favorito e Lay Zebra. Para Over Limite 70+, cash-out parcial após o gol, ou total se o jogo estagnar.",
       "stake_recomendada": "2%",
       "plano_execucao": {
-        "abordagem": "forçar",
-        "justificativa_abordagem": "A tendência de gols é clara no final da partida para ambos os times, especialmente com o favorito pressionando e o adversário cedendo. Esperar pode significar perder o valor da odd.",
-        "gatilho_saida_parcial": "Escanteio ou falta perigosa contra o favorito, especialmente se o placar já estiver folgado. Cartão vermelho para o favorito.",
-        "hard_stop": "Gol inesperado da zebra que descaracterize o cenário de controle do favorito, lesão de um atacante-chave do favorito, ou mudança tática defensiva drástica e eficaz do favorito."
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro com boa sustentação estatística, permitindo uma entrada mais conservadora e busca de valor.",
+        "gatilho_saida_parcial": "Para Back Favorito, se o Real Potosí abrir 2 gols de vantagem. Para Lay Zebra, se o Real Potosí marcar o primeiro gol.",
+        "hard_stop": "Perda de 50% da stake para Back Favorito se o jogo estiver desfavorável no HT. Para Lay Zebra, se a zebra marcar 2 gols."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Real Potosí",
+        "odd_alvo": "1.70",
+        "razao": "Real Potosí joga em casa, tem melhor PPG e desempenho geral, enfrentando um adversário com 0 vitórias e defesa muito frágil.",
+        "gatilho_ao_vivo": "null",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "San Antonio Bulo Bulo",
+        "odd_zebra_alvo": "5.50",
+        "razao": "San Antonio Bulo Bulo tem 0 vitórias em 3 jogos, 0.00 PPG e uma defesa que sofre 2.33 gols/jogo. Sua odd de vitória está inflada devido à fraqueza geral.",
+        "gatilho_ao_vivo": "Lay San Antonio se abrir o placar inesperadamente, aproveitando a tendência de viradas contra equipes mais fracas.",
+        "stake_recomendada": "1.5%"
       },
       "over_limite_70": {
-        "elegivel": true,
+        "aplicavel": true,
         "favorito": "Real Potosí",
-        "indice_gols_final": "Real Potosí marcou 50% e sofreu 50% de seus gols após 76min. San Antonio marcou 67% e sofreu 29% de seus gols após 76min.",
-        "condicao_entrada": "Entrar se Real Potosí vencer por 2 gols de diferença após os 70min.",
+        "indice_gols_final": "Real Potosí marca 50% de seus gols e San Antonio Bulo Bulo sofre 29% de seus gols entre 76-90 minutos. Real Potosí tem 0.67 gols marcados e San Antonio 1.33 gols sofridos no 2º tempo.",
+        "condicao_entrada": "Entrar se Real Potosí estiver vencendo por 2 gols de diferença após os 70 minutos.",
+        "mercado_sugerido": "Mais 3.5 gols (assumindo 2x0, buscar 3x0)",
+        "odd_esperada": "1.80 a 2.50",
+        "stake_recomendada": "1%",
+        "observacoes": "Monitore o ritmo do jogo e o cansaço das defesas. A defesa do San Antonio é propensa a ceder no final."
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Real Potosí deve dominar o meio-campo e buscar ataques pelos lados, explorando as fragilidades defensivas do San Antonio. San Antonio deve jogar reativo, buscando contra-ataques isolados.",
+        "gatilhos_aceleracao": "Potosí mostrando agressividade ofensiva desde o início, com transições rápidas e alta posse de bola no campo adversário.",
+        "alerta_armadilha": "San Antonio conseguindo se fechar bem e frustrar as tentativas de ataque do Potosí, ou surpreendendo com um gol cedo.",
+        "mercado_recomendado": "Back Favorito / Lay Zebra",
+        "momento_observacao": "Primeiros 15-20 minutos para avaliar a dominância do Real Potosí."
+      }
+    },
+    {
+      "horario": "11h00",
+      "liga": "Egypt Egyptian Premier League",
+      "jogo": "El Geish x Pharco",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra"
+      ],
+      "mercado_principal": "Vitória El Geish",
+      "odd_principal": "1.65",
+      "fair_odd_calculada": "1.40",
+      "valor_esperado": "+17.8% EV — odd 1.65 vs Fair Odd 1.40",
+      "mercado_secundario": "Lay Pharco",
+      "odd_secundaria": "6.00",
+      "desempenho_1t": "El Geish: 0.64 gols marcados, 0.43 gols sofridos no 1ºT. Pharco: 0.13 gols marcados, 0.60 gols sofridos no 1ºT.",
+      "desempenho_2t": "El Geish: 0.21 gols marcados, 0.43 gols sofridos no 2ºT. Pharco: 0.33 gols marcados, 0.67 gols sofridos no 2ºT.",
+      "motivacao_tecnica": "El Geish é um favorito claro neste confronto. Com 1.50 PPG e 43% de vitórias, está em 10º lugar, enquanto o Pharco é o 20º, com apenas 0.60 PPG e 7% de vitórias (1 vitória em 15 jogos). O El Geish tem um ataque mais eficiente (0.86 gols/jogo) e uma defesa mais sólida (0.86 gols sofridos/jogo) em comparação com o Pharco (0.47 gols marcados/jogo e 1.27 gols sofridos/jogo). O xG a favor do El Geish (1.35) é maior que seu xG contra (1.23), indicando uma balança positiva, enquanto o Pharco tem xG a favor (1.05) menor que xG contra (1.52). O Pharco falhou em marcar em 60% dos jogos e perdeu o 1º tempo em 40% dos jogos, o que solidifica o cenário de dominância do El Geish.",
+      "coeficiente_regularidade": "El Geish: CV baixo (defesa consistente) / Pharco: CV alto (desempenho irregular, ataque fraco)",
+      "mando_de_campo": "El Geish aproveita bem o fator casa para solidificar sua posição na tabela.",
+      "condicoes_campo": "Sem fatores relevantes reportados.",
+      "desfalques_chave": "Elenco completo para ambos os times.",
+      "especificidades_gols": "El Geish marca 42% dos seus gols no 1º tempo (entre 0-15min e 31-45min). Pharco sofre 50% dos seus gols no 1º tempo e 42% no 2º tempo.",
+      "momento_gols": "El Geish marca mais cedo, com 33% dos gols entre 0-15min e 42% entre 31-45min. Pharco sofre 16% dos gols em cada um dos primeiros 3 períodos do 1T.",
+      "jogadores_chave": "El Geish: Ismaïl Ouro-Agoro (5 gols, 3 assistências). Pharco: Babacar Ndiaye (3 gols, 1 assistência).",
+      "placares_provaveis": "1x0, 2x0, 2x1",
+      "momento_entrada": "Pré-jogo para Back Favorito/Lay Zebra.",
+      "situacao_saida": "Cash-out parcial para proteger lucro se El Geish abrir 1 ou 2 gols de vantagem.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro em um jogo com tendência a poucos gols, mas com a odd do favorito ainda oferecendo valor.",
+        "gatilho_saida_parcial": "Se El Geish marcar o primeiro gol, reduzir exposição. Se El Geish abrir 2x0, considerar cash-out total/parcial.",
+        "hard_stop": "Perda de 50% da stake para Back Favorito se o El Geish estiver perdendo por 1x0 no intervalo."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "El Geish",
+        "odd_alvo": "1.65",
+        "razao": "Favoritismo claro do El Geish, que está em boa fase e joga em casa, contra um Pharco em péssima forma e com ataque ineficiente.",
+        "gatilho_ao_vivo": "null",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Pharco",
+        "odd_zebra_alvo": "6.00",
+        "razao": "Pharco tem apenas 1 vitória em 15 jogos (7% de vitórias) e é uma das equipes mais fracas da liga, com ataque pouco produtivo (0.47 gols/jogo).",
+        "gatilho_ao_vivo": "Lay Pharco se, contra as expectativas, marcar um gol, pois a probabilidade de virada é alta dada sua fraqueza ofensiva.",
+        "stake_recomendada": "1.5%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "El Geish deve ser o time propositivo, buscando o controle do jogo e explorando as deficiências defensivas do Pharco. Pharco, por sua vez, deve adotar uma postura mais defensiva, buscando compactar as linhas e talvez tentar algo em contra-ataques.",
+        "gatilhos_aceleracao": "El Geish demonstrando alta intensidade e pressão ofensiva desde o início, com boa criação de jogadas. Falhas na saída de bola do Pharco.",
+        "alerta_armadilha": "Pharco conseguindo neutralizar as ações do El Geish e manter o jogo em um ritmo lento, ou um erro individual do El Geish que resulte em gol do adversário.",
+        "mercado_recomendado": "Back Favorito / Lay Zebra",
+        "momento_observacao": "Primeiros 15-20 minutos para confirmar o controle do El Geish e a passividade do Pharco."
+      }
+    },
+    {
+      "horario": "14h00",
+      "liga": "Egypt Egyptian Premier League",
+      "jogo": "Al Mokawloon x Wadi Degla",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Wadi Degla",
+      "odd_principal": "2.20",
+      "fair_odd_calculada": "1.80",
+      "valor_esperado": "+22.2% EV — odd 2.20 vs Fair Odd 1.80",
+      "mercado_secundario": "Lay Al Mokawloon",
+      "odd_secundaria": "3.20",
+      "desempenho_1t": "Al Mokawloon: 0.44 gols marcados, 0.31 gols sofridos no 1ºT. Wadi Degla: 0.29 gols marcados, 0.36 gols sofridos no 1ºT.",
+      "desempenho_2t": "Al Mokawloon: 0.31 gols marcados, 0.63 gols sofridos no 2ºT. Wadi Degla: 0.86 gols marcados, 0.50 gols sofridos no 2ºT.",
+      "motivacao_tecnica": "Wadi Degla, apesar de jogar fora de casa, apresenta um desempenho significativamente superior ao Al Mokawloon. O Wadi Degla está na 5ª posição com 1.57 PPG e 36% de vitórias, enquanto o Al Mokawloon está na 15ª posição com 1.06 PPG e 19% de vitórias. O ataque do Wadi Degla (1.14 gols/jogo) é mais produtivo que o do Al Mokawloon (0.75 gols/jogo), e suas defesas são comparáveis (Wadi Degla 0.86 sofridos/jogo vs Al Mokawloon 0.94 sofridos/jogo). O Wadi Degla tem um xG a favor (1.28) muito próximo do Al Mokawloon, mas sua conversão em gols é melhor. O Wadi Degla mostra uma capacidade de finalização melhor, e sua performance no 2º tempo é notavelmente mais forte, com 0.86 gols marcados/jogo contra 0.31 do Al Mokawloon. Isso pode gerar valor para o Back Favorito ou para o Over Limite 70+ se o Wadi Degla assumir a liderança. As odds do Wadi Degla como visitante podem oferecer valor acima do esperado.",
+      "coeficiente_regularidade": "Al Mokawloon: CV moderado / Wadi Degla: CV baixo (defesa sólida e ataque consistente)",
+      "mando_de_campo": "Al Mokawloon tem aproveitamento médio em casa. Wadi Degla tem um desempenho sólido mesmo como visitante.",
+      "condicoes_campo": "Sem fatores relevantes reportados.",
+      "desfalques_chave": "Elenco completo para ambos os times.",
+      "especificidades_gols": "Al Mokawloon tem um momento de gols mais distribuído, com picos no início e final do 1T e final do 2T. Wadi Degla concentra 44% dos seus gols entre 61-75 minutos.",
+      "momento_gols": "Al Mokawloon marca 33% dos gols entre 31-45 min e 33% entre 76-90 min. Wadi Degla tem 44% dos gols entre 61-75 min e 31% entre 76-90 min.",
+      "jogadores_chave": "Al Mokawloon: Shoukri Nagib (6 gols). Wadi Degla: Franck Boli (9 gols).",
+      "placares_provaveis": "0x1, 1x2, 0x2",
+      "momento_entrada": "Pré-jogo para Back Favorito/Lay Zebra. Ao vivo para Over Limite 70+.",
+      "situacao_saida": "Cash-out parcial para Back Favorito se Wadi Degla abrir 1 gol. Para Lay Zebra, cash-out se Al Mokawloon estiver dominando no HT. Para Over Limite 70+, cash-out parcial após o gol, ou total se o jogo estagnar.",
+      "stake_recomendada": "1.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Wadi Degla é superior, mas joga fora. As odds podem estar mais altas que o fair value, justificando uma entrada com valor.",
+        "gatilho_saida_parcial": "Se Wadi Degla marcar o primeiro gol, reduzir exposição. Se estiver vencendo por 2x0, considerar cash-out total/parcial.",
+        "hard_stop": "Perda de 50% da stake para Back Favorito se o Wadi Degla estiver perdendo por 1x0 no intervalo."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Wadi Degla",
+        "odd_alvo": "2.20",
+        "razao": "Wadi Degla tem um desempenho muito superior ao Al Mokawloon em pontos, vitórias e gols marcados, mesmo jogando fora de casa. Há valor na odd.",
+        "gatilho_ao_vivo": "null",
+        "stake_recomendada": "1.5%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Al Mokawloon",
+        "odd_zebra_alvo": "3.20",
+        "razao": "Al Mokawloon tem baixo percentual de vitórias (19%) e um ataque menos eficaz. A aposta contra sua vitória é justificada pela superioridade do adversário.",
+        "gatilho_ao_vivo": "Lay Al Mokawloon se abrir o placar de forma inesperada, aproveitando a capacidade de reação do Wadi Degla.",
+        "stake_recomendada": "1.5%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "Wadi Degla",
+        "indice_gols_final": "Wadi Degla marca 75% dos seus gols no segundo tempo, com 44% entre 61-75 minutos e 31% entre 76-90 minutos. Al Mokawloon sofre 40% dos seus gols entre 76-90 minutos.",
+        "condicao_entrada": "Entrar se Wadi Degla estiver vencendo por 2 gols de diferença após os 70 minutos.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
+        "odd_esperada": "1.70 a 2.40",
+        "stake_recomendada": "0.75%",
+        "observacoes": "Ataque forte do Wadi Degla no final do jogo pode explorar o cansaço do Al Mokawloon."
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Wadi Degla deve buscar o controle do jogo e explorar a criação de jogadas. Al Mokawloon tentará ser mais defensivo e apostar em contra-ataques.",
+        "gatilhos_aceleracao": "Wadi Degla mostrando superioridade tática e técnica, com boa movimentação ofensiva e solidez defensiva.",
+        "alerta_armadilha": "Al Mokawloon conseguindo anular o meio-campo do Wadi Degla e criar oportunidades perigosas em transições.",
+        "mercado_recomendado": "Back Favorito / Lay Zebra",
+        "momento_observacao": "Primeiros 15-20 minutos para avaliar o domínio territorial e a qualidade das finalizações do Wadi Degla."
+      }
+    },
+    {
+      "horario": "16h00",
+      "liga": "England Premier League",
+      "jogo": "Arsenal x Burnley",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Arsenal",
+      "odd_principal": "1.25",
+      "fair_odd_calculada": "1.15",
+      "valor_esperado": "+8.7% EV — odd 1.25 vs Fair Odd 1.15",
+      "mercado_secundario": "Lay Burnley",
+      "odd_secundaria": "10.00",
+      "desempenho_1t": "Arsenal: 0.94 gols marcados, 0.22 gols sofridos no 1ºT. Burnley: 0.44 gols marcados, 1.00 gols sofridos no 1ºT.",
+      "desempenho_2t": "Arsenal: 1.28 gols marcados, 0.39 gols sofridos no 2ºT. Burnley: 0.67 gols marcados, 1.50 gols sofridos no 2ºT.",
+      "motivacao_tecnica": "O Arsenal é um favorito esmagador neste confronto da Premier League. Com 2.44 PPG e 78% de vitórias, está lutando pelas primeiras posições, enquanto o Burnley é o 19º colocado com apenas 0.50 PPG e 11% de vitórias. O Arsenal tem um ataque muito potente (2.22 gols/jogo) e uma defesa extremamente sólida (0.61 gols sofridos/jogo). Em contraste, o Burnley sofre uma média altíssima de 2.50 gols por jogo e seu ataque (1.11 gols/jogo) é insuficiente para competir. O xG do Arsenal (1.85 a favor e 0.83 contra) demonstra sua superioridade, enquanto o Burnley (0.99 a favor e 1.91 contra) confirma sua vulnerabilidade. A probabilidade de vitória do Arsenal é muito alta, tornando o BACK FAVORITO uma entrada de alto valor, mesmo com odds baixas. O cenário de Lay Zebra no Burnley também é muito forte, dada a probabilidade ínfima de vitória do time visitante. A fragilidade defensiva do Burnley no segundo tempo (1.50 gols sofridos/jogo) e o forte ataque do Arsenal no mesmo período (1.28 gols/jogo) criam um ambiente propício para o OVER LIMITE 70+.",
+      "coeficiente_regularidade": "Arsenal: CV muito baixo (performance extremamente consistente) / Burnley: CV muito alto (desempenho inconsistente e geralmente fraco)",
+      "mando_de_campo": "O Arsenal é dominante em casa, onde constrói grande parte de seus resultados positivos.",
+      "condicoes_campo": "Sem fatores relevantes reportados.",
+      "desfalques_chave": "Elenco completo para ambos os times.",
+      "especificidades_gols": "O Arsenal tem um ataque bem distribuído, com 28% dos gols entre 31-45 min e 28% entre 76-90 min. O Burnley sofre a maioria de seus gols no 2º tempo, com 24% após 75min.",
+      "momento_gols": "Arsenal marca 28% dos gols no final do 1T e 28% no final do 2T. Burnley sofre 20% dos gols entre 31-45 min e 24% entre 76-90 min.",
+      "jogadores_chave": "Arsenal: Viktor Gyökeres (14 gols), Bukayo Saka (7 gols, 5 assistências). Burnley: Zian Flemming (10 gols), Jaidon Anthony (8 gols).",
+      "placares_provaveis": "2x0, 3x0, 3x1, 4x0",
+      "momento_entrada": "Pré-jogo para Back Favorito/Lay Zebra. Ao vivo para Over Limite 70+.",
+      "situacao_saida": "Cash-out parcial para proteger lucro se Arsenal abrir 1 ou 2 gols de vantagem. Para Over Limite 70+, cash-out parcial após o gol, ou total se o jogo estagnar.",
+      "stake_recomendada": "3%",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "O favoritismo do Arsenal é avassalador, com odds de valor mesmo que baixas, indicando alta probabilidade de sucesso. É uma aposta de alta confiança.",
+        "gatilho_saida_parcial": "Se Arsenal abrir 2 gols de vantagem, especialmente até o início do 2T, considerar cash-out parcial para o Back Favorito. Para o Over Limite 70+, após o gol.",
+        "hard_stop": "Perda de 50% da stake se o Arsenal não abrir vantagem no 1º tempo ou se o Burnley surpreender com um gol cedo."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Arsenal",
+        "odd_alvo": "1.25",
+        "razao": "Favoritismo extremo do Arsenal, que é um time de topo da liga, jogando em casa contra o Burnley, um dos piores times com defesa muito frágil.",
+        "gatilho_ao_vivo": "null",
+        "stake_recomendada": "3%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Burnley",
+        "odd_zebra_alvo": "10.00",
+        "razao": "O Burnley tem apenas 11% de vitórias, sofre 2.50 gols/jogo e enfrenta o Arsenal. A probabilidade de sua vitória é mínima, justificando o Lay Zebra.",
+        "gatilho_ao_vivo": "Lay Burnley após o seu primeiro gol (se acontecer), dada a alta probabilidade de virada do Arsenal.",
+        "stake_recomendada": "2.5%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "Arsenal",
+        "indice_gols_final": "O Arsenal marca 28% de seus gols e o Burnley sofre 24% de seus gols entre 76-90 minutos. O Arsenal tem 1.28 gols marcados e o Burnley 1.50 gols sofridos no 2º tempo, indicando alta tendência de gols tardios.",
+        "condicao_entrada": "Entrar se Arsenal estiver vencendo por 2 gols de diferença após os 70 minutos.",
         "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
         "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Atenção à intensidade ofensiva do Real Potosí e à capacidade do San Antonio de ainda criar alguma chance de gol."
+        "stake_recomendada": "1.5%",
+        "observacoes": "A fragilidade defensiva do Burnley no final do jogo é um fator crítico. Arsenal tem a capacidade de pressionar até o fim."
       },
+      "back_2x2": null,
+      "back_goleada": null,
       "confirmacao_visual": {
-        "elegivel": true,
-        "perfil_tatico": "Real Potosí é o time dominante, buscando o gol através de posse de bola e ataques contínuos. Espera-se um perfil de pressão alta e busca por espaços na defesa adversária.",
-        "gatilhos_aceleracao": "Encaixe defensivo na metade ofensiva, subida coordenada das linhas defensiva e de meio do Real Potosí, aumento da velocidade de passes no terço final adversário.",
-        "alerta_armadilha": "Sinais de que o San Antonio Bulo Bulo está recuando em bloco baixo, buscando apenas contra-ataques com poucos jogadores. Isso pode significar que o favorito terá dificuldade em penetrar, ou que o adversário está cedendo espaço de propósito."
+        "aplicavel": true,
+        "perfil_tatico": "O Arsenal deve impor um ritmo de jogo intenso, com alta posse de bola, muitas finalizações e pressão constante na defesa do Burnley. O Burnley deve se fechar, buscando conter o ataque do Arsenal e tentar poucos contra-ataques.",
+        "gatilhos_aceleracao": "Arsenal mostrando encaixe defensivo imediato em perdas de posse, subida de linhas e velocidade na troca de passes no terço final do campo. Pressão alta e efetiva.",
+        "alerta_armadilha": "Burnley conseguindo se defender com uma linha baixa e compacta, frustrando as tentativas do Arsenal, ou o Arsenal demonstrando dificuldades em converter as chances em gols.",
+        "mercado_recomendado": "Back Favorito / Over Limite 70+",
+        "momento_observacao": "Primeiros 15-20 minutos para confirmar a dominância do Arsenal e sua capacidade de criação de jogadas."
       }
     }
   ],
   "evitar": [
     {
-      "horario": "11:00",
-      "jogo": "Kahraba Ismailia x Haras El Hodood",
-      "liga": "Egypt Egyptian Premier League",
-      "motivo": "Confronto entre duas equipes do fundo da tabela, sem favorito claro e com desempenho imprevisível."
-    },
-    {
-      "horario": "11:00",
-      "jogo": "El Geish x Pharco",
-      "liga": "Egypt Egyptian Premier League",
-      "motivo": "Embora haja um favorito claro, ambos os times apresentam médias de gols muito baixas, o que desfavorece apostas em Over."
-    },
-    {
-      "horario": "13:00",
-      "jogo": "Puszcza Niepołomice x ŁKS Łódź",
-      "liga": "Poland 1 Liga",
-      "motivo": "Falta de um favorito claro com odds desequilibradas para a estratégia Over Limite 70+, apesar do potencial de gols."
+      "horario": "14:00",
+      "jogo": "Örgryte x IFK Göteborg",
+      "liga": "Sweden Allsvenskan",
+      "motivo": "Amostra muito pequena (3-4 jogos), dificultando a análise estatística confiável. Ambos os times com 0 vitórias e baixas médias de gols marcados. Nenhum favorito claro nem padrão de gols que se encaixe nos métodos."
     },
     {
       "horario": "14:00",
-      "jogo": "Ghazl El Mehalla x Al Ittihad",
-      "liga": "Egypt Egyptian Premier League",
-      "motivo": "Ambas as equipes possuem médias de gols extremamente baixas e não há um favorito claro, tornando a partida imprevisível para mercados de gols."
+      "jogo": "Djurgården x Sirius",
+      "liga": "Sweden Allsvenskan",
+      "motivo": "Amostra muito pequena (3-4 jogos). Embora ambos tenham ataques produtivos, não há um favorito claro para Back Favorito ou Back Goleada. Os critérios para Back 2x2 não são totalmente atendidos (Ambas Marcam e Over HT de uma das equipes estão abaixo dos limites)."
     },
     {
       "horario": "14:30",
-      "jogo": "Unirea Slobozia x UTA Arad",
+      "jogo": "Petrolul 52 x Oţelul Galaţi",
       "liga": "Romania Liga I",
-      "motivo": "Equipes com desempenho equilibrado e sem um favorito claro, além de estatísticas de gols moderadas que não justificam entradas de valor."
+      "motivo": "Nenhum favorito claro (< 1.80 odd), ambas as equipes com baixas médias de gols e Over 2.5 (28%, 33%). Critérios de Back 2x2 e Back Goleada não são atendidos. Cenário muito equilibrado para Lay Zebra sem valor claro."
     },
     {
-      "horario": "19:00",
+      "horario": "15:00",
+      "jogo": "Al Ula x Al Orubah",
+      "liga": "Saudi Arabia First Division",
+      "motivo": "Não há favoritismo claro (ambos com 2.24 PPJ e alta performance). Os critérios de Back 2x2 não são atendidos (defesas não são frágeis, sofrem menos de 1.5 gols/jogo). Sem favoritismo extremo para Back Goleada e Over Limite 70+ depende de um favorito claro, o que não existe neste confronto direto."
+    },
+    {
+      "horario": "19h00",
       "jogo": "Ponte Preta x Londrina",
       "liga": "Brazil Serie B",
-      "motivo": "Ausência de favorito claro e padrões de gols inconsistentes para a estratégia Over Limite 70+."
+      "motivo": "Não há favoritismo claro, ambos os times estão em posições e com PPG similares (1.00 x 0.75). Nenhuma das equipes atinge os critérios para Over 2.5 ou Ambas Marcam, e o ataque de ambos é fraco, não justificando Back Goleada ou Over Limite 70+."
     },
     {
-      "horario": "21:00",
+      "horario": "21h00",
       "jogo": "Guayaquil City FC x Orense SC",
       "liga": "Ecuador Primera Categoría Serie A",
-      "motivo": "Estilos de jogo conflitantes (defensivo vs. ofensivo/leaky) e falta de um favorito claro para a estratégia Over Limite 70+."
+      "motivo": "Ausência de favorito claro com odds abaixo de 1.80. Os critérios para Back 2x2 não são atendidos (Guayaquil com apenas 17% de Over 2.5 e 33% de Ambas Marcam). O desempenho ofensivo do Guayaquil (0.67 gols/jogo) não sustenta o Back Goleada."
+    },
+    {
+      "horario": "11h00",
+      "jogo": "Kahraba Ismailia x Haras El Hodood",
+      "liga": "Egypt Egyptian Premier League",
+      "motivo": "Partida entre dois times na última posição da liga, sem um favorito claro. Kahraba tem 0 vitórias em 17 jogos, e Haras apenas 1 em 13. Nenhuma das equipes atinge os critérios para Back 2x2 ou Back Goleada devido à falta de consistência ofensiva e defensiva."
+    },
+    {
+      "horario": "14h00",
+      "jogo": "Ghazl El Mehalla x Al Ittihad",
+      "liga": "Egypt Egyptian Premier League",
+      "motivo": "Confronto entre equipes de baixo aproveitamento de gols. Nenhum dos times apresenta um favoritismo claro (Ghazl com ataque de 0.40 gols/jogo, Ittihad com 0.63 gols/jogo). Os índices de Over 2.5 (Ghazl 7%, Ittihad 38%) e Ambas Marcam (Ghazl 27%, Ittihad 44%) são muito baixos para justificar Back 2x2. Back Goleada e Over Limite 70+ também não se aplicam devido à baixa produção ofensiva de ambos."
+    },
+    {
+      "horario": "13h00",
+      "jogo": "Puszcza Niepołomice x ŁKS Łódź",
+      "liga": "Poland 1 Liga",
+      "motivo": "Não há um favorito claro (Puszcza 1.50 PPG x ŁKS Łódź 1.31 PPG). Os critérios para Back 2x2 não são totalmente atendidos (Puszcza com 50% de Over 2.5). Não há cenários para Back Goleada ou Over Limite 70+."
+    },
+    {
+      "horario": "14h30",
+      "jogo": "Unirea Slobozia x UTA Arad",
+      "liga": "Romania Liga I",
+      "motivo": "Ausência de favoritismo claro entre as equipes (Unirea 0.94 PPG x UTA Arad 1.22 PPG). Nenhum dos times atinge os critérios de Over 2.5 (Unirea 56%, UTA Arad 44%) para o método Back 2x2. As médias de gols não sustentam Back Goleada ou Over Limite 70+."
     }
   ]
 }
