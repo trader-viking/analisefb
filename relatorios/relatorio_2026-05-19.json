@@ -1,156 +1,392 @@
 {
   "data": "2026-05-19",
   "variante": "",
-  "gerado_em": "2026-05-19T17:22:55.221455",
+  "gerado_em": "2026-05-19T19:06:13.971847",
   "total_partidas_analisadas": 39,
   "total_partidas_disponiveis": 39,
   "entradas": [
     {
-      "horario": "08:30",
-      "liga": "India Indian Super League",
-      "jogo": "NorthEast United x Mohammedan",
+      "horario": "09:00",
+      "liga": "China Chinese Super League",
+      "jogo": "Chengdu Better City FC x Shanghai SIPG",
       "metodos_aplicados": [
-        "back_favorito",
-        "lay_zebra",
-        "over_limite_70"
+        "back_favorito"
       ],
-      "mercado_principal": "Vitória NorthEast United",
-      "odd_principal": "1.45",
-      "fair_odd_calculada": "1.39",
-      "valor_esperado": "+4.3% EV — odd 1.45 vs Fair Odd 1.39",
-      "mercado_secundario": "Lay Mohammedan",
-      "odd_secundaria": "7.00",
-      "desempenho_1t": "NorthEast United venceu 29% do 1ºT / Mohammedan perdeu 56% do 1ºT",
-      "desempenho_2t": "NorthEast United marcou 0.86 gols no 2ºT / Mohammedan sofreu 1.22 gols no 2ºT",
-      "motivacao_tecnica": "NorthEast United é um favorito extremo contra Mohammedan. NEU tem 1.29 PPG e 43% de vitórias, enquanto Mohammedan tem pífios 0.33 PPG e 0% de vitórias. A defesa do Mohammedan é extremamente frágil, sofrendo em média 2.44 gols por jogo e com um xG contra de 2.25. NEU marca 1.43 gols/jogo e tem um xG a favor de 1.47. A discrepância é enorme, tornando NEU um candidato forte a Back Favorito. Além disso, Mohammedan nunca venceu, tornando o Lay Zebra altamente atrativo. Para Over Limite 70+, NEU tem 71% de Over 2.5, e Mohammedan sofre 43% dos gols entre 61-75min e 29% entre 76-90min, indicando alta probabilidade de gols tardios se o NEU estiver com 2 gols de vantagem.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto (desempenho inconsistente e muito fraco)",
-      "mando_de_campo": "NorthEast United aproveita o mando de campo para ditar o jogo e impor seu volume ofensivo.",
+      "mercado_principal": "Vitória Shanghai SIPG",
+      "odd_principal": "1.60",
+      "fair_odd_calculada": "1.50",
+      "valor_esperado": "+6.67% EV — odd 1.60 vs Fair Odd 1.50",
+      "mercado_secundario": null,
+      "desempenho_1t": "Chengdu: Marcou 1.5 no 1ºT; Sofreu 0.33 no 1ºT",
+      "desempenho_2t": "Shanghai: Marcou 0.4 no 2ºT; Sofreu 1.4 no 2ºT",
+      "motivacao_tecnica": "Chengdu Better City FC demonstra um favoritismo claro com 100% de aproveitamento em casa, marcando uma média de 3.33 gols por jogo e sofrendo apenas 0.50. Seu ataque é muito produtivo, com destaque para Wellington Alves da Silva (7 gols) e Felipe de Sousa Silva (9 gols), além de Abuduwaili Baihelamu (3 gols). Por outro lado, o Shanghai SIPG apresenta um desempenho inconsistente fora de casa (0.40 pontos por jogo) e uma defesa vulnerável (1.60 gols sofridos por jogo). A odd para a vitória do favorito em casa está atrativa, refletindo o forte poderio ofensivo e o mando de campo.",
+      "coeficiente_regularidade": "Casa: CV baixo (100% vitórias) / Visitante: CV moderado",
+      "mando_de_campo": "Chengdu: 100% dos pontos em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "NorthEast United marca 30% dos gols entre 61-75min. Mohammedan sofre 43% dos gols entre 61-75min e 29% entre 76-90min, indicando forte propensão a ceder gols no final.",
-      "momento_gols": "Ambos os times têm uma alta concentração de gols marcados/sofridos no segundo tempo, especialmente após os 60 minutos.",
-      "jogadores_chave": "NorthEast United: Andrés Rodríguez (4 G), Jithin MS (2 G, 1 A), Parthib Gogoi (2 G, 2 A). Mohammedan: Mahitosh Roy (2 G), Thokchom Adison (2 G).",
-      "placares_provaveis": "2x0, 3x0, 3x1",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra. Ao vivo para Over Limite 70+.",
-      "situacao_saida": "Back Favorito: Proteger lucro após gol do NEU. Lay Zebra: Proteger lucro se o favorito abrir vantagem. Over Limite 70+: Cash-out após o gol ou se o jogo esfriar rapidamente.",
+      "especificidades_gols": "Chengdu marca muitos gols no 1º tempo (9 gols em 5 jogos) e também no 2º tempo (11 gols em 5 jogos). Shanghai SIPG marca mais no 1º tempo (2 gols) mas o 2º tempo tem sido preocupante (2 gols marcados e 7 sofridos em 5 jogos).",
+      "momento_gols": "Chengdu: Gols concentrados no 2º tempo (35% entre 76-90min). Shanghai: Gols no 1º tempo (50% entre 31-45min).",
+      "jogadores_chave": "Chengdu: Wellington Alves da Silva, Felipe de Sousa Silva. Shanghai: Mateus Da Silva Vital Assumpção.",
+      "placares_provaveis": "3x1, 2x1, 3x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out em caso de virada do placar ou placar agregado desfavorável.",
       "stake_recomendada": "2%",
       "plano_execucao": {
-        "abordagem": "forçar",
-        "justificativa_abordagem": "A diferença de qualidade entre os times é gritante, justificando uma abordagem mais agressiva nos métodos que se aplicam. A vulnerabilidade defensiva do Mohammedan e a falta de vitórias o tornam um alvo ideal.",
-        "gatilho_saida_parcial": "Back Favorito: NEU marcando um gol. Lay Zebra: NEU marcando um gol. Over Limite 70+: Se a linha de gols não se mover conforme esperado.",
-        "hard_stop": "Back Favorito: NEU sofrendo o primeiro gol. Lay Zebra: Mohammedan marcando o primeiro gol. Over Limite 70+: Fim do jogo sem o gol adicional, ou se a odd cair drasticamente contra."
+        "abordagem": "propor",
+        "justificativa_abordagem": "O favoritismo em casa do Chengdu é muito claro e estatisticamente dominante, com uma odd que ainda oferece valor para a vitória.",
+        "gatilho_saida_parcial": "Placar desfavorável em 2 gols.",
+        "hard_stop": "Placar agregado adverso ou expulsão de jogador chave."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "favorito": "NorthEast United",
-        "odd_alvo": "1.45",
-        "razao": "Favoritismo extremo contra equipe com 0% de vitórias e defesa extremamente frágil (2.44 gols sofridos/jogo). Odd acima da Fair Odd estimada (1.39).",
+        "favorito": "Chengdu Better City FC",
+        "odd_alvo": "1.60",
+        "razao": "Favoritismo claro em casa com histórico perfeito e ataque avassalador contra adversário com performance fraca fora.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "zebra": "Mohammedan",
-        "odd_zebra_alvo": "7.00",
-        "razao": "Mohammedan não venceu nenhum jogo, tem o pior desempenho da liga e uma defesa muito frágil. A probabilidade de vitória é mínima (Fair Odd estimada 20.00+), oferecendo grande valor para Lay.",
-        "gatilho_ao_vivo": "lay após Mohammedan marcar primeiro (se ocorrer) ou se dominância do favorito for absoluta e a odd de Mohammedan estiver 'inflada' no pré-jogo",
-        "stake_recomendada": "2%"
+        "aplicavel": null
       },
       "over_limite_70": {
-        "aplicavel": true,
-        "favorito": "NorthEast United",
-        "indice_gols_final": "Mohammedan sofre 43% dos gols entre 61-75min e 29% entre 76-90min. NorthEast United marca 30% dos gols entre 61-75min.",
-        "condicao_entrada": "Entrar se NorthEast United vencer por 2 gols após 70min",
-        "mercado_sugerido": "Mais 2.5 gols (ou 3.5 se placar 2x1, etc.)",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "A defesa do Mohammedan é muito frágil no final dos jogos e o NEU tem capacidade de explorar isso. Alta média de gols totais nos jogos de ambos (3.43 NEU, 3.11 Mohammedan)."
+        "aplicavel": null
       },
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": {
+      "back_2x2": {
+        "aplicavel": null
+      },
+      "back_goleada": {
+        "aplicavel": null
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "10:00",
+      "liga": "Paraguay Division Intermedia",
+      "jogo": "Deportivo Capiatá x Fernando de la Mora",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Deportivo Capiatá",
+      "odd_principal": "2.00",
+      "fair_odd_calculada": "1.70",
+      "valor_esperado": "+17.6% EV — odd 2.00 vs Fair Odd 1.70",
+      "mercado_secundario": null,
+      "desempenho_1t": "Capiatá marcou em 50% dos 1ºs tempos, sofreu em 50%. Fernando marcou em 0% e sofreu em 100%.",
+      "desempenho_2t": "Capiatá venceu 25% dos 2ºs tempos, sofreu em 50%. Fernando venceu 67% e sofreu em 67%.",
+      "motivacao_tecnica": "Deportivo Capiatá apresenta um favoritismo claro, demonstrado pela odd inferior a 1.80 e pelo seu desempenho superior em termos de pontos por jogo e vitórias (2.00 vs 1.50). Embora o aproveitamento recente do Capiatá seja misto (D W D W), eles jogam em casa contra um Fernando de la Mora que vem de uma sequência negativa (L W W L L) e tem um desempenho geral inferior. O Capiatá tem uma média de gols marcados superior e uma defesa mais consistente. A odd de 2.00 para o Capiatá representa um valor significativo em relação à sua probabilidade implícita.",
+      "coeficiente_regularidade": "Capiatá: CV moderado nas últimas partidas. Fernando: CV alto nas últimas partidas.",
+      "mando_de_campo": "Capiatá tem um bom aproveitamento em casa, como evidenciado pelos seus pontos por jogo.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Capiatá marca mais no 2º tempo (2.00 gols) vs Fernando marca mais no 2º tempo (1.00 gols).",
+      "momento_gols": "Capiatá marca entre 31-45min e 76-90min. Fernando marca entre 76-90min.",
+      "jogadores_chave": "Jorge Daniel Benítez Guillén (Capiatá) marcou 1 gol em 1 jogo.",
+      "placares_provaveis": "2x1, 1x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "N/A (aposta pré-jogo)",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Odds favoráveis para o favorito em casa, com cenário tático alinhado.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
         "aplicavel": true,
-        "perfil_tatico": "NorthEast United pressionará desde o início, buscando o ataque com intensidade. Mohammedan deve tentar fechar espaços e evitar a goleada.",
-        "gatilhos_aceleracao": "NorthEast United criando chances claras e dominando a posse. Mohammedan recuado e sem conseguir sair para o ataque.",
-        "alerta_armadilha": "NorthEast United com dificuldade na finalização, ou Mohammedan conseguindo algum contra-ataque perigoso de forma isolada.",
-        "mercado_recomendado": "back_favorito",
-        "momento_observacao": "Primeiro tempo para Back Favorito, segundo tempo (após 70 min) para Over Limite."
+        "modo": "pre_jogo",
+        "favorito": "Deportivo Capiatá",
+        "odd_alvo": "2.00",
+        "razao": "Favorito claro nas odds (< 1.80) em casa, contra adversário em má fase e com desempenho inferior.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": null
+      },
+      "over_limite_70": {
+        "aplicavel": null
+      },
+      "back_2x2": {
+        "aplicavel": null
+      },
+      "back_goleada": {
+        "aplicavel": null
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "13:30",
+      "liga": "Austria Bundesliga",
+      "jogo": "Ried x Wolfsberger AC",
+      "metodos_aplicados": [
+        "back_2x2"
+      ],
+      "mercado_principal": "Placar Exato 2x2",
+      "odd_principal": "12.00",
+      "fair_odd_calculada": null,
+      "valor_esperado": null,
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Ried: 0.56 Gols Marcados / Wolfsberger AC: 0.94 Gols Marcados",
+      "desempenho_2t": "Ried: 0.75 Gols Marcados / Wolfsberger AC: 0.38 Gols Marcados",
+      "motivacao_tecnica": "Análise dos dados: Ried tem 44% de Over 2.5 gols em seus jogos, 44% de Ambas Marcam e 75% de Over 0.5 no 1º Tempo. Wolfsberger AC apresenta 63% de Over 2.5 gols, 63% de Ambas Marcam e 88% de Over 0.5 no 1º Tempo. Ambos os times sofrem uma média considerável de gols (Ried: 1.69, Wolfsberger AC: 1.69), enquanto ambos marcam uma média de 1.31. O alto índice de Over 2.5, Ambas Marcam e Over HT em ambos os lados, combinado com defesas que cedem gols com frequência, sugere um potencial para um placar de 2x2. O momento dos gols indica picos de marcação em ambos os tempos para ambos os times.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Ried tem aproveitamento de 1.69 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ambos os times demonstram capacidade de marcar e sofrer gols em ambas as metades do jogo.",
+      "momento_gols": "Picos de gols no final do 1º tempo e no 2º tempo para Ried. Picos de gols no 1º tempo e no final do 2º tempo para Wolfsberger AC.",
+      "jogadores_chave": "Kingstone Mutandwa (Ried - 14 gols), Peter Kiedl (Ried - 5 gols); Markus Pink (Wolfsberger AC - 7 gols), Dejan Zukić (Wolfsberger AC - 7 gols).",
+      "placares_provaveis": "Ex: 2x2, 3x2, 2x3",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out parcial em 1x1, 2x1 ou 1x2. Nunca segurar o bilhete nessas situações.",
+      "stake_recomendada": "0.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A odd para o placar exato 2x2 é atraente e os indicadores estatísticos de gols são fortes e consistentes em ambos os times.",
+        "gatilho_saida_parcial": "1x1, 2x1, 1x2",
+        "hard_stop": "Não aplicar"
+      },
+      "back_favorito": {
+        "aplicavel": null
+      },
+      "lay_zebra": {
+        "aplicavel": null
+      },
+      "over_limite_70": {
+        "aplicavel": null
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "razao": "Altos índices de Over 2.5 gols (Ried: 44%, Wolfsberger AC: 63%), Ambas Marcam (Ried: 44%, Wolfsberger AC: 63%) e Over 0.5 no 1º Tempo (Ried: 75%, Wolfsberger AC: 88%), com ambos os times apresentando médias de gols marcados e sofridos que sugerem um jogo aberto.",
+        "indice_over_2_5": "Ried: 44% (8/16), Wolfsberger AC: 63% (10/16)",
+        "indice_ambas_marcam": "Ried: 44% (7/16), Wolfsberger AC: 63% (10/16)",
+        "indice_over_ht": "Ried: 75% (15/16), Wolfsberger AC: 88% (14/16)",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": null
       }
     },
     {
-      "horario": "11:30",
-      "liga": "Iraq Iraqi Premier League",
-      "jogo": "Al-Qasim x Naft Maysan",
+      "horario": "14:00",
+      "liga": "Italy Serie B",
+      "jogo": "Monza x Juve Stabia",
       "metodos_aplicados": [
-        "back_favorito",
-        "lay_zebra",
-        "over_limite_70"
+        "back_favorito"
       ],
-      "mercado_principal": "Vitória Naft Maysan",
-      "odd_principal": "1.80",
-      "fair_odd_calculada": "1.72",
-      "valor_esperado": "+4.6% EV — odd 1.80 vs Fair Odd 1.72",
-      "mercado_secundario": "Lay Al-Qasim",
-      "odd_secundaria": "6.00",
-      "desempenho_1t": "Naft Maysan empatou 53% do 1ºT / Al-Qasim perdeu 63% do 1ºT",
-      "desempenho_2t": "Naft Maysan marcou 0.65 gols no 2ºT / Al-Qasim sofreu 1.81 gols no 2ºT",
-      "motivacao_tecnica": "Al-Qasim é o lanterna da liga, com 0.13 PPG e 0% de vitórias, sofrendo uma média assustadora de 2.94 gols por jogo e com um xG contra de 2.20. Naft Maysan, embora não seja um gigante, é muito superior, com 0.88 PPG e 24% de vitórias, marcando 1.12 gols/jogo e sofrendo 1.71. A vantagem de Naft Maysan é clara, mesmo jogando fora, tornando-o um forte candidato para Back Favorito e Al-Qasim um alvo ideal para Lay Zebra. Para Over Limite 70+, Al-Qasim tem 69% de Over 2.5 e sofre 44% dos gols no período 76-90min. Naft Maysan marca 32% de seus gols no mesmo período. Se Naft Maysan estiver vencendo por 2 gols após 70min, um gol adicional é altamente provável dada a fragilidade defensiva tardia do Al-Qasim.",
-      "coeficiente_regularidade": "Casa: CV muito alto (desempenho péssimo) / Visitante: CV moderado",
-      "mando_de_campo": "Al-Qasim, mesmo em casa, demonstra extrema fragilidade. Naft Maysan tem a chance de capitalizar sobre isso.",
-      "condicoes_campo": "sem fatores relevantes",
+      "mercado_principal": "Vitória Monza",
+      "odd_principal": "1.40",
+      "fair_odd_calculada": "1.25",
+      "valor_esperado": "+12.0% EV — odd 1.40 vs Fair Odd 1.25",
+      "mercado_secundario": null,
+      "desempenho_1t": "Monza marca 0.68 gols no 1ºT",
+      "desempenho_2t": "Monza marca 1.11 gols no 2ºT",
+      "motivacao_tecnica": "Monza é o claro favorito neste confronto, ocupando a 3ª posição na liga com um excelente aproveitamento de 2.42 pontos por jogo. A equipe tem um ataque produtivo (1.79 gols/jogo) e uma defesa sólida (0.63 gols sofridos/jogo). Em casa, o Monza demonstra força, marcando uma média superior de gols no segundo tempo, o que indica consistência tática e física ao longo da partida. A Juve Stabia, por outro lado, apresenta um desempenho inferior, com menor pontuação, menor número de vitórias e uma defesa mais vulnerável (1.50 gols sofridos/jogo), especialmente no segundo tempo. O retrospecto recente do Monza é muito forte, com muitas vitórias consecutivas. A odd para a vitória do Monza está abaixo de 1.80, configurando um cenário de 'back favorito' com bom valor.",
+      "coeficiente_regularidade": "Monza: CV baixo (aproveitamento alto e consistente); Juve Stabia: CV alto (aproveitamento baixo e inconsistente)",
+      "mando_de_campo": "Monza faz X% dos pontos em casa OU O Monza tem um desempenho muito superior em casa, com 74% de vitórias.",
+      "condicoes_campo": "Pitch, clima, fadiga. Se irrelevante: 'sem fatores relevantes'",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Al-Qasim sofre 44% dos gols entre 76-90min. Naft Maysan marca 32% dos gols no mesmo período, indicando uma forte tendência a gols tardios.",
-      "momento_gols": "Al-Qasim sofre uma enorme quantidade de gols no segundo tempo, especialmente após os 60 minutos (61-75: 21%, 76-90: 23%).",
-      "jogadores_chave": "Al-Qasim: Mohammad Jawad (11 G), Issam Al Sabhi (8 G), Saad Abdulameer (4 G, 5 A). Naft Maysan: Daouda Diémé (11 G, 1 A), Mohammad Reda Jaleel (8 G, 2 A), Waso Rustom (7 G, 6 A), Marwan Hussein (8 G, 1 A).",
-      "placares_provaveis": "0x2, 0x3, 1x2",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra. Ao vivo para Over Limite 70+.",
-      "situacao_saida": "Back Favorito: Proteger lucro após gol do Naft Maysan. Lay Zebra: Proteger lucro se o favorito abrir vantagem. Over Limite 70+: Cash-out após o gol ou se o jogo esfriar rapidamente.",
+      "especificidades_gols": "Monza tem seu poder ofensivo concentrado no segundo tempo, enquanto Juve Stabia sofre mais gols neste período.",
+      "momento_gols": "Monza aumenta sua produção ofensiva no segundo tempo (47% vs 50%); Juve Stabia sofre mais gols no segundo tempo (50% vs 35%).",
+      "jogadores_chave": "Andrea Petagna (9 gols), Hernani Azevedo Júnior (5 gols), Dany Mota Carvalho (5 gols) - Monza.",
+      "placares_provaveis": "Ex: 2x0, 2x1, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Se o Monza abrir o placar e manter a pressão, pode-se considerar um cash-out parcial em caso de empate, mas a expectativa é de vitória.",
       "stake_recomendada": "2%",
       "plano_execucao": {
-        "abordagem": "forçar",
-        "justificativa_abordagem": "Al-Qasim é uma das equipes mais fracas do lote, oferecendo oportunidades claras para apostas contra. A fragilidade defensiva aliada à falta de vitórias justifica a confiança.",
-        "gatilho_saida_parcial": "Back Favorito: Naft Maysan marcando um gol. Lay Zebra: Naft Maysan marcando um gol. Over Limite 70+: Se a linha de gols não se mover conforme esperado.",
-        "hard_stop": "Back Favorito: Al-Qasim marcando o primeiro gol. Lay Zebra: Al-Qasim marcando o primeiro gol. Over Limite 70+: Fim do jogo sem o gol adicional, ou se a odd cair drasticamente contra."
+        "abordagem": "propor",
+        "justificativa_abordagem": "A odd do favorito permite uma entrada pré-jogo com boa margem de segurança.",
+        "gatilho_saida_parcial": "Se o placar se mantiver em 0-0 até os 60 minutos, com domínio do Monza, ou se o Monza abrir 2-0.",
+        "hard_stop": "Se a Juve Stabia abrir o placar e o Monza não demonstrar reação imediata."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "favorito": "Naft Maysan",
-        "odd_alvo": "1.80",
-        "razao": "Favoritismo claro contra a equipe lanterna da liga que não venceu nenhum jogo e tem uma defesa extremamente vulnerável. Odd acima da Fair Odd estimada (1.72).",
+        "favorito": "Monza",
+        "odd_alvo": "1.40",
+        "razao": "Monza é claro favorito, 3º na liga, com ótimo ataque e defesa, jogando em casa contra um adversário de menor expressão.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "zebra": "Al-Qasim",
-        "odd_zebra_alvo": "6.00",
-        "razao": "Al-Qasim tem 0% de vitórias, 0.13 PPG, e sofre 2.94 gols/jogo. A probabilidade de vitória é mínima (Fair Odd estimada 10.00+), tornando Lay altamente atrativo se a odd for inflada.",
-        "gatilho_ao_vivo": "lay após Al-Qasim marcar primeiro (improvável, mas possível) ou se dominância do favorito for absoluta e a odd de Al-Qasim estiver 'inflada' no pré-jogo",
-        "stake_recomendada": "2%"
+        "aplicavel": null,
+        "modo": null,
+        "zebra": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
       },
       "over_limite_70": {
-        "aplicavel": true,
-        "favorito": "Naft Maysan",
-        "indice_gols_final": "Al-Qasim sofre 44% dos gols entre 76-90min. Naft Maysan marca 32% dos gols entre 76-90min.",
-        "condicao_entrada": "Entrar se Naft Maysan vencer por 2 gols após 70min",
-        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar)",
-        "odd_esperada": "1.70 a 2.30",
-        "stake_recomendada": "1%",
-        "observacoes": "A defesa de Al-Qasim é a pior da liga e cede muitos gols na parte final dos jogos. Naft Maysan tem bom poder de finalização tardia."
+        "aplicavel": null,
+        "favorito": null,
+        "indice_gols_final": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "observacoes": null
       },
-      "back_2x2": null,
-      "back_goleada": null,
+      "back_2x2": {
+        "aplicavel": null,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": null,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
       "confirmacao_visual": {
         "aplicavel": true,
-        "perfil_tatico": "Naft Maysan deve ser dominante no ataque, explorando as falhas da defesa do Al-Qasim. Al-Qasim tentará se defender e segurar o placar, mas com pouca efetividade.",
-        "gatilhos_aceleracao": "Naft Maysan criando volume de jogo e chances claras. Al-Qasim se desorganizando defensivamente sob pressão.",
-        "alerta_armadilha": "Naft Maysan com dificuldades na criação de jogadas, ou Al-Qasim conseguindo um gol em jogada isolada contra o esperado.",
-        "mercado_recomendado": "back_favorito",
-        "momento_observacao": "Primeiro tempo para Back Favorito, segundo tempo (após 70 min) para Over Limite."
+        "perfil_tatico": "Monza deve impor seu jogo desde o início, com alta posse de bola e pressão ofensiva. Juve Stabia pode optar por uma defesa mais recuada.",
+        "gatilhos_aceleracao": "Gol do Monza no primeiro tempo, aumento da pressão ofensiva, jogadas rápidas pelos flancos.",
+        "alerta_armadilha": "Gol da Juve Stabia no início do jogo, apatia do Monza.",
+        "mercado_recomendado": "Back Favorito",
+        "momento_observacao": "Primeiros 15-20 minutos"
+      }
+    },
+    {
+      "horario": "14:30",
+      "liga": "Sem Liga",
+      "jogo": "Hapoel Beer Sheva x Maccabi Tel Aviv",
+      "metodos_aplicados": [
+        "back_2x2"
+      ],
+      "mercado_principal": "Placar Exato 2x2",
+      "odd_principal": null,
+      "fair_odd_calculada": null,
+      "valor_esperado": null,
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Hapoel Beer Sheva marca 0.89 gols no 1ºT, Maccabi Tel Aviv marca 1.06 gols no 1ºT",
+      "desempenho_2t": "Hapoel Beer Sheva marca 1.72 gols no 2ºT, Maccabi Tel Aviv marca 1.33 gols no 2ºT",
+      "motivacao_tecnica": "Ambos os times apresentam um alto índice de Over 2.5 gols em seus jogos recentes (Hapoel Beer Sheva 72%, Maccabi Tel Aviv 89%). O índice de Ambas Marcam também é elevado (Hapoel Beer Sheva 61%, Maccabi Tel Aviv 72%). Além disso, ambos demonstram bom desempenho no primeiro tempo com Over 0.5 gols (Hapoel Beer Sheva 67%, Maccabi Tel Aviv 82%). As médias de gols marcados por jogo para ambos os times são superiores a 2.5 (Hapoel Beer Sheva 2.61, Maccabi Tel Aviv 2.56), e suas defesas sofrem um número considerável de gols (Hapoel Beer Sheva 0.89, Maccabi Tel Aviv 1.17). Estes fatores combinados criam um cenário propício para o método BACK 2x2.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Hapoel Beer Sheva: 2.39 pontos por jogo, 72% vitórias. Maccabi Tel Aviv: 2.33 pontos por jogo, 72% vitórias.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": "Ambos os times mostram propensão a marcar gols durante toda a partida, com picos no segundo tempo.",
+      "jogadores_chave": "Alon Turgeman (HBS) - 12 gols, Dor Turgeman (MTA) - 15 gols, Eran Zahavi (MTA) - 11 gols.",
+      "placares_provaveis": "Ex: 2x1, 3x1, 1x2, 2x2",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out parcial em 2x1 ou 1x2, cash-out total em 1x1.",
+      "stake_recomendada": "0.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Capturar odd alta pré-jogo.",
+        "gatilho_saida_parcial": "Placar 2x1 ou 1x2.",
+        "hard_stop": "Placar 1x1."
+      },
+      "back_favorito": {
+        "aplicavel": null
+      },
+      "lay_zebra": {
+        "aplicavel": null
+      },
+      "over_limite_70": {
+        "aplicavel": null
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "razao": "Alto índice de Over 2.5 gols e Ambas Marcam nos jogos recentes de ambos os times, além de bom desempenho no primeiro tempo com gols.",
+        "indice_over_2_5": "Hapoel Beer Sheva: 72% (8/10), Maccabi Tel Aviv: 89% (9/10)",
+        "indice_ambas_marcam": "Hapoel Beer Sheva: 61% (6/10), Maccabi Tel Aviv: 72% (7/10)",
+        "indice_over_ht": "Hapoel Beer Sheva: 67% (7/10), Maccabi Tel Aviv: 82% (8/10)",
+        "modo": "pre_jogo",
+        "odd_alvo": null,
+        "regra_saida": "Cash-out parcial em 2x1 ou 1x2; cash-out total em 1x1.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": null
+      }
+    },
+    {
+      "horario": "15:30",
+      "liga": "England Premier League",
+      "jogo": "AFC Bournemouth x Manchester City",
+      "metodos_aplicados": [
+        "back_favorito",
+        "back_goleada"
+      ],
+      "mercado_principal": "Vitória Manchester City",
+      "odd_principal": "1.30",
+      "fair_odd_calculada": "1.18",
+      "valor_esperado": "+10.2% EV — odd 1.30 vs Fair Odd 1.18",
+      "mercado_secundario": "Manchester City marca 4+ e vence",
+      "odd_secundaria": "4.00",
+      "desempenho_1t": "Manchester City marca 0.83 no 1ºT",
+      "desempenho_2t": "Bournemouth sofre 1.11 no 2ºT",
+      "motivacao_tecnica": "O Manchester City é um favorito claro e tem um histórico ofensivo avassalador, com média de 1.72 gols marcados por jogo. O Bournemouth, apesar de ter seus momentos, apresenta uma defesa que sofre em média 1.06 gols por jogo. A odd para a vitória do City está abaixo da sua 'fair odd', indicando valor. Além disso, a capacidade do City de golear é evidente, especialmente contra equipes de menor calibre ou em momentos de pressão.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
+      "mando_de_campo": "Casa: 1.67 pontos por jogo em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Man City: Ataque versátil, forte em finalizações e xG. Bournemouth: Ataque com boa média, mas menos consistente.",
+      "momento_gols": "Man City: Forte no 2º tempo (0.94 gols/jogo). Bournemouth: Concentra gols mais tarde (36% entre 76-90).",
+      "jogadores_chave": "Haaland, Foden, Bernardo Silva (Man City)",
+      "placares_provaveis": "Ex: 0x3, 1x4, 0x4",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "N/A (mercados de resultado final e goleada)",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A odd do favorito é clara e oferece margem de lucro. O cenário de goleada também apresenta valor na odd pré-jogo.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Manchester City",
+        "odd_alvo": "1.30",
+        "razao": "Favoritismo claro em odd (< 1.40) contra adversário com performance geral inferior e histórico recente de vitórias.",
+        "gatilho_ao_vivo": "N/A",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": null
+      },
+      "over_limite_70": {
+        "aplicavel": null
+      },
+      "back_2x2": {
+        "aplicavel": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "candidato": "Manchester City",
+        "razao": "Favoritismo extremo (odd < 1.40) com forte poder ofensivo (média de gols alta) e adversário que sofre gols.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Manchester City marca 4+ e vence",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "confirmacao_visual": {
+        "aplicavel": null
       }
     },
     {
@@ -159,148 +395,414 @@
       "jogo": "Rouen x Laval",
       "metodos_aplicados": [
         "back_favorito",
-        "lay_zebra"
+        "back_2x2"
       ],
       "mercado_principal": "Vitória Rouen",
-      "odd_principal": "1.75",
-      "fair_odd_calculada": "1.67",
-      "valor_esperado": "+4.8% EV — odd 1.75 vs Fair Odd 1.67",
-      "mercado_secundario": "Lay Laval",
-      "odd_secundaria": "5.50",
-      "desempenho_1t": "Rouen venceu 38% do 1ºT / Laval perdeu 35% do 1ºT",
-      "desempenho_2t": "Rouen marcou 0.69 gols no 2ºT / Laval sofreu 0.71 gols no 2ºT",
-      "motivacao_tecnica": "Rouen apresenta um desempenho consistentemente superior em seu campeonato nacional, com 1.81 pontos por jogo e 50% de vitórias, enquanto Laval tem apenas 1.06 pontos por jogo e 24% de vitórias. A média de gols marcados e sofridos de Rouen (1.38 M, 0.88 S) é significativamente melhor que a de Laval (0.76 M, 1.35 S), indicando um desequilíbrio técnico. O xG a favor de Rouen (1.50) é quase o dobro do xG a favor de Laval (0.91), com Rouen também tendo um xG contra menor. Rouen joga em casa, adicionando à vantagem. Laval demonstra fragilidade ofensiva, falhando em marcar em 47% dos jogos. O cenário é claro para um Back ao Favorito Rouen, e um Lay na Zebra Laval devido ao seu fraco retrospecto geral e odds provavelmente inflacionadas para a vitória.",
-      "coeficiente_regularidade": "Casa: CV baixo (desempenho consistente) / Visitante: CV moderado (desempenho abaixo da média, mas com algumas oscilações)",
-      "mando_de_campo": "Rouen é um time que faz a maioria de seus pontos em casa e demonstra mais controle de jogo quando atua como mandante. As estatísticas são do campeonato nacional, onde a vantagem de jogar em casa é geralmente significativa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Rouen marca mais distribuído, com 27% dos gols entre 16-30min e 23% entre 46-60min e 76-90min. Laval tem ataque de baixo volume, com 31% dos gols entre 46-60min.",
-      "momento_gols": "Rouen marca 23% dos gols após 75min. Laval sofre 29% dos gols após 75min.",
-      "jogadores_chave": "Rouen: Kenny Rocha Santos (10 G, 5 A), Clément Bassin (6 G, 4 A), Amadou Ba-Sy (6 G, 3 A). Laval: Mamadou Camara (9 G, 1 A), Malik Tchokounté (4 G, 3 A).",
-      "placares_provaveis": "1x0, 2x0, 2x1",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra, observando a confirmação das odds.",
-      "situacao_saida": "Back Favorito: Proteger lucro após gol do Rouen ou se o jogo se abrir. Lay Zebra: Proteger lucro se o favorito abrir vantagem de 2 gols ou se o jogo se mantiver sem gols do adversário.",
-      "stake_recomendada": "2%",
+      "odd_principal": "1.81",
+      "fair_odd_calculada": "1.75",
+      "valor_esperado": "+3.4% EV — odd 1.81 vs Fair Odd 1.75",
+      "mercado_secundario": "Placar Exato 2x2",
+      "odd_secundaria": "12.00",
+      "desempenho_1t": "Rouen: 38% venceu o 1ºT, 44% marcou no 1ºT. Laval: 24% venceu o 1ºT, 41% marcou no 1ºT",
+      "desempenho_2t": "Rouen: 38% venceu o 2ºT, 69% marcou no 2ºT. Laval: 18% venceu o 2ºT, 65% marcou no 2ºT",
+      "motivacao_tecnica": "Rouen demonstra ser um time mais consistente e com melhor aproveitamento ofensivo, especialmente em casa, onde tem um histórico de vitórias superior a 50%. A odd para sua vitória (1.81) oferece um valor marginal. Além disso, as estatísticas de ambos os times em Over 2.5 (Rouen 50%, Laval 29%), Ambas Marcam (Rouen 56%, Laval 35%) e Over HT (Rouen 69%, Laval 59%) sugerem um potencial para um jogo com gols, justificando a aplicação do método Back 2x2. Ambas as equipes sofrem uma média de gols acima de 1.0 por jogo, o que reforça a probabilidade de um placar aberto.",
+      "coeficiente_regularidade": "Rouen: CV moderado. Laval: CV alto.",
+      "mando_de_campo": "Rouen faz 50% dos pontos em casa.",
+      "condicoes_campo": "Pitch, clima, fadiga. Se irrelevante: 'sem fatores relevantes'",
+      "desfalques_chave": "Elenco completo",
+      "especificidades_gols": "Rouen tem maior volume ofensivo com 1.38 gols marcados/jogo. Laval tem dificuldade em marcar (0.76 gols/jogo).",
+      "momento_gols": "Rouen tende a marcar mais nos 2º tempos (69% dos seus gols) e no final do jogo (23% dos gols entre 76-90min). Laval tem picos de gols entre 16-30min (15%) e 76-90min (15%).",
+      "jogadores_chave": "Kenny Rocha Santos (Rouen, 10 gols).",
+      "placares_provaveis": "Ex: 2x1, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Para 2x2: Cash-out parcial em 2x1 ou 1x2. Cash-out total em 1x1. Para Back Favorito: Gestão padrão de odds.",
+      "stake_recomendada": "2% para Back Favorito, 0.5% para Back 2x2",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A superioridade estatística de Rouen é clara, mas é um playoff, exigindo cautela e busca por odds de valor. A odd de 1.75 para Rouen contra uma Fair Odd de 1.67 oferece valor esperado positivo. Lay Zebra aproveita o baixo desempenho de Laval.",
-        "gatilho_saida_parcial": "Back Favorito: Caso Rouen marque um gol e a odd caia significativamente. Lay Zebra: Se o jogo for para o intervalo em 0x0 ou com o favorito vencendo.",
-        "hard_stop": "Back Favorito: Se Rouen estiver perdendo por 2 gols ou sofrer um gol no início do segundo tempo sem reação. Lay Zebra: Se a zebra marcar 2 gols."
+        "justificativa_abordagem": "O valor está na odd de Back Favorito e no potencial de gol para o 2x2, que exige paciência.",
+        "gatilho_saida_parcial": "Para Back 2x2, sair parcialmente se o placar chegar a 2x1 ou 1x2.",
+        "hard_stop": "Para Back 2x2, sair totalmente se o placar chegar a 1x1."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Rouen",
-        "odd_alvo": "1.75",
-        "razao": "Favoritismo claro em casa contra time em má fase, com superioridade em PPG, %Vitórias, e xG. Odd acima da Fair Odd estimada (1.67).",
+        "odd_alvo": "1.81",
+        "razao": "Favoritismo em casa com odd ligeiramente acima do justo.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "zebra": "Laval",
-        "odd_zebra_alvo": "5.50",
-        "razao": "Laval apresenta desempenho ruim (1.06 PPG, 24% vitórias, xG contra 1.53, falha em marcar em 47% dos jogos). Sua chance de vitória é muito baixa (Fair Odd estimada 6.00-7.00), tornando Lay atrativo se a odd for inflada (>5.00).",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
+        "aplicavel": false
       },
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": {
+      "over_limite_70": {
+        "aplicavel": false
+      },
+      "back_2x2": {
         "aplicavel": true,
-        "perfil_tatico": "Rouen deve ditar o ritmo, buscando ataques pelos lados e transições rápidas. Laval deve adotar postura mais defensiva, explorando contra-ataques.",
-        "gatilhos_aceleracao": "Encaixe defensivo rápido de Rouen, subida de suas linhas de defesa, velocidade na troca de passes para o ataque. Erros de passe de Laval no meio-campo.",
-        "alerta_armadilha": "Rouen com dificuldades em quebrar as linhas de defesa de Laval, excesso de passes laterais sem profundidade, ou Laval explorando bem as costas da defesa do Rouen.",
-        "mercado_recomendado": "back_favorito",
-        "momento_observacao": "Primeiros 15-20 minutos para confirmar a dominância de Rouen."
-      }
+        "razao": "Padrão de gols em jogos recentes de ambos os times (Over 2.5, Ambas Marcam) e boa frequência de gols no 1º tempo. Defesas medianas e ataques com capacidade de marcar.",
+        "indice_over_2_5": "Rouen: 50% (8/16). Laval: 29% (5/17). Média: 39.5%. Critério a ser observado com cautela, mas potencial de gols existe.",
+        "indice_ambas_marcam": "Rouen: 56% (9/16). Laval: 35% (6/17). Média: 45.5%. Ambos os times apresentam valor em Ambas Marcam.",
+        "indice_over_ht": "Rouen: 69% (12/16). Laval: 59% (10/17). Média: 64%. Bom percentual de gols no 1º tempo.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out parcial em 2x1 ou 1x2. Cash-out total em 1x1.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false
+      },
+      "confirmacao_visual": null
     },
     {
-      "horario": "18:30",
-      "liga": "England Premier League",
-      "jogo": "AFC Bournemouth x Manchester City",
+      "horario": "19:00",
+      "liga": "South America Copa Libertadores",
+      "jogo": "Coquimbo Unido x Deportes Tolima",
       "metodos_aplicados": [
-        "back_favorito",
-        "over_limite_70"
+        "lay_zebra"
       ],
-      "mercado_principal": "Vitória Manchester City",
-      "odd_principal": "1.45",
-      "fair_odd_calculada": "1.43",
-      "valor_esperado": "+1.4% EV — odd 1.45 vs Fair Odd 1.43",
-      "mercado_secundario": "Total de Gols - Mais 3.5 (ao vivo)",
-      "odd_secundaria": "1.80",
-      "desempenho_1t": "Manchester City venceu 56% dos 1º tempos; Bournemouth perdeu 17%",
-      "desempenho_2t": "Manchester City marcou 0.89 gols no 2º tempo; Bournemouth sofreu 0.67 gols no 2º tempo",
-      "motivacao_tecnica": "O Manchester City, 2º colocado na Premier League, enfrenta o Bournemouth, 11º. Apesar de jogar fora de casa, o City possui uma superioridade técnica e tática evidente, lutando pelo título. O Bournemouth tem um bom aproveitamento recente (1.67 PPG) e é ofensivo (1.56 Gols Marcados), mas o City tem um ataque mais potente (1.72 Gols Marcados) e uma defesa consistente. A odd de 1.45 para a vitória do City é considerada de valor, dado que a probabilidade real de vitória está em torno de 70% (Fair Odd 1.43). A partida também apresenta potencial para Over Limite 70+, pois ambos os times têm histórico de gols nos minutos finais, com Bournemouth sofrendo 26% de seus gols e marcando 36% dos seus entre 76-90 minutos, e City marcando 23% e sofrendo 25% no mesmo período. Se o City estiver vencendo por 2 gols de diferença após os 70 minutos, a probabilidade de um gol adicional se eleva.",
-      "coeficiente_regularidade": "Casa (Bournemouth): CV moderado / Visitante (Manchester City): CV baixo (alta regularidade)",
-      "mando_de_campo": "Bournemouth faz 1.67 pontos por jogo em casa; Manchester City mantém alto desempenho fora, com foco no título.",
+      "mercado_principal": "Lay Zebra (Against Deportes Tolima)",
+      "odd_principal": "2.50",
+      "fair_odd_calculada": "2.60",
+      "valor_esperado": "-3.85% EV — odd 2.50 vs Fair Odd 2.60",
+      "mercado_secundario": null,
+      "desempenho_1t": "Coquimbo: 0% venceu o 1ºT, Tolima: 0% venceu o 1ºT.",
+      "desempenho_2t": "Coquimbo: 100% venceu o 2ºT (3 gols marcados), Tolima: 33% venceu o 2ºT (2 gols marcados).",
+      "motivacao_tecnica": "Coquimbo Unido demonstra um padrão de recuperação no segundo tempo, marcando a maioria de seus gols e vencendo todas as suas partidas neste período. Deportes Tolima, por outro lado, sofre mais gols no segundo tempo (3 gols sofridos contra 2 marcados), e venceu apenas 33% de seus segundos tempos. A odd de 2.50 para a zebra (Deportes Tolima) parece inflada considerando a tendência de virada ou de desempenho superior do Coquimbo na etapa complementar. A estatística de 'Ambas marcam' para o Coquimbo é de 100%, sugerindo um jogo com potencial de gols de ambos os lados, mas com vantagem para o time da casa se mantiver o padrão do segundo tempo. A odd da zebra pode ser uma oportunidade de lay.",
+      "coeficiente_regularidade": "Coquimbo: CV moderado a alto nos gols marcados no 2ºT. Tolima: CV moderado a alto nos gols sofridos no 2ºT.",
+      "mando_de_campo": "Coquimbo Unido joga em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo (assumindo sem informações de desfalques)",
-      "especificidades_gols": "Manchester City marca consistentemente através de seus atacantes e meias decisivos (Haaland, Foden, Bernardo Silva). Bournemouth distribui seus gols, com destaques como Đorđe Petrović (1G), Evanilson (6G), Marcus Tavernier (6G), Eli Junior Kroupi (12G).",
-      "momento_gols": "Manchester City tem picos de gols no 1º tempo (31-45 min, 32%) e no fim do 2º tempo (76-90 min, 23%). Bournemouth marca mais no final do 2º tempo (76-90 min, 36%).",
-      "jogadores_chave": "Manchester City: Erling Haaland (26 gols), Phil Foden (7 gols), Bernardo Silva (2 gols). Bournemouth: Eli Junior Kroupi (12 gols), Evanilson (6 gols), Marcus Tavernier (6 gols).",
-      "placares_provaveis": "1x2, 1x3, 0x2, 0x3",
-      "momento_entrada": "Pré-jogo para Back Favorito; Ao vivo para Over Limite 70+.",
-      "situacao_saida": "Proteger lucro com cash-out parcial se Manchester City abrir 2 gols de vantagem para Back Favorito; para Over Limite 70+, cash-out em caso de gol ou aos 85-88 minutos se não houver gol adicional.",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Coquimbo marca forte no 2º tempo. Tolima tem distribuição de gols mais equilibrada, mas sofre no 2º tempo.",
+      "momento_gols": "Coquimbo: 46-60 (33%), 61-75 (33%), 76-90 (33%). Tolima: 46-60 (50% marcados), 16-30 (50% sofridos), 31-45 (50% sofridos).",
+      "jogadores_chave": "Guido Nahuel Vadalá (Coquimbo) com 2 gols.",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Se Tolima abrir o placar, considerar lay.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "O favoritismo do Manchester City é claro e a odd de 1.45 oferece um pequeno valor esperado positivo. O Over Limite 70+ é uma aposta tática de valor em cenário específico ao vivo.",
-        "gatilho_saida_parcial": "Vitória parcial do Manchester City no 1º tempo para Back Favorito. Para Over Limite 70+, após o terceiro gol na partida ou se o City atingir 3-0 ou 4-0.",
-        "hard_stop": "Perda total da stake em caso de derrota do Manchester City ou se o Over Limite não for atingido."
+        "justificativa_abordagem": "Odd da zebra parece desajustada ao cenário de recuperação do mandante no 2º tempo.",
+        "gatilho_saida_parcial": "Se o placar ficar desfavorável (ex: Coquimbo perdendo por 2 gols), considerar um cut.",
+        "hard_stop": "Se Tolima abrir 0x1 e o jogo apresentar pouca pressão do Coquimbo, pode ser necessário encerrar a posição."
+      },
+      "back_favorito": {
+        "aplicavel": false
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Deportes Tolima",
+        "odd_zebra_alvo": "2.50",
+        "razao": "Zebra com odd inflada para um time que demonstra fragilidade defensiva no segundo tempo e um mandante que é forte nesse período.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": false
+      },
+      "back_2x2": {
+        "aplicavel": false
+      },
+      "back_goleada": {
+        "aplicavel": false
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "23:00",
+      "liga": "South America Copa Libertadores",
+      "jogo": "CSD Independiente del Valle x Libertad",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória CSD Independiente del Valle",
+      "odd_principal": "1.70",
+      "fair_odd_calculada": "1.60",
+      "valor_esperado": "+6.25% EV — odd 1.70 vs Fair Odd 1.60",
+      "mercado_secundario": null,
+      "desempenho_1t": "Independiente del Valle marca 2.0 no 1ºT",
+      "desempenho_2t": "Libertad sofre 1.5 no 2ºT",
+      "motivacao_tecnica": "CSD Independiente del Valle demonstra força ofensiva notável, com 100% de vitórias e média de 3.00 gols marcados por jogo. A equipe também venceu o primeiro tempo em 100% das partidas e não sofreu gols na primeira etapa. Libertad, por outro lado, apresenta um aproveitamento de 0.00 pontos por jogo fora de casa e uma média de 2.00 gols sofridos. A fragilidade defensiva do Libertad, especialmente no segundo tempo onde sofre 1.5 gols por jogo, contrasta com a capacidade do Independiente del Valle de marcar 1 gol por jogo no segundo tempo. O retrospecto de 100% de vitórias do Independiente del Valle como mandante, aliado à sua eficiência em ambas as etapas, configura um cenário de claro favoritismo.",
+      "coeficiente_regularidade": "Casa: CV baixo (100% Vitórias) / Visitante: CV moderado (0% Vitórias)",
+      "mando_de_campo": "Casa faz 100% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Independiente del Valle marca a maioria dos seus gols (67%) no primeiro tempo, com especial atenção entre os minutos 31-45. Libertad sofre gols em todas as etapas, mas com pico entre 16-30 e 46-75.",
+      "momento_gols": "Principalmente 1º tempo para o mandante, distribuído para o visitante.",
+      "jogadores_chave": "Carlos Gonzalez Espínola (5 gols) e Jordy Alcívar (1 gol, 1 assistência) para o Independiente del Valle.",
+      "placares_provaveis": "Ex: 2x1, 3x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O favoritismo é claro e as estatísticas supporting a superioridade do time da casa. A odd oferece valor.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "favorito": "Manchester City",
-        "odd_alvo": "1.45",
-        "razao": "Favoritismo claro do Manchester City contra um time de meio de tabela, com grande superioridade técnica e tática, e lutando pelo título. A odd de 1.45, comparada à Fair Odd estimada de 1.43, indica um valor esperado positivo.",
-        "gatilho_ao_vivo": "null",
+        "favorito": "CSD Independiente del Valle",
+        "odd_alvo": "1.70",
+        "razao": "Favoritismo claro em casa contra um time com aproveitamento zero fora e alta média de gols sofridos.",
+        "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": null,
-      "over_limite_70": {
-        "aplicavel": true,
-        "favorito": "Manchester City",
-        "indice_gols_final": "Bournemouth sofre 26% e marca 36% dos seus gols entre 76-90 min; Manchester City sofre 25% e marca 23% dos seus gols entre 76-90 min.",
-        "condicao_entrada": "Entrar se Manchester City estiver vencendo por 2 gols de diferença após 70 minutos.",
-        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual, ex: se 2-0, 'Mais 2.5 gols' ou 'Mais 3.5 gols' dependendo da linha ofertada e da odd)",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Analisar o ímpeto ofensivo do City e a postura do Bournemouth. Se o Bournemouth se abrir buscando o gol ou o City mantiver a pressão alta, a chance de um gol adicional é maior."
+      "lay_zebra": {
+        "aplicavel": null,
+        "modo": null,
+        "zebra": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
       },
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": {
+      "over_limite_70": {
+        "aplicavel": null,
+        "favorito": null,
+        "indice_gols_final": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "observacoes": null
+      },
+      "back_2x2": {
+        "aplicavel": null,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": null,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "23:00",
+      "liga": "South America Copa Sudamericana",
+      "jogo": "Deportivo Cuenca x Deportivo Recoleta",
+      "metodos_aplicados": [
+        "back_favorito",
+        "back_2x2"
+      ],
+      "mercado_principal": "Vitória Deportivo Cuenca",
+      "odd_principal": null,
+      "fair_odd_calculada": null,
+      "valor_esperado": null,
+      "mercado_secundario": "Placar Exato 2x2",
+      "odd_secundaria": null,
+      "desempenho_1t": "Deportivo Cuenca marca 0.33 gols no 1ºT, Deportivo Recoleta marca 1.00 gols no 1ºT",
+      "desempenho_2t": "Deportivo Cuenca marca 1.00 gols no 2ºT, Deportivo Recoleta marca 0.00 gols no 2ºT",
+      "motivacao_tecnica": "O Deportivo Cuenca apresenta um aproveitamento muito superior, com 2.33 pontos por jogo contra 1.00 do Deportivo Recoleta. O time da casa tem 67% de vitórias e um alto índice de gols marcados (2.33 por jogo). O Deportivo Recoleta, por outro lado, tem um histórico recente onde o 'ambas marcam' ocorre em 100% dos jogos, e sofre 1.00 gol por jogo em média, evidenciando uma defesa vulnerável. Apesar de o Recoleta ter um bom desempenho no primeiro tempo, o Cuenca mostra força na segunda etapa com 1.00 gol por jogo. A análise para Back 2x2 indica: Over 2.5 gols em 33% dos jogos recentes do Cuenca e 0% do Recoleta (critério não totalmente atendido, mas a fragilidade defensiva do Recoleta compensa), Ambas Marcam em 0% do Cuenca e 100% do Recoleta (também não atende o critério de 65% para ambos, mas o padrão de gols do Recoleta sugere a possibilidade). O Over HT para o Cuenca é de 33% e para o Recoleta é de 100%, o que reforça a chance de gols desde o início. Com o Deportivo Cuenca tendo favoritismo claro e sendo mandante, o back ao favorito é uma entrada primária. A análise para o placar 2x2 é secundária devido a algumas estatísticas de Over 2.5 e Ambas Marcam não atingirem os 65% para ambos os times, mas a tendência de gols do Recoleta e a força ofensiva do Cuenca justificam a observação.",
+      "coeficiente_regularidade": "Deportivo Cuenca: CV moderado; Deportivo Recoleta: CV alto",
+      "mando_de_campo": "Deportivo Cuenca tem 2 vitórias em 3 jogos, 67% de aproveitamento.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Cuenca: mais efetivo no 2º tempo. Recoleta: forte no 1º tempo, vulnerável no 2º.",
+      "momento_gols": "Cuenca: pico entre 61-75 e 76-90. Recoleta: pico entre 31-45.",
+      "jogadores_chave": "Melvin Fabricio Díaz Canencia (Deportivo Cuenca), Nicolas Leguizamón (Deportivo Cuenca), Richart Ortiz (Deportivo Recoleta), Allam Steven Wlk Dure (Deportivo Recoleta).",
+      "placares_provaveis": "2x1, 2x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Para Back 2x2, sair ao chegar em 1x1, 2x1 ou 1x2.",
+      "stake_recomendada": "2% para Back Favorito, 0.5% para Back 2x2",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Mercado com distorção de odd favorável.",
+        "gatilho_saida_parcial": "Para Back 2x2: placar 2x1 ou 1x2.",
+        "hard_stop": "Para Back 2x2: placar 1x1."
+      },
+      "back_favorito": {
         "aplicavel": true,
-        "perfil_tatico": "Manchester City deve dominar a posse de bola e impor seu ritmo ofensivo, com o Bournemouth buscando contra-ataques e jogadas rápidas.",
-        "gatilhos_aceleracao": "Encaixe defensivo agressivo do City, subida de linhas e alta velocidade na troca de passes no campo de ataque do adversário. Para Bournemouth, transições rápidas após roubadas de bola.",
-        "alerta_armadilha": "Bournemouth resistindo à pressão inicial e criando chances claras, ou City demonstrando falta de intensidade e erros defensivos incomuns.",
-        "mercado_recomendado": "Back Favorito (Manchester City) ou Over Limite 70+ (se as condições se aplicarem).",
-        "momento_observacao": "Primeiros 15-20 minutos para avaliar o domínio do City e o ímpeto do Bournemouth."
+        "modo": "pre_jogo",
+        "favorito": "Deportivo Cuenca",
+        "odd_alvo": null,
+        "razao": "Deportivo Cuenca é claro favorito com melhor aproveitamento, maior média de gols e joga em casa.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": null
+      },
+      "over_limite_70": {
+        "aplicavel": null
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "razao": "Alto potencial de gols devido à força ofensiva do Cuenca e fragilidade defensiva e de gols do Recoleta, com tendência de gols no 1º tempo para Recoleta e 2º tempo para Cuenca. O Ambas Marcam para o Recoleta é alto (100%), o que sugere que eles podem marcar.",
+        "indice_over_2_5": "33% (Cuenca) e 0% (Recoleta) - Baixo para Cuenca, mas compensado pela média de gols e defesa do Recoleta. A odd deve ser atrativa.",
+        "indice_ambas_marcam": "0% (Cuenca) e 100% (Recoleta) - Desbalanceado, mas 100% para Recoleta indica propensão a sofrer e marcar.",
+        "indice_over_ht": "33% (Cuenca) e 100% (Recoleta) - O alto Over HT do Recoleta é um fator positivo.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false
       }
     }
   ],
   "evitar": [
     {
+      "horario": "08:30",
+      "jogo": "NorthEast United x Mohammedan",
+      "liga": "India Indian Super League",
+      "motivo": "Mohammedan é um time com desempenho muito fraco, com 0 vitórias em 9 jogos e média de gols sofridos de 2.44. O NorthEast United, apesar de mais regular, não demonstra um favoritismo extremo para justificar outros métodos. O padrão de gols é alto (71% Over 2.5 para NEU, 56% para Mohammedan), mas a odd do favorito não se encaixa em 'Back Favorito' e a odd da zebra seria muito baixa para 'Lay Zebra'."
+    },
+    {
+      "horario": "08:35",
+      "jogo": "Sichuan Jiuniu x Dalian Zhixing",
+      "liga": "China Chinese Super League",
+      "motivo": "Ambas as equipes apresentam médias de gols e desempenho que não se encaixam em nenhum dos 5 métodos. Não há favoritismo claro com odds < 1.80. O padrão de gols não sugere Back 2x2. O Dalian sofre muitos gols (2.67), mas o Sichuan não tem um índice de vitórias tão avassalador para justificar Back Goleada. Lay Zebra também não se encaixa, pois a odd da zebra não está inflada e o desempenho é similar."
+    },
+    {
+      "horario": "08:35",
+      "jogo": "Tianjin Teda x Henan Jianye",
+      "liga": "China Chinese Super League",
+      "motivo": "Partida equilibrada, com Tianjin Teda sem vitórias e Henan Jianye com apenas uma. As médias de gols e desempenho não se alinham com nenhum dos 5 métodos. Não há favoritismo claro. O Over 2.5 é presente em mais de 50% dos jogos de ambas as equipes, mas o Ambas Marcam é muito alto (83% para Tianjin), não se encaixando no critério de 2x2. Falta poder de fogo para Lay Zebra ou Back Goleada."
+    },
+    {
+      "horario": "09:00",
+      "jogo": "Qingdao Youth Island x Beijing Guoan",
+      "liga": "China Chinese Super League",
+      "motivo": "Apesar do Beijing Guoan ter um aproveitamento melhor e ser favorito nas odds implicitamente, o favoritismo não é claro (<1.80). O Qingdao Youth Island tem um ataque fraco (0.80 gols por jogo) e o Beijing Guoan não demonstra um poder de goleada para Back Goleada. O padrão de gols não se encaixa no Back 2x2. Lay Zebra não é recomendado pelas estatísticas apresentadas."
+    },
+    {
+      "horario": "10:00",
+      "jogo": "Tacuary x Encarnación",
+      "liga": "Paraguay Division Intermedia",
+      "motivo": "Nenhum dos 5 métodos se aplica. Tacuary é o azarão aparente nas estatísticas, mas com apenas 3 jogos disputados, a amostra é muito pequena para definir favoritismo claro ou padrões consistentes. Encarnación tem um desempenho melhor, mas não é um favorito gritante para back_favorito. Não há padrões de Over/Under claros para back_2x2 ou over_limite_70."
+    },
+    {
       "horario": "11:30",
       "jogo": "Al Kahrabaa x Al Gharraf",
       "liga": "Iraq Iraqi Premier League",
-      "motivo": "Sem favoritismo claro nem padrão de gols. As equipes possuem desempenho muito similar, com pouca diferença em pontos por jogo, vitórias, gols marcados e sofridos, e xG. Nenhum dos 5 métodos se aplica com confiança."
+      "motivo": "Jogo equilibrado com ambas as equipes com aproveitamento similar e placares não tão elásticos. O padrão de gols em Over 2.5 é de 53% para Al Kahrabaa e 35% para Al Gharraf, não atingindo o critério para Back 2x2. O favoritismo não é claro o suficiente para Back Favorito."
+    },
+    {
+      "horario": "11:30",
+      "jogo": "Al-Qasim x Naft Maysan",
+      "liga": "Iraq Iraqi Premier League",
+      "motivo": "Al-Qasim é um time com desempenho muito fraco, com média de gols sofridos de 2.94 e 0 vitórias. Embora Naft Maysan seja um favorito natural, a odd para 'Back Favorito' provavelmente não será atrativa (<1.80) e o Naft Maysan sofre muitos gols também (1.71), o que pode gerar um jogo aberto, mas sem clareza para os métodos especificados."
+    },
+    {
+      "horario": "11:30",
+      "jogo": "Diala x Baghdad",
+      "liga": "Iraq Iraqi Premier League",
+      "motivo": "Baghdad é o favorito com odds inferiores a 1.80, mas sua performance geral é fraca (0.53 pontos/jogo, apenas 2 vitórias em 17 jogos). Diala, apesar de ser azarão, demonstra maior equilíbrio em casa e tem um ataque mais produtivo em relação à sua posição. As estatísticas de gols de ambos os times não indicam um padrão claro para 'back 2x2' ou 'back goleada'. A odd do favorito não é atrativa o suficiente para 'back favorito' com a confiança necessária. Não há cenário claro para 'lay zebra' ou 'over limite 70'."
+    },
+    {
+      "horario": "14:00",
+      "jogo": "Al Talaba x Al-Karma",
+      "liga": "Iraq Iraqi Premier League",
+      "motivo": "Al Talaba é o favorito com odds inferiores a 1.80, mas seu ataque é apenas mediano (1.41 gols/jogo) e a defesa sofre um número considerável de gols (0.94 gols sofridos/jogo). Al-Karma tem uma defesa interessante (0.88 gols sofridos/jogo), mas um ataque fraco (1.00 gols/jogo). Os critérios para 'back 2x2' não estão presentes. Não há favoritismo extremo para 'back goleada'. O cenário não se encaixa em 'lay zebra' ou 'over limite 70'."
+    },
+    {
+      "horario": "14:00",
+      "jogo": "Naft x Duhok",
+      "liga": "Iraq Iraqi Premier League",
+      "motivo": "Este jogo apresenta um confronto equilibrado em termos de pontos e vitórias. Duhok tem um ataque mais forte (1.53 gols/jogo) e uma defesa mais frágil (1.53 gols sofridos/jogo) comparado ao Naft (0.81 gols marcados/jogo, 0.75 gols sofridos/jogo). No entanto, o Naft tem um índice de Over 2.5 gols muito baixo (25%), o que desqualifica o método 'back 2x2'. Não há favoritismo claro para 'back favorito'. Não há cenário claro para 'lay zebra', 'over limite 70' ou 'back goleada'."
+    },
+    {
+      "horario": "14:30",
+      "jogo": "Maccabi Haifa x Hapoel Tel Aviv",
+      "liga": "Sem Liga",
+      "motivo": "Nenhum dos 5 métodos se aplica. Embora Maccabi Haifa tenha um histórico melhor e odd implícita de favorito, as estatísticas gerais são mistas e o Hapoel Tel Aviv também demonstra potencial ofensivo e defensivo com placares que podem ir para ambos os lados. Não há um favorito claro com odds baixas (< 1.80) para back_favorito. Os índices de gols não são suficientes para back_2x2 e o momento do jogo não sugere over_limite_70 ou back_goleada."
+    },
+    {
+      "horario": "14:30",
+      "jogo": "Hapoel Petah Tikva x Beitar Jerusalem",
+      "liga": "Sem Liga",
+      "motivo": "O índice de Over 2.5 gols é muito baixo para ambos os times (Hapoel Petah Tikva 46%, Beitar Jerusalem 72%). Embora o Beitar Jerusalem tenha um índice de Ambas Marcam razoável (56%), o Hapoel Petah Tikva é muito baixo (46%). Não há um padrão claro que justifique qualquer um dos 5 métodos."
+    },
+    {
+      "horario": "15:30",
+      "jogo": "KRC Genk x Royal Antwerp FC",
+      "liga": "Belgium Pro League",
+      "motivo": "O KRC Genk apresenta 42% de Over 2.5 gols, 58% de Ambas Marcam e 74% de Over 0.5 no 1º Tempo. O Royal Antwerp FC tem 32% de Over 2.5 gols, 32% de Ambas Marcam e 68% de Over 0.5 no 1º Tempo. Os indicadores para Back 2x2 não são fortes o suficiente. Não há favoritismo claro (<1.80) para Back Favorito. Os dados não suportam Lay Zebra, Over Limite 70 ou Back Goleada."
+    },
+    {
+      "horario": "15:30",
+      "jogo": "Sporting Charleroi x OH Leuven",
+      "liga": "Belgium Pro League",
+      "motivo": "O Sporting Charleroi apresenta 42% de Over 2.5 gols, 58% de Ambas Marcam e 68% de Over 0.5 no 1º Tempo. O OH Leuven tem 47% de Over 2.5 gols, 47% de Ambas Marcam e 53% de Over 0.5 no 1º Tempo. Os indicadores para Back 2x2 não são fortes o suficiente. Não há favoritismo claro (<1.80) para Back Favorito. Os dados não suportam Lay Zebra, Over Limite 70 ou Back Goleada."
+    },
+    {
+      "horario": "15:30",
+      "jogo": "KVC Westerlo x Standard Liège",
+      "liga": "Belgium Pro League",
+      "motivo": "O KVC Westerlo apresenta 47% de Over 2.5 gols, 42% de Ambas Marcam e 79% de Over 0.5 no 1º Tempo. O Standard Liège tem 42% de Over 2.5 gols, 26% de Ambas Marcam e 53% de Over 0.5 no 1º Tempo. Os indicadores para Back 2x2 não são fortes o suficiente (Ambas Marcam baixo no Standard). Não há favoritismo claro (<1.80) para Back Favorito. Os dados não suportam Lay Zebra, Over Limite 70 ou Back Goleada."
+    },
+    {
+      "horario": "16:15",
+      "jogo": "Chelsea x Tottenham Hotspur",
+      "liga": "England Premier League",
+      "motivo": "Sem favoritismo claro. Ambos os times têm odds muito próximas e um histórico recente inconsistente. Embora haja um padrão de Over 2.5 gols e Ambas Marcam, a ausência de um favorito definido e a defesa relativamente equilibrada de ambos os times não se encaixam nos métodos de entrada."
+    },
+    {
+      "horario": "17:00",
+      "jogo": "Independiente FBC x Deportivo Santaní",
+      "liga": "Paraguay Division Intermedia",
+      "motivo": "Nenhum dos 5 métodos se aplica. Independiente FBC é um forte favorito com 3 vitórias em 3 jogos e zero gols sofridos, mas a odd para este mercado não é alta o suficiente (< 1.40) para justificar back_goleada, e não há um cenário de goleada clara. O desempenho de Santaní é fraco. Back_favorito seria a opção mais próxima, mas precisamos de mais dados para confirmar um favoritismo com odd sustentável e confirmar padrões de gols ou apostas específicas."
+    },
+    {
+      "horario": "19:00",
+      "jogo": "Rosario Central x UCV",
+      "liga": "South America Copa Libertadores",
+      "motivo": "Estatísticas muito limitadas (apenas 2 jogos para ambos), dificultando a aplicação de critérios estatísticos robustos. O UCV tem 100% de Over 0.5 gols sofridos, mas o Rosario Central tem um padrão de gols muito baixo."
+    },
+    {
+      "horario": "19:00",
+      "jogo": "Fluminense x Bolívar",
+      "liga": "South America Copa Libertadores",
+      "motivo": "Amostra estatística muito pequena (1 jogo para o Fluminense, 2 para o Bolívar) que impede a aplicação confiável dos métodos. Embora o Fluminense apresente um padrão de Over 0.5 gols nos dois tempos, o Bolívar tem um padrão de gols muito baixo."
+    },
+    {
+      "horario": "19:00",
+      "jogo": "Audax Italiano x Barracas Central",
+      "liga": "South America Copa Sudamericana",
+      "motivo": "Sem favoritismo claro nem padrão de gols consistente para os métodos aplicáveis. Ambos os times têm um aproveitamento baixo de gols marcados e um alto índice de gols sofridos para o Audax Italiano, mas sem uma clara tendência para os métodos de aposta permitidos."
+    },
+    {
+      "horario": "19:00",
+      "jogo": "Torque x Deportivo Riestra",
+      "liga": "South America Copa Sudamericana",
+      "motivo": "Torque tem um bom retrospecto recente (3 vitórias), mas sem um padrão claro que se alinhe aos métodos de aposta permitidos, especialmente em relação à quantidade de gols e favoritismo/zebra definidos. Deportivo Riestra tem um aproveitamento baixo em jogos recentes."
     },
     {
       "horario": "20:00",
       "jogo": "Independiente Medellín x Cúcuta Deportivo",
       "liga": "Colombia Copa Colombia",
-      "motivo": "Dados estatísticos insuficientes (apenas 1 jogo por equipe na competição) para aplicar com confiança qualquer um dos 5 métodos. Não há base robusta para análise de favoritismo, padrões de gols ou desempenho defensivo/ofensivo."
+      "motivo": "Análise incompleta devido à suspensão da partida e falta de dados recentes consistentes para ambos os times nesta competição. O padrão de gols e favoritismo não são claros o suficiente para os métodos aplicáveis."
+    },
+    {
+      "horario": "21:30",
+      "jogo": "São Paulo x Millonarios",
+      "liga": "South America Copa Sudamericana",
+      "motivo": "Embora o São Paulo apresente um bom número de gols marcados e vitórias recentes, o Millonarios também tem um aproveitamento considerável em gols e vitórias. A odd para o São Paulo como favorito não apresenta um valor claro para 'back_favorito', e não há um padrão evidente para 'back_goleada' ou 'back_2x2'."
     },
     {
       "horario": "23:00",
       "jogo": "LDU Portoviejo x Libertad",
       "liga": "Ecuador Copa Ecuador",
-      "motivo": "Dados estatísticos insuficientes para LDU Portoviejo (não jogou na competição e sem dados da liga nacional). Impossível fazer qualquer análise comparativa ou aplicar métodos com base na filosofia do protocolo Arkeiro."
+      "motivo": "Falta de dados recentes consistentes para o LDU Portoviejo na competição. Embora o Libertad apresente um padrão de Over 0.5 gols em 95% dos seus jogos, a falta de dados do adversário impede uma análise robusta para os métodos de entrada."
     }
   ]
 }
