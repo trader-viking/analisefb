@@ -1,332 +1,10 @@
 {
   "data": "2026-05-19",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-05-19T14:33:19.894092",
-  "total_partidas_analisadas": 10,
-  "entradas": [
-    {
-      "horario": "08:35",
-      "liga": "China Chinese Super League",
-      "jogo": "Sichuan Jiuniu x Dalian Zhixing",
-      "metodos_aplicados": [
-        "back_favorito",
-        "lay_zebra",
-        "over_limite_70"
-      ],
-      "mercado_principal": "Vitória Sichuan Jiuniu",
-      "odd_principal": "Aguardar odd < 1.80",
-      "fair_odd_calculada": "Não calculada nos dados fornecidos",
-      "valor_esperado": "Potencial +EV se odd de Sichuan for atraente",
-      "mercado_secundario": "Lay Dalian Zhixing",
-      "odd_secundaria": "Aguardar odd > 5.00",
-      "desempenho_1t": "Sichuan: 1.00 gols marcados, 0.67 gols sofridos. Dalian: 0.50 gols marcados, 1.17 gols sofridos.",
-      "desempenho_2t": "Sichuan: 0.83 gols marcados, 0.83 gols sofridos. Dalian: 0.83 gols marcados, 1.50 gols sofridos.",
-      "motivacao_tecnica": "Sichuan Jiuniu demonstra um claro favoritismo com maior PPG (1.50 vs 1.00), maior % de vitórias (50% vs 33%) e melhor ataque (1.83 gols/jogo). Dalian Zhixing apresenta uma defesa muito frágil (2.67 gols sofridos/jogo), especialmente no segundo tempo (1.50 gols sofridos/jogo), e tem um histórico recente de resultados ruins. A diferença de qualidade e momento é evidente.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto (irregularidade defensiva)",
-      "mando_de_campo": "Sichuan tem bom desempenho em casa, mantendo a média de pontos por jogo.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo (assumido, não especificado)",
-      "especificidades_gols": "Sichuan marca 36% dos gols no fim do 1º tempo (31-45) e no fim do 2º tempo (76-90). Dalian sofre muito no 2º tempo (1.50 gols/jogo).",
-      "momento_gols": "Sichuan: 36% dos gols marcados entre 76-90 min. Dalian: 44% dos gols sofridos entre 76-90 min.",
-      "jogadores_chave": "Sichuan: Wesley Moraes (5 G, 2 A). Dalian: Frank Opoku Acheampong (5 G, 1 A).",
-      "placares_provaveis": "2x0, 3x1, 3x0",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra. Ao vivo para Over Limite 70+.",
-      "situacao_saida": "Proteger lucro com cash-out se o favorito estiver à frente por boa margem.",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro do Sichuan e fragilidade defensiva do Dalian.",
-        "gatilho_saida_parcial": "Sichuan à frente por 2 gols, ou adversário em desvantagem numérica.",
-        "hard_stop": "Dalian apresentando performance defensiva atípica ou Sichuan em dificuldade para marcar."
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Sichuan Jiuniu",
-        "odd_alvo": "1.60",
-        "razao": "Sichuan tem melhor desempenho geral, aproveitamento e um ataque mais eficiente, contra uma defesa muito vulnerável do Dalian.",
-        "gatilho_ao_vivo": "N/A",
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "zebra": "Dalian Zhixing",
-        "odd_zebra_alvo": "5.50",
-        "razao": "Dalian tem baixa porcentagem de vitórias (33%), média de gols sofridos muito alta (2.67) e desempenho recente fraco. A odd da zebra deve estar inflada.",
-        "gatilho_ao_vivo": "lay após Dalian marcar primeiro, especialmente se for gol de contra-ataque ou lance isolado.",
-        "stake_recomendada": "2%"
-      },
-      "over_limite_70": {
-        "aplicavel": true,
-        "favorito": "Sichuan Jiuniu",
-        "indice_gols_final": "Sichuan marca 36% dos gols entre 76-90 min. Dalian sofre 44% dos gols entre 76-90 min.",
-        "condicao_entrada": "Entrar se Sichuan vencer por 2 gols após 70min.",
-        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar)",
-        "odd_esperada": "1.70 a 2.30",
-        "stake_recomendada": "1%",
-        "observacoes": "A fragilidade defensiva do Dalian, especialmente no 2º tempo, aliada à capacidade de finalização do Sichuan, cria uma boa oportunidade para gols tardios."
-      },
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "09:00",
-      "liga": "China Chinese Super League",
-      "jogo": "Chengdu Better City FC x Shanghai SIPG",
-      "metodos_aplicados": [
-        "back_favorito",
-        "lay_zebra",
-        "back_goleada",
-        "over_limite_70"
-      ],
-      "mercado_principal": "Vitória Chengdu Better City FC",
-      "odd_principal": "Aguardar odd < 1.40",
-      "fair_odd_calculada": "Não calculada nos dados fornecidos",
-      "valor_esperado": "Potencial +EV em caso de favoritismo extremo confirmado",
-      "mercado_secundario": "Chengdu Better City FC marca 4+ e vence",
-      "odd_secundaria": "Aguardar odd > 3.50",
-      "desempenho_1t": "Chengdu: 1.50 gols marcados, 0.33 gols sofridos. Shanghai: 0.40 gols marcados, 0.20 gols sofridos.",
-      "desempenho_2t": "Chengdu: 1.83 gols marcados, 0.17 gols sofridos. Shanghai: 0.40 gols marcados, 1.40 gols sofridos.",
-      "motivacao_tecnica": "Chengdu Better City FC é um favorito extremo, com 100% de vitórias (6 em 6), média de 3.33 gols marcados por jogo e apenas 0.50 gols sofridos. O Shanghai SIPG (baseado nos dados fornecidos) é o completo oposto, sem vitórias, média de 0.80 gols marcados e 1.60 gols sofridos. A disparidade de desempenho e forma é gritante, indicando uma vitória fácil para o Chengdu e potencial para goleada.",
-      "coeficiente_regularidade": "Casa: CV muito baixo (extrema consistência) / Visitante: CV alto (extrema irregularidade)",
-      "mando_de_campo": "Chengdu tem um desempenho perfeito em casa, aproveitando o fator campo.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo (assumido, não especificado)",
-      "especificidades_gols": "Chengdu tem um ataque muito forte, especialmente no 2º tempo (1.83 gols/jogo) e nos minutos finais (35% entre 76-90). Shanghai sofre muito no 2º tempo (1.40 gols/jogo).",
-      "momento_gols": "Chengdu: 35% dos gols marcados entre 76-90 min. Shanghai: 38% dos gols sofridos entre 46-60 min e 61-75 min.",
-      "jogadores_chave": "Chengdu: Wellington Alves da Silva (7 G, 5 A), Felipe de Sousa Silva (9 G, 1 A). Shanghai: Mateus Da Silva Vital Assumpção (2 G, 2 A).",
-      "placares_provaveis": "3x0, 4x0, 4x1, 5x0",
-      "momento_entrada": "Pré-jogo para Back Favorito, Lay Zebra e Back Goleada. Ao vivo para Over Limite 70+.",
-      "situacao_saida": "Cash-out parcial no Back Goleada ao 2x0 ou 3x0. Proteger lucro em Back Favorito com cash-out parcial.",
-      "stake_recomendada": "3% (2% para favorito, 1% para goleada)",
-      "plano_execucao": {
-        "abordagem": "forçar",
-        "justificativa_abordagem": "O favoritismo extremo do Chengdu justifica uma abordagem mais agressiva, com confiança na vitória e na capacidade de golear.",
-        "gatilho_saida_parcial": "Chengdu à frente por 2 gols no intervalo (para Back Goleada) ou 3 gols a qualquer momento.",
-        "hard_stop": "Gol do Shanghai SIPG ou Chengdu não conseguindo quebrar a defesa adversária até o intervalo."
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Chengdu Better City FC",
-        "odd_alvo": "1.20",
-        "razao": "Favoritismo extremo, 100% de vitórias, ataque muito produtivo e defesa sólida contra um time sem vitórias e defensivamente fraco.",
-        "gatilho_ao_vivo": "N/A",
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "zebra": "Shanghai SIPG",
-        "odd_zebra_alvo": "7.00",
-        "razao": "Shanghai SIPG não venceu nenhuma partida, tem ataque fraco (0.80 gols/jogo) e defesa vulnerável (1.60 gols/jogo). As chances de vitória são mínimas.",
-        "gatilho_ao_vivo": "lay após zebra marcar primeiro se for um gol contra o fluxo do jogo.",
-        "stake_recomendada": "2%"
-      },
-      "over_limite_70": {
-        "aplicavel": true,
-        "favorito": "Chengdu Better City FC",
-        "indice_gols_final": "Chengdu marca 35% dos gols entre 76-90 min. Shanghai sofre 38% dos gols entre 46-75 min, indicando fragilidade no segundo tempo.",
-        "condicao_entrada": "Entrar se Chengdu vencer por 2 gols após 70min.",
-        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar)",
-        "odd_esperada": "1.50 a 2.00",
-        "stake_recomendada": "1%",
-        "observacoes": "A alta capacidade ofensiva do Chengdu no segundo tempo e a fragilidade defensiva do Shanghai tornam este mercado interessante para um gol adicional."
-      },
-      "back_2x2": null,
-      "back_goleada": {
-        "aplicavel": true,
-        "candidato": "Chengdu Better City FC",
-        "razao": "Chengdu tem favoritismo extremo (100% vitórias, 3.33 gols/jogo) e enfrenta uma defesa muito frágil (Shanghai SIPG sem vitórias, 1.60 gols sofridos/jogo).",
-        "modo": "pre_jogo",
-        "mercado_sugerido": "Chengdu marca 4+ e vence",
-        "odd_esperada": "3.50 a 7.00",
-        "stake_recomendada": "1%"
-      },
-      "confirmacao_visual": {
-        "aplicavel": true,
-        "perfil_tatico": "Chengdu dominará a posse de bola e o campo de ataque, buscando constantemente a finalização. Shanghai SIPG deve se fechar e tentar contra-ataques esporádicos.",
-        "gatilhos_aceleracao": "Encaixe defensivo rápido do Chengdu, subida constante de linhas, velocidade nas transições ofensivas e alta taxa de finalizações no alvo.",
-        "alerta_armadilha": "Chengdu lento na circulação de bola, muitas finalizações de fora da área sem perigo, ou Shanghai SIPG surpreendendo com um gol cedo.",
-        "mercado_recomendado": "Back Goleada (se confirmar domínio e gols cedo) ou Over Limite 70+ (se 2-0 ou 3-0 com pressão).",
-        "momento_observacao": "Primeiros 15-20 minutos de jogo e pós-intervalo."
-      }
-    },
-    {
-      "horario": "15:00",
-      "liga": "Italy Serie B",
-      "jogo": "Monza x Juve Stabia",
-      "metodos_aplicados": [
-        "back_favorito",
-        "lay_zebra",
-        "over_limite_70"
-      ],
-      "mercado_principal": "Vitória Monza",
-      "odd_principal": "Aguardar odd < 1.80",
-      "fair_odd_calculada": "Não calculada nos dados fornecidos",
-      "valor_esperado": "Potencial +EV se odd de Monza for atraente",
-      "mercado_secundario": "Lay Juve Stabia",
-      "odd_secundaria": "Aguardar odd > 5.00",
-      "desempenho_1t": "Monza: 0.68 gols marcados, 0.32 gols sofridos. Juve Stabia: 0.60 gols marcados, 0.55 gols sofridos.",
-      "desempenho_2t": "Monza: 1.11 gols marcados, 0.32 gols sofridos. Juve Stabia: 0.40 gols marcados, 0.95 gols sofridos.",
-      "motivacao_tecnica": "Monza é um favorito muito forte, com 2.42 PPG e 74% de vitórias, em excelente fase. Possui um ataque eficaz (1.79 gols/jogo) e uma defesa extremamente sólida (0.63 gols sofridos/jogo). Juve Stabia está em má fase, com apenas 20% de vitórias, ataque fraco (1.00 gols/jogo) e defesa frágil (1.50 gols sofridos/jogo). A diferença de qualidade e momento é clara.",
-      "coeficiente_regularidade": "Casa: CV baixo (alta consistência) / Visitante: CV alto (irregularidade)",
-      "mando_de_campo": "Monza tem um forte desempenho em casa, mantendo a média de pontos por jogo.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo (assumido, não especificado)",
-      "especificidades_gols": "Monza marca mais no 2º tempo (1.11 gols/jogo) e tem boa distribuição de gols. Juve Stabia sofre mais no 2º tempo (0.95 gols/jogo).",
-      "momento_gols": "Monza: 21% dos gols marcados entre 76-90 min. Juve Stabia: 27% dos gols sofridos entre 46-75 min.",
-      "jogadores_chave": "Monza: Andrea Petagna (9 G, 3 A), Paulo Azzi (6 G, 7 A). Juve Stabia: Nicola Mosti (8 G, 1 A), Leonardo Candellone (7 G, 2 A).",
-      "placares_provaveis": "2x0, 2x1, 3x0",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra. Ao vivo para Over Limite 70+.",
-      "situacao_saida": "Proteger lucro com cash-out se o favorito estiver à frente por boa margem.",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Monza é um favorito muito forte com alta probabilidade de vitória, apoiado por estatísticas sólidas.",
-        "gatilho_saida_parcial": "Monza à frente por 2 gols, ou zebra em desvantagem numérica.",
-        "hard_stop": "Juve Stabia apresentando desempenho defensivo surpreendente ou Monza não conseguindo criar chances claras."
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Monza",
-        "odd_alvo": "1.40",
-        "razao": "Monza tem aproveitamento de 2.42 PPG (74% de vitórias), ataque produtivo e defesa muito sólida, contra um adversário em má fase e com defesa frágil.",
-        "gatilho_ao_vivo": "N/A",
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "zebra": "Juve Stabia",
-        "odd_zebra_alvo": "5.00",
-        "razao": "Juve Stabia tem apenas 20% de vitórias, defesa frágil (1.50 gols sofridos/jogo) e está em péssima fase, tornando as chances de vitória muito baixas.",
-        "gatilho_ao_vivo": "lay após zebra marcar primeiro, se for contra o fluxo do jogo.",
-        "stake_recomendada": "2%"
-      },
-      "over_limite_70": {
-        "aplicavel": true,
-        "favorito": "Monza",
-        "indice_gols_final": "Monza marca 21% dos gols entre 76-90 min. Juve Stabia sofre 27% dos gols entre 46-75 min e 10% entre 76-90 min.",
-        "condicao_entrada": "Entrar se Monza vencer por 2 gols após 70min.",
-        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar)",
-        "odd_esperada": "1.60 a 2.10",
-        "stake_recomendada": "1%",
-        "observacoes": "Monza tem um ataque forte no 2º tempo e a defesa de Juve Stabia é vulnerável, aumentando a chance de um gol tardio."
-      },
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "15:30",
-      "liga": "Belgium Pro League",
-      "jogo": "KRC Genk x Royal Antwerp FC",
-      "metodos_aplicados": [
-        "back_favorito",
-        "lay_zebra",
-        "over_limite_70"
-      ],
-      "mercado_principal": "Vitória KRC Genk",
-      "odd_principal": "Aguardar odd < 1.80",
-      "fair_odd_calculada": "Não calculada nos dados fornecidos",
-      "valor_esperado": "Potencial +EV se odd de Genk for atraente",
-      "mercado_secundario": "Lay Royal Antwerp FC",
-      "odd_secundaria": "Aguardar odd > 5.00",
-      "desempenho_1t": "Genk: 0.47 gols marcados, 0.79 gols sofridos. Antwerp: 0.42 gols marcados, 0.58 gols sofridos.",
-      "desempenho_2t": "Genk: 0.89 gols marcados, 0.37 gols sofridos. Antwerp: 0.47 gols marcados, 0.58 gols sofridos.",
-      "motivacao_tecnica": "KRC Genk apresenta melhor aproveitamento (1.47 PPG vs 1.00 PPG), maior percentual de vitórias (37% vs 26%), e melhor média de gols marcados (1.37 vs 0.89), além de um xG médio a favor superior (1.98 vs 1.24). O Royal Antwerp FC vem de uma sequência ruim, com várias derrotas, enquanto Genk tem mostrado mais consistência. O diferencial técnico e a vantagem de jogar em casa favorecem claramente o Genk.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto (irregularidade)",
-      "mando_de_campo": "Genk possui desempenho superior em casa e busca consolidar posição na tabela.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo (assumido, não especificado)",
-      "especificidades_gols": "Genk marca mais no segundo tempo (0.89) e sofre menos (0.37). Antwerp sofre mais gols no segundo tempo (0.58).",
-      "momento_gols": "Genk: 27% dos gols marcados entre 76-90 min. Antwerp: 23% dos gols sofridos entre 76-90 min.",
-      "jogadores_chave": "KRC Genk: Zakaria El Ouahdi (8 G, 3 A). Royal Antwerp FC: Vincent Janssen (10 G, 7 A).",
-      "placares_provaveis": "2x0, 2x1, 3x1",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra. Ao vivo para Over Limite 70+.",
-      "situacao_saida": "Proteger lucro com cash-out se o favorito estiver à frente com boa margem.",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Baseado na análise estatística e técnica do favoritismo claro de Genk.",
-        "gatilho_saida_parcial": "Favorito à frente por 2 gols, ou adversário em desvantagem numérica.",
-        "hard_stop": "Perda do favorito ao primeiro tempo ou zebra apresentando performance inesperada."
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "KRC Genk",
-        "odd_alvo": "1.47",
-        "razao": "Favoritismo claro do Genk em casa contra um adversário em má fase e com menor aproveitamento. Genk tem melhor média de gols, vitórias e xG.",
-        "gatilho_ao_vivo": "N/A",
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "zebra": "Royal Antwerp FC",
-        "odd_zebra_alvo": "5.00",
-        "razao": "Antwerp tem um baixo percentual de vitórias (26%), desempenho fraco recente e menor xG a favor, com xG contra elevado (1.64).",
-        "gatilho_ao_vivo": "lay após zebra marcar primeiro, se for contra o fluxo do jogo.",
-        "stake_recomendada": "2%"
-      },
-      "over_limite_70": {
-        "aplicavel": true,
-        "favorito": "KRC Genk",
-        "indice_gols_final": "Genk marca 27% dos gols entre 76-90 min. Antwerp sofre 23% dos gols entre 76-90 min.",
-        "condicao_entrada": "Entrar se Genk vencer por 2 gols após 70min.",
-        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Royal Antwerp FC tem defesa mais vulnerável no 2º tempo (0.58 gols sofridos/jogo no 2º tempo)."
-      },
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": null
-    }
-  ],
-  "evitar": [
-    {
-      "horario": "08:35",
-      "jogo": "Tianjin Teda x Henan Jianye",
-      "liga": "China Chinese Super League",
-      "motivo": "Tianjin Teda não possui vitórias e Henan Jianye tem um ataque muito ineficaz (0.67 gols/jogo). Não há favoritismo claro e as estatísticas de Over 2.5 e Ambas Marcam não se enquadram nos critérios dos métodos."
-    },
-    {
-      "horario": "09:00",
-      "jogo": "Qingdao Youth Island x Beijing Guoan",
-      "liga": "China Chinese Super League",
-      "motivo": "Qingdao Youth Island tem um índice de Over 2.5 muito baixo (0%), o que invalida Back 2x2. Não há favoritismo claro o suficiente para Back Favorito e o perfil de gols não se encaixa nos outros métodos."
-    },
-    {
-      "horario": "15:30",
-      "jogo": "Sporting Charleroi x OH Leuven",
-      "liga": "Belgium Pro League",
-      "motivo": "Nenhum favoritismo claro, ambas as equipes apresentam má fase recente e estatísticas de gols não se encaixam nos critérios dos métodos (Over 2.5 e Ambas Marcam abaixo de 65%)."
-    },
-    {
-      "horario": "15:30",
-      "jogo": "KVC Westerlo x Standard Liège",
-      "liga": "Belgium Pro League",
-      "motivo": "Contradição nos dados de xG (Standard tem alto PPG, mas xG a favor menor e xG contra maior que Westerlo), o que impede a identificação de um favorito claro com valor nas odds. Nenhum método se aplica com confiança."
-    },
-    {
-      "horario": "15:30",
-      "jogo": "AFC Bournemouth x Manchester City",
-      "liga": "England Premier League",
-      "motivo": "Apesar dos nomes dos clubes, os dados fornecidos para 18 jogos não indicam um favoritismo extremo ou claro para o Manchester City (PPG e xG similares ao Bournemouth), e as estatísticas de gols não atingem os limiares para Back 2x2 ou Back Goleada. Evitar devido à falta de valor evidente com base nos dados."
-    },
-    {
-      "horario": "16:15",
-      "jogo": "Chelsea x Tottenham Hotspur",
-      "liga": "England Premier League",
-      "motivo": "Dados estatísticos contraditórios (xG do Chelsea melhor que o do Tottenham, mas Tottenham à frente na tabela), e ambos os times em má fase recente. Nenhuma das equipes se encaixa claramente como favorito ou zebra para os métodos permitidos, e as estatísticas de gols não são altas o suficiente para Back 2x2."
-    }
-  ],
+  "gerado_em": "2026-05-19T14:49:47.138801",
+  "total_partidas_analisadas": 39,
+  "entradas": [],
+  "evitar": [],
   "pdfs": [
     {
       "jogo": "KRC Genk x Royal Antwerp FC",
@@ -367,6 +45,122 @@
     {
       "jogo": "Monza x Juve Stabia",
       "arquivo": "pdfs/2026-05-19/Italy_Serie_B/010_15h00_Monza_x_Juve_Stabia.pdf"
+    },
+    {
+      "jogo": "Maccabi Haifa x Hapoel Tel Aviv",
+      "arquivo": "pdfs/2026-05-19/Sem_Liga/011_14h30_Maccabi_Haifa_x_Hapoel_Tel_Aviv.pdf"
+    },
+    {
+      "jogo": "Hapoel Be'er Sheva x Maccabi Tel Aviv",
+      "arquivo": "pdfs/2026-05-19/Sem_Liga/012_14h30_Hapoel_Beer_Sheva_x_Maccabi_Tel_Aviv.pdf"
+    },
+    {
+      "jogo": "Hapoel Petah Tikva x Beitar Jerusalem",
+      "arquivo": "pdfs/2026-05-19/Sem_Liga/013_14h30_Hapoel_Petah_Tikva_x_Beitar_Jerusalem.pdf"
+    },
+    {
+      "jogo": "Ried x Wolfsberger AC",
+      "arquivo": "pdfs/2026-05-19/Austria_Bundesliga/014_13h30_Ried_x_Wolfsberger_AC.pdf"
+    },
+    {
+      "jogo": "Independiente Medellín x Cúcuta Deportivo",
+      "arquivo": "pdfs/2026-05-19/Colombia_Copa_Colombia/015_Suspenso_Independiente_Medellín_x_Cúcuta_Deportivo.pdf"
+    },
+    {
+      "jogo": "LDU Portoviejo x Libertad",
+      "arquivo": "pdfs/2026-05-19/Ecuador_Copa_Ecuador/016_20h00_LDU_Portoviejo_x_Libertad.pdf"
+    },
+    {
+      "jogo": "Rouen x Laval",
+      "arquivo": "pdfs/2026-05-19/France_Ligue_23_Play-offs/017_15h30_Rouen_x_Laval.pdf"
+    },
+    {
+      "jogo": "NorthEast United x Mohammedan",
+      "arquivo": "pdfs/2026-05-19/India_Indian_Super_League/018_08h30_NorthEast_United_x_Mohammedan.pdf"
+    },
+    {
+      "jogo": "Al Kahrabaa x Al Gharraf",
+      "arquivo": "pdfs/2026-05-19/Iraq_Iraqi_Premier_League/019_11h30_Al_Kahrabaa_x_Al_Gharraf.pdf"
+    },
+    {
+      "jogo": "Al-Qasim x Naft Maysan",
+      "arquivo": "pdfs/2026-05-19/Iraq_Iraqi_Premier_League/020_11h30_Al-Qasim_x_Naft_Maysan.pdf"
+    },
+    {
+      "jogo": "Diala x Baghdad",
+      "arquivo": "pdfs/2026-05-19/Iraq_Iraqi_Premier_League/021_11h30_Diala_x_Baghdad.pdf"
+    },
+    {
+      "jogo": "Al Talaba x Al-Karma",
+      "arquivo": "pdfs/2026-05-19/Iraq_Iraqi_Premier_League/022_14h00_Al_Talaba_x_Al-Karma.pdf"
+    },
+    {
+      "jogo": "Naft x Duhok",
+      "arquivo": "pdfs/2026-05-19/Iraq_Iraqi_Premier_League/023_14h00_Naft_x_Duhok.pdf"
+    },
+    {
+      "jogo": "Deportivo Capiatá x Fernando de la Mora",
+      "arquivo": "pdfs/2026-05-19/Paraguay_Division_Intermedia/024_10h00_Deportivo_Capiatá_x_Fernando_de_la_Mora.pdf"
+    },
+    {
+      "jogo": "Tacuary x Encarnación",
+      "arquivo": "pdfs/2026-05-19/Paraguay_Division_Intermedia/025_10h00_Tacuary_x_Encarnación.pdf"
+    },
+    {
+      "jogo": "Independiente FBC x Deportivo Santaní",
+      "arquivo": "pdfs/2026-05-19/Paraguay_Division_Intermedia/026_17h00_Independiente_FBC_x_Deportivo_Santaní.pdf"
+    },
+    {
+      "jogo": "Rosario Central x UCV",
+      "arquivo": "pdfs/2026-05-19/South_America_Copa_Libertadores/027_19h00_Rosario_Central_x_UCV.pdf"
+    },
+    {
+      "jogo": "Fluminense x Bolívar",
+      "arquivo": "pdfs/2026-05-19/South_America_Copa_Libertadores/028_19h00_Fluminense_x_Bolívar.pdf"
+    },
+    {
+      "jogo": "Coquimbo Unido x Deportes Tolima",
+      "arquivo": "pdfs/2026-05-19/South_America_Copa_Libertadores/029_19h00_Coquimbo_Unido_x_Deportes_Tolima.pdf"
+    },
+    {
+      "jogo": "Club Always Ready x Mirassol",
+      "arquivo": "pdfs/2026-05-19/South_America_Copa_Libertadores/030_21h00_Club_Always_Ready_x_Mirassol.pdf"
+    },
+    {
+      "jogo": "Santa Fe x Platense",
+      "arquivo": "pdfs/2026-05-19/South_America_Copa_Libertadores/031_21h00_Santa_Fe_x_Platense.pdf"
+    },
+    {
+      "jogo": "Boca Juniors x Cruzeiro",
+      "arquivo": "pdfs/2026-05-19/South_America_Copa_Libertadores/032_21h30_Boca_Juniors_x_Cruzeiro.pdf"
+    },
+    {
+      "jogo": "CSD Independiente del Valle x Libertad",
+      "arquivo": "pdfs/2026-05-19/South_America_Copa_Libertadores/033_23h00_CSD_Independiente_del_Valle_x_Libertad.pdf"
+    },
+    {
+      "jogo": "Audax Italiano x Barracas Central",
+      "arquivo": "pdfs/2026-05-19/South_America_Copa_Sudamericana/034_19h00_Audax_Italiano_x_Barracas_Central.pdf"
+    },
+    {
+      "jogo": "Torque x Deportivo Riestra",
+      "arquivo": "pdfs/2026-05-19/South_America_Copa_Sudamericana/035_19h00_Torque_x_Deportivo_Riestra.pdf"
+    },
+    {
+      "jogo": "São Paulo x Millonarios",
+      "arquivo": "pdfs/2026-05-19/South_America_Copa_Sudamericana/036_21h30_São_Paulo_x_Millonarios.pdf"
+    },
+    {
+      "jogo": "Deportivo Cuenca x Deportivo Recoleta",
+      "arquivo": "pdfs/2026-05-19/South_America_Copa_Sudamericana/037_23h00_Deportivo_Cuenca_x_Deportivo_Recoleta.pdf"
+    },
+    {
+      "jogo": "América de Cali x Tigre",
+      "arquivo": "pdfs/2026-05-19/South_America_Copa_Sudamericana/038_23h00_América_de_Cali_x_Tigre.pdf"
+    },
+    {
+      "jogo": "Helsingborg x Varberg",
+      "arquivo": "pdfs/2026-05-19/Sweden_Superettan/039_14h00_Helsingborg_x_Varberg.pdf"
     }
   ]
 }
