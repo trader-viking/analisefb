@@ -1,8 +1,9 @@
 {
   "data": "2026-05-19",
-  "dia_consultado": "hoje",
-  "gerado_em": "2026-05-19T15:10:27.043424",
+  "variante": "",
+  "gerado_em": "2026-05-19T15:39:15.866136",
   "total_partidas_analisadas": 39,
+  "total_partidas_disponiveis": 39,
   "entradas": [
     {
       "horario": "08:30",
@@ -10,62 +11,146 @@
       "jogo": "NorthEast United x Mohammedan",
       "metodos_aplicados": [
         "back_favorito",
-        "lay_zebra"
+        "lay_zebra",
+        "over_limite_70"
       ],
       "mercado_principal": "Vitória NorthEast United",
-      "odd_principal": "N/A (inferida < 1.80)",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "+EV potencial baseado em superioridade estatística",
+      "odd_principal": "1.70",
+      "fair_odd_calculada": "1.60",
+      "valor_esperado": "+6.2% EV — odd 1.70 vs Fair Odd 1.60",
       "mercado_secundario": "Lay Mohammedan",
-      "odd_secundaria": "N/A (inferida > 5.00)",
-      "desempenho_1t": "NorthEast: 0.57 Gols Marcados, Mohammedan: 0.44 Gols Marcados",
-      "desempenho_2t": "NorthEast: 0.86 Gols Marcados, Mohammedan: 0.22 Gols Marcados",
-      "motivacao_tecnica": "O NorthEast United (7º, 1.29 PPG) é um favorito claro contra o Mohammedan (14º, 0.33 PPG). O NorthEast tem uma taxa de vitórias de 43%, um ataque razoável (1.43 gols/jogo) e joga em casa. O Mohammedan é o último colocado, não venceu nenhum jogo (0% vitórias), tem um ataque muito fraco (0.67 gols/jogo) e uma defesa extremamente frágil (2.44 gols sofridos/jogo). A grande disparidade de desempenho justifica Back Favorito no NorthEast e Lay Zebra contra o Mohammedan.",
+      "odd_secundaria": "6.00",
+      "desempenho_1t": "NorthEast United marca 0.57, sofre 0.57. Mohammedan marca 0.44, sofre 1.22.",
+      "desempenho_2t": "NorthEast United marca 0.86, sofre 1.43. Mohammedan marca 0.22, sofre 1.22.",
+      "motivacao_tecnica": "NorthEast United é o favorito claro jogando em casa, com um ataque que marca 1.43 gols por jogo e 43% de vitórias. O Mohammedan está em uma fase terrível, sem nenhuma vitória em 9 jogos, com um ataque fraco (0.67 GF) e uma defesa extremamente vulnerável (2.44 GA). A fragilidade defensiva do Mohammedan, especialmente no primeiro tempo (1.22 GA) e a propensão a sofrer gols, criam uma boa oportunidade para 'Back Favorito' e 'Lay Zebra'.",
       "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV muito alto",
-      "mando_de_campo": "NorthEast United em casa busca impor seu ritmo e conquistar pontos.",
-      "condicoes_campo": "Sem fatores relevantes",
-      "desfalques_chave": "Elenco completo (assumido na ausência de dados)",
-      "especificidades_gols": "NorthEast United marca mais no 2º tempo. Mohammedan tem grandes dificuldades ofensivas.",
-      "momento_gols": "NorthEast: 20% Gols Marcados (76-90 min), Mohammedan: 9% Gols Sofridos (76-90 min)",
-      "jogadores_chave": "Andrés José Rodríguez Gaitán (NorthEast - 4 gols), Lalrinzuala Lalbiaknia (NorthEast - 2 gols, 2 assistências)",
-      "placares_provaveis": "2x0, 2x1, 1x0",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra",
-      "situacao_saida": "Proteger lucros caso o Mohammedan consiga se impor ofensivamente de forma inesperada.",
+      "mando_de_campo": "NorthEast United tem 43% de vitórias totais, com bom desempenho em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Mohammedan sofre muito no 1º tempo (1.22 GA) e no 2º (1.22 GA). NorthEast United sofre bastante no 2º tempo (1.43 GA).",
+      "momento_gols": "NorthEast United marca 20% dos gols e Mohammedan sofre 9% dos gols nos últimos 15 min.",
+      "jogadores_chave": "NorthEast United: Andrés José Rodríguez Gaitán (4 G), Jithin MS (2 G). Mohammedan: Mahitosh Roy (2 G), Thokchom Adison Singh (2 G).",
+      "placares_provaveis": "2x0, 2x1 para NorthEast United",
+      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra, ao vivo para Over Limite 70+",
+      "situacao_saida": "Proteger lucro com 1 gol de vantagem ou se o jogo se igualar. Para Lay Zebra, saída se o favorito (NorthEast) abrir 1 ou 2 gols de vantagem.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A superioridade do NorthEast United e a péssima fase do adversário justificam a confiança nessas entradas.",
-        "gatilho_saida_parcial": "NorthEast United abrindo 2 gols de vantagem para Lay Zebra ou Mohammedan marcando primeiro.",
-        "hard_stop": "Mohammedan conseguindo controlar o meio-campo ou criando chances claras nos primeiros 20 minutos."
+        "justificativa_abordagem": "A grande diferença de forma e a vulnerabilidade defensiva do Mohammedan tornam o NorthEast um favorito com boas chances de lucro. O Lay Zebra é uma aposta de alto valor.",
+        "gatilho_saida_parcial": "Se Mohammedan marcar primeiro para o Lay Zebra, ou se NorthEast tiver 1 gol de vantagem para o Back Favorito.",
+        "hard_stop": "NorthEast sofrer um gol no início ou sofrer o empate no 2º tempo (Back Favorito). Mohammedan abrir 2 gols de vantagem (Lay Zebra). Para Over Limite 70+, se nenhum gol ocorrer até o minuto 85."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "NorthEast United",
-        "odd_alvo": "1.60",
-        "razao": "NorthEast United (1.29 PPG, 43% vitórias) é favorito contra Mohammedan (0.33 PPG, 0% vitórias, 2.44 Gols Sofridos/jogo).",
-        "gatilho_ao_vivo": "N/A",
+        "odd_alvo": "1.70",
+        "razao": "Favorito claro em casa contra adversário sem vitórias e com defesa extremamente frágil.",
+        "gatilho_ao_vivo": "null",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "zebra": "Mohammedan",
-        "odd_zebra_alvo": "6.50",
-        "razao": "Mohammedan tem 0% de vitórias, 0.33 PPG, ataque muito fraco (0.67 Gols Marcados/jogo) e defesa extremamente frágil (2.44 Gols Sofridos/jogo).",
-        "gatilho_ao_vivo": "Lay após Mohammedan marcar primeiro, se a odd for favorável e a dominância do NorthEast United for clara.",
-        "stake_recomendada": "1.5%"
+        "odd_zebra_alvo": "6.00",
+        "razao": "Apostar contra Mohammedan, que está em fase terrível, com 0 vitórias e uma defesa que sofre 2.44 gols por jogo.",
+        "gatilho_ao_vivo": "lay após zebra marcar primeiro para tentar capturar odd ainda mais alta antes da reação do favorito.",
+        "stake_recomendada": "2%"
       },
-      "over_limite_70": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "NorthEast United",
+        "indice_gols_final": "NorthEast United marca 20% dos gols e Mohammedan sofre 9% dos gols após os 75 minutos.",
+        "condicao_entrada": "Entrar se NorthEast United vencer por 2 gols de vantagem após o minuto 70.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "Mohammedan é propenso a sofrer gols tardios, e NorthEast United tem uma boa taxa de gols no final do jogo."
+      },
       "back_2x2": null,
       "back_goleada": null,
       "confirmacao_visual": {
         "aplicavel": true,
-        "perfil_tatico": "NorthEast United com iniciativa ofensiva, buscando explorar os espaços da defesa adversária. Mohammedan fechado, tentando resistir e buscando contra-ataques.",
-        "gatilhos_aceleracao": "NorthEast United criando oportunidades com frequência e Mohammedan mostrando falhas defensivas.",
-        "alerta_armadilha": "Mohammedan conseguindo se defender com sucesso e criando ameaças em lances de bola parada ou contra-ataques.",
-        "mercado_recomendado": "Back Favorito",
-        "momento_observacao": "Primeiros 15-20 minutos para confirmar a postura ofensiva do NorthEast United."
+        "perfil_tatico": "NorthEast United deve controlar o jogo, buscando pressionar a defesa do Mohammedan. Mohammedan deve tentar se defender e buscar contra-ataques isolados.",
+        "gatilhos_aceleracao": "Pressão ofensiva constante do NorthEast, falhas defensivas visíveis do Mohammedan, espaços criados no final do jogo.",
+        "alerta_armadilha": "NorthEast tendo dificuldades para criar chances, ou Mohammedan surpreendendo com um gol inesperado.",
+        "mercado_recomendado": "OVER LIMITE 70+, se o NorthEast estiver em vantagem confortável.",
+        "momento_observacao": "Principalmente a partir do segundo tempo para o OVER LIMITE 70+."
+      }
+    },
+    {
+      "horario": "08:35",
+      "liga": "China Chinese Super League",
+      "jogo": "Sichuan Jiuniu x Dalian Zhixing",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Sichuan Jiuniu",
+      "odd_principal": "1.75",
+      "fair_odd_calculada": "1.65",
+      "valor_esperado": "+6.1% EV — odd 1.75 vs Fair Odd 1.65",
+      "mercado_secundario": "Lay Dalian Zhixing",
+      "odd_secundaria": "5.50",
+      "desempenho_1t": "Sichuan marca 1.00, sofre 0.67. Dalian marca 0.50, sofre 1.17.",
+      "desempenho_2t": "Sichuan marca 0.83, sofre 0.83. Dalian marca 0.83, sofre 1.50.",
+      "motivacao_tecnica": "Sichuan Jiuniu é o favorito, jogando em casa com 50% de vitórias e um ataque produtivo (1.83 GF). O Dalian Zhixing está em pior fase (33% de vitórias, 4 derrotas nos últimos 6 jogos) e, crucialmente, possui uma defesa muito frágil (2.67 gols sofridos por jogo, com 1.50 gols sofridos no segundo tempo). Essa fragilidade defensiva do Dalian Zhixing, especialmente na segunda etapa, abre oportunidades.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
+      "mando_de_campo": "Sichuan com 50% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Dalian sofre muito no 2º tempo (1.50 GA). Sichuan tem 36% dos gols marcados nos últimos 15 min.",
+      "momento_gols": "Sichuan marca 36% dos gols no final do jogo (76-90 min). Dalian sofre 44% dos gols no final do jogo (76-90 min).",
+      "jogadores_chave": "Sichuan: Wesley Moraes (5 G), Eden Karzev (3 G). Dalian: Frank Opoku Acheampong (5 G), Nicolae Claudiu Stanciu (3 G, 2 A).",
+      "placares_provaveis": "2x1, 3x1 para Sichuan Jiuniu",
+      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra, ao vivo para Over Limite 70+",
+      "situacao_saida": "Para Over Limite 70+, cash-out se o placar final for alcançado ou risco excessivo. Para Back Favorito, proteger lucro com 1 gol de vantagem. Para Lay Zebra, proteger lucro se o favorito abrir vantagem.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A clara vantagem do Sichuan sobre a defesa vulnerável do Dalian cria cenários de valor, tanto pré-jogo quanto em live, especialmente para um gol tardio.",
+        "gatilho_saida_parcial": "Se Sichuan tiver 1 gol de vantagem para o Back Favorito. Para Over Limite 70+, se a odd baixar significativamente após o gol.",
+        "hard_stop": "Sichuan sofrer um gol no início ou sofrer o empate no 2º tempo (Back Favorito). Dalian abrir 2 gols de vantagem (Lay Zebra). Para Over Limite 70+, se nenhum gol ocorrer até o minuto 85."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Sichuan Jiuniu",
+        "odd_alvo": "1.75",
+        "razao": "Favoritismo claro em casa contra um adversário com defesa muito frágil e em pior fase.",
+        "gatilho_ao_vivo": "null",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Dalian Zhixing",
+        "odd_zebra_alvo": "5.50",
+        "razao": "Apostar contra Dalian Zhixing devido à sua defesa extremamente frágil (2.67 GA) e pior forma, tornando sua vitória muito improvável.",
+        "gatilho_ao_vivo": "lay após zebra marcar primeiro para tentar capturar odd ainda mais alta antes da reação do favorito.",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "Sichuan Jiuniu",
+        "indice_gols_final": "Sichuan marca 36% dos gols e Dalian sofre 44% dos gols após os 75 minutos.",
+        "condicao_entrada": "Entrar se Sichuan Jiuniu vencer por 2 gols de vantagem após o minuto 70.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "O Dalian Zhixing sofre muitos gols no segundo tempo, o que pode impulsionar um gol extra do Sichuan."
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Sichuan deve ser dominante ofensivamente, explorando as laterais e a profundidade contra a defesa do Dalian. Dalian deve tentar contra-ataques isolados.",
+        "gatilhos_aceleracao": "Dominância do Sichuan no meio-campo, rápida transição ofensiva, erros defensivos do Dalian. Dalian com espaço nas costas dos laterais.",
+        "alerta_armadilha": "Sichuan perdendo o controle do meio-campo, Dalian criando chances claras em contra-ataques, ou o jogo ficando muito truncado.",
+        "mercado_recomendado": "OVER LIMITE 70+, caso o cenário se concretize.",
+        "momento_observacao": "Principalmente a partir do segundo tempo para o OVER LIMITE 70+."
       }
     },
     {
@@ -75,272 +160,80 @@
       "metodos_aplicados": [
         "back_favorito",
         "lay_zebra",
-        "over_limite_70",
-        "back_goleada"
+        "back_goleada",
+        "over_limite_70"
       ],
       "mercado_principal": "Vitória Chengdu Better City FC",
-      "odd_principal": "N/A (inferida < 1.40)",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "+EV potencial baseado em favoritismo extremo",
-      "mercado_secundario": "Chengdu Better City FC Over 3.5 Gols",
-      "odd_secundaria": "N/A (inferida acima de 3.50)",
-      "desempenho_1t": "Chengdu: 1.50 Gols Marcados, Shanghai: 0.40 Gols Marcados",
-      "desempenho_2t": "Chengdu: 1.83 Gols Marcados, Shanghai: 0.40 Gols Marcados",
-      "motivacao_tecnica": "O Chengdu Better City FC (1º, 3.00 PPG) possui um favoritismo extremo, com 100% de vitórias, 3.33 gols marcados/jogo e apenas 0.50 gols sofridos/jogo. O Shanghai SIPG (14º, 0.40 PPG) não venceu nenhum jogo, tem um ataque fraco (0.80 gols/jogo) e uma defesa vulnerável (1.60 gols sofridos/jogo, com xG contra 1.53). O Chengdu também possui um xG a favor muito alto (2.06). Este jogo apresenta um forte cenário para Back Favorito e Back Goleada, dadas as estatísticas ofensivas do Chengdu e a fragilidade do Shanghai. O Over Limite 70+ é aplicável com a alta produtividade de gols do Chengdu no 2º tempo (1.83 gols/jogo) e 35% de seus gols nos últimos 15 minutos, além da fraqueza defensiva do Shanghai.",
+      "odd_principal": "1.35",
+      "fair_odd_calculada": "1.20",
+      "valor_esperado": "+12.5% EV — odd 1.35 vs Fair Odd 1.20",
+      "mercado_secundario": "Chengdu marca 4+ gols e vence",
+      "odd_secundaria": "3.80",
+      "desempenho_1t": "Chengdu marca 1.50, sofre 0.33. Shanghai SIPG marca 0.40, sofre 0.20.",
+      "desempenho_2t": "Chengdu marca 1.83, sofre 0.17. Shanghai SIPG marca 0.40, sofre 1.40.",
+      "motivacao_tecnica": "O Chengdu Better City FC é um favorito extremamente claro, com 100% de vitórias em 6 jogos, um ataque esmagador (3.33 GF por jogo) e uma defesa muito sólida (0.50 GA por jogo). O Shanghai SIPG, por outro lado, está em péssima fase, sem vitórias em 5 jogos, com um ataque fraco (0.80 GF) e uma defesa vulnerável (1.60 GA). As condições são ideais para um 'Back Favorito' e 'Back Goleada' no Chengdu.",
       "coeficiente_regularidade": "Casa: CV muito baixo / Visitante: CV muito alto",
-      "mando_de_campo": "Chengdu faz 100% dos pontos em casa, demonstrando superioridade esmagadora.",
-      "condicoes_campo": "Sem fatores relevantes",
-      "desfalques_chave": "Elenco completo (assumido na ausência de dados)",
-      "especificidades_gols": "Chengdu marca consistentemente ao longo do jogo, com alta concentração no 2º tempo. Shanghai tem dificuldades para marcar.",
-      "momento_gols": "Chengdu: 35% Gols Marcados (76-90 min), Shanghai: 13% Gols Sofridos (76-90 min)",
-      "jogadores_chave": "Wellington Alves da Silva (Chengdu - 7 gols, 5 assistências), Felipe de Sousa Silva (Chengdu - 9 gols)",
-      "placares_provaveis": "3x0, 4x0, 4x1",
-      "momento_entrada": "Pré-jogo para todos os métodos; Ao vivo para Over Limite 70+ e reforço de Back Goleada.",
-      "situacao_saida": "Proteger lucros parciais após o 2º ou 3º gol do Chengdu para Back Goleada.",
-      "stake_recomendada": "2.5% (Back Favorito), 1.5% (Back Goleada), 1% (Over Limite 70+), 1.5% (Lay Zebra)",
+      "mando_de_campo": "Chengdu com 100% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Chengdu é dominante em ambos os tempos, especialmente no 2º tempo (1.83 GF). Shanghai sofre muito no 2º tempo (1.40 GA).",
+      "momento_gols": "Chengdu marca 35% dos gols nos últimos 15 min. Shanghai sofre 13% dos gols nos últimos 15 min.",
+      "jogadores_chave": "Chengdu: Wellington Alves da Silva (7 G, 5 A), Shihao Wei (6 G, 3 A), Felipe de Sousa Silva (9 G, 1 A). Shanghai SIPG: Leonardo Nascimento Lopes de Souza (3 G), Zhurun Liu (2 G, 3 A).",
+      "placares_provaveis": "3x0, 4x0, 4x1 para Chengdu Better City FC",
+      "momento_entrada": "Pré-jogo para Back Favorito e Back Goleada, ao vivo para Over Limite 70+",
+      "situacao_saida": "Para Goleada, cash-out parcial se o Chengdu estiver com 2-0 ou 3-0. Para Over Limite 70+, cash-out se o placar final for alcançado ou risco excessivo.",
+      "stake_recomendada": "2%",
       "plano_execucao": {
-        "abordagem": "forcar",
-        "justificativa_abordagem": "O favoritismo extremo e os padrões de gols do Chengdu justificam uma abordagem agressiva.",
-        "gatilho_saida_parcial": "Chengdu com 2 gols de vantagem, ou Shanghai marcando primeiro inesperadamente (para Lay Zebra).",
-        "hard_stop": "Shanghai mantendo a posse por longos períodos nos primeiros 20min ou marcando um gol cedo."
+        "abordagem": "forçar",
+        "justificativa_abordagem": "O favoritismo extremo do Chengdu, com desempenho perfeito e estatísticas avassaladoras, justifica uma entrada mais forte e a busca por mercados de maior valor como a goleada.",
+        "gatilho_saida_parcial": "Se Chengdu abrir 2 gols de vantagem para Back Favorito e Back Goleada.",
+        "hard_stop": "Empate ou derrota do Chengdu no 1º tempo para Back Favorito/Goleada. Para Over Limite 70+, se nenhum gol ocorrer até o minuto 85."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Chengdu Better City FC",
         "odd_alvo": "1.35",
-        "razao": "Líder invicto com 100% de vitórias, 3.00 PPG, 3.33 Gols Marcados/jogo, enfrentando um time com 0 vitórias e 0.40 PPG.",
-        "gatilho_ao_vivo": "N/A",
-        "stake_recomendada": "2.5%"
+        "razao": "Favoritismo extremo, 100% de vitórias, ataque fortíssimo e defesa sólida contra adversário em péssima fase.",
+        "gatilho_ao_vivo": "null",
+        "stake_recomendada": "2%"
       },
       "lay_zebra": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "zebra": "Shanghai SIPG",
         "odd_zebra_alvo": "7.00",
-        "razao": "Shanghai SIPG tem 0% de vitórias, 0.40 PPG, ataque fraco (0.80 Gols Marcados/jogo) e defesa vulnerável (1.60 Gols Sofridos/jogo).",
-        "gatilho_ao_vivo": "Lay após Shanghai SIPG marcar o primeiro gol contra a expectativa, se a odd for favorável.",
-        "stake_recomendada": "1.5%"
+        "razao": "Apostar contra Shanghai SIPG, equipe sem vitórias, ataque ineficaz e defesa vulnerável contra um favorito absoluto. Odds de vitória do Shanghai SIPG serão extremamente infladas.",
+        "gatilho_ao_vivo": "lay após zebra marcar primeiro para tentar capturar odd ainda mais alta antes da reação do favorito.",
+        "stake_recomendada": "2%"
       },
       "over_limite_70": {
         "aplicavel": true,
         "favorito": "Chengdu Better City FC",
-        "indice_gols_final": "Chengdu: 35% Gols Marcados (76-90 min), Shanghai: 13% Gols Sofridos (76-90 min)",
-        "condicao_entrada": "Entrar se Chengdu Better City FC vencer por 2 gols após 70min",
-        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
+        "indice_gols_final": "Chengdu marca 35% dos gols após os 75 minutos. Shanghai SIPG sofre 13% dos gols após os 75 minutos.",
+        "condicao_entrada": "Entrar se Chengdu Better City FC vencer por 2 gols de vantagem após o minuto 70.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar)",
         "odd_esperada": "1.60 a 2.20",
         "stake_recomendada": "1%",
-        "observacoes": "Aguardar confirmação visual de dominância ofensiva do Chengdu."
+        "observacoes": "O Chengdu tem alta capacidade ofensiva, e o Shanghai SIPG é propenso a ceder gols no final, aumentando a chance de um gol adicional."
       },
       "back_2x2": null,
       "back_goleada": {
         "aplicavel": true,
         "candidato": "Chengdu Better City FC",
-        "razao": "Favoritismo extremo do Chengdu (100% vitórias), média de 3.33 gols marcados/jogo (acima de 3+) e defesa frágil do Shanghai (2.67 gols sofridos/jogo na liga).",
+        "razao": "Favoritismo extremo do Chengdu (100% vitórias, 3.33 GF/jogo) e adversário com defesa muito frágil (1.60 GA/jogo) e sem vitórias.",
         "modo": "pre_jogo",
-        "mercado_sugerido": "Chengdu Better City FC Over 3.5 Gols",
-        "odd_esperada": "3.50 a 5.00",
+        "mercado_sugerido": "Chengdu Better City FC para marcar 4+ gols e vencer o jogo.",
+        "odd_esperada": "3.50 a 7.00",
         "stake_recomendada": "1.5%"
       },
       "confirmacao_visual": {
         "aplicavel": true,
-        "perfil_tatico": "Chengdu ofensivo, com alta pressão e volume de jogo. Shanghai defensivo, com dificuldades para sair da marcação e transicionar.",
-        "gatilhos_aceleracao": "Gols rápidos do Chengdu, alta taxa de finalizações no alvo, superioridade clara no meio-campo.",
-        "alerta_armadilha": "Shanghai conseguindo se fechar bem e frustrar as tentativas do Chengdu, ou contra-ataques perigosos do Shanghai.",
-        "mercado_recomendado": "Back Favorito, Back Goleada",
-        "momento_observacao": "Primeiros 20-30 minutos para avaliar a intensidade ofensiva do Chengdu."
-      }
-    },
-    {
-      "horario": "10:00",
-      "liga": "Paraguay Division Intermedia",
-      "jogo": "Deportivo Capiatá x Fernando de la Mora",
-      "metodos_aplicados": [
-        "back_favorito",
-        "lay_zebra"
-      ],
-      "mercado_principal": "Vitória Deportivo Capiatá",
-      "odd_principal": "N/A (inferida < 1.80)",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "+EV potencial baseado em superioridade estatística",
-      "mercado_secundario": "Lay Fernando de la Mora",
-      "odd_secundaria": "N/A (inferida > 5.00)",
-      "desempenho_1t": "Capiatá: 1.75 Gols Marcados, FDM: 0.00 Gols Marcados",
-      "desempenho_2t": "Capiatá: 0.25 Gols Marcados, FDM: 1.00 Gols Marcados",
-      "motivacao_tecnica": "O Deportivo Capiatá (3º, 2.00 PPG) é o favorito contra o Fernando de la Mora (5º, 2.00 PPG), apesar de terem o mesmo PPG, o Capiatá tem um ataque muito mais forte (2.00 gols/jogo) e joga em casa. Fernando de la Mora falhou em marcar em 33% dos jogos e tem um ataque menos potente. Com 4 e 3 jogos respectivamente, as estatísticas são voláteis, mas a superioridade ofensiva do Capiatá é evidente. Back Favorito para Capiatá e Lay Zebra contra Fernando de la Mora são justificadas, mas com stake reduzida devido à amostra pequena.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto (devido à pequena amostra)",
-      "mando_de_campo": "Capiatá faz pontos em casa, um fator importante para o favoritismo.",
-      "condicoes_campo": "Sem fatores relevantes",
-      "desfalques_chave": "Elenco completo (assumido na ausência de dados)",
-      "especificidades_gols": "Capiatá marca mais no 1º tempo. Fernando de la Mora marca mais no 2º tempo.",
-      "momento_gols": "Capiatá: 0% Gols Marcados (76-90 min), FDM: 33% Gols Sofridos (76-90 min)",
-      "jogadores_chave": "N/A (informações não fornecidas para análise)",
-      "placares_provaveis": "2x0, 2x1",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra",
-      "situacao_saida": "Proteger lucros caso o jogo se equalize de forma inesperada.",
-      "stake_recomendada": "1.5%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Apesar da amostra pequena, a superioridade do Capiatá é clara, mas requer cautela.",
-        "gatilho_saida_parcial": "Capiatá abrindo 2 gols de vantagem para Lay Zebra ou Fernando de la Mora marcando primeiro.",
-        "hard_stop": "Fernando de la Mora conseguindo controlar o meio-campo nos primeiros 20 minutos."
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Deportivo Capiatá",
-        "odd_alvo": "1.70",
-        "razao": "Deportivo Capiatá (2.00 PPG, 50% vitórias, 2.00 Gols Marcados/jogo) é favorito contra Fernando de la Mora (2.00 PPG, 67% vitórias, 1.00 Gols Marcados/jogo).",
-        "gatilho_ao_vivo": "N/A",
-        "stake_recomendada": "1.5%"
-      },
-      "lay_zebra": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "zebra": "Fernando de la Mora",
-        "odd_zebra_alvo": "5.00",
-        "razao": "Fernando de la Mora tem um ataque menos potente (1.00 Gols Marcados/jogo) e falhou em marcar em 33% dos jogos.",
-        "gatilho_ao_vivo": "Lay após Fernando de la Mora marcar primeiro, se a odd for favorável e a dominância do Capiatá for clara.",
-        "stake_recomendada": "1%"
-      },
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": {
-        "aplicavel": true,
-        "perfil_tatico": "Capiatá buscando o ataque com intensidade. Fernando de la Mora tentando se defender e explorar contra-ataques.",
-        "gatilhos_aceleracao": "Capiatá criando volume de jogo e finalizando com perigo. Fernando de la Mora mostrando falhas na cobertura defensiva.",
-        "alerta_armadilha": "Fernando de la Mora conseguindo controlar as ações no meio-campo e frustrar o ataque do Capiatá.",
-        "mercado_recomendado": "Back Favorito",
-        "momento_observacao": "Primeiros 15-20 minutos para avaliar a dominância do Capiatá."
-      }
-    },
-    {
-      "horario": "10:00",
-      "liga": "Paraguay Division Intermedia",
-      "jogo": "Tacuary x Encarnación",
-      "metodos_aplicados": [
-        "back_favorito",
-        "lay_zebra"
-      ],
-      "mercado_principal": "Vitória Encarnación",
-      "odd_principal": "N/A (inferida < 1.80)",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "+EV potencial baseado em superioridade estatística",
-      "mercado_secundario": "Lay Tacuary",
-      "odd_secundaria": "N/A (inferida > 5.00)",
-      "desempenho_1t": "Tacuary: 0.33 Gols Marcados, Encarnación: 0.25 Gols Marcados",
-      "desempenho_2t": "Tacuary: 0.00 Gols Marcados, Encarnación: 0.50 Gols Marcados",
-      "motivacao_tecnica": "O Encarnación (4º, 1.50 PPG) é o favorito claro contra o Tacuary (16º, 0.00 PPG). O Tacuary é o último colocado, com 0 vitórias, falha em marcar em 67% dos jogos e possui uma defesa vulnerável (1.67 gols sofridos/jogo). O Encarnación tem um aproveitamento de 50% de vitórias, uma defesa sólida (0.50 gols sofridos/jogo) e um ataque mais eficiente. As estatísticas são baseadas em poucos jogos (3-4), portanto a stake deve ser reduzida. Back Favorito para Encarnación e Lay Zebra contra o Tacuary são justificadas.",
-      "coeficiente_regularidade": "Casa: CV muito alto / Visitante: CV alto (devido à pequena amostra)",
-      "mando_de_campo": "Tacuary em casa não apresenta vantagem, sendo o último colocado.",
-      "condicoes_campo": "Sem fatores relevantes",
-      "desfalques_chave": "Elenco completo (assumido na ausência de dados)",
-      "especificidades_gols": "Tacuary tem dificuldades ofensivas. Encarnación é mais forte no 2º tempo.",
-      "momento_gols": "Tacuary: 0% Gols Marcados (76-90 min), Encarnación: 50% Gols Sofridos (76-90 min)",
-      "jogadores_chave": "Blas Yamil Díaz Silva (Encarnación - 2 gols)",
-      "placares_provaveis": "0x1, 0x2, 1x2",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra",
-      "situacao_saida": "Proteger lucros caso o Tacuary consiga se impor ofensivamente de forma inesperada.",
-      "stake_recomendada": "1.5%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "A superioridade do Encarnación e a péssima fase do Tacuary justificam a entrada, mas com cautela devido à amostra pequena.",
-        "gatilho_saida_parcial": "Encarnación abrindo 2 gols de vantagem para Lay Zebra ou Tacuary marcando primeiro.",
-        "hard_stop": "Tacuary conseguindo controlar o meio-campo ou criando chances claras nos primeiros 20 minutos."
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Encarnación",
-        "odd_alvo": "1.65",
-        "razao": "Encarnación (1.50 PPG, 50% vitórias, 0.50 Gols Sofridos/jogo) é favorito contra Tacuary (0.00 PPG, 0% vitórias, 67% falhou em marcar).",
-        "gatilho_ao_vivo": "N/A",
-        "stake_recomendada": "1.5%"
-      },
-      "lay_zebra": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "zebra": "Tacuary",
-        "odd_zebra_alvo": "6.00",
-        "razao": "Tacuary tem 0% de vitórias, 0.00 PPG, ataque muito fraco (0.33 Gols Marcados/jogo) e defesa vulnerável (1.67 Gols Sofridos/jogo).",
-        "gatilho_ao_vivo": "Lay após Tacuary marcar primeiro contra a expectativa, se a odd for favorável.",
-        "stake_recomendada": "1%"
-      },
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": {
-        "aplicavel": true,
-        "perfil_tatico": "Encarnación buscando o ataque e dominando o meio-campo. Tacuary com foco na defesa, tentando conter o adversário.",
-        "gatilhos_aceleracao": "Encarnación criando volume de jogo e Tacuary mostrando fragilidade na marcação.",
-        "alerta_armadilha": "Tacuary conseguindo bloquear o ataque do Encarnación e aproveitando erros na transição.",
-        "mercado_recomendado": "Back Favorito",
-        "momento_observacao": "Primeiros 15-20 minutos para avaliar a dominância do Encarnación."
-      }
-    },
-    {
-      "horario": "11:30",
-      "liga": "Iraq Iraqi Premier League",
-      "jogo": "Al-Qasim x Naft Maysan",
-      "metodos_aplicados": [
-        "back_favorito",
-        "lay_zebra"
-      ],
-      "mercado_principal": "Vitória Naft Maysan",
-      "odd_principal": "N/A (inferida < 1.80)",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "+EV potencial baseado em superioridade estatística",
-      "mercado_secundario": "Lay Al-Qasim",
-      "odd_secundaria": "N/A (inferida > 5.00)",
-      "desempenho_1t": "Al-Qasim: 0.31 Gols Marcados, Naft Maysan: 0.47 Gols Marcados",
-      "desempenho_2t": "Al-Qasim: 0.25 Gols Marcados, Naft Maysan: 0.65 Gols Marcados",
-      "motivacao_tecnica": "O Naft Maysan (17º, 0.88 PPG) é o favorito sobre o Al-Qasim (20º, 0.13 PPG). O Al-Qasim é o lanterna da liga, com 0 vitórias, falha em marcar em 69% dos jogos e possui uma defesa extremamente frágil (2.94 gols sofridos/jogo). O Naft Maysan, embora não seja um time forte, tem um aproveitamento muito superior e enfrenta um dos piores times da liga. Back Favorito para Naft Maysan e Lay Zebra contra o Al-Qasim são justificadas.",
-      "coeficiente_regularidade": "Casa: CV muito alto / Visitante: CV moderado",
-      "mando_de_campo": "Al-Qasim em casa tem desempenho muito ruim, não sendo um fator de vantagem.",
-      "condicoes_campo": "Sem fatores relevantes",
-      "desfalques_chave": "Elenco completo (assumido na ausência de dados)",
-      "especificidades_gols": "Al-Qasim tem dificuldades extremas para marcar. Naft Maysan é mais equilibrado.",
-      "momento_gols": "Al-Qasim: 44% Gols Marcados (76-90 min), Naft Maysan: 17% Gols Sofridos (76-90 min)",
-      "jogadores_chave": "N/A (informações não fornecidas para análise)",
-      "placares_provaveis": "0x1, 0x2, 1x2",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra",
-      "situacao_saida": "Proteger lucros caso o Al-Qasim consiga se impor ofensivamente de forma inesperada.",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "A grande diferença de desempenho e a péssima fase do Al-Qasim justificam a confiança nessas entradas.",
-        "gatilho_saida_parcial": "Naft Maysan abrindo 2 gols de vantagem para Lay Zebra ou Al-Qasim marcando primeiro.",
-        "hard_stop": "Al-Qasim conseguindo controlar o meio-campo ou criando chances claras nos primeiros 20 minutos."
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Naft Maysan",
-        "odd_alvo": "1.70",
-        "razao": "Naft Maysan (0.88 PPG, 24% vitórias) é favorito contra Al-Qasim (0.13 PPG, 0% vitórias, 2.94 Gols Sofridos/jogo).",
-        "gatilho_ao_vivo": "N/A",
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "zebra": "Al-Qasim",
-        "odd_zebra_alvo": "6.00",
-        "razao": "Al-Qasim tem 0% de vitórias, 0.13 PPG, ataque muito fraco (0.56 Gols Marcados/jogo) e defesa extremamente frágil (2.94 Gols Sofridos/jogo).",
-        "gatilho_ao_vivo": "Lay após Al-Qasim marcar primeiro contra a expectativa, se a odd for favorável.",
-        "stake_recomendada": "1.5%"
-      },
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": {
-        "aplicavel": true,
-        "perfil_tatico": "Naft Maysan buscando o controle da partida e a criação de oportunidades. Al-Qasim com foco total na defesa e tentando evitar gols.",
-        "gatilhos_aceleracao": "Naft Maysan com volume de jogo e Al-Qasim cedendo espaços defensivos.",
-        "alerta_armadilha": "Al-Qasim conseguindo se defender com eficácia e frustrar o ataque do Naft Maysan.",
-        "mercado_recomendado": "Back Favorito",
-        "momento_observacao": "Primeiros 15-20 minutos para avaliar o controle do jogo pelo Naft Maysan."
+        "perfil_tatico": "Chengdu será extremamente ofensivo e dominante, buscando o gol desde o início. Shanghai SIPG deve se fechar, mas com pouca resistência.",
+        "gatilhos_aceleracao": "Pressão alta do Chengdu, alta posse de bola, muitas finalizações ao gol, Shanghai SIPG sendo facilmente superado nas transições defensivas.",
+        "alerta_armadilha": "Chengdu com posse estéril sem criar chances claras, ou Shanghai SIPG conseguindo surpreender em contra-ataques.",
+        "mercado_recomendado": "BACK GOLEADA, se a dominância for evidente e gols saírem cedo.",
+        "momento_observacao": "Primeiros 30 minutos e, se o placar permitir, para o OVER LIMITE 70+ no 2º tempo."
       }
     },
     {
@@ -348,64 +241,48 @@
       "liga": "Iraq Iraqi Premier League",
       "jogo": "Diala x Baghdad",
       "metodos_aplicados": [
-        "back_favorito",
         "lay_zebra"
       ],
-      "mercado_principal": "Vitória Diala",
-      "odd_principal": "N/A (inferida < 1.80)",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "+EV potencial baseado em superioridade estatística",
-      "mercado_secundario": "Lay Baghdad",
-      "odd_secundaria": "N/A (inferida > 5.00)",
-      "desempenho_1t": "Diala: 0.35 Gols Marcados, Baghdad: 0.18 Gols Marcados",
-      "desempenho_2t": "Diala: 0.53 Gols Marcados, Baghdad: 0.76 Gols Marcados",
-      "motivacao_tecnica": "O Diala (14º, 1.18 PPG) é o favorito sobre o Baghdad (19º, 0.53 PPG). O Baghdad é um dos últimos colocados, com apenas 12% de vitórias, e possui uma defesa muito frágil (2.24 gols sofridos/jogo). O Diala, embora também não seja um time de ponta, tem um desempenho geral superior e uma defesa mais consistente (1.12 gols sofridos/jogo). Back Favorito para Diala e Lay Zebra contra o Baghdad são justificadas.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Diala em casa pode impor um ritmo de jogo mais forte.",
-      "condicoes_campo": "Sem fatores relevantes",
-      "desfalques_chave": "Elenco completo (assumido na ausência de dados)",
-      "especificidades_gols": "Diala tem um ataque mais modesto. Baghdad tem dificuldades defensivas.",
-      "momento_gols": "Diala: 20% Gols Marcados (76-90 min), Baghdad: 26% Gols Sofridos (76-90 min)",
-      "jogadores_chave": "N/A (informações não fornecidas para análise)",
-      "placares_provaveis": "1x0, 2x0, 2x1",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra",
-      "situacao_saida": "Proteger lucros caso o Baghdad consiga se impor ofensivamente de forma inesperada.",
+      "mercado_principal": "Lay Baghdad",
+      "odd_principal": "5.00",
+      "fair_odd_calculada": "8.33",
+      "valor_esperado": "+66.6% EV — odd 5.00 vs Fair Odd 8.33",
+      "mercado_secundario": null,
+      "odd_secundaria": "null",
+      "desempenho_1t": "Diala marca 0.35, sofre 0.53. Baghdad marca 0.18, sofre 1.06.",
+      "desempenho_2t": "Diala marca 0.53, sofre 0.59. Baghdad marca 0.76, sofre 1.18.",
+      "motivacao_tecnica": "Baghdad é um claro azarão, ocupando a 19ª posição e com apenas 12% de vitórias. Sua defesa é a mais frágil do confronto (2.24 GA por jogo), especialmente vulnerável no primeiro tempo (1.06 GA) e no segundo (1.18 GA). Além disso, o Baghdad está em péssima fase, sem vitórias nos últimos 8 jogos (0 vitórias, 2 empates, 6 derrotas). O Lay Zebra contra o Baghdad oferece um excelente valor, dado que sua chance de vitória é mínima.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV muito alto",
+      "mando_de_campo": "Diala com 29% de vitórias em casa. Baghdad com 12% de vitórias totais.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Baghdad sofre muito no 1º e 2º tempos. Diala tem um ataque limitado.",
+      "momento_gols": "Baghdad sofre 26% dos gols e marca 31% dos gols nos últimos 15 min.",
+      "jogadores_chave": "Diala: Aymen Safxi (5 G, 4 A), Collins Opare (4 G). Baghdad: Jabar Kareem (6 G), Kamal El Keraa (5 G).",
+      "placares_provaveis": "1x0, 2x0 para Diala",
+      "momento_entrada": "Pré-jogo para Lay Zebra",
+      "situacao_saida": "Proteger lucro se o favorito (Diala) abrir 1 ou 2 gols de vantagem. Cash-out total se o Baghdad marcar primeiro ou se o jogo ficar equilibrado.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A superioridade do Diala e a péssima fase do Baghdad justificam a confiança nessas entradas.",
-        "gatilho_saida_parcial": "Diala abrindo 2 gols de vantagem para Lay Zebra ou Baghdad marcando primeiro.",
-        "hard_stop": "Baghdad conseguindo controlar o meio-campo ou criando chances claras nos primeiros 20 minutos."
+        "justificativa_abordagem": "A fraqueza generalizada do Baghdad, especialmente defensivamente, torna sua vitória uma aposta de alto risco para o mercado, o que se traduz em uma boa oportunidade de Lay Zebra.",
+        "gatilho_saida_parcial": "Se Diala abrir 1 gol de vantagem.",
+        "hard_stop": "Baghdad marcar um gol no início ou conseguir manter um placar equilibrado até o final do 1º tempo."
       },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Diala",
-        "odd_alvo": "1.75",
-        "razao": "Diala (1.18 PPG, 29% vitórias) é favorito contra Baghdad (0.53 PPG, 12% vitórias, 2.24 Gols Sofridos/jogo).",
-        "gatilho_ao_vivo": "N/A",
-        "stake_recomendada": "2%"
-      },
+      "back_favorito": null,
       "lay_zebra": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "zebra": "Baghdad",
-        "odd_zebra_alvo": "5.50",
-        "razao": "Baghdad tem 12% de vitórias, 0.53 PPG, defesa muito frágil (2.24 Gols Sofridos/jogo) e enfrenta um time mais organizado.",
-        "gatilho_ao_vivo": "Lay após Baghdad marcar o primeiro gol contra a expectativa, se a odd for favorável.",
-        "stake_recomendada": "1.5%"
+        "odd_zebra_alvo": "5.00",
+        "razao": "Baghdad é o lanterna da liga em má fase (0 vitórias nos últimos 8 jogos) e com a pior defesa entre os dois times (2.24 GA). Sua vitória é altamente improvável.",
+        "gatilho_ao_vivo": "lay após zebra marcar primeiro para tentar capturar odd ainda mais alta antes da reação do favorito.",
+        "stake_recomendada": "2%"
       },
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "confirmacao_visual": {
-        "aplicavel": true,
-        "perfil_tatico": "Diala com iniciativa, buscando construir jogadas e pressionar. Baghdad com foco na defesa, tentando fechar espaços e evitar gols.",
-        "gatilhos_aceleracao": "Diala criando chances de gol com volume e Baghdad mostrando fragilidade na marcação.",
-        "alerta_armadilha": "Baghdad conseguindo bloquear o ataque do Diala e aproveitando erros na transição.",
-        "mercado_recomendado": "Back Favorito",
-        "momento_observacao": "Primeiros 15-20 minutos para confirmar a postura ofensiva do Diala."
-      }
+      "confirmacao_visual": null
     },
     {
       "horario": "13:30",
@@ -413,42 +290,41 @@
       "jogo": "Ried x Wolfsberger AC",
       "metodos_aplicados": [
         "back_favorito",
-        "lay_zebra",
-        "over_limite_70"
+        "lay_zebra"
       ],
       "mercado_principal": "Vitória Ried",
-      "odd_principal": "N/A (inferida < 1.80)",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "+EV potencial baseado em superioridade estatística",
+      "odd_principal": "1.75",
+      "fair_odd_calculada": "1.70",
+      "valor_esperado": "+2.9% EV — odd 1.75 vs Fair Odd 1.70",
       "mercado_secundario": "Lay Wolfsberger AC",
-      "odd_secundaria": "N/A (inferida > 5.00)",
-      "desempenho_1t": "Ried: 0.56 Gols Marcados, Wolfsberger AC: 0.94 Gols Marcados",
-      "desempenho_2t": "Ried: 0.75 Gols Marcados, Wolfsberger AC: 0.38 Gols Marcados",
-      "motivacao_tecnica": "O Ried (3º, 1.69 PPG) é um favorito claro sobre o Wolfsberger AC (7º, 1.06 PPG). O Ried joga em casa, tem uma taxa de vitórias de 50% e um desempenho mais consistente. O Wolfsberger AC tem um aproveitamento de apenas 31%, e sua defesa sofre 1.69 gols/jogo, além de sofrer 41% dos seus gols nos últimos 15 minutos de jogo. Isso fortalece o Back Favorito para o Ried e o Lay Zebra contra o Wolfsberger. O Over Limite 70+ é aplicável devido à alta taxa de gols sofridos pelo Wolfsberger no final do jogo (41%), criando uma boa oportunidade se o Ried estiver vencendo por 2 gols no minuto 70.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Ried em casa demonstra boa performance, favorecendo o controle do jogo.",
-      "condicoes_campo": "Sem fatores relevantes",
-      "desfalques_chave": "Elenco completo (assumido na ausência de dados)",
-      "especificidades_gols": "Ried tem uma distribuição de gols mais equilibrada, com picos no final. Wolfsberger AC sofre muito no final.",
-      "momento_gols": "Ried: 33% Gols Marcados (76-90 min), Wolfsberger AC: 41% Gols Sofridos (76-90 min) (muito alto)",
-      "jogadores_chave": "Kingstone Mutandwa (Ried - 14 gols), Philipp Pomer (Ried - 4 gols, 4 assistências)",
-      "placares_provaveis": "2x0, 2x1, 3x1",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra; Ao vivo para Over Limite 70+",
-      "situacao_saida": "Proteger lucros caso o Wolfsberger AC apresente resistência inesperada.",
+      "odd_secundaria": "5.50",
+      "desempenho_1t": "Ried marca 0.56, sofre 0.56. Wolfsberger AC marca 0.94, sofre 0.63.",
+      "desempenho_2t": "Ried marca 0.75, sofre 0.56. Wolfsberger AC marca 0.38, sofre 1.06.",
+      "motivacao_tecnica": "Ried joga em casa, apresenta melhor aproveitamento (50% de vitórias contra 31% do adversário) e está em uma posição superior na tabela (3º vs 7º). O Wolfsberger AC tem uma fase recente muito ruim, com 6 derrotas nos últimos 8 jogos. Embora ambos marquem uma média de gols parecida (1.31), o Ried tem uma defesa mais sólida (1.13 gols sofridos vs 1.69 do Wolfsberger AC). O favoritismo do Ried é justificado, e o Wolfsberger AC, em má fase, é uma boa 'zebra' para 'lay'.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto (má fase recente)",
+      "mando_de_campo": "Ried com 50% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ried marca mais gols no 2º tempo (0.75 vs 0.56 no 1º). Wolfsberger AC marca mais no 1º tempo (0.94 vs 0.38 no 2º) e sofre muito mais no 2º (1.06).",
+      "momento_gols": "Ried tem 33% dos gols marcados e 22% sofridos nos últimos 15 min. Wolfsberger AC marca 19% e sofre 41% nos últimos 15 min.",
+      "jogadores_chave": "Ried: Kingstone Mutandwa (14 G), Peter Kiedl (5 G). Wolfsberger AC: Dejan Zukić (7 G, 10 A), Markus Pink (7 G).",
+      "placares_provaveis": "1x0, 2x1 para Ried",
+      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra",
+      "situacao_saida": "Proteger lucro com 1 gol de vantagem ou se o jogo se igualar. Para Lay Zebra, saída se o favorito (Ried) abrir 1 ou 2 gols de vantagem.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A superioridade do Ried e a fragilidade defensiva do Wolfsberger AC no final do jogo justificam a entrada.",
-        "gatilho_saida_parcial": "Ried com 2 gols de vantagem, ou Wolfsberger AC marcando primeiro.",
-        "hard_stop": "Wolfsberger AC conseguindo controlar o meio-campo nos primeiros 20 minutos."
+        "justificativa_abordagem": "Baseado em análises estatísticas claras de favoritismo e desvantagem do adversário. A odd pode apresentar valor.",
+        "gatilho_saida_parcial": "Se Wolfsberger AC marcar primeiro para o Lay Zebra, ou se Ried tiver 1 gol de vantagem para o Back Favorito.",
+        "hard_stop": "Ried sofrer um gol no início ou sofrer o empate no 2º tempo (Back Favorito). Wolfsberger AC abrir 2 gols de vantagem (Lay Zebra)."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Ried",
-        "odd_alvo": "1.70",
-        "razao": "Ried (1.69 PPG, 50% vitórias) é favorito contra Wolfsberger AC (1.06 PPG, 31% vitórias, 1.69 Gols Sofridos/jogo).",
-        "gatilho_ao_vivo": "N/A",
+        "odd_alvo": "1.75",
+        "razao": "Favoritismo claro em casa contra time em má fase e com defesa mais frágil.",
+        "gatilho_ao_vivo": "null",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
@@ -456,30 +332,14 @@
         "modo": "pre_jogo",
         "zebra": "Wolfsberger AC",
         "odd_zebra_alvo": "5.50",
-        "razao": "Wolfsberger AC tem baixo aproveitamento (31% vitórias), defesa vulnerável (1.69 Gols Sofridos/jogo) e enfrenta um time mais forte em casa.",
-        "gatilho_ao_vivo": "Lay após Wolfsberger AC marcar primeiro, se a odd for atrativa e a dominância do Ried for clara.",
-        "stake_recomendada": "1.5%"
+        "razao": "Zebra em péssima fase, baixa % de vitórias e defesa muito vulnerável. A odd de vitória do WAC estará inflada, oferecendo valor no lay.",
+        "gatilho_ao_vivo": "lay após zebra marcar primeiro para tentar capturar odd ainda mais alta antes da reação do favorito.",
+        "stake_recomendada": "2%"
       },
-      "over_limite_70": {
-        "aplicavel": true,
-        "favorito": "Ried",
-        "indice_gols_final": "Ried: 33% Gols Marcados (76-90 min), Wolfsberger AC: 41% Gols Sofridos (76-90 min)",
-        "condicao_entrada": "Entrar se Ried vencer por 2 gols após 70min",
-        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Aguardar confirmação visual de pressão ofensiva do Ried e sinais de cansaço defensivo do Wolfsberger AC."
-      },
+      "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "confirmacao_visual": {
-        "aplicavel": true,
-        "perfil_tatico": "Ried buscando o ataque com intensidade. Wolfsberger AC em postura mais reativa, tentando fechar espaços.",
-        "gatilhos_aceleracao": "Ried criando volume de jogo e finalizando com perigo. Wolfsberger AC mostrando falhas na cobertura defensiva.",
-        "alerta_armadilha": "Wolfsberger AC conseguindo controlar as ações no meio-campo e frustrar o ataque do Ried.",
-        "mercado_recomendado": "Back Favorito",
-        "momento_observacao": "Primeiros 15-20 minutos para avaliar a dominância do Ried."
-      }
+      "confirmacao_visual": null
     },
     {
       "horario": "14:00",
@@ -490,271 +350,126 @@
         "lay_zebra"
       ],
       "mercado_principal": "Vitória Al Talaba",
-      "odd_principal": "N/A (inferida < 1.80)",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "+EV potencial baseado em superioridade estatística",
+      "odd_principal": "1.80",
+      "fair_odd_calculada": "1.70",
+      "valor_esperado": "+5.9% EV — odd 1.80 vs Fair Odd 1.70",
       "mercado_secundario": "Lay Al-Karma",
-      "odd_secundaria": "N/A (inferida > 5.00)",
-      "desempenho_1t": "Al Talaba: 0.59 Gols Marcados, Al-Karma: 0.41 Gols Marcados",
-      "desempenho_2t": "Al Talaba: 0.82 Gols Marcados, Al-Karma: 0.59 Gols Marcados",
-      "motivacao_tecnica": "O Al Talaba (7º, 1.82 PPG) é um favorito claro sobre o Al-Karma (11º, 1.29 PPG). O Al Talaba joga em casa, possui uma taxa de vitórias de 53%, falha em marcar em apenas 18% dos jogos e tem uma defesa sólida (0.94 gols sofridos/jogo). O Al-Karma tem um aproveitamento menor, com 29% de vitórias e um ataque menos potente (1.00 gols/jogo). A superioridade do Al Talaba e o mando de campo justificam Back Favorito no Al Talaba e Lay Zebra contra o Al-Karma.",
+      "odd_secundaria": "5.00",
+      "desempenho_1t": "Al Talaba marca 0.59, sofre 0.47. Al-Karma marca 0.41, sofre 0.41.",
+      "desempenho_2t": "Al Talaba marca 0.82, sofre 0.47. Al-Karma marca 0.59, sofre 0.47.",
+      "motivacao_tecnica": "Al Talaba é o favorito com um bom desempenho geral (1.82 PPG, 53% de vitórias) e uma defesa consistente (0.94 GA). Al-Karma, por outro lado, tem um desempenho inferior (1.29 PPG, 29% de vitórias) e tem uma alta incidência de empates na sua forma recente (6 empates em 8 jogos), o que indica dificuldade em converter oportunidades em vitórias. Al Talaba, em casa, deve conseguir impor seu jogo.",
       "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
-      "mando_de_campo": "Al Talaba em casa se mostra um time dominante e difícil de ser batido.",
-      "condicoes_campo": "Sem fatores relevantes",
-      "desfalques_chave": "Elenco completo (assumido na ausência de dados)",
-      "especificidades_gols": "Al Talaba tem um ataque consistente. Al-Karma tem dificuldades em gerar volume ofensivo.",
-      "momento_gols": "Al Talaba: 21% Gols Marcados (76-90 min), Al-Karma: 27% Gols Sofridos (76-90 min)",
-      "jogadores_chave": "Simon Happygod Msuva (Al Talaba - 8 gols, 2 assistências), Karim Aribi (Al Talaba - 3 gols)",
-      "placares_provaveis": "2x0, 2x1, 1x0",
+      "mando_de_campo": "Al Talaba com 53% de vitórias em casa. Al-Karma com 29% de vitórias totais.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Al Talaba marca mais no 2º tempo (0.82 GF). Al-Karma tem taxas de gols equilibradas entre os tempos.",
+      "momento_gols": "Al Talaba marca 21% e sofre 25% dos gols nos últimos 15 min. Al-Karma marca 29% e sofre 27% dos gols nos últimos 15 min.",
+      "jogadores_chave": "Al Talaba: Simon Happygod Msuva (8 G, 2 A), Zaid Ismael Khaleel Al Dulaimi (4 G, 2 A). Al-Karma: Aymen Hussein (9 G), Moamel Abdulridha Ogaili (5 G, 1 A).",
+      "placares_provaveis": "1x0, 2x0 para Al Talaba",
       "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra",
-      "situacao_saida": "Proteger lucros caso o Al-Karma consiga se impor ofensivamente de forma inesperada.",
+      "situacao_saida": "Proteger lucro com 1 gol de vantagem ou se o jogo se igualar. Para Lay Zebra, saída se o favorito (Al Talaba) abrir 1 ou 2 gols de vantagem.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A superioridade do Al Talaba e a fragilidade do adversário justificam a confiança nessas entradas.",
-        "gatilho_saida_parcial": "Al Talaba abrindo 2 gols de vantagem para Lay Zebra ou Al-Karma marcando primeiro.",
-        "hard_stop": "Al-Karma dominando o meio-campo ou criando chances claras nos primeiros 20 minutos."
+        "justificativa_abordagem": "O favoritismo do Al Talaba é claro devido à sua maior taxa de vitórias e desempenho consistente. O Lay Zebra explora a tendência do Al-Karma de empatar, dificultando sua vitória.",
+        "gatilho_saida_parcial": "Se Al-Karma marcar primeiro para o Lay Zebra, ou se Al Talaba tiver 1 gol de vantagem para o Back Favorito.",
+        "hard_stop": "Al Talaba sofrer um gol no início ou sofrer o empate no 2º tempo (Back Favorito). Al-Karma abrir 2 gols de vantagem (Lay Zebra)."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Al Talaba",
-        "odd_alvo": "1.70",
-        "razao": "Al Talaba (1.82 PPG, 53% vitórias) é favorito claro contra Al-Karma (1.29 PPG, 29% vitórias).",
-        "gatilho_ao_vivo": "N/A",
+        "odd_alvo": "1.80",
+        "razao": "Al Talaba é o favorito claro em casa com um bom histórico de vitórias e defesa consistente contra um adversário que empata muito.",
+        "gatilho_ao_vivo": "null",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "zebra": "Al-Karma",
-        "odd_zebra_alvo": "5.50",
-        "razao": "Al-Karma tem baixo aproveitamento (29% vitórias), ataque fraco (1.00 Gols Marcados/jogo) e enfrenta um time mais forte em casa.",
-        "gatilho_ao_vivo": "Lay após Al-Karma marcar primeiro contra a expectativa, se a odd for favorável.",
-        "stake_recomendada": "1.5%"
+        "odd_zebra_alvo": "5.00",
+        "razao": "Apostar contra Al-Karma devido à sua baixa taxa de vitórias e alta tendência a empates, tornando sua vitória improvável.",
+        "gatilho_ao_vivo": "lay após zebra marcar primeiro para tentar capturar odd ainda mais alta antes da reação do favorito.",
+        "stake_recomendada": "2%"
       },
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "confirmacao_visual": {
-        "aplicavel": true,
-        "perfil_tatico": "Al Talaba com forte ofensividade, buscando o controle da posse e finalizações. Al-Karma em postura mais reativa e defensiva.",
-        "gatilhos_aceleracao": "Al Talaba criando oportunidades de gol com frequência e Al-Karma mostrando falhas defensivas.",
-        "alerta_armadilha": "Al-Karma conseguindo se defender com eficácia e contra-atacar com perigo.",
-        "mercado_recomendado": "Back Favorito",
-        "momento_observacao": "Primeiros 15-20 minutos para confirmar a superioridade do Al Talaba."
-      }
-    },
-    {
-      "horario": "14:00",
-      "liga": "Sweden Superettan",
-      "jogo": "Helsingborg x Varberg",
-      "metodos_aplicados": [
-        "back_favorito",
-        "lay_zebra",
-        "over_limite_70"
-      ],
-      "mercado_principal": "Vitória Helsingborg",
-      "odd_principal": "N/A (inferida < 1.80)",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "+EV potencial baseado em superioridade estatística",
-      "mercado_secundario": "Lay Varberg",
-      "odd_secundaria": "N/A (inferida > 5.00)",
-      "desempenho_1t": "Helsingborg: 1.00 Gols Marcados, Varberg: 1.33 Gols Marcados",
-      "desempenho_2t": "Helsingborg: 1.50 Gols Marcados, Varberg: 1.00 Gols Marcados",
-      "motivacao_tecnica": "O Helsingborg (1º, 2.50 PPG) é um favorito claro contra o Varberg (6º, 1.67 PPG). O Helsingborg joga em casa, tem 75% de vitórias, não falha em marcar e tem um ataque produtivo (2.50 gols/jogo). O Varberg, embora com um ataque razoável (2.33 gols/jogo), tem uma taxa de vitórias inferior (33%) e joga fora de casa. As estatísticas são baseadas em poucos jogos (3-4), portanto a stake deve ser reduzida. Back Favorito para Helsingborg e Lay Zebra contra Varberg são justificadas. O Over Limite 70+ é aplicável devido à alta taxa de gols marcados pelo Helsingborg no final do jogo (40%), e o Varberg tem um xG contra de 1.27. O Varberg também sofre 0% dos gols no final do jogo (mas em apenas 3 jogos, o que é volátil).",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado (devido à pequena amostra)",
-      "mando_de_campo": "Helsingborg em casa é líder e busca manter a performance superior.",
-      "condicoes_campo": "Sem fatores relevantes",
-      "desfalques_chave": "Elenco completo (assumido na ausência de dados)",
-      "especificidades_gols": "Helsingborg é mais forte no 2º tempo (1.50 gols/jogo), com destaque para o final do jogo. Varberg tem um ataque distribuído.",
-      "momento_gols": "Helsingborg: 40% Gols Marcados (76-90 min), Varberg: 0% Gols Sofridos (76-90 min) (alto, mas em pequena amostra)",
-      "jogadores_chave": "Max Svensson (Helsingborg - 1 gol, 6 assistências), Alexander Johansson (Helsingborg - 3 gols, 1 assistência)",
-      "placares_provaveis": "2x0, 3x1, 3x0",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra; Ao vivo para Over Limite 70+",
-      "situacao_saida": "Proteger lucros caso o Varberg consiga se impor ofensivamente de forma inesperada.",
-      "stake_recomendada": "1.5%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "A superioridade do Helsingborg e a fase do adversário justificam a entrada, mas com cautela devido à amostra pequena.",
-        "gatilho_saida_parcial": "Helsingborg abrindo 2 gols de vantagem para Lay Zebra ou Varberg marcando primeiro.",
-        "hard_stop": "Varberg conseguindo controlar o meio-campo ou criando chances claras nos primeiros 20 minutos."
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Helsingborg",
-        "odd_alvo": "1.70",
-        "razao": "Helsingborg (2.50 PPG, 75% vitórias, 2.50 Gols Marcados/jogo) é favorito contra Varberg (1.67 PPG, 33% vitórias).",
-        "gatilho_ao_vivo": "N/A",
-        "stake_recomendada": "1.5%"
-      },
-      "lay_zebra": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "zebra": "Varberg",
-        "odd_zebra_alvo": "5.00",
-        "razao": "Varberg tem baixo aproveitamento (33% vitórias), e enfrenta um time líder em casa.",
-        "gatilho_ao_vivo": "Lay após Varberg marcar primeiro contra a expectativa, se a odd for favorável.",
-        "stake_recomendada": "1%"
-      },
-      "over_limite_70": {
-        "aplicavel": true,
-        "favorito": "Helsingborg",
-        "indice_gols_final": "Helsingborg: 40% Gols Marcados (76-90 min), Varberg: 0% Gols Sofridos (76-90 min) (Alto, mas em pequena amostra)",
-        "condicao_entrada": "Entrar se Helsingborg vencer por 2 gols após 70min",
-        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Aguardar confirmação visual de pressão ofensiva do Helsingborg. Notar a baixa amostra para o Varberg em gols sofridos no final."
-      },
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": {
-        "aplicavel": true,
-        "perfil_tatico": "Helsingborg com forte iniciativa ofensiva, buscando o domínio do jogo. Varberg em postura mais defensiva, procurando fechar espaços.",
-        "gatilhos_aceleracao": "Helsingborg criando volume de jogo e finalizando com perigo. Varberg mostrando falhas na cobertura defensiva.",
-        "alerta_armadilha": "Varberg conseguindo controlar as ações no meio-campo e frustrar o ataque do Helsingborg.",
-        "mercado_recomendado": "Back Favorito",
-        "momento_observacao": "Primeiros 15-20 minutos para avaliar a dominância do Helsingborg."
-      }
+      "confirmacao_visual": null
     },
     {
       "horario": "14:30",
-      "liga": "Sem_Liga",
-      "jogo": "Maccabi Haifa x Hapoel Tel Aviv",
+      "liga": "Iraq Iraqi Premier League",
+      "jogo": "Al-Qasim x Naft Maysan",
       "metodos_aplicados": [
         "back_favorito",
         "lay_zebra",
         "over_limite_70"
       ],
-      "mercado_principal": "Vitória Maccabi Haifa",
-      "odd_principal": "N/A (inferida < 1.80)",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "+EV potencial baseado em superioridade estatística",
-      "mercado_secundario": "Lay Hapoel Tel Aviv",
-      "odd_secundaria": "N/A (inferida > 5.00)",
-      "desempenho_1t": "Maccabi Haifa: 0.67 Gols Marcados, Hapoel Tel Aviv: 0.62 Gols Marcados",
-      "desempenho_2t": "Maccabi Haifa: 1.06 Gols Marcados, Hapoel Tel Aviv: 0.69 Gols Marcados",
-      "motivacao_tecnica": "O Maccabi Haifa (6º, 1.50 PPG) é o favorito sobre o Hapoel Tel Aviv (7º, 1.15 PPG). O Maccabi joga em casa, tem um ataque mais produtivo (1.72 gols/jogo) e um xG a favor de 1.56, apesar de sua defesa ser vulnerável (1.78 gols sofridos/jogo). O Hapoel Tel Aviv tem uma taxa de vitórias baixa (23%) e uma média de gols marcados inferior. O Lay Zebra é justificado pela fragilidade do Hapoel. Para o Over Limite 70+, o Maccabi Haifa marca 32% dos seus gols no final, e o Hapoel Tel Aviv sofre 28% no 2º tempo, o que pode criar oportunidades se o Maccabi estiver vencendo por 2 gols.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Maccabi Haifa tem a vantagem de jogar em casa, onde geralmente se impõe.",
-      "condicoes_campo": "Sem fatores relevantes",
-      "desfalques_chave": "Elenco completo (assumido na ausência de dados)",
-      "especificidades_gols": "Maccabi Haifa tem um ataque eficaz, marcando bem no 1º e 2º tempos. Hapoel Tel Aviv é mais reativo.",
-      "momento_gols": "Maccabi Haifa: 32% Gols Marcados (76-90 min), Hapoel Tel Aviv: 28% Gols Sofridos (76-90 min)",
-      "jogadores_chave": "Dia Sabi'A (Maccabi Haifa - 16 gols, 14 assistências), Dean David (Maccabi Haifa - 13 gols, 4 assistências)",
-      "placares_provaveis": "2x1, 3x1, 3x2",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra; Ao vivo para Over Limite 70+",
-      "situacao_saida": "Proteger lucros caso o Hapoel Tel Aviv surpreenda no ataque.",
+      "mercado_principal": "Vitória Naft Maysan",
+      "odd_principal": "1.85",
+      "fair_odd_calculada": "1.75",
+      "valor_esperado": "+5.7% EV — odd 1.85 vs Fair Odd 1.75",
+      "mercado_secundario": "Lay Al-Qasim",
+      "odd_secundaria": "6.00",
+      "desempenho_1t": "Al-Qasim marca 0.31, sofre 1.13. Naft Maysan marca 0.47, sofre 0.88.",
+      "desempenho_2t": "Al-Qasim marca 0.25, sofre 1.81. Naft Maysan marca 0.65, sofre 0.82.",
+      "motivacao_tecnica": "Naft Maysan é o favorito contra o Al-Qasim, que é o pior time da liga (20º lugar), sem vitórias, com um ataque muito fraco (0.56 GF) e uma defesa catastrófica (2.94 GA por jogo). A defesa do Al-Qasim é particularmente vulnerável no segundo tempo (1.81 GA). Naft Maysan, apesar de não estar em grande fase, é significativamente superior e deve aproveitar as fragilidades do adversário para obter a vitória.",
+      "coeficiente_regularidade": "Casa: CV muito alto / Visitante: CV alto",
+      "mando_de_campo": "Al-Qasim não conseguiu vitória em casa. Naft Maysan com 24% de vitórias fora.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Al-Qasim sofre muito no 1º tempo (1.13 GA) e ainda mais no 2º (1.81 GA). Naft Maysan marca mais gols no 2º tempo (0.65).",
+      "momento_gols": "Naft Maysan marca 32% dos gols e Al-Qasim sofre 23% dos gols nos últimos 15 min.",
+      "jogadores_chave": "Al-Qasim: Mohammad Jawad (11 G), Issam Al Sabhi (8 G). Naft Maysan: Daouda Diémé (11 G, 1 A), Waso Rustom (7 G, 6 A).",
+      "placares_provaveis": "0x1, 0x2, 1x2 para Naft Maysan",
+      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra, ao vivo para Over Limite 70+",
+      "situacao_saida": "Proteger lucro com 1 gol de vantagem ou se o jogo se igualar. Para Lay Zebra, saída se o favorito (Naft Maysan) abrir 1 ou 2 gols de vantagem.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A superioridade ofensiva do Maccabi Haifa e a fragilidade defensiva do Hapoel justificam a entrada.",
-        "gatilho_saida_parcial": "Maccabi Haifa com 2 gols de vantagem, ou Hapoel Tel Aviv marcando primeiro.",
-        "hard_stop": "Hapoel Tel Aviv conseguindo controlar o meio-campo nos primeiros 20 minutos."
+        "justificativa_abordagem": "A fraqueza extrema do Al-Qasim justifica o favoritismo do Naft Maysan e a aposta contra a zebra. As odds refletirão a disparidade de desempenho.",
+        "gatilho_saida_parcial": "Se Al-Qasim marcar primeiro para o Lay Zebra, ou se Naft Maysan tiver 1 gol de vantagem para o Back Favorito.",
+        "hard_stop": "Naft Maysan sofrer um gol no início ou sofrer o empate no 2º tempo (Back Favorito). Al-Qasim abrir 2 gols de vantagem (Lay Zebra). Para Over Limite 70+, se nenhum gol ocorrer até o minuto 85."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "favorito": "Maccabi Haifa",
-        "odd_alvo": "1.75",
-        "razao": "Maccabi Haifa (1.50 PPG, 44% vitórias, 1.72 Gols Marcados/jogo) é um favorito claro contra Hapoel Tel Aviv (1.15 PPG, 23% vitórias).",
-        "gatilho_ao_vivo": "N/A",
+        "favorito": "Naft Maysan",
+        "odd_alvo": "1.85",
+        "razao": "Naft Maysan é o favorito contra o lanterna da liga, que tem uma defesa extremamente frágil e zero vitórias.",
+        "gatilho_ao_vivo": "null",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "zebra": "Hapoel Tel Aviv",
-        "odd_zebra_alvo": "5.00",
-        "razao": "Hapoel Tel Aviv possui uma baixa taxa de vitórias (23%) e enfrenta um adversário ofensivo em casa.",
-        "gatilho_ao_vivo": "Lay após Hapoel Tel Aviv marcar primeiro, se a odd for favorável e a dominância do Maccabi Haifa for clara.",
-        "stake_recomendada": "1.5%"
+        "zebra": "Al-Qasim",
+        "odd_zebra_alvo": "6.00",
+        "razao": "Apostar contra Al-Qasim devido ao seu histórico de 0 vitórias, defesa pífia (2.94 GA) e ataque ineficaz (0.56 GF). As odds de sua vitória estarão infladas.",
+        "gatilho_ao_vivo": "lay após zebra marcar primeiro para tentar capturar odd ainda mais alta antes da reação do favorito.",
+        "stake_recomendada": "2%"
       },
       "over_limite_70": {
         "aplicavel": true,
-        "favorito": "Maccabi Haifa",
-        "indice_gols_final": "Maccabi Haifa: 32% Gols Marcados (76-90 min), Hapoel Tel Aviv: 28% Gols Sofridos (76-90 min)",
-        "condicao_entrada": "Entrar se Maccabi Haifa vencer por 2 gols após 70min",
-        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
-        "odd_esperada": "1.70 a 2.30",
+        "favorito": "Naft Maysan",
+        "indice_gols_final": "Naft Maysan marca 32% dos gols e Al-Qasim sofre 23% dos gols após os 75 minutos.",
+        "condicao_entrada": "Entrar se Naft Maysan vencer por 2 gols de vantagem após o minuto 70.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar)",
+        "odd_esperada": "1.60 a 2.20",
         "stake_recomendada": "1%",
-        "observacoes": "Aguardar confirmação visual de pressão ofensiva do Maccabi Haifa e sinais de cansaço defensivo do Hapoel."
+        "observacoes": "Al-Qasim é muito propenso a sofrer gols tardios, o que pode favorecer um gol extra do Naft Maysan."
       },
       "back_2x2": null,
       "back_goleada": null,
       "confirmacao_visual": {
         "aplicavel": true,
-        "perfil_tatico": "Maccabi Haifa com posse de bola e buscando espaços. Hapoel Tel Aviv com linhas mais recuadas, tentando compactar a defesa.",
-        "gatilhos_aceleracao": "Maccabi Haifa criando oportunidades com frequência e Hapoel Tel Aviv cedendo espaços no campo defensivo.",
-        "alerta_armadilha": "Hapoel Tel Aviv conseguindo contra-ataques rápidos e eficientes, explorando a defesa vulnerável do Maccabi.",
-        "mercado_recomendado": "Back Favorito",
-        "momento_observacao": "Primeiros 15-20 minutos para avaliar o controle do jogo pelo Maccabi Haifa."
-      }
-    },
-    {
-      "horario": "15:00",
-      "liga": "Italy Serie B",
-      "jogo": "Monza x Juve Stabia",
-      "metodos_aplicados": [
-        "back_favorito",
-        "lay_zebra"
-      ],
-      "mercado_principal": "Vitória Monza",
-      "odd_principal": "N/A (inferida < 1.80)",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "+EV potencial baseado em superioridade estatística",
-      "mercado_secundario": "Lay Juve Stabia",
-      "odd_secundaria": "N/A (inferida > 5.00)",
-      "desempenho_1t": "Monza: 0.68 Gols Marcados, Juve Stabia: 0.60 Gols Marcados",
-      "desempenho_2t": "Monza: 1.11 Gols Marcados, Juve Stabia: 0.40 Gols Marcados",
-      "motivacao_tecnica": "O Monza (3º, 2.42 PPG) é um favorito claro contra a Juve Stabia (9º, 1.05 PPG). O Monza tem uma alta taxa de vitórias (74%), falha em marcar em apenas 5% dos jogos e possui uma defesa muito sólida (0.63 gols sofridos/jogo). A Juve Stabia, por outro lado, tem uma taxa de vitórias de apenas 20% e uma defesa que sofre 1.50 gols/jogo, além de um ataque menos eficiente (1.00 gols/jogo). A diferença de qualidade geral e o mando de campo do Monza justificam as entradas em Back Favorito e Lay Zebra.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
-      "mando_de_campo": "Monza apresenta um excelente desempenho em casa, consolidando seu favoritismo.",
-      "condicoes_campo": "Sem fatores relevantes",
-      "desfalques_chave": "Elenco completo (assumido na ausência de dados)",
-      "especificidades_gols": "Monza é mais forte no 2º tempo (1.11 gols/jogo). Juve Stabia tem um ataque mais fraco e sofre mais no 2º tempo (0.95 gols sofridos/jogo).",
-      "momento_gols": "Monza: 21% Gols Marcados (76-90 min), Juve Stabia: 10% Gols Sofridos (76-90 min)",
-      "jogadores_chave": "Nacho Ferri (Monza - 11 gols), Kingstone Mutandwa (Monza - 14 gols)",
-      "placares_provaveis": "2x0, 2x1, 3x0",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra",
-      "situacao_saida": "Proteger lucros caso a Juve Stabia consiga se impor ofensivamente de forma inesperada.",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "A solidez do Monza e a fragilidade do adversário justificam a confiança nessas entradas.",
-        "gatilho_saida_parcial": "Monza abrindo 2 gols de vantagem para Lay Zebra ou Juve Stabia marcando primeiro.",
-        "hard_stop": "Juve Stabia dominando o meio-campo ou criando chances claras nos primeiros 20 minutos."
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Monza",
-        "odd_alvo": "1.65",
-        "razao": "Monza (2.42 PPG, 74% vitórias, 0.63 gols sofridos/jogo) é um favorito claro contra a Juve Stabia (1.05 PPG, 20% vitórias).",
-        "gatilho_ao_vivo": "N/A",
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "zebra": "Juve Stabia",
-        "odd_zebra_alvo": "6.00",
-        "razao": "Juve Stabia tem baixo aproveitamento (20% vitórias), defesa vulnerável (1.50 gols sofridos/jogo) e enfrenta um time muito forte em casa.",
-        "gatilho_ao_vivo": "Lay após a Juve Stabia marcar o primeiro gol, se a odd for atrativa.",
-        "stake_recomendada": "1.5%"
-      },
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": {
-        "aplicavel": true,
-        "perfil_tatico": "Monza controlando o jogo, construindo jogadas e pressionando. Juve Stabia buscando se defender e contra-atacar.",
-        "gatilhos_aceleracao": "Monza criando chances de gol desde o início, domínio da posse e rápida recuperação da bola.",
-        "alerta_armadilha": "Juve Stabia conseguindo anular o ataque do Monza e explorando contra-ataques perigosos.",
-        "mercado_recomendado": "Back Favorito",
-        "momento_observacao": "Primeiros 15-20 minutos para confirmar a superioridade do Monza."
+        "perfil_tatico": "Naft Maysan deve exercer domínio ofensivo, explorando as falhas da defesa do Al-Qasim. Al-Qasim deve se fechar, mas com pouca eficácia.",
+        "gatilhos_aceleracao": "Pressão alta e rápida do Naft Maysan, muitos ataques em profundidade, erros defensivos evidentes do Al-Qasim.",
+        "alerta_armadilha": "Naft Maysan com dificuldade em finalizar, ou Al-Qasim conseguindo surpreender em contra-ataques apesar de seu ataque fraco.",
+        "mercado_recomendado": "OVER LIMITE 70+, se o Naft Maysan estiver em vantagem confortável.",
+        "momento_observacao": "Principalmente a partir do segundo tempo para o OVER LIMITE 70+."
       }
     },
     {
@@ -763,42 +478,41 @@
       "jogo": "KRC Genk x Royal Antwerp FC",
       "metodos_aplicados": [
         "back_favorito",
-        "lay_zebra",
-        "over_limite_70"
+        "lay_zebra"
       ],
       "mercado_principal": "Vitória KRC Genk",
-      "odd_principal": "N/A (inferida < 1.80)",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "+EV potencial baseado em superioridade estatística",
+      "odd_principal": "1.65",
+      "fair_odd_calculada": "1.60",
+      "valor_esperado": "+3.1% EV — odd 1.65 vs Fair Odd 1.60",
       "mercado_secundario": "Lay Royal Antwerp FC",
-      "odd_secundaria": "N/A (inferida > 5.00)",
-      "desempenho_1t": "Genk: 0.47 Gols Marcados, Antwerp: 0.42 Gols Marcados",
-      "desempenho_2t": "Genk: 0.89 Gols Marcados, Antwerp: 0.47 Gols Marcados",
-      "motivacao_tecnica": "O KRC Genk (7º, 1.47 PPG) é claramente superior ao Royal Antwerp FC (13º, 1.00 PPG). O Genk joga em casa, possui um xG a favor alto (1.98) e uma taxa de vitórias maior (37%). O Antwerp falha em marcar em 53% dos jogos e tem um xG contra alto (1.64), indicando fragilidade defensiva. Este cenário favorece o Back Favorito no Genk e o Lay contra o Antwerp. Para o Over Limite 70+, o Genk marca 27% dos seus gols nos últimos 15 minutos, enquanto o Antwerp sofre 23% neste período, o que sugere um bom potencial se o Genk estiver vencendo por 2 gols ao final do jogo.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto (pela inconstância)",
-      "mando_de_campo": "KRC Genk faz 1.47 pontos por jogo, demonstrando capacidade de impor seu jogo em casa.",
-      "condicoes_campo": "Sem fatores relevantes",
-      "desfalques_chave": "Elenco completo (assumido na ausência de dados)",
-      "especificidades_gols": "Genk tende a marcar mais no 2º tempo (0.89 gols/jogo). Antwerp tem dificuldade em marcar em ambos os tempos.",
-      "momento_gols": "Genk: 27% Gols Marcados (76-90 min), Antwerp: 23% Gols Sofridos (76-90 min)",
-      "jogadores_chave": "N/A (informações não fornecidas para análise)",
-      "placares_provaveis": "2x0, 2x1, 3x1",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra; Ao vivo para Over Limite 70+",
-      "situacao_saida": "Proteger lucros caso o jogo se equalize ou para Over Limite 70+ após o gol do gatilho.",
+      "odd_secundaria": "5.50",
+      "desempenho_1t": "KRC Genk marca 0.47, sofre 0.79. Royal Antwerp FC marca 0.42, sofre 0.58.",
+      "desempenho_2t": "KRC Genk marca 0.89, sofre 0.37. Royal Antwerp FC marca 0.47, sofre 0.58.",
+      "motivacao_tecnica": "KRC Genk mostra um desempenho superior (1.47 PPG vs 1.00 PPG) e uma forma recente muito melhor (4 vitórias, 4 empates, 1 derrota em 9 jogos). O Royal Antwerp FC está em má fase (2 vitórias, 1 empate, 5 derrotas em 8 jogos) e tem um ataque ineficaz (0.89 gols marcados por jogo, falhando em marcar em 53% dos jogos). O Genk tem um bom ataque (1.37 gols/jogo) e defesa razoável (1.16 gols sofridos/jogo).",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
+      "mando_de_campo": "KRC Genk faz X% dos pontos em casa, com 37% de vitórias totais. Desempenho em casa geralmente superior.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "KRC Genk marca mais no 2º tempo (0.89 vs 0.47 no 1º) e sofre menos no 2º (0.37). Royal Antwerp FC sofre mais no 2º tempo (0.58).",
+      "momento_gols": "KRC Genk tem 27% dos gols marcados nos últimos 15 min. Royal Antwerp FC sofre 23% dos gols nos últimos 15 min.",
+      "jogadores_chave": "KRC Genk: Daan Heymans (10 G), Zakaria El Ouahdi (8 G). Royal Antwerp FC: Vincent Janssen (10 G, 7 A), Christopher Gavin Scott (6 G).",
+      "placares_provaveis": "1x0, 2x0 para KRC Genk",
+      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra",
+      "situacao_saida": "Proteger lucro com 1 gol de vantagem ou se o jogo se igualar. Para Lay Zebra, saída se o favorito (Genk) abrir 1 ou 2 gols de vantagem.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A clara disparidade de desempenho e o mando de campo justificam uma abordagem mais pró-ativa.",
-        "gatilho_saida_parcial": "Genk marcando primeiro ou Antwerp recebendo cartões cedo.",
-        "hard_stop": "Genk não dominando o jogo até 30min ou Antwerp marcando primeiro."
+        "justificativa_abordagem": "Favoritismo claro do Genk em casa contra um adversário fraco ofensivamente e em má fase. As odds deveriam refletir essa disparidade.",
+        "gatilho_saida_parcial": "Se Royal Antwerp FC marcar primeiro para o Lay Zebra, ou se Genk tiver 1 gol de vantagem para o Back Favorito.",
+        "hard_stop": "KRC Genk sofrer um gol no início ou sofrer o empate no 2º tempo (Back Favorito). Royal Antwerp FC abrir 2 gols de vantagem (Lay Zebra)."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "KRC Genk",
-        "odd_alvo": "1.70",
-        "razao": "Favoritismo claro do Genk em casa (1.47 PPG, 37% vitórias) contra um Royal Antwerp em má fase (1.00 PPG, 26% vitórias, 53% falhou em marcar).",
-        "gatilho_ao_vivo": "N/A",
+        "odd_alvo": "1.65",
+        "razao": "KRC Genk é o favorito claro em casa, com boa fase e enfrentando um adversário em má fase e com ataque pouco produtivo.",
+        "gatilho_ao_vivo": "null",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
@@ -806,472 +520,247 @@
         "modo": "pre_jogo",
         "zebra": "Royal Antwerp FC",
         "odd_zebra_alvo": "5.50",
-        "razao": "Royal Antwerp FC apresenta baixo aproveitamento (26% vitórias), alta taxa de falha em marcar (53%) e uma defesa vulnerável (xG contra 1.64).",
-        "gatilho_ao_vivo": "Lay contra o Antwerp se marcar primeiro, ou se o Genk estiver a dominar claramente sem marcar até ao minuto 30 e a odd do Antwerp estiver acima de 5.00.",
-        "stake_recomendada": "1.5%"
+        "razao": "Apostar contra o Royal Antwerp FC devido à sua péssima forma, baixo índice de vitórias e ataque ineficaz. A odd para sua vitória estará inflada.",
+        "gatilho_ao_vivo": "lay após zebra marcar primeiro para tentar capturar odd ainda mais alta antes da reação do favorito.",
+        "stake_recomendada": "2%"
       },
-      "over_limite_70": {
-        "aplicavel": true,
-        "favorito": "KRC Genk",
-        "indice_gols_final": "KRC Genk: 27% Gols Marcados (76-90 min), Royal Antwerp FC: 23% Gols Sofridos (76-90 min)",
-        "condicao_entrada": "Entrar se KRC Genk vencer por 2 gols após 70min",
-        "mercado_sugerido": "Mais X.5 gols (linha acima do placar atual)",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Aguardar confirmação visual de dominância e pressão ofensiva do Genk."
-      },
+      "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "confirmacao_visual": {
-        "aplicavel": true,
-        "perfil_tatico": "Genk dominante, controlando a posse e criando chances constantes. Antwerp se defendendo em bloco baixo e buscando contra-ataques isolados.",
-        "gatilhos_aceleracao": "Encaixe defensivo rápido do Genk, transições velozes para o ataque, superioridade numérica no meio-campo.",
-        "alerta_armadilha": "Antwerp conseguindo manter a posse e ameaçar a defesa do Genk em transições rápidas.",
-        "mercado_recomendado": "Back Favorito (pré-jogo), Over Limite 70+ (ao vivo)",
-        "momento_observacao": "Primeiros 15-20 minutos do jogo para confirmar dominância do Genk."
-      }
+      "confirmacao_visual": null
     },
     {
       "horario": "15:30",
-      "liga": "France Ligue 2/3 Play-offs",
-      "jogo": "Rouen x Laval",
+      "liga": "Belgium Pro League",
+      "jogo": "KVC Westerlo x Standard Liège",
       "metodos_aplicados": [
         "back_favorito",
         "lay_zebra"
       ],
-      "mercado_principal": "Vitória Rouen",
-      "odd_principal": "N/A (inferida < 1.80)",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "+EV potencial baseado em superioridade estatística",
-      "mercado_secundario": "Lay Laval",
-      "odd_secundaria": "N/A (inferida > 5.00)",
-      "desempenho_1t": "Rouen: 0.69 Gols Marcados, Laval: 0.41 Gols Marcados",
-      "desempenho_2t": "Rouen: 0.69 Gols Marcados, Laval: 0.35 Gols Marcados",
-      "motivacao_tecnica": "O Rouen (3º, 1.81 PPG) é um favorito claro sobre o Laval (13º, 1.06 PPG). O Rouen joga em casa, tem uma taxa de vitórias de 50%, falha em marcar em apenas 19% dos jogos e possui uma defesa sólida (0.88 gols sofridos/jogo). O Laval, por outro lado, tem um aproveitamento de apenas 24%, falha em marcar em 47% dos jogos e tem um ataque fraco (0.76 gols/jogo), além de um xG contra alto (1.53). A clara diferença de desempenho justifica Back Favorito no Rouen e Lay Zebra contra o Laval.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
-      "mando_de_campo": "Rouen em casa costuma ser forte, impondo seu ritmo de jogo.",
-      "condicoes_campo": "Sem fatores relevantes",
-      "desfalques_chave": "Elenco completo (assumido na ausência de dados)",
-      "especificidades_gols": "Rouen tem uma distribuição de gols razoável, sem picos específicos. Laval tem dificuldades ofensivas.",
-      "momento_gols": "Rouen: 23% Gols Marcados (76-90 min), Laval: 22% Gols Sofridos (76-90 min)",
-      "jogadores_chave": "Kenny Rocha Santos (Rouen - 10 gols, 5 assistências), Clément Bassin (Rouen - 6 gols)",
-      "placares_provaveis": "2x0, 1x0, 2x1",
+      "mercado_principal": "Vitória Standard Liège",
+      "odd_principal": "2.00",
+      "fair_odd_calculada": "1.90",
+      "valor_esperado": "+5.2% EV — odd 2.00 vs Fair Odd 1.90",
+      "mercado_secundario": "Lay KVC Westerlo",
+      "odd_secundaria": "5.00",
+      "desempenho_1t": "KVC Westerlo marca 0.53, sofre 1.00. Standard Liège marca 0.63, sofre 0.47.",
+      "desempenho_2t": "KVC Westerlo marca 0.79, sofre 0.32. Standard Liège marca 0.63, sofre 0.58.",
+      "motivacao_tecnica": "Standard Liège tem um desempenho significativamente melhor (1.68 PPG vs 1.32 PPG) e está em excelente fase (5 vitórias, 2 empates, 1 derrota nos últimos 8 jogos), enquanto o KVC Westerlo está em má fase (2 vitórias, 2 empates, 4 derrotas). Embora o Standard Liège jogue fora de casa, sua força e a fragilidade do adversário (37% de falha em marcar) justificam o favoritismo. O Westerlo tem uma defesa mais vulnerável no primeiro tempo (1.00 GA no 1ºT).",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
+      "mando_de_campo": "Westerlo com 37% de vitórias totais. Standard Liège mantendo alto PPG mesmo fora de casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Westerlo sofre mais no 1º tempo (1.00 GA). Standard Liège tem defesa mais sólida (0.47 GA no 1ºT).",
+      "momento_gols": "Standard Liège tem 38% dos gols marcados no 1º tempo (31-45 min). Westerlo sofre 32% dos gols no 1º tempo (31-45 min).",
+      "jogadores_chave": "KVC Westerlo: Nacho Ferri (11 G), Allahyar Sayyadmanesh (7 G). Standard Liège: Rafiki Said Ahamada (7 G, 4 A), Dennis Eckert (5 G).",
+      "placares_provaveis": "0x1, 1x2 para Standard Liège",
       "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra",
-      "situacao_saida": "Proteger lucros caso o Laval consiga se impor ofensivamente de forma inesperada.",
+      "situacao_saida": "Proteger lucro com 1 gol de vantagem ou se o jogo se igualar. Para Lay Zebra, saída se o favorito (Standard Liège) abrir 1 ou 2 gols de vantagem.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A superioridade do Rouen e a fragilidade do adversário justificam a confiança nessas entradas.",
-        "gatilho_saida_parcial": "Rouen abrindo 2 gols de vantagem para Lay Zebra ou Laval marcando primeiro.",
-        "hard_stop": "Laval dominando o meio-campo ou criando chances claras nos primeiros 20 minutos."
+        "justificativa_abordagem": "Apesar de jogar fora, o Standard Liège tem um desempenho muito superior e um adversário em má fase, oferecendo valor no Back Favorito. Lay Zebra é uma proteção contra a baixa probabilidade de vitória do Westerlo.",
+        "gatilho_saida_parcial": "Se KVC Westerlo marcar primeiro para o Lay Zebra, ou se Standard Liège tiver 1 gol de vantagem para o Back Favorito.",
+        "hard_stop": "Standard Liège sofrer um gol no início ou sofrer o empate no 2º tempo (Back Favorito). KVC Westerlo abrir 2 gols de vantagem (Lay Zebra)."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "favorito": "Rouen",
-        "odd_alvo": "1.70",
-        "razao": "Rouen (1.81 PPG, 50% vitórias, 0.88 Gols Sofridos/jogo) é um favorito claro contra Laval (1.06 PPG, 24% vitórias, 47% falhou em marcar).",
-        "gatilho_ao_vivo": "N/A",
+        "favorito": "Standard Liège",
+        "odd_alvo": "2.00",
+        "razao": "Standard Liège está em ótima fase e tem melhor aproveitamento geral. KVC Westerlo está em má fase e tem um ataque menos consistente.",
+        "gatilho_ao_vivo": "null",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "zebra": "Laval",
-        "odd_zebra_alvo": "5.50",
-        "razao": "Laval tem baixo aproveitamento (24% vitórias), alta taxa de falha em marcar (47%) e enfrenta um time mais forte em casa.",
-        "gatilho_ao_vivo": "Lay após Laval marcar o primeiro gol contra a expectativa, se a odd for favorável.",
-        "stake_recomendada": "1.5%"
+        "zebra": "KVC Westerlo",
+        "odd_zebra_alvo": "5.00",
+        "razao": "Apostar contra KVC Westerlo devido à sua má fase recente e à superioridade do Standard Liège, tornando sua vitória improvável.",
+        "gatilho_ao_vivo": "lay após zebra marcar primeiro para tentar capturar odd ainda mais alta antes da reação do favorito.",
+        "stake_recomendada": "2%"
       },
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "confirmacao_visual": {
-        "aplicavel": true,
-        "perfil_tatico": "Rouen com iniciativa, buscando o gol desde o início. Laval em postura mais defensiva, buscando não ceder espaços.",
-        "gatilhos_aceleracao": "Rouen criando chances de gol com volume e intensidade. Laval mostrando fragilidade na marcação.",
-        "alerta_armadilha": "Laval conseguindo bloquear o ataque do Rouen e aproveitando erros na transição.",
-        "mercado_recomendado": "Back Favorito",
-        "momento_observacao": "Primeiros 15-20 minutos para confirmar a dominância do Rouen."
-      }
-    },
-    {
-      "horario": "17:00",
-      "liga": "Paraguay Division Intermedia",
-      "jogo": "Independiente FBC x Deportivo Santaní",
-      "metodos_aplicados": [
-        "back_favorito",
-        "lay_zebra",
-        "over_limite_70"
-      ],
-      "mercado_principal": "Vitória Independiente FBC",
-      "odd_principal": "N/A (inferida < 1.80)",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "+EV potencial baseado em favoritismo extremo",
-      "mercado_secundario": "Lay Deportivo Santaní",
-      "odd_secundaria": "N/A (inferida > 5.00)",
-      "desempenho_1t": "Independiente FBC: 0.67 Gols Marcados, Santaní: 0.50 Gols Marcados",
-      "desempenho_2t": "Independiente FBC: 1.00 Gols Marcados, Santaní: 0.50 Gols Marcados",
-      "motivacao_tecnica": "O Independiente FBC (2º, 3.00 PPG) é um favorito extremo contra o Deportivo Santaní (8º, 1.00 PPG). O Independiente tem 100% de vitórias, uma defesa perfeita (0.00 gols sofridos/jogo) e um ataque eficiente (1.67 gols/jogo). O Deportivo Santaní tem apenas 25% de vitórias, falha em marcar em 50% dos jogos e possui uma defesa vulnerável (1.50 gols sofridos/jogo). As estatísticas são baseadas em poucos jogos (3-4), portanto a stake deve ser reduzida. Back Favorito para Independiente FBC e Lay Zebra contra Deportivo Santaní são justificadas. O Over Limite 70+ é aplicável com a alta taxa de gols marcados pelo Independiente FBC no final do jogo (40%) e a defesa de Santaní sofrendo neste período (17%).",
-      "coeficiente_regularidade": "Casa: CV muito baixo / Visitante: CV alto (devido à pequena amostra)",
-      "mando_de_campo": "Independiente FBC em casa é imbatível, fator chave para o favoritismo.",
-      "condicoes_campo": "Sem fatores relevantes",
-      "desfalques_chave": "Elenco completo (assumido na ausência de dados)",
-      "especificidades_gols": "Independiente FBC tem uma defesa muito sólida. Santaní tem dificuldades ofensivas e sofre no final.",
-      "momento_gols": "Independiente FBC: 40% Gols Marcados (76-90 min), Santaní: 17% Gols Sofridos (76-90 min)",
-      "jogadores_chave": "Daniel Dietze (Independiente FBC - 1 gol), Diarra Dramane (Independiente FBC - 1 gol)",
-      "placares_provaveis": "2x0, 3x0, 2x1",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra; Ao vivo para Over Limite 70+",
-      "situacao_saida": "Proteger lucros caso o Deportivo Santaní consiga se impor ofensivamente de forma inesperada.",
-      "stake_recomendada": "1.5%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "A superioridade do Independiente FBC e a péssima fase do Deportivo Santaní justificam a entrada, mas com cautela devido à amostra pequena.",
-        "gatilho_saida_parcial": "Independiente FBC abrindo 2 gols de vantagem para Lay Zebra ou Deportivo Santaní marcando primeiro.",
-        "hard_stop": "Deportivo Santaní conseguindo controlar o meio-campo ou criando chances claras nos primeiros 20 minutos."
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Independiente FBC",
-        "odd_alvo": "1.40",
-        "razao": "Independiente FBC (3.00 PPG, 100% vitórias, 0.00 Gols Sofridos/jogo) é um favorito extremo contra Deportivo Santaní (1.00 PPG, 25% vitórias).",
-        "gatilho_ao_vivo": "N/A",
-        "stake_recomendada": "1.5%"
-      },
-      "lay_zebra": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "zebra": "Deportivo Santaní",
-        "odd_zebra_alvo": "7.00",
-        "razao": "Deportivo Santaní tem baixo aproveitamento (25% vitórias), alta taxa de falha em marcar (50%) e defesa vulnerável (1.50 Gols Sofridos/jogo).",
-        "gatilho_ao_vivo": "Lay após Deportivo Santaní marcar primeiro contra a expectativa, se a odd for favorável.",
-        "stake_recomendada": "1%"
-      },
-      "over_limite_70": {
-        "aplicavel": true,
-        "favorito": "Independiente FBC",
-        "indice_gols_final": "Independiente FBC: 40% Gols Marcados (76-90 min), Santaní: 17% Gols Sofridos (76-90 min)",
-        "condicao_entrada": "Entrar se Independiente FBC vencer por 2 gols após 70min",
-        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Aguardar confirmação visual de pressão ofensiva do Independiente FBC e sinais de cansaço defensivo do Santaní."
-      },
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": {
-        "aplicavel": true,
-        "perfil_tatico": "Independiente FBC controlando o jogo com posse e buscando o ataque. Santaní em postura defensiva, tentando evitar gols.",
-        "gatilhos_aceleracao": "Independiente FBC criando oportunidades de gol com frequência e Santaní mostrando falhas defensivas.",
-        "alerta_armadilha": "Santaní conseguindo se defender com eficácia e contra-atacar com perigo.",
-        "mercado_recomendado": "Back Favorito",
-        "momento_observacao": "Primeiros 15-20 minutos para avaliar a dominância do Independiente FBC."
-      }
+      "confirmacao_visual": null
     }
   ],
   "evitar": [
     {
-      "horario": "08:35",
-      "jogo": "Tianjin Teda x Henan Jianye",
-      "liga": "China Chinese Super League",
-      "motivo": "Nenhum dos times demonstra favoritismo claro, e o Tianjin Teda está na última posição. As estatísticas de gols para ambos (Over 2.5, Ambas Marcam, Over HT) não atingem os limiares exigidos para o Back 2x2. A baixa qualidade ofensiva e defensiva de ambos os lados não justifica outras entradas."
+      "horario": "00:00",
+      "jogo": "Club Always Ready x Mirassol",
+      "liga": "South America Copa Libertadores",
+      "motivo": "Dados extremamente limitados (2 e 1 jogo), o que impede uma análise confiável e a aplicação de qualquer método."
+    },
+    {
+      "horario": "00:00",
+      "jogo": "Santa Fe x Platense",
+      "liga": "South America Copa Libertadores",
+      "motivo": "Dados extremamente limitados (2 e 1 jogo), o que impede uma análise confiável e a aplicação de qualquer método."
+    },
+    {
+      "horario": "00:30",
+      "jogo": "Boca Juniors x Cruzeiro",
+      "liga": "South America Copa Libertadores",
+      "motivo": "Dados extremamente limitados (1 e 2 jogos), o que impede uma análise confiável e a aplicação de qualquer método, apesar da força aparente do Boca Juniors."
+    },
+    {
+      "horario": "00:30",
+      "jogo": "São Paulo x Millonarios",
+      "liga": "South America Copa Sudamericana",
+      "motivo": "Dados extremamente limitados (1 e 3 jogos), o que impede uma análise confiável e a aplicação de qualquer método."
+    },
+    {
+      "horario": "02:00",
+      "jogo": "CSD Independiente del Valle x Libertad",
+      "liga": "South America Copa Libertadores",
+      "motivo": "Dados extremamente limitados (1 e 2 jogos), o que impede uma análise confiável e a aplicação de qualquer método, apesar do aparente favoritismo do Independiente del Valle."
+    },
+    {
+      "horario": "02:00",
+      "jogo": "Deportivo Cuenca x Deportivo Recoleta",
+      "liga": "South America Copa Sudamericana",
+      "motivo": "Dados extremamente limitados (3 e 2 jogos), o que impede uma análise confiável e a aplicação de qualquer método."
+    },
+    {
+      "horario": "02:00",
+      "jogo": "América de Cali x Tigre",
+      "liga": "South America Copa Sudamericana",
+      "motivo": "Dados extremamente limitados (2 jogos para ambos), o que impede uma análise confiável e a aplicação de qualquer método."
     },
     {
       "horario": "09:00",
       "jogo": "Qingdao Youth Island x Beijing Guoan",
       "liga": "China Chinese Super League",
-      "motivo": "Ausência de favoritismo claro. As equipes apresentam desempenho semelhante, com o Qingdao tendo um baixo índice de Over 2.5 gols (0%). Nenhum dos métodos de entrada se aplica com confiança."
+      "motivo": "Não há favoritismo claro e ambas as equipes apresentam baixas taxas de Over 2.5 gols, não se encaixando nos métodos."
     },
     {
       "horario": "11:30",
       "jogo": "Al Kahrabaa x Al Gharraf",
       "liga": "Iraq Iraqi Premier League",
-      "motivo": "Ambas as equipes estão em posições baixas na tabela com desempenho muito similar. Não há favoritismo claro. As estatísticas de gols (Over 2.5, Ambas Marcam, Over HT) não atingem os limiares para o Back 2x2. A falta de superioridade ou padrões de gols impede qualquer entrada."
+      "motivo": "As equipes são muito semelhantes em desempenho e forma, sem favoritismo claro nem padrões de gols que se encaixem nos métodos."
     },
     {
-      "horario": "14:00",
-      "jogo": "Naft x Duhok",
-      "liga": "Iraq Iraqi Premier League",
-      "motivo": "A partida apresenta um grande equilíbrio entre as equipes, com PPGs quase idênticos. Não há um favorito claro para aplicar Back Favorito ou Lay Zebra. As estatísticas de gols (Over 2.5, Ambas Marcam, Over HT) também não preenchem os critérios rigorosos para o método Back 2x2."
+      "horario": "11:35",
+      "jogo": "Tianjin Teda x Henan Jianye",
+      "liga": "China Chinese Super League",
+      "motivo": "Ambas as equipes estão em má fase, com baixo desempenho ofensivo e sem favoritismo claro ou padrões de gols para os métodos."
     },
     {
-      "horario": "14:30",
-      "jogo": "Hapoel Petah Tikva x Beitar Jerusalem",
-      "liga": "Sem_Liga",
-      "motivo": "Não há favoritismo claro entre as equipes. As estatísticas de gols (Over 2.5, Ambas Marcam, Over HT) não atendem aos critérios dos métodos de entrada, e a baixa qualidade ofensiva e defensiva de alguns times não justifica outras entradas."
+      "horario": "13:00",
+      "jogo": "Deportivo Capiatá x Fernando de la Mora",
+      "liga": "Paraguay Division Intermedia",
+      "motivo": "Amostra de dados muito pequena (4 e 3 jogos), o que torna todas as estatísticas e tendências altamente não confiáveis para a aplicação dos métodos."
+    },
+    {
+      "horario": "13:00",
+      "jogo": "Tacuary x Encarnación",
+      "liga": "Paraguay Division Intermedia",
+      "motivo": "Amostra de dados muito pequena (3 e 4 jogos), o que torna todas as estatísticas e tendências altamente não confiáveis para a aplicação dos métodos."
     },
     {
       "horario": "15:30",
       "jogo": "Sporting Charleroi x OH Leuven",
       "liga": "Belgium Pro League",
-      "motivo": "Sem favoritismo claro, as equipes apresentam desempenho equilibrado e não há padrões de gols que se encaixem nos métodos de entrada. O xG contra do Leuven é alto (1.83), mas o Charleroi não tem um ataque suficientemente produtivo para explorar isso consistentemente."
+      "motivo": "Ambas as equipes estão em má fase e não há um favoritismo claro ou padrões de gols que se encaixem nos métodos."
     },
     {
-      "horario": "15:30",
-      "jogo": "KVC Westerlo x Standard Liège",
-      "liga": "Belgium Pro League",
-      "motivo": "Ausência de favoritismo claro. Embora o Standard Liège esteja em posição superior, o Westerlo em casa demonstra capacidade competitiva. As estatísticas de gols (Over 2.5, Ambas Marcam, Over HT) não atendem aos critérios necessários para os métodos de gols."
+      "horario": "17:00",
+      "jogo": "Naft x Duhok",
+      "liga": "Iraq Iraqi Premier League",
+      "motivo": "O jogo não apresenta um favorito claro. Embora Duhok tenha um ataque mais produtivo, a inconsistência da Naft impede uma análise robusta para métodos de gols."
     },
     {
-      "horario": "15:30",
-      "jogo": "AFC Bournemouth x Manchester City",
-      "liga": "England Premier League",
-      "motivo": "Não há favoritismo claro para o Manchester City, devido à boa fase e desempenho do Bournemouth. As estatísticas de gols (Over 2.5, Ambas Marcam, Over HT) estão abaixo dos limiares para o Back 2x2, e o Man City não possui um favoritismo extremo para Goleada."
-    },
-    {
-      "horario": "16:15",
-      "jogo": "Chelsea x Tottenham Hotspur",
-      "liga": "England Premier League",
-      "motivo": "Ausência de favoritismo claro para qualquer um dos lados. As estatísticas de gols (Over 2.5, Ambas Marcam, Over HT) não atendem aos critérios rigorosos para o Back 2x2, e a diferença de desempenho não justifica outras entradas."
+      "horario": "17:00",
+      "jogo": "Helsingborg x Varberg",
+      "liga": "Sweden Superettan",
+      "motivo": "Amostra de dados muito pequena (4 e 3 jogos), tornando as estatísticas não confiáveis para um favoritismo claro ou padrões de gols para os métodos."
     },
     {
       "horario": "17:30",
-      "jogo": "Hapoel Be'er Sheva x Maccabi Tel Aviv",
-      "liga": "Sem_Liga",
-      "motivo": "Confronto entre dois times líderes com desempenho muito similar e forte ofensiva. Não há favorito claro para Back Favorito ou Back Goleada. Embora haja alta expectativa de gols, os critérios para Back 2x2 (Ambas Marcam e Defesa Frágil) não são totalmente atendidos por ambos os times simultaneamente."
+      "jogo": "Maccabi Haifa x Hapoel Tel Aviv",
+      "liga": "Sem Liga",
+      "motivo": "Ambas as equipes estão em má fase, sem um favoritismo claro. As estatísticas de gols não atendem consistentemente aos critérios para BACK 2x2."
     },
     {
-      "horario": "19:00",
-      "jogo": "Rosario Central x UCV",
-      "liga": "South America Copa Libertadores",
-      "motivo": "Dados extremamente limitados para ambas as equipes (1-2 jogos), resultando em estatísticas altamente voláteis e não confiáveis para a aplicação de qualquer método."
+      "horario": "17:30",
+      "jogo": "Hapoel Beer Sheva x Maccabi Tel Aviv",
+      "liga": "Sem Liga",
+      "motivo": "Confronto entre os líderes, sem um favorito claro. Embora ambas as equipes sejam altamente ofensivas, as estatísticas de BTTS e Over HT não atingem consistentemente os critérios para BACK 2x2 para ambas."
     },
     {
-      "horario": "19:00",
-      "jogo": "Fluminense x Bolívar",
-      "liga": "South America Copa Libertadores",
-      "motivo": "Dados extremamente limitados para ambas as equipes (1-2 jogos), resultando em estatísticas altamente voláteis e não confiáveis para a aplicação de qualquer método."
+      "horario": "17:30",
+      "jogo": "Hapoel Petah Tikva x Beitar Jerusalem",
+      "liga": "Sem Liga",
+      "motivo": "Não há favoritismo claro e os padrões de gols (Over 2.5, BTTS, Over HT) não se encaixam nos critérios do método BACK 2x2. Ambas as equipes estão em forma inconsistente."
     },
     {
-      "horario": "19:00",
-      "jogo": "Coquimbo Unido x Deportes Tolima",
-      "liga": "South America Copa Libertadores",
-      "motivo": "Dados extremamente limitados para ambas as equipes (2-3 jogos), resultando em estatísticas altamente voláteis e não confiáveis para a aplicação de qualquer método."
+      "horario": "18:30",
+      "jogo": "AFC Bournemouth x Manchester City",
+      "liga": "England Premier League",
+      "motivo": "Manchester City é favorito, mas o Bournemouth está em ótima fase (invicto nos últimos 8 jogos). A odd do City pode não ter valor suficiente para BACK FAVORITO e não há critérios para outros métodos. Sem odds claras, é difícil determinar o valor."
     },
     {
-      "horario": "19:00",
-      "jogo": "Audax Italiano x Barracas Central",
-      "liga": "South America Copa Sudamericana",
-      "motivo": "Dados extremamente limitados para ambas as equipes (1-2 jogos), resultando em estatísticas altamente voláteis e não confiáveis para a aplicação de qualquer método."
+      "horario": "18:30",
+      "jogo": "Rouen x Laval",
+      "liga": "France Ligue 23 Play-offs",
+      "motivo": "Rouen é favorito e Laval é zebra. Rouen tem bom desempenho, Laval tem baixo desempenho. Não há critérios para outros métodos."
     },
     {
-      "horario": "19:00",
-      "jogo": "Torque x Deportivo Riestra",
-      "liga": "South America Copa Sudamericana",
-      "motivo": "Dados extremamente limitados para ambas as equipes (1-3 jogos), resultando em estatísticas altamente voláteis e não confiáveis para a aplicação de qualquer método."
+      "horario": "19:15",
+      "jogo": "Chelsea x Tottenham Hotspur",
+      "liga": "England Premier League",
+      "motivo": "Ambas as equipes estão em má fase, sem favoritismo claro e com estatísticas de gols (Over 2.5 e BTTS) que não atingem os critérios para o método BACK 2x2."
+    },
+    {
+      "horario": "20:00",
+      "jogo": "Independiente Medellín x Cúcuta Deportivo",
+      "liga": "Colombia Copa Colombia",
+      "motivo": "Dados extremamente limitados (apenas 1 jogo para cada equipe), impossibilitando uma análise confiável e a aplicação dos métodos."
     },
     {
       "horario": "20:00",
       "jogo": "LDU Portoviejo x Libertad",
       "liga": "Ecuador Copa Ecuador",
-      "motivo": "Dados insuficientes para o time da casa (LDU Portoviejo), tornando a análise inviável para qualquer um dos métodos."
+      "motivo": "LDU Portoviejo não possui dados na competição e os dados do Libertad são de outra competição, inviabilizando uma análise comparativa e confiável."
     },
     {
-      "horario": "21:00",
-      "jogo": "Club Always Ready x Mirassol",
-      "liga": "South America Copa Libertadores",
-      "motivo": "Dados extremamente limitados para ambas as equipes (1-2 jogos), resultando em estatísticas altamente voláteis e não confiáveis para a aplicação de qualquer método."
-    },
-    {
-      "horario": "21:00",
-      "jogo": "Santa Fe x Platense",
-      "liga": "South America Copa Libertadores",
-      "motivo": "Dados extremamente limitados para ambas as equipes (1-2 jogos), resultando em estatísticas altamente voláteis e não confiáveis para a aplicação de qualquer método."
-    },
-    {
-      "horario": "21:30",
-      "jogo": "Boca Juniors x Cruzeiro",
-      "liga": "South America Copa Libertadores",
-      "motivo": "Dados extremamente limitados para ambas as equipes (1-2 jogos), resultando em estatísticas altamente voláteis e não confiáveis para a aplicação de qualquer método."
-    },
-    {
-      "horario": "21:30",
-      "jogo": "São Paulo x Millonarios",
-      "liga": "South America Copa Sudamericana",
-      "motivo": "Dados extremamente limitados para ambas as equipes (1-3 jogos), resultando em estatísticas altamente voláteis e não confiáveis para a aplicação de qualquer método."
-    },
-    {
-      "horario": "23:00",
-      "jogo": "CSD Independiente del Valle x Libertad",
-      "liga": "South America Copa Libertadores",
-      "motivo": "Dados extremamente limitados para ambas as equipes (1-2 jogos), resultando em estatísticas altamente voláteis e não confiáveis para a aplicação de qualquer método."
-    },
-    {
-      "horario": "23:00",
-      "jogo": "Deportivo Cuenca x Deportivo Recoleta",
-      "liga": "South America Copa Sudamericana",
-      "motivo": "Dados extremamente limitados para ambas as equipes (2-3 jogos), resultando em estatísticas altamente voláteis e não confiáveis para a aplicação de qualquer método."
-    },
-    {
-      "horario": "23:00",
-      "jogo": "América de Cali x Tigre",
-      "liga": "South America Copa Sudamericana",
-      "motivo": "Dados extremamente limitados para ambas as equipes (2 jogos), resultando em estatísticas altamente voláteis e não confiáveis para a aplicação de qualquer método."
-    },
-    {
-      "horario": "Suspenso",
-      "jogo": "Independiente Medellín x Cúcuta Deportivo",
-      "liga": "Colombia Copa Colombia",
-      "motivo": "Partida suspensa, não há informações para análise."
-    }
-  ],
-  "pdfs": [
-    {
-      "jogo": "KRC Genk x Royal Antwerp FC",
-      "arquivo": "pdfs/2026-05-19/Belgium_Pro_League/001_15h30_KRC_Genk_x_Royal_Antwerp_FC.pdf"
-    },
-    {
-      "jogo": "Sporting Charleroi x OH Leuven",
-      "arquivo": "pdfs/2026-05-19/Belgium_Pro_League/002_15h30_Sporting_Charleroi_x_OH_Leuven.pdf"
-    },
-    {
-      "jogo": "KVC Westerlo x Standard Liège",
-      "arquivo": "pdfs/2026-05-19/Belgium_Pro_League/003_15h30_KVC_Westerlo_x_Standard_Liège.pdf"
-    },
-    {
-      "jogo": "Sichuan Jiuniu x Dalian Zhixing",
-      "arquivo": "pdfs/2026-05-19/China_Chinese_Super_League/004_08h35_Sichuan_Jiuniu_x_Dalian_Zhixing.pdf"
-    },
-    {
-      "jogo": "Tianjin Teda x Henan Jianye",
-      "arquivo": "pdfs/2026-05-19/China_Chinese_Super_League/005_08h35_Tianjin_Teda_x_Henan_Jianye.pdf"
-    },
-    {
-      "jogo": "Chengdu Better City FC x Shanghai SIPG",
-      "arquivo": "pdfs/2026-05-19/China_Chinese_Super_League/006_09h00_Chengdu_Better_City_FC_x_Shanghai_SIPG.pdf"
-    },
-    {
-      "jogo": "Qingdao Youth Island x Beijing Guoan",
-      "arquivo": "pdfs/2026-05-19/China_Chinese_Super_League/007_09h00_Qingdao_Youth_Island_x_Beijing_Guoan.pdf"
-    },
-    {
-      "jogo": "AFC Bournemouth x Manchester City",
-      "arquivo": "pdfs/2026-05-19/England_Premier_League/008_15h30_AFC_Bournemouth_x_Manchester_City.pdf"
-    },
-    {
-      "jogo": "Chelsea x Tottenham Hotspur",
-      "arquivo": "pdfs/2026-05-19/England_Premier_League/009_16h15_Chelsea_x_Tottenham_Hotspur.pdf"
-    },
-    {
-      "jogo": "Monza x Juve Stabia",
-      "arquivo": "pdfs/2026-05-19/Italy_Serie_B/010_15h00_Monza_x_Juve_Stabia.pdf"
-    },
-    {
-      "jogo": "Maccabi Haifa x Hapoel Tel Aviv",
-      "arquivo": "pdfs/2026-05-19/Sem_Liga/011_14h30_Maccabi_Haifa_x_Hapoel_Tel_Aviv.pdf"
-    },
-    {
-      "jogo": "Hapoel Be'er Sheva x Maccabi Tel Aviv",
-      "arquivo": "pdfs/2026-05-19/Sem_Liga/012_14h30_Hapoel_Beer_Sheva_x_Maccabi_Tel_Aviv.pdf"
-    },
-    {
-      "jogo": "Hapoel Petah Tikva x Beitar Jerusalem",
-      "arquivo": "pdfs/2026-05-19/Sem_Liga/013_14h30_Hapoel_Petah_Tikva_x_Beitar_Jerusalem.pdf"
-    },
-    {
-      "jogo": "Ried x Wolfsberger AC",
-      "arquivo": "pdfs/2026-05-19/Austria_Bundesliga/014_13h30_Ried_x_Wolfsberger_AC.pdf"
-    },
-    {
-      "jogo": "Independiente Medellín x Cúcuta Deportivo",
-      "arquivo": "pdfs/2026-05-19/Colombia_Copa_Colombia/015_Suspenso_Independiente_Medellín_x_Cúcuta_Deportivo.pdf"
-    },
-    {
-      "jogo": "LDU Portoviejo x Libertad",
-      "arquivo": "pdfs/2026-05-19/Ecuador_Copa_Ecuador/016_20h00_LDU_Portoviejo_x_Libertad.pdf"
-    },
-    {
-      "jogo": "Rouen x Laval",
-      "arquivo": "pdfs/2026-05-19/France_Ligue_23_Play-offs/017_15h30_Rouen_x_Laval.pdf"
-    },
-    {
-      "jogo": "NorthEast United x Mohammedan",
-      "arquivo": "pdfs/2026-05-19/India_Indian_Super_League/018_08h30_NorthEast_United_x_Mohammedan.pdf"
-    },
-    {
-      "jogo": "Al Kahrabaa x Al Gharraf",
-      "arquivo": "pdfs/2026-05-19/Iraq_Iraqi_Premier_League/019_11h30_Al_Kahrabaa_x_Al_Gharraf.pdf"
-    },
-    {
-      "jogo": "Al-Qasim x Naft Maysan",
-      "arquivo": "pdfs/2026-05-19/Iraq_Iraqi_Premier_League/020_11h30_Al-Qasim_x_Naft_Maysan.pdf"
-    },
-    {
-      "jogo": "Diala x Baghdad",
-      "arquivo": "pdfs/2026-05-19/Iraq_Iraqi_Premier_League/021_11h30_Diala_x_Baghdad.pdf"
-    },
-    {
-      "jogo": "Al Talaba x Al-Karma",
-      "arquivo": "pdfs/2026-05-19/Iraq_Iraqi_Premier_League/022_14h00_Al_Talaba_x_Al-Karma.pdf"
-    },
-    {
-      "jogo": "Naft x Duhok",
-      "arquivo": "pdfs/2026-05-19/Iraq_Iraqi_Premier_League/023_14h00_Naft_x_Duhok.pdf"
-    },
-    {
-      "jogo": "Deportivo Capiatá x Fernando de la Mora",
-      "arquivo": "pdfs/2026-05-19/Paraguay_Division_Intermedia/024_10h00_Deportivo_Capiatá_x_Fernando_de_la_Mora.pdf"
-    },
-    {
-      "jogo": "Tacuary x Encarnación",
-      "arquivo": "pdfs/2026-05-19/Paraguay_Division_Intermedia/025_10h00_Tacuary_x_Encarnación.pdf"
-    },
-    {
+      "horario": "20:00",
       "jogo": "Independiente FBC x Deportivo Santaní",
-      "arquivo": "pdfs/2026-05-19/Paraguay_Division_Intermedia/026_17h00_Independiente_FBC_x_Deportivo_Santaní.pdf"
+      "liga": "Paraguay Division Intermedia",
+      "motivo": "Amostra de dados muito pequena (3 e 4 jogos), o que torna todas as estatísticas e tendências altamente não confiáveis para a aplicação dos métodos."
     },
     {
+      "horario": "22:00",
       "jogo": "Rosario Central x UCV",
-      "arquivo": "pdfs/2026-05-19/South_America_Copa_Libertadores/027_19h00_Rosario_Central_x_UCV.pdf"
+      "liga": "South America Copa Libertadores",
+      "motivo": "Dados extremamente limitados (2 e 1 jogo), o que impede uma análise confiável e a aplicação de qualquer método."
     },
     {
+      "horario": "22:00",
       "jogo": "Fluminense x Bolívar",
-      "arquivo": "pdfs/2026-05-19/South_America_Copa_Libertadores/028_19h00_Fluminense_x_Bolívar.pdf"
+      "liga": "South America Copa Libertadores",
+      "motivo": "Dados extremamente limitados (1 e 2 jogos), o que impede uma análise confiável e a aplicação de qualquer método."
     },
     {
+      "horario": "22:00",
       "jogo": "Coquimbo Unido x Deportes Tolima",
-      "arquivo": "pdfs/2026-05-19/South_America_Copa_Libertadores/029_19h00_Coquimbo_Unido_x_Deportes_Tolima.pdf"
+      "liga": "South America Copa Libertadores",
+      "motivo": "Dados extremamente limitados (2 e 3 jogos), o que impede uma análise confiável e a aplicação de qualquer método."
     },
     {
-      "jogo": "Club Always Ready x Mirassol",
-      "arquivo": "pdfs/2026-05-19/South_America_Copa_Libertadores/030_21h00_Club_Always_Ready_x_Mirassol.pdf"
-    },
-    {
-      "jogo": "Santa Fe x Platense",
-      "arquivo": "pdfs/2026-05-19/South_America_Copa_Libertadores/031_21h00_Santa_Fe_x_Platense.pdf"
-    },
-    {
-      "jogo": "Boca Juniors x Cruzeiro",
-      "arquivo": "pdfs/2026-05-19/South_America_Copa_Libertadores/032_21h30_Boca_Juniors_x_Cruzeiro.pdf"
-    },
-    {
-      "jogo": "CSD Independiente del Valle x Libertad",
-      "arquivo": "pdfs/2026-05-19/South_America_Copa_Libertadores/033_23h00_CSD_Independiente_del_Valle_x_Libertad.pdf"
-    },
-    {
+      "horario": "22:00",
       "jogo": "Audax Italiano x Barracas Central",
-      "arquivo": "pdfs/2026-05-19/South_America_Copa_Sudamericana/034_19h00_Audax_Italiano_x_Barracas_Central.pdf"
+      "liga": "South America Copa Sudamericana",
+      "motivo": "Dados extremamente limitados (2 e 1 jogo), o que impede uma análise confiável e a aplicação de qualquer método."
     },
     {
+      "horario": "22:00",
       "jogo": "Torque x Deportivo Riestra",
-      "arquivo": "pdfs/2026-05-19/South_America_Copa_Sudamericana/035_19h00_Torque_x_Deportivo_Riestra.pdf"
-    },
-    {
-      "jogo": "São Paulo x Millonarios",
-      "arquivo": "pdfs/2026-05-19/South_America_Copa_Sudamericana/036_21h30_São_Paulo_x_Millonarios.pdf"
-    },
-    {
-      "jogo": "Deportivo Cuenca x Deportivo Recoleta",
-      "arquivo": "pdfs/2026-05-19/South_America_Copa_Sudamericana/037_23h00_Deportivo_Cuenca_x_Deportivo_Recoleta.pdf"
-    },
-    {
-      "jogo": "América de Cali x Tigre",
-      "arquivo": "pdfs/2026-05-19/South_America_Copa_Sudamericana/038_23h00_América_de_Cali_x_Tigre.pdf"
-    },
-    {
-      "jogo": "Helsingborg x Varberg",
-      "arquivo": "pdfs/2026-05-19/Sweden_Superettan/039_14h00_Helsingborg_x_Varberg.pdf"
+      "liga": "South America Copa Sudamericana",
+      "motivo": "Dados extremamente limitados (3 e 1 jogo), o que impede uma análise confiável e a aplicação de qualquer método."
     }
   ]
 }
