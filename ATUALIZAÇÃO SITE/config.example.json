@@ -1,0 +1,24 @@
+{
+  "usuario": "seu_email_ou_usuario_aqui",
+  "senha": "sua_senha_aqui",
+  "gemini_api_key": "AIza...",
+  "modelo": "gemini-2.5-flash",
+  "tamanho_lote": 10,
+  "headless": false,
+  "pausa_para_inspecao": false,
+  "site_path": "C:\\ANALISES_TRADER_SITE",
+  "publicar_automaticamente": true,
+  "api_football_key": "sua_chave_api_sports_io_aqui",
+  "site_publico_url": "https://analisefb.pages.dev",
+  "telegram": {
+    "ativado": true,
+    "bot_token": "1234567890:AAEhBP7Hk_xYzQwertyuiopAsdfghjklZ",
+    "chat_id": "1234567890",
+    "notificar": {
+      "relatorio": true,
+      "auditoria": true,
+      "erro": true,
+      "ao_vivo": true
+    }
+  }
+}
