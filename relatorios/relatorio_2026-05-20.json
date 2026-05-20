@@ -1,10 +1,104 @@
 {
   "data": "2026-05-20",
   "variante": "",
-  "gerado_em": "2026-05-19T22:57:59.757231",
+  "gerado_em": "2026-05-20T07:25:04.467629",
   "total_partidas_analisadas": 70,
   "total_partidas_disponiveis": 70,
   "entradas": [
+    {
+      "horario": "10:00",
+      "liga": "Paraguay Division Intermedia",
+      "jogo": "Guaireña x Paraguarí",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Back Favorito",
+      "odd_principal": "1.70",
+      "fair_odd_calculada": "1.50",
+      "valor_esperado": "+13.3% EV — odd 1.70 vs Fair Odd 1.50",
+      "mercado_secundario": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "motivacao_tecnica": "Guaireña, apesar de estar em uma posição inferior na tabela, demonstra um desempenho ofensivo superior (1.25 gols/jogo vs 0.33) e uma defesa mais organizada (1.25 gols sofridos vs 1.67). O Paraguarí tem um histórico recente de muitos empates e poucas vitórias, com um ataque ineficiente. A odd para o Guaireña (1.70) é ligeiramente superior ao seu fair value, indicando uma oportunidade de entrada.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
+      "mando_de_campo": "Casa faz 50% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Guaireña tem um segundo tempo mais produtivo em gols marcados. Paraguarí sofre a maioria dos seus gols no primeiro tempo.",
+      "momento_gols": "Guaireña: 46-60 (20%), 61-75 (60%), 76-90 (20%). Paraguarí: 0-15 (20%), 16-30 (20%), 31-45 (40%).",
+      "jogadores_chave": "Antonio Marín (Guaireña), Roland Escobar (Paraguarí)",
+      "placares_provaveis": "1x0, 2x0, 1x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Lucro com vitória do Guaireña.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A odd do favorito apresenta valor.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Guaireña",
+        "odd_alvo": "1.70",
+        "razao": "Favoritismo com odd abaixo de 1.80, com melhor desempenho ofensivo e defensivo recente.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "10:00",
+      "liga": "Paraguay Division Intermedia",
+      "jogo": "Atlético Tembetary x 12 de Junio VH",
+      "metodos_aplicados": [
+        "lay_zebra"
+      ],
+      "mercado_principal": "Lay Zebra",
+      "odd_principal": "2.00",
+      "fair_odd_calculada": "1.75",
+      "valor_esperado": "+14.3% EV — odd 2.00 vs Fair Odd 1.75",
+      "mercado_secundario": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "motivacao_tecnica": "Atlético Tembetary apresenta um ataque ligeiramente superior (1.67 gols/jogo vs 1.75) e uma defesa significativamente mais forte (1.00 gol sofrido vs 0.50). Embora o 12 de Junio VH tenha uma odd menor, a sua defesa mais vulnerável e a menor produção ofensiva nos últimos jogos sugerem que a odd para o Atlético Tembetary está inflada, oferecendo valor para apostar contra o 12 de Junio VH (Lay Zebra).",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV baixo",
+      "mando_de_campo": "Casa faz 67% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Atlético Tembetary tem um segundo tempo mais forte em gols marcados. 12 de Junio VH é mais produtivo no segundo tempo, mas sofre gols na mesma janela.",
+      "momento_gols": "Atlético Tembetary: 16-30 (40%), 31-45 (20%), 76-90 (40%). 12 de Junio VH: 31-45 (29%), 46-60 (29%), 61-75 (14%), 76-90 (29%).",
+      "jogadores_chave": "Diego Máximo Martínez (Atlético Tembetary), Não há jogadores listados para 12 de Junio VH.",
+      "placares_provaveis": "1x0, 2x1, 1x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Lucro com vitória do Atlético Tembetary ou empate.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A odd para o 12 de Junio VH está desajustada, permitindo uma entrada contra eles.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "12 de Junio VH",
+        "odd_zebra_alvo": "2.00",
+        "razao": "A odd para o 12 de Junio VH é injustificadamente baixa, considerando que o Atlético Tembetary tem uma defesa mais sólida e um ataque com números muito próximos.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
     {
       "horario": "13:00",
       "liga": "Estonia Meistriliiga",
@@ -13,51 +107,90 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Nõmme Kalju",
-      "odd_principal": "1.55",
+      "odd_principal": "1.65",
       "fair_odd_calculada": "1.40",
-      "valor_esperado": "+10.7% EV — odd 1.55 vs Fair Odd 1.40",
+      "valor_esperado": "+17.9% EV — odd 1.65 vs Fair Odd 1.40",
       "mercado_secundario": null,
-      "desempenho_1t": "Nõmme Kalju marca 0.67 no 1ºT",
-      "desempenho_2t": "Harju Jalgpallikool sofre 0.83 no 2ºT",
-      "motivacao_tecnica": "Nõmme Kalju se apresenta como favorito com odds abaixo de 1.80. Ambos os times têm um aproveitamento de pontos semelhante (1.67 vs 1.50), mas o Nõmme Kalju demonstra um poder ofensivo superior, com 15 gols marcados em 6 jogos, resultando em uma média de 2.50 gols por partida. Sua defesa, embora sofra 1.00 gol por jogo, é mais consistente que a do Harju (2.17 gols sofridos por jogo). O mando de campo do Nõmme Kalju também é um ponto forte, onde eles têm um desempenho mais consistente. A capacidade de finalização e o xG a favor também são superiores.",
-      "coeficiente_regularidade": "Nõmme Kalju: CV baixo / Harju Jalgpallikool: CV moderado",
-      "mando_de_campo": "Nõmme Kalju tem 50% de vitórias em casa",
+      "desempenho_1t": "Casa marcou 4 gols no 1ºT em 6 jogos. Visitante marcou 3 gols no 1ºT em 6 jogos.",
+      "desempenho_2t": "Casa marcou 11 gols no 2ºT em 6 jogos. Visitante marcou 5 gols no 2ºT em 6 jogos.",
+      "motivacao_tecnica": "Nõmme Kalju, apesar de estar em 3º na tabela, demonstra um ataque muito mais produtivo (2.50 gols/jogo) em comparação ao Harju Jalgpallikool (1.33 gols/jogo). O Nõmme Kalju também sofre menos gols (1.00 vs 2.17). A performance no segundo tempo do Nõmme Kalju é notável, com 1.83 gols por jogo. O favoritismo é justificado pela força ofensiva e solidez defensiva superior.",
+      "coeficiente_regularidade": "Casa: CV moderado (50% vitórias em 6 jogos); Visitante: CV moderado (50% vitórias em 6 jogos).",
+      "mando_de_campo": "Casa: 50% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Nõmme Kalju tem um forte segundo tempo ofensivo (1.83 gols/jogo), com picos entre 61-75 min. Harju Jalgpallikool também tem um segundo tempo com mais gols (0.83 gols/jogo), mas com momentos mais distribuídos. Defensivamente, ambos sofrem gols em ambos os tempos.",
-      "momento_gols": "Nõmme Kalju: 61-75 min (40%), Harju Jalgpallikool: 16-30 min (25%)",
-      "jogadores_chave": "Mattias Männilaan (Nõmme Kalju), Kristjan Kriis (Harju Jalgpallikool)",
-      "placares_provaveis": "2x1, 3x1",
+      "especificidades_gols": "Casa marcou gols em 1º e 2º tempo, com forte produção no 2º tempo. Visitante marcou gols em 1º e 2º tempo.",
+      "momento_gols": "Casa marcou muitos gols no final do jogo (61-75 e 76-90). Visitante marcou gols mais distribuídos.",
+      "jogadores_chave": "Mattias Männilaan (6 gols), Nikita Ivanov (5 gols) pelo Nõmme Kalju. Kristjan Kriis (3 gols), Karel Eerme (3 gols) pelo Harju.",
+      "placares_provaveis": "Ex: 2x1, 3x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Cash-out parcial em caso de 1 gol de vantagem. Total em caso de empate ou virada.",
+      "situacao_saida": "Cash-out em caso de gol do visitante ou se o placar estagnar.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo do Nõmme Kalju baseado em poder ofensivo e consistência defensiva.",
-        "gatilho_saida_parcial": "Gol do Nõmme Kalju.",
-        "hard_stop": "Gol do Harju Jalgpallikool com placar igual ou adverso."
+        "justificativa_abordagem": "Favoritismo baseado na força ofensiva e histórico recente.",
+        "gatilho_saida_parcial": "Gol do visitante ou se o placar estagnar.",
+        "hard_stop": "Se o visitante virar o placar."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Nõmme Kalju",
-        "odd_alvo": "1.55",
-        "razao": "Favoritismo claro, com odds abaixo de 1.80 e superioridade ofensiva.",
+        "odd_alvo": "1.65",
+        "razao": "Favoritismo com base no ataque mais produtivo e defesa mais sólida.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": {
-        "aplicavel": null
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "13:00",
+      "liga": "Estonia Meistriliiga",
+      "jogo": "Kuressaare x Nõmme United",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Kuressaare",
+      "odd_principal": "2.25",
+      "fair_odd_calculada": "1.80",
+      "valor_esperado": "+25.0% EV — odd 2.25 vs Fair Odd 1.80",
+      "mercado_secundario": null,
+      "desempenho_1t": "Casa marcou 3 gols no 1ºT em 6 jogos. Visitante marcou 3 gols no 1ºT em 13 jogos.",
+      "desempenho_2t": "Casa marcou 4 gols no 2ºT em 6 jogos. Visitante marcou 4 gols no 2ºT em 13 jogos.",
+      "motivacao_tecnica": "Embora as odds sugiram um jogo equilibrado, o Kuressaare tem um desempenho ligeiramente superior em casa, com uma média de gols marcados igual ao adversário, mas sofrendo significativamente menos gols (1.67 vs 3.17). Além disso, o Kuressaare tem uma maior porcentagem de jogos com Over 2.5 (83% vs 50%) e a estatística de Ambas Marcam é alta para o Nõmme United (83%), sugerindo potencial de gols em ambas as pontas. Kuressaare tem um leve favoritismo.",
+      "coeficiente_regularidade": "Casa: CV moderado (33% vitórias em 6 jogos); Visitante: CV baixo (17% vitórias em 6 jogos).",
+      "mando_de_campo": "Casa: 33% de aproveitamento.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Casa marcou gols em 1º e 2º tempo. Visitante marcou gols em 1º e 2º tempo.",
+      "momento_gols": "Casa marcou muitos gols entre 61-75. Visitante marcou muitos gols entre 76-90 e também nos primeiros 15 minutos.",
+      "jogadores_chave": "Andero Kivi (3 gols), Rasmus Talu (2 gols), Johann Vahermägi (2 gols) pelo Kuressaare. Zakaria Beglarishvili (4 gols), Andre Frolov (3 gols) pelo Nõmme United.",
+      "placares_provaveis": "Ex: 2x1, 2x2",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out em caso de gol do visitante ou se o placar estagnar.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Leve favoritismo baseado na solidez defensiva e histórico recente em casa.",
+        "gatilho_saida_parcial": "Gol do visitante ou se o placar estagnar.",
+        "hard_stop": "Se o visitante virar o placar."
       },
-      "over_limite_70": {
-        "aplicavel": null
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Kuressaare",
+        "odd_alvo": "2.25",
+        "razao": "Leve favoritismo em casa devido à defesa mais sólida e maior potencial de gols.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "back_2x2": {
-        "aplicavel": null
-      },
-      "back_goleada": {
-        "aplicavel": null
-      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
       "confirmacao_visual": null
     },
     {
@@ -65,54 +198,58 @@
       "liga": "Estonia Meistriliiga",
       "jogo": "Trans x Paide",
       "metodos_aplicados": [
-        "lay_zebra"
+        "back_favorito",
+        "back_2x2"
       ],
-      "mercado_principal": "Lay Paide",
-      "odd_principal": "2.00",
-      "fair_odd_calculada": "2.10",
-      "valor_esperado": "-4.8% EV — odd 2.00 vs Fair Odd 2.10",
-      "mercado_secundario": null,
-      "desempenho_1t": "Paide marca 1.17 no 1ºT",
-      "desempenho_2t": "Trans sofre 1.33 no 2ºT",
-      "motivacao_tecnica": "Paide é considerado favorito com odds geralmente abaixo de 1.80, mas neste caso, as odds estão próximas de 2.00, indicando um equilíbrio. No entanto, o Paide demonstra um poder ofensivo significativamente superior, com 14 gols marcados em 6 jogos (média de 2.33) e um desempenho mais consistente em casa. O Trans tem um ataque menos produtivo e uma defesa mais vulnerável, com 11 gols sofridos em 6 jogos. A média total de gols nos jogos do Paide é de 4.00, indicando potencial para muitos gols, mas a aposta é contra o favorito para lucrar com empate ou vitória do Trans. A odd inflada do Paide (<5.00 não aplicável) e o desempenho recente em casa do Trans sugerem uma oportunidade de Lay no favorito se as odds se mantiverem desfavoráveis.",
-      "coeficiente_regularidade": "Paide: CV baixo / Trans: CV moderado",
-      "mando_de_campo": "Trans tem 33% de vitórias em casa",
+      "mercado_principal": "Vitória Paide",
+      "odd_principal": "1.60",
+      "fair_odd_calculada": "1.45",
+      "valor_esperado": "+10.3% EV — odd 1.60 vs Fair Odd 1.45",
+      "mercado_secundario": "Placar Exato 2x2",
+      "odd_secundaria": "10.00",
+      "desempenho_1t": "Casa marcou 4 gols no 1ºT em 6 jogos. Visitante marcou 7 gols no 1ºT em 6 jogos.",
+      "desempenho_2t": "Casa marcou 3 gols no 2ºT em 6 jogos. Visitante marcou 7 gols no 2ºT em 6 jogos.",
+      "motivacao_tecnica": "Paide demonstra um favoritismo claro com seu desempenho superior na liga (1.83 pontos/jogo vs 1.00). Possui um ataque muito mais forte (2.33 gols/jogo vs 1.17) e uma defesa mais equilibrada. A média de gols total na partida é de 4.00, indicando um jogo aberto. A estatística de 'Ambas Marcam' é alta para ambos (50% vs 83%), assim como o 'Over 2.5' (83% vs 100%).",
+      "coeficiente_regularidade": "Casa: CV moderado (33% vitórias em 6 jogos); Visitante: CV alto (50% vitórias em 6 jogos).",
+      "mando_de_campo": "Casa: 33% de aproveitamento.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Paide tem forte propensão a gols nos 1º tempos (1.17 gols/jogo) e também forte finalização no 2º tempo ofensivo (1.17 gols/jogo). Trans tem momento de gols mais no meio do jogo (29% entre 61-75 min). Defensivamente, ambos sofrem gols em ambos os tempos.",
-      "momento_gols": "Paide: 31-45 min (29%), Trans: 61-75 min (29%)",
-      "jogadores_chave": "Daniel Cabral de Oliveira (Paide), Ahmad Gero (Trans)",
-      "placares_provaveis": "1x1, 2x1",
+      "especificidades_gols": "Casa marcou gols em 1º e 2º tempo. Visitante marcou gols em 1º e 2º tempo, com forte produção no 2º tempo.",
+      "momento_gols": "Casa marcou gols entre 61-75. Visitante marcou gols em todos os períodos, com destaque para 31-45 e 46-60.",
+      "jogadores_chave": "Daniel Cabral de Oliveira (5 gols), Modou Sohna (3 gols), Henri Anier (3 gols) pelo Paide. Ahmad Gero (4 gols), Stanislav Agaptšev (2 gols) pelo Trans.",
+      "placares_provaveis": "Ex: 1x2, 2x2, 1x3",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Cash-out parcial em caso de 1 gol de vantagem para o favorito. Total em caso de empate ou vitória do Trans.",
-      "stake_recomendada": "2%",
+      "situacao_saida": "Cash-out em caso de gol do visitante ou se o placar chegar em 1x1 ou 2x1/1x2.",
+      "stake_recomendada": "2% para Back Favorito, 0.5% para Back 2x2",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Apesar de ser o favorito nas odds, o Trans tem demonstrado consistência em casa e o Paide tem uma defesa vulnerável.",
-        "gatilho_saida_parcial": "Gol do Paide.",
-        "hard_stop": "Gol do Trans ou placar de empate."
+        "justificativa_abordagem": "Favoritismo do Paide com potencial de jogo aberto e com gols.",
+        "gatilho_saida_parcial": "Gol do visitante ou se o placar chegar em 1x1 ou 2x1/1x2.",
+        "hard_stop": "Se o visitante virar o placar."
       },
       "back_favorito": {
-        "aplicavel": null
-      },
-      "lay_zebra": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "zebra": "Paide",
-        "odd_zebra_alvo": "2.00",
-        "razao": "Paide com odd inflada e Trans com desempenho em casa que pode surpreender. A aposta é contra a vitória do Paide.",
+        "favorito": "Paide",
+        "odd_alvo": "1.60",
+        "razao": "Favoritismo baseado no desempenho superior e ataque mais produtivo.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "over_limite_70": {
-        "aplicavel": null
-      },
+      "lay_zebra": null,
+      "over_limite_70": null,
       "back_2x2": {
-        "aplicavel": null
+        "aplicavel": true,
+        "razao": "Alto índice de Over 2.5 (83% casa, 83% fora) e Ambas Marcam (50% casa, 83% fora). Ambos os times marcam em média 1.17 e 2.33 gols respectivamente, e sofrem em média 1.83 e 1.67 gols. O jogo tem potencial para gols de ambos os lados.",
+        "indice_over_2_5": "83% (Trans), 83% (Paide)",
+        "indice_ambas_marcam": "50% (Trans), 83% (Paide)",
+        "indice_over_ht": "67% (Trans), 100% (Paide)",
+        "modo": "pre_jogo",
+        "odd_alvo": "10.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
       },
-      "back_goleada": {
-        "aplicavel": null
-      },
+      "back_goleada": null,
       "confirmacao_visual": null
     },
     {
@@ -124,50 +261,42 @@
       ],
       "mercado_principal": "Vitória Zamalek",
       "odd_principal": "1.85",
-      "fair_odd_calculada": "1.70",
-      "valor_esperado": "+8.8% EV — odd 1.85 vs Fair Odd 1.70",
+      "fair_odd_calculada": "1.60",
+      "valor_esperado": "+15.6% EV — odd 1.85 vs Fair Odd 1.60",
       "mercado_secundario": null,
-      "desempenho_1t": "Zamalek marca 0.54 no 1ºT",
-      "desempenho_2t": "Ceramica Cleopatra sofre 0.42 no 2ºT",
-      "motivacao_tecnica": "Zamalek é claro favorito, com odds abaixo de 1.80. A equipe tem um bom retrospecto recente (6 vitórias nos últimos 8 jogos) e um aproveitamento de pontos por jogo superior ao adversário (2.15 vs 1.58). Possuem um ataque mais produtivo e uma defesa mais sólida, com média de gols sofridos de 0.46 contra 0.67 do Ceramica Cleopatra. Além disso, o Zamalek tem um índice de vitórias em casa significativamente maior. O Ceramica Cleopatra, embora tenha um bom aproveitamento em jogos fora de casa, apresenta uma defesa mais vulnerável em comparação com o Zamalek.",
-      "coeficiente_regularidade": "Zamalek: CV baixo / Ceramica Cleopatra: CV moderado",
-      "mando_de_campo": "Zamalek faz 62% dos pontos em casa",
+      "desempenho_1t": "Casa marcou 7 gols no 1ºT em 13 jogos. Visitante marcou 6 gols no 1ºT em 12 jogos.",
+      "desempenho_2t": "Casa marcou 9 gols no 2ºT em 13 jogos. Visitante marcou 8 gols no 2ºT em 12 jogos.",
+      "motivacao_tecnica": "Zamalek é um time de maior tradição e com melhor desempenho geral na liga, ocupando a 3ª posição com 2.15 pontos por jogo, contra o 11º colocado Ceramica Cleopatra com 1.58 pontos por jogo. O Zamalek também tem uma média de gols marcados superior (1.23 vs 1.17) e sofre menos gols (0.46 vs 0.67). Embora as odds estejam próximas, a consistência e o histórico do Zamalek indicam um leve favoritismo.",
+      "coeficiente_regularidade": "Casa: CV moderado (62% vitórias em 13 jogos); Visitante: CV moderado (42% vitórias em 12 jogos).",
+      "mando_de_campo": "Casa: 62% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Zamalek tem seu principal momento de gols no fim do jogo (31% entre 76-90 min). Ceramica Cleopatra tem seus principais momentos nos 1º e 2º tempos, com picos entre 31-45 min e 76-90 min.",
-      "momento_gols": "Zamalek: 76-90 min (31%), Ceramica Cleopatra: 31-45 min (21%) e 76-90 min (36%)",
-      "jogadores_chave": "Oday Dabbagh (Zamalek), Sodiq Ougola (Ceramica Cleopatra)",
-      "placares_provaveis": "2x0, 2x1",
+      "especificidades_gols": "Casa marcou gols em 1º e 2º tempo. Visitante marcou gols em 1º e 2º tempo.",
+      "momento_gols": "Casa marcou muitos gols no final do jogo (76-90). Visitante marcou gols em todos os períodos, com destaque para 31-45.",
+      "jogadores_chave": "Oday Dabbagh (8 gols), Naser El Mansi (6 gols), Francisco Sacalumbo (3 gols) pelo Zamalek. Sodiq Ougola (7 gols), Fagrie Lakay (6 gols) pelo Ceramica Cleopatra.",
+      "placares_provaveis": "Ex: 1x0, 2x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Cash-out parcial em caso de 1 gol de vantagem, total em caso de empate ou virada.",
+      "situacao_saida": "Cash-out em caso de gol do visitante ou se o placar estagnar.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Odds favoráveis e estatísticas sólidas indicam boa probabilidade de vitória.",
-        "gatilho_saida_parcial": "Gol do Zamalek.",
-        "hard_stop": "Gol do Ceramica Cleopatra ou placar adverso."
+        "justificativa_abordagem": "Favoritismo baseado em desempenho geral e histórico do clube.",
+        "gatilho_saida_parcial": "Gol do visitante ou se o placar estagnar.",
+        "hard_stop": "Se o visitante virar o placar."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Zamalek",
         "odd_alvo": "1.85",
-        "razao": "Favoritismo claro em casa, com odds abaixo de 1.80 e retrospecto superior.",
+        "razao": "Favoritismo baseado no histórico, posição na tabela e desempenho defensivo.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": {
-        "aplicavel": null
-      },
-      "over_limite_70": {
-        "aplicavel": null
-      },
-      "back_2x2": {
-        "aplicavel": null
-      },
-      "back_goleada": {
-        "aplicavel": null
-      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
       "confirmacao_visual": null
     },
     {
@@ -178,51 +307,43 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Pyramids FC",
-      "odd_principal": "1.50",
+      "odd_principal": "1.55",
       "fair_odd_calculada": "1.35",
-      "valor_esperado": "+11.1% EV — odd 1.50 vs Fair Odd 1.35",
+      "valor_esperado": "+14.8% EV — odd 1.55 vs Fair Odd 1.35",
       "mercado_secundario": null,
-      "desempenho_1t": "Pyramids FC marca 0.69 no 1ºT",
-      "desempenho_2t": "Smouha SC sofre 0.55 no 2ºT",
-      "motivacao_tecnica": "Pyramids FC se apresenta como favorito claro com odds abaixo de 1.80. A equipe lidera a competição com um aproveitamento de 2.23 pontos por jogo e um forte poder ofensivo (22 gols marcados em 11 jogos). Sua defesa também é sólida, com apenas 8 gols sofridos. O Smouha SC tem um desempenho mais modesto, com menos vitórias e um ataque menos prolífico. O mando de campo do Pyramids FC é um fator adicional, com 69% de vitórias. As estatísticas de gols e finalizações também favorecem o Pyramids FC.",
-      "coeficiente_regularidade": "Pyramids FC: CV baixo / Smouha SC: CV moderado",
-      "mando_de_campo": "Pyramids FC faz 69% dos pontos em casa",
+      "desempenho_1t": "Casa marcou 9 gols no 1ºT em 11 jogos. Visitante marcou 6 gols no 1ºT em 13 jogos.",
+      "desempenho_2t": "Casa marcou 13 gols no 2ºT em 11 jogos. Visitante marcou 4 gols no 2ºT em 13 jogos.",
+      "motivacao_tecnica": "Pyramids FC lidera a competição com uma performance muito sólida, 2.23 pontos por jogo e o melhor ataque (22 gols). Smouha SC tem um desempenho mais modesto, com 1.18 pontos por jogo e um ataque com apenas 10 gols. A defesa do Pyramids também é mais segura. O favoritismo do Pyramids é claro e bem justificado pelas estatísticas.",
+      "coeficiente_regularidade": "Casa: CV alto (69% vitórias em 11 jogos); Visitante: CV moderado (27% vitórias em 13 jogos).",
+      "mando_de_campo": "Casa: 69% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Pyramids FC tem seus principais momentos de gols nos minutos finais do jogo (32% entre 76-90 min) e também no meio do primeiro tempo (18% entre 31-45 min). Smouha SC demonstra um padrão de gols mais distribuído, com picos no início (20% entre 0-15 min) e final do primeiro tempo (20% entre 31-45 min), e também no segundo tempo (20% entre 76-90 min).",
-      "momento_gols": "Pyramids FC: 76-90 min (32%), Smouha SC: 0-15 min e 31-45 min (20%)",
-      "jogadores_chave": "Nasser Maher (Pyramids FC), Samuel Amadi (Smouha SC)",
-      "placares_provaveis": "2x0, 2x1",
+      "especificidades_gols": "Casa marcou gols em 1º e 2º tempo, com forte produção no 2º tempo. Visitante marcou gols em 1º e 2º tempo.",
+      "momento_gols": "Casa marcou muitos gols no final do jogo (76-90). Visitante marcou gols mais distribuídos.",
+      "jogadores_chave": "Nasser Maher (8 gols), Mostafa Mohamed Zaki Abdelraouf (6 gols), Fiston Kalala Mayele (5 gols) pelo Pyramids. Samuel Amadi (5 gols) pelo Smouha.",
+      "placares_provaveis": "Ex: 2x0, 2x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Cash-out parcial em caso de 1 gol de vantagem, total em caso de empate ou virada.",
+      "situacao_saida": "Cash-out em caso de gol do visitante ou se o placar estagnar.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro e estatísticas ofensivas superiores do Pyramids FC.",
-        "gatilho_saida_parcial": "Gol do Pyramids FC.",
-        "hard_stop": "Gol do Smouha SC ou placar adverso."
+        "justificativa_abordagem": "Favoritismo claro baseado em liderança na tabela e desempenho ofensivo superior.",
+        "gatilho_saida_parcial": "Gol do visitante ou se o placar estagnar.",
+        "hard_stop": "Se o visitante virar o placar."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Pyramids FC",
-        "odd_alvo": "1.50",
-        "razao": "Favoritismo claro, liderança na competição e forte desempenho ofensivo.",
+        "odd_alvo": "1.55",
+        "razao": "Líder da competição com ataque mais produtivo e defesa mais sólida.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": {
-        "aplicavel": null
-      },
-      "over_limite_70": {
-        "aplicavel": null
-      },
-      "back_2x2": {
-        "aplicavel": null
-      },
-      "back_goleada": {
-        "aplicavel": null
-      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
       "confirmacao_visual": null
     },
     {
@@ -231,60 +352,57 @@
       "jogo": "Al Masry x Al Ahly",
       "metodos_aplicados": [
         "back_favorito",
-        "back_goleada"
+        "back_2x2"
       ],
       "mercado_principal": "Vitória Al Ahly",
-      "odd_principal": "1.60",
-      "fair_odd_calculada": "1.45",
-      "valor_esperado": "+10.3% EV — odd 1.60 vs Fair Odd 1.45",
-      "mercado_secundario": "Al Ahly marca 3+ gols",
-      "desempenho_1t": "Al Ahly marca 0.77 no 1ºT",
-      "desempenho_2t": "Al Masry sofre 1.33 no 2ºT",
-      "motivacao_tecnica": "Al Ahly é um favorito claro com odds abaixo de 1.80. Apesar de ambos os times apresentarem bons índices de gols (Média total de 3.25 e 2.85 respectivamente), o Al Ahly possui um ataque mais prolífico e consistente, com 23 gols marcados em 13 jogos e um xG médio a favor de 1.77. O Al Masry tem uma defesa mais vulnerável, especialmente no segundo tempo (1.33 gols sofridos por jogo), enquanto o Al Ahly tem um poder ofensivo considerável nos segundo tempos (1.33 gols marcados). O retrospecto e a qualidade individual dos jogadores do Al Ahly sustentam a aposta no favorito e a possibilidade de uma goleada.",
-      "coeficiente_regularidade": "Al Ahly: CV baixo / Al Masry: CV moderado",
-      "mando_de_campo": "Al Masry tem 6 de 12 pontos em casa, Al Ahly tem 5 de 13 pontos fora.",
+      "odd_principal": "1.70",
+      "fair_odd_calculada": "1.55",
+      "valor_esperado": "+9.7% EV — odd 1.70 vs Fair Odd 1.55",
+      "mercado_secundario": "Placar Exato 2x2",
+      "odd_secundaria": "12.00",
+      "desempenho_1t": "Casa marcou 7 gols no 1ºT em 12 jogos. Visitante marcou 10 gols no 1ºT em 13 jogos.",
+      "desempenho_2t": "Casa marcou 16 gols no 2ºT em 12 jogos. Visitante marcou 11 gols no 2ºT em 13 jogos.",
+      "motivacao_tecnica": "Al Ahly é tradicionalmente um time forte e demonstra isso com seu desempenho (1.62 pontos por jogo, 1.62 gols marcados). Al Masry também tem um bom ataque (1.92 gols marcados), mas sofre muitos gols (1.33). A estatística de 'Ambas Marcam' e 'Over 2.5' nos jogos de ambas as equipes é alta, sugerindo um jogo aberto e com gols. Al Ahly tem um leve favoritismo pelas odds e histórico recente, mas o potencial de gols em ambas as pontas é notável.",
+      "coeficiente_regularidade": "Casa: CV moderado (50% vitórias em 12 jogos); Visitante: CV alto (38% vitórias em 13 jogos).",
+      "mando_de_campo": "Casa: 50% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Al Ahly tem seu principal momento ofensivo no segundo tempo (1.33 gols/jogo) e também no primeiro tempo (0.77 gols/jogo). Al Masry mostra forte poder ofensivo no segundo tempo (1.33 gols/jogo) e também no primeiro tempo (0.58 gols/jogo). A defesa do Al Masry é mais vulnerável no segundo tempo (1.33 gols sofridos/jogo).",
-      "momento_gols": "Al Ahly: 61-75 min (30%), Al Masry: 31-45 min (31%)",
-      "jogadores_chave": "Mahmoud Trezeguet (Al Ahly), Salah Mohsen (Al Masry)",
-      "placares_provaveis": "3x1, 2x0",
+      "especificidades_gols": "Casa marcou gols em 1º e 2º tempo, com forte produção no 2º tempo. Visitante marcou gols em 1º e 2º tempo.",
+      "momento_gols": "Casa marcou muitos gols no final do jogo (76-90). Visitante marcou gols em todos os períodos, com destaque para 31-45 e 61-75.",
+      "jogadores_chave": "Salah Mohsen (7 gols), Omar Mamdouh El Saeey (6 gols), Mounder Temine (5 gols) pelo Al Masry. Mahmoud Trezeguet (9 gols), Zizo (5 gols) pelo Al Ahly.",
+      "placares_provaveis": "Ex: 2x1, 2x2, 3x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Cash-out parcial em caso de 2 gols de vantagem. Total em caso de placar adverso ou empate.",
-      "stake_recomendada": "2%",
+      "situacao_saida": "Cash-out em caso de gol do visitante ou se o placar chegar em 1x1 ou 2x1/1x2.",
+      "stake_recomendada": "2% para Back Favorito, 0.5% para Back 2x2",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro do Al Ahly e capacidade ofensiva para buscar a goleada.",
-        "gatilho_saida_parcial": "Gol do Al Ahly.",
-        "hard_stop": "Gol do Al Masry com placar igual ou adverso."
+        "justificativa_abordagem": "Favoritismo do Al Ahly com potencial de jogo aberto e com gols.",
+        "gatilho_saida_parcial": "Gol do visitante ou se o placar chegar em 1x1 ou 2x1/1x2.",
+        "hard_stop": "Se o visitante virar o placar."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Al Ahly",
-        "odd_alvo": "1.60",
-        "razao": "Favoritismo claro, com odds abaixo de 1.80 e forte poder ofensivo demonstrado.",
+        "odd_alvo": "1.70",
+        "razao": "Leve favoritismo do Al Ahly com histórico e capacidade ofensiva.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": {
-        "aplicavel": null
-      },
-      "over_limite_70": {
-        "aplicavel": null
-      },
+      "lay_zebra": null,
+      "over_limite_70": null,
       "back_2x2": {
-        "aplicavel": null
-      },
-      "back_goleada": {
         "aplicavel": true,
-        "candidato": "Al Ahly",
-        "razao": "Favoritismo extremo (<1.40 odds não confirmada, mas forte favoritismo), ataque prolífico e defesa frágil do adversário, especialmente no 2º tempo.",
+        "razao": "Alto índice de Over 2.5 (67% casa, 54% fora) e Ambas Marcam (67% casa, 69% fora). Ambos os times marcam uma média de 1.92 e 1.62 gols respectivamente, e sofrem em média 1.33 e 1.23 gols.",
+        "indice_over_2_5": "67% (Al Masry), 54% (Al Ahly)",
+        "indice_ambas_marcam": "67% (Al Masry), 69% (Al Ahly)",
+        "indice_over_ht": "67% (Al Masry), 77% (Al Ahly)",
         "modo": "pre_jogo",
-        "mercado_sugerido": "Al Ahly marca 3+ gols",
-        "odd_esperada": "3.50 a 7.00",
-        "stake_recomendada": "1%"
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
       },
+      "back_goleada": null,
       "confirmacao_visual": null
     },
     {
@@ -292,39 +410,671 @@
       "liga": "Norway First Division",
       "jogo": "Strømmen x Haugesund",
       "metodos_aplicados": [
-        "back_favorito"
+        "lay_zebra"
       ],
-      "mercado_principal": "Vitória Haugesund",
-      "odd_principal": "1.70",
-      "fair_odd_calculada": "1.55",
-      "valor_esperado": "+9.7% EV — odd 1.70 vs Fair Odd 1.55",
+      "mercado_principal": "Lay Zebra",
+      "odd_principal": "5.00",
+      "fair_odd_calculada": "4.00",
+      "valor_esperado": "+25.0% EV — odd 5.00 vs Fair Odd 4.00",
       "mercado_secundario": null,
-      "desempenho_1t": "Haugesund marca 1.00 gol no 1ºT",
-      "desempenho_2t": "Strømmen sofre 2.33 gols em média",
-      "motivacao_tecnica": "Haugesund apresenta forte desempenho ofensivo com 2.25 gols por jogo, enquanto Strømmen tem uma defesa muito frágil, sofrendo 2.33 gols por partida. A odd para a vitória do Haugesund, apesar de ser claro favorito, ainda oferece valor. O Haugesund tem 50% de vitórias contra 0% do Strømmen.",
-      "coeficiente_regularidade": "Strømmen: CV alto em gols sofridos / Haugesund: CV moderado em gols marcados",
-      "mando_de_campo": "Strømmen tem 0 pontos em 3 jogos em casa.",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "motivacao_tecnica": "Haugesund apresenta um desempenho ofensivo significativamente superior, com média de 2.25 gols marcados por jogo contra 1.00 do Strømmen. Além disso, a defesa do Strømmen sofre em média 2.33 gols, enquanto Haugesund sofre 2.50. A odd inflada para a zebra (Strømmen) não reflete essa disparidade técnica e de desempenho. A probabilidade implícita na odd de 5.00 para a vitória do Strømmen (20%) é consideravelmente inferior ao seu desempenho real, especialmente considerando a força ofensiva do Haugesund e a fragilidade defensiva do Strømmen.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
+      "mando_de_campo": "Casa faz 33% dos pontos em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Haugesund tem um ataque produtivo com Sory Ibrahim Diarra como principal artilheiro.",
-      "momento_gols": "Haugesund marca mais na segunda metade do jogo.",
-      "jogadores_chave": "Sory Ibrahim Diarra (Haugesund)",
-      "placares_provaveis": "0x2, 1x2",
+      "especificidades_gols": "Haugesund marca a maioria dos seus gols no segundo tempo, enquanto Strømmen tem uma distribuição mais equilibrada, com picos no final do jogo.",
+      "momento_gols": "Strømmen: 61-75 (33%), 76-90 (67%). Haugesund: 0-15 (11%), 16-30 (33%), 61-75 (22%), 76-90 (22%).",
+      "jogadores_chave": "Sory Ibrahim Diarra (Haugesund), Nikolai Jakobsen Hristov (Strømmen)",
+      "placares_provaveis": "1x2, 0x2, 1x3",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Cash-out em caso de gol do Strømmen ou placar desfavorável.",
+      "situacao_saida": "Lucro garantido com vitória do Haugesund ou empate. Se Strømmen abrir o placar, monitorar a pressão do Haugesund.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A odd é razoável para um favorito com potencial de expansão.",
-        "gatilho_saida_parcial": "Gol do Strømmen ou 0-0 no intervalo.",
-        "hard_stop": "Se tomar o primeiro gol."
+        "justificativa_abordagem": "A odd permite uma entrada pré-jogo com bom valor de exploração, sem necessidade de forçar entrada ao vivo.",
+        "gatilho_saida_parcial": "N/A para Lay Zebra pré-jogo sem stop loss definido.",
+        "hard_stop": "N/A para Lay Zebra pré-jogo sem stop loss definido."
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Strømmen",
+        "odd_zebra_alvo": "5.00",
+        "razao": "A odd para o Strømmen está inflada em relação ao seu desempenho atual e confronto direto contra o Haugesund, que demonstra maior capacidade ofensiva e melhor organização defensiva.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "14:00",
+      "liga": "Norway First Division",
+      "jogo": "Åsane x Sandnes Ulf",
+      "metodos_aplicados": [
+        "lay_zebra"
+      ],
+      "mercado_principal": "Lay Zebra",
+      "odd_principal": "3.00",
+      "fair_odd_calculada": "2.50",
+      "valor_esperado": "+20.0% EV — odd 3.00 vs Fair Odd 2.50",
+      "mercado_secundario": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "motivacao_tecnica": "O Sandnes Ulf demonstra maior consistência ofensiva e defensiva, com uma média de 1.00 gol marcado e 1.33 sofrido, contra 2.00 gols marcados e 3.67 sofridos do Åsane. O Åsane apresenta uma média total de gols preocupante e uma defesa muito vulnerável, com 3.67 gols sofridos por jogo. A odd para o Åsane (3.00) não reflete essa fragilidade, tornando uma aposta contra eles (Lay Zebra) uma oportunidade de valor.",
+      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV baixo",
+      "mando_de_campo": "Casa faz 0% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Sandnes Ulf tem um ataque mais distribuído e um segundo tempo mais produtivo, enquanto Åsane sofre a maioria dos seus gols no segundo tempo.",
+      "momento_gols": "Åsane: 0-15 (17%), 46-60 (33%), 61-75 (17%), 76-90 (17%). Sandnes Ulf: 0-15 (25%), 46-60 (50%), 61-75 (33%), 76-90 (33%).",
+      "jogadores_chave": "Ole Sebastian Sundgot (Sandnes Ulf), Erik Emanuel Grønner (Åsane)",
+      "placares_provaveis": "0x1, 1x2, 0x2",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Lucro com vitória do Sandnes Ulf ou empate. Monitorar placares adversos para o Sandnes Ulf.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A odd para o Åsane apresenta valor para ser explorado contra eles antes do jogo.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Åsane",
+        "odd_zebra_alvo": "3.00",
+        "razao": "Odd inflada para o Åsane, que demonstra grande fragilidade defensiva (média de 3.67 gols sofridos) e um ataque que não compensa essa deficiência, comparado a um Sandnes Ulf mais equilibrado.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "14:00",
+      "liga": "Norway First Division",
+      "jogo": "Moss x Strømsgodset",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra"
+      ],
+      "mercado_principal": "Back Favorito",
+      "odd_principal": "1.75",
+      "fair_odd_calculada": "1.50",
+      "valor_esperado": "+16.7% EV — odd 1.75 vs Fair Odd 1.50",
+      "mercado_secundario": "Lay Zebra",
+      "odd_secundaria": "4.50",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "motivacao_tecnica": "Strømsgodset apresenta um ataque mais produtivo (2.00 gols/jogo vs 1.67) e uma defesa mais sólida (1.33 gols sofridos/jogo vs 1.67). A odd para o Strømsgodset (1.75) está ligeiramente abaixo do seu fair value, indicando uma oportunidade de 'back favorito'. Adicionalmente, a odd para o Moss (4.50) parece alta dada a disparidade de desempenho recente, configurando um cenário para 'lay zebra'. A combinação de um favorito com odd abaixo de 1.80 e uma zebra com odd inflada torna esta partida interessante para ambas as abordagens.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV baixo",
+      "mando_de_campo": "Casa faz 67% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Strømsgodset tem um segundo tempo muito forte em termos de gols marcados (2.00/jogo), enquanto Moss é forte no final do jogo (80% de seus gols marcados no 2º tempo).",
+      "momento_gols": "Moss: 31-45 (20%), 76-90 (80%). Strømsgodset: 61-75 (50%), 76-90 (50%).",
+      "jogadores_chave": "Sebastian Pingel (Strømsgodset), Julian Lægreid (Moss)",
+      "placares_provaveis": "1x2, 0x2, 1x3",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Lucro com vitória do Strømsgodset. Para o Lay Zebra, empate ou vitória do Strømsgodset garantem o lucro.",
+      "stake_recomendada": "2% para Back Favorito, 2% para Lay Zebra",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Ambas as estratégias (Back Favorito e Lay Zebra) apresentam odds favoráveis pré-jogo.",
+        "gatilho_saida_parcial": "N/A para ambas as entradas pré-jogo.",
+        "hard_stop": "N/A para ambas as entradas pré-jogo."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "favorito": "Haugesund",
-        "odd_alvo": "1.70",
-        "razao": "Haugesund é favorito claro com 50% de vitórias contra 0% do adversário, que tem uma defesa extremamente vulnerável.",
+        "favorito": "Strømsgodset",
+        "odd_alvo": "1.75",
+        "razao": "Strømsgodset é o favorito com odd abaixo de 1.80, apresentando melhor performance ofensiva e defensiva.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Moss",
+        "odd_zebra_alvo": "4.50",
+        "razao": "A odd para o Moss parece inflada considerando o desempenho geral e a vantagem do Strømsgodset.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "14:00",
+      "liga": "Norway First Division",
+      "jogo": "Kongsvinger x Odd",
+      "metodos_aplicados": [
+        "lay_zebra"
+      ],
+      "mercado_principal": "Lay Zebra",
+      "odd_principal": "3.50",
+      "fair_odd_calculada": "3.00",
+      "valor_esperado": "+16.7% EV — odd 3.50 vs Fair Odd 3.00",
+      "mercado_secundario": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "motivacao_tecnica": "Ambos os times demonstram bom desempenho ofensivo, com Kongsvinger marcando 2.33 gols/jogo e Odd marcando 2.00 gols/jogo. A defesa do Kongsvinger sofre 0.67 gols/jogo, enquanto Odd sofre 0.67 gols/jogo. Ambos os times venceram todos os seus jogos até agora. A odd de 3.50 para o Odd (Odd) parece alta, considerando que também venceram 100% dos seus jogos e demonstraram capacidade ofensiva. A odd está ligeiramente acima do seu valor justo, permitindo uma entrada contra eles.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV baixo",
+      "mando_de_campo": "Casa faz 100% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ambos os times têm boa produção no segundo tempo, com Odd sendo particularmente forte nos últimos 15 minutos.",
+      "momento_gols": "Kongsvinger: 46-60 (43%), 61-75 (14%), 76-90 (14%). Odd: 61-75 (33%), 76-90 (33%).",
+      "jogadores_chave": "Daniel Job (Kongsvinger), Sanel Bojadzic (Odd)",
+      "placares_provaveis": "2x1, 2x2, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Lucro com vitória do Kongsvinger ou empate.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A odd do Odd está desajustada para o cenário atual.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Odd",
+        "odd_zebra_alvo": "3.50",
+        "razao": "A odd para o Odd está inflada, considerando o seu desempenho perfeito até agora e a capacidade ofensiva demonstrada, comparada ao Kongsvinger.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "14:00",
+      "liga": "Norway First Division",
+      "jogo": "Sogndal x Stabæk",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Back Favorito",
+      "odd_principal": "2.20",
+      "fair_odd_calculada": "2.00",
+      "valor_esperado": "+10.0% EV — odd 2.20 vs Fair Odd 2.00",
+      "mercado_secundario": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "motivacao_tecnica": "Stabæk demonstra uma performance ligeiramente superior em termos de média de gols marcados (2.00 vs 2.33) e uma defesa mais sólida (1.00 vs 1.33). O Sogndal tem um xG a favor (1.95) maior, mas o xG contra (1.96) é preocupante. A odd de 2.20 para o Sogndal como favorito não é clara o suficiente para um 'back favorito' forte, mas a discrepância com o desempenho recente do Stabæk e a consistência defensiva sugerem uma leve vantagem para o Sogndal. No entanto, a odd do Sogndal está ligeiramente acima do seu fair value, configurando uma entrada de valor.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV baixo",
+      "mando_de_campo": "Casa faz 67% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Sogndal tem um ataque mais concentrado no primeiro tempo e no final do jogo. Stabæk tem um ataque distribuído e uma defesa mais forte no início do jogo.",
+      "momento_gols": "Sogndal: 0-15 (29%), 46-60 (29%), 76-90 (29%). Stabæk: 0-15 (25%), 46-60 (25%), 61-75 (13%), 76-90 (13%).",
+      "jogadores_chave": "Sebastian Pedersen (Sogndal), Jacob Hanstad (Stabæk)",
+      "placares_provaveis": "2x1, 1x0, 2x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Lucro com vitória do Sogndal.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A odd do favorito é ligeiramente vantajosa.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Sogndal",
+        "odd_alvo": "2.20",
+        "razao": "Favoritismo com odd acima de 1.80, com ligeira vantagem técnica e de xG a favor.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "14:30",
+      "liga": "Belarus Vysheyshaya Liga",
+      "jogo": "BATE x Dinamo Minsk",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Dinamo Minsk",
+      "odd_principal": "2.00",
+      "fair_odd_calculada": "1.80",
+      "valor_esperado": "+11.1% EV — odd 2.00 vs Fair Odd 1.80",
+      "mercado_secundario": null,
+      "desempenho_1t": "Dinamo Minsk sofre 0.75 no 1ºT",
+      "desempenho_2t": "Dinamo Minsk marca 1.75 no 2ºT",
+      "motivacao_tecnica": "Dinamo Minsk apresenta um desempenho superior tanto em termos de pontos por jogo quanto na média de gols marcados (2.00 vs 1.33). Seu retrospecto recente (W W W W) é significativamente melhor que o do BATE (W L L). Além disso, o Dinamo Minsk demonstra maior poder ofensivo, especialmente no segundo tempo, onde marca uma média de 1.75 gols, contrastando com o BATE que sofre uma média de 1.67 gols no primeiro tempo e marca 0.67 no segundo. A odd de 2.00 para o Dinamo Minsk sugere um valor, considerando sua força demonstrada.",
+      "coeficiente_regularidade": "Dinamo Minsk: CV moderado / BATE: CV alto",
+      "mando_de_campo": "Dinamo Minsk é visitante, mas com 100% de vitórias em 4 jogos.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Dinamo Minsk marca muitos gols no segundo tempo (7/8 gols totais).",
+      "momento_gols": "Dinamo Minsk marca a partir dos 46min.",
+      "jogadores_chave": "Karen Vardanyan (4 gols pelo Dinamo Minsk), Artem Sokolovskiy (3 gols pelo BATE)",
+      "placares_provaveis": "0x2, 1x2, 1x3",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Aguardar resultado final",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O cenário de favoritismo do Dinamo Minsk é claro com base nas estatísticas e forma recente.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Dinamo Minsk",
+        "odd_alvo": "2.00",
+        "razao": "Dinamo Minsk demonstra performance superior em pontos, gols marcados e forma recente, apresentando odd de valor.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "15:00",
+      "liga": "Norway Eliteserien",
+      "jogo": "Start x FK Bodo - Glimt",
+      "metodos_aplicados": [
+        "lay_zebra"
+      ],
+      "mercado_principal": "Lay FK Bodo - Glimt",
+      "odd_principal": "2.00",
+      "fair_odd_calculada": "1.90",
+      "valor_esperado": "+5.3% EV — odd 2.00 vs Fair Odd 1.90",
+      "mercado_secundario": null,
+      "desempenho_1t": "Start 1.0 gol marcado / FK Bodo 0.75 gol marcado",
+      "desempenho_2t": "Start 0.67 gol marcado / FK Bodo 0.75 gol marcado",
+      "motivacao_tecnica": "O FK Bodo - Glimt, apesar de ser favorito nas odds (2.00), tem apresentado um desempenho mais modesto nos últimos jogos, com duas vitórias em quatro partidas e média de 1.5 gols marcados e 1.5 sofridos. O Start, jogando em casa, tem um histórico recente mais equilibrado, com 1.0 gol marcado e 1.0 sofrido por jogo. A odd para o FK Bodo está inflada para o seu histórico recente e não reflete a realidade de ambos os times. O lay na zebra (FK Bodo) é uma estratégia sólida aqui, pois mesmo um empate garante lucro, e uma vitória do Start consolidaria o trade com segurança.",
+      "coeficiente_regularidade": "Start: CV moderado (0% vitórias nos últimos 3, mas 1.0 de média de gols marcados) / FK Bodo: CV moderado (50% vitórias nos últimos 4, mas também 1.5 de gols marcados e sofridos)",
+      "mando_de_campo": "Start tem 1.0 gol marcado por jogo em casa nos últimos 3 jogos.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ambos os times mostram capacidade de marcar, mas também de sofrer. O Start tem uma média de 1.0 gol marcado em casa, enquanto o FK Bodo tem 1.5 gols marcados fora, mas também 1.5 sofridos.",
+      "momento_gols": "Ambos os times tendem a marcar em diferentes janelas, com Start tendo presença nos minutos 16-30 e 61-75, e FK Bodo tendo mais gols no 1º tempo (3 vs 1) e 31-45 nos 2º tempo.",
+      "jogadores_chave": "Kasper Waarst Høgh (FK Bodo - Glimt: 5 gols) e Jesper Cornelius (Start: 2 gols)",
+      "placares_provaveis": "1x1, 2x1, 1x2",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Lay zebra é vantajoso com placar de empate ou vitória do favorito",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A odd de 2.00 para o favorito FK Bodo Glimt não justifica o favoritismo, indicando uma valorização na aposta contra ele (lay zebra).",
+        "gatilho_saida_parcial": null,
+        "hard_stop": "O lay zebra lucra com empate ou vitória do favorito. Não há necessidade de stop loss parcial ou total neste caso, pois a aposta é contra o resultado específico da zebra."
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "FK Bodo - Glimt",
+        "odd_zebra_alvo": "2.00",
+        "razao": "A odd do FK Bodo - Glimt está inflada para o seu desempenho recente, especialmente fora de casa, onde tem uma média de 1.5 gols marcados e 1.5 sofridos. O Start, jogando em casa, tem um histórico equilibrado com 1.0 gol marcado por jogo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "15:00",
+      "liga": "Saudi Arabia Professional League",
+      "jogo": "Al Khaleej x Al Ahli",
+      "metodos_aplicados": [
+        "lay_zebra",
+        "back_goleada"
+      ],
+      "mercado_principal": "Lay Zebra",
+      "odd_principal": "4.00",
+      "fair_odd_calculada": "3.00",
+      "valor_esperado": "+33.3% EV — odd 4.00 vs Fair Odd 3.00",
+      "mercado_secundario": "Back Goleada",
+      "odd_secundaria": "4.50",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "motivacao_tecnica": "Al Ahli é um time de ponta, com odd baixa para a vitória (<1.40), e tem um histórico de vitórias expressivas. O Al Khaleej tem uma defesa frágil, sofrendo em média 1.69 gols por jogo, e é frequentemente vazado no segundo tempo. O Al Ahli tem um ataque poderoso, com média de 1.38 gols marcados, mas o potencial de goleada é alto devido à fraqueza defensiva do adversário. A odd para o Al Khaleej está inflada (4.00), permitindo um lay zebra. Adicionalmente, o Al Ahli tem potencial para marcar 4+ gols, configurando um 'back goleada'.",
+      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV baixo",
+      "mando_de_campo": "Casa faz 38% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Al Ahli marca muitos gols no início do jogo e no segundo tempo. Al Khaleej sofre mais gols no segundo tempo.",
+      "momento_gols": "Al Khaleej: 46-60 (26%), 76-90 (19%). Al Ahli: 0-15 (14%), 16-30 (23%), 46-60 (14%), 61-75 (23%), 76-90 (14%).",
+      "jogadores_chave": "Ivan Toney (Al Ahli), Giorgos Masouras (Al Khaleej)",
+      "placares_provaveis": "0x3, 1x4, 0x2",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Lucro com vitória do Al Ahli ou empate para o Lay Zebra. Lucro com 4+ gols do Al Ahli para o Back Goleada.",
+      "stake_recomendada": "2% para Lay Zebra, 1% para Back Goleada",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Ambas as estratégias apresentam odds favoráveis pré-jogo.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Al Khaleej",
+        "odd_zebra_alvo": "4.00",
+        "razao": "Odd inflada para o Al Khaleej, que enfrenta um adversário muito superior tecnicamente e defensivamente frágil.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "candidato": "Al Ahli",
+        "razao": "Favoritismo extremo (<1.40), adversário com defesa frágil (1.69 gols sofridos/jogo) e Al Ahli em boa fase ofensiva.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Al Ahli marca 4+ gols",
+        "odd_esperada": "4.50",
+        "stake_recomendada": "1%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "15:00",
+      "liga": "Saudi Arabia Professional League",
+      "jogo": "Al Najma x Al Shabab",
+      "metodos_aplicados": [
+        "lay_zebra"
+      ],
+      "mercado_principal": "Lay Zebra",
+      "odd_principal": "3.50",
+      "fair_odd_calculada": "3.00",
+      "valor_esperado": "+16.7% EV — odd 3.50 vs Fair Odd 3.00",
+      "mercado_secundario": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "motivacao_tecnica": "O Al Shabab possui um ataque mais prolífico (1.00 gol/jogo vs 1.25) e uma defesa mais consistente (1.25 gols sofridos vs 2.25) que o Al Najma. Embora ambos os times tenham um histórico de muitos empates, o Al Shabab demonstra maior capacidade de impor seu ritmo. A odd para o Al Najma (3.50) está ligeiramente inflada, considerando o desempenho geral e a fragilidade defensiva do time, criando uma oportunidade de apostar contra eles.",
+      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV baixo",
+      "mando_de_campo": "Casa faz 13% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Al Najma sofre a maioria dos seus gols no segundo tempo e no início. Al Shabab tem um ataque mais distribuído, com picos no segundo tempo.",
+      "momento_gols": "Al Najma: 0-15 (10%), 46-60 (35%), 76-90 (20%). Al Shabab: 31-45 (25%), 46-60 (31%), 76-90 (25%).",
+      "jogadores_chave": "Lázaro Vinicius (Al Najma), Yannick Carrasco (Al Shabab)",
+      "placares_provaveis": "1x1, 1x2, 0x2",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Lucro com vitória do Al Shabab ou empate.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A odd do Al Najma está desajustada.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Al Najma",
+        "odd_zebra_alvo": "3.50",
+        "razao": "Odd para o Al Najma inflada, considerando a defesa frágil e a menor consistência em comparação ao Al Shabab.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "Europe UEFA Europa League",
+      "jogo": "Freiburg x Aston Villa",
+      "metodos_aplicados": [
+        "lay_zebra"
+      ],
+      "mercado_principal": "Lay Aston Villa",
+      "odd_principal": null,
+      "fair_odd_calculada": null,
+      "valor_esperado": null,
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "motivacao_tecnica": "O Aston Villa apresenta um desempenho ofensivo inferior comparado ao Freiburg em termos de gols marcados e média de gols por jogo. Embora o Aston Villa tenha uma média de gols marcada ligeiramente maior em geral, o Freiburg demonstra um aproveitamento mais consistente em casa e uma defesa mais sólida (0.43 gols sofridos vs 0.71 do Aston Villa). O histórico de vitórias do Freiburg em casa e a sua força como mandante sugerem que uma odd inflada para a zebra (Aston Villa) não se justifica. O protocolo Arkeiro sugere lay na zebra quando há discrepância entre a odd e a realidade estatística, especialmente quando o time considerado mais fraco não demonstra um diferencial claro.",
+      "coeficiente_regularidade": "Freiburg: CV baixo / Aston Villa: CV moderado",
+      "mando_de_campo": "Freiburg tem um bom aproveitamento em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A odd do Aston Villa como visitante contra um Freiburg com bom retrospecto em casa é uma oportunidade de valor para lay.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Aston Villa",
+        "odd_zebra_alvo": null,
+        "razao": "Odd do Aston Villa como visitante inflada, considerando o bom retrospecto do Freiburg em casa e a solidez defensiva.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "17:30",
+      "liga": "Ecuador Copa Ecuador",
+      "jogo": "Daquilema x CS Emelec",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória CS Emelec",
+      "odd_principal": "1.20",
+      "fair_odd_calculada": "1.10",
+      "valor_esperado": "+9.1% EV — odd 1.20 vs Fair Odd 1.10",
+      "mercado_secundario": null,
+      "desempenho_1t": "Casa marcou 0 gols no 1ºT em 20 jogos. Visitante marcou 10 gols no 1ºT em 20 jogos.",
+      "desempenho_2t": "Casa marcou 0 gols no 2ºT em 20 jogos. Visitante marcou 9 gols no 2ºT em 20 jogos.",
+      "motivacao_tecnica": "CS Emelec é um time de clara superioridade técnica e estatística em relação ao Daquilema. Enquanto o Emelec tem um histórico consistente na liga nacional (7 vitórias em 20 jogos, 1.30 pontos por jogo, 0.95 gols marcados por jogo), o Daquilema mostra um desempenho muito fraco (0 vitórias em 35 jogos, 0.00 pontos por jogo). O Emelec também tem um histórico recente de vitórias em casa e por margens confortáveis, o que justifica o favoritismo. A odd de 1.20 reflete essa superioridade.",
+      "coeficiente_regularidade": "Casa: CV muito alto (0 vitórias em 35 jogos); Visitante: CV baixo (35% vitórias em 20 jogos).",
+      "mando_de_campo": "Casa: 0% de aproveitamento.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Visitante marcou gols em 1º e 2º tempo.",
+      "momento_gols": "Visitante marcou 5 gols entre 31-45 e 5 gols entre 76-90.",
+      "jogadores_chave": "Fagrie Lakay (6 gols) e Sodiq Ougola (7 gols).",
+      "placares_provaveis": "Ex: 0x2, 0x3",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out em caso de gol do mandante ou se o placar estagnar.",
+      "stake_recomendada": "3%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo extremo baseado em disparidade técnica e de desempenho.",
+        "gatilho_saida_parcial": "Gol do mandante ou se o placar estagnar.",
+        "hard_stop": "Se o mandante abrir placar."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "CS Emelec",
+        "odd_alvo": "1.20",
+        "razao": "Clara superioridade técnica e de desempenho do CS Emelec sobre o Daquilema.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "3%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "21:00",
+      "liga": "Colombia Copa Colombia",
+      "jogo": "Atlético Bucaramanga x Boca Juniors de Cali",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Atlético Bucaramanga",
+      "odd_principal": "1.30",
+      "fair_odd_calculada": "1.15",
+      "valor_esperado": "+13.0% EV — odd 1.30 vs Fair Odd 1.15",
+      "mercado_secundario": null,
+      "desempenho_1t": "Casa marcou 3 gols no 1ºT em 1 jogo.",
+      "desempenho_2t": "Casa marcou 2 gols no 2ºT em 1 jogo.",
+      "motivacao_tecnica": "Atlético Bucaramanga demonstra um domínio absoluto nos jogos que disputou até o momento na competição, com 100% de vitórias, 3.00 pontos por jogo e marcando em média 5.0 gols por partida. O adversário, Boca Juniors de Cali, também teve um bom início, mas com um poder de fogo inferior (3 gols em 1 jogo) e não demonstrou a mesma solidez defensiva (0 gols sofridos, mas contra um adversário de menor expressão). O favoritismo do Bucaramanga é claro e justificado pelo seu desempenho superior.",
+      "coeficiente_regularidade": "Casa: CV baixo (100% vitórias em 1 jogo); Visitante: CV moderado (100% vitórias em 1 jogo, mas com menor poder ofensivo).",
+      "mando_de_campo": "Casa: 100% de aproveitamento.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Casa marcou gols no 1º e 2º tempo em seus jogos.",
+      "momento_gols": "Casa marcou 2 gols entre 16-30, 2 gols entre 31-45 e 2 gols entre 76-90.",
+      "jogadores_chave": "Enmerson Manuel Batalla Martínez e Brandon Andrés Caicedo Angulo (2 gols cada).",
+      "placares_provaveis": "Ex: 3x0, 2x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out em caso de gol do visitante ou se o placar estagnar.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e consistente, com potencial para manter o domínio.",
+        "gatilho_saida_parcial": "Gol do visitante ou se o favorito sofrer gol.",
+        "hard_stop": "Se o visitante empatar ou virar o placar."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Atlético Bucaramanga",
+        "odd_alvo": "1.30",
+        "razao": "Favoritismo claro em casa com ótimo desempenho ofensivo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "21:00",
+      "liga": "Ecuador Primera Categoría Serie B",
+      "jogo": "Deportivo Cuenca Juniors x 22 de Julio",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória 22 de Julio",
+      "odd_principal": "1.55",
+      "fair_odd_calculada": "1.30",
+      "valor_esperado": "+19.2% EV — odd 1.55 vs Fair Odd 1.30",
+      "mercado_secundario": null,
+      "desempenho_1t": "Casa marcou 1 gol no 1ºT em 4 jogos. Visitante marcou 1 gol no 1ºT em 4 jogos.",
+      "desempenho_2t": "Casa marcou 1 gol no 2ºT em 4 jogos. Visitante marcou 2 gols no 2ºT em 4 jogos.",
+      "motivacao_tecnica": "22 de Julio apresenta um desempenho superior, mesmo jogando fora de casa, com 0.75 gols marcados por jogo contra 0.50 do adversário. O 22 de Julio também tem uma média de gols sofridos menor (1.67 contra 2.25). Embora ambos os times tenham um aproveitamento baixo, o 22 de Julio demonstra um pouco mais de consistência e capacidade ofensiva, justificando o favoritismo, mesmo que leve.",
+      "coeficiente_regularidade": "Casa: CV moderado (25% vitórias em 4 jogos); Visitante: CV baixo (0% vitórias em 4 jogos, mas com média de gols maior).",
+      "mando_de_campo": "Casa: 25% de aproveitamento.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Casa marcou gols no 1º e 2º tempo. Visitante marcou no 1º e 2º tempo.",
+      "momento_gols": "Casa marcou entre 31-45 e 76-90. Visitante marcou entre 31-45, 76-90 e 76-90.",
+      "jogadores_chave": "Egert Õunapuu (3 gols), Zakaria Beglarishvili (4 gols), Andre Frolov (3 gols).",
+      "placares_provaveis": "Ex: 1x2, 0x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out em caso de gol do mandante ou se o placar estagnar.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo leve com base na capacidade ofensiva e defensiva.",
+        "gatilho_saida_parcial": "Gol do mandante ou se o placar estagnar.",
+        "hard_stop": "Se o mandante virar o placar."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "22 de Julio",
+        "odd_alvo": "1.55",
+        "razao": "Leve favoritismo baseado na capacidade ofensiva e menor média de gols sofridos.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "21:30",
+      "liga": "South America Copa Libertadores",
+      "jogo": "Flamengo x Estudiantes",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Flamengo",
+      "odd_principal": "1.30",
+      "fair_odd_calculada": "1.20",
+      "valor_esperado": "+8.3% EV — odd 1.30 vs Fair Odd 1.20",
+      "mercado_secundario": null,
+      "desempenho_1t": "Flamengo marcou 2 gols no 1ºT.",
+      "desempenho_2t": "Flamengo marcou 2 gols no 2ºT.",
+      "motivacao_tecnica": "Flamengo apresenta um retrospecto ofensivo impressionante nos últimos jogos, com média de 4 gols marcados e 1 gol sofrido por partida. A equipe demonstra capacidade de criar e finalizar, com 24 finalizações por jogo e 2.59 xG a favor. Enfrenta o Estudiantes, que, apesar de ter marcado em todos os seus últimos jogos, tem uma defesa que sofre em média 1 gol por partida e apresenta 1.60 xG contra. O favoritismo do Flamengo é claro, com boa odd para o mercado 1x2.",
+      "coeficiente_regularidade": "Flamengo: CV moderado (média de gols marcados alta). Estudiantes: CV moderado (média de gols sofridos moderada).",
+      "mando_de_campo": "Flamengo como mandante.",
+      "condicoes_campo": "Sem fatores relevantes",
+      "desfalques_chave": "Elenco completo",
+      "especificidades_gols": "Flamengo tem demonstrado capacidade de marcar em ambos os tempos, com alta propensão a gols nos minutos iniciais e finais do 1º tempo, além de manter a pressão no 2º tempo.",
+      "momento_gols": "Alta concentração de gols nos 15 minutos iniciais e no final do 1º tempo para o Flamengo. No 2º tempo, a equipe continua a pressionar.",
+      "jogadores_chave": "Bruno Henrique (2 gols, 2 assistências), Giorgian Daniel De Arrascaeta Benedetti (2 gols, 1 assistência), Pedro Guilherme Abreu dos Santos (1 gol)",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Se o placar se tornar amplamente favorável, considerar trade.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O favoritismo do Flamengo, aliado à sua força ofensiva e a odd atrativa, justifica uma entrada pré-jogo.",
+        "gatilho_saida_parcial": "Se o Flamengo abrir uma vantagem de 2 gols, considerar reduzir a exposição.",
+        "hard_stop": "Se o Flamengo sofrer um gol e a partida ficar equilibrada, reavaliar a posição."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Flamengo",
+        "odd_alvo": "1.30",
+        "razao": "Flamengo é o claro favorito jogando em casa, com forte poder ofensivo e estatísticas superiores.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -368,7 +1118,7 @@
         "stake_recomendada": null
       },
       "confirmacao_visual": {
-        "aplicavel": null,
+        "aplicavel": false,
         "perfil_tatico": null,
         "gatilhos_aceleracao": null,
         "alerta_armadilha": null,
@@ -377,43 +1127,43 @@
       }
     },
     {
-      "horario": "14:30",
-      "liga": "Belarus Vysheyshaya Liga",
-      "jogo": "BATE x Dinamo Minsk",
+      "horario": "21:40",
+      "liga": "Colombia Copa Colombia",
+      "jogo": "Deportivo Cali x Alianza Petrolera",
       "metodos_aplicados": [
         "back_favorito"
       ],
-      "mercado_principal": "Vitória Dinamo Minsk",
-      "odd_principal": "2.00",
-      "fair_odd_calculada": "1.75",
-      "valor_esperado": "+14.3% EV — odd 2.00 vs Fair Odd 1.75",
+      "mercado_principal": "Vitória Deportivo Cali",
+      "odd_principal": "1.80",
+      "fair_odd_calculada": "1.50",
+      "valor_esperado": "+20.0% EV — odd 1.80 vs Fair Odd 1.50",
       "mercado_secundario": null,
-      "desempenho_1t": "Dinamo Minsk: Média de 0.25 gols marcados no 1ºT",
-      "desempenho_2t": "Dinamo Minsk: Média de 1.75 gols marcados no 2ºT",
-      "motivacao_tecnica": "Dinamo Minsk apresenta um favoritismo estatístico claro em termos de pontos por jogo e vitórias, além de um desempenho ofensivo superior, especialmente no segundo tempo. O BATE tem um aproveitamento inconsistente, com mais empates e derrotas do que vitórias. A odd para a vitória do Dinamo Minsk está desvalorizada.",
-      "coeficiente_regularidade": "BATE: CV moderado (33% vitórias) / Dinamo Minsk: CV alto (100% vitórias)",
-      "mando_de_campo": "BATE: 33% de aproveitamento em casa",
+      "desempenho_1t": "Casa marcou 1 gol no 1ºT em 1 jogo. Visitante marcou 0 gols no 1ºT em 1 jogo.",
+      "desempenho_2t": "Casa marcou 1 gol no 2ºT em 1 jogo. Visitante marcou 1 gol no 2ºT em 1 jogo.",
+      "motivacao_tecnica": "Deportivo Cali demonstrou grande força ofensiva em seu único jogo, marcando 2 gols e vencendo o primeiro tempo. Apesar de ter sofrido um gol no segundo tempo, a equipe mostrou capacidade de reagir. Alianza Petrolera, por outro lado, venceu seu jogo mas apenas por 1-0, com um gol marcado no segundo tempo e sem demonstrar a mesma pressão ofensiva que o Cali. As estatísticas de xG também favorecem o Cali. O favoritismo é justificado.",
+      "coeficiente_regularidade": "Casa: CV baixo (100% vitórias em 1 jogo); Visitante: CV moderado (100% vitórias em 1 jogo, mas com menor margem).",
+      "mando_de_campo": "Casa: 100% de aproveitamento.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Dinamo Minsk concentra forte ataque no 2º tempo (1.75 gols/jogo)",
-      "momento_gols": "Dinamo Minsk: 50% dos gols entre 46-60 min e 25% entre 76-90 min. BATE: 50% dos gols entre 16-30 min.",
-      "jogadores_chave": "Karen Vardanyan (Dinamo Minsk) com 4 gols.",
-      "placares_provaveis": "0x1, 0x2, 1x2",
+      "especificidades_gols": "Casa marcou gols no 1º e 2º tempo.",
+      "momento_gols": "Casa marcou entre 31-45 e 61-75. Visitante marcou entre 46-60 e 76-90.",
+      "jogadores_chave": "Juan Ignacio Dinenno de Cara (2 gols em 1 jogo) e Steven Andrés Rodríguez Ossa (2 gols em 2 jogos).",
+      "placares_provaveis": "Ex: 2x1, 2x0",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": null,
+      "situacao_saida": "Cash-out em caso de gol do visitante ou se o placar estagnar.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Odd inicial favorável e estatísticas consistentes.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo com base no desempenho ofensivo recente e histórico.",
+        "gatilho_saida_parcial": "Gol do visitante ou se o placar estagnar.",
+        "hard_stop": "Se o visitante virar o placar."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "favorito": "Dinamo Minsk",
-        "odd_alvo": "2.00",
-        "razao": "Dinamo Minsk demonstra favoritismo claro com 100% de vitórias e melhor desempenho ofensivo e defensivo.",
+        "favorito": "Deportivo Cali",
+        "odd_alvo": "1.80",
+        "razao": "Favoritismo em casa com forte desempenho ofensivo no único jogo disputado.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -426,94 +1176,172 @@
   ],
   "evitar": [
     {
-      "horario": "13:00",
-      "jogo": "Kuressaare x Nõmme United",
-      "liga": "Estonia Meistriliiga",
-      "motivo": "Kuressaare (9º) e Nõmme United (8º) estão muito próximos na tabela, com estatísticas gerais parecidas em termos de vitórias e derrotas. Kuressaare tem uma defesa muito frágil (média de 3.17 gols sofridos), enquanto Nõmme United também sofre muitos gols (média de 3.17). Embora haja potencial para gols, não há um favorito claro nem a necessidade de um 'back_goleada'. O 'back_2x2' não se aplica pois os critérios de Over 2.5, Ambas Marcam e Over HT não são consistentemente atendidos em 65%/65%/70%."
+      "horario": "08:00",
+      "jogo": "Shenyang Urban x Qingdao Jonoon",
+      "liga": "China Chinese Super League",
+      "motivo": "Shenyang Urban sofre muitos gols (1.00 média sofridos, 2.00 total). Qingdao Jonoon tem ataque regular, mas a defesa também é fraca. Não há um favorito claro para 'Back Favorito' ou 'Back Goleada'. O padrão de gols não se encaixa em 'Back 2x2' devido à falta de Over HT consistente e alta taxa de ambas marcam nos últimos jogos de ambos os times."
     },
     {
-      "horario": "13:00",
-      "jogo": "Start x FK Bodo - Glimt",
-      "liga": "Norway Eliteserien",
-      "motivo": "Análise de apenas 3-4 jogos para ambos os times é insuficiente para aplicar métodos que dependem de um histórico mais robusto de gols e desempenho."
+      "horario": "08:35",
+      "jogo": "Shanghai Shenhua x Wuhan Three Towns",
+      "liga": "China Chinese Super League",
+      "motivo": "Alta média de gols totais (4.00), mas o padrão 'Ambas Marcam' é de 67% para Wuhan e 67% para Shanghai. A defesa do Shanghai é mais vulnerável (1.50 média sofridos). O Wuhan tem um ataque forte, mas o Shanghai também marca bastante. Não há favoritismo claro para 'Back Favorito' ou 'Back Goleada'."
     },
     {
-      "horario": "13:45",
-      "jogo": "Willem II x Volendam",
-      "liga": "Netherlands Netherlands Playoffs 1 2",
-      "motivo": "Dados limitados para o Volendam (campeonato nacional) e para o Willem II (apenas 2 jogos na competição), o que torna a análise estatística insuficiente para identificar um padrão claro ou favoritismo sólido."
+      "horario": "09:00",
+      "jogo": "Zhejiang FC x Shandong Luneng",
+      "liga": "China Chinese Super League",
+      "motivo": "Shandong Luneng é o favorito com boa média de gols marcados (1.20) e melhor retrospecto recente. No entanto, o Zhejiang FC tem uma defesa sólida (0.67 média sofridos) e o jogo não apresenta um padrão claro de 'Back 2x2' com base nos critérios de Over 2.5, Ambas Marcam e Over HT. A odd para o Shandong não é baixa o suficiente para 'Back Favorito' e não há indicação de goleada iminente."
+    },
+    {
+      "horario": "09:00",
+      "jogo": "Chongqing Tongliang Long x Yunnan Yukun",
+      "liga": "China Chinese Super League",
+      "motivo": "Ambas as equipes têm boas médias de gols e 'Ambas Marcam' alto. Yunnan Yukun tem um ataque mais produtivo (2.00 média marcados) e uma defesa mais vulnerável (1.83 média sofridos), o que pode indicar potencial para gols. No entanto, o favoritismo não é claro o suficiente para 'Back Favorito' ou 'Back Goleada', e os critérios para 'Back 2x2' não são completamente atendidos (especialmente o Over HT para ambos)."
+    },
+    {
+      "horario": "10:00",
+      "jogo": "Guaireña x Paraguarí",
+      "liga": "Paraguay Division Intermedia",
+      "motivo": "Ausência de favoritismo claro ou zebra com odd inflada que justifique outros métodos. O padrão de gols não se alinha com os critérios de Back 2x2."
+    },
+    {
+      "horario": "10:00",
+      "jogo": "Atlético Tembetary x 12 de Junio VH",
+      "liga": "Paraguay Division Intermedia",
+      "motivo": "O padrão de gols não se alinha com os critérios de Back 2x2. A odd do favorito não é baixa o suficiente para Back Favorito e a zebra não tem odd inflada."
+    },
+    {
+      "horario": "12:00",
+      "jogo": "Chernihiv x Dynamo Kyiv",
+      "liga": "Ukraine Ukrainian Cup",
+      "motivo": "Dynamo Kyiv é o favorito claro com 100% de vitórias e um aproveitamento superior. No entanto, o Chernihiv tem um padrão de empates e não sofreu muitos gols em casa em sua média, mas os dados são de apenas 3 jogos. A falta de dados mais robustos e de um padrão de gols mais acentuado impede a aplicação dos métodos de forma confiante. Evitar."
     },
     {
       "horario": "14:00",
-      "jogo": "Lillestrøm x Kristiansund",
-      "liga": "Norway Eliteserien",
-      "motivo": "Poucos jogos analisados (4 para cada time) não fornecem a base estatística necessária para identificar padrões de gols ou favoritismo claro e aplicável aos métodos permitidos."
-    },
-    {
-      "horario": "14:00",
-      "jogo": "Egersund x Lyn",
+      "jogo": "Moss x Strømsgodset",
       "liga": "Norway First Division",
-      "motivo": "Análise de 3-4 jogos para ambos os times é insuficiente para a aplicação dos métodos, especialmente o 'back_2x2' que requer maior volume estatístico. Não há favoritismo claro para 'back_favorito'."
+      "motivo": "Ambos os jogos do dia (016, 017) não apresentaram padrões claros para Back 2x2 ou Over Limite 70+ com base nos dados fornecidos. As odds estão muito próximas, e não há indicativos de favoritismo extremo ou zebra com odd inflada que justifiquem outros métodos."
     },
     {
       "horario": "14:00",
-      "jogo": "Raufoss x Bryne",
+      "jogo": "Åsane x Sandnes Ulf",
       "liga": "Norway First Division",
-      "motivo": "Apenas 3 jogos analisados para ambos os times. A defesa do Raufoss sofre muitos gols (1.67), mas o ataque não é produtivo o suficiente para sustentar um padrão de 'back_2x2'. O favoritismo não é claro."
+      "motivo": "Ambos os jogos do dia (016, 017) não apresentaram padrões claros para Back 2x2 ou Over Limite 70+ com base nos dados fornecidos. As odds estão muito próximas, e não há indicativos de favoritismo extremo ou zebra com odd inflada que justifiquem outros métodos."
     },
     {
       "horario": "14:00",
-      "jogo": "Ranheim x Hødd",
+      "jogo": "Strømmen x Haugesund",
       "liga": "Norway First Division",
-      "motivo": "Ranheim tem um bom volume de gols (3.33), mas Hødd não mostra o mesmo padrão (2.00). Apenas 3 jogos analisados para ambos os times, o que não permite a aplicação confiável do 'back_2x2'. Favoritismo não claro o suficiente para 'back_favorito'."
+      "motivo": "Ambos os jogos do dia (016, 017) não apresentaram padrões claros para Back 2x2 ou Over Limite 70+ com base nos dados fornecidos. As odds estão muito próximas, e não há indicativos de favoritismo extremo ou zebra com odd inflada que justifiquem outros métodos."
+    },
+    {
+      "horario": "14:00",
+      "jogo": "Kongsvinger x Odd",
+      "liga": "Norway First Division",
+      "motivo": "Ambos os jogos do dia (016, 017) não apresentaram padrões claros para Back 2x2 ou Over Limite 70+ com base nos dados fornecidos. As odds estão muito próximas, e não há indicativos de favoritismo extremo ou zebra com odd inflada que justifiquem outros métodos."
+    },
+    {
+      "horario": "14:00",
+      "jogo": "Sogndal x Stabæk",
+      "liga": "Norway First Division",
+      "motivo": "Ambos os jogos do dia (016, 017) não apresentaram padrões claros para Back 2x2 ou Over Limite 70+ com base nos dados fornecidos. As odds estão muito próximas, e não há indicativos de favoritismo extremo ou zebra com odd inflada que justifiquem outros métodos."
+    },
+    {
+      "horario": "14:00",
+      "jogo": "GAIS x Hammarby",
+      "liga": "Sweden Allsvenskan",
+      "motivo": "Equipes com resultados recentes equilibrados, sem um favorito claro. O padrão de gols não se alinha consistentemente com os critérios para BACK_2x2. Não há favoritismo extremo para BACK_GOLEADA. O número de jogos é limitado (4 para GAIS, 3 para Hammarby), o que dificulta a análise de padrões consistentes. Evitar."
     },
     {
       "horario": "15:00",
-      "jogo": "Union Brescia x Virtus Casarano",
-      "liga": "Italy Serie C Playoffs",
-      "motivo": "Dados insuficientes para aplicar qualquer método. Menos de 3 jogos analisados para ambos os times, o que impede uma análise estatística confiável de gols e padrões."
+      "jogo": "Al Khaleej x Al Ahli",
+      "liga": "Saudi Arabia Professional League",
+      "motivo": "O padrão de gols não se alinha com os critérios de Back 2x2. O jogo já se encaixa nos métodos Lay Zebra e Back Goleada."
     },
     {
       "horario": "15:00",
-      "jogo": "Aalesund x Brann",
-      "liga": "Norway Eliteserien",
-      "motivo": "Análise de 4-5 jogos é borderline para identificar padrões claros. Embora o Brann apresente um volume de gols considerável, falta um histórico mais robusto de ambos os times para aplicar métodos como 'back_2x2' ou 'back_goleada'. O favoritismo não é claro o suficiente para 'back_favorito'."
+      "jogo": "Al Najma x Al Shabab",
+      "liga": "Saudi Arabia Professional League",
+      "motivo": "O padrão de gols não se alinha com os critérios de Back 2x2. O jogo já se encaixa no método Lay Zebra."
     },
     {
-      "horario": "15:30",
-      "jogo": "Catania x Lecco",
-      "liga": "Italy Serie C Playoffs",
-      "motivo": "Poucos jogos analisados (1 para cada time), impossibilitando a aplicação de métodos que dependem de um volume maior de dados para identificar padrões de gols ou favoritismo claro."
+      "horario": "16:30",
+      "jogo": "Ureña x Atlético Barinas",
+      "liga": "Venezuela Segunda División",
+      "motivo": "Ambas as equipes apresentam um padrão de muitos gols em seus jogos recentes (Over 2.5 em 83% e 33% respectivamente), e o Atlético Barinas marca em média 1.67 gols por jogo. No entanto, o Ureña tem um histórico de poucos gols marcados (0.83), o que torna o cenário para BACK_2x2 instável. Não há favoritismo claro para BACK_FAVORITO. Evitar pela falta de clareza em todos os critérios e pela ausência de dados para muitos jogadores."
     },
     {
-      "horario": "15:45",
-      "jogo": "Ravenna x Salernitana",
-      "liga": "Italy Serie C Playoffs",
-      "motivo": "Dados limitados a 1 jogo para cada time, impedindo a análise estatística necessária para os métodos de aposta."
+      "horario": "16:30",
+      "jogo": "Puerto Cabello II x Deportivo Lara",
+      "liga": "Venezuela Segunda División",
+      "motivo": "Ambas as equipes têm um alto índice de Over 2.5 em seus jogos recentes (67% para ambos). O Deportivo Lara tem um ataque produtivo com média de 1.50 gols/jogo, mas o Puerto Cabello II marca em média 1.17 gols/jogo, o que não é ideal para o BACK_2x2. Não há favoritismo claro para BACK_FAVORITO. Evitar devido à ausência de dados de jogadores e pela necessidade de um ataque mais forte de ambos os lados para BACK_2x2."
     },
     {
-      "horario": "17:30",
-      "jogo": "Daquilema x CS Emelec",
-      "liga": "Ecuador Copa Ecuador",
-      "motivo": "Daquilema (Time da casa) não tem estatísticas na competição, o que impossibilita uma análise. CS Emelec tem estatísticas de campeonato nacional, mas não da copa. Falta dados para qualquer método."
+      "horario": "16:30",
+      "jogo": "Zamora II x Yaracuyanos",
+      "liga": "Venezuela Segunda División",
+      "motivo": "Ambas as equipes apresentam um padrão de Over 2.5 em mais de 60% de seus jogos recentes. O Zamora II tem um ataque razoável (1.17 gols/jogo) e uma defesa que sofre 1.17 gols/jogo, enquanto o Yaracuyanos tem um ataque melhor (1.33 gols/jogo) e uma defesa que sofre 1.00 gol/jogo. A ausência de dados de jogadores e a média de gols marcados por ambas as equipes não são suficientes para garantir um cenário ideal para BACK_2x2. Evitar."
+    },
+    {
+      "horario": "17:00",
+      "jogo": "Fortaleza x Sport Recife",
+      "liga": "Brazil Copa do Nordeste",
+      "motivo": "Dados insuficientes para aplicar os métodos. Embora o Fortaleza seja favorito, a média de gols é alta mas o 'Ambas Marcam' é baixo (50%). Não há um padrão claro para os métodos."
+    },
+    {
+      "horario": "17:00",
+      "jogo": "Fortaleza CEIF x Orsomarso",
+      "liga": "Colombia Copa Colombia",
+      "motivo": "Fortaleza CEIF é um claro favorito com 100% de vitórias e boa média de gols (4.00), mas com apenas um jogo, os dados são limitados. Orsomarso tem uma defesa muito frágil (2.00 média sofridos). No entanto, a odd para o Fortaleza não é baixa o suficiente para um 'Back Favorito' com alta confiança, e não há indicação de goleada iminente ou padrão de 'Back 2x2'."
+    },
+    {
+      "horario": "17:00",
+      "jogo": "Talleres Córdoba x Atlético Tucumán",
+      "liga": "Argentina Copa Argentina",
+      "motivo": "Neste jogo, a análise dos dados aponta que não há um claro favoritismo que justifique um 'Back Favorito', nem um cenário de zebra inflada para 'Lay Zebra'. Os padrões de gols não se encaixam nos critérios rigorosos para 'Back 2x2' (Over 2.5, Ambas Marcam, Over HT) e não há indícios suficientes para um 'Back Goleada' ou 'Over Limite 70+'. Portanto, a partida será evitada."
+    },
+    {
+      "horario": "17:00",
+      "jogo": "Sol de América x 3 de Noviembre",
+      "liga": "Paraguay Division Intermedia",
+      "motivo": "Ausência de favoritismo claro. A Odd para o 3 de Noviembre não é suficientemente alta para um Lay Zebra, e o Sol de América não apresenta um favoritismo claro (<1.80) para Back Favorito. O padrão de gols não se alinha com os critérios de Back 2x2."
+    },
+    {
+      "horario": "18:00",
+      "jogo": "Llaneros x Patriotas Boyacá",
+      "liga": "Colombia Copa Colombia",
+      "motivo": "Llaneros é o favorito (100% de vitórias e 3.00 de média de gols), mas com apenas um jogo, os dados são limitados. Patriotas Boyacá tem um ataque muito fraco (1.00 de média de gols) e defesa razoável. Não há indicadores fortes para os métodos, pois o favoritismo não é com odd baixa e não há padrão de gols claros."
+    },
+    {
+      "horario": "20:30",
+      "jogo": "Detroit City FC x Miami FC II",
+      "liga": "USA USL Championship",
+      "motivo": "Detroit City FC é o favorito claro com 100% de vitórias e ótima fase ofensiva. No entanto, não há dados de odds para confirmar se é um favorito claro (< 1.80) para BACK_FAVORITO. O Miami FC II tem um padrão de gols que não se alinha com BACK_2x2. O número de jogos (5) é razoável, mas a ausência de odds e de um padrão de goleada claro para BACK_GOLEADA torna a entrada arriscada. Evitar."
     },
     {
       "horario": "21:00",
-      "jogo": "Atlético Bucaramanga x Boca Juniors de Cali",
-      "liga": "Colombia Copa Colombia",
-      "motivo": "Ambos os times apresentaram 100% de vitórias em 1 jogo na competição, com estatísticas perfeitas que não permitem uma análise clara de favoritismo ou padrão de jogo. O histórico é muito limitado para qualquer tipo de aposta."
+      "jogo": "Vitória x ABC",
+      "liga": "Brazil Copa do Nordeste",
+      "motivo": "Ambas as equipes apresentam boas médias de gols e indicativos de Over 2.5. No entanto, o 'Ambas Marcam' é alto (75% Vitória, 67% ABC) e o Over HT também é alto. Faltam dados de defesa frágil para 'Back 2x2' e o favoritismo não é claro o suficiente para 'Back Favorito' ou 'Back Goleada'."
     },
     {
       "horario": "21:00",
-      "jogo": "Deportivo Cuenca Juniors x 22 de Julio",
-      "liga": "Ecuador Primera Categoría Serie B",
-      "motivo": "Ambos os times têm um histórico muito limitado de jogos (4 cada) com estatísticas pouco conclusivas. A defesa do 22 de Julio é muito frágil (9 gols sofridos), mas o ataque do Deportivo Cuenca Juniors é pouco produtivo (2 gols marcados). Não há favoritismo claro nem padrões de gols que justifiquem os métodos aplicáveis."
+      "jogo": "Grêmio x Palestino",
+      "liga": "South America Copa Sudamericana",
+      "motivo": "O Grêmio demonstra favoritismo em casa com 100% de vitórias, mas o Palestino tem um histórico de resultados mistos. Não há um favoritismo claro e avassalador nem um padrão consistente de gols que justifique os métodos propostos. O número de jogos analisados (3) é baixo para conclusões estatísticas robustas."
     },
     {
-      "horario": "21:40",
-      "jogo": "Deportivo Cali x Alianza Petrolera",
-      "liga": "Colombia Copa Colombia",
-      "motivo": "Deportivo Cali com 100% de vitórias e sem sofrer gols, Alianza Petrolera com 0% de vitórias. A amostra é muito pequena (1 jogo cada) para definir um padrão ou favoritismo claro. Falta dados para aplicar qualquer método."
+      "horario": "21:30",
+      "jogo": "River Plate x Bragantino",
+      "liga": "South America Copa Sudamericana",
+      "motivo": "Ambas as equipes apresentam bom aproveitamento em casa e um número baixo de gols sofridos, mas os dados são baseados em poucos jogos (2 e 3 respectivamente). Não há um claro favorito com odds baixas, nem um padrão de gols que se encaixe nos métodos. Evitar pela falta de dados robustos e de um cenário claro para os métodos de entrada."
+    },
+    {
+      "horario": "22:00",
+      "jogo": "New Mexico United x Tampa Bay Rowdies",
+      "liga": "USA USL Championship",
+      "motivo": "Ambas as equipes têm um bom aproveitamento e um bom número de gols marcados, mas os dados são baseados em poucos jogos (3 e 4 respectivamente). Não há um favorito claro com odds baixas, nem um padrão de gols que se encaixe nos métodos de forma consistente. Evitar."
     }
   ]
 }
