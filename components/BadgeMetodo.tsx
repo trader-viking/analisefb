@@ -1,5 +1,7 @@
-import { Zap, Eye, ChevronsUp, ChevronsDown, Equal, Crown } from 'lucide-react';
+import { Zap, Eye, ChevronsUp, ChevronsDown, Equal, Crown, Clock, Radio } from 'lucide-react';
 import type { Entrada } from '@/lib/relatorios';
+
+// ... (mantém o código atual de METODOS_INFO etc)
 
 type Metodo = {
   key: keyof Entrada | 'confirmacao_visual';
@@ -83,7 +85,36 @@ export function metodosAtivos(entrada: Entrada): string[] {
   return result;
 }
 
-export function BadgeMetodo({ metodo, size = 'sm' }: { metodo: string; size?: 'sm' | 'md' }) {
+// Retorna o "modo" de um método específico (pre_jogo / ao_vivo) ou null
+export function modoDoMetodo(entrada: Entrada, metodo: string): string | null {
+  const map: Record<string, any> = {
+    back_favorito: entrada.back_favorito,
+    lay_zebra: entrada.lay_zebra,
+    over_limite_70: entrada.over_limite_70,
+    back_2x2: entrada.back_2x2,
+    back_goleada: entrada.back_goleada,
+  };
+  // Over Limite 70+ é sempre ao vivo (não mostra tag)
+  if (metodo === 'over_limite_70') return null;
+  // Confirmação Visual é sempre ao vivo (não mostra tag)
+  if (metodo === 'confirmacao_visual') return null;
+  const obj = map[metodo];
+  if (!obj) return null;
+  const m = obj.modo;
+  if (m === 'pre_jogo' || m === 'pre-jogo' || m === 'pré-jogo' || m === 'prejogo') return 'pre_jogo';
+  if (m === 'ao_vivo' || m === 'ao-vivo' || m === 'aovivo' || m === 'live') return 'ao_vivo';
+  return null;
+}
+
+export function BadgeMetodo({
+  metodo,
+  modo,
+  size = 'sm',
+}: {
+  metodo: string;
+  modo?: string | null;
+  size?: 'sm' | 'md';
+}) {
   const info = METODOS_INFO[metodo];
   if (!info) return null;
   const cls =
@@ -91,11 +122,46 @@ export function BadgeMetodo({ metodo, size = 'sm' }: { metodo: string; size?: 's
       ? 'px-2.5 py-1 text-xs'
       : 'px-2 py-1 text-[11px]';
   return (
-    <div
-      className={`inline-flex items-center gap-1 font-medium rounded ${cls} ${info.cor_bg} ${info.cor_text}`}
-    >
-      {info.icone}
-      {info.label}
+    <div className="inline-flex items-center gap-1">
+      <div
+        className={`inline-flex items-center gap-1 font-medium rounded ${cls} ${info.cor_bg} ${info.cor_text}`}
+      >
+        {info.icone}
+        {info.label}
+      </div>
+      {modo && <BadgeModo modo={modo} size={size} />}
     </div>
   );
 }
+
+export function BadgeModo({
+  modo,
+  size = 'sm',
+}: {
+  modo: string;
+  size?: 'sm' | 'md';
+}) {
+  const cls = size === 'md' ? 'px-2 py-1 text-[10px]' : 'px-1.5 py-0.5 text-[9px]';
+  if (modo === 'ao_vivo') {
+    return (
+      <div
+        className={`inline-flex items-center gap-1 font-semibold uppercase tracking-wider rounded ${cls} bg-red-600 text-white animate-pulse`}
+        title="Entrada ao vivo"
+      >
+        <span className="w-1.5 h-1.5 rounded-full bg-white"></span>
+        Ao vivo
+      </div>
+    );
+  }
+  return (
+    <div
+      className={`inline-flex items-center gap-1 font-semibold uppercase tracking-wider rounded ${cls} bg-ink-100 text-ink-600 dark:bg-ink-800 dark:text-ink-300`}
+      title="Entrada pré-jogo"
+    >
+      Pré-jogo
+    </div>
+  );
+}
+
+// =====================================================================
+// Helpers de MODO (pré-jogo / ao vivo) por entrada

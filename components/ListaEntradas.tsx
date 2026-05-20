@@ -5,7 +5,7 @@ import Link from 'next/link';
 import {
   ExternalLink, TrendingUp, Clock, Trophy, Filter, X,
 } from 'lucide-react';
-import { BadgeMetodo, metodosAtivos, METODOS_INFO } from '@/components/BadgeMetodo';
+import { BadgeMetodo, metodosAtivos, METODOS_INFO, modoDoMetodo } from '@/components/BadgeMetodo';
 import BotoesApostaMini from '@/components/BotoesApostaMini';
 import type { Entrada } from '@/lib/relatorios';
 
@@ -276,7 +276,13 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
 
                 {mAtivos.length > 0 && (
                   <div className="flex flex-wrap gap-1">
-                    {mAtivos.map(m => <BadgeMetodo key={m} metodo={m} />)}
+                    {mAtivos.map(m => (
+                      <BadgeMetodo
+                        key={m}
+                        metodo={m}
+                        modo={modoDoMetodo(entrada, m)}
+                      />
+                    ))}
                   </div>
                 )}
 

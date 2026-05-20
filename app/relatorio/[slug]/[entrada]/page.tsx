@@ -6,7 +6,7 @@ import {
   ChevronsUp, ChevronsDown, Equal, Crown,
 } from 'lucide-react';
 import { getEntrada, listarRelatorios, entradaSlug } from '@/lib/relatorios';
-import { BadgeMetodo, metodosAtivos } from '@/components/BadgeMetodo';
+import { BadgeMetodo, metodosAtivos, modoDoMetodo } from '@/components/BadgeMetodo';
 import BotoesAposta from '@/components/BotoesAposta';
 
 export function generateStaticParams() {
@@ -87,7 +87,12 @@ export default function EntradaPage({
           return (
             <div className="flex flex-wrap gap-1.5 mb-4">
               {metodos.map((m) => (
-                <BadgeMetodo key={m} metodo={m} size="md" />
+                <BadgeMetodo
+                  key={m}
+                  metodo={m}
+                  modo={modoDoMetodo(entrada, m)}
+                  size="md"
+                />
               ))}
             </div>
           );
