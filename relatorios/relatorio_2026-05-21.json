@@ -1,89 +1,1629 @@
 {
   "data": "2026-05-21",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-05-20T23:50:30.553969",
-  "total_partidas_analisadas": 1,
+  "gerado_em": "2026-05-21T00:21:14.929929",
+  "total_partidas_analisadas": 46,
   "entradas": [
+    {
+      "horario": "07:00",
+      "liga": "Kazakhstan First Division",
+      "jogo": "Ekibastuz x Akademiya Ontustik",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra"
+      ],
+      "mercado_principal": "Vitória Ekibastuz",
+      "odd_principal": "1.70",
+      "fair_odd_calculada": "1.50",
+      "valor_esperado": "+13.3% EV — odd 1.70 vs Fair Odd 1.50",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Ekibastuz marcou 0.50 e sofreu 0.50 no 1ºT. Akademiya Ontustik marcou 0.33 e sofreu 0.67 no 1ºT.",
+      "desempenho_2t": "Ekibastuz marcou 0.50 e não sofreu no 2ºT. Akademiya Ontustik marcou 0.33 e sofreu 1.00 no 2ºT.",
+      "motivacao_tecnica": "O Ekibastuz, apesar de um número limitado de jogos (2), demonstra superioridade em pontos por jogo (2.00 vs 1.00), xG a favor (1.98 vs 1.07) e xG contra (0.88 vs 1.41) em comparação ao Akademiya Ontustik. A Akademiya Ontustik apresenta desempenho inferior e defesa mais vulnerável (1.67 GS). No entanto, o baixo volume de jogos para ambos os times torna as estatísticas menos confiáveis, justificando uma abordagem ao vivo para confirmar o favoritismo e domínio do Ekibastuz.",
+      "coeficiente_regularidade": "Casa: CV moderado (baseado em poucos jogos) / Visitante: CV alto (inconsistente)",
+      "mando_de_campo": "Ekibastuz joga em casa, com 50% de vitórias.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ekibastuz tem 1.00 GM/jogo e 0.50 GS/jogo. Akademiya Ontustik tem 0.67 GM/jogo e 1.67 GS/jogo. Ambos os ataques são modestos, mas a defesa da Akademiya é mais frágil.",
+      "momento_gols": "Ekibastuz marcou 50% dos gols entre 0-15min e 50% entre 61-75min. Akademiya Ontustik sofreu 40% dos gols entre 0-15min e 40% entre 76-90min.",
+      "jogadores_chave": "Ekibastuz: Dïas Quşqınbaev. Akademiya Ontustik: Bagdaulet Nuraly (apenas 1 gol).",
+      "placares_provaveis": "1x0, 2x0, 2x1",
+      "momento_entrada": "Ao vivo, após observar a dinâmica do jogo e confirmar o domínio do Ekibastuz.",
+      "situacao_saida": "Proteger lucro com 2 gols de vantagem do Ekibastuz. Sair se a zebra surpreender com um gol inicial e o favorito não reagir nos primeiros 20 minutos.",
+      "stake_recomendada": "1.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O baixo número de jogos exige cautela e confirmação ao vivo para validar as tendências estatísticas.",
+        "gatilho_saida_parcial": "Favorito abrindo 2 gols de vantagem.",
+        "hard_stop": "Zebra marcando primeiro e mostrando resistência defensiva."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "Ekibastuz",
+        "odd_alvo": "1.70",
+        "razao": "Ekibastuz apresenta melhor performance geral e estatísticas de xG, indicando favoritismo. A entrada ao vivo é crucial devido à amostra pequena de jogos.",
+        "gatilho_ao_vivo": "Confirmar domínio tático e chances de gol nos primeiros 15-20 minutos, ou se a odd melhorar após um início lento sem gols.",
+        "stake_recomendada": "1.5%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "zebra": "Akademiya Ontustik",
+        "odd_zebra_alvo": "4.50",
+        "razao": "Akademiya Ontustik tem um desempenho fraco (1 vitória em 3 jogos) e uma defesa que sofre (1.67 GS), além de um xG contra alto (1.41). Lay contra sua vitória é justificado.",
+        "gatilho_ao_vivo": "Entrar Lay se a zebra abrir o placar, o que inflaria sua odd e aumentaria o valor. Ou após 15-20 minutos se Ekibastuz dominar e a zebra não mostrar poder de reação.",
+        "stake_recomendada": "1.5%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Ekibastuz buscando controle do meio-campo e finalizações, enquanto Akademiya Ontustik tenta se defender e explorar contra-ataques.",
+        "gatilhos_aceleracao": "Ekibastuz criando múltiplas chances ou marcando um gol cedo, com a defesa da Akademiya mostrando falhas.",
+        "alerta_armadilha": "Ekibastuz com dificuldade na criação ou Akademiya Ontustik mostrando solidez defensiva inesperada.",
+        "mercado_recomendado": "Back Favorito (Ekibastuz).",
+        "momento_observacao": "Primeiros 15-20 minutos."
+      }
+    },
+    {
+      "horario": "08:00",
+      "liga": "Kazakhstan First Division",
+      "jogo": "Aktobe Jas x Yelimay II",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Aktobe Jas",
+      "odd_principal": "1.50",
+      "fair_odd_calculada": "1.30",
+      "valor_esperado": "+15.4% EV — odd 1.50 vs Fair Odd 1.30",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Aktobe Jas marcou 0.50 e sofreu 0.50 no 1ºT. Yelimay II não marcou e sofreu 1.67 no 1ºT.",
+      "desempenho_2t": "Aktobe Jas marcou 1.50 e sofreu 1.00 no 2ºT. Yelimay II marcou 0.33 e não sofreu no 2ºT.",
+      "motivacao_tecnica": "O Aktobe Jas apresenta um claro favoritismo contra o Yelimay II, que ainda não venceu na temporada (0% de vitórias em 3 jogos) e tem um ataque muito fraco (0.33 GM/jogo, 0.55 xG). O Aktobe Jas, embora com apenas 2 jogos, tem um PPG de 2.00 e média de 2.00 GM/jogo. A defesa do Yelimay II é vulnerável (1.67 GS/jogo, 1.49 xGA). O baixo número de jogos para ambos os times sugere uma entrada ao vivo para Back Favorito e Lay Zebra, permitindo uma confirmação da performance em campo. O Aktobe Jas demonstra capacidade de marcar gols no final do jogo, o que pode abrir a porta para um Over Limite 70+.",
+      "coeficiente_regularidade": "Casa: CV moderado (poucos jogos) / Visitante: CV alto (muito inconsistente)",
+      "mando_de_campo": "Aktobe Jas joga em casa, com 50% de vitórias.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Aktobe Jas marcou 2.00 gols/jogo, sendo 50% entre 76-90min. Yelimay II marcou apenas 0.33 gols/jogo e sofreu 1.67 gols/jogo. Yelimay II sofreu 40% dos gols entre 16-30min e 40% entre 31-45min.",
+      "momento_gols": "Aktobe Jas marcou 25% dos gols entre 31-45min, 25% entre 46-60min e 50% entre 76-90min. Yelimay II sofreu 20% entre 0-15min, 40% entre 16-30min e 40% entre 31-45min.",
+      "jogadores_chave": "Aktobe Jas: Alisher Kenzhegulov. Yelimay II: Nuraly Nuradilov (2 assistências).",
+      "placares_provaveis": "2x0, 3x0, 2x1",
+      "momento_entrada": "Ao vivo, após 15-20 minutos de jogo para confirmar o domínio do Aktobe Jas.",
+      "situacao_saida": "Cash-out parcial ou total se Aktobe Jas abrir 2 gols de vantagem. Sair se Yelimay II mostrar resistência defensiva inesperada ou marcar um gol.",
+      "stake_recomendada": "1.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A baixa amostra de jogos requer uma análise ao vivo para confirmar a tendência de favoritismo e evitar surpresas.",
+        "gatilho_saida_parcial": "Favorito abrindo 2 gols de vantagem.",
+        "hard_stop": "Zebra marcando primeiro ou mantendo o 0x0 até o intervalo sem que o favorito crie chances claras."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "Aktobe Jas",
+        "odd_alvo": "1.50",
+        "razao": "Aktobe Jas é o favorito contra um Yelimay II que não venceu nenhum jogo e tem um ataque muito fraco. A entrada ao vivo é prudente devido à pequena amostra de dados.",
+        "gatilho_ao_vivo": "Entrar se Aktobe Jas demonstrar superioridade e criar oportunidades nos primeiros 15-20 minutos, ou se a odd melhorar após um início sem gols.",
+        "stake_recomendada": "1.5%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "zebra": "Yelimay II",
+        "odd_zebra_alvo": "5.00",
+        "razao": "Yelimay II é lanterna, não venceu nenhum jogo, tem o pior ataque da liga e uma defesa que sofre. Lay contra sua vitória é uma aposta de valor.",
+        "gatilho_ao_vivo": "Lay se o Yelimay II abrir o placar inesperadamente, inflacionando sua odd, ou após Aktobe Jas dominar sem que a zebra mostre capacidade de ameaçar.",
+        "stake_recomendada": "1.5%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "Aktobe Jas",
+        "indice_gols_final": "Aktobe Jas marcou 50% dos seus gols entre 76-90min. Yelimay II sofre 40% dos seus gols no 1º tempo, mas também 20% no início do 2º tempo.",
+        "condicao_entrada": "Entrar se Aktobe Jas estiver vencendo por 2 gols de diferença após o minuto 70.",
+        "mercado_sugerido": "Mais 0.5 gols ou Mais 1.5 gols (uma linha acima do placar)",
+        "odd_esperada": "1.70 a 2.30",
+        "stake_recomendada": "1%",
+        "observacoes": "Aktobe Jas tem um histórico de marcar gols no final da partida. A defesa do Yelimay II tende a ceder sob pressão."
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Aktobe Jas impondo ritmo e pressão, com Yelimay II se defendendo em bloco baixo e com pouca iniciativa ofensiva.",
+        "gatilhos_aceleracao": "Pressão ofensiva constante do Aktobe Jas, com facilidade para criar jogadas nas laterais e pelo centro. Falhas na saída de bola do Yelimay II.",
+        "alerta_armadilha": "Jogo lento, poucas finalizações do Aktobe Jas, ou Yelimay II conseguindo se fechar de forma eficaz.",
+        "mercado_recomendado": "Back Favorito (Aktobe Jas).",
+        "momento_observacao": "Primeiros 15-20 minutos."
+      }
+    },
+    {
+      "horario": "08:30",
+      "liga": "India Indian Super League",
+      "jogo": "Jamshedpur x Odisha FC",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "back_goleada",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Jamshedpur",
+      "odd_principal": "1.35",
+      "fair_odd_calculada": "1.25",
+      "valor_esperado": "+8.0% EV — odd 1.35 vs Fair Odd 1.25",
+      "mercado_secundario": "Jamshedpur marca 4+ e vence",
+      "odd_secundaria": "4.50",
+      "desempenho_1t": "Jamshedpur: 0.38 gols marcados, 0.38 sofridos; Odisha: 0.86 gols marcados, 1.00 sofridos",
+      "desempenho_2t": "Jamshedpur: 1.00 gols marcados, 0.13 sofridos; Odisha: 0.43 gols marcados, 1.29 sofridos",
+      "motivacao_tecnica": "Jamshedpur (2º, 2.13 PPG) é um favorito extremo em casa contra Odisha FC (8º, 0.86 PPG). Jamshedpur está em excelente fase (5 vitórias, 2 empates nos últimos 7 jogos) e possui uma defesa sólida (0.50 gols sofridos/jogo). Odisha, por outro lado, está em péssima fase (4 derrotas nos últimos 5 jogos) e tem uma defesa extremamente frágil (2.29 gols sofridos/jogo, xG contra 1.85). Além disso, Jamshedpur marca 55% de seus gols e Odisha sofre 31% de seus gols nos últimos 15 minutos, indicando um potencial para goleada ou gols tardios.",
+      "coeficiente_regularidade": "Jamshedpur: CV baixo (muito consistente) / Odisha: CV alto (consistentemente fraco, especialmente na defesa)",
+      "mando_de_campo": "Jamshedpur tem 63% de vitórias em casa. Odisha tem 29% de vitórias como visitante.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (assumido, não há dados)",
+      "especificidades_gols": "Jamshedpur: Gols concentrados no 2º tempo, especialmente 76-90 min (55%). Odisha: Defesa muito vulnerável no 2º tempo, especialmente 76-90 min (31% dos sofridos).",
+      "momento_gols": "Jamshedpur: Finalizador no fim do jogo. Odisha: Defesa se desorganiza no fim do jogo.",
+      "jogadores_chave": "Jamshedpur: Raphaël Éric Messi Bouli (2 gols), Mohammed Sanan K (2 gols), Nikola Stojanovic (2 gols). Odisha: Rahim Ali (3 gols), Suhair VP (4 gols).",
+      "placares_provaveis": "2x0, 3x0, 3x1, 4x0 para Jamshedpur",
+      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra; Ao vivo para Back Goleada e Over Limite 70+",
+      "situacao_saida": "Cash-out parcial ou total para Back Favorito ao atingir lucro significativo (ex: 2-0 Jamshedpur). Para Back Goleada, cash-out parcial em 2-0 ou 3-0. Para Over Limite 70+, cash-out no gol ou se o placar travar.",
+      "stake_recomendada": "Back Favorito: 2%, Lay Zebra: 2%, Back Goleada: 1%, Over Limite 70+: 1%",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "O favoritismo de Jamshedpur é extremo e a fraqueza do Odisha é muito clara, justificando entradas pré-jogo com alto EV. As outras entradas são gatilhadas ao vivo para maximizar valor.",
+        "gatilho_saida_parcial": "Jamshedpur marcar o primeiro gol (para Back Favorito/Lay Zebra). Jamshedpur abrir vantagem de 2-0 ou 3-0 (para Back Goleada). Gol marcado no Over Limite 70+.",
+        "hard_stop": "Para Back Favorito/Lay Zebra: se Odisha marcar 2 gols primeiro ou Jamshedpur receber um cartão vermelho cedo. Para Back Goleada/Over Limite 70+: se o placar se mantiver sem gols até o final do 2º tempo, ou se o favorito sofrer um gol inesperado."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Jamshedpur",
+        "odd_alvo": "1.35",
+        "razao": "Favoritismo extremo de Jamshedpur (2º lugar, 2.13 PPG, 0.50 gols sofridos/jogo) contra um Odisha em má fase (8º lugar, 0.86 PPG, 2.29 gols sofridos/jogo). A odd pré-jogo deve apresentar valor claro.",
+        "gatilho_ao_vivo": "N/A (pré-jogo)",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Odisha FC",
+        "odd_zebra_alvo": "6.00",
+        "razao": "Odisha tem uma das piores defesas da liga (2.29 gols sofridos/jogo) e está em péssima fase, com baixíssima probabilidade de vitória. A odd da zebra será altamente inflada, criando uma excelente oportunidade de Lay.",
+        "gatilho_ao_vivo": "N/A (pré-jogo)",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "Jamshedpur",
+        "indice_gols_final": "Jamshedpur marca 55% dos gols após 75min, Odisha sofre 31% dos gols após 75min.",
+        "condicao_entrada": "Entrar se Jamshedpur vencer por 2 gols após 70min (ex: 2x0, 3x1, etc.)",
+        "mercado_sugerido": "Mais 0.5 gols (se placar 2x0) ou Mais 1.5 gols (se placar 2x1)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "Jamshedpur é muito forte no final dos jogos e Odisha muito vulnerável. Ótimo cenário para gol de desespero ou para consolidar a goleada."
+      },
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "candidato": "Jamshedpur",
+        "razao": "Jamshedpur tem favoritismo extremo contra uma defesa muito frágil de Odisha (2.29 gols sofridos/jogo, xG contra 1.85). O histórico de Jamshedpur de marcar muitos gols no final do jogo (55% após 75min) aumenta a chance de uma goleada se a partida se desenvolver a seu favor.",
+        "modo": "ao_vivo",
+        "mercado_sugerido": "Jamshedpur para marcar 4+ e vencer (ou 'Mais de 3.5 gols' se a odd for atrativa com cash-out)",
+        "odd_esperada": "3.50 a 6.00",
+        "stake_recomendada": "1%"
+      },
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Jamshedpur dominando a posse e criando múltiplas chances ofensivas. Odisha em modo de contenção, incapaz de segurar o ímpeto do adversário.",
+        "gatilhos_aceleracao": "Jamshedpur com alta intensidade e agressividade no ataque, finalizações precisas, e o Odisha mostrando sinais de desorganização defensiva (erros de passe, espaços na zaga).",
+        "alerta_armadilha": "Odisha conseguindo se defender de forma surpreendentemente organizada ou Jamshedpur demonstrando ineficiência nas finalizações.",
+        "mercado_recomendado": "Back Goleada ou Over Limite 70+",
+        "momento_observacao": "Após Jamshedpur abrir vantagem de 1 ou 2 gols no 1º ou 2º tempo."
+      }
+    },
+    {
+      "horario": "11:00",
+      "liga": "India Indian Super League",
+      "jogo": "ATK Mohun Bagan x Sporting Delhi",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70",
+        "back_goleada"
+      ],
+      "mercado_principal": "Vitória ATK Mohun Bagan",
+      "odd_principal": "1.35",
+      "fair_odd_calculada": "1.20",
+      "valor_esperado": "+12.5% EV — odd 1.35 vs Fair Odd 1.20",
+      "mercado_secundario": "ATK Mohun Bagan para marcar 4+ gols e vencer",
+      "odd_secundaria": "4.50",
+      "desempenho_1t": "ATK Mohun Bagan venceu 50% dos 1º tempos (1.25 gols marcados/0.50 sofridos). Sporting Delhi perdeu 83% dos 1º tempos (0.33 gols marcados/1.33 sofridos).",
+      "desempenho_2t": "ATK Mohun Bagan venceu 63% dos 2º tempos (1.00 gols marcados/0.25 sofridos). Sporting Delhi perdeu 33% dos 2º tempos (0.67 gols marcados/0.33 sofridos).",
+      "motivacao_tecnica": "O ATK Mohun Bagan é um favorito extremo, líder da liga com 2.13 PPG, 63% de vitórias, e um ataque muito potente (2.25 GM/jogo, 2.47 xG). Sua defesa é sólida (0.75 GS/jogo, 1.03 xGA). Enfrenta o Sporting Delhi, vice-lanterna, com apenas 0.67 PPG, 17% de vitórias, ataque fraco (1.00 GM/jogo, 1.14 xG) e defesa frágil (1.67 GS/jogo, 1.59 xGA). O Sporting Delhi está em má fase (4 derrotas nos últimos 6 jogos). O cenário é de domínio total do ATK, com grande potencial para uma vitória confortável e até goleada. A entrada ao vivo para o Back Favorito permite confirmar o domínio e buscar uma odd melhor. O Back Goleada é atraente dado o desequilíbrio ofensivo e defensivo.",
+      "coeficiente_regularidade": "Casa: CV baixo (muito regular) / Visitante: CV alto (muito inconsistente)",
+      "mando_de_campo": "ATK Mohun Bagan tem um desempenho dominante em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "ATK Mohun Bagan marca 2.25 gols por jogo, com Jamie MacLaren (9 gols) e Dimitri Petratos (2 gols, 3 assistências) como destaques. Sporting Delhi marca 1.00 gol por jogo, com Matija Babović (5 gols) sendo o principal artilheiro. A defesa do Sporting Delhi é permeável, sofrendo 1.67 gols por partida.",
+      "momento_gols": "ATK Mohun Bagan tem alta frequência de gols no final do 1º tempo (28% entre 31-45min) e no 2º tempo (22% entre 61-75min e 22% entre 76-90min). Sporting Delhi sofre muitos gols no 1º tempo (33% entre 0-15min e 30% entre 31-45min).",
+      "jogadores_chave": "ATK Mohun Bagan: Jamie MacLaren, Dimitri Petratos, Robson Azevedo da Silva. Sporting Delhi: Matija Babović.",
+      "placares_provaveis": "3x0, 4x0, 3x1",
+      "momento_entrada": "Ao vivo, após 15-20 minutos de domínio do favorito ou após o primeiro gol do favorito para Back Goleada.",
+      "situacao_saida": "Cash-out parcial ou total conforme o placar se desenvolve. Para Back Favorito, proteger lucro. Para Back Goleada, cash-out após 3º gol do favorito ou quando a odd ficar desinteressante.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Monitorar o início da partida para confirmar o domínio técnico e tático do favorito, buscando uma odd melhor ao vivo, evitando surpresas iniciais.",
+        "gatilho_saida_parcial": "Alcançar 2 gols de vantagem para o favorito (Back Favorito). Chegar a 3x0 ou 3x1 (Back Goleada).",
+        "hard_stop": "Gol da zebra no início (Back Favorito), placar não favorável após 60 minutos (Back Goleada)."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "ATK Mohun Bagan",
+        "odd_alvo": "1.35",
+        "razao": "Favoritismo extremo do ATK Mohun Bagan (1º vs 12º, forte ataque e defesa) contra um Sporting Delhi frágil e em má fase. A entrada ao vivo permite confirmar a intensidade e domínio do favorito.",
+        "gatilho_ao_vivo": "Entrar após 15-20 minutos se ATK Mohun Bagan estiver dominando, ou após o primeiro gol do favorito para buscar uma odd mais vantajosa.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "zebra": "Sporting Delhi",
+        "odd_zebra_alvo": "6.00",
+        "razao": "Sporting Delhi tem desempenho muito ruim, poucas vitórias (17%), defesa frágil (1.67 GS) e ataque ineficaz (1.00 GM). Lay contra sua vitória é um valor claro.",
+        "gatilho_ao_vivo": "Idealmente, lay após um gol inesperado do Sporting Delhi, o que inflaria sua odd e aumentaria o valor para lay. Caso contrário, entrar após 15-20 minutos de domínio do ATK Mohun Bagan.",
+        "stake_recomendada": "1.5%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "ATK Mohun Bagan",
+        "indice_gols_final": "ATK Mohun Bagan marcou 22% dos seus gols entre 61-75min e 22% entre 76-90min. Sporting Delhi sofre 17% dos gols entre 76-90min.",
+        "condicao_entrada": "Entrar se ATK Mohun Bagan estiver vencendo por 2 gols de diferença após o minuto 70.",
+        "mercado_sugerido": "Mais 0.5 gols ou Mais 1.5 gols (uma linha acima do placar atual)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "ATK Mohun Bagan tem um ataque muito forte e tende a não tirar o pé do acelerador. A fragilidade defensiva do Sporting Delhi no final do jogo é um fator."
+      },
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "candidato": "ATK Mohun Bagan",
+        "razao": "ATK Mohun Bagan é favorito extremo (2.25 GM, 2.47 xG) contra uma defesa muito frágil do Sporting Delhi (1.67 GS, 1.59 xGA) e em péssima fase. Elenco ofensivo com jogadores capazes de múltiplos gols.",
+        "modo": "ao_vivo",
+        "mercado_sugerido": "ATK Mohun Bagan para marcar 4+ gols e vencer",
+        "odd_esperada": "3.50 a 5.00",
+        "stake_recomendada": "1.5%"
+      },
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "ATK Mohun Bagan dominando a posse de bola e criando chances de gol, com Sporting Delhi recuado e tentando contra-ataques isolados. Pressão alta e transições rápidas do favorito.",
+        "gatilhos_aceleracao": "Encaixe defensivo rápido do ATK, subida de linhas de ataque constante, velocidade na troca de passes e busca por finalizações.",
+        "alerta_armadilha": "ATK Mohun Bagan com posse estéril, sem penetração, ou Sporting Delhi conseguindo criar chances perigosas em contra-ataques.",
+        "mercado_recomendado": "Back Favorito ou Back Goleada.",
+        "momento_observacao": "Primeiros 15-20 minutos."
+      }
+    },
+    {
+      "horario": "11:00",
+      "liga": "India Indian Super League",
+      "jogo": "Inter Kashi x East Bengal",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70",
+        "back_2x2"
+      ],
+      "mercado_principal": "Placar Exato 2x2",
+      "odd_principal": "12.00",
+      "fair_odd_calculada": "9.00",
+      "valor_esperado": "+33.3% EV — odd 12.00 vs Fair Odd 9.00",
+      "mercado_secundario": "Vitória East Bengal",
+      "odd_secundaria": "1.65",
+      "desempenho_1t": "Inter Kashi marcou 0.67 e sofreu 0.67 no 1ºT. East Bengal marcou 0.33 e sofreu 0.67 no 1ºT.",
+      "desempenho_2t": "Inter Kashi marcou 0.33 e sofreu 1.00 no 2ºT. East Bengal marcou 1.67 e sofreu 0.33 no 2ºT.",
+      "motivacao_tecnica": "Esta partida se destaca pelo forte padrão de gols de ambos os times, tornando o Back 2x2 uma aposta de valor. Ambos os times apresentam altos índices de Over 2.5 (67% para ambos), Ambas Marcam (67% para Inter Kashi, 100% para East Bengal), e Over 0.5 HT (100% para Inter Kashi, 67% para East Bengal). O East Bengal tem um ataque mais forte (2.00 GM/jogo) e o Inter Kashi uma defesa mais frágil (1.67 GS/jogo), mas o Inter Kashi também consegue marcar gols. Este equilíbrio para gols nos dois lados, combinado com a tendência de gols no primeiro tempo, cria um ambiente ideal para o 2x2. O Back Favorito para East Bengal é uma opção secundária válida.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
+      "mando_de_campo": "Inter Kashi joga em casa, mas tem um histórico fraco.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "East Bengal tem Youssef Ezzejjari Lhasnaoui (10 gols) e Edmund Lalrindika (4 gols) como artilheiros. Inter Kashi tem Alfred Planas (4 gols) e Mohammed Asif Khan (2 gols). Ambos os times têm capacidade de marcar e sofrer gols.",
+      "momento_gols": "Inter Kashi marcou 33% dos gols entre 0-15min e 33% entre 31-45min. East Bengal marcou 50% dos gols entre 76-90min e sofreu 33% entre 0-15min e 33% entre 16-30min.",
+      "jogadores_chave": "Inter Kashi: Alfred Planas, Mohammed Asif Khan. East Bengal: Youssef Ezzejjari Lhasnaoui, Edmund Lalrindika, Miguel Ferreira Damasceno.",
+      "placares_provaveis": "2x2, 2x1, 1x2",
+      "momento_entrada": "Pré-jogo para Back 2x2. Ao vivo para Back Favorito ou Lay Zebra.",
+      "situacao_saida": "Back 2x2: Cash-out total ao chegar em 1x1. Cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares até o final. Back Favorito/Lay Zebra: proteger lucro se favorito abrir 2 gols de vantagem, ou sair em caso de reviravolta.",
+      "stake_recomendada": "0.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Back 2x2 exige disciplina na gestão de risco e saída. As estatísticas são favoráveis, mas o mercado é volátil.",
+        "gatilho_saida_parcial": "Gol que leve ao placar 1x1, 2x1 ou 1x2 (para Back 2x2).",
+        "hard_stop": "Perda total em caso de placar que inviabilize o 2x2 (ex: 3x0, 0x3) ou se o jogo se tornar muito unilateral sem chance de gols do outro lado."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "East Bengal",
+        "odd_alvo": "1.65",
+        "razao": "East Bengal é o favorito com melhor desempenho geral e ataque mais forte, enfrentando um Inter Kashi com defesa mais frágil.",
+        "gatilho_ao_vivo": "Entrar após 15-20 minutos se East Bengal demonstrar superioridade tática e criar oportunidades claras de gol.",
+        "stake_recomendada": "1.5%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "zebra": "Inter Kashi",
+        "odd_zebra_alvo": "4.50",
+        "razao": "Inter Kashi é a zebra com defesa mais frágil e desempenho geral inferior. O Lay é justificado pela superioridade do East Bengal.",
+        "gatilho_ao_vivo": "Lay após um gol do East Bengal, ou se Inter Kashi abrir o placar inesperadamente e a odd da zebra inflar, oferecendo valor para o Lay.",
+        "stake_recomendada": "1.5%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "East Bengal",
+        "indice_gols_final": "East Bengal marcou 50% dos seus gols entre 76-90min. Inter Kashi sofre 20% dos gols entre 61-75min e 20% entre 76-90min.",
+        "condicao_entrada": "Entrar se East Bengal estiver vencendo por 2 gols de diferença após o minuto 70.",
+        "mercado_sugerido": "Mais 0.5 gols ou Mais 1.5 gols (uma linha acima do placar)",
+        "odd_esperada": "1.70 a 2.30",
+        "stake_recomendada": "1%",
+        "observacoes": "Ambos os times têm um histórico de gols no final do jogo, o que potencializa a entrada se o cenário for favorável ao favorito."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "razao": "Este jogo apresenta um cenário ideal para Back 2x2 devido aos altos índices de Over 2.5 gols (67% para ambos), Ambas Marcam (83.5% média) e Over HT (83.5% média). Ambos os times marcam e sofrem gols, sugerindo um jogo aberto e com trocas de placar.",
+        "indice_over_2_5": "67% — Time A 67%, Time B 67%",
+        "indice_ambas_marcam": "83.5% — Time A 67%, Time B 100%",
+        "indice_over_ht": "83.5% — Time A 100%, Time B 67%",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1. Cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares até o final, visando proteger o lucro.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Jogo aberto e dinâmico, com ambos os times buscando o ataque. Defesas ativas, mas com espaços para infiltrações e contra-ataques.",
+        "gatilhos_aceleracao": "Gols rápidos, ritmo intenso, e falhas defensivas evidentes de ambos os lados.",
+        "alerta_armadilha": "Um dos times se fecha demais após marcar, ou um placar se estabiliza em 0x0 ou 1x0 por muito tempo.",
+        "mercado_recomendado": "Back 2x2 (se pré-jogo) ou Over Limite 70+.",
+        "momento_observacao": "Durante o 1º tempo para ritmo e chances, e 2º tempo para Over Limite."
+      }
+    },
+    {
+      "horario": "11:00",
+      "liga": "Kazakhstan First Division",
+      "jogo": "Astana II x Shakhter Karagandy",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70",
+        "back_goleada"
+      ],
+      "mercado_principal": "Vitória Shakhter Karagandy",
+      "odd_principal": "1.30",
+      "fair_odd_calculada": "1.15",
+      "valor_esperado": "+13.0% EV — odd 1.30 vs Fair Odd 1.15",
+      "mercado_secundario": "Shakhter Karagandy para marcar 4+ gols e vencer",
+      "odd_secundaria": "3.50",
+      "desempenho_1t": "Astana II marcou 0.33 e não sofreu no 1ºT. Shakhter Karagandy marcou 0.67 e não sofreu no 1ºT.",
+      "desempenho_2t": "Astana II marcou 0.67 e sofreu 1.67 no 2ºT. Shakhter Karagandy marcou 2.00 e não sofreu no 2ºT.",
+      "motivacao_tecnica": "O Shakhter Karagandy é um favorito extremo (1º lugar, 2.33 PPG, 2.67 GM/jogo e 0 gols sofridos em 3 jogos) contra o Astana II (10º lugar, 1.33 PPG, 1.00 GM/jogo e 1.67 GS/jogo). O Shakhter tem um ataque muito eficiente e uma defesa impenetrável, sugerindo um cenário de vitória dominante e potencial goleada. O favoritismo é tão acentuado que uma entrada pré-jogo é justificada, especialmente para o Back Favorito e Back Goleada, aproveitando o valor antes que as odds se ajustem. A Liga Cazaque pode ter mercados menos eficientes.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo (muito regular)",
+      "mando_de_campo": "Astana II joga em casa, mas tem desempenho fraco (33% vitórias).",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Shakhter Karagandy tem um ataque muito potente (2.67 GM/jogo), com Artem Litosh (2 gols, 4 assistências) e Rifat Nurmugamet (2 gols). A defesa não sofreu gols em 3 jogos. Astana II marca 1.00 gol/jogo e sofre 1.67 gols/jogo.",
+      "momento_gols": "Shakhter Karagandy marcou 38% dos gols entre 46-60min e 25% entre 61-75min. Astana II sofreu 40% dos gols entre 46-60min e 60% entre 76-90min.",
+      "jogadores_chave": "Astana II: Nuradil Serikov. Shakhter Karagandy: Artem Litosh, Rifat Nurmugamet, Maksim Galkin.",
+      "placares_provaveis": "3x0, 4x0, 3x1",
+      "momento_entrada": "Pré-jogo, devido ao favoritismo extremo e potencial de goleada.",
+      "situacao_saida": "Cash-out parcial ou total se Shakhter abrir 2 ou 3 gols de vantagem. Para Back Goleada, considerar cash-out se chegar a 3x0 antes do final e a odd do 'marca 4+' cair muito.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "O favoritismo extremo e a solidez do Shakhter Karagandy justificam uma entrada pré-jogo para capturar o valor inicial das odds.",
+        "gatilho_saida_parcial": "Shakhter Karagandy abrindo 2 gols de vantagem (Back Favorito). Shakhter Karagandy marcando o 3º gol (Back Goleada).",
+        "hard_stop": "Gol da zebra nos primeiros minutos sem reação do favorito, ou se o jogo se tornar inesperadamente equilibrado."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Shakhter Karagandy",
+        "odd_alvo": "1.30",
+        "razao": "Favoritismo extremo (1º da liga, invicto, 0 gols sofridos) contra um time fraco e com defesa vulnerável. Ótimo valor pré-jogo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Astana II",
+        "odd_zebra_alvo": "6.00",
+        "razao": "Astana II é a zebra clara, com desempenho inferior, defesa frágil (1.67 GS) e ataque modesto. Shakhter Karagandy não sofreu gols. Lay contra sua vitória é um valor claro.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "1.5%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "Shakhter Karagandy",
+        "indice_gols_final": "Shakhter Karagandy marcou 25% dos gols entre 61-75min e 13% entre 76-90min. Astana II sofreu 60% dos gols entre 76-90min e 40% entre 46-60min.",
+        "condicao_entrada": "Entrar se Shakhter Karagandy estiver vencendo por 2 gols de diferença após o minuto 70.",
+        "mercado_sugerido": "Mais 0.5 gols ou Mais 1.5 gols (uma linha acima do placar)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "O Shakhter Karagandy mantém a pressão ofensiva e o Astana II tem demonstrado fragilidade defensiva no final dos jogos."
+      },
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "candidato": "Shakhter Karagandy",
+        "razao": "Shakhter Karagandy tem ataque muito forte (2.67 GM) e enfrenta uma defesa frágil (1.67 GS, 1.15 xGA) do Astana II, que sofre muitos gols no segundo tempo. O Shakhter ainda não sofreu gols na liga.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Shakhter Karagandy para marcar 4+ gols e vencer",
+        "odd_esperada": "3.50 a 5.00",
+        "stake_recomendada": "1.5%"
+      },
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Shakhter Karagandy pressionando alto desde o início, buscando o controle do jogo e criando diversas oportunidades de gol. Astana II recuado, com dificuldade para sair da defesa.",
+        "gatilhos_aceleracao": "Gol cedo do Shakhter, falhas defensivas evidentes do Astana II, ou expulsão/lesão de jogador chave da defesa adversária.",
+        "alerta_armadilha": "Shakhter Karagandy com pouca criatividade no ataque ou Astana II conseguindo se defender com organização e bloqueando as finalizações.",
+        "mercado_recomendado": "Back Goleada (se pré-jogo) ou Back Favorito.",
+        "momento_observacao": "Primeiros 15-20 minutos para confirmar a intenção ofensiva."
+      }
+    },
+    {
+      "horario": "13:00",
+      "liga": "Greece Super League",
+      "jogo": "Kifisia x Larissa",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra"
+      ],
+      "mercado_principal": "Vitória Kifisia",
+      "odd_principal": "1.85",
+      "fair_odd_calculada": "1.75",
+      "valor_esperado": "+5.7% EV — odd 1.85 vs Fair Odd 1.75",
+      "mercado_secundario": "Lay Larissa (ou Dupla Chance X2)",
+      "odd_secundaria": "5.50",
+      "desempenho_1t": "Kifisia: 0.47 gols marcados, 0.59 sofridos; Larissa: 0.24 gols marcados, 0.76 sofridos",
+      "desempenho_2t": "Kifisia: 0.59 gols marcados, 0.76 sofridos; Larissa: 0.65 gols marcados, 0.76 sofridos",
+      "motivacao_tecnica": "Kifisia (11º, 1.06 PPG) joga em casa contra um Larissa (12º, 0.76 PPG) em péssima fase. Larissa tem 0 vitórias nos últimos 8 jogos, média de apenas 0.88 gols marcados e 1.53 gols sofridos por jogo. O xG do Kifisia a favor (1.56) é significativamente maior que o do Larissa (1.15), enquanto o xG contra do Kifisia (1.14) é melhor que o do Larissa (1.71). Isso indica que Kifisia tem um desempenho subestimado e Larissa um desempenho superestimado, tornando Kifisia um favorito com valor e Larissa uma zebra vulnerável.",
+      "coeficiente_regularidade": "Kifisia: CV moderado (resultados mistos) / Larissa: CV alto (consistente má fase)",
+      "mando_de_campo": "Kifisia tem 24% de vitórias em 17 jogos, deve se beneficiar do fator casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (assumido, não há dados)",
+      "especificidades_gols": "Kifisia: 22% dos gols marcados nos primeiros 30 min. Larissa: 27% dos gols marcados no 31-45 min e 33% no 46-60 e 76-90 min.",
+      "momento_gols": "Kifisia: maior concentração de gols marcados e sofridos no 0-30 min e 61-90 min. Larissa: maior concentração de gols sofridos no 16-30 min e 76-90 min.",
+      "jogadores_chave": "Kifisia: Jorge Marcos Pombo Escobar (9 gols). Larissa: Ľubomír Tupta (7 gols).",
+      "placares_provaveis": "1x0, 2x0, 2x1 para Kifisia",
+      "momento_entrada": "Ao vivo, após confirmação tática ou se a odd melhorar",
+      "situacao_saida": "Proteger lucro com cash-out se Kifisia abrir vantagem de 2 gols. Sair se Larissa marcar primeiro e não houver reação imediata.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Esperar a confirmação tática do Kifisia e potencial melhora da odd ao vivo, dado o histórico inconsistente de ambos, apesar da má fase do Larissa.",
+        "gatilho_saida_parcial": "Kifisia marcar o primeiro gol, ou Larissa mostrar sinais de resiliência inesperada.",
+        "hard_stop": "Perda de 50% da stake se o jogo não se desenvolver conforme o esperado até o intervalo."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "Kifisia",
+        "odd_alvo": "1.85",
+        "razao": "Kifisia possui melhores estatísticas gerais e de xG, e Larissa está em péssima fase (0 vitórias nos últimos 8 jogos) com ataque fraco e defesa vazada.",
+        "gatilho_ao_vivo": "Entrar após os primeiros 15-20 minutos se Kifisia demonstrar dominância, pressão ofensiva e solidez defensiva, sem sofrer gols ou chances perigosas.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "zebra": "Larissa",
+        "odd_zebra_alvo": "5.50",
+        "razao": "Larissa tem um aproveitamento muito baixo (0.76 PPG, 12% de vitórias) e uma defesa que sofre 1.53 gols/jogo (xG contra 1.71), tornando-a altamente improvável de vencer.",
+        "gatilho_ao_vivo": "Lay na odd da zebra se Larissa se mantiver passivo ou começar perdendo, ou se abrir o placar e a odd inflar demais (para potencial cash-out na virada).",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Kifisia pressionando alto, tentando controlar o meio-campo e explorar as fragilidades defensivas de Larissa. Larissa buscando contra-ataques ou defendendo em bloco baixo.",
+        "gatilhos_aceleracao": "Encaixe defensivo rápido do Kifisia, transições ofensivas velozes, e criação de chances claras nos primeiros minutos.",
+        "alerta_armadilha": "Larissa resistindo à pressão inicial, criando chances perigosas em contra-ataques ou Kifisia demonstrando lentidão na construção de jogadas.",
+        "mercado_recomendado": "Back Favorito (Kifisia) ou Lay Zebra (Larissa)",
+        "momento_observacao": "Primeiros 15-20 minutos do jogo."
+      }
+    },
+    {
+      "horario": "13:00",
+      "liga": "Greece Super League",
+      "jogo": "Atromitos x Panserraikos",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra"
+      ],
+      "mercado_principal": "Vitória Atromitos",
+      "odd_principal": "1.80",
+      "fair_odd_calculada": "1.70",
+      "valor_esperado": "+5.9% EV — odd 1.80 vs Fair Odd 1.70",
+      "mercado_secundario": "Lay Panserraikos (ou Dupla Chance X2)",
+      "odd_secundaria": "5.00",
+      "desempenho_1t": "Atromitos: 0.82 gols marcados, 0.47 sofridos; Panserraikos: 0.47 gols marcados, 1.12 sofridos",
+      "desempenho_2t": "Atromitos: 0.29 gols marcados, 0.82 sofridos; Panserraikos: 0.35 gols marcados, 0.94 sofridos",
+      "motivacao_tecnica": "Atromitos (10º, 1.06 PPG) enfrenta Panserraikos (11º, 0.88 PPG) em casa. Panserraikos possui uma defesa extremamente frágil, sofrendo em média 2.06 gols por jogo (xG contra 1.88) e um ataque ineficaz (0.82 gols/jogo, xG a favor 0.74). Atromitos tem um ataque mais consistente (1.12 gols/jogo) e estatísticas de xG muito superiores (1.32 a favor, 1.26 contra). Esta disparidade defensiva e ofensiva sugere um valor claro em Back Atromitos e Lay Panserraikos.",
+      "coeficiente_regularidade": "Atromitos: CV moderado / Panserraikos: CV moderado a alto (defesa consistentemente fraca)",
+      "mando_de_campo": "Atromitos faz 24% de vitórias em casa, desempenho consistente.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (assumido, não há dados)",
+      "especificidades_gols": "Atromitos: 47% dos gols marcados entre 16-30 min. Panserraikos: 23% dos gols sofridos entre 0-15 min e 17% entre 16-30 min.",
+      "momento_gols": "Atromitos: forte no 1º tempo. Panserraikos: vulnerável no início do 1º tempo.",
+      "jogadores_chave": "Atromitos: Makana Rudi Baku (10 gols). Panserraikos: Andrei Virgil Ivan (4 gols), Giannis Pasas (5 gols).",
+      "placares_provaveis": "2x0, 2x1, 3x1 para Atromitos",
+      "momento_entrada": "Ao vivo, após confirmação tática",
+      "situacao_saida": "Proteger lucro com cash-out se Atromitos abrir vantagem de 2 gols. Sair se Panserraikos marcar primeiro e não houver reação imediata do Atromitos.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Confirmar a dominância inicial do Atromitos e a fragilidade defensiva do Panserraikos ao vivo, para otimizar a odd e reduzir risco.",
+        "gatilho_saida_parcial": "Atromitos marcar o primeiro gol, ou Panserraikos mostrar organização defensiva inesperada.",
+        "hard_stop": "Perda de 50% da stake se o jogo não se desenvolver conforme o esperado até o intervalo."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "Atromitos",
+        "odd_alvo": "1.80",
+        "razao": "Panserraikos tem uma defesa muito frágil (2.06 gols sofridos/jogo, xG contra 1.88) e um ataque ineficaz (0.82 gols/jogo), tornando Atromitos um favorito claro jogando em casa.",
+        "gatilho_ao_vivo": "Entrar após os primeiros 15-20 minutos se Atromitos demonstrar pressão ofensiva forte, criando chances e expondo a defesa de Panserraikos, sem sofrer grandes riscos.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "zebra": "Panserraikos",
+        "odd_zebra_alvo": "5.00",
+        "razao": "Panserraikos sofre em média 2.06 gols por jogo e tem um xG a favor de apenas 0.74, indicando uma probabilidade muito baixa de vitória.",
+        "gatilho_ao_vivo": "Lay na odd da zebra se Panserraikos se mantiver defensivo e sob pressão, ou se sofrer o primeiro gol. Evitar se conseguir controlar o jogo nos primeiros minutos.",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Atromitos buscando dominar a posse e criar pelos lados, Panserraikos defendendo recuado e buscando transições rápidas.",
+        "gatilhos_aceleracao": "Atromitos com intensa movimentação ofensiva, passes rápidos, e sucesso nas bolas paradas. Panserraikos com falhas claras de marcação na defesa.",
+        "alerta_armadilha": "Panserraikos conseguindo anular as jogadas do Atromitos e mostrando solidez defensiva inesperada, ou Atromitos com dificuldade na finalização.",
+        "mercado_recomendado": "Back Favorito (Atromitos) ou Lay Zebra (Panserraikos)",
+        "momento_observacao": "Primeiros 15-20 minutos do jogo."
+      }
+    },
+    {
+      "horario": "13:00",
+      "liga": "Greece Super League",
+      "jogo": "Panaitolikos x Asteras Tripolis",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra"
+      ],
+      "mercado_principal": "Vitória Panaitolikos",
+      "odd_principal": "1.90",
+      "fair_odd_calculada": "1.80",
+      "valor_esperado": "+5.5% EV — odd 1.90 vs Fair Odd 1.80",
+      "mercado_secundario": "Lay Asteras Tripolis (ou Dupla Chance X2)",
+      "odd_secundaria": "5.80",
+      "desempenho_1t": "Panaitolikos: 0.47 gols marcados, 0.82 sofridos; Asteras Tripolis: 0.29 gols marcados, 0.65 sofridos",
+      "desempenho_2t": "Panaitolikos: 0.65 gols marcados, 0.88 sofridos; Asteras Tripolis: 0.18 gols marcados, 0.82 sofridos",
+      "motivacao_tecnica": "Panaitolikos (13º, 0.88 PPG) enfrenta Asteras Tripolis (14º, 0.53 PPG) em casa. Asteras Tripolis tem um desempenho catastrófico, com apenas 6% de vitórias em 17 jogos e 0 vitórias nos últimos 8. Seu ataque é o mais fraco (0.47 gols/jogo), e sua defesa sofre 1.47 gols/jogo. Panaitolikos, jogando em casa e com um ataque mais produtivo (1.12 gols/jogo), é um favorito claro. O xG do Asteras a favor (1.00) é baixo e seu xG contra (1.61) é alto.",
+      "coeficiente_regularidade": "Panaitolikos: CV moderado / Asteras Tripolis: CV muito alto (consistente má fase e baixa pontuação)",
+      "mando_de_campo": "Panaitolikos tem 24% de vitórias em casa. Asteras Tripolis tem 6% de vitórias como visitante.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (assumido, não há dados)",
+      "especificidades_gols": "Panaitolikos: 26% dos gols marcados no 16-30 min e 61-90 min. Asteras: 38% dos gols marcados no 31-45 min. Asteras sofre muito no 61-75 min (28%).",
+      "momento_gols": "Panaitolikos: Distribuição razoável. Asteras: muito vulnerável nos minutos finais e começo do 2º tempo.",
+      "jogadores_chave": "Panaitolikos: Alexandru Matan (5 gols), Kosta Aleksić (5 gols). Asteras: Julián Bartolo (11 gols), Federico Macheda (8 gols).",
+      "placares_provaveis": "1x0, 2x0 para Panaitolikos",
+      "momento_entrada": "Ao vivo, após confirmação tática",
+      "situacao_saida": "Proteger lucro com cash-out se Panaitolikos abrir vantagem de 2 gols. Sair se Asteras marcar primeiro e mostrar sinais de recuperação inesperada.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Asteras tem um ataque com jogadores que podem surpreender (Bartolo, Macheda), apesar das estatísticas gerais ruins. Confirmar a dominância do Panaitolikos ao vivo é crucial.",
+        "gatilho_saida_parcial": "Panaitolikos marcar o primeiro gol, ou Asteras começar a criar chances perigosas.",
+        "hard_stop": "Perda de 50% da stake se o jogo não se desenvolver conforme o esperado até o intervalo."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "Panaitolikos",
+        "odd_alvo": "1.90",
+        "razao": "Asteras Tripolis está em péssima fase (0 vitórias nos últimos 8 jogos, 6% de vitórias) com o pior ataque da liga (0.47 gols/jogo) e defesa frágil (1.47 gols/jogo). Panaitolikos, em casa, é o favorito claro.",
+        "gatilho_ao_vivo": "Entrar após os primeiros 15-20 minutos se Panaitolikos demonstrar controle do jogo, criando chances e mostrando superioridade tática, sem sofrer ameaças do Asteras.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "zebra": "Asteras Tripolis",
+        "odd_zebra_alvo": "5.80",
+        "razao": "A probabilidade de vitória do Asteras é extremamente baixa devido à sua forma terrível, baixo poder ofensivo e defesa vulnerável. É um alvo ideal para Lay.",
+        "gatilho_ao_vivo": "Lay na odd da zebra se Asteras se mantiver passivo ou começar perdendo, ou se abrir o placar e a odd inflar demais (para potencial cash-out na virada).",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Panaitolikos tentando impor o ritmo e atacar as laterais. Asteras tentando fechar espaços e buscando contra-ataques com seus jogadores de ataque.",
+        "gatilhos_aceleracao": "Panaitolikos demonstrando intensidade na pressão, bom aproveitamento nas finalizações e solidez defensiva. Asteras com dificuldade em sair da marcação e erros na posse.",
+        "alerta_armadilha": "Asteras mostrando organização defensiva inesperada ou sendo eficaz em explorar transições, especialmente com seus artilheiros Bartolo e Macheda.",
+        "mercado_recomendado": "Back Favorito (Panaitolikos) ou Lay Zebra (Asteras Tripolis)",
+        "momento_observacao": "Primeiros 15-20 minutos do jogo."
+      }
+    },
+    {
+      "horario": "13:30",
+      "liga": "Denmark Superliga",
+      "jogo": "Brøndby x København",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória København",
+      "odd_principal": "2.00-2.20",
+      "fair_odd_calculada": "2.00-2.22",
+      "valor_esperado": "+EV se a odd de mercado for > 2.00",
+      "mercado_secundario": "Mais 0.5/1.5 gols (Over Limite 70+)",
+      "odd_secundaria": "1.60-2.20",
+      "desempenho_1t": "København venceu 31% dos 1º tempos e marca 0.81 gols. Brøndby sofre 0.44 gols no 1ºT.",
+      "desempenho_2t": "København venceu 50% dos 2º tempos e marca 1.31 gols. Brøndby sofre 0.81 gols no 2ºT, sendo 35% entre 76-90 min.",
+      "motivacao_tecnica": "O København, apesar de jogar fora de casa em um clássico, demonstra superioridade estatística. Ele está na 3ª posição com 1.63 pontos por jogo e 50% de vitórias, contra o Brøndby em 8º com 1.38 pontos/jogo e 38% de vitórias. O ataque do København é muito mais produtivo (2.13 vs 1.69 gols/jogo) e o time tem um índice de Over 2.5 de 81% (vs 56% do Brøndby). A forma recente do Brøndby é preocupante (L D D L L). Além disso, o København marca 38% dos seus gols nos últimos 15 minutos, enquanto o Brøndby sofre 35% dos gols nesse mesmo período, indicando um forte cenário para Over Limite 70+ caso o København construa uma vantagem.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
+      "mando_de_campo": "Brøndby joga em casa, mas København tem histórico de bom desempenho fora (1.63 Pts/J geral).",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (assumido, sem dados de desfalques)",
+      "especificidades_gols": "København tem um ataque explosivo e muito eficaz, especialmente no segundo tempo e nos minutos finais. Brøndby sofre bastante no final das partidas.",
+      "momento_gols": "København marca 38% dos gols entre 76-90 min. Brøndby sofre 35% dos gols entre 76-90 min.",
+      "jogadores_chave": "København: Jordan Larsson (13 G, 8 A). Brøndby: Nicolai Vallys (7 G, 7 A).",
+      "placares_provaveis": "1x2, 1x3, 2x3",
+      "momento_entrada": "Ao vivo para Back Favorito e após 70min para Over Limite 70+.",
+      "situacao_saida": "Back Favorito: Proteger lucro após 1º gol, cash-out com 2 gols de vantagem. Over Limite 70+: Cash-out ao atingir 1 gol acima da linha.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A entrada ao vivo para o Back Favorito em um clássico permite avaliar a performance inicial e a solidez do favorito antes de investir. O Over Limite 70+ é gatilhado por uma situação de jogo específica.",
+        "gatilho_saida_parcial": "Gol do favorito. Em Over Limite 70+, gol que reduza a diferença para 1.",
+        "hard_stop": "Aposta perdida (Back Favorito: 2 gols de desvantagem; Over Limite 70+: não houver gol ou placar não atingir objetivo)."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "København",
+        "odd_alvo": "2.00-2.20",
+        "razao": "Apesar do fator casa e do cenário de derby, o København é estatisticamente superior (50% vitórias vs 38%, 2.13 gols/jogo vs 1.69, e péssima fase do Brøndby). Entrar ao vivo é crucial para observar como o København se comporta fora de casa neste confronto direto e se a odd apresenta valor após a abertura.",
+        "gatilho_ao_vivo": "Entrar após 15-20 minutos se o København demonstrar domínio, controle do meio-campo e criar chances claras de gol, ou se a odd melhorar após um eventual gol do Brøndby.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "København",
+        "indice_gols_final": "København marca 38% dos gols após os 75 minutos. Brøndby sofre 35% dos gols após os 75 minutos. København tem 100% de Over 0.5 no 2º tempo.",
+        "condicao_entrada": "Entrar se o København estiver vencendo por 2 ou mais gols de diferença após os 70 minutos de jogo.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "A capacidade ofensiva do København nos minutos finais, somada à fragilidade defensiva do Brøndby nesse período, cria um cenário promissor para um gol adicional."
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "København deve buscar controle e superioridade técnica, explorando as laterais. Brøndby deve jogar com intensidade, buscando transições rápidas e usando a força da torcida. A observação deve focar na capacidade do København de superar a pressão inicial.",
+        "gatilhos_aceleracao": "Encaixe defensivo do København, com marcação alta e recuperação rápida da posse. Brøndby mostrando nervosismo ou dificuldades em construir jogadas no ataque.",
+        "alerta_armadilha": "København apático no início, ou Brøndby aproveitando o fator casa para criar muitas chances e dominar o meio-campo. Um jogo muito pegado e com poucas chances claras de gol.",
+        "mercado_recomendado": "Back Favorito (København) ou Over Limite 70+.",
+        "momento_observacao": "Primeiros 15-20 minutos para Back Favorito. Após os 60 minutos para Over Limite 70+ se o placar for favorável."
+      }
+    },
+    {
+      "horario": "13:45",
+      "liga": "Netherlands Eredivisie",
+      "jogo": "Ajax x Groningen",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Ajax",
+      "odd_principal": "1.50-1.65",
+      "fair_odd_calculada": "1.54",
+      "valor_esperado": "+EV se a odd de mercado for > 1.54",
+      "mercado_secundario": "Lay Groningen (contra a vitória)",
+      "odd_secundaria": "6.00-7.00",
+      "desempenho_1t": "Ajax venceu 65% dos 1º tempos e marca 1.18 gols. Groningen sofre 0.65 gols no 1ºT, com 94% de Over 0.5 HT para o Ajax.",
+      "desempenho_2t": "Ajax marca 0.71 gols no 2ºT. Groningen sofre 0.94 gols no 2ºT, com 100% de Over 0.5 no 2ºT.",
+      "motivacao_tecnica": "O Ajax é um favorito muito claro neste confronto. Com 1.82 pontos por jogo e 53% de vitórias, ele se destaca contra o Groningen, que tem 1.35 pontos/jogo e 41% de vitórias. A diferença no poder ofensivo (Ajax 1.88 vs Groningen 1.29 gols/jogo) e na solidez de evitar falhas em marcar (Ajax 6% vs Groningen 18%) é notável. Além disso, o Ajax tem um excelente histórico de gols no primeiro tempo (94% Over 0.5 HT e 22% dos gols nos primeiros 15 minutos), o que justifica uma entrada pré-jogo se a odd for atraente. A defesa do Groningen é mais frágil (1.59 gols sofridos/jogo) e sofre gols no final (19% dos gols sofridos após os 75 minutos).",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Ajax faz 1.82 Pts/J em casa. Forte desempenho.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (assumido, sem dados de desfalques)",
+      "especificidades_gols": "Ajax tem um ataque direto e busca o gol cedo. Groningen, embora marque, sofre bastante e é inconsistente.",
+      "momento_gols": "Ajax marca 22% dos gols entre 0-15 min e 25% entre 76-90 min. Groningen sofre 19% dos gols entre 76-90 min.",
+      "jogadores_chave": "Ajax: Mika Godts (17 G, 12 A). Groningen: Thom van Bergen (9 G, 4 A).",
+      "placares_provaveis": "2x0, 2x1, 3x1",
+      "momento_entrada": "Pré-jogo para Back Favorito. Ao vivo para Lay Zebra e após 70min para Over Limite 70+.",
+      "situacao_saida": "Back Favorito: Proteger lucro após 1º gol, cash-out com 2 gols de vantagem. Lay Zebra: Proteger lucro após gol do favorito ou empate, cash-out após virada. Over Limite 70+: Cash-out ao atingir 1 gol acima da linha.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "O claro favoritismo do Ajax, com alta probabilidade de iniciar bem a partida e a oportunidade de pegar uma odd de valor pré-jogo, justifica uma entrada mais assertiva. A análise de Over Limite 70+ e Lay Zebra complementa o plano.",
+        "gatilho_saida_parcial": "Gol do Ajax (para Back Favorito), gol do favorito ou empate (para Lay Zebra), gol que reduza a diferença para 1 (para Over Limite 70+).",
+        "hard_stop": "Aposta perdida (Lay Zebra: gol da zebra sem reação do favorito; Back Favorito: 2 gols de desvantagem)."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Ajax",
+        "odd_alvo": "1.50-1.65",
+        "razao": "Ajax é um favorito claro em casa com estatísticas superiores em vitórias (53% vs 41%), pontos por jogo (1.82 vs 1.35) e capacidade ofensiva (1.88 gols/jogo vs 1.29). Sua alta taxa de gols no primeiro tempo (94% Over 0.5 HT) e baixo índice de falha em marcar (6%) indicam um forte início de jogo. A odd pré-jogo deve oferecer um bom EV.",
+        "gatilho_ao_vivo": "N/A (pré-jogo)",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "zebra": "Groningen",
+        "odd_zebra_alvo": "6.00-7.00",
+        "razao": "A inferioridade estatística do Groningen, sua inconsistência recente e a fragilidade defensiva (1.59 gols sofridos/jogo) contra um ataque forte como o do Ajax, tornam sua vitória improvável. É uma aposta de valor contra o azarão.",
+        "gatilho_ao_vivo": "Entrar no mercado Lay Groningen ao vivo, idealmente se o Groningen marcar o primeiro gol, para maximizar a odd da zebra antes da provável reação do Ajax.",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "Ajax",
+        "indice_gols_final": "Ajax marca 25% dos gols após os 75 minutos. Groningen sofre 19% dos gols após os 75 minutos. Ambos os times têm 100% de Over 0.5 no 2º tempo.",
+        "condicao_entrada": "Entrar se o Ajax estiver vencendo por 2 ou mais gols de diferença após os 70 minutos de jogo.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "Ataque forte do Ajax e defesa vulnerável do Groningen no final do jogo são fatores que impulsionam essa entrada."
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Ajax deve dominar a posse de bola e pressionar com intensidade desde o início. Groningen deve tentar se defender em bloco baixo e explorar contra-ataques esporádicos. A observação focará na capacidade do Ajax de romper a defesa adversária.",
+        "gatilhos_aceleracao": "Ajax criando oportunidades claras, com boa movimentação ofensiva e aproveitamento de espaços. Groningen mostrando dificuldades na saída de bola e na recomposição defensiva.",
+        "alerta_armadilha": "Groningen conseguir se fechar e frustrar as tentativas do Ajax, ou o Ajax mostrar lentidão e falta de criatividade no ataque.",
+        "mercado_recomendado": "Back Favorito (Ajax) ou Over Limite 70+.",
+        "momento_observacao": "Primeiros 15-20 minutos para confirmar o domínio do Ajax, e após os 60 minutos se o placar for favorável para Over Limite 70+."
+      }
+    },
+    {
+      "horario": "14:00",
+      "liga": "Sweden Allsvenskan",
+      "jogo": "Elfsborg x Mjällby",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Elfsborg",
+      "odd_principal": "1.45-1.55",
+      "fair_odd_calculada": "1.33-1.43",
+      "valor_esperado": "+EV se a odd de mercado for > 1.43",
+      "mercado_secundario": "Lay Mjällby (contra a vitória)",
+      "odd_secundaria": "5.00-6.00",
+      "desempenho_1t": "Elfsborg empatou 100% dos 1º tempos e marca 0.50 gols. Mjällby venceu 50% dos 1º tempos e marca 1.00 gol. *Amostra de 4 jogos.*",
+      "desempenho_2t": "Elfsborg venceu 75% dos 2º tempos e marca 1.25 gols. Mjällby sofre 1.00 gol no 2ºT. Elfsborg tem 100% de não sofrer gol no 2ºT. *Amostra de 4 jogos.*",
+      "motivacao_tecnica": "Apesar da amostra pequena de apenas 4 jogos, o Elfsborg demonstra um favoritismo claro com base nos dados. Ele tem 2.50 pontos por jogo e 75% de vitórias, nunca falhou em marcar (0% de falha) e sofre poucos gols (0.50/jogo). Em contraste, o Mjällby tem 1.75 pontos/jogo, 50% de vitórias, falhou em marcar em 50% dos jogos e possui uma defesa frágil (1.50 gols sofridos/jogo, xG contra 2.01). O Elfsborg tem um forte desempenho no segundo tempo (75% vitórias no 2º tempo, 1.25 gols marcados e 0 gols sofridos no 2ºT), justificando o Back Favorito pré-jogo. O Mjällby também demonstra vulnerabilidade defensiva geral, o que torna o Lay Zebra e o Over Limite 70+ aplicáveis.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto (com base em 4 jogos)",
+      "mando_de_campo": "Elfsborg com 2.50 Pts/J em casa, muito forte. *Amostra de 4 jogos.*",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (assumido, sem dados de desfalques)",
+      "especificidades_gols": "Elfsborg é consistente no ataque e muito sólido defensivamente, especialmente no 2º tempo. Mjällby tem ataque que marca, mas defesa muito frágil e falha em marcar com frequência.",
+      "momento_gols": "Elfsborg marca 29% dos gols entre 61-75 min e 29% entre 76-90 min. Mjällby sofre 50% dos gols entre 46-60 min.",
+      "jogadores_chave": "Elfsborg: Júlíus Magnússon (2 G, 1 A). Mjällby: Jacob Bergström (4 G, 0 A). *Amostra de 4 jogos.*",
+      "placares_provaveis": "2x0, 2x1, 3x0",
+      "momento_entrada": "Pré-jogo para Back Favorito. Ao vivo para Lay Zebra e após 70min para Over Limite 70+.",
+      "situacao_saida": "Back Favorito: Proteger lucro após 1º gol, cash-out com 2 gols de vantagem. Lay Zebra: Proteger lucro após gol do favorito ou empate, cash-out após virada. Over Limite 70+: Cash-out ao atingir 1 gol acima da linha.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "Apesar da amostra pequena, o Elfsborg demonstra um favoritismo estatístico muito forte (75% vitórias, 0% falha em marcar). Isso, combinado com a defesa frágil do Mjällby, justifica uma entrada pré-jogo no favorito. As outras entradas são oportunidades adicionais.",
+        "gatilho_saida_parcial": "Gol do favorito (para Back Favorito), gol do favorito ou empate (para Lay Zebra), gol que reduza a diferença para 1 (para Over Limite 70+).",
+        "hard_stop": "Aposta perdida (Lay Zebra: gol da zebra sem reação do favorito; Back Favorito: 2 gols de desvantagem)."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Elfsborg",
+        "odd_alvo": "1.45-1.55",
+        "razao": "Elfsborg é um favorito claro com desempenho impressionante (2.50 Pts/J, 75% vitórias, nunca falhou em marcar) contra um Mjällby com defesa frágil (1.50 gols sofridos/jogo, xG contra 2.01) e que falha em marcar em 50% dos jogos. A entrada pré-jogo é justificada pela solidez e consistência do Elfsborg, especialmente em casa. *Dados baseados em 4 jogos.*",
+        "gatilho_ao_vivo": "N/A (pré-jogo)",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "zebra": "Mjällby",
+        "odd_zebra_alvo": "5.00-6.00",
+        "razao": "Mjällby é a zebra devido à superioridade do Elfsborg, sua defesa frágil e a alta taxa de falha em marcar. O Lay contra Mjällby é uma aposta de valor.",
+        "gatilho_ao_vivo": "Entrar no mercado Lay Mjällby ao vivo, preferencialmente se o Mjällby marcar primeiro, capitalizando na valorização da odd da zebra e na alta probabilidade de reação do Elfsborg.",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "Elfsborg",
+        "indice_gols_final": "Elfsborg marca 29% dos gols entre 76-90 min. Mjällby sofre 17% dos gols entre 76-90 min e 50% entre 46-60 min. Mjällby tem 75% de Over 2.5 gols no geral.",
+        "condicao_entrada": "Entrar se o Elfsborg estiver vencendo por 2 ou mais gols de diferença após os 70 minutos de jogo.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "Ataque constante do Elfsborg e vulnerabilidade defensiva do Mjällby ao longo do jogo, incluindo os minutos finais, suportam essa entrada. *Amostra de 4 jogos.*"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Elfsborg deve ser dominante, buscando controle e finalizações. Mjällby tentará se defender e pode ser reativo. A observação focará na solidez defensiva do Elfsborg e na capacidade do Mjällby de resistir à pressão.",
+        "gatilhos_aceleracao": "Elfsborg criando chances claras e explorando as fraquezas defensivas do Mjällby. Mjällby mostrando sinais de desorganização ou cansaço defensivo.",
+        "alerta_armadilha": "Jogo muito físico e com poucas oportunidades claras. Elfsborg com dificuldades em converter chances. Mjällby conseguindo surpreender nos contra-ataques.",
+        "mercado_recomendado": "Back Favorito (Elfsborg) ou Over Limite 70+.",
+        "momento_observacao": "Primeiros 15-20 minutos para Back Favorito. Após os 60 minutos para Over Limite 70+ se o placar for favorável. *Amostra de 4 jogos.*"
+      }
+    },
+    {
+      "horario": "15:00",
+      "liga": "Iceland Úrvalsdeild",
+      "jogo": "ÍA x ÍBV",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra"
+      ],
+      "mercado_principal": "Lay ÍBV",
+      "odd_principal": "1.25",
+      "fair_odd_calculada": "1.18",
+      "valor_esperado": "+5.9% EV — odd 1.25 vs Fair Odd 1.18",
+      "mercado_secundario": "Vitória ÍA",
+      "odd_secundaria": "1.70",
+      "desempenho_1t": "ÍA: 0.50 gols marcados, 0.50 sofridos; ÍBV: 0.33 gols marcados, 1.33 sofridos",
+      "desempenho_2t": "ÍA: 0.50 gols marcados, 1.50 sofridos; ÍBV: 0.33 gols marcados, 1.67 sofridos",
+      "motivacao_tecnica": "ÍA (10º, 0.50 PPG) recebe ÍBV (12º, 0.00 PPG). ÍBV tem um desempenho desastroso no início da liga, perdendo todos os 3 jogos e sofrendo uma média de 3.00 gols por partida (9 gols no total), com uma defesa extremamente frágil. Embora ÍA também não tenha vencido (2 jogos na liga), seu xG a favor (1.94) é alto, indicando que criam muitas chances e podem capitalizar contra a pior defesa da liga. Lay ÍBV é altamente vantajoso, e Back ÍA também tem valor contra um adversário tão fraco. A amostra de jogos é pequena, o que requer cautela, mas a fragilidade do ÍBV é gritante.",
+      "coeficiente_regularidade": "ÍA: CV alto (pequena amostra, mas performance de xG indica potencial) / ÍBV: CV muito alto (consistente má fase e defesa vazada)",
+      "mando_de_campo": "ÍA joga em casa, buscando a primeira vitória. ÍBV é fraco como visitante.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (assumido, não há dados)",
+      "especificidades_gols": "ÍA: Gols marcados no 31-45 min e 76-90 min. ÍBV: Gols sofridos distribuídos, mas com pico no 76-90 min (33%).",
+      "momento_gols": "ÍA: bom desempenho ofensivo no final do 1º tempo e final do jogo. ÍBV: altamente vulnerável no final do jogo.",
+      "jogadores_chave": "ÍA: Markús Páll Ellertsson (6 gols em 7 jogos de diversas competições, mas 2 gols em 2 jogos na liga principal para a equipe) e Viktor Jónsson (3 gols em 7 jogos). ÍBV: Felix Örn Fridriksson (2 gols), Viggó Valgeirsson (2 gols).",
+      "placares_provaveis": "2x0, 2x1, 3x1 para ÍA",
+      "momento_entrada": "Ao vivo, observando a pressão do ÍA e a persistência da fragilidade defensiva do ÍBV.",
+      "situacao_saida": "Proteger lucro com cash-out se ÍA abrir vantagem de 2 gols. Sair se ÍBV surpreender com um gol inicial e conseguir manter-se estável.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A amostra de jogos é pequena (2-3 partidas), o que aumenta o risco. É fundamental observar o desempenho em campo antes de confirmar a entrada, mesmo com a fraqueza evidente do ÍBV.",
+        "gatilho_saida_parcial": "ÍA marcar o primeiro gol. ÍBV demonstrar alguma organização defensiva ou ameaçar no ataque.",
+        "hard_stop": "Perda de 50% da stake se o jogo não se desenvolver conforme o esperado até o intervalo."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "ÍA",
+        "odd_alvo": "1.70",
+        "razao": "ÍA tem xG a favor elevado (1.94) e enfrenta a pior defesa da liga (ÍBV sofre 3.00 gols/jogo, 0 pontos em 3 jogos). Apesar da própria falta de vitórias, a expectativa é de domínio.",
+        "gatilho_ao_vivo": "Entrar após os primeiros 15-20 minutos se ÍA demonstrar alta intensidade ofensiva, criar chances claras e explorar a defesa desorganizada do ÍBV.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "ÍBV",
+        "odd_zebra_alvo": "6.00",
+        "razao": "ÍBV possui um desempenho catastrófico (0 pontos, 0% vitórias em 3 jogos) e uma defesa que sofre 3.00 gols/jogo. A chance de vitória é mínima. O valor pré-jogo é alto para Lay.",
+        "gatilho_ao_vivo": "N/A (pré-jogo), mas caso ÍBV marque primeiro e a odd inflacione, pode-se reavaliar para entrada ao vivo com odd melhor.",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "ÍA dominando a posse e buscando a área, enquanto ÍBV tenta se defender em bloco baixo e contra-atacar.",
+        "gatilhos_aceleracao": "ÍA com transições rápidas e alta taxa de finalizações a gol, explorando os espaços deixados pela defesa do ÍBV. ÍBV com erros de marcação e lentidão na recomposição.",
+        "alerta_armadilha": "ÍBV conseguindo anular o ataque do ÍA ou surpreendendo com um gol cedo.",
+        "mercado_recomendado": "Back Favorito (ÍA) ou Lay Zebra (ÍBV)",
+        "momento_observacao": "Primeiros 15-20 minutos do jogo."
+      }
+    },
+    {
+      "horario": "15:00",
+      "liga": "Saudi Arabia Professional League",
+      "jogo": "Al Nassr x Dhamk",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70",
+        "back_goleada"
+      ],
+      "mercado_principal": "Vitória Al Nassr",
+      "odd_principal": "1.18",
+      "fair_odd_calculada": "1.10",
+      "valor_esperado": "+7.3% EV — odd 1.18 vs Fair Odd 1.10",
+      "mercado_secundario": "Al Nassr para marcar 4+ gols e vencer",
+      "odd_secundaria": "2.80",
+      "desempenho_1t": "Al Nassr venceu 63% dos 1º tempos (1.13 gols marcados/0.19 sofridos). Dhamk perdeu 50% dos 1º tempos (0.44 gols marcados/1.00 sofridos).",
+      "desempenho_2t": "Al Nassr venceu 69% dos 2º tempos (1.50 gols marcados/0.50 sofridos). Dhamk perdeu 50% dos 2º tempos (0.38 gols marcados/0.94 sofridos).",
+      "motivacao_tecnica": "O Al Nassr é um favorito EXTREMO e óbvio, com um elenco estelar (Cristiano Ronaldo, João Félix, Sadio Mané), ocupando o 2º lugar com 2.69 PPG e 88% de vitórias, média de 2.63 GM/jogo e uma defesa sólida (0.69 GS/jogo). Enfrenta o Dhamk, 15º colocado, com apenas 0.69 PPG e 13% de vitórias, ataque fraco (0.81 GM/jogo) e defesa muito frágil (1.94 GS/jogo). O Dhamk está em péssima fase (4 derrotas nos últimos 5 jogos). Este é um cenário claro para uma vitória dominante e goleada do Al Nassr. O favoritismo extremo justifica entradas pré-jogo para Back Favorito e Back Goleada.",
+      "coeficiente_regularidade": "Casa: CV baixo (altamente regular) / Visitante: CV alto (muito inconsistente)",
+      "mando_de_campo": "Al Nassr tem um desempenho excelente em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Al Nassr tem Cristiano Ronaldo (26 gols), João Félix (20 gols, 12 assistências) e Sadio Mané (9 gols, 6 assistências). Dhamk tem Valentin Vada (11 gols, 6 assistências). Al Nassr marca muitos gols no final do 1º tempo (26% entre 31-45min) e no 2º tempo (40% entre 76-90min).",
+      "momento_gols": "Al Nassr marcou 40% dos seus gols entre 76-90min. Dhamk sofreu 29% dos seus gols entre 76-90min e 19% entre 0-15min e 19% entre 16-30min.",
+      "jogadores_chave": "Al Nassr: Cristiano Ronaldo, João Félix, Sadio Mané. Dhamk: Valentin Vada.",
+      "placares_provaveis": "3x0, 4x0, 4x1, 5x0",
+      "momento_entrada": "Pré-jogo, devido ao favoritismo extremo e potencial de goleada.",
+      "situacao_saida": "Cash-out parcial ou total se Al Nassr abrir 2 ou 3 gols de vantagem. Para Back Goleada, cash-out se chegar a 3x0 ou 3x1 e a odd do 'marca 4+' cair muito, ou segurar para buscar o 4º/5º gol.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "O favoritismo extremo e o alto potencial ofensivo do Al Nassr justificam uma entrada pré-jogo para maximizar o valor antes de qualquer ajuste de mercado.",
+        "gatilho_saida_parcial": "Al Nassr abrindo 2 gols de vantagem (Back Favorito). Al Nassr marcando o 3º gol (Back Goleada).",
+        "hard_stop": "Gol inesperado do Dhamk no início do jogo, ou se o Al Nassr não mostrar a esperada dominância ofensiva nos primeiros 20 minutos."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Al Nassr",
+        "odd_alvo": "1.18",
+        "razao": "Favoritismo extremo do Al Nassr com elenco estelar, excelente desempenho ofensivo e defesa muito sólida, contra um Dhamk frágil e em má fase. Alto valor pré-jogo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Dhamk",
+        "odd_zebra_alvo": "7.00",
+        "razao": "Dhamk é uma zebra clara, com desempenho muito ruim, poucas vitórias (13%), defesa muito frágil (1.94 GS) e ataque ineficaz (0.81 GM). Lay contra sua vitória é um valor óbvio.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "1.5%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "Al Nassr",
+        "indice_gols_final": "Al Nassr marcou 40% dos seus gols entre 76-90min. Dhamk sofre 29% dos gols entre 76-90min.",
+        "condicao_entrada": "Entrar se Al Nassr estiver vencendo por 2 gols de diferença após o minuto 70.",
+        "mercado_sugerido": "Mais 0.5 gols ou Mais 1.5 gols (uma linha acima do placar)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "Al Nassr tem um alto índice de gols no final dos jogos e Dhamk tende a ceder sob pressão. O poder de fogo do Al Nassr é um diferencial."
+      },
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "candidato": "Al Nassr",
+        "razao": "Al Nassr tem um ataque avassalador (2.63 GM, 2.11 xG) com jogadores de elite mundial. Enfrenta uma defesa muito frágil do Dhamk (1.94 GS, 1.55 xGA), que está em péssima fase. O cenário é ideal para uma goleada.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Al Nassr para marcar 4+ gols e vencer",
+        "odd_esperada": "2.80 a 4.00",
+        "stake_recomendada": "1.5%"
+      },
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Al Nassr dominante, controlando a posse e constantemente buscando o ataque, com Dhamk recuado e lutando para conter as investidas. Movimentação intensa dos atacantes do Al Nassr.",
+        "gatilhos_aceleracao": "Gol cedo do Al Nassr, múltiplos ataques em sequência, fragilidade defensiva clara do Dhamk em lances simples.",
+        "alerta_armadilha": "Al Nassr com posse de bola improdutiva ou Dhamk conseguindo anular as estrelas do time adversário, especialmente Cristiano Ronaldo e João Félix.",
+        "mercado_recomendado": "Back Goleada (se pré-jogo) ou Back Favorito.",
+        "momento_observacao": "Primeiros 15-20 minutos."
+      }
+    },
     {
       "horario": "15:30",
       "liga": "Belgium Pro League",
       "jogo": "KV Mechelen x Club Brugge",
       "metodos_aplicados": [
-        "lay_zebra",
         "back_favorito",
+        "lay_zebra",
         "over_limite_70"
       ],
-      "mercado_principal": "Lay Vitória KV Mechelen",
-      "odd_principal": "6.00",
-      "fair_odd_calculada": "8.33",
-      "valor_esperado": "+28% EV (Lay odd 6.00 vs Fair Odd 8.33 - Laying a 12% chance)",
-      "mercado_secundario": "Vitória Club Brugge",
-      "odd_secundaria": "1.45",
-      "desempenho_1t": "KV Mechelen: Marca 0.63, sofre 0.21. Club Brugge: Marca 0.63, sofre 0.63.",
-      "desempenho_2t": "KV Mechelen: Marca 0.53, sofre 1.00 (muito vulnerável). Club Brugge: Marca 1.11, sofre 0.47 (muito forte).",
-      "motivacao_tecnica": "O Club Brugge, líder isolado da liga (1.95 PPG, 63% vitórias), enfrenta o KV Mechelen (8º colocado, 1.42 PPG, 37% vitórias). A disparidade de qualidade é evidente em todos os índices. O Brugge possui um ataque mais eficiente (1.74 GM vs 1.16 GM do Mechelen) e uma defesa mais sólida (1.11 GS vs 1.21 GS). O xG a favor do Brugge (1.64) supera o xG contra do Mechelen (1.69), enquanto o Mechelen tem um xG a favor (1.24) inferior ao xG contra do Brugge (1.48). A forma recente do Brugge é avassaladora (4 vitórias nos últimos 5 jogos da forma total), contrastando com a inconsistência do Mechelen. A fragilidade defensiva do Mechelen no segundo tempo é um ponto crucial, sofrendo 1.00 gol em média e 74% dos seus gols totais nos últimos 30 minutos de jogo. Isso cria valor tanto para Lay Zebra quanto para Back Favorito, e um forte cenário para Over Limite 70+.",
-      "coeficiente_regularidade": "Casa (KV Mechelen): CV moderado/alto (inconsistente). Visitante (Club Brugge): CV baixo (altamente regular e vencedor).",
-      "mando_de_campo": "KV Mechelen faz 1.42 pontos por jogo em casa. No entanto, o Club Brugge é o líder e tem capacidade de impor seu jogo fora de casa.",
+      "mercado_principal": "Vitória Club Brugge",
+      "odd_principal": "1.60-1.75",
+      "fair_odd_calculada": "1.67",
+      "valor_esperado": "+EV se a odd de mercado for > 1.67",
+      "mercado_secundario": "Lay KV Mechelen (contra a vitória)",
+      "odd_secundaria": "4.50-5.00",
+      "desempenho_1t": "Club Brugge venceu 26% dos 1º tempos e marca 0.63 gols. KV Mechelen sofre 0.21 gols no 1ºT.",
+      "desempenho_2t": "Club Brugge venceu 47% dos 2º tempos e marca 1.11 gols. KV Mechelen sofre 1.00 gol no 2ºT, sendo 48% entre 61-75 min e 26% entre 76-90 min.",
+      "motivacao_tecnica": "O Club Brugge, líder da liga com 1.95 pontos por jogo e 63% de vitórias, é um favorito claro contra o KV Mechelen (8º, 1.42 pontos/jogo, 37% vitórias). O ataque do Brugge é significativamente mais produtivo (1.74 vs 1.16 gols/jogo), e sua defesa é mais sólida (1.11 vs 1.21 gols sofridos/jogo). A forma recente do Brugge é forte (4 vitórias nos últimos 5). A fragilidade defensiva do Mechelen no segundo tempo (sofrendo 48% dos gols entre 61-75 min e 26% entre 76-90 min) e a capacidade do Brugge de marcar no final (27% dos gols entre 76-90 min) reforçam a confiança no favorito e no Over Limite 70+. O Lay à zebra é uma estratégia válida dada a superioridade técnica e a capacidade de virada do Club Brugge.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
+      "mando_de_campo": "Club Brugge é forte fora de casa (1.95 Pts/J geral).",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo (informação não disponível, assumir completo)",
-      "especificidades_gols": "Club Brugge é mais efetivo em finalizações (8.33 FPFG vs 9.00 FPFG do Mechelen) e tem jogadores decisivos como Tzolis (15 G, 21 A). KV Mechelen mostra dificuldade em manter a consistência ofensiva e defensiva por 90 minutos.",
-      "momento_gols": "Club Brugge marca 27% dos seus gols entre 76-90 minutos. KV Mechelen sofre 48% dos gols entre 61-75 minutos e 26% entre 76-90 minutos, indicando uma alta vulnerabilidade no final dos jogos.",
-      "jogadores_chave": "Club Brugge: Christos Tzolis (15 G, 21 A), Nicolo Tresoldi (15 G, 3 A), Brandon Mechele (6 G, 2 A). KV Mechelen: Myron van Brederode (8 G, 5 A), Lion Lauberbach (6 G, 1 A).",
-      "placares_provaveis": "0x1, 0x2, 1x2, 0x3, 1x3.",
-      "momento_entrada": "Ao vivo para todas as entradas, esperando confirmações e melhores odds.",
-      "situacao_saida": "Cash-out parcial para proteção de lucro em caso de gol do favorito/empate. Saída total em caso de virada da zebra sem sinais de recuperação do favorito.",
+      "desfalques_chave": "elenco completo (assumido, sem dados de desfalques)",
+      "especificidades_gols": "Club Brugge tem ataque eficiente e marca consistentemente. KV Mechelen, embora menos produtivo, tem capacidade de marcar, mas sua defesa é vulnerável.",
+      "momento_gols": "Club Brugge marca 27% dos gols nos últimos 15 minutos. KV Mechelen sofre 26% dos gols nos últimos 15 minutos e 48% entre 61-75 minutos.",
+      "jogadores_chave": "Club Brugge: Christos Tzolis (15 G, 21 A). KV Mechelen: Myron van Brederode (8 G, 5 A).",
+      "placares_provaveis": "1x2, 0x2, 1x3",
+      "momento_entrada": "Ao vivo para Back Favorito e Lay Zebra; após 70min para Over Limite 70+.",
+      "situacao_saida": "Back Favorito: Proteger lucro após 1º gol, cash-out com 2 gols de vantagem. Lay Zebra: Proteger lucro após gol do favorito ou empate, cash-out após virada. Over Limite 70+: Cash-out ao atingir 1 gol acima da linha.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A entrada ao vivo permite observar a dinâmica do jogo, confirmar o favoritismo do Club Brugge e a fragilidade do Mechelen, buscando um Delta de valor maior nas odds ou gatilhos específicos como um gol inesperado da zebra.",
-        "gatilho_saida_parcial": "Se o KV Mechelen marcar o primeiro gol, reduzir exposição no Back Favorito. Se o Club Brugge marcar, garantir lucro no Lay Zebra. No Over Limite 70+, buscar cash-out ao atingir 3+ gols ou se o jogo ficar lento.",
-        "hard_stop": "Em caso de virada da zebra e manutenção da posse/chances claras, sair imediatamente do Back Favorito e Lay Zebra."
+        "justificativa_abordagem": "Permite reagir ao andamento do jogo e capturar odds de valor no live, especialmente para o Lay Zebra após um gol inesperado ou Back Favorito se a odd inicial estiver esticada.",
+        "gatilho_saida_parcial": "Gol do favorito ou empate (para Lay Zebra), gol que reduza a diferença para 1 (para Over Limite 70+).",
+        "hard_stop": "Aposta perdida (Lay Zebra: gol da zebra sem reação do favorito; Back Favorito: 2 gols de desvantagem)."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "ao_vivo",
         "favorito": "Club Brugge",
-        "odd_alvo": "1.45 (ou melhor, se disponível)",
-        "razao": "Favoritismo claro do Club Brugge, líder da liga, contra um adversário de meio de tabela com desempenho inconsistente e frágil defensivamente, especialmente no 2º tempo.",
-        "gatilho_ao_vivo": "Entrar após os primeiros 15-20 minutos se o Club Brugge demonstrar dominância tática, posse de bola no campo adversário e criação de chances, ou se a odd melhorar devido a um bom início da zebra (sem gols).",
+        "odd_alvo": "1.60-1.75",
+        "razao": "Favoritismo claro do Club Brugge (Líder da liga, 63% vitórias) contra um KV Mechelen inconsistente (8º lugar, 37% vitórias). O Brugge possui um ataque mais eficiente e uma defesa mais robusta. Entrar ao vivo permite confirmar o domínio e aguardar uma odd potencialmente melhor caso o Brugge não comece avassalador.",
+        "gatilho_ao_vivo": "Entrar após 15-20 minutos se o Club Brugge mostrar domínio territorial e ofensivo claro, ou após um gol do KV Mechelen que inflacione a odd do Brugge.",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
         "aplicavel": true,
         "modo": "ao_vivo",
         "zebra": "KV Mechelen",
-        "odd_zebra_alvo": "6.00 (ou acima)",
-        "razao": "O KV Mechelen tem um baixo percentual de vitórias (37%), um ataque menos efetivo e uma defesa que sofre muito, especialmente no final dos jogos. A probabilidade de o Mechelen vencer é baixa (estimada em 12%), tornando o 'Lay' lucrativo se a odd for inflada pelo mercado.",
-        "gatilho_ao_vivo": "Entrar no Lay Vitória KV Mechelen caso a zebra marque o primeiro gol e a odd para sua vitória aumente significativamente, permitindo uma entrada de valor contra um time que historicamente sofre viradas.",
+        "odd_zebra_alvo": "4.50-5.00",
+        "razao": "A superioridade técnica e a posição na tabela do Club Brugge indicam uma baixa probabilidade de vitória do KV Mechelen. O Mechelen apresenta fragilidade defensiva, especialmente no segundo tempo, e inconsistência na forma recente. Apostar contra sua vitória é uma estratégia de valor.",
+        "gatilho_ao_vivo": "Entrar no mercado Lay KV Mechelen ao vivo, preferencialmente se o KV Mechelen abrir o placar, capitalizando na valorização da odd da zebra e na alta probabilidade de reação do Club Brugge.",
         "stake_recomendada": "2%"
       },
       "over_limite_70": {
         "aplicavel": true,
         "favorito": "Club Brugge",
-        "indice_gols_final": "Club Brugge marca 27% dos gols entre 76-90min. KV Mechelen sofre 74% dos gols nos últimos 30 minutos de jogo (48% entre 61-75min, 26% entre 76-90min).",
-        "condicao_entrada": "Entrar se Club Brugge estiver vencendo por 2 gols de diferença após os 70 minutos de jogo.",
-        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual, ex: se 0x2, Over 2.5)",
+        "indice_gols_final": "Club Brugge marca 27% dos gols após os 75 minutos. KV Mechelen sofre 48% dos gols entre 61-75 minutos e 26% após os 75 minutos, mostrando alta vulnerabilidade no final do jogo.",
+        "condicao_entrada": "Entrar se o Club Brugge estiver vencendo por 2 gols de diferença após os 70 minutos.",
+        "mercado_sugerido": "Mais 0.5 gols ou Mais 1.5 gols (dependendo do placar e da odd)",
         "odd_esperada": "1.60 a 2.20",
         "stake_recomendada": "1%",
-        "observacoes": "A alta fragilidade defensiva do Mechelen no final do jogo, combinada com a capacidade de finalização do Brugge, cria um cenário ideal para mais gols."
+        "observacoes": "Ataque forte do Brugge combinado com a defesa frágil do Mechelen no final dos jogos cria um cenário ideal. Monitorar a pressão ofensiva do Brugge."
       },
       "back_2x2": null,
       "back_goleada": null,
       "confirmacao_visual": {
         "aplicavel": true,
-        "perfil_tatico": "Club Brugge deve impor seu ritmo, com alta posse de bola e pressão no campo adversário. KV Mechelen deve tentar defender em bloco baixo e buscar contra-ataques esporádicos.",
-        "gatilhos_aceleracao": "Observar a velocidade da transição ofensiva do Brugge, a subida dos laterais e o encaixe defensivo para anular as tentativas de contra-ataque do Mechelen.",
-        "alerta_armadilha": "Um início forte e inesperado do KV Mechelen com chances claras pode indicar uma armadilha, ou se o Brugge demonstrar lentidão na construção de jogadas.",
-        "mercado_recomendado": "Back Favorito (Vitória Club Brugge) ou Lay Zebra (Vitória KV Mechelen).",
-        "momento_observacao": "Primeiros 15-20 minutos do 1º tempo para confirmação tática; a partir dos 60-70 minutos para oportunidades de Over Limite 70+."
+        "perfil_tatico": "Club Brugge deve buscar o controle do jogo e pressionar a defesa do Mechelen, utilizando suas pontas e o meio-campo criativo. O Mechelen provavelmente tentará compactar e explorar contra-ataques.",
+        "gatilhos_aceleracao": "Confirmar se o Club Brugge demonstra velocidade nas transições, boa ocupação de espaços no ataque e eficácia nas finalizações. Observar a quebra das linhas defensivas do Mechelen.",
+        "alerta_armadilha": "Mechelen em casa pode ser mais combativo. Se o Brugge não conseguir impor seu ritmo e sofrer com a marcação, pode indicar um jogo mais difícil. Atenção a um Mechelen que crie chances perigosas apesar de ser dominado.",
+        "mercado_recomendado": "Back Favorito (Club Brugge) ou Over Limite 70+.",
+        "momento_observacao": "Primeiros 15-20 minutos para Back Favorito, e do minuto 60 em diante para Over Limite 70+ se o placar for favorável."
+      }
+    },
+    {
+      "horario": "15:30",
+      "liga": "Belgium Pro League",
+      "jogo": "KAA Gent x Union Saint-Gilloise",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais 0.5/1.5 gols (Over Limite 70+)",
+      "odd_principal": "1.60-2.20",
+      "fair_odd_calculada": "Não aplicável diretamente, depende da odd em live",
+      "valor_esperado": "+EV em cenário de gols tardios",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Gent marca 0.74 gols e Union SG marca 0.58 gols no 1ºT. Gent com 84% Over 0.5 HT. Union SG com 63% Over 0.5 HT.",
+      "desempenho_2t": "Gent marca 0.79 gols e Union SG marca 0.63 gols no 2ºT. Union SG sofre 50% dos seus gols entre 76-90 minutos.",
+      "motivacao_tecnica": "Este é um confronto muito equilibrado em termos de pontos e vitórias na liga, não configurando um favorito claro para Back Favorito. No entanto, o padrão de gols no final do jogo é muito expressivo. O Union Saint-Gilloise sofre 50% dos seus gols nos últimos 15 minutos (76-90), e o KAA Gent marca 34% dos seus gols nesse mesmo período. Essa estatística de gols tardios é um forte indicador para a aplicação do método Over Limite 70+, assumindo que haja um favorito no placar (ou seja, o Gent esteja vencendo por 2 ou mais gols após 70 minutos).",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
+      "mando_de_campo": "Gent faz 1.53 Pts/J em casa, Union SG faz 1.53 Pts/J fora. Equilibrado.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (assumido, sem dados de desfalques)",
+      "especificidades_gols": "Gent é mais propenso a marcar no final do jogo. Union SG é extremamente vulnerável defensivamente no final das partidas.",
+      "momento_gols": "Gent marca 34% dos gols entre 76-90 min. Union SG sofre 50% dos gols entre 76-90 min.",
+      "jogadores_chave": "Gent: Wilfried Kanga (12 G, 5 A). Union SG: Kevin Rodríguez (9 G, 1 A).",
+      "placares_provaveis": "2x1, 1x1, 2x2",
+      "momento_entrada": "Ao vivo, após 70 minutos, se o Gent estiver vencendo por pelo menos 2 gols de diferença.",
+      "situacao_saida": "Cash-out ao atingir 1 gol acima da linha do Over Limite 70+.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A entrada é gatilhada por um cenário de placar e tempo específico, maximizando o valor do padrão de gols tardios identificado.",
+        "gatilho_saida_parcial": "Não aplicável, foco no evento final do gol.",
+        "hard_stop": "Aposta perdida se não houver gol ou o placar final não atingir o objetivo."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "KAA Gent (no placar)",
+        "indice_gols_final": "Union Saint-Gilloise sofre 50% dos seus gols entre 76-90 minutos. KAA Gent marca 34% dos seus gols nesse período. Union SG tem 37% de Over 2.5 e 68% de Over 0.5 no 2T. Gent tem 42% de Over 2.5 e 79% de Over 0.5 no 2T.",
+        "condicao_entrada": "Entrar se o KAA Gent estiver vencendo por 2 ou mais gols de diferença após os 70 minutos de jogo.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual, ex: se 2x0, entrar em Over 2.5)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "Foco na vulnerabilidade do Union SG em sofrer gols nos últimos minutos e na capacidade do Gent de marcar. A leitura do jogo deve confirmar a pressão ofensiva do Gent."
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "O Gent, em casa, deve buscar o domínio e a iniciativa. O Union SG é um time que também pode ser ofensivo, mas mostrou vulnerabilidade no final. A observação deve focar na fadiga defensiva do Union SG.",
+        "gatilhos_aceleracao": "Observar o Union SG recuando as linhas, com espaços na defesa ou jogadores com sinais de cansaço. Aceleração das jogadas ofensivas do Gent, passes verticais e finalizações.",
+        "alerta_armadilha": "Se o jogo estiver muito lento ou o Union SG conseguir fechar bem a defesa mesmo com o placar adverso. Um Gent muito passivo após conseguir a vantagem.",
+        "mercado_recomendado": "Over Limite 70+.",
+        "momento_observacao": "Principalmente entre 60 e 75 minutos, para confirmar o cenário de entrada."
+      }
+    },
+    {
+      "horario": "16:00",
+      "liga": "Netherlands Eredivisie",
+      "jogo": "Utrecht x Heerenveen",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Utrecht",
+      "odd_principal": "1.50-1.65",
+      "fair_odd_calculada": "1.43-1.54",
+      "valor_esperado": "+EV se a odd de mercado for > 1.54",
+      "mercado_secundario": "Lay Heerenveen (contra a vitória)",
+      "odd_secundaria": "5.00-6.00",
+      "desempenho_1t": "Utrecht venceu 59% dos 1º tempos e marca 0.82 gols. Heerenveen sofre 0.82 gols no 1ºT. Utrecht tem 82% de Over 0.5 HT.",
+      "desempenho_2t": "Utrecht marca 1.00 gol no 2ºT. Heerenveen sofre 0.88 gols no 2ºT.",
+      "motivacao_tecnica": "O Utrecht é um favorito muito forte neste confronto. Está em 3º lugar com 1.94 pontos por jogo e 59% de vitórias, enquanto o Heerenveen está em 7º com 1.24 pontos/jogo e 35% de vitórias. A defesa do Utrecht é excepcional (0.76 gols sofridos/jogo vs 1.71 do Heerenveen), e o time está em uma fase espetacular (5 vitórias consecutivas). O Heerenveen, por outro lado, sofre muitos gols (1.71/jogo, xG contra 1.75) e é inconsistente. O Utrecht tem uma alta probabilidade de marcar cedo (82% Over 0.5 HT e 26% dos gols entre 31-45 min), tornando a entrada pré-jogo para Back Favorito atraente. O Over Limite 70+ é viável, pois o Heerenveen sofre gols ao longo da partida e o Utrecht possui um ataque consistente.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Utrecht faz 1.94 Pts/J em casa. Muito forte.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (assumido, sem dados de desfalques)",
+      "especificidades_gols": "Utrecht tem defesa muito sólida e ataque eficiente, especialmente antes do intervalo. Heerenveen tem ataque que marca, mas defesa muito vazada.",
+      "momento_gols": "Utrecht marca 26% dos gols entre 31-45 min e 23% entre 61-75 min. Heerenveen sofre 21% dos gols entre 16-30 min e 21% entre 31-45 min.",
+      "jogadores_chave": "Utrecht: Gjivai Zechiël (8 G, 7 A). Heerenveen: Jacob Trenskow (12 G, 5 A).",
+      "placares_provaveis": "2x0, 2x1, 3x0",
+      "momento_entrada": "Pré-jogo para Back Favorito. Ao vivo para Lay Zebra e após 70min para Over Limite 70+.",
+      "situacao_saida": "Back Favorito: Proteger lucro após 1º gol, cash-out com 2 gols de vantagem. Lay Zebra: Proteger lucro após gol do favorito ou empate, cash-out após virada. Over Limite 70+: Cash-out ao atingir 1 gol acima da linha.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "O favoritismo extremo do Utrecht, aliado à sua excelente fase e bom desempenho no 1º tempo, justifica uma entrada pré-jogo para capturar o valor da odd antes de possíveis movimentos. As outras entradas complementam a estratégia.",
+        "gatilho_saida_parcial": "Gol do favorito (para Back Favorito), gol do favorito ou empate (para Lay Zebra), gol que reduza a diferença para 1 (para Over Limite 70+).",
+        "hard_stop": "Aposta perdida (Lay Zebra: gol da zebra sem reação do favorito; Back Favorito: 2 gols de desvantagem)."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Utrecht",
+        "odd_alvo": "1.50-1.65",
+        "razao": "Utrecht é um favorito com estatísticas dominantes (1.94 Pts/J, 59% vitórias, 0.76 gols sofridos/jogo) e em ótima fase (5 vitórias consecutivas). Joga contra um Heerenveen com defesa frágil (1.71 gols sofridos/jogo). A entrada pré-jogo é justificada pela força do Utrecht desde o início do jogo (82% Over 0.5 HT, 59% vitórias no 1º tempo).",
+        "gatilho_ao_vivo": "N/A (pré-jogo)",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "zebra": "Heerenveen",
+        "odd_zebra_alvo": "5.00-6.00",
+        "razao": "A defesa do Heerenveen é muito frágil (1.71 gols sofridos/jogo, xG contra 1.75) e o time é inconsistente, contrastando com a solidez do Utrecht. A probabilidade de vitória do Heerenveen é baixa, tornando o Lay uma boa opção.",
+        "gatilho_ao_vivo": "Entrar no mercado Lay Heerenveen ao vivo, especialmente se o Heerenveen marcar primeiro, capitalizando na valorização da odd da zebra e na alta probabilidade de virada do Utrecht.",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "Utrecht",
+        "indice_gols_final": "Utrecht marca 19% dos gols entre 76-90 min. Heerenveen sofre 17% dos gols entre 76-90 min e tem 71% de Over 2.5 gols no geral.",
+        "condicao_entrada": "Entrar se o Utrecht estiver vencendo por 2 ou mais gols de diferença após os 70 minutos de jogo.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "Ataque eficiente do Utrecht contra uma defesa vulnerável do Heerenveen, que tem histórico de muitos gols no total do jogo, favorece um gol tardio."
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Utrecht deve impor seu ritmo, controlando o meio-campo e explorando as deficiências do Heerenveen. Heerenveen provavelmente tentará se defender e buscar contra-ataques. Foco na pressão alta do Utrecht e na dificuldade do Heerenveen em sair jogando.",
+        "gatilhos_aceleracao": "Utrecht criando chances claras e demonstrando eficácia nas finalizações. Heerenveen cometendo erros defensivos e com dificuldades na marcação.",
+        "alerta_armadilha": "Utrecht mostrar passividade no ataque ou Heerenveen conseguir encaixar uma defesa sólida, tornando o jogo truncado. Heerenveen aproveitando espaços para contra-ataques eficazes.",
+        "mercado_recomendado": "Back Favorito (Utrecht) ou Over Limite 70+.",
+        "momento_observacao": "Primeiros 15-20 minutos para Back Favorito. Após os 60 minutos para Over Limite 70+ se o placar for favorável."
+      }
+    },
+    {
+      "horario": "16:00",
+      "liga": "Chile Primera B",
+      "jogo": "Recoleta x Cobreloa",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Recoleta",
+      "odd_principal": "1.90-2.10",
+      "fair_odd_calculada": "1.82-2.00",
+      "valor_esperado": "+EV se a odd de mercado for > 2.00",
+      "mercado_secundario": "Mais 0.5/1.5 gols (Over Limite 70+)",
+      "odd_secundaria": "1.60-2.20",
+      "desempenho_1t": "Recoleta marca 0.67 gols e Cobreloa 0.60 gols no 1ºT. Recoleta tem 83% Over 0.5 HT. Cobreloa tem 60% Over 0.5 HT. *Amostra pequena de 6/5 jogos.*",
+      "desempenho_2t": "Recoleta marca 0.67 gols e Cobreloa 0.40 gols no 2ºT. Recoleta tem 83% Over 0.5 2ºT. Cobreloa tem 60% Over 0.5 2ºT. *Amostra pequena de 6/5 jogos.*",
+      "motivacao_tecnica": "Apesar da amostra pequena de jogos (6 e 5 jogos), o Recoleta (1.67 pontos/jogo, 50% vitórias) apresenta vantagem sobre o Cobreloa (1.00 pontos/jogo, 20% vitórias). O Cobreloa está em péssima fase (D W D L L) e possui uma defesa muito frágil (1.80 gols sofridos/jogo, xG contra 1.82). Recoleta tem um ataque razoável (1.33 gols/jogo) e tem a vantagem de jogar em casa. Ambos os times mostram padrões de gols no final do jogo: Recoleta marca 38% dos gols e sofre 50% entre 76-90 min, enquanto Cobreloa não marca e sofre 33% nesse período, tornando o Over Limite 70+ uma entrada interessante se o Recoleta estiver em vantagem.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto (amostra pequena)",
+      "mando_de_campo": "Recoleta com 1.67 Pts/J em casa. *Amostra pequena.*",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (assumido, sem dados de desfalques)",
+      "especificidades_gols": "Recoleta é capaz de marcar no final. Cobreloa é muito vulnerável defensivamente, especialmente nos minutos finais e não marca nesse período.",
+      "momento_gols": "Recoleta marca 38% dos gols entre 76-90 min e sofre 50% nesse período. Cobreloa não marca e sofre 33% entre 76-90 min.",
+      "jogadores_chave": "Recoleta: Pedro Sánchez Torrealba (4 G, 0 A). Cobreloa: Gustavo Gotti (8 G, 1 A).",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "Ao vivo para Back Favorito e após 70min para Over Limite 70+.",
+      "situacao_saida": "Back Favorito: Proteger lucro após 1º gol, cash-out com 2 gols de vantagem. Over Limite 70+: Cash-out ao atingir 1 gol acima da linha.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Devido à amostra pequena de jogos, a entrada ao vivo para Back Favorito permite uma melhor confirmação tática. O Over Limite 70+ capitaliza sobre os padrões de gols nos minutos finais, com Cobreloa sofrendo muito.",
+        "gatilho_saida_parcial": "Gol do favorito. Em Over Limite 70+, gol que reduza a diferença para 1.",
+        "hard_stop": "Aposta perdida (Back Favorito: 2 gols de desvantagem; Over Limite 70+: não houver gol ou placar não atingir objetivo)."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "Recoleta",
+        "odd_alvo": "1.90-2.10",
+        "razao": "Recoleta, jogando em casa, mostra superioridade em pontos por jogo (1.67 vs 1.00) e vitórias (50% vs 20%). Cobreloa tem uma defesa muito frágil (1.80 gols sofridos/jogo) e está em má fase. Entrar ao vivo permite confirmar a dominância do Recoleta e buscar uma odd de valor, dada a amostra limitada de dados.",
+        "gatilho_ao_vivo": "Entrar após 15-20 minutos se o Recoleta mostrar domínio ofensivo e criar chances, ou se a odd melhorar após um eventual gol do Cobreloa.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "Recoleta",
+        "indice_gols_final": "Recoleta marca 38% dos gols entre 76-90 min. Cobreloa sofre 33% dos gols entre 76-90 min e não marca nesse período. Ambos têm alta porcentagem de Over 0.5 no 2º tempo.",
+        "condicao_entrada": "Entrar se o Recoleta estiver vencendo por 2 ou mais gols de diferença após os 70 minutos de jogo.",
+        "mercado_sugerido": "Mais X.5 gols (uma linha acima do placar atual)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "A fragilidade defensiva do Cobreloa e a capacidade do Recoleta de marcar no final dos jogos, aliadas ao fato de Cobreloa não marcar nesse período, cria um bom cenário. *Amostra de 6/5 jogos.*"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Recoleta deve ser o time mais ativo ofensivamente. Cobreloa provavelmente tentará se defender e limitar os danos, buscando contra-ataques. A observação deve focar na capacidade do Recoleta de romper a defesa do Cobreloa.",
+        "gatilhos_aceleracao": "Recoleta mostrando velocidade nas transições e criando chances claras de gol. Cobreloa com dificuldades em segurar o ataque e com erros defensivos visíveis.",
+        "alerta_armadilha": "Cobreloa conseguindo frustrar o Recoleta com uma defesa compacta, ou o Recoleta não mostrando a intensidade esperada no ataque. Um jogo com muitas faltas e poucas chances.",
+        "mercado_recomendado": "Back Favorito (Recoleta) ou Over Limite 70+.",
+        "momento_observacao": "Primeiros 15-20 minutos para Back Favorito. Após os 60 minutos para Over Limite 70+ se o placar for favorável."
+      }
+    },
+    {
+      "horario": "23:00",
+      "liga": "Mexico Liga MX",
+      "jogo": "Cruz Azul x Pumas UNAM",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Cruz Azul",
+      "odd_principal": "1.75",
+      "fair_odd_calculada": "1.55",
+      "valor_esperado": "+12.9% EV — odd 1.75 vs Fair Odd 1.55",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Cruz Azul marcou 0.90 e sofreu 0.57 no 1ºT. Pumas UNAM marcou 0.95 e sofreu 0.70 no 1ºT.",
+      "desempenho_2t": "Cruz Azul marcou 1.10 e sofreu 0.48 no 2ºT. Pumas UNAM marcou 0.65 e sofreu 0.80 no 2ºT.",
+      "motivacao_tecnica": "O Cruz Azul (1º lugar, 2.24 PPG) é o favorito contra o Pumas UNAM (3º lugar, 1.55 PPG). Cruz Azul tem um ataque mais eficiente (2.00 GM/jogo, 2.01 xG) e uma defesa mais sólida (1.05 GS/jogo, 1.00 xGA) em comparação ao Pumas (1.60 GM/jogo, 1.18 xG a favor e 1.50 GS/jogo, 1.75 xGA contra). O favoritismo é claro, mas não extremo, o que sugere uma entrada ao vivo para Back Favorito, permitindo confirmar a intensidade do Cruz Azul em casa e potencialmente obter uma odd mais atrativa. O Pumas sofre muitos gols no segundo tempo (23% entre 76-90min), potencializando um Over Limite 70+.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Cruz Azul tem um fator casa significativo, com 67% de vitórias.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Cruz Azul tem Carlos Alberto Rodríguez Gómez (8 gols, 6 assistências), José Paradela (10 gols, 10 assistências) e Gabriel Matías Fernández Leites (14 gols, 6 assistências). Pumas UNAM tem Robert Morales (11 gols, 5 assistências) e Guillermo Martínez Ayala (9 gols). Ambos os times marcam, mas a defesa do Pumas é mais vulnerável.",
+      "momento_gols": "Cruz Azul marcou 29% dos gols entre 76-90min. Pumas UNAM sofreu 23% dos gols entre 76-90min e 27% entre 31-45min.",
+      "jogadores_chave": "Cruz Azul: José Paradela, Gabriel Matías Fernández Leites, Carlos Alberto Rodríguez Gómez. Pumas UNAM: Robert Morales, Guillermo Martínez Ayala.",
+      "placares_provaveis": "2x1, 3x1, 2x0",
+      "momento_entrada": "Ao vivo, após observar a dinâmica inicial do jogo.",
+      "situacao_saida": "Cash-out parcial ou total se Cruz Azul abrir 2 gols de vantagem. Sair se Pumas mostrar uma força ofensiva inesperada ou conseguir um gol no início.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo moderado requer confirmação visual para validar a performance e potencialmente otimizar a odd de entrada.",
+        "gatilho_saida_parcial": "Cruz Azul abrindo 2 gols de vantagem.",
+        "hard_stop": "Pumas UNAM marcando o primeiro gol e consolidando sua defesa, ou jogo travado sem grandes chances para o favorito até o intervalo."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "Cruz Azul",
+        "odd_alvo": "1.75",
+        "razao": "Cruz Azul é o líder da liga com forte desempenho em casa, ataque eficiente e defesa sólida, contra um Pumas que tem defesa mais frágil. Esperar o ao vivo para confirmar o domínio ou uma odd melhor.",
+        "gatilho_ao_vivo": "Entrar após 15-20 minutos se Cruz Azul estiver dominando o jogo, criando chances e demonstrando superioridade tática.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "zebra": "Pumas UNAM",
+        "odd_zebra_alvo": "4.00",
+        "razao": "Pumas UNAM tem desempenho inferior ao favorito, especialmente na defesa (1.50 GS, 1.75 xGA). Lay contra sua vitória é justificado.",
+        "gatilho_ao_vivo": "Lay após um gol do Cruz Azul, ou se Pumas UNAM abrir o placar inesperadamente, aumentando sua odd para Lay.",
+        "stake_recomendada": "1.5%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "favorito": "Cruz Azul",
+        "indice_gols_final": "Cruz Azul marcou 29% dos seus gols entre 76-90min. Pumas UNAM sofreu 23% dos seus gols entre 76-90min.",
+        "condicao_entrada": "Entrar se Cruz Azul estiver vencendo por 2 gols de diferença após o minuto 70.",
+        "mercado_sugerido": "Mais 0.5 gols ou Mais 1.5 gols (uma linha acima do placar)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "Ambos os times têm tendência a gols no final da partida. A defesa do Pumas tende a ceder sob pressão."
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Cruz Azul com posse de bola dominante e ofensiva, Pumas UNAM tentando ser reativo e explorar contra-ataques.",
+        "gatilhos_aceleracao": "Cruz Azul finalizando com frequência e precisão, Pumas UNAM demonstrando desorganização defensiva ou cansaço físico.",
+        "alerta_armadilha": "Cruz Azul com dificuldade na criação de jogadas ou Pumas UNAM conseguindo anular as principais armas ofensivas do favorito.",
+        "mercado_recomendado": "Back Favorito (Cruz Azul).",
+        "momento_observacao": "Primeiros 15-20 minutos."
       }
     }
   ],
-  "evitar": [],
+  "evitar": [
+    {
+      "horario": "08:30",
+      "jogo": "Minerva Punjab x Mumbai City",
+      "liga": "India Indian Super League",
+      "motivo": "Confronto entre duas equipes de alto desempenho e defesas muito sólidas (Minerva 0.60 gols sofridos/jogo, Mumbai 0.57 gols sofridos/jogo). O favoritismo não é claro o suficiente para Back Favorito, e as baixas médias de gols e Ambas Marcam (Over 2.5: Minerva 40%, Mumbai 29%; Ambas Marcam: Minerva 60%, Mumbai 29%) invalidam os métodos de gols e 2x2."
+    },
+    {
+      "horario": "09:00",
+      "jogo": "Sport Academy Kairat x Turan Turkistan",
+      "liga": "Kazakhstan First Division",
+      "motivo": "Não há um favoritismo claro entre as equipes, que têm desempenhos semelhantes e altos índices de vitória. O número de jogos analisados (2-3 partidas) é muito baixo para inferir tendências confiáveis para qualquer um dos 5 métodos, e as estatísticas não se alinham consistentemente com os critérios exigidos."
+    },
+    {
+      "horario": "10:00",
+      "jogo": "Resistencia x General Caballero JLM",
+      "liga": "Paraguay Division Intermedia",
+      "motivo": "Não há um favorito claro para Back Favorito ou Lay Zebra, pois ambos os times têm desempenho e estatísticas muito próximas. As médias de gols são baixas e o histórico de poucos jogos (3-4 partidas) torna qualquer análise estatística de Over ou Back 2x2 pouco confiável. Não se encaixa em nenhum dos 5 métodos com confiança."
+    },
+    {
+      "horario": "15:30",
+      "jogo": "RSC Anderlecht x Sint-Truiden",
+      "liga": "Belgium Pro League",
+      "motivo": "Ausência de favoritismo claro e de padrões de gols que se encaixem nos métodos. Ambos os times apresentam forma inconsistente, tornando o prognóstico incerto para os métodos Back Favorito e Lay Zebra. As estatísticas de Over/Under e BTTS não atingem os limiares necessários para Back 2x2. Nenhum cenário de goleada ou Over Limite 70+ é evidente."
+    },
+    {
+      "horario": "15:30",
+      "jogo": "Wolfsburg x Paderborn",
+      "liga": "Germany Germany Play offs 1 2",
+      "motivo": "Jogo de Play-off com Wolfsburg (Bundesliga) em péssima fase e Paderborn (2. Bundesliga) com melhor desempenho recente. Não há favoritismo claro com valor (Wolfsburg seria favorito de mercado, mas não de forma, e Paderborn não é zebra clara). Nenhuma das estatísticas de gols se alinha com os métodos de Back 2x2 ou Back Goleada."
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Saint-Étienne x Nice",
+      "liga": "France Ligue 1 2 Play offs",
+      "motivo": "Jogo de Play-off com informações insuficientes sobre o Saint-Étienne (apenas 1 jogo) e o Nice em má fase na Ligue 1 (16º). Não há favoritismo claro com valor nem padrões de gols que se encaixem nos métodos permitidos. A natureza do play-off e a discrepância de ligas tornam o jogo imprevisível."
+    },
+    {
+      "horario": "16:00",
+      "jogo": "San Antonio x SD Aucas",
+      "liga": "Ecuador Copa Ecuador",
+      "motivo": "Ausência completa de dados estatísticos para o time San Antonio, impossibilitando a avaliação de qualquer método de trading com confiança. O SD Aucas tem dados, mas não há base para comparação ou análise de valor sem informações sobre o adversário."
+    },
+    {
+      "horario": "17:00",
+      "jogo": "Benjamin Aceval x Sportivo Carapeguá",
+      "liga": "Paraguay Division Intermedia",
+      "motivo": "Os dados são muito limitados (3-4 jogos) e apresentam inconsistências significativas. Benjamin Aceval tem defesa extremamente sólida (0.33 GS) mas ataque nulo (0.33 GM). Sportivo Carapeguá sofre muitos gols (2.25 GS) mas também marca (1.25 GM). Essa contradição de perfis, juntamente com a amostra pequena, impede a aplicação confiável de qualquer um dos 5 métodos, especialmente Back 2x2 e Back Goleada."
+    },
+    {
+      "horario": "17:30",
+      "jogo": "Rionegro Águilas x Deportivo Pereira",
+      "liga": "Colombia Copa Colombia",
+      "motivo": "Dados estatísticos baseados em apenas 1 jogo para cada equipe, o que é uma amostra insuficiente para uma análise confiável e a aplicação de qualquer um dos 5 métodos. Qualquer conclusão seria baseada em informações não representativas."
+    },
+    {
+      "horario": "18:00",
+      "jogo": "Jaguares de Córdoba x Independiente Yumbo",
+      "liga": "Colombia Copa Colombia",
+      "motivo": "Dados estatísticos insuficientes e baseados em amostras muito pequenas (1 jogo por equipe), tornando a análise de padrões e favoritismo inviável e altamente incerta."
+    },
+    {
+      "horario": "21:00",
+      "jogo": "Qabala x İnter Bakı",
+      "liga": "Azerbaijan Premyer Liqası",
+      "motivo": "Confronto entre duas equipes com desempenho geral fraco e baixo índice de gols. İnter Bakı é levemente superior mas não o suficiente para ser considerado um favorito claro para Back Favorito ou Back Goleada. As estatísticas de gols (Over 2.5, Ambas Marcam, Over HT) estão muito abaixo dos critérios para Back 2x2. A média de gols baixa e a ausência de um favorito consistente desqualificam a aplicação de Over Limite 70+ e Lay Zebra."
+    }
+  ],
   "pdfs": [
     {
       "jogo": "KV Mechelen x Club Brugge",
       "arquivo": "pdfs/2026-05-21/Belgium_Pro_League/001_15h30_KV_Mechelen_x_Club_Brugge.pdf"
+    },
+    {
+      "jogo": "RSC Anderlecht x Sint-Truiden",
+      "arquivo": "pdfs/2026-05-21/Belgium_Pro_League/002_15h30_RSC_Anderlecht_x_Sint-Truiden.pdf"
+    },
+    {
+      "jogo": "KAA Gent x Union Saint-Gilloise",
+      "arquivo": "pdfs/2026-05-21/Belgium_Pro_League/003_15h30_KAA_Gent_x_Union_Saint-Gilloise.pdf"
+    },
+    {
+      "jogo": "Brøndby x København",
+      "arquivo": "pdfs/2026-05-21/Denmark_Superliga/004_13h30_Brøndby_x_København.pdf"
+    },
+    {
+      "jogo": "Ajax x Groningen",
+      "arquivo": "pdfs/2026-05-21/Netherlands_Eredivisie/005_13h45_Ajax_x_Groningen.pdf"
+    },
+    {
+      "jogo": "Utrecht x Heerenveen",
+      "arquivo": "pdfs/2026-05-21/Netherlands_Eredivisie/006_16h00_Utrecht_x_Heerenveen.pdf"
+    },
+    {
+      "jogo": "Elfsborg x Mjällby",
+      "arquivo": "pdfs/2026-05-21/Sweden_Allsvenskan/007_14h00_Elfsborg_x_Mjällby.pdf"
+    },
+    {
+      "jogo": "Qabala x İnter Bakı",
+      "arquivo": "pdfs/2026-05-21/Azerbaijan_Premyer_Liqası/008_21h00_Qabala_x_İnter_Bakı.pdf"
+    },
+    {
+      "jogo": "Recoleta x Cobreloa",
+      "arquivo": "pdfs/2026-05-21/Chile_Primera_B/009_16h00_Recoleta_x_Cobreloa.pdf"
+    },
+    {
+      "jogo": "Rionegro Águilas x Deportivo Pereira",
+      "arquivo": "pdfs/2026-05-21/Colombia_Copa_Colombia/010_17h30_Rionegro_Águilas_x_Deportivo_Pereira.pdf"
+    },
+    {
+      "jogo": "Jaguares de Córdoba x Independiente Yumbo",
+      "arquivo": "pdfs/2026-05-21/Colombia_Copa_Colombia/011_18h00_Jaguares_de_Córdoba_x_Independiente_Yumbo.pdf"
+    },
+    {
+      "jogo": "San Antonio x SD Aucas",
+      "arquivo": "pdfs/2026-05-21/Ecuador_Copa_Ecuador/012_16h00_San_Antonio_x_SD_Aucas.pdf"
+    },
+    {
+      "jogo": "Saint-Étienne x Nice",
+      "arquivo": "pdfs/2026-05-21/France_Ligue_1_2_Play_offs/013_15h45_Saint-Étienne_x_Nice.pdf"
+    },
+    {
+      "jogo": "Wolfsburg x Paderborn",
+      "arquivo": "pdfs/2026-05-21/Germany_Germany_Play_offs_1_2/014_15h30_Wolfsburg_x_Paderborn.pdf"
+    },
+    {
+      "jogo": "Kifisia x Larissa",
+      "arquivo": "pdfs/2026-05-21/Greece_Super_League/015_13h00_Kifisia_x_Larissa.pdf"
+    },
+    {
+      "jogo": "Atromitos x Panserraikos",
+      "arquivo": "pdfs/2026-05-21/Greece_Super_League/016_13h00_Atromitos_x_Panserraikos.pdf"
+    },
+    {
+      "jogo": "Panaitolikos x Asteras Tripolis",
+      "arquivo": "pdfs/2026-05-21/Greece_Super_League/017_13h00_Panaitolikos_x_Asteras_Tripolis.pdf"
+    },
+    {
+      "jogo": "ÍA x ÍBV",
+      "arquivo": "pdfs/2026-05-21/Iceland_Úrvalsdeild/018_15h00_ÍA_x_ÍBV.pdf"
+    },
+    {
+      "jogo": "Minerva Punjab x Mumbai City",
+      "arquivo": "pdfs/2026-05-21/India_Indian_Super_League/019_08h30_Minerva_Punjab_x_Mumbai_City.pdf"
+    },
+    {
+      "jogo": "Jamshedpur x Odisha FC",
+      "arquivo": "pdfs/2026-05-21/India_Indian_Super_League/020_08h30_Jamshedpur_x_Odisha_FC.pdf"
+    },
+    {
+      "jogo": "ATK Mohun Bagan x Sporting Delhi",
+      "arquivo": "pdfs/2026-05-21/India_Indian_Super_League/021_11h00_ATK_Mohun_Bagan_x_Sporting_Delhi.pdf"
+    },
+    {
+      "jogo": "Inter Kashi x East Bengal",
+      "arquivo": "pdfs/2026-05-21/India_Indian_Super_League/022_11h00_Inter_Kashi_x_East_Bengal.pdf"
+    },
+    {
+      "jogo": "Ekibastuz x Akademiya Ontustik",
+      "arquivo": "pdfs/2026-05-21/Kazakhstan_First_Division/023_07h00_Ekibastuz_x_Akademiya_Ontustik.pdf"
+    },
+    {
+      "jogo": "Aktobe Jas x Yelimay II",
+      "arquivo": "pdfs/2026-05-21/Kazakhstan_First_Division/024_08h00_Aktobe_Jas_x_Yelimay_II.pdf"
+    },
+    {
+      "jogo": "Sport Academy Kairat x Turan Turkistan",
+      "arquivo": "pdfs/2026-05-21/Kazakhstan_First_Division/025_09h00_Sport_Academy_Kairat_x_Turan_Turkistan.pdf"
+    },
+    {
+      "jogo": "Astana II x Shakhter Karagandy",
+      "arquivo": "pdfs/2026-05-21/Kazakhstan_First_Division/026_11h00_Astana_II_x_Shakhter_Karagandy.pdf"
+    },
+    {
+      "jogo": "Cruz Azul x Pumas UNAM",
+      "arquivo": "pdfs/2026-05-21/Mexico_Liga_MX/027_23h00_Cruz_Azul_x_Pumas_UNAM.pdf"
+    },
+    {
+      "jogo": "Resistencia x General Caballero JLM",
+      "arquivo": "pdfs/2026-05-21/Paraguay_Division_Intermedia/028_10h00_Resistencia_x_General_Caballero_JLM.pdf"
+    },
+    {
+      "jogo": "Benjamin Aceval x Sportivo Carapeguá",
+      "arquivo": "pdfs/2026-05-21/Paraguay_Division_Intermedia/029_17h00_Benjamin_Aceval_x_Sportivo_Carapeguá.pdf"
+    },
+    {
+      "jogo": "Al Nassr x Dhamk",
+      "arquivo": "pdfs/2026-05-21/Saudi_Arabia_Professional_League/030_15h00_Al_Nassr_x_Dhamk.pdf"
+    },
+    {
+      "jogo": "Al Kholood x Al Fateh",
+      "arquivo": "pdfs/2026-05-21/Saudi_Arabia_Professional_League/031_15h00_Al_Kholood_x_Al_Fateh.pdf"
+    },
+    {
+      "jogo": "Al Hazm x Al Taawon",
+      "arquivo": "pdfs/2026-05-21/Saudi_Arabia_Professional_League/032_15h00_Al_Hazm_x_Al_Taawon.pdf"
+    },
+    {
+      "jogo": "Al Riyadh x Al Akhdoud",
+      "arquivo": "pdfs/2026-05-21/Saudi_Arabia_Professional_League/033_15h00_Al_Riyadh_x_Al_Akhdoud.pdf"
+    },
+    {
+      "jogo": "Al Feiha x Al Hilal",
+      "arquivo": "pdfs/2026-05-21/Saudi_Arabia_Professional_League/034_15h00_Al_Feiha_x_Al_Hilal.pdf"
+    },
+    {
+      "jogo": "Neom SC x Al Ittifaq",
+      "arquivo": "pdfs/2026-05-21/Saudi_Arabia_Professional_League/035_15h00_Neom_SC_x_Al_Ittifaq.pdf"
+    },
+    {
+      "jogo": "Al Ittihad x Al Quadisiya",
+      "arquivo": "pdfs/2026-05-21/Saudi_Arabia_Professional_League/036_15h00_Al_Ittihad_x_Al_Quadisiya.pdf"
+    },
+    {
+      "jogo": "Partick Thistle x St. Mirren",
+      "arquivo": "pdfs/2026-05-21/Scotland_Scotland_Play-offs_12/037_16h00_Partick_Thistle_x_St_Mirren.pdf"
+    },
+    {
+      "jogo": "Deportivo La Guaira x Independiente Rivadavia",
+      "arquivo": "pdfs/2026-05-21/South_America_Copa_Libertadores/038_19h00_Deportivo_La_Guaira_x_Independiente_Rivadavia.pdf"
+    },
+    {
+      "jogo": "Universidad Católica x Barcelona",
+      "arquivo": "pdfs/2026-05-21/South_America_Copa_Libertadores/039_21h30_Universidad_Católica_x_Barcelona.pdf"
+    },
+    {
+      "jogo": "Peñarol x Corinthians",
+      "arquivo": "pdfs/2026-05-21/South_America_Copa_Libertadores/040_21h30_Peñarol_x_Corinthians.pdf"
+    },
+    {
+      "jogo": "Academia Puerto Cabello x Juventud",
+      "arquivo": "pdfs/2026-05-21/South_America_Copa_Sudamericana/041_19h00_Academia_Puerto_Cabello_x_Juventud.pdf"
+    },
+    {
+      "jogo": "Atlético Mineiro x Cienciano",
+      "arquivo": "pdfs/2026-05-21/South_America_Copa_Sudamericana/042_19h00_Atlético_Mineiro_x_Cienciano.pdf"
+    },
+    {
+      "jogo": "Racing Club x Caracas",
+      "arquivo": "pdfs/2026-05-21/South_America_Copa_Sudamericana/043_21h00_Racing_Club_x_Caracas.pdf"
+    },
+    {
+      "jogo": "Blooming x Carabobo",
+      "arquivo": "pdfs/2026-05-21/South_America_Copa_Sudamericana/044_21h30_Blooming_x_Carabobo.pdf"
+    },
+    {
+      "jogo": "Macará x Alianza Atlético",
+      "arquivo": "pdfs/2026-05-21/South_America_Copa_Sudamericana/045_23h00_Macará_x_Alianza_Atlético.pdf"
+    },
+    {
+      "jogo": "Shakhtar Donetsk x Kolos Kovalivka",
+      "arquivo": "pdfs/2026-05-21/Ukraine_Ukrainian_Premier_League/046_09h30_Shakhtar_Donetsk_x_Kolos_Kovalivka.pdf"
     }
   ]
 }
