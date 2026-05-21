@@ -1,0 +1,11 @@
+name = "analises-trader-api"
+main = "index.js"
+compatibility_date = "2024-09-01"
+
+# Cron triggers — todos definidos no painel também
+[triggers]
+crons = [
+  "* * * * *",       # A cada minuto: notifica início de jogos + monitor ao vivo (a cada 5min)
+  "5 * * * *",       # Min 5 de cada hora: auditoria
+  "59 23 * * *",     # 23:59 todo dia: resumo diário
+]
