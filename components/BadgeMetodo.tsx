@@ -165,3 +165,40 @@ export function BadgeModo({
 
 // =====================================================================
 // Helpers de MODO (pré-jogo / ao vivo) por entrada
+
+// =====================================================================
+// Ranking de métodos por confiança (stake recomendada como proxy)
+// =====================================================================
+
+// Extrai número de uma string de stake (ex: "2%" -> 2, "1.5u" -> 1.5)
+function parseStake(valor: unknown): number {
+  if (typeof valor === 'number') return valor;
+  if (typeof valor !== 'string') return 0;
+  const m = valor.match(/(\d+([.,]\d+)?)/);
+  if (!m) return 0;
+  return parseFloat(m[1].replace(',', '.'));
+}
+
+// Ordem fixa de desempate (prioridade quando stake é igual)
+const ORDEM_FIXA: Record<string, number> = {
+  back_favorito: 6,
+  over_limite_70: 5,
+  back_2x2: 4,
+  lay_zebra: 3,
+  back_goleada: 2,
+  confirmacao_visual: 1,
+};
+
+// Retorna os métodos ativos de uma entrada, ordenados por confiança (maior primeiro).
+// Usa a stake recomendada como proxy de confiança; desempata pela ordem fixa.
+export function metodosRankeados(entrada: Entrada): string[] {
+  const ativos = metodosAtivos(entrada);
+  return ativos
+    .map((key) => {
+      const obj = (entrada as any)[key] || {};
+      const stake = parseStake(obj.stake_recomendada);
+      return { key, stake, ordem: ORDEM_FIXA[key] || 0 };
+    })
+    .sort((a, b) => (b.stake - a.stake) || (b.ordem - a.ordem))
+    .map((x) => x.key);
+}

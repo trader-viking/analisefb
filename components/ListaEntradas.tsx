@@ -5,7 +5,7 @@ import Link from 'next/link';
 import {
   ExternalLink, TrendingUp, Clock, Trophy, Filter, X,
 } from 'lucide-react';
-import { BadgeMetodo, metodosAtivos, METODOS_INFO, modoDoMetodo } from '@/components/BadgeMetodo';
+import { BadgeMetodo, metodosAtivos, metodosRankeados, METODOS_INFO, modoDoMetodo } from '@/components/BadgeMetodo';
 import BotoesApostaMini from '@/components/BotoesApostaMini';
 import type { Entrada } from '@/lib/relatorios';
 
@@ -33,12 +33,75 @@ function parseHora(horario?: string): number | null {
   return isNaN(h) ? null : h;
 }
 
+// Tipo do placar retornado pelo Worker
+type Placar = {
+  casa: string;
+  fora: string;
+  gols_casa: number | null;
+  gols_fora: number | null;
+  status: 'finalizado' | 'em_andamento' | 'agendado';
+};
+
+function normalizarNome(s: string): string {
+  return (s || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9 ]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+// Casa o nome do jogo do relatório ("Casa x Fora") com um placar da API
+function placarCombina(jogoStr: string, placar: Placar): boolean {
+  const partes = normalizarNome(jogoStr).split(/ x | vs | - /);
+  if (partes.length !== 2) return false;
+  const [b1, b2] = partes.map((s) => s.trim());
+  const c = normalizarNome(placar.casa);
+  const f = normalizarNome(placar.fora);
+  const match = (busca: string, real: string) => {
+    const palavras = busca.split(' ').filter((p) => p.length >= 4);
+    if (palavras.length === 0) return real.includes(busca);
+    return palavras.some((p) => real.includes(p));
+  };
+  return (match(b1, c) && match(b2, f)) || (match(b1, f) && match(b2, c));
+}
+
 export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
   // Estado dos filtros
   const [metodosAtivos_, setMetodosAtivos_] = useState<Set<string>>(new Set());
   const [ligasAtivas, setLigasAtivas] = useState<Set<string>>(new Set());
   const [horariosAtivos, setHorariosAtivos] = useState<Set<Janela>>(new Set());
   const [carregado, setCarregado] = useState(false);
+  const [placares, setPlacares] = useState<Placar[]>([]);
+
+  // Busca placares do dia no Worker (pra mostrar jogos encerrados)
+  useEffect(() => {
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+    if (!apiUrl) return;
+    // relatorioSlug é a data (AAAA-MM-DD)
+    const data = relatorioSlug;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(data)) return;
+
+    let cancelado = false;
+    fetch(`${apiUrl}/placares?data=${data}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((dados) => {
+        if (!cancelado && dados && Array.isArray(dados.placares)) {
+          setPlacares(dados.placares);
+        }
+      })
+      .catch(() => {/* silencioso — sem placar não quebra o site */});
+    return () => { cancelado = true; };
+  }, [relatorioSlug]);
+
+  // Função que retorna o placar de uma entrada (ou null)
+  function placarDe(jogo: string): Placar | null {
+    for (const p of placares) {
+      if (placarCombina(jogo, p)) return p;
+    }
+    return null;
+  }
 
   // Carrega filtros salvos do localStorage (por relatório)
   useEffect(() => {
@@ -259,9 +322,26 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
       ) : (
         <div className="grid sm:grid-cols-2 gap-3">
           {entradasFiltradas.map((entrada) => {
-            const mAtivos = metodosAtivos(entrada);
+            // Métodos ordenados por confiança (maior primeiro)
+            const ranking = metodosRankeados(entrada);
+
+            // Decide quais métodos mostrar no card:
+            // - Se há filtro de método ativo: mostra só os métodos filtrados que esta entrada tem
+            // - Senão: mostra o principal + secundário (top 2 por confiança)
+            let mAtivos: string[];
+            if (metodosAtivos_.size > 0) {
+              mAtivos = ranking.filter((m) => metodosAtivos_.has(m));
+            } else {
+              mAtivos = ranking.slice(0, 2);
+            }
+
+            // Placar do jogo (se disponível)
+            const placar = placarDe(entrada.jogo);
+            const encerrado = placar?.status === 'finalizado';
+            const aoVivo = placar?.status === 'em_andamento';
+
             return (
-              <div key={entrada._slug} className="card p-4 flex flex-col gap-3">
+              <div key={entrada._slug} className={`card p-4 flex flex-col gap-3 ${encerrado ? 'opacity-90' : ''}`}>
                 <div className="flex items-center gap-3 text-xs text-ink-500">
                   {entrada.horario && (
                     <span className="inline-flex items-center gap-1">
@@ -275,9 +355,28 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
                       <span className="truncate">{entrada.liga}</span>
                     </span>
                   )}
+                  {/* Status do jogo */}
+                  {encerrado && (
+                    <span className="ml-auto inline-flex items-center gap-1 px-2 py-0.5 rounded bg-ink-200 text-ink-700 dark:bg-ink-700 dark:text-ink-200 font-semibold">
+                      Encerrado
+                    </span>
+                  )}
+                  {aoVivo && (
+                    <span className="ml-auto inline-flex items-center gap-1 px-2 py-0.5 rounded bg-red-600 text-white font-semibold animate-pulse">
+                      <span className="w-1.5 h-1.5 rounded-full bg-white"></span>
+                      Ao vivo
+                    </span>
+                  )}
                 </div>
 
-                <div className="font-semibold leading-snug">{entrada.jogo}</div>
+                <div className="flex items-center justify-between gap-2">
+                  <div className="font-semibold leading-snug">{entrada.jogo}</div>
+                  {placar && (placar.gols_casa !== null && placar.gols_fora !== null) && (
+                    <div className={`shrink-0 font-bold tabular-nums text-lg ${encerrado ? 'text-ink-700 dark:text-ink-200' : 'text-red-600 dark:text-red-400'}`}>
+                      {placar.gols_casa}<span className="text-ink-400 mx-0.5">x</span>{placar.gols_fora}
+                    </div>
+                  )}
+                </div>
 
                 {mAtivos.length > 0 && (
                   <div className="flex flex-wrap gap-1">

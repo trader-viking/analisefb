@@ -1,159 +1,94 @@
-# Worker v3 — Sistema Completo de Notificações
+# Worker v2 — API de trades + Auditoria Automática
 
-## O que esse Worker faz
+Esta versão adiciona auditoria automática que cruza placares reais (via API-Football)
+com as entradas dos métodos e atualiza o status (green/red) sozinha, a cada hora.
 
-| Função | Quando |
-|--------|--------|
-| 🔔 Notifica 5min antes de cada jogo | A cada minuto |
-| 🚨 Monitor ao vivo (gatilhos Over70/Lay Zebra/Back Favorito) | A cada 5min |
-| ✅ Auditoria (Green/Red) + notificação | A cada hora |
-| 📊 Resumo diário (PL dia + mês) | 23:59 todo dia |
-| 🔧 CRUD de trades (do site) | Sob demanda |
+## O que mudou em relação ao Worker original
 
-## Como atualizar (do v2 pro v3)
+- ✅ Cron trigger: roda a cada hora (5min após o início)
+- ✅ Endpoint `POST /auditar` pra rodar manualmente
+- ✅ Lógica de checagem específica por método (Back Favorito, Lay Zebra, Over Limite 70+, Back 2x2, Back Goleada)
+- ✅ Salva placar final + placar HT no trade pra você ter histórico
 
-### 1. Atualizar código
+## Como atualizar o Worker existente
 
-1. No painel do Cloudflare → Worker `analises-trader-api`
-2. Clica em **Edit code**
-3. Apaga tudo
-4. Cola o conteúdo do novo `index.js`
-5. **Save and Deploy**
+### 1. Adicionar nova variável: chave da API-Football
 
-### 2. Adicionar variável `SITE_URL` (opcional)
+1. https://www.api-football.com/ → cria conta grátis
+2. Dashboard → copia a **API Key**
+3. No painel do Cloudflare, no Worker `analises-trader-api`:
+   - **Settings** → **Variables and Secrets** → **Add variable**
+   - Nome: `API_FOOTBALL_KEY`
+   - Valor: (cola a chave)
+   - Tipo: **Secret** 🔐
+4. Salva
 
-Settings → Variables and Secrets → Add:
-- Nome: `SITE_URL`
-- Valor: `https://analisefb.pages.dev`
-- Tipo: Plaintext
+### 2. Atualizar o código do Worker
 
-(Se não criar, usa o default que está no código)
+1. No Worker `analises-trader-api`, clica em **Edit code**
+2. **Apaga TUDO** que está no editor
+3. Cola o conteúdo do novo `index.js`
+4. Clica em **Save and Deploy**
 
-### 3. Configurar crons
+### 3. Configurar o Cron Trigger
 
-Settings → Triggers → Cron Triggers
+1. No Worker, vai em **Settings** → **Triggers**
+2. Procura a seção **Cron Triggers**
+3. Clica em **Add Cron Trigger**
+4. Cron expression: `5 * * * *` (a cada hora, no minuto 5)
+5. Save
 
-Você precisa de **3 crons** ativos:
+Pronto! O Worker vai rodar a auditoria automaticamente a cada hora.
 
-| Expression | Para que serve |
-|------------|----------------|
-| `* * * * *` | A cada minuto: notifica início + monitor ao vivo |
-| `5 * * * *` | A cada hora no minuto 5: auditoria |
-| `59 23 * * *` | 23:59 todo dia: resumo |
+## Rodar auditoria manual (pra testar)
 
-Se já tinha o `5 * * * *` configurado da versão anterior, só precisa **adicionar os outros dois**.
-
-### 4. Testar manualmente
-
-Antes de esperar os crons, testa cada função:
-
-**Início de jogos:**
+Acessa no navegador (logado no Cloudflare Access do site):
 ```
-POST https://analises-trader-api.SEU-USUARIO.workers.dev/inicio-jogos
-```
-(Só dispara se houver jogo nos próximos 4-6 minutos)
-
-**Monitor ao vivo:**
-```
-POST https://analises-trader-api.SEU-USUARIO.workers.dev/monitor
+https://analises-trader-api.SEU-SUBDOMINIO.workers.dev/auditar
 ```
 
-**Resumo diário:**
-```
-POST https://analises-trader-api.SEU-USUARIO.workers.dev/resumo
-```
+**Atenção:** isso é um POST, navegador faz GET. Pra testar manualmente, use o
+botão "Rodar auditoria agora" que vamos adicionar no site (próxima atualização).
 
-**Auditoria:**
-```
-POST https://analises-trader-api.SEU-USUARIO.workers.dev/auditar
-```
-
-Pra testar via PowerShell:
+Ou via PowerShell:
 ```powershell
-curl.exe -X POST https://analises-trader-api.SEU-USUARIO.workers.dev/resumo
+curl -X POST https://analises-trader-api.SEU-SUBDOMINIO.workers.dev/auditar
 ```
 
-## Cota da API-Football
+## Como funciona a auditoria
 
-- Plano grátis: 100 chamadas/dia
-- **Auditoria**: 1-3 chamadas/hora (depende de quantas datas tem)
-- **Monitor ao vivo**: 1 chamada por execução (a cada 5min quando ativo)
-- **Total esperado**: ~50-70 chamadas/dia
+Pra cada trade com `resultado: "pendente"`:
 
-O Worker mantém contador em `_estado_worker.json` no GitHub e pausa monitor ao vivo se passar de 85 chamadas (margem de segurança).
+1. Busca placares do dia na API-Football (1 chamada por data)
+2. Tenta casar o jogo do trade com algum jogo da API (matching parcial dos nomes)
+3. Se o jogo está finalizado, aplica regra do método pra decidir Green/Red:
+   - **Back Favorito**: green se o time mencionado no mercado venceu
+   - **Lay Zebra**: green se a zebra mencionada não venceu
+   - **Over Limite 70+**: green se total de gols > linha da aposta
+   - **Back 2x2**: green se placar 2x2 ou se ambos times marcaram (passou por 1x1)
+   - **Back Goleada**: green se algum time marcou 4+ E venceu
+   - **Confirmação Visual**: inconclusivo (depende do mercado real apostado)
+4. Atualiza `trades.json` no GitHub com o resultado + placar final + placar HT
 
-## Estrutura de notificações
+## Custo da API-Football
 
-### 5 minutos antes do jogo
-```
-⏰ Jogo em 5 minutos!
+- Plano grátis: **100 chamadas/dia**
+- Usamos **1 chamada por data diferente** (não por trade)
+- Se você tem 10 trades pendentes de 3 datas diferentes → 3 chamadas
+- Auditoria rodando a cada hora = ~24 chamadas/dia (se sempre tiver pendentes)
+- Cabe folgado no plano grátis ✅
 
-⚽ Bayern x Stuttgart
-📅 13:00 · Bundesliga
+## Lógica do Back 2x2 (importante!)
 
-📋 Entradas recomendadas:
+Conforme você definiu, marca **Green** se você seguiu o método à risca, ou seja,
+se o jogo **passou por placar 1x1** (que é onde você faz cash-out total).
 
-🟢 Back Favorito · 🕐 Pré-jogo
-   Odd: 1.40
-   Stake: 2%
-   📌 Favoritismo extremo em casa...
+A heurística no código:
+- Placar final 2x2 → Green (alvo bateu)
+- Ambos os times marcaram (gc >= 1 E gf >= 1) → Green (assumimos que passou por 1x1)
+- Caso contrário → Red
 
-🟡 Back Goleada · 🕐 Pré-jogo
-   ...
-
-🎯 Abordagem: forçar
-🛑 Hard Stop: ...
-
-👉 Ver no site
-```
-
-### Gatilho ao vivo
-```
-🚨 GATILHO: LAY ZEBRA APÓS GOL
-
-⚽ City x Sheffield
-📊 0x1 aos 25min
-🎯 Zebra (Sheffield) marcou
-💡 Entrar Lay Zebra ao vivo — odd inflada
-📈 Stake: 2%
-```
-
-### Cash-out (Green/Red)
-```
-✅ GREEN · Bayern x Stuttgart
-🎯 Back Favorito · Placar 3x1
-💰 Stake 2% @ 1.40 · +0.8u
-Bayern venceu 3x1
-```
-
-ou (jogo sem trade registrado):
-```
-🏁 Jogo encerrado: Bayern x Stuttgart
-📊 Placar final: 3x1
-
-✅ GREEN 🟢 Back Favorito
-   Bayern venceu 3x1
-✅ GREEN 🟡 Back Goleada
-   Goleada (3x1)
-```
-
-### Resumo diário 23:59
-```
-📊 RESUMO DO DIA — 2026-05-20
-
-📈 PL do dia: +5.2u
-✅ 8 Green · ❌ 3 Red · (11 trades)
-🎯 Taxa de acerto: 73%
-
-Por método:
-• Back Favorito: 5G/1R · +3.5u
-• Lay Zebra: 2G/0R · +1.2u
-• Back Goleada: 1G/2R · +0.5u
-
-━━━━━━━━━━━━━━━━━━━━
-📅 MÊS (2026-05):
-📈 PL acumulado: +42.8u
-✅ 87G · ❌ 35R · 122 trades · 🎯 71%
-
-👉 Ver auditoria completa
-```
+Pode ter um caso raro de "false green": jogo terminou 3x1 mas o time só marcou
+depois de empatar em 1x1. Pra cobrir esses casos com precisão, seria preciso
+buscar a timeline completa de gols na API-Football (gasta mais chamadas).
+Se quiser essa precisão, é só pedir e eu implemento.
