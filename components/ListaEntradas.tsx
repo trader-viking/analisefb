@@ -79,9 +79,10 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
   useEffect(() => {
     const apiUrl = process.env.NEXT_PUBLIC_API_URL;
     if (!apiUrl) return;
-    // relatorioSlug é a data (AAAA-MM-DD)
-    const data = relatorioSlug;
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(data)) return;
+    // relatorioSlug pode ter sufixo (ex: "2026-05-20_under") — extrai só a data
+    const m = relatorioSlug.match(/^(\d{4}-\d{2}-\d{2})/);
+    if (!m) return;
+    const data = m[1];
 
     let cancelado = false;
     fetch(`${apiUrl}/placares?data=${data}`)
@@ -95,10 +96,26 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
     return () => { cancelado = true; };
   }, [relatorioSlug]);
 
-  // Função que retorna o placar de uma entrada (ou null)
-  function placarDe(jogo: string): Placar | null {
+  // Função que retorna o placar de uma entrada (ou null).
+  // Prioridade: placar gravado no relatorio (_placar) > placar buscado na API.
+  function placarDe(entrada: Entrada): Placar | null {
+    // 1. Placar gravado pelo Worker (funciona pra qualquer data)
+    if (entrada._placar || entrada._status) {
+      let gc: number | null = null;
+      let gf: number | null = null;
+      if (entrada._placar && /^\d+x\d+$/.test(entrada._placar)) {
+        const [a, b] = entrada._placar.split('x').map((n) => parseInt(n, 10));
+        gc = a; gf = b;
+      }
+      return {
+        casa: '', fora: '',
+        gols_casa: gc, gols_fora: gf,
+        status: (entrada._status as Placar['status']) || 'finalizado',
+      };
+    }
+    // 2. Placar buscado na API (jogos de hoje em tempo real)
     for (const p of placares) {
-      if (placarCombina(jogo, p)) return p;
+      if (placarCombina(entrada.jogo, p)) return p;
     }
     return null;
   }
@@ -336,7 +353,7 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
             }
 
             // Placar do jogo (se disponível)
-            const placar = placarDe(entrada.jogo);
+            const placar = placarDe(entrada);
             const encerrado = placar?.status === 'finalizado';
             const aoVivo = placar?.status === 'em_andamento';
 

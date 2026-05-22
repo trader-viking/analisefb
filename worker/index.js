@@ -234,7 +234,15 @@ async function rodarAuditoria(env) {
   // 2. Detecta datas dos trades pendentes (sem resultado)
   const tradesPendentes = trades.filter(t => t.resultado === 'pendente' || !t.resultado);
   if (tradesPendentes.length === 0) {
-    return { status: 'sem_pendentes', total_trades: trades.length };
+    // Mesmo sem trades pendentes, grava os placares nos relatorios
+    // (pro site mostrar jogos encerrados).
+    let relatoriosAtualizados = 0;
+    try {
+      relatoriosAtualizados = await gravarPlacaresNosRelatorios(env);
+    } catch (err) {
+      console.error('Erro gravando placares:', err.message);
+    }
+    return { status: 'sem_pendentes', total_trades: trades.length, relatorios_atualizados: relatoriosAtualizados };
   }
 
   const datasUnicas = [...new Set(tradesPendentes.map(t => t.data))];
@@ -309,7 +317,7 @@ async function rodarAuditoria(env) {
     try { await enviarTelegram(env, msg); } catch {}
   }
 
-  // 5. Salva no GitHub se teve mudança
+  // 5. Salva trades no GitHub se teve mudança
   if (atualizados > 0) {
     await salvarArquivoGithub(
       env, TRADES_PATH, trades, tradesSha,
@@ -317,13 +325,136 @@ async function rodarAuditoria(env) {
     );
   }
 
+  // 6. Grava placares nos relatórios do dia (pra mostrar jogos encerrados no site).
+  //    Roda pra hoje e ontem — datas em que a API-Football ainda retorna no plano free.
+  let relatoriosAtualizados = 0;
+  try {
+    relatoriosAtualizados = await gravarPlacaresNosRelatorios(env);
+  } catch (err) {
+    console.error('Erro gravando placares nos relatorios:', err.message);
+  }
+
   return {
     status: 'ok',
     total_pendentes_antes: tradesPendentes.length,
     atualizados,
     inconclusivos,
+    relatorios_atualizados: relatoriosAtualizados,
     detalhes,
   };
+}
+
+// =============================================================
+// Grava placares nos relatorios do dia (hoje + ontem)
+// Isso permite o site mostrar "Encerrado 2x1" sem depender da API
+// (que no plano free nao retorna datas passadas).
+// =============================================================
+async function gravarPlacaresNosRelatorios(env) {
+  const hoje = new Date();
+  const ontem = new Date(hoje.getTime() - 24 * 60 * 60 * 1000);
+  const datas = [
+    hoje.toISOString().slice(0, 10),
+    ontem.toISOString().slice(0, 10),
+  ];
+
+  let totalAtualizados = 0;
+
+  for (const data of datas) {
+    const path = `${ENTRADAS_PATH_PREFIX}${data}.json`;
+    let relatorioRaw, sha;
+    try {
+      const res = await lerArquivoGithubGenerico(env, path);
+      relatorioRaw = res.conteudo;
+      sha = res.sha;
+    } catch {
+      continue; // relatorio desse dia nao existe
+    }
+    if (!relatorioRaw || !sha) continue;
+
+    let relatorio;
+    try { relatorio = JSON.parse(relatorioRaw); } catch { continue; }
+    if (!relatorio.entradas || !Array.isArray(relatorio.entradas)) continue;
+
+    // Busca placares da data
+    let placares;
+    try {
+      placares = await buscarPlacaresDoDia(env, data);
+    } catch {
+      continue;
+    }
+    if (!placares || placares.length === 0) continue;
+
+    // Cruza cada entrada com o placar e grava
+    let mudou = false;
+    for (const entrada of relatorio.entradas) {
+      const placar = encontrarPlacar(entrada.jogo, placares);
+      if (!placar) continue;
+      // So grava se mudou (evita commits desnecessarios)
+      const novoStatus = placar.status;
+      const novoPlacar = (placar.gols_casa !== null && placar.gols_fora !== null)
+        ? `${placar.gols_casa}x${placar.gols_fora}`
+        : null;
+      if (entrada._placar !== novoPlacar || entrada._status !== novoStatus) {
+        entrada._placar = novoPlacar;
+        entrada._status = novoStatus; // 'finalizado' | 'em_andamento' | 'agendado'
+        entrada._placar_atualizado_em = new Date().toISOString();
+        mudou = true;
+      }
+    }
+
+    if (mudou) {
+      await salvarArquivoGithubGenerico(
+        env, path, JSON.stringify(relatorio, null, 2), sha,
+        `[auto] Placares atualizados em ${data}`
+      );
+      totalAtualizados++;
+    }
+  }
+
+  return totalAtualizados;
+}
+
+// Leitura/escrita genérica de arquivo no GitHub (retorna conteúdo como string)
+async function lerArquivoGithubGenerico(env, path) {
+  const url = `https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/contents/${path}?ref=${env.GITHUB_BRANCH || 'main'}`;
+  const r = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${env.GITHUB_TOKEN}`,
+      Accept: 'application/vnd.github+json',
+      'User-Agent': 'analises-trader-worker',
+    },
+  });
+  if (r.status === 404) return { conteudo: null, sha: null };
+  if (!r.ok) throw new Error(`GitHub leitura: ${r.status}`);
+  const dados = await r.json();
+  const conteudo = atob(dados.content.replace(/\s/g, ''));
+  // Decodifica UTF-8 corretamente
+  const bytes = Uint8Array.from(conteudo, (c) => c.charCodeAt(0));
+  const texto = new TextDecoder('utf-8').decode(bytes);
+  return { conteudo: texto, sha: dados.sha };
+}
+
+async function salvarArquivoGithubGenerico(env, path, conteudoStr, sha, mensagem) {
+  const url = `https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/contents/${path}`;
+  // Codifica UTF-8 -> base64
+  const bytes = new TextEncoder().encode(conteudoStr);
+  let bin = '';
+  for (const b of bytes) bin += String.fromCharCode(b);
+  const b64 = btoa(bin);
+  const body = { message: mensagem, content: b64, branch: env.GITHUB_BRANCH || 'main' };
+  if (sha) body.sha = sha;
+  const r = await fetch(url, {
+    method: 'PUT',
+    headers: {
+      Authorization: `Bearer ${env.GITHUB_TOKEN}`,
+      Accept: 'application/vnd.github+json',
+      'Content-Type': 'application/json',
+      'User-Agent': 'analises-trader-worker',
+    },
+    body: JSON.stringify(body),
+  });
+  if (!r.ok) throw new Error(`GitHub escrita: ${r.status}: ${await r.text()}`);
+  return await r.json();
 }
 
 // =============================================================
