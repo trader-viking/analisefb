@@ -82,7 +82,12 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
   const ligasDisponiveis = useMemo(() => {
     const cont = new Map<string, number>();
     for (const e of entradas) {
-      const liga = e.liga?.trim();
+      // Defesa: liga pode vir como array, número, etc. — converte pra string segura
+      const ligaBruta = e.liga as any;
+      let liga = '';
+      if (typeof ligaBruta === 'string') liga = ligaBruta.trim();
+      else if (Array.isArray(ligaBruta)) liga = ligaBruta.join(', ').trim();
+      else if (ligaBruta !== null && ligaBruta !== undefined) liga = String(ligaBruta).trim();
       if (liga) cont.set(liga, (cont.get(liga) || 0) + 1);
     }
     return Array.from(cont.entries())

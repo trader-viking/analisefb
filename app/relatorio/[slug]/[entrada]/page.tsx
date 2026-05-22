@@ -21,13 +21,36 @@ export function generateStaticParams() {
 
 type Campo = {
   rotulo: string;
-  valor?: string;
+  valor?: unknown;
   destaque?: boolean;
   icone?: React.ReactNode;
 };
 
+// Converte qualquer coisa em string segura.
+// Array de strings vira "item1, item2"; objeto vira JSON; null/undefined vira "".
+function toSafeString(valor: unknown): string {
+  if (valor === null || valor === undefined) return '';
+  if (typeof valor === 'string') return valor;
+  if (typeof valor === 'number' || typeof valor === 'boolean') return String(valor);
+  if (Array.isArray(valor)) {
+    return valor
+      .map((v) => toSafeString(v))
+      .filter((s) => s.trim().length > 0)
+      .join(', ');
+  }
+  if (typeof valor === 'object') {
+    try {
+      return JSON.stringify(valor);
+    } catch {
+      return '';
+    }
+  }
+  return String(valor);
+}
+
 function CampoDetalhe({ rotulo, valor, destaque, icone }: Campo) {
-  if (!valor || !valor.trim()) return null;
+  const texto = toSafeString(valor);
+  if (!texto || !texto.trim()) return null;
   return (
     <div className={destaque ? 'card p-4 bg-ink-50/50 dark:bg-ink-900/50' : 'card p-4'}>
       <div className="text-[11px] uppercase tracking-wider text-ink-500 font-medium mb-1.5 flex items-center gap-1.5">
@@ -35,7 +58,7 @@ function CampoDetalhe({ rotulo, valor, destaque, icone }: Campo) {
         {rotulo}
       </div>
       <div className="text-sm leading-relaxed text-ink-800 dark:text-ink-200 whitespace-pre-line">
-        {valor}
+        {texto}
       </div>
     </div>
   );
