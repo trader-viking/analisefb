@@ -152,14 +152,26 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
   }, [carregado, relatorioSlug, metodosAtivos_, ligasAtivas, horariosAtivos]);
 
   // Métodos disponíveis (só os que aparecem em alguma entrada deste dia)
-  const metodosDisponiveis = useMemo(() => {
-    const set = new Set<string>();
+  // Conta quantas entradas usam cada método (pra mostrar sempre os 6 com contador)
+  const TODOS_METODOS = ['back_favorito','lay_zebra','over_limite_70','over_golos','back_2x2','back_goleada','confirmacao_visual'];
+  const contagemMetodos = useMemo(() => {
+    const cont: Record<string, number> = {};
+    for (const m of TODOS_METODOS) cont[m] = 0;
     for (const e of entradas) {
-      for (const m of metodosAtivos(e)) set.add(m);
+      for (const m of metodosAtivos(e)) {
+        if (cont[m] !== undefined) cont[m]++;
+      }
     }
-    return ['back_favorito','lay_zebra','over_limite_70','over_golos','back_2x2','back_goleada','confirmacao_visual']
-      .filter(m => set.has(m));
+    return cont;
   }, [entradas]);
+
+  // Métodos disponíveis = sempre os 6 principais (Confirmação Visual só se houver)
+  const metodosDisponiveis = useMemo(() => {
+    const base = ['back_favorito','lay_zebra','over_limite_70','over_golos','back_2x2','back_goleada'];
+    // Adiciona confirmacao_visual só se existir em alguma entrada
+    if (contagemMetodos['confirmacao_visual'] > 0) base.push('confirmacao_visual');
+    return base;
+  }, [contagemMetodos]);
 
   // Ligas disponíveis (com contagem)
   const ligasDisponiveis = useMemo(() => {
@@ -230,19 +242,25 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
               const info = METODOS_INFO[m];
               if (!info) return null;
               const ativo = metodosAtivos_.has(m);
+              const qtd = contagemMetodos[m] || 0;
+              const vazio = qtd === 0;
               return (
                 <button
                   key={m}
                   type="button"
+                  disabled={vazio}
                   onClick={() => toggle(metodosAtivos_, m, setMetodosAtivos_)}
                   className={`inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-xs font-medium transition w-full ${
                     ativo
                       ? `${info.cor_bg} ${info.cor_text} ring-2 ${info.cor_ring}`
-                      : `ring-1 ring-ink-200 dark:ring-ink-700 hover:bg-ink-50 dark:hover:bg-ink-900 text-ink-600 dark:text-ink-400`
+                      : vazio
+                        ? `ring-1 ring-ink-100 dark:ring-ink-800 text-ink-300 dark:text-ink-700 cursor-not-allowed opacity-60`
+                        : `ring-1 ring-ink-200 dark:ring-ink-700 hover:bg-ink-50 dark:hover:bg-ink-900 text-ink-600 dark:text-ink-400`
                   }`}
                 >
                   {info.icone}
-                  {info.label}
+                  <span className="flex-1 text-left">{info.label}</span>
+                  <span className={`tabular-nums ${vazio ? 'opacity-50' : 'opacity-70'}`}>{qtd}</span>
                 </button>
               );
             })}
