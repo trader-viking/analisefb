@@ -1,28 +1,351 @@
 {
   "data": "2026-05-23",
   "variante": "liga_brazil_serie_a",
-  "gerado_em": "2026-05-23T19:37:29.286494",
+  "gerado_em": "2026-05-23T19:38:40.864154",
   "total_partidas_analisadas": 16,
   "total_partidas_disponiveis": 294,
-  "entradas": [],
-  "evitar": [
+  "entradas": [
     {
-      "horario": "16:00",
-      "jogo": "Novorizontino x Ceará",
-      "liga": "Brazil Serie B",
-      "motivo": "Ambos os times apresentam médias de gols equilibradas e nenhum padrão claro para os 5 métodos se destacar. O Novorizontino demonstra um aproveitamento razoável em casa, mas sem favoritismo extremo. O Ceará, embora com mais vitórias, também não se configura como zebra de odd alta ou azarão com péssimo momento. Ausência de gatilhos para Over Limite 70+, Back 2x2 ou Back Goleada. O método Back Favorito não se encaixa dado o favoritismo moderado e a liga, que não favorece entrada pré-jogo."
+      "horario": "17:00",
+      "liga": "Brazil Serie A",
+      "jogo": "São Paulo x Botafogo",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória São Paulo",
+      "odd_principal": "2.15",
+      "fair_odd_calculada": "1.90",
+      "valor_esperado": "+13.2% EV — odd 2.15 vs Fair Odd 1.90",
+      "mercado_secundario": "Mais 1.5 gols no 2º Tempo",
+      "odd_secundaria": "1.70",
+      "desempenho_1t": "São Paulo marca 0.57 no 1ºT, Botafogo marca 0.88 no 1ºT",
+      "desempenho_2t": "São Paulo marca 1.29 no 2ºT, Botafogo marca 0.88 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "5º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "6º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "São Paulo é mandante e está em melhor posição na tabela, brigando pelo título. Ambos os times têm bom ataque no segundo tempo. O São Paulo demonstra maior regularidade ofensiva e defensiva. O Botafogo, apesar de ter um ataque com média de gols por jogo ligeiramente superior, sofre mais gols (2.00) contra 1.86 do São Paulo. A odd para vitória do São Paulo parece subestimada, considerando seu melhor momento e posição na tabela.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "São Paulo faz X% dos pontos em casa OU descrição do desempenho padrão",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "São Paulo tem bom desempenho no 2º tempo, Botafogo marca mais no 1º tempo.",
+      "momento_gols": "São Paulo tende a crescer no 2º tempo, Botafogo tem mais gols no 1º.",
+      "jogadores_chave": "Jonathan Calleri (São Paulo), Arthur Cabral (Botafogo)",
+      "placares_provaveis": "2x1, 1x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out parcial no 2x0 para o São Paulo. Cash-out total se Botafogo abrir o placar.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Odd de valor para o favorito com melhor momento e objetivos mais claros.",
+        "gatilho_saida_parcial": "Gol do São Paulo ou placar favorável (ex: 1-0).",
+        "hard_stop": "Gol do Botafogo."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "São Paulo",
+        "odd_alvo": "2.15",
+        "razao": "São Paulo é mandante, melhor posicionado na tabela e demonstra maior solidez defensiva e ofensiva consistente ao longo das partidas.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "ao_vivo",
+        "favorito": "São Paulo",
+        "indice_gols_final": "São Paulo tem 86% de Over 0.5 gols no 2º tempo e 56% de Over 1.5 gols no 2º tempo.",
+        "condicao_entrada": "Aguardar o placar se manter empatado ou com vantagem mínima de um gol para um dos lados após os 70 minutos, esperando o padrão de gols no fim de jogo se confirmar. O São Paulo mostra uma forte tendência a marcar no segundo tempo.",
+        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
+        "odd_esperada": "1.70 a 1.90",
+        "stake_recomendada": "1%",
+        "observacoes": "Pode ser considerado como um mercado secundário de valor se o jogo estiver mais aberto no segundo tempo."
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
-      "horario": "18:30",
-      "jogo": "Fortaleza x Londrina",
-      "liga": "Brazil Serie B",
-      "motivo": "O Fortaleza apresenta um retrospecto forte, com boa média de gols e vitórias. No entanto, a odd para favorito pode não ser atrativa pré-jogo. O Londrina tem um desempenho de gols ambíguo, com ambas equipes marcando em uma porcentagem considerável de jogos, mas sem um padrão claro para Back 2x2 ou Over Limite 70+. O método Lay Zebra não é aplicável pois o Londrina não se encaixa como zebra com odd muito alta e péssimo momento. O favoritismo do Fortaleza é notório, mas a entrada pré-jogo deve ser cautelosa sem odd muito atrativa."
+      "horario": "17:00",
+      "liga": "Brazil Serie A",
+      "jogo": "Vitória x Internacional",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais 0.5 gols no 2º Tempo",
+      "odd_principal": "1.65",
+      "fair_odd_calculada": "1.50",
+      "valor_esperado": "+10.0% EV — odd 1.65 vs Fair Odd 1.50",
+      "mercado_secundario": "Placar Exato 2x2",
+      "odd_secundaria": "14.00",
+      "desempenho_1t": "Vitória marca 0.71 no 1ºT, Internacional marca 0.29 no 1ºT",
+      "desempenho_2t": "Vitória marca 1.00 no 2ºT, Internacional marca 1.00 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "4º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "5º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times ocupam posições altas na tabela, brigando pelo título, o que indica um jogo mais aberto e com maior probabilidade de gols. O Vitória tem 71% de Over 1.5 gols e 29% de Over 2.5 gols, enquanto o Internacional tem 71% de Over 1.5 gols e 43% de Over 2.5 gols. A média de gols no segundo tempo é de 1.00 para ambos os lados, o que sugere que o 'Over Limite 70+' é um mercado com bom valor. Além disso, os critérios para Back 2x2 são quase atendidos: Vitória tem 29% de Over 2.5, Internacional tem 43%; Vitória tem 29% de Ambas Marcam, Internacional tem 71%; Vitória tem 71% de Over 0.5 HT, Internacional tem 57%. Há um potencial para o Back 2x2, mas o Over Limite 70+ é mais direto.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV baixo",
+      "mando_de_campo": "Vitória é mandante e tem um desempenho forte em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Vitória tem um ataque consistente, Internacional tem boa capacidade de resposta no 2º tempo.",
+      "momento_gols": "Vitória marca bastante no 1º e 2º tempo, Internacional cresce no 2º tempo.",
+      "jogadores_chave": "Erick de Arruda Serafim (Vitória), Alan Patrick (Internacional)",
+      "placares_provaveis": "2x1, 1x1, 2x2",
+      "momento_entrada": "Pré-jogo (Over Limite 70+) / Pré-jogo (Back 2x2)",
+      "situacao_saida": "Cash-out parcial no 1x0 para um dos lados no segundo tempo. Cash-out total se o placar chegar a 1x1 no segundo tempo para o Back 2x2.",
+      "stake_recomendada": "1% (Over Limite 70+) / 0.5% (Back 2x2)",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Partida entre equipes com objetivos similares e que demonstram capacidade ofensiva e de sofrer gols, favorecendo mercados de gols, especialmente no segundo tempo. Back 2x2 é uma aposta de longo prazo com potencial de valor.",
+        "gatilho_saida_parcial": "Gol no segundo tempo.",
+        "hard_stop": "Placar adverso e sem sinais de recuperação."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "ao_vivo",
+        "favorito": "Vitória",
+        "indice_gols_final": "Vitória tem 71% de Over 0.5 gols no 2º tempo e 100% de Over 0.5 gols contra. Internacional tem 71% de Over 0.5 gols no 2º tempo e 86% de Over 0.5 gols contra.",
+        "condicao_entrada": "Esperar o jogo se desenvolver no segundo tempo, com o placar ainda em aberto ou com vantagem mínima para um dos lados. O histórico de gols no segundo tempo para ambas as equipes sugere uma boa probabilidade de um gol sair.",
+        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
+        "odd_esperada": "1.65 a 1.85",
+        "stake_recomendada": "1%",
+        "observacoes": "Interessante pela alta média de gols no 2º tempo de ambas as equipes."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "razao": "Vitória tem 29% Over 2.5 e 29% Ambas Marcam, Internacional tem 43% Over 2.5 e 71% Ambas Marcam. Vitórias tem 71% Over 0.5 HT e Internacional tem 57% Over 0.5 HT. Média de gols totais 2.43 para Vitória e 3.29 para Internacional. O jogo tem potencial para placares alternados e um resultado de 2x2 não é improvável.",
+        "indice_over_2_5": "Vitória: 29%, Internacional: 43%",
+        "indice_ambas_marcam": "Vitória: 29%, Internacional: 71%",
+        "indice_over_ht": "Vitória: 71%, Internacional: 57%",
+        "modo": "pre_jogo",
+        "odd_alvo": "14.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
-      "horario": "20:30",
-      "jogo": "Juventude x Sport Recife",
-      "liga": "Brazil Serie B",
-      "motivo": "Ambos os times demonstram consistência com 50% de vitórias e média de pontos similar. O Juventude tem uma defesa sólida (0 gols sofridos em casa), o que dificulta a aplicação de métodos de gols como Over 2.5 ou Back 2x2. O Sport Recife, embora com mais gols marcados, não apresenta um favoritismo extremo para Back Favorito ou Back Goleada. A ausência de gols nos confrontos recentes e a paridade entre as equipes não criam um cenário claro para nenhum dos 5 métodos aplicáveis."
+      "horario": "19:00",
+      "liga": "Brazil Serie A",
+      "jogo": "Mirassol x Fluminense",
+      "metodos_aplicados": [
+        "lay_zebra"
+      ],
+      "mercado_principal": "Lay Vitória do Mirassol",
+      "odd_principal": "2.30",
+      "fair_odd_calculada": "2.00",
+      "valor_esperado": "+15.0% EV — odd 2.30 vs Fair Odd 2.00",
+      "mercado_secundario": null,
+      "desempenho_1t": "Mirassol marca 0.75 no 1ºT, Fluminense marca 0.71 no 1ºT",
+      "desempenho_2t": "Mirassol marca 0.50 no 2ºT, Fluminense marca 0.71 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "18º",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "8º",
+          "objetivo": "libertadores"
+        }
+      },
+      "motivacao_tecnica": "O Mirassol está em uma situação delicada na tabela, lutando contra o rebaixamento, o que pode gerar um jogo mais defensivo e com poucas oportunidades claras de gol. O Fluminense, embora em melhor posição, não demonstra um poderio ofensivo avassalador (média de 1.43 gols/jogo) e tem uma média de gols sofridos alta (1.57). A odd para o Mirassol (zebra) está em torno de 2.30, o que para um time lutando por pontos preciosos pode ser um valor interessante para entrar contra. O Fluminense tem 0% de jogos sem sofrer gols em casa e 14% fora, enquanto o Mirassol tem 0% de jogos sem sofrer gols.",
+      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV moderado",
+      "mando_de_campo": "Mirassol tem a vantagem de jogar em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Mirassol marca mais no 1º tempo, Fluminense tem um ataque mais distribuído, mas com tendência a marcar no 2º tempo.",
+      "momento_gols": "Mirassol tem dificuldade em marcar no 2º tempo. Fluminense tem mais gols no 1º.",
+      "jogadores_chave": "Carlos Eduardo de Oliveira Alves (Mirassol), John Kennedy (Fluminense)",
+      "placares_provaveis": "1x1, 1x0, 0x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out parcial se o Fluminense abrir o placar. Cash-out total se o placar chegar a 1x0 para o Mirassol.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A odd para o Mirassol é um pouco inflada considerando a necessidade de pontos e a inconsistência do Fluminense fora de casa.",
+        "gatilho_saida_parcial": "Gol do Mirassol ou placar favorável.",
+        "hard_stop": "Gol do Fluminense."
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Mirassol",
+        "odd_zebra_alvo": "2.30",
+        "razao": "Mirassol joga em casa necessitando de pontos para fugir do rebaixamento, enquanto o Fluminense fora de casa tem um desempenho defensivo frágil e não mostra grande capacidade de ser avassalador.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "19:00",
+      "liga": "Brazil Serie A",
+      "jogo": "Grêmio x Santos",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais 0.5 gols no 2º Tempo",
+      "odd_principal": "1.70",
+      "fair_odd_calculada": "1.55",
+      "valor_esperado": "+9.7% EV — odd 1.70 vs Fair Odd 1.55",
+      "mercado_secundario": "Placar Exato 2x2",
+      "odd_secundaria": "15.00",
+      "desempenho_1t": "Grêmio marca 0.57 no 1ºT, Santos marca 0.71 no 1ºT",
+      "desempenho_2t": "Grêmio marca 1.00 no 2ºT, Santos marca 0.57 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "9º",
+          "objetivo": "libertadores"
+        },
+        "fora": {
+          "posicao": "15º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "O Grêmio, jogando em casa e brigando por uma vaga na Libertadores, tem uma boa tendência a marcar no segundo tempo (1.00 gol/jogo). O Santos, embora venha de uma fase mais instável, também demonstra capacidade de marcar fora de casa (1.29 gol/jogo). A média total de gols é de 3.29, indicando um jogo com potencial para gols. Os critérios para Back 2x2 são razoáveis: Grêmio tem 29% Over 2.5, Santos tem 71%; Grêmio tem 43% Ambas Marcam, Santos tem 86%; Grêmio tem 57% Over 0.5 HT, Santos tem 71%. O Over Limite 70+ é mais direto devido ao desempenho do Grêmio no segundo tempo.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Grêmio joga em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Grêmio tem crescimento no 2º tempo, Santos marca mais no 1º tempo.",
+      "momento_gols": "Grêmio forte no 2º tempo, Santos forte no 1º.",
+      "jogadores_chave": "Carlos Vinícius (Grêmio), Gabriel Barbosa Almeida (Santos)",
+      "placares_provaveis": "2x1, 1x1, 2x2",
+      "momento_entrada": "Pré-jogo (Over Limite 70+) / Pré-jogo (Back 2x2)",
+      "situacao_saida": "Cash-out parcial no 1x0 para qualquer lado no segundo tempo. Cash-out total para Back 2x2 se o placar chegar em 1x1 no segundo tempo.",
+      "stake_recomendada": "1% (Over Limite 70+) / 0.5% (Back 2x2)",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O Grêmio em casa, com o objetivo de Libertadores, tem tudo para pressionar o Santos, que sofre muitos gols na segunda etapa.",
+        "gatilho_saida_parcial": "Gol no segundo tempo.",
+        "hard_stop": "Placar adverso e sem sinais de recuperação."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "ao_vivo",
+        "favorito": "Grêmio",
+        "indice_gols_final": "Grêmio tem 100% de Over 0.5 gols no 2º tempo e 56% de Over 1.5 gols no 2º tempo. Santos tem 86% de Over 0.5 gols no 2º tempo.",
+        "condicao_entrada": "Aguardar o jogo se desenrolar no segundo tempo. Com Grêmio buscando a Libertadores e Santos sofrendo muitos gols na segunda etapa, a probabilidade de um gol surgir após os 70 minutos é alta.",
+        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
+        "odd_esperada": "1.70 a 1.90",
+        "stake_recomendada": "1%",
+        "observacoes": "Pode ser uma boa entrada se o jogo estiver empatado ou com placar mínimo."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "razao": "Grêmio tem 29% Over 2.5 e 43% Ambas Marcam, Santos tem 71% Over 2.5 e 86% Ambas Marcam. Grêmio tem 57% Over 0.5 HT e Santos tem 71% Over 0.5 HT. Média de gols totais 3.29 para Grêmio e 2.43 para Santos. O histórico de gols e ambas marcam para o Santos é muito forte, enquanto o Grêmio mostra capacidade de marcar.",
+        "indice_over_2_5": "Grêmio: 29%, Santos: 71%",
+        "indice_ambas_marcam": "Grêmio: 43%, Santos: 86%",
+        "indice_over_ht": "Grêmio: 57%, Santos: 71%",
+        "modo": "pre_jogo",
+        "odd_alvo": "15.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "21:00",
+      "liga": "Brazil Serie A",
+      "jogo": "Flamengo x Palmeiras",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Flamengo",
+      "odd_principal": "2.20",
+      "fair_odd_calculada": "2.05",
+      "valor_esperado": "+7.3% EV — odd 2.20 vs Fair Odd 2.05",
+      "mercado_secundario": "Mais 0.5 gols no 2º Tempo",
+      "odd_secundaria": "1.55",
+      "desempenho_1t": "Flamengo marca 0.67 no 1ºT, Palmeiras marca 0.88 no 1ºT",
+      "desempenho_2t": "Flamengo marca 1.50 no 2ºT, Palmeiras marca 0.50 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "8º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "2º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Jogo de altíssimo nível entre dois candidatos ao título. O Flamengo joga em casa e tem demonstrado uma capacidade de virada impressionante, com forte desempenho ofensivo no segundo tempo (1.50 gols/jogo). O Palmeiras, apesar de sua força, tem sofrido mais gols fora de casa (0.88 vs 0.67). A odd para o Flamengo parece ligeiramente subestimada, considerando seu mando de campo e a capacidade de reagir na segunda etapa. O Over Limite 70+ também é uma opção, pois ambos os times têm histórico de gols, e a tendência do Flamengo de marcar mais no segundo tempo pode se concretizar.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV baixo",
+      "mando_de_campo": "Flamengo jogando em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Flamengo tem um ataque explosivo no segundo tempo, Palmeiras tem um ataque equilibrado, mas mais concentrado no primeiro tempo.",
+      "momento_gols": "Flamengo forte no 2º tempo, Palmeiras mais equilibrado mas com tendência maior no 1º tempo.",
+      "jogadores_chave": "Pedro Guilherme Abreu dos Santos (Flamengo), José Manuel López (Palmeiras)",
+      "placares_provaveis": "2x1, 1x1, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out parcial no 2x0 para o Flamengo. Cash-out total se Palmeiras abrir o placar.",
+      "stake_recomendada": "2% (Back Favorito) / 1% (Over Limite 70+)",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Odd de valor para o favorito em casa com um histórico recente de vitórias e um desempenho ofensivo em crescimento no segundo tempo.",
+        "gatilho_saida_parcial": "Gol do Flamengo.",
+        "hard_stop": "Gol do Palmeiras."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Flamengo",
+        "odd_alvo": "2.20",
+        "razao": "Flamengo joga em casa contra um rival direto, com histórico recente favorável e uma performance ofensiva notória no segundo tempo, sugerindo que podem superar o Palmeiras.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "ao_vivo",
+        "favorito": "Flamengo",
+        "indice_gols_final": "Flamengo tem 100% de Over 0.5 gols no 2º tempo e 50% de Over 2.5 gols no 2º tempo. Palmeiras tem 50% de Over 0.5 gols no 2º tempo.",
+        "condicao_entrada": "Observar o desenrolar do jogo. Caso o placar esteja apertado ou empatado após os 70 minutos, a forte tendência do Flamengo de marcar gols no segundo tempo (1.50 gols/jogo) torna esta entrada atrativa.",
+        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
+        "odd_esperada": "1.55 a 1.75",
+        "stake_recomendada": "1%",
+        "observacoes": "Se o jogo continuar equilibrado no segundo tempo, a odd pode subir e oferecer mais valor."
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     }
-  ]
+  ],
+  "evitar": []
 }
