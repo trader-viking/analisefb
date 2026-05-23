@@ -1,7 +1,7 @@
 {
   "data": "2026-05-24",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-05-23T19:47:04.988365",
+  "gerado_em": "2026-05-23T20:19:07.274348",
   "total_partidas_analisadas": 35,
   "entradas": [
     {
@@ -10,16 +10,16 @@
       "jogo": "Ajax x Utrecht",
       "metodos_aplicados": [
         "back_favorito",
-        "over_limite_70"
+        "back_goleada"
       ],
       "mercado_principal": "Vitória Ajax",
-      "odd_principal": null,
-      "fair_odd_calculada": null,
-      "valor_esperado": null,
-      "mercado_secundario": "Over 1.5 Gols no 2º Tempo",
-      "odd_secundaria": null,
-      "desempenho_1t": "Ajax vence 67% do 1ºT, Utrecht vence 29%",
-      "desempenho_2t": "Ajax vence 44% do 2ºT, Utrecht vence 28%",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": "Ajax marca 3+ gols",
+      "odd_secundaria": "N/A",
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
           "posicao": "4",
@@ -30,120 +30,160 @@
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Ajax é o claro favorito, com melhor aproveitamento em casa e ocupando a 4ª posição na tabela, brigando pelo título. O Utrecht, em 9º, tem um desempenho inferior tanto em casa quanto fora. A média de gols total em seus jogos é alta (2.83 e 3.12), e o Ajax tem um bom histórico de marcar no segundo tempo (0.72 gols/jogo), enquanto o Utrecht também mostra capacidade de reagir fora de casa (0.88 gols/jogo no 2º tempo).",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
-      "mando_de_campo": "Ajax tem 1.89 pontos por jogo em casa.",
+      "motivacao_tecnica": "Ajax é o 4º colocado com 1.89 pontos por jogo, lutando pelo título. Utrecht é o 9º com 1.18 pontos por jogo, em meio de tabela. Ajax tem um ataque forte com 1.89 gols marcados por jogo e uma defesa mais sólida com 1.71 gols sofridos. Utrecht tem um ataque razoável (1.41 gols marcados) mas uma defesa vulnerável (1.71 gols sofridos). O Ajax tem um aproveitamento de 56% de vitórias contra 29% do Utrecht. O Ajax também tem um histórico de marcar o primeiro gol em 72% dos jogos, enquanto o Utrecht o faz em 35%.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "Casa: 4º colocado, 1.89 pontos por jogo, 56% de vitórias.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Ajax marca em média 1.89 gols por jogo, Utrecht 1.41.",
-      "momento_gols": "Ajax tem seus gols mais distribuídos, com pico de 24% entre 76-90min. Utrecht também tem um pico de 29% entre 76-90min.",
-      "jogadores_chave": [
-        "Mika Godts",
-        "Wout Weghorst",
-        "Davy Klaassen"
-      ],
-      "placares_provaveis": "2x1, 3x1",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Reduzir exposição em caso de gol do Utrecht no início do jogo.",
-      "stake_recomendada": "2%",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
       "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "O favoritismo do Ajax é claro, com boas odds pré-jogo. O Over 1.5 no 2º tempo é um complemento com base no histórico de gols tardios de ambas as equipes.",
-        "gatilho_saida_parcial": "Gol do Utrecht no primeiro tempo.",
-        "hard_stop": "Perda de 2 gols em qualquer momento do jogo."
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Ajax",
-        "odd_alvo": null,
-        "razao": "Ajax é o claro favorito em casa, 4º na tabela brigando pelo título, contra um Utrecht em 9º.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
+        "odd_alvo": "N/A",
+        "razao": "Favoritismo claro do Ajax (4º colocado, lutando por título) contra o Utrecht (9º colocado, meio de tabela). Ajax tem melhor aproveitamento, ataque e defesa.",
+        "gatilho_ao_vivo": "N/A",
+        "stake_recomendada": "N/A"
       },
-      "lay_zebra": null,
+      "lay_zebra": {
+        "aplicavel": null
+      },
       "over_limite_70": {
-        "aplicavel": true,
-        "sub_cenario": "padrao_fim",
-        "modo": "pre_jogo",
-        "favorito": "Ajax",
-        "indice_gols_final": "Ajax 24% (76-90), Utrecht 24% (76-90).",
-        "condicao_entrada": "Ambas as equipes têm um percentual significativo de gols marcados no final do jogo (76-90 minutos), o que sugere potencial para gols tardios. O mercado geral de gols também é alto para ambas as equipes.",
-        "mercado_sugerido": "Mais 1.5 gols no 2º Tempo",
-        "odd_esperada": "1.70 a 2.10",
-        "stake_recomendada": "1%",
-        "observacoes": "Foco em gols no segundo tempo, aproveitando o padrão de ambas as equipes."
+        "aplicavel": null
       },
+      "back_2x2": {
+        "aplicavel": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "candidato": "Ajax",
+        "razao": "Favoritismo extremo do Ajax, que tem um ataque forte (1.89 gols/jogo) e enfrenta um Utrecht com defesa vulnerável (1.71 gols sofridos/jogo).",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "N/A",
+        "odd_esperada": "N/A",
+        "stake_recomendada": "N/A"
+      },
+      "confirmacao_visual": {
+        "aplicavel": null
+      }
+    },
+    {
+      "horario": "10:00",
+      "liga": "Italy Serie A",
+      "jogo": "Parma x Sassuolo",
+      "metodos_aplicados": [
+        "evitar"
+      ],
+      "mercado_principal": null,
+      "odd_principal": null,
+      "fair_odd_calculada": null,
+      "valor_esperado": null,
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
+      "contexto_times": {
+        "casa": {
+          "posicao": "16º",
+          "objetivo": "N/A"
+        },
+        "fora": {
+          "posicao": "13º",
+          "objetivo": "N/A"
+        }
+      },
+      "motivacao_tecnica": "N/A",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "N/A",
+      "condicoes_campo": "N/A",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
+      "plano_execucao": {
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "confirmacao_visual": null
+      "confirmacao_visual": null,
+      "motivo": "Nenhum dos 5 métodos se aplica claramente. As estatísticas de gols e desempenho não indicam um cenário claro para Over Limite 70+, Back 2x2 ou Back Goleada. Não há um favorito claro para Back Favorito, e a odd da zebra não é alta o suficiente para Lay Zebra."
     },
     {
       "horario": "11:00",
       "liga": "Denmark 1st Division",
       "jogo": "HB Køge x Hobro",
       "metodos_aplicados": [
-        "back_favorito",
-        "over_limite_70"
+        "back_favorito"
       ],
-      "mercado_principal": "Vitória do Hobro",
-      "odd_principal": "2.40",
-      "fair_odd_calculada": "2.15",
-      "valor_esperado": "+11.6% EV — odd 2.40 vs Fair Odd 2.15",
-      "mercado_secundario": "Mais X.5 gols (acima de 70min)",
-      "odd_secundaria": "1.70",
-      "desempenho_1t": "Hobro marca 0.6 no 1ºT, HB Køge sofre 0.6 no 1ºT",
-      "desempenho_2t": "Hobro marca 0.8 no 2ºT, HB Køge sofre 0.8 no 2ºT",
+      "mercado_principal": "Vitória Hobro",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
-          "posicao": "7º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "posicao": "7º",
           "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": "4º (posição como VISITANTE/fora, se estiver no PDF)",
-          "objetivo": "libertadores"
+          "posicao": "4º",
+          "objetivo": "acesso"
         }
       },
-      "motivacao_tecnica": "O Hobro é ligeiramente favorito nas odds, mas o diferencial aqui é o histórico de gols nos segundos tempos de ambas as equipes e a tendência de gols após os 70 minutos. O Hobro marca 0.8 gols no segundo tempo e o HB Køge sofre 0.8 gols no segundo tempo, o que indica uma tendência para gols na reta final. O Hobro também demonstra uma capacidade de marcar significativamente mais no segundo tempo (60% dos gols) comparado ao HB Køge (20% dos gols). A média de gols no segundo tempo para ambas as equipes é alta (0.80 gols marcados/sofridos), sugerindo que a partida pode se abrir. O Hobro, na 4ª posição, ainda tem motivação em busca de objetivos maiores, enquanto o HB Køge, 7º, está mais na 'zona de conforto'.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
-      "mando_de_campo": "HB Køge demonstra um aproveitamento decente em casa, mas o Hobro é forte fora de casa.",
+      "motivacao_tecnica": "Hobro é o 4º colocado com 1.53 pontos por jogo e está na zona de acesso, enquanto HB Køge é o 7º com 1.60 pontos por jogo, mas sem objetivos claros. Hobro tem um desempenho ligeiramente superior em casa (1.40 gols marcados, 1.13 sofridos) comparado ao HB Køge fora (1.33 gols marcados, 1.13 sofridos). A motivação do Hobro por acesso pode ser um fator decisivo.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "HB Køge: 7º na tabela, 1.60 pontos por jogo. Média de 1.33 gols marcados e 1.13 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "HB Køge marca mais no 2º tempo (60%), Hobro marca mais no 2º tempo (60%).",
-      "momento_gols": "HB Køge: Gols concentrados no final do jogo (50% entre 31-45 e 76-90 min). Hobro: Gols concentrados no meio do 1º e 2º tempo (25% 31-45, 25% 46-60, 14% 61-75, 19% 76-90 min).",
-      "jogadores_chave": "Alfred Gøthler (HB Køge), Tobias Thomsen (HB Køge), Søren Andreasen (Hobro), Marco Bruhn (Hobro).",
-      "placares_provaveis": "1x1, 2x1, 1x2",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Aposta em Over 2.5 com base em histórico de gols no final.",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "O valor é construído em torno do padrão de gols no segundo tempo.",
-        "gatilho_saida_parcial": "Gol da zebra que muda o rumo do jogo de forma drástica.",
-        "hard_stop": "Placar 0x0 após 70 minutos."
+        "justificativa_abordagem": "Hobro tem maior motivação por estar na zona de acesso e um desempenho ligeiramente superior.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Hobro",
-        "odd_alvo": "2.40",
-        "razao": "Hobro tem um ligeiro favoritismo nas odds e busca objetivos mais elevados.",
+        "odd_alvo": "N/A",
+        "razao": "Hobro está na zona de acesso e tem um desempenho geral ligeiramente superior, além de maior motivação.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
       "lay_zebra": null,
-      "over_limite_70": {
-        "aplicavel": true,
-        "sub_cenario": "padrao_fim",
-        "modo": "ao_vivo",
-        "favorito": null,
-        "indice_gols_final": "60% dos gols marcados/sofridos ocorrem após os 70 minutos para ambas as equipes.",
-        "condicao_entrada": "Padrão histórico de gols no fim, com ambas as equipes tendo tendência a marcar e sofrer gols na reta final.",
-        "mercado_sugerido": "Mais X.5 gols",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Esperar o jogo chegar próximo dos 70 minutos com placar equilibrado ou com um time em leve vantagem para potencializar a odd."
-      },
+      "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
       "confirmacao_visual": null
@@ -155,48 +195,48 @@
       "metodos_aplicados": [
         "back_favorito"
       ],
-      "mercado_principal": "Vitória do Chelsea",
-      "odd_principal": "1.70",
-      "fair_odd_calculada": "1.55",
-      "valor_esperado": "+9.6% EV — odd 1.70 vs Fair Odd 1.55",
+      "mercado_principal": "Vitória Chelsea",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
       "odd_secundaria": null,
-      "desempenho_1t": "Sunderland falha em marcar 67% no 1ºT, Chelsea marca 0.72 no 1ºT",
-      "desempenho_2t": "Sunderland falha em marcar 33% no 2ºT, Chelsea marca 1.00 no 2ºT",
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
-          "posicao": "12º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "posicao": "12º",
           "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": "3º (posição como VISITANTE/fora, se estiver no PDF)",
-          "objetivo": "titulo"
+          "posicao": "3º",
+          "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "O Chelsea, 3º colocado na Premier League, demonstra um favoritismo claro contra o Sunderland, 12º colocado. O Chelsea tem um ataque mais prolífico (1.72 gols por jogo vs 1.28) e sofre menos gols (1.39 vs 1.06). Estatisticamente, o Chelsea tem um desempenho superior em ambas as metades do campo, com mais gols marcados e menos gols sofridos no primeiro tempo (13 gols marcados vs 7, e 14 sofridos vs 8 do Sunderland). A média de finalizações no alvo do Chelsea (4.61) também é superior à do Sunderland (3.50). A motivação do Chelsea em brigar pelo título reforça a aposta em sua vitória.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Sunderland tem um aproveitamento razoável em casa, mas inferior ao desempenho geral do Chelsea.",
+      "motivacao_tecnica": "Chelsea é o 3º colocado com 1.44 pontos por jogo, lutando por vaga na Champions, enquanto Sunderland é o 12º com 1.67 pontos por jogo, mas sem objetivos claros. Chelsea tem um ataque mais produtivo (1.72 gols marcados) e uma defesa mais sólida (1.39 sofridos) em comparação com Sunderland (1.28 marcados, 1.06 sofridos). O favoritismo do Chelsea é claro.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "Sunderland: 12º na tabela, 1.67 pontos por jogo. Média de 1.28 gols marcados e 1.06 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Chelsea marca mais no 2º tempo (56% dos gols), Sunderland marca mais no 2º tempo (67% dos gols).",
-      "momento_gols": "Sunderland: Gols distribuídos, com maior concentração no final do jogo (26% 76-90 min). Chelsea: Gols mais concentrados no meio do jogo (32% 31-45 e 26% 46-60 min).",
-      "jogadores_chave": "Enzo Fernández (Chelsea), João Pedro (Chelsea), Cole Palmer (Chelsea), Enzo Le Fée (Sunderland).",
-      "placares_provaveis": "1x2, 0x1, 1x3",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Entrada pré-jogo com odd vantajosa.",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "O valor está na odd pré-jogo que já reflete o favoritismo.",
-        "gatilho_saida_parcial": "Gol do Sunderland.",
-        "hard_stop": "Perder de 2 gols em casa."
+        "justificativa_abordagem": "Chelsea tem melhor posição na tabela, maior motivação e estatísticas ofensivas e defensivas superiores.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Chelsea",
-        "odd_alvo": "1.70",
-        "razao": "Favoritismo claro do Chelsea baseado em posição na tabela e desempenho geral.",
+        "odd_alvo": "N/A",
+        "razao": "Chelsea é o 3º colocado, com objetivos claros de Champions League, e apresenta estatísticas superiores em relação ao Sunderland.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -211,67 +251,55 @@
       "liga": "England Premier League",
       "jogo": "Liverpool x Brentford",
       "metodos_aplicados": [
-        "back_favorito",
-        "over_limite_70"
+        "back_favorito"
       ],
-      "mercado_principal": "Vitória do Liverpool",
-      "odd_principal": "1.50",
-      "fair_odd_calculada": "1.35",
-      "valor_esperado": "+11.1% EV — odd 1.50 vs Fair Odd 1.35",
-      "mercado_secundario": "Mais X.5 gols (acima de 70min)",
-      "odd_secundaria": "1.65",
-      "desempenho_1t": "Liverpool marca 1.06 no 1ºT, Brentford sofre 0.78 no 1ºT",
-      "desempenho_2t": "Liverpool marca 0.78 no 2ºT, Brentford sofre 0.89 no 2ºT",
+      "mercado_principal": "Vitória Liverpool",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
-          "posicao": "5º (posição como MANDANTE/em casa, se estiver no PDF)",
-          "objetivo": "titulo"
+          "posicao": "5º",
+          "objetivo": "libertadores"
         },
         "fora": {
-          "posicao": "14º (posição como VISITANTE/fora, se estiver no PDF)",
+          "posicao": "14º",
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "O Liverpool, 5º colocado e brigando por título, tem um favoritismo claro contra o Brentford, 14º colocado. O Liverpool demonstra um ataque mais forte (1.83 gols por jogo vs 1.17) e uma defesa mais sólida (1.06 gols sofridos vs 1.67). O diferencial aqui é a tendência de gols tardios. Ambas as equipes marcam e sofrem gols no segundo tempo com frequência, e a análise do momento dos gols mostra um pico para o Liverpool entre 76-90 minutos (24%) e para o Brentford também (38%). O Liverpool marca 1.06 gols no primeiro tempo, indicando um início forte, mas o Brentford sofre 0.78 gols no primeiro tempo, o que pode ser explorado para um Over no segundo tempo, caso o jogo se mantenha aberto. O alto volume de finalizações do Liverpool (16.83) e a sua capacidade de marcar mais no primeiro tempo (61% dos gols) criam um cenário favorável para uma entrada em Over 70+ se o jogo se mantiver com placar apertado.",
-      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV moderado",
-      "mando_de_campo": "Liverpool é muito forte em casa, com alta média de pontos.",
+      "motivacao_tecnica": "Liverpool é o 5º colocado com 1.94 pontos por jogo, lutando por vaga na Champions, enquanto Brentford é o 14º com 1.11 pontos por jogo, sem objetivos claros. Liverpool tem um ataque muito mais forte (1.83 gols marcados) e uma defesa mais consistente (1.06 sofridos) comparado a Brentford (1.17 marcados, 1.67 sofridos). O favoritismo do Liverpool é evidente.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "Liverpool: 5º na tabela, 1.94 pontos por jogo. Média de 1.83 gols marcados e 1.06 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Liverpool marca mais no 1º tempo (61%), Brentford marca mais no 2º tempo (60%).",
-      "momento_gols": "Liverpool: Gols concentrados no primeiro tempo (61%) e no final do jogo (24% 76-90). Brentford: Gols mais distribuídos, com pico no 2º tempo (38% 76-90).",
-      "jogadores_chave": "Mohamed Salah (Liverpool), Cody Gakpo (Liverpool), Igor Thiago (Brentford), Dango Aboubacar Faissal Ouattara (Brentford).",
-      "placares_provaveis": "2x1, 3x1, 1x1",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Aposta em Over 2.5 com base em histórico de gols no final.",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "O valor pré-jogo é claro, com potencial para Over 70+.",
-        "gatilho_saida_parcial": "Gol do Brentford que muda o cenário.",
-        "hard_stop": "Perder de 2 gols em casa."
+        "justificativa_abordagem": "Liverpool tem melhor posição na tabela, maior motivação e estatísticas ofensivas e defensivas superiores.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Liverpool",
-        "odd_alvo": "1.50",
-        "razao": "Favoritismo claro do Liverpool, brigando por título.",
+        "odd_alvo": "N/A",
+        "razao": "Liverpool é o 5º colocado, com objetivos de Champions League, e apresenta estatísticas ofensivas e defensivas superiores ao Brentford.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
       "lay_zebra": null,
-      "over_limite_70": {
-        "aplicavel": true,
-        "sub_cenario": "padrao_fim",
-        "modo": "ao_vivo",
-        "favorito": null,
-        "indice_gols_final": "Liverpool marca 24% e sofre 32% dos seus gols entre 76-90 min. Brentford marca 38% e sofre 27% dos seus gols entre 76-90 min.",
-        "condicao_entrada": "Padrão histórico de gols no final, com ambas as equipes tendo tendência a marcar e sofrer gols na reta final. Alta média de gols no segundo tempo de ambas as equipes.",
-        "mercado_sugerido": "Mais X.5 gols",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Idealmente, o placar deve estar empatado ou com uma leve vantagem para um dos lados para maximizar a odd."
-      },
+      "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
       "confirmacao_visual": null
@@ -281,54 +309,54 @@
       "liga": "England Premier League",
       "jogo": "Burnley x Wolverhampton Wanderers",
       "metodos_aplicados": [
-        "lay_zebra"
+        "back_favorito"
       ],
-      "mercado_principal": "Lay Vitória do Burnley",
-      "odd_principal": "2.50",
-      "fair_odd_calculada": "2.80",
-      "valor_esperado": "-10.7% EV — odd 2.50 vs Fair Odd 2.80",
+      "mercado_principal": "Vitória Wolverhampton Wanderers",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
       "odd_secundaria": null,
-      "desempenho_1t": "Burnley falha em marcar 89% no 1ºT, Wolves falha em marcar 72% no 2ºT",
-      "desempenho_2t": "Burnley sofre 0.89 no 2ºT, Wolves sofre 0.56 no 2ºT",
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
-          "posicao": "20º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "posicao": "20º",
           "objetivo": "rebaixamento"
         },
         "fora": {
-          "posicao": "20º (posição como VISITANTE/fora, se estiver no PDF)",
+          "posicao": "20º",
           "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "Ambos os times estão na zona de rebaixamento, o que aumenta a tensão e a probabilidade de um jogo mais truncado. O Burnley tem um ataque extremamente frágil (0.94 gols por jogo) e sofre muitos gols (1.83), especialmente em casa. O Wolves, apesar de também estar mal, tem um ataque ligeiramente mais produtivo (0.39 gols por jogo) e uma defesa mais consistente (1.77 gols sofridos). A odd para o Burnley é considerada baixa demais para seu desempenho atual. O Wolves, apesar de ser visitante, tem melhores indicadores defensivos e um histórico recente de empatar ou vencer em casa, o que sugere que não será uma derrota fácil. A odd para o Wolves (zebra) está em torno de 2.50, e com a sua necessidade de pontuar para sair do Z-4, é uma boa oportunidade de lay no Burnley, que tem demonstrado muita dificuldade em pontuar.",
-      "coeficiente_regularidade": "Casa: CV muito baixo / Visitante: CV baixo",
-      "mando_de_campo": "Burnley tem um aproveitamento péssimo em casa.",
+      "motivacao_tecnica": "Ambos os times estão na zona de rebaixamento, com Burnley em 20º (0.67 pontos/jogo) e Wolverhampton também em 20º (0.28 pontos/jogo). No entanto, os dados mostram que o Wolverhampton tem um ataque ligeiramente mais produtivo (0.39 gols marcados) e uma defesa menos vazada (1.83 sofridos) em comparação com o Burnley (0.94 marcados, 1.56 sofridos). Apesar de ambos estarem mal, o Wolverhampton apresenta um desempenho ligeiramente menos pior.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "Burnley: 20º na tabela, 0.67 pontos por jogo. Média de 0.94 gols marcados e 1.56 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Burnley marca muito pouco, Wolves também tem dificuldade ofensiva.",
-      "momento_gols": "Burnley marca mais no início do jogo (50% entre 0-30 min). Wolves marca mais no 1º tempo (50%) mas sofre bastante no 2º tempo (61% dos gols sofridos).",
-      "jogadores_chave": "Lyle Foster (Burnley), Jaidon Anthony (Burnley), Hee-Chan Hwang (Wolves), Matheus Cunha (Wolves).",
-      "placares_provaveis": "0x1, 1x1, 0x2",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Entrada com valor pela odd inflada do Burnley.",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A odd do Burnley é irrealista para o seu desempenho.",
-        "gatilho_saida_parcial": "Gol do Burnley.",
-        "hard_stop": "Perder de 2 gols em casa."
+        "justificativa_abordagem": "Apesar de ambos estarem mal, o Wolverhampton apresenta estatísticas ligeiramente melhores em ataque e defesa.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
-      "back_favorito": null,
-      "lay_zebra": {
+      "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "zebra": "Wolverhampton Wanderers",
-        "odd_zebra_alvo": "2.50",
-        "razao": "Odd do Burnley muito baixa para seu desempenho atual, com o Wolves precisando de pontos para sair do rebaixamento.",
+        "favorito": "Wolverhampton Wanderers",
+        "odd_alvo": "N/A",
+        "razao": "Ambos os times estão na zona de rebaixamento, mas o Wolverhampton tem estatísticas ligeiramente superiores em ataque e defesa.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
+      "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
@@ -341,48 +369,48 @@
       "metodos_aplicados": [
         "back_favorito"
       ],
-      "mercado_principal": "Vitória do Arsenal",
-      "odd_principal": "1.75",
-      "fair_odd_calculada": "1.60",
-      "valor_esperado": "+9.3% EV — odd 1.75 vs Fair Odd 1.60",
+      "mercado_principal": "Vitória Arsenal",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
       "odd_secundaria": null,
-      "desempenho_1t": "Crystal Palace falha em marcar 61% no 1ºT, Arsenal marca 0.61 no 1ºT",
-      "desempenho_2t": "Crystal Palace falha em marcar 61% no 2ºT, Arsenal marca 0.94 no 2ºT",
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
-          "posicao": "15º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "posicao": "15º",
           "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": "1º (posição como VISITANTE/fora, se estiver no PDF)",
+          "posicao": "1º",
           "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "O Arsenal, líder da Premier League, tem um favoritismo claro contra o Crystal Palace, 15º colocado. O Arsenal demonstra um ataque mais forte (1.56 gols por jogo vs 1.00) e uma defesa mais sólida (0.83 gols sofridos vs 1.17). O desempenho do Arsenal fora de casa é excelente, com alta média de pontos e vitórias. Embora o Crystal Palace tenha melhorado recentemente, a inconsistência e a falta de poder de fogo (apenas 18 gols em 18 jogos) tornam o favoritismo do Arsenal ainda mais pronunciado. A motivação do Arsenal em conquistar o título reforça a aposta em sua vitória.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Crystal Palace tem um aproveitamento razoável em casa, mas a força do Arsenal fora de casa é superior.",
+      "motivacao_tecnica": "Arsenal é o líder com 1.94 pontos por jogo, lutando pelo título, enquanto Crystal Palace é o 15º com 1.17 pontos por jogo, sem objetivos claros. Arsenal tem um ataque muito mais forte (1.56 gols marcados) e uma defesa mais sólida (0.83 sofridos) comparado a Crystal Palace (1.00 marcado, 1.17 sofrido). O favoritismo do Arsenal é claro.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "Crystal Palace: 15º na tabela, 1.17 pontos por jogo. Média de 1.00 gols marcados e 1.17 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Crystal Palace marca mais no 2º tempo (61% dos gols), Arsenal marca mais no 2º tempo (61% dos gols).",
-      "momento_gols": "Crystal Palace: Gols concentrados no final do jogo (39% 76-90 min). Arsenal: Gols concentrados no meio do jogo (25% 46-60 e 18% 61-75 min).",
-      "jogadores_chave": "Bukayo Saka (Arsenal), Viktor Gyökeres (Arsenal), Leandro Trossard (Arsenal), Jean-Philippe Mateta (Crystal Palace).",
-      "placares_provaveis": "0x1, 0x2, 1x2",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Entrada pré-jogo com odd que reflete o valor.",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "O valor está na odd pré-jogo que já reflete o favoritismo.",
-        "gatilho_saida_parcial": "Gol do Crystal Palace.",
-        "hard_stop": "Perder de 2 gols em casa."
+        "justificativa_abordagem": "Arsenal é o líder, com alta motivação pelo título, e apresenta estatísticas superiores em ataque e defesa.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Arsenal",
-        "odd_alvo": "1.75",
-        "razao": "Favoritismo claro do Arsenal, líder da competição.",
+        "odd_alvo": "N/A",
+        "razao": "Arsenal é o líder da Premier League, com alta motivação para conquistar o título, e possui estatísticas ofensivas e defensivas superiores ao Crystal Palace.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -399,48 +427,48 @@
       "metodos_aplicados": [
         "back_favorito"
       ],
-      "mercado_principal": "Vitória do Newcastle United",
-      "odd_principal": "1.95",
-      "fair_odd_calculada": "1.80",
-      "valor_esperado": "+8.3% EV — odd 1.95 vs Fair Odd 1.80",
+      "mercado_principal": "Vitória Newcastle United",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
       "odd_secundaria": null,
-      "desempenho_1t": "Fulham marca 0.61 no 1ºT, Newcastle marca 0.67 no 1ºT",
-      "desempenho_2t": "Fulham marca 0.94 no 2ºT, Newcastle marca 0.28 no 2ºT",
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
-          "posicao": "8º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "posicao": "8º",
           "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": "15º (posição como VISITANTE/fora, se estiver no PDF)",
-          "objetivo": "sul_americana"
+          "posicao": "15º",
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "O Newcastle, apesar de ter uma posição mais baixa na tabela (15º), tem um potencial ofensivo e tático superior ao Fulham (8º). O Newcastle marca em média 0.94 gols por jogo contra 1.56 do Fulham, porém, a análise do xG e finalizações no alvo sugere que o Newcastle é mais perigoso (xG 1.43 vs 1.51, finalizações no alvo 3.83 vs 3.89). A motivação do Newcastle em buscar uma vaga em competições europeias (sul-americana) pode impulsionar o time para a vitória. O Fulham tem um bom desempenho em casa, mas o Newcastle, quando engrena, demonstra capacidade de vencer.",
-      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV moderado",
-      "mando_de_campo": "Fulham tem bom desempenho em casa, mas o Newcastle tem força fora.",
+      "motivacao_tecnica": "Newcastle United é o 15º colocado com 0.94 pontos por jogo, mas com potencial para subir na tabela, enquanto Fulham é o 8º com 1.78 pontos por jogo, sem objetivos claros. Newcastle tem um ataque mais produtivo (0.94 gols marcados) e uma defesa mais consistente (1.28 sofridos) em comparação com Fulham (1.56 marcados, 1.11 sofridos). Apesar da posição na tabela, o Newcastle tem um histórico recente melhor e maior potencial ofensivo.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "Fulham: 8º na tabela, 1.78 pontos por jogo. Média de 1.56 gols marcados e 1.11 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Fulham marca mais no 2º tempo (65%), Newcastle marca mais no 1º tempo (63%).",
-      "momento_gols": "Fulham: Gols concentrados no meio do jogo (25% 61-75 e 25% 76-90 min). Newcastle: Gols concentrados no início do jogo (48% entre 0-30 min).",
-      "jogadores_chave": "Harry Wilson (Fulham), Raúl Jiménez (Fulham), Anthony Gordon (Newcastle), Bruno Guimarães (Newcastle).",
-      "placares_provaveis": "1x2, 1x1, 2x2",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Entrada pré-jogo com odd que oferece valor.",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A odd do Newcastle representa um valor devido ao seu potencial técnico.",
-        "gatilho_saida_parcial": "Gol do Fulham.",
-        "hard_stop": "Perder de 2 gols em casa."
+        "justificativa_abordagem": "Newcastle tem um potencial ofensivo maior e um histórico recente que sugere uma melhora, apesar da posição na tabela.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Newcastle United",
-        "odd_alvo": "1.95",
-        "razao": "Potencial técnico do Newcastle superior ao Fulham e motivação em busca de vaga europeia.",
+        "odd_alvo": "N/A",
+        "razao": "Newcastle United, apesar da posição na tabela, demonstra um potencial ofensivo maior e um desempenho recente que pode ser superior ao Fulham.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -455,58 +483,55 @@
       "liga": "England Premier League",
       "jogo": "Nottingham Forest x AFC Bournemouth",
       "metodos_aplicados": [
-        "over_limite_70"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais X.5 gols (acima de 70min)",
-      "odd_principal": "1.70",
-      "fair_odd_calculada": "1.55",
-      "valor_esperado": "+9.6% EV — odd 1.70 vs Fair Odd 1.55",
+      "mercado_principal": "Vitória AFC Bournemouth",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
       "odd_secundaria": null,
-      "desempenho_1t": "Nottingham Forest falha em marcar 72% no 1ºT, Bournemouth falha em marcar 39% no 1ºT",
-      "desempenho_2t": "Nottingham Forest marca 0.67 no 2ºT, Bournemouth marca 0.78 no 2ºT",
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
-          "posicao": "16º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "posicao": "16º",
           "objetivo": "rebaixamento"
         },
         "fora": {
-          "posicao": "7º (posição como VISITANTE/fora, se estiver no PDF)",
-          "objetivo": "sul_americana"
+          "posicao": "7º",
+          "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "Ambas as equipes marcam e sofrem gols de forma consistente, e o Bournemouth tem uma clara tendência a marcar gols no segundo tempo (78% dos gols marcados). O Nottingham Forest também tem uma alta média de gols sofridos no segundo tempo (1.00). A análise do momento dos gols mostra um pico significativo para o Nottingham Forest entre 76-90 minutos (26% de gols marcados), e para o Bournemouth também (21% de gols marcados). O Bournemouth, ocupando a 7ª posição, tem a motivação de buscar uma vaga europeia, o que pode levar a um jogo mais aberto na reta final. O Nottingham Forest luta contra o rebaixamento, o que pode gerar um cenário de desespero ofensivo no final do jogo. A odd para Over 2.5 no segundo tempo tende a ser atrativa.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Nottingham Forest tem um aproveitamento fraco em casa.",
+      "motivacao_tecnica": "AFC Bournemouth é o 7º colocado com 1.39 pontos por jogo, lutando por vaga continental, enquanto Nottingham Forest é o 16º com 1.06 pontos por jogo, lutando contra o rebaixamento. Bournemouth tem um ataque muito mais forte (1.56 gols marcados) e uma defesa mais sólida (1.83 sofridos) comparado a Nottingham Forest (1.06 marcados, 1.22 sofridos). O favoritismo do Bournemouth é claro.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "Nottingham Forest: 16º na tabela, 1.06 pontos por jogo. Média de 1.06 gols marcados e 1.22 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Nottingham Forest marca mais no 2º tempo (67%), Bournemouth marca mais no 2º tempo (67%).",
-      "momento_gols": "Nottingham Forest: Gols concentrados no final do jogo (26% 76-90 min). Bournemouth: Gols concentrados no meio do jogo (18% 31-45 e 18% 61-75 min).",
-      "jogadores_chave": "Morgan Gibbs-White (Nottingham Forest), Igor Jesus Maciel da Cruz (Nottingham Forest), Eli Junior Kroupi (Bournemouth), Rayan Rocha (Bournemouth).",
-      "placares_provaveis": "1x1, 2x1, 1x2",
-      "momento_entrada": "ao_vivo",
-      "situacao_saida": "Entrada em Over 2.5 no segundo tempo baseada no padrão de gols tardios.",
-      "stake_recomendada": "1%",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "O valor está no padrão de gols tardios, que tende a se confirmar no ao vivo.",
-        "gatilho_saida_parcial": "Gol da zebra que desequilibra a partida.",
-        "hard_stop": "Placar 0x0 após 70 minutos."
+        "justificativa_abordagem": "Bournemouth tem melhor posição na tabela, maior motivação e estatísticas ofensivas e defensivas superiores.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": {
+      "back_favorito": {
         "aplicavel": true,
-        "sub_cenario": "padrao_fim",
-        "modo": "ao_vivo",
-        "favorito": null,
-        "indice_gols_final": "Nottingham Forest marca 26% dos seus gols entre 76-90 min. Bournemouth marca 21% dos seus gols entre 76-90 min.",
-        "condicao_entrada": "Padrão histórico de gols no final, com ambas as equipes tendo tendência a marcar gols na reta final. Alta média de gols sofridos no segundo tempo para ambas.",
-        "mercado_sugerido": "Mais X.5 gols",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Idealmente, esperar o jogo chegar próximo dos 70 minutos com placar equilibrado ou com uma leve vantagem para um dos lados para maximizar a odd. A motivação de ambos os times pode levar a um final de jogo aberto."
+        "modo": "pre_jogo",
+        "favorito": "AFC Bournemouth",
+        "odd_alvo": "N/A",
+        "razao": "AFC Bournemouth é o 7º colocado, com objetivos de classificação para competições europeias, e possui estatísticas ofensivas e defensivas superiores ao Nottingham Forest.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
+      "lay_zebra": null,
+      "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
       "confirmacao_visual": null
@@ -518,48 +543,48 @@
       "metodos_aplicados": [
         "back_favorito"
       ],
-      "mercado_principal": "Vitória do Tottenham Hotspur",
-      "odd_principal": "1.50",
-      "fair_odd_calculada": "1.35",
-      "valor_esperado": "+11.1% EV — odd 1.50 vs Fair Odd 1.35",
+      "mercado_principal": "Vitória Tottenham Hotspur",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
       "odd_secundaria": null,
-      "desempenho_1t": "Tottenham Hotspur falha em marcar 61% no 1ºT, Everton falha em marcar 61% no 1ºT",
-      "desempenho_2t": "Tottenham Hotspur marca 0.72 no 2ºT, Everton marca 0.67 no 2ºT",
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
-          "posicao": "19º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "posicao": "19º",
           "objetivo": "rebaixamento"
         },
         "fora": {
-          "posicao": "6º (posição como VISITANTE/fora, se estiver no PDF)",
-          "objetivo": "sul_americana"
+          "posicao": "6º",
+          "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "O Tottenham, 6º colocado, demonstra um favoritismo claro contra o Everton, 19º colocado e lutando contra o rebaixamento. O Tottenham tem um ataque mais consistente (1.17 gols por jogo vs 1.17) mas a defesa do Everton é mais vulnerável (1.72 gols sofridos vs 1.22). A odd para o Tottenham é atrativa dado o histórico e a necessidade de pontuar para manter a posição. O Everton, embora em má fase, tem mostrado resiliência, mas jogar fora de casa contra um time com a força do Tottenham pode ser um desafio intransponível. A motivação do Tottenham em busca de uma vaga europeia reforça a aposta em sua vitória.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
-      "mando_de_campo": "Tottenham tem um aproveitamento razoável em casa, mas é crucial vencer para objetivos europeus.",
+      "motivacao_tecnica": "Tottenham Hotspur é o 6º colocado com 1.44 pontos por jogo, lutando por vaga na Champions, enquanto Everton é o 19º com 0.67 pontos por jogo, lutando contra o rebaixamento. Tottenham tem um ataque mais produtivo (1.17 gols marcados) e uma defesa mais sólida (1.22 sofridos) em comparação com Everton (1.17 marcados, 1.72 sofridos). O favoritismo do Tottenham é claro, especialmente com a motivação por vaga europeia.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "Tottenham Hotspur: 6º na tabela, 1.44 pontos por jogo. Média de 1.17 gols marcados e 1.72 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Tottenham marca mais no 2º tempo (69%), Everton marca mais no 1º tempo (53%).",
-      "momento_gols": "Tottenham: Gols concentrados no final do jogo (24% 76-90 min). Everton: Gols concentrados no início do jogo (33% 0-15 e 36% 76-90 min).",
-      "jogadores_chave": "Richarlison (Tottenham), Rodrigo Bentancur (Tottenham), Beto Bercique (Everton), James Garner (Everton).",
-      "placares_provaveis": "2x1, 1x0, 2x0",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Entrada pré-jogo com odd vantajosa.",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A odd pré-jogo oferece valor com o favoritismo do Tottenham.",
-        "gatilho_saida_parcial": "Gol do Everton.",
-        "hard_stop": "Perder de 2 gols em casa."
+        "justificativa_abordagem": "Tottenham tem melhor posição na tabela, maior motivação e estatísticas defensivas superiores.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Tottenham Hotspur",
-        "odd_alvo": "1.50",
-        "razao": "Favoritismo do Tottenham baseado na posição na tabela e necessidade de pontuar.",
+        "odd_alvo": "N/A",
+        "razao": "Tottenham Hotspur é o 6º colocado, com objetivos de classificação para competições europeias, e possui estatísticas defensivas superiores ao Everton, que luta contra o rebaixamento.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -570,6 +595,709 @@
       "confirmacao_visual": null
     },
     {
+      "horario": "12:00",
+      "liga": "England Premier League",
+      "jogo": "West Ham United x Leeds United",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória West Ham United",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
+      "contexto_times": {
+        "casa": {
+          "posicao": "17º",
+          "objetivo": "N/A"
+        },
+        "fora": {
+          "posicao": "18º",
+          "objetivo": "N/A"
+        }
+      },
+      "motivacao_tecnica": "West Ham United é o mandante e tem um aproveitamento superior em casa (1.06 pontos por jogo) comparado ao Leeds United fora de casa (0.83 pontos por jogo). O West Ham também tem um percentual de vitórias maior (28% vs 11%).",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "N/A",
+      "condicoes_campo": "N/A",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
+      "plano_execucao": {
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "West Ham United",
+        "odd_alvo": "N/A",
+        "razao": "Favoritismo claro em casa com base na posição na tabela e aproveitamento.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "N/A"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "12:00",
+      "liga": "England Premier League",
+      "jogo": "Manchester City x Aston Villa",
+      "metodos_aplicados": [
+        "back_favorito",
+        "back_goleada"
+      ],
+      "mercado_principal": "Vitória Manchester City",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": "Manchester City marca 4+ gols e vence",
+      "odd_secundaria": "N/A",
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
+      "contexto_times": {
+        "casa": {
+          "posicao": "2º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "9º",
+          "objetivo": "N/A"
+        }
+      },
+      "motivacao_tecnica": "Manchester City é o mandante e tem um aproveitamento muito superior (2.50 pontos por jogo) comparado ao Aston Villa fora de casa (1.33 pontos por jogo). O City tem um percentual de vitórias altíssimo (78%) e uma média de gols marcados muito superior (2.44 vs 1.22).",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "N/A",
+      "condicoes_campo": "N/A",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
+      "plano_execucao": {
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Manchester City",
+        "odd_alvo": "N/A",
+        "razao": "Favoritismo extremo em casa, com forte poder ofensivo e defesa sólida.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "N/A"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "candidato": "Manchester City",
+        "razao": "Favoritismo extremo do Manchester City, que tem um ataque muito forte e enfrenta um Aston Villa com defesa que sofre mais gols.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "N/A",
+        "odd_esperada": "N/A",
+        "stake_recomendada": "N/A"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "12:00",
+      "liga": "England Premier League",
+      "jogo": "Brighton & Hove Albion x Manchester United",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Manchester United",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
+      "contexto_times": {
+        "casa": {
+          "posicao": "6º",
+          "objetivo": "N/A"
+        },
+        "fora": {
+          "posicao": "4º",
+          "objetivo": "libertadores"
+        }
+      },
+      "motivacao_tecnica": "Manchester United é o visitante e tem um aproveitamento superior (1.44 pontos por jogo) comparado ao Brighton & Hove Albion em casa (1.83 pontos por jogo). No entanto, o Manchester United está em uma posição mais alta na tabela (4º vs 6º) e busca vaga em competições continentais.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "N/A",
+      "condicoes_campo": "N/A",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
+      "plano_execucao": {
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Manchester United",
+        "odd_alvo": "N/A",
+        "razao": "Manchester United tem melhor posição na tabela e busca objetivos continentais, apesar do Brighton ter um bom desempenho em casa.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "N/A"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "13:00",
+      "liga": "Italy Serie A",
+      "jogo": "Napoli x Udinese",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Napoli",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
+      "contexto_times": {
+        "casa": {
+          "posicao": "3º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "8º",
+          "objetivo": "N/A"
+        }
+      },
+      "motivacao_tecnica": "Napoli é o mandante e tem um aproveitamento superior (2.22 pontos por jogo) comparado ao Udinese fora de casa (1.50 pontos por jogo). O Napoli também tem um percentual de vitórias maior (67% vs 44%) e busca manter sua posição na tabela.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "N/A",
+      "condicoes_campo": "N/A",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
+      "plano_execucao": {
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Napoli",
+        "odd_alvo": "N/A",
+        "razao": "Favoritismo claro em casa, com melhor aproveitamento e posição na tabela.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "N/A"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "13:30",
+      "liga": "Belgium Pro League",
+      "jogo": "Union Saint-Gilloise x RSC Anderlecht",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Union Saint-Gilloise",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Casa venceu 53% do 1ºT, Visitante venceu 21% do 1ºT",
+      "desempenho_2t": "Casa venceu 74% do 2ºT, Visitante venceu 32% do 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "1º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "13º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Union Saint-Gilloise é o líder da competição, com um aproveitamento muito superior ao RSC Anderlecht, que ocupa a 13ª posição. O retrospecto recente do Union Saint-Gilloise é de 5 vitórias e 1 empate nos últimos 6 jogos, enquanto o Anderlecht tem um retrospecto misto com 3 vitórias, 1 empate e 2 derrotas. A força ofensiva do Union Saint-Gilloise (média de 2.00 gols marcados) contra a defesa do Anderlecht (média de 1.74 gols sofridos) reforça o favoritismo.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa: 1º colocado em aproveitamento em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos robustos.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Union Saint-Gilloise",
+        "odd_alvo": "N/A",
+        "razao": "Favoritismo claro do líder da competição contra equipe de meio de tabela, com retrospecto recente superior.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "13:30",
+      "liga": "Belgium Pro League",
+      "jogo": "Club Brugge x KAA Gent",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Club Brugge",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": "Mais de 70+ gols",
+      "odd_secundaria": "N/A",
+      "desempenho_1t": "Casa venceu 47% do 1ºT, Visitante venceu 26% do 1ºT",
+      "desempenho_2t": "Casa venceu 57% do 2ºT, Visitante venceu 26% do 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "2º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "10º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Club Brugge, 2º colocado, enfrenta o KAA Gent, 10º. O Brugge tem um ataque muito forte (média de 2.68 gols marcados) e uma boa média de gols no segundo tempo (1.47). O Gent sofre uma média de 1.63 gols por jogo. O retrospecto recente do Brugge é de 5 vitórias e 1 empate nos últimos 6 jogos. O padrão de gols no segundo tempo do Brugge (28 gols marcados) sugere potencial para o método Over Limite 70+.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa: 2º colocado em aproveitamento em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo do mandante e potencial para gols no segundo tempo.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Club Brugge",
+        "odd_alvo": "N/A",
+        "razao": "Club Brugge é o 2º colocado, com forte ataque e bom retrospecto recente, enfrentando o 10º colocado.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": "Club Brugge",
+        "indice_gols_final": "Club Brugge marca 1.47 gols no 2º tempo, com 68% de jogos com Over 0.5 gols no 2º tempo.",
+        "condicao_entrada": "Padrão histórico de gols do Club Brugge no segundo tempo.",
+        "mercado_sugerido": "Mais de 70+ gols",
+        "odd_esperada": "N/A",
+        "stake_recomendada": "1%",
+        "observacoes": "Foco no padrão de gols do mandante no segundo tempo."
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "13:30",
+      "liga": "Belgium Pro League",
+      "jogo": "Sint-Truiden x KV Mechelen",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Sint-Truiden",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Casa venceu 47% do 1ºT, Visitante venceu 32% do 1ºT",
+      "desempenho_2t": "Casa venceu 42% do 2ºT, Visitante venceu 26% do 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "3º",
+          "objetivo": "libertadores"
+        },
+        "fora": {
+          "posicao": "9º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Sint-Truiden, 3º colocado lutando por vaga continental, enfrenta o KV Mechelen, 9º colocado. O Sint-Truiden tem um retrospecto recente de 3 vitórias e 3 derrotas, enquanto o KV Mechelen tem 2 vitórias, 1 empate e 3 derrotas. A média de gols marcados do Sint-Truiden (1.53) é superior à do KV Mechelen (1.26). A posição na tabela e a motivação por vaga continental favorecem o Sint-Truiden.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa: 3º colocado em aproveitamento em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo do mandante com objetivo claro na tabela.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Sint-Truiden",
+        "odd_alvo": "N/A",
+        "razao": "Sint-Truiden é o 3º colocado, com maior média de gols marcados, enfrentando o 9º colocado.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "15:45",
+      "liga": "Italy Serie A",
+      "jogo": "Lecce x Genoa",
+      "metodos_aplicados": [
+        "evitar"
+      ],
+      "mercado_principal": null,
+      "odd_principal": null,
+      "fair_odd_calculada": null,
+      "valor_esperado": null,
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
+      "contexto_times": {
+        "casa": {
+          "posicao": "17º",
+          "objetivo": "N/A"
+        },
+        "fora": {
+          "posicao": "14º",
+          "objetivo": "N/A"
+        }
+      },
+      "motivacao_tecnica": "N/A",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "N/A",
+      "condicoes_campo": "N/A",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
+      "plano_execucao": {
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null,
+      "motivo": "Nenhum dos 5 métodos se aplica claramente. As estatísticas de gols e desempenho não indicam um cenário claro para Over Limite 70+, Back 2x2 ou Back Goleada. Não há um favorito claro para Back Favorito, e a odd da zebra não é alta o suficiente para Lay Zebra."
+    },
+    {
+      "horario": "15:45",
+      "liga": "Italy Serie A",
+      "jogo": "AC Milan x Cagliari",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória AC Milan",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
+      "contexto_times": {
+        "casa": {
+          "posicao": "7º",
+          "objetivo": "N/A"
+        },
+        "fora": {
+          "posicao": "18º",
+          "objetivo": "N/A"
+        }
+      },
+      "motivacao_tecnica": "AC Milan é o mandante e tem um aproveitamento superior (1.78 pontos por jogo) comparado ao Cagliari fora de casa (0.83 pontos por jogo). O Milan também tem um percentual de vitórias maior (50% vs 17%) e uma média de gols marcados superior.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "N/A",
+      "condicoes_campo": "N/A",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
+      "plano_execucao": {
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "AC Milan",
+        "odd_alvo": "N/A",
+        "razao": "Favoritismo claro em casa, com melhor aproveitamento e maior poder ofensivo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "N/A"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "15:45",
+      "liga": "Italy Serie A",
+      "jogo": "Hellas Verona x Roma",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Roma",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
+      "contexto_times": {
+        "casa": {
+          "posicao": "20º",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "7º",
+          "objetivo": "libertadores"
+        }
+      },
+      "motivacao_tecnica": "Roma é a visitante e tem um aproveitamento muito superior (1.56 pontos por jogo) comparado ao Hellas Verona em casa (0.44 pontos por jogo). A Roma tem um percentual de vitórias muito maior (50% vs 6%) e busca vaga em competições continentais, enquanto o Verona luta contra o rebaixamento.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "N/A",
+      "condicoes_campo": "N/A",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
+      "plano_execucao": {
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Roma",
+        "odd_alvo": "N/A",
+        "razao": "Favoritismo claro da Roma, com melhor aproveitamento, posição na tabela e motivação por vaga continental, contra um Verona em má fase e lutando contra o rebaixamento.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "N/A"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "15:45",
+      "liga": "Italy Serie A",
+      "jogo": "Torino x Juventus",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Juventus",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
+      "contexto_times": {
+        "casa": {
+          "posicao": "10º",
+          "objetivo": "N/A"
+        },
+        "fora": {
+          "posicao": "6º",
+          "objetivo": "libertadores"
+        }
+      },
+      "motivacao_tecnica": "Juventus é a visitante e tem um aproveitamento superior (1.72 pontos por jogo) comparado ao Torino em casa (1.50 pontos por jogo). A Juventus tem um percentual de vitórias ligeiramente maior (50% vs 44%) e busca consolidar sua posição para vaga continental.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "N/A",
+      "condicoes_campo": "N/A",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
+      "plano_execucao": {
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Juventus",
+        "odd_alvo": "N/A",
+        "razao": "Juventus tem um leve favoritismo baseado em aproveitamento e posição na tabela, buscando objetivos continentais.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "N/A"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "15:45",
+      "liga": "Italy Serie A",
+      "jogo": "Cremonese x Como",
+      "metodos_aplicados": [
+        "evitar"
+      ],
+      "mercado_principal": null,
+      "odd_principal": null,
+      "fair_odd_calculada": null,
+      "valor_esperado": null,
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
+      "contexto_times": {
+        "casa": {
+          "posicao": "18º",
+          "objetivo": "N/A"
+        },
+        "fora": {
+          "posicao": "5º",
+          "objetivo": "acesso"
+        }
+      },
+      "motivacao_tecnica": "N/A",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "N/A",
+      "condicoes_campo": "N/A",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
+      "plano_execucao": {
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null,
+      "motivo": "Nenhum dos 5 métodos se aplica claramente. O Como tem um bom desempenho fora de casa e busca acesso, mas o Cremonese tem estatísticas defensivas que não favorecem Over Limite 70+ ou Back 2x2. Não há um favorito claro para Back Favorito, e a odd da zebra não é alta o suficiente para Lay Zebra."
+    },
+    {
       "horario": "16:00",
       "liga": "Brazil Serie A",
       "jogo": "Remo x Atlético PR",
@@ -577,46 +1305,47 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Atlético PR",
-      "odd_principal": "1.80",
-      "fair_odd_calculada": "1.70",
-      "valor_esperado": "+5.9% EV — odd 1.80 vs Fair Odd 1.70",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
-      "desempenho_1t": "Remo marca 0.71 no 1ºT, Atlético PR marca 0.29 no 1ºT",
-      "desempenho_2t": "Remo marca 0.57 no 2ºT, Atlético PR marca 0.43 no 2ºT",
+      "odd_secundaria": null,
+      "desempenho_1t": "Casa venceu 14% do 1ºT, Visitante venceu 14% do 1ºT",
+      "desempenho_2t": "Casa venceu 14% do 2ºT, Visitante venceu 14% do 2ºT",
       "contexto_times": {
         "casa": {
           "posicao": "19º",
-          "objetivo": "meio_tabela"
+          "objetivo": "rebaixamento"
         },
         "fora": {
           "posicao": "16º",
-          "objetivo": "meio_tabela"
+          "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "Atlético PR demonstra um desempenho ligeiramente superior em média de gols marcados e xG a favor, apesar da tabela mostrar ambos em posições semelhantes. A odd para o Atlético PR vencer está atrativa, oferecendo valor.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
-      "mando_de_campo": "Remo faz X% dos pontos em casa OU descrição do desempenho padrão",
-      "condicoes_campo": "Pitch, clima, fadiga. Se irrelevante: 'sem fatores relevantes'",
+      "motivacao_tecnica": "Ambas as equipes estão na zona de rebaixamento, com 1 vitória em 7 jogos. O Atlético PR tem uma média de gols marcados ligeiramente superior (1.29 vs 0.71) e sofre menos gols (1.57 vs 1.29). O retrospecto recente é muito similar, com ambas as equipes em má fase. O Atlético PR, por ter um ataque um pouco mais produtivo e uma defesa menos vazada, apresenta um leve favoritismo.",
+      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV alto",
+      "mando_de_campo": "Casa: 19º colocado em aproveitamento em casa",
+      "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Como cada time marca",
-      "momento_gols": "Janelas de gols",
-      "jogadores_chave": "Principais decisores",
-      "placares_provaveis": "Ex: 1x1, 2x1",
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": "Quando fazer cash-out",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Odds favoráveis com leve vantagem estatística para o Atlético PR.",
-        "gatilho_saida_parcial": "Se o Remo abrir o placar.",
-        "hard_stop": "Se o placar chegar em 0x2 ou 1x2."
+        "justificativa_abordagem": "Leve favoritismo do visitante com base em estatísticas de ataque e defesa, apesar de ambos estarem em má fase.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Atlético PR",
-        "odd_alvo": "1.80",
-        "razao": "Atlético PR apresenta ligeira vantagem estatística em gols e xG, justificando a aposta na vitória com a odd atual.",
+        "odd_alvo": "N/A",
+        "razao": "Atlético PR tem leve vantagem em média de gols marcados e sofridos, apesar de ambos estarem na zona de rebaixamento.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -631,49 +1360,117 @@
       "liga": "Brazil Serie A",
       "jogo": "Cruzeiro x Chapecoense",
       "metodos_aplicados": [
-        "back_favorito"
+        "back_favorito",
+        "back_goleada"
       ],
       "mercado_principal": "Vitória Cruzeiro",
-      "odd_principal": "1.40",
-      "fair_odd_calculada": "1.35",
-      "valor_esperado": "+3.7% EV — odd 1.40 vs Fair Odd 1.35",
-      "mercado_secundario": null,
-      "desempenho_1t": "Cruzeiro marca 0.88 no 1ºT, Chapecoense marca 0.00 no 1ºT",
-      "desempenho_2t": "Cruzeiro marca 0.75 no 2ºT, Chapecoense marca 0.50 no 2ºT",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": "Cruzeiro marca 4+ gols e vence",
+      "odd_secundaria": "N/A",
+      "desempenho_1t": "Casa venceu 38% do 1ºT, Visitante venceu 0% do 1ºT",
+      "desempenho_2t": "Casa venceu 25% do 2ºT, Visitante venceu 0% do 2ºT",
       "contexto_times": {
         "casa": {
           "posicao": "12º",
-          "objetivo": "titulo"
+          "objetivo": "libertadores"
         },
         "fora": {
           "posicao": "20º",
           "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "Cruzeiro, como mandante e lutando pelo título, apresenta dados ofensivos superiores, especialmente no primeiro tempo. Chapecoense tem um ataque muito frágil, com dificuldade em marcar gols e um desempenho defensivo preocupante. O favoritismo do Cruzeiro nas odds parece justificado.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Cruzeiro tem um bom aproveitamento em casa.",
-      "condicoes_campo": "Pitch, clima, fadiga. Se irrelevante: 'sem fatores relevantes'",
+      "motivacao_tecnica": "Cruzeiro, 12º colocado lutando por vaga continental, enfrenta a Chapecoense, lanterna da competição. O Cruzeiro tem um ataque muito mais produtivo (média de 1.63 gols marcados) contra uma defesa frágil da Chapecoense (média de 1.67 gols sofridos). O retrospecto recente do Cruzeiro é de 3 vitórias e 1 empate nos últimos 4 jogos, enquanto a Chapecoense perdeu todos os seus últimos 6 jogos. O favoritismo do Cruzeiro é claro e o cenário de goleada é plausível.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
+      "mando_de_campo": "Casa: 12º colocado em aproveitamento em casa",
+      "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Cruzeiro demonstra capacidade de marcar no início e fim de jogo. Chapecoense tem dificuldade em criar e finalizar.",
-      "momento_gols": "Janelas de gols",
-      "jogadores_chave": "Principais decisores",
-      "placares_provaveis": "Ex: 2x0, 2x1",
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": "Quando fazer cash-out",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro do Cruzeiro, que joga em casa e briga pelo título, contra uma Chapecoense com sérios problemas ofensivos e defensivos.",
-        "gatilho_saida_parcial": "Se a Chapecoense marcar.",
-        "hard_stop": "Se o placar chegar em 1x1."
+        "justificativa_abordagem": "Favoritismo extremo do mandante contra o lanterna, com forte ataque e defesa frágil do visitante.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Cruzeiro",
-        "odd_alvo": "1.40",
-        "razao": "Cruzeiro joga em casa, luta por título e tem dados ofensivos superiores contra uma Chapecoense com ataque frágil.",
+        "odd_alvo": "N/A",
+        "razao": "Cruzeiro é o 12º colocado lutando por vaga continental, com ataque forte e retrospecto recente positivo, contra a Chapecoense, lanterna.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "candidato": "Cruzeiro",
+        "razao": "Favoritismo extremo do Cruzeiro contra a Chapecoense, que tem defesa frágil e péssimo retrospecto recente.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Cruzeiro marca 4+ gols e vence",
+        "odd_esperada": "N/A",
+        "stake_recomendada": "1%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "Brazil Serie A",
+      "jogo": "Corinthians x Atlético Mineiro",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Atlético Mineiro",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Casa venceu 13% do 1ºT, Visitante venceu 25% do 1ºT",
+      "desempenho_2t": "Casa venceu 25% do 2ºT, Visitante venceu 13% do 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "15º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "13º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Corinthians, 15º, e Atlético Mineiro, 13º, ambos com objetivos de meio de tabela. O retrospecto recente de ambos é similar, com 3 vitórias e 1 empate em 8 jogos. As médias de gols marcados e sofridos são idênticas (1.00 gol marcado, 1.25 sofrido para o Galo; 1.00 marcado, 1.00 sofrido para o Corinthians). O Atlético Mineiro tem um leve favoritismo devido à posição ligeiramente superior na tabela e ao xG a favor maior.",
+      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV alto",
+      "mando_de_campo": "Casa: 15º colocado em aproveitamento em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Leve favoritismo do visitante com base em posição na tabela e xG.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Atlético Mineiro",
+        "odd_alvo": "N/A",
+        "razao": "Atlético Mineiro tem leve favoritismo devido à posição na tabela e xG ligeiramente superior, com retrospecto recente similar ao Corinthians.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -691,46 +1488,47 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória São Bernardo",
-      "odd_principal": "2.20",
-      "fair_odd_calculada": "2.15",
-      "valor_esperado": "+2.3% EV — odd 2.20 vs Fair Odd 2.15",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
-      "desempenho_1t": "Atlético GO marca 0.75 no 1ºT, São Bernardo marca 0.50 no 1ºT",
-      "desempenho_2t": "Atlético GO marca 0.50 no 2ºT, São Bernardo marca 1.75 no 2ºT",
+      "odd_secundaria": null,
+      "desempenho_1t": "Casa venceu 75% do 1ºT, Visitante venceu 25% do 1ºT",
+      "desempenho_2t": "Casa venceu 0% do 2ºT, Visitante venceu 75% do 2ºT",
       "contexto_times": {
         "casa": {
           "posicao": "11º",
-          "objetivo": "meio_tabela"
+          "objetivo": "acesso"
         },
         "fora": {
           "posicao": "1º",
           "objetivo": "acesso"
         }
       },
-      "motivacao_tecnica": "O São Bernardo lidera a competição com um desempenho ofensivo notável, especialmente no segundo tempo, onde marcam uma média de 1.75 gols. O Atlético GO tem um ataque razoável, mas a defesa é mais vulnerável. A odd para o São Bernardo, apesar de ser visitante, oferece valor dada sua performance atual.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
-      "mando_de_campo": "Atlético GO joga em casa.",
-      "condicoes_campo": "Pitch, clima, fadiga. Se irrelevante: 'sem fatores relevantes'",
+      "motivacao_tecnica": "São Bernardo, líder da Série B, enfrenta o Atlético GO, 11º colocado. O São Bernardo tem um ataque muito forte (média de 2.25 gols marcados) e um retrospecto recente impecável (3 vitórias em 4 jogos). O Atlético GO tem um ataque mais modesto (média de 1.25 gols marcados) e um retrospecto misto. O favoritismo do São Bernardo é claro, especialmente considerando seu desempenho ofensivo.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV baixo",
+      "mando_de_campo": "Casa: 11º colocado em aproveitamento em casa",
+      "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "São Bernardo é forte no segundo tempo. Atlético GO tem um primeiro tempo mais produtivo.",
-      "momento_gols": "Janelas de gols",
-      "jogadores_chave": "Principais decisores",
-      "placares_provaveis": "Ex: 1x2, 1x1",
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": "Quando fazer cash-out",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "São Bernardo como líder e com forte segundo tempo ofensivo, a odd oferece valor.",
-        "gatilho_saida_parcial": "Se o Atlético GO abrir o placar.",
-        "hard_stop": "Se o placar chegar em 2x0."
+        "justificativa_abordagem": "Favoritismo claro do líder da competição com forte poder ofensivo.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "São Bernardo",
-        "odd_alvo": "2.20",
-        "razao": "São Bernardo lidera a competição com forte ataque no segundo tempo, e a odd oferece valor.",
+        "odd_alvo": "N/A",
+        "razao": "São Bernardo é o líder da Série B, com forte ataque e retrospecto recente impecável, enfrentando o 11º colocado.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -748,13 +1546,13 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Atlético Madrid",
-      "odd_principal": null,
-      "fair_odd_calculada": null,
-      "valor_esperado": null,
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
       "odd_secundaria": null,
-      "desempenho_1t": "Villarreal vence 61% do 1ºT, Atlético Madrid vence 33%",
-      "desempenho_2t": "Villarreal vence 50% do 2ºT, Atlético Madrid vence 22%",
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
           "posicao": "4",
@@ -765,43 +1563,48 @@
           "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "Villarreal é o 4º colocado e busca o título, enquanto o Atlético Madrid é o 7º e luta por uma vaga na Libertadores. O Villarreal tem um desempenho impressionante em casa (2.39 pontos por jogo, 78% de vitórias), superior ao Atlético Madrid como visitante (1.28 pontos por jogo). O Villarreal também marca mais gols (2.39 vs 1.22) e sofre menos (1.00 vs 1.22).",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
-      "mando_de_campo": "Villarreal tem 2.39 pontos por jogo em casa.",
+      "motivacao_tecnica": "Atlético Madrid (7º) está em uma posição mais forte na tabela e lutando por vaga na Libertadores, enquanto Villarreal (4º) também está na briga pelo título. O Atlético tem um aproveitamento de 1.28 pontos por jogo, enquanto o Villarreal tem 2.39. No entanto, o Villarreal tem um ataque muito mais prolífico (2.39 gols/jogo) comparado ao Atlético (1.22 gols/jogo). A defesa do Villarreal é mais sólida (1.00 gols sofridos/jogo) que a do Atlético (1.22 gols sofridos/jogo). O Villarreal tem 78% de vitórias contra 33% do Atlético. O Villarreal também tem um histórico de marcar o primeiro gol em 78% dos jogos, assim como o Atlético.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "Casa: 4º colocado, 2.39 pontos por jogo, 78% de vitórias.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Villarreal marca 2.39 gols/jogo, Atlético 1.22 gols/jogo.",
-      "momento_gols": "Villarreal concentra muitos gols no início e meio do jogo (14-30 e 31-45). Atlético Madrid tem um pico no final do jogo (76-90min).",
-      "jogadores_chave": [
-        "Gerard Moreno",
-        "Georges Mikautadze",
-        "Alexander Sørloth",
-        "Antoine Griezmann"
-      ],
-      "placares_provaveis": "2x1, 2x0",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cuidado com a força do Atlético Madrid em reagir no segundo tempo.",
-      "stake_recomendada": "2%",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
       "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "O favoritismo do Villarreal em casa é claro, com ótimas estatísticas ofensivas e defensivas, além de estar em uma melhor posição na tabela brigando pelo título.",
-        "gatilho_saida_parcial": "Gol do Atlético Madrid no primeiro tempo.",
-        "hard_stop": "Perda de 2 gols para o Atlético Madrid."
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Villarreal",
-        "odd_alvo": null,
-        "razao": "Villarreal é o claro favorito em casa, 4º na tabela brigando pelo título, com excelente retrospecto ofensivo e defensivo contra o Atlético Madrid que ocupa a 7ª posição.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
+        "odd_alvo": "N/A",
+        "razao": "Villarreal é o mandante, tem uma posição superior na tabela (4º vs 7º) e um aproveitamento significativamente maior (2.39 vs 1.28 pontos/jogo). Possui um ataque muito mais forte (2.39 gols/jogo vs 1.22 gols/jogo) e uma defesa mais consistente (1.00 gols sofridos/jogo vs 1.22 gols sofridos/jogo).",
+        "gatilho_ao_vivo": "N/A",
+        "stake_recomendada": "N/A"
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": null
+      "lay_zebra": {
+        "aplicavel": null
+      },
+      "over_limite_70": {
+        "aplicavel": null
+      },
+      "back_2x2": {
+        "aplicavel": null
+      },
+      "back_goleada": {
+        "aplicavel": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": null
+      }
     },
     {
       "horario": "16:30",
@@ -811,12 +1614,13 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória CRB",
-      "odd_principal": "1.90",
-      "fair_odd_calculada": "1.85",
-      "valor_esperado": "+2.7% EV — odd 1.90 vs Fair Odd 1.85",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
-      "desempenho_1t": "CRB marca 1.00 no 1ºT, Ponte Preta marca 0.50 no 1ºT",
-      "desempenho_2t": "CRB marca 0.25 no 2ºT, Ponte Preta marca 0.25 no 2ºT",
+      "odd_secundaria": null,
+      "desempenho_1t": "Casa venceu 50% do 1ºT, Visitante venceu 0% do 1ºT",
+      "desempenho_2t": "Casa venceu 25% do 2ºT, Visitante venceu 25% do 2ºT",
       "contexto_times": {
         "casa": {
           "posicao": "18º",
@@ -827,30 +1631,30 @@
           "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "Ambos os times estão em posições ruins e com desempenho ofensivo limitado. O CRB tem uma ligeira vantagem em média de gols marcados no primeiro tempo e um xG a favor superior. A odd de 1.90 para o CRB vencer parece justa, mas com uma margem pequena.",
+      "motivacao_tecnica": "CRB e Ponte Preta, ambos na 18ª posição, lutando contra o rebaixamento. O CRB tem um ataque ligeiramente mais produtivo (média de 1.25 gols marcados) e um retrospecto recente um pouco melhor (1 vitória em 4 jogos). A Ponte Preta tem um ataque mais fraco (média de 0.75 gols marcados) e sofre mais gols (1.75 vs 1.25). O mando de campo do CRB e sua ligeira vantagem ofensiva indicam um leve favoritismo.",
       "coeficiente_regularidade": "Casa: CV alto / Visitante: CV alto",
-      "mando_de_campo": "CRB joga em casa.",
-      "condicoes_campo": "Pitch, clima, fadiga. Se irrelevante: 'sem fatores relevantes'",
+      "mando_de_campo": "Casa: 18º colocado em aproveitamento em casa",
+      "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Ambos os times têm dificuldade em marcar, com a Ponte Preta sofrendo muitos gols no segundo tempo.",
-      "momento_gols": "Janelas de gols",
-      "jogadores_chave": "Principais decisores",
-      "placares_provaveis": "Ex: 1x0, 1x1",
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": "Quando fazer cash-out",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Jogo entre times em má fase, mas com leve vantagem para o CRB em casa e em indicadores ofensivos.",
-        "gatilho_saida_parcial": "Se a Ponte Preta abrir o placar.",
-        "hard_stop": "Se o placar chegar em 0x1 ou 1x2."
+        "justificativa_abordagem": "Leve favoritismo do mandante com ligeira vantagem ofensiva e melhor retrospecto recente.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "CRB",
-        "odd_alvo": "1.90",
-        "razao": "CRB tem leve vantagem em casa e em indicadores ofensivos contra uma Ponte Preta em má fase.",
+        "odd_alvo": "N/A",
+        "razao": "CRB tem leve favoritismo devido ao mando de campo, ataque ligeiramente mais produtivo e melhor retrospecto recente contra a Ponte Preta.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -868,13 +1672,13 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Columbus Crew",
-      "odd_principal": null,
-      "fair_odd_calculada": null,
-      "valor_esperado": null,
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
       "odd_secundaria": null,
-      "desempenho_1t": "Columbus vence 50% do 1ºT, Atlanta vence 0%",
-      "desempenho_2t": "Columbus vence 17% do 2ºT, Atlanta vence 40%",
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
           "posicao": "24",
@@ -885,114 +1689,64 @@
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Columbus Crew é o 24º colocado com 1.33 pontos por jogo, enquanto Atlanta United FC é o 22º com 0.80 pontos por jogo. Columbus tem um desempenho ofensivo ligeiramente melhor (1.17 vs 0.60 gols marcados) e defensivo similar (1.00 vs 1.40 gols sofridos). A média de gols total é baixa para ambos (2.17 e 2.00).",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Columbus Crew tem 1.33 pontos por jogo em casa.",
+      "motivacao_tecnica": "Columbus Crew é o 24º colocado com 1.33 pontos por jogo, enquanto Atlanta United FC é o 22º com 0.80 pontos por jogo. Columbus tem um aproveitamento melhor e uma defesa mais sólida (1.00 gols sofridos/jogo) comparado a Atlanta (1.40 gols sofridos/jogo). O Columbus tem 33% de vitórias contra 20% do Atlanta. O Columbus também tem um histórico de marcar o primeiro gol em 50% dos jogos, enquanto o Atlanta o faz em 20%.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "Casa: 24º colocado, 1.33 pontos por jogo, 33% de vitórias.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Columbus Crew marca 1.17 gols/jogo, Atlanta United 0.60 gols/jogo.",
-      "momento_gols": "Columbus concentra gols no primeiro tempo (43% entre 31-45). Atlanta também marca mais no segundo tempo (33% entre 61-75 e 76-90).",
-      "jogadores_chave": [
-        "Diego Rossi",
-        "Wessam Abou Ali",
-        "Aleksey Miranchuk"
-      ],
-      "placares_provaveis": "1x0, 2x1",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Atlanta tem mostrado mais capacidade de reação no segundo tempo.",
-      "stake_recomendada": "2%",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
       "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Columbus Crew joga em casa e tem estatísticas ligeiramente melhores, justificando um leve favoritismo. A baixa média de gols totais sugere um jogo com poucos gols.",
-        "gatilho_saida_parcial": "Gol do Atlanta United no primeiro tempo.",
-        "hard_stop": "Perda de 2 gols para o Atlanta United."
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Columbus Crew",
-        "odd_alvo": null,
-        "razao": "Columbus Crew joga em casa e possui estatísticas ligeiramente superiores em termos de pontos por jogo e gols marcados, contra um Atlanta United com baixo aproveitamento.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
+        "odd_alvo": "N/A",
+        "razao": "Columbus Crew tem melhor posição na tabela (24º vs 22º), melhor aproveitamento (1.33 vs 0.80 pontos/jogo) e uma defesa mais consistente (1.00 gols sofridos/jogo vs 1.40 gols sofridos/jogo).",
+        "gatilho_ao_vivo": "N/A",
+        "stake_recomendada": "N/A"
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "18:30",
-      "liga": "Brazil Serie A",
-      "jogo": "Corinthians x Atlético Mineiro",
-      "metodos_aplicados": [
-        "back_favorito"
-      ],
-      "mercado_principal": "Vitória Atlético Mineiro",
-      "odd_principal": "2.40",
-      "fair_odd_calculada": "2.30",
-      "valor_esperado": "+4.3% EV — odd 2.40 vs Fair Odd 2.30",
-      "mercado_secundario": null,
-      "desempenho_1t": "Corinthians marca 0.50 no 1ºT, Atlético Mineiro marca 0.63 no 1ºT",
-      "desempenho_2t": "Corinthians marca 0.50 no 2ºT, Atlético Mineiro marca 0.38 no 2ºT",
-      "contexto_times": {
-        "casa": {
-          "posicao": "15º",
-          "objetivo": "meio_tabela"
-        },
-        "fora": {
-          "posicao": "13º",
-          "objetivo": "titulo"
-        }
+      "lay_zebra": {
+        "aplicavel": null
       },
-      "motivacao_tecnica": "O Atlético Mineiro, apesar de estar em uma posição ligeiramente inferior na tabela, demonstra um xG a favor e média de gols marcados um pouco melhores. O Corinthians tem um ataque bastante limitado. A odd para o Atlético Mineiro vencer parece oferecer um valor interessante.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
-      "mando_de_campo": "Corinthians joga em casa.",
-      "condicoes_campo": "Pitch, clima, fadiga. Se irrelevante: 'sem fatores relevantes'",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Ambos os times marcam de forma consistente, mas o Atlético Mineiro tem uma leve vantagem em termos de produção ofensiva.",
-      "momento_gols": "Janelas de gols",
-      "jogadores_chave": "Principais decisores",
-      "placares_provaveis": "Ex: 1x1, 2x1",
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": "Quando fazer cash-out",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Apesar da proximidade na tabela, o Atlético Mineiro demonstra ligeira vantagem em indicadores ofensivos, e a odd oferece valor.",
-        "gatilho_saida_parcial": "Se o Corinthians abrir o placar.",
-        "hard_stop": "Se o placar chegar em 1x2 ou 0x2."
+      "over_limite_70": {
+        "aplicavel": null
       },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Atlético Mineiro",
-        "odd_alvo": "2.40",
-        "razao": "Atlético Mineiro com leve vantagem em indicadores ofensivos e odd que oferece valor.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
+      "back_2x2": {
+        "aplicavel": null
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": null
+      "back_goleada": {
+        "aplicavel": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": null
+      }
     },
     {
       "horario": "18:30",
       "liga": "Brazil Serie B",
       "jogo": "América Mineiro x Vila Nova",
       "metodos_aplicados": [
-        "lay_zebra"
+        "back_favorito"
       ],
-      "mercado_principal": "Lay Vitória Vila Nova",
-      "odd_principal": "2.20",
-      "fair_odd_calculada": "2.10",
-      "valor_esperado": "+4.5% EV — odd 2.20 vs Fair Odd 2.10",
+      "mercado_principal": "Vitória Vila Nova",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
-      "desempenho_1t": "América Mineiro marca 0.50 no 1ºT, Vila Nova marca 0.50 no 1ºT",
-      "desempenho_2t": "América Mineiro marca 0.00 no 2ºT, Vila Nova marca 0.75 no 2ºT",
+      "odd_secundaria": null,
+      "desempenho_1t": "Casa venceu 0% do 1ºT, Visitante venceu 25% do 1ºT",
+      "desempenho_2t": "Casa venceu 0% do 2ºT, Visitante venceu 25% do 2ºT",
       "contexto_times": {
         "casa": {
           "posicao": "20º",
@@ -1003,34 +1757,34 @@
           "objetivo": "acesso"
         }
       },
-      "motivacao_tecnica": "O Vila Nova, apesar de jogar fora, está em uma posição muito superior na tabela e demonstra maior capacidade ofensiva, especialmente no segundo tempo. O América Mineiro tem um ataque frágil e sofre muitos gols no segundo tempo. Apostar contra a vitória do Vila Nova é uma estratégia válida aqui, considerando o favoritismo do time visitante.",
-      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV moderado",
-      "mando_de_campo": "América Mineiro joga em casa.",
-      "condicoes_campo": "Pitch, clima, fadiga. Se irrelevante: 'sem fatores relevantes'",
+      "motivacao_tecnica": "Vila Nova, 9º colocado lutando por acesso, enfrenta o América Mineiro, lanterna da competição. O Vila Nova tem um ataque muito mais produtivo (média de 1.25 gols marcados) e um retrospecto recente superior. O América Mineiro tem um ataque muito fraco (média de 0.50 gols marcados) e sofre muitos gols (1.75). O favoritismo do Vila Nova é claro.",
+      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV baixo",
+      "mando_de_campo": "Casa: 20º colocado em aproveitamento em casa",
+      "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "América Mineiro tem dificuldade em marcar gols, especialmente no segundo tempo. Vila Nova demonstra mais poder de fogo.",
-      "momento_gols": "Janelas de gols",
-      "jogadores_chave": "Principais decisores",
-      "placares_provaveis": "Ex: 0x1, 0x2",
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": "Quando fazer cash-out",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Aposta contra o Vila Nova, considerando sua campanha superior e capacidade ofensiva contra um América Mineiro com problemas.",
-        "gatilho_saida_parcial": "Se o América Mineiro abrir o placar.",
-        "hard_stop": "Se o placar chegar em 1x0."
+        "justificativa_abordagem": "Favoritismo claro do visitante com objetivo de acesso contra o lanterna.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
-      "back_favorito": null,
-      "lay_zebra": {
+      "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "zebra": "América Mineiro",
-        "odd_zebra_alvo": "2.20",
-        "razao": "Vila Nova é superior na tabela e demonstra maior capacidade ofensiva, especialmente no segundo tempo, justificando apostar contra a vitória do América Mineiro.",
+        "favorito": "Vila Nova",
+        "odd_alvo": "N/A",
+        "razao": "Vila Nova é o 9º colocado lutando por acesso, com ataque mais produtivo e melhor retrospecto recente contra o América Mineiro, lanterna.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
+      "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
@@ -1043,48 +1797,48 @@
       "metodos_aplicados": [
         "back_favorito"
       ],
-      "mercado_principal": "Vitória do Avaí",
-      "odd_principal": "2.00",
-      "fair_odd_calculada": "1.75",
-      "valor_esperado": "+14.2% EV — odd 2.00 vs Fair Odd 1.75",
+      "mercado_principal": "Vitória Avaí",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
       "odd_secundaria": null,
-      "desempenho_1t": "Goiás sofre 0.5 no 1ºT",
-      "desempenho_2t": "Avaí marca 0.6 no 2ºT, Goiás sofre 1.75 no 2ºT",
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
-          "posicao": "13º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "posicao": "13º",
           "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": "20º (posição como VISITANTE/fora, se estiver no PDF)",
+          "posicao": "20º",
           "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "O Avaí, jogando em casa, tem um desempenho significativamente melhor do que o Goiás. O Avaí é o 13º colocado jogando em casa, com 1.20 pontos por jogo e 60% de vitórias, enquanto o Goiás é o lanterna na condição de visitante, com apenas 0.25 pontos por jogo e 0% de vitórias. O Goiás sofre uma média de 2.25 gols por jogo fora de casa, o que aumenta a vantagem do Avaí. A média de gols sofridos pelo Goiás no segundo tempo (1.75) também indica uma queda de rendimento.",
-      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV muito baixo",
-      "mando_de_campo": "Avaí tem um aproveitamento consideravelmente melhor em casa, demonstrando força como mandante.",
+      "motivacao_tecnica": "Avaí é o 13º colocado com 1.20 pontos por jogo, enquanto Goiás é o lanterna com 0.25 pontos por jogo. O Avaí tem um aproveitamento significativamente melhor em casa, com 60% de vitórias e 1.20 gols marcados por jogo, contra 0.75 gols marcados e 2.25 gols sofridos do Goiás fora de casa. A diferença de desempenho e posição na tabela sugere um favoritismo claro para o Avaí.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "Avaí: 13º na tabela, 1.20 pontos por jogo. Média de 1.20 gols marcados e 1.00 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Avaí marca mais no 2º tempo (60% dos gols marcados), Goiás sofre mais no 2º tempo (75% dos gols sofridos).",
-      "momento_gols": "Gols do Avaí concentrados no 2º tempo (60%), Gols do Goiás concentrados no 2º tempo (75% sofridos).",
-      "jogadores_chave": "Luiz Henrique Araujo Silva (Avaí), Walace dos Santos França (Avaí), Anselmo Ramon Alves Erculano (Goiás).",
-      "placares_provaveis": "2x0, 2x1, 1x0",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out em caso de gol do Goiás ou se o placar ficar empatado por muito tempo.",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "O valor está pré-definido com uma odd atrativa.",
-        "gatilho_saida_parcial": "Gol do Goiás.",
-        "hard_stop": "Perder de 2 gols em casa."
+        "justificativa_abordagem": "Favoritismo claro baseado em dados estatísticos e posição na tabela.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Avaí",
-        "odd_alvo": "2.00",
-        "razao": "Favoritismo claro baseado em desempenho em casa vs. desempenho fora de casa.",
+        "odd_alvo": "N/A",
+        "razao": "Avaí é o mandante e tem um desempenho muito superior ao Goiás, que é o último colocado e tem um aproveitamento muito baixo fora de casa.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -1099,16 +1853,16 @@
       "liga": "USA MLS",
       "jogo": "Inter Miami x Philadelphia Union",
       "metodos_aplicados": [
-        "back_favorito"
+        "over_limite_70"
       ],
-      "mercado_principal": "Vitória Inter Miami",
-      "odd_principal": null,
-      "fair_odd_calculada": null,
-      "valor_esperado": null,
+      "mercado_principal": "Mais de 2.5 gols",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
       "odd_secundaria": null,
-      "desempenho_1t": "Inter Miami vence 40% do 1ºT, Philadelphia vence 25%",
-      "desempenho_2t": "Inter Miami vence 0% do 2ºT, Philadelphia vence 25%",
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
           "posicao": "28",
@@ -1119,43 +1873,59 @@
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Inter Miami é o 28º colocado com 1.20 pontos por jogo, contra Philadelphia Union em 24º com 0.50 pontos por jogo. Inter Miami tem um ataque mais produtivo (2.00 vs 1.38 gols marcados) e uma defesa muito vazada (1.80 vs 2.25 gols sofridos). A média de gols total é alta para ambas as equipes (3.80 e 3.63).",
-      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV alto",
-      "mando_de_campo": "Inter Miami tem 1.20 pontos por jogo em casa.",
+      "motivacao_tecnica": "Inter Miami tem um ataque forte com 2.00 gols marcados por jogo e uma defesa frágil com 2.25 gols sofridos por jogo. Philadelphia Union tem um ataque razoável (1.38 gols marcados) e uma defesa muito vulnerável (2.25 gols sofridos). Ambos os times têm um alto índice de Over 2.5 gols (60% e 75% respectivamente). O Inter Miami tem 80% de jogos com Ambas Marcam, e o Philadelphia Union tem 75%. O Inter Miami tem um padrão de gols no segundo tempo, com 80% de jogos com Over 0.5 gols no 2º tempo e 80% de jogos com Over 1.5 gols no 2º tempo. O Philadelphia Union também apresenta um padrão de gols no segundo tempo, com 75% de jogos com Over 0.5 gols e 75% de jogos com Over 1.5 gols.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "Casa: 28º colocado, 1.20 pontos por jogo, 20% de vitórias.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "Messi, Suarez no Inter Miami.",
-      "especificidades_gols": "Inter Miami marca 2.00 gols/jogo, Philadelphia Union 1.38 gols/jogo.",
-      "momento_gols": "Ambas as equipes mostram uma distribuição de gols mais equilibrada entre os tempos, com Inter Miami tendo um pico no primeiro tempo (40% entre 31-45) e Philadelphia no segundo (36% entre 76-90).",
-      "jogadores_chave": [
-        "Lionel Messi",
-        "Luis Suárez",
-        "Milan Iloski",
-        "Jovan Lukić"
-      ],
-      "placares_provaveis": "2x1, 3x2",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Ambas as defesas são frágeis, o que pode levar a muitos gols.",
-      "stake_recomendada": "2%",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
       "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Inter Miami tem um ataque muito mais forte e joga em casa, apesar de sua defesa ser vulnerável. A alta média de gols totais sugere um jogo aberto.",
-        "gatilho_saida_parcial": "Gol do Philadelphia Union no primeiro tempo.",
-        "hard_stop": "Perda de 2 gols para o Philadelphia Union."
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Inter Miami",
-        "odd_alvo": null,
-        "razao": "Inter Miami tem um ataque significativamente mais forte e joga em casa, apesar de sua defesa ser mais vulnerável, contra um Philadelphia Union com menor produção ofensiva.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
+        "aplicavel": null
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": null
+      "lay_zebra": {
+        "aplicavel": null
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": "N/A",
+        "indice_gols_final": "Inter Miami: 80% Over 0.5 gols no 2º tempo, 80% Over 1.5 gols no 2º tempo. Philadelphia Union: 75% Over 0.5 gols no 2º tempo, 75% Over 1.5 gols no 2º tempo.",
+        "condicao_entrada": "Padrão histórico de gols no segundo tempo de ambas as equipes.",
+        "mercado_sugerido": "Mais de 2.5 gols",
+        "odd_esperada": "N/A",
+        "stake_recomendada": "N/A",
+        "observacoes": "Ambos os times têm alta média de gols totais e alta porcentagem de Over 2.5 gols."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "razao": "Inter Miami: 60% Ambas Marcam, 60% Over 2.5 gols. Philadelphia Union: 75% Ambas Marcam, 75% Over 2.5 gols. Ambos os times têm alta média de gols totais e alta porcentagem de Over 2.5 gols.",
+        "indice_over_2_5": "Inter Miami: 60%, Philadelphia Union: 75%",
+        "indice_ambas_marcam": "Inter Miami: 80%, Philadelphia Union: 75%",
+        "indice_over_ht": "Inter Miami: 40% Over 0.5 HT, Philadelphia Union: 25% Over 0.5 HT",
+        "modo": "pre_jogo",
+        "odd_alvo": "N/A",
+        "regra_saida": "N/A",
+        "stake_recomendada": "N/A"
+      },
+      "back_goleada": {
+        "aplicavel": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": null
+      }
     },
     {
       "horario": "20:30",
@@ -1165,12 +1935,13 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Vasco da Gama",
-      "odd_principal": "2.10",
-      "fair_odd_calculada": "2.00",
-      "valor_esperado": "+5.0% EV — odd 2.10 vs Fair Odd 2.00",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
-      "desempenho_1t": "Vasco da Gama marca 0.38 no 1ºT, Bragantino marca 0.25 no 1ºT",
-      "desempenho_2t": "Vasco da Gama marca 1.13 no 2ºT, Bragantino marca 0.50 no 2ºT",
+      "odd_secundaria": null,
+      "desempenho_1t": "Casa venceu 25% do 1ºT, Visitante venceu 0% do 1ºT",
+      "desempenho_2t": "Casa venceu 38% do 2ºT, Visitante venceu 50% do 2ºT",
       "contexto_times": {
         "casa": {
           "posicao": "6º",
@@ -1181,30 +1952,30 @@
           "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "Vasco da Gama, jogando em casa e com objetivo de Libertadores, mostra uma melhora significativa no segundo tempo em termos de gols marcados. O Bragantino tem um ataque mais limitado, embora suas estatísticas gerais sejam razoáveis. A odd para o Vasco é mais atrativa.",
+      "motivacao_tecnica": "Vasco da Gama, 6º, e Bragantino, 7º, ambos lutando por vaga na Libertadores. O Vasco tem um ataque mais produtivo (média de 1.50 gols marcados) e um retrospecto recente melhor (3 vitórias em 4 jogos). O Bragantino tem um ataque mais fraco (média de 0.75 gols marcados) e sofre mais gols (1.25 vs 1.13). O mando de campo do Vasco e sua melhor fase recente indicam favoritismo.",
       "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
-      "mando_de_campo": "Vasco da Gama tem um bom aproveitamento em casa e demonstra força no segundo tempo.",
-      "condicoes_campo": "Pitch, clima, fadiga. Se irrelevante: 'sem fatores relevantes'",
+      "mando_de_campo": "Casa: 6º colocado em aproveitamento em casa",
+      "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Vasco da Gama tem um segundo tempo mais prolífico, enquanto o Bragantino é mais equilibrado, mas com menor produção.",
-      "momento_gols": "Janelas de gols",
-      "jogadores_chave": "Principais decisores",
-      "placares_provaveis": "Ex: 1x0, 2x1",
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": "Quando fazer cash-out",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Vasco da Gama em casa, com forte segundo tempo ofensivo e motivação para Libertadores, contra um Bragantino com odd interessante.",
-        "gatilho_saida_parcial": "Se o Bragantino abrir o placar.",
-        "hard_stop": "Se o placar chegar em 0x2 ou 1x2."
+        "justificativa_abordagem": "Favoritismo do mandante com melhor retrospecto recente e ataque mais produtivo.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Vasco da Gama",
-        "odd_alvo": "2.10",
-        "razao": "Vasco da Gama em casa, forte no segundo tempo e com objetivo claro de Libertadores, contra um Bragantino com odd que oferece valor.",
+        "odd_alvo": "N/A",
+        "razao": "Vasco da Gama é o 6º colocado lutando por vaga na Libertadores, com melhor retrospecto recente e ataque mais produtivo que o Bragantino.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -1221,48 +1992,48 @@
       "metodos_aplicados": [
         "back_favorito"
       ],
-      "mercado_principal": "Vitória do Operário PR",
-      "odd_principal": "2.00",
-      "fair_odd_calculada": "1.80",
-      "valor_esperado": "+11.1% EV — odd 2.00 vs Fair Odd 1.80",
+      "mercado_principal": "Vitória Operário PR",
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
       "odd_secundaria": null,
-      "desempenho_1t": "Operário PR marca 0.8 no 1ºT, Criciúma sofre 0.6 no 1ºT",
-      "desempenho_2t": "Operário PR marca 0.4 no 2ºT, Criciúma sofre 0.4 no 2ºT",
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
-          "posicao": "9º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "posicao": "9º",
           "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": "12º (posição como VISITANTE/fora, se estiver no PDF)",
+          "posicao": "12º",
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "O Operário PR tem um desempenho inicial forte em casa, com 1.60 pontos por jogo e 40% de vitórias. Embora o Criciúma tenha um histórico recente de vitórias, seu desempenho fora de casa é inferior (1.00 ponto por jogo e 20% de vitórias). O Operário PR também demonstra uma melhor capacidade de finalizar (16.40 finalizações vs 9.40) e uma média de gols marcados ligeiramente superior. O fato de o Operário PR marcar mais no primeiro tempo (60% dos gols) e ter 80% de jogos sem sofrer gol no 1º tempo sugere um bom início de jogo, o que pode ser explorado.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
-      "mando_de_campo": "Operário PR demonstra solidez em casa, com bom aproveitamento inicial.",
+      "motivacao_tecnica": "Operário PR é o 9º colocado com 1.60 pontos por jogo, enquanto Criciúma é o 12º com 1.00 ponto por jogo. O Operário PR tem um bom aproveitamento em casa, com 40% de vitórias e média de 1.20 gols marcados e 1.20 sofridos. O Criciúma tem um desempenho mais modesto fora de casa, com 20% de vitórias e média de 0.80 gols marcados e 1.00 sofrido. O Operário PR apresenta um leve favoritismo.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "Operário PR: 9º na tabela, 1.60 pontos por jogo. Média de 1.20 gols marcados e 1.20 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Operário PR marca mais no 1º tempo (60%), Criciúma marca mais no 2º tempo (60%).",
-      "momento_gols": "Operário PR: Gols concentrados no início do jogo (50% entre 0-30 min). Criciúma: Gols mais distribuídos, com maior incidência no início do 2º tempo (50% entre 46-60 min).",
-      "jogadores_chave": "Gabriel Boschilia (Operário PR), Pablo Felipe Teixeira (Operário PR), Wagner da Silva Souza (Criciúma).",
-      "placares_provaveis": "1x0, 2x0, 1x1",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Entrada com odd atrativa, aposta a ser mantida pela força da odd.",
+      "situacao_saida": "N/A",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A odd pré-jogo apresenta valor esperado positivo.",
-        "gatilho_saida_parcial": "Gol do Criciúma.",
-        "hard_stop": "Perder de 2 gols em casa."
+        "justificativa_abordagem": "Operário PR tem um desempenho superior em casa e melhor posição na tabela.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Operário PR",
-        "odd_alvo": "2.00",
-        "razao": "Favorecimento baseado no desempenho recente e vantagem de mando.",
+        "odd_alvo": "N/A",
+        "razao": "Operário PR joga em casa e tem um aproveitamento melhor que o Criciúma fora de casa, além de uma posição superior na tabela.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -1280,82 +2051,68 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Los Angeles FC",
-      "odd_principal": null,
-      "fair_odd_calculada": null,
-      "valor_esperado": null,
+      "odd_principal": "N/A",
+      "fair_odd_calculada": "N/A",
+      "valor_esperado": "N/A",
       "mercado_secundario": null,
       "odd_secundaria": null,
-      "desempenho_1t": "LAFC vence 29% do 1ºT, Seattle vence 17%",
-      "desempenho_2t": "LAFC vence 56% do 2ºT, Seattle vence 33%",
+      "desempenho_1t": "N/A",
+      "desempenho_2t": "N/A",
       "contexto_times": {
         "casa": {
           "posicao": "8",
-          "objetivo": "meio_tabela"
+          "objetivo": "libertadores"
         },
         "fora": {
           "posicao": "6",
-          "objetivo": "meio_tabela"
+          "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "Los Angeles FC é o 8º colocado com 1.86 pontos por jogo, enquanto Seattle Sounders é o 6º com 1.83 pontos por jogo. Ambos os times têm bom desempenho, mas LAFC tem uma ligeira vantagem em casa. LAFC tem ataque mais produtivo (2.00 vs 0.83 gols marcados) e defesa mais sólida (1.14 vs 0.50 gols sofridos). A média de gols total é alta para LAFC (3.14) e baixa para Seattle (1.33).",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
-      "mando_de_campo": "Los Angeles FC tem 1.86 pontos por jogo em casa.",
+      "motivacao_tecnica": "Los Angeles FC é o 8º colocado com 1.86 pontos por jogo, lutando por vaga na Libertadores. Seattle Sounders é o 6º colocado com 1.83 pontos por jogo, também na briga por vaga continental. O LAFC tem um ataque mais forte (2.00 gols/jogo) e uma defesa mais sólida (1.14 gols sofridos/jogo) comparado ao Seattle (0.83 gols/jogo marcados e 0.50 gols sofridos/jogo). O LAFC tem 57% de vitórias contra 50% do Seattle. O LAFC tem um histórico de marcar o primeiro gol em 57% dos jogos, enquanto o Seattle o faz em 67%.",
+      "coeficiente_regularidade": "N/A",
+      "mando_de_campo": "Casa: 8º colocado, 1.86 pontos por jogo, 57% de vitórias.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Los Angeles FC marca 2.00 gols/jogo, Seattle Sounders 0.83 gols/jogo.",
-      "momento_gols": "LAFC tem picos de gols no meio do jogo (46-60 e 61-75). Seattle Sounders tem seus gols mais concentrados no início do jogo (0-15, 16-30 e 61-75).",
-      "jogadores_chave": [
-        "Denis Bouanga",
-        "David Martínez",
-        "Cristian Roldan",
-        "Paul Rothrock"
-      ],
-      "placares_provaveis": "2x1, 2x0",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Seattle tem uma defesa muito forte, o que pode dificultar a vitória do LAFC.",
-      "stake_recomendada": "2%",
+      "desfalques_chave": "N/A",
+      "especificidades_gols": "N/A",
+      "momento_gols": "N/A",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "N/A",
+      "momento_entrada": "N/A",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "N/A",
       "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "LAFC joga em casa com um ataque mais forte e uma defesa sólida, contra um Seattle Sounders com um desempenho ofensivo mais fraco. A média de gols total do LAFC é mais elevada, indicando um potencial para mais gols.",
-        "gatilho_saida_parcial": "Gol do Seattle Sounders no primeiro tempo.",
-        "hard_stop": "Perda de 2 gols para o Seattle Sounders."
+        "abordagem": "N/A",
+        "justificativa_abordagem": "N/A",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Los Angeles FC",
-        "odd_alvo": null,
-        "razao": "Los Angeles FC joga em casa com um ataque mais potente e uma defesa mais sólida do que o Seattle Sounders, que apesar de estar melhor posicionado, tem um desempenho ofensivo mais modesto.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
+        "odd_alvo": "N/A",
+        "razao": "Los Angeles FC joga em casa, tem um aproveitamento ligeiramente superior (1.86 vs 1.83 pontos/jogo), um ataque mais forte (2.00 gols/jogo vs 0.83 gols/jogo) e uma defesa mais sólida (1.14 gols sofridos/jogo vs 0.50 gols sofridos/jogo).",
+        "gatilho_ao_vivo": "N/A",
+        "stake_recomendada": "N/A"
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": null
+      "lay_zebra": {
+        "aplicavel": null
+      },
+      "over_limite_70": {
+        "aplicavel": null
+      },
+      "back_2x2": {
+        "aplicavel": null
+      },
+      "back_goleada": {
+        "aplicavel": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": null
+      }
     }
   ],
-  "evitar": [
-    {
-      "horario": "13:30",
-      "jogo": "Union Saint-Gilloise x RSC Anderlecht",
-      "liga": "Belgium Pro League",
-      "motivo": "Ambos os times possuem estatísticas de gols e aproveitamento próximas, sem um favoritismo claro que justifique os métodos disponíveis. Ambos os times apresentam um padrão de Over 2.5 gols em cerca de 42% dos seus jogos, e Ambas Marcam em 47% e 32% respectivamente, o que não configura um padrão forte para Back 2x2. A odd para o favorito não está acessível."
-    },
-    {
-      "horario": "13:30",
-      "jogo": "Club Brugge x KAA Gent",
-      "liga": "Belgium Pro League",
-      "motivo": "Apesar do Club Brugge ter um bom aproveitamento e média de gols, o KAA Gent também demonstra números expressivos, tornando o favoritismo não tão claro. Ambos os times têm uma boa taxa de Over 2.5 gols (68% e 58% respectivamente), mas o Ambas Marcam não é tão consistente em ambos (58% e 63%). As odds para o favorito podem não oferecer valor suficiente."
-    },
-    {
-      "horario": "13:30",
-      "jogo": "Sint-Truiden x KV Mechelen",
-      "liga": "Belgium Pro League",
-      "motivo": "Apesar do Sint-Truiden ter um melhor aproveitamento como mandante, as estatísticas gerais e a média de gols entre as equipes são muito próximas, sem um claro favoritismo. O padrão de Over 2.5 gols e Ambas Marcam não é forte o suficiente em ambos os times para justificar o Back 2x2. As odds para um favorito claro não estão disponíveis."
-    }
-  ],
+  "evitar": [],
   "pdfs": [
     {
       "jogo": "Union Saint-Gilloise x RSC Anderlecht",
