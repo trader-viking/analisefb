@@ -4,6 +4,8 @@ import path from 'node:path';
 export type OverLimite70 = {
   aplicavel?: boolean;
   elegivel?: boolean;
+  sub_cenario?: string;   // "gatilho_placar" | "padrao_fim"
+  modo?: string;          // "pre_jogo" | "ao_vivo"
   favorito?: string;
   indice_gols_final?: string;
   condicao_entrada?: string;

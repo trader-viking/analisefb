@@ -104,8 +104,6 @@ export function modoDoMetodo(entrada: Entrada, metodo: string): string | null {
     back_goleada: entrada.back_goleada,
     over_golos: entrada.over_golos,
   };
-  // Over Limite 70+ é sempre ao vivo (não mostra tag)
-  if (metodo === 'over_limite_70') return null;
   // Confirmação Visual é sempre ao vivo (não mostra tag)
   if (metodo === 'confirmacao_visual') return null;
   const obj = map[metodo];
@@ -113,6 +111,8 @@ export function modoDoMetodo(entrada: Entrada, metodo: string): string | null {
   const m = obj.modo;
   if (m === 'pre_jogo' || m === 'pre-jogo' || m === 'pré-jogo' || m === 'prejogo') return 'pre_jogo';
   if (m === 'ao_vivo' || m === 'ao-vivo' || m === 'aovivo' || m === 'live') return 'ao_vivo';
+  // Over Limite 70+ sem modo explícito: assume ao vivo (sub-cenário clássico)
+  if (metodo === 'over_limite_70') return 'ao_vivo';
   return null;
 }
 
