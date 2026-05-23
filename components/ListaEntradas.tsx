@@ -153,8 +153,8 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
   }, [carregado, relatorioSlug, metodosAtivos_, ligasAtivas, horariosAtivos]);
 
   // Métodos disponíveis (só os que aparecem em alguma entrada deste dia)
-  // Conta quantas entradas usam cada método (pra mostrar sempre os 6 com contador)
-  const TODOS_METODOS = ['back_favorito','lay_zebra','over_limite_70','mercado_gols','back_2x2','back_goleada','confirmacao_visual'];
+  // Conta quantas entradas usam cada método (pra mostrar sempre os 5 com contador)
+  const TODOS_METODOS = ['back_favorito','lay_zebra','over_limite_70','back_2x2','back_goleada','confirmacao_visual'];
   const contagemMetodos = useMemo(() => {
     const cont: Record<string, number> = {};
     for (const m of TODOS_METODOS) cont[m] = 0;
@@ -166,9 +166,9 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
     return cont;
   }, [entradas]);
 
-  // Métodos disponíveis = sempre os 6 principais (Confirmação Visual só se houver)
+  // Métodos disponíveis = sempre os 5 principais (Confirmação Visual só se houver)
   const metodosDisponiveis = useMemo(() => {
-    const base = ['back_favorito','lay_zebra','over_limite_70','mercado_gols','back_2x2','back_goleada'];
+    const base = ['back_favorito','lay_zebra','over_limite_70','back_2x2','back_goleada'];
     // Adiciona confirmacao_visual só se existir em alguma entrada
     if (contagemMetodos['confirmacao_visual'] > 0) base.push('confirmacao_visual');
     return base;
