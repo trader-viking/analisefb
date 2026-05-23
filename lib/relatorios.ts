@@ -132,6 +132,8 @@ export type Entrada = {
   _placar?: string | null;          // ex: "2x1"
   _status?: string;                 // 'finalizado' | 'em_andamento' | 'agendado'
   _placar_atualizado_em?: string;
+  _veredito?: string;               // 'green' | 'red' | 'inconclusivo' (do método principal)
+  _vereditos?: Record<string, { resultado?: string; motivo?: string }>; // por método
 };
 
 export type Evitar = {

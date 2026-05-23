@@ -391,7 +391,17 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
                           <span className="truncate">{entrada.liga}</span>
                         </span>
                       )}
-                      {encerrado && (
+                      {encerrado && entrada._veredito === 'green' && (
+                        <span className="ml-auto inline-flex items-center gap-1 px-2 py-0.5 rounded bg-emerald-600 text-white font-semibold">
+                          ✓ GREEN
+                        </span>
+                      )}
+                      {encerrado && entrada._veredito === 'red' && (
+                        <span className="ml-auto inline-flex items-center gap-1 px-2 py-0.5 rounded bg-red-600 text-white font-semibold">
+                          ✗ RED
+                        </span>
+                      )}
+                      {encerrado && entrada._veredito !== 'green' && entrada._veredito !== 'red' && (
                         <span className="ml-auto inline-flex items-center gap-1 px-2 py-0.5 rounded bg-ink-200 text-ink-700 dark:bg-ink-700 dark:text-ink-200 font-semibold">
                           Encerrado
                         </span>
