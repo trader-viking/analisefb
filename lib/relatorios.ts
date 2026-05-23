@@ -56,6 +56,17 @@ export type BackGoleada = {
   stake_recomendada?: string;
 };
 
+export type OverGolos = {
+  aplicavel?: boolean;
+  modo?: string;
+  linha?: string;            // "over_1.5" | "over_2.5" | "over_0.5_ht" | "ambas_marcam"
+  mercado_sugerido?: string;
+  razao?: string;
+  odd_alvo?: string;
+  gatilho_ao_vivo?: string;
+  stake_recomendada?: string;
+};
+
 export type ConfirmacaoVisual = {
   aplicavel?: boolean;
   elegivel?: boolean;
@@ -104,6 +115,7 @@ export type Entrada = {
   over_limite_70?: OverLimite70 | null;
   back_2x2?: Back2x2 | null;
   back_goleada?: BackGoleada | null;
+  over_golos?: OverGolos | null;
   confirmacao_visual?: ConfirmacaoVisual | null;
   // Placar gravado pelo Worker na auditoria (pra mostrar jogos encerrados)
   _placar?: string | null;          // ex: "2x1"

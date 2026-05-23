@@ -1,4 +1,4 @@
-import { Zap, Eye, ChevronsUp, ChevronsDown, Equal, Crown, Clock, Radio } from 'lucide-react';
+import { Zap, Eye, ChevronsUp, ChevronsDown, Equal, Crown, Clock, Radio, Waves } from 'lucide-react';
 import type { Entrada } from '@/lib/relatorios';
 
 // ... (mantém o código atual de METODOS_INFO etc)
@@ -53,6 +53,14 @@ export const METODOS_INFO: Record<string, Metodo> = {
     cor_text: 'text-yellow-700 dark:text-yellow-300',
     cor_ring: 'ring-yellow-300 dark:ring-yellow-800',
   },
+  over_golos: {
+    key: 'over_golos',
+    label: 'Over Gols',
+    icone: <Waves size={11} />,
+    cor_bg: 'bg-teal-50 dark:bg-teal-950/40',
+    cor_text: 'text-teal-700 dark:text-teal-300',
+    cor_ring: 'ring-teal-300 dark:ring-teal-800',
+  },
   confirmacao_visual: {
     key: 'confirmacao_visual',
     label: 'Confirmação Visual',
@@ -71,6 +79,7 @@ export function metodosAtivos(entrada: Entrada): string[] {
     ['over_limite_70', entrada.over_limite_70],
     ['back_2x2', entrada.back_2x2],
     ['back_goleada', entrada.back_goleada],
+    ['over_golos', entrada.over_golos],
     ['confirmacao_visual', entrada.confirmacao_visual],
   ];
   for (const [key, val] of checks) {
@@ -93,6 +102,7 @@ export function modoDoMetodo(entrada: Entrada, metodo: string): string | null {
     over_limite_70: entrada.over_limite_70,
     back_2x2: entrada.back_2x2,
     back_goleada: entrada.back_goleada,
+    over_golos: entrada.over_golos,
   };
   // Over Limite 70+ é sempre ao vivo (não mostra tag)
   if (metodo === 'over_limite_70') return null;
@@ -181,8 +191,9 @@ function parseStake(valor: unknown): number {
 
 // Ordem fixa de desempate (prioridade quando stake é igual)
 const ORDEM_FIXA: Record<string, number> = {
-  back_favorito: 6,
-  over_limite_70: 5,
+  back_favorito: 7,
+  over_limite_70: 6,
+  over_golos: 5,
   back_2x2: 4,
   lay_zebra: 3,
   back_goleada: 2,

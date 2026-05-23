@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import {
   ArrowLeft, Clock, Trophy, TrendingUp, Zap, AlertCircle,
   Eye, Target, BarChart3, MapPin, UserMinus, ShieldAlert, Activity,
-  ChevronsUp, ChevronsDown, Equal, Crown,
+  ChevronsUp, ChevronsDown, Equal, Crown, Waves,
 } from 'lucide-react';
 import { getEntrada, listarRelatorios, entradaSlug } from '@/lib/relatorios';
 import { BadgeMetodo, metodosAtivos, modoDoMetodo } from '@/components/BadgeMetodo';
@@ -487,6 +487,69 @@ export default function EntradaPage({
               <span className="text-ink-500">Stake recomendada:</span>
               <span className="pill bg-yellow-100 text-yellow-800 dark:bg-yellow-950 dark:text-yellow-200 text-sm px-2.5 py-1">
                 {entrada.back_goleada.stake_recomendada}
+              </span>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Over Gols Pré/Live */}
+      {entrada.over_golos?.aplicavel && (
+        <div className="card p-6 mb-6 ring-2 ring-teal-300 dark:ring-teal-800 bg-teal-50/40 dark:bg-teal-950/20">
+          <div className="flex items-center gap-2 mb-4">
+            <div className="w-8 h-8 rounded-lg bg-teal-500 dark:bg-teal-600 flex items-center justify-center">
+              <Waves size={18} className="text-white" />
+            </div>
+            <div>
+              <h2 className="font-bold text-lg leading-tight">Over Gols Pré/Live</h2>
+              <div className="text-xs text-teal-700 dark:text-teal-300">
+                Mercado de gols — {entrada.over_golos.modo === 'ao_vivo' ? 'ao vivo' : 'pré-jogo'}
+              </div>
+            </div>
+          </div>
+
+          <div className="grid sm:grid-cols-2 gap-3 mb-3">
+            {entrada.over_golos.mercado_sugerido && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  Mercado sugerido
+                </div>
+                <div className="text-sm font-medium">{entrada.over_golos.mercado_sugerido}</div>
+              </div>
+            )}
+            {entrada.over_golos.odd_alvo && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  ODD alvo
+                </div>
+                <div className="text-sm font-medium tabular-nums">{entrada.over_golos.odd_alvo}</div>
+              </div>
+            )}
+          </div>
+
+          {entrada.over_golos.razao && (
+            <div className="mb-3 p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-teal-200 dark:ring-teal-900">
+              <div className="text-[11px] uppercase tracking-wider text-teal-700 dark:text-teal-400 font-semibold mb-1">
+                Razão
+              </div>
+              <div className="text-sm leading-relaxed">{entrada.over_golos.razao}</div>
+            </div>
+          )}
+
+          {entrada.over_golos.gatilho_ao_vivo && entrada.over_golos.modo === 'ao_vivo' && (
+            <div className="mb-3 p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-red-200 dark:ring-red-900">
+              <div className="text-[11px] uppercase tracking-wider text-red-700 dark:text-red-400 font-semibold mb-1">
+                Gatilho ao vivo
+              </div>
+              <div className="text-sm leading-relaxed">{entrada.over_golos.gatilho_ao_vivo}</div>
+            </div>
+          )}
+
+          {entrada.over_golos.stake_recomendada && (
+            <div className="flex items-center gap-2 text-sm pt-2 border-t border-teal-200 dark:border-teal-900">
+              <span className="text-ink-500">Stake recomendada:</span>
+              <span className="pill bg-teal-100 text-teal-800 dark:bg-teal-950 dark:text-teal-200 text-sm px-2.5 py-1">
+                {entrada.over_golos.stake_recomendada}
               </span>
             </div>
           )}
