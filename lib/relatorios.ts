@@ -129,6 +129,7 @@ export type Entrada = {
   over_golos?: OverGolos | null;
   confirmacao_visual?: ConfirmacaoVisual | null;
   // Placar gravado pelo Worker na auditoria (pra mostrar jogos encerrados)
+  _slug?: string;
   _placar?: string | null;          // ex: "2x1"
   _status?: string;                 // 'finalizado' | 'em_andamento' | 'agendado'
   _placar_atualizado_em?: string;

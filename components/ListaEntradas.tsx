@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import {
   ExternalLink, TrendingUp, Clock, Trophy, X, SlidersHorizontal,
@@ -8,6 +8,7 @@ import {
 import { BadgeMetodo, metodosAtivos, metodosRankeados, METODOS_INFO, modoDoMetodo } from '@/components/BadgeMetodo';
 import { ContextoTimesCompacto } from '@/components/ContextoTimes';
 import BotoesApostaMini from '@/components/BotoesApostaMini';
+import BotaoBaixarImagem from '@/components/BotaoBaixarImagem';
 import type { Entrada } from '@/lib/relatorios';
 
 type EntradaComSlug = Entrada & { _slug: string };
@@ -156,7 +157,7 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
     for (const e of entradas) {
       for (const m of metodosAtivos(e)) set.add(m);
     }
-    return ['back_favorito','lay_zebra','over_limite_70','back_2x2','back_goleada','confirmacao_visual']
+    return ['back_favorito','lay_zebra','over_limite_70','over_golos','back_2x2','back_goleada','confirmacao_visual']
       .filter(m => set.has(m));
   }, [entradas]);
 
@@ -377,90 +378,15 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
                 const aoVivo = placar?.status === 'em_andamento';
 
                 return (
-                  <div key={entrada._slug} className={`card p-4 flex flex-col gap-3 ${encerrado ? 'opacity-90' : ''}`}>
-                    <div className="flex items-center gap-3 text-xs text-ink-500">
-                      {entrada.horario && (
-                        <span className="inline-flex items-center gap-1">
-                          <Clock size={12} />
-                          <span className="font-mono">{entrada.horario}</span>
-                        </span>
-                      )}
-                      {entrada.liga && (
-                        <span className="inline-flex items-center gap-1 truncate">
-                          <Trophy size={12} />
-                          <span className="truncate">{entrada.liga}</span>
-                        </span>
-                      )}
-                      {encerrado && entrada._veredito === 'green' && (
-                        <span className="ml-auto inline-flex items-center gap-1 px-2 py-0.5 rounded bg-emerald-600 text-white font-semibold">
-                          ✓ GREEN
-                        </span>
-                      )}
-                      {encerrado && entrada._veredito === 'red' && (
-                        <span className="ml-auto inline-flex items-center gap-1 px-2 py-0.5 rounded bg-red-600 text-white font-semibold">
-                          ✗ RED
-                        </span>
-                      )}
-                      {encerrado && entrada._veredito !== 'green' && entrada._veredito !== 'red' && (
-                        <span className="ml-auto inline-flex items-center gap-1 px-2 py-0.5 rounded bg-ink-200 text-ink-700 dark:bg-ink-700 dark:text-ink-200 font-semibold">
-                          Encerrado
-                        </span>
-                      )}
-                      {aoVivo && (
-                        <span className="ml-auto inline-flex items-center gap-1 px-2 py-0.5 rounded bg-red-600 text-white font-semibold animate-pulse">
-                          <span className="w-1.5 h-1.5 rounded-full bg-white"></span>
-                          Ao vivo
-                        </span>
-                      )}
-                    </div>
-
-                    <div className="flex items-center justify-between gap-2">
-                      <div className="font-semibold leading-snug">{entrada.jogo}</div>
-                      {placar && (placar.gols_casa !== null && placar.gols_fora !== null) && (
-                        <div className={`shrink-0 font-bold tabular-nums text-lg ${encerrado ? 'text-ink-700 dark:text-ink-200' : 'text-red-600 dark:text-red-400'}`}>
-                          {placar.gols_casa}<span className="text-ink-400 mx-0.5">x</span>{placar.gols_fora}
-                        </div>
-                      )}
-                    </div>
-
-                    <ContextoTimesCompacto jogo={entrada.jogo} contexto={entrada.contexto_times} />
-
-                    {mAtivos.length > 0 && (
-                      <div className="flex flex-wrap gap-1">
-                        {mAtivos.map(m => (
-                          <BadgeMetodo
-                            key={m}
-                            metodo={m}
-                            modo={modoDoMetodo(entrada, m)}
-                          />
-                        ))}
-                      </div>
-                    )}
-
-                    <div className="text-sm">
-                      <div className="text-ink-500 text-xs uppercase tracking-wider mb-0.5">
-                        Mercado principal
-                      </div>
-                      <div className="flex items-baseline gap-2">
-                        <span className="font-medium">{entrada.mercado_principal}</span>
-                        <span className="ml-auto font-bold text-emerald-600 dark:text-emerald-400 tabular-nums">
-                          {entrada.odd_principal}
-                        </span>
-                      </div>
-                    </div>
-
-                    <div className="mt-auto pt-3 border-t border-ink-100 dark:border-ink-800 space-y-2">
-                      <BotoesApostaMini jogo={entrada.jogo} />
-                      <Link
-                        href={`/relatorio/${relatorioSlug}/${entrada._slug}/`}
-                        target="_blank"
-                        className="btn btn-secondary justify-center w-full"
-                      >
-                        Ver detalhes
-                        <ExternalLink size={14} />
-                      </Link>
-                    </div>
-                  </div>
+                  <CardEntrada
+                    key={entrada._slug}
+                    entrada={entrada}
+                    mAtivos={mAtivos}
+                    placar={placar}
+                    encerrado={encerrado}
+                    aoVivo={aoVivo}
+                    relatorioSlug={relatorioSlug}
+                  />
                 );
               })}
             </div>
@@ -513,5 +439,111 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
         </div>
       )}
     </section>
+  );
+}
+
+// =====================================================================
+// Card individual de entrada (com ref própria pra exportar como imagem)
+// =====================================================================
+type Placar2 = {
+  casa: string; fora: string;
+  gols_casa: number | null; gols_fora: number | null;
+  status: 'finalizado' | 'em_andamento' | 'agendado';
+};
+
+function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlug }: {
+  entrada: Entrada;
+  mAtivos: string[];
+  placar: Placar2 | null;
+  encerrado: boolean;
+  aoVivo: boolean;
+  relatorioSlug: string;
+}) {
+  const cardRef = useRef<HTMLDivElement>(null);
+
+  return (
+    <div ref={cardRef} className={`card p-4 flex flex-col gap-3 ${encerrado ? 'opacity-90' : ''}`}>
+      <div className="flex items-center gap-3 text-xs text-ink-500">
+        {entrada.horario && (
+          <span className="inline-flex items-center gap-1">
+            <Clock size={12} />
+            <span className="font-mono">{entrada.horario}</span>
+          </span>
+        )}
+        {entrada.liga && (
+          <span className="inline-flex items-center gap-1 truncate">
+            <Trophy size={12} />
+            <span className="truncate">{entrada.liga}</span>
+          </span>
+        )}
+        <span className="ml-auto inline-flex items-center gap-1">
+          {encerrado && entrada._veredito === 'green' && (
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-emerald-600 text-white font-semibold">
+              ✓ GREEN
+            </span>
+          )}
+          {encerrado && entrada._veredito === 'red' && (
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-red-600 text-white font-semibold">
+              ✗ RED
+            </span>
+          )}
+          {encerrado && entrada._veredito !== 'green' && entrada._veredito !== 'red' && (
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-ink-200 text-ink-700 dark:bg-ink-700 dark:text-ink-200 font-semibold">
+              Encerrado
+            </span>
+          )}
+          {aoVivo && (
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-red-600 text-white font-semibold animate-pulse">
+              <span className="w-1.5 h-1.5 rounded-full bg-white"></span>
+              Ao vivo
+            </span>
+          )}
+          <BotaoBaixarImagem alvoRef={cardRef} nomeArquivo={entrada.jogo} variante="icone" />
+        </span>
+      </div>
+
+      <div className="flex items-center justify-between gap-2">
+        <div className="font-semibold leading-snug">{entrada.jogo}</div>
+        {placar && (placar.gols_casa !== null && placar.gols_fora !== null) && (
+          <div className={`shrink-0 font-bold tabular-nums text-lg ${encerrado ? 'text-ink-700 dark:text-ink-200' : 'text-red-600 dark:text-red-400'}`}>
+            {placar.gols_casa}<span className="text-ink-400 mx-0.5">x</span>{placar.gols_fora}
+          </div>
+        )}
+      </div>
+
+      <ContextoTimesCompacto jogo={entrada.jogo} contexto={entrada.contexto_times} />
+
+      {mAtivos.length > 0 && (
+        <div className="flex flex-wrap gap-1">
+          {mAtivos.map(m => (
+            <BadgeMetodo key={m} metodo={m} modo={modoDoMetodo(entrada, m)} />
+          ))}
+        </div>
+      )}
+
+      <div className="text-sm">
+        <div className="text-ink-500 text-xs uppercase tracking-wider mb-0.5">
+          Mercado principal
+        </div>
+        <div className="flex items-baseline gap-2">
+          <span className="font-medium">{entrada.mercado_principal}</span>
+          <span className="ml-auto font-bold text-emerald-600 dark:text-emerald-400 tabular-nums">
+            {entrada.odd_principal}
+          </span>
+        </div>
+      </div>
+
+      <div className="mt-auto pt-3 border-t border-ink-100 dark:border-ink-800 space-y-2" data-no-export="true">
+        <BotoesApostaMini jogo={entrada.jogo} />
+        <Link
+          href={`/relatorio/${relatorioSlug}/${entrada._slug}/`}
+          target="_blank"
+          className="btn btn-secondary justify-center w-full"
+        >
+          Ver detalhes
+          <ExternalLink size={14} />
+        </Link>
+      </div>
+    </div>
   );
 }

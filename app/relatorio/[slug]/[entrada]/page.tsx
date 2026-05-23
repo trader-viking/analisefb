@@ -8,6 +8,7 @@ import {
 import { getEntrada, listarRelatorios, entradaSlug } from '@/lib/relatorios';
 import { BadgeMetodo, metodosAtivos, modoDoMetodo } from '@/components/BadgeMetodo';
 import { ContextoTimesDetalhe } from '@/components/ContextoTimes';
+import BotaoBaixarPorId from '@/components/BotaoBaixarPorId';
 import BotoesAposta from '@/components/BotoesAposta';
 
 export function generateStaticParams() {
@@ -76,14 +77,18 @@ export default function EntradaPage({
 
   return (
     <div>
-      <Link
-        href={`/relatorio/${relatorio.slug}/`}
-        className="inline-flex items-center gap-1 text-sm text-ink-500 hover:text-ink-900 dark:hover:text-ink-100 mb-6 transition"
-      >
-        <ArrowLeft size={16} />
-        Voltar para {relatorio.titulo}
-      </Link>
+      <div className="flex items-center justify-between gap-3 mb-6" data-no-export="true">
+        <Link
+          href={`/relatorio/${relatorio.slug}/`}
+          className="inline-flex items-center gap-1 text-sm text-ink-500 hover:text-ink-900 dark:hover:text-ink-100 transition"
+        >
+          <ArrowLeft size={16} />
+          Voltar para {relatorio.titulo}
+        </Link>
+        <BotaoBaixarPorId alvoId="conteudo-analise" nomeArquivo={entrada.jogo} className="text-xs px-3 py-1.5" />
+      </div>
 
+      <div id="conteudo-analise">
       {/* Cabeçalho */}
       <div className="card p-6 mb-6">
         <div className="flex items-center gap-3 mb-3 text-sm">
@@ -838,6 +843,7 @@ export default function EntradaPage({
           <CampoDetalhe rotulo="Momento de entrada" valor={entrada.momento_entrada} />
           <CampoDetalhe rotulo="Situação de saída" valor={entrada.situacao_saida} />
         </div>
+      </div>
       </div>
     </div>
   );

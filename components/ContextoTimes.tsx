@@ -25,22 +25,34 @@ function temAlgumDado(ctx?: ContextoTimes | null): boolean {
   );
 }
 
-function LinhaTime({ nome, posicao, objetivo, compacto }: {
+function LinhaTime({ nome, posicao, objetivo, mando, compacto }: {
   nome: string;
   posicao?: string;
   objetivo?: string;
+  mando: 'casa' | 'fora';
   compacto?: boolean;
 }) {
   const info = objetivo ? OBJETIVO_INFO[objetivo] : null;
+  const iconeMando = mando === 'casa' ? '🏠' : '✈️';
+  const labelMando = mando === 'casa' ? 'em casa' : 'fora';
   return (
     <div className="flex items-center gap-1.5 min-w-0">
+      <span className="shrink-0" title={mando === 'casa' ? 'Mandante (em casa)' : 'Visitante (fora)'}>
+        {iconeMando}
+      </span>
       {posicao && (
         <span className="font-bold tabular-nums text-ink-700 dark:text-ink-200 shrink-0">
           {posicao}
         </span>
       )}
       {!compacto && (
-        <span className="truncate text-ink-600 dark:text-ink-300">{nome}</span>
+        <>
+          <span className="truncate text-ink-600 dark:text-ink-300">{nome}</span>
+          <span className="text-[11px] text-ink-400 shrink-0">{labelMando}</span>
+        </>
+      )}
+      {compacto && posicao && (
+        <span className="text-[11px] text-ink-400 shrink-0">{labelMando}</span>
       )}
       {info && (
         <span className={`inline-flex items-center gap-0.5 shrink-0 ${info.cls}`} title={info.label}>
@@ -52,7 +64,7 @@ function LinhaTime({ nome, posicao, objetivo, compacto }: {
   );
 }
 
-// Versão compacta (cards da lista): "2º 🏆 vs 14º ⚠️"
+// Versão compacta (cards da lista): "🏠 3º em casa  vs  ✈️ 12º fora"
 export function ContextoTimesCompacto({ jogo, contexto }: {
   jogo: string;
   contexto?: ContextoTimes | null;
@@ -60,10 +72,10 @@ export function ContextoTimesCompacto({ jogo, contexto }: {
   if (!temAlgumDado(contexto)) return null;
   const [casa, fora] = nomesDoJogo(jogo);
   return (
-    <div className="flex items-center gap-2 text-xs">
-      <LinhaTime nome={casa} posicao={contexto?.casa?.posicao} objetivo={contexto?.casa?.objetivo} compacto />
+    <div className="flex items-center gap-2 text-xs flex-wrap">
+      <LinhaTime nome={casa} posicao={contexto?.casa?.posicao} objetivo={contexto?.casa?.objetivo} mando="casa" compacto />
       <span className="text-ink-400">vs</span>
-      <LinhaTime nome={fora} posicao={contexto?.fora?.posicao} objetivo={contexto?.fora?.objetivo} compacto />
+      <LinhaTime nome={fora} posicao={contexto?.fora?.posicao} objetivo={contexto?.fora?.objetivo} mando="fora" compacto />
     </div>
   );
 }
@@ -78,11 +90,14 @@ export function ContextoTimesDetalhe({ jogo, contexto }: {
   return (
     <div className="card p-4">
       <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-2">
-        Tabela e motivação
+        Posição no mando &amp; motivação
       </div>
       <div className="space-y-2 text-sm">
-        <LinhaTime nome={casa} posicao={contexto?.casa?.posicao} objetivo={contexto?.casa?.objetivo} />
-        <LinhaTime nome={fora} posicao={contexto?.fora?.posicao} objetivo={contexto?.fora?.objetivo} />
+        <LinhaTime nome={casa} posicao={contexto?.casa?.posicao} objetivo={contexto?.casa?.objetivo} mando="casa" />
+        <LinhaTime nome={fora} posicao={contexto?.fora?.posicao} objetivo={contexto?.fora?.objetivo} mando="fora" />
+      </div>
+      <div className="text-[11px] text-ink-400 mt-2">
+        Posição considera o aproveitamento como mandante (casa) e visitante (fora).
       </div>
     </div>
   );
