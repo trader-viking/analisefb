@@ -74,6 +74,7 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
   const [metodosAtivos_, setMetodosAtivos_] = useState<Set<string>>(new Set());
   const [ligasAtivas, setLigasAtivas] = useState<Set<string>>(new Set());
   const [horariosAtivos, setHorariosAtivos] = useState<Set<Janela>>(new Set());
+  const [modosAtivos, setModosAtivos] = useState<Set<string>>(new Set());
   const [carregado, setCarregado] = useState(false);
   const [placares, setPlacares] = useState<Placar[]>([]);
   const [gavetaAberta, setGavetaAberta] = useState(false);
@@ -173,6 +174,17 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
     return base;
   }, [contagemMetodos]);
 
+  // Conta quantas entradas têm método ao vivo / pré-jogo
+  const contagemModos = useMemo(() => {
+    const cont = { ao_vivo: 0, pre_jogo: 0 };
+    for (const e of entradas) {
+      const modos = new Set(metodosAtivos(e).map(m => modoDoMetodo(e, m)).filter(Boolean) as string[]);
+      if (modos.has('ao_vivo')) cont.ao_vivo++;
+      if (modos.has('pre_jogo')) cont.pre_jogo++;
+    }
+    return cont;
+  }, [entradas]);
+
   // Ligas disponíveis (com contagem)
   const ligasDisponiveis = useMemo(() => {
     const cont = new Map<string, number>();
@@ -211,11 +223,19 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
         );
         if (!dentro) return false;
       }
+      // Modo (ao vivo / pré-jogo) — entrada passa se TEM algum método no(s) modo(s) selecionado(s)
+      if (modosAtivos.size > 0) {
+        const modosDaEntrada = new Set(
+          metodosAtivos(e).map(m => modoDoMetodo(e, m)).filter(Boolean) as string[]
+        );
+        const algum = Array.from(modosAtivos).some(mo => modosDaEntrada.has(mo));
+        if (!algum) return false;
+      }
       return true;
     });
-  }, [entradas, metodosAtivos_, ligasAtivas, horariosAtivos]);
+  }, [entradas, metodosAtivos_, ligasAtivas, horariosAtivos, modosAtivos]);
 
-  const temFiltro = metodosAtivos_.size + ligasAtivas.size + horariosAtivos.size > 0;
+  const temFiltro = metodosAtivos_.size + ligasAtivas.size + horariosAtivos.size + modosAtivos.size > 0;
 
   function toggle<T>(set: Set<T>, val: T, setter: (s: Set<T>) => void) {
     const novo = new Set(set);
@@ -228,6 +248,7 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
     setMetodosAtivos_(new Set());
     setLigasAtivas(new Set());
     setHorariosAtivos(new Set());
+    setModosAtivos(new Set());
   }
 
   // Conteúdo dos filtros (reutilizado na lateral desktop e na gaveta mobile)
@@ -267,6 +288,45 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
           </div>
         </div>
       )}
+
+      {/* Modo (ao vivo / pré-jogo) */}
+      <div>
+        <div className="text-[10px] uppercase tracking-wider text-ink-400 mb-2 font-semibold">Modo</div>
+        <div className="flex flex-col gap-1.5">
+          <button
+            type="button"
+            disabled={contagemModos.ao_vivo === 0}
+            onClick={() => toggle(modosAtivos, 'ao_vivo', setModosAtivos)}
+            className={`inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-xs font-medium transition w-full ${
+              modosAtivos.has('ao_vivo')
+                ? 'bg-red-600 text-white ring-2 ring-red-400'
+                : contagemModos.ao_vivo === 0
+                  ? 'ring-1 ring-ink-100 dark:ring-ink-800 text-ink-300 dark:text-ink-700 cursor-not-allowed opacity-60'
+                  : 'ring-1 ring-ink-200 dark:ring-ink-700 hover:bg-ink-50 dark:hover:bg-ink-900 text-ink-600 dark:text-ink-400'
+            }`}
+          >
+            <span className={`w-1.5 h-1.5 rounded-full ${modosAtivos.has('ao_vivo') ? 'bg-white' : 'bg-red-500'} ${contagemModos.ao_vivo > 0 ? 'animate-pulse' : ''}`}></span>
+            <span className="flex-1 text-left">Ao Vivo</span>
+            <span className={`tabular-nums ${contagemModos.ao_vivo === 0 ? 'opacity-50' : 'opacity-70'}`}>{contagemModos.ao_vivo}</span>
+          </button>
+          <button
+            type="button"
+            disabled={contagemModos.pre_jogo === 0}
+            onClick={() => toggle(modosAtivos, 'pre_jogo', setModosAtivos)}
+            className={`inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-xs font-medium transition w-full ${
+              modosAtivos.has('pre_jogo')
+                ? 'bg-ink-900 text-white dark:bg-white dark:text-ink-900 ring-2 ring-ink-400'
+                : contagemModos.pre_jogo === 0
+                  ? 'ring-1 ring-ink-100 dark:ring-ink-800 text-ink-300 dark:text-ink-700 cursor-not-allowed opacity-60'
+                  : 'ring-1 ring-ink-200 dark:ring-ink-700 hover:bg-ink-50 dark:hover:bg-ink-900 text-ink-600 dark:text-ink-400'
+            }`}
+          >
+            <Clock size={12} />
+            <span className="flex-1 text-left">Pré-jogo</span>
+            <span className={`tabular-nums ${contagemModos.pre_jogo === 0 ? 'opacity-50' : 'opacity-70'}`}>{contagemModos.pre_jogo}</span>
+          </button>
+        </div>
+      </div>
 
       {/* Ligas */}
       {ligasDisponiveis.length > 0 && (
@@ -363,7 +423,7 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
                 Filtros
                 {temFiltro && (
                   <span className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-emerald-600 text-white text-[9px] flex items-center justify-center font-bold">
-                    {metodosAtivos_.size + ligasAtivas.size + horariosAtivos.size}
+                    {metodosAtivos_.size + ligasAtivas.size + horariosAtivos.size + modosAtivos.size}
                   </span>
                 )}
               </button>
