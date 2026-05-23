@@ -1,648 +1,1326 @@
 {
   "data": "2026-05-23",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-05-23T10:36:02.152706",
+  "gerado_em": "2026-05-23T11:00:03.501680",
   "total_partidas_analisadas": 42,
   "entradas": [
+    {
+      "horario": "14:00",
+      "liga": "Egypt Egyptian Premier League",
+      "jogo": "Haras El Hodood x Petrojet",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra"
+      ],
+      "mercado_principal": "Vitória Petrojet",
+      "odd_principal": "1.80",
+      "fair_odd_calculada": "1.70",
+      "valor_esperado": "+5.9% EV — odd 1.80 vs Fair Odd 1.70",
+      "mercado_secundario": "Empate ou Vitória Haras El Hodood",
+      "odd_secundaria": "2.00",
+      "desempenho_1t": "Petrojet marca 0.44 no 1ºT, Haras El Hodood marca 0.47 no 1ºT",
+      "desempenho_2t": "Petrojet marca 0.63 no 2ºT, Haras El Hodood marca 0.35 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "17º",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "9º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Petrojet possui um histórico ligeiramente melhor em média de gols e posição na tabela, o que indica um favoritismo moderado. Haras El Hodood está na zona de rebaixamento, indicando baixa motivação e desespero que pode levar a erros defensivos. O Petrojet tem mais qualidade técnica e um ataque ligeiramente superior, justificando o back ao favorito. A odd de 2.00 para o Haras El Hodood é atrativa para um possível lay zebra em caso de gol cedo da zebra, aproveitando a baixa pressão do favorito. Média de gols sofridos do Haras El Hodood (1.18) é preocupante.",
+      "coeficiente_regularidade": "Casa: CV alto para sofrer gols | Fora: CV moderado para marcar gols",
+      "mando_de_campo": "Haras El Hodood tem 18% de vitórias em casa. Petrojet tem 25% de vitórias fora.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "sem desfalques chave mencionados",
+      "especificidades_gols": "Petrojet tem mais capacidade de finalização no alvo (3.19) contra 2.59 do Haras El Hodood. Petrojet também tem um xG a favor maior.",
+      "momento_gols": "Petrojet demonstra maior capacidade de marcar no segundo tempo (0.63) comparado ao primeiro (0.44). Haras El Hodood marca mais gols em blocos de 16-30 min e 61-75 min.",
+      "jogadores_chave": "Adham Hamed (Petrojet, 9 gols) e Mohamed Hamdy Zaki (Haras El Hodood, 6 gols).",
+      "placares_provaveis": "1x2, 0x1, 1x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out em caso de placar favorável ou desvantagem inicial.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Análise equilibrada com leve vantagem para o favorito, com potencial para ambas as equipes marcarem.",
+        "gatilho_saida_parcial": "Gol do favorito; Gol da zebra; Placar desfavorável a qualquer momento.",
+        "hard_stop": "Perda de 2 unidades do stake."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Petrojet",
+        "odd_alvo": "1.80",
+        "razao": "Favoritismo moderado com base em posição na tabela e média de gols marcados/sofridos. Haras El Hodood em má fase e na zona de rebaixamento.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Haras El Hodood",
+        "odd_zebra_alvo": "2.00",
+        "razao": "Apesar de favorito, o Haras El Hodood tem um padrão de sofrer gols (1.18 avg) e uma taxa de derrotas alta. Caso abra o placar, a odd para lay zebra ficará muito mais atrativa. A média de 2.00 para o Haras El Hodood pode ser uma oportunidade de valor caso o jogo se encaminhe para um cenário diferente.",
+        "gatilho_ao_vivo": "Lay zebra ao vivo se o Haras El Hodood marcar primeiro, visando lucrar com a virada do favorito.",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "sub_cenario": null,
+        "modo": null,
+        "favorito": null,
+        "indice_gols_final": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "observacoes": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    },
     {
       "horario": "15:00",
       "liga": "Germany DFB Pokal",
       "jogo": "Bayern München x Stuttgart",
       "metodos_aplicados": [
         "back_favorito",
-        "back_goleada",
-        "over_golos"
+        "back_goleada"
       ],
       "mercado_principal": "Vitória Bayern München",
       "odd_principal": "1.40",
       "fair_odd_calculada": "1.25",
       "valor_esperado": "+12.0% EV — odd 1.40 vs Fair Odd 1.25",
-      "mercado_secundario": "Mais de 3.5 gols",
-      "odd_secundaria": "1.90",
-      "desempenho_1t": "Bayern München marca 0.00 no 1ºT, Stuttgart marca 0.75 no 1ºT",
-      "desempenho_2t": "Bayern München marca 2.00 no 2ºT, Stuttgart marca 2.00 no 2ºT",
+      "mercado_secundario": "Bayern München marca 4+ e vence",
+      "odd_secundaria": "4.00",
+      "desempenho_1t": "Bayern München não marcou no 1ºT vs Stuttgart marcou 3 no 1ºT",
+      "desempenho_2t": "Bayern München marcou 2 no 2ºT vs Stuttgart marcou 8 no 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": "5º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "posicao": "5",
           "objetivo": "titulo"
         },
         "fora": {
-          "posicao": "17º (posição como VISITANTE/fora, se estiver no PDF)",
-          "objetivo": "meio_tabela"
+          "posicao": "17",
+          "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "O Bayern München é um favorito claro neste confronto, com odd pré-jogo inferior a 1.40. O time tem um excelente retrospecto recente e uma média de 2.00 gols marcados por jogo, sofrendo 0.00. O Stuttgart, embora com bom ataque (2.75 gols marcados), demonstra fragilidade defensiva (1.00 sofrido). A força ofensiva do Bayern e a necessidade de vencer a copa motivam o 'Back Favorito' e o 'Back Goleada'.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
-      "mando_de_campo": "Bayern München tem um aproveitamento de 100% com 2.00 gols marcados e 0.00 sofridos por jogo.",
+      "motivacao_tecnica": "O Bayern de Munique, apesar de ter enfrentado dificuldades no primeiro tempo em alguns jogos recentes, demonstra uma clara superioridade ofensiva, especialmente no segundo tempo, onde marcou 2 gols em média. Sua defesa é praticamente impenetrável (0 gols sofridos em média). O Stuttgart, embora tenha um ataque prolífico (2.75 gols por jogo), sua defesa é frágil (1.00 gol sofrido em média), e eles têm sofrido muitos gols no segundo tempo (0.75 em média). A odd para a vitória do Bayern (1.40) é justa, mas o cenário sugere uma goleada, justificando o 'Back Goleada' como mercado secundário. A motivação do Bayern em busca do título e a fragilidade do Stuttgart em confronto direto tornam essa aposta de valor.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
+      "mando_de_campo": "Bayern München: 100% de vitórias no 2º tempo em casa, marcando 2.00 gols em média. Stuttgart: 75% de vitórias no 2º tempo fora, marcando 2.00 gols em média.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "Elenco completo, com jogadores chave como Harry Kane e Luis Díaz em alta. Stuttgart com alguns desfalques importantes.",
-      "especificidades_gols": "Bayern München foca seus gols no 2º tempo. Stuttgart marca gols distribuídos, com pico entre 0-15 min e 46-60 min.",
-      "momento_gols": "Bayern München marca a maioria dos seus gols no 2º tempo. Stuttgart marca gols tanto no 1º quanto no 2º tempo.",
-      "jogadores_chave": "Harry Kane (Bayern München), Deniz Undav (Stuttgart)",
-      "placares_provaveis": "3x1, 4x1, 3x0",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A, stake baixa e entrada pré-jogo com favorável para o Bayern.",
-      "stake_recomendada": "2% para Back Favorito, 1% para Back Goleada, 1% para Over Gols",
+      "desfalques_chave": "sem informações disponíveis",
+      "especificidades_gols": "Bayern München: Gols concentrados no 2º tempo. Stuttgart: Ataque forte, mas defesa vulnerável.",
+      "momento_gols": "Bayern München: Gols ocorrem principalmente entre 61-75min no 2º tempo. Stuttgart: Gols marcados em todas as janelas, com pico no 1º tempo (3 gols entre 0-15min e 46-60min).",
+      "jogadores_chave": "Harry Kane (Bayern - 7 gols), Luis Díaz (Bayern - 3 gols), Deniz Undav (Stuttgart - 3 gols), Chris Führich (Stuttgart - 1 gol).",
+      "placares_provaveis": "Ex: 3x1, 4x0, 4x1 para Bayern",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Sair se o Stuttgart abrir o placar. Fazer gestão de risco caso o Bayern abra 3 gols de vantagem.",
+      "stake_recomendada": "2% para Back Favorito, 1% para Back Goleada",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro do Bayern, com potencial para goleada, e tendência de gols no jogo, com ambos os times tendo bom poder ofensivo.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo claro e histórico de gols do Bayern, com um Stuttgart que concede muitos gols, especialmente no segundo tempo.",
+        "gatilho_saida_parcial": "Se o Stuttgart abrir o placar.",
+        "hard_stop": "Se o Stuttgart abrir 2 gols de vantagem."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Bayern München",
         "odd_alvo": "1.40",
-        "razao": "Favoritismo claro do Bayern em casa, com odds atrativas e cenário de superioridade técnica e tática.",
+        "razao": "O Bayern de Munique é o claro favorito, com um histórico de 100% de vitórias e defesa sólida. O Stuttgart, apesar de atacar bem, tem uma defesa vulnerável, o que favorece a vitória do favorito.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
+      "lay_zebra": {
+        "aplicavel": null
+      },
+      "over_limite_70": {
+        "aplicavel": null
+      },
+      "back_2x2": {
+        "aplicavel": null
+      },
       "back_goleada": {
         "aplicavel": true,
         "candidato": "Bayern München",
-        "razao": "Bayern München com odd < 1.40, ataque prolífico (média de 2.00 gols) e Stuttgart com defesa que sofre média de 1.00 gol.",
+        "razao": "O Bayern de Munique tem um ataque muito forte e uma defesa quase intransponível. O Stuttgart tem uma defesa frágil, o que aumenta a probabilidade de o Bayern marcar 4 ou mais gols, especialmente considerando sua capacidade de virar jogos no segundo tempo.",
         "modo": "pre_jogo",
-        "mercado_sugerido": "Bayern München marca 4+ gols",
-        "odd_esperada": "4.00",
+        "mercado_sugerido": "Bayern München marca 4+ e vence",
+        "odd_esperada": "3.50 a 7.00",
         "stake_recomendada": "1%"
       },
-      "over_golos": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "linha": "over_3.5",
-        "mercado_sugerido": "Mais de 3.5 gols",
-        "razao": "O Bayern München tem um ataque muito forte e marcou muitos gols no segundo tempo. O Stuttgart também tem um bom ataque e ambos os times mostram uma média de gols que sugere um jogo com placar mais elástico.",
-        "odd_alvo": "1.90",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "1%"
-      },
-      "confirmacao_visual": null
+      "confirmacao_visual": {
+        "aplicavel": false
+      }
     },
     {
       "horario": "15:45",
-      "liga": "USA MLS",
-      "jogo": "St. Louis City x Austin",
+      "liga": "Belgium Pro League",
+      "jogo": "Royal Antwerp FC x KVC Westerlo",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.70",
-      "fair_odd_calculada": "1.55",
-      "valor_esperado": "+9.7% EV — odd 1.70 vs Fair Odd 1.55",
-      "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": "St. Louis marcou 0.60 gols no 1ºT, Austin marcou 0.86",
-      "desempenho_2t": "St. Louis marcou 1.00 gols no 2ºT, Austin marcou 0.57",
-      "contexto_times": {
-        "casa": {
-          "posicao": "25",
-          "objetivo": "meio_tabela"
-        },
-        "fora": {
-          "posicao": "30",
-          "objetivo": "rebaixamento"
-        }
-      },
-      "motivacao_tecnica": "Ambas as equipes têm médias de gols totais elevadas (3.00 e 4.57), com o Austin apresentando uma média altíssima de 4.57 gols por jogo. As estatísticas de Over 2.5 gols são de 60% para o St. Louis City e 100% para o Austin. A alta média de gols marcados pelo St. Louis City (1.60) e a capacidade do Austin de marcar gols (1.43), combinadas com as defesas vulneráveis de ambos os times (1.40 e 3.14 gols sofridos), criam um cenário favorável para Over 2.5 gols.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
-      "mando_de_campo": "St. Louis City: 0% de jogos sem sofrer gols em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Austin tem um ataque prolífico e sofre muitos gols. St. Louis City também marca bem e sofre gols.",
-      "momento_gols": "St. Louis City marca mais gols no segundo tempo. Austin tem uma produção mais equilibrada, mas com picos no início e fim do jogo.",
-      "jogadores_chave": "Christian Ramírez (Austin - 4 gols), Simon Becher (St. Louis City - 1 gol).",
-      "placares_provaveis": "2x2, 3x2",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se St. Louis abrir 2-0 no primeiro tempo, ou se o placar atingir 4 gols até os 60 minutos.",
-      "stake_recomendada": "1%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Ambas as equipes têm médias de gols totais muito altas e alta propensão para Over 2.5 gols.",
-        "gatilho_saida_parcial": "Nenhum.",
-        "hard_stop": "Nenhum."
-      }
-    },
-    {
-      "horario": "16:00",
-      "liga": "Spain La Liga",
-      "jogo": "Getafe CF x CA Osasuna",
-      "metodos_aplicados": [
-        "over_golos"
-      ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.90",
-      "fair_odd_calculada": "1.80",
-      "valor_esperado": "+5.6% EV — odd 1.90 vs Fair Odd 1.80",
-      "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": "Getafe marcou 0.44 gols no 1ºT, Osasuna marcou 0.33",
-      "desempenho_2t": "Getafe marcou 0.50 gols no 2ºT, Osasuna marcou 0.39",
-      "contexto_times": {
-        "casa": {
-          "posicao": "17",
-          "objetivo": "meio_tabela"
-        },
-        "fora": {
-          "posicao": "17",
-          "objetivo": "meio_tabela"
-        }
-      },
-      "motivacao_tecnica": "Jogo entre duas equipes de meio de tabela com médias de gols que sugerem um confronto com potencial para mais de 2.5 gols, especialmente considerando o desempenho no segundo tempo de ambas. As estatísticas de Over 1.5 gols em casa e fora são altas (61% e 50%), indicando uma tendência para gols.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
-      "mando_de_campo": "Getafe CF: 44% dos jogos sem sofrer gols em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Ambas as equipes têm um número significativo de gols marcados no segundo tempo.",
-      "momento_gols": "Ambas as equipes marcam mais gols no segundo tempo.",
-      "jogadores_chave": "Ante Budimir (Osasuna - 17 gols), Borja Mayoral (Getafe - 4 gols).",
-      "placares_provaveis": "2x1, 2x2",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se o jogo chegar a 0x0 no intervalo ou se houver um placar de 2 gols de diferença.",
-      "stake_recomendada": "1%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Estatísticas de gols totais e segundo tempo favoráveis a mais de 2.5 gols.",
-        "gatilho_saida_parcial": "Nenhum.",
-        "hard_stop": "Nenhum."
-      }
-    },
-    {
-      "horario": "16:00",
-      "liga": "Spain La Liga",
-      "jogo": "RCD Mallorca x Real Oviedo",
-      "metodos_aplicados": [
-        "over_golos"
-      ],
-      "mercado_principal": "Mais de 2.5 gols",
+      "mercado_principal": "Vitória Royal Antwerp FC",
       "odd_principal": "2.00",
       "fair_odd_calculada": "1.80",
       "valor_esperado": "+11.1% EV — odd 2.00 vs Fair Odd 1.80",
       "mercado_secundario": null,
       "odd_secundaria": null,
-      "desempenho_1t": "Mallorca marcou 0.56 gols no 1ºT, Oviedo marcou 0.39",
-      "desempenho_2t": "Mallorca marcou 1.00 gols no 2ºT, Oviedo marcou 0.56",
+      "desempenho_1t": "Casa: 21% Venceu o 1º tempo, Visitante: 42% Venceu o 1º tempo",
+      "desempenho_2t": "Casa: 37% Venceu o 2º tempo, Visitante: 26% Venceu o 2º tempo",
+      "contexto_times": {
+        "casa": {
+          "posicao": "7",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "10",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Royal Antwerp FC está em uma melhor posição na tabela (7º) com um aproveitamento ligeiramente superior em casa, embora os pontos por jogo sejam próximos. O Antwerp tem um retrospecto recente mais consistente com 3 vitórias em seus últimos 5 jogos, em contraste com o Westerlo que apresenta um retrospecto misto (2 vitórias e 3 derrotas).",
+      "coeficiente_regularidade": "Casa: CV baixo (vitórias consistentes em casa), Visitante: CV moderado (alterna vitórias e derrotas)",
+      "mando_de_campo": "Casa: 7 Vitórias em 19 jogos, 1.32 pontos/jogo",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Casa: Marcam mais no 2º tempo (14 gols), Visitante: Marcam mais no 2º tempo (15 gols)",
+      "momento_gols": "Casa: Pic em 16-30 e 61-75, Visitante: Pic em 46-60 e 76-90",
+      "jogadores_chave": [
+        "Vincent Janssen",
+        "Nacho Ferri"
+      ],
+      "placares_provaveis": "2x1, 1x0, 2x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Manter até o fim ou se houver vantagem clara no placar.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O Royal Antwerp FC tem um leve favoritismo baseado na posição e retrospecto recente em casa, com odds atrativas que oferecem valor.",
+        "gatilho_saida_parcial": "Se o Antwerp abrir vantagem de 2 gols.",
+        "hard_stop": "Caso o Westerlo abra 2 gols de vantagem."
+      }
+    },
+    {
+      "horario": "15:45",
+      "liga": "Belgium Pro League",
+      "jogo": "OH Leuven x KRC Genk",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória KRC Genk",
+      "odd_principal": "1.90",
+      "fair_odd_calculada": "1.75",
+      "valor_esperado": "+8.6% EV — odd 1.90 vs Fair Odd 1.75",
+      "mercado_secundario": "over_limite_70",
+      "odd_secundaria": "1.70",
+      "desempenho_1t": "Casa: 26% Venceu o 1º tempo, Visitante: 37% Venceu o 1º tempo",
+      "desempenho_2t": "Casa: 21% Venceu o 2º tempo, Visitante: 16% Venceu o 2º tempo",
+      "contexto_times": {
+        "casa": {
+          "posicao": "13",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "6",
+          "objetivo": "libertadores"
+        }
+      },
+      "motivacao_tecnica": "O KRC Genk, 6º colocado e brigando por vaga continental, apresenta um retrospecto recente melhor (2 vitórias em 5 jogos) comparado ao OH Leuven (1 vitória, 2 empates, 2 derrotas). O Genk tem um ataque mais produtivo (1.53 gols/jogo vs 1.16) e uma média de gols total maior (3.16 vs 2.48), indicando um potencial maior de vitória. A odd de 1.90 para o Genk oferece valor considerando a diferença de objetivos e desempenho recente.",
+      "coeficiente_regularidade": "Casa: CV alto (resultados inconsistentes), Visitante: CV moderado (alterna vitórias e derrotas)",
+      "mando_de_campo": "Casa: 5 Vitórias em 19 jogos, 1.05 pontos/jogo",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Casa: Marcam mais no 1º tempo (12 gols), Visitante: Marcam mais no 2º tempo (15 gols)",
+      "momento_gols": "Casa: Pic em 31-45, Visitante: Pic em 61-75",
+      "jogadores_chave": [
+        "Daan Heymans",
+        "Chukwubuikem Ikwuemesi"
+      ],
+      "placares_provaveis": "1x2, 2x1, 1x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Manter até o fim. Para o Over 70+: entrar ao vivo se houver placar de 0-0 ou 1-0 até 70 min.",
+      "stake_recomendada": "2% (Back Genk), 1% (Over 70)",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Genk tem maior motivação e retrospecto recente. A odd oferece valor. O Over 70+ é uma possibilidade secundária caso o jogo se mostre mais aberto no final.",
+        "gatilho_saida_parcial": "Se o Genk abrir 2 gols de vantagem.",
+        "hard_stop": "Se o OH Leuven abrir 2 gols de vantagem."
+      }
+    },
+    {
+      "horario": "15:45",
+      "liga": "Belgium Pro League",
+      "jogo": "Standard Liège x Sporting Charleroi",
+      "metodos_aplicados": [
+        "evitar"
+      ],
+      "mercado_principal": null,
+      "odd_principal": null,
+      "fair_odd_calculada": null,
+      "valor_esperado": null,
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Casa: 21% Venceu o 1º tempo, Visitante: 32% Venceu o 1º tempo",
+      "desempenho_2t": "Casa: 16% Venceu o 2º tempo, Visitante: 26% Venceu o 2º tempo",
+      "contexto_times": {
+        "casa": {
+          "posicao": "12",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "8",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Ambas as equipes estão no meio de tabela, com aproveitamentos e retrospectos recentes muito similares. Não há um favoritismo claro ou um padrão de gols distintivo que justifique uma entrada nos métodos disponíveis. A média total de gols é baixa (2.16 e 2.42).",
+      "coeficiente_regularidade": "Casa: CV alto, Visitante: CV moderado",
+      "mando_de_campo": "Casa: 5 Vitórias em 19 jogos, 1.16 pontos/jogo",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Casa: Marcam mais no 2º tempo (10 gols), Visitante: Marcam mais no 1º tempo (13 gols)",
+      "momento_gols": "Casa: Pic em 46-60, Visitante: Pic em 0-15 e 76-90",
+      "jogadores_chave": [
+        "Rafiki Said Ahamada",
+        "Aurélien Scheidler"
+      ],
+      "placares_provaveis": "1x1, 2x1, 1x0",
+      "momento_entrada": null,
+      "situacao_saida": null,
+      "stake_recomendada": null,
+      "plano_execucao": {
+        "abordagem": "evitar",
+        "justificativa_abordagem": "O jogo não apresenta um cenário claro para nenhum dos 5 métodos. As equipes têm estatísticas muito próximas e nenhuma motivação clara para uma aposta de valor.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      }
+    },
+    {
+      "horario": "16:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Novorizontino x Ceará",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Novorizontino",
+      "odd_principal": "2.10",
+      "fair_odd_calculada": "1.90",
+      "valor_esperado": "+10.5% EV — odd 2.10 vs Fair Odd 1.90",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Casa: 0% Venceu o 1º tempo, Visitante: 0% Venceu o 1º tempo",
+      "desempenho_2t": "Casa: 50% Venceu o 2º tempo, Visitante: 25% Venceu o 2º tempo",
+      "contexto_times": {
+        "casa": {
+          "posicao": "12",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "8",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "O Novorizontino, mesmo com um aproveitamento de pontos por jogo ligeiramente superior, tem um retrospecto inicial melhor em casa (2 vitórias em 4 jogos) comparado ao Ceará (1 vitória em 4 jogos). O Novorizontino demonstra um ataque mais produtivo e um xG a favor significativamente maior. A odd de 2.10 para o Novorizontino oferece valor.",
+      "coeficiente_regularidade": "Casa: CV moderado, Visitante: CV moderado",
+      "mando_de_campo": "Casa: 2 Vitórias em 4 jogos, 1.75 pontos/jogo",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Casa: Marcam mais no 2º tempo (4 gols), Visitante: Marcam mais no 2º tempo (3 gols)",
+      "momento_gols": "Casa: Pic em 61-75, Visitante: Pic em 76-90",
+      "jogadores_chave": [
+        "Robson dos Santos Fernandes",
+        "Matheus Araújo"
+      ],
+      "placares_provaveis": "2x1, 1x0, 1x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Manter até o fim. Se Novorizontino abrir 2 gols de vantagem.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Novorizontino com boa campanha em casa e odd atrativa contra um adversário com retrospecto inicial mais fraco fora.",
+        "gatilho_saida_parcial": "Se o Novorizontino abrir 2 gols de vantagem.",
+        "hard_stop": "Caso o Ceará abra 2 gols de vantagem."
+      }
+    },
+    {
+      "horario": "17:00",
+      "liga": "Brazil Serie A",
+      "jogo": "São Paulo x Botafogo",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória São Paulo",
+      "odd_principal": "2.20",
+      "fair_odd_calculada": "2.00",
+      "valor_esperado": "+10.0% EV — odd 2.20 vs Fair Odd 2.00",
+      "mercado_secundario": "Mais 2.5 gols",
+      "odd_secundaria": "1.90",
+      "desempenho_1t": "Casa: 43% Venceu o 1º tempo, Visitante: 25% Venceu o 1º tempo",
+      "desempenho_2t": "Casa: 71% Venceu o 2º tempo, Visitante: 50% Venceu o 2º tempo",
+      "contexto_times": {
+        "casa": {
+          "posicao": "5",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "6",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Ambas as equipes brigam pelo título, com retrospectos recentes fortes. O São Paulo tem um aproveitamento impressionante em casa (5 vitórias em 7 jogos) e um ataque muito produtivo (1.86 gols/jogo). O Botafogo, apesar de mais inconsistente fora de casa, tem um ataque também forte (1.75 gols/jogo) e uma média total de gols alta (3.75). A odd para o São Paulo vencer em casa, mesmo sendo um jogo equilibrado entre times de ponta, oferece valor. O Over 2.5 também é uma opção devido à média de gols das equipes.",
+      "coeficiente_regularidade": "Casa: CV baixo (vitórias recentes consistentes), Visitante: CV moderado (alterna vitórias e derrotas recentes)",
+      "mando_de_campo": "Casa: 5 Vitórias em 7 jogos, 2.29 pontos/jogo",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Casa: Marcam mais no 2º tempo (9 gols), Visitante: Marcam mais no 2º tempo (7 gols)",
+      "momento_gols": "Casa: Pic em 61-75 (31%), Visitante: Pic em 46-60 (38%)",
+      "jogadores_chave": [
+        "Jonathan Calleri",
+        "Danilo Oliveira",
+        "Arthur Cabral"
+      ],
+      "placares_provaveis": "2x1, 1x1, 3x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Manter até o fim. Para o Over 70+: entrar ao vivo se o placar estiver 1-1 ou 2-1 até os 70 min.",
+      "stake_recomendada": "2% (Back São Paulo), 1% (Over 70)",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "São Paulo em casa, brigando pelo título, com odd atrativa. Botafogo com potencial ofensivo alto. O Over 70+ se encaixa caso o jogo fique mais aberto no final.",
+        "gatilho_saida_parcial": "Se o São Paulo abrir 2 gols de vantagem.",
+        "hard_stop": "Caso o Botafogo abra 2 gols de vantagem."
+      }
+    },
+    {
+      "horario": "17:00",
+      "liga": "Brazil Serie A",
+      "jogo": "Vitória x Internacional",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Internacional",
+      "odd_principal": "2.30",
+      "fair_odd_calculada": "2.10",
+      "valor_esperado": "+9.5% EV — odd 2.30 vs Fair Odd 2.10",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Casa: 57% Venceu o 1º tempo, Visitante: 14% Venceu o 1º tempo",
+      "desempenho_2t": "Casa: 71% Venceu o 2º tempo, Visitante: 43% Venceu o 2º tempo",
+      "contexto_times": {
+        "casa": {
+          "posicao": "4",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "5",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Embora o Vitória tenha um aproveitamento excelente em casa e esteja na 4ª posição brigando pelo título, o Internacional (5º) também busca o título e tem um retrospecto geral mais sólido nas últimas partidas. O Internacional demonstrou boa capacidade ofensiva fora de casa (1.29 gols/jogo) e tem um xG médio a favor mais alto (1.62). A odd de 2.30 para o Internacional oferece um bom valor, considerando a força das duas equipes e a briga pelo título.",
+      "coeficiente_regularidade": "Casa: CV baixo (vitórias consistentes), Visitante: CV moderado (alterna vitórias e derrotas recentes)",
+      "mando_de_campo": "Casa: 5 Vitórias em 7 jogos, 2.29 pontos/jogo",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Casa: Marcam mais no 2º tempo (7 gols), Visitante: Marcam mais no 2º tempo (7 gols)",
+      "momento_gols": "Casa: Pic em 16-30 e 46-75, Visitante: Pic em 61-90",
+      "jogadores_chave": [
+        "Erick de Arruda Serafim",
+        "Alan Patrick",
+        "Rafael Borré"
+      ],
+      "placares_provaveis": "1x1, 1x2, 0x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Manter até o fim. Se vantagem de 2 gols para o Internacional.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Internacional com odd atrativa para vencer fora de casa contra um adversário direto na briga pelo título, demonstrando boa capacidade ofensiva.",
+        "gatilho_saida_parcial": "Se o Internacional abrir 2 gols de vantagem.",
+        "hard_stop": "Caso o Vitória abra 2 gols de vantagem."
+      }
+    },
+    {
+      "horario": "18:30",
+      "liga": "Brazil Serie B",
+      "jogo": "Fortaleza x Londrina",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Fortaleza",
+      "odd_principal": "1.35",
+      "fair_odd_calculada": "1.25",
+      "valor_esperado": "+8.0% EV — odd 1.35 vs Fair Odd 1.25",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Casa: 50% Venceu o 1º tempo, Visitante: 20% Venceu o 1º tempo",
+      "desempenho_2t": "Casa: 25% Venceu o 2º tempo, Visitante: 40% Venceu o 2º tempo",
+      "contexto_times": {
+        "casa": {
+          "posicao": "3",
+          "objetivo": "acesso"
+        },
+        "fora": {
+          "posicao": "7",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "O Fortaleza é o claro favorito, ocupando a 3ª posição na tabela e com um aproveitamento espetacular em casa (3 vitórias em 4 jogos). O Londrina tem um retrospecto fraco fora de casa e uma defesa vulnerável. A odd de 1.35 para o Fortaleza é justa e oferece um pequeno valor.",
+      "coeficiente_regularidade": "Casa: CV baixo (vitórias consistentes), Visitante: CV moderado (alterna vitórias e derrotas)",
+      "mando_de_campo": "Casa: 3 Vitórias em 4 jogos, 2.50 pontos/jogo",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Casa: Marcam mais no 2º tempo (5 gols), Visitante: Marcam mais no 2º tempo (7 gols)",
+      "momento_gols": "Casa: Pic em 76-90, Visitante: Pic em 76-90",
+      "jogadores_chave": [
+        "Juan Bautista Miritello",
+        "Bruno Santos de Oliveira"
+      ],
+      "placares_provaveis": "2x1, 3x1, 1x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Manter até o fim. Se Fortaleza abrir 2 gols de vantagem.",
+      "stake_recomendada": "3%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Fortaleza com favoritismo claro jogando em casa, buscando o acesso. Odd atrativa para a entrada.",
+        "gatilho_saida_parcial": "Se o Fortaleza abrir 2 gols de vantagem.",
+        "hard_stop": "Caso o Londrina abra 2 gols de vantagem."
+      }
+    },
+    {
+      "horario": "19:00",
+      "liga": "Brazil Serie A",
+      "jogo": "Mirassol x Fluminense",
+      "metodos_aplicados": [
+        "evitar"
+      ],
+      "mercado_principal": null,
+      "odd_principal": null,
+      "fair_odd_calculada": null,
+      "valor_esperado": null,
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Casa: 38% Venceu o 1º tempo, Visitante: 43% Venceu o 1º tempo",
+      "desempenho_2t": "Casa: 13% Venceu o 2º tempo, Visitante: 28% Venceu o 2º tempo",
+      "contexto_times": {
+        "casa": {
+          "posicao": "18",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "8",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "O Fluminense, apesar de estar em uma posição melhor na tabela, tem um retrospecto geral inconsistente e uma média de gols sofridos alta. O Mirassol, embora na zona de rebaixamento, tem um ataque produtivo e um alto índice de Ambas Marcam. A odd para o Fluminense não apresenta valor suficiente para a aposta, e não há um padrão claro para outros métodos. O jogo é considerado de risco.",
+      "coeficiente_regularidade": "Casa: CV alto (resultados muito inconsistentes), Visitante: CV alto (alterna vitórias e derrotas)",
+      "mando_de_campo": "Casa: 2 Vitórias em 8 jogos, 1.13 pontos/jogo",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Casa: Marcam mais no 1º tempo (6 gols), Visitante: Marcam mais no 2º tempo (5 gols)",
+      "momento_gols": "Casa: Pic em 31-45, Visitante: Pic em 76-90",
+      "jogadores_chave": [
+        "Luiz Henrique Soares Firmino",
+        "John Kennedy"
+      ],
+      "placares_provaveis": "1x2, 1x1, 2x1",
+      "momento_entrada": null,
+      "situacao_saida": null,
+      "stake_recomendada": null,
+      "plano_execucao": {
+        "abordagem": "evitar",
+        "justificativa_abordagem": "O Fluminense não demonstra um favoritismo claro que justifique o Back com as odds atuais. O Mirassol tem um ataque capaz e alto índice de Ambas Marcam, mas o retrospecto do Fluminense é instável. Nenhum dos outros métodos se aplica com confiança.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      }
+    },
+    {
+      "horario": "19:00",
+      "liga": "Brazil Serie A",
+      "jogo": "Grêmio x Santos",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Grêmio",
+      "odd_principal": "1.65",
+      "fair_odd_calculada": "1.55",
+      "valor_esperado": "+6.5% EV — odd 1.65 vs Fair Odd 1.55",
+      "mercado_secundario": "Mais 2.5 gols",
+      "odd_secundaria": "1.80",
+      "desempenho_1t": "Casa: 43% Venceu o 1º tempo, Visitante: 29% Venceu o 1º tempo",
+      "desempenho_2t": "Casa: 43% Venceu o 2º tempo, Visitante: 14% Venceu o 2º tempo",
       "contexto_times": {
         "casa": {
           "posicao": "9",
           "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": "18",
+          "posicao": "15",
           "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "O Mallorca demonstra um forte desempenho ofensivo no segundo tempo (1.00 gols/jogo), enquanto o Real Oviedo sofre uma média de 2.17 gols por jogo no geral. A alta porcentagem de Over 2.5 gols em ambos os lados (56%) sugere um jogo com potencial para mais gols.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
-      "mando_de_campo": "RCD Mallorca: 100% de Over 0.5 gols em casa.",
+      "motivacao_tecnica": "O Grêmio, jogando em casa, é o favorito claro com um aproveitamento excelente (4 vitórias em 7 jogos) e uma média de pontos alta (2.00). O Santos, na zona de rebaixamento, tem um retrospecto muito fraco fora de casa e uma defesa vazada (2.00 gols sofridos/jogo). A odd de 1.65 para o Grêmio oferece um valor razoável. O Over 2.5 também é uma possibilidade devido ao histórico de ambos os times e à necessidade do Santos buscar o resultado.",
+      "coeficiente_regularidade": "Casa: CV baixo (vitórias consistentes em casa), Visitante: CV alto (muito inconsistente fora de casa)",
+      "mando_de_campo": "Casa: 4 Vitórias em 7 jogos, 2.00 pontos/jogo",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Mallorca demonstra força no segundo tempo; Oviedo sofre muitos gols.",
-      "momento_gols": "Mallorca marca a maioria dos seus gols no segundo tempo. Oviedo sofre muitos gols em ambos os tempos.",
-      "jogadores_chave": "Vedat Muriqi (Mallorca - 22 gols), Federico Sebastián Viñas Barboza (Oviedo - 9 gols).",
-      "placares_provaveis": "2x1, 3x1",
+      "especificidades_gols": "Casa: Marcam mais no 2º tempo (7 gols), Visitante: Marcam mais no 2º tempo (4 gols)",
+      "momento_gols": "Casa: Pic em 46-60 (45%), Visitante: Pic em 76-90 (43%)",
+      "jogadores_chave": [
+        "Carlos Vinícius",
+        "Neymar",
+        "Gabriel Barbosa"
+      ],
+      "placares_provaveis": "2x1, 3x1, 2x0",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se o Mallorca abrir 2-0 no primeiro tempo, ou se o placar atingir 3 gols até os 60 minutos.",
-      "stake_recomendada": "1%",
+      "situacao_saida": "Manter até o fim. Para o Over 70+: entrar ao vivo se houver placar de 1-0 ou 1-1 até os 70 min.",
+      "stake_recomendada": "2% (Back Grêmio), 1% (Over 70)",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "O Mallorca tem um ataque forte no segundo tempo e o Oviedo sofre muitos gols.",
-        "gatilho_saida_parcial": "Nenhum.",
-        "hard_stop": "Nenhum."
+        "justificativa_abordagem": "Grêmio em casa com favoritismo claro contra um time em má fase. A odd oferece valor. O Over 70+ pode ser considerado se o jogo se mantiver aberto.",
+        "gatilho_saida_parcial": "Se o Grêmio abrir 2 gols de vantagem.",
+        "hard_stop": "Caso o Santos abra 2 gols de vantagem."
       }
     },
     {
-      "horario": "16:00",
-      "liga": "Spain La Liga",
-      "jogo": "Valencia CF x FC Barcelona",
+      "horario": "20:30",
+      "liga": "USA MLS",
+      "jogo": "Charlotte x New England Revolution",
       "metodos_aplicados": [
-        "over_golos"
+        "back_goleada",
+        "over_limite_70"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.80",
-      "fair_odd_calculada": "1.70",
-      "valor_esperado": "+5.9% EV — odd 1.80 vs Fair Odd 1.70",
-      "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": "Valencia marcou 0.28 gols no 1ºT, Barcelona marcou 0.94",
-      "desempenho_2t": "Valencia marcou 1.06 gols no 2ºT, Barcelona marcou 1.11",
+      "mercado_principal": "Charlotte marcar 4+ e vencer",
+      "odd_principal": "5.00",
+      "fair_odd_calculada": "4.00",
+      "valor_esperado": "+25.0% EV — odd 5.00 vs Fair Odd 4.00",
+      "mercado_secundario": "Mais 2.5 gols",
+      "odd_secundaria": "1.70",
+      "desempenho_1t": "Charlotte marca 0.63 no 1ºT; New England Revolution marca 0.20 no 1ºT",
+      "desempenho_2t": "Charlotte marca 1.50 no 2ºT; New England Revolution marca 0.80 no 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": "12",
-          "objetivo": "meio_tabela"
-        },
-        "fora": {
-          "posicao": "1",
+          "posicao": "6º",
           "objetivo": "titulo"
-        }
-      },
-      "motivacao_tecnica": "Barcelona tem uma média altíssima de gols marcados (2.06) e uma tendência forte para Over 2.5 gols (67%). O Valencia, apesar de marcar menos no primeiro tempo, melhora significativamente no segundo (1.06 gols/jogo). A combinação de um ataque prolífico do Barça com a melhora do Valencia na segunda etapa sugere um jogo com potencial para gols.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
-      "mando_de_campo": "Valencia CF: 33% dos jogos sem sofrer gols em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Barcelona é forte no 1º tempo, Valencia melhora no 2º tempo.",
-      "momento_gols": "Barcelona tem uma produção ofensiva forte em ambos os tempos, mas se destaca no 1º. Valencia explode no 2º.",
-      "jogadores_chave": "Lamine Yamal (Barcelona - 16 gols), Robert Lewandowski (Barcelona - 13 gols), Hugo Duro (Valencia - 10 gols).",
-      "placares_provaveis": "1x2, 2x2",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se o Barcelona abrir 2-0 antes do intervalo, ou se o placar atingir 4 gols até os 70 minutos.",
-      "stake_recomendada": "1%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "O Barcelona tem um ataque muito forte, e o Valencia melhora ofensivamente no segundo tempo.",
-        "gatilho_saida_parcial": "Nenhum.",
-        "hard_stop": "Nenhum."
-      }
-    },
-    {
-      "horario": "16:00",
-      "liga": "Spain La Liga",
-      "jogo": "Real Betis x Levante UD",
-      "metodos_aplicados": [
-        "over_golos"
-      ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.95",
-      "fair_odd_calculada": "1.85",
-      "valor_esperado": "+5.4% EV — odd 1.95 vs Fair Odd 1.85",
-      "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": "Betis marcou 0.89 gols no 1ºT, Levante marcou 0.44",
-      "desempenho_2t": "Betis marcou 0.89 gols no 2ºT, Levante marcou 0.67",
-      "contexto_times": {
-        "casa": {
-          "posicao": "6",
-          "objetivo": "libertadores"
         },
         "fora": {
-          "posicao": "13",
-          "objetivo": "meio_tabela"
+          "posicao": "23º",
+          "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "Ambos os times apresentam médias de gols totais acima de 2.5 por jogo (2.78 e 2.83). O Real Betis demonstra um ataque consistente em ambos os tempos, enquanto o Levante, apesar de marcar menos, sofre muitos gols (1.72). A forte tendência de Over 1.5 gols (89% para ambos) e a alta média de gols no segundo tempo do Betis (0.89) indicam potencial para mais de 2.5 gols.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
-      "mando_de_campo": "Real Betis: 39% de jogos sem sofrer gols em casa.",
+      "motivacao_tecnica": "Charlotte tem um ataque muito forte, com média de 2.13 gols por jogo, enquanto o New England Revolution sofre uma média de 2.00 gols por jogo. O desempenho no segundo tempo de Charlotte é impressionante, com 1.50 gols por jogo, indicando capacidade de ampliar o placar. A diferença de posições na tabela e a motivação de Charlotte em se manter na briga pelo título justificam a aposta em uma goleada.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
+      "mando_de_campo": "Charlotte tem um bom aproveitamento em casa, com 1.75 pontos por jogo.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Betis tem um ataque forte e consistente; Levante sofre muitos gols.",
-      "momento_gols": "Ambas as equipes marcam gols tanto no primeiro quanto no segundo tempo, com o Betis se destacando no primeiro tempo. O Levante tem uma produção mais distribuída.",
-      "jogadores_chave": "Carlos Espí Escrihuela (Levante - 10 gols), Cucho Hernández (Betis - 11 gols).",
-      "placares_provaveis": "2x1, 3x1",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se o Betis abrir 2-0 no primeiro tempo, ou se o placar atingir 4 gols até os 65 minutos.",
+      "especificidades_gols": "Charlotte tem forte produção ofensiva concentrada no 2º tempo. New England Revolution tem dificuldade em manter a defesa sólida.",
+      "momento_gols": "Charlotte foca o segundo tempo; New England Revolution sofre mais no segundo tempo.",
+      "jogadores_chave": "Pep Biel, Wilfried Zaha (Charlotte); Carles Gil, Dor Turgeman (New England Revolution)",
+      "placares_provaveis": "3x1, 4x1, 4x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Se o jogo não se encaminhar para um placar elástico de Charlotte, considerar cash-out.",
       "stake_recomendada": "1%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Altas médias de gols totais e Over 1.5 gols para ambas as equipes.",
-        "gatilho_saida_parcial": "Nenhum.",
-        "hard_stop": "Nenhum."
-      }
+        "justificativa_abordagem": "Boa odd para o cenário de goleada esperado com base nas estatísticas ofensivas de Charlotte.",
+        "gatilho_saida_parcial": "Se Charlotte abrir 2 gols de vantagem antes dos 60min.",
+        "hard_stop": "Se Charlotte não conseguir impor seu jogo e sofrer gols no início."
+      },
+      "back_favorito": {
+        "aplicavel": false
+      },
+      "lay_zebra": {
+        "aplicavel": false
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": null,
+        "indice_gols_final": "Charlotte tem média de 1.50 gols no 2º tempo e 2.13 gols totais por jogo. New England Revolution sofre média de 2.00 gols.",
+        "condicao_entrada": "Padrão histórico de Charlotte em marcar muitos gols, especialmente no segundo tempo.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.70",
+        "stake_recomendada": "1%",
+        "observacoes": "Considerar também o Over 2.5 gols pré-jogo devido às estatísticas de ambos os times."
+      },
+      "back_2x2": {
+        "aplicavel": false
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "candidato": "Charlotte",
+        "razao": "Charlotte apresenta um ataque prolífico com média de 2.13 gols por jogo, enquanto o New England Revolution tem uma defesa frágil, sofrendo 2.00 gols por jogo. A diferença na tabela e a motivação de Charlotte reforçam o cenário de goleada.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Charlotte marca 4+ e vence",
+        "odd_esperada": "5.00",
+        "stake_recomendada": "1%"
+      },
+      "confirmacao_visual": null
     },
     {
-      "horario": "16:00",
-      "liga": "Spain La Liga",
-      "jogo": "RCD Espanyol x Real Sociedad",
+      "horario": "20:30",
+      "liga": "USA MLS",
+      "jogo": "FC Cincinnati x Orlando City",
       "metodos_aplicados": [
-        "over_golos"
+        "over_limite_70",
+        "back_2x2"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
+      "mercado_principal": "Mais 2.5 gols",
+      "odd_principal": "1.65",
+      "fair_odd_calculada": "1.55",
+      "valor_esperado": "+6.5% EV — odd 1.65 vs Fair Odd 1.55",
+      "mercado_secundario": "Placar exato 2x2",
+      "odd_secundaria": "12.00",
+      "desempenho_1t": "FC Cincinnati marca 0.83 no 1ºT; Orlando City marca 0.29 no 1ºT",
+      "desempenho_2t": "FC Cincinnati marca 1.50 no 2ºT; Orlando City marca 0.71 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "19º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "27º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times demonstram alta propensão a sofrer gols, com médias de 2.00 e 3.57 gols sofridos por jogo respectivamente. O FC Cincinnati tem uma forte produção ofensiva no segundo tempo (1.50 gols/jogo), e o Orlando City, embora com defesa frágil, também demonstra capacidade de marcar (1.00 gols/jogo). A estatística de Over 2.5 gols de 50% para o Cincinnati e 71% para o Orlando City valida a aposta no mercado de gols.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
+      "mando_de_campo": "FC Cincinnati tem média de 2.33 gols marcados em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "FC Cincinnati tem forte produção no 2º tempo. Orlando City sofre muitos gols.",
+      "momento_gols": "FC Cincinnati tem picos de gols no final do jogo (76-90 min). Orlando City também.",
+      "jogadores_chave": "Ahoueke Denkey, Evander (FC Cincinnati); Martín Ojeda, Duncan McGuire (Orlando City)",
+      "placares_provaveis": "2x2, 3x1, 1x2",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Acompanhar o jogo. Em caso de placar de 0x0 ou 1x0 cedo, considerar cash-out para limitar perdas.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Estatísticas de ambos os times indicam alta probabilidade de gols, tanto marcados quanto sofridos.",
+        "gatilho_saida_parcial": "Em caso de 2x1 ou 1x2 no placar, considerar cash-out para proteger lucro parcial ou minimizar perdas.",
+        "hard_stop": "Se o jogo se tornar muito defensivo e o placar permanecer 0x0 após 60 minutos."
+      },
+      "back_favorito": {
+        "aplicavel": false
+      },
+      "lay_zebra": {
+        "aplicavel": false
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": null,
+        "indice_gols_final": "FC Cincinnati (1.50 gols/jogo no 2ºT) e Orlando City (0.71 gols/jogo no 2ºT) demonstram capacidade de marcar e sofrer gols na segunda metade. O total de gols nos jogos de ambos também é alto.",
+        "condicao_entrada": "Padrão de ambos os times em marcar e sofrer gols, com potencial para gols na reta final.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.75",
+        "stake_recomendada": "1%",
+        "observacoes": "Observar a tendência de gols tardios em ambas as equipes."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "razao": "Ambos os times têm alto índice de Over 2.5 Gols (50% FC Cincinnati, 71% Orlando City) e Ambas Marcam (50% FC Cincinnati, 43% Orlando City). O FC Cincinnati tem um bom desempenho ofensivo no 1º tempo com média de 0.83 gols e o Orlando City sofre em média 2.00 gols/jogo.",
+        "indice_over_2_5": "FC Cincinnati: 50%, Orlando City: 71%",
+        "indice_ambas_marcam": "FC Cincinnati: 50%, Orlando City: 43%",
+        "indice_over_ht": "FC Cincinnati: 67% (Over 0.5 HT); Orlando City: 86% (Over 0.5 HT)",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "20:30",
+      "liga": "USA MLS",
+      "jogo": "DC United x Montreal Impact",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais 2.5 gols",
+      "odd_principal": "1.65",
+      "fair_odd_calculada": "1.55",
+      "valor_esperado": "+6.5% EV — odd 1.65 vs Fair Odd 1.55",
+      "mercado_secundario": "Placar exato 2x2",
+      "odd_secundaria": "12.00",
+      "desempenho_1t": "DC United marca 0.50 no 1ºT; Montreal Impact marca 0.86 no 1ºT",
+      "desempenho_2t": "DC United marca 0.67 no 2ºT; Montreal Impact marca 0.29 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "27º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "29º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times possuem estatísticas elevadas para Over 2.5 gols (67% para DC United e 71% para Montreal Impact) e também para Ambas Marcam (67% para DC United e 43% para Montreal Impact). O Montreal Impact tem um ataque consistente no primeiro tempo (0.86 gols/jogo). A média total de gols em seus jogos é alta (3.17 e 4.00). O fator casa do DC United, apesar da posição na tabela, pode impulsionar a busca por gols.",
+      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV alto",
+      "mando_de_campo": "DC United tem média de 1.17 gols marcados em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Montreal Impact tem um ataque que costuma iniciar bem.",
+      "momento_gols": "DC United tem um pico de gols no final do jogo (76-90 min). Montreal Impact demonstra mais gols no início do jogo (0-15 min).",
+      "jogadores_chave": "Thai Baribo, Louis Munteanu (DC United); Prince-Osei Owusu, Wikelman Carmona Torres (Montreal Impact)",
+      "placares_provaveis": "2x2, 3x1, 1x3",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Acompanhar o jogo. Se um time abrir vantagem considerável cedo, o risco aumenta. Se o placar ficar apertado, o Over tem mais chances.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Estatísticas de Over 2.5 e Ambas Marcam são fortes para ambos os times.",
+        "gatilho_saida_parcial": "Em caso de placares como 2x1 ou 1x2, considerar cash-out parcial.",
+        "hard_stop": "Se o placar permanecer 0x0 ou 1x0 após 60 minutos."
+      },
+      "back_favorito": {
+        "aplicavel": false
+      },
+      "lay_zebra": {
+        "aplicavel": false
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": null,
+        "indice_gols_final": "DC United (0.67 gols/jogo no 2ºT) e Montreal Impact (0.29 gols/jogo no 2ºT) demonstram potencial para gols na segunda metade. O alto índice de Over 2.5 gols em seus jogos sugere que a tendência pode se manter.",
+        "condicao_entrada": "Padrão de gols em ambos os times, com potencial para gols na reta final.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.75",
+        "stake_recomendada": "1%",
+        "observacoes": "Observar a capacidade de ambos em marcar e sofrer gols no segundo tempo."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "razao": "Ambos os times têm alta incidência de Over 2.5 Gols (67% DC United, 71% Montreal Impact) e Ambas Marcam (67% DC United, 43% Montreal Impact). O Montreal Impact tem um bom desempenho ofensivo no 1º tempo (0.86 gols/jogo).",
+        "indice_over_2_5": "DC United: 67%, Montreal Impact: 71%",
+        "indice_ambas_marcam": "DC United: 67%, Montreal Impact: 43%",
+        "indice_over_ht": "DC United: 83% (Over 0.5 HT); Montreal Impact: 100% (Over 0.5 HT)",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "21:00",
+      "liga": "Brazil Serie A",
+      "jogo": "Flamengo x Palmeiras",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Flamengo",
       "odd_principal": "2.05",
       "fair_odd_calculada": "1.90",
       "valor_esperado": "+7.9% EV — odd 2.05 vs Fair Odd 1.90",
       "mercado_secundario": null,
       "odd_secundaria": null,
-      "desempenho_1t": "Espanyol marcou 0.33 gols no 1ºT, Sociedad marcou 0.56",
-      "desempenho_2t": "Espanyol marcou 0.78 gols no 2ºT, Sociedad marcou 0.61",
+      "desempenho_1t": "Casa: 67% Venceu o 1º tempo, Visitante: 50% Venceu o 1º tempo",
+      "desempenho_2t": "Casa: 83% Venceu o 2º tempo, Visitante: 13% Venceu o 2º tempo",
       "contexto_times": {
         "casa": {
-          "posicao": "16",
-          "objetivo": "rebaixamento"
-        },
-        "fora": {
-          "posicao": "12",
-          "objetivo": "sul_americana"
-        }
-      },
-      "motivacao_tecnica": "Embora a média de gols total seja ligeiramente inferior a 2.5 (2.39 e 2.78), a Real Sociedad tem uma forte propensão a gols no primeiro tempo (0.56) e o Espanyol melhora significativamente no segundo tempo (0.78). As estatísticas de Over 0.5 gols no primeiro tempo são altas para ambos (61% e 83%), e a tendência de Over 1.5 gols é de 78% para ambos. A motivação do Espanyol contra o rebaixamento pode levar a um jogo mais aberto.",
-      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV moderado",
-      "mando_de_campo": "RCD Espanyol: 44% de jogos sem sofrer gols em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Sociedad forte no 1º tempo; Espanyol melhora no 2º.",
-      "momento_gols": "Sociedad marca mais no primeiro tempo, Espanyol melhora no segundo.",
-      "jogadores_chave": "Mikel Oyarzabal (Sociedad - 15 gols), Roberto Fernández Jaén (Espanyol - 6 gols).",
-      "placares_provaveis": "1x2, 2x2",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se a Real Sociedad abrir 2-0 no primeiro tempo, ou se o placar atingir 3 gols até os 60 minutos.",
-      "stake_recomendada": "1%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Tendência de gols no primeiro tempo para a Sociedad e melhora do Espanyol no segundo tempo.",
-        "gatilho_saida_parcial": "Nenhum.",
-        "hard_stop": "Nenhum."
-      }
-    },
-    {
-      "horario": "16:00",
-      "liga": "Spain La Liga",
-      "jogo": "Celta de Vigo x Sevilla FC",
-      "metodos_aplicados": [
-        "over_golos"
-      ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.90",
-      "fair_odd_calculada": "1.75",
-      "valor_esperado": "+8.6% EV — odd 1.90 vs Fair Odd 1.75",
-      "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": "Celta marcou 0.67 gols no 1ºT, Sevilla marcou 0.39",
-      "desempenho_2t": "Celta marcou 0.89 gols no 2ºT, Sevilla marcou 0.83",
-      "contexto_times": {
-        "casa": {
-          "posicao": "19",
-          "objetivo": "rebaixamento"
-        },
-        "fora": {
-          "posicao": "10",
-          "objetivo": "sul_americana"
-        }
-      },
-      "motivacao_tecnica": "Ambas as equipes apresentam altas médias de gols totais (3.12 e 3.11) e altas porcentagens de Over 1.5 gols (94% e 83%). Embora o Celta marque mais no primeiro tempo, o Sevilla tem uma produção ofensiva mais equilibrada. A alta média de gols sofridos por ambas as equipes (1.56 e 1.89) sugere um jogo com potencial para gols de ambos os lados.",
-      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV alto",
-      "mando_de_campo": "Celta de Vigo: 33% de jogos sem sofrer gols em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Celta de Vigo tem forte ataque no 1º tempo, Sevilla mais equilibrado. Ambas sofrem muitos gols.",
-      "momento_gols": "Celta de Vigo marca mais gols no 1º tempo. Sevilla tem uma produção mais distribuída.",
-      "jogadores_chave": "Borja Iglesias (Celta - 14 gols), Akor Adams (Sevilla - 10 gols).",
-      "placares_provaveis": "2x2, 3x2",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se o Celta abrir 2-0 no primeiro tempo, ou se o placar atingir 4 gols até os 70 minutos.",
-      "stake_recomendada": "1%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Altas médias de gols totais e Over 1.5 gols para ambas as equipes, com defesas vulneráveis.",
-        "gatilho_saida_parcial": "Nenhum.",
-        "hard_stop": "Nenhum."
-      }
-    },
-    {
-      "horario": "16:00",
-      "liga": "Spain La Liga",
-      "jogo": "Girona FC x Elche CF",
-      "metodos_aplicados": [
-        "over_golos"
-      ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.85",
-      "fair_odd_calculada": "1.70",
-      "valor_esperado": "+8.8% EV — odd 1.85 vs Fair Odd 1.70",
-      "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": "Girona marcou 0.44 gols no 1ºT, Elche marcou 0.44",
-      "desempenho_2t": "Girona marcou 0.67 gols no 2ºT, Elche marcou 0.56",
-      "contexto_times": {
-        "casa": {
-          "posicao": "18",
-          "objetivo": "meio_tabela"
-        },
-        "fora": {
-          "posicao": "20",
-          "objetivo": "rebaixamento"
-        }
-      },
-      "motivacao_tecnica": "Ambas as equipes têm médias de gols totais acima de 2.5 (2.55 e 3.06), com o Elche apresentando uma maior tendência para Over 2.5 gols (67%). O Girona marca mais no segundo tempo (0.67), enquanto o Elche tem uma produção mais distribuída. A alta porcentagem de Over 0.5 gols no segundo tempo para o Elche (94%) e a média de gols sofridos pelo Girona (1.44) sugerem um jogo com potencial para gols.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Girona FC: 56% de jogos sem sofrer gols em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Girona melhora no 2º tempo; Elche tem produção mais distribuída mas sofre muitos gols no 2º tempo.",
-      "momento_gols": "Girona marca mais gols no segundo tempo. Elche tem uma produção mais equilibrada, mas sofre gols no 2º tempo.",
-      "jogadores_chave": "André Silva (Elche - 10 gols), Viktor Tsygankov (Girona - 6 gols).",
-      "placares_provaveis": "2x2, 2x1",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se o Girona abrir 2-0 no primeiro tempo, ou se o placar atingir 4 gols até os 70 minutos.",
-      "stake_recomendada": "1%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Ambas as equipes têm médias de gols totais acima de 2.5, com o Elche apresentando uma forte tendência para Over 2.5 gols.",
-        "gatilho_saida_parcial": "Nenhum.",
-        "hard_stop": "Nenhum."
-      }
-    },
-    {
-      "horario": "16:00",
-      "liga": "Spain La Liga",
-      "jogo": "Real Madrid x Athletic Club Bilbao",
-      "metodos_aplicados": [
-        "over_golos"
-      ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.80",
-      "fair_odd_calculada": "1.70",
-      "valor_esperado": "+5.9% EV — odd 1.80 vs Fair Odd 1.70",
-      "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": "Real Madrid marcou 1.00 gols no 1ºT, Bilbao marcou 0.39",
-      "desempenho_2t": "Real Madrid marcou 1.28 gols no 2ºT, Bilbao marcou 0.67",
-      "contexto_times": {
-        "casa": {
-          "posicao": "2",
+          "posicao": "8",
           "objetivo": "titulo"
         },
         "fora": {
-          "posicao": "16",
-          "objetivo": "meio_tabela"
+          "posicao": "2",
+          "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "O Real Madrid tem uma média impressionante de gols marcados (2.28) e uma forte tendência para Over 2.5 gols (56%). O Athletic Bilbao, embora marque menos, também tem uma média de gols total acima de 2.5 (2.89). A força ofensiva do Real Madrid, especialmente no segundo tempo (1.28 gols/jogo), combinada com a capacidade do Bilbao de sofrer gols (1.83), sugere um jogo com potencial para mais de 2.5 gols.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
-      "mando_de_campo": "Real Madrid: 56% de jogos sem sofrer gols em casa.",
+      "motivacao_tecnica": "Jogo de ponta a ponta entre Flamengo e Palmeiras, ambos brigando pelo título. O Flamengo tem um aproveitamento impecável em casa (4 vitórias em 6 jogos) e um ataque fortíssimo (2.17 gols/jogo). O Palmeiras também é muito forte, mas o mando de campo do Flamengo e o retrospecto recente do time carioca em casa dão um leve favoritismo. A odd de 2.05 para o Flamengo oferece valor.",
+      "coeficiente_regularidade": "Casa: CV baixo (vitórias recentes consistentes), Visitante: CV moderado (alterna vitórias e derrotas)",
+      "mando_de_campo": "Casa: 4 Vitórias em 6 jogos, 2.33 pontos/jogo",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Real Madrid tem ataque poderoso em ambos os tempos; Bilbao sofre muitos gols.",
-      "momento_gols": "Real Madrid tem forte produção ofensiva no primeiro tempo e no segundo tempo. Bilbao sofre muitos gols no segundo tempo.",
-      "jogadores_chave": "Kylian Mbappé (Real Madrid - 24 gols), Vinicius Junior (Real Madrid - 16 gols), Gorka Guruzeta (Bilbao - 9 gols).",
-      "placares_provaveis": "2x1, 3x1",
+      "especificidades_gols": "Casa: Marcam mais no 2º tempo (9 gols), Visitante: Marcam mais no 2º tempo (4 gols)",
+      "momento_gols": "Casa: Pic em 46-75 (23% cada janela), Visitante: Pic em 16-30 (36%)",
+      "jogadores_chave": [
+        "Pedro Guilherme",
+        "Giorgian De Arrascaeta",
+        "José Manuel López"
+      ],
+      "placares_provaveis": "2x1, 1x1, 3x1",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se o Real Madrid abrir 2-0 no primeiro tempo, ou se o placar atingir 4 gols até os 65 minutos.",
-      "stake_recomendada": "1%",
+      "situacao_saida": "Manter até o fim. Se Flamengo abrir 2 gols de vantagem.",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "O Real Madrid tem um ataque muito forte e um histórico de jogos com muitos gols.",
-        "gatilho_saida_parcial": "Nenhum.",
-        "hard_stop": "Nenhum."
+        "justificativa_abordagem": "Flamengo jogando em casa contra um rival direto pelo título, com odd atrativa. O time tem demonstrado muita força em casa.",
+        "gatilho_saida_parcial": "Se o Flamengo abrir 2 gols de vantagem.",
+        "hard_stop": "Caso o Palmeiras abra 2 gols de vantagem."
       }
     },
     {
-      "horario": "16:00",
-      "liga": "Spain La Liga",
-      "jogo": "Deportivo Alavés x Rayo Vallecano",
+      "horario": "21:30",
+      "liga": "USA MLS",
+      "jogo": "Nashville SC x New York City",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito",
+        "over_limite_70"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "2.00",
-      "fair_odd_calculada": "1.85",
-      "valor_esperado": "+8.1% EV — odd 2.00 vs Fair Odd 1.85",
-      "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": "Alavés marcou 0.67 gols no 1ºT, Rayo marcou 0.50",
-      "desempenho_2t": "Alavés marcou 0.67 gols no 2ºT, Rayo marcou 0.33",
+      "mercado_principal": "Vitória Nashville SC",
+      "odd_principal": "1.45",
+      "fair_odd_calculada": "1.35",
+      "valor_esperado": "+7.4% EV — odd 1.45 vs Fair Odd 1.35",
+      "mercado_secundario": "Mais 2.5 gols",
+      "odd_secundaria": "1.70",
+      "desempenho_1t": "Nashville SC marca 1.83 no 1ºT; New York City marca 0.33 no 1ºT",
+      "desempenho_2t": "Nashville SC marca 1.67 no 2ºT; New York City marca 0.50 no 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": "13",
-          "objetivo": "meio_tabela"
+          "posicao": "4º",
+          "objetivo": "titulo"
         },
         "fora": {
-          "posicao": "15",
+          "posicao": "12º",
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Ambos os times têm médias de gols totais próximas de 2.5 (2.61 e 2.39). O Alavés tem um desempenho ofensivo mais consistente em ambos os tempos, enquanto o Rayo Vallecano tem uma forte tendência para Over 0.5 gols no segundo tempo (72%) e sofre muitos gols (1.56). A média de gols no segundo tempo para ambas as equipes (0.67 para Alavés e 0.33 para Rayo) e a alta porcentagem de Over 1.5 gols (78% e 72%) sugerem um jogo com potencial para mais de 2.5 gols, especialmente com a vulnerabilidade defensiva do Rayo.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Deportivo Alavés: 28% de jogos sem sofrer gols em casa.",
+      "motivacao_tecnica": "Nashville SC vive uma fase espetacular, com 5 vitórias em 6 jogos e uma média de 3.50 gols marcados por partida. Jogando em casa, esse poder ofensivo é ainda mais acentuado (1.83 gols no 1ºT e 1.67 gols no 2ºT). O New York City, por outro lado, tem um ataque modesto (0.83 gols/jogo) e sofreu 1.00 gol por partida. A motivação de Nashville SC em manter a liderança da liga é um fator chave.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Nashville SC tem um aproveitamento impressionante em casa, com 2.67 pontos por jogo e média de 3.50 gols marcados.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Alavés tem ataque mais consistente; Rayo tem tendência a sofrer gols no 2º tempo.",
-      "momento_gols": "Alavés tem produção ofensiva mais equilibrada. Rayo tem uma tendência a marcar gols no segundo tempo, mas sofre muitos gols.",
-      "jogadores_chave": "Lucas Boyé (Alavés - 11 gols), Jorge De Frutos (Rayo - 10 gols).",
-      "placares_provaveis": "2x1, 1x2",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se o Alavés abrir 2-0 no primeiro tempo, ou se o placar atingir 4 gols até os 70 minutos.",
-      "stake_recomendada": "1%",
+      "especificidades_gols": "Nashville SC tem um ataque avassalador, com forte presença em ambos os tempos.",
+      "momento_gols": "Nashville SC marca gols consistentemente em ambos os tempos, com pico nos 15 minutos iniciais.",
+      "jogadores_chave": "Hany Mukhtar, Sam Surridge, Warren Madrigal (Nashville SC); Nicolás Fernández, Maxi Moralez (New York City)",
+      "placares_provaveis": "2x1, 3x1, 3x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Se o New York City conseguir segurar o ímpeto inicial de Nashville SC, considerar cautela. No entanto, a tendência é de domínio do mandante.",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Altas médias de gols totais e tendência de gols no segundo tempo para o Rayo Vallecano, que também sofre muitos gols.",
-        "gatilho_saida_parcial": "Nenhum.",
-        "hard_stop": "Nenhum."
-      }
+        "justificativa_abordagem": "Nashville SC em excelente forma, jogando em casa, contra um adversário com desempenho ofensivo inferior.",
+        "gatilho_saida_parcial": "Se Nashville SC abrir 2 gols de vantagem antes dos 60 minutos.",
+        "hard_stop": "Se New York City surpreender e abrir placar no início."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Nashville SC",
+        "odd_alvo": "1.45",
+        "razao": "Nashville SC está em excelente fase, com 5 vitórias em 6 jogos, média de 3.50 gols marcados, e joga em casa contra um time com desempenho ofensivo inferior e que sofre gols.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": false
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": null,
+        "indice_gols_final": "Nashville SC demonstra um ataque muito forte em ambos os tempos (1.83 no 1ºT, 1.67 no 2ºT). Seu histórico recente de placares altos sugere potencial para gols tardios.",
+        "condicao_entrada": "Padrão de gols em ambos os tempos de Nashville SC, com forte capacidade ofensiva.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.70",
+        "stake_recomendada": "1%",
+        "observacoes": "A força ofensiva de Nashville SC pode levar a mais gols no segundo tempo."
+      },
+      "back_2x2": {
+        "aplicavel": false
+      },
+      "back_goleada": {
+        "aplicavel": false
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "21:30",
+      "liga": "USA MLS",
+      "jogo": "Sporting KC x New York RB",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais 2.5 gols",
+      "odd_principal": "1.65",
+      "fair_odd_calculada": "1.55",
+      "valor_esperado": "+6.5% EV — odd 1.65 vs Fair Odd 1.55",
+      "mercado_secundario": "Placar exato 2x2",
+      "odd_secundaria": "12.00",
+      "desempenho_1t": "Sporting KC marca 0.83 no 1ºT; New York RB marca 0.57 no 1ºT",
+      "desempenho_2t": "Sporting KC marca 0.50 no 2ºT; New York RB marca 0.86 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "29º",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "13º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times exibem altas taxas de Over 2.5 gols (67% Sporting KC, 71% New York RB) e Ambas Marcam (83% Sporting KC, 86% New York RB). O New York RB tem um ataque mais consistente, especialmente no segundo tempo (0.86 gols/jogo). O Sporting KC tem um ataque que se concentra mais no primeiro tempo e em momentos específicos da partida. A média total de gols em seus jogos é alta.",
+      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV alto",
+      "mando_de_campo": "Sporting KC tem média de 1.33 gols marcados em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Sporting KC tem mais produção ofensiva no primeiro tempo. New York RB tem mais foco no segundo tempo.",
+      "momento_gols": "Sporting KC tem picos de gols no 1ºT e na faixa de 61-75 min. New York RB tem sua maior produção ofensiva nos minutos finais (76-90 min).",
+      "jogadores_chave": "Dejan Joveljić (Sporting KC); Julian Hall, Emil Forsberg (New York RB)",
+      "placares_provaveis": "2x2, 3x1, 1x3",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Acompanhar o jogo. Se o placar se mantiver apertado ou com poucos gols no início, o Over pode ter dificuldades. A tendência é de gols.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Alta probabilidade de Over 2.5 e Ambas Marcam para ambos os times.",
+        "gatilho_saida_parcial": "Em caso de placares como 2x1 ou 1x2, considerar cash-out parcial.",
+        "hard_stop": "Se o placar permanecer 0x0 ou 1x0 após 60 minutos."
+      },
+      "back_favorito": {
+        "aplicavel": false
+      },
+      "lay_zebra": {
+        "aplicavel": false
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": null,
+        "indice_gols_final": "Sporting KC (0.50 gols/jogo no 2ºT) e New York RB (0.86 gols/jogo no 2ºT) têm potencial para gols na segunda metade. O alto índice de Over 2.5 gols e Ambas Marcam sugere que gols podem ocorrer em qualquer momento.",
+        "condicao_entrada": "Padrão de gols de ambos os times, com potencial para gols na reta final.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.75",
+        "stake_recomendada": "1%",
+        "observacoes": "A capacidade do New York RB de marcar no segundo tempo é um ponto a ser observado."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "razao": "Ambos os times apresentam alta frequência de Over 2.5 Gols (67% Sporting KC, 71% New York RB) e Ambas Marcam (83% Sporting KC, 86% New York RB). O New York RB tem uma produção ofensiva mais equilibrada ao longo do jogo.",
+        "indice_over_2_5": "Sporting KC: 67%, New York RB: 71%",
+        "indice_ambas_marcam": "Sporting KC: 83%, New York RB: 86%",
+        "indice_over_ht": "Sporting KC: 100% (Over 0.5 HT); New York RB: 100% (Over 0.5 HT)",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "22:30",
+      "liga": "USA MLS",
+      "jogo": "San Diego x Vancouver Whitecaps",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória San Diego",
+      "odd_principal": "1.70",
+      "fair_odd_calculada": "1.60",
+      "valor_esperado": "+6.3% EV — odd 1.70 vs Fair Odd 1.60",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "San Diego marca 1.25 no 1ºT; Vancouver Whitecaps marca 0.60 no 1ºT",
+      "desempenho_2t": "San Diego marca 1.38 no 2ºT; Vancouver Whitecaps marca 1.20 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "11º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "10º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "San Diego demonstra uma força ofensiva considerável, com média de 2.63 gols por jogo e forte desempenho em ambos os tempos (1.25 gols no 1ºT e 1.38 gols no 2ºT). Vancouver Whitecaps, embora com boa campanha, sofre uma média de 1.20 gols por jogo e sua produção ofensiva no primeiro tempo é inferior (0.60 gols). A consistência ofensiva de San Diego em casa é um diferencial.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
+      "mando_de_campo": "San Diego tem média de 2.63 gols marcados em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "San Diego tem ataque forte e distribuído ao longo do jogo.",
+      "momento_gols": "San Diego tem produção ofensiva forte nos 15 minutos iniciais e na faixa de 46-60 min. Vancouver tem seus melhores momentos no final do jogo.",
+      "jogadores_chave": "Anders Dreyer, Marcus Ingvartsen (San Diego); Sebastian Berhalter, Thomas Müller (Vancouver Whitecaps)",
+      "placares_provaveis": "2x1, 3x1, 2x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Caso Vancouver abra o placar, o jogo pode ficar mais disputado. Manter a pressão inicial de San Diego será crucial.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "San Diego com ataque potente em casa, enfrentando um adversário que sofre gols e tem menor produção inicial.",
+        "gatilho_saida_parcial": "Se San Diego abrir 2 gols de vantagem antes dos 60 minutos.",
+        "hard_stop": "Se Vancouver abrir o placar e conseguir impor seu ritmo."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "San Diego",
+        "odd_alvo": "1.70",
+        "razao": "San Diego tem um ataque muito forte, com média de 2.63 gols por jogo, e joga em casa. Vancouver Whitecaps sofre gols e tem uma produção ofensiva inicial inferior.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": false
+      },
+      "over_limite_70": {
+        "aplicavel": false
+      },
+      "back_2x2": {
+        "aplicavel": false
+      },
+      "back_goleada": {
+        "aplicavel": false
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "22:30",
+      "liga": "USA MLS",
+      "jogo": "Colorado Rapids x FC Dallas",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais 2.5 gols",
+      "odd_principal": "1.70",
+      "fair_odd_calculada": "1.55",
+      "valor_esperado": "+9.7% EV — odd 1.70 vs Fair Odd 1.55",
+      "mercado_secundario": "Placar exato 2x2",
+      "odd_secundaria": "12.00",
+      "desempenho_1t": "Colorado Rapids marca 0.80 no 1ºT; FC Dallas marca 0.80 no 1ºT",
+      "desempenho_2t": "Colorado Rapids marca 2.00 no 2ºT; FC Dallas marca 1.20 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "21º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "9º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Colorado Rapids e FC Dallas possuem estatísticas muito fortes para Over 2.5 gols (60% para ambos) e também para Ambas Marcam (60% Colorado Rapids, 40% FC Dallas). O Colorado Rapids tem um ataque potente no segundo tempo (2.00 gols/jogo), enquanto o FC Dallas também demonstra capacidade de finalização e gols. A média total de gols em seus jogos é alta (4.20 e 3.00). A defesa do FC Dallas sofre 1.00 gol/jogo e a do Colorado 1.40.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Colorado Rapids tem média de 2.80 gols marcados em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Colorado Rapids tem forte produção no segundo tempo.",
+      "momento_gols": "Colorado Rapids tem sua maior produção ofensiva no segundo tempo (46-90 min). FC Dallas também.",
+      "jogadores_chave": "Rafael Navarro, Darren Yapi (Colorado Rapids); Petar Musa, Logan Farrington (FC Dallas)",
+      "placares_provaveis": "2x2, 3x1, 1x2",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Acompanhar o jogo. Se houver um gol cedo, o Over tem grande chance. Se o placar se mantiver 0x0 por muito tempo, pode ser arriscado.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Estatísticas de Over 2.5 e Ambas Marcam são fortes para ambos os times, com Colorado Rapids tendo produção ofensiva notável no segundo tempo.",
+        "gatilho_saida_parcial": "Em caso de placares como 2x1 ou 1x2, considerar cash-out parcial.",
+        "hard_stop": "Se o placar permanecer 0x0 ou 1x0 após 60 minutos."
+      },
+      "back_favorito": {
+        "aplicavel": false
+      },
+      "lay_zebra": {
+        "aplicavel": false
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": null,
+        "indice_gols_final": "Colorado Rapids (2.00 gols/jogo no 2ºT) e FC Dallas (1.20 gols/jogo no 2ºT) têm potencial para gols na segunda metade. O alto índice de Over 2.5 gols em seus jogos sugere que a tendência pode se manter.",
+        "condicao_entrada": "Padrão de gols de ambos os times, com Colorado Rapids tendo forte produção ofensiva no segundo tempo.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.75",
+        "stake_recomendada": "1%",
+        "observacoes": "A força ofensiva do Colorado Rapids no segundo tempo é um ponto chave."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "razao": "Ambos os times apresentam alta frequência de Over 2.5 Gols (60% Colorado Rapids, 60% FC Dallas) e Ambas Marcam (60% Colorado Rapids, 40% FC Dallas). O Colorado Rapids tem uma forte produção ofensiva no segundo tempo (2.00 gols/jogo).",
+        "indice_over_2_5": "Colorado Rapids: 60%, FC Dallas: 60%",
+        "indice_ambas_marcam": "Colorado Rapids: 60%, FC Dallas: 40%",
+        "indice_over_ht": "Colorado Rapids: 100% (Over 0.5 HT); FC Dallas: 60% (Over 0.5 HT)",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false
+      },
+      "confirmacao_visual": null
     },
     {
       "horario": "23:30",
       "liga": "USA MLS",
       "jogo": "LA Galaxy x Houston Dynamo",
       "metodos_aplicados": [
-        "over_golos"
+        "lay_zebra"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.75",
-      "fair_odd_calculada": "1.50",
-      "valor_esperado": "+16.7% EV — odd 1.75 vs Fair Odd 1.50",
+      "mercado_principal": "Lay Houston Dynamo",
+      "odd_principal": "5.00",
+      "fair_odd_calculada": "4.50",
+      "valor_esperado": "+11.1% EV — odd 5.00 vs Fair Odd 4.50",
       "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": "LA Galaxy marca 0.83 no 1ºT, Houston Dynamo marca 0.83 no 1ºT",
-      "desempenho_2t": "LA Galaxy sofre 0.83 no 2ºT, Houston Dynamo sofre 1.50 no 2ºT",
+      "desempenho_1t": "LA Galaxy marca 0.83 Gols no 1ºT vs Houston Dynamo 0.83",
+      "desempenho_2t": "LA Galaxy sofre 0.83 Gols no 2ºT vs Houston Dynamo 0.83",
       "contexto_times": {
         "casa": {
-          "posicao": null,
-          "objetivo": "meio_tabela"
+          "posicao": "22",
+          "objetivo": "rebaixamento"
         },
         "fora": {
-          "posicao": null,
+          "posicao": "16",
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Ambas as equipes apresentam um alto índice de Over 2.5 gols em seus jogos (67% para o LA Galaxy e 67% para o Houston Dynamo). O LA Galaxy tem uma média de 1.50 gols marcados e 1.17 sofridos em casa, enquanto o Houston Dynamo tem uma média de 1.67 gols marcados e 2.67 sofridos fora. A média total de gols em seus confrontos é de 2.67 para o LA Galaxy e 4.34 para o Houston Dynamo, indicando uma forte tendência para gols. A baixa liquidez deste jogo na MLS sugere um campo fértil para apostas de gols.",
+      "motivacao_tecnica": "O LA Galaxy, apesar de estar mais baixo na tabela, tem um aproveitamento de 1.33 pontos por jogo, enquanto o Houston Dynamo tem 1.00 ponto por jogo. O Dynamo tem uma média de gols sofridos muito alta (2.67) em comparação com o Galaxy (1.17). A odd para a vitória do Dynamo é alta (5.00), indicando que o mercado não a vê como provável. O histórico recente do Dynamo mostra dificuldade em se defender. Com esses fatores, há um bom valor em apostar contra a vitória do Houston Dynamo.",
       "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "LA Galaxy marca 1.50 gols em casa. 67% dos seus jogos em casa terminam com Over 2.5 gols.",
+      "mando_de_campo": "LA Galaxy: 2 vitórias, 3 empates, 1 derrota em casa (aproveitamento de 1.33 pontos por jogo como mandante).",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "sem informações detalhadas",
-      "especificidades_gols": "LA Galaxy marca gols mais cedo (0-15 min). Houston Dynamo marca gols distribuídos, com picos entre 0-15 min e 31-45 min.",
-      "momento_gols": "LA Galaxy tem mais gols marcados no 1º tempo. Houston Dynamo marca gols mais distribuídos, com tendência maior no 2º tempo.",
-      "jogadores_chave": "Gabriel Fortes Chaves (LA Galaxy), Guilherme (Houston Dynamo)",
-      "placares_provaveis": "2x1, 2x2, 3x1",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Se o placar chegar a 2-0 para qualquer lado antes dos 60 minutos, considerar gestão de risco.",
+      "desfalques_chave": "sem informações disponíveis",
+      "especificidades_gols": "LA Galaxy: média de 1.50 gols marcados e 1.17 sofridos. Houston Dynamo: média de 1.67 gols marcados e 2.67 sofridos.",
+      "momento_gols": "LA Galaxy: pico de gols marcados entre 0-15min e 76-90min. Sofreram mais gols entre 61-75min. Houston Dynamo: pico de gols marcados entre 31-45min e 46-60min. Sofreram mais gols entre 46-60min e 76-90min.",
+      "jogadores_chave": "Gabriel Fortes Chaves (LA Galaxy - 5 gols), Marco Reus (LA Galaxy - 4 gols), Guilherme (Houston Dynamo - 7 gols), Lawrence Ennali (Houston Dynamo - 3 gols).",
+      "placares_provaveis": "Ex: 2x1, 3x1 para LA Galaxy",
+      "momento_entrada": "pré_jogo",
+      "situacao_saida": "Sair se o Houston Dynamo abrir placar, ou se o Galaxy abrir 2 gols de vantagem.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Mercado com valor estatístico claro para Over 2.5 gols, aproveitando a tendência de ambos os times marcarem e sofrerem gols.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "O valor da odd do Houston Dynamo está inflado pela sua posição na tabela, mas sua defesa frágil e o mando de campo do Galaxy criam uma oportunidade.",
+        "gatilho_saida_parcial": "Se o Houston Dynamo abrir o placar.",
+        "hard_stop": "Se o Houston Dynamo abrir 2 gols de vantagem."
       },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "over_golos": {
+      "back_favorito": {
+        "aplicavel": null
+      },
+      "lay_zebra": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Ambos os times têm alto índice de jogos com Over 2.5 gols e apresentam defesas frágeis, especialmente o Houston Dynamo fora de casa.",
-        "odd_alvo": "1.75",
+        "zebra": "Houston Dynamo",
+        "odd_zebra_alvo": "5.00",
+        "razao": "O Houston Dynamo tem uma defesa muito frágil, sofrendo em média 2.67 gols por jogo. O LA Galaxy joga em casa e tem um histórico recente mais consistente. A odd de 5.00 para a vitória do visitante é alta e não reflete a fragilidade defensiva.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "confirmacao_visual": null
+      "over_limite_70": {
+        "aplicavel": null
+      },
+      "back_2x2": {
+        "aplicavel": null
+      },
+      "back_goleada": {
+        "aplicavel": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false
+      }
     }
   ],
   "evitar": [
     {
       "horario": "15:45",
-      "jogo": "Royal Antwerp FC x KVC Westerlo",
-      "liga": "Belgium Pro League",
-      "motivo": "Jogo equilibrado, sem favoritismo claro e sem padrões de gols definidos que justifiquem uma entrada especifica dos 6 métodos."
-    },
-    {
-      "horario": "15:45",
-      "jogo": "OH Leuven x KRC Genk",
-      "liga": "Belgium Pro League",
-      "motivo": "KRC Genk é favorito, mas OH Leuven tem bom aproveitamento. O jogo apresenta um bom potencial de gols (Over 2.5 em 47% e 74% dos jogos), mas não chega a configurar um Back 2x2 claro. Favoritismo moderado, sem gatilhos fortes para outros métodos."
-    },
-    {
-      "horario": "15:45",
       "jogo": "Standard Liège x Sporting Charleroi",
       "liga": "Belgium Pro League",
-      "motivo": "Jogo entre equipes de meio de tabela, com histórico equilibrado. As estatísticas de gols (Over 2.5 em 47% e 42% dos jogos) não são fortes o suficiente para justificar um Over Gols ou Back 2x2. Falta favoritismo claro para Back Favorito."
+      "motivo": "Jogo equilibrado entre equipes do meio de tabela com retrospectos e estatísticas muito similares. Não há um claro favoritismo, padrão de gols ou motivação que justifique uma entrada nos métodos disponíveis."
     },
     {
-      "horario": "16:00",
-      "jogo": "Novorizontino x Ceará",
-      "liga": "Brazil Serie B",
-      "motivo": "Jogo entre equipes em posições intermediárias da tabela, com históricos recentes inconsistentes. Novorizontino demonstra um maior volume ofensivo (18 finalizações/jogo) e melhor aproveitamento em casa, mas o Ceará tem uma defesa mais consistente fora. O jogo não apresenta favoritismo claro, nem um padrão de gols forte o suficiente para Over 2.5 ou Back 2x2. A ausência de dados suficientes para outros métodos leva à decisão de evitar."
-    },
-    {
-      "horario": "17:00",
-      "jogo": "São Paulo x Botafogo",
-      "liga": "Brazil Serie A",
-      "motivo": "Ambas equipes apresentam bons números ofensivos e defensivos, com grande tendência a gols (Over 2.5 em 43% e 75% dos jogos). No entanto, a consistência de ambos em ambos marcam (43% vs 88%) e o fato de o São Paulo ter 71% de vitórias em casa e o Botafogo ter um bom retrospecto fora de casa, tornam o jogo muito imprevisível para aplicar um método específico com confiança."
-    },
-    {
-      "horario": "17:00",
-      "jogo": "Vitória x Internacional",
-      "liga": "Brazil Serie A",
-      "motivo": "Vitória tem um forte desempenho em casa (5 vitórias em 7 jogos, 71% de vitórias), enquanto o Internacional demonstra consistência fora. O jogo apresenta tendência a Over 1.5 gols (71% para ambos), mas a falta de um favoritismo claro e a imprevisibilidade geral do confronto impedem a aplicação de um método específico com a confiança necessária."
-    },
-    {
-      "horario": "18:30",
-      "jogo": "Fortaleza x Londrina",
-      "liga": "Brazil Serie B",
-      "motivo": "Fortaleza tem um forte desempenho em casa (75% vitórias), enquanto o Londrina tem um histórico ruim fora. Apesar da tendência de gols (Over 2.5 em 75% e 80% dos jogos), a falta de consistência do Londrina e a imprevisibilidade geral do confronto impedem a aplicação de um método específico com confiança."
+      "horario": "17:30",
+      "jogo": "Minnesota United x Real Salt Lake",
+      "liga": "USA MLS",
+      "motivo": "Ambos os times têm um desempenho irregular e não há um favoritismo claro que justifique os métodos Arkeiro. Embora o Minnesota United tenha uma média de gols razoável em casa, o Real Salt Lake apresenta um padrão de gols sofridos alto. No entanto, a falta de consistência em ambos os lados impede uma entrada confiante."
     },
     {
       "horario": "19:00",
       "jogo": "Mirassol x Fluminense",
       "liga": "Brazil Serie A",
-      "motivo": "Mirassol é o lanterna, com apenas 2 vitórias em 8 jogos. O Fluminense, apesar de ter um aproveitamento razoável, não demonstra um favoritismo esmagador. O jogo apresenta um alto índice de Ambas Marcam (75% vs 71%) e Over 2.5 gols (63% vs 43%), mas a falta de um padrão de gols forte e a inconsistência do Mirassol impedem a entrada em Over Gols ou Back 2x2. O favoritismo do Fluminense não é claro o suficiente para um Back Favorito."
+      "motivo": "O Fluminense não demonstra um favoritismo claro com as odds atuais, e o Mirassol apresenta um ataque capaz e alto índice de Ambas Marcam. O jogo é considerado de risco, sem encaixe confiável nos métodos de aposta."
     },
     {
-      "horario": "19:00",
-      "jogo": "Grêmio x Santos",
-      "liga": "Brazil Serie A",
-      "motivo": "Grêmio tem um bom retrospecto em casa, enquanto o Santos tem um histórico ruim fora. O jogo apresenta um alto índice de Ambas Marcam (43% vs 86%) e Over 2.5 gols (29% vs 71%), mas a imprevisibilidade, a falta de um claro favorito e a oscilação das equipes impedem a aplicação de um método específico com a devida confiança."
+      "horario": "20:30",
+      "jogo": "Minnesota United x Real Salt Lake",
+      "liga": "USA MLS",
+      "motivo": "Ambos os times têm um desempenho irregular e não há um favoritismo claro que justifique os métodos Arkeiro. Embora o Minnesota United tenha uma média de gols razoável em casa, o Real Salt Lake apresenta um padrão de gols sofridos alto. No entanto, a falta de consistência em ambos os lados impede uma entrada confiante."
     },
     {
-      "horario": "21:00",
-      "jogo": "Flamengo x Palmeiras",
-      "liga": "Brazil Serie A",
-      "motivo": "Ambas as equipes são fortes e demonstram bons números em quase todos os aspectos, incluindo gols. O Flamengo tem um ataque muito potente (2.17 gols/jogo) e uma defesa sólida (0.67 gols sofridos/jogo), enquanto o Palmeiras demonstra um bom equilíbrio. Apesar do potencial de gols, a partida é muito equilibrada e não apresenta um favorito claro o suficiente para um Back Favorito ou Back Goleada. A ausência de um padrão forte de 'ambas marcam' ou 'over 2.5' que se destaque de forma explícita também impede outros métodos."
+      "horario": "20:30",
+      "jogo": "FC Cincinnati x Orlando City",
+      "liga": "USA MLS",
+      "motivo": "Considerando os dados, há uma tendência de muitos gols, o que já foi abordado com o Over 2.5 e Back 2x2. Não há um cenário claro para os outros métodos aplicáveis. "
+    },
+    {
+      "horario": "20:30",
+      "jogo": "DC United x Montreal Impact",
+      "liga": "USA MLS",
+      "motivo": "Considerando os dados, há uma tendência de muitos gols, o que já foi abordado com o Over 2.5 e Back 2x2. Não há um cenário claro para os outros métodos aplicáveis."
+    },
+    {
+      "horario": "21:30",
+      "jogo": "Nashville SC x New York City",
+      "liga": "USA MLS",
+      "motivo": "Apesar do favoritismo de Nashville SC e do potencial de gols, o número de métodos aplicáveis se limita a 2, e não há mais um encaixe claro para os outros."
+    },
+    {
+      "horario": "21:30",
+      "jogo": "Sporting KC x New York RB",
+      "liga": "USA MLS",
+      "motivo": "Considerando os dados, há uma tendência de muitos gols, o que já foi abordado com o Over 2.5 e Back 2x2. Não há um cenário claro para os outros métodos aplicáveis."
+    },
+    {
+      "horario": "21:30",
+      "jogo": "Chicago Fire x Toronto",
+      "liga": "USA MLS",
+      "motivo": "Chicago Fire tem um bom desempenho ofensivo em casa, mas o Toronto demonstra fragilidade defensiva. A falta de consistência geral e a ausência de um padrão claro para os métodos de Over ou Back Goleada impedem uma entrada confiante. O jogo tem potencial para gols, mas sem um favorito claro e com os padrões não tão acentuados, o ideal é evitar."
+    },
+    {
+      "horario": "22:30",
+      "jogo": "Portland Timbers x SJ Earthquakes",
+      "liga": "USA MLS",
+      "motivo": "Embora ambas as equipes apresentem médias de gols elevadas, não há um favoritismo claro ou um padrão de jogo que se encaixe perfeitamente nos métodos Arkeiro. A alta probabilidade de gols é evidente, mas sem um encaixe específico para os 5 métodos, é preferível evitar."
+    },
+    {
+      "horario": "22:30",
+      "jogo": "San Diego x Vancouver Whitecaps",
+      "liga": "USA MLS",
+      "motivo": "Apesar da força ofensiva de San Diego, o jogo é considerado equilibrado. Apenas o Back Favorito se encaixa com um valor esperado razoável. Os outros métodos não apresentam encaixe claro."
+    },
+    {
+      "horario": "22:30",
+      "jogo": "Colorado Rapids x FC Dallas",
+      "liga": "USA MLS",
+      "motivo": "Considerando os dados, há uma tendência de muitos gols, o que já foi abordado com o Over 2.5 e Back 2x2. Não há um cenário claro para os outros métodos aplicáveis."
     }
   ],
   "pdfs": [
