@@ -569,6 +569,72 @@ export default function EntradaPage({
         </div>
       )}
 
+      {/* Mercado de Gols */}
+      {entrada.mercado_gols?.aplicavel && (
+        <div className="card p-6 mb-6 ring-2 ring-teal-300 dark:ring-teal-800 bg-teal-50/40 dark:bg-teal-950/20">
+          <div className="flex items-center gap-2 mb-4">
+            <div className="w-8 h-8 rounded-lg bg-teal-500 dark:bg-teal-600 flex items-center justify-center">
+              <Waves size={18} className="text-white" />
+            </div>
+            <div>
+              <h2 className="font-bold text-lg leading-tight">Mercado de Gols</h2>
+              <div className="text-xs text-teal-700 dark:text-teal-300">
+                {entrada.mercado_gols.sub_tipo === 'gols_ht' && 'Gols no 1º tempo'}
+                {entrada.mercado_gols.sub_tipo === 'ambas_marcam' && 'Ambas marcam (BTTS)'}
+                {entrada.mercado_gols.sub_tipo === 'over_a_frente' && 'Over a frente (+2 gols)'}
+                {entrada.mercado_gols.modo === 'ao_vivo' ? ' · ao vivo' : ' · pré-jogo'}
+              </div>
+            </div>
+          </div>
+
+          <div className="grid sm:grid-cols-2 gap-3 mb-3">
+            {entrada.mercado_gols.mercado_sugerido && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  Mercado sugerido
+                </div>
+                <div className="text-sm font-medium">{entrada.mercado_gols.mercado_sugerido}</div>
+              </div>
+            )}
+            {entrada.mercado_gols.odd_alvo && (
+              <div className="p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-ink-200 dark:ring-ink-800">
+                <div className="text-[11px] uppercase tracking-wider text-ink-500 font-semibold mb-1">
+                  ODD alvo
+                </div>
+                <div className="text-sm font-medium tabular-nums">{entrada.mercado_gols.odd_alvo}</div>
+              </div>
+            )}
+          </div>
+
+          {entrada.mercado_gols.razao && (
+            <div className="mb-3 p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-teal-200 dark:ring-teal-900">
+              <div className="text-[11px] uppercase tracking-wider text-teal-700 dark:text-teal-400 font-semibold mb-1">
+                Razão
+              </div>
+              <div className="text-sm leading-relaxed">{entrada.mercado_gols.razao}</div>
+            </div>
+          )}
+
+          {entrada.mercado_gols.gatilho_ao_vivo && entrada.mercado_gols.modo === 'ao_vivo' && (
+            <div className="mb-3 p-3 rounded-md bg-white dark:bg-ink-900 ring-1 ring-red-200 dark:ring-red-900">
+              <div className="text-[11px] uppercase tracking-wider text-red-700 dark:text-red-400 font-semibold mb-1">
+                Gatilho ao vivo
+              </div>
+              <div className="text-sm leading-relaxed">{entrada.mercado_gols.gatilho_ao_vivo}</div>
+            </div>
+          )}
+
+          {entrada.mercado_gols.stake_recomendada && (
+            <div className="flex items-center gap-2 text-sm pt-2 border-t border-teal-200 dark:border-teal-900">
+              <span className="text-ink-500">Stake recomendada:</span>
+              <span className="pill bg-teal-100 text-teal-800 dark:bg-teal-950 dark:text-teal-200 text-sm px-2.5 py-1">
+                {entrada.mercado_gols.stake_recomendada}
+              </span>
+            </div>
+          )}
+        </div>
+      )}
+
       {/* Over Limite 70+ */}
       {(entrada.over_limite_70?.aplicavel || entrada.over_limite_70?.elegivel) && (
         <div className="card p-6 mb-6 ring-2 ring-purple-300 dark:ring-purple-800 bg-purple-50/40 dark:bg-purple-950/20">

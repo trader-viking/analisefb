@@ -61,6 +61,14 @@ export const METODOS_INFO: Record<string, Metodo> = {
     cor_text: 'text-teal-700 dark:text-teal-300',
     cor_ring: 'ring-teal-300 dark:ring-teal-800',
   },
+  mercado_gols: {
+    key: 'mercado_gols',
+    label: 'Mercado de Gols',
+    icone: <Waves size={11} />,
+    cor_bg: 'bg-teal-50 dark:bg-teal-950/40',
+    cor_text: 'text-teal-700 dark:text-teal-300',
+    cor_ring: 'ring-teal-300 dark:ring-teal-800',
+  },
   confirmacao_visual: {
     key: 'confirmacao_visual',
     label: 'Confirmação Visual',
@@ -80,6 +88,7 @@ export function metodosAtivos(entrada: Entrada): string[] {
     ['back_2x2', entrada.back_2x2],
     ['back_goleada', entrada.back_goleada],
     ['over_golos', entrada.over_golos],
+    ['mercado_gols', entrada.mercado_gols],
     ['confirmacao_visual', entrada.confirmacao_visual],
   ];
   for (const [key, val] of checks) {
@@ -103,16 +112,17 @@ export function modoDoMetodo(entrada: Entrada, metodo: string): string | null {
     back_2x2: entrada.back_2x2,
     back_goleada: entrada.back_goleada,
     over_golos: entrada.over_golos,
+    mercado_gols: entrada.mercado_gols,
   };
   // Confirmação Visual é sempre ao vivo (não mostra tag)
   if (metodo === 'confirmacao_visual') return null;
+  // Over Limite 70+ é sempre tratado como ao vivo (regra do usuário)
+  if (metodo === 'over_limite_70') return 'ao_vivo';
   const obj = map[metodo];
   if (!obj) return null;
   const m = obj.modo;
   if (m === 'pre_jogo' || m === 'pre-jogo' || m === 'pré-jogo' || m === 'prejogo') return 'pre_jogo';
   if (m === 'ao_vivo' || m === 'ao-vivo' || m === 'aovivo' || m === 'live') return 'ao_vivo';
-  // Over Limite 70+ sem modo explícito: assume ao vivo (sub-cenário clássico)
-  if (metodo === 'over_limite_70') return 'ao_vivo';
   return null;
 }
 
@@ -194,6 +204,7 @@ const ORDEM_FIXA: Record<string, number> = {
   back_favorito: 7,
   over_limite_70: 6,
   over_golos: 5,
+  mercado_gols: 5,
   back_2x2: 4,
   lay_zebra: 3,
   back_goleada: 2,

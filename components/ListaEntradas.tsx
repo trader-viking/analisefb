@@ -153,8 +153,8 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
   }, [carregado, relatorioSlug, metodosAtivos_, ligasAtivas, horariosAtivos]);
 
   // Métodos disponíveis (só os que aparecem em alguma entrada deste dia)
-  // Conta quantas entradas usam cada método (pra mostrar sempre os 5 com contador)
-  const TODOS_METODOS = ['back_favorito','lay_zebra','over_limite_70','back_2x2','back_goleada','confirmacao_visual'];
+  // Conta quantas entradas usam cada método (pra mostrar sempre os 6 com contador)
+  const TODOS_METODOS = ['back_favorito','lay_zebra','over_limite_70','mercado_gols','back_2x2','back_goleada','confirmacao_visual'];
   const contagemMetodos = useMemo(() => {
     const cont: Record<string, number> = {};
     for (const m of TODOS_METODOS) cont[m] = 0;
@@ -166,19 +166,35 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
     return cont;
   }, [entradas]);
 
-  // Métodos disponíveis = sempre os 5 principais (Confirmação Visual só se houver)
+  // Métodos disponíveis = sempre os 6 principais (Confirmação Visual só se houver)
   const metodosDisponiveis = useMemo(() => {
-    const base = ['back_favorito','lay_zebra','over_limite_70','back_2x2','back_goleada'];
+    const base = ['back_favorito','lay_zebra','over_limite_70','mercado_gols','back_2x2','back_goleada'];
     // Adiciona confirmacao_visual só se existir em alguma entrada
     if (contagemMetodos['confirmacao_visual'] > 0) base.push('confirmacao_visual');
     return base;
   }, [contagemMetodos]);
 
+  // Retorna os modos (ao_vivo/pre_jogo) de uma entrada.
+  // REGRA: Over Limite 70+ sempre conta como ao_vivo, independente do sub-cenário.
+  function modosDaEntrada(e: Entrada): Set<string> {
+    const ativos = metodosAtivos(e);
+    const modos = new Set<string>();
+    for (const m of ativos) {
+      if (m === 'over_limite_70') {
+        modos.add('ao_vivo'); // Over 70 é sempre ao vivo
+        continue;
+      }
+      const mo = modoDoMetodo(e, m);
+      if (mo) modos.add(mo);
+    }
+    return modos;
+  }
+
   // Conta quantas entradas têm método ao vivo / pré-jogo
   const contagemModos = useMemo(() => {
     const cont = { ao_vivo: 0, pre_jogo: 0 };
     for (const e of entradas) {
-      const modos = new Set(metodosAtivos(e).map(m => modoDoMetodo(e, m)).filter(Boolean) as string[]);
+      const modos = modosDaEntrada(e);
       if (modos.has('ao_vivo')) cont.ao_vivo++;
       if (modos.has('pre_jogo')) cont.pre_jogo++;
     }
@@ -225,10 +241,8 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
       }
       // Modo (ao vivo / pré-jogo) — entrada passa se TEM algum método no(s) modo(s) selecionado(s)
       if (modosAtivos.size > 0) {
-        const modosDaEntrada = new Set(
-          metodosAtivos(e).map(m => modoDoMetodo(e, m)).filter(Boolean) as string[]
-        );
-        const algum = Array.from(modosAtivos).some(mo => modosDaEntrada.has(mo));
+        const modosDaE = modosDaEntrada(e);
+        const algum = Array.from(modosAtivos).some(mo => modosDaE.has(mo));
         if (!algum) return false;
       }
       return true;
