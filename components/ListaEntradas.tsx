@@ -6,6 +6,7 @@ import {
   ExternalLink, TrendingUp, Clock, Trophy, X, SlidersHorizontal,
 } from 'lucide-react';
 import { BadgeMetodo, metodosAtivos, metodosRankeados, METODOS_INFO, modoDoMetodo } from '@/components/BadgeMetodo';
+import { ContextoTimesCompacto } from '@/components/ContextoTimes';
 import BotoesApostaMini from '@/components/BotoesApostaMini';
 import type { Entrada } from '@/lib/relatorios';
 
@@ -411,6 +412,8 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
                         </div>
                       )}
                     </div>
+
+                    <ContextoTimesCompacto jogo={entrada.jogo} contexto={entrada.contexto_times} />
 
                     {mAtivos.length > 0 && (
                       <div className="flex flex-wrap gap-1">

@@ -7,6 +7,7 @@ import {
 } from 'lucide-react';
 import { getEntrada, listarRelatorios, entradaSlug } from '@/lib/relatorios';
 import { BadgeMetodo, metodosAtivos, modoDoMetodo } from '@/components/BadgeMetodo';
+import { ContextoTimesDetalhe } from '@/components/ContextoTimes';
 import BotoesAposta from '@/components/BotoesAposta';
 
 export function generateStaticParams() {
@@ -154,6 +155,13 @@ export default function EntradaPage({
             </div>
           )}
         </div>
+
+        {/* Tabela e motivação dos times */}
+        {entrada.contexto_times && (
+          <div className="mt-4">
+            <ContextoTimesDetalhe jogo={entrada.jogo} contexto={entrada.contexto_times} />
+          </div>
+        )}
 
         {/* Fair Odd e Valor Esperado */}
         {(entrada.fair_odd_calculada || entrada.valor_esperado) && (

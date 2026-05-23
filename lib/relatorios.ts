@@ -84,6 +84,16 @@ export type PlanoExecucao = {
   hard_stop?: string;
 };
 
+export type ContextoTime = {
+  posicao?: string;
+  objetivo?: string;
+};
+
+export type ContextoTimes = {
+  casa?: ContextoTime;
+  fora?: ContextoTime;
+};
+
 export type Entrada = {
   horario: string;
   liga: string;
@@ -97,6 +107,7 @@ export type Entrada = {
   odd_secundaria?: string;
   desempenho_1t?: string;
   desempenho_2t?: string;
+  contexto_times?: ContextoTimes | null;
   motivacao_tecnica?: string;
   coeficiente_regularidade?: string;
   mando_de_campo?: string;
