@@ -1,7 +1,7 @@
 {
   "data": "2026-05-25",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-05-24T11:39:56.107443",
+  "gerado_em": "2026-05-24T13:12:49.553032",
   "total_partidas_analisadas": 5,
   "entradas": [
     {
@@ -9,51 +9,49 @@
       "liga": "Brazil Serie A",
       "jogo": "Coritiba x Bahia",
       "metodos_aplicados": [
-        "over_limite_70",
-        "back_goleada"
+        "over_limite_70"
       ],
       "nivel_confianca": "Médio",
-      "contexto_motivacional": "Bahia busca se afastar da zona de rebaixamento, enquanto Coritiba tenta se consolidar na parte superior da tabela.",
-      "mercado_principal": "Over 70+",
-      "odd_principal": 0.0,
-      "fair_odd_calculada": 0.0,
-      "odd_alvo": 0.0,
-      "valor_esperado": 0.0,
-      "criterio_entrada": "Aguardar o segundo tempo para explorar o Over 70+ com base no histórico de gols tardios de ambas as equipes.",
-      "criterio_saida": "Cash-out se o jogo se mostrar muito fechado ou se um gol ocorrer muito cedo.",
-      "desempenho_1t": "Coritiba teve mais dificuldade em marcar, enquanto Bahia mostrou mais volume ofensivo.",
-      "desempenho_2t": "Ambas as equipes apresentaram maior propensão a sofrer gols no segundo tempo, indicando uma possível abertura para gols tardios.",
-      "especificidades_gols": "Bahia tem um histórico de gols marcados e sofridos no final do jogo. Coritiba também apresenta essa tendência.",
-      "momento_gols": "Gols concentrados entre 0-15 e 76-90 minutos para Coritiba. Bahia tem gols mais distribuídos, mas com pico entre 31-45 e 76-90.",
+      "contexto_motivacional": "Ambas as equipes buscam melhorar suas posições na tabela.",
+      "mercado_principal": "Mais de 0.5 gols no 2º tempo",
+      "odd_principal": null,
+      "fair_odd_calculada": null,
+      "odd_alvo": null,
+      "valor_esperado": null,
+      "criterio_entrada": "Aguardar o desenrolar do jogo para identificar oportunidades de gols no segundo tempo.",
+      "criterio_saida": "Cash-out se o placar se mantiver 0-0 até os 70 minutos ou se houver um gol que mude drasticamente o cenário.",
+      "desempenho_1t": "Coritiba teve 43% de vitórias no 1º tempo, Bahia também 43%. Coritiba marcou 3 gols, Bahia 5.",
+      "desempenho_2t": "Ambas as equipes tiveram 28% de vitórias no 2º tempo. Coritiba marcou 4 gols, Bahia 4.",
+      "especificidades_gols": "Bahia tem uma média de 1.29 gols marcados por jogo, Coritiba 1.00. Bahia sofre 1.43 gols, Coritiba 0.86.",
+      "momento_gols": "Coritiba: 29% dos gols marcados entre 16-30 min e 29% entre 76-90 min. Bahia: 33% dos gols marcados entre 31-45 min e 22% entre 76-90 min.",
       "jogadores_chave": [
-        "Breno Lopes",
-        "Everaldo Stum",
-        "Willian José"
+        "Breno Lopes (Coritiba)",
+        "Willian José (Bahia)"
       ],
       "contexto_times": {
         "casa": {
-          "posicao": "18",
-          "objetivo": "meio_tabela"
+          "posicao": "18º",
+          "objetivo": "acesso"
         },
         "fora": {
-          "posicao": "4",
+          "posicao": "4º",
           "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "O Bahia, apesar de estar em uma posição melhor na tabela, demonstra fragilidade defensiva no segundo tempo, com 56% de seus jogos tendo mais de 0.5 gols sofridos. O Coritiba, por sua vez, tem um histórico de 29% de seus jogos com mais de 2.5 gols no total, e 57% de seus jogos com ambas as equipes marcando. A tendência de gols tardios em ambas as equipes sugere uma oportunidade para o Over 70+.",
-      "coeficiente_regularidade": "Coritiba: L L W D D W D (CV moderado). Bahia: W W W L W L D (CV moderado).",
-      "mando_de_campo": "Coritiba tem um aproveitamento de 1.29 pontos por jogo em casa.",
+      "motivacao_tecnica": "O Bahia demonstra maior capacidade ofensiva e consistência, enquanto o Coritiba busca se recuperar. A média de gols no segundo tempo para ambas as equipes sugere que o jogo pode se abrir mais na etapa final.",
+      "coeficiente_regularidade": "Coritiba: L L W D D W D (CV baixo). Bahia: W W W L W L D (CV moderado).",
+      "mando_de_campo": "Coritiba tem 1.00 gols marcados em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "placares_provaveis": "2x1, 1x2, 2x2",
-      "momento_entrada": "Segundo tempo",
-      "situacao_saida": "Se o placar permanecer 0x0 ou 1x0 até os 70 minutos, ou se o jogo se tornar muito truncado.",
+      "placares_provaveis": "1-1, 2-1",
+      "momento_entrada": "Pré-jogo, com ajuste ao vivo.",
+      "situacao_saida": "Cash-out se o jogo estiver 0-0 após os 70 minutos ou se houver um gol que altere significativamente o cenário.",
       "stake_recomendada": "1%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Aguardar a confirmação do fluxo do jogo no segundo tempo para identificar a melhor janela de entrada.",
-        "gatilho_saida_parcial": "Se um gol for marcado antes dos 70 minutos, reavaliar a odd.",
-        "hard_stop": "Se o placar for 0x0 após os 75 minutos."
+        "justificativa_abordagem": "Aguardar o fluxo do jogo para confirmar a tendência de gols na segunda etapa.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "Se o placar não se mover até os 70 minutos."
       },
       "back_favorito": {
         "aplicavel": false,
@@ -78,12 +76,12 @@
         "sub_cenario": "padrao_fim",
         "modo": "ao_vivo",
         "favorito": "Bahia",
-        "indice_gols_final": "Coritiba: 29% de gols marcados entre 76-90 min. Bahia: 22% de gols marcados entre 76-90 min.",
-        "condicao_entrada": "A partir dos 70 minutos, se o placar estiver empatado ou com uma diferença mínima.",
-        "mercado_sugerido": "Mais 0.5 gols no segundo tempo",
+        "indice_gols_final": "Coritiba: 29% dos gols marcados entre 76-90 min. Bahia: 22% dos gols marcados entre 76-90 min.",
+        "condicao_entrada": "Aguardar o início do segundo tempo e monitorar o fluxo do jogo.",
+        "mercado_sugerido": "Mais de 0.5 gols no 2º tempo",
         "odd_esperada": "1.70 a 2.20",
         "stake_recomendada": "1%",
-        "observacoes": "Monitorar a intensidade do jogo no segundo tempo."
+        "observacoes": "O Bahia tem uma média de 1.43 gols sofridos por jogo, o que pode gerar oportunidades."
       },
       "back_2x2": {
         "aplicavel": false,
@@ -97,14 +95,13 @@
         "stake_recomendada": null
       },
       "back_goleada": {
-        "aplicavel": true,
-        "candidato": "Bahia",
-        "razao": "Bahia tem um ataque mais prolífico (9 gols em 7 jogos) e enfrenta um Coritiba com média de 0.86 gols sofridos por jogo. O Bahia também tem 57% de seus jogos com ambas as equipes marcando.",
-        "modo": "pre_jogo",
-        "mercado_sugerido": "Bahia marca 4+ gols e vence",
-        "odd_esperada": "N/A",
-        "stake_recomendada": "1%",
-        "observacoes": "Esta é uma aposta de alto risco, baseada na expectativa de um jogo aberto e com muitos gols."
+        "aplicavel": false,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
       },
       "confirmacao_visual": {
         "aplicavel": false,
