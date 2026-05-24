@@ -1,7 +1,7 @@
 {
   "data": "2026-05-23",
   "variante": "liga_brazil_serie_a",
-  "gerado_em": "2026-05-24T00:50:53.632689",
+  "gerado_em": "2026-05-24T01:11:31.520623",
   "total_partidas_analisadas": 8,
   "total_partidas_disponiveis": 286,
   "entradas": [
@@ -12,102 +12,73 @@
       "metodos_aplicados": [
         "back_favorito"
       ],
+      "nivel_confianca": "Médio",
+      "contexto_motivacional": "Novorizontino é o 4º colocado jogando em casa contra o Ceará, 11º. Novorizontino busca se manter na zona de acesso.",
       "mercado_principal": "Vitória Novorizontino",
-      "odd_principal": "N/A",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "N/A",
-      "mercado_secundario": null,
-      "desempenho_1t": "Novorizontino: 0% Venceu o 1º tempo, 100% Empatou o 1º tempo, 0% Perdeu o 1º tempo. Ceará: 0% Venceu o 1º tempo, 100% Empatou o 1º tempo, 0% Perdeu o 1º tempo.",
-      "desempenho_2t": "Novorizontino: 60% Venceu o 2º tempo, 20% Empatou o 2º tempo, 20% Perdeu o 2º tempo. Ceará: 20% Venceu o 2º tempo, 40% Empatou o 2º tempo, 40% Perdeu o 2º tempo.",
-      "contexto_times": {
-        "casa": {
-          "posicao": "4º",
-          "objetivo": "acesso"
-        },
-        "fora": {
-          "posicao": "11º",
-          "objetivo": "meio_tabela"
-        }
-      },
-      "motivacao_tecnica": "O Novorizontino, buscando o acesso, tem um desempenho superior ao Ceará, que se encontra no meio da tabela. O Novorizontino demonstra maior capacidade de vencer no segundo tempo, enquanto o Ceará tem mais dificuldade em manter a vantagem. O mando de campo do Novorizontino é um fator importante.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
-      "mando_de_campo": "Novorizontino tem 60% de vitórias no 2º tempo.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Novorizontino: 1.40 Média Gols Marcados, 1.20 Média Gols Sofridos. Ceará: 0.80 Média Gols Marcados, 1.00 Média Gols Sofridos.",
-      "momento_gols": "Novorizontino: Maior volume de gols entre 0-15min (29%) e 61-75min (29%). Ceará: Maior volume de gols entre 76-90min (50%).",
+      "odd_principal": 0.0,
+      "fair_odd_calculada": 1.56,
+      "odd_alvo": 1.6,
+      "valor_esperado": 0.04,
+      "criterio_entrada": "Entrar na vitória do Novorizontino se a odd for igual ou superior a 1.60.",
+      "criterio_saida": "Cash-out se o Ceará abrir o placar ou se o Novorizontino sofrer um gol e a odd subir.",
+      "desempenho_1t": "Novorizontino empatou 100% do 1ºT, Ceará 100%. Novorizontino marcou 0.40 gols/1T, Ceará 0.20.",
+      "desempenho_2t": "Novorizontino venceu 60% do 2ºT, Ceará 20%. Novorizontino marcou 1.00 gols/2T, Ceará 0.60.",
+      "especificidades_gols": "Novorizontino tem média de 1.40 gols marcados e 1.20 sofridos. Ceará tem média de 0.80 marcados e 1.00 sofridos.",
+      "momento_gols": "Novorizontino marca mais entre 61-75 min (29%) e 76-90 min (29%). Ceará marca mais entre 76-90 min (50%).",
       "jogadores_chave": [
         "Robson dos Santos Fernandes",
         "Romulo Azevedo Simão",
         "Melquisedeque Costa de Oliveira"
       ],
+      "contexto_times": {
+        "casa": {
+          "posicao": "4",
+          "objetivo": "acesso"
+        },
+        "fora": {
+          "posicao": "11",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Novorizontino joga em casa contra um adversário mais fraco, com objetivo claro de acesso. O retrospecto em casa do Novorizontino é bom, com boa média de gols marcados.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Novorizontino tem 3 vitórias em 5 jogos em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
       "placares_provaveis": "1x0, 2x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
+      "situacao_saida": "Cash-out se o placar desfavorável ou se a odd subir muito.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Novorizontino tem maior motivação (acesso) e melhor desempenho em casa.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "Favoritismo do Novorizontino em casa com objetivo de acesso.",
+        "gatilho_saida_parcial": "Gol do Novorizontino.",
+        "hard_stop": "Gol do Ceará."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Novorizontino",
-        "odd_alvo": "N/A",
-        "razao": "Novorizontino busca o acesso e tem melhor desempenho em casa contra um Ceará no meio de tabela.",
-        "gatilho_ao_vivo": null,
+        "odd_alvo": "1.60",
+        "razao": "Novorizontino joga em casa contra um adversário mais fraco, com objetivo claro de acesso e bom retrospecto em casa.",
+        "gatilho_ao_vivo": "N/A",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "over_limite_70": {
-        "aplicavel": false,
-        "sub_cenario": null,
-        "modo": null,
-        "favorito": null,
-        "indice_gols_final": null,
-        "condicao_entrada": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null,
-        "observacoes": null
+        "aplicavel": null
       },
       "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
-      "confirmacao_visual": null,
-      "metodo": "back_favorito",
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "Novorizontino busca o acesso à Série A, enquanto o Ceará tenta se firmar no meio da tabela. O mando de campo do Novorizontino é um fator importante.",
-      "odd_alvo": "N/A",
-      "criterio_entrada": "Novorizontino busca o acesso e tem melhor desempenho em casa contra um Ceará no meio de tabela.",
-      "criterio_saida": "N/A"
+      "confirmacao_visual": {
+        "aplicavel": null
+      }
     },
     {
       "horario": "17:00",
@@ -116,102 +87,73 @@
       "metodos_aplicados": [
         "back_favorito"
       ],
+      "nivel_confianca": "Médio",
+      "contexto_motivacional": "Jogo entre equipes com posições próximas na tabela, ambas com aproveitamento razoável. O São Paulo tem um leve favoritismo em casa.",
       "mercado_principal": "Vitória São Paulo",
-      "odd_principal": "N/A",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "N/A",
-      "mercado_secundario": null,
-      "desempenho_1t": "São Paulo: 50% Venceu o 1º tempo, 38% Empatou o 1º tempo, 13% Perdeu o 1º tempo. Botafogo: 22% Venceu o 1º tempo, 33% Empatou o 1º tempo, 44% Perdeu o 1º tempo.",
-      "desempenho_2t": "São Paulo: 63% Venceu o 2º tempo, 13% Empatou o 2º tempo, 25% Perdeu o 2º tempo. Botafogo: 56% Venceu o 2º tempo, 11% Empatou o 2º tempo, 33% Perdeu o 2º tempo.",
-      "contexto_times": {
-        "casa": {
-          "posicao": "5º",
-          "objetivo": "titulo"
-        },
-        "fora": {
-          "posicao": "5º",
-          "objetivo": "titulo"
-        }
-      },
-      "motivacao_tecnica": "Ambos os times estão na 5ª posição, indicando uma disputa acirrada pelo título. O São Paulo tem um desempenho ligeiramente superior em casa, com mais vitórias no segundo tempo. O Botafogo demonstra mais dificuldade em manter a vantagem no segundo tempo. A odd para o São Paulo deve refletir esse favoritismo.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
-      "mando_de_campo": "São Paulo tem 63% de vitórias em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "São Paulo: 1.75 Média Gols Marcados, 0.75 Média Gols Sofridos. Botafogo: 1.67 Média Gols Marcados, 1.89 Média Gols Sofridos.",
-      "momento_gols": "São Paulo: Maior volume de gols entre 61-75min (29%). Botafogo: Maior volume de gols entre 76-90min (33%).",
+      "odd_principal": 0.0,
+      "fair_odd_calculada": 1.47,
+      "odd_alvo": 1.5,
+      "valor_esperado": 0.03,
+      "criterio_entrada": "Entrar no mercado de vitória do São Paulo se a odd for igual ou superior a 1.50.",
+      "criterio_saida": "Cash-out se o Botafogo abrir o placar ou se o São Paulo sofrer um gol e a odd subir significativamente.",
+      "desempenho_1t": "São Paulo venceu 50% do 1ºT, Botafogo 22%. São Paulo marcou 0.63 gols/1T, Botafogo 0.78.",
+      "desempenho_2t": "São Paulo venceu 63% do 2ºT, Botafogo 56%. São Paulo marcou 1.13 gols/2T, Botafogo 0.89.",
+      "especificidades_gols": "São Paulo tem média de 1.75 gols marcados e 0.75 sofridos. Botafogo tem média de 1.67 marcados e 1.89 sofridos.",
+      "momento_gols": "São Paulo marca mais entre 61-75 min (29%). Botafogo marca mais entre 76-90 min (33%).",
       "jogadores_chave": [
         "Jonathan Calleri",
         "Luciano da Rocha Neves",
         "Arthur Cabral"
       ],
-      "placares_provaveis": "2x1, 1x0",
+      "contexto_times": {
+        "casa": {
+          "posicao": "5",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "5",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "São Paulo joga em casa contra um adversário direto na tabela. O retrospecto recente do São Paulo em casa é forte, com boa média de gols marcados.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
+      "mando_de_campo": "São Paulo tem 5 vitórias em 8 jogos em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "placares_provaveis": "2x1, 1x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
+      "situacao_saida": "Cash-out se o placar desfavorável ou se a odd subir muito.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro do São Paulo em casa, com ambos os times buscando o título.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "Favoritismo em casa com odd razoável.",
+        "gatilho_saida_parcial": "Gol do São Paulo.",
+        "hard_stop": "Gol do Botafogo."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "São Paulo",
-        "odd_alvo": "N/A",
-        "razao": "Favoritismo claro do São Paulo em casa, ambos os times brigando pelo título.",
-        "gatilho_ao_vivo": null,
+        "odd_alvo": "1.50",
+        "razao": "São Paulo joga em casa contra um adversário direto, com bom retrospecto recente e média de gols.",
+        "gatilho_ao_vivo": "N/A",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "over_limite_70": {
-        "aplicavel": false,
-        "sub_cenario": null,
-        "modo": null,
-        "favorito": null,
-        "indice_gols_final": null,
-        "condicao_entrada": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null,
-        "observacoes": null
+        "aplicavel": null
       },
       "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
-      "confirmacao_visual": null,
-      "metodo": "back_favorito",
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "Jogo direto entre dois times na parte de cima da tabela, ambos com forte motivação para buscar o título.",
-      "odd_alvo": "N/A",
-      "criterio_entrada": "Favoritismo do São Paulo em casa, com ambos os times buscando o título.",
-      "criterio_saida": "N/A"
+      "confirmacao_visual": {
+        "aplicavel": null
+      }
     },
     {
       "horario": "17:00",
@@ -220,102 +162,73 @@
       "metodos_aplicados": [
         "back_favorito"
       ],
-      "mercado_principal": "Vitória Internacional",
-      "odd_principal": "N/A",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "N/A",
-      "mercado_secundario": null,
-      "desempenho_1t": "Vitória: 63% Venceu o 1º tempo, 25% Empatou o 1º tempo, 13% Perdeu o 1º tempo. Internacional: 13% Venceu o 1º tempo, 50% Empatou o 1º tempo, 38% Perdeu o 1º tempo.",
-      "desempenho_2t": "Vitória: 75% Venceu o 2º tempo, 25% Empatou o 2º tempo, 0% Perdeu o 2º tempo. Internacional: 38% Venceu o 2º tempo, 38% Empatou o 2º tempo, 25% Perdeu o 2º tempo.",
+      "nivel_confianca": "Alto",
+      "contexto_motivacional": "Vitória é o 4º colocado jogando em casa contra o Internacional, 6º colocado. Jogo importante para ambos na busca por posições na tabela.",
+      "mercado_principal": "Vitória Vitória",
+      "odd_principal": 0.0,
+      "fair_odd_calculada": 1.29,
+      "odd_alvo": 1.35,
+      "valor_esperado": 0.06,
+      "criterio_entrada": "Entrar na vitória do Vitória se a odd for igual ou superior a 1.35.",
+      "criterio_saida": "Cash-out se o Internacional abrir o placar ou se o Vitória sofrer um gol e a odd subir.",
+      "desempenho_1t": "Vitória venceu 63% do 1ºT, Internacional 13%. Vitória marcou 0.75 gols/1T, Internacional 0.25.",
+      "desempenho_2t": "Vitória venceu 75% do 2ºT, Internacional 38%. Vitória marcou 1.00 gols/2T, Internacional 0.88.",
+      "especificidades_gols": "Vitória tem média de 1.75 gols marcados e 0.38 sofridos. Internacional tem média de 1.13 marcados e 1.25 sofridos.",
+      "momento_gols": "Vitória marca mais entre 16-30 min (29%) e 76-90 min (21%). Internacional marca mais entre 76-90 min (33%).",
+      "jogadores_chave": [
+        "Erick de Arruda Serafim",
+        "Carlos Rene de Sousa Ferreira",
+        "Alan Patrick"
+      ],
       "contexto_times": {
         "casa": {
-          "posicao": "4º",
+          "posicao": "4",
           "objetivo": "titulo"
         },
         "fora": {
-          "posicao": "6º",
+          "posicao": "6",
           "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "O Vitória tem um desempenho muito forte em casa, com 75% de vitórias e 63% de vitórias no primeiro tempo. O Internacional, apesar de estar em uma posição melhor na tabela geral, demonstra fragilidade como visitante, especialmente no primeiro tempo. O Vitória tem uma odd atrativa para vencer em casa.",
+      "motivacao_tecnica": "Vitória está em excelente fase em casa, com alto aproveitamento e poucos gols sofridos. O Internacional tem um retrospecto mais modesto fora de casa.",
       "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
-      "mando_de_campo": "Vitória tem 75% de vitórias em casa.",
+      "mando_de_campo": "Vitória tem 6 vitórias em 8 jogos em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Vitória: 1.75 Média Gols Marcados, 0.38 Média Gols Sofridos. Internacional: 1.13 Média Gols Marcados, 1.25 Média Gols Sofridos.",
-      "momento_gols": "Vitória: Maior volume de gols entre 16-30min (29%) e 76-90min (21%). Internacional: Maior volume de gols entre 46-60min (22%) e 61-75min (22%).",
-      "jogadores_chave": [
-        "Erick de Arruda Serafim",
-        "Renato Kayzer de Souza",
-        "Alan Patrick"
-      ],
       "placares_provaveis": "1x0, 2x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
-      "stake_recomendada": "2%",
+      "situacao_saida": "Cash-out se o placar desfavorável ou se a odd subir muito.",
+      "stake_recomendada": "3%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Vitória tem forte desempenho em casa e busca o título, contra um Internacional que demonstra fragilidade como visitante.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "Favoritismo claro em casa com odd atrativa.",
+        "gatilho_saida_parcial": "Gol do Vitória.",
+        "hard_stop": "Gol do Internacional."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Vitória",
-        "odd_alvo": "N/A",
-        "razao": "Vitória tem forte desempenho em casa (75% vitórias) e busca o título, contra um Internacional com fragilidade como visitante.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
+        "odd_alvo": "1.35",
+        "razao": "Vitória tem um desempenho muito forte em casa, com alta taxa de vitórias e poucos gols sofridos.",
+        "gatilho_ao_vivo": "N/A",
+        "stake_recomendada": "3%"
       },
       "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "over_limite_70": {
-        "aplicavel": false,
-        "sub_cenario": null,
-        "modo": null,
-        "favorito": null,
-        "indice_gols_final": null,
-        "condicao_entrada": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null,
-        "observacoes": null
+        "aplicavel": null
       },
       "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
-      "confirmacao_visual": null,
-      "metodo": "back_favorito",
-      "nivel_confianca": "Alto",
-      "contexto_motivacional": "Vitória busca se manter na parte de cima da tabela para brigar pelo título, enquanto o Internacional busca uma vaga continental. O mando de campo do Vitória é um fator crucial.",
-      "odd_alvo": "N/A",
-      "criterio_entrada": "Vitória tem forte desempenho em casa (75% vitórias) e busca o título, contra um Internacional com fragilidade como visitante.",
-      "criterio_saida": "N/A"
+      "confirmacao_visual": {
+        "aplicavel": null
+      }
     },
     {
       "horario": "18:30",
@@ -324,102 +237,73 @@
       "metodos_aplicados": [
         "back_favorito"
       ],
+      "nivel_confianca": "Alto",
+      "contexto_motivacional": "Fortaleza é o líder jogando em casa contra o Londrina, 7º colocado. Fortaleza busca manter a liderança e o bom momento.",
       "mercado_principal": "Vitória Fortaleza",
-      "odd_principal": "N/A",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "N/A",
-      "mercado_secundario": null,
-      "desempenho_1t": "Fortaleza: 60% Venceu o 1º tempo, 20% Empatou o 1º tempo, 20% Perdeu o 1º tempo. Londrina: 17% Venceu o 1º tempo, 17% Empatou o 1º tempo, 67% Perdeu o 1º tempo.",
-      "desempenho_2t": "Fortaleza: 40% Venceu o 2º tempo, 40% Empatou o 2º tempo, 20% Perdeu o 2º tempo. Londrina: 33% Venceu o 2º tempo, 33% Empatou o 2º tempo, 33% Perdeu o 2º tempo.",
+      "odd_principal": 0.0,
+      "fair_odd_calculada": 1.29,
+      "odd_alvo": 1.35,
+      "valor_esperado": 0.06,
+      "criterio_entrada": "Entrar na vitória do Fortaleza se a odd for igual ou superior a 1.35.",
+      "criterio_saida": "Cash-out se o Londrina abrir o placar ou se o Fortaleza sofrer um gol e a odd subir.",
+      "desempenho_1t": "Fortaleza venceu 60% do 1ºT, Londrina 17%. Fortaleza marcou 1.00 gols/1T, Londrina 0.17.",
+      "desempenho_2t": "Fortaleza venceu 40% do 2ºT, Londrina 33%. Fortaleza marcou 1.40 gols/2T, Londrina 1.17.",
+      "especificidades_gols": "Fortaleza tem média de 2.40 gols marcados e 0.80 sofridos. Londrina tem média de 1.33 marcados e 1.83 sofridos.",
+      "momento_gols": "Fortaleza marca mais entre 76-90 min (33%). Londrina marca mais entre 76-90 min (50%).",
+      "jogadores_chave": [
+        "Juan Bautista Miritello",
+        "Vitor Samuel Ferreira Arantes",
+        "Bruno Santos de Oliveira"
+      ],
       "contexto_times": {
         "casa": {
-          "posicao": "1º",
-          "objetivo": "acesso"
+          "posicao": "1",
+          "objetivo": "titulo"
         },
         "fora": {
-          "posicao": "7º",
+          "posicao": "7",
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "O Fortaleza, líder da Série B e buscando o acesso, tem um desempenho muito superior ao Londrina, que se encontra em uma posição intermediária. O Fortaleza tem um forte desempenho no primeiro tempo e uma boa capacidade de marcar gols. O Londrina demonstra fragilidade defensiva.",
+      "motivacao_tecnica": "Fortaleza está em excelente forma em casa, com alto aproveitamento e média de gols. Londrina tem um retrospecto mais fraco fora de casa e enfrenta um adversário muito forte.",
       "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
-      "mando_de_campo": "Fortaleza tem 60% de vitórias no 1º tempo.",
+      "mando_de_campo": "Fortaleza tem 4 vitórias em 5 jogos em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Fortaleza: 2.40 Média Gols Marcados, 0.80 Média Gols Sofridos. Londrina: 1.33 Média Gols Marcados, 1.83 Média Gols Sofridos.",
-      "momento_gols": "Fortaleza: Maior volume de gols entre 76-90min (33%). Londrina: Maior volume de gols entre 46-60min (25%) e 76-90min (50%).",
-      "jogadores_chave": [
-        "Luiz Fernando Moraes dos Santos",
-        "Juan Bautista Miritello",
-        "Bruno Santos de Oliveira"
-      ],
-      "placares_provaveis": "2x0, 3x1",
+      "placares_provaveis": "2x0, 2x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
-      "stake_recomendada": "2%",
+      "situacao_saida": "Cash-out se o placar desfavorável ou se a odd subir muito.",
+      "stake_recomendada": "3%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Fortaleza tem forte favoritismo em casa como líder da competição.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "Favoritismo claro do Fortaleza em casa com odd atrativa.",
+        "gatilho_saida_parcial": "Gol do Fortaleza.",
+        "hard_stop": "Gol do Londrina."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Fortaleza",
-        "odd_alvo": "N/A",
-        "razao": "Fortaleza é o líder da competição buscando o acesso, com desempenho superior ao Londrina e forte ataque.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
+        "odd_alvo": "1.35",
+        "razao": "Fortaleza tem um desempenho muito forte em casa, com alta taxa de vitórias e média de gols.",
+        "gatilho_ao_vivo": "N/A",
+        "stake_recomendada": "3%"
       },
       "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "over_limite_70": {
-        "aplicavel": false,
-        "sub_cenario": null,
-        "modo": null,
-        "favorito": null,
-        "indice_gols_final": null,
-        "condicao_entrada": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null,
-        "observacoes": null
+        "aplicavel": null
       },
       "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
-      "confirmacao_visual": null,
-      "metodo": "back_favorito",
-      "nivel_confianca": "Alto",
-      "contexto_motivacional": "Fortaleza lidera a competição e busca o acesso, enquanto o Londrina tenta se manter na zona de classificação para a próxima fase. O mando de campo do Fortaleza é um fator decisivo.",
-      "odd_alvo": "N/A",
-      "criterio_entrada": "Fortaleza é o líder da competição buscando o acesso, com desempenho superior ao Londrina e forte ataque.",
-      "criterio_saida": "N/A"
+      "confirmacao_visual": {
+        "aplicavel": null
+      }
     },
     {
       "horario": "19:00",
@@ -428,102 +312,73 @@
       "metodos_aplicados": [
         "back_favorito"
       ],
+      "nivel_confianca": "Médio",
+      "contexto_motivacional": "Fluminense é o 8º colocado jogando fora de casa contra o Mirassol, 13º. Fluminense busca se manter na zona de classificação para Libertadores.",
       "mercado_principal": "Vitória Fluminense",
-      "odd_principal": "N/A",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "N/A",
-      "mercado_secundario": null,
-      "desempenho_1t": "Mirassol: 44% Venceu o 1º tempo, 56% Empatou o 1º tempo, 0% Perdeu o 1º tempo. Fluminense: 38% Venceu o 1º tempo, 25% Empatou o 1º tempo, 38% Perdeu o 1º tempo.",
-      "desempenho_2t": "Mirassol: 11% Venceu o 2º tempo, 33% Empatou o 2º tempo, 56% Perdeu o 2º tempo. Fluminense: 25% Venceu o 2º tempo, 38% Empatou o 2º tempo, 38% Perdeu o 2º tempo.",
+      "odd_principal": 0.0,
+      "fair_odd_calculada": 1.56,
+      "odd_alvo": 1.6,
+      "valor_esperado": 0.04,
+      "criterio_entrada": "Entrar na vitória do Fluminense se a odd for igual ou superior a 1.60.",
+      "criterio_saida": "Cash-out se o Mirassol abrir o placar ou se o Fluminense sofrer um gol e a odd subir.",
+      "desempenho_1t": "Mirassol venceu 44% do 1ºT, Fluminense 38%. Mirassol marcou 0.78 gols/1T, Fluminense 0.63.",
+      "desempenho_2t": "Mirassol venceu 11% do 2ºT, Fluminense 25%. Mirassol marcou 0.44 gols/2T, Fluminense 0.63.",
+      "especificidades_gols": "Mirassol tem média de 1.22 gols marcados e 1.22 sofridos. Fluminense tem média de 1.25 marcados e 1.50 sofridos.",
+      "momento_gols": "Mirassol marca mais entre 31-45 min (36%). Fluminense marca mais entre 76-90 min (55%).",
+      "jogadores_chave": [
+        "Luiz Henrique Soares Firmino",
+        "Shaylon Kallyson Cardozo",
+        "John Kennedy"
+      ],
       "contexto_times": {
         "casa": {
-          "posicao": "13º",
+          "posicao": "13",
           "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": "8º",
+          "posicao": "8",
           "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "O Fluminense, buscando uma vaga na Libertadores, tem um desempenho superior ao Mirassol, que se encontra no meio da tabela. O Mirassol tem um bom desempenho no primeiro tempo, mas sofre com o segundo tempo. O Fluminense, apesar de ter um desempenho mais equilibrado, tem mais capacidade de virada.",
+      "motivacao_tecnica": "Fluminense tem um objetivo claro na competição (vaga na Libertadores) e enfrenta um adversário mais fraco fora de casa. O retrospecto recente do Fluminense fora de casa é preocupante, mas a motivação pode ser o diferencial.",
       "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
-      "mando_de_campo": "Mirassol tem 78% de jogos sem sofrer gol no 1º tempo.",
+      "mando_de_campo": "Mirassol tem 3 vitórias em 9 jogos em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Mirassol: 1.22 Média Gols Marcados, 1.22 Média Gols Sofridos. Fluminense: 1.25 Média Gols Marcados, 1.50 Média Gols Sofridos.",
-      "momento_gols": "Mirassol: Maior volume de gols entre 31-45min (36%). Fluminense: Maior volume de gols entre 46-60min (20%) e 76-90min (20%).",
-      "jogadores_chave": [
-        "Igor Marques Paciencia Cardoso",
-        "Alesson dos Santos Batista",
-        "John Kennedy"
-      ],
       "placares_provaveis": "1x1, 0x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
+      "situacao_saida": "Cash-out se o placar desfavorável ou se a odd subir muito.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Fluminense tem maior motivação e qualidade técnica para buscar a vitória fora de casa.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "Favoritismo do Fluminense em busca de objetivos.",
+        "gatilho_saida_parcial": "Gol do Fluminense.",
+        "hard_stop": "Gol do Mirassol."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Fluminense",
-        "odd_alvo": "N/A",
-        "razao": "Fluminense tem maior motivação (busca vaga na Libertadores) e qualidade técnica superior ao Mirassol (meio de tabela).",
-        "gatilho_ao_vivo": null,
+        "odd_alvo": "1.60",
+        "razao": "Fluminense tem maior objetivo na competição e enfrenta um adversário mais fraco fora de casa.",
+        "gatilho_ao_vivo": "N/A",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "over_limite_70": {
-        "aplicavel": false,
-        "sub_cenario": null,
-        "modo": null,
-        "favorito": null,
-        "indice_gols_final": null,
-        "condicao_entrada": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null,
-        "observacoes": null
+        "aplicavel": null
       },
       "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
-      "confirmacao_visual": null,
-      "metodo": "back_favorito",
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "Fluminense busca se consolidar na zona de classificação para a Libertadores, enquanto o Mirassol joga para se afastar da zona de rebaixamento.",
-      "odd_alvo": "N/A",
-      "criterio_entrada": "Fluminense tem maior motivação (busca vaga na Libertadores) e qualidade técnica superior ao Mirassol (meio de tabela).",
-      "criterio_saida": "N/A"
+      "confirmacao_visual": {
+        "aplicavel": null
+      }
     },
     {
       "horario": "19:00",
@@ -532,102 +387,73 @@
       "metodos_aplicados": [
         "back_favorito"
       ],
+      "nivel_confianca": "Alto",
+      "contexto_motivacional": "Grêmio é o 6º colocado jogando em casa contra o Santos, 17º. Grêmio busca se firmar na zona de classificação para Libertadores.",
       "mercado_principal": "Vitória Grêmio",
-      "odd_principal": "N/A",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "N/A",
-      "mercado_secundario": null,
-      "desempenho_1t": "Grêmio: 38% Venceu o 1º tempo, 50% Empatou o 1º tempo, 13% Perdeu o 1º tempo. Santos: 25% Venceu o 1º tempo, 63% Empatou o 1º tempo, 13% Perdeu o 1º tempo.",
-      "desempenho_2t": "Grêmio: 50% Venceu o 2º tempo, 25% Empatou o 2º tempo, 25% Perdeu o 2º tempo. Santos: 13% Venceu o 2º tempo, 13% Empatou o 2º tempo, 75% Perdeu o 2º tempo.",
+      "odd_principal": 0.0,
+      "fair_odd_calculada": 1.47,
+      "odd_alvo": 1.5,
+      "valor_esperado": 0.03,
+      "criterio_entrada": "Entrar na vitória do Grêmio se a odd for igual ou superior a 1.50.",
+      "criterio_saida": "Cash-out se o Santos abrir o placar ou se o Grêmio sofrer um gol e a odd subir.",
+      "desempenho_1t": "Grêmio venceu 38% do 1ºT, Santos 25%. Grêmio marcou 0.63 gols/1T, Santos 0.75.",
+      "desempenho_2t": "Grêmio venceu 50% do 2ºT, Santos 13%. Grêmio marcou 1.13 gols/2T, Santos 0.63.",
+      "especificidades_gols": "Grêmio tem média de 1.75 gols marcados e 1.00 sofridos. Santos tem média de 1.38 marcados e 2.13 sofridos.",
+      "momento_gols": "Grêmio marca mais entre 46-60 min (43%). Santos marca mais entre 76-90 min (35%).",
+      "jogadores_chave": [
+        "Carlos Vinícius",
+        "José David Enamorado Gómez",
+        "Gabriel Barbosa Almeida"
+      ],
       "contexto_times": {
         "casa": {
-          "posicao": "6º",
+          "posicao": "6",
           "objetivo": "libertadores"
         },
         "fora": {
-          "posicao": "17º",
+          "posicao": "17",
           "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "O Grêmio, lutando por uma vaga na Libertadores, tem um desempenho muito superior ao Santos, que está na zona de rebaixamento. O Grêmio tem um forte desempenho em casa e uma capacidade de virada no segundo tempo, enquanto o Santos demonstra grande fragilidade nesta etapa do jogo.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
-      "mando_de_campo": "Grêmio tem 50% de vitórias no 2º tempo.",
+      "motivacao_tecnica": "Grêmio joga em casa contra um adversário em má fase e lutando contra o rebaixamento. O Grêmio tem um bom retrospecto em casa e busca se consolidar na parte de cima da tabela.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
+      "mando_de_campo": "Grêmio tem 5 vitórias em 8 jogos em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Grêmio: 1.75 Média Gols Marcados, 1.00 Média Gols Sofridos. Santos: 1.38 Média Gols Marcados, 2.13 Média Gols Sofridos.",
-      "momento_gols": "Grêmio: Maior volume de gols entre 46-60min (43%). Santos: Maior volume de gols entre 61-75min (35%) e 76-90min (35%).",
-      "jogadores_chave": [
-        "Carlos Vinícius",
-        "Erick Carlos Noriega Loret de Mola",
-        "Gabriel Barbosa Almeida"
-      ],
-      "placares_provaveis": "2x0, 1x0",
+      "placares_provaveis": "2x1, 1x0",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
+      "situacao_saida": "Cash-out se o placar desfavorável ou se a odd subir muito.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Grêmio tem forte favoritismo em casa contra um time na zona de rebaixamento.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "Favoritismo claro do Grêmio em casa contra time em má fase.",
+        "gatilho_saida_parcial": "Gol do Grêmio.",
+        "hard_stop": "Gol do Santos."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Grêmio",
-        "odd_alvo": "N/A",
-        "razao": "Grêmio busca vaga na Libertadores e tem desempenho superior ao Santos, que está na zona de rebaixamento. Forte em casa.",
-        "gatilho_ao_vivo": null,
+        "odd_alvo": "1.50",
+        "razao": "Grêmio joga em casa contra um adversário em má fase e lutando contra o rebaixamento, com bom retrospecto em casa.",
+        "gatilho_ao_vivo": "N/A",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "over_limite_70": {
-        "aplicavel": false,
-        "sub_cenario": null,
-        "modo": null,
-        "favorito": null,
-        "indice_gols_final": null,
-        "condicao_entrada": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null,
-        "observacoes": null
+        "aplicavel": null
       },
       "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
-      "confirmacao_visual": null,
-      "metodo": "back_favorito",
-      "nivel_confianca": "Alto",
-      "contexto_motivacional": "Grêmio luta por vaga na Libertadores, enquanto o Santos tenta escapar do rebaixamento. O mando de campo do Grêmio é um fator decisivo.",
-      "odd_alvo": "N/A",
-      "criterio_entrada": "Grêmio busca vaga na Libertadores e tem desempenho superior ao Santos, que está na zona de rebaixamento. Forte em casa.",
-      "criterio_saida": "N/A"
+      "confirmacao_visual": {
+        "aplicavel": null
+      }
     },
     {
       "horario": "20:30",
@@ -636,102 +462,73 @@
       "metodos_aplicados": [
         "back_favorito"
       ],
+      "nivel_confianca": "Médio",
+      "contexto_motivacional": "Jogo entre o 7º colocado (Juventude) e o líder (Sport Recife). Ambos com objetivos claros de acesso/título.",
       "mercado_principal": "Vitória Sport Recife",
-      "odd_principal": "N/A",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "N/A",
-      "mercado_secundario": null,
-      "desempenho_1t": "Juventude: 40% Venceu o 1º tempo, 60% Empatou o 1º tempo, 0% Perdeu o 1º tempo. Sport Recife: 20% Venceu o 1º tempo, 60% Empatou o 1º tempo, 20% Perdeu o 1º tempo.",
-      "desempenho_2t": "Juventude: 20% Venceu o 2º tempo, 60% Empatou o 2º tempo, 20% Perdeu o 2º tempo. Sport Recife: 60% Venceu o 2º tempo, 40% Empatou o 2º tempo, 0% Perdeu o 2º tempo.",
+      "odd_principal": 0.0,
+      "fair_odd_calculada": 2.38,
+      "odd_alvo": 2.4,
+      "valor_esperado": 0.02,
+      "criterio_entrada": "Entrar na vitória do Sport Recife se a odd for igual ou superior a 2.40.",
+      "criterio_saida": "Cash-out se o Juventude abrir o placar ou se o Sport sofrer um gol e a odd subir.",
+      "desempenho_1t": "Juventude venceu 40% do 1ºT, Sport 20%. Juventude marcou 0.40 gols/1T, Sport 0.40.",
+      "desempenho_2t": "Juventude venceu 20% do 2ºT, Sport 60%. Juventude marcou 0.20 gols/2T, Sport 0.80.",
+      "especificidades_gols": "Juventude tem média de 0.60 gols marcados e 0.20 sofridos. Sport tem média de 1.20 marcados e 0.40 sofridos.",
+      "momento_gols": "Juventude marca mais entre 31-45 min (67%). Sport marca mais entre 76-90 min (33%).",
+      "jogadores_chave": [
+        "Alan Kardec de Souza Pereira Junior",
+        "Marcos Paulo Costa do Nascimento",
+        "Pedro Henrique Perotti"
+      ],
       "contexto_times": {
         "casa": {
-          "posicao": "7º",
+          "posicao": "7",
           "objetivo": "acesso"
         },
         "fora": {
-          "posicao": "1º",
-          "objetivo": "acesso"
+          "posicao": "1",
+          "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Jogo direto entre dois times buscando o acesso. O Sport Recife tem um desempenho superior, especialmente no segundo tempo, onde não perdeu nenhum jogo. O Juventude tem dificuldade em vencer no segundo tempo. O Sport Recife demonstra maior capacidade de manter a consistência.",
+      "motivacao_tecnica": "Sport Recife é o líder e tem um retrospecto mais consistente, especialmente no segundo tempo. Juventude tem uma defesa sólida, mas um ataque fraco. A odd para o Sport oferece valor.",
       "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
-      "mando_de_campo": "Sport Recife tem 60% de vitórias no 2º tempo.",
+      "mando_de_campo": "Juventude tem 2 vitórias em 5 jogos em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Juventude: 0.60 Média Gols Marcados, 0.20 Média Gols Sofridos. Sport Recife: 1.20 Média Gols Marcados, 0.40 Média Gols Sofridos.",
-      "momento_gols": "Juventude: Maior volume de gols entre 31-45min (67%). Sport Recife: Maior volume de gols entre 16-30min (100%) e 31-45min (33%).",
-      "jogadores_chave": [
-        "Alan Kardec de Souza Pereira Junior",
-        "Luis Manuel Castro Cáceres",
-        "Pedro Henrique Perotti"
-      ],
       "placares_provaveis": "0x1, 1x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
+      "situacao_saida": "Cash-out se o placar desfavorável ou se a odd subir muito.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Sport Recife tem melhor desempenho geral e no segundo tempo, buscando o acesso.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "Sport Recife como líder e com odd atrativa.",
+        "gatilho_saida_parcial": "Gol do Sport Recife.",
+        "hard_stop": "Gol do Juventude."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Sport Recife",
-        "odd_alvo": "N/A",
-        "razao": "Sport Recife tem melhor desempenho geral e no segundo tempo, buscando o acesso junto com o Juventude.",
-        "gatilho_ao_vivo": null,
+        "odd_alvo": "2.40",
+        "razao": "Sport Recife é o líder, tem um retrospecto mais consistente e a odd oferece valor.",
+        "gatilho_ao_vivo": "N/A",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "over_limite_70": {
-        "aplicavel": false,
-        "sub_cenario": null,
-        "modo": null,
-        "favorito": null,
-        "indice_gols_final": null,
-        "condicao_entrada": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null,
-        "observacoes": null
+        "aplicavel": null
       },
       "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
-      "confirmacao_visual": null,
-      "metodo": "back_favorito",
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "Confronto direto entre dois times que buscam o acesso à Série A. O Sport Recife demonstra maior consistência e força no segundo tempo.",
-      "odd_alvo": "N/A",
-      "criterio_entrada": "Sport Recife tem melhor desempenho geral e no segundo tempo, buscando o acesso junto com o Juventude.",
-      "criterio_saida": "N/A"
+      "confirmacao_visual": {
+        "aplicavel": null
+      }
     },
     {
       "horario": "21:00",
@@ -740,102 +537,73 @@
       "metodos_aplicados": [
         "back_favorito"
       ],
-      "mercado_principal": "Vitória Flamengo",
-      "odd_principal": "N/A",
-      "fair_odd_calculada": "N/A",
-      "valor_esperado": "N/A",
-      "mercado_secundario": null,
-      "desempenho_1t": "Flamengo: 57% Venceu o 1º tempo, 14% Empatou o 1º tempo, 29% Perdeu o 1º tempo. Palmeiras: 56% Venceu o 1º tempo, 44% Empatou o 1º tempo, 0% Perdeu o 1º tempo.",
-      "desempenho_2t": "Flamengo: 71% Venceu o 2º tempo, 0% Empatou o 2º tempo, 28% Perdeu o 2º tempo. Palmeiras: 22% Venceu o 2º tempo, 67% Empatou o 2º tempo, 11% Perdeu o 2º tempo.",
-      "contexto_times": {
-        "casa": {
-          "posicao": "9º",
-          "objetivo": "titulo"
-        },
-        "fora": {
-          "posicao": "1º",
-          "objetivo": "titulo"
-        }
-      },
-      "motivacao_tecnica": "Jogo de altíssimo nível entre os líderes do campeonato. O Flamengo tem um desempenho ligeiramente superior em casa e uma capacidade de virada no segundo tempo. O Palmeiras, apesar de ser líder, demonstra mais fragilidade no segundo tempo. O mando de campo do Flamengo pode ser um diferencial.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
-      "mando_de_campo": "Flamengo tem 71% de vitórias no 2º tempo.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Flamengo: 1.86 Média Gols Marcados, 1.00 Média Gols Sofridos. Palmeiras: 1.56 Média Gols Marcados, 0.78 Média Gols Sofridos.",
-      "momento_gols": "Flamengo: Maior volume de gols entre 76-90min (23%). Palmeiras: Maior volume de gols entre 16-30min (29%) e 76-90min (29%).",
+      "nivel_confianca": "Alto",
+      "contexto_motivacional": "Jogo entre o líder (Palmeiras) e o 9º colocado (Flamengo), ambos com objetivos claros de título. Clássico de alta rivalidade e importância.",
+      "mercado_principal": "Vitória Palmeiras",
+      "odd_principal": 0.0,
+      "fair_odd_calculada": 2.38,
+      "odd_alvo": 2.4,
+      "valor_esperado": 0.02,
+      "criterio_entrada": "Entrar na vitória do Palmeiras se a odd for igual ou superior a 2.40.",
+      "criterio_saida": "Cash-out se o Flamengo abrir o placar ou se o Palmeiras sofrer um gol e a odd subir.",
+      "desempenho_1t": "Flamengo venceu 57% do 1ºT, Palmeiras 56%. Flamengo marcou 0.57 gols/1T, Palmeiras 0.89.",
+      "desempenho_2t": "Flamengo venceu 71% do 2ºT, Palmeiras 22%. Flamengo marcou 1.29 gols/2T, Palmeiras 0.67.",
+      "especificidades_gols": "Flamengo tem média de 1.86 gols marcados e 1.00 sofridos. Palmeiras tem média de 1.56 marcados e 0.78 sofridos.",
+      "momento_gols": "Flamengo marca mais entre 76-90 min (43%). Palmeiras marca mais entre 76-90 min (29%).",
       "jogadores_chave": [
         "Pedro Guilherme Abreu dos Santos",
         "Giorgian Daniel De Arrascaeta Benedetti",
         "José Manuel López"
       ],
-      "placares_provaveis": "2x1, 1x1",
+      "contexto_times": {
+        "casa": {
+          "posicao": "9",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "1",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Palmeiras é o líder e tem um retrospecto mais consistente fora de casa. Flamengo tem um bom ataque, mas a defesa pode ser vulnerável contra o ataque do Palmeiras. A odd para o Palmeiras oferece valor.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
+      "mando_de_campo": "Flamengo tem 4 vitórias em 7 jogos em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "placares_provaveis": "1x1, 1x2",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
+      "situacao_saida": "Cash-out se o placar desfavorável ou se a odd subir muito.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Jogo equilibrado entre os líderes, com leve vantagem para o Flamengo em casa.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "Palmeiras como líder e com odd atrativa.",
+        "gatilho_saida_parcial": "Gol do Palmeiras.",
+        "hard_stop": "Gol do Flamengo."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "favorito": "Flamengo",
-        "odd_alvo": "N/A",
-        "razao": "Jogo equilibrado entre os líderes, com leve vantagem para o Flamengo em casa e melhor desempenho no segundo tempo.",
-        "gatilho_ao_vivo": null,
+        "favorito": "Palmeiras",
+        "odd_alvo": "2.40",
+        "razao": "Palmeiras é o líder, tem um bom retrospecto fora de casa e a odd oferece valor.",
+        "gatilho_ao_vivo": "N/A",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "over_limite_70": {
-        "aplicavel": false,
-        "sub_cenario": null,
-        "modo": null,
-        "favorito": null,
-        "indice_gols_final": null,
-        "condicao_entrada": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null,
-        "observacoes": null
+        "aplicavel": null
       },
       "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
       "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
+        "aplicavel": null
       },
-      "confirmacao_visual": null,
-      "metodo": "back_favorito",
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "Confronto direto entre os dois primeiros colocados, com alta motivação para ambos em busca do título.",
-      "odd_alvo": "N/A",
-      "criterio_entrada": "Jogo equilibrado entre os líderes, com leve vantagem para o Flamengo em casa e melhor desempenho no segundo tempo.",
-      "criterio_saida": "N/A"
+      "confirmacao_visual": {
+        "aplicavel": null
+      }
     }
   ],
   "evitar": []
