@@ -1,0 +1,98 @@
+{
+  "data": "2026-05-26",
+  "dia_consultado": "amanha",
+  "gerado_em": "2026-05-25T06:19:59.102417",
+  "total_partidas_analisadas": 1,
+  "entradas": [
+    {
+      "horario": "15:45",
+      "liga": "France Ligue 1 2 Play offs",
+      "jogo": "Saint-Étienne x Nice",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "nivel_confianca": "Médio",
+      "contexto_motivacional": "Jogo de playoff, ambas as equipes buscam a classificação.",
+      "mercado_principal": "Mais de 0.5 gols no 2º Tempo",
+      "odd_principal": 0.0,
+      "fair_odd_calculada": 0.0,
+      "odd_alvo": 0.0,
+      "valor_esperado": 0.0,
+      "criterio_entrada": "Aguardar o desenrolar do jogo, com foco no segundo tempo.",
+      "criterio_saida": "Cash-out se o placar se mantiver 0x0 até os 70 minutos ou se houver gol.",
+      "desempenho_1t": "Ambas as equipes tiveram dificuldades em marcar no primeiro tempo.",
+      "desempenho_2t": "O Nice tem uma média de 0.41 gols marcados no segundo tempo, enquanto o Saint-Étienne tem 0.00.",
+      "especificidades_gols": "Nice tem maior propensão a marcar no segundo tempo.",
+      "momento_gols": "O momento de maior volume de gols para o Nice é entre 16-30 e 76-90 minutos. Para o Saint-Étienne, o momento de maior volume de gols é entre 31-45 e 76-90 minutos.",
+      "jogadores_chave": [
+        "Sofiane Diop",
+        "Elye Wahi",
+        "Jeremie Boga"
+      ],
+      "contexto_times": {
+        "casa": {
+          "posicao": "16º",
+          "objetivo": "acesso"
+        },
+        "fora": {
+          "posicao": "N/A",
+          "objetivo": "acesso"
+        }
+      },
+      "motivacao_tecnica": "Apesar das estatísticas de gols no primeiro tempo serem baixas para ambas as equipes, o Nice demonstra uma capacidade maior de marcar no segundo tempo. O jogo de playoff aumenta a motivação para buscar o resultado.",
+      "coeficiente_regularidade": "Saint-Étienne: 1.00 pontos por jogo. Nice: 0.71 pontos por jogo.",
+      "mando_de_campo": "Saint-Étienne tem um aproveitamento de 1.00 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "placares_provaveis": "1x0, 1x1, 0x1",
+      "momento_entrada": "Pré-jogo, com ajuste ao vivo.",
+      "situacao_saida": "Cash-out se o placar se mantiver 0x0 até os 70 minutos ou se houver gol.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Aguardar o desenrolar do jogo para confirmar a tendência de gols no segundo tempo.",
+        "gatilho_saida_parcial": "Gol marcado por qualquer uma das equipes.",
+        "hard_stop": "Se o placar permanecer 0x0 até os 70 minutos."
+      },
+      "back_favorito": {
+        "aplicavel": false
+      },
+      "lay_zebra": {
+        "aplicavel": false
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "ao_vivo",
+        "favorito": "N/A",
+        "indice_gols_final": "Nice: 0.41 gols marcados no 2ºT. Saint-Étienne: 0.00 gols marcados no 2ºT.",
+        "condicao_entrada": "Aguardar o desenrolar do jogo, com foco no segundo tempo.",
+        "mercado_sugerido": "Mais de 0.5 gols no 2º Tempo",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": "Foco no segundo tempo devido à maior propensão do Nice em marcar."
+      },
+      "back_2x2": {
+        "aplicavel": false
+      },
+      "back_goleada": {
+        "aplicavel": false
+      },
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Jogo de playoff, com potencial para cautela inicial e aumento de intensidade no segundo tempo.",
+        "gatilhos_aceleracao": "Abertura do placar, fadiga defensiva.",
+        "alerta_armadilha": "Jogo muito truncado sem chances claras.",
+        "mercado_recomendado": "Mais de 0.5 gols no 2º Tempo",
+        "momento_observacao": "A partir dos 60 minutos."
+      }
+    }
+  ],
+  "evitar": [],
+  "pdfs": [
+    {
+      "jogo": "Saint-Étienne x Nice",
+      "arquivo": "pdfs/2026-05-26/France_Ligue_1_2_Play_offs/001_15h45_Saint-Étienne_x_Nice.pdf"
+    }
+  ]
+}
