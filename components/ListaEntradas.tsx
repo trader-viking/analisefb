@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import {
-  ExternalLink, TrendingUp, Clock, Trophy, X, SlidersHorizontal, CheckCircle2,
+  ExternalLink, TrendingUp, Clock, Trophy, X, SlidersHorizontal, CheckCircle2, Radio,
 } from 'lucide-react';
 import { BadgeMetodo, metodosAtivos, metodosRankeados, METODOS_INFO, modoDoMetodo } from '@/components/BadgeMetodo';
 import { ContextoTimesCompacto } from '@/components/ContextoTimes';
@@ -75,6 +75,7 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
   const [ligasAtivas, setLigasAtivas] = useState<Set<string>>(new Set());
   const [horariosAtivos, setHorariosAtivos] = useState<Set<Janela>>(new Set());
   const [modosAtivos, setModosAtivos] = useState<Set<string>>(new Set());
+  const [soRolando, setSoRolando] = useState(false);
   const [carregado, setCarregado] = useState(false);
   const [placares, setPlacares] = useState<Placar[]>([]);
   const [gavetaAberta, setGavetaAberta] = useState(false);
@@ -250,6 +251,16 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
     return cont;
   }, [entradas]);
 
+  // Conta quantos jogos estão rolando agora (placar em andamento)
+  const contagemRolando = useMemo(() => {
+    let n = 0;
+    for (const e of entradas) {
+      const p = placarDe(e);
+      if (p?.status === 'em_andamento') n++;
+    }
+    return n;
+  }, [entradas, placares]);
+
   // Ligas disponíveis (com contagem)
   const ligasDisponiveis = useMemo(() => {
     const cont = new Map<string, number>();
@@ -294,9 +305,14 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
         const algum = Array.from(modosAtivos).some(mo => modosDaE.has(mo));
         if (!algum) return false;
       }
+      // Só jogos rolando agora (placar em andamento)
+      if (soRolando) {
+        const p = placarDe(e);
+        if (p?.status !== 'em_andamento') return false;
+      }
       return true;
     });
-  }, [entradas, metodosAtivos_, ligasAtivas, horariosAtivos, modosAtivos]);
+  }, [entradas, metodosAtivos_, ligasAtivas, horariosAtivos, modosAtivos, soRolando, placares]);
 
   // Separa as filtradas em ativas (não finalizadas) e finalizadas
   const entradasAtivas = useMemo(
@@ -311,7 +327,7 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
   // A lista exibida depende da aba ativa
   const entradasExibidas = abaAtiva === 'finalizados' ? entradasFinalizadas : entradasAtivas;
 
-  const temFiltro = metodosAtivos_.size + ligasAtivas.size + horariosAtivos.size + modosAtivos.size > 0;
+  const temFiltro = metodosAtivos_.size + ligasAtivas.size + horariosAtivos.size + modosAtivos.size > 0 || soRolando;
 
   function toggle<T>(set: Set<T>, val: T, setter: (s: Set<T>) => void) {
     const novo = new Set(set);
@@ -325,6 +341,7 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
     setLigasAtivas(new Set());
     setHorariosAtivos(new Set());
     setModosAtivos(new Set());
+    setSoRolando(false);
   }
 
   // Conteúdo dos filtros (reutilizado na lateral desktop e na gaveta mobile)
@@ -504,6 +521,41 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
                 )}
               </button>
             )}
+          </div>
+
+          {/* Botões de destaque: Rolando agora + Sugestão Ao Vivo */}
+          <div className="flex flex-wrap gap-2 mb-4">
+            <button
+              type="button"
+              onClick={() => setSoRolando(v => !v)}
+              className={`inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold transition ${
+                soRolando
+                  ? 'bg-red-600 text-white ring-2 ring-red-400 shadow-md'
+                  : 'ring-1 ring-red-300 dark:ring-red-800 text-red-700 dark:text-red-300 hover:bg-red-50 dark:hover:bg-red-950/30'
+              }`}
+            >
+              <span className={`w-2 h-2 rounded-full bg-current ${contagemRolando > 0 ? 'animate-pulse' : ''}`}></span>
+              Rolando agora
+              <span className="tabular-nums opacity-80">{contagemRolando}</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                const novo = new Set(modosAtivos);
+                if (novo.has('ao_vivo')) novo.delete('ao_vivo'); else novo.add('ao_vivo');
+                setModosAtivos(novo);
+              }}
+              className={`inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold transition ${
+                modosAtivos.has('ao_vivo')
+                  ? 'bg-purple-600 text-white ring-2 ring-purple-400 shadow-md'
+                  : 'ring-1 ring-purple-300 dark:ring-purple-800 text-purple-700 dark:text-purple-300 hover:bg-purple-50 dark:hover:bg-purple-950/30'
+              }`}
+            >
+              <Radio size={15} />
+              Sugestão Ao Vivo
+              <span className="tabular-nums opacity-80">{contagemModos.ao_vivo}</span>
+            </button>
           </div>
 
           {/* Abas: Ativos / Finalizados */}
