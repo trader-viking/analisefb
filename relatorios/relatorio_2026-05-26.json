@@ -1,98 +1,679 @@
 {
   "data": "2026-05-26",
-  "dia_consultado": "amanha",
-  "gerado_em": "2026-05-25T06:19:59.102417",
-  "total_partidas_analisadas": 1,
+  "dia_consultado": "hoje",
+  "gerado_em": "2026-05-26T12:31:02.726791",
+  "total_partidas_analisadas": 12,
   "entradas": [
     {
-      "horario": "15:45",
-      "liga": "France Ligue 1 2 Play offs",
-      "jogo": "Saint-Étienne x Nice",
+      "horario": "19:00",
+      "liga": "South America Copa Libertadores",
+      "jogo": "Lanús x Mirassol",
       "metodos_aplicados": [
         "over_limite_70"
       ],
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "Jogo de playoff, ambas as equipes buscam a classificação.",
-      "mercado_principal": "Mais de 0.5 gols no 2º Tempo",
-      "odd_principal": 0.0,
-      "fair_odd_calculada": 0.0,
-      "odd_alvo": 0.0,
-      "valor_esperado": 0.0,
-      "criterio_entrada": "Aguardar o desenrolar do jogo, com foco no segundo tempo.",
-      "criterio_saida": "Cash-out se o placar se mantiver 0x0 até os 70 minutos ou se houver gol.",
-      "desempenho_1t": "Ambas as equipes tiveram dificuldades em marcar no primeiro tempo.",
-      "desempenho_2t": "O Nice tem uma média de 0.41 gols marcados no segundo tempo, enquanto o Saint-Étienne tem 0.00.",
-      "especificidades_gols": "Nice tem maior propensão a marcar no segundo tempo.",
-      "momento_gols": "O momento de maior volume de gols para o Nice é entre 16-30 e 76-90 minutos. Para o Saint-Étienne, o momento de maior volume de gols é entre 31-45 e 76-90 minutos.",
-      "jogadores_chave": [
-        "Sofiane Diop",
-        "Elye Wahi",
-        "Jeremie Boga"
-      ],
+      "mercado_principal": "Mais X.5 gols",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": "",
+      "odd_secundaria": "",
+      "desempenho_1t": "Lanús marca 1.00 no 1ºT, Mirassol marca 0.50 no 1ºT",
+      "desempenho_2t": "Lanús marca 1.00 no 2ºT, Mirassol marca 0.50 no 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": "16º",
-          "objetivo": "acesso"
+          "posicao": "7",
+          "objetivo": "titulo"
         },
         "fora": {
-          "posicao": "N/A",
-          "objetivo": "acesso"
+          "posicao": "26",
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Apesar das estatísticas de gols no primeiro tempo serem baixas para ambas as equipes, o Nice demonstra uma capacidade maior de marcar no segundo tempo. O jogo de playoff aumenta a motivação para buscar o resultado.",
-      "coeficiente_regularidade": "Saint-Étienne: 1.00 pontos por jogo. Nice: 0.71 pontos por jogo.",
-      "mando_de_campo": "Saint-Étienne tem um aproveitamento de 1.00 pontos por jogo em casa.",
+      "motivacao_tecnica": "Lanús tem um aproveitamento perfeito em casa (3.00 pontos por jogo) e marcou todos os seus gols (2) no segundo tempo. Mirassol, apesar de ter um aproveitamento menor fora de casa (1.50 pontos por jogo), também demonstra capacidade de marcar gols no segundo tempo (1.00 média). A tendência de gols na segunda etapa em ambos os times sugere potencial para o método Over Limite 70+.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa faz 100% dos pontos em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "placares_provaveis": "1x0, 1x1, 0x1",
-      "momento_entrada": "Pré-jogo, com ajuste ao vivo.",
-      "situacao_saida": "Cash-out se o placar se mantiver 0x0 até os 70 minutos ou se houver gol.",
+      "especificidades_gols": "Lanús marca no 2ºT, Mirassol marca no 2ºT",
+      "momento_gols": "Lanús: 61-75 (100%), Mirassol: 76-90 (50%)",
+      "jogadores_chave": "",
+      "placares_provaveis": "",
+      "momento_entrada": "Pré-jogo ou ao vivo",
+      "situacao_saida": "",
       "stake_recomendada": "1%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Aguardar o desenrolar do jogo para confirmar a tendência de gols no segundo tempo.",
-        "gatilho_saida_parcial": "Gol marcado por qualquer uma das equipes.",
-        "hard_stop": "Se o placar permanecer 0x0 até os 70 minutos."
+        "justificativa_abordagem": "O padrão de gols no segundo tempo de ambos os times sugere que o jogo pode se abrir mais na reta final.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
       },
-      "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
+      "back_favorito": null,
+      "lay_zebra": null,
       "over_limite_70": {
         "aplicavel": true,
         "sub_cenario": "padrao_fim",
-        "modo": "ao_vivo",
-        "favorito": "N/A",
-        "indice_gols_final": "Nice: 0.41 gols marcados no 2ºT. Saint-Étienne: 0.00 gols marcados no 2ºT.",
-        "condicao_entrada": "Aguardar o desenrolar do jogo, com foco no segundo tempo.",
-        "mercado_sugerido": "Mais de 0.5 gols no 2º Tempo",
+        "modo": "pre_jogo",
+        "favorito": "Lanús",
+        "indice_gols_final": "Lanús: 100% dos gols marcados no 2ºT (61-75 min). Mirassol: 50% dos gols marcados no 2ºT (76-90 min).",
+        "condicao_entrada": "Padrão histórico de gols no fim de jogo para ambos os times.",
+        "mercado_sugerido": "Mais X.5 gols",
         "odd_esperada": "1.60 a 2.20",
         "stake_recomendada": "1%",
-        "observacoes": "Foco no segundo tempo devido à maior propensão do Nice em marcar."
+        "observacoes": ""
       },
-      "back_2x2": {
-        "aplicavel": false
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "19:00",
+      "liga": "South America Copa Libertadores",
+      "jogo": "LDU Quito x Club Always Ready",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": "",
+      "odd_secundaria": "",
+      "desempenho_1t": "LDU Quito marca 1.00 no 1ºT, Club Always Ready marca 0.00 no 1ºT",
+      "desempenho_2t": "LDU Quito marca 1.00 no 2ºT, Club Always Ready marca 0.00 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "35",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "25",
+          "objetivo": "sem_objetivo"
+        }
       },
-      "back_goleada": {
-        "aplicavel": false
+      "motivacao_tecnica": "LDU Quito tem um padrão de marcar gols em ambas as metades do jogo (1.00 no 1ºT e 1.00 no 2ºT), com 50% dos gols saindo entre 61-75 minutos. Club Always Ready, por outro lado, não marcou nenhum gol em 2 jogos, com 100% de seus gols sofridos ocorrendo no segundo tempo. A tendência da LDU Quito de marcar no segundo tempo, combinada com a fragilidade defensiva do Always Ready nesta etapa, sugere uma oportunidade para o Over Limite 70+.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa faz 100% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "LDU Quito marca em ambas as metades, Always Ready sofre no 2ºT",
+      "momento_gols": "LDU Quito: 61-75 (25%), 76-90 (25%). Always Ready: 61-75 (33%), 76-90 (33%) sofridos.",
+      "jogadores_chave": "",
+      "placares_provaveis": "",
+      "momento_entrada": "Pré-jogo ou ao vivo",
+      "situacao_saida": "",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A LDU Quito demonstra capacidade de marcar gols no segundo tempo, e o Always Ready sofre gols nessa mesma janela.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
       },
-      "confirmacao_visual": {
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
         "aplicavel": true,
-        "perfil_tatico": "Jogo de playoff, com potencial para cautela inicial e aumento de intensidade no segundo tempo.",
-        "gatilhos_aceleracao": "Abertura do placar, fadiga defensiva.",
-        "alerta_armadilha": "Jogo muito truncado sem chances claras.",
-        "mercado_recomendado": "Mais de 0.5 gols no 2º Tempo",
-        "momento_observacao": "A partir dos 60 minutos."
-      }
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": "LDU Quito",
+        "indice_gols_final": "LDU Quito: 50% dos gols marcados entre 61-75 min. Always Ready: 66% dos gols sofridos entre 61-90 min.",
+        "condicao_entrada": "Padrão de gols da LDU Quito no final do jogo e fragilidade defensiva do Always Ready no segundo tempo.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": ""
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "19:00",
+      "liga": "South America Copa Sudamericana",
+      "jogo": "Grêmio x Torque",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": "",
+      "odd_secundaria": "",
+      "desempenho_1t": "Grêmio marca 1.00 no 1ºT, Torque marca 1.00 no 1ºT",
+      "desempenho_2t": "Grêmio marca 0.50 no 2ºT, Torque marca 0.50 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "2",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "38",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times demonstram capacidade de marcar gols em ambas as metades. Grêmio marca 0.50 gols no segundo tempo, e Torque marca 0.50 gols no segundo tempo. A tendência de gols em ambas as etapas, com destaque para a primeira metade do jogo, sugere uma oportunidade para o Over Limite 70+.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa faz 100% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ambos marcam em ambas as metades",
+      "momento_gols": "Grêmio: 61-75 (33%), 76-90 (33%). Torque: 16-30 (33%), 61-75 (33%).",
+      "jogadores_chave": "",
+      "placares_provaveis": "",
+      "momento_entrada": "Pré-jogo ou ao vivo",
+      "situacao_saida": "",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Ambos os times têm um padrão de gols em ambas as metades, com o segundo tempo apresentando uma janela para gols.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": "Grêmio",
+        "indice_gols_final": "Grêmio: 66% dos gols marcados após os 60 minutos (61-75 e 76-90). Torque: 33% dos gols marcados entre 16-30 min e 33% entre 61-75 min.",
+        "condicao_entrada": "Padrão de gols de ambos os times no segundo tempo, com destaque para a janela de 61-75 min do Torque.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": ""
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "19:00",
+      "liga": "South America Copa Sudamericana",
+      "jogo": "São Paulo x Boston River",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": "",
+      "odd_secundaria": "",
+      "desempenho_1t": "São Paulo marca 1.00 no 1ºT, Boston River marca 0.00 no 1ºT",
+      "desempenho_2t": "São Paulo marca 0.50 no 2ºT, Boston River marca 1.00 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "3",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "36",
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "São Paulo tem um padrão de marcar gols no primeiro tempo (1.00 por jogo), mas sofre no segundo tempo (1.00 por jogo). Boston River, por outro lado, não marcou nenhum gol no primeiro tempo, mas marca no segundo tempo (1.00 por jogo). A tendência de gols no segundo tempo de Boston River, combinada com a fragilidade defensiva do São Paulo nessa etapa, sugere uma oportunidade para o Over Limite 70+.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa faz 50% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "São Paulo marca no 1ºT, sofre no 2ºT. Boston River não marca no 1ºT, marca no 2ºT.",
+      "momento_gols": "São Paulo: 46-60 (33%). Boston River: 46-60 (33%), 76-90 (33%).",
+      "jogadores_chave": "",
+      "placares_provaveis": "",
+      "momento_entrada": "Pré-jogo ou ao vivo",
+      "situacao_saida": "",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O Boston River demonstra capacidade de marcar gols no segundo tempo, e o São Paulo sofre gols nessa janela.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": "São Paulo",
+        "indice_gols_final": "São Paulo: 33% dos gols marcados entre 46-60 min. Boston River: 66% dos gols marcados após os 45 minutos (46-60 e 76-90).",
+        "condicao_entrada": "Padrão de gols do Boston River no segundo tempo e fragilidade defensiva do São Paulo nessa etapa.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": ""
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "19:00",
+      "liga": "South America Copa Sudamericana",
+      "jogo": "Palestino x Deportivo Riestra",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": "",
+      "odd_secundaria": "",
+      "desempenho_1t": "Palestino marca 0.00 no 1ºT, Deportivo Riestra marca 0.00 no 1ºT",
+      "desempenho_2t": "Palestino marca 0.00 no 2ºT, Deportivo Riestra marca 0.50 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "20",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "12",
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times têm um padrão de não marcar gols no primeiro tempo. Palestino não marcou nenhum gol em 2 jogos. Deportivo Riestra marca 0.50 gols no segundo tempo. A tendência de gols no segundo tempo do Deportivo Riestra, combinada com a dificuldade de ambos os times em marcar, sugere uma oportunidade para o Over Limite 70+.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa faz 0% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ambos não marcam no 1ºT. Deportivo Riestra marca no 2ºT.",
+      "momento_gols": "Palestino: 61-75 (50%) sofridos. Deportivo Riestra: 46-60 (20%), 76-90 (40%).",
+      "jogadores_chave": "",
+      "placares_provaveis": "",
+      "momento_entrada": "Pré-jogo ou ao vivo",
+      "situacao_saida": "",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O Deportivo Riestra demonstra capacidade de marcar gols no segundo tempo, e ambos os times têm dificuldades em marcar no primeiro tempo.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": "Palestino",
+        "indice_gols_final": "Palestino: 50% dos gols sofridos entre 61-75 min. Deportivo Riestra: 60% dos gols marcados após os 45 minutos (46-60 e 76-90).",
+        "condicao_entrada": "Padrão de gols do Deportivo Riestra no segundo tempo e dificuldade de ambos os times em marcar no primeiro tempo.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": ""
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "19:00",
+      "liga": "South America Copa Sudamericana",
+      "jogo": "Millonarios x O'Higgins",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Millonarios",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Millonarios: 0% Venceu o 1º tempo, 100% Empatou o 1º tempo, 0 Gols Marcados. O'Higgins: 0% Venceu o 1º tempo, 0% Empatou o 1º tempo, 0 Gols Marcados",
+      "desempenho_2t": "Millonarios: 50% Venceu o 2º tempo, 50% Empatou o 2º tempo, 1 Gols Marcados. O'Higgins: 50% Venceu o 2º tempo, 0% Empatou o 2º tempo, 1 Gols Marcados",
+      "contexto_times": {
+        "casa": {
+          "posicao": "13",
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": "19",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Millonarios é o mandante e tem um aproveitamento de 2.00 pontos por jogo, enquanto O'Higgins tem 0.00 pontos por jogo como visitante. Millonarios marcou 1 gol e sofreu 0 no segundo tempo, enquanto O'Higgins marcou 1 e sofreu 1. O'Higgins tem um histórico recente de 2 derrotas e 1 empate, com 2 gols marcados e 5 sofridos em 2 jogos. Millonarios tem 1 vitória e 1 empate em 2 jogos, com 2 gols marcados e 0 sofridos. O'Higgins tem um desempenho muito fraco fora de casa, com 0% de vitórias e 2.50 gols sofridos por jogo.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Millonarios faz 2.00 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Millonarios marca mais no 2º tempo (1 gol) e sofre 0 no 1º tempo. O'Higgins marca mais no 2º tempo (1 gol) e sofre mais no 1º tempo (3 gols).",
+      "momento_gols": "Millonarios marca mais entre 76-90 min (1 gol). O'Higgins marca mais entre 46-60 min (1 gol) e 76-90 min (1 gol).",
+      "jogadores_chave": "Leonardo Castro (Millonarios - 2 gols), Rodrigo Contreras (O'Higgins - 2 gols)",
+      "placares_provaveis": "2x0, 1x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro do mandante com base no desempenho e retrospecto recente.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Millonarios",
+        "odd_alvo": "",
+        "razao": "Millonarios é o mandante com melhor aproveitamento (2.00 pts/j) contra um O'Higgins com aproveitamento nulo fora de casa (0.00 pts/j). O'Higgins tem um retrospecto recente muito ruim (2 derrotas, 5 gols sofridos em 2 jogos).",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "21:30",
+      "liga": "South America Copa Libertadores",
+      "jogo": "Universitario x Deportes Tolima",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": "",
+      "odd_secundaria": "",
+      "desempenho_1t": "Universitario marca 0.50 no 1ºT, Deportes Tolima marca 0.00 no 1ºT",
+      "desempenho_2t": "Universitario marca 1.50 no 2ºT, Deportes Tolima marca 0.50 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "27",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "17",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Universitario tem um forte desempenho no segundo tempo, marcando 1.50 gols por jogo. Deportes Tolima, embora com média menor, também marca 0.50 gols no segundo tempo. A tendência de gols na segunda etapa de ambos os times, especialmente a força ofensiva do Universitario após o intervalo, sugere uma oportunidade para o Over Limite 70+.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa faz 50% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Universitario marca forte no 2ºT, Deportes Tolima marca no 2ºT",
+      "momento_gols": "Universitario: 46-60 (25%), 76-90 (50%). Deportes Tolima: 61-75 (14%), 76-90 (14%).",
+      "jogadores_chave": "",
+      "placares_provaveis": "",
+      "momento_entrada": "Pré-jogo ou ao vivo",
+      "situacao_saida": "",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O Universitario demonstra uma clara capacidade de marcar gols no segundo tempo, e o Deportes Tolima também contribui com gols nessa janela.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": "Universitario",
+        "indice_gols_final": "Universitario: 75% dos gols marcados após os 45 minutos (46-60 e 76-90). Deportes Tolima: 28% dos gols marcados após os 45 minutos (61-75 e 76-90).",
+        "condicao_entrada": "Forte padrão de gols do Universitario no segundo tempo e capacidade de ambos os times marcarem na reta final.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": ""
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "21:30",
+      "liga": "South America Copa Libertadores",
+      "jogo": "Flamengo x Real Garcilaso",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": "",
+      "odd_secundaria": "",
+      "desempenho_1t": "Flamengo marca 1.00 no 1ºT, Real Garcilaso marca 0.50 no 1ºT",
+      "desempenho_2t": "Flamengo marca 1.50 no 2ºT, Real Garcilaso marca 0.00 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "29",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "21",
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "Flamengo tem um padrão de marcar gols no segundo tempo (1.50 por jogo), com 40% dos gols saindo entre 61-75 minutos. Real Garcilaso, por outro lado, não marcou nenhum gol no segundo tempo em seus jogos. A força ofensiva do Flamengo no segundo tempo, combinada com a dificuldade do Real Garcilaso em marcar nessa etapa, sugere uma oportunidade para o Over Limite 70+.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa faz 100% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Flamengo marca forte no 2ºT, Real Garcilaso não marca no 2ºT",
+      "momento_gols": "Flamengo: 61-75 (20%), 76-90 (20%). Real Garcilaso: 76-90 (40%) sofridos.",
+      "jogadores_chave": "",
+      "placares_provaveis": "",
+      "momento_entrada": "Pré-jogo ou ao vivo",
+      "situacao_saida": "",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O Flamengo demonstra uma clara tendência de marcar gols no segundo tempo, enquanto o Real Garcilaso tem dificuldades em marcar nessa janela.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": "Flamengo",
+        "indice_gols_final": "Flamengo: 40% dos gols marcados entre 61-75 min. Real Garcilaso: 100% dos gols sofridos entre 31-90 min, sem gols marcados no 2ºT.",
+        "condicao_entrada": "Padrão de gols do Flamengo no segundo tempo e fragilidade do Real Garcilaso em marcar na reta final.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": ""
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "21:30",
+      "liga": "South America Copa Libertadores",
+      "jogo": "Nacional x Coquimbo Unido",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": "",
+      "odd_secundaria": "",
+      "desempenho_1t": "Nacional marca 0.00 no 1ºT, Coquimbo Unido marca 0.50 no 1ºT",
+      "desempenho_2t": "Nacional marca 1.50 no 2ºT, Coquimbo Unido marca 0.50 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "41",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "21",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Nacional tem um forte padrão de gols no segundo tempo (1.50 por jogo), com 66% dos gols saindo após os 60 minutos. Coquimbo Unido também marca no segundo tempo (0.50 por jogo). A tendência de gols na segunda etapa de ambos os times, especialmente a força do Nacional na reta final, sugere uma oportunidade para o Over Limite 70+.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa faz 50% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Nacional marca forte no 2ºT, Coquimbo Unido marca no 2ºT",
+      "momento_gols": "Nacional: 46-60 (33%), 61-75 (33%), 76-90 (33%). Coquimbo Unido: 46-60 (33%), 76-90 (33%).",
+      "jogadores_chave": "",
+      "placares_provaveis": "",
+      "momento_entrada": "Pré-jogo ou ao vivo",
+      "situacao_saida": "",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Ambos os times demonstram capacidade de marcar gols no segundo tempo, com o Nacional tendo um padrão mais acentuado.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": "Nacional",
+        "indice_gols_final": "Nacional: 100% dos gols marcados após os 45 minutos (46-60, 61-75, 76-90). Coquimbo Unido: 66% dos gols marcados após os 45 minutos (46-60 e 76-90).",
+        "condicao_entrada": "Padrão de gols do Nacional no segundo tempo e capacidade de ambos os times marcarem na reta final.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": ""
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "21:30",
+      "liga": "South America Copa Libertadores",
+      "jogo": "Estudiantes x Independiente Medellín",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": "",
+      "odd_secundaria": "",
+      "desempenho_1t": "Estudiantes marca 0.50 no 1ºT, Independiente Medellín marca 0.75 no 1ºT",
+      "desempenho_2t": "Estudiantes marca 1.00 no 2ºT, Independiente Medellín marca 1.00 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "9",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "16",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times demonstram capacidade de marcar gols em ambas as metades. Estudiantes marca 1.00 gol no segundo tempo, enquanto Independiente Medellín marca 1.00 gol no segundo tempo. A tendência de gols em ambas as etapas, com destaque para a segunda metade do jogo, sugere uma oportunidade para o Over Limite 70+.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa faz 50% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ambos marcam em ambas as metades, com destaque para o 2ºT",
+      "momento_gols": "Estudiantes: 46-60 (67%). Independiente Medellín: 76-90 (43%).",
+      "jogadores_chave": "",
+      "placares_provaveis": "",
+      "momento_entrada": "Pré-jogo ou ao vivo",
+      "situacao_saida": "",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Ambos os times têm um padrão de gols em ambas as metades, com o segundo tempo apresentando uma boa janela para gols.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "sub_cenario": "padrao_fim",
+        "modo": "pre_jogo",
+        "favorito": "Estudiantes",
+        "indice_gols_final": "Estudiantes: 67% dos gols marcados entre 46-60 min. Independiente Medellín: 43% dos gols marcados entre 76-90 min.",
+        "condicao_entrada": "Padrão de gols de ambos os times no segundo tempo, com destaque para a janela de 46-60 min do Estudiantes e 76-90 min do Independiente Medellín.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "observacoes": ""
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     }
   ],
-  "evitar": [],
+  "evitar": [
+    {
+      "horario": "15:45",
+      "jogo": "Saint-Étienne x Nice",
+      "liga": "France Ligue 1 2 Play offs",
+      "motivo": "O Saint-Étienne tem um aproveitamento muito baixo em casa (0.71 pontos por jogo) e uma taxa de vitórias de apenas 18%. O Nice, embora com estatísticas gerais melhores, não tem dados específicos de desempenho como visitante nesta competição. A falta de um claro favorito ou um padrão de gols consistente para aplicar os métodos disponíveis torna a partida arriscada."
+    },
+    {
+      "horario": "21:30",
+      "jogo": "San Lorenzo x Deportivo Recoleta",
+      "liga": "South America Copa Sudamericana",
+      "motivo": "Embora San Lorenzo tenha um bom desempenho em casa (2.00 pts/j) e Deportivo Recoleta tenha um desempenho fraco fora (1.00 pts/j), a falta de um claro favoritismo nas odds e a ausência de padrões estatísticos fortes para os métodos de gols (Over 2.5, Ambas Marcam) tornam a entrada arriscada. O método Back 2x2 não se aplica devido aos índices de Over 2.5 e Ambas Marcam serem inferiores a 65% e 70% respectivamente. O método Over Limite 70+ não se aplica pois não há dados suficientes para determinar um padrão de gols no final do jogo. O método Back Goleada não se aplica pois o favoritismo não é extremo (<1.40)."
+    }
+  ],
   "pdfs": [
     {
       "jogo": "Saint-Étienne x Nice",
       "arquivo": "pdfs/2026-05-26/France_Ligue_1_2_Play_offs/001_15h45_Saint-Étienne_x_Nice.pdf"
+    },
+    {
+      "jogo": "Lanús x Mirassol",
+      "arquivo": "pdfs/2026-05-26/South_America_Copa_Libertadores/002_19h00_Lanús_x_Mirassol.pdf"
+    },
+    {
+      "jogo": "LDU Quito x Club Always Ready",
+      "arquivo": "pdfs/2026-05-26/South_America_Copa_Libertadores/003_19h00_LDU_Quito_x_Club_Always_Ready.pdf"
+    },
+    {
+      "jogo": "Universitario x Deportes Tolima",
+      "arquivo": "pdfs/2026-05-26/South_America_Copa_Libertadores/004_21h30_Universitario_x_Deportes_Tolima.pdf"
+    },
+    {
+      "jogo": "Flamengo x Real Garcilaso",
+      "arquivo": "pdfs/2026-05-26/South_America_Copa_Libertadores/005_21h30_Flamengo_x_Real_Garcilaso.pdf"
+    },
+    {
+      "jogo": "Nacional x Coquimbo Unido",
+      "arquivo": "pdfs/2026-05-26/South_America_Copa_Libertadores/006_21h30_Nacional_x_Coquimbo_Unido.pdf"
+    },
+    {
+      "jogo": "Estudiantes x Independiente Medellín",
+      "arquivo": "pdfs/2026-05-26/South_America_Copa_Libertadores/007_21h30_Estudiantes_x_Independiente_Medellín.pdf"
+    },
+    {
+      "jogo": "Grêmio x Torque",
+      "arquivo": "pdfs/2026-05-26/South_America_Copa_Sudamericana/008_19h00_Grêmio_x_Torque.pdf"
+    },
+    {
+      "jogo": "São Paulo x Boston River",
+      "arquivo": "pdfs/2026-05-26/South_America_Copa_Sudamericana/009_19h00_São_Paulo_x_Boston_River.pdf"
+    },
+    {
+      "jogo": "Palestino x Deportivo Riestra",
+      "arquivo": "pdfs/2026-05-26/South_America_Copa_Sudamericana/010_19h00_Palestino_x_Deportivo_Riestra.pdf"
+    },
+    {
+      "jogo": "Millonarios x O'Higgins",
+      "arquivo": "pdfs/2026-05-26/South_America_Copa_Sudamericana/011_19h00_Millonarios_x_OHiggins.pdf"
+    },
+    {
+      "jogo": "San Lorenzo x Deportivo Recoleta",
+      "arquivo": "pdfs/2026-05-26/South_America_Copa_Sudamericana/012_21h30_San_Lorenzo_x_Deportivo_Recoleta.pdf"
     }
   ]
 }
