@@ -113,11 +113,16 @@ export type Entrada = {
   jogo: string;
   metodos_aplicados?: string[];
   mercado_principal: string;
-  odd_principal: string;
-  fair_odd_calculada?: string;
+  odd_principal?: string;            // legado (relatórios antigos)
+  fair_odd_calculada?: string;       // legado
+  odd_secundaria?: string;           // legado
+  // Novos campos de odd estimada (probabilidade → fair → mínima)
+  probabilidade_estimada?: string;
+  fair_odd?: string;
+  odd_minima_entrada?: string;
+  odd_minima_secundaria?: string;
   valor_esperado?: string;
   mercado_secundario?: string;
-  odd_secundaria?: string;
   desempenho_1t?: string;
   desempenho_2t?: string;
   contexto_times?: ContextoTimes | null;

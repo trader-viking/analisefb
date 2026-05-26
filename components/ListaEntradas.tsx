@@ -729,10 +729,21 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
         </div>
         <div className="flex items-baseline gap-2">
           <span className="font-medium">{entrada.mercado_principal}</span>
-          <span className="ml-auto font-bold text-emerald-600 dark:text-emerald-400 tabular-nums">
-            {entrada.odd_principal}
-          </span>
+          {(entrada.odd_minima_entrada || entrada.odd_principal) && (
+            <span className="ml-auto text-right">
+              <span className="block text-[9px] uppercase tracking-wider text-ink-400 leading-none">Odd mín.</span>
+              <span className="font-bold text-emerald-600 dark:text-emerald-400 tabular-nums">
+                {entrada.odd_minima_entrada || entrada.odd_principal}
+              </span>
+            </span>
+          )}
         </div>
+        {entrada.probabilidade_estimada && (
+          <div className="text-[11px] text-ink-400 mt-1">
+            Prob. estimada {entrada.probabilidade_estimada}
+            {entrada.fair_odd && ` · fair ${entrada.fair_odd}`}
+          </div>
+        )}
       </div>
 
       <div className="mt-auto pt-3 border-t border-ink-100 dark:border-ink-800 space-y-2" data-no-export="true">

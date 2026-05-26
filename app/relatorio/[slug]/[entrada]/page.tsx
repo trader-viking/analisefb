@@ -138,9 +138,14 @@ export default function EntradaPage({
               <span className="font-semibold text-ink-900 dark:text-ink-100">
                 {entrada.mercado_principal}
               </span>
-              <span className="font-bold text-2xl text-emerald-600 dark:text-emerald-400 tabular-nums">
-                {entrada.odd_principal}
-              </span>
+              {(entrada.odd_minima_entrada || entrada.odd_principal) && (
+                <span className="text-right shrink-0">
+                  <span className="block text-[9px] uppercase tracking-wider text-emerald-600/70 dark:text-emerald-400/70 leading-none mb-0.5">Odd mín. entrada</span>
+                  <span className="font-bold text-2xl text-emerald-600 dark:text-emerald-400 tabular-nums">
+                    {entrada.odd_minima_entrada || entrada.odd_principal}
+                  </span>
+                </span>
+              )}
             </div>
           </div>
 
@@ -151,9 +156,12 @@ export default function EntradaPage({
               </div>
               <div className="flex items-baseline justify-between gap-3">
                 <span className="font-semibold">{entrada.mercado_secundario}</span>
-                {entrada.odd_secundaria && (
-                  <span className="font-bold text-xl text-ink-700 dark:text-ink-200 tabular-nums">
-                    {entrada.odd_secundaria}
+                {(entrada.odd_minima_secundaria || entrada.odd_secundaria) && (
+                  <span className="text-right shrink-0">
+                    <span className="block text-[9px] uppercase tracking-wider text-ink-400 leading-none mb-0.5">Odd mín.</span>
+                    <span className="font-bold text-xl text-ink-700 dark:text-ink-200 tabular-nums">
+                      {entrada.odd_minima_secundaria || entrada.odd_secundaria}
+                    </span>
                   </span>
                 )}
               </div>
@@ -168,31 +176,50 @@ export default function EntradaPage({
           </div>
         )}
 
-        {/* Fair Odd e Valor Esperado */}
-        {(entrada.fair_odd_calculada || entrada.valor_esperado) && (
-          <div className="mt-4 grid sm:grid-cols-2 gap-3">
-            {entrada.fair_odd_calculada && (
-              <div className="p-3 rounded-md bg-blue-50 dark:bg-blue-950/30 ring-1 ring-blue-200 dark:ring-blue-900">
-                <div className="text-[11px] uppercase tracking-wider text-blue-700 dark:text-blue-400 font-semibold mb-1 flex items-center gap-1">
-                  <BarChart3 size={11} />
-                  Fair Odd calculada
+        {/* Probabilidade, Fair Odd e Odd Mínima */}
+        {(entrada.probabilidade_estimada || entrada.fair_odd || entrada.fair_odd_calculada || entrada.valor_esperado) && (
+          <div className="mt-4">
+            <div className="grid grid-cols-3 gap-2 mb-2">
+              <div className="p-3 rounded-md bg-blue-50 dark:bg-blue-950/30 ring-1 ring-blue-200 dark:ring-blue-900 text-center">
+                <div className="text-[10px] uppercase tracking-wider text-blue-700 dark:text-blue-400 font-semibold mb-1">
+                  Probabilidade
                 </div>
                 <div className="text-lg font-bold tabular-nums">
-                  {entrada.fair_odd_calculada}
+                  {entrada.probabilidade_estimada || '—'}
                 </div>
               </div>
-            )}
+              <div className="p-3 rounded-md bg-blue-50 dark:bg-blue-950/30 ring-1 ring-blue-200 dark:ring-blue-900 text-center">
+                <div className="text-[10px] uppercase tracking-wider text-blue-700 dark:text-blue-400 font-semibold mb-1">
+                  Fair Odd
+                </div>
+                <div className="text-lg font-bold tabular-nums">
+                  {entrada.fair_odd || entrada.fair_odd_calculada || '—'}
+                </div>
+              </div>
+              <div className="p-3 rounded-md bg-emerald-50 dark:bg-emerald-950/30 ring-1 ring-emerald-300 dark:ring-emerald-800 text-center">
+                <div className="text-[10px] uppercase tracking-wider text-emerald-700 dark:text-emerald-400 font-semibold mb-1">
+                  Odd mínima
+                </div>
+                <div className="text-lg font-bold tabular-nums text-emerald-700 dark:text-emerald-300">
+                  {entrada.odd_minima_entrada || '—'}
+                </div>
+              </div>
+            </div>
             {entrada.valor_esperado && (
               <div className="p-3 rounded-md bg-blue-50 dark:bg-blue-950/30 ring-1 ring-blue-200 dark:ring-blue-900">
                 <div className="text-[11px] uppercase tracking-wider text-blue-700 dark:text-blue-400 font-semibold mb-1 flex items-center gap-1">
                   <Target size={11} />
-                  Valor esperado
+                  Racional
                 </div>
                 <div className="text-sm font-medium leading-relaxed">
                   {entrada.valor_esperado}
                 </div>
               </div>
             )}
+            <div className="text-[11px] text-ink-400 mt-2 flex items-start gap-1">
+              <span>ⓘ</span>
+              <span>Odds estimadas a partir das estatísticas (os PDFs não trazem odds reais). Use como referência de risco: só entre se a casa pagar igual ou acima da odd mínima.</span>
+            </div>
           </div>
         )}
 
