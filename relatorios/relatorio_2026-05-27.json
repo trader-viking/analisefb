@@ -1,7 +1,7 @@
 {
   "data": "2026-05-27",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-05-26T06:10:17.589220",
+  "gerado_em": "2026-05-26T08:09:43.854837",
   "total_partidas_analisadas": 14,
   "entradas": [
     {
@@ -9,110 +9,58 @@
       "liga": "South America Copa Libertadores",
       "jogo": "CSD Independiente del Valle x Rosario Central",
       "metodos_aplicados": [
-        "over_limite_70"
+        "back_favorito"
       ],
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "N/A",
-      "mercado_principal": "Mais 0.5 gols no 2º Tempo",
-      "odd_principal": 0.0,
-      "fair_odd_calculada": 0.0,
-      "odd_alvo": 0.0,
-      "valor_esperado": 0.0,
-      "criterio_entrada": "Apostar em gols na segunda etapa, com base no histórico de ambas as equipes.",
-      "criterio_saida": "N/A",
-      "desempenho_1t": "CSD Independiente del Valle teve um bom desempenho no 1º tempo, marcando 4 gols e sofrendo 0. Rosario Central marcou 1 gol e sofreu 0.",
-      "desempenho_2t": "Ambas as equipes mostraram capacidade de marcar no 2º tempo. CSD Independiente del Valle marcou 3 gols e sofreu 0. Rosario Central marcou 3 gols e sofreu 0.",
-      "especificidades_gols": "CSD Independiente del Valle tem forte tendência a marcar no 1º tempo (57% dos gols) e também no 2º tempo (29% entre 61-75min). Rosario Central tem seus gols mais distribuídos, com pico entre 31-45min (25%) e 76-90min (50%).",
-      "momento_gols": "CSD Independiente del Valle: 31-45min (4 gols), 61-75min (2 gols). Rosario Central: 31-45min (1 gol), 76-90min (2 gols).",
-      "jogadores_chave": [
-        "Carlos Gonzalez Espínola",
-        "Jordy Alcívar",
-        "Ángel Di María",
-        "Enzo Copetti"
-      ],
+      "mercado_principal": "Vitória CSD Independiente del Valle",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "CSD Independiente del Valle venceu 100% do 1º tempo",
+      "desempenho_2t": "CSD Independiente del Valle venceu 100% do 2º tempo",
       "contexto_times": {
         "casa": {
-          "posicao": "10º",
-          "objetivo": "N/A"
+          "posicao": "3º",
+          "objetivo": "titulo"
         },
         "fora": {
-          "posicao": "34º",
-          "objetivo": "N/A"
+          "posicao": "10º",
+          "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Ambas as equipes demonstram capacidade de marcar gols, com o CSD Independiente del Valle apresentando um ataque mais prolífico. A análise do momento dos gols sugere que ambas podem marcar na segunda etapa, tornando o mercado de Over 0.5 gols no 2º tempo uma opção viável.",
-      "coeficiente_regularidade": "N/A",
-      "mando_de_campo": "CSD Independiente del Valle tem 100% de aproveitamento em casa.",
-      "condicoes_campo": "N/A",
-      "desfalques_chave": "N/A",
-      "placares_provaveis": "N/A",
+      "motivacao_tecnica": "CSD Independiente del Valle apresenta um aproveitamento impecável em casa, com 100% de vitórias e 100% de vitórias no primeiro e segundo tempo. O time também tem uma média de 3.50 gols marcados por jogo, com 7 gols em 2 partidas. O Rosario Central também tem 100% de vitórias, mas com uma média de gols menor (2.00). O Independiente del Valle demonstra um domínio claro em casa.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV baixo",
+      "mando_de_campo": "Casa faz 100% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "CSD Independiente del Valle marca a maioria dos seus gols no primeiro tempo (4 gols) e também tem boa produção no segundo tempo (3 gols).",
+      "momento_gols": "CSD Independiente del Valle marca 57% dos seus gols entre 31-45 min e 29% entre 61-75 min. Rosario Central marca 50% dos seus gols entre 31-45 min e 50% entre 76-90 min.",
+      "jogadores_chave": "Carlos Gonzalez Espínola (6 gols), Jordy Alcívar (1 gol, 1 assistência), Vicente Pizarro (1 gol), Ángel Di María (2 gols), Enzo Copetti (2 gols).",
+      "placares_provaveis": "2x1, 3x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
-      "stake_recomendada": "1%",
+      "situacao_saida": "",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Mercado de gols com boa probabilidade de ocorrer.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "O favoritismo do Independiente del Valle em casa é muito claro, com dados que sustentam um desempenho superior.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
       },
       "back_favorito": {
-        "aplicavel": false,
-        "modo": null,
-        "favorito": null,
-        "odd_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "over_limite_70": {
         "aplicavel": true,
-        "sub_cenario": "padrao_fim",
         "modo": "pre_jogo",
         "favorito": "CSD Independiente del Valle",
-        "indice_gols_final": "N/A",
-        "condicao_entrada": "Aguardar o desenrolar da partida, mas com base nas estatísticas, o mercado de gols na segunda etapa é promissor.",
-        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Ambas as equipes demonstram capacidade de marcar na segunda etapa."
+        "odd_alvo": "",
+        "razao": "Favoritismo claro em casa com aproveitamento impecável e alta média de gols.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
-      },
-      "confirmacao_visual": {
-        "aplicavel": false,
-        "perfil_tatico": null,
-        "gatilhos_aceleracao": null,
-        "alerta_armadilha": null,
-        "mercado_recomendado": null,
-        "momento_observacao": null
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "19:00",
@@ -121,107 +69,59 @@
       "metodos_aplicados": [
         "over_limite_70"
       ],
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "N/A",
-      "mercado_principal": "Mais 0.5 gols no 2º Tempo",
-      "odd_principal": 0.0,
-      "fair_odd_calculada": 0.0,
-      "odd_alvo": 0.0,
-      "valor_esperado": 0.0,
-      "criterio_entrada": "Apostar em gols na segunda etapa, considerando o histórico de ambas as equipes.",
-      "criterio_saida": "N/A",
-      "desempenho_1t": "Libertad marcou 1 gol e sofreu 1 no 1º tempo. UCV marcou 1 gol e sofreu 4.",
-      "desempenho_2t": "Libertad marcou 1 gol e sofreu 3 no 2º tempo. UCV marcou 0 gols e sofreu 3.",
-      "especificidades_gols": "Libertad tem uma distribuição de gols mais equilibrada entre os tempos, com picos entre 31-45min (50%) e 76-90min (50%). UCV tem seus gols concentrados no 1º tempo (100% entre 0-30min) e sofre muitos gols no 2º tempo (100% entre 31-75min).",
-      "momento_gols": "Libertad: 31-45min (1 gol), 76-90min (1 gol). UCV: 0-15min (0 gols), 16-30min (1 gol).",
-      "jogadores_chave": [
-        "Lorenzo Melgarejo",
-        "Juan Manuel Cuesta Baena",
-        "Jovanny David Bolívar Alvarado"
-      ],
+      "mercado_principal": "Mais de 0.5 gols no 2º tempo",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Libertad marcou 1 gol no 1º tempo, UCV marcou 1 gol no 1º tempo.",
+      "desempenho_2t": "Libertad marcou 1 gol no 2º tempo, UCV marcou 0 gols no 2º tempo.",
       "contexto_times": {
         "casa": {
-          "posicao": "34º",
-          "objetivo": "N/A"
+          "posicao": "34",
+          "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": "44º",
-          "objetivo": "N/A"
+          "posicao": "31",
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Apesar do UCV ter um ataque fraco, o Libertad demonstra capacidade de marcar gols, especialmente no segundo tempo. A fragilidade defensiva do UCV no segundo tempo (3 gols sofridos) e a tendência do Libertad de marcar no final do jogo (50% entre 76-90min) sugerem uma oportunidade para o mercado de Over 0.5 gols no 2º tempo.",
-      "coeficiente_regularidade": "N/A",
-      "mando_de_campo": "Libertad tem 0 vitórias em 2 jogos.",
-      "condicoes_campo": "N/A",
-      "desfalques_chave": "N/A",
-      "placares_provaveis": "N/A",
+      "motivacao_tecnica": "Ambos os times têm 100% de Over 0.5 gols no 2º tempo. O Libertad tem 50% de Over 1.5 gols no 2º tempo e o UCV tem 50% de Over 1.5 gols no 2º tempo. A partida apresenta um padrão de gols na segunda etapa para ambas as equipes.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
+      "mando_de_campo": "Libertad tem um aproveitamento de 0.00 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Libertad marca 1 gol no 1º tempo e 1 gol no 2º tempo. UCV marca 1 gol no 1º tempo e 0 gols no 2º tempo.",
+      "momento_gols": "Libertad marca 50% dos seus gols entre 31-45 min e 50% entre 76-90 min. UCV marca 100% dos seus gols entre 16-30 min e 25% entre 31-45 min, 25% entre 46-60 min e 25% entre 61-75 min.",
+      "jogadores_chave": "Lorenzo Melgarejo (4 gols), Juan Manuel Cuesta Baena (2 gols), Jovanny David Bolívar Alvarado (1 gol), Juan Camilo Zapata Londoño (1 gol).",
+      "placares_provaveis": "1x1, 2x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
+      "situacao_saida": "",
       "stake_recomendada": "1%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Mercado de gols com potencial de ocorrer na segunda etapa.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "O padrão de gols no segundo tempo para ambas as equipes sugere uma boa oportunidade para o mercado de Over 0.5 gols no 2º tempo.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
       },
-      "back_favorito": {
-        "aplicavel": false,
-        "modo": null,
-        "favorito": null,
-        "odd_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
+      "back_favorito": null,
+      "lay_zebra": null,
       "over_limite_70": {
         "aplicavel": true,
         "sub_cenario": "padrao_fim",
         "modo": "pre_jogo",
-        "favorito": "Libertad",
-        "indice_gols_final": "N/A",
-        "condicao_entrada": "Aguardar o desenrolar da partida, com foco na segunda etapa.",
-        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
-        "odd_esperada": "1.60 a 2.20",
+        "favorito": null,
+        "indice_gols_final": "100% Over 0.5 gols no 2º tempo para ambos os times.",
+        "condicao_entrada": "Padrão histórico de gols na segunda etapa para ambas as equipes.",
+        "mercado_sugerido": "Mais de 0.5 gols no 2º tempo",
+        "odd_esperada": "",
         "stake_recomendada": "1%",
-        "observacoes": "UCV sofre muitos gols no segundo tempo."
+        "observacoes": ""
       },
-      "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
-      },
-      "confirmacao_visual": {
-        "aplicavel": false,
-        "perfil_tatico": null,
-        "gatilhos_aceleracao": null,
-        "alerta_armadilha": null,
-        "mercado_recomendado": null,
-        "momento_observacao": null
-      }
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "19:00",
@@ -230,819 +130,467 @@
       "metodos_aplicados": [
         "over_limite_70"
       ],
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "N/A",
-      "mercado_principal": "Mais 0.5 gols no 2º Tempo",
-      "odd_principal": 0.0,
-      "fair_odd_calculada": 0.0,
-      "odd_alvo": 0.0,
-      "valor_esperado": 0.0,
-      "criterio_entrada": "Apostar em gols na segunda etapa, com base no histórico de ambas as equipes.",
-      "criterio_saida": "N/A",
-      "desempenho_1t": "Olimpia marcou 0 gols e sofreu 1 no 1º tempo. Audax Italiano marcou 1 gol e sofreu 0.",
-      "desempenho_2t": "Olimpia marcou 3 gols e sofreu 0 no 2º tempo. Audax Italiano marcou 3 gols e sofreu 1.",
-      "especificidades_gols": "Olimpia tem um pico de gols no final do jogo (67% entre 76-90min) e também marca no 2º tempo (33% entre 61-75min). Audax Italiano tem seus gols distribuídos, com picos entre 31-45min (25%), 61-75min (25%) e 76-90min (50%).",
-      "momento_gols": "Olimpia: 61-75min (1 gol), 76-90min (2 gols). Audax Italiano: 31-45min (1 gol), 61-75min (1 gol), 76-90min (2 gols).",
-      "jogadores_chave": [
-        "Rubén Lezcano",
-        "Fernando Cardozo",
-        "Diego Coelho",
-        "Franco Troyansky"
-      ],
+      "mercado_principal": "Mais de 0.5 gols no 2º tempo",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Olimpia empatou 50% do 1º tempo, Audax Italiano venceu 33% do 1º tempo.",
+      "desempenho_2t": "Olimpia venceu 50% do 2º tempo, Audax Italiano venceu 67% do 2º tempo.",
       "contexto_times": {
         "casa": {
           "posicao": "17º",
-          "objetivo": "N/A"
+          "objetivo": "meio_tabela"
         },
         "fora": {
           "posicao": "41º",
-          "objetivo": "N/A"
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Ambas as equipes demonstram forte capacidade de marcar gols no segundo tempo, com o Olimpia tendo um pico de gols no final do jogo e o Audax Italiano também marcando consistentemente na segunda etapa. O mercado de Over 0.5 gols no 2º tempo é uma opção a ser considerada.",
-      "coeficiente_regularidade": "N/A",
-      "mando_de_campo": "Olimpia tem 50% de aproveitamento em casa.",
-      "condicoes_campo": "N/A",
-      "desfalques_chave": "N/A",
-      "placares_provaveis": "N/A",
+      "motivacao_tecnica": "Ambos os times têm 100% de Over 0.5 gols no 2º tempo. Olimpia tem 50% de Over 1.5 gols no 2º tempo e Audax Italiano tem 50% de Over 1.5 gols no 2º tempo. A partida apresenta um padrão de gols na segunda etapa para ambas as equipes.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
+      "mando_de_campo": "Olimpia tem um aproveitamento de 2.00 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Olimpia marcou 0 gols no 1º tempo e 3 gols no 2º tempo. Audax Italiano marcou 1 gol no 1º tempo e 3 gols no 2º tempo.",
+      "momento_gols": "Olimpia marca 67% dos seus gols entre 76-90 min. Audax Italiano marca 50% dos seus gols entre 76-90 min e 25% entre 31-45 min e 25% entre 61-75 min.",
+      "jogadores_chave": "Rubén Lezcano (2 gols), Bernardo Romeo Benítez Fariña (2 assistências), Michael Andrés Fuentes Vadulli (1 gol), Diego Coelho (1 gol), Franco Troyansky (1 gol).",
+      "placares_provaveis": "1x1, 2x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
+      "situacao_saida": "",
       "stake_recomendada": "1%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Mercado de gols com potencial de ocorrer na segunda etapa.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "O padrão de gols no segundo tempo para ambas as equipes sugere uma boa oportunidade para o mercado de Over 0.5 gols no 2º tempo.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
       },
-      "back_favorito": {
-        "aplicavel": false,
-        "modo": null,
-        "favorito": null,
-        "odd_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
+      "back_favorito": null,
+      "lay_zebra": null,
       "over_limite_70": {
         "aplicavel": true,
         "sub_cenario": "padrao_fim",
         "modo": "pre_jogo",
-        "favorito": "Olimpia",
-        "indice_gols_final": "N/A",
-        "condicao_entrada": "Aguardar o desenrolar da partida, com foco na segunda etapa.",
-        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
-        "odd_esperada": "1.60 a 2.20",
+        "favorito": null,
+        "indice_gols_final": "100% Over 0.5 gols no 2º tempo para ambos os times.",
+        "condicao_entrada": "Padrão histórico de gols na segunda etapa para ambas as equipes.",
+        "mercado_sugerido": "Mais de 0.5 gols no 2º tempo",
+        "odd_esperada": "",
         "stake_recomendada": "1%",
-        "observacoes": "Ambas as equipes marcam no segundo tempo, com picos no final do jogo."
+        "observacoes": ""
       },
-      "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
-      },
-      "confirmacao_visual": {
-        "aplicavel": false,
-        "perfil_tatico": null,
-        "gatilhos_aceleracao": null,
-        "alerta_armadilha": null,
-        "mercado_recomendado": null,
-        "momento_observacao": null
-      }
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "19:00",
       "liga": "South America Copa Sudamericana",
       "jogo": "Atlético Mineiro x Academia Puerto Cabello",
       "metodos_aplicados": [
-        "back_goleada",
-        "over_limite_70"
+        "back_favorito"
       ],
-      "nivel_confianca": "Alto",
-      "contexto_motivacional": "N/A",
-      "mercado_principal": "Atlético Mineiro marca 4+ gols e vence",
-      "odd_principal": 0.0,
-      "fair_odd_calculada": 0.0,
-      "odd_alvo": 0.0,
-      "valor_esperado": 0.0,
-      "criterio_entrada": "Apostar em uma goleada do Atlético Mineiro, devido ao favoritismo claro e ao desempenho fraco do adversário.",
-      "criterio_saida": "N/A",
-      "desempenho_1t": "Atlético Mineiro marcou 3 gols e sofreu 0 no 1º tempo. Academia Puerto Cabello marcou 0 gols e sofreu 5.",
-      "desempenho_2t": "Atlético Mineiro marcou 1 gol e sofreu 1 no 2º tempo. Academia Puerto Cabello marcou 0 gols e sofreu 1.",
-      "especificidades_gols": "Atlético Mineiro tem um pico de gols no 1º tempo (50% entre 31-45min) e também marca no 2º tempo (25% entre 16-30min e 76-90min). Academia Puerto Cabello tem seus gols concentrados entre 0-15min (33%) e 31-45min (33%), mas sofre muitos gols no 1º tempo (50% entre 31-45min).",
-      "momento_gols": "Atlético Mineiro: 31-45min (2 gols), 16-30min (1 gol), 76-90min (1 gol). Academia Puerto Cabello: 0-15min (0 gols), 31-45min (0 gols).",
-      "jogadores_chave": [
-        "Bernard Anício Caldeira Duarte",
-        "Dudu",
-        "Robinson Flores",
-        "Jean Franco Castillo Castillo"
-      ],
+      "mercado_principal": "Vitória Atlético Mineiro",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Atlético Mineiro venceu 100% do 1º tempo, Academia Puerto Cabello perdeu 100% do 1º tempo.",
+      "desempenho_2t": "Atlético Mineiro empatou 100% do 2º tempo, Academia Puerto Cabello empatou 50% do 2º tempo.",
       "contexto_times": {
         "casa": {
           "posicao": "31º",
-          "objetivo": "N/A"
+          "objetivo": "meio_tabela"
         },
         "fora": {
           "posicao": "4º",
-          "objetivo": "N/A"
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "O Atlético Mineiro demonstrou um desempenho avassalador no primeiro tempo, marcando 3 gols e sofrendo 0. O Academia Puerto Cabello mostrou extrema fragilidade defensiva, sofrendo 5 gols no primeiro tempo. A tendência de gols do Atlético Mineiro no segundo tempo e a capacidade de marcar do Academia Puerto Cabello (apesar da fragilidade) tornam o mercado de Over 0.5 gols no 2º tempo uma opção viável. A aposta em 'Back Goleada' para o Atlético Mineiro é justificada pelo placar do primeiro tempo e pela diferença técnica.",
-      "coeficiente_regularidade": "N/A",
-      "mando_de_campo": "Atlético Mineiro tem 100% de aproveitamento em casa.",
-      "condicoes_campo": "N/A",
-      "desfalques_chave": "N/A",
-      "placares_provaveis": "N/A",
+      "motivacao_tecnica": "Atlético Mineiro tem um aproveitamento de 100% em casa, com 2.00 gols marcados e 0.50 gols sofridos por jogo. Academia Puerto Cabello tem um aproveitamento de 0.00 pontos por jogo fora de casa, com 0.00 gols marcados e 3.00 gols sofridos por jogo. O Atlético Mineiro demonstra um domínio claro em casa.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa faz 100% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Atlético Mineiro marca 3 gols no 1º tempo e 1 gol no 2º tempo. Academia Puerto Cabello marca 0 gols no 1º tempo e 0 gols no 2º tempo.",
+      "momento_gols": "Atlético Mineiro marca 25% dos seus gols entre 16-30 min, 50% entre 31-45 min e 25% entre 76-90 min. Academia Puerto Cabello marca 17% dos seus gols entre 0-15 min, 17% entre 16-30 min, 33% entre 31-45 min e 17% entre 76-90 min.",
+      "jogadores_chave": "Bernard (2 gols), Dudu (1 gol), Mateo Cassierra (1 gol), Alan Minda (1 gol), Robinson Flores (2 gols, 2 assistências), Jean Franco Castillo (2 gols, 1 assistência).",
+      "placares_provaveis": "2x0, 3x0",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
-      "stake_recomendada": "1%",
+      "situacao_saida": "",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Mercado de gols com alta probabilidade de ocorrer na segunda etapa e aposta em goleada.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "O Atlético Mineiro tem um desempenho impecável em casa, com 100% de vitórias e sem sofrer gols, o que o torna um favorito claro.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
       },
       "back_favorito": {
-        "aplicavel": false,
-        "modo": null,
-        "favorito": null,
-        "odd_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "over_limite_70": {
         "aplicavel": true,
-        "sub_cenario": "padrao_fim",
         "modo": "pre_jogo",
         "favorito": "Atlético Mineiro",
-        "indice_gols_final": "N/A",
-        "condicao_entrada": "Aguardar o desenrolar da partida, com foco na segunda etapa.",
-        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Academia Puerto Cabello sofre muitos gols, especialmente no primeiro tempo."
+        "odd_alvo": "",
+        "razao": "Favoritismo claro em casa com 100% de vitórias e sem sofrer gols.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "back_goleada": {
-        "aplicavel": true,
-        "candidato": "Atlético Mineiro",
-        "razao": "Favoritismo extremo + defesa frágil do adversário. Desempenho avassalador no 1º tempo.",
-        "modo": "pre_jogo",
-        "mercado_sugerido": "Atlético Mineiro marca 4+ gols e vence",
-        "odd_esperada": "3.50 a 7.00",
-        "stake_recomendada": "1%"
-      },
-      "confirmacao_visual": {
-        "aplicavel": false,
-        "perfil_tatico": null,
-        "gatilhos_aceleracao": null,
-        "alerta_armadilha": null,
-        "mercado_recomendado": null,
-        "momento_observacao": null
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "19:00",
       "liga": "South America Copa Sudamericana",
       "jogo": "Cienciano x Juventud",
       "metodos_aplicados": [
-        "over_limite_70"
+        "back_favorito"
       ],
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "N/A",
-      "mercado_principal": "Mais 0.5 gols no 2º Tempo",
-      "odd_principal": 0.0,
-      "fair_odd_calculada": 0.0,
-      "odd_alvo": 0.0,
-      "valor_esperado": 0.0,
-      "criterio_entrada": "Apostar em gols na segunda etapa, com base no histórico de ambas as equipes.",
-      "criterio_saida": "N/A",
-      "desempenho_1t": "Cienciano marcou 2 gols e sofreu 0 no 1º tempo. Juventud marcou 1 gol e sofreu 0.",
-      "desempenho_2t": "Cienciano marcou 2 gols e sofreu 1 no 2º tempo. Juventud marcou 1 gol e sofreu 1.",
-      "especificidades_gols": "Cienciano tem um pico de gols no 1º tempo (25% entre 0-15min, 25% entre 16-30min, 25% entre 46-60min) e também marca no 2º tempo (25% entre 76-90min). Juventud tem seus gols concentrados no 1º tempo (50% entre 0-15min) e também marca no 2º tempo (50% entre 46-60min).",
-      "momento_gols": "Cienciano: 0-15min (1 gol), 16-30min (1 gol), 46-60min (1 gol), 76-90min (1 gol). Juventud: 0-15min (1 gol), 46-60min (1 gol).",
-      "jogadores_chave": [
-        "Carlos John Garcés Acosta",
-        "Neri Ricardo Bandiera",
-        "Fernando Mimbacas Imaz",
-        "Leonel David Roldán"
-      ],
+      "mercado_principal": "Vitória Cienciano",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Cienciano venceu 67% do 1º tempo, Juventud empatou 50% do 1º tempo.",
+      "desempenho_2t": "Cienciano empatou 67% do 2º tempo, Juventud empatou 100% do 2º tempo.",
       "contexto_times": {
         "casa": {
           "posicao": "37º",
-          "objetivo": "N/A"
+          "objetivo": "meio_tabela"
         },
         "fora": {
           "posicao": "26º",
-          "objetivo": "N/A"
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Ambas as equipes demonstram capacidade de marcar gols, com o Cienciano tendo uma distribuição mais uniforme e o Juventud com um pico no início do jogo e também marcando no segundo tempo. A tendência de gols de ambas as equipes na segunda etapa torna o mercado de Over 0.5 gols no 2º tempo uma opção a ser considerada.",
-      "coeficiente_regularidade": "N/A",
-      "mando_de_campo": "Cienciano tem 67% de aproveitamento em casa.",
-      "condicoes_campo": "N/A",
-      "desfalques_chave": "N/A",
-      "placares_provaveis": "N/A",
+      "motivacao_tecnica": "Cienciano tem um aproveitamento de 67% em casa, com 1.33 gols marcados e 0.33 gols sofridos por jogo. Juventud tem um aproveitamento de 0.50 pontos por jogo fora de casa, com 1.00 gol marcado e 1.50 gols sofridos por jogo. Cienciano demonstra um bom desempenho em casa.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa tem um aproveitamento de 2.33 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Cienciano marca 2 gols no 1º tempo e 2 gols no 2º tempo. Juventud marca 1 gol no 1º tempo e 1 gol no 2º tempo.",
+      "momento_gols": "Cienciano marca 25% dos seus gols entre 0-15 min, 25% entre 16-30 min, 25% entre 46-60 min e 25% entre 76-90 min. Juventud marca 50% dos seus gols entre 0-15 min e 50% entre 46-60 min.",
+      "jogadores_chave": "Carlos John Garcés Acosta (2 gols), Alejandro Hohberg (1 gol), Neri Ricardo Bandiera (1 gol), Fernando Mimbacas Imaz (2 gols, 2 assistências), Leonel David Roldán (2 gols), Pablo Sebastián Lago Albano (2 gols).",
+      "placares_provaveis": "2x0, 1x0",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
-      "stake_recomendada": "1%",
+      "situacao_saida": "",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Mercado de gols com potencial de ocorrer na segunda etapa.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "O Cienciano tem um bom desempenho em casa, com 67% de vitórias e 100% de Over 0.5 gols no 1º tempo, o que o torna um favorito.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
       },
       "back_favorito": {
-        "aplicavel": false,
-        "modo": null,
-        "favorito": null,
-        "odd_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "over_limite_70": {
         "aplicavel": true,
-        "sub_cenario": "padrao_fim",
         "modo": "pre_jogo",
         "favorito": "Cienciano",
-        "indice_gols_final": "N/A",
-        "condicao_entrada": "Aguardar o desenrolar da partida, com foco na segunda etapa.",
-        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Ambas as equipes marcam na segunda etapa."
+        "odd_alvo": "",
+        "razao": "Favoritismo em casa com bom desempenho e 100% de Over 0.5 gols no 1º tempo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
-      },
-      "confirmacao_visual": {
-        "aplicavel": false,
-        "perfil_tatico": null,
-        "gatilhos_aceleracao": null,
-        "alerta_armadilha": null,
-        "mercado_recomendado": null,
-        "momento_observacao": null
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "19:00",
       "liga": "South America Copa Sudamericana",
       "jogo": "Vasco da Gama x Barracas Central",
       "metodos_aplicados": [
-        "over_limite_70"
+        "back_favorito"
       ],
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "N/A",
-      "mercado_principal": "Mais 0.5 gols no 2º Tempo",
-      "odd_principal": 0.0,
-      "fair_odd_calculada": 0.0,
-      "odd_alvo": 0.0,
-      "valor_esperado": 0.0,
-      "criterio_entrada": "Apostar em gols na segunda etapa, com base no histórico de ambas as equipes.",
-      "criterio_saida": "N/A",
-      "desempenho_1t": "Vasco da Gama marcou 2 gols e sofreu 0 no 1º tempo. Barracas Central marcou 0 gols e sofreu 0.",
-      "desempenho_2t": "Vasco da Gama marcou 2 gols e sofreu 2 no 2º tempo. Barracas Central marcou 0 gols e sofreu 1.",
-      "especificidades_gols": "Vasco da Gama tem um pico de gols no 1º tempo (50% entre 31-45min e 46-60min) e também marca no 2º tempo (50% entre 61-75min e 76-90min). Barracas Central tem seus gols concentrados no 1º tempo (50% entre 31-45min) e sofre gols principalmente no 2º tempo (50% entre 61-75min e 76-90min).",
-      "momento_gols": "Vasco da Gama: 31-45min (2 gols), 46-60min (2 gols), 61-75min (0 gols), 76-90min (0 gols). Barracas Central: 31-45min (0 gols), 61-75min (0 gols), 76-90min (0 gols).",
-      "jogadores_chave": [
-        "Arilson Edgardeline Fernandes Camati",
-        "Claudio Spinelli",
-        "Iván Tapia",
-        "Jhonatan Marcelo Candia Hernández"
-      ],
+      "mercado_principal": "Vitória Vasco da Gama",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Vasco da Gama venceu 100% do 1º tempo, Barracas Central empatou 50% do 1º tempo.",
+      "desempenho_2t": "Vasco da Gama venceu 50% do 2º tempo, Barracas Central perdeu 50% do 2º tempo.",
       "contexto_times": {
         "casa": {
           "posicao": "11º",
-          "objetivo": "N/A"
+          "objetivo": "meio_tabela"
         },
         "fora": {
           "posicao": "5º",
-          "objetivo": "N/A"
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "O Vasco da Gama demonstrou capacidade de marcar gols no primeiro tempo, mas também tem registro de gols no segundo tempo. O Barracas Central tem um ataque fraco, mas sofre gols no segundo tempo. O mercado de Over 0.5 gols no 2º tempo é uma opção a ser considerada, com foco na capacidade do Vasco de marcar.",
-      "coeficiente_regularidade": "N/A",
-      "mando_de_campo": "Vasco da Gama tem 50% de aproveitamento em casa.",
-      "condicoes_campo": "N/A",
-      "desfalques_chave": "N/A",
-      "placares_provaveis": "N/A",
+      "motivacao_tecnica": "Vasco da Gama tem um aproveitamento de 50% em casa, com 2.00 gols marcados e 1.00 gols sofridos por jogo. Barracas Central tem um aproveitamento de 0.50 pontos por jogo fora de casa, com 0.00 gols marcados e 1.00 gol sofrido por jogo. Vasco da Gama demonstra um poder ofensivo maior em casa.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
+      "mando_de_campo": "Casa tem um aproveitamento de 1.50 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Vasco da Gama marca 2 gols no 1º tempo e 2 gols no 2º tempo. Barracas Central marca 0 gols no 1º tempo e 0 gols no 2º tempo.",
+      "momento_gols": "Vasco da Gama marca 50% dos seus gols entre 31-45 min e 50% entre 46-60 min. Barracas Central marca 50% dos seus gols entre 31-45 min e 50% entre 76-90 min.",
+      "jogadores_chave": "Arilson (1 gol, 2 assistências), Claudio Spinelli (1 gol, 1 assistência), Carlos Cuesta (1 gol), José Luis Rodríguez (1 gol), Javier Morales (1 gol).",
+      "placares_provaveis": "2x0, 1x0",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
-      "stake_recomendada": "1%",
+      "situacao_saida": "",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Mercado de gols com potencial de ocorrer na segunda etapa.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "O Vasco da Gama tem um bom desempenho em casa, com 100% de vitórias no 1º tempo e 100% de Over 0.5 gols no 1º tempo, o que o torna um favorito.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
       },
       "back_favorito": {
-        "aplicavel": false,
-        "modo": null,
-        "favorito": null,
-        "odd_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "over_limite_70": {
         "aplicavel": true,
-        "sub_cenario": "padrao_fim",
         "modo": "pre_jogo",
         "favorito": "Vasco da Gama",
-        "indice_gols_final": "N/A",
-        "condicao_entrada": "Aguardar o desenrolar da partida, com foco na segunda etapa.",
-        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Barracas Central sofre gols no segundo tempo."
+        "odd_alvo": "",
+        "razao": "Favoritismo em casa com bom desempenho e 100% de vitórias no 1º tempo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
-      },
-      "confirmacao_visual": {
-        "aplicavel": false,
-        "perfil_tatico": null,
-        "gatilhos_aceleracao": null,
-        "alerta_armadilha": null,
-        "mercado_recomendado": null,
-        "momento_observacao": null
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "19:00",
       "liga": "South America Copa Sudamericana",
       "jogo": "Caracas x Botafogo",
       "metodos_aplicados": [
-        "over_limite_70"
+        "back_favorito"
       ],
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "Jogo válido pela fase de grupos da Copa Sul-Americana, onde ambas as equipes buscam a classificação.",
-      "mercado_principal": "Mais de 0.5 gols no 2º Tempo",
-      "odd_principal": 1.2,
-      "fair_odd_calculada": 100.0,
-      "odd_alvo": 1.6,
-      "valor_esperado": -1.2,
-      "criterio_entrada": "Aguardar o desenrolar do jogo, buscando uma odd mais favorável para o mercado de gols no segundo tempo.",
-      "criterio_saida": "Cash-out se o jogo se encaminhar para um placar sem gols ou se a odd subir excessivamente.",
-      "desempenho_1t": "Caracas teve dificuldades em marcar (0 gols), mas mostrou solidez defensiva em parte do tempo. Botafogo foi mais efetivo, marcando 3 gols e vencendo o primeiro tempo.",
-      "desempenho_2t": "Caracas melhorou ofensivamente no segundo tempo, marcando 2 gols. Botafogo manteve a eficiência, marcando mais 1 gol.",
-      "especificidades_gols": "Botafogo demonstrou maior capacidade de finalização e aproveitamento. Caracas mostrou capacidade de reação no segundo tempo.",
-      "momento_gols": "Botafogo marcou a maioria de seus gols no 1º tempo (3/4). Caracas marcou seus gols no 2º tempo (2/2).",
-      "jogadores_chave": [
-        "Wilfred Correa (Caracas)",
-        "Arthur Cabral (Botafogo)"
-      ],
+      "mercado_principal": "Vitória Botafogo",
+      "odd_principal": "1.67",
+      "fair_odd_calculada": "1.50",
+      "valor_esperado": "+11.3% EV — odd 1.67 vs Fair Odd 1.50",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Botafogo venceu 100% do 1º tempo",
+      "desempenho_2t": "Botafogo venceu 67% do 2º tempo",
       "contexto_times": {
         "casa": {
           "posicao": "29",
-          "objetivo": "classificação"
+          "objetivo": "meio_tabela"
         },
         "fora": {
           "posicao": "1",
-          "objetivo": "classificação"
+          "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "O Botafogo demonstrou um ataque muito mais produtivo, com média de 3.00 gols por jogo, enquanto o Caracas tem uma média de 0.67. A tendência é de um jogo com gols, especialmente no segundo tempo, onde o Caracas mostrou capacidade de reação.",
-      "coeficiente_regularidade": "Caracas: CV moderado. Botafogo: CV baixo.",
-      "mando_de_campo": "Caracas tem um aproveitamento razoável em casa, mas o Botafogo tem um desempenho avassalador como visitante.",
+      "motivacao_tecnica": "Botafogo demonstra um desempenho muito superior, com 100% de vitórias e 3.00 pontos por jogo, contra 1.67 do Caracas. O Botafogo também tem uma média de gols marcados de 3.00, enquanto o Caracas marca apenas 0.67. A odd de 1.67 para o Botafogo sugere um valor considerável.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
+      "mando_de_campo": "Caracas: 1.67 pontos por jogo em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "placares_provaveis": "2x1, 3x1",
-      "momento_entrada": "Pré-jogo, com foco no segundo tempo.",
-      "situacao_saida": "Cash-out se o placar permanecer 0x0 até os 60 minutos do 2º tempo.",
-      "stake_recomendada": "1%",
+      "especificidades_gols": "Botafogo marca em média 3.00 gols por jogo, Caracas 0.67.",
+      "momento_gols": "Botafogo marca 1.50 gols no 1º tempo e 1.50 no 2º tempo. Caracas marca 0.00 no 1º tempo e 0.67 no 2º tempo.",
+      "jogadores_chave": "Arthur Cabral (Botafogo - 2 gols), Wilfred Correa (Caracas - 3 gols)",
+      "placares_provaveis": "2x0, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A odd para mais de 0.5 gols no 2º tempo é baixa pré-jogo, mas pode aumentar com o desenrolar da partida.",
+        "justificativa_abordagem": "Odd atrativa para um favorito claro com dados superiores.",
         "gatilho_saida_parcial": "N/A",
-        "hard_stop": "Se o placar não for alterado até os 75 minutos do 2º tempo."
+        "hard_stop": "N/A"
       },
       "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
-      "over_limite_70": {
         "aplicavel": true,
-        "sub_cenario": "padrao_fim",
-        "modo": "ao_vivo",
+        "modo": "pre_jogo",
         "favorito": "Botafogo",
-        "indice_gols_final": "Caracas marcou 2 gols no 2º tempo. Botafogo marcou 1 gol no 2º tempo.",
-        "condicao_entrada": "Aguardar o desenrolar do jogo para buscar uma odd mais favorável.",
-        "mercado_sugerido": "Mais de 0.5 gols no 2º Tempo",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "O Botafogo tem um ataque muito forte, e o Caracas mostrou capacidade de reagir no segundo tempo."
+        "odd_alvo": "1.67",
+        "razao": "Botafogo é o claro favorito com melhor aproveitamento, média de gols e posição na tabela.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "back_2x2": {
-        "aplicavel": false
-      },
-      "back_goleada": {
-        "aplicavel": false
-      },
-      "confirmacao_visual": {
-        "aplicavel": false
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "19:00",
       "liga": "South America Copa Sudamericana",
       "jogo": "Racing Club x Independiente Petrolero",
       "metodos_aplicados": [
-        "over_limite_70",
-        "back_goleada"
+        "back_2x2"
       ],
-      "nivel_confianca": "Alto",
-      "contexto_motivacional": "Jogo da fase de grupos da Copa Sul-Americana. Racing busca a liderança, enquanto Independiente Petrolero busca pontuar para avançar.",
-      "mercado_principal": "Racing Club vence e marca 4+ gols",
-      "odd_principal": 0.0,
-      "fair_odd_calculada": 0.0,
-      "odd_alvo": 3.5,
-      "valor_esperado": 0.0,
-      "criterio_entrada": "Favoritismo claro do Racing Club, com histórico de muitos gols marcados e defesa frágil do Independiente Petrolero.",
-      "criterio_saida": "Cash-out se o Racing Club abrir uma vantagem considerável no placar.",
-      "desempenho_1t": "Racing Club teve um bom desempenho no 1º tempo, marcando 3 gols e sofrendo 1. Independiente Petrolero marcou 1 gol e sofreu 3.",
-      "desempenho_2t": "Racing Club marcou mais 1 gol no 2º tempo, totalizando 4. Independiente Petrolero não marcou e sofreu 2 gols.",
-      "especificidades_gols": "Racing Club demonstrou grande poder ofensivo, com média de 2.00 gols marcados. Independiente Petrolero sofreu muitos gols (média de 2.50).",
-      "momento_gols": "Racing Club marcou gols em todos os tempos, com destaque para o 1º tempo (3 gols) e o 2º tempo (1 gol). Independiente Petrolero marcou no 1º tempo (1 gol) e no 2º tempo (1 gol).",
-      "jogadores_chave": [
-        "Adrián Emmanuel Martínez (Racing Club)",
-        "Jonathan Ezequiel Cristaldo (Independiente Petrolero)"
-      ],
+      "mercado_principal": "Placar Exato 2x2",
+      "odd_principal": "12.00",
+      "fair_odd_calculada": "10.00",
+      "valor_esperado": "+20.0% EV — odd 12.00 vs Fair Odd 10.00",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Racing Club marcou 1.50 gols no 1ºT, Independiente Petrolero sofreu 0.50.",
+      "desempenho_2t": "Racing Club marcou 0.50 gols no 2ºT, Independiente Petrolero sofreu 1.50.",
       "contexto_times": {
         "casa": {
           "posicao": "9",
-          "objetivo": "classificação"
+          "objetivo": "meio_tabela"
         },
         "fora": {
           "posicao": "43",
-          "objetivo": "classificação"
+          "objetivo": "sem_objetivo"
         }
       },
-      "motivacao_tecnica": "O Racing Club tem um ataque muito forte (média de 2.00 gols) e enfrenta um Independiente Petrolero com defesa vulnerável (média de 2.50 gols sofridos). A odd para o Racing vencer e marcar 4+ gols é atrativa.",
-      "coeficiente_regularidade": "Racing Club: CV moderado. Independiente Petrolero: CV alto.",
-      "mando_de_campo": "Racing Club tem um bom desempenho em casa.",
+      "motivacao_tecnica": "Racing Club apresenta um alto índice de Over 2.5 gols (100%) e Ambas Marcam (100%). Independiente Petrolero também tem um alto índice de Over 2.5 gols (50%) e Ambas Marcam (100%). Ambos os times mostram propensão a gols em ambos os tempos, com Racing Club marcando 1.50 no 1ºT e 0.50 no 2ºT, e Independiente Petrolero marcando 0.00 no 1ºT e 0.00 no 2ºT, mas sofrendo 0.50 no 1ºT e 1.50 no 2ºT. A odd para 2x2 é atrativa.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
+      "mando_de_campo": "Racing Club: 4.50 gols totais por jogo em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "placares_provaveis": "4x1, 3x0",
-      "momento_entrada": "Pré-jogo.",
-      "situacao_saida": "Cash-out se o Racing abrir 3 gols de vantagem.",
-      "stake_recomendada": "1%",
+      "especificidades_gols": "Racing Club tem ataque produtivo (2.00 gols/jogo), Independiente Petrolero tem defesa frágil (2.00 gols sofridos/jogo).",
+      "momento_gols": "Racing Club marca mais no 1º tempo (1.50), Independiente Petrolero sofre mais no 2º tempo (1.50).",
+      "jogadores_chave": "Adrián Emmanuel Martínez (Racing Club - 3 gols), Rodrigo Rivas Gonzalez (Independiente Petrolero - 1 gol)",
+      "placares_provaveis": "2x1, 1x2, 2x2",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+      "stake_recomendada": "0.5%",
       "plano_execucao": {
-        "abordagem": "forçar",
-        "justificativa_abordagem": "O cenário é propício para uma goleada do Racing Club.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "Se o Independiente Petrolero marcar o primeiro gol."
+        "abordagem": "propor",
+        "justificativa_abordagem": "Padrões estatísticos de gols em ambos os times indicam potencial para um jogo com placar elástico.",
+        "gatilho_saida_parcial": "Chegar em 2x1 ou 1x2.",
+        "hard_stop": "N/A"
       },
-      "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
-      "over_limite_70": {
-        "aplicavel": true,
-        "sub_cenario": "padrao_fim",
-        "modo": "ao_vivo",
-        "favorito": "Racing Club",
-        "indice_gols_final": "Racing Club marcou 1 gol no 2º tempo. Independiente Petrolero marcou 1 gol no 2º tempo.",
-        "condicao_entrada": "Aguardar o desenrolar do jogo para buscar uma odd mais favorável para gols no segundo tempo.",
-        "mercado_sugerido": "Mais de 0.5 gols no 2º Tempo",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "O Racing tem um ataque forte e o Independiente Petrolero pode ceder mais gols no final."
-      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
       "back_2x2": {
-        "aplicavel": false
-      },
-      "back_goleada": {
         "aplicavel": true,
-        "candidato": "Racing Club",
-        "razao": "Favoritismo extremo do Racing Club e defesa frágil do Independiente Petrolero.",
+        "razao": "Alto índice de Over 2.5 gols (100% Racing Club, 50% Independiente Petrolero) e Ambas Marcam (100% Racing Club, 100% Independiente Petrolero).",
+        "indice_over_2_5": "Racing Club: 100%, Independiente Petrolero: 50%",
+        "indice_ambas_marcam": "Racing Club: 100%, Independiente Petrolero: 100%",
+        "indice_over_ht": "Racing Club: 100% (Over 0.5 HT), Independiente Petrolero: 50% (Over 0.5 HT)",
         "modo": "pre_jogo",
-        "mercado_sugerido": "Racing Club marca 4+ e vence",
-        "odd_esperada": "3.50 a 7.00",
-        "stake_recomendada": "1%"
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
       },
-      "confirmacao_visual": {
-        "aplicavel": false
-      }
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "21:30",
       "liga": "South America Copa Libertadores",
       "jogo": "Corinthians x Platense",
       "metodos_aplicados": [
-        "over_limite_70"
+        "back_favorito"
       ],
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "N/A",
-      "mercado_principal": "Mais 0.5 gols no 2º Tempo",
-      "odd_principal": 0.0,
-      "fair_odd_calculada": 0.0,
-      "odd_alvo": 0.0,
-      "valor_esperado": 0.0,
-      "criterio_entrada": "Apostar em gols na segunda etapa, com base no histórico de ambas as equipes.",
-      "criterio_saida": "N/A",
-      "desempenho_1t": "Corinthians marcou 2 gols e sofreu 0 no 1º tempo. Platense marcou 1 gol e sofreu 1.",
-      "desempenho_2t": "Corinthians marcou 2 gols e sofreu 3 no 2º tempo. Platense marcou 2 gols e sofreu 1.",
-      "especificidades_gols": "Corinthians tem uma distribuição de gols mais uniforme, com picos entre 0-15min (25%), 16-30min (25%), 46-60min (25%) e 76-90min (25%). Platense tem seus gols concentrados entre 61-75min (67%) e sofre gols principalmente entre 46-60min (67%).",
-      "momento_gols": "Corinthians: 0-15min (1 gol), 16-30min (1 gol), 46-60min (1 gol), 76-90min (1 gol). Platense: 61-75min (2 gols).",
-      "jogadores_chave": [
-        "Yuri Alberto Monteiro da Silva",
-        "Rodrigo Garro",
-        "Guido Mainero",
-        "Franco Zapiola"
-      ],
+      "mercado_principal": "Vitória Corinthians",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Corinthians venceu 50% do 1º tempo, Platense venceu 50% do 1º tempo.",
+      "desempenho_2t": "Corinthians venceu 50% do 2º tempo, Platense perdeu 50% do 2º tempo.",
       "contexto_times": {
         "casa": {
-          "posicao": "13º",
-          "objetivo": "N/A"
+          "posicao": "5º",
+          "objetivo": "titulo"
         },
         "fora": {
-          "posicao": "5º",
-          "objetivo": "N/A"
+          "posicao": "13º",
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Ambas as equipes demonstram capacidade de marcar gols, com o Platense tendo um pico de gols no segundo tempo (61-75min). O Corinthians também tem uma distribuição de gols que sugere potencial para gols na segunda etapa. O mercado de Over 0.5 gols no 2º tempo é uma opção a ser considerada.",
-      "coeficiente_regularidade": "N/A",
-      "mando_de_campo": "Corinthians tem 100% de aproveitamento em casa.",
-      "condicoes_campo": "N/A",
-      "desfalques_chave": "N/A",
-      "placares_provaveis": "N/A",
+      "motivacao_tecnica": "Corinthians tem 100% de vitórias em casa e 100% de jogos sem sofrer gols em casa. O time também tem uma média de 2.00 gols marcados por jogo em casa. Platense tem um aproveitamento de 50% fora de casa, com 1.50 gols marcados e 1.50 gols sofridos por jogo.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "Casa faz 100% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Corinthians marca gols em todos os tempos, com 2 gols no 1º tempo e 2 gols no 2º tempo. Platense marca 1 gol no 1º tempo e 2 gols no 2º tempo.",
+      "momento_gols": "Corinthians marca 25% dos seus gols em cada intervalo de 15 minutos no 1º tempo e 25% no 2º tempo. Platense marca 33% dos seus gols entre 16-30 min, 67% entre 61-75 min.",
+      "jogadores_chave": "Gustavo Henrique (3 gols), Yuri Alberto (1 gol, 1 assistência), Rodrigo Garro (4 assistências), Jesse Lingard (1 gol), Guido Mainero (1 gol, 2 assistências), Franco Zapiola (1 gol, 1 assistência).",
+      "placares_provaveis": "2x0, 2x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
-      "stake_recomendada": "1%",
+      "situacao_saida": "",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Mercado de gols com potencial de ocorrer na segunda etapa.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "O Corinthians demonstra um forte desempenho em casa, com 100% de vitórias e sem sofrer gols, o que o torna um favorito claro.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
       },
       "back_favorito": {
-        "aplicavel": false,
-        "modo": null,
-        "favorito": null,
-        "odd_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "over_limite_70": {
         "aplicavel": true,
-        "sub_cenario": "padrao_fim",
         "modo": "pre_jogo",
         "favorito": "Corinthians",
-        "indice_gols_final": "N/A",
-        "condicao_entrada": "Aguardar o desenrolar da partida, com foco na segunda etapa.",
-        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Platense tem um pico de gols entre 61-75min."
+        "odd_alvo": "",
+        "razao": "Favoritismo claro em casa com 100% de vitórias e sem sofrer gols.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
-      },
-      "confirmacao_visual": {
-        "aplicavel": false,
-        "perfil_tatico": null,
-        "gatilhos_aceleracao": null,
-        "alerta_armadilha": null,
-        "mercado_recomendado": null,
-        "momento_observacao": null
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "21:30",
       "liga": "South America Copa Libertadores",
       "jogo": "Fluminense x Deportivo La Guaira",
       "metodos_aplicados": [
-        "over_limite_70"
+        "back_favorito"
       ],
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "N/A",
-      "mercado_principal": "Mais 0.5 gols no 2º Tempo",
-      "odd_principal": 0.0,
-      "fair_odd_calculada": 0.0,
-      "odd_alvo": 0.0,
-      "valor_esperado": 0.0,
-      "criterio_entrada": "Apostar em gols na segunda etapa, com base no histórico de ambas as equipes.",
-      "criterio_saida": "N/A",
-      "desempenho_1t": "Fluminense marcou 2 gols e sofreu 2 no 1º tempo. Deportivo La Guaira marcou 2 gols e sofreu 3.",
-      "desempenho_2t": "Fluminense marcou 1 gol e sofreu 1 no 2º tempo. Deportivo La Guaira marcou 0 gols e sofreu 2.",
-      "especificidades_gols": "Fluminense tem um pico de gols no 1º tempo (67% entre 0-15min) e também marca no 2º tempo (33% entre 61-75min). Deportivo La Guaira tem gols distribuídos entre os tempos, mas sofre muitos gols no 2º tempo (50% entre 31-45min e 61-75min).",
-      "momento_gols": "Fluminense: 0-15min (2 gols), 61-75min (1 gol). Deportivo La Guaira: 16-30min (1 gol), 31-45min (1 gol).",
-      "jogadores_chave": [
-        "John Kennedy",
-        "Flabián Londoño Bedoya",
-        "José Alí Meza Draegertt"
-      ],
+      "mercado_principal": "Vitória Fluminense",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Fluminense empatou 100% do 1º tempo, Deportivo La Guaira venceu 50% do 1º tempo.",
+      "desempenho_2t": "Fluminense venceu 50% do 2º tempo, Deportivo La Guaira perdeu 100% do 2º tempo.",
       "contexto_times": {
         "casa": {
-          "posicao": "31º",
-          "objetivo": "N/A"
+          "posicao": "31",
+          "objetivo": "meio_tabela"
         },
         "fora": {
           "posicao": "3º",
-          "objetivo": "N/A"
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "O Fluminense demonstra capacidade de marcar gols, especialmente no início do jogo, mas também tem registro de gols no segundo tempo. O Deportivo La Guaira, apesar de ter um ataque razoável, sofre muitos gols na segunda etapa. O mercado de Over 0.5 gols no 2º tempo é uma opção a ser considerada.",
-      "coeficiente_regularidade": "N/A",
-      "mando_de_campo": "Fluminense tem 50% de aproveitamento em casa.",
-      "condicoes_campo": "N/A",
-      "desfalques_chave": "N/A",
-      "placares_provaveis": "N/A",
+      "motivacao_tecnica": "Fluminense tem um aproveitamento de 50% em casa, com 1.50 gols marcados e 1.50 gols sofridos por jogo. Deportivo La Guaira tem um aproveitamento de 0.50 pontos por jogo fora de casa, com 1.00 gol marcado e 2.50 gols sofridos por jogo. O Fluminense demonstra um poder ofensivo maior em casa.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
+      "mando_de_campo": "Casa tem um aproveitamento de 1.50 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Fluminense marca 2 gols no 1º tempo e 1 gol no 2º tempo. Deportivo La Guaira marca 2 gols no 1º tempo e 0 gols no 2º tempo.",
+      "momento_gols": "Fluminense marca 67% dos seus gols entre 0-15 min. Deportivo La Guaira marca 50% dos seus gols entre 16-30 min e 50% entre 31-45 min.",
+      "jogadores_chave": "John Kennedy (2 gols), Luciano Acosta (1 gol), José Alí Meza Draegertt (1 gol), Flabián Londoño Bedoya (1 gol).",
+      "placares_provaveis": "2x1, 2x0",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
-      "stake_recomendada": "1%",
+      "situacao_saida": "",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Mercado de gols com potencial de ocorrer na segunda etapa.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "O Fluminense tem um poder ofensivo considerável em casa, com 100% de Over 0.5 gols no 1º tempo, o que o torna favorito.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
       },
       "back_favorito": {
-        "aplicavel": false,
-        "modo": null,
-        "favorito": null,
-        "odd_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "over_limite_70": {
         "aplicavel": true,
-        "sub_cenario": "padrao_fim",
         "modo": "pre_jogo",
         "favorito": "Fluminense",
-        "indice_gols_final": "N/A",
-        "condicao_entrada": "Aguardar o desenrolar da partida, com foco na segunda etapa.",
-        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Deportivo La Guaira sofre muitos gols no segundo tempo."
+        "odd_alvo": "",
+        "razao": "Favoritismo em casa com bom poder ofensivo e 100% de Over 0.5 gols no 1º tempo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
-      },
-      "confirmacao_visual": {
-        "aplicavel": false,
-        "perfil_tatico": null,
-        "gatilhos_aceleracao": null,
-        "alerta_armadilha": null,
-        "mercado_recomendado": null,
-        "momento_observacao": null
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "21:30",
@@ -1051,216 +599,117 @@
       "metodos_aplicados": [
         "over_limite_70"
       ],
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "N/A",
-      "mercado_principal": "Mais 0.5 gols no 2º Tempo",
-      "odd_principal": 0.0,
-      "fair_odd_calculada": 0.0,
-      "odd_alvo": 0.0,
-      "valor_esperado": 0.0,
-      "criterio_entrada": "Apostar em gols na segunda etapa, com base no histórico de ambas as equipes.",
-      "criterio_saida": "N/A",
-      "desempenho_1t": "Peñarol marcou 1 gol e sofreu 0 no 1º tempo. Santa Fe marcou 0 gols e sofreu 1.",
-      "desempenho_2t": "Peñarol marcou 1 gol e sofreu 2 no 2º tempo. Santa Fe marcou 1 gol e sofreu 2.",
-      "especificidades_gols": "Peñarol tem gols distribuídos, com picos entre 16-30min (50%) e 46-60min (50%). Santa Fe tem seus gols concentrados no final do jogo (100% entre 76-90min) e sofre muitos gols no segundo tempo (50% entre 46-60min e 61-75min).",
-      "momento_gols": "Peñarol: 16-30min (1 gol), 46-60min (1 gol). Santa Fe: 76-90min (1 gol).",
-      "jogadores_chave": [
-        "Douglas Matías Arezo Martínez",
-        "Hugo Rodallega Martínez",
-        "Omar Andrés Fernández Frasica"
-      ],
+      "mercado_principal": "Mais de 0.5 gols no 2º tempo",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Peñarol venceu 50% do 1º tempo, Santa Fe empatou 100% do 1º tempo.",
+      "desempenho_2t": "Peñarol perdeu 50% do 2º tempo, Santa Fe perdeu 100% do 2º tempo.",
       "contexto_times": {
         "casa": {
           "posicao": "15º",
-          "objetivo": "N/A"
+          "objetivo": "meio_tabela"
         },
         "fora": {
           "posicao": "40º",
-          "objetivo": "N/A"
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Ambas as equipes demonstram capacidade de marcar gols, com o Santa Fe tendo um pico de gols no final do jogo. O Peñarol também tem registro de gols no segundo tempo. A fragilidade defensiva do Peñarol no segundo tempo (2 gols sofridos) e a tendência do Santa Fe de marcar no final do jogo sugerem uma oportunidade para o mercado de Over 0.5 gols no 2º tempo.",
-      "coeficiente_regularidade": "N/A",
-      "mando_de_campo": "Peñarol tem 0 vitórias em 2 jogos.",
-      "condicoes_campo": "N/A",
-      "desfalques_chave": "N/A",
-      "placares_provaveis": "N/A",
+      "motivacao_tecnica": "Ambos os times têm 100% de Over 0.5 gols no 2º tempo. Peñarol tem 50% de Over 1.5 gols no 2º tempo, enquanto Santa Fe tem 50% de Over 1.5 gols no 2º tempo. A partida apresenta um padrão de gols na segunda etapa para ambas as equipes.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
+      "mando_de_campo": "Peñarol tem um aproveitamento de 0.50 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Peñarol marcou 1 gol no 1º tempo e 1 gol no 2º tempo. Santa Fe marcou 0 gols no 1º tempo e 1 gol no 2º tempo.",
+      "momento_gols": "Peñarol marca 50% dos seus gols entre 16-30 min e 50% entre 46-60 min. Santa Fe marca 100% dos seus gols entre 76-90 min.",
+      "jogadores_chave": "Douglas Matías Arezo Martínez (2 gols), Hugo Rodallega Martínez (2 gols), Omar Fernández Frasica (2 assistências), Franco Fagúndez (1 gol).",
+      "placares_provaveis": "1x1, 2x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
+      "situacao_saida": "",
       "stake_recomendada": "1%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Mercado de gols com potencial de ocorrer na segunda etapa.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "O padrão de gols no segundo tempo para ambas as equipes sugere uma boa oportunidade para o mercado de Over 0.5 gols no 2º tempo.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
       },
-      "back_favorito": {
-        "aplicavel": false,
-        "modo": null,
-        "favorito": null,
-        "odd_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
+      "back_favorito": null,
+      "lay_zebra": null,
       "over_limite_70": {
         "aplicavel": true,
         "sub_cenario": "padrao_fim",
         "modo": "pre_jogo",
-        "favorito": "Peñarol",
-        "indice_gols_final": "N/A",
-        "condicao_entrada": "Aguardar o desenrolar da partida, com foco na segunda etapa.",
-        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
-        "odd_esperada": "1.60 a 2.20",
+        "favorito": null,
+        "indice_gols_final": "100% Over 0.5 gols no 2º tempo para ambos os times.",
+        "condicao_entrada": "Padrão histórico de gols na segunda etapa para ambas as equipes.",
+        "mercado_sugerido": "Mais de 0.5 gols no 2º tempo",
+        "odd_esperada": "",
         "stake_recomendada": "1%",
-        "observacoes": "Santa Fe tem um pico de gols no final do jogo."
+        "observacoes": ""
       },
-      "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
-      },
-      "confirmacao_visual": {
-        "aplicavel": false,
-        "perfil_tatico": null,
-        "gatilhos_aceleracao": null,
-        "alerta_armadilha": null,
-        "mercado_recomendado": null,
-        "momento_observacao": null
-      }
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "21:30",
       "liga": "South America Copa Libertadores",
       "jogo": "Bolívar x Independiente Rivadavia",
       "metodos_aplicados": [
-        "over_limite_70"
+        "back_favorito"
       ],
-      "nivel_confianca": "Alto",
-      "contexto_motivacional": "N/A",
-      "mercado_principal": "Mais 0.5 gols no 2º Tempo",
-      "odd_principal": 0.0,
-      "fair_odd_calculada": 0.0,
-      "odd_alvo": 0.0,
-      "valor_esperado": 0.0,
-      "criterio_entrada": "Apostar em gols na segunda etapa, com base no histórico de ambas as equipes.",
-      "criterio_saida": "N/A",
-      "desempenho_1t": "Bolívar marcou 1 gol e sofreu 1 no 1º tempo. Independiente Rivadavia marcou 3 gols e sofreu 1.",
-      "desempenho_2t": "Bolívar marcou 2 gols e sofreu 0 no 2º tempo. Independiente Rivadavia marcou 3 gols e sofreu 1.",
-      "especificidades_gols": "Bolívar tem gols distribuídos, com picos entre 0-15min (33%), 61-75min (33%) e 76-90min (33%). Independiente Rivadavia tem um pico de gols no 1º tempo (33% entre 31-45min) e também marca no 2º tempo (33% entre 46-60min e 76-90min).",
-      "momento_gols": "Bolívar: 0-15min (1 gol), 61-75min (1 gol), 76-90min (1 gol). Independiente Rivadavia: 31-45min (2 gols), 46-60min (2 gols), 76-90min (1 gol).",
-      "jogadores_chave": [
-        "Robson Matheus Tomé de Araújo Benegas",
-        "Alex Adrián Arce Barrios",
-        "Sebastián Villa Cano"
-      ],
+      "mercado_principal": "Vitória Bolívar",
+      "odd_principal": "",
+      "fair_odd_calculada": "",
+      "valor_esperado": "",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Bolívar venceu 50% do 1º tempo, Independiente Rivadavia venceu 50% do 1º tempo.",
+      "desempenho_2t": "Bolívar venceu 100% do 2º tempo, Independiente Rivadavia venceu 100% do 2º tempo.",
       "contexto_times": {
         "casa": {
           "posicao": "12º",
-          "objetivo": "N/A"
+          "objetivo": "meio_tabela"
         },
         "fora": {
           "posicao": "24º",
-          "objetivo": "N/A"
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Ambas as equipes demonstram forte capacidade de marcar gols, com o Independiente Rivadavia tendo um ataque muito prolífico (média de 3 gols por jogo) e o Bolívar também apresentando um bom desempenho ofensivo (média de 1.5 gols por jogo). Ambas as equipes marcam consistentemente no segundo tempo. O mercado de Over 0.5 gols no 2º tempo é altamente recomendado.",
-      "coeficiente_regularidade": "N/A",
-      "mando_de_campo": "Bolívar tem 50% de aproveitamento em casa.",
-      "condicoes_campo": "N/A",
-      "desfalques_chave": "N/A",
-      "placares_provaveis": "N/A",
+      "motivacao_tecnica": "Bolívar tem um aproveitamento de 50% em casa, com 1.50 gols marcados e 0.50 gols sofridos por jogo. Independiente Rivadavia tem um aproveitamento de 3.00 pontos por jogo fora de casa, com 3.00 gols marcados e 1.50 gols sofridos por jogo. O Independiente Rivadavia demonstra um poder ofensivo muito forte fora de casa.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
+      "mando_de_campo": "Bolívar tem um aproveitamento de 2.00 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Bolívar marca 1 gol no 1º tempo e 2 gols no 2º tempo. Independiente Rivadavia marca 3 gols no 1º tempo e 3 gols no 2º tempo.",
+      "momento_gols": "Bolívar marca 33% dos seus gols entre 0-15 min, 33% entre 61-75 min e 33% entre 76-90 min. Independiente Rivadavia marca 33% dos seus gols entre 31-45 min, 33% entre 46-60 min e 17% entre 16-30 min e 17% entre 76-90 min.",
+      "jogadores_chave": "Robson Matheus Tomé de Araújo Benegas (2 gols), Alex Adrián Arce Barrios (8 gols), Sebastián Villa Cano (2 gols, 3 assistências).",
+      "placares_provaveis": "2x1, 3x2",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": "N/A",
+      "situacao_saida": "",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Mercado de gols com alta probabilidade de ocorrer na segunda etapa.",
-        "gatilho_saida_parcial": "N/A",
-        "hard_stop": "N/A"
+        "justificativa_abordagem": "O Bolívar tem um bom desempenho em casa e o Independiente Rivadavia tem um ataque muito forte fora de casa, o que sugere um jogo com gols.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
       },
       "back_favorito": {
-        "aplicavel": false,
-        "modo": null,
-        "favorito": null,
-        "odd_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "over_limite_70": {
         "aplicavel": true,
-        "sub_cenario": "padrao_fim",
         "modo": "pre_jogo",
         "favorito": "Bolívar",
-        "indice_gols_final": "N/A",
-        "condicao_entrada": "Aguardar o desenrolar da partida, com foco na segunda etapa.",
-        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "2%",
-        "observacoes": "Ambas as equipes marcam consistentemente no segundo tempo. Independiente Rivadavia tem um ataque muito forte."
+        "odd_alvo": "",
+        "razao": "Favoritismo em casa com bom poder ofensivo e Independiente Rivadavia com ataque forte fora.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "back_2x2": {
-        "aplicavel": false,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
-      },
-      "confirmacao_visual": {
-        "aplicavel": false,
-        "perfil_tatico": null,
-        "gatilhos_aceleracao": null,
-        "alerta_armadilha": null,
-        "mercado_recomendado": null,
-        "momento_observacao": null
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "21:30",
@@ -1269,152 +718,117 @@
       "metodos_aplicados": [
         "over_limite_70"
       ],
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "Jogo da fase de grupos da Copa Sul-Americana. River Plate busca a liderança, Blooming busca pontuar para avançar.",
-      "mercado_principal": "Mais de 0.5 gols no 2º Tempo",
-      "odd_principal": 1.25,
-      "fair_odd_calculada": 100.0,
-      "odd_alvo": 1.6,
-      "valor_esperado": -1.25,
-      "criterio_entrada": "Aguardar o desenrolar do jogo, buscando uma odd mais favorável para o mercado de gols no segundo tempo.",
-      "criterio_saida": "Cash-out se o jogo se encaminhar para um placar sem gols ou se a odd subir excessivamente.",
-      "desempenho_1t": "River Plate teve dificuldades em marcar no 1º tempo (0 gols), sofrendo 3. Blooming também não marcou e sofreu 1 gol.",
-      "desempenho_2t": "River Plate melhorou ofensivamente no segundo tempo, marcando 2 gols. Blooming marcou 1 gol.",
-      "especificidades_gols": "Ambas as equipes demonstraram capacidade de marcar no segundo tempo, mas também sofreram gols.",
-      "momento_gols": "River Plate marcou seus gols no 2º tempo (2/2). Blooming marcou seus gols no 1º tempo (1/1) e no 2º tempo (1/1).",
-      "jogadores_chave": [
-        "Maximiliano Salas (River Plate)",
-        "Anthony Vásquez Arcila (Blooming)"
-      ],
+      "mercado_principal": "Mais X.5 gols",
+      "odd_principal": "1.70",
+      "fair_odd_calculada": "1.60",
+      "valor_esperado": "+6.3% EV — odd 1.70 vs Fair Odd 1.60",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Blooming marcou 0.50 gols no 1ºT, River Plate sofreu 1.50.",
+      "desempenho_2t": "River Plate marcou 1.00 gols no 2ºT, Blooming sofreu 1.00.",
       "contexto_times": {
         "casa": {
           "posicao": "10",
-          "objetivo": "classificação"
+          "objetivo": "meio_tabela"
         },
         "fora": {
           "posicao": "23",
-          "objetivo": "classificação"
+          "objetivo": "sem_objetivo"
         }
       },
-      "motivacao_tecnica": "Ambas as equipes demonstraram capacidade de marcar gols, especialmente no segundo tempo. O River Plate tem um ataque mais consistente, mas o Blooming também pode surpreender. A odd para mais de 0.5 gols no segundo tempo é uma boa opção.",
-      "coeficiente_regularidade": "River Plate: CV moderado. Blooming: CV alto.",
-      "mando_de_campo": "River Plate tem um desempenho razoável em casa.",
+      "motivacao_tecnica": "O River Plate tem um padrão de gols no segundo tempo, marcando 1.00 gols e sofrendo 0.00. O Blooming também demonstra atividade no segundo tempo, marcando 0.50 e sofrendo 1.00. A média de gols totais do River Plate é de 1.50 e do Blooming é de 3.50. A odd de 1.70 para Over 0.5 gols no segundo tempo é razoável.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "mando_de_campo": "River Plate: 1.50 gols totais por jogo em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "placares_provaveis": "2x1, 1x1",
-      "momento_entrada": "Pré-jogo, com foco no segundo tempo.",
-      "situacao_saida": "Cash-out se o placar permanecer 0x0 até os 60 minutos do 2º tempo.",
+      "especificidades_gols": "River Plate marca 1.00 gol no 2º tempo. Blooming marca 0.50 gol no 2º tempo.",
+      "momento_gols": "Gols concentrados no 2º tempo para River Plate (61-75 e 76-90). Blooming marca no 1º tempo (0-15, 31-45) e 2º tempo (46-60).",
+      "jogadores_chave": "Maximiliano Salas (River Plate - 1 gol), Anthony Vásquez Arcila (Blooming - 2 gols)",
+      "placares_provaveis": "1x1, 2x1, 1x2",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "N/A",
       "stake_recomendada": "1%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A odd para mais de 0.5 gols no 2º tempo é baixa pré-jogo, mas pode aumentar com o desenrolar da partida.",
+        "justificativa_abordagem": "Padrão de gols no segundo tempo para ambos os times.",
         "gatilho_saida_parcial": "N/A",
-        "hard_stop": "Se o placar não for alterado até os 75 minutos do 2º tempo."
+        "hard_stop": "N/A"
       },
-      "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
+      "back_favorito": null,
+      "lay_zebra": null,
       "over_limite_70": {
         "aplicavel": true,
         "sub_cenario": "padrao_fim",
-        "modo": "ao_vivo",
-        "favorito": "River Plate",
-        "indice_gols_final": "River Plate marcou 2 gols no 2º tempo. Blooming marcou 1 gol no 2º tempo.",
-        "condicao_entrada": "Aguardar o desenrolar do jogo para buscar uma odd mais favorável.",
-        "mercado_sugerido": "Mais de 0.5 gols no 2º Tempo",
-        "odd_esperada": "1.60 a 2.20",
+        "modo": "pre_jogo",
+        "favorito": null,
+        "indice_gols_final": "River Plate: 1.00 gols marcados no 2ºT. Blooming: 0.50 gols marcados no 2ºT.",
+        "condicao_entrada": "Padrão histórico de gols no fim do jogo para ambos os times.",
+        "mercado_sugerido": "Mais 0.5 gols no 2º Tempo",
+        "odd_esperada": "1.70",
         "stake_recomendada": "1%",
-        "observacoes": "Ambas as equipes mostraram capacidade de marcar no segundo tempo."
+        "observacoes": "Foco em gols na segunda metade da partida."
       },
-      "back_2x2": {
-        "aplicavel": false
-      },
-      "back_goleada": {
-        "aplicavel": false
-      },
-      "confirmacao_visual": {
-        "aplicavel": false
-      }
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "21:30",
       "liga": "South America Copa Sudamericana",
       "jogo": "Bragantino x Carabobo",
       "metodos_aplicados": [
-        "over_limite_70"
+        "back_favorito"
       ],
-      "nivel_confianca": "Médio",
-      "contexto_motivacional": "Jogo da fase de grupos da Copa Sul-Americana. Bragantino busca a liderança, Carabobo busca pontuar para avançar.",
-      "mercado_principal": "Mais de 0.5 gols no 2º Tempo",
-      "odd_principal": 1.2,
-      "fair_odd_calculada": 100.0,
-      "odd_alvo": 1.6,
-      "valor_esperado": -1.2,
-      "criterio_entrada": "Aguardar o desenrolar do jogo, buscando uma odd mais favorável para o mercado de gols no segundo tempo.",
-      "criterio_saida": "Cash-out se o jogo se encaminhar para um placar sem gols ou se a odd subir excessivamente.",
-      "desempenho_1t": "Bragantino teve um desempenho equilibrado no 1º tempo, marcando 1 gol e sofrendo 1. Carabobo também marcou 1 gol e sofreu 1.",
-      "desempenho_2t": "Bragantino melhorou ofensivamente no segundo tempo, marcando 2 gols. Carabobo marcou 1 gol.",
-      "especificidades_gols": "Ambas as equipes demonstraram capacidade de marcar gols, mas o Bragantino mostrou maior poder ofensivo no segundo tempo.",
-      "momento_gols": "Bragantino marcou gols em todos os tempos, com destaque para o 2º tempo (2 gols). Carabobo marcou no 1º tempo (1 gol) e no 2º tempo (1 gol).",
-      "jogadores_chave": [
-        "Isidro Miguel Pitta Saldívar (Bragantino)",
-        "Edson Tortolero (Carabobo)"
-      ],
+      "mercado_principal": "Vitória Bragantino",
+      "odd_principal": "1.50",
+      "fair_odd_calculada": "1.40",
+      "valor_esperado": "+7.1% EV — odd 1.50 vs Fair Odd 1.40",
+      "mercado_secundario": null,
+      "odd_secundaria": null,
+      "desempenho_1t": "Bragantino empatou 100% do 1º tempo, Carabobo venceu 50%.",
+      "desempenho_2t": "Bragantino venceu 50% do 2º tempo, Carabobo venceu 50%.",
       "contexto_times": {
         "casa": {
           "posicao": "6",
-          "objetivo": "classificação"
+          "objetivo": "meio_tabela"
         },
         "fora": {
           "posicao": "30",
-          "objetivo": "classificação"
+          "objetivo": "sem_objetivo"
         }
       },
-      "motivacao_tecnica": "O Bragantino tem um ataque mais forte e demonstrou capacidade de marcar gols no segundo tempo. O Carabobo também pode contribuir com gols. A odd para mais de 0.5 gols no segundo tempo é uma boa opção.",
-      "coeficiente_regularidade": "Bragantino: CV moderado. Carabobo: CV alto.",
-      "mando_de_campo": "Bragantino tem um desempenho razoável em casa.",
+      "motivacao_tecnica": "Bragantino tem um aproveitamento de 1.50 pontos por jogo, igual ao Carabobo, mas com uma média de gols marcados superior (1.50 vs 1.00) e menos gols sofridos (0.50 vs 1.50). O Bragantino também demonstra maior volume ofensivo com 20.50 finalizações por jogo contra 6.00 do Carabobo. A odd de 1.50 para o Bragantino parece oferecer valor.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
+      "mando_de_campo": "Bragantino: 3.00 gols totais por jogo em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "placares_provaveis": "2x1, 3x1",
-      "momento_entrada": "Pré-jogo, com foco no segundo tempo.",
-      "situacao_saida": "Cash-out se o placar permanecer 0x0 até os 60 minutos do 2º tempo.",
-      "stake_recomendada": "1%",
+      "especificidades_gols": "Bragantino marca 1.50 gols/jogo, Carabobo 1.00 gol/jogo.",
+      "momento_gols": "Bragantino marca 0.50 no 1ºT e 1.00 no 2ºT. Carabobo marca 0.50 no 1ºT e 0.50 no 2ºT.",
+      "jogadores_chave": "Isidro Miguel Pitta Saldívar (Bragantino - 2 gols), Edson Tortolero (Carabobo - 2 gols)",
+      "placares_provaveis": "1x0, 2x1, 1x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "A odd para mais de 0.5 gols no 2º tempo é baixa pré-jogo, mas pode aumentar com o desenrolar da partida.",
+        "justificativa_abordagem": "Bragantino com maior volume ofensivo e melhor defesa.",
         "gatilho_saida_parcial": "N/A",
-        "hard_stop": "Se o placar não for alterado até os 75 minutos do 2º tempo."
+        "hard_stop": "N/A"
       },
       "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
-      "over_limite_70": {
         "aplicavel": true,
-        "sub_cenario": "padrao_fim",
-        "modo": "ao_vivo",
+        "modo": "pre_jogo",
         "favorito": "Bragantino",
-        "indice_gols_final": "Bragantino marcou 2 gols no 2º tempo. Carabobo marcou 1 gol no 2º tempo.",
-        "condicao_entrada": "Aguardar o desenrolar do jogo para buscar uma odd mais favorável.",
-        "mercado_sugerido": "Mais de 0.5 gols no 2º Tempo",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "observacoes": "Bragantino tem um ataque forte e o Carabobo pode ceder mais gols no final."
+        "odd_alvo": "1.50",
+        "razao": "Bragantino tem maior volume ofensivo e melhor desempenho defensivo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "back_2x2": {
-        "aplicavel": false
-      },
-      "back_goleada": {
-        "aplicavel": false
-      },
-      "confirmacao_visual": {
-        "aplicavel": false
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     }
   ],
   "evitar": [],
