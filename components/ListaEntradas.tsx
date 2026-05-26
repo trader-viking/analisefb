@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import {
-  ExternalLink, TrendingUp, Clock, Trophy, X, SlidersHorizontal, CheckCircle2, Radio,
+  ExternalLink, TrendingUp, Clock, Trophy, X, SlidersHorizontal, Radio,
 } from 'lucide-react';
 import { BadgeMetodo, metodosAtivos, metodosRankeados, METODOS_INFO, modoDoMetodo } from '@/components/BadgeMetodo';
 import { ContextoTimesCompacto } from '@/components/ContextoTimes';
@@ -79,55 +79,6 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
   const [carregado, setCarregado] = useState(false);
   const [placares, setPlacares] = useState<Placar[]>([]);
   const [gavetaAberta, setGavetaAberta] = useState(false);
-  const [finalizados, setFinalizados] = useState<Set<string>>(new Set());
-  const [abaAtiva, setAbaAtiva] = useState<'ativos' | 'finalizados'>('ativos');
-  const [marcando, setMarcando] = useState<string | null>(null);
-
-  // Busca a lista de jogos finalizados (marcados manualmente) no Worker
-  useEffect(() => {
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-    if (!apiUrl) return;
-    let cancelado = false;
-    fetch(`${apiUrl}/finalizados`)
-      .then((r) => (r.ok ? r.json() : null))
-      .then((dados) => {
-        if (!cancelado && dados && Array.isArray(dados.finalizados)) {
-          setFinalizados(new Set(dados.finalizados.map((x: any) => x.id)));
-        }
-      })
-      .catch(() => {/* silencioso */});
-    return () => { cancelado = true; };
-  }, []);
-
-  // Marca/desmarca um jogo como finalizado (chama o Worker)
-  async function alternarFinalizado(slug: string, jaFinalizado: boolean) {
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-    if (!apiUrl) return;
-    setMarcando(slug);
-    // Atualização otimista (muda na hora, reverte se falhar)
-    const novo = new Set(finalizados);
-    if (jaFinalizado) novo.delete(slug); else novo.add(slug);
-    setFinalizados(novo);
-    try {
-      const r = await fetch(`${apiUrl}/finalizados`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          id: slug,
-          relatorio: relatorioSlug,
-          acao: jaFinalizado ? 'desmarcar' : 'marcar',
-        }),
-      });
-      if (!r.ok) throw new Error('falhou');
-    } catch {
-      // Reverte em caso de erro
-      const revert = new Set(finalizados);
-      if (jaFinalizado) revert.add(slug); else revert.delete(slug);
-      setFinalizados(revert);
-    } finally {
-      setMarcando(null);
-    }
-  }
 
   // Busca placares do dia no Worker (pra mostrar jogos encerrados)
   useEffect(() => {
@@ -314,18 +265,8 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
     });
   }, [entradas, metodosAtivos_, ligasAtivas, horariosAtivos, modosAtivos, soRolando, placares]);
 
-  // Separa as filtradas em ativas (não finalizadas) e finalizadas
-  const entradasAtivas = useMemo(
-    () => entradasFiltradas.filter((e) => !finalizados.has(e._slug || '')),
-    [entradasFiltradas, finalizados]
-  );
-  const entradasFinalizadas = useMemo(
-    () => entradas.filter((e) => finalizados.has(e._slug || '')),
-    [entradas, finalizados]
-  );
-
-  // A lista exibida depende da aba ativa
-  const entradasExibidas = abaAtiva === 'finalizados' ? entradasFinalizadas : entradasAtivas;
+  // A lista exibida são as entradas filtradas
+  const entradasExibidas = entradasFiltradas;
 
   const temFiltro = metodosAtivos_.size + ligasAtivas.size + horariosAtivos.size + modosAtivos.size > 0 || soRolando;
 
@@ -558,37 +499,9 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
             </button>
           </div>
 
-          {/* Abas: Ativos / Finalizados */}
-          <div className="flex items-center gap-1 mb-4 border-b border-ink-200 dark:border-ink-800">
-            <button
-              type="button"
-              onClick={() => setAbaAtiva('ativos')}
-              className={`px-3 py-2 text-sm font-medium border-b-2 -mb-px transition ${
-                abaAtiva === 'ativos'
-                  ? 'border-emerald-600 text-emerald-700 dark:text-emerald-400'
-                  : 'border-transparent text-ink-500 hover:text-ink-800 dark:hover:text-ink-200'
-              }`}
-            >
-              Ativos ({entradasAtivas.length})
-            </button>
-            <button
-              type="button"
-              onClick={() => setAbaAtiva('finalizados')}
-              className={`px-3 py-2 text-sm font-medium border-b-2 -mb-px transition ${
-                abaAtiva === 'finalizados'
-                  ? 'border-ink-700 text-ink-800 dark:border-ink-300 dark:text-ink-100'
-                  : 'border-transparent text-ink-500 hover:text-ink-800 dark:hover:text-ink-200'
-              }`}
-            >
-              Finalizados ({entradasFinalizadas.length})
-            </button>
-          </div>
-
           {entradasExibidas.length === 0 ? (
             <div className="card p-6 text-center text-sm text-ink-500">
-              {abaAtiva === 'finalizados'
-                ? 'Nenhum jogo finalizado ainda. Use o ✓ nos cards para mover jogos para cá.'
-                : 'Nenhuma entrada corresponde aos filtros selecionados.'}
+              Nenhuma entrada corresponde aos filtros selecionados.
             </div>
           ) : (
             <div className="grid sm:grid-cols-2 gap-3">
@@ -620,9 +533,6 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
                     encerrado={encerrado}
                     aoVivo={aoVivo}
                     relatorioSlug={relatorioSlug}
-                    finalizado={finalizados.has(entrada._slug || '')}
-                    marcando={marcando === entrada._slug}
-                    onToggleFinalizado={() => alternarFinalizado(entrada._slug || '', finalizados.has(entrada._slug || ''))}
                   />
                 );
               })}
@@ -688,16 +598,13 @@ type Placar2 = {
   status: 'finalizado' | 'em_andamento' | 'agendado';
 };
 
-function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlug, finalizado, marcando, onToggleFinalizado }: {
+function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlug }: {
   entrada: Entrada;
   mAtivos: string[];
   placar: Placar2 | null;
   encerrado: boolean;
   aoVivo: boolean;
   relatorioSlug: string;
-  finalizado: boolean;
-  marcando: boolean;
-  onToggleFinalizado: () => void;
 }) {
   const cardRef = useRef<HTMLDivElement>(null);
 
@@ -739,20 +646,6 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
             </span>
           )}
           <BotaoBaixarImagem alvoRef={cardRef} nomeArquivo={entrada.jogo} variante="icone" />
-          <button
-            type="button"
-            data-no-export="true"
-            onClick={onToggleFinalizado}
-            disabled={marcando}
-            title={finalizado ? 'Reativar (tirar de finalizados)' : 'Marcar como finalizado'}
-            className={`p-1.5 rounded-md transition ${
-              finalizado
-                ? 'text-emerald-600 hover:text-emerald-700 hover:bg-emerald-50 dark:hover:bg-emerald-950/40'
-                : 'text-ink-400 hover:text-emerald-600 hover:bg-ink-100 dark:hover:bg-ink-800'
-            } ${marcando ? 'opacity-50 cursor-wait' : ''}`}
-          >
-            <CheckCircle2 size={15} className={finalizado ? 'fill-emerald-100 dark:fill-emerald-950' : ''} />
-          </button>
         </span>
       </div>
 
