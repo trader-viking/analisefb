@@ -339,7 +339,7 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
                   : 'ring-1 ring-ink-200 dark:ring-ink-700 hover:bg-ink-50 dark:hover:bg-ink-900 text-ink-600 dark:text-ink-400'
             }`}
           >
-            <span className={`w-1.5 h-1.5 rounded-full ${modosAtivos.has('ao_vivo') ? 'bg-white' : 'bg-red-500'} ${contagemModos.ao_vivo > 0 ? 'animate-pulse' : ''}`}></span>
+            <span className={`w-1.5 h-1.5 rounded-full ${modosAtivos.has('ao_vivo') ? 'bg-white' : 'bg-red-500'}`}></span>
             <span className="flex-1 text-left">Ao Vivo</span>
             <span className={`tabular-nums ${contagemModos.ao_vivo === 0 ? 'opacity-50' : 'opacity-70'}`}>{contagemModos.ao_vivo}</span>
           </button>
@@ -464,20 +464,20 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
             )}
           </div>
 
-          {/* Botões de destaque: Rolando agora + Sugestão Ao Vivo */}
-          <div className="flex flex-wrap gap-2 mb-4">
+          {/* Botões de destaque: Rolando agora + Sugestão de entrada ao vivo */}
+          <div className="flex flex-wrap items-center gap-2 mb-4">
             <button
               type="button"
               onClick={() => setSoRolando(v => !v)}
-              className={`inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold transition ${
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition shrink-0 ${
                 soRolando
-                  ? 'bg-red-600 text-white ring-2 ring-red-400 shadow-md'
-                  : 'ring-1 ring-red-300 dark:ring-red-800 text-red-700 dark:text-red-300 hover:bg-red-50 dark:hover:bg-red-950/30'
+                  ? 'bg-red-600 text-white ring-1 ring-red-400'
+                  : 'ring-1 ring-red-200 dark:ring-red-900 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/30'
               }`}
             >
-              <span className={`w-2 h-2 rounded-full bg-current ${contagemRolando > 0 ? 'animate-pulse' : ''}`}></span>
+              <span className="w-1.5 h-1.5 rounded-full bg-current"></span>
               Rolando agora
-              <span className="tabular-nums opacity-80">{contagemRolando}</span>
+              <span className="tabular-nums opacity-70">{contagemRolando}</span>
             </button>
 
             <button
@@ -487,15 +487,15 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
                 if (novo.has('ao_vivo')) novo.delete('ao_vivo'); else novo.add('ao_vivo');
                 setModosAtivos(novo);
               }}
-              className={`inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold transition ${
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition shrink-0 ${
                 modosAtivos.has('ao_vivo')
-                  ? 'bg-purple-600 text-white ring-2 ring-purple-400 shadow-md'
-                  : 'ring-1 ring-purple-300 dark:ring-purple-800 text-purple-700 dark:text-purple-300 hover:bg-purple-50 dark:hover:bg-purple-950/30'
+                  ? 'bg-purple-600 text-white ring-1 ring-purple-400'
+                  : 'ring-1 ring-purple-200 dark:ring-purple-900 text-purple-600 dark:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-950/30'
               }`}
             >
-              <Radio size={15} />
-              Sugestão Ao Vivo
-              <span className="tabular-nums opacity-80">{contagemModos.ao_vivo}</span>
+              <Radio size={13} />
+              Sugestão de entrada ao vivo
+              <span className="tabular-nums opacity-70">{contagemModos.ao_vivo}</span>
             </button>
           </div>
 
@@ -640,7 +640,7 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
             </span>
           )}
           {aoVivo && (
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-red-600 text-white font-semibold animate-pulse">
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-red-600 text-white font-semibold">
               <span className="w-1.5 h-1.5 rounded-full bg-white"></span>
               Ao vivo
             </span>
