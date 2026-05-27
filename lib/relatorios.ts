@@ -161,6 +161,13 @@ export type Evitar = {
   liga: string;
   jogo: string;
   motivo: string;
+  motivos_por_metodo?: {
+    back_favorito?: string;
+    lay_zebra?: string;
+    over_limite_70?: string;
+    back_2x2?: string;
+    back_goleada?: string;
+  };
 };
 
 export type Relatorio = {

@@ -75,6 +75,45 @@ export default function RelatorioPage({ params }: { params: { slug: string } }) 
                   )}
                 </div>
                 <p className="text-sm text-ink-600 dark:text-ink-400">{j.motivo}</p>
+                {j.motivos_por_metodo && Object.values(j.motivos_por_metodo).some(Boolean) && (
+                  <details className="mt-2">
+                    <summary className="text-xs text-ink-500 hover:text-ink-700 dark:hover:text-ink-300 cursor-pointer select-none">
+                      Ver por que cada método não se aplica
+                    </summary>
+                    <ul className="mt-2 space-y-1 text-xs">
+                      {j.motivos_por_metodo.back_favorito && (
+                        <li className="flex gap-2">
+                          <span className="font-semibold text-emerald-700 dark:text-emerald-400 shrink-0">Back Favorito:</span>
+                          <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.back_favorito}</span>
+                        </li>
+                      )}
+                      {j.motivos_por_metodo.lay_zebra && (
+                        <li className="flex gap-2">
+                          <span className="font-semibold text-rose-700 dark:text-rose-400 shrink-0">Lay Zebra:</span>
+                          <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.lay_zebra}</span>
+                        </li>
+                      )}
+                      {j.motivos_por_metodo.over_limite_70 && (
+                        <li className="flex gap-2">
+                          <span className="font-semibold text-purple-700 dark:text-purple-400 shrink-0">Over 70+:</span>
+                          <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.over_limite_70}</span>
+                        </li>
+                      )}
+                      {j.motivos_por_metodo.back_2x2 && (
+                        <li className="flex gap-2">
+                          <span className="font-semibold text-blue-700 dark:text-blue-400 shrink-0">Back 2x2:</span>
+                          <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.back_2x2}</span>
+                        </li>
+                      )}
+                      {j.motivos_por_metodo.back_goleada && (
+                        <li className="flex gap-2">
+                          <span className="font-semibold text-amber-700 dark:text-amber-400 shrink-0">Back Goleada:</span>
+                          <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.back_goleada}</span>
+                        </li>
+                      )}
+                    </ul>
+                  </details>
+                )}
               </div>
             ))}
           </div>
