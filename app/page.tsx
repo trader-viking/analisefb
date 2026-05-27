@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { listarRelatorios } from '@/lib/relatorios';
-import { Calendar, TrendingUp, AlertTriangle, ChevronRight, FileText } from 'lucide-react';
+import { Calendar, TrendingUp, AlertTriangle, ChevronRight, FileText, BarChart3 } from 'lucide-react';
 
 export default function HomePage() {
   const relatorios = listarRelatorios();
@@ -26,12 +26,21 @@ export default function HomePage() {
 
   return (
     <div>
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight mb-1">Relatórios</h1>
-        <p className="text-sm text-ink-500">
-          {relatorios.length} relatório{relatorios.length === 1 ? '' : 's'} em {datas.length} dia
-          {datas.length === 1 ? '' : 's'}
-        </p>
+      <div className="mb-8 flex items-end justify-between gap-4 flex-wrap">
+        <div>
+          <h1 className="text-3xl font-bold tracking-tight mb-1">Relatórios</h1>
+          <p className="text-sm text-ink-500">
+            {relatorios.length} relatório{relatorios.length === 1 ? '' : 's'} em {datas.length} dia
+            {datas.length === 1 ? '' : 's'}
+          </p>
+        </div>
+        <Link
+          href="/desempenho"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium bg-ink-900 text-white dark:bg-white dark:text-ink-900 hover:opacity-90 transition"
+        >
+          <BarChart3 size={15} />
+          Desempenho
+        </Link>
       </div>
 
       <div className="space-y-6">
