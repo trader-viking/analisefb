@@ -76,6 +76,7 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
   const [horariosAtivos, setHorariosAtivos] = useState<Set<Janela>>(new Set());
   const [modosAtivos, setModosAtivos] = useState<Set<string>>(new Set());
   const [soRolando, setSoRolando] = useState(false);
+  const [abaAtiva, setAbaAtiva] = useState<'ativos' | 'encerrados'>('ativos');
   const [carregado, setCarregado] = useState(false);
   const [placares, setPlacares] = useState<Placar[]>([]);
   const [gavetaAberta, setGavetaAberta] = useState(false);
@@ -266,7 +267,19 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
   }, [entradas, metodosAtivos_, ligasAtivas, horariosAtivos, modosAtivos, soRolando, placares]);
 
   // A lista exibida são as entradas filtradas
-  const entradasExibidas = entradasFiltradas;
+  // Separa as entradas filtradas em ativas (não encerradas) e encerradas,
+  // usando o status do placar (gravado automaticamente pela auditoria).
+  const entradasAtivas = useMemo(
+    () => entradasFiltradas.filter((e) => placarDe(e)?.status !== 'finalizado'),
+    [entradasFiltradas, placares]
+  );
+  const entradasEncerradas = useMemo(
+    () => entradasFiltradas.filter((e) => placarDe(e)?.status === 'finalizado'),
+    [entradasFiltradas, placares]
+  );
+
+  // A lista exibida depende da aba ativa
+  const entradasExibidas = abaAtiva === 'encerrados' ? entradasEncerradas : entradasAtivas;
 
   const temFiltro = metodosAtivos_.size + ligasAtivas.size + horariosAtivos.size + modosAtivos.size > 0 || soRolando;
 
@@ -499,9 +512,37 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
             </button>
           </div>
 
+          {/* Abas: Ativos / Encerrados (separação automática pelo placar) */}
+          <div className="flex items-center gap-1 mb-4 border-b border-ink-200 dark:border-ink-800">
+            <button
+              type="button"
+              onClick={() => setAbaAtiva('ativos')}
+              className={`px-3 py-2 text-sm font-medium border-b-2 -mb-px transition ${
+                abaAtiva === 'ativos'
+                  ? 'border-emerald-600 text-emerald-700 dark:text-emerald-400'
+                  : 'border-transparent text-ink-500 hover:text-ink-800 dark:hover:text-ink-200'
+              }`}
+            >
+              Ativos ({entradasAtivas.length})
+            </button>
+            <button
+              type="button"
+              onClick={() => setAbaAtiva('encerrados')}
+              className={`px-3 py-2 text-sm font-medium border-b-2 -mb-px transition ${
+                abaAtiva === 'encerrados'
+                  ? 'border-ink-700 text-ink-800 dark:border-ink-300 dark:text-ink-100'
+                  : 'border-transparent text-ink-500 hover:text-ink-800 dark:hover:text-ink-200'
+              }`}
+            >
+              Encerrados ({entradasEncerradas.length})
+            </button>
+          </div>
+
           {entradasExibidas.length === 0 ? (
             <div className="card p-6 text-center text-sm text-ink-500">
-              Nenhuma entrada corresponde aos filtros selecionados.
+              {abaAtiva === 'encerrados'
+                ? 'Nenhum jogo encerrado ainda. Os jogos aparecem aqui automaticamente quando terminam.'
+                : 'Nenhuma entrada corresponde aos filtros selecionados.'}
             </div>
           ) : (
             <div className="grid sm:grid-cols-2 gap-3">
