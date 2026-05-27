@@ -1,0 +1,192 @@
+{
+  "data": "2026-05-28",
+  "dia_consultado": "amanha",
+  "gerado_em": "2026-05-27T12:21:56.238196",
+  "total_partidas_analisadas": 9,
+  "entradas": [
+    {
+      "horario": "19:00",
+      "liga": "South America Copa Libertadores",
+      "jogo": "Palmeiras x Junior",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Palmeiras",
+      "probabilidade_estimada": "75% (Palmeiras tem 50% de vitórias em 2 jogos, Junior 0% em 2 jogos. Palmeiras marcou 2 gols em 2 jogos, Junior 0 gols em 2 jogos. Palmeiras tem xG a favor de 1.91 contra 1.19 do Junior)",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "valor_esperado": "Palmeiras é favorito claro com histórico superior e melhor desempenho ofensivo. A odd mínima de entrada é 1.53.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Palmeiras marcou 1 gol no 1ºT em 50% dos jogos. Junior sofreu 0 gols no 1ºT em 100% dos jogos.",
+      "desempenho_2t": "Palmeiras marcou 1 gol no 2ºT em 50% dos jogos. Junior sofreu 3 gols no 2ºT em 50% dos jogos.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "4",
+          "objetivo": "libertadores"
+        },
+        "fora": {
+          "posicao": "14",
+          "objetivo": null
+        }
+      },
+      "motivacao_tecnica": "Palmeiras, jogando em casa, tem um histórico perfeito de 2 vitórias em 2 jogos na Libertadores, com média de 1 gol por jogo e um xG consideravelmente maior que o do Junior. O Junior, por outro lado, tem 0 vitórias e 0 gols marcados em 2 jogos, sofrendo uma média de 1.5 gols por partida. A superioridade do Palmeiras é clara.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
+      "mando_de_campo": "Palmeiras tem 50% de aproveitamento em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Palmeiras marca gols com José Manuel López (2 gols) e Jhon Arias (1 gol). Junior não marcou.",
+      "momento_gols": "Palmeiras marca gols no final do 1º tempo e no final do 2º tempo. Junior sofre gols no final do 1º e 2º tempo.",
+      "jogadores_chave": "José Manuel López, Jhon Arias (Palmeiras)",
+      "placares_provaveis": "2x0, 2x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos que suportam a vitória do mandante.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Palmeiras",
+        "odd_alvo": "1.53",
+        "razao": "Palmeiras é favorito claro com histórico superior e melhor desempenho ofensivo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": null,
+        "modo": null,
+        "zebra": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": null,
+        "sub_cenario": null,
+        "modo": null,
+        "favorito": null,
+        "indice_gols_final": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "observacoes": null
+      },
+      "back_2x2": {
+        "aplicavel": null,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": null,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "11:00",
+      "jogo": "Petrojet x El Gounah",
+      "liga": "Egypt Egyptian Premier League",
+      "motivo": "Nenhum dos 5 métodos se aplica. O jogo é equilibrado em termos de posição na tabela e aproveitamento. Não há um favorito claro para Back Favorito, nem um padrão claro para Over Limite 70+. A média de gols é moderada e não há indícios fortes para Back 2x2 ou Back Goleada. Lay Zebra não se aplica pois a odd da zebra não é alta o suficiente e o desempenho recente não é catastrófico."
+    },
+    {
+      "horario": "14:00",
+      "jogo": "El Geish x Wadi Degla",
+      "liga": "Egypt Egyptian Premier League",
+      "motivo": "Nenhum dos 5 métodos se aplica. El Geish tem um leve favoritismo em casa (7ª contra 6ª posição, 1.60 pontos/jogo contra 1.53), mas não é suficiente para Back Favorito. A média de gols é baixa (1.67 e 2.00), o que descarta Over Limite 70+ e Back 2x2. Não há zebra com odd alta para Lay Zebra, nem cenário de goleada para Back Goleada."
+    },
+    {
+      "horario": "14:00",
+      "jogo": "Ismaily SC x Pharco",
+      "liga": "Egypt Egyptian Premier League",
+      "motivo": "Nenhum dos 5 métodos se aplica. Ambos os times estão na parte inferior da tabela, com baixo aproveitamento e pouca capacidade ofensiva. Ismaily SC tem um leve favoritismo em casa, mas não é suficiente para Back Favorito. As médias de gols são baixas, descartando Over Limite 70+ e Back 2x2. Não há zebra com odd alta para Lay Zebra, nem cenário de goleada para Back Goleada."
+    },
+    {
+      "horario": "19:00",
+      "jogo": "Cerro Porteño x Sporting Cristal",
+      "liga": "South America Copa Libertadores",
+      "motivo": "Nenhum dos 5 métodos se aplica. Embora ambos os times tenham marcado gols, a média total de gols é moderada (1.50 e 3.25). Não há um favorito claro para Back Favorito, nem um padrão de gols para Over Limite 70+ ou Back 2x2. A odd da zebra não é alta o suficiente para Lay Zebra, e não há cenário de goleada para Back Goleada."
+    },
+    {
+      "horario": "21:30",
+      "jogo": "Boca Juniors x Universidad Católica",
+      "liga": "South America Copa Libertadores",
+      "motivo": "Nenhum dos 5 métodos se aplica. Boca Juniors tem um desempenho perfeito em 2 jogos, mas a amostra é muito pequena para aplicar os métodos de forma confiável. A média de gols é alta, mas não há um padrão claro para Over Limite 70+ ou Back 2x2. Não há zebra com odd alta para Lay Zebra, nem cenário de goleada para Back Goleada."
+    },
+    {
+      "horario": "21:30",
+      "jogo": "Cruzeiro x Barcelona",
+      "liga": "South America Copa Libertadores",
+      "motivo": "Nenhum dos 5 métodos se aplica. Ambos os times têm desempenho equilibrado em 2 jogos. A média de gols é moderada, e não há um favorito claro para Back Favorito. Não há padrão de gols para Over Limite 70+ ou Back 2x2. A odd da zebra não é alta o suficiente para Lay Zebra, e não há cenário de goleada para Back Goleada."
+    },
+    {
+      "horario": "21:30",
+      "jogo": "América de Cali x Macará",
+      "liga": "South America Copa Sudamericana",
+      "motivo": "Nenhum dos 5 métodos se aplica. América de Cali tem um bom aproveitamento em casa, mas a amostra é pequena (3 jogos). Macará tem aproveitamento perfeito, mas também com poucos jogos. Não há um favorito claro para Back Favorito, nem padrão de gols para Over Limite 70+ ou Back 2x2. A odd da zebra não é alta o suficiente para Lay Zebra, e não há cenário de goleada para Back Goleada."
+    },
+    {
+      "horario": "21:30",
+      "jogo": "Tigre x Alianza Atlético",
+      "liga": "South America Copa Sudamericana",
+      "motivo": "Nenhum dos 5 métodos se aplica. Ambos os times têm desempenho muito similar em 2 jogos. A média de gols é baixa, e não há um favorito claro para Back Favorito. Não há padrão de gols para Over Limite 70+ ou Back 2x2. A odd da zebra não é alta o suficiente para Lay Zebra, e não há cenário de goleada para Back Goleada."
+    }
+  ],
+  "pdfs": [
+    {
+      "jogo": "Petrojet x El Gounah",
+      "arquivo": "pdfs/2026-05-28/Egypt_Egyptian_Premier_League/001_11h00_Petrojet_x_El_Gounah.pdf"
+    },
+    {
+      "jogo": "El Geish x Wadi Degla",
+      "arquivo": "pdfs/2026-05-28/Egypt_Egyptian_Premier_League/002_14h00_El_Geish_x_Wadi_Degla.pdf"
+    },
+    {
+      "jogo": "Ismaily SC x Pharco",
+      "arquivo": "pdfs/2026-05-28/Egypt_Egyptian_Premier_League/003_14h00_Ismaily_SC_x_Pharco.pdf"
+    },
+    {
+      "jogo": "Palmeiras x Junior",
+      "arquivo": "pdfs/2026-05-28/South_America_Copa_Libertadores/004_19h00_Palmeiras_x_Junior.pdf"
+    },
+    {
+      "jogo": "Cerro Porteño x Sporting Cristal",
+      "arquivo": "pdfs/2026-05-28/South_America_Copa_Libertadores/005_19h00_Cerro_Porteño_x_Sporting_Cristal.pdf"
+    },
+    {
+      "jogo": "Boca Juniors x Universidad Católica",
+      "arquivo": "pdfs/2026-05-28/South_America_Copa_Libertadores/006_21h30_Boca_Juniors_x_Universidad_Católica.pdf"
+    },
+    {
+      "jogo": "Cruzeiro x Barcelona",
+      "arquivo": "pdfs/2026-05-28/South_America_Copa_Libertadores/007_21h30_Cruzeiro_x_Barcelona.pdf"
+    },
+    {
+      "jogo": "América de Cali x Macará",
+      "arquivo": "pdfs/2026-05-28/South_America_Copa_Sudamericana/008_21h30_América_de_Cali_x_Macará.pdf"
+    },
+    {
+      "jogo": "Tigre x Alianza Atlético",
+      "arquivo": "pdfs/2026-05-28/South_America_Copa_Sudamericana/009_21h30_Tigre_x_Alianza_Atlético.pdf"
+    }
+  ]
+}
