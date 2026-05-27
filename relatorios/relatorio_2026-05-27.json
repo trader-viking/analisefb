@@ -1,7 +1,7 @@
 {
   "data": "2026-05-27",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-05-27T13:27:33.998173",
+  "gerado_em": "2026-05-27T14:30:17.437662",
   "total_partidas_analisadas": 17,
   "entradas": [
     {
@@ -12,59 +12,93 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Atlético Mineiro",
-      "probabilidade_estimada": "85% (favoritismo claro do Atlético Mineiro com 100% de vitórias em casa e adversário com 0% de vitórias fora)",
+      "probabilidade_estimada": "85% (favoritismo claro do Atlético Mineiro com base no aproveitamento e histórico)",
       "fair_odd": "1.18",
-      "odd_minima_entrada": "1.36",
-      "valor_esperado": "Probabilidade estimada de 85% para a vitória do Atlético Mineiro, com fair odd de 1.18. A odd mínima de entrada é 1.36, considerando a margem de segurança para favoritos.",
+      "odd_minima_entrada": "1.35",
+      "valor_esperado": "Atlético Mineiro é favorito absoluto com 85% de probabilidade estimada. A fair odd é 1.18. Com margem de segurança, a odd mínima de entrada é 1.35. O time da casa tem 100% de vitórias e 2.00 gols marcados por jogo, contra 0 gols marcados pelo visitante.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Atlético Mineiro marcou 1.5 gols no 1ºT, Academia Puerto Cabello sofreu 2.5 gols no 1ºT",
-      "desempenho_2t": "Atlético Mineiro marcou 0.5 gols no 2ºT, Academia Puerto Cabello sofreu 0.5 gols no 2ºT",
+      "desempenho_1t": "Atlético Mineiro marcou 1.5 gols no 1ºT, Academia Puerto Cabello sofreu 2.5 gols no 1ºT.",
+      "desempenho_2t": "Atlético Mineiro marcou 0.5 gols no 2ºT, Academia Puerto Cabello sofreu 0.5 gols no 2ºT.",
       "contexto_times": {
         "casa": {
-          "posicao": null,
-          "objetivo": null
+          "posicao": "4",
+          "objetivo": "titulo"
         },
         "fora": {
-          "posicao": null,
-          "objetivo": null
+          "posicao": "31",
+          "objetivo": "sem_objetivo"
         }
       },
-      "motivacao_tecnica": "Atlético Mineiro apresenta um aproveitamento impecável em casa (100% de vitórias) e uma média de 2.00 gols marcados. O Academia Puerto Cabello, por outro lado, tem um desempenho desastroso fora de casa, com 0% de vitórias e média de 3.00 gols sofridos. O favoritismo é claro e sustentado pelos dados.",
+      "motivacao_tecnica": "Atlético Mineiro é o claro favorito, com 100% de aproveitamento em casa e média de 2.00 gols marcados. O Academia Puerto Cabello tem um aproveitamento de 0% fora de casa e não marcou gols. O Atlético Mineiro está em 4º na tabela e busca o título, enquanto o visitante está em 31º e sem objetivos claros.",
       "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
       "mando_de_campo": "Atlético Mineiro tem 100% de aproveitamento em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Atlético Mineiro marca em média 2.00 gols por jogo, Academia Puerto Cabello sofre em média 3.00 gols por jogo.",
-      "momento_gols": "Atlético Mineiro marca mais gols no 1º tempo (1.5), Academia Puerto Cabello sofre mais gols no 1º tempo (2.5).",
-      "jogadores_chave": "Bernard Anício Caldeira Duarte (2 gols), Robinson Flores (2 gols), Jean Franco Castillo Castillo (2 gols)",
-      "placares_provaveis": "2x0, 3x0, 3x1",
+      "especificidades_gols": "Atlético Mineiro marca em média 2.00 gols por jogo. Academia Puerto Cabello não marcou gols.",
+      "momento_gols": "Atlético Mineiro marca mais no início do jogo (1.5 gols no 1ºT). Academia Puerto Cabello sofre mais no 1ºT (2.5 gols sofridos).",
+      "jogadores_chave": "Bernard Anício Caldeira Duarte (2 gols), Robinson Flores (2 gols), Jean Franco Castillo Castillo (2 gols).",
+      "placares_provaveis": "3x0, 2x0",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": null,
+      "situacao_saida": "Manter até o final, ou sair se o placar for adverso.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
         "justificativa_abordagem": "Favoritismo claro e dados estatísticos robustos.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "gatilho_saida_parcial": "Se o Atlético Mineiro abrir 2-0 no placar.",
+        "hard_stop": "Se o Academia Puerto Cabello abrir o placar."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Atlético Mineiro",
-        "odd_alvo": "1.45",
-        "razao": "Favoritismo extremo do Atlético Mineiro em casa contra um adversário com desempenho nulo fora.",
+        "odd_alvo": "1.35",
+        "razao": "Favoritismo claro em casa com 100% de vitórias e média de 2.00 gols marcados contra um adversário que não marcou gols fora.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-27T16:30:40.403Z"
+      "lay_zebra": {
+        "aplicavel": false,
+        "modo": null,
+        "zebra": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "sub_cenario": null,
+        "modo": null,
+        "favorito": null,
+        "indice_gols_final": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "observacoes": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "razao": "Over 2.5 média 50% (precisa >= 60%).",
+        "indice_over_2_5": "50%",
+        "indice_ambas_marcam": "50%",
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "candidato": null,
+        "razao": "Probabilidade estimada de vitória do favorito 85% (precisa >= 70%), mas o favorito tem média de 2.00 gols marcados (precisa >= 2.5).",
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
     },
     {
       "horario": "19:00",
@@ -74,59 +108,93 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Cienciano",
-      "probabilidade_estimada": "67% (Cienciano com 67% de vitórias e 1.33 gols marcados vs Juventud com 0% de vitórias e 1.00 gol marcado)",
-      "fair_odd": "1.49",
-      "odd_minima_entrada": "1.71",
-      "valor_esperado": "Probabilidade estimada de 67% para a vitória do Cienciano, com fair odd de 1.49. A odd mínima de entrada é 1.71, considerando a margem de segurança para favoritos.",
+      "probabilidade_estimada": "65% (favoritismo do Cienciano com base no aproveitamento e posição na tabela)",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.77",
+      "valor_esperado": "Cienciano é o favorito com 65% de probabilidade estimada. A fair odd é 1.54. Com margem de segurança, a odd mínima de entrada é 1.77. O time da casa tem 67% de vitórias e 1.33 gols marcados por jogo, contra 0% de vitórias e 1.00 gol marcado pelo visitante.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Cienciano marcou 0.67 gols no 1ºT, Juventud sofreu 1.00 gol no 1ºT",
-      "desempenho_2t": "Cienciano marcou 0.67 gols no 2ºT, Juventud sofreu 0.50 gols no 2ºT",
+      "desempenho_1t": "Cienciano marcou 0.67 gols no 1ºT, Juventud marcou 0.50 gols no 1ºT.",
+      "desempenho_2t": "Cienciano marcou 0.67 gols no 2ºT, Juventud marcou 0.50 gols no 2ºT.",
       "contexto_times": {
         "casa": {
           "posicao": "26",
-          "objetivo": "meio_tabela"
+          "objetivo": "titulo"
         },
         "fora": {
           "posicao": "37",
-          "objetivo": "rebaixamento"
+          "objetivo": "sem_objetivo"
         }
       },
-      "motivacao_tecnica": "Cienciano demonstra um bom aproveitamento (67% de vitórias) e uma média de 1.33 gols marcados. Juventud, por outro lado, tem um desempenho fraco (0% de vitórias) e uma média de 1.50 gols sofridos. A posição na tabela e o objetivo de Cienciano em se manter na zona de classificação reforçam o favoritismo.",
+      "motivacao_tecnica": "Cienciano é o favorito com 67% de vitórias e 1.33 gols marcados por jogo. Juventud tem 0% de vitórias e 1.00 gol marcado. Cienciano está em 26º e busca o título, enquanto Juventud está em 37º e sem objetivos claros.",
       "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
       "mando_de_campo": "Cienciano tem 67% de vitórias.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Cienciano marca em média 1.33 gols por jogo, Juventud sofre em média 1.50 gols por jogo.",
-      "momento_gols": "Cienciano marca gols em ambos os tempos, Juventud sofre mais gols no 1º tempo (1.00).",
-      "jogadores_chave": "Carlos John Garcés Acosta (2 gols), Fernando Mimbacas Imaz (2 gols), Leonel David Roldán (2 gols), Pablo Sebastián Lago Albano (2 gols)",
-      "placares_provaveis": "1x0, 2x1, 2x0",
+      "especificidades_gols": "Cienciano marca em média 1.33 gols por jogo. Juventud marca em média 1.00 gol por jogo.",
+      "momento_gols": "Cienciano marca mais no início do jogo (0.67 gols no 1ºT e 0.67 gols no 2ºT). Juventud marca mais no 1ºT (0.50 gols).",
+      "jogadores_chave": "Carlos John Garcés Acosta (2 gols), Fernando Mimbacas Imaz (2 gols), Leonel David Roldán (2 gols).",
+      "placares_provaveis": "2x1, 1x0",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": null,
+      "situacao_saida": "Manter até o final, ou sair se o placar for adverso.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro com base em aproveitamento e desempenho recente.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos que suportam a vitória do mandante.",
+        "gatilho_saida_parcial": "Se o Cienciano abrir 2-0 no placar.",
+        "hard_stop": "Se o Juventud abrir o placar."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Cienciano",
-        "odd_alvo": "1.70",
-        "razao": "Cienciano tem um aproveitamento superior e joga contra um time com desempenho muito fraco.",
+        "odd_alvo": "1.77",
+        "razao": "Favoritismo claro em casa com 67% de vitórias e média de 1.33 gols marcados contra um adversário com 0% de vitórias fora.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-27T16:30:40.403Z"
+      "lay_zebra": {
+        "aplicavel": false,
+        "modo": null,
+        "zebra": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "sub_cenario": null,
+        "modo": null,
+        "favorito": null,
+        "indice_gols_final": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "observacoes": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "razao": "Over 2.5 média 0% (precisa >= 60%).",
+        "indice_over_2_5": "0%",
+        "indice_ambas_marcam": "33%",
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "candidato": null,
+        "razao": "Probabilidade estimada de vitória do favorito 65% (precisa >= 70%).",
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
     },
     {
       "horario": "19:00",
@@ -136,76 +204,110 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Vasco da Gama",
-      "probabilidade_estimada": "60% (Vasco com 50% de vitórias e 2.00 gols marcados vs Barracas Central com 0% de vitórias e 1.00 gol marcado)",
+      "probabilidade_estimada": "60% (favoritismo do Vasco da Gama com base no aproveitamento e posição na tabela)",
       "fair_odd": "1.67",
       "odd_minima_entrada": "1.92",
-      "valor_esperado": "Probabilidade estimada de 60% para a vitória do Vasco da Gama, com fair odd de 1.67. A odd mínima de entrada é 1.92, considerando a margem de segurança para favoritos.",
+      "valor_esperado": "Vasco da Gama é o favorito com 60% de probabilidade estimada. A fair odd é 1.67. Com margem de segurança, a odd mínima de entrada é 1.92. O time da casa tem 50% de vitórias e 2.00 gols marcados por jogo, contra 0% de vitórias e 0.00 gols marcados pelo visitante.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Vasco da Gama marcou 1.00 gol no 1ºT, Barracas Central sofreu 0.50 gols no 1ºT",
-      "desempenho_2t": "Vasco da Gama marcou 1.00 gol no 2ºT, Barracas Central sofreu 0.50 gols no 2ºT",
+      "desempenho_1t": "Vasco da Gama marcou 1.00 gol no 1ºT, Barracas Central marcou 0.00 gols no 1ºT.",
+      "desempenho_2t": "Vasco da Gama marcou 1.00 gol no 2ºT, Barracas Central marcou 0.00 gols no 2ºT.",
       "contexto_times": {
         "casa": {
           "posicao": "5",
-          "objetivo": "acesso"
+          "objetivo": "titulo"
         },
         "fora": {
           "posicao": "11",
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Vasco da Gama demonstra um bom poder ofensivo com 2.00 gols marcados por jogo e 50% de vitórias. Barracas Central tem um desempenho mais modesto, com 0% de vitórias e 1.00 gol marcado. A posição do Vasco na tabela e a busca por acesso reforçam o favoritismo.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
+      "motivacao_tecnica": "Vasco da Gama é o favorito com 50% de vitórias e média de 2.00 gols marcados. Barracas Central tem 0% de vitórias e não marcou gols. Vasco da Gama está em 5º e busca o título, enquanto Barracas Central está em 11º e sem objetivos claros.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
       "mando_de_campo": "Vasco da Gama tem 50% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Vasco da Gama marca em média 2.00 gols por jogo, Barracas Central sofre em média 1.00 gol por jogo.",
-      "momento_gols": "Vasco da Gama marca gols em ambos os tempos (1.00). Barracas Central sofre gols no 1º e 2º tempo (0.50).",
-      "jogadores_chave": "Arilson Edgardeline Fernandes Camati (1 gol, 2 assistências), Claudio Spinelli (1 gol, 1 assistência), José Luis Rodríguez Bebanz (1 gol), Adson Soares (1 gol, 2 assistências)",
-      "placares_provaveis": "1x0, 2x1, 2x0",
+      "especificidades_gols": "Vasco da Gama marca em média 2.00 gols por jogo. Barracas Central não marcou gols.",
+      "momento_gols": "Vasco da Gama marca igualmente nos dois tempos (1.00 gol no 1ºT e 1.00 gol no 2ºT). Barracas Central não marcou gols.",
+      "jogadores_chave": "Arilson Edgardeline Fernandes Camati (1 gol, 2 assistências), Claudio Spinelli (1 gol, 1 assistência), José Luis Rodríguez Bebanz (1 gol).",
+      "placares_provaveis": "2x0, 1x0",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": null,
+      "situacao_saida": "Manter até o final, ou sair se o placar for adverso.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo do Vasco da Gama com base em desempenho ofensivo e posição na tabela.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos que suportam a vitória do mandante.",
+        "gatilho_saida_parcial": "Se o Vasco da Gama abrir 2-0 no placar.",
+        "hard_stop": "Se o Barracas Central abrir o placar."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Vasco da Gama",
-        "odd_alvo": "1.70",
-        "razao": "Vasco da Gama tem um ataque forte e joga contra um time com desempenho defensivo e ofensivo mais limitado.",
+        "odd_alvo": "1.92",
+        "razao": "Favoritismo em casa com 50% de vitórias e média de 2.00 gols marcados contra um adversário que não marcou gols.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-27T16:30:40.403Z"
+      "lay_zebra": {
+        "aplicavel": false,
+        "modo": null,
+        "zebra": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "sub_cenario": null,
+        "modo": null,
+        "favorito": null,
+        "indice_gols_final": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "observacoes": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "razao": "Over 2.5 média 0% (precisa >= 60%).",
+        "indice_over_2_5": "0%",
+        "indice_ambas_marcam": "50%",
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "candidato": null,
+        "razao": "Probabilidade estimada de vitória do favorito 60% (precisa >= 70%).",
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
     },
     {
       "horario": "19:00",
       "liga": "South America Copa Sudamericana",
       "jogo": "Caracas x Botafogo",
       "metodos_aplicados": [
-        "back_favorito"
+        "lay_zebra"
       ],
-      "mercado_principal": "Vitória Botafogo",
-      "probabilidade_estimada": "70% (Botafogo com 100% de vitórias e 3.00 gols marcados vs Caracas com 33% de vitórias e 0.67 gols marcados)",
-      "fair_odd": "1.43",
-      "odd_minima_entrada": "1.64",
-      "valor_esperado": "Probabilidade estimada de 70% para a vitória do Botafogo, com fair odd de 1.43. A odd mínima de entrada é 1.64, considerando a margem de segurança para favoritos.",
+      "mercado_principal": "Lay Vitória Botafogo",
+      "probabilidade_estimada": "20% (probabilidade da zebra Caracas vencer)",
+      "fair_odd": "5.00",
+      "odd_minima_entrada": "6.00",
+      "valor_esperado": "O Botafogo é o claro favorito, com 100% de vitórias e média de 3.00 gols marcados. O Caracas tem 33% de vitórias e média de 0.67 gols marcados. A odd estimada para a zebra é 5.00, e a odd mínima de entrada é 6.00. O Caracas tem um histórico recente de derrotas e pouca capacidade ofensiva.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Caracas marcou 0.00 gols no 1ºT, Botafogo marcou 1.50 gols no 1ºT",
-      "desempenho_2t": "Caracas marcou 0.67 gols no 2ºT, Botafogo marcou 1.50 gols no 2ºT",
+      "desempenho_1t": "Caracas marcou 0.00 gols no 1ºT, Botafogo marcou 1.50 gols no 1ºT.",
+      "desempenho_2t": "Caracas marcou 0.67 gols no 2ºT, Botafogo marcou 1.50 gols no 2ºT.",
       "contexto_times": {
         "casa": {
           "posicao": "29",
@@ -216,41 +318,75 @@
           "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Botafogo apresenta um desempenho avassalador com 100% de vitórias e uma média de 3.00 gols marcados. Caracas, por outro lado, tem um aproveitamento modesto (33% de vitórias) e uma média de 0.67 gols marcados. A posição de liderança e o objetivo de título do Botafogo reforçam o favoritismo.",
+      "motivacao_tecnica": "Botafogo é o favorito absoluto com 100% de vitórias e média de 3.00 gols marcados. Caracas tem apenas 33% de vitórias e média de 0.67 gols marcados. O Botafogo está em 1º e busca o título, enquanto o Caracas está em 29º e sem objetivos claros.",
       "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
-      "mando_de_campo": "Botafogo tem 100% de vitórias.",
+      "mando_de_campo": "Caracas tem 33% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Botafogo marca em média 3.00 gols por jogo, Caracas sofre em média 1.00 gol por jogo.",
-      "momento_gols": "Botafogo marca mais gols no 1º tempo (1.50) e no 2º tempo (1.50). Caracas marca mais gols no 2º tempo (0.67).",
-      "jogadores_chave": "Arthur Cabral (2 gols), Danilo Oliveira (2 gols), Wilfred Correa (3 gols), Néstor Adrián Fernández Palacios (1 gol, 1 assistência)",
-      "placares_provaveis": "0x2, 1x3, 0x3",
+      "especificidades_gols": "Botafogo marca em média 3.00 gols por jogo. Caracas marca em média 0.67 gols por jogo.",
+      "momento_gols": "Botafogo marca mais no 2º tempo (1.50 gols). Caracas marca mais no 2º tempo (0.67 gols).",
+      "jogadores_chave": "Arthur Cabral (2 gols), Wilfred Correa (3 gols), Danilo Oliveira (2 gols).",
+      "placares_provaveis": "0x2, 0x3",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": null,
+      "situacao_saida": "Manter até o final, ou sair se o Caracas abrir o placar.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro do Botafogo com base em desempenho ofensivo e posição na tabela.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Zebra com odd alta e desempenho muito inferior ao favorito.",
+        "gatilho_saida_parcial": "Se o Caracas abrir o placar.",
+        "hard_stop": "Se o Botafogo sofrer um gol."
       },
       "back_favorito": {
+        "aplicavel": false,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "favorito": "Botafogo",
-        "odd_alvo": "1.60",
-        "razao": "Botafogo tem um ataque muito forte e um desempenho impecável, contra um time com dificuldades ofensivas.",
+        "zebra": "Caracas",
+        "odd_zebra_alvo": "6.00",
+        "razao": "Zebra com odd alta (estimada em 5.00) e desempenho muito inferior ao favorito Botafogo (100% de vitórias, 3.00 gols marcados vs 33% de vitórias, 0.67 gols marcados).",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-27T16:30:40.403Z"
+      "over_limite_70": {
+        "aplicavel": false,
+        "sub_cenario": null,
+        "modo": null,
+        "favorito": null,
+        "indice_gols_final": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "observacoes": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "razao": "Over 2.5 média 0% (precisa >= 60%).",
+        "indice_over_2_5": "0%",
+        "indice_ambas_marcam": "33%",
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "candidato": null,
+        "razao": "Probabilidade estimada de vitória do favorito 75% (precisa >= 70%), mas o favorito tem média de 3.00 gols marcados (precisa >= 2.5).",
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
     },
     {
       "horario": "19:00",
@@ -260,117 +396,188 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Racing Club",
-      "probabilidade_estimada": "75% (Racing Club com 0% de vitórias e 2.00 gols marcados vs Independiente Petrolero com 0% de vitórias e 2.00 gols sofridos)",
+      "probabilidade_estimada": "75% (favoritismo do Racing Club com base no aproveitamento e posição na tabela)",
       "fair_odd": "1.33",
       "odd_minima_entrada": "1.53",
-      "valor_esperado": "Probabilidade estimada de 75% para a vitória do Racing Club, com fair odd de 1.33. A odd mínima de entrada é 1.53, considerando a margem de segurança para favoritos.",
+      "valor_esperado": "Racing Club é o favorito com 75% de probabilidade estimada. A fair odd é 1.33. Com margem de segurança, a odd mínima de entrada é 1.53. O time da casa tem 0% de vitórias e 2.00 gols marcados por jogo, contra 0% de vitórias e 0.00 gols marcados pelo visitante. O Racing Club tem um histórico recente de empates e derrotas, mas o Independiente Petrolero tem um desempenho muito frágil fora de casa.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Racing Club marcou 1.50 gols no 1ºT, Independiente Petrolero sofreu 0.50 gols no 1ºT",
-      "desempenho_2t": "Racing Club marcou 0.50 gols no 2ºT, Independiente Petrolero sofreu 1.50 gols no 2ºT",
+      "desempenho_1t": "Racing Club marcou 1.50 gols no 1ºT, Independiente Petrolero marcou 0.00 gols no 1ºT.",
+      "desempenho_2t": "Racing Club marcou 0.50 gols no 2ºT, Independiente Petrolero marcou 0.00 gols no 2ºT.",
       "contexto_times": {
         "casa": {
           "posicao": "9",
-          "objetivo": "meio_tabela"
+          "objetivo": "titulo"
         },
         "fora": {
           "posicao": "43",
-          "objetivo": "rebaixamento"
+          "objetivo": "sem_objetivo"
         }
       },
-      "motivacao_tecnica": "Racing Club, apesar de não ter vitórias nos últimos jogos, demonstra um poder ofensivo considerável com 2.00 gols marcados por jogo e um bom desempenho no primeiro tempo. Independiente Petrolero tem um desempenho defensivo preocupante, com 2.00 gols sofridos por jogo e dificuldades no segundo tempo. A posição na tabela e a necessidade de pontuar para fugir do rebaixamento do Independiente Petrolero podem gerar um jogo mais aberto, mas o favoritismo do Racing Club é claro.",
-      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV alto",
-      "mando_de_campo": "Racing Club tem 0% de vitórias nos últimos jogos, mas com média de 2.00 gols marcados.",
+      "motivacao_tecnica": "Racing Club é o favorito com 0% de vitórias, mas média de 2.00 gols marcados. Independiente Petrolero tem 0% de vitórias e não marcou gols fora. Racing Club está em 9º e busca o título, enquanto Independiente Petrolero está em 43º e sem objetivos claros.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
+      "mando_de_campo": "Racing Club tem 0% de vitórias em casa, mas marcou 2.00 gols por jogo.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Racing Club marca em média 2.00 gols por jogo, Independiente Petrolero sofre em média 2.00 gols por jogo.",
-      "momento_gols": "Racing Club marca mais gols no 1º tempo (1.50). Independiente Petrolero sofre mais gols no 2º tempo (1.50).",
-      "jogadores_chave": "Adrián Emmanuel Martínez (3 gols), Marco Di Cesare (1 gol), Jonathan Ezequiel Cristaldo (1 gol)",
-      "placares_provaveis": "2x1, 3x1, 2x0",
+      "especificidades_gols": "Racing Club marca em média 2.00 gols por jogo. Independiente Petrolero não marcou gols.",
+      "momento_gols": "Racing Club marca mais no 1º tempo (1.50 gols). Independiente Petrolero não marcou gols.",
+      "jogadores_chave": "Adrián Emmanuel Martínez (3 gols), Gabriel Hernán Rojas (1 gol, 2 assistências), Marco Di Cesare (1 gol).",
+      "placares_provaveis": "2x0, 3x0",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": null,
+      "situacao_saida": "Manter até o final, ou sair se o Independiente Petrolero abrir o placar.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo do Racing Club com base em seu poder ofensivo e a fragilidade defensiva do adversário.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos que suportam a vitória do mandante, apesar do histórico recente.",
+        "gatilho_saida_parcial": "Se o Racing Club abrir 2-0 no placar.",
+        "hard_stop": "Se o Independiente Petrolero abrir o placar."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Racing Club",
-        "odd_alvo": "1.55",
-        "razao": "Racing Club tem um ataque forte e enfrenta um time com defesa vulnerável.",
+        "odd_alvo": "1.53",
+        "razao": "Favoritismo em casa com média de 2.00 gols marcados contra um adversário que não marcou gols fora e tem um desempenho muito frágil.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-27T16:30:40.403Z"
+      "lay_zebra": {
+        "aplicavel": false,
+        "modo": null,
+        "zebra": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "sub_cenario": null,
+        "modo": null,
+        "favorito": null,
+        "indice_gols_final": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "observacoes": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "razao": "Over 2.5 média 50% (precisa >= 60%).",
+        "indice_over_2_5": "50%",
+        "indice_ambas_marcam": "100%",
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "candidato": null,
+        "razao": "Probabilidade estimada de vitória do favorito 75% (precisa >= 70%), mas o favorito tem média de 2.00 gols marcados (precisa >= 2.5).",
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
     },
     {
-      "horario": "19:00",
+      "horario": "21:30",
       "liga": "South America Copa Sudamericana",
       "jogo": "River Plate x Blooming",
       "metodos_aplicados": [
         "back_favorito"
       ],
       "mercado_principal": "Vitória River Plate",
-      "probabilidade_estimada": "65% (River Plate com 50% de vitórias e 1.00 gol marcado vs Blooming com 0% de vitórias e 1.00 gol marcado)",
-      "fair_odd": "1.54",
-      "odd_minima_entrada": "1.77",
-      "valor_esperado": "Probabilidade estimada de 65% para a vitória do River Plate, com fair odd de 1.54. A odd mínima de entrada é 1.77, considerando a margem de segurança para favoritos.",
+      "probabilidade_estimada": "70% (favoritismo do River Plate com base no aproveitamento e posição na tabela)",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.64",
+      "valor_esperado": "River Plate é o favorito com 70% de probabilidade estimada. A fair odd é 1.43. Com margem de segurança, a odd mínima de entrada é 1.64. O time da casa tem 50% de vitórias e 1.00 gol marcado por jogo, contra 0% de vitórias e 1.00 gol marcado pelo visitante. O River Plate tem um histórico recente de empates e derrotas, mas o Blooming tem um desempenho muito frágil fora de casa.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "River Plate marcou 0.00 gols no 1ºT, Blooming marcou 0.50 gols no 1ºT",
-      "desempenho_2t": "River Plate marcou 1.00 gol no 2ºT, Blooming marcou 0.50 gols no 2ºT",
+      "desempenho_1t": "River Plate marcou 0.00 gols no 1ºT, Blooming marcou 0.50 gols no 1ºT.",
+      "desempenho_2t": "River Plate marcou 1.00 gol no 2ºT, Blooming marcou 0.50 gols no 2ºT.",
       "contexto_times": {
         "casa": {
           "posicao": "10",
-          "objetivo": "acesso"
+          "objetivo": "titulo"
         },
         "fora": {
           "posicao": "23",
-          "objetivo": "meio_tabela"
+          "objetivo": "sem_objetivo"
         }
       },
-      "motivacao_tecnica": "River Plate tem um aproveitamento de 50% em casa e uma média de 1.00 gol marcado. Blooming, por outro lado, tem um desempenho fraco fora de casa, com 0% de vitórias e uma média de 2.50 gols sofridos. A posição do River Plate na tabela e a busca por acesso reforçam o favoritismo.",
+      "motivacao_tecnica": "River Plate é o favorito com 50% de vitórias e média de 1.00 gol marcado. Blooming tem 0% de vitórias e média de 1.00 gol marcado. River Plate está em 10º e busca o título, enquanto Blooming está em 23º e sem objetivos claros.",
       "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
       "mando_de_campo": "River Plate tem 50% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "River Plate marca em média 1.00 gol por jogo, Blooming sofre em média 2.50 gols por jogo.",
-      "momento_gols": "River Plate marca mais gols no 2º tempo (1.00). Blooming marca mais gols no 1º tempo (0.50) e sofre mais gols no 1º tempo (1.50).",
-      "jogadores_chave": "Maximiliano Salas (1 gol), Maximiliano Eduardo Meza (1 gol), Roberto Carlos Hinojosa Marín (2 gols), Anthony Vásquez Arcila (2 gols)",
-      "placares_provaveis": "1x0, 2x1, 2x0",
+      "especificidades_gols": "River Plate marca em média 1.00 gol por jogo. Blooming marca em média 1.00 gol por jogo.",
+      "momento_gols": "River Plate marca mais no 2º tempo (1.00 gol). Blooming marca mais no 1º tempo (0.50 gols).",
+      "jogadores_chave": "Maximiliano Salas (1 gol), Maximiliano Eduardo Meza (1 gol), Anthony Vásquez Arcila (2 gols).",
+      "placares_provaveis": "1x0, 2x1",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": null,
+      "situacao_saida": "Manter até o final, ou sair se o Blooming abrir o placar.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo do River Plate com base em seu desempenho em casa e a fragilidade defensiva do adversário.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos que suportam a vitória do mandante.",
+        "gatilho_saida_parcial": "Se o River Plate abrir 2-0 no placar.",
+        "hard_stop": "Se o Blooming abrir o placar."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "River Plate",
-        "odd_alvo": "1.70",
-        "razao": "River Plate joga em casa contra um time com histórico fraco fora e defesa vulnerável.",
+        "odd_alvo": "1.64",
+        "razao": "Favoritismo em casa com 50% de vitórias e média de 1.00 gol marcado contra um adversário com 0% de vitórias fora e desempenho frágil.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "modo": null,
+        "zebra": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "sub_cenario": null,
+        "modo": null,
+        "favorito": null,
+        "indice_gols_final": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "observacoes": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "razao": "Over 2.5 média 0% (precisa >= 60%).",
+        "indice_over_2_5": "0%",
+        "indice_ambas_marcam": "50%",
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "candidato": null,
+        "razao": "Probabilidade estimada de vitória do favorito 70% (precisa >= 70%), mas o favorito tem média de 1.00 gol marcado (precisa >= 2.5).",
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
       "confirmacao_visual": null
     },
     {
@@ -381,55 +588,92 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Bragantino",
-      "probabilidade_estimada": "65% (Bragantino com 50% de vitórias e 1.50 gols marcados vs Carabobo com 50% de vitórias e 1.00 gol marcado)",
+      "probabilidade_estimada": "65% (favoritismo do Bragantino com base no aproveitamento e posição na tabela)",
       "fair_odd": "1.54",
       "odd_minima_entrada": "1.77",
-      "valor_esperado": "Probabilidade estimada de 65% para a vitória do Bragantino, com fair odd de 1.54. A odd mínima de entrada é 1.77, considerando a margem de segurança para favoritos.",
+      "valor_esperado": "Bragantino é o favorito com 65% de probabilidade estimada. A fair odd é 1.54. Com margem de segurança, a odd mínima de entrada é 1.77. O time da casa tem 50% de vitórias e 1.50 gols marcados por jogo, contra 50% de vitórias e 1.00 gol marcado pelo visitante. O Bragantino tem um histórico recente de empates e derrotas, mas o Carabobo tem um desempenho frágil fora de casa.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Bragantino marcou 0.50 gols no 1ºT, Carabobo marcou 0.50 gols no 1ºT",
-      "desempenho_2t": "Bragantino marcou 1.00 gol no 2ºT, Carabobo marcou 0.50 gols no 2ºT",
+      "desempenho_1t": "Bragantino marcou 0.50 gols no 1ºT, Carabobo marcou 0.50 gols no 1ºT.",
+      "desempenho_2t": "Bragantino marcou 1.00 gol no 2ºT, Carabobo marcou 0.50 gols no 2ºT.",
       "contexto_times": {
         "casa": {
           "posicao": "6",
-          "objetivo": "acesso"
+          "objetivo": "titulo"
         },
         "fora": {
           "posicao": "30",
-          "objetivo": "meio_tabela"
+          "objetivo": "sem_objetivo"
         }
       },
-      "motivacao_tecnica": "Bragantino tem um aproveitamento de 50% em casa e uma média de 1.50 gols marcados. Carabobo também tem 50% de vitórias, mas com uma média de 1.00 gol marcado e uma defesa que sofre 1.50 gols por jogo. O Bragantino demonstra um poder ofensivo superior e a busca por acesso reforça o favoritismo.",
+      "motivacao_tecnica": "Bragantino é o favorito com 50% de vitórias e média de 1.50 gols marcados. Carabobo tem 50% de vitórias e média de 1.00 gol marcado. Bragantino está em 6º e busca o título, enquanto Carabobo está em 30º e sem objetivos claros.",
       "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
       "mando_de_campo": "Bragantino tem 50% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Bragantino marca em média 1.50 gols por jogo, Carabobo sofre em média 1.50 gols por jogo.",
-      "momento_gols": "Bragantino marca mais gols no 2º tempo (1.00). Carabobo marca gols em ambos os tempos (0.50).",
-      "jogadores_chave": "Isidro Miguel Pitta Saldívar (2 gols), Rodrigo Huendra Almeida Mendonça (2 gols), Fernando (2 gols), Edson Tortolero (2 gols)",
-      "placares_provaveis": "1x0, 2x1, 2x0",
+      "especificidades_gols": "Bragantino marca em média 1.50 gols por jogo. Carabobo marca em média 1.00 gol por jogo.",
+      "momento_gols": "Bragantino marca mais no 2º tempo (1.00 gol). Carabobo marca mais no 1º tempo (0.50 gols).",
+      "jogadores_chave": "Isidro Miguel Pitta Saldívar (2 gols), Rodrigo Huendra Almeida Mendonça (2 gols), Fernando (2 gols).",
+      "placares_provaveis": "2x1, 1x0",
       "momento_entrada": "Pré-jogo",
-      "situacao_saida": null,
+      "situacao_saida": "Manter até o final, ou sair se o Carabobo abrir o placar.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo do Bragantino com base em seu desempenho ofensivo e posição na tabela.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos que suportam a vitória do mandante.",
+        "gatilho_saida_parcial": "Se o Bragantino abrir 2-0 no placar.",
+        "hard_stop": "Se o Carabobo abrir o placar."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Bragantino",
-        "odd_alvo": "1.70",
-        "razao": "Bragantino tem um ataque mais consistente e joga em casa contra um time com defesa que sofre gols.",
+        "odd_alvo": "1.77",
+        "razao": "Favoritismo em casa com 50% de vitórias e média de 1.50 gols marcados contra um adversário com desempenho frágil fora.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "modo": null,
+        "zebra": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "sub_cenario": null,
+        "modo": null,
+        "favorito": null,
+        "indice_gols_final": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "observacoes": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "razao": "Over 2.5 média 0% (precisa >= 60%).",
+        "indice_over_2_5": "0%",
+        "indice_ambas_marcam": "50%",
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "candidato": null,
+        "razao": "Probabilidade estimada de vitória do favorito 65% (precisa >= 70%).",
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
       "confirmacao_visual": null
     }
   ],
