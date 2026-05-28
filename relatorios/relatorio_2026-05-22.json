@@ -1,375 +1,279 @@
 {
   "data": "2026-05-22",
   "variante": "",
-  "gerado_em": "2026-05-23T01:16:19.205451",
+  "gerado_em": "2026-05-28T18:46:31.522549",
   "total_partidas_analisadas": 88,
   "total_partidas_disponiveis": 88,
   "entradas": [
     {
-      "horario": "09:30",
-      "liga": "Bulgaria First League",
-      "jogo": "Slavia Sofia x Montana",
+      "horario": "08:45",
+      "liga": "Croatia Druga HNL",
+      "jogo": "Sesvete x Bijelo Brdo",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.80",
-      "fair_odd_calculada": "1.60",
-      "valor_esperado": "+12.5% EV — odd 1.80 vs Fair Odd 1.60",
+      "mercado_principal": "Vitória Sesvete",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.87",
+      "valor_esperado": "Sesvete tem 50% de vitórias e 63% de aproveitamento em casa, contra 19% de vitórias e 19% de aproveitamento do Bijelo Brdo. A probabilidade estimada de vitória do Sesvete é de 60%, com fair odd de 1.67. A odd mínima de entrada é 1.87.",
       "mercado_secundario": null,
-      "desempenho_1t": "Casa: 0.78 Gols Marcados / Visitante: 0.56 Gols Sofridos",
-      "desempenho_2t": "Casa: 0.50 Gols Marcados / Visitante: 0.94 Gols Sofridos",
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Sesvete marca 0.56 gols no 1ºT, Bijelo Brdo marca 0.13 gols no 1ºT.",
+      "desempenho_2t": "Sesvete marca 0.81 gols no 2ºT, Bijelo Brdo marca 0.63 gols no 2ºT.",
       "contexto_times": {
         "casa": {
-          "posicao": "7º",
+          "posicao": "4",
           "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": "15º",
-          "objetivo": "rebaixamento"
+          "posicao": "9",
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Ambas as equipes apresentam um bom percentual de jogos com over 2.5 gols (44% para ambas), o que sugere potencial para gols. A média combinada de gols marcados e sofridos (2.39 + 2.11 = 4.50) é alta, indicando um cenário propício para um jogo com mais de 2.5 gols. Slavia Sofia tem um ataque razoável e Montana sofre muitos gols, criando um desequilíbrio que pode levar a gols. A liga em si não tem um padrão tático muito rígido, o que pode favorecer o caos e, consequentemente, gols.",
-      "coeficiente_regularidade": "Casa: CV baixo (vitórias e derrotas) / Visitante: CV moderado (maioria empates/derrotas)",
-      "mando_de_campo": "Slavia Sofia tem 7 vitórias em 18 jogos em casa, com média de 1.28 gols marcados.",
+      "motivacao_tecnica": "Sesvete é o 4º colocado com 50% de vitórias e 63% de aproveitamento em casa. Bijelo Brdo é o 9º colocado com 19% de vitórias e 19% de aproveitamento fora. O favoritismo do Sesvete é claro.",
+      "coeficiente_regularidade": "Casa: CV baixo | Visitante: CV moderado",
+      "mando_de_campo": "Sesvete faz 63% dos pontos em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Slavia Sofia marca com mais frequência entre 16-30 e 46-60 min. Montana sofre mais entre 76-90 min.",
-      "momento_gols": "Janela de gols pode se estender por todo o jogo.",
-      "jogadores_chave": "Yanis Guermouche (Slavia Sofia) com 6 gols e Boris Aleksandrov Dimitrov (Montana) com 9 gols são os principais artilheiros e decisores.",
-      "placares_provaveis": "2x1, 3x1",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Cash-out se o placar chegar a 3 gols antes dos 70 minutos.",
-      "stake_recomendada": "1%",
+      "desfalques_chave": "sem desfalques chave mencionados",
+      "especificidades_gols": "Sesvete marca mais gols no 2º tempo (0.81) e Bijelo Brdo marca mais gols no 1º tempo (0.56).",
+      "momento_gols": "Sesvete: 61-75min (27%), 76-90min (33%). Bijelo Brdo: 0-15min (8%), 61-75min (42%).",
+      "jogadores_chave": "Ivan Šaranić (Sesvete) - 14 gols; Petar Korov (Bijelo Brdo) - 4 gols.",
+      "placares_provaveis": "2x1, 1x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Apesar de ser um campeonato menor, os dados estatísticos de gols indicam uma tendência clara para o over 2.5.",
-        "gatilho_saida_parcial": "Se o jogo estiver 0x0 no intervalo, reavaliar a aposta.",
-        "hard_stop": "Perda total se o placar não atingir 3 gols até os 80 minutos."
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
       },
       "back_favorito": {
-        "aplicavel": null
-      },
-      "lay_zebra": {
-        "aplicavel": null
-      },
-      "over_limite_70": {
-        "aplicavel": null
-      },
-      "back_2x2": {
-        "aplicavel": null
-      },
-      "back_goleada": {
-        "aplicavel": null
-      },
-      "over_golos": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Ambas as equipes apresentam estatísticas que indicam uma boa probabilidade de gols em suas partidas. O Slavia Sofia marca em média 1.28 gols por jogo e sofre 1.11. Já o Montana marca 0.50 gols e sofre 1.61. A média total de gols nas partidas de ambos é superior a 2.00, e há um percentual razoável de jogos com Over 2.5.",
-        "odd_alvo": "1.80",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "1%"
-      },
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "11:00",
-      "liga": "Croatia Prva HNL",
-      "jogo": "Osijek x Slaven Koprivnica",
-      "metodos_aplicados": [
-        "over_golos"
-      ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.71",
-      "fair_odd_calculada": "2.13",
-      "valor_esperado": "+20.5% EV — odd 1.71 vs Fair Odd 2.13",
-      "mercado_secundario": null,
-      "desempenho_1t": "Osijek: 3 Gols Marcados, 12 Gols Sofridos (18% Over 1.5 HT). Slaven Koprivnica: 12 Gols Marcados, 13 Gols Sofridos (47% Over 1.5 HT).",
-      "desempenho_2t": "Osijek: 7 Gols Marcados, 21 Gols Sofridos (35% Over 1.5 2nd Half). Slaven Koprivnica: 8 Gols Marcados, 21 Gols Sofridos (35% Over 1.5 2nd Half).",
-      "contexto_times": {
-        "casa": {
-          "posicao": "10",
-          "objetivo": "meio_tabela"
-        },
-        "fora": {
-          "posicao": "9",
-          "objetivo": "meio_tabela"
-        }
-      },
-      "motivacao_tecnica": "Osijek e Slaven Koprivnica apresentam um histórico recente com alta propensão a gols. O Osijek tem 2.00 gols marcados e 1.18 sofridos por jogo em média, com 71% de seus jogos terminando em Over 0.5 gols no 1º tempo e 59% em Over 1.5 gols no geral. O Slaven Koprivnica, por sua vez, tem uma média de 1.18 gols marcados e 2.00 sofridos, com 82% de seus jogos com Over 0.5 gols no 1º tempo e 94% em Over 1.5 gols. A média total de gols nos jogos do Osijek é de 1.71, e do Slaven Koprivnica é de 3.18. A análise sugere que ambos os times têm uma defesa frágil e ataques capazes de furá-las, indicando um potencial de placar elástico. A odd de 1.71 para Over 2.5 gols parece oferecer um bom valor comparado à fair odd calculada.",
-      "coeficiente_regularidade": "Casa: CV alto. Visitante: CV alto.",
-      "mando_de_campo": "Osijek: 0.94 pontos por jogo em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Ambos os times marcam e sofrem gols regularmente, com destaque para o Slaven Koprivnica que tem uma defesa muito vazada. O Osijek também apresenta fragilidades defensivas.",
-      "momento_gols": "Os jogos do Osijek têm picos de gols no final (40% entre 76-90min). Os jogos do Slaven Koprivnica têm um pico significativo no primeiro tempo (40% entre 31-45min) e também no final (35% entre 76-90min).",
-      "jogadores_chave": "Nail Omerović (Osijek - 8 Gols), Josip Mitrović (Slaven Koprivnica - 8 Gols), Adriano Jagušić (Slaven Koprivnica - 7 Gols).",
-      "placares_provaveis": "2-1, 3-1, 2-2",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Acompanhar o desenvolvimento da partida e garantir lucro parcial se o placar se encaminhar para um Over 2.5 gols.",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "O valor esperado positivo e a tendência estatística justificam a entrada pré-jogo.",
-        "gatilho_saida_parcial": "Gol precoce ou placar se mantendo 0x0 até os 60 minutos.",
-        "hard_stop": "Perda de dois gols no primeiro tempo sem resposta clara."
-      },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "over_golos": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Alta média de gols nos jogos de ambos os times, com ambos marcando e sofrendo gols. O Osijek tem 1.71 gols totais e o Slaven Koprivnica 3.18 gols totais.",
-        "odd_alvo": "1.71",
+        "favorito": "Sesvete",
+        "odd_alvo": "1.87",
+        "razao": "Favoritismo claro do Sesvete em casa contra um adversário com desempenho inferior.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "12:00",
-      "liga": "Serbia Prva Liga",
-      "jogo": "Stepojevac Vaga x FAP",
-      "metodos_aplicados": [
-        "over_golos"
-      ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "2.05",
-      "fair_odd_calculada": null,
-      "valor_esperado": null,
-      "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
-      "contexto_times": {
-        "casa": {
-          "posicao": "14",
-          "objetivo": "rebaixamento"
-        },
-        "fora": {
-          "posicao": "13",
-          "objetivo": "rebaixamento"
-        }
-      },
-      "motivacao_tecnica": "Ambos os times lutam contra o rebaixamento e possuem estatísticas de gols totais consideráveis (3.05 para FAP e 2.11 para Stepojevac Vaga). O FAP tem 53% de Over 2.5 gols, enquanto Stepojevac Vaga tem 39%. A média de gols sofridos pelo FAP (2.00) e Stepojevac Vaga (1.11) indica propensão a gols.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": null,
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "1%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Luta contra o rebaixamento e médias de gols totais elevadas para ambos os times.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
-      },
-      "back_favorito": null,
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "over_golos": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Apesar de estarem na zona de rebaixamento, ambos os times apresentam uma média de gols totais considerável (3.05 para FAP e 2.11 para Stepojevac Vaga), com o FAP tendo um percentual mais alto de Over 2.5 gols.",
-        "odd_alvo": "2.05",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "1%"
-      },
       "confirmacao_visual": null
     },
     {
-      "horario": "12:00",
-      "liga": "Slovenia 2 SNL",
-      "jogo": "Nafta x Triglav",
+      "horario": "10:00",
+      "liga": "Azerbaijan Premyer Liqası",
+      "jogo": "Turan x Sabah",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.75",
-      "fair_odd_calculada": null,
-      "valor_esperado": null,
+      "mercado_principal": "Vitória Sabah",
+      "probabilidade_estimada": "60% (probabilidade estimada de vitória do Sabah)",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "valor_esperado": "Prob. 60% → fair 1.67; com margem de segurança, só entrar acima de 1.92. Sabah tem melhor aproveitamento e média de gols marcados.",
       "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Turan venceu 53% do 1ºT, Sabah venceu 67% do 1ºT",
+      "desempenho_2t": "Turan venceu 27% do 2ºT, Sabah venceu 53% do 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": "2",
-          "objetivo": "acesso"
+          "posicao": "3",
+          "objetivo": "titulo"
         },
         "fora": {
-          "posicao": "2",
-          "objetivo": "acesso"
+          "posicao": "1",
+          "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Nafta e Triglav são os líderes da Slovenia 2 SNL, com alta média de gols totais (3.43 e 3.00 respectivamente). Ambos os times apresentam altos percentuais de Over 2.5 gols (71% e 50%) e uma grande quantidade de gols marcados e sofridos.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": null,
+      "motivacao_tecnica": "Sabah é o favorito com melhor aproveitamento (80% vs 60%) e média de gols marcados (2.53 vs 1.40). Ambos os times brigam pelo título, mas o Sabah demonstra maior consistência.",
+      "coeficiente_regularidade": "Casa: CV moderado (60% vitórias) / Visitante: CV alto (80% vitórias)",
+      "mando_de_campo": "Turan tem 60% de aproveitamento em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "1%",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "sem informações",
+      "momento_gols": "Turan marca mais gols entre 46-60min. Sabah marca mais gols entre 0-15min e 46-60min.",
+      "jogadores_chave": "sem informações",
+      "placares_provaveis": "sem informações",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "sem informações",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Ambos os times são líderes e apresentam médias de gols totais muito elevadas, com altas porcentagens de Over 2.5 gols.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
+        "gatilho_saida_parcial": "sem informações",
+        "hard_stop": "sem informações"
       },
-      "back_favorito": null,
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Sabah",
+        "odd_alvo": "1.95",
+        "razao": "Sabah é favorito com melhor aproveitamento, média de gols e ambos brigam pelo título.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "over_golos": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Nafta e Triglav ocupam as primeiras posições da liga, com médias de gols totais muito altas (3.43 e 3.00 respectivamente) e altos percentuais de jogos com mais de 2.5 gols (71% e 50%).",
-        "odd_alvo": "1.75",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "1%"
-      },
       "confirmacao_visual": null
     },
     {
       "horario": "12:00",
-      "liga": "Slovenia 2 SNL",
-      "jogo": "Ilirija x Beltinci",
+      "liga": "Belarus First League",
+      "jogo": "Shakhtyor Soligorsk x BATE II",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 1.5 gols",
-      "odd_principal": "1.50",
-      "fair_odd_calculada": null,
-      "valor_esperado": null,
+      "mercado_principal": "Vitória Shakhtyor Soligorsk",
+      "probabilidade_estimada": "65% (probabilidade estimada de vitória do Shakhtyor Soligorsk)",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.77",
+      "valor_esperado": "Prob. 65% → fair 1.54; com margem de segurança, só entrar acima de 1.77. Shakhtyor Soligorsk tem melhor aproveitamento e média de gols marcados, além de não sofrer gols.",
       "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Shakhtyor Soligorsk venceu 67% do 1ºT, BATE II venceu 0% do 1ºT",
+      "desempenho_2t": "Shakhtyor Soligorsk venceu 33% do 2ºT, BATE II venceu 50% do 2ºT",
       "contexto_times": {
         "casa": {
+          "posicao": "3",
+          "objetivo": "titulo"
+        },
+        "fora": {
           "posicao": "12",
           "objetivo": "meio_tabela"
-        },
-        "fora": {
-          "posicao": "3",
-          "objetivo": "acesso"
         }
       },
-      "motivacao_tecnica": "Beltinci é o terceiro colocado e demonstra força ofensiva com 1.57 gols marcados e apenas 0.57 sofridos. Ilirija sofre 1.71 gols por jogo. As estatísticas de Over 1.5 gols são altas para ambos os times (86% e 64%).",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": null,
+      "motivacao_tecnica": "Shakhtyor Soligorsk é o favorito com melhor aproveitamento (67% vs 25%), média de gols marcados (2.67 vs 1.50) e não sofreu gols em casa. A posição na tabela (3º vs 12º) também reforça o favoritismo.",
+      "coeficiente_regularidade": "Casa: CV alto (67% vitórias) / Visitante: CV baixo (25% vitórias)",
+      "mando_de_campo": "Shakhtyor Soligorsk tem 100% de aproveitamento em casa e não sofreu gols.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": null,
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "sem informações",
+      "momento_gols": "Shakhtyor Soligorsk marca mais gols entre 0-15min e 16-30min. BATE II marca mais gols entre 46-60min e 76-90min.",
+      "jogadores_chave": "sem informações",
+      "placares_provaveis": "sem informações",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "sem informações",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Beltinci tem um forte poder ofensivo e Ilirija demonstra fragilidade defensiva, o que tende a gerar gols.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
+        "gatilho_saida_parcial": "sem informações",
+        "hard_stop": "sem informações"
       },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "over_golos": {
+      "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "linha": "over_1.5",
-        "mercado_sugerido": "Mais de 1.5 gols",
-        "razao": "Beltinci tem um ataque prolífico (1.57 gols marcados) e uma defesa sólida (0.57 gols sofridos), enquanto Ilirija sofre uma média de 1.71 gols. Ambos os times apresentam altos percentuais de Over 1.5 gols (86% e 64%).",
-        "odd_alvo": "1.50",
+        "favorito": "Shakhtyor Soligorsk",
+        "odd_alvo": "1.80",
+        "razao": "Shakhtyor Soligorsk é favorito com melhor aproveitamento, média de gols e excelente desempenho em casa.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "12:00",
-      "liga": "Slovenia 2 SNL",
-      "jogo": "Bilje x Brinje-Grosuplje",
-      "metodos_aplicados": [
-        "over_golos"
-      ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.85",
-      "fair_odd_calculada": null,
-      "valor_esperado": null,
-      "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
-      "contexto_times": {
-        "casa": {
-          "posicao": "9",
-          "objetivo": "meio_tabela"
-        },
-        "fora": {
-          "posicao": "4",
-          "objetivo": "acesso"
-        }
-      },
-      "motivacao_tecnica": "Brinje-Grosuplje tem um ataque poderoso, com 2.21 gols marcados por jogo. Bilje sofre 1.00 gol por jogo, mas seu histórico de 29% em Over 2.5 gols, combinado com a força ofensiva do visitante, sugere um jogo com potencial para gols. A média total de gols de Brinje-Grosuplje é 3.35.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": null,
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "1%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Brinje-Grosuplje tem um ataque muito forte, o que tende a gerar muitos gols, mesmo com a defesa do Bilje não sendo a pior.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
-      },
-      "back_favorito": null,
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "over_golos": {
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "13:00",
+      "liga": "Denmark 1st Division",
+      "jogo": "Aarhus Fremad x AaB",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Aarhus Fremad",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "valor_esperado": "Aarhus Fremad tem 60% de probabilidade de vitória, com fair odd de 1.67. A odd mínima de entrada é 1.92.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Aarhus Fremad marca 0.87 gols no 1ºT, sofre 0.40. AaB marca 0.47 gols no 1ºT, sofre 0.93.",
+      "desempenho_2t": "Aarhus Fremad marca 1.00 gols no 2ºT, sofre 0.60. AaB marca 0.87 gols no 2ºT, sofre 0.47.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "7",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "7",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Aarhus Fremad tem um aproveitamento ligeiramente superior em casa (1.53 pontos/jogo) comparado ao desempenho fora de casa do AaB (1.20 pontos/jogo). Ambos os times estão na mesma posição na tabela, indicando um equilíbrio, mas o mando de campo do Aarhus Fremad é um fator a ser considerado. A média de gols marcados pelo Aarhus Fremad (1.87) é superior à do AaB (1.33).",
+      "coeficiente_regularidade": "Casa: CV moderado (40% vitórias) / Visitante: CV baixo (27% vitórias)",
+      "mando_de_campo": "Aarhus Fremad tem 7 vitórias em 15 jogos em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Aarhus Fremad marca mais gols no 2º tempo (1.00) e no final do jogo (7 gols entre 76-90min). AaB distribui melhor seus gols ao longo da partida.",
+      "momento_gols": "Aarhus Fremad: 61-75min (5 gols), 76-90min (7 gols). AaB: 76-90min (6 gols).",
+      "jogadores_chave": "Kasper Andersen (11 gols), Magnus Kaastrup Larsen (6 gols) para Aarhus Fremad. Kelvin Pius John (7 gols), Mathias Nordestgaard Kubel (7 gols), Kornelius Normann Hansen (9 gols), Nicklas Helenius (10 gols) para AaB.",
+      "placares_provaveis": "2x1, 1x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Se o Aarhus Fremad abrir o placar, considerar manter.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo leve baseado em dados de mando e ataque.",
+        "gatilho_saida_parcial": "Gol do AaB.",
+        "hard_stop": "Gol do AaB."
+      },
+      "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Brinje-Grosuplje possui um ataque muito forte com 2.21 gols marcados por jogo e uma média total de 3.35 gols. Bilje tem uma defesa razoável, mas a capacidade ofensiva do visitante justifica a aposta em Over 2.5 gols.",
-        "odd_alvo": "1.85",
+        "favorito": "Aarhus Fremad",
+        "odd_alvo": "1.92",
+        "razao": "Favoritismo leve baseado em mando de campo e maior média de gols marcados.",
         "gatilho_ao_vivo": null,
-        "stake_recomendada": "1%"
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "modo": null,
+        "zebra": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "modo": "ao_vivo",
+        "favorito": null,
+        "indice_gols_final": "Aarhus Fremad: 61-75min: 18% | 75-90min: 25%. AaB: 61-75min: 15% | 75-90min: 30%.",
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "observacoes": "Não há dados suficientes para aplicar este método com confiança, pois o índice de gols na reta final não é consistentemente alto para ambos os times."
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "razao": null,
+        "indice_over_2_5": "Aarhus Fremad: 60% | AaB: 47%. Média: 53.5%. Precisa de >= 60%.",
+        "indice_ambas_marcam": "Aarhus Fremad: 53% | AaB: 60%. Média: 56.5%. Precisa de >= 60%.",
+        "indice_over_ht": "Aarhus Fremad: 60% | AaB: 47%. Média: 53.5%. Precisa de >= 70%.",
+        "modo": "pre_jogo",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
       },
       "confirmacao_visual": null
     },
@@ -378,250 +282,58 @@
       "liga": "Austria Bundesliga",
       "jogo": "Ried x Rapid Wien",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.85",
-      "fair_odd_calculada": "2.00",
-      "valor_esperado": "-7.5% EV — odd 1.85 vs Fair Odd 2.00",
+      "mercado_principal": "Vitória Rapid Wien",
+      "probabilidade_estimada": "55% (probabilidade estimada de vitória do Rapid Wien)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "valor_esperado": "Prob. 55% → fair 1.82; com margem de segurança, só entrar acima de 2.09. Rapid Wien tem melhor aproveitamento e posição na tabela.",
       "mercado_secundario": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Ried venceu 35% do 1ºT, Rapid Wien venceu 25% do 1ºT",
+      "desempenho_2t": "Ried venceu 41% do 2ºT, Rapid Wien venceu 38% do 2ºT",
       "contexto_times": {
         "casa": {
+          "posicao": "6",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
           "posicao": "3",
           "objetivo": "titulo"
-        },
-        "fora": {
-          "posicao": "6",
-          "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "Ambas as equipes possuem bons índices de Over 2.5 gols (Ried 47%, Rapid Wien 38%). A média total de gols combinada é alta (2.47 + 2.37 = 4.84). O Ried tem um forte desempenho ofensivo em casa, enquanto o Rapid Wien demonstra capacidade de marcar fora. A odd para Over 2.5 parece oferecer valor.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Ried tem um bom aproveitamento em casa.",
+      "motivacao_tecnica": "Rapid Wien é o favorito claro com melhor aproveitamento (53% vs 31%) e posição na tabela (3º vs 6º). A motivação do Rapid Wien em brigar pelo título reforça o favoritismo.",
+      "coeficiente_regularidade": "Casa: CV moderado (53% vitórias) / Visitante: CV alto (53% vitórias)",
+      "mando_de_campo": "Ried tem 53% de aproveitamento em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Ambos marcam e sofrem gols de forma equilibrada durante a partida.",
-      "momento_gols": "Maiores picos de gols entre 31-45min e 76-90min para Ried. Para Rapid Wien, 31-45min e 61-75min.",
-      "jogadores_chave": "Kingstone Mutandwa (Ried), Ercan Kara (Rapid Wien)",
-      "placares_provaveis": "2x1, 1x2, 2x2",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "sem informações",
+      "momento_gols": "Ried marca mais gols entre 31-45min e 76-90min. Rapid Wien marca mais gols entre 61-75min.",
+      "jogadores_chave": "sem informações",
+      "placares_provaveis": "sem informações",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Monitorar o score no HT. Se empatado 0x0, considerar sair. Se 1x1 ou mais, manter.",
-      "stake_recomendada": "1%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Dados estatísticos indicam alta probabilidade de Over 2.5.",
-        "gatilho_saida_parcial": "Placar de 0x0 ao intervalo.",
-        "hard_stop": "Perda total se o placar não atingir 3 gols até os 75 minutos."
-      },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "over_golos": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Ambas as equipes demonstram um histórico consistente de jogos com mais de 2.5 gols, com médias combinadas elevadas e boa produção ofensiva. O cenário tático sugere um confronto aberto.",
-        "odd_alvo": "1.85",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "1%"
-      },
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "14:30",
-      "liga": "Romania Liga I",
-      "jogo": "CFR Cluj x Argeș",
-      "metodos_aplicados": [
-        "over_golos"
-      ],
-      "mercado_principal": "Mais de 1.5 gols",
-      "odd_principal": "1.55",
-      "fair_odd_calculada": null,
-      "valor_esperado": null,
-      "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
-      "contexto_times": {
-        "casa": {
-          "posicao": "4",
-          "objetivo": "titulo"
-        },
-        "fora": {
-          "posicao": "5",
-          "objetivo": "libertadores"
-        }
-      },
-      "motivacao_tecnica": "CFR Cluj e Argeș estão próximos na tabela e brigam por posições altas. O CFR Cluj tem uma média de 2.90 gols totais, com 1.74 marcados e 1.16 sofridos. O Argeș tem 2.22 gols totais, com 1.11 marcados e 1.11 sofridos. As estatísticas de Over 1.5 gols são altas para ambos (79% e 63%).",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": null,
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": null,
+      "situacao_saida": "sem informações",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Ambos os times com forte tendência para gols, especialmente o CFR Cluj.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
-      },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "over_golos": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "linha": "over_1.5",
-        "mercado_sugerido": "Mais de 1.5 gols",
-        "razao": "O CFR Cluj tem uma média de 2.90 gols totais por jogo e 1.74 gols marcados. O Argeș também contribui para a média, com 1.11 gols marcados e 1.11 sofridos. Ambas as equipes apresentam altos percentuais de Over 1.5 gols.",
-        "odd_alvo": "1.55",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
-      },
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "15:00",
-      "liga": "Peru Segunda División",
-      "jogo": "Ayacucho x Comerciantes",
-      "metodos_aplicados": [
-        "over_golos"
-      ],
-      "mercado_principal": "Mais de 1.5 gols",
-      "odd_principal": "null",
-      "fair_odd_calculada": "null",
-      "valor_esperado": "null",
-      "mercado_secundario": "null",
-      "odd_secundaria": "null",
-      "desempenho_1t": "Casa sofre 1.00 no 1ºT. Fora tem 0 gols marcados no 1ºT e sofre 0.33.",
-      "desempenho_2t": "Casa marca 0.67 no 2ºT, Fora marca 1.00 no 2ºT.",
-      "contexto_times": {
-        "casa": {
-          "posicao": "17",
-          "objetivo": "rebaixamento"
-        },
-        "fora": {
-          "posicao": "6",
-          "objetivo": "acesso"
-        }
-      },
-      "motivacao_tecnica": "Ayacucho (17º) e Comerciantes (6º). O Ayacucho tem uma média de 2.34 gols totais, com 100% de Over 0.5 e 67% de Over 1.5. Sofrem muitos gols (1.67). Comerciantes tem média de 1.67 gols totais, 67% de Over 0.5 e 67% de Over 1.5. O Ayacucho sofreu muitos gols no 1º tempo (3 de 3 jogos), e o Comerciantes tem uma defesa mais sólida no geral (0.67 sofridos). A segunda etapa do Ayacucho tem 0.67 gols marcados e 0.67 sofridos, enquanto Comerciantes tem 1.00 marcado e 0.33 sofrido.",
-      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV moderado",
-      "mando_de_campo": "Casa tem 0.33 pontos por jogo.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "Sem jogadores disponíveis para ambas as equipes.",
-      "especificidades_gols": "Ayacucho tem dificuldade em marcar no 1º tempo (0 gols) e sofre muitos gols (1.00), enquanto Comerciantes tem mais dificuldade em finalizar (7.33 total) mas converte melhor.",
-      "momento_gols": "Ayacucho marca mais no 2º tempo. Comerciantes também.",
-      "jogadores_chave": "Sem jogadores disponíveis.",
-      "placares_provaveis": "1x1, 2x1",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Se o jogo se mostrar muito truncado e sem chances claras.",
-      "stake_recomendada": "1%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Apesar da baixa média geral, a forte tendência de Over 0.5 e 1.5 do Ayacucho, somada à necessidade de pontuar do Comerciantes, pode gerar um jogo com gols, especialmente na segunda etapa.",
-        "gatilho_saida_parcial": "Placar 0x0 aos 60 minutos com poucas finalizações.",
-        "hard_stop": "Sem informações disponíveis"
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
+        "gatilho_saida_parcial": "sem informações",
+        "hard_stop": "sem informações"
       },
       "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
-      "over_limite_70": {
-        "aplicavel": false
-      },
-      "back_2x2": {
-        "aplicavel": false
-      },
-      "back_goleada": {
-        "aplicavel": false
-      },
-      "over_golos": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "linha": "over_1.5",
-        "mercado_sugerido": "Mais de 1.5 gols",
-        "razao": "Ayacucho tem 100% de Over 0.5 gols e 67% de Over 1.5 gols, com média de 2.34 gols totais. Comerciantes, apesar de menor média, tem 67% de Over 0.5 e 1.5 gols. A defesa frágil do Ayacucho (1.67 sofridos) é um fator.",
-        "odd_alvo": "1.70",
-        "gatilho_ao_vivo": "null",
-        "stake_recomendada": "1%"
+        "favorito": "Rapid Wien",
+        "odd_alvo": "2.10",
+        "razao": "Rapid Wien é favorito claro com melhor aproveitamento e posição na tabela, além de motivação por título.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "confirmacao_visual": {
-        "aplicavel": false
-      }
-    },
-    {
-      "horario": "15:00",
-      "liga": "Serbia SuperLiga",
-      "jogo": "Red Star Belgrade x OFK Beograd",
-      "metodos_aplicados": [
-        "over_golos"
-      ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.65",
-      "fair_odd_calculada": null,
-      "valor_esperado": null,
-      "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
-      "contexto_times": {
-        "casa": {
-          "posicao": "1",
-          "objetivo": "titulo"
-        },
-        "fora": {
-          "posicao": "4",
-          "objetivo": "libertadores"
-        }
-      },
-      "motivacao_tecnica": "Red Star Belgrade é o líder disparado, com uma média impressionante de 3.94 gols totais e 3.33 gols marcados. OFK Beograd também tem uma média alta de 2.94 gols totais. As estatísticas de Over 2.5 gols são muito altas para ambos (78% e 56%).",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": null,
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Red Star Belgrade tem um poder ofensivo avassalador e ambos os times apresentam alta média de gols totais.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
-      },
-      "back_favorito": null,
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "over_golos": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "O Red Star Belgrade lidera o campeonato com uma média de 3.94 gols totais por partida, marcando em média 3.33 gols. OFK Beograd também contribui com 2.94 gols totais em seus jogos. As estatísticas de Over 2.5 gols são extremamente altas para ambas as equipes.",
-        "odd_alvo": "1.65",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
-      },
       "confirmacao_visual": null
     },
     {
@@ -629,16 +341,17 @@
       "liga": "Republic of Ireland First Division",
       "jogo": "Treaty United x Cobh Ramblers",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "null",
-      "fair_odd_calculada": "null",
-      "valor_esperado": "null",
-      "mercado_secundario": "null",
-      "odd_secundaria": "null",
-      "desempenho_1t": "Casa marca 0.29 no 1ºT, sofre 0.43. Fora marca 0.38 no 1ºT, sofre 0.63.",
-      "desempenho_2t": "Casa marca 0.86 no 2ºT, sofre 0.43. Fora marca 0.63 no 2ºT, sofre 1.25.",
+      "mercado_principal": "Vitória Treaty United",
+      "probabilidade_estimada": "55% (favoritismo moderado do Treaty United com base no aproveitamento e posição na tabela)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.04",
+      "valor_esperado": "Probabilidade estimada de 55% para o Treaty United, resultando em uma fair odd de 1.82. Com a margem de segurança de 10-15% para favoritos, a odd mínima de entrada é de 2.04. O jogo é em casa para o Treaty United, que tem um aproveitamento ligeiramente superior e está em uma posição mais alta na tabela.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Treaty United marca 0.29 gols no 1ºT, Cobh Ramblers marca 0.38 gols no 1ºT.",
+      "desempenho_2t": "Treaty United marca 0.86 gols no 2ºT, Cobh Ramblers marca 0.63 gols no 2ºT.",
       "contexto_times": {
         "casa": {
           "posicao": "8",
@@ -646,71 +359,58 @@
         },
         "fora": {
           "posicao": "2",
-          "objetivo": "acesso"
+          "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Treaty United (8º) e Cobh Ramblers (2º). O Treaty United tem uma média de 2.00 gols totais, com 57% de Over 1.5 e 43% de Over 2.5. Cobh Ramblers tem uma média de 2.88 gols totais, com 88% de Over 1.5 e 50% de Over 2.5. Cobh Ramblers tem uma defesa que sofre muitos gols (1.88). O Treaty United tem uma média de 0.86 gols sofridos.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Casa tem 1.57 pontos por jogo.",
+      "motivacao_tecnica": "Treaty United joga em casa com um aproveitamento ligeiramente melhor (1.57 pontos/jogo) e está em 8º lugar. Cobh Ramblers, apesar de estar em 2º lugar e com um aproveitamento similar (1.50 pontos/jogo), tem um desempenho defensivo mais frágil (1.88 gols sofridos/jogo contra 0.86 do Treaty United). O favoritismo do Treaty United é moderado, mas a vantagem de jogar em casa e a solidez defensiva justificam a entrada.",
+      "coeficiente_regularidade": "Casa: CV moderado (7 jogos) / Visitante: CV moderado (8 jogos)",
+      "mando_de_campo": "Treaty United tem 43% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "sem informações disponíveis",
-      "especificidades_gols": "Cobh Ramblers é mais forte na segunda etapa, marcando 0.63 gols e sofrendo 1.25. Treaty United também melhora no segundo tempo, marcando 0.86 gols.",
-      "momento_gols": "Ambas as equipes tendem a marcar mais na segunda etapa.",
-      "jogadores_chave": "Jason Oyenuga (3 gols) e Ben Feeney (3 gols) para o Treaty United. Cian Curtis (6 gols) e Dylan McGlade (7 gols) para o Cobh Ramblers.",
-      "placares_provaveis": "1x2, 2x2",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Se o placar se mantiver 0x0 no intervalo.",
-      "stake_recomendada": "1%",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Treaty United tem maior volume de gols no 2º tempo (6 vs 3). Cobh Ramblers tem maior volume de gols no 1º tempo (3 vs 2).",
+      "momento_gols": "Treaty United: 61-75min (25%), 76-90min (25%). Cobh Ramblers: 61-75min (38%), 76-90min (13%).",
+      "jogadores_chave": null,
+      "placares_provaveis": "1x0, 2x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Cobh Ramblers, como mandante de acesso, tem uma média de gols alta e uma defesa que sofre muitos gols. Treaty United, jogando em casa, tem uma média de gols razoável e também participa de jogos com Over 2.5.",
-        "gatilho_saida_parcial": "Placar de 0x1 ou 1x0 aos 60 minutos.",
-        "hard_stop": "Sem informações disponíveis"
+        "justificativa_abordagem": "Favoritismo moderado em casa com dados defensivos favoráveis.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
       },
       "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
-      "over_limite_70": {
-        "aplicavel": false
-      },
-      "back_2x2": {
-        "aplicavel": false
-      },
-      "back_goleada": {
-        "aplicavel": false
-      },
-      "over_golos": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Cobh Ramblers tem média de 2.88 gols totais e 50% de Over 2.5. Treaty United tem média de 2.00 gols totais e 43% de Over 2.5. A defesa do Cobh Ramblers sofre 1.88 gols por jogo, indicando vulnerabilidade.",
-        "odd_alvo": "1.85",
-        "gatilho_ao_vivo": "null",
-        "stake_recomendada": "1%"
+        "favorito": "Treaty United",
+        "odd_alvo": "2.04",
+        "razao": "Favoritismo moderado em casa com melhor desempenho defensivo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "confirmacao_visual": {
-        "aplicavel": false
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "15:45",
       "liga": "Republic of Ireland First Division",
       "jogo": "Kerry x Bray Wanderers",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "null",
-      "fair_odd_calculada": "null",
-      "valor_esperado": "null",
-      "mercado_secundario": "null",
-      "odd_secundaria": "null",
-      "desempenho_1t": "Casa marca 0.38 no 1ºT, sofre 0.38. Fora marca 0.75 no 1ºT, sofre 0.63.",
-      "desempenho_2t": "Casa marca 0.63 no 2ºT, sofre 0.50. Fora marca 0.38 no 2ºT, sofre 0.88.",
+      "mercado_principal": "Vitória Kerry",
+      "probabilidade_estimada": "58% (favoritismo moderado do Kerry com base no aproveitamento e posição na tabela)",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.94",
+      "valor_esperado": "Probabilidade estimada de 58% para o Kerry, resultando em uma fair odd de 1.72. Com a margem de segurança de 10-15% para favoritos, a odd mínima de entrada é de 1.94. O Kerry joga em casa, tem um aproveitamento superior e está em uma posição mais alta na tabela.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Kerry marca 0.38 gols no 1ºT, Bray Wanderers marca 0.75 gols no 1ºT.",
+      "desempenho_2t": "Kerry marca 0.63 gols no 2ºT, Bray Wanderers marca 0.38 gols no 2ºT.",
       "contexto_times": {
         "casa": {
           "posicao": "6",
@@ -718,143 +418,117 @@
         },
         "fora": {
           "posicao": "4",
-          "objetivo": "acesso"
+          "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Kerry (6º) e Bray Wanderers (4º). Kerry tem média de 1.88 gols totais, com 63% de Over 1.5 e 25% de Over 2.5. Bray Wanderers tem média de 2.63 gols totais, com 63% de Over 1.5 e 50% de Over 2.5. Bray Wanderers tem uma defesa que sofre muitos gols (1.50). Kerry tem uma defesa razoável (0.88 sofridos). Ambos os times mostram mais gols na segunda etapa.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Casa tem 1.50 pontos por jogo.",
+      "motivacao_tecnica": "Kerry joga em casa com um aproveitamento superior (1.50 pontos/jogo) e está em 6º lugar. Bray Wanderers, apesar de estar em 4º lugar, tem um desempenho defensivo mais frágil (1.50 gols sofridos/jogo contra 0.88 do Kerry). O favoritismo do Kerry é moderado, mas a vantagem de jogar em casa e a solidez defensiva justificam a entrada.",
+      "coeficiente_regularidade": "Casa: CV moderado (8 jogos) / Visitante: CV moderado (8 jogos)",
+      "mando_de_campo": "Kerry tem 38% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "sem informações disponíveis",
-      "especificidades_gols": "Bray Wanderers tem uma forte tendência de gols na primeira etapa, marcando 0.75 e sofrendo 0.63, e um volume maior de gols sofridos na segunda etapa. Kerry apresenta mais equilíbrio.",
-      "momento_gols": "Bray Wanderers é mais efetivo no ataque na primeira etapa, enquanto Kerry melhora na segunda etapa.",
-      "jogadores_chave": "Ryan Kelliher (4 gols) para o Kerry. Ben McCormack (7 gols) e Tyreik Sammy (3 gols) para o Bray Wanderers.",
-      "placares_provaveis": "1x2, 2x2",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Se o placar se mantiver 0x0 no intervalo.",
-      "stake_recomendada": "1%",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Kerry tem maior volume de gols no 2º tempo (5 vs 3). Bray Wanderers tem maior volume de gols no 1º tempo (6 vs 3).",
+      "momento_gols": "Kerry: 46-60min (25%), 76-90min (25%). Bray Wanderers: 0-15min (22%), 61-75min (22%).",
+      "jogadores_chave": null,
+      "placares_provaveis": "1x0, 2x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Bray Wanderers, brigando por acesso, tem um histórico de jogos com mais gols e uma defesa que cede muitos, enquanto Kerry tem um ataque capaz de contribuir para o placar.",
-        "gatilho_saida_parcial": "Placar de 0x1 ou 1x0 aos 60 minutos.",
-        "hard_stop": "Sem informações disponíveis"
+        "justificativa_abordagem": "Favoritismo moderado em casa com dados defensivos favoráveis.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
       },
       "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
-      "over_limite_70": {
-        "aplicavel": false
-      },
-      "back_2x2": {
-        "aplicavel": false
-      },
-      "back_goleada": {
-        "aplicavel": false
-      },
-      "over_golos": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Bray Wanderers tem média de 2.63 gols totais e 50% de Over 2.5. Kerry tem média de 1.88 gols totais e 25% de Over 2.5. A defesa do Bray Wanderers sofre 1.50 gols por jogo.",
-        "odd_alvo": "1.80",
-        "gatilho_ao_vivo": "null",
-        "stake_recomendada": "1%"
+        "favorito": "Kerry",
+        "odd_alvo": "1.94",
+        "razao": "Favoritismo moderado em casa com melhor desempenho defensivo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "confirmacao_visual": {
-        "aplicavel": false
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "15:45",
       "liga": "Republic of Ireland First Division",
       "jogo": "Wexford x UCD",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "null",
-      "fair_odd_calculada": "null",
-      "valor_esperado": "null",
-      "mercado_secundario": "null",
-      "odd_secundaria": "null",
-      "desempenho_1t": "Casa marca 0.25 no 1ºT, sofre 0.50. Fora marca 0.50 no 1ºT, sofre 0.50.",
-      "desempenho_2t": "Casa marca 1.38 no 2ºT, sofre 0.75. Fora marca 0.88 no 2ºT, sofre 0.63.",
+      "mercado_principal": "Vitória Wexford",
+      "probabilidade_estimada": "63% (favoritismo claro do Wexford com base no aproveitamento e posição na tabela)",
+      "fair_odd": "1.59",
+      "odd_minima_entrada": "1.75",
+      "valor_esperado": "Probabilidade estimada de 63% para o Wexford, resultando em uma fair odd de 1.59. Com a margem de segurança de 10-15% para favoritos, a odd mínima de entrada é de 1.75. O Wexford joga em casa, tem um aproveitamento superior e está em uma posição mais alta na tabela.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Wexford marca 0.25 gols no 1ºT, UCD marca 0.50 gols no 1ºT.",
+      "desempenho_2t": "Wexford marca 1.38 gols no 2ºT, UCD marca 0.88 gols no 2ºT.",
       "contexto_times": {
         "casa": {
           "posicao": "4",
-          "objetivo": "acesso"
+          "objetivo": "titulo"
         },
         "fora": {
           "posicao": "3",
-          "objetivo": "acesso"
+          "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Wexford (4º) e UCD (3º). Ambos brigam por acesso. Wexford tem média de 2.88 gols totais, com 50% de Over 2.5. UCD tem média de 2.51 gols totais, com 63% de Over 2.5. Wexford tem uma defesa que sofre muitos gols (1.25), mas um ataque muito prolífico (1.63). UCD tem uma defesa mais sólida (1.13 sofridos). Wexford é muito forte na segunda etapa, marcando 1.38 gols.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
-      "mando_de_campo": "Casa tem 2.00 pontos por jogo.",
+      "motivacao_tecnica": "Wexford joga em casa com um aproveitamento superior (2.00 pontos/jogo) e está em 4º lugar. UCD, apesar de estar em 3º lugar, tem um desempenho defensivo ligeiramente inferior (1.13 gols sofridos/jogo contra 1.25 do Wexford). O favoritismo do Wexford é claro, com um forte desempenho ofensivo no segundo tempo.",
+      "coeficiente_regularidade": "Casa: CV baixo (8 jogos) / Visitante: CV moderado (8 jogos)",
+      "mando_de_campo": "Wexford tem 63% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "sem informações disponíveis",
-      "especificidades_gols": "Wexford é um time de extremos, com ataque muito forte (1.63 marcados) e defesa que sofre 1.25. UCD tem um ataque mais equilibrado e defesa mais sólida. A segunda etapa do Wexford é explosiva (1.38 gols marcados).",
-      "momento_gols": "Wexford mostra uma clara tendência de gols na segunda etapa. UCD é mais equilibrado.",
-      "jogadores_chave": "Jake Doyle (6 gols), Mikie Rowe (3 gols), Adam Verdon (3 gols) para o Wexford. Ciaran Behan (8 gols), Hugh Smith (6 gols) para o UCD.",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Wexford tem um volume de gols muito maior no 2º tempo (11 vs 7). UCD tem um volume de gols ligeiramente maior no 1º tempo (4 vs 2).",
+      "momento_gols": "Wexford: 61-75min (38%), 76-90min (23%). UCD: 0-15min (18%), 61-75min (27%).",
+      "jogadores_chave": null,
       "placares_provaveis": "2x1, 3x1",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Se o placar se mantiver 0x0 no intervalo.",
-      "stake_recomendada": "1%",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Jogo entre dois times que brigam por acesso, ambos com médias de gols totais acima de 2.5 e com potencial ofensivo para furar as defesas. Wexford tem um segundo tempo muito forte.",
-        "gatilho_saida_parcial": "Placar de 0x1 ou 1x0 aos 60 minutos, com pouca chance clara.",
-        "hard_stop": "Sem informações disponíveis"
+        "justificativa_abordagem": "Favoritismo claro em casa com forte desempenho ofensivo no segundo tempo.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
       },
       "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
-      "over_limite_70": {
-        "aplicavel": false
-      },
-      "back_2x2": {
-        "aplicavel": false
-      },
-      "back_goleada": {
-        "aplicavel": false
-      },
-      "over_golos": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Ambos os times têm médias de gols totais acima de 2.5 (2.88 e 2.51) e ambos têm 50% de jogos com Over 2.5. O Wexford tem um ataque forte (1.63 marcados) e o UCD tem uma defesa que sofre 1.13 gols.",
-        "odd_alvo": "1.80",
-        "gatilho_ao_vivo": "null",
-        "stake_recomendada": "1%"
+        "favorito": "Wexford",
+        "odd_alvo": "1.75",
+        "razao": "Favoritismo claro em casa com forte desempenho ofensivo no segundo tempo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "confirmacao_visual": {
-        "aplicavel": false
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "15:45",
       "liga": "Republic of Ireland First Division",
       "jogo": "Finn Harps x Longford Town",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "null",
-      "fair_odd_calculada": "null",
-      "valor_esperado": "null",
-      "mercado_secundario": "null",
-      "odd_secundaria": "null",
-      "desempenho_1t": "Casa marca 0.38 no 1ºT, sofre 0.38. Fora marca 0.13 no 1ºT, sofre 0.38.",
-      "desempenho_2t": "Casa marca 0.75 no 2ºT, sofre 0.75. Fora marca 0.50 no 2ºT, sofre 0.75.",
+      "mercado_principal": "Vitória Finn Harps",
+      "probabilidade_estimada": "58% (favoritismo moderado do Finn Harps com base no aproveitamento e posição na tabela)",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.94",
+      "valor_esperado": "Probabilidade estimada de 58% para o Finn Harps, resultando em uma fair odd de 1.72. Com a margem de segurança de 10-15% para favoritos, a odd mínima de entrada é de 1.94. O Finn Harps joga em casa, tem um aproveitamento superior e está em uma posição mais alta na tabela.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Finn Harps marca 0.38 gols no 1ºT, Longford Town marca 0.13 gols no 1ºT.",
+      "desempenho_2t": "Finn Harps marca 0.75 gols no 2ºT, Longford Town marca 0.50 gols no 2ºT.",
       "contexto_times": {
         "casa": {
           "posicao": "7",
@@ -862,215 +536,117 @@
         },
         "fora": {
           "posicao": "5",
-          "objetivo": "acesso"
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Finn Harps (7º) e Longford Town (5º). Finn Harps tem média de 2.26 gols totais, com 50% de Over 1.5 e 50% de Over 2.5. Longford Town tem média de 1.76 gols totais, com 75% de Over 1.5 e 25% de Over 2.5. Finn Harps tem um ataque razoável (1.13 marcados) e uma defesa que sofre 1.13. Longford Town tem um ataque fraco (0.63 marcados) mas uma defesa que sofre 1.13. Ambos os times mostram mais gols na segunda etapa.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Casa tem 1.50 pontos por jogo.",
+      "motivacao_tecnica": "Finn Harps joga em casa com um aproveitamento superior (1.50 pontos/jogo) e está em 7º lugar. Longford Town, apesar de estar em 5º lugar, tem um desempenho ofensivo mais frágil (0.63 gols marcados/jogo contra 1.13 do Finn Harps). O favoritismo do Finn Harps é moderado, mas a vantagem de jogar em casa e o melhor ataque justificam a entrada.",
+      "coeficiente_regularidade": "Casa: CV moderado (8 jogos) / Visitante: CV moderado (8 jogos)",
+      "mando_de_campo": "Finn Harps tem 38% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "sem informações disponíveis",
-      "especificidades_gols": "Finn Harps tem uma tendência de gols na segunda etapa, com 0.75 marcados e 0.75 sofridos. Longford Town tem mais dificuldade em marcar (0.50) e sofre 0.75 na segunda etapa.",
-      "momento_gols": "Ambas as equipes tendem a marcar mais na segunda etapa, mas Longford Town demonstra mais dificuldade em finalizar.",
-      "jogadores_chave": "Conor Tourish (3 gols) e Joel Bradley Walsh (2 gols) para o Finn Harps. Aaron Doran (4 gols) para o Longford Town.",
-      "placares_provaveis": "1x1, 2x1",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Se o placar permanecer 0x0 no intervalo.",
-      "stake_recomendada": "1%",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Finn Harps tem um volume de gols ligeiramente maior no 2º tempo (6 vs 4). Longford Town tem um volume de gols ligeiramente maior no 1º tempo (1 vs 3).",
+      "momento_gols": "Finn Harps: 61-75min (33%), 76-90min (33%). Longford Town: 76-90min (40%).",
+      "jogadores_chave": null,
+      "placares_provaveis": "1x0, 2x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Finn Harps tem um histórico de jogos com mais gols e uma participação consistente em Over 2.5. Apesar da média de gols total do Longford Town ser menor, a necessidade de pontuar por estar na zona de acesso pode gerar um jogo mais aberto.",
-        "gatilho_saida_parcial": "Placar de 0x1 ou 1x0 aos 60 minutos, com pouca iniciativa ofensiva.",
-        "hard_stop": "Sem informações disponíveis"
+        "justificativa_abordagem": "Favoritismo moderado em casa com melhor desempenho ofensivo.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
       },
       "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
-      "over_limite_70": {
-        "aplicavel": false
-      },
-      "back_2x2": {
-        "aplicavel": false
-      },
-      "back_goleada": {
-        "aplicavel": false
-      },
-      "over_golos": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Finn Harps tem 50% de Over 2.5 gols. O jogo tem uma média de 2.26 gols totais para o Finn Harps e 1.76 para o Longford Town. Ambos os times sofrem uma média de 1.13 gols por jogo.",
-        "odd_alvo": "1.85",
-        "gatilho_ao_vivo": "null",
-        "stake_recomendada": "1%"
+        "favorito": "Finn Harps",
+        "odd_alvo": "1.94",
+        "razao": "Favoritismo moderado em casa com melhor desempenho ofensivo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "confirmacao_visual": {
-        "aplicavel": false
-      }
-    },
-    {
-      "horario": "15:45",
-      "liga": "Republic of Ireland First Division",
-      "jogo": "Athlone Town x Cork City",
-      "metodos_aplicados": [
-        "over_golos"
-      ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "null",
-      "fair_odd_calculada": "null",
-      "valor_esperado": "null",
-      "mercado_secundario": "null",
-      "odd_secundaria": "null",
-      "desempenho_1t": "Casa marca 0.63 no 1ºT, sofre 0.50. Fora marca 0.43 no 1ºT, sofre 0.29.",
-      "desempenho_2t": "Casa marca 0.63 no 2ºT, sofre 0.25. Fora marca 0.86 no 2ºT, sofre 0.29.",
-      "contexto_times": {
-        "casa": {
-          "posicao": "5",
-          "objetivo": "acesso"
-        },
-        "fora": {
-          "posicao": "1",
-          "objetivo": "titulo"
-        }
-      },
-      "motivacao_tecnica": "Athlone Town (5º) e Cork City (1º). Athlone Town tem média de 2.00 gols totais, com 75% de Over 1.5 e 38% de Over 2.5. Cork City tem média de 1.86 gols totais, com 57% de Over 1.5 e 14% de Over 2.5. Cork City tem uma defesa muito forte (0.57 sofridos) e um ataque razoável (1.29 marcados). Athlone Town tem um ataque razoável (1.25 marcados) e uma defesa que sofre 0.75. Ambos os times têm mais gols na segunda etapa.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Casa tem 1.88 pontos por jogo.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "sem informações disponíveis",
-      "especificidades_gols": "Cork City é forte na segunda etapa (0.86 gols marcados). Athlone Town também melhora na segunda etapa (0.63 gols marcados). Ambos os times sofrem poucos gols.",
-      "momento_gols": "Gols mais distribuídos em ambas as metidas, com leve aumento na segunda etapa para ambos.",
-      "jogadores_chave": "Cillian Tollett (4 gols) para o Athlone Town. Sean Maguire (8 gols) e Hans Mpongo (7 gols) para o Cork City.",
-      "placares_provaveis": "1x1, 2x1",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Se o placar se mantiver 0x0 no intervalo.",
-      "stake_recomendada": "1%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Jogo entre o líder e uma equipe lutando por acesso. Embora o Cork City tenha uma defesa forte, o Athlone Town tem um ataque capaz e um histórico de jogos com gols. A tendência de Over 1.5 é alta para ambos.",
-        "gatilho_saida_parcial": "Placar de 0x0 após 60 minutos, com pouca iniciativa ofensiva.",
-        "hard_stop": "Sem informações disponíveis"
-      },
-      "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
-      "over_limite_70": {
-        "aplicavel": false
-      },
-      "back_2x2": {
-        "aplicavel": false
-      },
-      "back_goleada": {
-        "aplicavel": false
-      },
-      "over_golos": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "linha": "over_1.5",
-        "mercado_sugerido": "Mais de 1.5 gols",
-        "razao": "Ambas as equipes têm alta incidência de Over 1.5 gols (75% e 57%). O Athlone Town tem média de 2.00 gols totais, e o Cork City, apesar de ter uma defesa forte, tem uma média de 1.86 gols totais.",
-        "odd_alvo": "1.60",
-        "gatilho_ao_vivo": "null",
-        "stake_recomendada": "1%"
-      },
-      "confirmacao_visual": {
-        "aplicavel": false
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "15:45",
       "liga": "Republic of Ireland Premier Division",
       "jogo": "Derry City x St Patricks Athl",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "null",
-      "fair_odd_calculada": "null",
-      "valor_esperado": "null",
-      "mercado_secundario": "null",
-      "odd_secundaria": "null",
-      "desempenho_1t": "Casa marca 0.38 no 1ºT, sofre 0.75. Fora marca 0.75 no 1ºT, sofre 0.38.",
-      "desempenho_2t": "Casa marca 1.25 no 2ºT, sofre 0.63. Fora marca 0.63 no 2ºT, sofre 0.88.",
+      "mercado_principal": "Vitória Derry City",
+      "probabilidade_estimada": "55% (favoritismo moderado do Derry City com base no aproveitamento e posição na tabela)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.04",
+      "valor_esperado": "Probabilidade estimada de 55% para o Derry City, resultando em uma fair odd de 1.82. Com a margem de segurança de 10-15% para favoritos, a odd mínima de entrada é de 2.04. O Derry City joga em casa, tem um aproveitamento similar e está em uma posição ligeiramente inferior na tabela, mas com um ataque mais prolífico.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Derry City marca 0.38 gols no 1ºT, St Patricks Athl marca 0.75 gols no 1ºT.",
+      "desempenho_2t": "Derry City marca 1.25 gols no 2ºT, St Patricks Athl marca 0.63 gols no 2ºT.",
       "contexto_times": {
         "casa": {
           "posicao": "5",
-          "objetivo": "libertadores"
+          "objetivo": "titulo"
         },
         "fora": {
           "posicao": "4",
-          "objetivo": "libertadores"
+          "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Derry City (5º) e St Patrick's Athl (4º). Ambos brigam por vagas continentais. Derry City tem média de 3.01 gols totais, com 75% de Over 1.5 e 63% de Over 2.5. St Patrick's Athl tem média de 2.63 gols totais, com 88% de Over 1.5 e 38% de Over 2.5. Derry City tem um ataque prolífico (1.63 marcados) e uma defesa que sofre 1.38. St Patrick's Athl tem um ataque forte (1.38 marcados) e uma defesa que sofre 1.25. Derry City é muito forte na segunda etapa, marcando 1.25 gols.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Casa tem 1.50 pontos por jogo.",
+      "motivacao_tecnica": "Derry City joga em casa com um aproveitamento similar (1.50 pontos/jogo) e está em 5º lugar. St Patricks Athl, apesar de estar em 4º lugar, tem um desempenho defensivo ligeiramente inferior (1.25 gols sofridos/jogo contra 1.38 do Derry City). O favoritismo do Derry City é moderado, mas a vantagem de jogar em casa e o forte desempenho ofensivo no segundo tempo justificam a entrada.",
+      "coeficiente_regularidade": "Casa: CV moderado (8 jogos) / Visitante: CV moderado (8 jogos)",
+      "mando_de_campo": "Derry City tem 38% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "sem informações disponíveis",
-      "especificidades_gols": "Derry City mostra uma clara tendência de gols na segunda etapa (1.25 marcados), e St Patrick's também melhora ofensivamente na segunda etapa (0.63 marcados). A defesa de ambos sofre um número considerável de gols.",
-      "momento_gols": "Derry City é mais efetivo na segunda etapa. St Patrick's também tem um bom desempenho ofensivo na segunda etapa.",
-      "jogadores_chave": "Michael Duffy (5 gols), Dipo Akinyemi (3 gols) para o Derry City. Ryan Edmondson (8 gols), Kian Leavy (4 gols) para o St Patricks Athl.",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Derry City tem um volume de gols muito maior no 2º tempo (10 vs 5). St Patricks Athl tem um volume de gols maior no 1º tempo (6 vs 3).",
+      "momento_gols": "Derry City: 76-90min (46%). St Patricks Athl: 0-15min (27%), 61-75min (18%).",
+      "jogadores_chave": null,
       "placares_provaveis": "2x1, 3x1",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Se o placar se mantiver 0x0 no intervalo.",
-      "stake_recomendada": "1%",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Jogo de alta importância entre dois times que buscam vagas continentais. Ambos têm médias de gols totais elevadas e histórico de jogos com muitos gols. A defesa de ambos pode ser explorada.",
-        "gatilho_saida_parcial": "Placar de 0x1 ou 1x0 aos 60 minutos, com pouca chance clara de gol.",
-        "hard_stop": "Sem informações disponíveis"
+        "justificativa_abordagem": "Favoritismo moderado em casa com forte desempenho ofensivo no segundo tempo.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
       },
       "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
-      "over_limite_70": {
-        "aplicavel": false
-      },
-      "back_2x2": {
-        "aplicavel": false
-      },
-      "back_goleada": {
-        "aplicavel": false
-      },
-      "over_golos": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Ambos os times têm médias de gols totais acima de 2.60 (3.01 e 2.63). O Derry City tem 63% de Over 2.5 gols e o St Patrick's Athl tem 38%. As defesas sofrem um número considerável de gols (1.38 e 1.25 respectivamente).",
-        "odd_alvo": "1.75",
-        "gatilho_ao_vivo": "null",
-        "stake_recomendada": "1%"
+        "favorito": "Derry City",
+        "odd_alvo": "2.04",
+        "razao": "Favoritismo moderado em casa com forte desempenho ofensivo no segundo tempo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "confirmacao_visual": {
-        "aplicavel": false
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "15:45",
       "liga": "Republic of Ireland Premier Division",
       "jogo": "Galway United x Bohemians",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "null",
-      "fair_odd_calculada": "null",
-      "valor_esperado": "null",
-      "mercado_secundario": "null",
-      "odd_secundaria": "null",
-      "desempenho_1t": "Casa marca 0.57 no 1ºT, sofre 0.86. Fora marca 0.38 no 1ºT, sofre 0.63.",
-      "desempenho_2t": "Casa marca 1.14 no 2ºT, sofre 0.86. Fora marca 1.00 no 2ºT, sofre 0.13.",
+      "mercado_principal": "Vitória Bohemians",
+      "probabilidade_estimada": "55% (favoritismo moderado do Bohemians com base no aproveitamento e posição na tabela)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.04",
+      "valor_esperado": "Probabilidade estimada de 55% para o Bohemians, resultando em uma fair odd de 1.82. Com a margem de segurança de 10-15% para favoritos, a odd mínima de entrada é de 2.04. O Bohemians joga fora, mas tem um aproveitamento superior e está em uma posição mais alta na tabela, com um ataque mais prolífico e defesa mais sólida.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Galway United marca 0.57 gols no 1ºT, Bohemians marca 0.38 gols no 1ºT.",
+      "desempenho_2t": "Galway United marca 1.14 gols no 2ºT, Bohemians marca 1.00 gols no 2ºT.",
       "contexto_times": {
         "casa": {
           "posicao": "7",
@@ -1081,376 +657,274 @@
           "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Galway United (7º) e Bohemians (2º). Galway United tem média de 3.42 gols totais, com 71% de Over 1.5 e 71% de Over 2.5. Bohemians tem média de 2.13 gols totais, com 50% de Over 1.5 e 50% de Over 2.5. Galway United tem uma defesa que sofre muitos gols (1.71), mas um ataque forte (1.71). Bohemians tem uma defesa muito sólida (0.75 sofridos) e um ataque razoável (1.38). Bohemians é muito forte na segunda etapa, sofrendo apenas 0.13 gols.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Casa tem 1.57 pontos por jogo.",
+      "motivacao_tecnica": "Bohemians joga fora com um aproveitamento superior (1.75 pontos/jogo) e está em 2º lugar. Galway United, apesar de estar em 7º lugar, tem um desempenho defensivo frágil (1.71 gols sofridos/jogo contra 0.75 do Bohemians). O favoritismo do Bohemians é moderado, mas a vantagem do melhor ataque e defesa, além da posição na tabela, justifica a entrada.",
+      "coeficiente_regularidade": "Casa: CV moderado (8 jogos) / Visitante: CV moderado (8 jogos)",
+      "mando_de_campo": "Galway United tem 43% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "sem informações disponíveis",
-      "especificidades_gols": "Galway United tem muitos gols em ambas as etapas, especialmente na segunda (1.14 marcados). Bohemians é mais seguro na defesa na segunda etapa, sofrendo apenas 0.13 gols, mas seu ataque é presente (1.00).",
-      "momento_gols": "Galway United demonstra atividade ofensiva em ambas as metidas, com destaque para a segunda etapa. Bohemians também melhora ofensivamente na segunda etapa.",
-      "jogadores_chave": "Kristopher Twardek (6 gols) e David Hurley (2 gols, 4 assistências) para o Galway United. Colm Whelan (6 gols) para o Bohemians.",
-      "placares_provaveis": "2x1, 3x1",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Se o placar se mantiver 0x0 no intervalo.",
-      "stake_recomendada": "1%",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Galway United tem um volume de gols maior no 2º tempo (8 vs 6). Bohemians tem um volume de gols ligeiramente maior no 1º tempo (3 vs 4).",
+      "momento_gols": "Galway United: 61-75min (25%), 76-90min (25%). Bohemians: 46-60min (18%), 61-75min (36%).",
+      "jogadores_chave": null,
+      "placares_provaveis": "1x2, 0x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Galway United tem um histórico de jogos com muitos gols e uma tendência clara para Over 2.5. Bohemians, apesar de uma defesa sólida, joga fora de casa contra um ataque perigoso, o que pode levar a um jogo com mais gols do que o esperado.",
-        "gatilho_saida_parcial": "Placar de 0x1 ou 1x0 aos 60 minutos, com pouca chance clara.",
-        "hard_stop": "Sem informações disponíveis"
+        "justificativa_abordagem": "Favoritismo moderado fora de casa com melhor ataque e defesa.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
       },
       "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
-      "over_limite_70": {
-        "aplicavel": false
-      },
-      "back_2x2": {
-        "aplicavel": false
-      },
-      "back_goleada": {
-        "aplicavel": false
-      },
-      "over_golos": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Galway United tem média de 3.42 gols totais e 71% de Over 2.5 gols. O Bohemians tem média de 2.13 gols totais e 50% de Over 2.5. A defesa do Galway United sofre 1.71 gols por jogo, enquanto a do Bohemians sofre 0.75.",
-        "odd_alvo": "1.70",
-        "gatilho_ao_vivo": "null",
-        "stake_recomendada": "1%"
+        "favorito": "Bohemians",
+        "odd_alvo": "2.04",
+        "razao": "Favoritismo moderado fora de casa com melhor ataque e defesa.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "confirmacao_visual": {
-        "aplicavel": false
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "15:45",
       "liga": "Republic of Ireland Premier Division",
       "jogo": "Shelbourne x Waterford",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.80",
-      "fair_odd_calculada": null,
-      "valor_esperado": null,
+      "mercado_principal": "Vitória Shelbourne",
+      "probabilidade_estimada": "65% (Shelbourne tem 1.38 gols marcados por jogo contra 0.88 do Waterford, e 1.88 gols sofridos contra 2.88)",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.75",
+      "valor_esperado": "Shelbourne apresenta um desempenho ofensivo superior (1.38 vs 0.88) e defensivo mais sólido (1.88 vs 2.88). A probabilidade estimada de vitória é de 65%, justificando uma entrada com odd mínima de 1.75.",
       "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Shelbourne marca 0.50 gols no 1ºT, Waterford marca 0.63 gols no 1ºT.",
+      "desempenho_2t": "Shelbourne marca 0.88 gols no 2ºT, Waterford marca 0.25 gols no 2ºT.",
       "contexto_times": {
         "casa": {
-          "posicao": "10",
+          "posicao": "10º",
           "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": null,
-          "objetivo": null
+          "posicao": "10º",
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Ambos os times apresentam alta média de gols marcados e sofridos, com 3.76 e 3.26 gols totais em suas partidas. O Shelbourne tem 63% de Over 2.5 gols e o Waterford 50%, o que indica uma tendência clara para o mercado de gols.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": null,
+      "motivacao_tecnica": "Shelbourne tem um ataque mais produtivo (1.38 vs 0.88) e uma defesa mais segura (1.88 vs 2.88). A probabilidade estimada de vitória é de 65%, indicando valor para o back favorito.",
+      "coeficiente_regularidade": "Casa: CV moderado (75% Over 0.5 gols) / Visitante: CV alto (100% Over 0.5 gols)",
+      "mando_de_campo": "Shelbourne tem um aproveitamento de 0.50 pontos por jogo em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "Pre-jogo",
+      "especificidades_gols": "Shelbourne marca em média 1.38 gols por jogo, Waterford marca em média 0.88 gols por jogo.",
+      "momento_gols": "Shelbourne marca mais gols entre 61-75min (36%). Waterford marca mais gols entre 31-45min (43%).",
+      "jogadores_chave": "Harry Wood (Shelbourne - 6 gols), John Martin (Shelbourne - 6 gols), Tom Lonergan (Waterford - 7 gols).",
+      "placares_provaveis": "2x1, 1x0",
+      "momento_entrada": "pre_jogo",
       "situacao_saida": null,
-      "stake_recomendada": "1%",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Alta probabilidade de gols devido ao histórico de ambas as equipes.",
+        "justificativa_abordagem": "Favoritismo estatístico claro.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
-      "back_favorito": null,
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Shelbourne",
+        "odd_alvo": "1.75",
+        "razao": "Shelbourne tem melhor ataque (1.38 vs 0.88) e defesa (1.88 vs 2.88). Probabilidade estimada de 65%.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "over_golos": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Ambas as equipes possuem estatísticas elevadas de gols totais, marcados e sofridos, indicando uma forte tendência para jogos com mais de 2.5 gols.",
-        "odd_alvo": "1.80",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "1%"
-      },
       "confirmacao_visual": null
     },
     {
       "horario": "16:00",
-      "liga": "Republic of Ireland Premier Division",
-      "jogo": "Shamrock Rovers x Sligo Rovers",
+      "liga": "Bolivia LFPB",
+      "jogo": "San Antonio Bulo Bulo x ABB",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "2.00",
-      "fair_odd_calculada": null,
-      "valor_esperado": null,
+      "mercado_principal": "Vitória San Antonio Bulo Bulo",
+      "probabilidade_estimada": "55% (probabilidade estimada de vitória do San Antonio Bulo Bulo)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "valor_esperado": "Prob. 55% → fair 1.82; com margem de segurança, só entrar acima de 2.09. San Antonio Bulo Bulo tem melhor aproveitamento e média de gols marcados.",
       "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "San Antonio Bulo Bulo venceu 25% do 1ºT, ABB venceu 33% do 1ºT",
+      "desempenho_2t": "San Antonio Bulo Bulo venceu 50% do 2ºT, ABB venceu 0% do 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": "1",
-          "objetivo": "titulo"
+          "posicao": "9",
+          "objetivo": "meio_tabela"
         },
         "fora": {
           "posicao": "9",
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Shamrock Rovers é líder e demonstra grande força ofensiva com 2.63 gols totais por jogo e 2.00 gols marcados. Sligo Rovers sofre 1.25 gols por jogo. O histórico de ambos sugere potencial para mais de 2.5 gols, apesar do favoritismo do mandante. O alto percentual de Over 2.5 gols do Sligo (38%) e do Shamrock (38%) justifica a aposta no mercado de gols.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": null,
+      "motivacao_tecnica": "San Antonio Bulo Bulo tem um ligeiro favoritismo baseado no aproveitamento (50% vs 33%) e média de gols marcados (1.50 vs 1.67), mas a defesa do ABB é muito frágil (3.00 gols sofridos). O jogo é equilibrado em termos de posição e motivação.",
+      "coeficiente_regularidade": "Casa: CV moderado (50% vitórias) / Visitante: CV baixo (33% vitórias)",
+      "mando_de_campo": "San Antonio Bulo Bulo tem 50% de aproveitamento em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "1%",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "sem informações",
+      "momento_gols": "San Antonio Bulo Bulo marca mais gols entre 46-60min. ABB marca mais gols entre 31-45min e 76-90min.",
+      "jogadores_chave": "sem informações",
+      "placares_provaveis": "sem informações",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "sem informações",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo do Shamrock e a tendência de gols nos jogos de ambos os times.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo baseado em dados de ataque e defesa, apesar de equilibrado em outros aspectos.",
+        "gatilho_saida_parcial": "sem informações",
+        "hard_stop": "sem informações"
       },
-      "back_favorito": null,
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "San Antonio Bulo Bulo",
+        "odd_alvo": "2.10",
+        "razao": "San Antonio Bulo Bulo tem melhor aproveitamento e média de gols, enfrentando uma defesa frágil do ABB.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "over_golos": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Shamrock Rovers é um time ofensivamente muito forte, líder do campeonato. Sligo Rovers, apesar de ter uma defesa mais frágil, contribui para a média de gols. Ambos os times apresentam 38% de jogos com Over 2.5 gols.",
-        "odd_alvo": "2.00",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "1%"
-      },
       "confirmacao_visual": null
     },
     {
-      "horario": "16:00",
-      "liga": "Republic of Ireland Premier Division",
-      "jogo": "Drogheda United x Dundalk",
+      "horario": "19:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Náutico x Cuiabá",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "1.90",
-      "fair_odd_calculada": null,
-      "valor_esperado": null,
+      "mercado_principal": "Vitória Náutico",
+      "probabilidade_estimada": "55% (probabilidade estimada de vitória do Náutico)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "valor_esperado": "Prob. 55% → fair 1.82; com margem de segurança, só entrar acima de 2.09. Náutico tem melhor aproveitamento e média de gols marcados, além de não sofrer gols.",
       "mercado_secundario": null,
-      "odd_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Náutico venceu 25% do 1ºT, Cuiabá venceu 0% do 1ºT",
+      "desempenho_2t": "Náutico venceu 50% do 2ºT, Cuiabá venceu 25% do 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": "6",
+          "posicao": "12",
           "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": "7",
-          "objetivo": "meio_tabela"
+          "posicao": "5",
+          "objetivo": "acesso"
         }
       },
-      "motivacao_tecnica": "O Dundalk apresenta uma média de 3.63 gols totais em seus jogos, com 1.50 gols marcados e 2.13 sofridos. O Drogheda tem uma média de 2.00 gols totais, marcando 1.00 e sofrendo 1.00. A alta média de gols do Dundalk e a tendência de jogos com Over 2.5 gols (63% para o Dundalk e 38% para o Drogheda) justificam a aposta no mercado de gols.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": null,
+      "motivacao_tecnica": "Náutico tem um ligeiro favoritismo baseado no aproveitamento (50% vs 25%) e média de gols marcados (1.25 vs 0.50), e principalmente por não ter sofrido gols. Cuiabá tem melhor posição na tabela e motivação por acesso, mas seu ataque é muito fraco.",
+      "coeficiente_regularidade": "Casa: CV moderado (50% vitórias) / Visitante: CV baixo (25% vitórias)",
+      "mando_de_campo": "Náutico tem 50% de aproveitamento em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "Pre-jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "1%",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "sem informações",
+      "momento_gols": "Náutico marca mais gols entre 46-60min e 61-75min. Cuiabá marca mais gols entre 61-75min e 76-90min.",
+      "jogadores_chave": "sem informações",
+      "placares_provaveis": "sem informações",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "sem informações",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Tendência de gols nos jogos do Dundalk, que possui um alto volume de gols totais e sofridos.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo baseado em dados de ataque e defesa, apesar de Cuiabá ter melhor posição e motivação.",
+        "gatilho_saida_parcial": "sem informações",
+        "hard_stop": "sem informações"
       },
-      "back_favorito": null,
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Náutico",
+        "odd_alvo": "2.10",
+        "razao": "Náutico tem melhor aproveitamento, média de gols e defesa sólida, enfrentando um ataque fraco do Cuiabá.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "over_golos": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "O Dundalk tem um alto índice de jogos com mais de 2.5 gols (63%) e uma média de 3.63 gols totais por partida. O Drogheda, embora com médias menores, contribui para o potencial de gols.",
-        "odd_alvo": "1.90",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "1%"
-      },
       "confirmacao_visual": null
     },
     {
-      "horario": "17:15",
-      "liga": "Peru Segunda División",
-      "jogo": "Deportivo Binacional x Sport Huancayo II",
+      "horario": "21:00",
+      "liga": "Bolivia LFPB",
+      "jogo": "Gualberto Villarroel SJ x The Strongest",
       "metodos_aplicados": [
-        "over_golos"
+        "back_favorito"
       ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "null",
-      "fair_odd_calculada": "null",
-      "valor_esperado": "null",
-      "mercado_secundario": "null",
-      "odd_secundaria": "null",
-      "desempenho_1t": "Casa marca 0.67 no 1ºT, sofre 1.33. Fora marca 0.33 no 1ºT, sofre 1.33.",
-      "desempenho_2t": "Casa marca 0.33 no 2ºT, sofre 1.00. Fora marca 0.33 no 2ºT, sofre 1.00.",
+      "mercado_principal": "Vitória The Strongest",
+      "probabilidade_estimada": "60% (probabilidade estimada de vitória do The Strongest)",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "valor_esperado": "Prob. 60% → fair 1.67; com margem de segurança, só entrar acima de 1.92. The Strongest tem melhor aproveitamento, média de gols marcados e defende melhor.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Gualberto Villarroel SJ venceu 33% do 1ºT, The Strongest venceu 25% do 1ºT",
+      "desempenho_2t": "Gualberto Villarroel SJ venceu 33% do 2ºT, The Strongest venceu 50% do 2ºT",
       "contexto_times": {
         "casa": {
           "posicao": "16",
-          "objetivo": "meio_tabela"
+          "objetivo": "rebaixamento"
         },
         "fora": {
-          "posicao": "18",
-          "objetivo": "rebaixamento"
+          "posicao": "1",
+          "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Deportivo Binacional (16º) e Sport Huancayo II (18º). O Binacional tem uma média de 2.67 gols totais, com 100% de Over 0.5 e Over 1.5. Sofrem muitos gols (1.67). O Sport Huancayo II tem uma média de 3.00 gols totais, com 100% de Over 0.5 e Over 1.5, e sofre 2.33 gols por jogo. Ambos os times mostraram uma tendência clara para jogos com mais de 2.5 gols (33% para ambos). A defesa de ambos os times é um ponto fraco.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Casa tem 0.67 pontos por jogo.",
+      "motivacao_tecnica": "The Strongest é o claro favorito com 75% de vitórias contra 0% do Gualberto Villarroel SJ, além de melhor média de gols marcados (1.50 vs 1.00) e sofridos (0.75 vs 1.67). A posição na tabela (1º vs 16º) e a motivação do The Strongest em brigar pelo título reforçam o favoritismo.",
+      "coeficiente_regularidade": "Casa: CV baixo (0% vitórias) / Visitante: CV alto (75% vitórias)",
+      "mando_de_campo": "Gualberto Villarroel SJ tem 0% de aproveitamento em casa.",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "Sem jogadores disponíveis para ambas as equipes.",
-      "especificidades_gols": "Ambos os times têm uma média de gols sofridos considerável, o que aumenta a probabilidade de gols. A primeira etapa é mais equilibrada em gols sofridos. A segunda etapa apresenta mais gols sofridos para ambos.",
-      "momento_gols": "Gols acontecem em ambas as metidas, com um ligeiro aumento de gols marcados pelo mandante no início do jogo.",
-      "jogadores_chave": "Sem jogadores disponíveis.",
-      "placares_provaveis": "2x1, 2x2",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Se o placar permanecer 0x0 no intervalo.",
-      "stake_recomendada": "1%",
+      "desfalques_chave": "sem informações",
+      "especificidades_gols": "sem informações",
+      "momento_gols": "Gualberto Villarroel SJ marca mais gols entre 46-60min. The Strongest marca mais gols entre 76-90min.",
+      "jogadores_chave": "sem informações",
+      "placares_provaveis": "sem informações",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "sem informações",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Ambas as equipes demonstram uma alta incidência de jogos com mais de 2.5 gols, com médias de gols totais elevadas e defesas que sofrem muitos gols.",
-        "gatilho_saida_parcial": "Placar 1x1 após 60 minutos sem sinal de aumento de ritmo.",
-        "hard_stop": "Sem informações disponíveis"
+        "justificativa_abordagem": "Favoritismo extremo e dados estatísticos muito favoráveis.",
+        "gatilho_saida_parcial": "sem informações",
+        "hard_stop": "sem informações"
       },
       "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
-      "over_limite_70": {
-        "aplicavel": false
-      },
-      "back_2x2": {
-        "aplicavel": false
-      },
-      "back_goleada": {
-        "aplicavel": false
-      },
-      "over_golos": {
         "aplicavel": true,
         "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Ambos os times têm média de 3.00 gols totais (Sport Huancayo II) e 2.67 gols totais (Deportivo Binacional). Ambos com 100% de Over 0.5 e 1.5 gols, e 33% de Over 2.5 gols. As defesas sofrem muitos gols (2.33 para o Sport Huancayo II e 1.67 para o Binacional).",
-        "odd_alvo": "1.80",
-        "gatilho_ao_vivo": "null",
-        "stake_recomendada": "1%"
+        "favorito": "The Strongest",
+        "odd_alvo": "1.95",
+        "razao": "The Strongest é favorito extremo com 75% de vitórias, melhor ataque e defesa, e briga pelo título.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
       },
-      "confirmacao_visual": {
-        "aplicavel": false
-      }
-    },
-    {
-      "horario": "18:00",
-      "liga": "Paraguay Division Profesional",
-      "jogo": "2 de Mayo x Sportivo San Lorenzo",
-      "metodos_aplicados": [
-        "over_golos"
-      ],
-      "mercado_principal": "Mais de 2.5 gols",
-      "odd_principal": "null",
-      "fair_odd_calculada": "null",
-      "valor_esperado": "null",
-      "mercado_secundario": "null",
-      "odd_secundaria": "null",
-      "desempenho_1t": "Casa marca 0.40 no 1ºT, Fora marca 0.40 no 1ºT",
-      "desempenho_2t": "Casa sofre 0.80 no 2ºT, Fora sofre 1.30 no 2ºT",
-      "contexto_times": {
-        "casa": {
-          "posicao": "10",
-          "objetivo": "meio_tabela"
-        },
-        "fora": {
-          "posicao": "12",
-          "objetivo": "rebaixamento"
-        }
-      },
-      "motivacao_tecnica": "O 2 de Mayo é 10º e o Sportivo San Lorenzo é 12º (penúltimo). A média de gols total é 2.80 para o 2 de Mayo e 2.80 para o Sportivo San Lorenzo. Ambas as equipes têm um bom histórico de Over 0.5 gols (90% e 100%) e Over 1.5 gols (70% e 80%), indicando potencial para gols. O Sportivo San Lorenzo sofre uma média de 2.20 gols por jogo, o que pode ser explorado.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV alto",
-      "mando_de_campo": "Casa tem 1.00 ponto por jogo em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "sem informações disponíveis",
-      "especificidades_gols": "Ambos os times apresentam média de gols marcada e sofrida que sugere potencial para Over.",
-      "momento_gols": "Ambos os times mostram presença de gols em ambas as metidas, mas a segunda etapa apresenta um volume maior de gols marcados para o mandante e sofridos para o visitante.",
-      "jogadores_chave": "Diego Emmanuel Acosta Curtido (18 jogos, 5 gols) e Rodrigo Ruiz Díaz (17 jogos, 2 gols) para o 2 de Mayo. José Alfredo Barrios Martínez (16 jogos, 3 gols) e Axel Fernando Galeano Duarte (18 jogos, 3 gols) para o Sportivo San Lorenzo.",
-      "placares_provaveis": "2x1, 3x1",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Se o jogo se encaminhar para poucos gols cedo, reavaliar.",
-      "stake_recomendada": "1%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "O jogo apresenta estatísticas que indicam um alto potencial de gols em ambas as equipes, com médias de gols totais elevadas e consistência em Over 0.5 e 1.5.",
-        "gatilho_saida_parcial": "Placar de 0x0 após 30 minutos sem sinais de melhora ofensiva.",
-        "hard_stop": "Sem informações disponíveis"
-      },
-      "back_favorito": {
-        "aplicavel": false
-      },
-      "lay_zebra": {
-        "aplicavel": false
-      },
-      "over_limite_70": {
-        "aplicavel": false
-      },
-      "back_2x2": {
-        "aplicavel": false
-      },
-      "back_goleada": {
-        "aplicavel": false
-      },
-      "over_golos": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "linha": "over_2.5",
-        "mercado_sugerido": "Mais de 2.5 gols",
-        "razao": "Ambas as equipes têm médias de gols totais elevadas (2.80) e alta incidência de jogos com Over 0.5 e 1.5 gols. A defesa do Sportivo San Lorenzo (2.20 gols sofridos por jogo) é um ponto fraco que pode ser explorado.",
-        "odd_alvo": "1.80",
-        "gatilho_ao_vivo": "null",
-        "stake_recomendada": "1%"
-      },
-      "confirmacao_visual": {
-        "aplicavel": false
-      }
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
     }
   ],
   "evitar": [
@@ -1458,121 +932,651 @@
       "horario": "00:00",
       "jogo": "Leones x Independiente Medellín",
       "liga": "Colombia Copa Colombia",
-      "motivo": "Apesar de os dados indicarem um potencial de gols (Leones 2.00 Média Gols Marcados, 2.00 Média Total de Gols; Independiente Medellín 1.00 Média Gols Marcados, 2.00 Média Total de Gols), a baixa quantidade de dados (1 jogo registrado para cada time) não permite a aplicação confiável de outros métodos como Back Favorito ou Lay Zebra. O Leones teve 100% de vitória no 1º e 2º tempo, e 100% de jogos sem sofrer gol no 1º, enquanto o Independiente Medellín teve 100% de empates no 1º tempo e 100% de vitórias no 2º tempo. Há uma inconsistência grande nos dados, dificultando a previsão. O Over Gols é uma opção, mas a amostra é muito pequena."
+      "motivo": "Dados insuficientes para aplicar métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "Leones tem 100% de vitórias e média de 2 gols, enquanto Independiente Medellín tem 0% de vitórias e média de 1 gol. No entanto, a amostra de 1 jogo é muito pequena para determinar um favorito claro.",
+        "lay_zebra": "Não há zebra com odd >= 5.00.",
+        "over_limite_70": "A amostra de 1 jogo é insuficiente para avaliar a tendência de gols na reta final.",
+        "back_2x2": "A amostra de 1 jogo é insuficiente para avaliar os índices de Over 2.5 e Ambas Marcam.",
+        "back_goleada": "A amostra de 1 jogo é insuficiente para determinar um favoritismo extremo e padrão ofensivo claro."
+      }
     },
     {
       "horario": "00:00",
       "jogo": "Deportivo Pereira x Jaguares de Córdoba",
       "liga": "Colombia Copa Colombia",
-      "motivo": "Apesar de o Deportivo Pereira ter um bom aproveitamento em casa (3.00 pontos por jogo, 1.00 Média Gols Marcados) e ter vencido seu único jogo, e o Jaguares de Córdoba ter tido 100% de jogos sem sofrer gols e 100% de falha em marcar, a amostra de dados é muito pequena (apenas 1 jogo para cada). Isso impede a aplicação confiável de qualquer um dos 6 métodos. Não há padrão claro de gols ou favoritismo sustentado por dados consistentes."
+      "motivo": "Dados insuficientes para aplicar métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "Deportivo Pereira tem 100% de vitórias e média de 1 gol, enquanto Jaguares de Córdoba tem 0% de vitórias e média de 0 gols. A amostra de 1 jogo é muito pequena para determinar um favorito claro.",
+        "lay_zebra": "Não há zebra com odd >= 5.00.",
+        "over_limite_70": "A amostra de 1 jogo é insuficiente para avaliar a tendência de gols na reta final.",
+        "back_2x2": "A amostra de 1 jogo é insuficiente para avaliar os índices de Over 2.5 e Ambas Marcam.",
+        "back_goleada": "A amostra de 1 jogo é insuficiente para determinar um favoritismo extremo e padrão ofensivo claro."
+      }
     },
     {
-      "horario": "08:45",
-      "jogo": "Sesvete x Bijelo Brdo",
-      "liga": "Croatia Druga HNL",
-      "motivo": "O Sesvete é o líder com bom aproveitamento (1.88 pts/jogo) e um histórico de mais gols marcados (1.38) do que sofridos (0.56). O Bijelo Brdo tem um aproveitamento mais baixo (0.81 pts/jogo) e sofre mais gols (1.38) do que marca (0.75). Há uma ligeira inclinação para o Sesvete como favorito. No entanto, os dados de Over/Under são mistos. 38% de Over 2.5 para Sesvete e 31% para Bijelo Brdo. Ambos Marcam ocorre em 38% para ambos. Não há um padrão claro e forte para aplicar Back Favorito ou Over Gols de forma confiante. O jogo não se encaixa em nenhum dos 6 métodos de forma clara."
+      "horario": "07:00",
+      "jogo": "Altay x Okzhetpes",
+      "liga": "Kazakhstan Kazakhstan Premier League",
+      "motivo": "Sem favoritismo claro e dados insuficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito não clara (Altay 0% vitórias vs Okzhetpes 50% vitórias).",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (Okzhetpes com 1.75 pts/jogo).",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar tendência na reta final.",
+        "back_2x2": "Índice de Over 2.5 gols (Altay 20%, Okzhetpes 50%) e Ambas Marcam (Altay 20%, Okzhetpes 75%) não atingem os critérios.",
+        "back_goleada": "Favoritismo insuficiente (Altay 0% vitórias vs Okzhetpes 50% vitórias)."
+      }
     },
     {
-      "horario": "10:00",
-      "jogo": "Turan x Sabah",
-      "liga": "Azerbaijan Premyer Liqası",
-      "motivo": "Sabah é um forte favorito com 80% de vitórias e média de 2.53 gols marcados, enquanto o Turan tem 60% de vitórias. Embora haja tendência de gols (2.27 vs 3.33), a odd para Back Favorito pode não ser tão atrativa e não há padrão claro de goleada. Over 2.5 gols é uma opção, mas as estatísticas de ambas marcam (53% vs 53%) não são esmagadoras."
+      "horario": "07:30",
+      "jogo": "Machida Zelvia x Urawa Reds",
+      "liga": "Japan J1 100 Year Vision League",
+      "motivo": "Equilíbrio estatístico e dados insuficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito não clara (Machida Zelvia 38% vitórias vs Urawa Reds 50% vitórias).",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (Urawa Reds com 1.63 pts/jogo).",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar tendência na reta final.",
+        "back_2x2": "Índice de Over 2.5 gols (Machida Zelvia 50%, Urawa Reds 25%) e Ambas Marcam (Machida Zelvia 38%, Urawa Reds 38%) não atingem os critérios.",
+        "back_goleada": "Favoritismo insuficiente (Machida Zelvia 38% vitórias vs Urawa Reds 50% vitórias)."
+      }
+    },
+    {
+      "horario": "08:00",
+      "jogo": "Kaspiy II x Jaiyq",
+      "liga": "Kazakhstan First Division",
+      "motivo": "Sem favoritismo claro e dados insuficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito não clara (Kaspiy II 0% vitórias vs Jaiyq 33% vitórias).",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (Jaiyq com 0.67 pts/jogo).",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar tendência na reta final.",
+        "back_2x2": "Índice de Over 2.5 gols (Kaspiy II 0%, Jaiyq 33%) e Ambas Marcam (Kaspiy II 50%, Jaiyq 33%) não atingem os critérios.",
+        "back_goleada": "Favoritismo insuficiente (Kaspiy II 0% vitórias vs Jaiyq 33% vitórias)."
+      }
+    },
+    {
+      "horario": "09:00",
+      "jogo": "Taraz x Arys",
+      "liga": "Kazakhstan First Division",
+      "motivo": "Sem favoritismo claro e dados insuficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito não clara (Taraz 100% vitórias vs Arys 0% vitórias, mas com poucos jogos).",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (Arys com 1.50 pts/jogo).",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar tendência na reta final.",
+        "back_2x2": "Índice de Over 2.5 gols (Taraz 100%, Arys 50%) e Ambas Marcam (Taraz 33%, Arys 50%) não atingem os critérios.",
+        "back_goleada": "Favoritismo insuficiente (Taraz 100% vitórias, mas com poucos jogos)."
+      }
+    },
+    {
+      "horario": "09:00",
+      "jogo": "Astana x Ulytau",
+      "liga": "Kazakhstan Kazakhstan Premier League",
+      "motivo": "Sem favoritismo claro e dados insuficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito não clara (Astana 80% vitórias vs Ulytau 25% vitórias).",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (Ulytau com 1.00 pts/jogo).",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar tendência na reta final.",
+        "back_2x2": "Índice de Over 2.5 gols (Astana 60%, Ulytau 50%) e Ambas Marcam (Astana 80%, Ulytau 50%) não atingem os critérios.",
+        "back_goleada": "Favoritismo insuficiente (Astana 80% vitórias, mas média ofensiva de 2.20 não atinge 2.5)."
+      }
+    },
+    {
+      "horario": "09:30",
+      "jogo": "Slavia Sofia x Montana",
+      "liga": "Bulgaria First League",
+      "motivo": "Sem favoritismo claro e dados de gols insuficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Slavia Sofia) é 60% (39% vitórias vs 6% vitórias), mas a odd mínima de entrada seria alta. Não há dados suficientes para justificar um back favorito claro.",
+        "lay_zebra": "A odd da zebra (Montana) não é alta o suficiente (probabilidade estimada 40% vs 39%). Além disso, a zebra tem um aproveitamento razoável fora de casa (0.44 pontos/jogo) e não demonstra uma sequência de derrotas que justifique o lay.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final do jogo. A média de gols total (2.39 vs 2.11) não é alta o suficiente para justificar este método.",
+        "back_2x2": "O índice de Over 2.5 gols (44% vs 44%) não atinge o limiar de 60%. O índice de Ambas Marcam (39% vs 39%) também está abaixo do limiar de 60%.",
+        "back_goleada": "O favoritismo não é extremo (probabilidade estimada 60% vs 39%). A média de gols marcados pelo favorito (1.28) e sofridos pelo adversário (1.61) não indicam um cenário de goleada."
+      }
+    },
+    {
+      "horario": "11:00",
+      "jogo": "Osijek x Slaven Koprivnica",
+      "liga": "Croatia Prva HNL",
+      "motivo": "Baixo índice de gols e favoritismo insuficiente para métodos ofensivos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Osijek tem 18% de vitórias e 0.94 pontos por jogo, enquanto Slaven Koprivnica tem 12% de vitórias e 0.71 pontos por jogo. A probabilidade estimada de vitória do Osijek é de 55%, o que não atinge o limiar de 60% para back favorito.",
+        "lay_zebra": "A odd da zebra (Slaven Koprivnica) não é clara, mas o desempenho é muito inferior.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 para Osijek é de 18% e para Slaven Koprivnica é de 71%. A média de 44.5% não atinge o limiar de 60%.",
+        "back_goleada": "O favoritismo do Osijek não é extremo (55% de probabilidade estimada), e a média de gols marcados nos últimos 5 jogos não é clara."
+      }
+    },
+    {
+      "horario": "11:00",
+      "jogo": "Khan Tengri x Tobol II",
+      "liga": "Kazakhstan First Division",
+      "motivo": "Sem favoritismo claro e dados insuficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito não clara (Khan Tengri 67% vitórias vs Tobol II 0% vitórias, mas com poucos jogos).",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (Tobol II com 0.00 pts/jogo).",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar tendência na reta final.",
+        "back_2x2": "Índice de Over 2.5 gols (Khan Tengri 67%, Tobol II 100%) e Ambas Marcam (Khan Tengri 33%, Tobol II 0%) não atingem os critérios.",
+        "back_goleada": "Favoritismo insuficiente (Khan Tengri 67% vitórias, mas com poucos jogos)."
+      }
+    },
+    {
+      "horario": "11:00",
+      "jogo": "FC Caspiy x Irtysh",
+      "liga": "Kazakhstan Kazakhstan Premier League",
+      "motivo": "Sem favoritismo claro e dados insuficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito não clara (FC Caspiy 33% vitórias vs Irtysh 0% vitórias).",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (Irtysh com 0.40 pts/jogo).",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar tendência na reta final.",
+        "back_2x2": "Índice de Over 2.5 gols (FC Caspiy 33%, Irtysh 60%) e Ambas Marcam (FC Caspiy 33%, Irtysh 60%) não atingem os critérios.",
+        "back_goleada": "Favoritismo insuficiente (FC Caspiy 33% vitórias)."
+      }
     },
     {
       "horario": "11:30",
       "jogo": "Aris x AEK Larnaca",
       "liga": "Cyprus First Division",
-      "motivo": "Aris é 4º com 2.00 pts/jogo e 2.24 gols marcados. AEK Larnaca é 2º com 1.71 pts/jogo e 1.47 gols marcados. Há um certo equilíbrio, mas o Aris tem vantagem no ataque e performance recente. O Aris tem 71% de Over 2.5 gols, AEK Larnaca 35%. Ambos marcam em 47% para Aris e 59% para AEK. O favoritismo do Aris não é extremo e a odd pré-jogo provavelmente não seria tão atrativa para um Back Favorito. Embora haja tendência de gols, não é forte o suficiente para Over Gols. Evitar."
+      "motivo": "Favoritismo claro, mas dados de gols insuficientes para Over 2.5 e Ambas Marcam.",
+      "motivos_por_metodo": {
+        "back_favorito": "Aris tem 59% de vitórias e 2.00 pontos por jogo, enquanto AEK Larnaca tem 47% de vitórias e 1.71 pontos por jogo. A probabilidade estimada de vitória do Aris é de 60%, o que atende ao critério de favoritismo claro. A odd mínima de entrada seria 1.67. No entanto, a liga não está na lista de restrição para Back Favorito.",
+        "lay_zebra": "A odd da zebra (AEK Larnaca) não é clara, mas o desempenho é inferior.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 para Aris é de 71% e para AEK Larnaca é de 35%. A média de 53% não atinge o limiar de 60%.",
+        "back_goleada": "O favoritismo do Aris não é extremo (60% de probabilidade estimada), e a média de gols marcados nos últimos 5 jogos não é clara."
+      }
     },
     {
       "horario": "11:30",
       "jogo": "Paphos x APOEL",
       "liga": "Cyprus First Division",
-      "motivo": "Paphos é 5º com 1.94 pts/jogo e 2.00 gols marcados. APOEL é 5º com 1.41 pts/jogo e 1.53 gols marcados. Jogo equilibrado. Paphos tem 47% de Over 2.5 gols, APOEL 47%. Ambos marcam em 35% para Paphos e 47% para APOEL. O favoritismo não é claro e as estatísticas de gols não são suficientes para justificar um Over Gols ou outros métodos. Evitar."
+      "motivo": "Favoritismo claro, mas dados de gols insuficientes para Over 2.5 e Ambas Marcam.",
+      "motivos_por_metodo": {
+        "back_favorito": "Paphos tem 59% de vitórias e 1.94 pontos por jogo, enquanto APOEL tem 41% de vitórias e 1.41 pontos por jogo. A probabilidade estimada de vitória do Paphos é de 59%, o que não atinge o limiar de 60% para back favorito. Além disso, a liga não está na lista de restrição para Back Favorito.",
+        "lay_zebra": "A odd da zebra (APOEL) não é clara, mas o desempenho é inferior.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 para Paphos é de 47% e para APOEL é de 47%. A média de 47% não atinge o limiar de 60%.",
+        "back_goleada": "O favoritismo do Paphos não é extremo (59% de probabilidade estimada), e a média de gols marcados nos últimos 5 jogos não é clara."
+      }
     },
     {
       "horario": "11:30",
       "jogo": "Omonia Nicosia x Apollon",
       "liga": "Cyprus First Division",
-      "motivo": "Omonia Nicosia é líder com 2.53 pts/jogo e 2.35 gols marcados. Apollon é 3º com 1.71 pts/jogo e 1.12 gols marcados. O favoritismo do Omonia é claro. O Omonia tem 53% de Over 2.5 gols, Apollon 29%. Ambos marcam em 29% para Omonia e 41% para Apollon. O favoritismo do Omonia é muito forte, mas as odds pré-jogo provavelmente seriam baixas. As estatísticas de gols não são esmagadoras para justificar um Over Gols. Evitar, pois não se encaixa de forma clara em nenhum dos 6 métodos com valor esperado positivo garantido."
+      "motivo": "Favoritismo claro, mas dados de gols insuficientes para Over 2.5 e Ambas Marcam.",
+      "motivos_por_metodo": {
+        "back_favorito": "Omonia Nicosia tem 76% de vitórias e 2.53 pontos por jogo, enquanto Apollon tem 47% de vitórias e 1.71 pontos por jogo. A probabilidade estimada de vitória do Omonia Nicosia é de 68%, o que atende ao critério de favoritismo claro. A odd mínima de entrada seria 1.47. No entanto, a liga não está na lista de restrição para Back Favorito.",
+        "lay_zebra": "A odd da zebra (Apollon) não é clara, mas o desempenho é inferior.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 para Omonia Nicosia é de 53% e para Apollon é de 29%. A média de 41% não atinge o limiar de 60%.",
+        "back_goleada": "O favoritismo do Omonia Nicosia é claro (68% de probabilidade estimada), mas a média de gols marcados nos últimos 5 jogos não é clara."
+      }
     },
     {
       "horario": "12:00",
       "jogo": "Osipovichy x Minsk II",
       "liga": "Belarus First League",
-      "motivo": "Dados estatísticos extremamente limitados e inconsistentes. A grande quantidade de '0%' e a falta de jogadores disponíveis tornam qualquer análise inviável."
+      "motivo": "Dados insuficientes para aplicar qualquer método de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "Sem odds de mercado para definir favorito claro. Aproveitamento e média de gols são muito voláteis com poucos jogos.",
+        "lay_zebra": "Sem odds de mercado para definir zebra. Aproveitamento e média de gols são muito voláteis com poucos jogos.",
+        "over_limite_70": "Dados de gols por período são limitados a poucos jogos e não permitem análise de tendência.",
+        "back_2x2": "Índices de Over 2.5 e Ambas Marcam são altos, mas com poucos jogos (3-4) e defesa muito frágil do Osipovichy (3.75 gols sofridos).",
+        "back_goleada": "Sem odds de mercado para definir favoritismo extremo. Aproveitamento e média de gols são muito voláteis com poucos jogos."
+      }
     },
     {
       "horario": "12:00",
-      "jogo": "Shakhtyor Soligorsk x BATE II",
-      "liga": "Belarus First League",
-      "motivo": "Shakhtyor Soligorsk tem um histórico perfeito em casa (3 jogos, 3 vitórias, 0 gols sofridos), mas BATE II também tem bons números fora (3 jogos, 1 vitória, 1 empate, 1 derrota). A média de gols do Shakhtyor é alta (2.67), mas faltam dados suficientes para aplicar Back Goleada com confiança. A odd para Over 2.5 gols pode ser interessante, mas o baixo número de jogos analisados é um fator de risco."
+      "jogo": "Spartak Varna x Lokomotiv Sofia 1929",
+      "liga": "Bulgaria First League",
+      "motivo": "Equilíbrio entre as equipes e dados de gols não suficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Não há um favorito claro. Spartak Varna tem 28% de vitórias em casa e Lokomotiv Sofia tem 29% de vitórias fora. A odd estimada seria próxima de 50/50.",
+        "lay_zebra": "A odd da zebra não é alta o suficiente (probabilidade estimada 50% vs 50%).",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final do jogo. A média de gols total (3.05 vs 2.88) é razoável, mas a falta de dados específicos impede a aplicação.",
+        "back_2x2": "O índice de Over 2.5 gols (67% vs 53%) é razoável, mas o índice de Ambas Marcam (72% vs 53%) não atinge o limiar de 60% para ambos os times. O índice de Over HT (78% vs 71%) é bom, mas a falta de Ambas Marcam consistente impede.",
+        "back_goleada": "Não há favoritismo extremo. A média de gols marcados por ambos os times (1.22 vs 1.41) e sofridos (1.83 vs 1.47) não sugerem um cenário de goleada."
+      }
     },
     {
-      "horario": "12:30",
-      "jogo": "Sumqayıt x Qarabağ",
-      "liga": "Azerbaijan Premyer Liqası",
-      "motivo": "Qarabağ é um favorito claro (2.00 pts/jogo, 60% vitórias) contra Sumqayıt (1.33 pts/jogo, 40% vitórias). A média total de gols é alta (3.00 vs 2.93), mas não há indicação clara de uma goleada ou de um jogo extremamente aberto que justifique os métodos mais agressivos. O mercado de Over 2.5 gols é uma possibilidade, mas as odds pré-jogo podem não oferecer tanto valor."
+      "horario": "12:00",
+      "jogo": "Septemvri Sofia x Dobrudzha 1919",
+      "liga": "Bulgaria First League",
+      "motivo": "Favoritismo do mandante não é suficiente e dados de gols não são ideais.",
+      "motivos_por_metodo": {
+        "back_favorito": "O Septemvri Sofia tem 29% de vitórias em casa e o Dobrudzha 1919 tem 6% de vitórias fora. A probabilidade estimada para o favorito é de aproximadamente 65%, o que justificaria um back favorito. No entanto, a média de gols marcados pelo Septemvri Sofia (0.94) é baixa, e a média de gols sofridos pelo Dobrudzha 1919 (1.50) não é alarmante o suficiente para garantir um back favorito com valor.",
+        "lay_zebra": "A odd da zebra (Dobrudzha 1919) não é alta o suficiente (probabilidade estimada 35% vs 29%). A zebra tem um aproveitamento muito baixo fora de casa (0.33 pontos/jogo) e uma sequência de derrotas, mas a odd não é o gatilho principal.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final do jogo. A média de gols total (2.47 vs 1.94) não é alta o suficiente para justificar este método.",
+        "back_2x2": "O índice de Over 2.5 gols (47% vs 33%) não atinge o limiar de 60%. O índice de Ambas Marcam (47% vs 33%) também está abaixo do limiar de 60%.",
+        "back_goleada": "O favoritismo não é extremo (probabilidade estimada 65% vs 29%). A média de gols marcados pelo favorito (0.94) é baixa, e a média de gols sofridos pelo adversário (1.50) não é suficiente para um cenário de goleada."
+      }
+    },
+    {
+      "horario": "12:00",
+      "jogo": "Botev Vratsa x Beroe",
+      "liga": "Bulgaria First League",
+      "motivo": "Equilíbrio entre as equipes e dados de gols não suficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Botev Vratsa tem 39% de vitórias em casa e Beroe tem 22% de vitórias fora. A probabilidade estimada para o Botev Vratsa é de aproximadamente 60%, o que seria um limiar para back favorito. No entanto, a média de gols marcados pelo Botev Vratsa (0.89) é baixa, e a média de gols sofridos pelo Beroe (1.44) não é tão alta a ponto de garantir valor. O Beroe tem um bom desempenho fora de casa em termos de finalizações no alvo (3.78).",
+        "lay_zebra": "A odd da zebra (Beroe) não é alta o suficiente (probabilidade estimada 40% vs 39%).",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final do jogo. A média de gols total (1.56 vs 2.27) não é alta o suficiente para justificar este método.",
+        "back_2x2": "O índice de Over 2.5 gols (28% vs 50%) não atinge o limiar de 60%. O índice de Ambas Marcam (39% vs 50%) também está abaixo do limiar de 60%.",
+        "back_goleada": "O favoritismo não é extremo (probabilidade estimada 60% vs 39%). A média de gols marcados pelo favorito (0.89) é baixa, e a média de gols sofridos pelo adversário (1.44) não sugere um cenário de goleada."
+      }
     },
     {
       "horario": "13:15",
       "jogo": "Hajduk Split x HNK Vukovar 1991",
       "liga": "Croatia Prva HNL",
-      "motivo": "O Hajduk Split é um favorito claro (2º na tabela, 2.06 pts/jogo, 1.59 gols marcados). O HNK Vukovar 1991 é um azarão (10º na tabela, 0.41 pts/jogo, 0.71 gols marcados). A tendência para gols é alta (2.47 média total de gols para Hajduk, 2.83 para Vukovar). O Hajduk tem 47% de Over 2.5 gols e Vukovar tem 65%. Ambos marcam em 47% para Hajduk e 59% para Vukovar. Apesar do claro favoritismo do Hajduk, o HNK Vukovar 1991 demonstra uma defesa frágil e um ataque que pode contribuir para os gols. A odd para o favorito seria baixa, e os dados de Over/Ambas Marcam são interessantes, mas não são fortes o suficiente para justificar um Over Gols ou Back Goleada. O jogo se encaixa em um potencial Back Favorito, mas as odds pré-jogo provavelmente não seriam atrativas o suficiente e não há dados suficientes para justificar outros métodos de forma consistente. Evitar para não forçar entradas."
+      "motivo": "Favoritismo claro, mas dados de gols insuficientes para Over 2.5 e Ambas Marcam.",
+      "motivos_por_metodo": {
+        "back_favorito": "Hajduk Split tem 65% de vitórias e 2.06 pontos por jogo, enquanto HNK Vukovar 1991 tem 6% de vitórias e 0.41 pontos por jogo. A probabilidade estimada de vitória do Hajduk Split é de 75%, o que atende ao critério de favoritismo claro. A odd mínima de entrada seria 1.43. No entanto, a liga não está na lista de restrição para Back Favorito.",
+        "lay_zebra": "A odd da zebra (HNK Vukovar 1991) não é clara, mas o desempenho é muito inferior.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 para Hajduk Split é de 47% e para HNK Vukovar 1991 é de 65%. A média de 56% não atinge o limiar de 60%.",
+        "back_goleada": "O favoritismo do Hajduk Split é claro (75% de probabilidade estimada), mas a média de gols marcados nos últimos 5 jogos não é clara."
+      }
     },
     {
       "horario": "14:00",
       "jogo": "MKK-Dnepr x Gomel",
       "liga": "Belarus Vysheyshaya Liga",
-      "motivo": "Jogo equilibrado com ambas as equipes tendo aproveitamento semelhante e médias de gols moderadas. Não há um favorito claro para Back Favorito, nem um cenário de goleada. A tendência de Over 2.5 gols não é forte o suficiente (33% vs 0%)."
+      "motivo": "Dados insuficientes para aplicar qualquer método de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "Sem odds de mercado para definir favorito claro. Aproveitamento e média de gols são muito voláteis com poucos jogos.",
+        "lay_zebra": "Sem odds de mercado para definir zebra. Aproveitamento e média de gols são muito voláteis com poucos jogos.",
+        "over_limite_70": "Dados de gols por período são limitados a poucos jogos e não permitem análise de tendência.",
+        "back_2x2": "Índices de Over 2.5 e Ambas Marcam não são suficientes para aplicar o método com segurança.",
+        "back_goleada": "Sem odds de mercado para definir favoritismo extremo. Aproveitamento e média de gols são muito voláteis com poucos jogos."
+      }
     },
     {
       "horario": "14:00",
       "jogo": "Karlovac 1919 x Jarun",
       "liga": "Croatia Druga HNL",
-      "motivo": "O Karlovac 1919 tem um aproveitamento razoável em casa (1.75 pts/jogo) e uma média de gols marcados (1.44) e sofridos (0.94) equilibrada. O Jarun tem um aproveitamento inferior (0.63 pts/jogo) e sofre mais gols (1.50) do que marca (0.75). Há um leve favoritismo para o Karlovac 1919. No entanto, as estatísticas de gols são mistas: 44% de Over 2.5 para Karlovac 1919 e 38% para Jarun. Ambos Marcam ocorre em 19% para Karlovac 1919 e 50% para Jarun. A falta de um padrão claro de gols ou um favoritismo extremo impede a aplicação dos métodos. Não se encaixa em nenhum dos 6 métodos."
+      "motivo": "Sem favoritismo claro e dados de gols insuficientes para Over 2.5.",
+      "motivos_por_metodo": {
+        "back_favorito": "Karlovac 1919 tem 56% de vitórias e 1.75 pontos por jogo, enquanto Jarun tem 13% de vitórias e 0.63 pontos por jogo. A probabilidade estimada de vitória do Karlovac 1919 é de 58%, o que não atinge o limiar de 60% para back favorito.",
+        "lay_zebra": "A odd da zebra (Jarun) não é clara, mas o desempenho é muito inferior.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 para Karlovac 1919 é de 44% e para Jarun é de 38%. A média de 41% não atinge o limiar de 60%.",
+        "back_goleada": "O favoritismo do Karlovac 1919 não é extremo (58% de probabilidade estimada), e a média de gols marcados nos últimos 5 jogos não é clara."
+      }
+    },
+    {
+      "horario": "15:00",
+      "jogo": "Keflavík x Thór",
+      "liga": "Iceland Úrvalsdeild",
+      "motivo": "Dados insuficientes para aplicar os métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo claro (>=60%).",
+        "lay_zebra": "A probabilidade estimada de vitória da zebra não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar uma probabilidade baixa (<=20%).",
+        "over_limite_70": "Não há dados de gols por período (60-75min e 75-90min) no PDF para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 gols dos times é 33% e 100%, mas o índice de Ambas Marcam é 67% e 50%, o que não atende ao critério de média >= 60%.",
+        "back_goleada": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo extremo (>=70%)."
+      }
+    },
+    {
+      "horario": "15:00",
+      "jogo": "KA x Valur",
+      "liga": "Iceland Úrvalsdeild",
+      "motivo": "Dados insuficientes para aplicar os métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo claro (>=60%).",
+        "lay_zebra": "A probabilidade estimada de vitória da zebra não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar uma probabilidade baixa (<=20%).",
+        "over_limite_70": "Não há dados de gols por período (60-75min e 75-90min) no PDF para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 gols dos times é 50% e 100%, mas o índice de Ambas Marcam é 50% e 100%, o que não atende ao critério de média >= 60%.",
+        "back_goleada": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo extremo (>=70%)."
+      }
+    },
+    {
+      "horario": "15:00",
+      "jogo": "Südtirol x Bari 1908",
+      "liga": "Italy Serie B",
+      "motivo": "Sem favoritismo claro e dados insuficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito não clara (Südtirol 26% vitórias vs Bari 16% vitórias).",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (Bari com 0.74 pts/jogo).",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar tendência na reta final.",
+        "back_2x2": "Índice de Over 2.5 gols (Südtirol 42%, Bari 53%) e Ambas Marcam (Südtirol 53%, Bari 47%) não atingem os critérios.",
+        "back_goleada": "Favoritismo insuficiente (Südtirol 26% vitórias vs Bari 16% vitórias)."
+      }
+    },
+    {
+      "horario": "15:00",
+      "jogo": "Ayacucho x Comerciantes",
+      "liga": "Peru Segunda División",
+      "motivo": "Dados insuficientes e jogos recentes com poucos gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Ayacucho tem um aproveitamento muito baixo em casa (0.33 pontos/jogo) e não há favoritismo claro.",
+        "lay_zebra": "A odd da zebra (Comerciantes) não é alta o suficiente (precisa ser >= 5.00) e o time tem um aproveitamento razoável fora de casa.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final do jogo. Além disso, o histórico de Over 2.5 gols é baixo para ambos os times.",
+        "back_2x2": "O índice de Over 2.5 gols para ambos os times é baixo (33% e 33%), e o índice de Ambas Marcam também é baixo (33% e 67%).",
+        "back_goleada": "Não há favoritismo claro e os times marcam poucos gols."
+      }
+    },
+    {
+      "horario": "15:30",
+      "jogo": "Rot-Weiss Essen x Greuther Fürth",
+      "liga": "Germany Germany Play offs 2 3",
+      "motivo": "Dados insuficientes para aplicar os métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "A liga não está na lista de ligas permitidas para este método.",
+        "lay_zebra": "A liga não está na lista de ligas permitidas para este método.",
+        "over_limite_70": "Não há dados de gols por período (60-75min e 75-90min) no PDF para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 gols dos times é 58% e 76%, mas o índice de Ambas Marcam é 74% e 71%, ambos acima do limiar de 60%. No entanto, a média de gols sofridos é 2.05 e 1.35, o que não atende ao critério de defesa frágil (>= 1.2 gols/jogo para ambos).",
+        "back_goleada": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo extremo (>=70%)."
+      }
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Fiorentina x Atalanta",
+      "liga": "Italy Serie A",
+      "motivo": "Equilíbrio estatístico e dados insuficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito não clara (Fiorentina 22% vitórias vs Atalanta 33% vitórias).",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (Atalanta com 1.39 pts/jogo).",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar tendência na reta final.",
+        "back_2x2": "Índice de Over 2.5 gols (Fiorentina 44%, Atalanta 39%) e Ambas Marcam (Fiorentina 61%, Atalanta 61%) não atingem os critérios.",
+        "back_goleada": "Favoritismo insuficiente (Fiorentina 22% vitórias vs Atalanta 33% vitórias)."
+      }
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Kerry x Bray Wanderers",
+      "liga": "Republic of Ireland First Division",
+      "motivo": "Favoritismo moderado, mas odd mínima de entrada não atrativa.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de 58% para o Kerry, resultando em uma fair odd de 1.72. A odd mínima de entrada é de 1.94. Embora o Kerry jogue em casa e tenha um aproveitamento superior, a odd mínima não é suficientemente atrativa para justificar a entrada pré-jogo.",
+        "lay_zebra": "A odd da zebra (Bray Wanderers) não é alta o suficiente (precisa ser >= 5.00) e o time tem um aproveitamento razoável fora de casa.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final do jogo. O índice de Over 2.5 gols é moderado (25% e 50%).",
+        "back_2x2": "O índice de Over 2.5 gols para ambos os times é moderado (25% e 50%), e o índice de Ambas Marcam é alto (63% e 63%), mas o critério de Over HT é baixo (63% e 50%).",
+        "back_goleada": "O favoritismo do Kerry não é extremo (probabilidade estimada de 58%, precisa de >= 70%) e o adversário não tem uma defesa consistentemente frágil (sofre 1.50 gols/jogo)."
+      }
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Finn Harps x Longford Town",
+      "liga": "Republic of Ireland First Division",
+      "motivo": "Favoritismo moderado, mas odd mínima de entrada não atrativa.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de 58% para o Finn Harps, resultando em uma fair odd de 1.72. A odd mínima de entrada é de 1.94. Embora o Finn Harps jogue em casa e tenha um aproveitamento superior, a odd mínima não é suficientemente atrativa para justificar a entrada pré-jogo.",
+        "lay_zebra": "A odd da zebra (Longford Town) não é alta o suficiente (precisa ser >= 5.00) e o time tem um aproveitamento razoável fora de casa.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final do jogo. O índice de Over 2.5 gols é moderado (50% e 25%).",
+        "back_2x2": "O índice de Over 2.5 gols para ambos os times é moderado (50% e 25%), e o índice de Ambas Marcam é moderado (63% e 50%), mas o critério de Over HT é baixo (50% e 50%).",
+        "back_goleada": "O favoritismo do Finn Harps não é extremo (probabilidade estimada de 58%, precisa de >= 70%) e o adversário não tem uma defesa consistentemente frágil (sofre 1.13 gols/jogo)."
+      }
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Athlone Town x Cork City",
+      "liga": "Republic of Ireland First Division",
+      "motivo": "Favoritismo moderado, mas odd mínima de entrada não atrativa.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de 55% para o Athlone Town, resultando em uma fair odd de 1.82. A odd mínima de entrada é de 2.04. Embora o Athlone Town jogue em casa e tenha um aproveitamento superior, a odd mínima não é suficientemente atrativa para justificar a entrada pré-jogo.",
+        "lay_zebra": "A odd da zebra (Cork City) não é alta o suficiente (precisa ser >= 5.00) e o time tem um aproveitamento razoável fora de casa.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final do jogo. O índice de Over 2.5 gols é baixo (38% e 14%).",
+        "back_2x2": "O índice de Over 2.5 gols para ambos os times é baixo (38% e 14%), e o índice de Ambas Marcam é moderado (38% e 43%).",
+        "back_goleada": "O favoritismo do Athlone Town não é extremo (probabilidade estimada de 55%, precisa de >= 70%) e o adversário tem uma defesa muito sólida (sofre 0.57 gols/jogo)."
+      }
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Derry City x St Patricks Athl",
+      "liga": "Republic of Ireland Premier Division",
+      "motivo": "Favoritismo moderado, mas odd mínima de entrada não atrativa.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de 55% para o Derry City, resultando em uma fair odd de 1.82. A odd mínima de entrada é de 2.04. Embora o Derry City jogue em casa e tenha um aproveitamento similar, a odd mínima não é suficientemente atrativa para justificar a entrada pré-jogo.",
+        "lay_zebra": "A odd da zebra (St Patricks Athl) não é alta o suficiente (precisa ser >= 5.00) e o time tem um aproveitamento razoável fora de casa.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final do jogo. O índice de Over 2.5 gols é moderado (63% e 38%).",
+        "back_2x2": "O índice de Over 2.5 gols para ambos os times é moderado (63% e 38%), e o índice de Ambas Marcam é alto (75% e 50%), mas o critério de Over HT é baixo (13% e 13%).",
+        "back_goleada": "O favoritismo do Derry City não é extremo (probabilidade estimada de 55%, precisa de >= 70%) e o adversário não tem uma defesa consistentemente frágil (sofre 1.25 gols/jogo)."
+      }
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Galway United x Bohemians",
+      "liga": "Republic of Ireland Premier Division",
+      "motivo": "Favoritismo moderado, mas odd mínima de entrada não atrativa.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de 55% para o Bohemians, resultando em uma fair odd de 1.82. A odd mínima de entrada é de 2.04. Embora o Bohemians jogue fora e tenha um aproveitamento superior, a odd mínima não é suficientemente atrativa para justificar a entrada pré-jogo.",
+        "lay_zebra": "A odd da zebra (Galway United) não é alta o suficiente (precisa ser >= 5.00) e o time tem um aproveitamento razoável em casa.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final do jogo. O índice de Over 2.5 gols é alto (71% e 50%).",
+        "back_2x2": "O índice de Over 2.5 gols para ambos os times é alto (71% e 50%), e o índice de Ambas Marcam é alto (71% e 38%), mas o critério de Over HT é baixo (14% e 13%).",
+        "back_goleada": "O favoritismo do Bohemians não é extremo (probabilidade estimada de 55%, precisa de >= 70%) e o adversário não tem uma defesa consistentemente frágil (sofre 1.71 gols/jogo)."
+      }
     },
     {
       "horario": "16:00",
-      "jogo": "San Antonio Bulo Bulo x ABB",
-      "liga": "Bolivia LFPB",
-      "motivo": "Jogo com médias de gols altas (2.75 vs 4.67), mas com poucas amostras (4 jogos para cada). A defesa do ABB é muito frágil (3.00 gols sofridos). Há uma tendência de Over 2.5 gols, mas a odd pré-jogo pode não ser tão atrativa e a falta de dados consolidados dificulta a aplicação de outros métodos."
+      "jogo": "Everton x Coquimbo Unido",
+      "liga": "Chile Primera División",
+      "motivo": "Equilíbrio entre as equipes e dados de gols não suficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Everton tem 33% de vitórias em casa e Coquimbo Unido tem 50% de vitórias fora. A probabilidade estimada para o Coquimbo Unido é de aproximadamente 50%, não justificando um back favorito claro. O Everton tem uma média de gols marcados baixa (0.67).",
+        "lay_zebra": "A odd da zebra (Everton) não é alta o suficiente (probabilidade estimada 50% vs 50%).",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final do jogo. A média de gols total (1.50 vs 2.83) não é alta o suficiente para justificar este método.",
+        "back_2x2": "O índice de Over 2.5 gols (33% vs 67%) não atinge o limiar de 60% para ambos os times. O índice de Ambas Marcam (17% vs 67%) também está abaixo do limiar de 60%.",
+        "back_goleada": "Não há favoritismo extremo. A média de gols marcados pelo visitante (1.33) e sofridos pelo mandante (0.83) não sugerem um cenário de goleada."
+      }
     },
     {
       "horario": "16:00",
       "jogo": "Lens x Nice",
       "liga": "France Coupe de France",
-      "motivo": "Estatísticas limitadas para esta competição, sendo necessário basear-se em campeonatos nacionais que não fornecem um contexto direto de Copa. Além disso, a discrepância entre os dados de ataque de um time e defesa do outro, juntamente com a falta de um claro favorito nas odds (não fornecidas), torna arriscada a aplicação de qualquer método."
+      "motivo": "Sem dados suficientes para aplicar os métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "A liga não está na lista de ligas permitidas para este método.",
+        "lay_zebra": "A liga não está na lista de ligas permitidas para este método.",
+        "over_limite_70": "Não há dados de gols por período (60-75min e 75-90min) no PDF para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 gols dos times é 59% e 41%, abaixo do limiar de 60%. O índice de Ambas Marcam é 41%, abaixo do limiar de 60%.",
+        "back_goleada": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo extremo (>=70%)."
+      }
     },
     {
-      "horario": "19:00",
-      "jogo": "Náutico x Cuiabá",
-      "liga": "Brazil Serie B",
-      "motivo": "Cuiabá tem uma defesa sólida (0 gols sofridos) e um aproveitamento razoável (1.50 pts/jogo), enquanto o Náutico tem um ataque razoável (1.25 gols marcados) mas uma defesa vulnerável (1.00 gols sofridos). A média total de gols é baixa (2.25). Não há cenário claro para Over 2.5, nem favoritismo extremo para Back Favorito. A odd pode não oferecer valor para os métodos disponíveis."
+      "horario": "16:15",
+      "jogo": "Leiknir Reykjavík x Grindavík",
+      "liga": "Iceland 1 Deild",
+      "motivo": "Dados insuficientes para aplicar os métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo claro (>=60%).",
+        "lay_zebra": "A probabilidade estimada de vitória da zebra não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar uma probabilidade baixa (<=20%).",
+        "over_limite_70": "Não há dados de gols por período (60-75min e 75-90min) no PDF para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 gols dos times é 59% e 50%, abaixo do limiar de 60%. O índice de Ambas Marcam é 0% e 100%, o que não atende ao critério de média >= 60%.",
+        "back_goleada": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo extremo (>=70%)."
+      }
+    },
+    {
+      "horario": "16:15",
+      "jogo": "Afturelding x Thróttur Reykjavík",
+      "liga": "Iceland 1 Deild",
+      "motivo": "Dados insuficientes para aplicar os métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo claro (>=60%).",
+        "lay_zebra": "A probabilidade estimada de vitória da zebra não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar uma probabilidade baixa (<=20%).",
+        "over_limite_70": "Não há dados de gols por período (60-75min e 75-90min) no PDF para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 gols dos times é 50% e 50%, abaixo do limiar de 60%. O índice de Ambas Marcam é 50% e 0%, o que não atende ao critério de média >= 60%.",
+        "back_goleada": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo extremo (>=70%)."
+      }
+    },
+    {
+      "horario": "16:15",
+      "jogo": "ÍR x HK",
+      "liga": "Iceland 1 Deild",
+      "motivo": "Dados insuficientes para aplicar os métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo claro (>=60%).",
+        "lay_zebra": "A probabilidade estimada de vitória da zebra não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar uma probabilidade baixa (<=20%).",
+        "over_limite_70": "Não há dados de gols por período (60-75min e 75-90min) no PDF para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 gols dos times é 100% e 100%, mas o índice de Ambas Marcam é 100% e 100%, ambos acima do limiar de 60%. No entanto, a média de gols sofridos é 2.00 e 4.00, o que não atende ao critério de defesa frágil (>= 1.2 gols/jogo para ambos).",
+        "back_goleada": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo extremo (>=70%)."
+      }
+    },
+    {
+      "horario": "16:15",
+      "jogo": "Breidablik x KR",
+      "liga": "Iceland Úrvalsdeild",
+      "motivo": "Dados insuficientes para aplicar os métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo claro (>=60%).",
+        "lay_zebra": "A probabilidade estimada de vitória da zebra não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar uma probabilidade baixa (<=20%).",
+        "over_limite_70": "Não há dados de gols por período (60-75min e 75-90min) no PDF para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 gols dos times é 67% e 100%, mas o índice de Ambas Marcam é 33% e 100%, o que não atende ao critério de média >= 60%.",
+        "back_goleada": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo extremo (>=70%)."
+      }
+    },
+    {
+      "horario": "16:15",
+      "jogo": "Stjarnan x Fram",
+      "liga": "Iceland Úrvalsdeild",
+      "motivo": "Dados insuficientes para aplicar os métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo claro (>=60%).",
+        "lay_zebra": "A probabilidade estimada de vitória da zebra não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar uma probabilidade baixa (<=20%).",
+        "over_limite_70": "Não há dados de gols por período (60-75min e 75-90min) no PDF para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 gols dos times é 67% e 67%, mas o índice de Ambas Marcam é 100% e 67%, ambos acima do limiar de 60%. No entanto, a média de gols sofridos é 2.75 e 2.00, o que não atende ao critério de defesa frágil (>= 1.2 gols/jogo para ambos).",
+        "back_goleada": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo extremo (>=70%)."
+      }
+    },
+    {
+      "horario": "16:15",
+      "jogo": "Víkingur Reykjavík x FH",
+      "liga": "Iceland Úrvalsdeild",
+      "motivo": "Dados insuficientes para aplicar os métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo claro (>=60%).",
+        "lay_zebra": "A probabilidade estimada de vitória da zebra não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar uma probabilidade baixa (<=20%).",
+        "over_limite_70": "Não há dados de gols por período (60-75min e 75-90min) no PDF para avaliar a tendência de gols na reta final.",
+        "back_2x2": "O índice de Over 2.5 gols dos times é 75% e 80%, mas o índice de Ambas Marcam é 50% e 80%, o que não atende ao critério de média >= 60%.",
+        "back_goleada": "A probabilidade estimada de vitória do favorito não pode ser calculada com precisão devido à falta de odds de mercado e dados insuficientes para determinar um favoritismo extremo (>=70%)."
+      }
+    },
+    {
+      "horario": "17:15",
+      "jogo": "Deportivo Binacional x Sport Huancayo II",
+      "liga": "Peru Segunda División",
+      "motivo": "Dados insuficientes e jogos recentes com poucos gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Deportivo Binacional tem um aproveitamento baixo em casa (0.67 pontos/jogo) e não há favoritismo claro. Sport Huancayo II tem um aproveitamento muito baixo fora de casa (0.00 pontos/jogo).",
+        "lay_zebra": "A odd da zebra (Sport Huancayo II) não é alta o suficiente (precisa ser >= 5.00) e o time tem um aproveitamento muito baixo fora de casa.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final do jogo. Além disso, o histórico de Over 2.5 gols é baixo para ambos os times.",
+        "back_2x2": "O índice de Over 2.5 gols para ambos os times é baixo (33% e 33%), e o índice de Ambas Marcam também é baixo (67% e 33%).",
+        "back_goleada": "Não há favoritismo claro e os times marcam poucos gols."
+      }
+    },
+    {
+      "horario": "18:00",
+      "jogo": "2 de Mayo x Sportivo San Lorenzo",
+      "liga": "Paraguay Division Profesional",
+      "motivo": "Sem favoritismo claro e dados de gols insuficientes para Over/Under.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de 55% para o 2 de Mayo (favoritismo moderado), mas a odd mínima de entrada seria 2.04, o que não é atraente. Além disso, o Sportivo San Lorenzo tem um ataque razoável fora de casa.",
+        "lay_zebra": "A odd da zebra (Sportivo San Lorenzo) não é alta o suficiente (precisa ser >= 5.00) e o time tem um ataque razoável fora de casa.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final do jogo.",
+        "back_2x2": "O índice de Over 2.5 gols para ambos os times é baixo (30% e 40%), e o índice de Ambas Marcam também é baixo (50% e 50%).",
+        "back_goleada": "O favoritismo do 2 de Mayo não é extremo (probabilidade estimada de 55%, precisa de >= 70%) e o adversário não tem uma defesa consistentemente frágil (sofre 2.20 gols/jogo)."
+      }
     },
     {
       "horario": "20:00",
       "jogo": "Unión Santa Fe x Independiente",
       "liga": "Argentina Copa Argentina",
-      "motivo": "Dados muito limitados para análise, com apenas 1 jogo registrado para ambas as equipes, impossibilitando a aplicação de qualquer método com confiança."
+      "motivo": "Dados insuficientes para aplicar qualquer método de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "Sem odds de mercado para definir favorito claro. Dados de aproveitamento e gols são limitados a 1 jogo.",
+        "lay_zebra": "Sem odds de mercado para definir zebra. Dados de aproveitamento e gols são limitados a 1 jogo.",
+        "over_limite_70": "Dados de gols por período são limitados a 1 jogo e não permitem análise de tendência.",
+        "back_2x2": "Índices de Over 2.5 e Ambas Marcam são 0% com base em 1 jogo.",
+        "back_goleada": "Sem odds de mercado para definir favoritismo extremo. Dados de gols são limitados a 1 jogo."
+      }
     },
     {
       "horario": "21:00",
-      "jogo": "Gualberto Villarroel SJ x The Strongest",
-      "liga": "Bolivia LFPB",
-      "motivo": "The Strongest é um claro favorito (2.50 pts/jogo, 75% vitórias). A média de gols é razoável (2.67 vs 2.25), mas a defesa do Gualberto é vulnerável (1.67 gols sofridos). Não há um cenário de goleada clara, e a odd para Back Favorito pode não ser tão atrativa com apenas 4 jogos analisados. O Over 2.5 gols é uma possibilidade, mas com risco devido ao baixo volume de dados."
+      "jogo": "Levski Krumovgrad x Vihren Sandanski",
+      "liga": "Bulgaria Second League",
+      "motivo": "Dados insuficientes para o time mandante e desequilíbrio extremo.",
+      "motivos_por_metodo": {
+        "back_favorito": "O Levski Krumovgrad não possui dados de jogos na competição. O Vihren Sandanski tem 5 vitórias em 16 jogos (38%) e uma média de 1.44 gols marcados. Sem dados do mandante, é impossível aplicar este método.",
+        "lay_zebra": "O Vihren Sandanski tem 38% de vitórias, o que não o caracteriza como uma zebra com odd alta. A probabilidade estimada para o Vihren Sandanski seria em torno de 40-45%, não justificando o lay.",
+        "over_limite_70": "Não há dados de gols por período para o Levski Krumovgrad. A média de gols total do Vihren Sandanski é 2.82, mas a falta de dados do mandante impede a aplicação.",
+        "back_2x2": "Não há dados de Over 2.5 gols ou Ambas Marcam para o Levski Krumovgrad. Para o Vihren Sandanski, o Over 2.5 gols é 50% e Ambas Marcam é 44%, ambos abaixo dos limiares.",
+        "back_goleada": "Não há dados suficientes para o Levski Krumovgrad. O Vihren Sandanski tem uma média de gols marcados de 1.44, mas o favoritismo não é extremo e não há dados sobre a defesa do mandante."
+      }
+    },
+    {
+      "horario": "21:00",
+      "jogo": "Rangers x Santiago Wanderers",
+      "liga": "Chile Primera B",
+      "motivo": "Favoritismo do visitante não é claro e dados de gols não são ideais.",
+      "motivos_por_metodo": {
+        "back_favorito": "O Rangers tem 0% de vitórias em 6 jogos, enquanto o Santiago Wanderers tem 50% de vitórias em 6 jogos. A probabilidade estimada para o Santiago Wanderers é de aproximadamente 50%, não justificando um back favorito claro. O Rangers tem uma média de gols sofridos muito alta (2.00).",
+        "lay_zebra": "A odd da zebra (Rangers) não é alta o suficiente (probabilidade estimada 50% vs 50%).",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para avaliar a tendência de gols na reta final do jogo. A média de gols total (3.00 vs 2.50) é razoável, mas a falta de dados específicos impede a aplicação.",
+        "back_2x2": "O índice de Over 2.5 gols (33% vs 50%) não atinge o limiar de 60%. O índice de Ambas Marcam (67% vs 50%) também está abaixo do limiar de 60%.",
+        "back_goleada": "Não há favoritismo extremo. A média de gols marcados pelo visitante (1.67) e sofridos pelo mandante (2.00) não indicam um cenário de goleada."
+      }
+    },
+    {
+      "horario": "21:00",
+      "jogo": "Boyacá Chicó x Llaneros",
+      "liga": "Colombia Copa Colombia",
+      "motivo": "Dados insuficientes para ambos os times e cenário de jogo único.",
+      "motivos_por_metodo": {
+        "back_favorito": "O Boyacá Chicó tem 100% de vitórias em 1 jogo, com 4 gols marcados e 0 sofridos. O Llaneros tem 0% de vitórias em 1 jogo, com 0 gols marcados e 1 sofrido. A amostra é muito pequena para qualquer análise confiável.",
+        "lay_zebra": "A odd da zebra (Llaneros) não é alta o suficiente, dado o histórico de 1 jogo. A probabilidade estimada seria muito volátil.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para ambos os times. A média de gols total do Boyacá Chicó é 4.00, mas a amostra é de apenas 1 jogo.",
+        "back_2x2": "Não há dados suficientes de Over 2.5 gols ou Ambas Marcam para ambos os times. A amostra é de apenas 1 jogo.",
+        "back_goleada": "Embora o Boyacá Chicó tenha marcado 4 gols em 1 jogo, a amostra é muito pequena para considerar um cenário de goleada. O favoritismo não é claro com base em dados limitados."
+      }
+    },
+    {
+      "horario": "21:00",
+      "jogo": "Atlético x Millonarios",
+      "liga": "Colombia Copa Colombia",
+      "motivo": "Dados insuficientes para ambos os times e cenário de jogo único.",
+      "motivos_por_metodo": {
+        "back_favorito": "O Atlético tem 0% de vitórias em 1 jogo, com 1 gol marcado e 1 sofrido. O Millonarios tem 100% de vitórias em 1 jogo, com 3 gols marcados e 2 sofridos. A amostra é muito pequena para qualquer análise confiável.",
+        "lay_zebra": "A odd da zebra (Atlético) não é alta o suficiente, dado o histórico de 1 jogo. A probabilidade estimada seria muito volátil.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para ambos os times. A média de gols total do Millonarios é 5.00, mas a amostra é de apenas 1 jogo.",
+        "back_2x2": "Não há dados suficientes de Over 2.5 gols ou Ambas Marcam para ambos os times. A amostra é de apenas 1 jogo.",
+        "back_goleada": "Embora o Millonarios tenha marcado 3 gols em 1 jogo, a amostra é muito pequena para considerar um cenário de goleada. O favoritismo não é claro com base em dados limitados."
+      }
+    },
+    {
+      "horario": "21:00",
+      "jogo": "Cúcuta Deportivo x Fortaleza CEIF",
+      "liga": "Colombia Copa Colombia",
+      "motivo": "Dados insuficientes para ambos os times e cenário de jogo único.",
+      "motivos_por_metodo": {
+        "back_favorito": "O Cúcuta Deportivo tem 0% de vitórias em 1 jogo, com 0 gols marcados e 1 sofrido. O Fortaleza CEIF tem 0% de vitórias em 1 jogo, com 0 gols marcados e 0 sofridos. A amostra é muito pequena para qualquer análise confiável.",
+        "lay_zebra": "A odd da zebra (Fortaleza CEIF) não é alta o suficiente, dado o histórico de 1 jogo. A probabilidade estimada seria muito volátil.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para ambos os times. A média de gols total do Cúcuta Deportivo é 0.00, mas a amostra é de apenas 1 jogo.",
+        "back_2x2": "Não há dados suficientes de Over 2.5 gols ou Ambas Marcam para ambos os times. A amostra é de apenas 1 jogo.",
+        "back_goleada": "Não há dados suficientes para ambos os times para considerar um cenário de goleada. O favoritismo não é claro com base em dados limitados."
+      }
     },
     {
       "horario": "21:00",
       "jogo": "Real Soacha x Rionegro Águilas",
       "liga": "Colombia Copa Colombia",
-      "motivo": "Dados muito limitados para ambos os times (apenas 1 jogo registrado), o que impede uma análise estatística confiável para qualquer um dos 6 métodos. Não há consistência para avaliar favoritismo, padrão de gols ou qualquer outra métrica."
+      "motivo": "Dados insuficientes para aplicar métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "Apesar do Rionegro Águilas ter 100% de vitórias e média de 4 gols, o Real Soacha também tem 100% de vitórias e média de 2 gols. A amostra de 1 jogo para cada time é muito pequena para determinar um favorito claro.",
+        "lay_zebra": "Não há zebra com odd >= 5.00.",
+        "over_limite_70": "A amostra de 1 jogo é insuficiente para avaliar a tendência de gols na reta final.",
+        "back_2x2": "A amostra de 1 jogo é insuficiente para avaliar os índices de Over 2.5 e Ambas Marcam.",
+        "back_goleada": "A amostra de 1 jogo é insuficiente para determinar um favoritismo extremo e padrão ofensivo claro."
+      }
     },
     {
       "horario": "23:00",
       "jogo": "Mexico x Ghana",
       "liga": "International International Friendlies",
-      "motivo": "Baixa liquidez e falta de dados suficientes para aplicar os métodos. Os dados de gols e aproveitamento são inconsistentes entre as equipes, tornando difícil prever um resultado claro. O modo ao vivo seria uma opção, mas sem odds, o protocolo exige evitar."
+      "motivo": "Sem favoritismo claro e dados de gols insuficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito não clara (Mexico com 1.67 pontos/jogo vs Ghana com 1.00).",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (Ghana com 1.00 pontos/jogo).",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar tendência na reta final.",
+        "back_2x2": "Índice de Over 2.5 gols (Mexico 33%, Ghana 33%) e Ambas Marcam (Mexico 33%, Ghana 100%) não atingem os critérios.",
+        "back_goleada": "Favoritismo insuficiente (Mexico com 1.67 pts/jogo vs Ghana com 1.00 pts/jogo) e média ofensiva não é alta."
+      }
     }
   ]
 }
