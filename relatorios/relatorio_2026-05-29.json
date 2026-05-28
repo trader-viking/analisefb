@@ -1,10 +1,102 @@
 {
   "data": "2026-05-29",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-05-28T07:35:43.706721",
+  "gerado_em": "2026-05-28T15:41:05.798233",
   "total_partidas_analisadas": 7,
   "entradas": [],
-  "evitar": [],
+  "evitar": [
+    {
+      "horario": "08:35",
+      "jogo": "Shenyang Urban x Shanghai SIPG",
+      "liga": "China Chinese Super League",
+      "motivo": "Favoritismo do Shanghai SIPG não é extremo o suficiente para Back Goleada e dados de gols não suportam outros métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do Shanghai SIPG é 58% (baseado em aproveitamento e média de gols), o que não atinge o limiar de 60%.",
+        "lay_zebra": "A odd estimada para a zebra (Shenyang Urban) seria em torno de 2.50 (baseado em aproveitamento e média de gols), o que não atinge o limiar de 5.00.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar uma tendência de gols na reta final do jogo.",
+        "back_2x2": "O índice de Over 2.5 gols para o Shenyang Urban é 67% e para o Shanghai SIPG é 33%, a média de 50% não atinge o limiar de 60%. O índice de Ambas Marcam para ambos é 50%, a média de 50% não atinge o limiar de 60%.",
+        "back_goleada": "A probabilidade estimada de vitória do favorito (Shanghai SIPG) é 58%, o que não atinge o limiar de 70% para favoritismo extremo."
+      }
+    },
+    {
+      "horario": "11:00",
+      "jogo": "Masr x Kahraba Ismailia",
+      "liga": "Egypt Egyptian Premier League",
+      "motivo": "Favoritismo equilibrado e dados de gols não suportam métodos de over ou goleada.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do Kahraba Ismailia é 54% (baseado em aproveitamento e média de gols), o que não atinge o limiar de 60%.",
+        "lay_zebra": "A odd estimada para a zebra (Masr) seria em torno de 2.30 (baseado em aproveitamento e média de gols), o que não atinge o limiar de 5.00.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar uma tendência de gols na reta final do jogo.",
+        "back_2x2": "O índice de Over 2.5 gols para o Masr é 33% e para o Kahraba Ismailia é 46%, a média de 39.5% não atinge o limiar de 60%. O índice de Ambas Marcam para o Masr é 47% e para o Kahraba Ismailia é 54%, a média de 50.5% não atinge o limiar de 60%.",
+        "back_goleada": "A probabilidade estimada de vitória do favorito (Kahraba Ismailia) é 54%, o que não atinge o limiar de 70% para favoritismo extremo."
+      }
+    },
+    {
+      "horario": "11:00",
+      "jogo": "Al Mokawloon x Coca-Cola",
+      "liga": "Egypt Egyptian Premier League",
+      "motivo": "Favoritismo equilibrado e dados de gols não suportam métodos de over ou goleada.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do Coca-Cola é 31% e do Al Mokawloon é 18%, não há um favorito claro com probabilidade acima de 60%.",
+        "lay_zebra": "A odd estimada para a zebra (Coca-Cola) seria em torno de 2.50 (baseado em aproveitamento e média de gols), o que não atinge o limiar de 5.00.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar uma tendência de gols na reta final do jogo.",
+        "back_2x2": "O índice de Over 2.5 gols para o Al Mokawloon é 12% e para o Coca-Cola é 31%, a média de 21.5% não atinge o limiar de 60%. O índice de Ambas Marcam para o Al Mokawloon é 47% e para o Coca-Cola é 44%, a média de 45.5% não atinge o limiar de 60%.",
+        "back_goleada": "Não há favoritismo extremo, com probabilidade estimada de vitória do Coca-Cola sendo 31% e do Al Mokawloon 18%."
+      }
+    },
+    {
+      "horario": "14:00",
+      "jogo": "Ghazl El Mehalla x Haras El Hodood",
+      "liga": "Egypt Egyptian Premier League",
+      "motivo": "Favoritismo do Ghazl El Mehalla não é claro e dados de gols não suportam outros métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do Ghazl El Mehalla é 19% e do Haras El Hodood é 14%, não há um favorito claro com probabilidade acima de 60%.",
+        "lay_zebra": "A odd estimada para a zebra (Haras El Hodood) seria em torno de 3.00 (baseado em aproveitamento e média de gols), o que não atinge o limiar de 5.00.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar uma tendência de gols na reta final do jogo.",
+        "back_2x2": "O índice de Over 2.5 gols para o Ghazl El Mehalla é 6% e para o Haras El Hodood é 29%, a média de 17.5% não atinge o limiar de 60%. O índice de Ambas Marcam para o Ghazl El Mehalla é 25% e para o Haras El Hodood é 43%, a média de 34% não atinge o limiar de 60%.",
+        "back_goleada": "Não há favoritismo extremo, com probabilidade estimada de vitória do Ghazl El Mehalla sendo 19% e do Haras El Hodood 14%."
+      }
+    },
+    {
+      "horario": "14:00",
+      "jogo": "National Bank of Egypt x Al Ittihad",
+      "liga": "Egypt Egyptian Premier League",
+      "motivo": "Favoritismo do National Bank of Egypt não é claro e dados de gols não suportam outros métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do National Bank of Egypt é 29% e do Al Ittihad é 12%, não há um favorito claro com probabilidade acima de 60%.",
+        "lay_zebra": "A odd estimada para a zebra (Al Ittihad) seria em torno de 3.00 (baseado em aproveitamento e média de gols), o que não atinge o limiar de 5.00.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar uma tendência de gols na reta final do jogo.",
+        "back_2x2": "O índice de Over 2.5 gols para o National Bank of Egypt é 35% e para o Al Ittihad é 35%, a média de 35% não atinge o limiar de 60%. O índice de Ambas Marcam para o National Bank of Egypt é 65% e para o Al Ittihad é 41%, a média de 53% não atinge o limiar de 60%.",
+        "back_goleada": "Não há favoritismo extremo, com probabilidade estimada de vitória do National Bank of Egypt sendo 29% e do Al Ittihad 12%."
+      }
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Nice x Saint-Étienne",
+      "liga": "France Ligue 1 2 Play offs",
+      "motivo": "Dados insuficientes no material para análise.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no material para análise.",
+        "lay_zebra": "Dados insuficientes no material para análise.",
+        "over_limite_70": "Dados insuficientes no material para análise.",
+        "back_2x2": "Dados insuficientes no material para análise.",
+        "back_goleada": "Dados insuficientes no material para análise."
+      }
+    },
+    {
+      "horario": "21:00",
+      "jogo": "Juventude x América Mineiro",
+      "liga": "Brazil Serie B",
+      "motivo": "Sem favoritismo claro e dados de gols insuficientes para métodos de over.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Juventude) é 52% (baseado em aproveitamento e média de gols), o que não atinge o limiar de 60%.",
+        "lay_zebra": "A odd estimada para a zebra (América Mineiro) seria em torno de 2.50 (baseado em aproveitamento e média de gols), o que não atinge o limiar de 5.00.",
+        "over_limite_70": "Não há dados suficientes sobre gols por período para determinar uma tendência de gols na reta final do jogo.",
+        "back_2x2": "O índice de Over 2.5 gols para o Juventude é 0% e para o América Mineiro é 40%, a média de 20% não atinge o limiar de 60%. O índice de Ambas Marcam para o Juventude é 60% e para o América Mineiro é 60%, a média de 60% atinge o limiar, mas o Over 2.5 não.",
+        "back_goleada": "A probabilidade estimada de vitória do favorito (Juventude) é 52%, o que não atinge o limiar de 70% para favoritismo extremo."
+      }
+    }
+  ],
   "pdfs": [
     {
       "jogo": "Juventude x América Mineiro",
