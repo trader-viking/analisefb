@@ -1,9 +1,543 @@
 {
   "data": "2026-05-28",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-05-28T07:28:02.121039",
+  "gerado_em": "2026-05-28T15:37:55.324641",
   "total_partidas_analisadas": 9,
-  "entradas": [],
+  "entradas": [
+    {
+      "horario": "11:00",
+      "liga": "Egypt Egyptian Premier League",
+      "jogo": "Petrojet x El Gounah",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Petrojet",
+      "probabilidade_estimada": "55% (favoritismo moderado do Petrojet com base em aproveitamento e média de gols)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.02",
+      "valor_esperado": "Petrojet tem um aproveitamento ligeiramente superior e melhor média de gols marcados. A odd mínima de entrada é calculada com uma margem de segurança sobre a fair odd.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Petrojet marca 0.60 gols no 1ºT, El Gounah marca 0.35 gols no 1ºT.",
+      "desempenho_2t": "Petrojet sofre 1.00 gols no 2ºT, El Gounah sofre 0.29 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "11º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": null
+        }
+      },
+      "motivacao_tecnica": "Petrojet joga em casa e apresenta um aproveitamento ligeiramente superior, além de uma média de gols marcados mais alta. El Gounah tem um desempenho defensivo mais sólido fora de casa, mas o ataque é menos produtivo. O favoritismo é moderado, justificando um back ao vivo para confirmar a performance.",
+      "coeficiente_regularidade": "Casa: CV moderado (33% vitórias) / Visitante: CV moderado (35% vitórias)",
+      "mando_de_campo": "Petrojet tem um aproveitamento de 1.47 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Petrojet tem maior volume ofensivo (1.20 vs 0.82), mas El Gounah tem defesa mais sólida (0.65 vs 1.13 sofridos).",
+      "momento_gols": "Petrojet marca mais gols no final do jogo (28% entre 76-90min), El Gounah também (43% entre 76-90min).",
+      "jogadores_chave": "Adham Hamed (Petrojet - 9 gols), Badr Moussa (Petrojet - 6 gols), Marwan Mohsen (El Gounah - 5 gols).",
+      "placares_provaveis": "1x0, 2x1",
+      "momento_entrada": "ao_vivo",
+      "situacao_saida": "Se o Petrojet abrir vantagem no placar e mantiver a pressão.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O favoritismo é moderado, permitindo a entrada ao vivo para confirmar a performance.",
+        "gatilho_saida_parcial": "Gol do Petrojet.",
+        "hard_stop": "Se El Gounah abrir o placar."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "Petrojet",
+        "odd_alvo": "1.80",
+        "razao": "Favoritismo moderado do Petrojet em casa, com melhor aproveitamento e média de gols.",
+        "gatilho_ao_vivo": "Confirmação de domínio nos primeiros 15 minutos, com pressão ofensiva.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "11:00",
+      "liga": "Egypt Egyptian Premier League",
+      "jogo": "El Geish x Wadi Degla",
+      "metodos_aplicados": [
+        "back_2x2"
+      ],
+      "mercado_principal": "Placar Exato 2x2",
+      "probabilidade_estimada": "40% (ambos os times têm potencial para gols, mas com defesas que podem sofrer)",
+      "fair_odd": "2.50",
+      "odd_minima_entrada": "2.90",
+      "valor_esperado": "Ambos os times apresentam bons índices de Over 2.5 e Ambas Marcam, além de um percentual razoável de gols no primeiro tempo. A odd para o placar exato 2x2 tende a ser alta, oferecendo valor.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "El Geish marca 0.67 gols no 1ºT, Wadi Degla marca 0.33 gols no 1ºT.",
+      "desempenho_2t": "El Geish sofre 0.40 gols no 2ºT, Wadi Degla sofre 0.53 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "7º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "6º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "El Geish e Wadi Degla possuem estatísticas que indicam um jogo com potencial para gols de ambos os lados. O El Geish tem um bom índice de Over 2.5 (27%) e Ambas Marcam (27%), mas o Wadi Degla se destaca com 40% de Over 2.5 e 60% de Ambas Marcam. O alto percentual de Over 0.5 no primeiro tempo (80% para El Geish e 47% para Wadi Degla) sugere que o jogo pode ter gols antes do intervalo.",
+      "coeficiente_regularidade": "Casa: CV moderado (47% vitórias) / Visitante: CV moderado (33% vitórias)",
+      "mando_de_campo": "El Geish tem um aproveitamento de 1.60 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ambos os times marcam e sofrem gols com certa regularidade. Wadi Degla tem ataque mais prolífico (1.13 vs 0.87).",
+      "momento_gols": "El Geish marca muitos gols no início (31% entre 0-15min) e final (33% entre 76-90min). Wadi Degla tem picos no início (18% entre 31-45min) e final (41% entre 61-75min).",
+      "jogadores_chave": "Ismaïl Ouro-Agoro (El Geish - 5 gols), Amro Tarek (El Geish - 4 gols), Franck Boli (Wadi Degla - 9 gols), Ahmed Farouk (Wadi Degla - 4 gols).",
+      "placares_provaveis": "2x1, 1x2, 2x2",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out em 1x1, 2x1 ou 1x2.",
+      "stake_recomendada": "0.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O padrão estatístico sugere um jogo aberto com potencial para placares exatos.",
+        "gatilho_saida_parcial": "Chegada a 1x1, 2x1 ou 1x2.",
+        "hard_stop": "Não segurar o placar em 1x1, 2x1 ou 1x2."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": {
+        "aplicavel": true,
+        "razao": "Alto índice de Over 2.5 (El Geish 27%, Wadi Degla 40%) e Ambas Marcam (El Geish 27%, Wadi Degla 60%). Ambos os times marcam e sofrem gols com frequência.",
+        "indice_over_2_5": "Média de 33.5% (El Geish 27%, Wadi Degla 40%)",
+        "indice_ambas_marcam": "Média de 43.5% (El Geish 27%, Wadi Degla 60%)",
+        "indice_over_ht": "El Geish 80% Over 0.5 HT, Wadi Degla 47% Over 0.5 HT.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "11:00",
+      "liga": "Egypt Egyptian Premier League",
+      "jogo": "Ismaily SC x Pharco",
+      "metodos_aplicados": [
+        "lay_zebra"
+      ],
+      "mercado_principal": "Lay Vitória Pharco",
+      "probabilidade_estimada": "75% (Ismaily SC é favorito com base em aproveitamento e média de gols)",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.50",
+      "valor_esperado": "Ismaily SC tem um aproveitamento significativamente melhor e uma média de gols marcados superior, enquanto o Pharco demonstra fragilidade defensiva e pouca capacidade de marcar. A odd para o Pharco (zebra) é alta o suficiente para considerar um lay.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Ismaily SC marca 0.23 gols no 1ºT, Pharco marca 0.13 gols no 1ºT.",
+      "desempenho_2t": "Ismaily SC sofre 0.85 gols no 2ºT, Pharco sofre 0.63 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "20º",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "21º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Ismaily SC, apesar de estar em uma posição baixa na tabela, apresenta estatísticas de aproveitamento e gols marcados superiores ao Pharco. O Pharco tem um desempenho ofensivo muito fraco (0.44 gols por jogo) e uma defesa que sofre muitos gols (1.25 por jogo). A odd para a vitória do Pharco é alta, tornando o lay uma opção viável.",
+      "coeficiente_regularidade": "Casa: CV alto (15% vitórias) / Visitante: CV alto (6% vitórias)",
+      "mando_de_campo": "Ismaily SC tem um aproveitamento de 0.69 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ismaily SC tem ataque ligeiramente melhor (0.69 vs 0.44), mas defesa frágil (1.38 vs 1.25 sofridos).",
+      "momento_gols": "Ismaily SC marca mais gols no final do jogo (44% entre 76-90min). Pharco também marca mais no final (29% entre 61-75min e 29% entre 76-90min).",
+      "jogadores_chave": "Marwan Hamdi (Ismaily SC - 0 gols, mas com 2 jogos), Mohamed Ammar (Ismaily SC - 3 gols), Karim El Tayeeb (Pharco - 3 gols), Mahmoud Farahat (Pharco - 1 gol).",
+      "placares_provaveis": "1x0, 2x0, 2x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Se o Ismaily SC abrir vantagem no placar.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O Pharco é uma zebra com odd alta e desempenho muito fraco.",
+        "gatilho_saida_parcial": "Gol do Ismaily SC.",
+        "hard_stop": "Se o Pharco abrir o placar."
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "zebra": "Pharco",
+        "odd_zebra_alvo": "5.00",
+        "razao": "Pharco tem odd alta (estimada > 5.00) e desempenho recente muito ruim, com ataque fraco e defesa vazada.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "19:00",
+      "liga": "South America Copa Libertadores",
+      "jogo": "Palmeiras x Junior",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Palmeiras",
+      "probabilidade_estimada": "65% (Palmeiras é favorito com base em aproveitamento e média de gols)",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.70",
+      "valor_esperado": "Palmeiras tem um aproveitamento perfeito em casa e uma média de gols marcados superior, enquanto o Junior tem um desempenho fraco fora de casa e não marcou gols. A odd mínima de entrada é calculada com uma margem de segurança sobre a fair odd.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Palmeiras marca 0.50 gols no 1ºT, Junior marca 0.00 gols no 1ºT.",
+      "desempenho_2t": "Palmeiras sofre 0.50 gols no 2ºT, Junior sofre 1.50 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "4º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "14º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Palmeiras joga em casa com 100% de aproveitamento e uma média de gols marcados considerável. Junior tem um desempenho muito fraco fora de casa, sem ter marcado gols em seus jogos. O favoritismo do Palmeiras é claro, justificando um back ao vivo para confirmar a performance.",
+      "coeficiente_regularidade": "Casa: CV moderado (50% vitórias) / Visitante: CV alto (0% vitórias)",
+      "mando_de_campo": "Palmeiras tem um aproveitamento de 1.50 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Palmeiras tem ataque mais prolífico (1.00 vs 0.00), mas defesa que sofre (1.00 vs 1.50 sofridos).",
+      "momento_gols": "Palmeiras marca gols em ambos os tempos. Junior marcou no 1º e 2º tempo.",
+      "jogadores_chave": "José Manuel López (Palmeiras - 2 gols), Jhon Arias (Palmeiras - 1 gol), Luis Muriel (Junior - 2 gols), Kevin Pérez (Junior - 1 gol).",
+      "placares_provaveis": "1x0, 2x0, 2x1",
+      "momento_entrada": "ao_vivo",
+      "situacao_saida": "Se o Palmeiras abrir vantagem no placar e mantiver a pressão.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O favoritismo do Palmeiras em casa é claro, permitindo a entrada ao vivo para confirmar a performance.",
+        "gatilho_saida_parcial": "Gol do Palmeiras.",
+        "hard_stop": "Se o Junior abrir o placar."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "Palmeiras",
+        "odd_alvo": "1.50",
+        "razao": "Palmeiras joga em casa com 100% de aproveitamento e enfrenta um Junior com desempenho fraco fora de casa e sem gols marcados.",
+        "gatilho_ao_vivo": "Confirmação de domínio nos primeiros 15 minutos, com pressão ofensiva.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "19:00",
+      "liga": "South America Copa Libertadores",
+      "jogo": "Cerro Porteño x Sporting Cristal",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Cerro Porteño",
+      "probabilidade_estimada": "60% (Cerro Porteño é favorito com base em aproveitamento e média de gols)",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.84",
+      "valor_esperado": "Cerro Porteño tem um aproveitamento superior em casa e uma média de gols marcados mais alta, enquanto o Sporting Cristal tem um desempenho mais fraco fora de casa e sofre mais gols. A odd mínima de entrada é calculada com uma margem de segurança sobre a fair odd.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Cerro Porteño marca 0.00 gols no 1ºT, Sporting Cristal marca 0.75 gols no 1ºT.",
+      "desempenho_2t": "Cerro Porteño sofre 0.00 gols no 2ºT, Sporting Cristal sofre 0.75 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "45º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "28º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Cerro Porteño joga em casa com um aproveitamento de 2.00 pontos por jogo e uma média de gols marcados de 1.00. Sporting Cristal tem um desempenho mais modesto fora de casa, com média de gols marcados de 1.50, mas sofre 1.75 gols por jogo. O favoritismo do Cerro Porteño é moderado, justificando um back ao vivo para confirmar a performance.",
+      "coeficiente_regularidade": "Casa: CV moderado (50% vitórias) / Visitante: CV moderado (25% vitórias)",
+      "mando_de_campo": "Cerro Porteño tem um aproveitamento de 2.00 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Cerro Porteño tem ataque mais modesto (1.00 vs 1.50), mas defesa mais sólida (0.50 vs 1.75 sofridos).",
+      "momento_gols": "Cerro Porteño marca mais gols no segundo tempo (1.00). Sporting Cristal marca mais no primeiro tempo (0.75).",
+      "jogadores_chave": "Pablo Ezequiel Vegetti Pfaffen (Cerro Porteño - 2 gols), Jonathan Torres (Cerro Porteño - 1 gol), Víctor Yoshimar Yotún Flores (Sporting Cristal - 3 gols), Maxloren Sannoe Castro Rufino (Sporting Cristal - 1 gol).",
+      "placares_provaveis": "1x0, 2x1, 1x1",
+      "momento_entrada": "ao_vivo",
+      "situacao_saida": "Se o Cerro Porteño abrir vantagem no placar e mantiver a pressão.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O favoritismo do Cerro Porteño em casa é moderado, permitindo a entrada ao vivo para confirmar a performance.",
+        "gatilho_saida_parcial": "Gol do Cerro Porteño.",
+        "hard_stop": "Se o Sporting Cristal abrir o placar."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "Cerro Porteño",
+        "odd_alvo": "1.60",
+        "razao": "Cerro Porteño joga em casa com bom aproveitamento e enfrenta um Sporting Cristal com defesa frágil fora de casa.",
+        "gatilho_ao_vivo": "Confirmação de domínio nos primeiros 15 minutos, com pressão ofensiva.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "21:30",
+      "liga": "South America Copa Libertadores",
+      "jogo": "Boca Juniors x Universidad Católica",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Boca Juniors",
+      "probabilidade_estimada": "60% (Boca Juniors é favorito com base em aproveitamento e média de gols)",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.84",
+      "valor_esperado": "Boca Juniors tem um aproveitamento perfeito em casa e uma média de gols marcados superior, enquanto a Universidad Católica tem um desempenho mais fraco fora de casa e sofre mais gols. A odd mínima de entrada é calculada com uma margem de segurança sobre a fair odd.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Boca Juniors marca 1.00 gols no 1ºT, Universidad Católica marca 1.50 gols no 1ºT.",
+      "desempenho_2t": "Boca Juniors sofre 0.50 gols no 2ºT, Universidad Católica sofre 1.00 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "8º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "19º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Boca Juniors joga em casa com 100% de aproveitamento e uma média de gols marcados de 2.00. Universidad Católica tem um desempenho mais modesto fora de casa, com média de gols marcados de 2.00, mas sofre 1.00 gols por jogo. O favoritismo do Boca Juniors é moderado, justificando um back ao vivo para confirmar a performance.",
+      "coeficiente_regularidade": "Casa: CV moderado (50% vitórias) / Visitante: CV alto (100% vitórias)",
+      "mando_de_campo": "Boca Juniors tem um aproveitamento de 2.00 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ambos os times têm ataque prolífico (2.00 vs 2.00), mas Boca Juniors tem defesa mais sólida (0.50 vs 1.00 sofridos).",
+      "momento_gols": "Boca Juniors marca mais gols no final do jogo (50% entre 76-90min). Universidad Católica marca mais no início do jogo (75% entre 16-30min).",
+      "jogadores_chave": "Fernando Zampedri (Universidad Católica - 3 gols), Miguel Merentiel (Boca Juniors - 1 gol), Leandro Paredes (Boca Juniors - 1 gol), Santiago Ascacibar (Boca Juniors - 1 gol).",
+      "placares_provaveis": "1x0, 2x1, 2x0",
+      "momento_entrada": "ao_vivo",
+      "situacao_saida": "Se o Boca Juniors abrir vantagem no placar e mantiver a pressão.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O favoritismo do Boca Juniors em casa é moderado, permitindo a entrada ao vivo para confirmar a performance.",
+        "gatilho_saida_parcial": "Gol do Boca Juniors.",
+        "hard_stop": "Se a Universidad Católica abrir o placar."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "Boca Juniors",
+        "odd_alvo": "1.60",
+        "razao": "Boca Juniors joga em casa com 100% de aproveitamento e enfrenta uma Universidad Católica com desempenho mais fraco fora de casa.",
+        "gatilho_ao_vivo": "Confirmação de domínio nos primeiros 15 minutos, com pressão ofensiva.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "21:30",
+      "liga": "South America Copa Libertadores",
+      "jogo": "Cruzeiro x Barcelona",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Cruzeiro",
+      "probabilidade_estimada": "55% (Cruzeiro é favorito com base em aproveitamento e média de gols)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.02",
+      "valor_esperado": "Cruzeiro tem um aproveitamento igual ao do Barcelona em casa, mas uma média de gols marcados superior. O Barcelona tem um desempenho mais fraco fora de casa e sofre mais gols. A odd mínima de entrada é calculada com uma margem de segurança sobre a fair odd.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Cruzeiro marca 0.00 gols no 1ºT, Barcelona marca 0.25 gols no 1ºT.",
+      "desempenho_2t": "Cruzeiro sofre 0.50 gols no 2ºT, Barcelona sofre 1.00 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "1º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "37º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Cruzeiro joga em casa com um aproveitamento de 1.50 pontos por jogo e uma média de gols marcados de 1.00. Barcelona tem um desempenho mais modesto fora de casa, com média de gols marcados de 0.50, mas sofre 1.25 gols por jogo. O favoritismo do Cruzeiro é moderado, justificando um back ao vivo para confirmar a performance.",
+      "coeficiente_regularidade": "Casa: CV moderado (50% vitórias) / Visitante: CV moderado (50% vitórias)",
+      "mando_de_campo": "Cruzeiro tem um aproveitamento de 1.50 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Cruzeiro tem ataque mais prolífico (1.00 vs 0.50), mas defesa que sofre (1.00 vs 1.25 sofridos).",
+      "momento_gols": "Cruzeiro marca mais gols no segundo tempo (2.00). Barcelona marca mais no primeiro tempo (0.25).",
+      "jogadores_chave": "Matheus Fellipe Costa Pereira (Cruzeiro - 2 gols), Neyser Villareal (Cruzeiro - 1 gol), Héctor Villalba (Barcelona - 2 gols), Milton Céliz (Barcelona - 2 gols).",
+      "placares_provaveis": "1x0, 2x1, 1x1",
+      "momento_entrada": "ao_vivo",
+      "situacao_saida": "Se o Cruzeiro abrir vantagem no placar e mantiver a pressão.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O favoritismo do Cruzeiro em casa é moderado, permitindo a entrada ao vivo para confirmar a performance.",
+        "gatilho_saida_parcial": "Gol do Cruzeiro.",
+        "hard_stop": "Se o Barcelona abrir o placar."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "Cruzeiro",
+        "odd_alvo": "1.60",
+        "razao": "Cruzeiro joga em casa com bom aproveitamento e enfrenta um Barcelona com desempenho fraco fora de casa.",
+        "gatilho_ao_vivo": "Confirmação de domínio nos primeiros 15 minutos, com pressão ofensiva.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "21:30",
+      "liga": "South America Copa Sudamericana",
+      "jogo": "América de Cali x Macará",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória América de Cali",
+      "probabilidade_estimada": "65% (América de Cali é favorito com base em aproveitamento e média de gols)",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.70",
+      "valor_esperado": "América de Cali tem um aproveitamento superior em casa e uma média de gols marcados mais alta, enquanto o Macará tem um desempenho mais fraco fora de casa e sofre mais gols. A odd mínima de entrada é calculada com uma margem de segurança sobre a fair odd.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "América de Cali marca 0.67 gols no 1ºT, Macará marca 0.67 gols no 1ºT.",
+      "desempenho_2t": "América de Cali sofre 0.00 gols no 2ºT, Macará sofre 0.00 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "15º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "32º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "América de Cali joga em casa com um aproveitamento de 2.33 pontos por jogo e uma média de gols marcados de 1.67. Macará tem um desempenho mais modesto fora de casa, com média de gols marcados de 1.33, mas não sofre gols. O favoritismo do América de Cali é moderado, justificando um back ao vivo para confirmar a performance.",
+      "coeficiente_regularidade": "Casa: CV moderado (67% vitórias) / Visitante: CV alto (100% vitórias)",
+      "mando_de_campo": "América de Cali tem um aproveitamento de 2.33 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "América de Cali tem ataque mais prolífico (1.67 vs 1.33), mas Macará tem defesa impecável (0.00 sofridos).",
+      "momento_gols": "América de Cali marca mais gols no segundo tempo (3.00). Macará marca mais no primeiro tempo (0.67).",
+      "jogadores_chave": "Jorge Daniel Valencia Angulo (América de Cali - 2 gols), Tomas Ángel Gutiérrez (América de Cali - 2 gols), Franco Luca Posse Yarwa (Macará - 2 gols), Matías Miranda (Macará - 1 gol).",
+      "placares_provaveis": "1x0, 2x0, 2x1",
+      "momento_entrada": "ao_vivo",
+      "situacao_saida": "Se o América de Cali abrir vantagem no placar e mantiver a pressão.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O favoritismo do América de Cali em casa é moderado, permitindo a entrada ao vivo para confirmar a performance.",
+        "gatilho_saida_parcial": "Gol do América de Cali.",
+        "hard_stop": "Se o Macará abrir o placar."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "América de Cali",
+        "odd_alvo": "1.50",
+        "razao": "América de Cali joga em casa com bom aproveitamento e enfrenta um Macará com desempenho fraco fora de casa.",
+        "gatilho_ao_vivo": "Confirmação de domínio nos primeiros 15 minutos, com pressão ofensiva.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "21:30",
+      "liga": "South America Copa Sudamericana",
+      "jogo": "Tigre x Alianza Atlético",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Tigre",
+      "probabilidade_estimada": "55% (Tigre é favorito com base em aproveitamento e média de gols)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.02",
+      "valor_esperado": "Tigre tem um aproveitamento igual ao do Alianza Atlético em casa, mas uma média de gols marcados superior. O Alianza Atlético tem um desempenho mais fraco fora de casa e sofre mais gols. A odd mínima de entrada é calculada com uma margem de segurança sobre a fair odd.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Tigre marca 1.00 gols no 1ºT, Alianza Atlético marca 0.50 gols no 1ºT.",
+      "desempenho_2t": "Tigre sofre 0.00 gols no 2ºT, Alianza Atlético sofre 0.50 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "7º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "24º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Tigre joga em casa com um aproveitamento de 1.50 pontos por jogo e uma média de gols marcados de 1.00. Alianza Atlético tem um desempenho mais modesto fora de casa, com média de gols marcados de 0.50, mas sofre 1.00 gols por jogo. O favoritismo do Tigre é moderado, justificando um back ao vivo para confirmar a performance.",
+      "coeficiente_regularidade": "Casa: CV moderado (50% vitórias) / Visitante: CV alto (0% vitórias)",
+      "mando_de_campo": "Tigre tem um aproveitamento de 1.50 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Tigre tem ataque mais prolífico (1.00 vs 0.50), mas Alianza Atlético tem defesa que sofre (1.00 vs 0.50 sofridos).",
+      "momento_gols": "Tigre marca mais gols no primeiro tempo (1.00). Alianza Atlético marca mais no primeiro tempo (0.50).",
+      "jogadores_chave": "José David Romero (Tigre - 3 gols), Ignacio Russo Cordero (Tigre - 2 gols), Franco Emir Coronel (Alianza Atlético - 1 gol), Valentín Robaldo (Alianza Atlético - 1 gol).",
+      "placares_provaveis": "1x0, 2x1, 1x1",
+      "momento_entrada": "ao_vivo",
+      "situacao_saida": "Se o Tigre abrir vantagem no placar e mantiver a pressão.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O favoritismo do Tigre em casa é moderado, permitindo a entrada ao vivo para confirmar a performance.",
+        "gatilho_saida_parcial": "Gol do Tigre.",
+        "hard_stop": "Se o Alianza Atlético abrir o placar."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito": "Tigre",
+        "odd_alvo": "1.60",
+        "razao": "Tigre joga em casa com bom aproveitamento e enfrenta um Alianza Atlético com desempenho fraco fora de casa.",
+        "gatilho_ao_vivo": "Confirmação de domínio nos primeiros 15 minutos, com pressão ofensiva.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    }
+  ],
   "evitar": [],
   "pdfs": [
     {
