@@ -1,68 +1,9 @@
 {
   "data": "2026-05-28",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-05-28T15:37:55.324641",
+  "gerado_em": "2026-05-28T15:56:25.764122",
   "total_partidas_analisadas": 9,
   "entradas": [
-    {
-      "horario": "11:00",
-      "liga": "Egypt Egyptian Premier League",
-      "jogo": "Petrojet x El Gounah",
-      "metodos_aplicados": [
-        "back_favorito"
-      ],
-      "mercado_principal": "Vitória Petrojet",
-      "probabilidade_estimada": "55% (favoritismo moderado do Petrojet com base em aproveitamento e média de gols)",
-      "fair_odd": "1.82",
-      "odd_minima_entrada": "2.02",
-      "valor_esperado": "Petrojet tem um aproveitamento ligeiramente superior e melhor média de gols marcados. A odd mínima de entrada é calculada com uma margem de segurança sobre a fair odd.",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": "Petrojet marca 0.60 gols no 1ºT, El Gounah marca 0.35 gols no 1ºT.",
-      "desempenho_2t": "Petrojet sofre 1.00 gols no 2ºT, El Gounah sofre 0.29 gols no 2ºT.",
-      "contexto_times": {
-        "casa": {
-          "posicao": "11º",
-          "objetivo": "meio_tabela"
-        },
-        "fora": {
-          "posicao": null,
-          "objetivo": null
-        }
-      },
-      "motivacao_tecnica": "Petrojet joga em casa e apresenta um aproveitamento ligeiramente superior, além de uma média de gols marcados mais alta. El Gounah tem um desempenho defensivo mais sólido fora de casa, mas o ataque é menos produtivo. O favoritismo é moderado, justificando um back ao vivo para confirmar a performance.",
-      "coeficiente_regularidade": "Casa: CV moderado (33% vitórias) / Visitante: CV moderado (35% vitórias)",
-      "mando_de_campo": "Petrojet tem um aproveitamento de 1.47 pontos por jogo em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Petrojet tem maior volume ofensivo (1.20 vs 0.82), mas El Gounah tem defesa mais sólida (0.65 vs 1.13 sofridos).",
-      "momento_gols": "Petrojet marca mais gols no final do jogo (28% entre 76-90min), El Gounah também (43% entre 76-90min).",
-      "jogadores_chave": "Adham Hamed (Petrojet - 9 gols), Badr Moussa (Petrojet - 6 gols), Marwan Mohsen (El Gounah - 5 gols).",
-      "placares_provaveis": "1x0, 2x1",
-      "momento_entrada": "ao_vivo",
-      "situacao_saida": "Se o Petrojet abrir vantagem no placar e mantiver a pressão.",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "O favoritismo é moderado, permitindo a entrada ao vivo para confirmar a performance.",
-        "gatilho_saida_parcial": "Gol do Petrojet.",
-        "hard_stop": "Se El Gounah abrir o placar."
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "ao_vivo",
-        "favorito": "Petrojet",
-        "odd_alvo": "1.80",
-        "razao": "Favoritismo moderado do Petrojet em casa, com melhor aproveitamento e média de gols.",
-        "gatilho_ao_vivo": "Confirmação de domínio nos primeiros 15 minutos, com pressão ofensiva.",
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "confirmacao_visual": null
-    },
     {
       "horario": "11:00",
       "liga": "Egypt Egyptian Premier League",
@@ -121,65 +62,6 @@
         "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
         "stake_recomendada": "0.5%"
       },
-      "back_goleada": null,
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "11:00",
-      "liga": "Egypt Egyptian Premier League",
-      "jogo": "Ismaily SC x Pharco",
-      "metodos_aplicados": [
-        "lay_zebra"
-      ],
-      "mercado_principal": "Lay Vitória Pharco",
-      "probabilidade_estimada": "75% (Ismaily SC é favorito com base em aproveitamento e média de gols)",
-      "fair_odd": "1.33",
-      "odd_minima_entrada": "1.50",
-      "valor_esperado": "Ismaily SC tem um aproveitamento significativamente melhor e uma média de gols marcados superior, enquanto o Pharco demonstra fragilidade defensiva e pouca capacidade de marcar. A odd para o Pharco (zebra) é alta o suficiente para considerar um lay.",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": "Ismaily SC marca 0.23 gols no 1ºT, Pharco marca 0.13 gols no 1ºT.",
-      "desempenho_2t": "Ismaily SC sofre 0.85 gols no 2ºT, Pharco sofre 0.63 gols no 2ºT.",
-      "contexto_times": {
-        "casa": {
-          "posicao": "20º",
-          "objetivo": "rebaixamento"
-        },
-        "fora": {
-          "posicao": "21º",
-          "objetivo": "rebaixamento"
-        }
-      },
-      "motivacao_tecnica": "Ismaily SC, apesar de estar em uma posição baixa na tabela, apresenta estatísticas de aproveitamento e gols marcados superiores ao Pharco. O Pharco tem um desempenho ofensivo muito fraco (0.44 gols por jogo) e uma defesa que sofre muitos gols (1.25 por jogo). A odd para a vitória do Pharco é alta, tornando o lay uma opção viável.",
-      "coeficiente_regularidade": "Casa: CV alto (15% vitórias) / Visitante: CV alto (6% vitórias)",
-      "mando_de_campo": "Ismaily SC tem um aproveitamento de 0.69 pontos por jogo em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Ismaily SC tem ataque ligeiramente melhor (0.69 vs 0.44), mas defesa frágil (1.38 vs 1.25 sofridos).",
-      "momento_gols": "Ismaily SC marca mais gols no final do jogo (44% entre 76-90min). Pharco também marca mais no final (29% entre 61-75min e 29% entre 76-90min).",
-      "jogadores_chave": "Marwan Hamdi (Ismaily SC - 0 gols, mas com 2 jogos), Mohamed Ammar (Ismaily SC - 3 gols), Karim El Tayeeb (Pharco - 3 gols), Mahmoud Farahat (Pharco - 1 gol).",
-      "placares_provaveis": "1x0, 2x0, 2x1",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Se o Ismaily SC abrir vantagem no placar.",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "O Pharco é uma zebra com odd alta e desempenho muito fraco.",
-        "gatilho_saida_parcial": "Gol do Ismaily SC.",
-        "hard_stop": "Se o Pharco abrir o placar."
-      },
-      "back_favorito": null,
-      "lay_zebra": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "zebra": "Pharco",
-        "odd_zebra_alvo": "5.00",
-        "razao": "Pharco tem odd alta (estimada > 5.00) e desempenho recente muito ruim, com ataque fraco e defesa vazada.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
-      },
-      "over_limite_70": null,
-      "back_2x2": null,
       "back_goleada": null,
       "confirmacao_visual": null
     },
