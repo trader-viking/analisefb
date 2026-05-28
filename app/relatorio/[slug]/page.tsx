@@ -95,7 +95,7 @@ export default function RelatorioPage({ params }: { params: { slug: string } }) 
                       )}
                       {j.motivos_por_metodo.over_limite_70 && (
                         <li className="flex gap-2">
-                          <span className="font-semibold text-purple-700 dark:text-purple-400 shrink-0">Over 70+:</span>
+                          <span className="font-semibold text-purple-700 dark:text-purple-400 shrink-0">Over 65+:</span>
                           <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.over_limite_70}</span>
                         </li>
                       )}

@@ -662,7 +662,7 @@ export default function EntradaPage({
         </div>
       )}
 
-      {/* Over Limite 70+ */}
+      {/* Over Limite 65+ */}
       {(entrada.over_limite_70?.aplicavel || entrada.over_limite_70?.elegivel) && (
         <div className="card p-6 mb-6 ring-2 ring-purple-300 dark:ring-purple-800 bg-purple-50/40 dark:bg-purple-950/20">
           <div className="flex items-center gap-2 mb-4">
@@ -670,7 +670,7 @@ export default function EntradaPage({
               <Zap size={18} className="text-white" />
             </div>
             <div>
-              <h2 className="font-bold text-lg leading-tight">Over Limite 70+</h2>
+              <h2 className="font-bold text-lg leading-tight">Over Limite 65+</h2>
               <div className="text-xs text-purple-700 dark:text-purple-300">
                 Entrada ao vivo
               </div>
