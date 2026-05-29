@@ -1,69 +1,213 @@
 {
   "data": "2026-05-29",
-  "variante": "",
-  "gerado_em": "2026-05-28T23:25:14.445746",
+  "dia_consultado": "hoje",
+  "gerado_em": "2026-05-29T11:30:05.421293",
   "total_partidas_analisadas": 7,
-  "total_partidas_disponiveis": 7,
   "entradas": [
     {
-      "horario": "00:00",
+      "horario": "21:00",
       "liga": "Brazil Serie B",
       "jogo": "Juventude x América Mineiro",
       "metodos_aplicados": [
         "back_favorito"
       ],
       "mercado_principal": "Vitória Juventude",
-      "probabilidade_estimada": "60%",
-      "fair_odd": "1.67",
-      "odd_minima_entrada": "1.92",
-      "valor_esperado": "Probabilidade estimada de 60% para o Juventude, com fair odd de 1.67. A odd mínima de entrada é 1.92, considerando a margem de segurança para favoritos.",
+      "probabilidade_estimada": "65%",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.77",
+      "valor_esperado": "Probabilidade estimada de 65% para a vitória do Juventude. Fair odd de 1.54. Com margem de segurança de 10-15% para favoritos, a odd mínima de entrada é 1.77.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Juventude: 40% Venceu o 1º tempo, 0.40 Média Gols Marcados. América MG: 20% Venceu o 1º tempo, 0.20 Média Gols Marcados.",
-      "desempenho_2t": "Juventude: 20% Venceu o 2º tempo, 0.20 Média Gols Marcados. América MG: 20% Venceu o 2º tempo, 0.40 Média Gols Marcados.",
+      "desempenho_1t": "Juventude: 40% Venceu o 1º tempo, 60% Empatou o 1º tempo. América Mineiro: 20% Venceu o 1º tempo, 0% Empatou o 1º tempo.",
+      "desempenho_2t": "Juventude: 20% Venceu o 2º tempo, 60% Empatou o 2º tempo. América Mineiro: 20% Venceu o 2º tempo, 40% Empatou o 2º tempo.",
       "contexto_times": {
         "casa": {
           "posicao": "8",
-          "objetivo": "meio_tabela"
+          "objetivo": "acesso"
         },
         "fora": {
           "posicao": "20",
           "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "Juventude joga em casa com aproveitamento de 1.60 pontos por jogo, contra um América Mineiro com aproveitamento muito baixo de 0.40 pontos por jogo fora de casa e 0% de vitórias. O Juventude tem 40% de vitórias e 60% de jogos sem sofrer gols, enquanto o América MG tem 0% de vitórias e 60% de ambas marcam. A probabilidade estimada de vitória do Juventude é de 60%.",
-      "coeficiente_regularidade": "Juventude: CV baixo (aproveitamento 1.60). América Mineiro: CV alto (aproveitamento 0.40).",
-      "mando_de_campo": "Juventude tem 1.60 pontos por jogo em casa.",
+      "motivacao_tecnica": "Juventude, 8º colocado, busca acesso, enquanto América Mineiro, lanterna (20º), luta contra o rebaixamento. Juventude tem aproveitamento de 1.60 pontos por jogo em casa, com 40% de vitórias e 80% de jogos sem sofrer gols. América Mineiro tem aproveitamento de 0.40 pontos por jogo fora, com 0% de vitórias e 60% de jogos com ambas marcam. O Juventude demonstra maior solidez defensiva e ofensiva em casa.",
+      "coeficiente_regularidade": "Casa: CV baixo (0.20 média gols sofridos) / Visitante: CV alto (2.00 média gols sofridos)",
+      "mando_de_campo": "Juventude: 1.60 pontos por jogo em casa, 40% de vitórias, 80% de jogos sem sofrer gols.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Juventude marca mais no 2º tempo (0.20 Média Gols Marcados). América MG marca mais no 2º tempo (0.40 Média Gols Marcados).",
-      "momento_gols": "Juventude: 31-45 (67% Marcado), 46-60 (33% Marcado). América MG: 76-90 (67% Marcado).",
-      "jogadores_chave": "Juventude: Alan Kardec (2 gols). América Mineiro: Gonzalo Mastriani (3 gols).",
-      "placares_provaveis": "2x0, 1x0",
+      "especificidades_gols": "Juventude marca 0.60 gols/jogo em casa, sofre 0.20. América Mineiro marca 0.60 gols/jogo fora, sofre 2.00.",
+      "momento_gols": "Juventude: Gols marcados principalmente entre 31-45 (67%) e 46-60 (33%). Gols sofridos principalmente entre 76-90 (100%). América Mineiro: Gols marcados principalmente entre 0-15 (33%) e 76-90 (67%). Gols sofridos entre 31-45 (40%) e 76-90 (20%).",
+      "jogadores_chave": "Alan Kardec (2 gols, 1 assist), Gonzalo Mastriani Borges (3 gols), Willian Gomes de Siqueira (2 assist)",
+      "placares_provaveis": "2x0, 1x0, 2x1",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Manter até o final",
+      "situacao_saida": "Cash-out se o placar for favorável e o jogo se acalmar.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo claro do mandante com base em dados de aproveitamento e fase.",
+        "gatilho_saida_parcial": "Gol do Juventude.",
+        "hard_stop": "Gol do América Mineiro."
       },
       "back_favorito": {
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Juventude",
-        "odd_alvo": "1.92",
-        "razao": "Juventude é favorito claro jogando em casa, com melhor aproveitamento e enfrentando um adversário em má fase fora de casa.",
+        "odd_alvo": "1.77",
+        "razao": "Juventude é favorito claro com base em seu desempenho em casa (8º na tabela, 1.60 pts/jogo, 40% vitórias, 80% jogos sem sofrer gols) contra um América Mineiro em má fase fora de casa (20º na tabela, 0.40 pts/jogo, 0% vitórias, 2.00 gols sofridos/jogo).",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "modo": null,
+        "zebra": null,
+        "odd_zebra_alvo": null,
+        "razao": "Odd da zebra não é alta o suficiente (América Mineiro tem 0.40 pts/jogo fora, não se encaixa em odd >= 5.00).",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "modo": null,
+        "favorito": null,
+        "indice_gols_final": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "observacoes": "Não há dados suficientes sobre % de gols marcados/sofridos nas faixas finais de jogo para aplicar este método."
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "razao": "Índice de Over 2.5 gols (Juventude 0%, América Mineiro 40%) e Ambas Marcam (Juventude 0%, América Mineiro 60%) não atendem aos critérios.",
+        "indice_over_2_5": "Juventude: 0% | América Mineiro: 40% (Média: 20% - precisa >= 60%)",
+        "indice_ambas_marcam": "Juventude: 0% | América Mineiro: 60% (Média: 30% - precisa >= 60%)",
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "candidato": null,
+        "razao": "Favoritismo insuficiente (probabilidade estimada 65%, precisa >= 70%) e média de gols marcados do Juventude em casa (0.60) não atinge o critério de 2.5+ gols/jogo.",
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
       "confirmacao_visual": null
     }
   ],
-  "evitar": []
+  "evitar": [
+    {
+      "horario": "08:35",
+      "jogo": "Shenyang Urban x Shanghai SIPG",
+      "liga": "China Chinese Super League",
+      "motivo": "Sem favoritismo claro e dados de gols insuficientes para métodos específicos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Shanghai SIPG) é 50% (média de vitórias), precisa de >= 60%.",
+        "lay_zebra": "Odd da zebra (Shenyang Urban) não é alta o suficiente (média de vitórias 50%, não se encaixa em odd >= 5.00).",
+        "over_limite_70": "Não há dados de gols por período no PDF para aplicar este método.",
+        "back_2x2": "Índice de Over 2.5 gols (Shenyang Urban 67%, Shanghai SIPG 33%) e Ambas Marcam (ambos 50%) não atendem aos critérios (precisa >= 60% para ambos).",
+        "back_goleada": "Favoritismo insuficiente (probabilidade estimada 50%, precisa >= 70%)."
+      }
+    },
+    {
+      "horario": "11:00",
+      "jogo": "Masr x Kahraba Ismailia",
+      "liga": "Egypt Egyptian Premier League",
+      "motivo": "Jogo equilibrado sem claro favoritismo e dados insuficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Kahraba Ismailia) é 54% (média de vitórias), precisa de >= 60%.",
+        "lay_zebra": "Odd da zebra (Masr) não é alta o suficiente (média de vitórias 47%, não se encaixa em odd >= 5.00).",
+        "over_limite_70": "Não há dados de gols por período no PDF para aplicar este método.",
+        "back_2x2": "Índice de Over 2.5 gols (Masr 33%, Kahraba Ismailia 46%) e Ambas Marcam (Masr 47%, Kahraba Ismailia 54%) não atendem aos critérios (precisa >= 60% para ambos).",
+        "back_goleada": "Favoritismo insuficiente (probabilidade estimada 54%, precisa >= 70%)."
+      }
+    },
+    {
+      "horario": "11:00",
+      "jogo": "Al Mokawloon x Coca-Cola",
+      "liga": "Egypt Egyptian Premier League",
+      "motivo": "Jogo equilibrado sem claro favoritismo e dados insuficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Coca-Cola) é 31% (média de vitórias), precisa de >= 60%.",
+        "lay_zebra": "Odd da zebra (Al Mokawloon) não é alta o suficiente (média de vitórias 18%, não se encaixa em odd >= 5.00).",
+        "over_limite_70": "Não há dados de gols por período no PDF para aplicar este método.",
+        "back_2x2": "Índice de Over 2.5 gols (Al Mokawloon 12%, Coca-Cola 31%) e Ambas Marcam (Al Mokawloon 47%, Coca-Cola 44%) não atendem aos critérios (precisa >= 60% para ambos).",
+        "back_goleada": "Favoritismo insuficiente (probabilidade estimada 31%, precisa >= 70%)."
+      }
+    },
+    {
+      "horario": "14:00",
+      "jogo": "Ghazl El Mehalla x Haras El Hodood",
+      "liga": "Egypt Egyptian Premier League",
+      "motivo": "Jogo com baixa média de gols e sem claro favoritismo.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Ghazl El Mehalla) é 19% (média de vitórias), precisa de >= 60%.",
+        "lay_zebra": "Odd da zebra (Haras El Hodood) não é alta o suficiente (média de vitórias 14%, não se encaixa em odd >= 5.00).",
+        "over_limite_70": "Não há dados de gols por período no PDF para aplicar este método.",
+        "back_2x2": "Índice de Over 2.5 gols (Ghazl El Mehalla 6%, Haras El Hodood 29%) e Ambas Marcam (Ghazl El Mehalla 25%, Haras El Hodood 43%) não atendem aos critérios (precisa >= 60% para ambos).",
+        "back_goleada": "Favoritismo insuficiente (probabilidade estimada 19%, precisa >= 70%)."
+      }
+    },
+    {
+      "horario": "14:00",
+      "jogo": "National Bank of Egypt x Al Ittihad",
+      "liga": "Egypt Egyptian Premier League",
+      "motivo": "Jogo equilibrado sem claro favoritismo e dados insuficientes para métodos de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (National Bank of Egypt) é 29% (média de vitórias), precisa de >= 60%.",
+        "lay_zebra": "Odd da zebra (Al Ittihad) não é alta o suficiente (média de vitórias 12%, não se encaixa em odd >= 5.00).",
+        "over_limite_70": "Não há dados de gols por período no PDF para aplicar este método.",
+        "back_2x2": "Índice de Over 2.5 gols (National Bank of Egypt 35%, Al Ittihad 35%) e Ambas Marcam (National Bank of Egypt 65%, Al Ittihad 41%) não atendem aos critérios (precisa >= 60% para ambos).",
+        "back_goleada": "Favoritismo insuficiente (probabilidade estimada 29%, precisa >= 70%)."
+      }
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Nice x Saint-Étienne",
+      "liga": "France Ligue 1 2 Play offs",
+      "motivo": "Dados insuficientes para análise.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados ausentes no PDF.",
+        "lay_zebra": "Dados ausentes no PDF.",
+        "over_limite_70": "Dados ausentes no PDF.",
+        "back_2x2": "Dados ausentes no PDF.",
+        "back_goleada": "Dados ausentes no PDF."
+      }
+    }
+  ],
+  "pdfs": [
+    {
+      "jogo": "Juventude x América Mineiro",
+      "arquivo": "pdfs/2026-05-29/Brazil_Serie_B/001_21h00_Juventude_x_América_Mineiro.pdf"
+    },
+    {
+      "jogo": "Shenyang Urban x Shanghai SIPG",
+      "arquivo": "pdfs/2026-05-29/China_Chinese_Super_League/002_08h35_Shenyang_Urban_x_Shanghai_SIPG.pdf"
+    },
+    {
+      "jogo": "Masr x Kahraba Ismailia",
+      "arquivo": "pdfs/2026-05-29/Egypt_Egyptian_Premier_League/003_11h00_Masr_x_Kahraba_Ismailia.pdf"
+    },
+    {
+      "jogo": "Al Mokawloon x Coca-Cola",
+      "arquivo": "pdfs/2026-05-29/Egypt_Egyptian_Premier_League/004_11h00_Al_Mokawloon_x_Coca-Cola.pdf"
+    },
+    {
+      "jogo": "Ghazl El Mehalla x Haras El Hodood",
+      "arquivo": "pdfs/2026-05-29/Egypt_Egyptian_Premier_League/005_14h00_Ghazl_El_Mehalla_x_Haras_El_Hodood.pdf"
+    },
+    {
+      "jogo": "National Bank of Egypt x Al Ittihad",
+      "arquivo": "pdfs/2026-05-29/Egypt_Egyptian_Premier_League/006_14h00_National_Bank_of_Egypt_x_Al_Ittihad.pdf"
+    },
+    {
+      "jogo": "Nice x Saint-Étienne",
+      "arquivo": "pdfs/2026-05-29/France_Ligue_1_2_Play_offs/007_15h45_Nice_x_Saint-Étienne.pdf"
+    }
+  ]
 }
