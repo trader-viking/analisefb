@@ -20,7 +20,7 @@ type SugestaoJogo = {
 const METODOS = [
   'Back Favorito',
   'Lay Zebra',
-  'Over Limite 65+',
+  'Over Limite (+1 gol)',
   'Back 2x2',
   'Back Goleada',
   'Confirmação Visual',

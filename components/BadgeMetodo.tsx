@@ -31,7 +31,7 @@ export const METODOS_INFO: Record<string, Metodo> = {
   },
   over_limite_70: {
     key: 'over_limite_70',
-    label: 'Over Limite 65+',
+    label: 'Over Limite (+1 gol)',
     icone: <Zap size={11} />,
     cor_bg: 'bg-purple-50 dark:bg-purple-950/40',
     cor_text: 'text-purple-700 dark:text-purple-300',

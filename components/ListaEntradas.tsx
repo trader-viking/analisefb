@@ -732,6 +732,19 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
         )}
       </div>
 
+      {entrada.explicacao_curta && (
+        <div className="text-xs leading-relaxed text-ink-700 dark:text-ink-300 bg-ink-50 dark:bg-ink-900/40 rounded-md px-3 py-2 border border-ink-200/60 dark:border-ink-800">
+          {entrada.explicacao_curta}
+        </div>
+      )}
+
+      {entrada.alerta_geral && (
+        <div className="flex gap-1.5 items-start text-[11px] leading-snug text-amber-700 dark:text-amber-400">
+          <span aria-hidden="true">⚠</span>
+          <span>{entrada.alerta_geral}</span>
+        </div>
+      )}
+
       <div className="mt-auto pt-3 border-t border-ink-100 dark:border-ink-800 space-y-2" data-no-export="true">
         <BotoesApostaMini jogo={entrada.jogo} />
         <Link

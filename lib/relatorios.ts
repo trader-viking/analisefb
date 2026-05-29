@@ -122,6 +122,8 @@ export type Entrada = {
   odd_minima_entrada?: string;
   odd_minima_secundaria?: string;
   valor_esperado?: string;
+  explicacao_curta?: string;
+  alerta_geral?: string;
   mercado_secundario?: string;
   desempenho_1t?: string;
   desempenho_2t?: string;
