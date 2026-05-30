@@ -1,106 +1,404 @@
 {
   "data": "2026-05-30",
-  "dia_consultado": "amanha",
-  "gerado_em": "2026-05-29T20:51:33.882804",
+  "dia_consultado": "hoje",
+  "gerado_em": "2026-05-30T19:35:28.716317",
   "total_partidas_analisadas": 18,
   "entradas": [
     {
-      "horario": "08:00",
+      "horario": "07:00",
       "liga": "China Chinese Super League",
-      "jogo": "Henan Jianye x Zhejiang FC",
+      "jogo": "Qingdao Youth Island x Shanghai Shenhua",
       "metodos_aplicados": [
         "back_2x2"
       ],
       "mercado_principal": "Placar Exato 2x2",
-      "probabilidade_estimada": "60% (probabilidade de ambos marcarem e mais de 2.5 gols)",
+      "probabilidade_estimada": "60% (probabilidade de ambos marcarem e mais de 2.5 gols, estimada SÓ pelas estatísticas do PDF)",
       "fair_odd": "1.67",
-      "odd_minima_entrada": "1.92",
-      "explicacao_curta": "Ambos os times apresentam alto índice de Over 2.5 gols (50% e 83%) e Ambas Marcam (50% e 50%). O jogo tem potencial para muitos gols.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "A combinação de Over 2.5 e Ambas Marcam sugere um jogo aberto com potencial para placares como 2x2.",
+      "odd_minima_entrada": "2.00",
+      "explicacao_curta": "Ambos os times têm alto índice de Ambas Marcam (67% Qingdao, 67% Shanghai) e Over 2.5 gols (50% Qingdao, 50% Shanghai).",
+      "alerta_geral": null,
+      "valor_esperado": "A combinação de alto índice de Ambas Marcam e Over 2.5 gols em ambos os times sugere um jogo com potencial para placar exato 2x2. A odd estimada é de 1.67, com odd mínima de entrada de 2.00.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Henan Jianye: 0.50 gols marcados, 0.33 gols sofridos. Zhejiang FC: 0.17 gols marcados, 1.33 gols sofridos.",
-      "desempenho_2t": "Henan Jianye: 0.83 gols marcados, 0.67 gols sofridos. Zhejiang FC: 1.17 gols marcados, 0.83 gols sofridos.",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
       "contexto_times": {
         "casa": {
-          "posicao": "9º",
+          "posicao": "13",
           "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": "10º",
-          "objetivo": "meio_tabela"
+          "posicao": "9",
+          "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "Ambos os times têm estatísticas que indicam um jogo com potencial para gols. O Henan Jianye tem 50% de Over 2.5 e 50% de Ambas Marcam. O Zhejiang FC tem 83% de Over 2.5 e 50% de Ambas Marcam. A média de gols totais é de 3.50 para o Zhejiang FC.",
-      "coeficiente_regularidade": "Casa: CV moderado | Visitante: CV moderado",
-      "mando_de_campo": "Henan Jianye: 1.33 gols marcados, 1.00 gols sofridos em casa.",
+      "motivacao_tecnica": "Qingdao busca se manter no meio de tabela, enquanto Shanghai Shenhua almeja vaga na Libertadores. Ambos os times apresentam estatísticas elevadas para Ambas Marcam e Over 2.5 gols, indicando um jogo aberto.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Henan Jianye marca mais no 2º tempo (0.83), Zhejiang FC marca mais no 2º tempo (1.17).",
-      "momento_gols": "Henan Jianye: 61-75 (25% Marcado, 50% Sofrido). Zhejiang FC: 46-60 (50% Marcado, 0% Sofrido), 76-90 (25% Marcado, 23% Sofrido).",
+      "especificidades_gols": null,
+      "momento_gols": null,
       "jogadores_chave": null,
-      "placares_provaveis": "2x2, 3x1, 1x3",
+      "placares_provaveis": null,
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out em 1x1, 2x1 ou 1x2.",
+      "situacao_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
       "stake_recomendada": "0.5%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Estatísticas de gols e ambas marcam favoráveis.",
-        "gatilho_saida_parcial": "Placar 1x1, 2x1 ou 1x2.",
-        "hard_stop": "Manter até o final se o placar não atingir 1x1."
+        "justificativa_abordagem": "Padrão estatístico forte para placar exato 2x2.",
+        "gatilho_saida_parcial": "1x1, 2x1, 1x2",
+        "hard_stop": null
       },
-      "back_favorito": {
-        "aplicavel": false,
-        "modo": null,
-        "favorito": null,
-        "odd_alvo": null,
-        "razao": "Sem favorito claro nas estatísticas.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "lay_zebra": {
-        "aplicavel": false,
-        "modo": null,
-        "zebra": null,
-        "odd_zebra_alvo": null,
-        "razao": "Não há odd alta para a zebra e o desempenho recente não é catastrófico.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "over_limite_70": {
-        "aplicavel": false,
-        "modo": null,
-        "favorito_ou_motivacao": null,
-        "indices_gols_faixas": null,
-        "qual_condicao_atende": null,
-        "motivo_motivacao": null,
-        "condicao_entrada": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null,
-        "alerta_armadilha": null
-      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
       "back_2x2": {
         "aplicavel": true,
-        "razao": "Alto índice de Over 2.5 gols (50% Henan, 83% Zhejiang) e Ambas Marcam (50% Henan, 50% Zhejiang).",
-        "indice_over_2_5": "Henan: 50%, Zhejiang: 83%",
-        "indice_ambas_marcam": "Henan: 50%, Zhejiang: 50%",
-        "indice_over_ht": "Henan: 67%, Zhejiang: 17%",
+        "razao": "Ambos os times têm alto índice de Ambas Marcam (67% Qingdao, 67% Shanghai) e Over 2.5 gols (50% Qingdao, 50% Shanghai).",
+        "indice_over_2_5": "Qingdao: 50% (últimos 10 jogos) | Shanghai Shenhua: 50% (últimos 10 jogos)",
+        "indice_ambas_marcam": "Qingdao: 67% (últimos 10 jogos) | Shanghai Shenhua: 67% (últimos 10 jogos)",
+        "indice_over_ht": null,
         "modo": "pre_jogo",
-        "odd_alvo": "12.00",
+        "odd_alvo": "2.00",
         "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
         "stake_recomendada": "0.5%"
       },
-      "back_goleada": {
-        "aplicavel": false,
-        "candidato": null,
-        "razao": "Favoritismo insuficiente e média de gols marcados pelo favorito não atinge o critério.",
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "08:35",
+      "liga": "China Chinese Super League",
+      "jogo": "Chengdu Better City FC x Shandong Luneng",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Shandong Luneng",
+      "probabilidade_estimada": "75% (probabilidade de vitória do Shandong Luneng estimada com base em aproveitamento e fase)",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "explicacao_curta": "Shandong Luneng é líder com 86% de vitórias e média de 2.86 gols. Chengdu tem defesa frágil.",
+      "alerta_geral": null,
+      "valor_esperado": "Shandong Luneng tem um favoritismo claro com base nas estatísticas de aproveitamento e poder ofensivo, justificando a entrada.",
+      "mercado_secundario": "Mais de 1.5 gols",
+      "odd_minima_secundaria": "1.20",
+      "desempenho_1t": "Shandong Luneng marcou 3 gols no 1ºT (média 0.50)",
+      "desempenho_2t": "Shandong Luneng marcou 4 gols no 2ºT (média 0.67)",
+      "contexto_times": {
+        "casa": {
+          "posicao": "1º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "7º (posição como VISITANTE/fora, se estiver no PDF)",
+          "objetivo": "meio_tabela"
+        }
       },
+      "motivacao_tecnica": "Shandong Luneng lidera a liga com 6 vitórias em 7 jogos (86% de aproveitamento) e uma média impressionante de 2.86 gols marcados por partida. O time tem um ataque muito forte, com 20 gols em 7 jogos. O Chengdu Better City FC, apesar de estar em 5º lugar, tem um aproveitamento inferior (43%) e uma média de gols sofridos de 1.14 por jogo, o que indica uma defesa mais vulnerável. O favoritismo do Shandong Luneng é claro e sustentado pelos dados.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
+      "mando_de_campo": "Chengdu Better City FC: 43% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Shandong Luneng tem forte poder ofensivo, marcando 2.86 gols/jogo. Chengdu sofre 1.14 gols/jogo.",
+      "momento_gols": "Shandong Luneng marca mais gols no 2º tempo (1.57), enquanto Chengdu também tem um bom desempenho no 2º tempo (1.00).",
+      "jogadores_chave": "Wellington Alves da Silva (Chengdu), Crysan da Cruz Queiroz Barcelos (Shandong)",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out parcial em 2x0 ou 0x1.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos robustos.",
+        "gatilho_saida_parcial": "Gol do Chengdu ou placar 2x0 para o Shandong.",
+        "hard_stop": "Perda do placar ou gol do Chengdu."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Shandong Luneng - Liderança na liga",
+        "indices_gols_faixas": "Chengdu Marcado 61-75: 8% | 76-90: 33% | Shandong Sofrido 61-75: 15% | 76-90: 23%",
+        "qual_condicao_atende": "Nenhuma das 4 condições atende (limiar >= 25%)",
+        "motivo_motivacao": "Shandong Luneng brigando pela liderança.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "09:00",
+      "liga": "China Chinese Super League",
+      "jogo": "Sichuan Jiuniu x Qingdao Jonoon",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais de 2.5 gols",
+      "probabilidade_estimada": "55% (probabilidade de Over 2.5 gols estimada com base nas médias de gols e percentuais de Over)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.08",
+      "explicacao_curta": "Ambos os times têm médias de gols totais acima de 3.14 e alta frequência de Over 2.5 gols.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "A alta frequência de Over 2.5 gols em ambos os times e a média de gols total sugerem um jogo com potencial para mais de 2 gols.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Sichuan Jiuniu marcou 1 gol no 1ºT (média 0.14), Qingdao Jonoon marcou 1 gol no 1ºT (média 0.14)",
+      "desempenho_2t": "Sichuan Jiuniu marcou 5 gols no 2ºT (média 0.71), Qingdao Jonoon marcou 7 gols no 2ºT (média 1.00)",
+      "contexto_times": {
+        "casa": {
+          "posicao": "11º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "15º (posição como VISITANTE/fora, se estiver no PDF)",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Sichuan Jiuniu (11º) e Qingdao Jonoon (15º) apresentam estatísticas de gols que indicam um jogo com potencial para Over 2.5. Sichuan tem 43% de Over 2.5 e média de 1.71 gols marcados e 1.43 sofridos. Qingdao tem 57% de Over 2.5 e média de 1.14 gols marcados e 2.00 sofridos. A média total de gols para ambos é de 3.14. A motivação do Qingdao para fugir do rebaixamento pode impulsionar o jogo.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
+      "mando_de_campo": "Sichuan Jiuniu: 43% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ambos os times marcam e sofrem gols com frequência.",
+      "momento_gols": "Ambos os times têm maior incidência de gols no 2º tempo.",
+      "jogadores_chave": "Wesley Moraes Ferreira da Silva (Sichuan), Yaw Yeboah (Qingdao)",
+      "placares_provaveis": "2x1, 2x2",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out parcial em 1x1 ou 2x0.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Padrão de gols e Over 2.5 em ambos os times.",
+        "gatilho_saida_parcial": "Gol do adversário ou placar 2x0.",
+        "hard_stop": "Placar 3x0 ou 0x3."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Qingdao Jonoon - Luta contra rebaixamento",
+        "indices_gols_faixas": "Sichuan Marcado 61-75: 8% | 76-90: 33% | Qingdao Sofrido 61-75: 7% | 76-90: 21%",
+        "qual_condicao_atende": "Sichuan Marcado 76-90: 33% (atende a condição a com valor acima de 25%)",
+        "motivo_motivacao": "Qingdao Jonoon precisa pontuar para fugir do rebaixamento.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "10:00",
+      "liga": "Denmark 1st Division",
+      "jogo": "AaB x HB Køge",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória AaB",
+      "probabilidade_estimada": "60% (probabilidade de vitória do AaB estimada com base em aproveitamento, posição na tabela e média de gols)",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "explicacao_curta": "AaB é 5º com 1.67 pts/jogo e 1.93 gols marcados, contra um HB Køge com defesa frágil (1.93 gols sofridos).",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "AaB tem um favoritismo baseado em seu desempenho geral e poder ofensivo, enfrentando um adversário que sofre muitos gols.",
+      "mercado_secundario": "Mais de 1.5 gols",
+      "odd_minima_secundaria": "1.25",
+      "desempenho_1t": "AaB marcou 10 gols no 1ºT (média 0.67), HB Køge marcou 9 gols no 1ºT (média 0.60)",
+      "desempenho_2t": "AaB marcou 19 gols no 2ºT (média 1.27), HB Køge marcou 13 gols no 2ºT (média 0.87)",
+      "contexto_times": {
+        "casa": {
+          "posicao": "5º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "10º (posição como VISITANTE/fora, se estiver no PDF)",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "AaB ocupa a 5ª posição com 1.67 pontos por jogo e uma média de 1.93 gols marcados. O HB Køge está em 10º lugar, com 1.07 pontos por jogo e uma média de 1.93 gols sofridos. O desempenho ofensivo do AaB e a fragilidade defensiva do HB Køge indicam um favoritismo para o time da casa. A liga Dinamarquesa 1ª Divisão tem um padrão de gols, com ambos os times apresentando alta frequência de Over 1.5 gols.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
+      "mando_de_campo": "AaB: 47% de aproveitamento em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "AaB tem um ataque forte (1.93 gols/jogo), HB Køge tem defesa frágil (1.93 gols sofridos/jogo).",
+      "momento_gols": "AaB marca mais gols no 2º tempo (1.27), HB Køge também tem boa incidência no 2º tempo (0.87).",
+      "jogadores_chave": "Nicklas Helenius (AaB), Alfred Gøthler (HB Køge)",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out parcial em 2x0 ou 1x1.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo do AaB com base em dados ofensivos e defensivos.",
+        "gatilho_saida_parcial": "Gol do HB Køge ou placar 2x0 para o AaB.",
+        "hard_stop": "Placar 2x1 para o HB Køge."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "AaB - Posição na tabela",
+        "indices_gols_faixas": "AaB Marcado 61-75: 24% | 76-90: 28% | HB Køge Sofrido 61-75: 17% | 76-90: 23%",
+        "qual_condicao_atende": "AaB Marcado 61-75: 24% (não atende o limiar de 25%)",
+        "motivo_motivacao": "AaB busca manter posição na tabela.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "10:00",
+      "liga": "Denmark 1st Division",
+      "jogo": "Hobro x Middelfart",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais de 2.5 gols",
+      "probabilidade_estimada": "55% (probabilidade de Over 2.5 gols estimada com base nas médias de gols e percentuais de Over)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.08",
+      "explicacao_curta": "Ambos os times têm médias de gols totais acima de 2.60 e alta frequência de Over 1.5 gols.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "A alta frequência de Over 1.5 gols em ambos os times e a média de gols total sugerem um jogo com potencial para mais de 2 gols.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Hobro marcou 8 gols no 1ºT (média 0.53), Middelfart marcou 8 gols no 1ºT (média 0.53)",
+      "desempenho_2t": "Hobro marcou 7 gols no 2ºT (média 0.47), Middelfart marcou 6 gols no 2ºT (média 0.40)",
+      "contexto_times": {
+        "casa": {
+          "posicao": "11º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "12º (posição como VISITANTE/fora, se estiver no PDF)",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Hobro (11º) e Middelfart (12º) lutam contra o rebaixamento, o que pode gerar um jogo mais aberto e com gols. Ambos os times têm médias de gols totais acima de 2.60 e alta frequência de Over 1.5 gols (67% para Hobro e 80% para Middelfart). A defesa de ambos os times é frágil, com Hobro sofrendo 1.60 gols/jogo e Middelfart 2.33 gols/jogo.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV moderado",
+      "mando_de_campo": "Hobro: 20% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ambos os times sofrem muitos gols.",
+      "momento_gols": "Ambos os times têm maior incidência de gols no 1º tempo.",
+      "jogadores_chave": "Søren Andreasen (Hobro), Malthe Boesen (Middelfart)",
+      "placares_provaveis": "1x2, 2x2",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out parcial em 1x1 ou 2x0.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Luta contra rebaixamento e padrão de gols em ambos os times.",
+        "gatilho_saida_parcial": "Gol do adversário ou placar 2x0.",
+        "hard_stop": "Placar 3x0 ou 0x3."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Hobro/Middelfart - Luta contra rebaixamento",
+        "indices_gols_faixas": "Hobro Marcado 61-75: 13% | 76-90: 13% | Middelfart Sofrido 61-75: 26% | 76-90: 23%",
+        "qual_condicao_atende": "Middelfart Sofrido 61-75: 26% (atende a condição c com valor acima de 25%)",
+        "motivo_motivacao": "Ambos os times lutam contra o rebaixamento e precisam pontuar.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "13:00",
+      "liga": "Europe UEFA Champions League",
+      "jogo": "PSG x Arsenal",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória PSG",
+      "probabilidade_estimada": "60% (probabilidade de vitória do PSG estimada com base em aproveitamento, média de gols e fase)",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "explicacao_curta": "PSG tem média de 3.13 gols marcados e Arsenal sofre 0.43 gols, mas ambos têm alta frequência de gols.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "PSG é favorito com forte poder ofensivo, mas o Arsenal tem uma defesa sólida. O jogo tem potencial para gols de ambos os lados.",
+      "mercado_secundario": "Mais de 1.5 gols",
+      "odd_minima_secundaria": "1.20",
+      "desempenho_1t": "PSG marcou 10 gols no 1ºT (média 1.25), Arsenal marcou 5 gols no 1ºT (média 0.71)",
+      "desempenho_2t": "PSG marcou 15 gols no 2ºT (média 1.88), Arsenal marcou 9 gols no 2ºT (média 1.29)",
+      "contexto_times": {
+        "casa": {
+          "posicao": "9º (posição como MANDANTE/em casa, se estiver no PDF)",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "8º (posição como VISITANTE/fora, se estiver no PDF)",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "PSG (9º) e Arsenal (8º) são equipes de ponta em suas ligas, ambas brigando pelo título. O PSG tem um poder ofensivo avassalador, com média de 3.13 gols marcados, enquanto o Arsenal possui uma defesa muito sólida, sofrendo apenas 0.43 gols por jogo. No entanto, ambos os times têm alta frequência de Over 2.5 gols (75% PSG, 43% Arsenal) e ambos marcam muitos gols no segundo tempo. A Champions League tende a ser mais aberta.",
+      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV baixo",
+      "mando_de_campo": "PSG: 63% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "PSG tem ataque muito forte (3.13 gols/jogo), Arsenal tem defesa muito forte (0.43 gols sofridos/jogo).",
+      "momento_gols": "Ambos os times marcam mais gols no 2º tempo.",
+      "jogadores_chave": "Khvicha Kvaratskhelia (PSG), Viktor Gyökeres (Arsenal)",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out parcial em 2x0 ou 1x1.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo do PSG com forte ataque, mas com potencial de gols de ambos os lados.",
+        "gatilho_saida_parcial": "Gol do Arsenal ou placar 2x0 para o PSG.",
+        "hard_stop": "Placar 2x1 para o Arsenal."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "PSG",
+        "odd_alvo": "1.60",
+        "razao": "PSG tem média de 3.13 gols marcados e alta frequência de Over 2.5, contra um Arsenal com defesa sólida mas que também pode sofrer gols.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "PSG/Arsenal - Briga pelo título da Champions League",
+        "indices_gols_faixas": "PSG Marcado 61-75: 20% | 76-90: 16% | Arsenal Sofrido 61-75: 0% | 76-90: 0%",
+        "qual_condicao_atende": "Nenhuma das 4 condições atende (limiar >= 25%)",
+        "motivo_motivacao": "Jogo decisivo na Champions League.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
       "confirmacao_visual": null
     },
     {
@@ -111,16 +409,16 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Flamengo",
-      "probabilidade_estimada": "70%",
-      "fair_odd": "1.43",
-      "odd_minima_entrada": "1.60",
-      "explicacao_curta": "Flamengo é favorito com 57% de vitórias em casa e média de 1.86 gols marcados contra Coritiba que tem 44% de vitórias e média de 1.56 gols marcados.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Flamengo tem um forte desempenho em casa e um ataque prolífico, enquanto o Coritiba tem um aproveitamento razoável, mas sofre mais gols fora. A odd mínima de 1.60 é atingível.",
+      "probabilidade_estimada": "75% (probabilidade de vitória do Flamengo, estimada SÓ pelas estatísticas do PDF)",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "explicacao_curta": "Flamengo é favorito com 75% de aproveitamento em casa e média de 1.86 gols marcados, contra um Coritiba que sofre 1.44 gols/jogo.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 75% para o Flamengo, resultando em uma fair odd de 1.33. Com a margem de segurança, a odd mínima de entrada é 1.53.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Flamengo marca 0.57 gols no 1ºT, Coritiba marca 0.89 gols no 1ºT.",
-      "desempenho_2t": "Flamengo marca 1.29 gols no 2ºT, Coritiba marca 0.67 gols no 2ºT.",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
       "contexto_times": {
         "casa": {
           "posicao": "3",
@@ -131,16 +429,16 @@
           "objetivo": null
         }
       },
-      "motivacao_tecnica": "Flamengo, como mandante e 3º colocado, busca manter a liderança. Coritiba tem um aproveitamento equilibrado em casa e fora, mas a média de gols sofridos fora é preocupante. O Flamengo tem um ataque mais forte e um histórico de vitórias em casa.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
+      "motivacao_tecnica": "Flamengo, 3º colocado na tabela, busca manter a liderança e brigar pelo título. Coritiba, com aproveitamento inferior e menos jogos sem sofrer gols, apresenta um cenário favorável para o favoritismo do Flamengo.",
+      "coeficiente_regularidade": null,
       "mando_de_campo": "Flamengo tem 57% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Flamengo tem um ataque mais forte, com 1.86 gols marcados por jogo. Coritiba tem um ataque também razoável com 1.56 gols marcados por jogo.",
-      "momento_gols": "Flamengo marca mais gols entre 61-75 (23%) e 76-90 (23%). Coritiba marca mais gols entre 31-45 (43%) e 46-60 (29%).",
-      "jogadores_chave": "Pedro Guilherme (Flamengo), Agustín Daniel Rossi (Flamengo)",
-      "placares_provaveis": "2x1, 3x1",
-      "momento_entrada": "Pré-jogo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
       "situacao_saida": null,
       "stake_recomendada": "2%",
       "plano_execucao": {
@@ -153,8 +451,8 @@
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Flamengo",
-        "odd_alvo": "1.60",
-        "razao": "Flamengo tem forte desempenho em casa, com alta média de gols marcados e vitórias. Coritiba sofre mais gols fora.",
+        "odd_alvo": "1.53",
+        "razao": "Favoritismo claro em casa com bom aproveitamento e média de gols marcados, contra adversário com defesa que sofre mais gols.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -162,10 +460,7 @@
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-30T03:00:57.827Z"
+      "confirmacao_visual": null
     },
     {
       "horario": "16:00",
@@ -175,16 +470,16 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Atlético PR",
-      "probabilidade_estimada": "65%",
-      "fair_odd": "1.54",
-      "odd_minima_entrada": "1.70",
-      "explicacao_curta": "Atlético PR tem 67% de vitórias em casa e média de 1.78 gols marcados, contra Mirassol com 14% de vitórias e média de 1.00 gol marcado.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Atlético PR demonstra forte desempenho em casa, com boa média de gols marcados e alta taxa de vitórias. Mirassol tem um aproveitamento fraco como visitante. A odd mínima de 1.70 é alcançável.",
+      "probabilidade_estimada": "67% (probabilidade de vitória do Atlético PR, estimada SÓ pelas estatísticas do PDF)",
+      "fair_odd": "1.49",
+      "odd_minima_entrada": "1.71",
+      "explicacao_curta": "Atlético PR joga em casa com 67% de vitórias e média de 1.78 gols marcados, contra um Mirassol que sofre 1.71 gols/jogo.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 67% para o Atlético PR, resultando em uma fair odd de 1.49. Com a margem de segurança, a odd mínima de entrada é 1.71.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Atlético PR marca 0.89 gols no 1ºT, Mirassol marca 0.57 gols no 1ºT.",
-      "desempenho_2t": "Atlético PR marca 0.89 gols no 2ºT, Mirassol marca 0.43 gols no 2ºT.",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
       "contexto_times": {
         "casa": {
           "posicao": "2",
@@ -195,16 +490,16 @@
           "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "Atlético PR, 2º colocado, busca manter a pressão na liderança. Mirassol, 15º, luta contra o rebaixamento. O Atlético PR tem um retrospecto muito superior em casa, com alta média de gols marcados e vitórias. Mirassol tem um aproveitamento fraco como visitante.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
+      "motivacao_tecnica": "Atlético PR, 2º colocado, busca manter a liderança e brigar pelo título. Mirassol, na zona de rebaixamento, apresenta um cenário favorável para o favoritismo do Atlético PR.",
+      "coeficiente_regularidade": null,
       "mando_de_campo": "Atlético PR tem 67% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Atlético PR tem uma média de 1.78 gols marcados por jogo. Mirassol tem uma média de 1.00 gol marcado por jogo.",
-      "momento_gols": "Atlético PR marca mais gols entre 0-15 (31%) e 76-90 (31%). Mirassol marca mais gols entre 31-45 (29%) e 76-90 (43%).",
-      "jogadores_chave": "Kevin Stiven Viveros Rodallega (Atlético PR), John Stiven Mendoza Valencia (Atlético PR)",
-      "placares_provaveis": "2x1, 3x0",
-      "momento_entrada": "Pré-jogo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
       "situacao_saida": null,
       "stake_recomendada": "2%",
       "plano_execucao": {
@@ -217,8 +512,8 @@
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Atlético PR",
-        "odd_alvo": "1.70",
-        "razao": "Atlético PR tem forte desempenho em casa, com alta média de gols marcados e vitórias. Mirassol tem um aproveitamento fraco como visitante e luta contra o rebaixamento.",
+        "odd_alvo": "1.71",
+        "razao": "Favoritismo claro em casa com bom aproveitamento e média de gols marcados, contra adversário com defesa que sofre mais gols.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -226,74 +521,72 @@
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-30T03:00:57.827Z"
+      "confirmacao_visual": null
     },
     {
       "horario": "16:00",
       "liga": "Brazil Serie B",
       "jogo": "Atlético GO x Goiás",
       "metodos_aplicados": [
-        "back_favorito"
+        "over_limite_70"
       ],
-      "mercado_principal": "Vitória Atlético GO",
-      "probabilidade_estimada": "55%",
-      "fair_odd": "1.82",
-      "odd_minima_entrada": "2.00",
-      "explicacao_curta": "Atlético GO tem 40% de vitórias em casa e média de 1.00 gol marcado, contra Goiás com 20% de vitórias e média de 1.00 gol marcado.",
+      "mercado_principal": "Mais X.5 gols",
+      "probabilidade_estimada": "60% (probabilidade de mais de 1 gol após os 65min, estimada SÓ pelas estatísticas do PDF)",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "explicacao_curta": "Atlético GO tem 23% de gols marcados entre 61-75min e 20% entre 76-90min. Goiás sofre 15% entre 61-75min e 33% entre 76-90min.",
       "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Atlético GO tem um aproveitamento razoável em casa, com uma média de gols marcados semelhante ao Goiás, mas com um percentual de vitórias maior. A odd mínima de 2.00 é atingível.",
+      "valor_esperado": "O Atlético GO demonstra capacidade de marcar gols no final do jogo (20% entre 61-75min e 20% entre 76-90min). O Goiás sofre gols no final do jogo (15% entre 61-75min e 33% entre 76-90min). Isso sugere um potencial para mais gols na reta final. A odd estimada é de 1.67, com odd mínima de entrada de 1.92.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Atlético GO marca 0.60 gols no 1ºT, Goiás marca 0.40 gols no 1ºT.",
-      "desempenho_2t": "Atlético GO marca 0.40 gols no 2ºT, Goiás marca 0.60 gols no 2ºT.",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
       "contexto_times": {
         "casa": {
           "posicao": "12",
-          "objetivo": "meio_tabela"
+          "objetivo": "acesso"
         },
         "fora": {
           "posicao": "18",
           "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "Atlético GO, 12º colocado, busca se firmar na parte superior da tabela. Goiás, 18º, luta contra o rebaixamento. O Atlético GO tem um desempenho mais consistente em casa, com maior percentual de vitórias e um ataque que falha menos em marcar. O Goiás tem um retrospecto fraco como visitante.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
-      "mando_de_campo": "Atlético GO tem 40% de vitórias em casa.",
+      "motivacao_tecnica": "Atlético GO busca acesso, enquanto Goiás luta contra o rebaixamento. Ambos os times têm estatísticas que indicam potencial para gols no segundo tempo, especialmente após os 65 minutos.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Atlético GO tem uma média de 1.00 gol marcado por jogo. Goiás tem uma média de 1.00 gol marcado por jogo.",
-      "momento_gols": "Atlético GO marca mais gols entre 16-30 (40%) e 61-75 (20%). Goiás marca mais gols entre 76-90 (40%).",
-      "jogadores_chave": "Gustavo Coutinho Silva Lopes (Atlético GO), Anselmo Ramon Alves Erculano (Goiás)",
-      "placares_provaveis": "1x0, 2x1",
-      "momento_entrada": "Pré-jogo",
+      "especificidades_gols": null,
+      "momento_gols": "Atlético GO Marcado 61-75: 20%, 76-90: 20%. Goiás Sofrido 61-75: 15%, 76-90: 33%.",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "ao_vivo",
       "situacao_saida": null,
-      "stake_recomendada": "2%",
+      "stake_recomendada": "1%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo em casa e dados estatísticos favoráveis.",
+        "justificativa_abordagem": "Padrão de gols no final do jogo.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Atlético GO",
-        "odd_alvo": "2.00",
-        "razao": "Atlético GO tem um desempenho mais consistente em casa, com maior percentual de vitórias. Goiás tem um retrospecto fraco como visitante.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
-      },
+      "back_favorito": null,
       "lay_zebra": null,
-      "over_limite_70": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Atlético GO - buscando acesso contra Goiás lutando contra rebaixamento",
+        "indices_gols_faixas": "Atlético GO Marcado 61-75: 20%, 76-90: 20% | Goiás Sofrido 61-75: 15%, 76-90: 33%",
+        "qual_condicao_atende": "Goiás Sofrido 76-90: 33% (atende condição d com valor > 25%)",
+        "motivo_motivacao": "Atlético GO buscando acesso, Goiás lutando contra rebaixamento.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.67 a 2.00",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
       "back_2x2": null,
       "back_goleada": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-30T03:00:57.827Z"
+      "confirmacao_visual": null
     },
     {
       "horario": "16:00",
@@ -303,16 +596,16 @@
         "back_2x2"
       ],
       "mercado_principal": "Placar Exato 2x2",
-      "probabilidade_estimada": null,
-      "fair_odd": null,
-      "odd_minima_entrada": null,
-      "explicacao_curta": "Avaí e Criciúma apresentam índices de Over 2.5 (33% e 17%) e Ambas Marcam (33% e 50%), com médias de gols marcados e sofridos equilibradas.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Ambos os times têm um percentual de jogos com Over 2.5 e Ambas Marcam que, embora não sejam altíssimos, indicam um potencial para gols. Avaí tem média de 1.00 gol marcado e 1.17 sofrido. Criciúma tem média de 0.83 marcado e 1.00 sofrido. O jogo pode ser equilibrado.",
+      "probabilidade_estimada": "55% (probabilidade de ambos marcarem e mais de 2.5 gols, estimada SÓ pelas estatísticas do PDF)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.18",
+      "explicacao_curta": "Ambos os times têm Over 2.5 gols em 33% dos jogos (Avaí) e 17% (Criciúma), e Ambas Marcam em 33% (Avaí) e 50% (Criciúma).",
+      "alerta_geral": null,
+      "valor_esperado": "A combinação de Over 2.5 gols e Ambas Marcam em ambos os times sugere um potencial para placar exato 2x2. A odd estimada é de 1.82, com odd mínima de entrada de 2.18.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Avaí marca 0.50 gols no 1ºT, Criciúma marca 0.33 gols no 1ºT.",
-      "desempenho_2t": "Avaí marca 0.50 gols no 2ºT, Criciúma marca 0.50 gols no 2ºT.",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
       "contexto_times": {
         "casa": {
           "posicao": "15",
@@ -323,43 +616,40 @@
           "objetivo": "acesso"
         }
       },
-      "motivacao_tecnica": "Avaí, 15º, busca se afastar da zona de rebaixamento. Criciúma, 9º, almeja o acesso. Ambos os times têm um desempenho equilibrado em casa e fora, com médias de gols marcados e sofridos semelhantes. O Avaí tem um percentual ligeiramente maior de Over 2.5. O Criciúma tem um percentual maior de Ambas Marcam.",
-      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV moderado",
-      "mando_de_campo": "Avaí tem 17% de vitórias em casa.",
+      "motivacao_tecnica": "Avaí busca se manter no meio de tabela, enquanto Criciúma almeja o acesso. Ambos os times apresentam estatísticas que indicam um jogo com potencial para gols.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Avaí marca 1.00 gol/jogo e sofre 1.17 gols/jogo. Criciúma marca 0.83 gols/jogo e sofre 1.00 gol/jogo.",
-      "momento_gols": "Avaí marca mais gols entre 31-45 (33%) e 76-90 (33%). Criciúma marca mais gols entre 0-15 (40%) e 76-90 (40%).",
-      "jogadores_chave": "Walace dos Santos França (Avaí), Wagner da Silva Souza (Criciúma)",
-      "placares_provaveis": "1x1, 2x1",
-      "momento_entrada": "Pré-jogo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
       "situacao_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
       "stake_recomendada": "0.5%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Padrão de gols de ambos os times.",
-        "gatilho_saida_parcial": "Chegar em 2x1 ou 1x2.",
-        "hard_stop": "Chegar em 1x1."
+        "justificativa_abordagem": "Padrão estatístico para placar exato 2x2.",
+        "gatilho_saida_parcial": "1x1, 2x1, 1x2",
+        "hard_stop": null
       },
       "back_favorito": null,
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": {
         "aplicavel": true,
-        "razao": "Ambos os times têm um percentual de jogos com Over 2.5 (33% Avaí, 17% Criciúma) e Ambas Marcam (33% Avaí, 50% Criciúma).",
-        "indice_over_2_5": "Avaí: 33%, Criciúma: 17%",
-        "indice_ambas_marcam": "Avaí: 33%, Criciúma: 50%",
-        "indice_over_ht": "Avaí: 50%, Criciúma: 50%",
+        "razao": "Ambos os times têm Over 2.5 gols em 33% dos jogos (Avaí) e 17% (Criciúma), e Ambas Marcam em 33% (Avaí) e 50% (Criciúma).",
+        "indice_over_2_5": "Avaí: 33% (últimos 10 jogos) | Criciúma: 17% (últimos 10 jogos)",
+        "indice_ambas_marcam": "Avaí: 33% (últimos 10 jogos) | Criciúma: 50% (últimos 10 jogos)",
+        "indice_over_ht": null,
         "modo": "pre_jogo",
-        "odd_alvo": "12.00",
+        "odd_alvo": "2.18",
         "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
         "stake_recomendada": "0.5%"
       },
       "back_goleada": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-30T03:00:57.827Z"
+      "confirmacao_visual": null
     },
     {
       "horario": "17:30",
@@ -369,16 +659,16 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Grêmio",
-      "probabilidade_estimada": "60%",
-      "fair_odd": "1.67",
-      "odd_minima_entrada": "1.85",
-      "explicacao_curta": "Grêmio tem 63% de vitórias em casa e média de 1.75 gols marcados, contra Corinthians com 13% de vitórias e média de 0.75 gols marcados.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Grêmio apresenta um bom desempenho em casa, com uma média de gols marcados superior e uma taxa de vitórias mais alta que o Corinthians como visitante. A odd mínima de 1.85 é atingível.",
+      "probabilidade_estimada": "63% (probabilidade de vitória do Grêmio, estimada SÓ pelas estatísticas do PDF)",
+      "fair_odd": "1.59",
+      "odd_minima_entrada": "1.83",
+      "explicacao_curta": "Grêmio joga em casa com 63% de vitórias e média de 1.75 gols marcados, contra um Corinthians que sofre 1.25 gols/jogo.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 63% para o Grêmio, resultando em uma fair odd de 1.59. Com a margem de segurança, a odd mínima de entrada é 1.83.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Grêmio marca 0.63 gols no 1ºT, Corinthians marca 0.38 gols no 1ºT.",
-      "desempenho_2t": "Grêmio marca 1.13 gols no 2ºT, Corinthians marca 0.38 gols no 2ºT.",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
       "contexto_times": {
         "casa": {
           "posicao": "6",
@@ -389,16 +679,16 @@
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Grêmio, 6º colocado, busca se aproximar da liderança. Corinthians, 12º, tem um desempenho inconsistente como visitante. O Grêmio tem um retrospecto mais forte em casa, com maior média de gols marcados e vitórias. O Corinthians tem dificuldade em marcar gols fora.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
+      "motivacao_tecnica": "Grêmio, 6º colocado, busca se manter na zona de classificação para a Libertadores. Corinthians, em 12º, parece ter um objetivo mais modesto de meio de tabela.",
+      "coeficiente_regularidade": null,
       "mando_de_campo": "Grêmio tem 63% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Grêmio tem uma média de 1.75 gols marcados por jogo. Corinthians tem uma média de 0.75 gols marcados por jogo.",
-      "momento_gols": "Grêmio marca mais gols entre 46-60 (43%) e 76-90 (7%). Corinthians marca mais gols entre 76-90 (50%).",
-      "jogadores_chave": "Carlos Vinícius (Grêmio), Rodrigo Garro (Corinthians)",
-      "placares_provaveis": "2x1, 1x0",
-      "momento_entrada": "Pré-jogo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
       "situacao_saida": null,
       "stake_recomendada": "2%",
       "plano_execucao": {
@@ -411,8 +701,8 @@
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Grêmio",
-        "odd_alvo": "1.85",
-        "razao": "Grêmio tem forte desempenho em casa, com maior média de gols marcados e vitórias. Corinthians tem dificuldade em marcar gols fora.",
+        "odd_alvo": "1.83",
+        "razao": "Favoritismo claro em casa com bom aproveitamento e média de gols marcados, contra adversário com defesa que sofre mais gols.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -420,10 +710,7 @@
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-30T03:00:57.827Z"
+      "confirmacao_visual": null
     },
     {
       "horario": "17:30",
@@ -433,16 +720,16 @@
         "back_2x2"
       ],
       "mercado_principal": "Placar Exato 2x2",
-      "probabilidade_estimada": null,
-      "fair_odd": null,
-      "odd_minima_entrada": null,
-      "explicacao_curta": "Bahia e Botafogo apresentam altos índices de Over 2.5 (50% e 67%) e Ambas Marcam (75% e 89%), indicando potencial para um jogo com gols de ambos os lados.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Ambos os times têm um alto percentual de jogos com Over 2.5 e Ambas Marcam. O Bahia tem uma média de 1.50 gols marcados e 1.13 sofridos, enquanto o Botafogo tem 1.67 marcados e 1.89 sofridos. Isso sugere um jogo aberto.",
+      "probabilidade_estimada": "60% (probabilidade de ambos marcarem e mais de 2.5 gols, estimada SÓ pelas estatísticas do PDF)",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "2.00",
+      "explicacao_curta": "Ambos os times têm alto índice de Ambas Marcam (75% Bahia, 89% Botafogo) e Over 2.5 gols (50% Bahia, 67% Botafogo).",
+      "alerta_geral": null,
+      "valor_esperado": "A combinação de alto índice de Ambas Marcam e Over 2.5 gols em ambos os times sugere um jogo com potencial para placar exato 2x2. A odd estimada para este cenário é de 1.67, com odd mínima de entrada de 2.00.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Bahia marca 0.75 gols no 1ºT, Botafogo marca 0.78 gols no 1ºT.",
-      "desempenho_2t": "Bahia marca 0.75 gols no 2ºT, Botafogo marca 0.89 gols no 2ºT.",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
       "contexto_times": {
         "casa": {
           "posicao": "18",
@@ -450,65 +737,62 @@
         },
         "fora": {
           "posicao": "6",
-          "objetivo": "titulo"
+          "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "Bahia luta contra o rebaixamento, enquanto Botafogo briga pelo título. Ambos os times têm um alto índice de Ambas Marcam e Over 2.5. O Bahia tem uma defesa que sofre muitos gols (1.13/jogo), e o Botafogo tem um ataque forte (1.67/jogo) mas também sofre muitos gols (1.89/jogo).",
-      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV baixo",
-      "mando_de_campo": "Bahia tem 25% de vitórias em casa.",
+      "motivacao_tecnica": "Bahia luta contra o rebaixamento, enquanto Botafogo busca vaga na Libertadores. Ambos os times apresentam estatísticas elevadas para Ambas Marcam e Over 2.5 gols, indicando um jogo aberto.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Bahia marca 1.50 gols/jogo e sofre 1.13 gols/jogo. Botafogo marca 1.67 gols/jogo e sofre 1.89 gols/jogo.",
-      "momento_gols": "Bahia marca mais gols entre 76-90 (33%). Botafogo marca mais gols entre 76-90 (33%).",
-      "jogadores_chave": "Willian José (Bahia), Arthur Cabral (Botafogo)",
-      "placares_provaveis": "2x2, 3x1",
-      "momento_entrada": "Pré-jogo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
       "situacao_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
       "stake_recomendada": "0.5%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Padrão de gols de ambos os times.",
-        "gatilho_saida_parcial": "Chegar em 2x1 ou 1x2.",
-        "hard_stop": "Chegar em 1x1."
+        "justificativa_abordagem": "Padrão estatístico forte para placar exato 2x2.",
+        "gatilho_saida_parcial": "1x1, 2x1, 1x2",
+        "hard_stop": null
       },
       "back_favorito": null,
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": {
         "aplicavel": true,
-        "razao": "Ambos os times têm alto índice de Over 2.5 (50% Bahia, 67% Botafogo) e Ambas Marcam (75% Bahia, 89% Botafogo).",
-        "indice_over_2_5": "Bahia: 50%, Botafogo: 67%",
-        "indice_ambas_marcam": "Bahia: 75%, Botafogo: 89%",
-        "indice_over_ht": "Bahia: 38%, Botafogo: 22%",
+        "razao": "Ambos os times têm alto índice de Ambas Marcam (75% Bahia, 89% Botafogo) e Over 2.5 gols (50% Bahia, 67% Botafogo).",
+        "indice_over_2_5": "Bahia: 50% (últimos 10 jogos) | Botafogo: 67% (últimos 10 jogos)",
+        "indice_ambas_marcam": "Bahia: 75% (últimos 10 jogos) | Botafogo: 89% (últimos 10 jogos)",
+        "indice_over_ht": null,
         "modo": "pre_jogo",
-        "odd_alvo": "12.00",
+        "odd_alvo": "2.00",
         "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
         "stake_recomendada": "0.5%"
       },
       "back_goleada": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-30T03:00:57.827Z"
+      "confirmacao_visual": null
     },
     {
       "horario": "18:00",
       "liga": "Brazil Serie B",
       "jogo": "Athletic Club x Fortaleza",
       "metodos_aplicados": [
-        "back_2x2"
+        "back_favorito"
       ],
-      "mercado_principal": "Placar Exato 2x2",
-      "probabilidade_estimada": null,
-      "fair_odd": null,
-      "odd_minima_entrada": null,
-      "explicacao_curta": "Athletic Club e Fortaleza apresentam índices de Over 2.5 (20% e 40%) e Ambas Marcam (60% e 20%), com médias de gols marcados e sofridos equilibradas.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Ambos os times têm um percentual de jogos com Over 2.5 e Ambas Marcam que, embora não sejam altíssimos, indicam um potencial para gols. Athletic Club tem média de 0.80 gol marcado e 0.80 sofrido. Fortaleza tem média de 0.40 marcado e 1.20 sofrido. O jogo pode ser equilibrado.",
+      "mercado_principal": "Vitória Fortaleza",
+      "probabilidade_estimada": "55% (probabilidade de vitória do Fortaleza, estimada SÓ pelas estatísticas do PDF)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "explicacao_curta": "Fortaleza joga fora com 20% de vitórias e média de 0.40 gols marcados, contra um Athletic Club que sofre 0.80 gols/jogo.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 55% para o Fortaleza, resultando em uma fair odd de 1.82. Com a margem de segurança, a odd mínima de entrada é 2.09.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Athletic Club marca 0.80 gols no 1ºT, Fortaleza marca 0.20 gols no 1ºT.",
-      "desempenho_2t": "Athletic Club marca 0.00 gols no 2ºT, Fortaleza marca 0.20 gols no 2ºT.",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
       "contexto_times": {
         "casa": {
           "posicao": "14",
@@ -519,43 +803,38 @@
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Ambos os times estão na mesma posição na tabela e têm objetivos semelhantes. Athletic Club tem um desempenho mais equilibrado em casa, com um percentual maior de Ambas Marcam. Fortaleza tem um ataque fraco, mas uma defesa que sofre muitos gols fora. O Athletic Club tem um percentual maior de Over 2.5.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
-      "mando_de_campo": "Athletic Club tem 20% de vitórias em casa.",
+      "motivacao_tecnica": "Ambos os times estão na mesma posição na tabela e com objetivos de meio de tabela. O Fortaleza tem um ataque ligeiramente mais produtivo, mas a defesa do Athletic Club é mais sólida.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Athletic Club marca 0.80 gols/jogo e sofre 0.80 gols/jogo. Fortaleza marca 0.40 gols/jogo e sofre 1.20 gols/jogo.",
-      "momento_gols": "Athletic Club marca mais gols entre 16-30 (50%) e 31-45 (50%). Fortaleza marca mais gols entre 76-90 (50%).",
-      "jogadores_chave": "Ronaldo Rodrigues Tavares (Athletic Club), Juan Bautista Miritello (Fortaleza)",
-      "placares_provaveis": "1x1, 2x1",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
-      "stake_recomendada": "0.5%",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Padrão de gols de ambos os times.",
-        "gatilho_saida_parcial": "Chegar em 2x1 ou 1x2.",
-        "hard_stop": "Chegar em 1x1."
+        "justificativa_abordagem": "Favoritismo em casa contra time com defesa frágil.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
       },
-      "back_favorito": null,
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Fortaleza",
+        "odd_alvo": "2.09",
+        "razao": "Favoritismo em casa contra adversário com defesa muito frágil.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
       "lay_zebra": null,
       "over_limite_70": null,
-      "back_2x2": {
-        "aplicavel": true,
-        "razao": "Ambos os times têm um percentual de jogos com Over 2.5 (20% Athletic Club, 40% Fortaleza) e Ambas Marcam (60% Athletic Club, 20% Fortaleza).",
-        "indice_over_2_5": "Athletic Club: 20%, Fortaleza: 40%",
-        "indice_ambas_marcam": "Athletic Club: 60%, Fortaleza: 20%",
-        "indice_over_ht": "Athletic Club: 40%, Fortaleza: 60%",
-        "modo": "pre_jogo",
-        "odd_alvo": "12.00",
-        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
-        "stake_recomendada": "0.5%"
-      },
+      "back_2x2": null,
       "back_goleada": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-30T03:00:57.827Z"
+      "confirmacao_visual": null
     },
     {
       "horario": "20:00",
@@ -565,41 +844,41 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Santos",
-      "probabilidade_estimada": "60%",
-      "fair_odd": "1.67",
-      "odd_minima_entrada": "1.85",
-      "explicacao_curta": "Santos tem 44% de vitórias em casa e média de 1.33 gols marcados, contra Vitória com 0% de vitórias e média de 0.75 gols marcados.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Santos tem um aproveitamento razoável em casa, com uma média de gols marcados superior ao Vitória, que tem um desempenho muito fraco como visitante. A odd mínima de 1.85 é atingível.",
+      "probabilidade_estimada": "55% (probabilidade de vitória do Santos, estimada SÓ pelas estatísticas do PDF)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "explicacao_curta": "Santos joga em casa com 44% de vitórias e média de 1.33 gols marcados, contra um Vitória que sofre 2.38 gols/jogo.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 55% para o Santos, resultando em uma fair odd de 1.82. Com a margem de segurança, a odd mínima de entrada é 2.09.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Santos marca 0.67 gols no 1ºT, Vitória marca 0.25 gols no 1ºT.",
-      "desempenho_2t": "Santos marca 0.67 gols no 2ºT, Vitória marca 0.50 gols no 2ºT.",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
       "contexto_times": {
         "casa": {
           "posicao": "12",
-          "objetivo": "libertadores"
+          "objetivo": "acesso"
         },
         "fora": {
           "posicao": "19",
           "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "Santos, 12º colocado, busca se aproximar das vagas continentais. Vitória, 19º, luta contra o rebaixamento. O Santos tem um desempenho mais consistente em casa, enquanto o Vitória tem um retrospecto muito ruim como visitante, com dificuldade em marcar gols e alta média de gols sofridos.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV alto",
+      "motivacao_tecnica": "Santos busca se manter na zona de acesso, enquanto Vitória luta contra o rebaixamento. O Santos tem um desempenho defensivo inferior do Vitória, mas a média de gols sofridos do Vitória é muito alta.",
+      "coeficiente_regularidade": null,
       "mando_de_campo": "Santos tem 44% de vitórias em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Santos tem uma média de 1.33 gols marcados por jogo. Vitória tem uma média de 0.75 gols marcados por jogo.",
-      "momento_gols": "Santos marca mais gols entre 31-45 (25%) e 61-75 (17%). Vitória marca mais gols entre 76-90 (32%).",
-      "jogadores_chave": "Gabriel Barbosa Almeida (Santos), Renato Kayzer de Souza (Vitória)",
-      "placares_provaveis": "2x1, 1x0",
-      "momento_entrada": "Pré-jogo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
       "situacao_saida": null,
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
+        "justificativa_abordagem": "Favoritismo em casa contra time com defesa frágil.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
@@ -607,8 +886,8 @@
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Santos",
-        "odd_alvo": "1.85",
-        "razao": "Santos tem um desempenho mais consistente em casa, com maior média de gols marcados. Vitória tem um retrospecto muito ruim como visitante e alta média de gols sofridos.",
+        "odd_alvo": "2.09",
+        "razao": "Favoritismo em casa contra adversário com defesa muito frágil.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -616,29 +895,26 @@
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-30T03:00:57.827Z"
+      "confirmacao_visual": null
     },
     {
       "horario": "20:30",
       "liga": "Brazil Serie B",
       "jogo": "Sport Recife x Náutico",
       "metodos_aplicados": [
-        "back_favorito"
+        "over_limite_70"
       ],
-      "mercado_principal": "Vitória Náutico",
-      "probabilidade_estimada": "55%",
-      "fair_odd": "1.82",
-      "odd_minima_entrada": "2.00",
-      "explicacao_curta": "Náutico tem 60% de vitórias fora e média de 2.00 gols marcados, contra Sport Recife com 40% de vitórias e média de 1.40 gols marcados.",
+      "mercado_principal": "Mais X.5 gols",
+      "probabilidade_estimada": "60% (probabilidade de mais de 1 gol após os 65min, estimada SÓ pelas estatísticas do PDF)",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "explicacao_curta": "Sport Recife tem 29% de gols marcados entre 46-60min e 43% entre 76-90min. Náutico sofre 20% entre 61-75min e 0% entre 76-90min.",
       "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Náutico demonstra um forte desempenho como visitante, com alta média de gols marcados e um percentual de vitórias superior ao Sport Recife em casa. A odd mínima de 2.00 é atingível.",
+      "valor_esperado": "O Sport Recife demonstra capacidade de marcar gols no final do jogo (43% entre 76-90min). O Náutico sofre gols no meio do segundo tempo (20% entre 61-75min). Isso sugere um potencial para mais gols na reta final. A odd estimada é de 1.67, com odd mínima de entrada de 1.92.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Sport Recife marca 0.20 gols no 1ºT, Náutico marca 0.40 gols no 1ºT.",
-      "desempenho_2t": "Sport Recife marca 1.20 gols no 2ºT, Náutico marca 1.60 gols no 2ºT.",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
       "contexto_times": {
         "casa": {
           "posicao": "9",
@@ -649,55 +925,147 @@
           "objetivo": "acesso"
         }
       },
-      "motivacao_tecnica": "Ambos os times estão na zona de acesso, buscando manter ou melhorar suas posições. Náutico tem um retrospecto impressionante como visitante, com alta média de gols marcados e vitórias. Sport Recife tem um desempenho razoável em casa, mas a força do Náutico fora de casa é um fator a ser considerado.",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV baixo",
-      "mando_de_campo": "Sport Recife tem 40% de vitórias em casa.",
+      "motivacao_tecnica": "Ambos os times buscam o acesso. O Sport Recife tem um padrão de gols no final do jogo, enquanto o Náutico demonstra capacidade de sofrer gols no segundo tempo.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Sport Recife tem uma média de 1.40 gols marcados por jogo. Náutico tem uma média de 2.00 gols marcados por jogo.",
-      "momento_gols": "Sport Recife marca mais gols entre 46-60 (29%) e 76-90 (43%). Náutico marca mais gols entre 76-90 (40%).",
-      "jogadores_chave": "Pedro Henrique Perotti (Sport Recife), Vinícius Santos Silva (Náutico)",
-      "placares_provaveis": "1x2, 2x1",
-      "momento_entrada": "Pré-jogo",
+      "especificidades_gols": null,
+      "momento_gols": "Sport Recife Marcado 46-60: 29%, 76-90: 43%. Náutico Sofrido 61-75: 20%, 76-90: 0%.",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "ao_vivo",
       "situacao_saida": null,
-      "stake_recomendada": "2%",
+      "stake_recomendada": "1%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo em campo e dados estatísticos favoráveis.",
+        "justificativa_abordagem": "Padrão de gols no final do jogo.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Náutico",
-        "odd_alvo": "2.00",
-        "razao": "Náutico tem um forte desempenho como visitante, com alta média de gols marcados e vitórias. Sport Recife tem um desempenho razoável em casa.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
-      },
+      "back_favorito": null,
       "lay_zebra": null,
-      "over_limite_70": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Sport Recife e Náutico - ambos buscando acesso",
+        "indices_gols_faixas": "Sport Recife Marcado 61-75: 14%, 76-90: 43% | Náutico Sofrido 61-75: 20%, 76-90: 0%",
+        "qual_condicao_atende": "Sport Recife Marcado 76-90: 43% (atende condição b com valor > 25%)",
+        "motivo_motivacao": "Ambos os times buscam o acesso.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.67 a 2.00",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
       "back_2x2": null,
       "back_goleada": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-30T03:00:57.827Z"
+      "confirmacao_visual": null
     }
   ],
   "evitar": [
     {
-      "horario": "17:30",
-      "jogo": "Bahia x Botafogo",
-      "liga": "Brazil Serie A",
-      "motivo": "Jogo com potencial para gols de ambos os lados, mas com alta variabilidade.",
+      "horario": "08:00",
+      "jogo": "Henan Jianye x Zhejiang FC",
+      "liga": "China Chinese Super League",
+      "motivo": "Sem favoritismo claro e dados de gols insuficientes para Over/Under.",
       "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada 45% - precisa >= 60%.",
-        "lay_zebra": "Odd da zebra estimada 2.50 - precisa >= 5.00.",
-        "over_limite_70": "Momento dos gols: Bahia 76-90: 33% Marcado, 22% Sofrido. Botafogo 76-90: 33% Marcado, 12% Sofrido. Não atende o limiar de 25% em pelo menos uma das 4 condições.",
-        "back_2x2": "Over 2.5 média 50% - precisa >= 60%.",
-        "back_goleada": "Probabilidade estimada 58% - precisa >= 70%."
+        "back_favorito": "Probabilidade estimada de vitória do favorito 50% (precisa >= 60%).",
+        "lay_zebra": "Odd da zebra estimada 3.80 (precisa >= 5.00).",
+        "over_limite_70": "Nenhum dos critérios de gols por período atende o limiar de 25% (ex: Henan Marcado 61-75: 25%, mas Henan Sofrido 61-75: 50% e Zhejiang Marcado 61-75: 13%).",
+        "back_2x2": "Over 2.5 média 50% (precisa >= 60%).",
+        "back_goleada": "Probabilidade estimada de vitória do favorito 50% (precisa >= 70%)."
+      }
+    },
+    {
+      "horario": "09:00",
+      "jogo": "Chongqing Tongliang Long x Beijing Guoan",
+      "liga": "China Chinese Super League",
+      "motivo": "Favoritismo moderado e dados de gols não suficientes para Over/Under.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito 58% (precisa >= 60%).",
+        "lay_zebra": "Odd da zebra estimada 4.00 (precisa >= 5.00).",
+        "over_limite_70": "Nenhum dos critérios de gols por período atende o limiar de 25% (ex: Chongqing Marcado 61-75: 10%, Chongqing Sofrido 61-75: 17%, Beijing Marcado 61-75: 0%, Beijing Sofrido 61-75: 13%).",
+        "back_2x2": "Over 2.5 média 29% (precisa >= 60%).",
+        "back_goleada": "Probabilidade estimada de vitória do favorito 58% (precisa >= 70%)."
+      }
+    },
+    {
+      "horario": "10:00",
+      "jogo": "B 93 x Aarhus Fremad",
+      "liga": "Denmark 1st Division",
+      "motivo": "Sem favoritismo claro e dados de gols insuficientes para Over/Under.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito 50% (precisa >= 60%).",
+        "lay_zebra": "Odd da zebra estimada 3.50 (precisa >= 5.00).",
+        "over_limite_70": "Nenhum dos critérios de gols por período atende o limiar de 25% (ex: B93 Marcado 61-75: 21%, B93 Sofrido 61-75: 15%, Aarhus Marcado 61-75: 6%, Aarhus Sofrido 61-75: 10%).",
+        "back_2x2": "Over 2.5 média 53% (precisa >= 60%).",
+        "back_goleada": "Probabilidade estimada de vitória do favorito 50% (precisa >= 70%)."
+      }
+    },
+    {
+      "horario": "16:00",
+      "jogo": "Flamengo x Coritiba",
+      "liga": "Brazil Serie A",
+      "motivo": "Sem padrão claro para outros métodos além de Back Favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "Aplicável.",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (estimada em 3.80) e o Coritiba não apresenta desempenho recente catastrófico.",
+        "over_limite_70": "Dados de gols por período não são suficientes para aplicar o critério.",
+        "back_2x2": "Índice de Over 2.5 gols (57% Flamengo, 56% Coritiba) e Ambas Marcam (44% Coritiba) não atingem os limiares de 60% para ambos os critérios.",
+        "back_goleada": "Favoritismo insuficiente (probabilidade estimada de 75% para o Flamengo, precisa de 70% para o método, mas a média ofensiva do Flamengo é 1.86, precisa de 2.5)."
+      }
+    },
+    {
+      "horario": "16:00",
+      "jogo": "Atlético PR x Mirassol",
+      "liga": "Brazil Serie A",
+      "motivo": "Sem padrão claro para outros métodos além de Back Favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "Aplicável.",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (estimada em 3.80) e o Mirassol não apresenta desempenho recente catastrófico.",
+        "over_limite_70": "Dados de gols por período não são suficientes para aplicar o critério.",
+        "back_2x2": "Índice de Over 2.5 gols (44% Atlético PR, 57% Mirassol) e Ambas Marcam (56% Atlético PR, 57% Mirassol) não atingem os limiares de 60% para ambos os critérios.",
+        "back_goleada": "Favoritismo insuficiente (probabilidade estimada de 67% para o Atlético PR, precisa de 70% para o método, e a média ofensiva do Atlético PR é 1.78, precisa de 2.5)."
+      }
+    },
+    {
+      "horario": "17:30",
+      "jogo": "Grêmio x Corinthians",
+      "liga": "Brazil Serie A",
+      "motivo": "Sem padrão claro para outros métodos além de Back Favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "Aplicável.",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (estimada em 3.80) e o Corinthians não apresenta desempenho recente catastrófico.",
+        "over_limite_70": "Dados de gols por período não são suficientes para aplicar o critério.",
+        "back_2x2": "Índice de Over 2.5 gols (38% Grêmio, 38% Corinthians) e Ambas Marcam (50% Grêmio, 63% Corinthians) não atingem os limiares de 60% para ambos os critérios.",
+        "back_goleada": "Favoritismo insuficiente (probabilidade estimada de 63% para o Grêmio, precisa de 70% para o método, e a média ofensiva do Grêmio é 1.75, precisa de 2.5)."
+      }
+    },
+    {
+      "horario": "18:00",
+      "jogo": "Athletic Club x Fortaleza",
+      "liga": "Brazil Serie B",
+      "motivo": "Sem padrão claro para outros métodos além de Back Favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "Aplicável.",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (estimada em 3.80) e o Fortaleza não apresenta desempenho recente catastrófico.",
+        "over_limite_70": "Dados de gols por período não são suficientes para aplicar o critério.",
+        "back_2x2": "Índice de Over 2.5 gols (20% Athletic Club, 40% Fortaleza) e Ambas Marcam (60% Athletic Club, 20% Fortaleza) não atingem os limiares de 60% para ambos os critérios.",
+        "back_goleada": "Favoritismo insuficiente (probabilidade estimada de 55% para o Fortaleza, precisa de 70% para o método, e a média ofensiva do Fortaleza é 0.40, precisa de 2.5)."
+      }
+    },
+    {
+      "horario": "20:00",
+      "jogo": "Santos x Vitória",
+      "liga": "Brazil Serie A",
+      "motivo": "Sem padrão claro para outros métodos além de Back Favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "Aplicável.",
+        "lay_zebra": "Odd da zebra não é alta o suficiente (estimada em 3.80) e o Vitória não apresenta desempenho recente catastrófico.",
+        "over_limite_70": "Dados de gols por período não são suficientes para aplicar o critério.",
+        "back_2x2": "Índice de Over 2.5 gols (44% Santos, 50% Vitória) e Ambas Marcam (56% Santos, 63% Vitória) não atingem os limiares de 60% para ambos os critérios.",
+        "back_goleada": "Favoritismo insuficiente (probabilidade estimada de 55% para o Santos, precisa de 70% para o método, e a média ofensiva do Santos é 1.33, precisa de 2.5)."
       }
     }
   ],
