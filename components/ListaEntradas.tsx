@@ -738,7 +738,7 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
         </div>
       )}
 
-      {entrada.alerta_geral && (
+      {entrada.alerta_geral && (entrada.metodos_aplicados || []).includes('over_limite_70') && (
         <div className="flex gap-1.5 items-start text-[11px] leading-snug text-amber-700 dark:text-amber-400">
           <span aria-hidden="true">⚠</span>
           <span>{entrada.alerta_geral}</span>
