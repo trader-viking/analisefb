@@ -10,6 +10,7 @@ import { BadgeMetodo, metodosAtivos, modoDoMetodo } from '@/components/BadgeMeto
 import { ContextoTimesDetalhe } from '@/components/ContextoTimes';
 import BotaoBaixarPorId from '@/components/BotaoBaixarPorId';
 import BotoesAposta from '@/components/BotoesAposta';
+import BotaoFinalizar from '@/components/BotaoFinalizar';
 
 export function generateStaticParams() {
   const params: { slug: string; entrada: string }[] = [];
@@ -86,6 +87,13 @@ export default function EntradaPage({
           Voltar para {relatorio.titulo}
         </Link>
         <BotaoBaixarPorId alvoId="conteudo-analise" nomeArquivo={entrada.jogo} className="text-xs px-3 py-1.5" />
+        <BotaoFinalizar
+          jogo={entrada.jogo}
+          data={(relatorio.slug.match(/^(\d{4}-\d{2}-\d{2})/) || [])[1] || ''}
+          jaFinalizado={(entrada as any)._finalizado_manualmente}
+          placarAtual={(entrada as any)._placar}
+          variante="completo"
+        />
       </div>
 
       <div id="conteudo-analise">

@@ -9,6 +9,7 @@ import { BadgeMetodo, metodosAtivos, metodosRankeados, METODOS_INFO, modoDoMetod
 import { ContextoTimesCompacto } from '@/components/ContextoTimes';
 import BotoesApostaMini from '@/components/BotoesApostaMini';
 import BotaoBaixarImagem from '@/components/BotaoBaixarImagem';
+import BotaoFinalizar from '@/components/BotaoFinalizar';
 import type { Entrada } from '@/lib/relatorios';
 
 type EntradaComSlug = Entrada & { _slug: string };
@@ -687,6 +688,13 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
             </span>
           )}
           <BotaoBaixarImagem alvoRef={cardRef} nomeArquivo={entrada.jogo} variante="icone" />
+          <BotaoFinalizar
+            jogo={entrada.jogo}
+            data={(relatorioSlug.match(/^(\d{4}-\d{2}-\d{2})/) || [])[1] || ''}
+            jaFinalizado={(entrada as any)._finalizado_manualmente}
+            placarAtual={(entrada as any)._placar}
+            variante="icone"
+          />
         </span>
       </div>
 
