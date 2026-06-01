@@ -530,19 +530,19 @@
         "stake_recomendada": null
       },
       "confirmacao_visual": null,
-      "_placar": "0x0",
+      "_placar": "1x1",
       "_status": "finalizado",
-      "_placar_atualizado_em": "2026-05-31T18:40:34.814Z",
+      "_placar_atualizado_em": "2026-06-01T00:05:47.068Z",
       "_minuto_gol": "",
       "_finalizado_manualmente": true,
       "_finalizado_em": "2026-05-31T22:29:38.958Z",
       "_vereditos": {
         "back_2x2": {
-          "resultado": "red",
-          "motivo": "Não passou por 1x1 (0x0)"
+          "resultado": "green",
+          "motivo": "Passou por 1x1 (final 1x1) — cash-out"
         }
       },
-      "_veredito": "red"
+      "_veredito": "green"
     },
     {
       "horario": "16:00",
@@ -759,16 +759,16 @@
         "stake_recomendada": null
       },
       "confirmacao_visual": null,
-      "_placar": "0x1",
+      "_placar": "1x1",
       "_status": "finalizado",
-      "_placar_atualizado_em": "2026-05-31T03:00:40.032Z",
+      "_placar_atualizado_em": "2026-06-01T00:05:47.068Z",
       "_minuto_gol": "",
       "_finalizado_manualmente": true,
       "_finalizado_em": "2026-05-31T22:29:57.026Z",
       "_vereditos": {
         "back_favorito": {
           "resultado": "red",
-          "motivo": "Favorito (casa) não venceu (0x1)"
+          "motivo": "Favorito (casa) não venceu (1x1)"
         }
       },
       "_veredito": "red"
@@ -984,9 +984,9 @@
         "stake_recomendada": null
       },
       "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-31T03:00:40.032Z"
+      "_placar": "0x0",
+      "_status": "em_andamento",
+      "_placar_atualizado_em": "2026-06-01T00:05:47.068Z"
     },
     {
       "horario": "20:30",
@@ -1086,9 +1086,9 @@
         "stake_recomendada": null
       },
       "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-31T03:00:40.032Z"
+      "_placar": "0x0",
+      "_status": "em_andamento",
+      "_placar_atualizado_em": "2026-06-01T00:05:47.068Z"
     },
     {
       "horario": "20:30",
@@ -1188,9 +1188,9 @@
         "stake_recomendada": null
       },
       "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-05-31T03:00:40.032Z"
+      "_placar": "1x0",
+      "_status": "em_andamento",
+      "_placar_atualizado_em": "2026-06-01T00:05:47.068Z"
     }
   ],
   "evitar": [
