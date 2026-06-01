@@ -1,7 +1,7 @@
 {
   "data": "2026-06-01",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-05-31T16:59:43.950832",
+  "gerado_em": "2026-05-31T22:47:00.629661",
   "total_partidas_analisadas": 1,
   "entradas": [
     {
@@ -12,41 +12,41 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Ponte Preta",
-      "probabilidade_estimada": "55% (estimativa baseada em aproveitamento similar e média de gols)",
+      "probabilidade_estimada": "55% (favoritismo leve da Ponte Preta com base em aproveitamento e mando)",
       "fair_odd": "1.82",
-      "odd_minima_entrada": "2.04",
-      "explicacao_curta": "Ponte Preta joga em casa com aproveitamento similar ao visitante, mas com média de gols marcados e sofridos ligeiramente melhores. Favoritismo leve.",
+      "odd_minima_entrada": "2.09",
+      "explicacao_curta": "Ponte Preta joga em casa com aproveitamento similar ao visitante, mas com ligeira vantagem em gols marcados e primeiro a marcar. Favoritismo leve.",
       "alerta_geral": null,
-      "valor_esperado": "A odd mínima de entrada de 2.04 sugere que a casa está precificando o jogo com um leve viés para o visitante, o que pode oferecer valor se a Ponte Preta confirmar o favoritismo em casa.",
+      "valor_esperado": "Prob. 55% → fair 1.82; com margem de segurança, só entrar acima de 2.09. A odd de mercado precisa ser igual ou superior a 2.09.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
+      "desempenho_1t": "Ponte Preta: 20% Venceu 1ºT, 0.40 Média Gols Marcados. Botafogo SP: 0% Venceu 1ºT, 0.20 Média Gols Marcados.",
+      "desempenho_2t": "Ponte Preta: 0% Venceu 2ºT, 0.40 Média Gols Marcados. Botafogo SP: 20% Venceu 2ºT, 0.40 Média Gols Marcados.",
       "contexto_times": {
         "casa": {
-          "posicao": "18º (posição como MANDANTE/em casa)",
+          "posicao": "18º (posição como MANDANTE/em casa, se estiver no PDF)",
           "objetivo": "rebaixamento"
         },
         "fora": {
-          "posicao": "16º (posição como VISITANTE/fora)",
+          "posicao": "16º (posição como VISITANTE/fora, se estiver no PDF)",
           "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "Ambos os times estão na zona de rebaixamento, o que indica alta motivação para pontuar. A Ponte Preta joga em casa e tem um aproveitamento ligeiramente superior em termos de gols marcados e sofridos, o que justifica um leve favoritismo.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": "Ponte Preta: 0.80 Pontos por Jogo, 1.80 Média Gols Sofridos. Botafogo SP: 0.80 Pontos por Jogo, 1.00 Média Gols Sofridos.",
+      "motivacao_tecnica": "Ambos os times estão na zona de rebaixamento, o que indica alta motivação para pontuar. A Ponte Preta tem um ligeiro favoritismo em casa com base nos dados de aproveitamento e gols marcados no primeiro tempo. O Botafogo SP tem um desempenho mais equilibrado ao longo do jogo, mas sofre mais gols no segundo tempo.",
+      "coeficiente_regularidade": "Ponte Preta: CV moderado (60% Falhou em marcar, 40% Jogos sem sofrer gols). Botafogo SP: CV moderado (60% Falhou em marcar, 0% Jogos sem sofrer gols).",
+      "mando_de_campo": "Ponte Preta: 20% Vitórias em casa, 0.80 Média Gols Marcados em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
+      "especificidades_gols": "Ponte Preta marca mais no 1º tempo (40%) e no final do jogo (25% entre 76-90). Botafogo SP marca mais no 2º tempo (60%) e tem um gol isolado no 1º tempo.",
+      "momento_gols": "Ponte Preta: 16-30 (25% Marcado), 31-45 (25% Marcado), 46-60 (25% Marcado), 76-90 (25% Marcado). Botafogo SP: 31-45 (33% Marcado), 46-60 (33% Marcado), 76-90 (33% Marcado).",
+      "jogadores_chave": "Ponte Preta: William de Oliveira Pottker (2 gols). Botafogo SP: Everton Morelli Casemiro (6 gols).",
+      "placares_provaveis": "1x0, 2x1",
       "momento_entrada": "pre_jogo",
       "situacao_saida": null,
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Jogo equilibrado com leve favoritismo do mandante.",
+        "justificativa_abordagem": "Jogo entre times com objetivos similares (rebaixamento), onde o mando de campo pode ser um diferencial. A odd permite uma entrada com valor.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
@@ -54,8 +54,8 @@
         "aplicavel": true,
         "modo": "pre_jogo",
         "favorito": "Ponte Preta",
-        "odd_alvo": "2.04",
-        "razao": "Ponte Preta joga em casa com aproveitamento similar ao visitante, mas com média de gols marcados e sofridos ligeiramente melhores. Ambos os times lutam contra o rebaixamento, o que aumenta a motivação.",
+        "odd_alvo": "2.09",
+        "razao": "Ponte Preta joga em casa com ligeiro favoritismo baseado em aproveitamento e média de gols marcados no 1º tempo. Ambos os times lutam contra o rebaixamento.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -63,8 +63,9 @@
         "aplicavel": false,
         "modo": null,
         "zebra": null,
+        "favorito_do_jogo": null,
         "odd_zebra_alvo": null,
-        "razao": "A odd estimada para o Botafogo SP não é alta o suficiente para justificar um Lay Zebra, e o seu desempenho recente não é catastrófico.",
+        "razao": null,
         "gatilho_ao_vivo": null,
         "stake_recomendada": null
       },
@@ -83,11 +84,11 @@
       },
       "back_2x2": {
         "aplicavel": false,
-        "razao": "Os índices de Over 2.5 gols (40% para Ponte Preta, 20% para Botafogo SP) e Ambas Marcam (60% para Ponte Preta, 40% para Botafogo SP) não atingem os limiares necessários.",
+        "razao": "Índice de Over 2.5 gols da Ponte Preta é 40% e do Botafogo SP é 20%. Ambos estão abaixo do limiar de 60%.",
         "indice_over_2_5": "Ponte Preta: 40%, Botafogo SP: 20%",
-        "indice_ambas_marcam": "Ponte Preta: 60%, Botafogo SP: 40%",
-        "indice_over_ht": null,
-        "modo": null,
+        "indice_ambas_marcam": "Ponte Preta: 60%, Botafogo SP: 40%. Abaixo do limiar de 60%.",
+        "indice_over_ht": "Ponte Preta: 80%, Botafogo SP: 20%. Abaixo do limiar de 70%.",
+        "modo": "pre_jogo",
         "odd_alvo": null,
         "regra_saida": null,
         "stake_recomendada": null
@@ -95,7 +96,7 @@
       "back_goleada": {
         "aplicavel": false,
         "candidato": null,
-        "razao": "O favoritismo não é extremo (probabilidade estimada em 55%) e a média de gols marcados pelo favorito (0.80) e sofridos pelo adversário (1.00) não indicam um cenário de goleada.",
+        "razao": "Favoritismo insuficiente. Probabilidade estimada de vitória da Ponte Preta é 55%, abaixo do limiar de 70% para favoritismo extremo.",
         "modo": null,
         "mercado_sugerido": null,
         "odd_esperada": null,
