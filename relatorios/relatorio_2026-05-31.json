@@ -985,8 +985,15 @@
       },
       "confirmacao_visual": null,
       "_placar": "1x1",
-      "_status": "em_andamento",
-      "_placar_atualizado_em": "2026-06-01T01:10:46.922Z"
+      "_status": "finalizado",
+      "_placar_atualizado_em": "2026-06-01T01:30:47.012Z",
+      "_vereditos": {
+        "back_favorito": {
+          "resultado": "red",
+          "motivo": "Favorito (casa) não venceu (1x1)"
+        }
+      },
+      "_veredito": "red"
     },
     {
       "horario": "20:30",
@@ -1086,9 +1093,16 @@
         "stake_recomendada": null
       },
       "confirmacao_visual": null,
-      "_placar": "0x0",
-      "_status": "em_andamento",
-      "_placar_atualizado_em": "2026-06-01T00:05:47.068Z"
+      "_placar": "1x0",
+      "_status": "finalizado",
+      "_placar_atualizado_em": "2026-06-01T01:30:47.012Z",
+      "_vereditos": {
+        "back_favorito": {
+          "resultado": "red",
+          "motivo": "Favorito (fora) não venceu (1x0)"
+        }
+      },
+      "_veredito": "red"
     },
     {
       "horario": "20:30",
@@ -1189,8 +1203,15 @@
       },
       "confirmacao_visual": null,
       "_placar": "2x0",
-      "_status": "em_andamento",
-      "_placar_atualizado_em": "2026-06-01T00:10:46.971Z"
+      "_status": "finalizado",
+      "_placar_atualizado_em": "2026-06-01T01:30:47.012Z",
+      "_vereditos": {
+        "lay_zebra": {
+          "resultado": "red",
+          "motivo": "Zebra (casa) venceu 2x0"
+        }
+      },
+      "_veredito": "red"
     }
   ],
   "evitar": [
