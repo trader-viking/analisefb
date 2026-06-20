@@ -146,6 +146,8 @@ export type Entrada = {
   over_limite_70?: OverLimite70 | null;
   back_2x2?: Back2x2 | null;
   back_goleada?: BackGoleada | null;
+  lay_1x0?: any | null;
+  lay_0x1?: any | null;
   over_golos?: OverGolos | null;
   mercado_gols?: MercadoGols | null;
   confirmacao_visual?: ConfirmacaoVisual | null;
@@ -169,6 +171,8 @@ export type Evitar = {
     over_limite_70?: string;
     back_2x2?: string;
     back_goleada?: string;
+    lay_1x0?: string;
+    lay_0x1?: string;
   };
 };
 

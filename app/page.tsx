@@ -1,18 +1,22 @@
 import Link from 'next/link';
 import { listarRelatorios } from '@/lib/relatorios';
 import { Calendar, TrendingUp, AlertTriangle, ChevronRight, FileText, BarChart3 } from 'lucide-react';
+import NavegacaoPrincipal from '@/components/NavegacaoPrincipal';
 
 export default function HomePage() {
   const relatorios = listarRelatorios();
 
   if (relatorios.length === 0) {
     return (
-      <div className="text-center py-20">
-        <FileText className="mx-auto mb-4 text-ink-400" size={48} />
-        <h1 className="text-2xl font-bold mb-2">Nenhum relatório ainda</h1>
-        <p className="text-ink-500">
-          Quando você rodar <code>python main.py</code>, os relatórios aparecerão aqui.
-        </p>
+      <div>
+        <NavegacaoPrincipal />
+        <div className="text-center py-20">
+          <FileText className="mx-auto mb-4 text-ink-400" size={48} />
+          <h1 className="text-2xl font-bold mb-2">Nenhum relatório ainda</h1>
+          <p className="text-ink-500">
+            Quando você rodar <code>python main.py</code>, os relatórios aparecerão aqui.
+          </p>
+        </div>
       </div>
     );
   }
@@ -26,6 +30,7 @@ export default function HomePage() {
 
   return (
     <div>
+      <NavegacaoPrincipal />
       <div className="mb-8 flex items-end justify-between gap-4 flex-wrap">
         <div>
           <h1 className="text-3xl font-bold tracking-tight mb-1">Relatórios</h1>

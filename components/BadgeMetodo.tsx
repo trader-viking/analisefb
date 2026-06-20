@@ -53,6 +53,22 @@ export const METODOS_INFO: Record<string, Metodo> = {
     cor_text: 'text-yellow-700 dark:text-yellow-300',
     cor_ring: 'ring-yellow-300 dark:ring-yellow-800',
   },
+  lay_1x0: {
+    key: 'lay_1x0',
+    label: 'Lay 1×0',
+    icone: <ChevronsDown size={11} />,
+    cor_bg: 'bg-pink-50 dark:bg-pink-950/40',
+    cor_text: 'text-pink-700 dark:text-pink-300',
+    cor_ring: 'ring-pink-300 dark:ring-pink-800',
+  },
+  lay_0x1: {
+    key: 'lay_0x1',
+    label: 'Lay 0×1',
+    icone: <ChevronsDown size={11} />,
+    cor_bg: 'bg-fuchsia-50 dark:bg-fuchsia-950/40',
+    cor_text: 'text-fuchsia-700 dark:text-fuchsia-300',
+    cor_ring: 'ring-fuchsia-300 dark:ring-fuchsia-800',
+  },
   over_golos: {
     key: 'over_golos',
     label: 'Over Gols',

@@ -4,6 +4,13 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  // Safelist: classes geradas dinamicamente (cores dos métodos de jogador e métodos novos Lay 1x0/0x1)
+  safelist: [
+    {
+      pattern: /(bg|text|ring)-(emerald|amber|blue|purple|rose|cyan|pink|fuchsia)-(50|100|300|400|700|800|950)/,
+      variants: ['dark', 'hover'],
+    },
+  ],
   darkMode: 'class',
   theme: {
     extend: {
