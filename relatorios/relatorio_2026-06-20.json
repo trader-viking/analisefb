@@ -1,272 +1,85 @@
 {
   "data": "2026-06-20",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-06-20T15:03:48.857665",
+  "gerado_em": "2026-06-20T15:09:05.470158",
   "total_partidas_analisadas": 7,
   "entradas": [
     {
-      "horario": "14:00",
-      "liga": "International World Cup",
-      "jogo": "Netherlands x Sweden",
+      "horario": "11:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Londrina x Athletic Club",
       "metodos_aplicados": [
-        "back_favorito"
+        "back_2x2"
       ],
-      "mercado_principal": "Vitória Netherlands",
+      "mercado_principal": "Ambas Marcam e Mais de 2.5 Gols",
       "probabilidade_estimada": "60%",
       "fair_odd": "1.67",
       "odd_minima_entrada": "1.92",
-      "explicacao_curta": "Netherlands com 100% de aproveitamento em casa e média de 2.0 gols marcados contra Sweden com 0% de vitórias fora.",
+      "explicacao_curta": "Ambos os times apresentam alto índice de Over 2.5 gols e Ambas Marcam, com defesas que sofrem mais de 1.2 gols por jogo.",
       "alerta_geral": null,
-      "valor_esperado": "A probabilidade estimada de 60% para a vitória da Netherlands resulta em uma fair odd de 1.67. Com a margem de segurança, a odd mínima de entrada é 1.92.",
+      "valor_esperado": "Probabilidade estimada de 60% para o evento, com fair odd de 1.67. Odd mínima de entrada de 1.92.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
+      "desempenho_1t": "Londrina marca 0.50 no 1ºT, Athletic Club marca 0.50 no 1ºT",
+      "desempenho_2t": "Londrina marca 0.67 no 2ºT, Athletic Club marca 1.00 no 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": null,
-          "objetivo": null
-        },
-        "fora": {
-          "posicao": null,
-          "objetivo": null
-        }
-      },
-      "motivacao_tecnica": "Netherlands tem um histórico perfeito em casa com 100% de vitórias e média de 2.0 gols marcados. Sweden não apresenta dados de aproveitamento fora de casa, mas o histórico recente da Netherlands é muito forte.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": "Netherlands: 100% de vitórias em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro do mandante com histórico perfeito em casa e bom desempenho ofensivo.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Netherlands",
-        "odd_alvo": "1.92",
-        "razao": "Netherlands tem um histórico impecável em casa e enfrenta um adversário sem dados de desempenho fora.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
-      "confirmacao_visual": null,
-      "_placar": "4x1",
-      "_status": "em_andamento",
-      "_placar_atualizado_em": "2026-06-20T18:20:16.801Z"
-    },
-    {
-      "horario": "17:00",
-      "liga": "International World Cup",
-      "jogo": "Germany x Ivory Coast",
-      "metodos_aplicados": [
-        "back_favorito"
-      ],
-      "mercado_principal": "Vitória Germany",
-      "probabilidade_estimada": "70%",
-      "fair_odd": "1.43",
-      "odd_minima_entrada": "1.64",
-      "explicacao_curta": "Germany com 100% de vitórias em casa e média de 7.0 gols marcados contra Ivory Coast com 0% de vitórias fora.",
-      "alerta_geral": null,
-      "valor_esperado": "A probabilidade estimada de 70% para a vitória da Germany resulta em uma fair odd de 1.43. Com a margem de segurança, a odd mínima de entrada é 1.64.",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
-      "contexto_times": {
-        "casa": {
-          "posicao": null,
-          "objetivo": null
-        },
-        "fora": {
-          "posicao": null,
-          "objetivo": null
-        }
-      },
-      "motivacao_tecnica": "Germany demonstra um favoritismo extremo com 100% de vitórias em casa e uma média impressionante de 7.0 gols marcados. Ivory Coast não apresenta dados de desempenho fora de casa, o que reforça o favoritismo da Germany.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": "Germany: 100% de vitórias em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo extremo do mandante com desempenho ofensivo avassalador.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Germany",
-        "odd_alvo": "1.64",
-        "razao": "Germany tem um histórico perfeito em casa e um ataque muito forte contra um adversário sem dados de desempenho fora.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-06-20T18:05:17.011Z"
-    },
-    {
-      "horario": "19:00",
-      "liga": "Brazil Serie B",
-      "jogo": "Vila Nova x Náutico",
-      "metodos_aplicados": [
-        "back_favorito"
-      ],
-      "mercado_principal": "Vitória Vila Nova",
-      "probabilidade_estimada": "60%",
-      "fair_odd": "1.67",
-      "odd_minima_entrada": "1.92",
-      "explicacao_curta": "Vila Nova em casa com 67% de vitórias e média de 1.67 gols marcados contra Náutico que tem 43% de vitórias e média de 1.71 gols marcados.",
-      "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 60% para a vitória do Vila Nova resulta em uma fair odd de 1.67. Com a margem de segurança, a odd mínima de entrada é 1.92.",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
-      "contexto_times": {
-        "casa": {
-          "posicao": "2º",
-          "objetivo": "titulo"
-        },
-        "fora": {
-          "posicao": "3º",
-          "objetivo": "titulo"
-        }
-      },
-      "motivacao_tecnica": "Vila Nova (2º, brigando por título) joga em casa contra Náutico (3º, também brigando por título). Vila Nova tem um aproveitamento de 67% em casa com média de 1.67 gols marcados, enquanto o Náutico tem 43% de vitórias fora e média de 1.71 gols marcados. O favoritismo do Vila Nova é ligeiramente maior devido ao mando de campo.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": "Vila Nova: 67% de vitórias em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro do mandante com bons números ofensivos e contexto de briga pelo título.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Vila Nova",
-        "odd_alvo": "1.92",
-        "razao": "Vila Nova tem melhor aproveitamento em casa e ambos os times estão na briga pelo título.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-06-20T18:05:17.011Z"
-    },
-    {
-      "horario": "19:00",
-      "liga": "Brazil Serie B",
-      "jogo": "Ceará x Botafogo SP",
-      "metodos_aplicados": [
-        "back_favorito"
-      ],
-      "mercado_principal": "Vitória Ceará",
-      "probabilidade_estimada": "65%",
-      "fair_odd": "1.54",
-      "odd_minima_entrada": "1.77",
-      "explicacao_curta": "Ceará em casa com 43% de vitórias e média de 1.43 gols marcados contra Botafogo SP com 14% de vitórias e média de 0.43 gols marcados.",
-      "alerta_geral": null,
-      "valor_esperado": "A probabilidade estimada de 65% para a vitória do Ceará resulta em uma fair odd de 1.54. Com a margem de segurança, a odd mínima de entrada é 1.77.",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
-      "contexto_times": {
-        "casa": {
-          "posicao": "9º",
+          "posicao": "7",
           "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": "16º",
-          "objetivo": "rebaixamento"
+          "posicao": "3",
+          "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "Ceará (9º, meio de tabela) joga em casa contra Botafogo SP (16º, lutando contra rebaixamento). Ceará tem um aproveitamento de 43% em casa com média de 1.43 gols marcados, enquanto o Botafogo SP tem apenas 14% de vitórias fora e média de 0.43 gols marcados. O Ceará demonstra um favoritismo claro.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": "Ceará: 43% de vitórias em casa.",
+      "motivacao_tecnica": "Londrina (7º) busca se manter na briga por posições melhores, enquanto Athletic Club (3º) luta por acesso direto.",
+      "coeficiente_regularidade": "Londrina: CV moderado | Athletic Club: CV moderado",
+      "mando_de_campo": "Londrina tem 7 gols marcados e 10 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
+      "especificidades_gols": "Londrina: 67% Over 2.5 gols, 67% Ambas Marcam. Athletic Club: 50% Over 2.5 gols, 100% Ambas Marcam.",
+      "momento_gols": "Londrina: 61-75 (0% Marcado, 30% Sofrido). Athletic Club: 61-75 (22% Marcado, 38% Sofrido).",
+      "jogadores_chave": "Bruno Santos de Oliveira (Londrina), Ronaldo Rodrigues Tavares (Athletic Club)",
+      "placares_provaveis": "2x1, 1x2, 2x2",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "2%",
+      "situacao_saida": "Cash-out em 1x1, 2x1 ou 1x2.",
+      "stake_recomendada": "0.5%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro do mandante com bons números ofensivos e contexto de briga por objetivos distintos.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Padrão estatístico claro para o método.",
+        "gatilho_saida_parcial": "Placar 2x1 ou 1x2.",
+        "hard_stop": "Placar 1x1."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "razao": "Ambos os times apresentam alto índice de Over 2.5 gols (Londrina 67%, Athletic Club 50%) e Ambas Marcam (Londrina 67%, Athletic Club 100%). Ambos sofrem mais de 1.2 gols por jogo (Londrina 1.67, Athletic Club 1.33).",
+        "indice_over_2_5": "Londrina: 67%, Athletic Club: 50% (Média: 58.5%)",
+        "indice_ambas_marcam": "Londrina: 67%, Athletic Club: 100% (Média: 83.5%)",
+        "indice_over_ht": "Londrina: 50%, Athletic Club: 67% (Média: 58.5%)",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
       },
       "back_favorito": {
-        "aplicavel": true,
-        "modo": "pre_jogo",
-        "favorito": "Ceará",
-        "odd_alvo": "1.77",
-        "razao": "Ceará tem melhor aproveitamento em casa e enfrenta um adversário com baixo desempenho ofensivo.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
+        "aplicavel": false
       },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-06-20T18:05:17.011Z"
+      "lay_zebra": {
+        "aplicavel": false
+      },
+      "over_limite_70": {
+        "aplicavel": false
+      },
+      "back_goleada": {
+        "aplicavel": false
+      },
+      "lay_1x0": {
+        "aplicavel": false
+      },
+      "lay_0x1": {
+        "aplicavel": false
+      },
+      "confirmacao_visual": null
     }
   ],
   "evitar": [
@@ -276,28 +89,78 @@
       "liga": "International World Cup",
       "motivo": "Dados insuficientes para aplicar qualquer método.",
       "motivos_por_metodo": {
-        "back_favorito": "Não há dados suficientes para determinar um favorito claro ou aplicar critérios de favoritismo.",
-        "lay_zebra": "Não há dados suficientes para determinar uma zebra clara ou aplicar critérios de Lay Zebra.",
-        "over_limite_70": "Os dados de 'Momento dos Gols' são inexistentes ou incompletos para ambas as equipes, impedindo a aplicação do método.",
-        "back_2x2": "Não há dados suficientes sobre índices de Over 2.5, Ambas Marcam ou Over HT para aplicar este método.",
-        "back_goleada": "Não há dados suficientes para avaliar favoritismo extremo ou desempenho ofensivo/defensivo.",
-        "lay_1x0": "Não há dados suficientes para calcular a probabilidade de 1-0, desempenho do visitante ou média de gols.",
-        "lay_0x1": "Não há dados suficientes para calcular a probabilidade de 0-1, desempenho do mandante ou média de gols."
+        "back_favorito": "Dados insuficientes no PDF.",
+        "lay_zebra": "Dados insuficientes no PDF.",
+        "over_limite_70": "Dados insuficientes no PDF.",
+        "back_2x2": "Dados insuficientes no PDF.",
+        "back_goleada": "Dados insuficientes no PDF.",
+        "lay_1x0": "Dados insuficientes no PDF.",
+        "lay_0x1": "Dados insuficientes no PDF.",
+        "confirmacao_visual": null
       }
     },
     {
-      "horario": "11:00",
-      "jogo": "Londrina x Athletic Club",
-      "liga": "Brazil Serie B",
-      "motivo": "Sem favoritismo claro e dados insuficientes para outros métodos.",
+      "horario": "14:00",
+      "jogo": "Netherlands x Sweden",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para aplicar qualquer método.",
       "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada de 60% para o Londrina, com odd mínima de 1.92. O Athletic Club tem um bom desempenho ofensivo fora de casa (1.50 gols/jogo), o que diminui a confiança no favoritismo puro.",
-        "lay_zebra": "A odd estimada para o Athletic Club não atinge o limiar de 5.00 para Lay Zebra.",
-        "over_limite_70": "Os dados de 'Momento dos Gols' para o Londrina mostram 0% de gols marcados entre 61-75 min e 0% de gols sofridos entre 0-15 min. Para o Athletic Club, os dados são mais promissores (22% marcados e 38% sofridos entre 61-75 min), mas a falta de um padrão claro em ambas as equipes impede a aplicação segura.",
-        "back_2x2": "O índice de Over 2.5 gols para o Londrina é de 50% e para o Athletic Club é de 50%. O índice de Ambas Marcam para o Londrina é de 100% e para o Athletic Club é de 100%. O índice de Over HT para o Londrina é de 50% e para o Athletic Club é de 50%. Os critérios não são atendidos.",
-        "back_goleada": "O favoritismo estimado para o Londrina não atinge o limiar de 70% para Back Goleada.",
-        "lay_1x0": "A probabilidade estimada de 1-0 é de 15%, acima do limiar de 12%. O visitante (Athletic Club) tem 50% de Over 0.5 gols, abaixo do limiar de 65%.",
-        "lay_0x1": "O mandante (Londrina) tem 50% de Over 0.5 gols, abaixo do limiar de 65%. A média de gols total é de 2.83, mas os outros critérios não são atendidos."
+        "back_favorito": "Dados insuficientes no PDF.",
+        "lay_zebra": "Dados insuficientes no PDF.",
+        "over_limite_70": "Dados insuficientes no PDF.",
+        "back_2x2": "Dados insuficientes no PDF.",
+        "back_goleada": "Dados insuficientes no PDF.",
+        "lay_1x0": "Dados insuficientes no PDF.",
+        "lay_0x1": "Dados insuficientes no PDF.",
+        "confirmacao_visual": null
+      }
+    },
+    {
+      "horario": "17:00",
+      "jogo": "Germany x Ivory Coast",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para aplicar qualquer método.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF.",
+        "lay_zebra": "Dados insuficientes no PDF.",
+        "over_limite_70": "Dados insuficientes no PDF.",
+        "back_2x2": "Dados insuficientes no PDF.",
+        "back_goleada": "Dados insuficientes no PDF.",
+        "lay_1x0": "Dados insuficientes no PDF.",
+        "lay_0x1": "Dados insuficientes no PDF.",
+        "confirmacao_visual": null
+      }
+    },
+    {
+      "horario": "19:00",
+      "jogo": "Vila Nova x Náutico",
+      "liga": "Brazil Serie B",
+      "motivo": "Sem padrão claro para os métodos de gols ou favoritismo definido.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Vila Nova) é 58% (precisa >= 65%).",
+        "lay_zebra": "Odd da zebra (Náutico) estimada em 2.50 (precisa >= 5.00).",
+        "over_limite_70": "Momento dos gols: Vila Nova (61-75: 30% Marcado, 0% Sofrido), Náutico (61-75: 17% Marcado, 22% Sofrido). Nenhuma das condições de >= 25% é atendida.",
+        "back_2x2": "Índice de Over 2.5 dos times: Vila Nova 50%, Náutico 43% (média 46.5%, precisa >= 60%).",
+        "back_goleada": "Probabilidade estimada de vitória do favorito (Vila Nova) é 58% (precisa >= 70%).",
+        "lay_1x0": "P(1-0) estimada é 15% (precisa < 12%).",
+        "lay_0x1": "P(0-1) estimada é 10% (precisa < 12%), mas mandante Over 0.5 é 67% (precisa > 65%), mandante marca pct é 67% (precisa > 60%), média gols total 2.50 (precisa >= 2.5), BTTS médio 57% (precisa > 50%). No entanto, a probabilidade estimada de 0-1 é alta demais.",
+        "confirmacao_visual": null
+      }
+    },
+    {
+      "horario": "19:00",
+      "jogo": "Ceará x Botafogo SP",
+      "liga": "Brazil Serie B",
+      "motivo": "Ceará tem forte desempenho ofensivo, mas Botafogo SP tem dificuldade em marcar.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Ceará) é 58% (precisa >= 65%).",
+        "lay_zebra": "Odd da zebra (Botafogo SP) estimada em 3.00 (precisa >= 5.00).",
+        "over_limite_70": "Momento dos gols: Ceará (46-60: 20% Marcado, 44% Sofrido), Botafogo SP (46-60: 33% Marcado, 17% Sofrido). Nenhuma das condições de >= 25% é atendida.",
+        "back_2x2": "Índice de Over 2.5 dos times: Ceará 57%, Botafogo SP 14% (média 35.5%, precisa >= 60%).",
+        "back_goleada": "Probabilidade estimada de vitória do favorito (Ceará) é 58% (precisa >= 70%).",
+        "lay_1x0": "P(1-0) estimada é 15% (precisa < 12%).",
+        "lay_0x1": "P(0-1) estimada é 10% (precisa < 12%), mas mandante Over 0.5 é 86% (precisa > 65%), mandante marca pct é 71% (precisa > 60%), média gols total 2.72 (precisa >= 2.5), BTTS médio 50% (precisa > 50%). No entanto, a probabilidade estimada de 0-1 é alta demais.",
+        "confirmacao_visual": null
       }
     },
     {
@@ -306,13 +169,14 @@
       "liga": "International World Cup",
       "motivo": "Dados insuficientes para aplicar qualquer método.",
       "motivos_por_metodo": {
-        "back_favorito": "Não há dados suficientes para determinar um favorito claro ou aplicar critérios de favoritismo.",
-        "lay_zebra": "Não há dados suficientes para determinar uma zebra clara ou aplicar critérios de Lay Zebra.",
-        "over_limite_70": "Os dados de 'Momento dos Gols' são inexistentes ou incompletos para ambas as equipes, impedindo a aplicação do método.",
-        "back_2x2": "Não há dados suficientes sobre índices de Over 2.5, Ambas Marcam ou Over HT para aplicar este método.",
-        "back_goleada": "Não há dados suficientes para avaliar favoritismo extremo ou desempenho ofensivo/defensivo.",
-        "lay_1x0": "Não há dados suficientes para calcular a probabilidade de 1-0, desempenho do visitante ou média de gols.",
-        "lay_0x1": "Não há dados suficientes para calcular a probabilidade de 0-1, desempenho do mandante ou média de gols."
+        "back_favorito": "Dados insuficientes no PDF.",
+        "lay_zebra": "Dados insuficientes no PDF.",
+        "over_limite_70": "Dados insuficientes no PDF.",
+        "back_2x2": "Dados insuficientes no PDF.",
+        "back_goleada": "Dados insuficientes no PDF.",
+        "lay_1x0": "Dados insuficientes no PDF.",
+        "lay_0x1": "Dados insuficientes no PDF.",
+        "confirmacao_visual": null
       }
     }
   ],
