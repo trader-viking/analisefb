@@ -5,7 +5,7 @@ import Link from 'next/link';
 import {
   ExternalLink, TrendingUp, Clock, Trophy, X, SlidersHorizontal, Radio,
 } from 'lucide-react';
-import { BadgeMetodo, metodosAtivos, metodosRankeados, METODOS_INFO, modoDoMetodo, razaoDoMetodo } from '@/components/BadgeMetodo';
+import { BadgeMetodo, metodosAtivos, metodosRankeados, METODOS_INFO, modoDoMetodo, razaoDoMetodo, confiancaDoMetodo } from '@/components/BadgeMetodo';
 import { ContextoTimesCompacto } from '@/components/ContextoTimes';
 import BotoesApostaMini from '@/components/BotoesApostaMini';
 import BotaoBaixarImagem from '@/components/BotaoBaixarImagem';
@@ -731,18 +731,22 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
         if (!principal) return null;
         const infoP = METODOS_INFO[principal];
         const razaoP = razaoDoMetodo(entrada, principal);
+        const confP = confiancaDoMetodo(entrada, principal);
 
         return (
           <>
             <div className={`rounded-lg border ${infoP?.cor_ring || 'ring-ink-300'} ${infoP?.cor_bg || 'bg-ink-50'} p-3 ring-1 ring-inset`}>
               <div className="flex items-center justify-between gap-2 mb-1.5">
-                <div className="flex items-center gap-1.5">
+                <div className="flex items-center gap-1.5 flex-wrap">
                   <span className="text-[10px] uppercase tracking-wider font-semibold text-ink-500">
                     Mercado principal
                   </span>
                   <span className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[11px] font-semibold ${infoP?.cor_text || 'text-ink-700'}`}>
                     {infoP?.icone}
                     {infoP?.label || principal}
+                    {confP !== null && (
+                      <span className="ml-1 opacity-75">· {confP}%</span>
+                    )}
                   </span>
                 </div>
                 {(entrada.odd_minima_entrada || entrada.odd_principal) && (
@@ -780,12 +784,16 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
                 {secundarios.map((m) => {
                   const info = METODOS_INFO[m];
                   const razao = razaoDoMetodo(entrada, m);
+                  const conf = confiancaDoMetodo(entrada, m);
                   return (
                     <div key={m} className="rounded-md border border-ink-200 dark:border-ink-800 bg-white/40 dark:bg-ink-900/30 px-2.5 py-1.5">
                       <div className="flex items-center gap-1.5 mb-0.5">
                         <span className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-semibold ${info?.cor_text || 'text-ink-700'}`}>
                           {info?.icone}
                           {info?.label || m}
+                          {conf !== null && (
+                            <span className="ml-1 opacity-75">· {conf}%</span>
+                          )}
                         </span>
                       </div>
                       {razao && (

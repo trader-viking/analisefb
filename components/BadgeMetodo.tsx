@@ -236,6 +236,53 @@ export function razaoDoMetodo(entrada: Entrada, metodo: string): string {
   return obj.razao || obj.justificativa || obj.motivo || obj.descricao || '';
 }
 
+// Calcula a % de confiança de cada método a partir da odd implícita do JSON
+// - BACK methods (vence se evento acontecer): confiança = 100 / odd
+// - LAY methods (vence se evento NÃO acontecer): confiança = 100 - 100/odd
+// Retorna número de 0-100, ou null se não conseguir calcular
+export function confiancaDoMetodo(entrada: Entrada, metodo: string): number | null {
+  const obj: any = (entrada as any)[metodo];
+  if (!obj) return null;
+
+  // Campos onde a odd costuma aparecer em cada método
+  const camposOdd: Record<string, string[]> = {
+    back_favorito: ['odd_minima_entrada', 'odd_esperada', 'odd_alvo'],
+    over_limite_70: ['odd_esperada', 'odd_minima_entrada', 'odd_alvo'],
+    back_2x2: ['odd_esperada', 'odd_minima_entrada', 'odd_alvo'],
+    back_goleada: ['odd_esperada', 'odd_minima_entrada', 'odd_alvo'],
+    lay_zebra: ['odd_zebra_alvo', 'odd_alvo', 'odd_esperada'],
+    lay_1x0: ['odd_alvo', 'odd_esperada'],
+    lay_0x1: ['odd_alvo', 'odd_esperada'],
+    confirmacao_visual: [],
+  };
+
+  const campos = camposOdd[metodo] || [];
+  let odd: number | null = null;
+  for (const campo of campos) {
+    const valor = obj[campo];
+    if (valor == null) continue;
+    // Aceita string "1.50" ou número 1.50, ou range "3.50 a 7.00" (pega o primeiro)
+    const match = String(valor).match(/(\d+([.,]\d+)?)/);
+    if (match) {
+      const parsed = parseFloat(match[1].replace(',', '.'));
+      if (parsed > 1) { odd = parsed; break; }
+    }
+  }
+
+  // Fallback: usa probabilidade_estimada da entrada (só pro método principal)
+  if (odd == null && entrada.probabilidade_estimada) {
+    const m = String(entrada.probabilidade_estimada).match(/(\d+([.,]\d+)?)/);
+    if (m) return Math.round(parseFloat(m[1].replace(',', '.')));
+  }
+
+  if (odd == null) return null;
+
+  // Métodos LAY ganham se evento NÃO acontecer → confiança alta com odd alta
+  const ehLay = metodo === 'lay_zebra' || metodo === 'lay_1x0' || metodo === 'lay_0x1';
+  const conf = ehLay ? (100 - 100 / odd) : (100 / odd);
+  return Math.max(0, Math.min(100, Math.round(conf)));
+}
+
 // Retorna os métodos ativos de uma entrada, ordenados pela regra de desempate.
 // O primeiro é o "principal" (vai ter destaque no card).
 export function metodosRankeados(entrada: Entrada): string[] {
