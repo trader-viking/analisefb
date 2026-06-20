@@ -103,8 +103,8 @@ export function metodosAtivos(entrada: Entrada): string[] {
     ['over_limite_70', entrada.over_limite_70],
     ['back_2x2', entrada.back_2x2],
     ['back_goleada', entrada.back_goleada],
-    ['over_golos', entrada.over_golos],
-    ['mercado_gols', entrada.mercado_gols],
+    ['lay_1x0', (entrada as any).lay_1x0],
+    ['lay_0x1', (entrada as any).lay_0x1],
     ['confirmacao_visual', entrada.confirmacao_visual],
   ];
   for (const [key, val] of checks) {
@@ -215,28 +215,34 @@ function parseStake(valor: unknown): number {
   return parseFloat(m[1].replace(',', '.'));
 }
 
-// Ordem fixa de desempate (prioridade quando stake é igual)
+// Ordem da regra de desempate (maior número = maior prioridade)
+// Back Favorito > Over Limite > Back 2x2 > Lay Zebra > Lay 1×0 > Lay 0×1 > Back Goleada
 const ORDEM_FIXA: Record<string, number> = {
-  back_favorito: 7,
-  over_limite_70: 6,
-  over_golos: 5,
-  mercado_gols: 5,
-  back_2x2: 4,
-  lay_zebra: 3,
+  back_favorito: 8,
+  over_limite_70: 7,
+  back_2x2: 6,
+  lay_zebra: 5,
+  lay_1x0: 4,
+  lay_0x1: 3,
   back_goleada: 2,
   confirmacao_visual: 1,
 };
 
-// Retorna os métodos ativos de uma entrada, ordenados por confiança (maior primeiro).
-// Usa a stake recomendada como proxy de confiança; desempata pela ordem fixa.
+// Retorna a razão (motivo) escrita pelo Gemini pra um método específico
+export function razaoDoMetodo(entrada: Entrada, metodo: string): string {
+  const obj: any = (entrada as any)[metodo];
+  if (!obj) return '';
+  // Tenta os campos mais comuns onde o Gemini coloca a justificativa
+  return obj.razao || obj.justificativa || obj.motivo || obj.descricao || '';
+}
+
+// Retorna os métodos ativos de uma entrada, ordenados pela regra de desempate.
+// O primeiro é o "principal" (vai ter destaque no card).
 export function metodosRankeados(entrada: Entrada): string[] {
   const ativos = metodosAtivos(entrada);
+  // Confirmação Visual nunca é principal — fica sempre por último
   return ativos
-    .map((key) => {
-      const obj = (entrada as any)[key] || {};
-      const stake = parseStake(obj.stake_recomendada);
-      return { key, stake, ordem: ORDEM_FIXA[key] || 0 };
-    })
-    .sort((a, b) => (b.stake - a.stake) || (b.ordem - a.ordem))
+    .map((key) => ({ key, ordem: ORDEM_FIXA[key] || 0 }))
+    .sort((a, b) => b.ordem - a.ordem)
     .map((x) => x.key);
 }

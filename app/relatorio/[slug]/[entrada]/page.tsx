@@ -92,6 +92,7 @@ export default function EntradaPage({
           data={(relatorio.slug.match(/^(\d{4}-\d{2}-\d{2})/) || [])[1] || ''}
           jaFinalizado={(entrada as any)._finalizado_manualmente}
           placarAtual={(entrada as any)._placar}
+          temOverLimite={!!(entrada.over_limite_70 && (entrada.over_limite_70 as any).aplicavel)}
           variante="completo"
         />
       </div>

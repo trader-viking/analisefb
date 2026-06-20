@@ -9,6 +9,7 @@ interface BotaoFinalizarProps {
   jaFinalizado?: boolean;
   placarAtual?: string;
   variante?: 'icone' | 'completo';
+  temOverLimite?: boolean;
   onFinalizado?: () => void;
 }
 
@@ -18,11 +19,15 @@ export default function BotaoFinalizar({
   jaFinalizado = false,
   placarAtual = '',
   variante = 'completo',
+  temOverLimite = false,
   onFinalizado,
 }: BotaoFinalizarProps) {
   const [aberto, setAberto] = useState(false);
   const [placarCasa, setPlacarCasa] = useState('');
   const [placarFora, setPlacarFora] = useState('');
+  // Placar no momento da entrada (só p/ Over Limite +1 — define a linha real apostada)
+  const [placarEntradaCasa, setPlacarEntradaCasa] = useState('');
+  const [placarEntradaFora, setPlacarEntradaFora] = useState('');
   const [minutoGol, setMinutoGol] = useState('');
   const [observacao, setObservacao] = useState('');
   const [enviando, setEnviando] = useState(false);
@@ -48,6 +53,8 @@ export default function BotaoFinalizar({
     setAberto(false);
     setPlacarCasa('');
     setPlacarFora('');
+    setPlacarEntradaCasa('');
+    setPlacarEntradaFora('');
     setMinutoGol('');
     setObservacao('');
     setErro('');
@@ -64,6 +71,12 @@ export default function BotaoFinalizar({
     if (isNaN(pf) || pf < 0 || pf > 20) { setErro('Placar da fora inválido (0-20)'); return; }
 
     setEnviando(true);
+    // Placar de entrada (opcional, só pra Over Limite +1)
+    const pec = placarEntradaCasa.trim() === '' ? null : parseInt(placarEntradaCasa, 10);
+    const pef = placarEntradaFora.trim() === '' ? null : parseInt(placarEntradaFora, 10);
+    if (pec !== null && (isNaN(pec) || pec < 0 || pec > 20)) { setErro('Placar de entrada (casa) inválido'); setEnviando(false); return; }
+    if (pef !== null && (isNaN(pef) || pef < 0 || pef > 20)) { setErro('Placar de entrada (fora) inválido'); setEnviando(false); return; }
+
     try {
       const apiUrl = process.env.NEXT_PUBLIC_API_URL || '';
       const res = await fetch(`${apiUrl}/finalizar`, {
@@ -74,6 +87,8 @@ export default function BotaoFinalizar({
           jogo,
           placar_casa: pc,
           placar_fora: pf,
+          placar_entrada_casa: pec,
+          placar_entrada_fora: pef,
           minuto_gol: minutoGol.trim(),
           observacao: observacao.trim(),
         }),
@@ -174,6 +189,38 @@ export default function BotaoFinalizar({
                     />
                   </div>
                 </div>
+
+                {temOverLimite && (
+                  <div className="rounded-md bg-purple-50 dark:bg-purple-950/30 border border-purple-200 dark:border-purple-900 p-3">
+                    <label className="block text-xs font-medium text-purple-900 dark:text-purple-300 mb-1.5">
+                      Placar no momento da entrada <span className="text-purple-500 dark:text-purple-400">(p/ Over Limite)</span>
+                    </label>
+                    <div className="flex items-center gap-2">
+                      <input
+                        type="number"
+                        min="0" max="20"
+                        value={placarEntradaCasa}
+                        onChange={(e) => setPlacarEntradaCasa(e.target.value)}
+                        placeholder="Casa"
+                        disabled={enviando}
+                        className="w-16 px-2 py-1.5 text-center font-semibold rounded border border-purple-300 dark:border-purple-800 bg-white dark:bg-ink-950 focus:outline-none focus:ring-2 focus:ring-purple-500 disabled:opacity-50"
+                      />
+                      <span className="text-purple-500 font-bold">x</span>
+                      <input
+                        type="number"
+                        min="0" max="20"
+                        value={placarEntradaFora}
+                        onChange={(e) => setPlacarEntradaFora(e.target.value)}
+                        placeholder="Fora"
+                        disabled={enviando}
+                        className="w-16 px-2 py-1.5 text-center font-semibold rounded border border-purple-300 dark:border-purple-800 bg-white dark:bg-ink-950 focus:outline-none focus:ring-2 focus:ring-purple-500 disabled:opacity-50"
+                      />
+                    </div>
+                    <p className="text-[11px] text-purple-700 dark:text-purple-400 mt-1.5 leading-snug">
+                      Ex: entrou em 1-0 → linha será Over 1.5. Entrou em 2-1 → Over 3.5. Deixe vazio se não souber.
+                    </p>
+                  </div>
+                )}
 
                 <div>
                   <label className="block text-xs font-medium text-ink-600 dark:text-ink-400 mb-1.5">

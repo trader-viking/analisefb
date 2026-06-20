@@ -23,6 +23,8 @@ const METODOS = [
   'Over Limite (+1 gol)',
   'Back 2x2',
   'Back Goleada',
+  'Lay 1×0',
+  'Lay 0×1',
   'Confirmação Visual',
   'Outro',
 ];

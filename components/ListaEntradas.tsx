@@ -5,7 +5,7 @@ import Link from 'next/link';
 import {
   ExternalLink, TrendingUp, Clock, Trophy, X, SlidersHorizontal, Radio,
 } from 'lucide-react';
-import { BadgeMetodo, metodosAtivos, metodosRankeados, METODOS_INFO, modoDoMetodo } from '@/components/BadgeMetodo';
+import { BadgeMetodo, metodosAtivos, metodosRankeados, METODOS_INFO, modoDoMetodo, razaoDoMetodo } from '@/components/BadgeMetodo';
 import { ContextoTimesCompacto } from '@/components/ContextoTimes';
 import BotoesApostaMini from '@/components/BotoesApostaMini';
 import BotaoBaixarImagem from '@/components/BotaoBaixarImagem';
@@ -693,6 +693,7 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
             data={(relatorioSlug.match(/^(\d{4}-\d{2}-\d{2})/) || [])[1] || ''}
             jaFinalizado={(entrada as any)._finalizado_manualmente}
             placarAtual={(entrada as any)._placar}
+            temOverLimite={!!(entrada.over_limite_70 && (entrada.over_limite_70 as any).aplicavel)}
             variante="icone"
           />
         </span>
@@ -709,6 +710,7 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
 
       <ContextoTimesCompacto jogo={entrada.jogo} contexto={entrada.contexto_times} />
 
+      {/* Lista compacta de badges (todos os métodos aplicáveis) */}
       {mAtivos.length > 0 && (
         <div className="flex flex-wrap gap-1">
           {mAtivos.map(m => (
@@ -717,28 +719,88 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
         </div>
       )}
 
-      <div className="text-sm">
-        <div className="text-ink-500 text-xs uppercase tracking-wider mb-0.5">
-          Mercado principal
-        </div>
-        <div className="flex items-baseline gap-2">
-          <span className="font-medium">{entrada.mercado_principal}</span>
-          {(entrada.odd_minima_entrada || entrada.odd_principal) && (
-            <span className="ml-auto text-right">
-              <span className="block text-[9px] uppercase tracking-wider text-ink-400 leading-none">Odd mín.</span>
-              <span className="font-bold text-emerald-600 dark:text-emerald-400 tabular-nums">
-                {entrada.odd_minima_entrada || entrada.odd_principal}
-              </span>
-            </span>
-          )}
-        </div>
-        {entrada.probabilidade_estimada && (
-          <div className="text-[11px] text-ink-400 mt-1">
-            Prob. estimada {entrada.probabilidade_estimada}
-            {entrada.fair_odd && ` · fair ${entrada.fair_odd}`}
-          </div>
-        )}
-      </div>
+      {/* PRINCIPAL — destaque grande, fundo colorido pela cor do método */}
+      {(() => {
+        const rank = metodosRankeados(entrada);
+        // Remove "confirmacao_visual" do ranking principal/secundário
+        // (sempre fica como acessório, não como mercado principal)
+        const principais = rank.filter(m => m !== 'confirmacao_visual');
+        const principal = principais[0];
+        const secundarios = principais.slice(1, 3); // máx 2 secundários
+
+        if (!principal) return null;
+        const infoP = METODOS_INFO[principal];
+        const razaoP = razaoDoMetodo(entrada, principal);
+
+        return (
+          <>
+            <div className={`rounded-lg border ${infoP?.cor_ring || 'ring-ink-300'} ${infoP?.cor_bg || 'bg-ink-50'} p-3 ring-1 ring-inset`}>
+              <div className="flex items-center justify-between gap-2 mb-1.5">
+                <div className="flex items-center gap-1.5">
+                  <span className="text-[10px] uppercase tracking-wider font-semibold text-ink-500">
+                    Mercado principal
+                  </span>
+                  <span className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[11px] font-semibold ${infoP?.cor_text || 'text-ink-700'}`}>
+                    {infoP?.icone}
+                    {infoP?.label || principal}
+                  </span>
+                </div>
+                {(entrada.odd_minima_entrada || entrada.odd_principal) && (
+                  <span className="text-right shrink-0">
+                    <span className="block text-[9px] uppercase tracking-wider text-ink-400 leading-none">Odd mín.</span>
+                    <span className="font-bold text-emerald-600 dark:text-emerald-400 tabular-nums">
+                      {entrada.odd_minima_entrada || entrada.odd_principal}
+                    </span>
+                  </span>
+                )}
+              </div>
+              <div className="text-sm font-medium text-ink-800 dark:text-ink-200 mb-1">
+                {entrada.mercado_principal}
+              </div>
+              {razaoP && (
+                <div className="text-[11px] leading-relaxed text-ink-700 dark:text-ink-300">
+                  {razaoP}
+                </div>
+              )}
+              {entrada.probabilidade_estimada && (
+                <div className="text-[10px] text-ink-500 mt-1.5">
+                  Prob. estimada {entrada.probabilidade_estimada}
+                  {entrada.fair_odd && ` · fair ${entrada.fair_odd}`}
+                </div>
+              )}
+            </div>
+
+            {/* SECUNDÁRIOS — até 2, mais discretos */}
+            {secundarios.length > 0 && (
+              <div className="space-y-1.5">
+                <div className="text-[10px] uppercase tracking-wider text-ink-500 font-semibold flex items-center gap-1">
+                  <span>Secundário{secundarios.length > 1 ? 's' : ''}</span>
+                  <span className="text-ink-400">· {secundarios.length}</span>
+                </div>
+                {secundarios.map((m) => {
+                  const info = METODOS_INFO[m];
+                  const razao = razaoDoMetodo(entrada, m);
+                  return (
+                    <div key={m} className="rounded-md border border-ink-200 dark:border-ink-800 bg-white/40 dark:bg-ink-900/30 px-2.5 py-1.5">
+                      <div className="flex items-center gap-1.5 mb-0.5">
+                        <span className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-semibold ${info?.cor_text || 'text-ink-700'}`}>
+                          {info?.icone}
+                          {info?.label || m}
+                        </span>
+                      </div>
+                      {razao && (
+                        <div className="text-[11px] leading-snug text-ink-600 dark:text-ink-400">
+                          {razao}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </>
+        );
+      })()}
 
       {entrada.explicacao_curta && (
         <div className="text-xs leading-relaxed text-ink-700 dark:text-ink-300 bg-ink-50 dark:bg-ink-900/40 rounded-md px-3 py-2 border border-ink-200/60 dark:border-ink-800">
