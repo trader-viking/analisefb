@@ -1,0 +1,221 @@
+{
+  "data": "2026-06-20",
+  "dia_consultado": "hoje",
+  "gerado_em": "2026-06-20T12:32:02.473807",
+  "total_partidas_analisadas": 7,
+  "entradas": [
+    {
+      "horario": "11:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Londrina x Athletic Club",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Londrina",
+      "probabilidade_estimada": "55% (Londrina tem melhor aproveitamento em casa e Athletic Club tem pior desempenho fora)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "explicacao_curta": "Londrina joga em casa com melhor aproveitamento e enfrenta um Athletic Club com desempenho fraco fora de casa.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 55% para a vitória do Londrina, com fair odd de 1.82. A odd mínima de entrada é 2.09.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Londrina: 17% Venceu, 67% Empatou, 17% Perdeu. Athletic Club: 33% Venceu, 50% Empatou, 17% Perdeu.",
+      "desempenho_2t": "Londrina: 17% Venceu, 50% Empatou, 33% Perdeu. Athletic Club: 17% Venceu, 50% Empatou, 33% Perdeu.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "7",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "14",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Londrina é o 7º colocado com 1.50 pontos por jogo, enquanto o Athletic Club é o 14º com 1.50 pontos por jogo. O Londrina tem um aproveitamento melhor em casa (1.50 pontos/jogo) comparado ao desempenho fora do Athletic Club (1.33 pontos/jogo).",
+      "coeficiente_regularidade": "Londrina: CV moderado. Athletic Club: CV moderado.",
+      "mando_de_campo": "Londrina faz 70% dos pontos em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Londrina: 1.17 gols marcados/jogo. Athletic Club: 1.50 gols marcados/jogo.",
+      "momento_gols": "Londrina: Gols concentrados entre 31-45 e 76-90. Athletic Club: Gols concentrados entre 61-75 e 76-90.",
+      "jogadores_chave": [
+        "Bruno Santos de Oliveira",
+        "Ronaldo Rodrigues Tavares"
+      ],
+      "placares_provaveis": "2x1, 1x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo baseado em dados de aproveitamento e desempenho.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "modo": "pre_jogo",
+        "favorito": "Londrina",
+        "odd_alvo": "2.09",
+        "razao": "Londrina tem melhor aproveitamento em casa e enfrenta um adversário com desempenho fraco fora.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "razao": "Over 2.5 média de 50% para Athletic Club e 67% para Londrina. Ambas marcam 100% para Athletic Club e 67% para Londrina. Over HT 50% para Londrina e 33% para Athletic Club. Defesa do Londrina sofre 1.67 gols/jogo, Athletic Club sofre 1.33 gols/jogo.",
+        "indice_over_2_5": "Londrina: 67%, Athletic Club: 50%",
+        "indice_ambas_marcam": "Londrina: 67%, Athletic Club: 100%",
+        "indice_over_ht": "Londrina: 50%, Athletic Club: 33%",
+        "modo": "pre_jogo",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "00:00",
+      "jogo": "Turkey x Paraguay",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para aplicar qualquer método.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF.",
+        "lay_zebra": "Dados insuficientes no PDF.",
+        "over_limite_70": "Dados insuficientes no PDF.",
+        "back_2x2": "Dados insuficientes no PDF.",
+        "back_goleada": "Dados insuficientes no PDF."
+      }
+    },
+    {
+      "horario": "14:00",
+      "jogo": "Netherlands x Sweden",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para aplicar qualquer método.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF.",
+        "lay_zebra": "Dados insuficientes no PDF.",
+        "over_limite_70": "Dados insuficientes no PDF.",
+        "back_2x2": "Dados insuficientes no PDF.",
+        "back_goleada": "Dados insuficientes no PDF."
+      }
+    },
+    {
+      "horario": "17:00",
+      "jogo": "Germany x Ivory Coast",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para aplicar qualquer método.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF.",
+        "lay_zebra": "Dados insuficientes no PDF.",
+        "over_limite_70": "Dados insuficientes no PDF.",
+        "back_2x2": "Dados insuficientes no PDF.",
+        "back_goleada": "Dados insuficientes no PDF."
+      }
+    },
+    {
+      "horario": "19:00",
+      "jogo": "Vila Nova x Náutico",
+      "liga": "Brazil Serie B",
+      "motivo": "Jogo equilibrado com ambos os times apresentando bom desempenho.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do Vila Nova é 60% (2.33 pontos/jogo vs 1.57 pontos/jogo), mas a odd mínima de entrada seria 2.09, o que não oferece valor suficiente.",
+        "lay_zebra": "A odd da zebra (Náutico) não é alta o suficiente para justificar o lay.",
+        "over_limite_70": "Os dados de momento dos gols não indicam um padrão claro para gols nos últimos 30 minutos de jogo para ambos os times.",
+        "back_2x2": "O índice de Over 2.5 gols é de 50% para Vila Nova e 43% para Náutico, abaixo do limiar de 60%.",
+        "back_goleada": "O favoritismo do Vila Nova não é extremo (probabilidade estimada de 60%), e a média de gols marcados do Vila Nova (1.67) e do Náutico (1.71) não justificam uma goleada."
+      }
+    },
+    {
+      "horario": "19:00",
+      "jogo": "Ceará x Botafogo SP",
+      "liga": "Brazil Serie B",
+      "motivo": "Ceará tem forte desempenho ofensivo em casa, mas Botafogo SP tem defesa sólida fora.",
+      "motivos_por_metodo": {
+        "back_favorito": "Ceará tem um aproveitamento de 1.57 pontos por jogo e Botafogo SP tem 0.71. A probabilidade estimada para o Ceará é de 65%, com odd mínima de 2.09. O Ceará tem média de 1.43 gols marcados e Botafogo SP sofre 0.86 gols/jogo. O Ceará tem um bom desempenho ofensivo em casa.",
+        "lay_zebra": "A odd da zebra (Botafogo SP) não é alta o suficiente para justificar o lay.",
+        "over_limite_70": "Os dados de momento dos gols não indicam um padrão claro para gols nos últimos 30 minutos de jogo para ambos os times.",
+        "back_2x2": "O índice de Over 2.5 gols é de 57% para Ceará e 14% para Botafogo SP, abaixo do limiar de 60%.",
+        "back_goleada": "O favoritismo do Ceará não é extremo (probabilidade estimada de 65%), e a média de gols marcados do Ceará (1.43) e do Botafogo SP (0.43) não justificam uma goleada."
+      }
+    },
+    {
+      "horario": "21:00",
+      "jogo": "Ecuador x Curaçao",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para aplicar qualquer método.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF.",
+        "lay_zebra": "Dados insuficientes no PDF.",
+        "over_limite_70": "Dados insuficientes no PDF.",
+        "back_2x2": "Dados insuficientes no PDF.",
+        "back_goleada": "Dados insuficientes no PDF."
+      }
+    }
+  ],
+  "pdfs": [
+    {
+      "jogo": "Londrina x Athletic Club",
+      "arquivo": "pdfs/2026-06-20/Brazil_Serie_B/001_11h00_Londrina_x_Athletic_Club.pdf"
+    },
+    {
+      "jogo": "Vila Nova x Náutico",
+      "arquivo": "pdfs/2026-06-20/Brazil_Serie_B/002_19h00_Vila_Nova_x_Náutico.pdf"
+    },
+    {
+      "jogo": "Ceará x Botafogo SP",
+      "arquivo": "pdfs/2026-06-20/Brazil_Serie_B/003_19h00_Ceará_x_Botafogo_SP.pdf"
+    },
+    {
+      "jogo": "Turkey x Paraguay",
+      "arquivo": "pdfs/2026-06-20/International_World_Cup/004_00h00_Turkey_x_Paraguay.pdf"
+    },
+    {
+      "jogo": "Netherlands x Sweden",
+      "arquivo": "pdfs/2026-06-20/International_World_Cup/005_14h00_Netherlands_x_Sweden.pdf"
+    },
+    {
+      "jogo": "Germany x Ivory Coast",
+      "arquivo": "pdfs/2026-06-20/International_World_Cup/006_17h00_Germany_x_Ivory_Coast.pdf"
+    },
+    {
+      "jogo": "Ecuador x Curaçao",
+      "arquivo": "pdfs/2026-06-20/International_World_Cup/007_21h00_Ecuador_x_Curaçao.pdf"
+    }
+  ]
+}
