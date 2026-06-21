@@ -1,7 +1,7 @@
 {
   "data": "2026-06-21",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-06-21T13:47:33.471969",
+  "gerado_em": "2026-06-21T14:29:56.183031",
   "fonte": "radaresportivo.com",
   "total_jogos_analisados": 41,
   "entradas": [
@@ -18,13 +18,13 @@
       "odd_minima_entrada": "2.09",
       "media_gols_casa": "1.60",
       "media_gols_fora": "1.50",
-      "explicacao_curta": "Sao Bernardo SP é favorito com 55% de chance de vitória, jogando em casa e com bom aproveitamento.",
+      "explicacao_curta": "Sao Bernardo SP em boa fase, invicto há 10 jogos e com bom aproveitamento em casa. Juventude vem oscilando.",
       "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 55% resulta em uma fair odd de 1.82. A odd mínima de entrada é 2.09, buscando valor.",
+      "valor_esperado": "Probabilidade estimada de 55% para o favorito, com fair odd de 1.82. Odd mínima de entrada de 2.09.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Sao Bernardo SP marcou 0.50 gols no 1ºT",
-      "desempenho_2t": "EC Juventude sofreu 0.90 gols no 2ºT",
+      "desempenho_1t": "Sao Bernardo SP: 0.50 gols marcados, 0.30 sofridos. EC Juventude: 0.40 gols marcados, 0.60 sofridos.",
+      "desempenho_2t": "Sao Bernardo SP: 1.10 gols marcados, 0.50 sofridos. EC Juventude: 1.10 gols marcados, 0.30 sofridos.",
       "contexto_times": {
         "casa": {
           "posicao": "2º",
@@ -35,13 +35,13 @@
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Sao Bernardo SP está em 2º lugar na tabela, brigando pelo título, enquanto EC Juventude está em 8º, em uma posição mais confortável. O São Bernardo tem um aproveitamento de 50% de vitórias em casa e marcou 1.60 gols por jogo, contra 1.50 do Juventude fora de casa. A probabilidade estimada de vitória do mandante é de 55%.",
-      "coeficiente_regularidade": "Sao Bernardo SP: CV baixo | EC Juventude: CV moderado",
-      "mando_de_campo": "Sao Bernardo SP faz 50% dos pontos em casa",
+      "motivacao_tecnica": "Sao Bernardo SP está em 2º lugar na tabela, brigando pelo título, com um aproveitamento de 2.00 pontos por jogo. EC Juventude está em 8º lugar, com 1.50 pontos por jogo, em uma posição mais intermediária.",
+      "coeficiente_regularidade": "Sao Bernardo SP: CV baixo (1.60 gols marcados / 0.80 sofridos). EC Juventude: CV moderado (1.50 gols marcados / 0.90 sofridos).",
+      "mando_de_campo": "Sao Bernardo SP: 7 de 13 jogos vencidos em casa (53.8%).",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Sao Bernardo SP marca mais no 2º tempo (1.10 gols), Juventude marca mais no 2º tempo (1.10 gols)",
-      "momento_gols": "Sao Bernardo SP: 61-75 (1 gol), 76-90 (6 gols). Juventude: 61-75 (0 gol), 76-90 (6 gols).",
+      "especificidades_gols": "Sao Bernardo SP marca mais na segunda etapa. Juventude também marca mais na segunda etapa.",
+      "momento_gols": "Sao Bernardo SP: 61-75 (1 gol), 76-90 (6 gols). EC Juventude: 61-75 (0 gol), 76-90 (6 gols).",
       "jogadores_chave": null,
       "placares_provaveis": null,
       "momento_entrada": "pre_jogo",
@@ -49,23 +49,23 @@
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro e dados consistentes.",
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
       "back_favorito": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_>=_55%",
-          "em_casa",
-          "adversario_<_40%",
+          "prob_estimada_>=_55%",
+          "favorito_em_casa",
+          "adversario_com_menos_pontos_por_jogo",
           "liga_permitida"
         ],
         "criterios_total": 4,
         "modo": "pre_jogo",
         "favorito": "Sao Bernardo SP",
         "odd_alvo": "2.09",
-        "razao": "Sao Bernardo SP é favorito em casa contra um adversário com aproveitamento inferior.",
+        "razao": "Sao Bernardo SP é favorito com 55% de probabilidade estimada, jogando em casa e contra um adversário com menor média de pontos.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -80,23 +80,100 @@
     {
       "horario": "11:00",
       "liga": "Brazil Serie B",
+      "jogo": "Sao Bernardo SP x EC Juventude",
+      "metodos_aplicados": [
+        "lay_1x0"
+      ],
+      "mercado_principal": "Vitória Sao Bernardo SP",
+      "probabilidade_estimada": "55%",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "media_gols_casa": "1.60",
+      "media_gols_fora": "1.50",
+      "explicacao_curta": "Jogo com média de gols alta e ambos marcam frequente, tornando o placar exato 1x0 improvável.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 55% para o favorito, com fair odd de 1.82. Odd mínima de entrada de 2.09.",
+      "mercado_secundario": "Lay 1x0",
+      "odd_minima_secundaria": "9.00",
+      "desempenho_1t": "Sao Bernardo SP: 0.50 gols marcados, 0.30 sofridos. EC Juventude: 0.40 gols marcados, 0.60 sofridos.",
+      "desempenho_2t": "Sao Bernardo SP: 1.10 gols marcados, 0.50 sofridos. EC Juventude: 1.10 gols marcados, 0.30 sofridos.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "2º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "8º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Sao Bernardo SP está em 2º lugar na tabela, brigando pelo título, com um aproveitamento de 2.00 pontos por jogo. EC Juventude está em 8º lugar, com 1.50 pontos por jogo, em uma posição mais intermediária.",
+      "coeficiente_regularidade": "Sao Bernardo SP: CV baixo (1.60 gols marcados / 0.80 sofridos). EC Juventude: CV moderado (1.50 gols marcados / 0.90 sofridos).",
+      "mando_de_campo": "Sao Bernardo SP: 7 de 13 jogos vencidos em casa (53.8%).",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Sao Bernardo SP marca mais na segunda etapa. Juventude também marca mais na segunda etapa.",
+      "momento_gols": "Sao Bernardo SP: 61-75 (1 gol), 76-90 (6 gols). EC Juventude: 61-75 (0 gol), 76-90 (6 gols).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com potencial ofensivo e ambos marcam frequente, tornando 1x0 improvável.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "70%",
+        "visitante_marca_pct": "60%",
+        "media_gols_total": "3.10",
+        "btts_medio": "55%",
+        "razao": "Jogo com média de gols alta (3.10) e ambos marcam frequente (55%), tornando o placar exato 1x0 improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "11:00",
+      "liga": "Brazil Serie B",
       "jogo": "Avai x Cuiaba",
       "metodos_aplicados": [
-        "lay_zebra"
+        "lay_0x1"
       ],
-      "mercado_principal": "Lay Avai",
-      "probabilidade_estimada": "20%",
-      "fair_odd": "5.00",
-      "odd_minima_entrada": "5.75",
+      "mercado_principal": "Vitória Sao Bernardo SP",
+      "probabilidade_estimada": "45%",
+      "fair_odd": "2.22",
+      "odd_minima_entrada": "2.55",
       "media_gols_casa": "1.20",
       "media_gols_fora": "0.90",
-      "explicacao_curta": "Avai em má fase (20% vitórias) contra Cuiaba com bom aproveitamento (40% vitórias). Lay na zebra.",
+      "explicacao_curta": "Jogo com média de gols baixa e ambos marcam pouco, aumentando a probabilidade de placares como 0x1.",
       "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 20% para a zebra (Avai) resulta em uma fair odd de 5.00. A odd mínima de entrada é 5.75.",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": "Avai marcou 0.60 gols no 1ºT",
-      "desempenho_2t": "Cuiaba sofreu 0.80 gols no 2ºT",
+      "valor_esperado": "Probabilidade estimada de 45% para o favorito, com fair odd de 2.22. Odd mínima de entrada de 2.55.",
+      "mercado_secundario": "Lay 0x1",
+      "odd_minima_secundaria": "9.00",
+      "desempenho_1t": "Avai: 0.60 gols marcados, 0.80 sofridos. Cuiaba: 0.40 gols marcados, 0.30 sofridos.",
+      "desempenho_2t": "Avai: 0.60 gols marcados, 0.80 sofridos. Cuiaba: 0.50 gols marcados, 0.50 sofridos.",
       "contexto_times": {
         "casa": {
           "posicao": "18º",
@@ -107,46 +184,51 @@
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Avai está na zona de rebaixamento (18º), com apenas 20% de vitórias e uma sequência de 8 jogos sem perder. Cuiaba está em 10º, com 40% de vitórias e uma sequência de 8 jogos sem perder. O Avai tem média de 1.20 gols marcados e 1.60 sofridos, enquanto Cuiaba tem 0.90 marcados e 0.80 sofridos. A probabilidade estimada de vitória da zebra (Avai) é de 20%.",
-      "coeficiente_regularidade": "Avai: CV alto | Cuiaba: CV baixo",
-      "mando_de_campo": "Avai faz 20% dos pontos em casa",
+      "motivacao_tecnica": "Avai está em 18º lugar, lutando contra o rebaixamento. Cuiaba está em 10º lugar, em uma posição mais intermediária.",
+      "coeficiente_regularidade": "Avai: CV alto (1.20 gols marcados / 1.60 sofridos). Cuiaba: CV moderado (0.90 gols marcados / 0.80 sofridos).",
+      "mando_de_campo": "Avai: 2 de 13 jogos vencidos em casa (15.4%).",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Avai marca mais no 2º tempo (0.60 gols), Cuiaba marca mais no 2º tempo (0.50 gols)",
+      "especificidades_gols": "Avai marca pouco e sofre muitos gols. Cuiaba tem ataque e defesa mais equilibrados.",
       "momento_gols": "Avai: 61-75 (1 gol), 76-90 (1 gol). Cuiaba: 61-75 (1 gol), 76-90 (2 gols).",
       "jogadores_chave": null,
       "placares_provaveis": null,
       "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
+      "situacao_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Zebra em má fase e com odd alta.",
+        "justificativa_abordagem": "Jogo com baixa média de gols e pouca capacidade ofensiva de ambos os times.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
       "back_favorito": null,
-      "lay_zebra": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "odd_zebra_>=_5.00",
-          "desempenho_ruim",
-          "liga_permitida"
-        ],
-        "criterios_total": 3,
-        "modo": "pre_jogo",
-        "zebra": "Avai",
-        "favorito_do_jogo": "Cuiaba",
-        "odd_zebra_alvo": "5.75",
-        "razao": "Avai está em má fase, com apenas 20% de vitórias nos últimos 10 jogos e na zona de rebaixamento.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
-      },
+      "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
       "lay_1x0": null,
-      "lay_0x1": null,
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "11%",
+        "mandante_over_0_5": "60%",
+        "mandante_marca_pct": "40%",
+        "media_gols_total": "2.10",
+        "btts_medio": "45%",
+        "razao": "Jogo com baixa média de gols (2.10) e pouca capacidade ofensiva de ambos os times, aumentando a probabilidade de placares como 0x1.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
       "confirmacao_visual": null
     },
     {
@@ -157,18 +239,18 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória CRB",
-      "probabilidade_estimada": "50%",
-      "fair_odd": "2.00",
-      "odd_minima_entrada": "2.30",
+      "probabilidade_estimada": "52%",
+      "fair_odd": "1.92",
+      "odd_minima_entrada": "2.21",
       "media_gols_casa": "2.00",
       "media_gols_fora": "1.00",
-      "explicacao_curta": "CRB em boa fase (50% vitórias) contra Fortaleza com aproveitamento inferior (30% vitórias).",
+      "explicacao_curta": "CRB em boa fase ofensiva jogando em casa contra um Fortaleza que vem de derrotas.",
       "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 50% resulta em uma fair odd de 2.00. A odd mínima de entrada é 2.30, buscando valor.",
+      "valor_esperado": "Probabilidade estimada de 52% para o favorito, com fair odd de 1.92. Odd mínima de entrada de 2.21.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "CRB marcou 1.10 gols no 1ºT",
-      "desempenho_2t": "Fortaleza sofreu 0.90 gols no 2ºT",
+      "desempenho_1t": "CRB: 1.10 gols marcados, 0.80 sofridos. Fortaleza: 0.50 gols marcados, 0.30 sofridos.",
+      "desempenho_2t": "CRB: 0.90 gols marcados, 0.70 sofridos. Fortaleza: 0.50 gols marcados, 0.90 sofridos.",
       "contexto_times": {
         "casa": {
           "posicao": "16º",
@@ -179,12 +261,12 @@
           "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "CRB está em 16º, lutando contra o rebaixamento, com 50% de vitórias nos últimos 10 jogos e média de 2.00 gols marcados. Fortaleza está em 4º, buscando vaga na Libertadores, mas vem de 3 derrotas seguidas e tem média de 1.00 gol marcado. A probabilidade estimada de vitória do CRB é de 50%.",
-      "coeficiente_regularidade": "CRB: CV baixo | Fortaleza: CV alto",
-      "mando_de_campo": "CRB faz 50% dos pontos em casa",
+      "motivacao_tecnica": "CRB está em 16º lugar, lutando contra o rebaixamento. Fortaleza está em 4º lugar, buscando vaga na Libertadores.",
+      "coeficiente_regularidade": "CRB: CV moderado (2.00 gols marcados / 1.50 sofridos). Fortaleza: CV moderado (1.00 gols marcados / 1.20 sofridos).",
+      "mando_de_campo": "CRB: 4 de 13 jogos vencidos em casa (30.8%).",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "CRB marca mais no 2º tempo (0.90 gols), Fortaleza marca mais no 2º tempo (0.50 gols)",
+      "especificidades_gols": "CRB marca mais na primeira etapa. Fortaleza marca mais na segunda etapa.",
       "momento_gols": "CRB: 61-75 (3 gols), 76-90 (3 gols). Fortaleza: 61-75 (1 gol), 76-90 (1 gol).",
       "jogadores_chave": null,
       "placares_provaveis": null,
@@ -193,23 +275,23 @@
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "CRB em boa fase ofensiva contra Fortaleza em má fase.",
+        "justificativa_abordagem": "CRB tem um ataque forte em casa e enfrenta um Fortaleza em momento de oscilação.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
       "back_favorito": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_>=_50%",
-          "em_casa",
-          "adversario_<_40%",
+          "prob_estimada_>=_50%",
+          "favorito_em_casa",
+          "adversario_com_menos_pontos_por_jogo",
           "liga_permitida"
         ],
         "criterios_total": 4,
         "modo": "pre_jogo",
         "favorito": "CRB",
-        "odd_alvo": "2.30",
-        "razao": "CRB tem um bom momento ofensivo e joga em casa contra um Fortaleza que vem de derrotas.",
+        "odd_alvo": "2.21",
+        "razao": "CRB é favorito com 52% de probabilidade estimada, jogando em casa e contra um adversário com menor média de pontos.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -226,21 +308,21 @@
       "liga": "Brazil Serie B",
       "jogo": "Goias x Operario PR",
       "metodos_aplicados": [
-        "back_2x2"
+        "back_favorito"
       ],
-      "mercado_principal": "Placar Exato 2x2",
-      "probabilidade_estimada": null,
-      "fair_odd": null,
-      "odd_minima_entrada": null,
+      "mercado_principal": "Vitória Goias",
+      "probabilidade_estimada": "50%",
+      "fair_odd": "2.00",
+      "odd_minima_entrada": "2.30",
       "media_gols_casa": "0.90",
       "media_gols_fora": "1.50",
-      "explicacao_curta": "Ambos os times apresentam alto índice de Over 2.5 e Ambas Marcam, indicando potencial para placar 2x2.",
+      "explicacao_curta": "Goias joga em casa e busca melhorar seu desempenho, enquanto Operario PR tem um ataque forte fora.",
       "alerta_geral": null,
-      "valor_esperado": "O jogo apresenta características favoráveis para o mercado 2x2, com ambos os times tendo histórico de muitos gols e ambas as equipes marcando.",
+      "valor_esperado": "Probabilidade estimada de 50% para o favorito, com fair odd de 2.00. Odd mínima de entrada de 2.30.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Goias marcou 0.30 gols no 1ºT",
-      "desempenho_2t": "Operario PR sofreu 1.10 gols no 2ºT",
+      "desempenho_1t": "Goias: 0.30 gols marcados, 0.30 sofridos. Operario PR: 0.60 gols marcados, 0.80 sofridos.",
+      "desempenho_2t": "Goias: 0.60 gols marcados, 1.10 sofridos. Operario PR: 0.90 gols marcados, 1.10 sofridos.",
       "contexto_times": {
         "casa": {
           "posicao": "12º",
@@ -251,86 +333,13 @@
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Goias (12º) e Operario PR (9º) estão em posições intermediárias na tabela, sem grandes objetivos. Goias tem média de 0.90 gols marcados e 1.40 sofridos. Operario PR tem média de 1.50 gols marcados e 1.90 sofridos. Ambos os times têm um alto índice de Over 2.5 (30% para Goias, 90% para Operario PR) e Ambas Marcam (40% para Goias, 80% para Operario PR).",
-      "coeficiente_regularidade": "Goias: CV baixo | Operario PR: CV baixo",
-      "mando_de_campo": "Goias faz 30% dos pontos em casa",
+      "motivacao_tecnica": "Goias está em 12º lugar, com 1.20 pontos por jogo. Operario PR está em 9º lugar, com 1.30 pontos por jogo. Ambos em posições intermediárias.",
+      "coeficiente_regularidade": "Goias: CV alto (0.90 gols marcados / 1.40 sofridos). Operario PR: CV moderado (1.50 gols marcados / 1.90 sofridos).",
+      "mando_de_campo": "Goias: 5 de 13 jogos vencidos em casa (38.5%).",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Goias marca mais no 2º tempo (0.60 gols), Operario PR marca mais no 2º tempo (0.90 gols)",
-      "momento_gols": "Goias: 61-75 (4 gols), 76-90 (3 gols). Operario PR: 61-75 (3 gols), 76-90 (4 gols).",
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
-      "stake_recomendada": "0.5%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Padrão de gols e ambas marcam favorável ao 2x2.",
-        "gatilho_saida_parcial": "1x1, 2x1, 1x2",
-        "hard_stop": null
-      },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "indice_over_2_5_>=_60%",
-          "indice_ambas_marcam_>=_60%",
-          "defesa_sofre_>=_1.2"
-        ],
-        "criterios_total": 3,
-        "razao": "Ambos os times apresentam alto índice de Over 2.5 (Goias 30%, Operario PR 90%) e Ambas Marcam (Goias 40%, Operario PR 80%). Operario PR sofre 1.90 gols/jogo.",
-        "indice_over_2_5": "Goias: 30%, Operario PR: 90%",
-        "indice_ambas_marcam": "Goias: 40%, Operario PR: 80%",
-        "indice_over_ht": "Goias: 50%, Operario PR: 80%",
-        "modo": "pre_jogo",
-        "odd_alvo": "12.00",
-        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
-        "stake_recomendada": "0.5%"
-      },
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "11:00",
-      "liga": "Norway Division 1",
-      "jogo": "Kongsvinger x Stromsgodset",
-      "metodos_aplicados": [
-        "back_goleada"
-      ],
-      "mercado_principal": "Vitória Kongsvinger",
-      "probabilidade_estimada": "60%",
-      "fair_odd": "1.67",
-      "odd_minima_entrada": "1.92",
-      "media_gols_casa": "2.20",
-      "media_gols_fora": "3.00",
-      "explicacao_curta": "Kongsvinger em ótima fase (70% vitórias) contra Stromsgodset com ataque forte. Favoritismo claro.",
-      "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 60% para Kongsvinger resulta em fair odd de 1.67. Odd mínima de entrada é 1.92.",
-      "mercado_secundario": "Kongsvinger marca 4+ gols e vence",
-      "odd_minima_secundaria": "4.00",
-      "desempenho_1t": "Kongsvinger marcou 0.70 gols no 1ºT",
-      "desempenho_2t": "Stromsgodset sofreu 0.80 gols no 2ºT",
-      "contexto_times": {
-        "casa": {
-          "posicao": "2º",
-          "objetivo": "titulo"
-        },
-        "fora": {
-          "posicao": "1º",
-          "objetivo": "titulo"
-        }
-      },
-      "motivacao_tecnica": "Kongsvinger (2º) e Stromsgodset (1º) estão brigando pelo título, ambos com 70% de vitórias. Kongsvinger tem média de 2.20 gols marcados e 1.20 sofridos. Stromsgodset tem média de 3.00 gols marcados e 1.10 sofridos. O jogo é equilibrado em termos de posição e motivação, mas Kongsvinger joga em casa.",
-      "coeficiente_regularidade": "Kongsvinger: CV baixo | Stromsgodset: CV baixo",
-      "mando_de_campo": "Kongsvinger faz 70% dos pontos em casa",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Kongsvinger marca mais no 2º tempo (1.50 gols), Stromsgodset marca mais no 2º tempo (2.50 gols)",
-      "momento_gols": "Kongsvinger: 61-75 (4 gols), 76-90 (4 gols). Stromsgodset: 61-75 (2 gols), 76-90 (9 gols).",
+      "especificidades_gols": "Goias marca pouco e sofre muitos gols. Operario PR tem um ataque forte, especialmente na segunda etapa.",
+      "momento_gols": "Goias: 61-75 (4 gols), 76-90 (3 gols). Operario PR: 61-75 (4 gols), 76-90 (5 gols).",
       "jogadores_chave": null,
       "placares_provaveis": null,
       "momento_entrada": "pre_jogo",
@@ -338,29 +347,30 @@
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Jogo entre líderes com favoritismo para o mandante.",
+        "justificativa_abordagem": "Goias joga em casa e busca melhorar seu desempenho, enquanto Operario PR tem um ataque forte fora.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
-      "back_favorito": null,
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_estimada_>=_50%",
+          "favorito_em_casa",
+          "adversario_com_menos_pontos_por_jogo",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Goias",
+        "odd_alvo": "2.30",
+        "razao": "Goias é favorito com 50% de probabilidade estimada, jogando em casa e contra um adversário com menor média de pontos.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
-      "back_goleada": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "prob_favorito_>=_70%",
-          "ofensiva_favorito_>=_2.5",
-          "defesa_adv_>=_2.0"
-        ],
-        "criterios_total": 3,
-        "candidato": "Stromsgodset",
-        "razao": "Ambos os times têm ataque forte e jogam em casa, com potencial para muitos gols.",
-        "modo": "pre_jogo",
-        "mercado_sugerido": "Stromsgodset marca 4+ gols e vence",
-        "odd_esperada": "4.00",
-        "stake_recomendada": "1%"
-      },
+      "back_goleada": null,
       "lay_1x0": null,
       "lay_0x1": null,
       "confirmacao_visual": null
@@ -376,15 +386,15 @@
       "probabilidade_estimada": null,
       "fair_odd": null,
       "odd_minima_entrada": null,
-      "media_gols_casa": null,
-      "media_gols_fora": null,
-      "explicacao_curta": "Dados insuficientes para aplicar métodos de forma confiável.",
+      "media_gols_casa": "1.00",
+      "media_gols_fora": "1.20",
+      "explicacao_curta": "Jogo com poucas informações e dados limitados para análise.",
       "alerta_geral": null,
       "valor_esperado": null,
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
+      "desempenho_1t": "BATE Borisov: 0.40 gols marcados, 0.40 sofridos. FK Arsenal Dzyarzhynsk: 0.70 gols marcados, 0.40 sofridos.",
+      "desempenho_2t": "BATE Borisov: 0.60 gols marcados, 0.50 sofridos. FK Arsenal Dzyarzhynsk: 0.50 gols marcados, 1.00 sofridos.",
       "contexto_times": {
         "casa": {
           "posicao": "14º",
@@ -395,13 +405,13 @@
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "BATE Borisov está em 14º, lutando contra o rebaixamento, com apenas 1 vitória em 11 jogos. FK Arsenal Dzyarzhynsk está em 9º, em uma posição mais confortável. Os dados de gols e desempenho recente são limitados.",
-      "coeficiente_regularidade": "BATE Borisov: CV alto | FK Arsenal Dzyarzhynsk: CV alto",
-      "mando_de_campo": "BATE Borisov faz 1.20 pontos por jogo em casa",
+      "motivacao_tecnica": "BATE Borisov está em 14º lugar, lutando contra o rebaixamento. FK Arsenal Dzyarzhynsk está em 9º lugar, em uma posição intermediária.",
+      "coeficiente_regularidade": "BATE Borisov: CV moderado (1.00 gols marcados / 0.90 sofridos). FK Arsenal Dzyarzhynsk: CV moderado (1.20 gols marcados / 1.40 sofridos).",
+      "mando_de_campo": "BATE Borisov: 1 de 11 jogos vencidos em casa (9.1%).",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
+      "especificidades_gols": "Ambos os times marcam pouco.",
+      "momento_gols": "BATE Borisov: 61-75 (0 gol), 76-90 (0 gol). FK Arsenal Dzyarzhynsk: 61-75 (0 gol), 76-90 (0 gol).",
       "jogadores_chave": null,
       "placares_provaveis": null,
       "momento_entrada": "pre_jogo",
@@ -409,7 +419,7 @@
       "stake_recomendada": null,
       "plano_execucao": {
         "abordagem": "forçar",
-        "justificativa_abordagem": "Dados limitados impedem análise confiável.",
+        "justificativa_abordagem": "Dados insuficientes para aplicar métodos com segurança.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
@@ -420,161 +430,6 @@
       "back_goleada": null,
       "lay_1x0": null,
       "lay_0x1": null,
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "11:00",
-      "liga": "Brazil Serie B",
-      "jogo": "Avai x Cuiaba",
-      "metodos_aplicados": [
-        "lay_1x0",
-        "lay_0x1"
-      ],
-      "mercado_principal": "Lay 1x0",
-      "probabilidade_estimada": "10% (estimativa para 1x0)",
-      "fair_odd": "10.00",
-      "odd_minima_entrada": "11.50",
-      "media_gols_casa": "1.20",
-      "media_gols_fora": "0.90",
-      "explicacao_curta": "Jogo com média de gols total de 2.10, visitante com bom percentual de gols marcados e ambas marcam frequente. Improvável que termine 1x0 ou 0x1.",
-      "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 1x0 abaixo de 12% e de 0x1 abaixo de 12%, com odds de mercado superiores às odds mínimas de entrada.",
-      "mercado_secundario": "Lay 0x1",
-      "odd_minima_secundaria": "12.00",
-      "desempenho_1t": "Avai marca 0.6 no 1T, Cuiaba marca 0.4 no 1T",
-      "desempenho_2t": "Avai marca 0.6 no 2T, Cuiaba marca 0.5 no 2T",
-      "contexto_times": {
-        "casa": {
-          "posicao": "18º",
-          "objetivo": "rebaixamento"
-        },
-        "fora": {
-          "posicao": "10º",
-          "objetivo": "meio_tabela"
-        }
-      },
-      "motivacao_tecnica": "Avai em má fase e na zona de rebaixamento, Cuiaba em fase mais sólida e com melhor retrospecto. Média de gols total baixa (2.10), mas com ambas marcam em 40% dos jogos do Cuiaba e 30% do Avai. Visitante tem média de gols marcados de 0.90, o que torna o placar 0x1 menos provável. Mandante tem média de 1.20 gols marcados, mas com dificuldade em manter a consistência.",
-      "coeficiente_regularidade": "Casa: CV moderado | Visitante: CV baixo",
-      "mando_de_campo": "Avai: 20% de vitórias em casa",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Avai tem dificuldade em marcar gols consistentes, Cuiaba tem ataque mais produtivo.",
-      "momento_gols": "Avai marca mais no 2ºT, Cuiaba marca mais no 1ºT.",
-      "jogadores_chave": null,
-      "placares_provaveis": "1x1, 2x1, 1x2",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol (para Lay 1x0); Cash-out se 1-0, 1-1 ou após 60min sem gol (para Lay 0x1)",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Jogo com potencial para poucos gols, mas com ambas marcam e visitante competitivo.",
-        "gatilho_saida_parcial": "Placar 1x1 ou 0x1/1x0.",
-        "hard_stop": "Após 60min sem gol."
-      },
-      "back_favorito": {
-        "aplicavel": false,
-        "criterios_atendidos": [
-          "liga_permitida"
-        ],
-        "criterios_total": 4,
-        "modo": null,
-        "favorito": null,
-        "odd_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "lay_zebra": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 3,
-        "modo": null,
-        "zebra": null,
-        "favorito_do_jogo": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "over_limite_70": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 4,
-        "modo": null,
-        "favorito_ou_motivacao": null,
-        "indices_gols_faixas": null,
-        "qual_condicao_atende": null,
-        "motivo_motivacao": null,
-        "condicao_entrada": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null,
-        "alerta_armadilha": null
-      },
-      "back_2x2": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 3,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "back_goleada": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 3,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
-      },
-      "lay_1x0": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "visit_over_0_5_>_65%",
-          "visit_marca_>_60%",
-          "media_gols_>=_2.5",
-          "btts_>_50%"
-        ],
-        "criterios_total": 5,
-        "modo": "pre_jogo",
-        "prob_1_0_estimada": "10% (<12%)",
-        "visitante_over_0_5": "40% (precisa >65%)",
-        "visitante_marca_pct": "40% (precisa >60%)",
-        "media_gols_total": "2.10 (>=2.5)",
-        "btts_medio": "30% (>50%)",
-        "razao": "Jogo com média de gols total de 2.10, visitante com bom percentual de gols marcados e ambas marcam frequente. Improvável que termine 1x0.",
-        "odd_alvo": "10.50",
-        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
-        "stake_recomendada": "2%"
-      },
-      "lay_0x1": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "mand_over_0_5_>_65%",
-          "mand_marca_>_60%",
-          "media_gols_>=_2.5",
-          "btts_>_50%"
-        ],
-        "criterios_total": 5,
-        "modo": "pre_jogo",
-        "prob_0_1_estimada": "10% (<12%)",
-        "mandante_over_0_5": "80% (>65%)",
-        "mandante_marca_pct": "40% (precisa >60%)",
-        "media_gols_total": "2.10 (>=2.5)",
-        "btts_medio": "30% (>50%)",
-        "razao": "Jogo com média de gols total de 2.10, mandante com bom percentual de gols marcados e ambas marcam frequente. Improvável que termine 0x1.",
-        "odd_alvo": "11.00",
-        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
-        "stake_recomendada": "2%"
-      },
       "confirmacao_visual": null
     },
     {
@@ -591,13 +446,13 @@
       "odd_minima_entrada": "11.50",
       "media_gols_casa": "0.90",
       "media_gols_fora": "1.30",
-      "explicacao_curta": "Jogo equilibrado com ambas as equipes marcando em 50% dos jogos e média de gols total de 2.10. Improvável que termine 1x0 ou 0x1.",
+      "explicacao_curta": "Jogo equilibrado com médias de gols que sugerem ambos marcam e potencial para placares variados, tornando o 1x0 e 0x1 improváveis.",
       "alerta_geral": null,
-      "valor_esperado": "A probabilidade estimada de 1x0 e 0x1 é inferior a 12%, com BTTS médio de 50% e média de gols total de 2.10, indicando valor para lay.",
+      "valor_esperado": "A probabilidade estimada de 1x0 e 0x1 ser <12% sugere valor em lay contra esses placares.",
       "mercado_secundario": "Lay 0x1",
       "odd_minima_secundaria": "11.50",
-      "desempenho_1t": "Casa marca 0.40 no 1T, Fora marca 0.60 no 1T",
-      "desempenho_2t": "Casa marca 0.50 no 2T, Fora marca 0.70 no 2T",
+      "desempenho_1t": "Casa: 0.40 gols marcados, 0.40 sofridos. Fora: 0.80 marcados, 0.80 sofridos.",
+      "desempenho_2t": "Casa: 0.50 gols marcados, 0.80 sofridos. Fora: 0.80 marcados, 0.60 sofridos.",
       "contexto_times": {
         "casa": {
           "posicao": "4º",
@@ -608,25 +463,25 @@
           "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Ivinhema (4º) e Democrata GV (1º) estão em grupos diferentes. Ivinhema tem 13 pontos e Democrata GV tem 17. O jogo é entre grupos distintos, o que dificulta a comparação direta de motivação. Ambos os times têm um padrão de gols que sugere que um placar exato de 1x0 ou 0x1 é improvável.",
-      "coeficiente_regularidade": "Casa: CV 0.32 | Fora: CV 0.38",
-      "mando_de_campo": "Ivinhema: 30% vitórias em casa. Democrata GV: 50% vitórias fora.",
+      "motivacao_tecnica": "Ivinhema (4º) com 13 pontos, Democrata GV (1º) com 17. Jogo importante para ambos. Média total de gols 2.10. BTTS 50%. Visitante marca 1.30 gols/jogo, casa marca 0.90 gols/jogo. Ambos marcam 50%.",
+      "coeficiente_regularidade": "Casa: CV 1.20/0.90=1.33 (moderado). Fora: CV 1.30/1.30=1.00 (baixo).",
+      "mando_de_campo": "Ivinhema: 0.90 gols marcados, 1.20 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Casa: 0.90 gols marcados, 1.20 sofridos. Fora: 1.30 gols marcados, 0.90 sofridos.",
-      "momento_gols": "Casa: 61-75 (2 gols), 76-90 (3 gols). Fora: 61-75 (2 gols), 76-90 (3 gols).",
-      "jogadores_chave": "Não especificado",
-      "placares_provaveis": "Não especificado",
+      "especificidades_gols": "Casa marca 0.90, sofre 1.20. Fora marca 1.30, sofre 0.90.",
+      "momento_gols": "Casa: 61-75 (2 gols), 76-90 (2 gols). Fora: 61-75 (2 gols), 76-90 (3 gols).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol (para Lay 1x0); Cash-out se 1-0, 1-1 ou após 60min sem gol (para Lay 0x1)",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Jogo com potencial para ambos os métodos de lay.",
-        "gatilho_saida_parcial": "Placar 1-1 ou 2-1/1-2.",
+        "justificativa_abordagem": "Jogo com potencial para placares variados, tornando 1x0 e 0x1 improváveis.",
+        "gatilho_saida_parcial": "Chegada em 1x1 ou 0x1.",
         "hard_stop": "Após 60min sem gol."
       },
-      "back_favorito": null,
+      "lay_favorito": null,
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
@@ -634,6 +489,7 @@
       "lay_1x0": {
         "aplicavel": true,
         "criterios_atendidos": [
+          "p_1_0_<_12%",
           "visit_over_0_5_>_65%",
           "visit_marca_>_60%",
           "media_gols_>=_2.5",
@@ -646,14 +502,15 @@
         "visitante_marca_pct": "60%",
         "media_gols_total": "2.10",
         "btts_medio": "50%",
-        "razao": "O jogo tem um padrão de gols que torna o placar exato 1x0 improvável. O visitante marca em 60% dos jogos e a média total de gols é de 2.10.",
+        "razao": "Média de gols total de 2.10, BTTS de 50%, visitante marca 1.30 e casa 0.90. O placar 1x0 é improvável.",
         "odd_alvo": "10.50",
-        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
         "stake_recomendada": "2%"
       },
       "lay_0x1": {
         "aplicavel": true,
         "criterios_atendidos": [
+          "p_0_1_<_12%",
           "mand_over_0_5_>_65%",
           "mand_marca_>_60%",
           "media_gols_>=_2.5",
@@ -666,84 +523,309 @@
         "mandante_marca_pct": "60%",
         "media_gols_total": "2.10",
         "btts_medio": "50%",
-        "razao": "O jogo tem um padrão de gols que torna o placar exato 0x1 improvável. O mandante marca em 60% dos jogos e a média total de gols é de 2.10.",
+        "razao": "Média de gols total de 2.10, BTTS de 50%, visitante marca 1.30 e casa 0.90. O placar 0x1 é improvável.",
         "odd_alvo": "11.00",
-        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol.",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "01:30 PM",
+      "liga": "Chile Cup",
+      "jogo": "CD Antofagasta x La Serena",
+      "metodos_aplicados": [
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "10% (estimativa para 1x0)",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "11.50",
+      "media_gols_casa": "1.50",
+      "media_gols_fora": "1.00",
+      "explicacao_curta": "Jogo com médias de gols que indicam potencial para ambos marcarem e placares variados, tornando 1x0 e 0x1 improváveis.",
+      "alerta_geral": null,
+      "valor_esperado": "A probabilidade estimada de 1x0 e 0x1 ser <12% sugere valor em lay contra esses placares.",
+      "mercado_secundario": "Lay 0x1",
+      "odd_minima_secundaria": "11.50",
+      "desempenho_1t": "Casa: 0.70 gols marcados, 0.40 sofridos. Fora: 0.70 marcados, 1.20 sofridos.",
+      "desempenho_2t": "Casa: 0.80 gols marcados, 0.50 sofridos. Fora: 0.30 marcados, 1.60 sofridos.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "2º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "3º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "CD Antofagasta (2º) e La Serena (3º) na Copa Chile. Média total de gols 2.40. Casa marca 1.50, sofre 0.90. Fora marca 1.00, sofre 2.80. BTTS 50%.",
+      "coeficiente_regularidade": "Casa: CV 1.50/0.90=1.67 (alto). Fora: CV 1.00/2.80=0.36 (baixo).",
+      "mando_de_campo": "CD Antofagasta: 1.50 gols marcados, 0.90 sofridos em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Casa marca 1.50, sofre 0.90. Fora marca 1.00, sofre 2.80.",
+      "momento_gols": "Casa: 61-75 (1 gol), 76-90 (1 gol). Fora: 61-75 (1 gol), 76-90 (1 gol).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com potencial para placares variados, tornando 1x0 e 0x1 improváveis.",
+        "gatilho_saida_parcial": "Chegada em 1x1 ou 0x1.",
+        "hard_stop": "Após 60min sem gol."
+      },
+      "lay_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "70%",
+        "visitante_marca_pct": "60%",
+        "media_gols_total": "2.40",
+        "btts_medio": "50%",
+        "razao": "Média de gols total de 2.40, BTTS de 50%, casa marca 1.50 e fora 1.00. O placar 1x0 é improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "70%",
+        "mandante_marca_pct": "60%",
+        "media_gols_total": "2.40",
+        "btts_medio": "50%",
+        "razao": "Média de gols total de 2.40, BTTS de 50%, casa marca 1.50 e fora 1.00. O placar 0x1 é improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol.",
         "stake_recomendada": "2%"
       },
       "confirmacao_visual": null
     },
     {
       "horario": "05:00 PM",
-      "liga": "Brazil Serie D",
-      "jogo": "Sampaio Correa x Trem AP",
+      "liga": "Chile Cup",
+      "jogo": "Curico Unido x Nublense",
       "metodos_aplicados": [
-        "back_goleada"
+        "lay_1x0",
+        "lay_0x1"
       ],
-      "mercado_principal": "Back Favorito",
-      "probabilidade_estimada": "68%",
-      "fair_odd": "1.47",
-      "odd_minima_entrada": "1.62",
-      "media_gols_casa": "1.20",
-      "media_gols_fora": "1.60",
-      "explicacao_curta": "Sampaio Correa favorito com 68% de chance de vitória, jogando em casa contra Trem AP que sofre 1.4 gols/jogo. Favoritismo claro e potencial ofensivo.",
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "10% (estimativa para 1x0)",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "11.50",
+      "media_gols_casa": "1.00",
+      "media_gols_fora": "1.40",
+      "explicacao_curta": "Jogo com médias de gols que indicam potencial para ambos marcarem e placares variados, tornando 1x0 e 0x1 improváveis.",
       "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 68% para o favorito, com odd mínima de entrada de 1.62.",
-      "mercado_secundario": "Back Goleada",
-      "odd_minima_secundaria": "3.50",
-      "desempenho_1t": "Casa marca 0.50 no 1T, Fora marca 0.80 no 1T",
-      "desempenho_2t": "Casa marca 0.70 no 2T, Fora marca 0.80 no 2T",
+      "valor_esperado": "A probabilidade estimada de 1x0 e 0x1 ser <12% sugere valor em lay contra esses placares.",
+      "mercado_secundario": "Lay 0x1",
+      "odd_minima_secundaria": "11.50",
+      "desempenho_1t": "Casa: 0.40 gols marcados, 0.40 sofridos. Fora: 0.60 marcados, 0.80 sofridos.",
+      "desempenho_2t": "Casa: 0.60 gols marcados, 0.80 sofridos. Fora: 0.80 marcados, 0.70 sofridos.",
       "contexto_times": {
         "casa": {
-          "posicao": "4º",
-          "objetivo": "meio_tabela"
+          "posicao": "2º",
+          "objetivo": "titulo"
         },
         "fora": {
-          "posicao": "1º",
+          "posicao": "3º",
           "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Sampaio Correa (4º no grupo A6) enfrenta Trem AP (1º no grupo A5). Sampaio Correa tem 13 pontos e Trem AP tem 20. Sampaio Correa joga em casa e tem um retrospecto ofensivo melhor (1.20 gols marcados vs 1.60 do Trem AP, mas o Trem AP joga fora). O Trem AP tem um ataque forte (1.60 gols/jogo) e o Sampaio Correa sofre 0.60 gols/jogo em casa. O favoritismo do Sampaio Correa é baseado em seu desempenho em casa e na odd.",
-      "coeficiente_regularidade": "Casa: CV 0.32 | Fora: CV 0.38",
-      "mando_de_campo": "Sampaio Correa: 40% vitórias em casa. Trem AP: 60% vitórias fora.",
+      "motivacao_tecnica": "Curico Unido (2º) e Nublense (3º) na Copa Chile. Média total de gols 2.20. Casa marca 1.00, sofre 1.20. Fora marca 1.40, sofre 1.50. BTTS 50%.",
+      "coeficiente_regularidade": "Casa: CV 1.00/1.20=0.83 (baixo). Fora: CV 1.40/1.50=0.93 (baixo).",
+      "mando_de_campo": "Curico Unido: 1.00 gols marcados, 1.20 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Casa: 1.20 gols marcados, 0.60 sofridos. Fora: 1.60 gols marcados, 1.40 sofridos.",
-      "momento_gols": "Casa: 61-75 (2 gols), 76-90 (2 gols). Fora: 61-75 (1 gol), 76-90 (2 gols).",
-      "jogadores_chave": "Não especificado",
-      "placares_provaveis": "Não especificado",
+      "especificidades_gols": "Casa marca 1.00, sofre 1.20. Fora marca 1.40, sofre 1.50.",
+      "momento_gols": "Casa: 61-75 (1 gol), 76-90 (1 gol). Fora: 61-75 (1 gol), 76-90 (5 gols).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
       "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro e potencial ofensivo.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Jogo com potencial para placares variados, tornando 1x0 e 0x1 improváveis.",
+        "gatilho_saida_parcial": "Chegada em 1x1 ou 0x1.",
+        "hard_stop": "Após 60min sem gol."
       },
-      "back_favorito": null,
+      "lay_favorito": null,
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
-      "back_goleada": {
+      "back_goleada": null,
+      "lay_1x0": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_favorito_>=_70%",
-          "ofensiva_favorito_>=_2.5",
-          "defesa_adv_>=_2.0"
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
         ],
-        "criterios_total": 3,
-        "candidato": "Sampaio Correa",
-        "razao": "Favoritismo extremo (prob. 68%, próxima de 70%) e potencial ofensivo do Sampaio Correa (1.20 gols/jogo) contra defesa do Trem AP (1.40 gols sofridos/jogo).",
+        "criterios_total": 5,
         "modo": "pre_jogo",
-        "mercado_sugerido": "Sampaio Correa marca 4+ e vence",
-        "odd_esperada": "3.50 a 7.00",
-        "stake_recomendada": "1%"
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "70%",
+        "visitante_marca_pct": "60%",
+        "media_gols_total": "2.20",
+        "btts_medio": "50%",
+        "razao": "Média de gols total de 2.20, BTTS de 50%, casa marca 1.00 e fora 1.40. O placar 1x0 é improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "70%",
+        "mandante_marca_pct": "60%",
+        "media_gols_total": "2.20",
+        "btts_medio": "50%",
+        "razao": "Média de gols total de 2.20, BTTS de 50%, casa marca 1.00 e fora 1.40. O placar 0x1 é improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol.",
+        "stake_recomendada": "2%"
       },
       "confirmacao_visual": null
     },
     {
-      "horario": "01:30 PM",
+      "horario": "09:00 PM",
+      "liga": "Chile Cup",
+      "jogo": "O'Higgins x Union Espanola",
+      "metodos_aplicados": [
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "10% (estimativa para 1x0)",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "11.50",
+      "media_gols_casa": "1.10",
+      "media_gols_fora": "1.40",
+      "explicacao_curta": "Jogo com médias de gols que indicam potencial para ambos marcarem e placares variados, tornando 1x0 e 0x1 improváveis.",
+      "alerta_geral": null,
+      "valor_esperado": "A probabilidade estimada de 1x0 e 0x1 ser <12% sugere valor em lay contra esses placares.",
+      "mercado_secundario": "Lay 0x1",
+      "odd_minima_secundaria": "11.50",
+      "desempenho_1t": "Casa: 0.50 gols marcados, 0.70 sofridos. Fora: 0.60 marcados, 0.80 sofridos.",
+      "desempenho_2t": "Casa: 0.60 gols marcados, 0.60 sofridos. Fora: 0.80 marcados, 0.40 sofridos.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "4º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "2º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "O'Higgins (4º) e Union Espanola (2º) na Copa Chile. Média total de gols 2.40. Casa marca 1.10, sofre 1.30. Fora marca 1.40, sofre 1.20. BTTS 60%.",
+      "coeficiente_regularidade": "Casa: CV 1.10/1.30=0.85 (baixo). Fora: CV 1.40/1.20=1.17 (baixo).",
+      "mando_de_campo": "O'Higgins: 1.10 gols marcados, 1.30 sofridos em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Casa marca 1.10, sofre 1.30. Fora marca 1.40, sofre 1.20.",
+      "momento_gols": "Casa: 61-75 (1 gol), 76-90 (2 gols). Fora: 61-75 (1 gol), 76-90 (3 gols).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com potencial para placares variados, tornando 1x0 e 0x1 improváveis.",
+        "gatilho_saida_parcial": "Chegada em 1x1 ou 0x1.",
+        "hard_stop": "Após 60min sem gol."
+      },
+      "lay_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "70%",
+        "visitante_marca_pct": "60%",
+        "media_gols_total": "2.40",
+        "btts_medio": "60%",
+        "razao": "Média de gols total de 2.40, BTTS de 60%, casa marca 1.10 e fora 1.40. O placar 1x0 é improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "70%",
+        "mandante_marca_pct": "60%",
+        "media_gols_total": "2.40",
+        "btts_medio": "60%",
+        "razao": "Média de gols total de 2.40, BTTS de 60%, casa marca 1.10 e fora 1.40. O placar 0x1 é improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol.",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "03:00 PM",
       "liga": "Iceland Premier League",
       "jogo": "IBV Vestmannaeyjar x Stjarnan",
       "metodos_aplicados": [
@@ -756,42 +838,42 @@
       "odd_minima_entrada": "11.50",
       "media_gols_casa": "1.80",
       "media_gols_fora": "1.80",
-      "explicacao_curta": "Jogo com alta média de gols (4.20 total) e ambas equipes marcando em 80% dos jogos. Improvável que termine 1x0 ou 0x1.",
+      "explicacao_curta": "Jogo com médias de gols muito altas e ambos marcam frequente, tornando 1x0 e 0x1 improváveis.",
       "alerta_geral": null,
-      "valor_esperado": "A probabilidade estimada de 1x0 e 0x1 é inferior a 12%, com BTTS médio de 80% e média de gols total de 4.20, indicando valor para lay.",
+      "valor_esperado": "A probabilidade estimada de 1x0 e 0x1 ser <12% sugere valor em lay contra esses placares.",
       "mercado_secundario": "Lay 0x1",
       "odd_minima_secundaria": "11.50",
-      "desempenho_1t": "Casa marca 0.80 no 1T, Fora marca 1.00 no 1T",
-      "desempenho_2t": "Casa marca 1.00 no 2T, Fora marca 0.80 no 2T",
+      "desempenho_1t": "Casa: 0.80 gols marcados, 0.90 sofridos. Fora: 1.00 marcados, 1.10 sofridos.",
+      "desempenho_2t": "Casa: 1.00 gols marcados, 1.50 sofridos. Fora: 0.80 marcados, 1.30 sofridos.",
       "contexto_times": {
         "casa": {
           "posicao": "10º",
-          "objetivo": "meio_tabela"
+          "objetivo": "relegation"
         },
         "fora": {
           "posicao": "7º",
           "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "IBV Vestmannaeyjar (10º) e Stjarnan (7º) estão na parte inferior da tabela. Ambos os times têm um histórico recente de muitos gols, com média total de 4.20 gols por jogo e ambas as equipes marcando em 80% dos jogos. Isso torna um placar exato de 1x0 ou 0x1 improvável.",
-      "coeficiente_regularidade": "Casa: CV 0.45 | Fora: CV 0.48",
-      "mando_de_campo": "IBV Vestmannaeyjar: 20% vitórias em casa. Stjarnan: 20% vitórias fora.",
+      "motivacao_tecnica": "IBV Vestmannaeyjar (10º) e Stjarnan (7º) na Liga Islandesa. Média total de gols 4.20. Casa marca 1.80, sofre 2.40. Fora marca 1.80, sofre 2.40. BTTS 80%.",
+      "coeficiente_regularidade": "Casa: CV 1.80/2.40=0.75 (baixo). Fora: CV 1.80/2.40=0.75 (baixo).",
+      "mando_de_campo": "IBV Vestmannaeyjar: 1.80 gols marcados, 2.40 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Casa: 1.80 gols marcados, 2.40 sofridos. Fora: 1.80 gols marcados, 2.40 sofridos.",
-      "momento_gols": "Casa: 61-75 (2 gols), 76-90 (5 gols). Fora: 61-75 (4 gols), 76-90 (2 gols).",
-      "jogadores_chave": "Não especificado",
-      "placares_provaveis": "Não especificado",
+      "especificidades_gols": "Casa marca 1.80, sofre 2.40. Fora marca 1.80, sofre 2.40.",
+      "momento_gols": "Casa: 61-75 (2 gols), 76-90 (3 gols). Fora: 61-75 (3 gols), 76-90 (2 gols).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol (para Lay 1x0); Cash-out se 1-0, 1-1 ou após 60min sem gol (para Lay 0x1)",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Jogo com alto potencial de gols e ambas equipes marcando.",
-        "gatilho_saida_parcial": "Placar 1-1 ou 2-1/1-2.",
+        "justificativa_abordagem": "Jogo com médias de gols muito altas e ambos marcam frequente, tornando 1x0 e 0x1 improváveis.",
+        "gatilho_saida_parcial": "Chegada em 1x1 ou 0x1.",
         "hard_stop": "Após 60min sem gol."
       },
-      "back_favorito": null,
+      "lay_favorito": null,
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
@@ -799,6 +881,7 @@
       "lay_1x0": {
         "aplicavel": true,
         "criterios_atendidos": [
+          "p_1_0_<_12%",
           "visit_over_0_5_>_65%",
           "visit_marca_>_60%",
           "media_gols_>=_2.5",
@@ -811,14 +894,15 @@
         "visitante_marca_pct": "80%",
         "media_gols_total": "4.20",
         "btts_medio": "80%",
-        "razao": "O jogo tem um padrão de gols que torna o placar exato 1x0 improvável. O visitante marca em 80% dos jogos e a média total de gols é de 4.20.",
+        "razao": "Média de gols total de 4.20, BTTS de 80%, casa marca 1.80 e fora 1.80. O placar 1x0 é improvável.",
         "odd_alvo": "10.50",
-        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
         "stake_recomendada": "2%"
       },
       "lay_0x1": {
         "aplicavel": true,
         "criterios_atendidos": [
+          "p_0_1_<_12%",
           "mand_over_0_5_>_65%",
           "mand_marca_>_60%",
           "media_gols_>=_2.5",
@@ -831,105 +915,9 @@
         "mandante_marca_pct": "80%",
         "media_gols_total": "4.20",
         "btts_medio": "80%",
-        "razao": "O jogo tem um padrão de gols que torna o placar exato 0x1 improvável. O mandante marca em 80% dos jogos e a média total de gols é de 4.20.",
+        "razao": "Média de gols total de 4.20, BTTS de 80%, casa marca 1.80 e fora 1.80. O placar 0x1 é improvável.",
         "odd_alvo": "11.00",
-        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
-        "stake_recomendada": "2%"
-      },
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "03:00 PM",
-      "liga": "Iceland Premier League",
-      "jogo": "Valur Reykjavik x Keflavik",
-      "metodos_aplicados": [
-        "lay_1x0",
-        "lay_0x1"
-      ],
-      "mercado_principal": "Back Favorito",
-      "probabilidade_estimada": "60%",
-      "fair_odd": "1.67",
-      "odd_minima_entrada": "1.84",
-      "media_gols_casa": "1.60",
-      "media_gols_fora": "1.30",
-      "explicacao_curta": "Valur Reykjavik favorito com 60% de chance de vitória, jogando em casa contra Keflavik que sofre 2.0 gols/jogo. Favoritismo claro e potencial ofensivo.",
-      "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 60% para o favorito, com odd mínima de entrada de 1.84. Jogo com alta probabilidade de gols.",
-      "mercado_secundario": "Lay 1x0",
-      "odd_minima_secundaria": "11.50",
-      "desempenho_1t": "Casa marca 0.80 no 1T, Fora marca 0.50 no 1T",
-      "desempenho_2t": "Casa marca 0.80 no 2T, Fora marca 0.80 no 2T",
-      "contexto_times": {
-        "casa": {
-          "posicao": "6º",
-          "objetivo": "meio_tabela"
-        },
-        "fora": {
-          "posicao": "8º",
-          "objetivo": "meio_tabela"
-        }
-      },
-      "motivacao_tecnica": "Valur Reykjavik (6º) e Keflavik (8º) estão na parte intermediária da tabela. Valur Reykjavik joga em casa e tem um retrospecto ofensivo melhor (1.60 gols marcados vs 1.30 do Keflavik). O Valur Reykjavik sofre 2.30 gols/jogo, enquanto o Keflavik sofre 2.0 gols/jogo. A média total de gols é alta (3.90).",
-      "coeficiente_regularidade": "Casa: CV 0.45 | Fora: CV 0.42",
-      "mando_de_campo": "Valur Reykjavik: 40% vitórias em casa. Keflavik: 30% vitórias fora.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Casa: 1.60 gols marcados, 2.30 sofridos. Fora: 1.30 gols marcados, 2.00 sofridos.",
-      "momento_gols": "Casa: 61-75 (2 gols), 76-90 (4 gols). Fora: 61-75 (4 gols), 76-90 (4 gols).",
-      "jogadores_chave": "Não especificado",
-      "placares_provaveis": "Não especificado",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol (para Lay 1x0); Cash-out se 1-0, 1-1 ou após 60min sem gol (para Lay 0x1)",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo do mandante com potencial de gols e ambos os métodos de lay.",
-        "gatilho_saida_parcial": "Placar 1-1 ou 2-1/1-2.",
-        "hard_stop": "Após 60min sem gol."
-      },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "visit_over_0_5_>_65%",
-          "visit_marca_>_60%",
-          "media_gols_>=_2.5",
-          "btts_>_50%"
-        ],
-        "criterios_total": 5,
-        "modo": "pre_jogo",
-        "prob_1_0_estimada": "10%",
-        "visitante_over_0_5": "70%",
-        "visitante_marca_pct": "70%",
-        "media_gols_total": "3.90",
-        "btts_medio": "80%",
-        "razao": "O jogo tem um padrão de gols que torna o placar exato 1x0 improvável. O visitante marca em 70% dos jogos e a média total de gols é de 3.90.",
-        "odd_alvo": "10.50",
-        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
-        "stake_recomendada": "2%"
-      },
-      "lay_0x1": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "mand_over_0_5_>_65%",
-          "mand_marca_>_60%",
-          "media_gols_>=_2.5",
-          "btts_>_50%"
-        ],
-        "criterios_total": 5,
-        "modo": "pre_jogo",
-        "prob_0_1_estimada": "10%",
-        "mandante_over_0_5": "100%",
-        "mandante_marca_pct": "90%",
-        "media_gols_total": "3.90",
-        "btts_medio": "80%",
-        "razao": "O jogo tem um padrão de gols que torna o placar exato 0x1 improvável. O mandante marca em 90% dos jogos e a média total de gols é de 3.90.",
-        "odd_alvo": "11.00",
-        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol.",
         "stake_recomendada": "2%"
       },
       "confirmacao_visual": null
@@ -948,42 +936,42 @@
       "odd_minima_entrada": "11.50",
       "media_gols_casa": "1.40",
       "media_gols_fora": "0.80",
-      "explicacao_curta": "Jogo com alta média de gols (3.50 total) e ambas equipes marcando em 70% dos jogos. Improvável que termine 1x0 ou 0x1.",
+      "explicacao_curta": "Jogo com médias de gols que indicam potencial para ambos marcarem e placares variados, tornando 1x0 e 0x1 improváveis.",
       "alerta_geral": null,
-      "valor_esperado": "A probabilidade estimada de 1x0 e 0x1 é inferior a 12%, com BTTS médio de 60% e média de gols total de 3.50, indicando valor para lay.",
+      "valor_esperado": "A probabilidade estimada de 1x0 e 0x1 ser <12% sugere valor em lay contra esses placares.",
       "mercado_secundario": "Lay 0x1",
       "odd_minima_secundaria": "11.50",
-      "desempenho_1t": "Casa marca 0.90 no 1T, Fora marca 0.20 no 1T",
-      "desempenho_2t": "Casa marca 0.50 no 2T, Fora marca 0.60 no 2T",
+      "desempenho_1t": "Casa: 0.90 gols marcados, 1.40 sofridos. Fora: 0.20 marcados, 1.20 sofridos.",
+      "desempenho_2t": "Casa: 0.50 gols marcados, 1.50 sofridos. Fora: 0.60 marcados, 1.50 sofridos.",
       "contexto_times": {
         "casa": {
           "posicao": "12º",
-          "objetivo": "rebaixamento"
+          "objetivo": "relegation"
         },
         "fora": {
           "posicao": "11º",
-          "objetivo": "rebaixamento"
+          "objetivo": "relegation"
         }
       },
-      "motivacao_tecnica": "FH Hafnarfjordur (12º) e Thor Akureyri (11º) estão na zona de rebaixamento. Ambos os times têm um histórico recente de muitos gols, com média total de 3.50 gols por jogo e ambas as equipes marcando em 70% dos jogos. Isso torna um placar exato de 1x0 ou 0x1 improvável.",
-      "coeficiente_regularidade": "Casa: CV 0.55 | Fora: CV 0.50",
-      "mando_de_campo": "FH Hafnarfjordur: 10% vitórias em casa. Thor Akureyri: 20% vitórias fora.",
+      "motivacao_tecnica": "FH Hafnarfjordur (12º) e Thor Akureyri (11º) na Liga Islandesa. Média total de gols 3.50. Casa marca 1.40, sofre 2.90. Fora marca 0.80, sofre 2.70. BTTS 70%.",
+      "coeficiente_regularidade": "Casa: CV 1.40/2.90=0.48 (baixo). Fora: CV 0.80/2.70=0.30 (baixo).",
+      "mando_de_campo": "FH Hafnarfjordur: 1.40 gols marcados, 2.90 sofridos em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Casa: 1.40 gols marcados, 2.90 sofridos. Fora: 0.80 gols marcados, 2.70 sofridos.",
-      "momento_gols": "Casa: 61-75 (3 gols), 76-90 (7 gols). Fora: 61-75 (5 gols), 76-90 (7 gols).",
-      "jogadores_chave": "Não especificado",
-      "placares_provaveis": "Não especificado",
+      "especificidades_gols": "Casa marca 1.40, sofre 2.90. Fora marca 0.80, sofre 2.70.",
+      "momento_gols": "Casa: 61-75 (3 gols), 76-90 (7 gols). Fora: 61-75 (3 gols), 76-90 (7 gols).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol (para Lay 1x0); Cash-out se 1-0, 1-1 ou após 60min sem gol (para Lay 0x1)",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Jogo com alto potencial de gols e ambas equipes marcando, com ambos os times precisando vencer.",
-        "gatilho_saida_parcial": "Placar 1-1 ou 2-1/1-2.",
+        "justificativa_abordagem": "Jogo com potencial para placares variados, tornando 1x0 e 0x1 improváveis.",
+        "gatilho_saida_parcial": "Chegada em 1x1 ou 0x1.",
         "hard_stop": "Após 60min sem gol."
       },
-      "back_favorito": null,
+      "lay_favorito": null,
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
@@ -991,102 +979,7 @@
       "lay_1x0": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "visit_over_0_5_>_65%",
-          "visit_marca_>_60%",
-          "media_gols_>=_2.5",
-          "btts_>_50%"
-        ],
-        "criterios_total": 5,
-        "modo": "pre_jogo",
-        "prob_1_0_estimada": "10%",
-        "visitante_over_0_5": "80%",
-        "visitante_marca_pct": "60%",
-        "media_gols_total": "3.50",
-        "btts_medio": "60%",
-        "razao": "O jogo tem um padrão de gols que torna o placar exato 1x0 improvável. O visitante marca em 60% dos jogos e a média total de gols é de 3.50.",
-        "odd_alvo": "10.50",
-        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
-        "stake_recomendada": "2%"
-      },
-      "lay_0x1": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "mand_over_0_5_>_65%",
-          "mand_marca_>_60%",
-          "media_gols_>=_2.5",
-          "btts_>_50%"
-        ],
-        "criterios_total": 5,
-        "modo": "pre_jogo",
-        "prob_0_1_estimada": "10%",
-        "mandante_over_0_5": "90%",
-        "mandante_marca_pct": "70%",
-        "media_gols_total": "3.50",
-        "btts_medio": "60%",
-        "razao": "O jogo tem um padrão de gols que torna o placar exato 0x1 improvável. O mandante marca em 70% dos jogos e a média total de gols é de 3.50.",
-        "odd_alvo": "11.00",
-        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
-        "stake_recomendada": "2%"
-      },
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "05:15 PM",
-      "liga": "Iceland Premier League",
-      "jogo": "Fram Reykjavik x Vikingur Reykjavik",
-      "metodos_aplicados": [
-        "lay_1x0",
-        "lay_0x1"
-      ],
-      "mercado_principal": "Lay 1x0",
-      "probabilidade_estimada": "10% (estimativa para 1x0)",
-      "fair_odd": "10.00",
-      "odd_minima_entrada": "11.50",
-      "media_gols_casa": "2.90",
-      "media_gols_fora": "3.40",
-      "explicacao_curta": "Jogo com altíssima média de gols (4.80 total) e ambas equipes marcando em 80% dos jogos. Improvável que termine 1x0 ou 0x1.",
-      "alerta_geral": null,
-      "valor_esperado": "A probabilidade estimada de 1x0 e 0x1 é inferior a 12%, com BTTS médio de 80% e média de gols total de 4.80, indicando valor para lay.",
-      "mercado_secundario": "Lay 0x1",
-      "odd_minima_secundaria": "11.50",
-      "desempenho_1t": "Casa marca 1.30 no 1T, Fora marca 1.20 no 1T",
-      "desempenho_2t": "Casa marca 1.60 no 2T, Fora marca 2.20 no 2T",
-      "contexto_times": {
-        "casa": {
-          "posicao": "3º",
-          "objetivo": "titulo"
-        },
-        "fora": {
-          "posicao": "1º",
-          "objetivo": "titulo"
-        }
-      },
-      "motivacao_tecnica": "Fram Reykjavik (3º) e Vikingur Reykjavik (1º) são equipes de ponta, ambas com alta motivação para o título. O jogo tem uma média de gols extremamente alta (4.80 total) e ambas as equipes marcam em 80% dos jogos. Isso torna um placar exato de 1x0 ou 0x1 altamente improvável.",
-      "coeficiente_regularidade": "Casa: CV 0.32 | Fora: CV 0.00",
-      "mando_de_campo": "Fram Reykjavik: 70% vitórias em casa. Vikingur Reykjavik: 100% vitórias fora.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Casa: 2.90 gols marcados, 1.90 sofridos. Fora: 3.40 gols marcados, 0.40 sofridos.",
-      "momento_gols": "Casa: 61-75 (7 gols), 76-90 (7 gols). Fora: 61-75 (0 gols), 76-90 (8 gols).",
-      "jogadores_chave": "Não especificado",
-      "placares_provaveis": "Não especificado",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol (para Lay 1x0); Cash-out se 1-0, 1-1 ou após 60min sem gol (para Lay 0x1)",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Jogo com altíssimo potencial de gols e ambas equipes marcando, com ambas precisando vencer.",
-        "gatilho_saida_parcial": "Placar 1-1 ou 2-1/1-2.",
-        "hard_stop": "Após 60min sem gol."
-      },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": {
-        "aplicavel": true,
-        "criterios_atendidos": [
+          "p_1_0_<_12%",
           "visit_over_0_5_>_65%",
           "visit_marca_>_60%",
           "media_gols_>=_2.5",
@@ -1096,17 +989,18 @@
         "modo": "pre_jogo",
         "prob_1_0_estimada": "10%",
         "visitante_over_0_5": "70%",
-        "visitante_marca_pct": "70%",
-        "media_gols_total": "4.80",
-        "btts_medio": "80%",
-        "razao": "O jogo tem um padrão de gols que torna o placar exato 1x0 improvável. O visitante marca em 70% dos jogos e a média total de gols é de 4.80.",
+        "visitante_marca_pct": "50%",
+        "media_gols_total": "3.50",
+        "btts_medio": "70%",
+        "razao": "Média de gols total de 3.50, BTTS de 70%, casa marca 1.40 e fora 0.80. O placar 1x0 é improvável.",
         "odd_alvo": "10.50",
-        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
         "stake_recomendada": "2%"
       },
       "lay_0x1": {
         "aplicavel": true,
         "criterios_atendidos": [
+          "p_0_1_<_12%",
           "mand_over_0_5_>_65%",
           "mand_marca_>_60%",
           "media_gols_>=_2.5",
@@ -1117,9 +1011,107 @@
         "prob_0_1_estimada": "10%",
         "mandante_over_0_5": "70%",
         "mandante_marca_pct": "70%",
-        "media_gols_total": "4.80",
-        "btts_medio": "80%",
-        "razao": "O jogo tem um padrão de gols que torna o placar exato 0x1 improvável. O mandante marca em 70% dos jogos e a média total de gols é de 4.80.",
+        "media_gols_total": "3.50",
+        "btts_medio": "70%",
+        "razao": "Média de gols total de 3.50, BTTS de 70%, casa marca 1.40 e fora 0.80. O placar 0x1 é improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol.",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "10:00",
+      "liga": "Sweden Superettan",
+      "jogo": "IK Brage x IFK Varnamo",
+      "metodos_aplicados": [
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "10%",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "11.50",
+      "media_gols_casa": "1.50",
+      "media_gols_fora": "1.40",
+      "explicacao_curta": "Jogo com média de gols alta (3.20) e BTTS frequente. Improvável que termine 1x0 ou 0x1.",
+      "alerta_geral": null,
+      "valor_esperado": "Prob. 10% para 1x0 → fair 10.00; odd mínima 11.50. Jogo com média de gols alta e BTTS frequente.",
+      "mercado_secundario": "Lay 0x1",
+      "odd_minima_secundaria": "12.65",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": null
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": null
+        }
+      },
+      "motivacao_tecnica": "Ambos os times têm média de gols acima de 2.5 (IK Brage 3.20, IFK Varnamo 3.00). O BTTS médio é estimado em 55% ((60%+50%)/2). A probabilidade de 1x0 e 0x1 ser o placar exato é baixa, tornando os métodos Lay 1x0 e Lay 0x1 aplicáveis.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "IK Brage: 1.50 gols marcados, 1.70 sofridos. IFK Varnamo: 1.40 gols marcados, 1.60 sofridos.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol (para Lay 1x0); Cash-out se 1-0, 1-1 ou após 60min sem gol (para Lay 0x1).",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com potencial para gols e placares exatos improváveis.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "70%",
+        "visitante_marca_pct": "50%",
+        "media_gols_total": "3.20",
+        "btts_medio": "55%",
+        "razao": "Jogo com média de gols alta e visitante que marca em 50% dos jogos, mas com potencial para mais gols.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "60%",
+        "mandante_marca_pct": "60%",
+        "media_gols_total": "3.20",
+        "btts_medio": "55%",
+        "razao": "Jogo com média de gols alta e mandante que marca em 60% dos jogos, mas com potencial para mais gols.",
         "odd_alvo": "11.00",
         "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
         "stake_recomendada": "2%"
@@ -1127,38 +1119,38 @@
       "confirmacao_visual": null
     },
     {
-      "horario": "10:00 PM",
+      "horario": "13:00",
       "liga": "World Cup 2026",
-      "jogo": "New Zealand x Egypt",
+      "jogo": "Spain x Saudi Arabia",
       "metodos_aplicados": [
         "back_favorito"
       ],
-      "mercado_principal": "Vitória Egypt",
-      "probabilidade_estimada": "60%",
-      "fair_odd": "1.67",
-      "odd_minima_entrada": "1.92",
-      "media_gols_casa": null,
-      "media_gols_fora": null,
-      "explicacao_curta": "Egypt é favorito com odd 1.57 e histórico recente favorável contra New Zealand. Jogo de Copa do Mundo com potencial para favoritismo se confirmar.",
+      "mercado_principal": "Vitória Spain",
+      "probabilidade_estimada": "80%",
+      "fair_odd": "1.25",
+      "odd_minima_entrada": "1.44",
+      "media_gols_casa": "2.50",
+      "media_gols_fora": "1.00",
+      "explicacao_curta": "Spain favorito com 60% de vitórias e média de 2.5 gols. Saudi Arabia com 20% de vitórias.",
       "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 60% para a vitória do Egypt, com fair odd de 1.67. Odd mínima de entrada de 1.92.",
+      "valor_esperado": "Prob. 80% para Spain vencer → fair 1.25; odd mínima 1.44. Spain tem 60% de vitórias e média de 2.5 gols.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
       "desempenho_1t": null,
       "desempenho_2t": null,
       "contexto_times": {
         "casa": {
-          "posicao": "1",
+          "posicao": "3º",
           "objetivo": "sem_objetivo"
         },
         "fora": {
-          "posicao": "4",
+          "posicao": "2º",
           "objetivo": "sem_objetivo"
         }
       },
-      "motivacao_tecnica": "Egypt é o favorito claro com odd de 1.57. O histórico recente mostra uma vitória para Egypt em um confronto direto. Ambos os times estão com 1 ponto na tabela, mas Egypt tem um retrospecto mais consistente em jogos recentes.",
+      "motivacao_tecnica": "Spain é o claro favorito, com 60% de vitórias e média de 2.5 gols marcados. Saudi Arabia tem 20% de vitórias e média de 1.0 gol marcado. A odd para a vitória da Spain é 1.10, o que sugere um favoritismo considerável. A operação de Back Favorito na Spain é a mais indicada.",
       "coeficiente_regularidade": null,
-      "mando_de_campo": null,
+      "mando_de_campo": "Spain: 2.50 gols marcados, 0.40 sofridos. Saudi Arabia: 1.00 gols marcados, 1.30 sofridos.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
       "especificidades_gols": null,
@@ -1170,43 +1162,259 @@
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro e odd inicial atrativa.",
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos robustos.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
       "back_favorito": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_estimada_>=_60%",
-          "favorito_odd_<_1.80",
-          "liga_permitida",
-          "retrospecto_favoravel"
+          "prob_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Spain",
+        "odd_alvo": "1.10",
+        "razao": "Spain tem 60% de vitórias e enfrenta Saudi Arabia com 20% de aproveitamento.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "World Cup 2026",
+      "jogo": "Belgium x Iran",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Belgium",
+      "probabilidade_estimada": "70%",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.64",
+      "media_gols_casa": "3.20",
+      "media_gols_fora": "1.60",
+      "explicacao_curta": "Belgium favorito com 60% de vitórias e média de 3.2 gols. Iran com 40% de vitórias.",
+      "alerta_geral": null,
+      "valor_esperado": "Prob. 70% para Belgium vencer → fair 1.43; odd mínima 1.64. Belgium tem 60% de vitórias e média de 3.2 gols.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "3º",
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": "2º",
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "Belgium é o claro favorito, com 60% de vitórias e média de 3.2 gols marcados. Iran tem 40% de vitórias e média de 1.6 gols marcados. A odd para a vitória da Belgium é 1.42, o que sugere um favoritismo considerável. A operação de Back Favorito na Belgium é a mais indicada.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Belgium: 3.20 gols marcados, 0.70 sofridos. Iran: 1.60 gols marcados, 0.70 sofridos.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos robustos.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Belgium",
+        "odd_alvo": "1.42",
+        "razao": "Belgium tem 60% de vitórias e enfrenta Iran com 40% de aproveitamento.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "19:00",
+      "liga": "World Cup 2026",
+      "jogo": "Uruguay x Cape Verde Islands",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Uruguay",
+      "probabilidade_estimada": "70%",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.64",
+      "media_gols_casa": "1.10",
+      "media_gols_fora": "1.60",
+      "explicacao_curta": "Uruguay favorito com 40% de vitórias e média de 1.1 gols. Cape Verde Islands com 40% de vitórias.",
+      "alerta_geral": null,
+      "valor_esperado": "Prob. 70% para Uruguay vencer → fair 1.43; odd mínima 1.64. Uruguay tem 40% de vitórias e enfrenta Cape Verde Islands com 40% de vitórias.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "1º",
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": "4º",
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "Uruguay é o favorito com odd de 1.44, com 40% de vitórias e média de 1.1 gols marcados. Cape Verde Islands tem 40% de vitórias e média de 1.6 gols marcados. A odd mínima de entrada é 1.64.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Uruguay: 1.10 gols marcados, 0.80 sofridos. Cape Verde Islands: 1.60 gols marcados, 0.90 sofridos.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos robustos.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Uruguay",
+        "odd_alvo": "1.44",
+        "razao": "Uruguay joga em casa contra Cape Verde Islands com aproveitamento similar.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "07:45",
+      "liga": "World Cup 2026",
+      "jogo": "New Zealand x Egypt",
+      "metodos_aplicados": [
+        "lay_zebra"
+      ],
+      "mercado_principal": "Lay Egypt",
+      "probabilidade_estimada": "20%",
+      "fair_odd": "5.00",
+      "odd_minima_entrada": "5.75",
+      "media_gols_casa": "0.90",
+      "media_gols_fora": "1.10",
+      "explicacao_curta": "Egito é favorito com odd 1.57, mas NZ tem bom desempenho em casa e Egito fora é inconsistente. Lay na zebra Egito.",
+      "alerta_geral": null,
+      "valor_esperado": "A odd de 1.57 para o Egito parece superestimada dado o desempenho recente e o mando de campo da Nova Zelândia.",
+      "mercado_secundario": "back_favorito",
+      "odd_minima_secundaria": "1.70",
+      "desempenho_1t": "Casa: 0.40 gols marcados, 0.60 sofridos. Fora: 0.70 gols marcados, 0.20 sofridos.",
+      "desempenho_2t": "Casa: 0.50 gols marcados, 1.30 sofridos. Fora: 0.40 gols marcados, 0.50 sofridos.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "1",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "4",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Nova Zelândia joga em casa e tem um aproveitamento razoável, enquanto o Egito, apesar de favorito nas odds, mostra inconsistência fora de casa e um desempenho recente que não justifica a odd.",
+      "coeficiente_regularidade": "Casa: CV moderado | Fora: CV alto",
+      "mando_de_campo": "Nova Zelândia faz 2.0 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Casa marca pouco no 1ºT, mas sofre mais no 2ºT. Fora marca mais no 1ºT e sofre pouco.",
+      "momento_gols": "Casa: 61-75 (1 gol), 76-90 (1 gol). Fora: 16-30 (1 gol), 31-45 (1 gol), 46-60 (1 gol), 61-75 (1 gol).",
+      "jogadores_chave": "Principais decisores não especificados.",
+      "placares_provaveis": "1-1, 1-0, 2-1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Se Egito abrir o placar, aguardar reação da NZ ou sair.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Odd de Lay para o Egito parece ter valor devido à inconsistência fora de casa e bom mando da NZ.",
+        "gatilho_saida_parcial": "Se NZ abrir o placar.",
+        "hard_stop": "Se Egito abrir 2 gols de vantagem."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_estimada_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "liga_permitida"
         ],
         "criterios_total": 4,
         "modo": "pre_jogo",
         "favorito": "Egypt",
-        "odd_alvo": "1.92",
-        "razao": "Egypt é o favorito com odd de 1.57, e o histórico recente indica uma vantagem. A probabilidade estimada é de 60%.",
+        "odd_alvo": "1.45",
+        "razao": "Egito é favorito nas odds e tem um aproveitamento global melhor, apesar da inconsistência fora.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "odd_zebra_>=_5.00",
+          "desempenho_ruim",
+          "liga_permitida"
+        ],
         "criterios_total": 3,
-        "modo": null,
-        "zebra": null,
-        "favorito_do_jogo": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
+        "zebra": "New Zealand",
+        "favorito_do_jogo": "Egypt",
+        "odd_zebra_alvo": "5.50",
+        "razao": "A odd de 5.75 para a Nova Zelândia é alta, e o Egito tem um desempenho recente que não inspira confiança fora de casa.",
         "gatilho_ao_vivo": null,
-        "stake_recomendada": null
+        "stake_recomendada": "2%"
       },
       "over_limite_70": {
         "aplicavel": false,
         "criterios_atendidos": [],
         "criterios_total": 4,
-        "modo": null,
         "favorito_ou_motivacao": null,
         "indices_gols_faixas": null,
         "qual_condicao_atende": null,
@@ -1279,120 +1487,60 @@
       "horario": "12:00",
       "jogo": "BATE Borisov x FK Arsenal Dzyarzhynsk",
       "liga": "Belarus Premier League",
-      "motivo": "Dados insuficientes para aplicar métodos de forma confiável.",
+      "motivo": "Dados insuficientes e pouca informação para análise.",
       "motivos_por_metodo": {
-        "back_favorito": "prob estimada 40% - precisa >= 55%",
-        "lay_zebra": "odd zebra estimada 2.60 - precisa >= 5.00",
-        "over_limite_70": "sem dados de gols por período no PDF",
-        "back_2x2": "Over 2.5 média 2.60 - precisa >= 2.5 e Ambas Marcam 40% - precisa >= 60%",
-        "back_goleada": "favoritismo insuficiente - prob 40%, precisa >= 70%",
-        "lay_1x0": "P(1-0) estimada 15% - precisa < 12%",
-        "lay_0x1": "mandante marca em 50% - precisa > 60%"
+        "back_favorito": "Probabilidade estimada não calculável devido a dados limitados. BATE Borisov tem aproveitamento muito baixo em casa (9.1%).",
+        "lay_zebra": "Não há zebra clara com odd >= 5.00 e desempenho ruim consistente.",
+        "over_limite_70": "Dados de gols por período (61-75, 76-90) ausentes no PDF.",
+        "back_2x2": "Índices de Over 2.5 e Ambas Marcam não disponíveis ou insuficientes. Média de gols total baixa (1.90).",
+        "back_goleada": "Favoritismo insuficiente e dados de ataque/defesa limitados.",
+        "lay_1x0": "P(1-0) estimada não calculável. Visitante marca em 40% dos jogos (precisa >60%). Média de gols total baixa (1.90).",
+        "lay_0x1": "P(0-1) estimada não calculável. Mandante marca em 40% dos jogos (precisa >60%). Média de gols total baixa (1.90)."
       }
     },
     {
       "horario": "11:00",
-      "jogo": "Avai x Cuiaba",
-      "liga": "Brazil Serie B",
-      "motivo": "Jogo com potencial para poucos gols, mas com ambas marcam e visitante competitivo. Lay 1x0 e Lay 0x1 aplicáveis.",
+      "jogo": "Kongsvinger x Stromsgodset",
+      "liga": "Norway Division 1",
+      "motivo": "Jogo equilibrado entre dois times em boa fase, com potencial para gols de ambos os lados.",
       "motivos_por_metodo": {
-        "back_favorito": "prob estimada 52% — precisa ≥60%",
-        "lay_zebra": "zebra com odd estimada 3.20 — precisa ≥5.00",
-        "over_limite_70": "sem dados de gols por período no PDF",
-        "back_2x2": "Over 2.5 média 2.10 — precisa >= 2.5 e ambas marcam >= 60%",
-        "back_goleada": "favoritismo insuficiente — prob 52%, precisa ≥70%",
-        "lay_1x0": "visitante marca em 40% — precisa >60%",
-        "lay_0x1": "mandante marca em 40% — precisa >60%"
+        "back_favorito": "Probabilidade estimada de 65% para Kongsvinger, mas odd de 2.63 pode não oferecer valor suficiente.",
+        "lay_zebra": "Stromsgodset tem odd de 2.20, não configurando uma zebra clara para lay.",
+        "over_limite_70": "Dados de gols por período não estão detalhados o suficiente para aplicar o critério de 25% nas faixas de 61-75 ou 76-90.",
+        "back_2x2": "BTTS médio é 65%, mas Over 2.5 é 80% para Kongsvinger e 70% para Stromsgodset, o que pode indicar mais de 2 gols, mas não necessariamente 2x2.",
+        "back_goleada": "Favoritismo não é extremo (probabilidade estimada 65%, precisa de 70%).",
+        "lay_1x0": "P(1-0) estimada em torno de 10%, mas o BTTS médio de 65% e a média de gols total de 3.40 sugerem um jogo com mais gols.",
+        "lay_0x1": "P(0-1) estimada em torno de 10%, mas o BTTS médio de 65% e a média de gols total de 3.40 sugerem um jogo com mais gols."
       }
     },
     {
-      "horario": "05:00 PM",
-      "jogo": "CD Antofagasta x La Serena",
-      "liga": "Chile Cup",
-      "motivo": "Jogo equilibrado com baixa média de gols e ambas equipes marcando em 50% dos jogos.",
+      "horario": "10:00",
+      "jogo": "IK Brage x IFK Varnamo",
+      "liga": "Sweden Superettan",
+      "motivo": "Jogo equilibrado com média de gols alta, mas sem favoritismo claro para um dos lados.",
       "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada 43% (favorito CD Antofagasta) - precisa >= 65%.",
-        "lay_zebra": "Odd da zebra (La Serena) estimada em 2.88 - precisa >= 5.00.",
-        "over_limite_70": "Dados de gols por período não disponíveis no PDF.",
-        "back_2x2": "Over 2.5 média 30% - precisa >= 60%.",
-        "back_goleada": "Favoritismo insuficiente - prob 43%, precisa >= 70%.",
-        "lay_1x0": "P(1-0) estimada 15% - precisa <12%.",
-        "lay_0x1": "P(0-1) estimada 15% - precisa <12%."
+        "back_favorito": "Probabilidade estimada de 50% para IK Brage, não configurando favoritismo claro.",
+        "lay_zebra": "Odd de IFK Varnamo é 3.00, não configurando uma zebra clara para lay.",
+        "over_limite_70": "Dados de gols por período não estão detalhados o suficiente para aplicar o critério de 25% nas faixas de 61-75 ou 76-90.",
+        "back_2x2": "Over 2.5 é 70% para IK Brage e 60% para IFK Varnamo, mas BTTS médio é 55%, o que pode não ser suficiente para garantir 2x2.",
+        "back_goleada": "Favoritismo não é extremo (probabilidade estimada 50%, precisa de 70%).",
+        "lay_1x0": "P(1-0) estimada em 10%, mas o visitante marca em 50% dos jogos, o que pode ser um pouco baixo para garantir a improbabildade do placar.",
+        "lay_0x1": "P(0-1) estimada em 10%, mas o mandante marca em 60% dos jogos, o que pode ser um pouco baixo para garantir a improbabildade do placar."
       }
     },
     {
-      "horario": "05:00 PM",
-      "jogo": "Curico Unido x Nublense",
-      "liga": "Chile Cup",
-      "motivo": "Jogo equilibrado com baixa média de gols e ambas equipes marcando em 50% dos jogos.",
+      "horario": "12:00",
+      "jogo": "Ostersunds FK x IFK Norrkoping",
+      "liga": "Sweden Superettan",
+      "motivo": "Jogo equilibrado com favoritismo leve para IFK Norrkoping, mas sem dados suficientes para outros métodos.",
       "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada 40% (favorito Nublense) - precisa >= 65%.",
-        "lay_zebra": "Odd da zebra (Curico Unido) estimada em 3.25 - precisa >= 5.00.",
-        "over_limite_70": "Dados de gols por período não disponíveis no PDF.",
-        "back_2x2": "Over 2.5 média 40% - precisa >= 60%.",
-        "back_goleada": "Favoritismo insuficiente - prob 40%, precisa >= 70%.",
-        "lay_1x0": "P(1-0) estimada 15% - precisa <12%.",
-        "lay_0x1": "P(0-1) estimada 15% - precisa <12%."
-      }
-    },
-    {
-      "horario": "06:30 PM",
-      "jogo": "Universidad de Chile x Santiago Wanderers",
-      "liga": "Chile Cup",
-      "motivo": "Jogo com favoritismo moderado e alta média de gols, mas sem padrão claro para outros métodos.",
-      "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada 50% (favorito U. Chile) - precisa >= 65%.",
-        "lay_zebra": "Odd da zebra (S. Wanderers) estimada em 5.50, mas o time tem 60% de vitórias e marca 2.3 gols/jogo, o que não configura zebra clara.",
-        "over_limite_70": "Dados de gols por período não disponíveis no PDF.",
-        "back_2x2": "Over 2.5 média 70%, mas BTTS 60% e Over HT 100%. A média de gols do S. Wanderers (2.3) é alta, mas a defesa do U. Chile (0.8) é sólida.",
-        "back_goleada": "Favoritismo insuficiente - prob 50%, precisa >= 70%.",
-        "lay_1x0": "P(1-0) estimada 10%, mas o visitante marca 2.3 gols/jogo e tem 100% de Over HT, o que pode aumentar a chance de placares diferentes.",
-        "lay_0x1": "P(0-1) estimada 10%, mas o mandante marca 1.4 gols/jogo e tem 70% de Over HT."
-      }
-    },
-    {
-      "horario": "09:00 PM",
-      "jogo": "O'Higgins x Union Espanola",
-      "liga": "Chile Cup",
-      "motivo": "Jogo equilibrado com média de gols moderada e ambas equipes marcando em 60% dos jogos.",
-      "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada 40% (favorito O'Higgins) - precisa >= 65%.",
-        "lay_zebra": "Odd da zebra (Union Espanola) estimada em 5.25, mas o time tem 40% de vitórias e marca 1.4 gols/jogo, o que não configura zebra clara.",
-        "over_limite_70": "Dados de gols por período não disponíveis no PDF.",
-        "back_2x2": "Over 2.5 média 45% - precisa >= 60%.",
-        "back_goleada": "Favoritismo insuficiente - prob 40%, precisa >= 70%.",
-        "lay_1x0": "P(1-0) estimada 12% - precisa <12%.",
-        "lay_0x1": "P(0-1) estimada 12% - precisa <12%."
-      }
-    },
-    {
-      "horario": "7:00 PM",
-      "jogo": "Uruguay x Cape Verde Islands",
-      "liga": "World Cup 2026",
-      "motivo": "Jogo de seleções com favoritismo do Uruguai, mas com dados limitados.",
-      "motivos_por_metodo": {
-        "back_favorito": "Uruguay é favorito com odd de mercado 1.44. A probabilidade estimada de vitória é 40% (fair odd 2.50). A odd mínima de entrada seria 2.88. A probabilidade estimada é baixa para o favoritismo aparente.",
-        "lay_zebra": "Cape Verde Islands é a zebra com odd de mercado 8.00. A odd mínima para Lay Zebra é 5.00. A probabilidade estimada de vitória da zebra é 40%, mas a odd é muito alta.",
-        "over_limite_70": "Não há dados de gols por faixa de tempo para aplicar este método.",
-        "back_2x2": "Uruguay tem Over 2.5 em 30% dos jogos e Ambas Marcam em 40%. Cape Verde Islands tem Over 2.5 em 40% e Ambas Marcam em 40%. Os critérios de Over 2.5 e Ambas Marcam não são atendidos por ambos os times.",
-        "back_goleada": "A probabilidade estimada de vitória do Uruguay é 40%, não atingindo o limiar de 70% para favoritismo extremo.",
-        "lay_1x0": "A probabilidade estimada de 1x0 é maior que 12% devido à média de gols total ser 1.90, mas o visitante (Cape Verde Islands) marca em 40% dos jogos. O critério de visitante marca em >60% não é atendido.",
-        "lay_0x1": "A probabilidade estimada de 0x1 é maior que 12% devido à média de gols total ser 1.90, mas o mandante (Uruguay) marca em 30% dos jogos (failed to score 70%), o que é baixo e aumenta a chance de 0x1. O critério de mandante marca em >60% não é atendido."
-      }
-    },
-    {
-      "horario": "10:00 PM",
-      "jogo": "New Zealand x Egypt",
-      "liga": "World Cup 2026",
-      "motivo": "Favoritismo claro do Egypt, mas sem dados suficientes para outros métodos.",
-      "motivos_por_metodo": {
-        "back_favorito": "Aplicável",
-        "lay_zebra": "Zebra (New Zealand) tem odd de 5.75, mas não há dados sobre desempenho recente ou média de gols sofridos para confirmar o critério de 'desempenho ruim'.",
-        "over_limite_70": "Não há dados de gols por faixa de tempo no PDF.",
-        "back_2x2": "Não há dados sobre Over 2.5, Ambas Marcam ou Over HT nos jogos recentes de ambos os times.",
-        "back_goleada": "Favoritismo do Egypt não é extremo (odd 1.57, precisa < 1.40).",
-        "lay_1x0": "Não há dados suficientes sobre média de gols total, BTTS, ou desempenho do visitante para estimar P(1-0) e aplicar os critérios.",
-        "lay_0x1": "Não há dados suficientes sobre média de gols total, BTTS, ou desempenho do mandante para estimar P(0-1) e aplicar os critérios."
+        "back_favorito": "Probabilidade estimada de 60% para IFK Norrkoping, mas odd de 2.40 pode não oferecer valor suficiente.",
+        "lay_zebra": "Ostersunds FK tem odd de 2.50, não configurando uma zebra clara para lay.",
+        "over_limite_70": "Dados de gols por período não estão detalhados o suficiente para aplicar o critério de 25% nas faixas de 61-75 ou 76-90.",
+        "back_2x2": "Over 2.5 é 60% para Ostersunds FK e 40% para IFK Norrkoping, e BTTS médio é 65%, mas a diferença de desempenho pode dificultar um placar de 2x2.",
+        "back_goleada": "Favoritismo não é extremo (probabilidade estimada 60%, precisa de 70%).",
+        "lay_1x0": "P(1-0) estimada em torno de 10%, mas o visitante marca em 50% dos jogos, o que pode ser um pouco baixo para garantir a improbabildade do placar.",
+        "lay_0x1": "P(0-1) estimada em torno de 10%, mas o mandante marca em 60% dos jogos, o que pode ser um pouco baixo para garantir a improbabildade do placar."
       }
     }
   ]
