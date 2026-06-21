@@ -111,6 +111,18 @@ export default function RelatorioPage({ params }: { params: { slug: string } }) 
                           <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.back_goleada}</span>
                         </li>
                       )}
+                      {j.motivos_por_metodo.lay_1x0 && (
+                        <li className="flex gap-2">
+                          <span className="font-semibold text-pink-700 dark:text-pink-400 shrink-0">Lay 1×0:</span>
+                          <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.lay_1x0}</span>
+                        </li>
+                      )}
+                      {j.motivos_por_metodo.lay_0x1 && (
+                        <li className="flex gap-2">
+                          <span className="font-semibold text-fuchsia-700 dark:text-fuchsia-400 shrink-0">Lay 0×1:</span>
+                          <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.lay_0x1}</span>
+                        </li>
+                      )}
                     </ul>
                   </details>
                 )}
