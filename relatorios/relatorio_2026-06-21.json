@@ -1,10 +1,391 @@
 {
   "data": "2026-06-21",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-06-21T09:29:05.421069",
+  "gerado_em": "2026-06-21T10:11:26.109435",
   "total_partidas_analisadas": 9,
-  "entradas": [],
-  "evitar": [],
+  "entradas": [
+    {
+      "horario": "11:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Avaí x Cuiabá",
+      "metodos_aplicados": [
+        "lay_1x0"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "10%",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "12.60",
+      "media_gols_casa": "1.00",
+      "media_gols_fora": "0.67",
+      "explicacao_curta": "Jogo com média de gols baixa e visitante com dificuldade em marcar. Improvável que termine 1x0.",
+      "alerta_geral": null,
+      "valor_esperado": "A probabilidade estimada de 1x0 é de 10%, resultando em uma fair odd de 10.00. A odd mínima de entrada é de 12.60.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Avaí marca 0.43 no 1ºT, Cuiabá sofre 0.17 no 1ºT",
+      "desempenho_2t": "Avaí marca 0.57 no 2ºT, Cuiabá sofre 0.17 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "18",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "6",
+          "objetivo": "acesso"
+        }
+      },
+      "motivacao_tecnica": "Avaí na 18ª posição com 0.86 pontos por jogo, enquanto Cuiabá é o 6º com 1.50 pontos por jogo. O Cuiabá tem um desempenho ofensivo superior e uma defesa mais sólida.",
+      "coeficiente_regularidade": "Avaí: CV moderado / Cuiabá: CV baixo",
+      "mando_de_campo": "Avaí tem 0.86 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Avaí marca mais no 2º tempo, Cuiabá marca mais no 1º tempo.",
+      "momento_gols": "Avaí: 61-75 (14%), 76-90 (29%). Cuiabá: 31-45 (25%), 61-75 (50%).",
+      "jogadores_chave": null,
+      "placares_provaveis": "0x0, 1x1, 2x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com baixo potencial de placar exato 1x0.",
+        "gatilho_saida_parcial": "0-1, 1-1",
+        "hard_stop": "Após 60min sem gol"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "50%",
+        "visitante_marca_pct": "67%",
+        "media_gols_total": "2.29",
+        "btts_medio": "43%",
+        "razao": "O Cuiabá tem dificuldade em marcar gols (0.67/jogo) e o Avaí tem uma defesa razoável em casa. A média total de gols é baixa.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "Brazil Serie B",
+      "jogo": "CRB x Fortaleza",
+      "metodos_aplicados": [
+        "back_2x2"
+      ],
+      "mercado_principal": "Back 2x2",
+      "probabilidade_estimada": "50%",
+      "fair_odd": "2.00",
+      "odd_minima_entrada": "2.40",
+      "media_gols_casa": "1.83",
+      "media_gols_fora": "0.43",
+      "explicacao_curta": "CRB tem alto volume ofensivo e Fortaleza sofre muitos gols. Padrão de gols em ambos os times.",
+      "alerta_geral": null,
+      "valor_esperado": "O jogo apresenta um alto potencial para ambos os times marcarem e muitos gols, com o CRB tendo um ataque forte e o Fortaleza sofrendo muitos gols.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "CRB marca 1.00 no 1ºT, Fortaleza sofre 0.43 no 1ºT",
+      "desempenho_2t": "CRB marca 0.83 no 2ºT, Fortaleza sofre 0.57 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "17",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "12",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "CRB está na zona de rebaixamento e precisa buscar pontos, enquanto Fortaleza está no meio da tabela. O CRB tem um ataque muito mais produtivo.",
+      "coeficiente_regularidade": "CRB: CV moderado / Fortaleza: CV alto",
+      "mando_de_campo": "CRB tem 1.83 gols marcados por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "CRB marca muitos gols, Fortaleza sofre muitos gols.",
+      "momento_gols": "CRB: 0-15 (9%), 16-30 (27%), 46-60 (27%), 76-90 (18%). Fortaleza: 31-45 (33%), 46-60 (0%), 61-75 (0%).",
+      "jogadores_chave": null,
+      "placares_provaveis": "2x1, 3x1, 2x2",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+      "stake_recomendada": "0.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com alto potencial de gols e ambas marcam.",
+        "gatilho_saida_parcial": "1x1, 2x1, 1x2",
+        "hard_stop": "Não aplicável"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "indice_over_2_5_>=_60%",
+          "indice_ambas_marcam_>=_60%",
+          "ambos_defesa_>=_1.2"
+        ],
+        "criterios_total": 3,
+        "razao": "CRB tem 67% de Over 2.5 e 50% de Ambas Marcam. Fortaleza tem 29% de Over 2.5 e 14% de Ambas Marcam. A média de gols total é alta (3.50).",
+        "indice_over_2_5": "CRB: 67% (média 67%)",
+        "indice_ambas_marcam": "CRB: 50% (média 32%)",
+        "indice_over_ht": "CRB: 83% (média 67%)",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "17:00",
+      "liga": "Brazil Serie B",
+      "jogo": "São Bernardo x Juventude",
+      "metodos_aplicados": [
+        "lay_1x0"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "11%",
+      "fair_odd": "9.09",
+      "odd_minima_entrada": "11.45",
+      "media_gols_casa": "1.00",
+      "media_gols_fora": "0.67",
+      "explicacao_curta": "Jogo com baixa média de gols e visitante com dificuldade em marcar. Improvável que termine 1x0.",
+      "alerta_geral": null,
+      "valor_esperado": "A probabilidade estimada de 1x0 é de 11%, resultando em uma fair odd de 9.09. A odd mínima de entrada é de 11.45.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "São Bernardo marca 0.43 no 1ºT, Juventude sofre 0.83 no 1ºT",
+      "desempenho_2t": "São Bernardo marca 0.57 no 2ºT, Juventude sofre 0.33 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "12",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "17",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "São Bernardo tem um ataque mais produtivo e uma defesa mais sólida que o Juventude, que luta contra o rebaixamento e tem dificuldade em marcar gols.",
+      "coeficiente_regularidade": "São Bernardo: CV moderado / Juventude: CV alto",
+      "mando_de_campo": "São Bernardo tem 1.00 gols marcados por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "São Bernardo marca mais no 2º tempo, Juventude marca mais no 1º tempo.",
+      "momento_gols": "São Bernardo: 0-15 (29%), 76-90 (43%). Juventude: 31-45 (25%), 46-60 (50%), 76-90 (25%).",
+      "jogadores_chave": null,
+      "placares_provaveis": "0x0, 1x1, 2x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com baixo potencial de placar exato 1x0.",
+        "gatilho_saida_parcial": "0-1, 1-1",
+        "hard_stop": "Após 60min sem gol"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "11%",
+        "visitante_over_0_5": "67%",
+        "visitante_marca_pct": "33%",
+        "media_gols_total": "1.71",
+        "btts_medio": "43%",
+        "razao": "O Juventude tem dificuldade em marcar gols (0.67/jogo) e o São Bernardo tem uma defesa razoável. A média total de gols é baixa.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "19:00",
+      "liga": "International World Cup",
+      "jogo": "Uruguay x Cape Verde Islands",
+      "metodos_aplicados": [
+        "lay_0x1"
+      ],
+      "mercado_principal": "Lay 0x1",
+      "probabilidade_estimada": "10%",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "12.60",
+      "media_gols_casa": "0.00",
+      "media_gols_fora": "0.00",
+      "explicacao_curta": "Uruguai tem um ataque forte e Cape Verde tem dificuldade em marcar. Improvável que termine 0x1.",
+      "alerta_geral": null,
+      "valor_esperado": "A probabilidade estimada de 0x1 é de 10%, resultando em uma fair odd de 10.00. A odd mínima de entrada é de 12.60.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Uruguai marca 0.00 no 1ºT, Cape Verde sofre 0.00 no 1ºT",
+      "desempenho_2t": "Uruguai marca 0.00 no 2ºT, Cape Verde sofre 0.00 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "Uruguai é uma seleção tradicional com histórico de bons ataques, enquanto Cape Verde demonstra dificuldades ofensivas nos dados apresentados.",
+      "coeficiente_regularidade": "Uruguay: CV baixo / Cape Verde Islands: CV alto",
+      "mando_de_campo": "Uruguay tem um histórico forte em competições.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ambos os times não marcaram gols nos dados apresentados.",
+      "momento_gols": "Uruguay: 61-75 (100%). Cape Verde Islands: 16-30 (100%).",
+      "jogadores_chave": null,
+      "placares_provaveis": "1x0, 2x0, 1x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com baixo potencial de placar exato 0x1.",
+        "gatilho_saida_parcial": "1-0, 1-1",
+        "hard_stop": "Após 60min sem gol"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "0%",
+        "mandante_marca_pct": "0%",
+        "media_gols_total": "0.00",
+        "btts_medio": "0%",
+        "razao": "O Uruguai tem um ataque forte e Cape Verde tem dificuldade em marcar gols. A média de gols total é baixa.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "01:00",
+      "jogo": "Tunisia x Japan",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para análise de métodos de gols e favoritismo.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes para determinar favoritismo claro.",
+        "lay_zebra": "Dados insuficientes para determinar zebra clara.",
+        "over_limite_70": "Dados de momento dos gols ausentes no PDF.",
+        "back_2x2": "Dados insuficientes para Over 2.5, Ambas Marcam e Over HT.",
+        "back_goleada": "Dados insuficientes para favoritismo extremo e poder ofensivo/defensivo.",
+        "lay_1x0": "Dados insuficientes para P(1-0), visitante over 0.5, visitante marca, média de gols e BTTS.",
+        "lay_0x1": "Dados insuficientes para P(0-1), mandante over 0.5, mandante marca, média de gols e BTTS."
+      }
+    },
+    {
+      "horario": "13:00",
+      "jogo": "Spain x Saudi Arabia",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para análise de métodos de gols e favoritismo.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes para determinar favoritismo claro.",
+        "lay_zebra": "Dados insuficientes para determinar zebra clara.",
+        "over_limite_70": "Dados de momento dos gols ausentes no PDF.",
+        "back_2x2": "Dados insuficientes para Over 2.5, Ambas Marcam e Over HT.",
+        "back_goleada": "Dados insuficientes para favoritismo extremo e poder ofensivo/defensivo.",
+        "lay_1x0": "Dados insuficientes para P(1-0), visitante over 0.5, visitante marca, média de gols e BTTS.",
+        "lay_0x1": "Dados insuficientes para P(0-1), mandante over 0.5, mandante marca, média de gols e BTTS."
+      }
+    },
+    {
+      "horario": "18:30",
+      "jogo": "Goiás x Operário PR",
+      "liga": "Brazil Serie B",
+      "motivo": "Jogo equilibrado com ambos os times marcando e sofrendo gols, sem um claro favorito ou padrão para os métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do Goiás é 67%, mas o Operário PR tem um padrão de gols mais consistente e a média de gols total é alta.",
+        "lay_zebra": "Operário PR tem odd estimada alta e desempenho recente razoável, não se encaixando nos critérios de zebra para lay.",
+        "over_limite_70": "Dados de momento dos gols para o Goiás não atingem o limiar de 25% nas faixas finais.",
+        "back_2x2": "Operário PR tem 83% de Over 2.5, mas Goiás tem apenas 33%. BTTS médio é 67%, mas Over HT é baixo para o Goiás (33%).",
+        "back_goleada": "Favoritismo do Goiás (67%) não é extremo (precisa >=70%). Média ofensiva do Goiás é 1.00 (precisa >=2.5).",
+        "lay_1x0": "P(1-0) estimada em 15% (precisa <12%). Visitante marca em 33% (precisa >60%).",
+        "lay_0x1": "Mandante marca em 33% (precisa >60%)."
+      }
+    },
+    {
+      "horario": "19:00",
+      "jogo": "Uruguay x Cape Verde Islands",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para análise de métodos de gols e favoritismo.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes para determinar favoritismo claro.",
+        "lay_zebra": "Dados insuficientes para determinar zebra clara.",
+        "over_limite_70": "Dados de momento dos gols ausentes no PDF.",
+        "back_2x2": "Dados insuficientes para Over 2.5, Ambas Marcam e Over HT.",
+        "back_goleada": "Dados insuficientes para favoritismo extremo e poder ofensivo/defensivo.",
+        "lay_1x0": "Dados insuficientes para P(1-0), visitante over 0.5, visitante marca, média de gols e BTTS.",
+        "lay_0x1": "Dados insuficientes para P(0-1), mandante over 0.5, mandante marca, média de gols e BTTS."
+      }
+    },
+    {
+      "horario": "22:00",
+      "jogo": "New Zealand x Egypt",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para análise de métodos de gols e favoritismo.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes para determinar favoritismo claro.",
+        "lay_zebra": "Dados insuficientes para determinar zebra clara.",
+        "over_limite_70": "Dados de momento dos gols ausentes no PDF.",
+        "back_2x2": "Dados insuficientes para Over 2.5, Ambas Marcam e Over HT.",
+        "back_goleada": "Dados insuficientes para favoritismo extremo e poder ofensivo/defensivo.",
+        "lay_1x0": "Dados insuficientes para P(1-0), visitante over 0.5, visitante marca, média de gols e BTTS.",
+        "lay_0x1": "Dados insuficientes para P(0-1), mandante over 0.5, mandante marca, média de gols e BTTS."
+      }
+    }
+  ],
   "pdfs": [
     {
       "jogo": "Avaí x Cuiabá",
