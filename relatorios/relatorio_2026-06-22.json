@@ -1,29 +1,187 @@
 {
   "data": "2026-06-22",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-06-21T07:34:19.725952",
+  "gerado_em": "2026-06-21T10:12:59.673163",
   "total_partidas_analisadas": 4,
   "entradas": [
+    {
+      "horario": "14:00",
+      "liga": "International World Cup",
+      "jogo": "Argentina x Austria",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Argentina",
+      "probabilidade_estimada": "85%",
+      "fair_odd": "1.18",
+      "odd_minima_entrada": "1.30",
+      "media_gols_casa": "3.00",
+      "media_gols_fora": "0.00",
+      "explicacao_curta": "Argentina demonstrou força ofensiva em seu único jogo, marcando 3 gols. Áustria não marcou e tem estatísticas zeradas.",
+      "alerta_geral": null,
+      "valor_esperado": "Argentina mostrou forte capacidade ofensiva (3 gols em 1 jogo) contra uma Áustria que não marcou. Favoritismo claro.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Argentina venceu o 1º tempo com 1 gol marcado.",
+      "desempenho_2t": "Argentina venceu o 2º tempo com 2 gols marcados.",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": null
+        }
+      },
+      "motivacao_tecnica": "Argentina, como seleção de ponta, busca consolidar sua posição no torneio. A Áustria, com desempenho zerado, precisa reagir, mas a superioridade argentina é evidente pelos dados.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Argentina: 3.00 gols marcados por jogo.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "Argentina: Messi jogou 80min, Lautaro 55min. Áustria: Alaba jogou 59min.",
+      "especificidades_gols": "Argentina marcou 3 gols em 1 jogo.",
+      "momento_gols": "Argentina: 16-30 (1 gol), 46-60 (1 gol), 76-90 (1 gol).",
+      "jogadores_chave": "Argentina: Lionel Messi (3 gols), Lautaro Martínez.",
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro da Argentina com base no desempenho ofensivo e histórico.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Argentina",
+        "odd_alvo": "1.45",
+        "razao": "Argentina demonstrou forte poder ofensivo (3 gols em 1 jogo) contra uma Áustria com estatísticas zeradas.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "18:00",
+      "liga": "International World Cup",
+      "jogo": "France x Iraq",
+      "metodos_aplicados": [
+        "back_favorito",
+        "back_goleada"
+      ],
+      "mercado_principal": "Back Favorito",
+      "probabilidade_estimada": "90%",
+      "fair_odd": "1.11",
+      "odd_minima_entrada": "1.22",
+      "media_gols_casa": "3.00",
+      "media_gols_fora": "1.00",
+      "explicacao_curta": "França mostrou poder ofensivo (3 gols, Mbappé 2) contra o Iraque que sofreu 1 gol e tem estatísticas zeradas.",
+      "alerta_geral": null,
+      "valor_esperado": "França demonstrou forte capacidade ofensiva (3 gols em 1 jogo, Mbappé 2) contra um Iraque que sofreu 1 gol. Favoritismo extremo e cenário de goleada.",
+      "mercado_secundario": "Back Goleada",
+      "odd_minima_secundaria": "4.40",
+      "desempenho_1t": "França empatou o 1º tempo sem gols.",
+      "desempenho_2t": "França venceu o 2º tempo com 3 gols marcados.",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": null
+        }
+      },
+      "motivacao_tecnica": "França, como uma das favoritas ao título, busca consolidar sua força. O Iraque, com dados limitados, enfrenta um adversário de altíssimo nível.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "França: 3.00 gols marcados por jogo.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "França: Mbappé jogou 90min, Dembélé 80min. Iraque: Aymen Hussein jogou 90min.",
+      "especificidades_gols": "França marcou 3 gols em 1 jogo, com Mbappé marcando 2.",
+      "momento_gols": "França: 61-75 (1 gol), 76-90 (2 gols).",
+      "jogadores_chave": "França: Kylian Mbappé (2 gols).",
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo extremo da França com alto potencial ofensivo.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "France",
+        "odd_alvo": "1.45",
+        "razao": "França demonstrou forte poder ofensivo (3 gols em 1 jogo, Mbappé 2) contra um Iraque que sofreu 1 gol.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=_70%",
+          "ofensiva_favorito_>=_2.5",
+          "defesa_adv_>=_2.0"
+        ],
+        "criterios_total": 3,
+        "candidato": "France",
+        "razao": "Favoritismo extremo da França (90% prob estimada), alto poder ofensivo (3 gols/jogo) e defesa frágil do Iraque (1 gol sofrido/jogo).",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "France marca 4+ e vence",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
     {
       "horario": "20:00",
       "liga": "Brazil Serie B",
       "jogo": "Ponte Preta x Novorizontino",
       "metodos_aplicados": [
-        "lay_1x0"
+        "lay_1x0",
+        "lay_0x1"
       ],
       "mercado_principal": "Lay 1x0",
-      "probabilidade_estimada": "10%",
-      "fair_odd": "10.00",
-      "odd_minima_entrada": "12.00",
+      "probabilidade_estimada": "8%",
+      "fair_odd": "12.50",
+      "odd_minima_entrada": "15.00",
       "media_gols_casa": "0.71",
       "media_gols_fora": "1.57",
-      "explicacao_curta": "Novorizontino tem bom ataque e visitante competitivo, improvável que termine 1x0 para a Ponte Preta.",
+      "explicacao_curta": "Novorizontino tem forte ataque e Ponte Preta sofre muitos gols, improvável placar apertado 1x0 ou 0x1.",
       "alerta_geral": null,
-      "valor_esperado": "Prob. 10% → fair 10.00; com margem de segurança, só entrar acima de 12.00",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": "Ponte Preta marca 0.43 no 1ºT",
-      "desempenho_2t": "Novorizontino sofre 0.43 no 2ºT",
+      "valor_esperado": "Probabilidade estimada de 1x0 e 0x1 abaixo de 12%, com média de gols total de 2.28 e BTTS de 57%, indicando potencial para placares diferentes.",
+      "mercado_secundario": "Lay 0x1",
+      "odd_minima_secundaria": "13.20",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
       "contexto_times": {
         "casa": {
           "posicao": "19",
@@ -34,23 +192,23 @@
           "objetivo": "acesso"
         }
       },
-      "motivacao_tecnica": "Ponte Preta em 19º lugar, com baixo aproveitamento em casa (0.71 pts/jogo). Novorizontino em 5º, buscando acesso, com bom ataque (1.57 gols/jogo) e defesa sólida (0.71 gols sofridos/jogo).",
-      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV baixo",
-      "mando_de_campo": "Ponte Preta faz 0.71 pts em casa",
+      "motivacao_tecnica": "Novorizontino busca acesso (5º), enquanto Ponte Preta está no meio de tabela (19º). O Novorizontino tem um ataque muito mais produtivo (1.57 gols/jogo) contra uma defesa frágil da Ponte Preta (1.57 gols sofridos/jogo). A probabilidade de um placar exato de 1x0 ou 0x1 é baixa.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Ponte Preta: 0.71 gols marcados em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Ponte Preta marca pouco, Novorizontino tem ataque forte.",
-      "momento_gols": "Ponte Preta: 61-75 (0%), 76-90 (20%); Novorizontino: 61-75 (36%), 76-90 (27%)",
-      "jogadores_chave": "Robson dos Santos Fernandes (Novorizontino)",
-      "placares_provaveis": "1x1, 2x1, 1x2",
+      "especificidades_gols": null,
+      "momento_gols": "Ponte Preta: 61-75 (0%), 76-90 (20%). Novorizontino: 61-75 (36%), 76-90 (27%).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
       "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol para Lay 1x0; Cash-out se 1-0, 1-1 ou após 60min sem gol para Lay 0x1.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Jogo com potencial de gols e visitante mais forte.",
-        "gatilho_saida_parcial": "Placar 1x1 ou 0x1",
-        "hard_stop": "Após 60min sem gol"
+        "justificativa_abordagem": "Jogo com potencial para placares diferentes do 1x0 ou 0x1 devido ao desequilíbrio ofensivo/defensivo.",
+        "gatilho_saida_parcial": "Placares intermediários como 1-1.",
+        "hard_stop": "Após 60min sem gol."
       },
       "back_favorito": null,
       "lay_zebra": null,
@@ -68,67 +226,118 @@
         ],
         "criterios_total": 5,
         "modo": "pre_jogo",
-        "prob_1_0_estimada": "10%",
+        "prob_1_0_estimada": "8%",
         "visitante_over_0_5": "71%",
-        "visitante_marca_pct": "71%",
+        "visitante_marca_pct": "57%",
         "media_gols_total": "2.28",
         "btts_medio": "57%",
-        "razao": "Novorizontino tem bom ataque (1.57 gols/jogo) e visitante competitivo, improvável que termine 1x0 para a Ponte Preta.",
+        "razao": "Novorizontino tem ataque forte e Ponte Preta defesa frágil, tornando placar exato 1x0 improvável.",
         "odd_alvo": "10.50",
         "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
         "stake_recomendada": "2%"
       },
-      "lay_0x1": null,
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "8%",
+        "mandante_over_0_5": "86%",
+        "mandante_marca_pct": "71%",
+        "media_gols_total": "2.28",
+        "btts_medio": "57%",
+        "razao": "Ponte Preta tem ataque fraco e Novorizontino defesa forte, tornando placar exato 0x1 improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
       "confirmacao_visual": null
-    }
-  ],
-  "evitar": [
-    {
-      "horario": "14:00",
-      "jogo": "Argentina x Austria",
-      "liga": "International World Cup",
-      "motivo": "Dados insuficientes para análise de métodos.",
-      "motivos_por_metodo": {
-        "back_favorito": "Dados insuficientes no PDF para avaliar favoritismo.",
-        "lay_zebra": "Dados insuficientes no PDF para avaliar zebra.",
-        "over_limite_70": "Dados insuficientes no PDF para avaliar momento dos gols.",
-        "back_2x2": "Dados insuficientes no PDF para avaliar padrão de gols.",
-        "back_goleada": "Dados insuficientes no PDF para avaliar cenário de goleada.",
-        "lay_1x0": "Dados insuficientes no PDF para avaliar probabilidade de 1x0.",
-        "lay_0x1": "Dados insuficientes no PDF para avaliar probabilidade de 0x1."
-      }
-    },
-    {
-      "horario": "18:00",
-      "jogo": "France x Iraq",
-      "liga": "International World Cup",
-      "motivo": "Dados insuficientes para análise de métodos.",
-      "motivos_por_metodo": {
-        "back_favorito": "Dados insuficientes no PDF para avaliar favoritismo.",
-        "lay_zebra": "Dados insuficientes no PDF para avaliar zebra.",
-        "over_limite_70": "Dados insuficientes no PDF para avaliar momento dos gols.",
-        "back_2x2": "Dados insuficientes no PDF para avaliar padrão de gols.",
-        "back_goleada": "Dados insuficientes no PDF para avaliar cenário de goleada.",
-        "lay_1x0": "Dados insuficientes no PDF para avaliar probabilidade de 1x0.",
-        "lay_0x1": "Dados insuficientes no PDF para avaliar probabilidade de 0x1."
-      }
     },
     {
       "horario": "21:00",
-      "jogo": "Norway x Senegal",
       "liga": "International World Cup",
-      "motivo": "Dados insuficientes para análise de métodos.",
-      "motivos_por_metodo": {
-        "back_favorito": "Dados insuficientes no PDF para avaliar favoritismo.",
-        "lay_zebra": "Dados insuficientes no PDF para avaliar zebra.",
-        "over_limite_70": "Dados insuficientes no PDF para avaliar momento dos gols.",
-        "back_2x2": "Dados insuficientes no PDF para avaliar padrão de gols.",
-        "back_goleada": "Dados insuficientes no PDF para avaliar cenário de goleada.",
-        "lay_1x0": "Dados insuficientes no PDF para avaliar probabilidade de 1x0.",
-        "lay_0x1": "Dados insuficientes no PDF para avaliar probabilidade de 0x1."
-      }
+      "jogo": "Norway x Senegal",
+      "metodos_aplicados": [
+        "lay_0x1"
+      ],
+      "mercado_principal": "Lay 0x1",
+      "probabilidade_estimada": "8%",
+      "fair_odd": "12.50",
+      "odd_minima_entrada": "15.00",
+      "media_gols_casa": "0.00",
+      "media_gols_fora": "1.00",
+      "explicacao_curta": "Senegal marcou no segundo tempo e Noruega sofreu gols, indicando potencial para placares diferentes de 0x1.",
+      "alerta_geral": null,
+      "valor_esperado": "Senegal marcou no segundo tempo e Noruega sofreu gols, indicando que o placar exato 0x1 é improvável.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": "Senegal marcou 1 gol no 2º tempo.",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": null
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": null
+        }
+      },
+      "motivacao_tecnica": "Ambas as seleções buscam pontuar no torneio, o que pode levar a um jogo mais aberto.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Norway: 0.00 gols marcados por jogo.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "Norway: Haaland jogou 90min. Senegal: Mané jogou 90min.",
+      "especificidades_gols": "Senegal marcou 1 gol no 2º tempo.",
+      "momento_gols": "Senegal: 76-90 (1 gol).",
+      "jogadores_chave": "Norway: Erling Haaland (2 gols). Senegal: Sadio Mané.",
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Senegal mostrou capacidade de marcar, tornando o placar exato 0x1 improvável.",
+        "gatilho_saida_parcial": "Placares intermediários como 1-1.",
+        "hard_stop": "Após 60min sem gol."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "8%",
+        "mandante_over_0_5": "0%",
+        "mandante_marca_pct": "0%",
+        "media_gols_total": "4.00",
+        "btts_medio": "50%",
+        "razao": "Senegal marcou no segundo tempo, tornando o placar exato 0x1 improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
     }
   ],
+  "evitar": [],
   "pdfs": [
     {
       "jogo": "Ponte Preta x Novorizontino",
