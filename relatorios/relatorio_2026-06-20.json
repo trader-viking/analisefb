@@ -112,7 +112,21 @@
         "criterios_atendidos": [],
         "criterios_total": 5
       },
-      "confirmacao_visual": null
+      "confirmacao_visual": null,
+      "_placar": "4x3",
+      "_status": "finalizado",
+      "_placar_atualizado_em": "2026-06-21T02:40:16.780Z",
+      "_vereditos": {
+        "back_favorito": {
+          "resultado": "green",
+          "motivo": "Favorito (casa) venceu 4x3"
+        },
+        "over_limite_70": {
+          "resultado": "green",
+          "motivo": "7 gols > Over 2.5 (default — sem placar de entrada)"
+        }
+      },
+      "_veredito": "green"
     },
     {
       "horario": "19:00",
@@ -206,7 +220,17 @@
         "criterios_atendidos": [],
         "criterios_total": 5
       },
-      "confirmacao_visual": null
+      "confirmacao_visual": null,
+      "_placar": "0x1",
+      "_status": "finalizado",
+      "_placar_atualizado_em": "2026-06-21T02:40:16.780Z",
+      "_vereditos": {
+        "back_favorito": {
+          "resultado": "red",
+          "motivo": "Favorito (casa) não venceu (0x1)"
+        }
+      },
+      "_veredito": "red"
     },
     {
       "horario": "21:00",
