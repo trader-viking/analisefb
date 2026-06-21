@@ -107,14 +107,22 @@ export function metodosAtivos(entrada: Entrada): string[] {
     ['lay_0x1', (entrada as any).lay_0x1],
     ['confirmacao_visual', entrada.confirmacao_visual],
   ];
+  const setVistos = new Set<string>();
   for (const [key, val] of checks) {
     if (val && (val.aplicavel === true || val.elegivel === true)) {
       result.push(key);
+      setVistos.add(key);
     }
   }
-  // Fallback: usa metodos_aplicados se vier
-  if (result.length === 0 && Array.isArray(entrada.metodos_aplicados)) {
-    return entrada.metodos_aplicados.filter((m) => METODOS_INFO[m]);
+  // Reforço: se o Gemini listou em metodos_aplicados mas esqueceu de marcar
+  // aplicavel: true no objeto, ou marcou o objeto como null, ainda consideramos.
+  if (Array.isArray(entrada.metodos_aplicados)) {
+    for (const m of entrada.metodos_aplicados) {
+      if (METODOS_INFO[m] && !setVistos.has(m)) {
+        result.push(m);
+        setVistos.add(m);
+      }
+    }
   }
   return result;
 }
