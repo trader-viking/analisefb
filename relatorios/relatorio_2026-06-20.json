@@ -89,7 +89,21 @@
       "back_goleada": null,
       "lay_1x0": null,
       "lay_0x1": null,
-      "confirmacao_visual": null
+      "confirmacao_visual": null,
+      "_placar": "4x3",
+      "_status": "finalizado",
+      "_placar_atualizado_em": "2026-06-21T01:20:16.598Z",
+      "_vereditos": {
+        "back_favorito": {
+          "resultado": "green",
+          "motivo": "Favorito (casa) venceu 4x3"
+        },
+        "back_2x2": {
+          "resultado": "green",
+          "motivo": "Passou por 1x1 (final 4x3) — cash-out"
+        }
+      },
+      "_veredito": "green"
     },
     {
       "horario": "19:00",
@@ -180,7 +194,21 @@
         "stake_recomendada": "2%"
       },
       "lay_0x1": null,
-      "confirmacao_visual": null
+      "confirmacao_visual": null,
+      "_placar": "0x1",
+      "_status": "finalizado",
+      "_placar_atualizado_em": "2026-06-21T01:20:16.598Z",
+      "_vereditos": {
+        "back_favorito": {
+          "resultado": "red",
+          "motivo": "Favorito (casa) não venceu (0x1)"
+        },
+        "lay_1x0": {
+          "resultado": "green",
+          "motivo": "Placar foi 0x1 (≠ 1x0) — Lay ganhou"
+        }
+      },
+      "_veredito": "red"
     },
     {
       "horario": "21:00",
