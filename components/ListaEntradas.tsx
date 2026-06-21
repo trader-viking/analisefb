@@ -780,7 +780,30 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
                 if (mc === null || mf === null) return null;
                 const top4 = calcularPlacaresMaisProvaveis(mc, mf, 4);
                 if (top4.length === 0) return null;
-                return <PlacaresProvaveis placares={top4} />;
+
+                // ⚠ DETECÇÃO DE INCONSISTÊNCIA:
+                // Se o método principal é Lay X-Y e esse placar aparece nos top 4 prováveis,
+                // ALERTA — a operação é contraditória.
+                let alertaInconsistencia: string | null = null;
+                if (principal === 'lay_1x0') {
+                  const p10 = top4.find(p => p.gols_casa === 1 && p.gols_fora === 0);
+                  if (p10) alertaInconsistencia = `Atenção: 1×0 aparece entre os placares mais prováveis (${p10.prob_pct}%). Lay 1×0 contradiz a análise — revise antes de operar.`;
+                } else if (principal === 'lay_0x1') {
+                  const p01 = top4.find(p => p.gols_casa === 0 && p.gols_fora === 1);
+                  if (p01) alertaInconsistencia = `Atenção: 0×1 aparece entre os placares mais prováveis (${p01.prob_pct}%). Lay 0×1 contradiz a análise — revise antes de operar.`;
+                }
+
+                return (
+                  <>
+                    <PlacaresProvaveis placares={top4} />
+                    {alertaInconsistencia && (
+                      <div className="mt-2 px-2.5 py-1.5 rounded text-[11px] font-medium bg-red-50 dark:bg-red-950/40 text-red-700 dark:text-red-300 border border-red-200 dark:border-red-900 flex gap-1.5 items-start">
+                        <span aria-hidden="true">⚠</span>
+                        <span>{alertaInconsistencia}</span>
+                      </div>
+                    )}
+                  </>
+                );
               })()}
             </div>
 
