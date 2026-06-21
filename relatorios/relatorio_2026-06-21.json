@@ -1,103 +1,46 @@
 {
   "data": "2026-06-21",
-  "variante": "",
-  "gerado_em": "2026-06-21T07:28:12.601579",
+  "dia_consultado": "hoje",
+  "gerado_em": "2026-06-21T07:30:58.108977",
   "total_partidas_analisadas": 9,
-  "total_partidas_disponiveis": 9,
-  "entradas": [
+  "entradas": [],
+  "evitar": [],
+  "pdfs": [
     {
-      "horario": "11:00",
-      "liga": "Brazil Serie B",
       "jogo": "Avaí x Cuiabá",
-      "metodos_aplicados": [
-        "lay_1x0"
-      ],
-      "mercado_principal": "Lay 1x0",
-      "probabilidade_estimada": "10%",
-      "fair_odd": "10.00",
-      "odd_minima_entrada": "12.00",
-      "media_gols_casa": "1.00",
-      "media_gols_fora": "0.67",
-      "explicacao_curta": "Avaí tem média de gols marcados baixa (1.00) e Cuiabá tem defesa sólida (0.33 sofridos). Jogo com potencial para poucos gols.",
-      "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 1x0 é de 10%, com fair odd de 10.00. Odd mínima de entrada é 12.00.",
-      "mercado_secundario": "lay_0x1",
-      "odd_minima_secundaria": "13.20",
-      "desempenho_1t": "Avaí marca 0.43 no 1ºT",
-      "desempenho_2t": "Cuiabá sofre 0.17 no 2ºT",
-      "contexto_times": {
-        "casa": {
-          "posicao": "17",
-          "objetivo": "rebaixamento"
-        },
-        "fora": {
-          "posicao": "6",
-          "objetivo": "acesso"
-        }
-      },
-      "motivacao_tecnica": "Avaí (17º) luta contra o rebaixamento, enquanto Cuiabá (6º) busca o acesso. O Avaí tem um ataque fraco (1.00 gol/jogo) e o Cuiabá uma defesa muito forte (0.33 gol/jogo). O histórico de gols totais (1.00) sugere um jogo com poucos gols, tornando o placar exato de 1x0 menos provável.",
-      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
-      "mando_de_campo": "Avaí faz 43% dos pontos em casa",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Avaí marca poucos gols, Cuiabá tem defesa forte.",
-      "momento_gols": "Avaí: 61-75 (14% Marcado, 22% Sofrido); Cuiabá: 31-45 (25% Marcado, 50% Sofrido)",
-      "jogadores_chave": "Mikael Filipe Viana de Sousa (CRB) - 9 gols",
-      "placares_provaveis": "0x0, 1x1, 1x0",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Jogo com potencial de poucos gols e defesa forte do visitante.",
-        "gatilho_saida_parcial": "Placar 0-1 ou 1-1",
-        "hard_stop": "Após 60min sem gol"
-      },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "p_1_0_<_12%",
-          "visit_over_0_5_>_65%",
-          "visit_marca_>_60%",
-          "media_gols_>=_2.5",
-          "btts_>_50%"
-        ],
-        "criterios_total": 5,
-        "modo": "pre_jogo",
-        "prob_1_0_estimada": "10%",
-        "visitante_over_0_5": "67%",
-        "visitante_marca_pct": "67%",
-        "media_gols_total": "1.67",
-        "btts_medio": "40%",
-        "razao": "Jogo com baixa média de gols e defesa sólida do visitante torna o placar 1x0 improvável.",
-        "odd_alvo": "10.50",
-        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
-        "stake_recomendada": "2%"
-      },
-      "lay_0x1": {
-        "aplicavel": false,
-        "criterios_atendidos": [
-          "visit_marca_>_60%"
-        ],
-        "criterios_total": 5,
-        "modo": "pre_jogo",
-        "prob_0_1_estimada": "12%",
-        "mandante_over_0_5": "71%",
-        "mandante_marca_pct": "71%",
-        "media_gols_total": "1.67",
-        "btts_medio": "40%",
-        "razao": "A probabilidade estimada de 0x1 é de 12%, acima do limite. Além disso, o BTTS médio é baixo.",
-        "odd_alvo": "11.00",
-        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
-        "stake_recomendada": "2%"
-      },
-      "confirmacao_visual": null
+      "arquivo": "pdfs/2026-06-21/Brazil_Serie_B/001_11h00_Avaí_x_Cuiabá.pdf"
+    },
+    {
+      "jogo": "CRB x Fortaleza",
+      "arquivo": "pdfs/2026-06-21/Brazil_Serie_B/002_16h00_CRB_x_Fortaleza.pdf"
+    },
+    {
+      "jogo": "São Bernardo x Juventude",
+      "arquivo": "pdfs/2026-06-21/Brazil_Serie_B/003_17h00_São_Bernardo_x_Juventude.pdf"
+    },
+    {
+      "jogo": "Goiás x Operário PR",
+      "arquivo": "pdfs/2026-06-21/Brazil_Serie_B/004_18h30_Goiás_x_Operário_PR.pdf"
+    },
+    {
+      "jogo": "Tunisia x Japan",
+      "arquivo": "pdfs/2026-06-21/International_World_Cup/005_01h00_Tunisia_x_Japan.pdf"
+    },
+    {
+      "jogo": "Spain x Saudi Arabia",
+      "arquivo": "pdfs/2026-06-21/International_World_Cup/006_13h00_Spain_x_Saudi_Arabia.pdf"
+    },
+    {
+      "jogo": "Belgium x Iran",
+      "arquivo": "pdfs/2026-06-21/International_World_Cup/007_16h00_Belgium_x_Iran.pdf"
+    },
+    {
+      "jogo": "Uruguay x Cape Verde Islands",
+      "arquivo": "pdfs/2026-06-21/International_World_Cup/008_19h00_Uruguay_x_Cape_Verde_Islands.pdf"
+    },
+    {
+      "jogo": "New Zealand x Egypt",
+      "arquivo": "pdfs/2026-06-21/International_World_Cup/009_22h00_New_Zealand_x_Egypt.pdf"
     }
-  ],
-  "evitar": []
+  ]
 }
