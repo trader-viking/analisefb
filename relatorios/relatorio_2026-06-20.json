@@ -1,187 +1,28 @@
 {
   "data": "2026-06-20",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-06-20T21:10:31.739833",
+  "gerado_em": "2026-06-20T22:17:15.249056",
   "total_partidas_analisadas": 7,
   "entradas": [
-    {
-      "horario": "14:00",
-      "liga": "International World Cup",
-      "jogo": "Netherlands x Sweden",
-      "metodos_aplicados": [
-        "back_favorito"
-      ],
-      "mercado_principal": "Vitória Netherlands",
-      "probabilidade_estimada": "65%",
-      "fair_odd": "1.54",
-      "odd_minima_entrada": "1.77",
-      "explicacao_curta": "Netherlands marcou 2 gols em 1 jogo, com 2.00 de média, contra 0 gols do Sweden. Favoritismo claro.",
-      "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 65% para a vitória da Netherlands resulta em uma fair odd de 1.54. Com a margem de segurança, a odd mínima de entrada é 1.77.",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
-      "contexto_times": {
-        "casa": {
-          "posicao": null,
-          "objetivo": null
-        },
-        "fora": {
-          "posicao": null,
-          "objetivo": null
-        }
-      },
-      "motivacao_tecnica": "Netherlands (1 jogo, 1 vitória, 2 gols marcados) enfrenta Sweden (0 jogos, 0 vitórias, 0 gols marcados). O favoritismo da Netherlands é claro com base nos dados apresentados.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": null,
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "prob_>=_65%",
-          "em_casa_ou_aproveitamento",
-          "adversario_<_35%",
-          "liga_permitida"
-        ],
-        "criterios_total": 4,
-        "modo": "pre_jogo",
-        "favorito": "Netherlands",
-        "odd_alvo": "1.77",
-        "razao": "Netherlands marcou 2 gols em 1 jogo, com 2.00 de média, contra 0 gols do Sweden.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
-      "confirmacao_visual": null,
-      "_placar": "5x1",
-      "_status": "finalizado",
-      "_placar_atualizado_em": "2026-06-21T01:00:16.687Z",
-      "_vereditos": {
-        "back_favorito": {
-          "resultado": "green",
-          "motivo": "Favorito (casa) venceu 5x1"
-        }
-      },
-      "_veredito": "green"
-    },
-    {
-      "horario": "17:00",
-      "liga": "International World Cup",
-      "jogo": "Germany x Ivory Coast",
-      "metodos_aplicados": [
-        "back_favorito"
-      ],
-      "mercado_principal": "Vitória Germany",
-      "probabilidade_estimada": "70%",
-      "fair_odd": "1.43",
-      "odd_minima_entrada": "1.64",
-      "explicacao_curta": "Germany marcou 7 gols em 1 jogo, com 7.00 de média, contra 0 gols da Ivory Coast. Favoritismo extremo.",
-      "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 70% para a vitória da Germany resulta em uma fair odd de 1.43. Com a margem de segurança, a odd mínima de entrada é 1.64.",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
-      "contexto_times": {
-        "casa": {
-          "posicao": null,
-          "objetivo": null
-        },
-        "fora": {
-          "posicao": null,
-          "objetivo": null
-        }
-      },
-      "motivacao_tecnica": "Germany (1 jogo, 1 vitória, 7 gols marcados) enfrenta Ivory Coast (1 jogo, 0 vitórias, 0 gols marcados). O favoritismo da Germany é extremo com base nos dados apresentados.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": null,
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo extremo e dados estatísticos favoráveis.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "prob_>=_65%",
-          "em_casa_ou_aproveitamento",
-          "adversario_<_35%",
-          "liga_permitida"
-        ],
-        "criterios_total": 4,
-        "modo": "pre_jogo",
-        "favorito": "Germany",
-        "odd_alvo": "1.64",
-        "razao": "Germany marcou 7 gols em 1 jogo, com 7.00 de média, contra 0 gols da Ivory Coast.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
-      "confirmacao_visual": null,
-      "_placar": "2x1",
-      "_status": "finalizado",
-      "_placar_atualizado_em": "2026-06-21T01:00:16.687Z",
-      "_vereditos": {
-        "back_favorito": {
-          "resultado": "green",
-          "motivo": "Favorito (casa) venceu 2x1"
-        }
-      },
-      "_veredito": "green"
-    },
     {
       "horario": "19:00",
       "liga": "Brazil Serie B",
       "jogo": "Vila Nova x Náutico",
       "metodos_aplicados": [
-        "back_favorito"
+        "back_favorito",
+        "back_2x2"
       ],
       "mercado_principal": "Vitória Vila Nova",
-      "probabilidade_estimada": "65%",
-      "fair_odd": "1.54",
-      "odd_minima_entrada": "1.77",
-      "explicacao_curta": "Vila Nova tem 67% de vitórias e 1.67 gols marcados por jogo, contra 43% de vitórias e 1.71 gols marcados do Náutico. Favoritismo claro.",
+      "probabilidade_estimada": "67%",
+      "fair_odd": "1.49",
+      "odd_minima_entrada": "1.69",
+      "explicacao_curta": "Vila Nova em casa com 67% de vitórias e 1.67 gols marcados, contra Náutico com 43% de vitórias e 1.71 gols marcados. Jogo com potencial de gols.",
       "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 65% para a vitória do Vila Nova resulta em uma fair odd de 1.54. Com a margem de segurança, a odd mínima de entrada é 1.77.",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
+      "valor_esperado": "Probabilidade estimada de 67% para a vitória do Vila Nova resulta em uma fair odd de 1.49. A odd mínima de entrada é de 1.69, indicando valor.",
+      "mercado_secundario": "Placar Exato 2x2",
+      "odd_minima_secundaria": "12.00",
+      "desempenho_1t": "Vila Nova: 0.67 Gols Marcados | Náutico: 0.43 Gols Marcados",
+      "desempenho_2t": "Vila Nova: 1.00 Gols Marcados | Náutico: 1.29 Gols Marcados",
       "contexto_times": {
         "casa": {
           "posicao": "2º",
@@ -189,120 +30,127 @@
         },
         "fora": {
           "posicao": "3º",
-          "objetivo": "titulo"
+          "objetivo": "acesso"
         }
       },
-      "motivacao_tecnica": "Vila Nova (2º, brigando por título) enfrenta Náutico (3º, brigando por título). Vila Nova tem melhor aproveitamento (67% vs 43%) e média de gols marcados (1.67 vs 1.71). O favoritismo é claro.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": null,
+      "motivacao_tecnica": "Vila Nova lidera a competição com 67% de vitórias e forte desempenho em casa (1.67 gols marcados). Náutico também vem bem, mas com aproveitamento ligeiramente inferior e média de gols sofridos mais alta. O jogo tem potencial para ambos marcarem e muitos gols.",
+      "coeficiente_regularidade": "Vila Nova: CV moderado | Náutico: CV moderado",
+      "mando_de_campo": "Vila Nova faz 67% dos pontos em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
+      "especificidades_gols": "Vila Nova marca mais no 2º tempo. Náutico marca mais no 2º tempo.",
+      "momento_gols": "Vila Nova: 61-75 (30%) | Náutico: 76-90 (42%)",
+      "jogadores_chave": "Ryan Aparecido Lima Cassiano (Vila Nova), Vinícius Santos Silva (Náutico)",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out parcial em 2x1 ou 1x2.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo claro do Vila Nova e potencial de gols.",
+        "gatilho_saida_parcial": "Placar 2x1 ou 1x2.",
+        "hard_stop": "Não aplicável"
       },
       "back_favorito": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_>=_65%",
-          "em_casa_ou_aproveitamento",
-          "adversario_<_35%",
+          "prob_estimada_>=_65%",
+          "favorito_em_casa",
+          "adversario_com_aproveitamento_<_35%",
           "liga_permitida"
         ],
         "criterios_total": 4,
         "modo": "pre_jogo",
         "favorito": "Vila Nova",
-        "odd_alvo": "1.77",
-        "razao": "Vila Nova tem melhor aproveitamento (67% vs 43%) e média de gols marcados (1.67 vs 1.71).",
+        "odd_alvo": "1.45",
+        "razao": "Vila Nova é favorito claro em casa, com alto aproveitamento e média de gols, contra um Náutico que, apesar de bom, tem um aproveitamento ligeiramente inferior e sofre mais gols.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
       "lay_zebra": null,
       "over_limite_70": null,
-      "back_2x2": null,
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "indice_over_2_5_>=_60%",
+          "indice_ambas_marcam_>=_60%",
+          "ambos_com_defesa_que_sofre_>=_1.2_gols_por_jogo"
+        ],
+        "criterios_total": 3,
+        "razao": "Vila Nova tem 50% de Over 2.5 e 67% de Ambas Marcam. Náutico tem 43% de Over 2.5 e 57% de Ambas Marcam. Média de gols total é 2.50. Ambos os times marcam e sofrem gols com frequência.",
+        "indice_over_2_5": "Vila Nova: 50% | Náutico: 43% (Média: 46.5%)",
+        "indice_ambas_marcam": "Vila Nova: 67% | Náutico: 57% (Média: 62%)",
+        "indice_over_ht": "Vila Nova: 83% | Náutico: 71% (Média: 77%)",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
       "back_goleada": null,
       "lay_1x0": null,
       "lay_0x1": null,
-      "confirmacao_visual": null,
-      "_placar": "4x3",
-      "_status": "finalizado",
-      "_placar_atualizado_em": "2026-06-21T01:00:16.687Z",
-      "_vereditos": {
-        "back_favorito": {
-          "resultado": "green",
-          "motivo": "Favorito (casa) venceu 4x3"
-        }
-      },
-      "_veredito": "green"
+      "confirmacao_visual": null
     },
     {
       "horario": "19:00",
       "liga": "Brazil Serie B",
       "jogo": "Ceará x Botafogo SP",
       "metodos_aplicados": [
-        "back_favorito"
+        "back_favorito",
+        "lay_1x0"
       ],
       "mercado_principal": "Vitória Ceará",
       "probabilidade_estimada": "65%",
       "fair_odd": "1.54",
       "odd_minima_entrada": "1.77",
-      "explicacao_curta": "Ceará tem 43% de vitórias e 1.43 gols marcados, contra 14% de vitórias e 0.43 gols marcados do Botafogo SP. Favoritismo claro.",
+      "explicacao_curta": "Ceará em casa com 43% de vitórias e 1.43 gols marcados, contra Botafogo SP com 14% de vitórias e 0.43 gols marcados. Ceará é favorito claro.",
       "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 65% para a vitória do Ceará resulta em uma fair odd de 1.54. Com a margem de segurança, a odd mínima de entrada é 1.77.",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
+      "valor_esperado": "Probabilidade estimada de 65% para a vitória do Ceará resulta em uma fair odd de 1.54. A odd mínima de entrada é de 1.77, indicando valor.",
+      "mercado_secundario": "Lay 1x0",
+      "odd_minima_secundaria": "9.00",
+      "desempenho_1t": "Ceará: 1.00 Gols Marcados | Botafogo SP: 0.14 Gols Marcados",
+      "desempenho_2t": "Ceará: 0.43 Gols Marcados | Botafogo SP: 0.29 Gols Marcados",
       "contexto_times": {
         "casa": {
           "posicao": "9º",
-          "objetivo": "libertadores"
+          "objetivo": "sul_americana"
         },
         "fora": {
           "posicao": "16º",
           "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "Ceará (9º, buscando vaga continental) enfrenta Botafogo SP (16º, lutando contra rebaixamento). Ceará tem melhor aproveitamento (43% vs 14%) e média de gols marcados (1.43 vs 0.43). O favoritismo é claro.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": null,
+      "motivacao_tecnica": "Ceará é o favorito claro, jogando em casa contra um Botafogo SP em má fase, com baixo poder ofensivo. O Ceará tem um histórico recente melhor e busca se aproximar da zona de classificação para a Sul-Americana.",
+      "coeficiente_regularidade": "Ceará: CV moderado | Botafogo SP: CV alto",
+      "mando_de_campo": "Ceará faz 43% dos pontos em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
+      "especificidades_gols": "Ceará marca mais no 1º tempo. Botafogo SP marca mais no 2º tempo.",
+      "momento_gols": "Ceará: 31-45 (40%) | Botafogo SP: 31-45 (33%)",
+      "jogadores_chave": "Melquisedeque Costa de Oliveira (Ceará), Hygor Cleber Garcia Silva (Botafogo SP)",
+      "placares_provaveis": "2x0, 1x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo claro do Ceará e baixo potencial ofensivo do adversário.",
+        "gatilho_saida_parcial": "Não aplicável",
+        "hard_stop": "Não aplicável"
       },
       "back_favorito": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_>=_65%",
-          "em_casa_ou_aproveitamento",
-          "adversario_<_35%",
+          "prob_estimada_>=_65%",
+          "favorito_em_casa",
+          "adversario_com_aproveitamento_<_35%",
           "liga_permitida"
         ],
         "criterios_total": 4,
         "modo": "pre_jogo",
         "favorito": "Ceará",
-        "odd_alvo": "1.77",
-        "razao": "Ceará tem melhor aproveitamento (43% vs 14%) e média de gols marcados (1.43 vs 0.43).",
+        "odd_alvo": "1.45",
+        "razao": "Ceará é favorito claro em casa, com um aproveitamento razoável e enfrentando um Botafogo SP com baixo desempenho ofensivo e muitas derrotas.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -310,86 +158,111 @@
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
-      "confirmacao_visual": null,
-      "_placar": "0x1",
-      "_status": "finalizado",
-      "_placar_atualizado_em": "2026-06-21T01:00:16.687Z",
-      "_vereditos": {
-        "back_favorito": {
-          "resultado": "red",
-          "motivo": "Favorito (casa) não venceu (0x1)"
-        }
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "8%",
+        "visitante_over_0_5": "29%",
+        "visitante_marca_pct": "29%",
+        "media_gols_total": "2.72",
+        "btts_medio": "50%",
+        "razao": "O Botafogo SP tem um ataque muito fraco (0.43 gols/jogo e 29% de jogos marcando), tornando improvável um placar de 1x0 para o Ceará. A média de gols total é alta, indicando potencial para outros placares.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
       },
-      "_veredito": "red"
+      "lay_0x1": null,
+      "confirmacao_visual": null
     },
     {
       "horario": "21:00",
       "liga": "International World Cup",
       "jogo": "Ecuador x Curaçao",
       "metodos_aplicados": [
-        "back_favorito"
+        "back_favorito",
+        "back_goleada"
       ],
       "mercado_principal": "Vitória Ecuador",
-      "probabilidade_estimada": "70%",
-      "fair_odd": "1.43",
-      "odd_minima_entrada": "1.64",
-      "explicacao_curta": "Ecuador marcou 1 gol em 1 jogo, com 1.00 de média, contra 0 gols de Curaçao. Favoritismo claro.",
+      "probabilidade_estimada": "85%",
+      "fair_odd": "1.18",
+      "odd_minima_entrada": "1.36",
+      "explicacao_curta": "Equador com forte ataque (média de 7 gols) e defesa sólida, contra Curaçao com defesa muito frágil (média de 7 gols sofridos). Cenário de goleada.",
       "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 70% para a vitória do Ecuador resulta em uma fair odd de 1.43. Com a margem de segurança, a odd mínima de entrada é 1.64.",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
+      "valor_esperado": "Probabilidade estimada de 85% para a vitória do Equador resulta em uma fair odd de 1.18. A odd mínima de entrada é de 1.36, indicando valor.",
+      "mercado_secundario": "Equador marca 4+ gols e vence",
+      "odd_minima_secundaria": "3.50",
+      "desempenho_1t": "Equador: 1.00 Gols Marcados | Curaçao: 1.00 Gols Marcados",
+      "desempenho_2t": "Equador: 0.00 Gols Marcados | Curaçao: 0.00 Gols Marcados",
       "contexto_times": {
         "casa": {
-          "posicao": null,
-          "objetivo": null
+          "posicao": "",
+          "objetivo": "sem_objetivo"
         },
         "fora": {
-          "posicao": null,
-          "objetivo": null
+          "posicao": "",
+          "objetivo": "sem_objetivo"
         }
       },
-      "motivacao_tecnica": "Ecuador (1 jogo, 1 gol marcado) enfrenta Curaçao (1 jogo, 0 gols marcados). O favoritismo do Ecuador é claro com base nos dados apresentados.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": null,
+      "motivacao_tecnica": "Equador demonstra um poder ofensivo avassalador em seu único jogo registrado (7 gols marcados), enquanto Curaçao sofreu 7 gols. A diferença técnica é gritante, favorecendo uma goleada equatoriana.",
+      "coeficiente_regularidade": "Equador: CV baixo | Curaçao: CV alto",
+      "mando_de_campo": "Equador joga em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
+      "especificidades_gols": "Equador marca mais no 1º tempo.",
+      "momento_gols": "Equador: 0-15 (14%), 31-45 (29%), 46-60 (14%), 61-75 (14%), 76-90 (29%) | Curaçao: 16-30 (100%)",
+      "jogadores_chave": "Enner Valencia (Ecuador), Livano Comenencia (Curaçao)",
+      "placares_provaveis": "5x0, 6x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Não aplicável",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo extremo e grande diferença técnica.",
+        "gatilho_saida_parcial": "Não aplicável",
+        "hard_stop": "Não aplicável"
       },
       "back_favorito": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_>=_65%",
-          "em_casa_ou_aproveitamento",
-          "adversario_<_35%",
+          "prob_estimada_>=_65%",
+          "favorito_em_casa",
+          "adversario_com_aproveitamento_<_35%",
           "liga_permitida"
         ],
         "criterios_total": 4,
         "modo": "pre_jogo",
         "favorito": "Ecuador",
-        "odd_alvo": "1.64",
-        "razao": "Ecuador marcou 1 gol em 1 jogo, com 1.00 de média, contra 0 gols de Curaçao.",
+        "odd_alvo": "1.45",
+        "razao": "Equador é um favorito extremo, com um poder ofensivo demonstrado e enfrentando um adversário com defesa extremamente frágil.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
       "lay_zebra": null,
       "over_limite_70": null,
       "back_2x2": null,
-      "back_goleada": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=_70%",
+          "ofensiva_favorito_>=_2.5",
+          "defesa_adv_>=_2.0"
+        ],
+        "criterios_total": 3,
+        "candidato": "Ecuador",
+        "razao": "Equador demonstrou um poder ofensivo excepcional (7 gols em 1 jogo) contra uma defesa de Curaçao que sofreu 7 gols em 1 jogo. O favoritismo é extremo.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Ecuador marca 4+ gols e vence",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
       "lay_1x0": null,
       "lay_0x1": null,
       "confirmacao_visual": null
@@ -400,30 +273,60 @@
       "horario": "00:00",
       "jogo": "Turkey x Paraguay",
       "liga": "International World Cup",
-      "motivo": "Dados insuficientes para aplicar métodos de forma confiável.",
+      "motivo": "Dados insuficientes e amostra muito pequena.",
       "motivos_por_metodo": {
-        "back_favorito": "Não há dados suficientes para determinar um favorito claro ou estimar probabilidade de vitória. O histórico de jogos é muito limitado.",
-        "lay_zebra": "Não há dados suficientes para identificar uma zebra clara com odd >= 5.00 e desempenho ruim.",
-        "over_limite_70": "Não há dados de 'Momento dos Gols' para aplicar o critério.",
-        "back_2x2": "Não há dados suficientes de Over 2.5 e Ambas Marcam para ambos os times.",
-        "back_goleada": "Não há dados suficientes para determinar favoritismo extremo ou padrão ofensivo/defensivo claro.",
-        "lay_1x0": "Não há dados suficientes para estimar a probabilidade de 1x0, nem para avaliar os critérios de gols do visitante e BTTS.",
-        "lay_0x1": "Não há dados suficientes para estimar a probabilidade de 0x1, nem para avaliar os critérios de gols do mandante e BTTS."
+        "back_favorito": "Dados insuficientes para estimar probabilidade e favoritismo.",
+        "lay_zebra": "Dados insuficientes para estimar probabilidade e favoritismo.",
+        "over_limite_70": "Dados de 'Momento dos Gols' não disponíveis ou insuficientes.",
+        "back_2x2": "Dados insuficientes para Over 2.5, Ambas Marcam e Over HT.",
+        "back_goleada": "Dados insuficientes para estimar favoritismo e poder ofensivo/defensivo.",
+        "lay_1x0": "Dados insuficientes para estimar P(1-0), over 0.5, marcação e BTTS.",
+        "lay_0x1": "Dados insuficientes para estimar P(0-1), over 0.5, marcação e BTTS."
       }
     },
     {
       "horario": "11:00",
       "jogo": "Londrina x Athletic Club",
       "liga": "Brazil Serie B",
-      "motivo": "Dados insuficientes para aplicar métodos de forma confiável.",
+      "motivo": "Falta de favoritismo claro e dados insuficientes para outros métodos.",
       "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada de vitória do Londrina é 50% (baseado em aproveitamento similar), necessitando de 65%.",
-        "lay_zebra": "A odd da zebra (Athletic Club) não é clara, mas o aproveitamento é similar ao do Londrina, não indicando zebra clara com odd >= 5.00.",
-        "over_limite_70": "Dados de 'Momento dos Gols' não fornecem informações suficientes para aplicar o critério de 25% em faixas de tempo específicas.",
-        "back_2x2": "Índice de Over 2.5 gols para Londrina é 50% e para Athletic Club é 50%, necessitando de 60%.",
-        "back_goleada": "Probabilidade estimada de vitória do Londrina é 50%, necessitando de 70% para favoritismo extremo.",
-        "lay_1x0": "A probabilidade estimada de 1x0 é incerta devido à falta de dados específicos. A média de gols total é 2.84, mas outros critérios como BTTS médio e % de gols do visitante não são conclusivos para aplicar.",
-        "lay_0x1": "A probabilidade estimada de 0x1 é incerta devido à falta de dados específicos. A média de gols total é 2.84, mas outros critérios como BTTS médio e % de gols do mandante não são conclusivos para aplicar."
+        "back_favorito": "Probabilidade estimada de vitória do Londrina é de 50%, abaixo do limiar de 65%.",
+        "lay_zebra": "A odd estimada para o Athletic Club é de 2.83, abaixo do limiar de 5.00.",
+        "over_limite_70": "Dados de 'Momento dos Gols' não atendem aos critérios de 25% nas faixas de 61-75 ou 76-90.",
+        "back_2x2": "Índice de Over 2.5 é de 50% (abaixo de 60%) e Ambas Marcam é de 67% (atende). Média de gols total é 2.84, mas o Over 2.5 não atinge o critério.",
+        "back_goleada": "Probabilidade estimada de vitória do Londrina é de 50%, abaixo do limiar de 70%.",
+        "lay_1x0": "P(1-0) estimada é alta (>12%) devido à média de gols total ser 2.84, mas o visitante marca em 33% dos jogos (abaixo de 60%).",
+        "lay_0x1": "P(0-1) estimada é alta (>12%) devido à média de gols total ser 2.84, mas o mandante marca em 50% dos jogos (abaixo de 60%)."
+      }
+    },
+    {
+      "horario": "14:00",
+      "jogo": "Netherlands x Sweden",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes e amostra muito pequena.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes para estimar probabilidade e favoritismo.",
+        "lay_zebra": "Dados insuficientes para estimar probabilidade e favoritismo.",
+        "over_limite_70": "Dados de 'Momento dos Gols' não disponíveis ou insuficientes.",
+        "back_2x2": "Dados insuficientes para Over 2.5, Ambas Marcam e Over HT.",
+        "back_goleada": "Dados insuficientes para estimar favoritismo e poder ofensivo/defensivo.",
+        "lay_1x0": "Dados insuficientes para estimar P(1-0), over 0.5, marcação e BTTS.",
+        "lay_0x1": "Dados insuficientes para estimar P(0-1), over 0.5, marcação e BTTS."
+      }
+    },
+    {
+      "horario": "17:00",
+      "jogo": "Germany x Ivory Coast",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes e amostra muito pequena.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes para estimar probabilidade e favoritismo.",
+        "lay_zebra": "Dados insuficientes para estimar probabilidade e favoritismo.",
+        "over_limite_70": "Dados de 'Momento dos Gols' não disponíveis ou insuficientes.",
+        "back_2x2": "Dados insuficientes para Over 2.5, Ambas Marcam e Over HT.",
+        "back_goleada": "Dados insuficientes para estimar favoritismo e poder ofensivo/defensivo.",
+        "lay_1x0": "Dados insuficientes para estimar P(1-0), over 0.5, marcação e BTTS.",
+        "lay_0x1": "Dados insuficientes para estimar P(0-1), over 0.5, marcação e BTTS."
       }
     }
   ],
