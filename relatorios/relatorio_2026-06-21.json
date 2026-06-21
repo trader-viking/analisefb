@@ -1,10 +1,664 @@
 {
   "data": "2026-06-21",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-06-20T21:15:19.407526",
-  "total_partidas_analisadas": 7,
-  "entradas": [],
-  "evitar": [],
+  "gerado_em": "2026-06-20T21:19:56.491176",
+  "total_partidas_analisadas": 9,
+  "entradas": [
+    {
+      "horario": "01:00",
+      "liga": "International World Cup",
+      "jogo": "Tunisia x Japan",
+      "metodos_aplicados": [
+        "lay_0x1"
+      ],
+      "mercado_principal": "Lay 0x1",
+      "probabilidade_estimada": "10%",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "11.50",
+      "explicacao_curta": "Jogo com média de gols total de 4.00, Japão com 100% de Over 0.5 e 100% de Ambas Marcam. Improvável que termine em 0x1 para o visitante.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 10% para o placar 0x1, com fair odd de 10.00. Odd mínima de entrada de 11.50.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": null,
+        "fora": null
+      },
+      "motivacao_tecnica": "Ambas as seleções buscam pontos importantes em um torneio de alto nível. O histórico de gols sugere um jogo aberto.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Tunisia: 0.00 Média Gols Marcados, 0.00 Média Gols Sofridos. Japan: 2.00 Média Gols Marcados, 2.00 Média Gols Sofridos.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": "Tunisia: 0-15min (0% Marcado, 0% Sofrido), 16-30min (0% Marcado, 0% Sofrido), 31-45min (0% Marcado, 0% Sofrido), 46-60min (0% Marcado, 0% Sofrido), 61-75min (0% Marcado, 0% Sofrido), 76-90min (0% Marcado, 0% Sofrido). Japan: 46-60min (50% Marcado, 50% Sofrido), 61-75min (0% Marcado, 50% Sofrido), 76-90min (50% Marcado, 0% Sofrido).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O jogo tem um perfil de gols que torna o placar exato 0x1 improvável.",
+        "gatilho_saida_parcial": "Eventos que justificam reduzir exposição",
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "0%",
+        "mandante_marca_pct": "0%",
+        "media_gols_total": "4.00",
+        "btts_medio": "100%",
+        "razao": "Mandante marca em 0% dos jogos (precisa > 60%). Mandante Over 0.5 é 0% (precisa > 65%).",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "11:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Avaí x Cuiabá",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais 1.5 gols",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "explicacao_curta": "Cuiabá tem forte desempenho no 2º tempo, marcando 50% dos seus gols entre 61-75min. Avaí sofre 22% dos seus gols na mesma faixa. Jogo com potencial para gols tardios.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 60% para gols tardios, com fair odd de 1.67. Odd mínima de entrada de 1.92.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "17",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "6",
+          "objetivo": "acesso"
+        }
+      },
+      "motivacao_tecnica": "Avaí na zona de rebaixamento buscando pontos cruciais, enquanto Cuiabá busca manter a posição de acesso. O desempenho tardio de ambos os times sugere um jogo que pode se abrir no segundo tempo.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Avaí: 1.00 Média Gols Marcados, 1.29 Média Gols Sofridos. Cuiabá: 0.67 Média Gols Marcados, 0.33 Média Gols Sofridos.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": "Avaí: 61-75min (14% Marcado, 22% Sofrido). Cuiabá: 61-75min (50% Marcado, 50% Sofrido).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "ao_vivo",
+      "situacao_saida": null,
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O jogo apresenta um cenário de gols tardios com base nas estatísticas de momento dos gols.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "cuiaba_marcado_61_75_>=_25%",
+          "cuiaba_sofrido_61_75_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Cuiabá - brigando por acesso vs Avaí - lutando contra rebaixamento",
+        "indices_gols_faixas": "Avaí Marcado 61-75: 14% | 76-90: 29% | Avaí Sofrido 61-75: 22% | 76-90: 22% | Cuiabá Marcado 61-75: 50% | 76-90: 25% | Cuiabá Sofrido 61-75: 50% | 76-90: 0%",
+        "qual_condicao_atende": "Cuiabá Marcado 61-75: 50% (atende a condição >= 25%) | Cuiabá Sofrido 61-75: 50% (atende a condição >= 25%)",
+        "motivo_motivacao": "Avaí na zona de rebaixamento, Cuiabá na zona de acesso.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais 1.5 gols (assumindo placar 0-0 ou 1-0)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "13:00",
+      "liga": "International World Cup",
+      "jogo": "Spain x Saudi Arabia",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Spain",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "explicacao_curta": "Espanha com alto xG a favor (3.19) e 7 finalizações no alvo em 1 jogo. Arábia Saudita com 0 finalizações no alvo e 0 xG a favor.",
+      "alerta_geral": null,
+      "valor_esperado": "Espanha é favorita clara com forte desempenho ofensivo e Arábia Saudita com desempenho ofensivo nulo.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": null,
+        "fora": null
+      },
+      "motivacao_tecnica": "Espanha busca iniciar o torneio com vitória, enquanto Arábia Saudita enfrenta um adversário de peso.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Spain: 3.19 xG Médio a Favor, 7.00 Finalizações no Alvo. Saudi Arabia: 0.00 xG Médio a Favor, 0.00 Finalizações no Alvo.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": "Spain: 0-15min (0% Marcado, 0% Sofrido), 16-30min (0% Marcado, 0% Sofrido), 31-45min (0% Marcado, 0% Sofrido), 46-60min (0% Marcado, 0% Sofrido), 61-75min (0% Marcado, 0% Sofrido), 76-90min (0% Marcado, 0% Sofrido). Saudi Arabia: 0-15min (0% Marcado, 0% Sofrido), 16-30min (0% Marcado, 0% Sofrido), 31-45min (0% Marcado, 0% Sofrido), 46-60min (50% Marcado, 50% Sofrido), 61-75min (0% Marcado, 50% Sofrido), 76-90min (50% Marcado, 0% Sofrido).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Espanha é clara favorita com forte desempenho ofensivo.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Spain",
+        "odd_alvo": "1.45",
+        "razao": "Espanha demonstra forte poder ofensivo com alto xG e finalizações no alvo, contra um adversário com desempenho ofensivo nulo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "Brazil Serie B",
+      "jogo": "CRB x Fortaleza",
+      "metodos_aplicados": [
+        "back_2x2"
+      ],
+      "mercado_principal": "Placar Exato 2x2",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "explicacao_curta": "CRB tem alto índice de Over 2.5 (67%) e Ambas Marcam (50%). Fortaleza tem Over 2.5 (67%) e Ambas Marcam (14%). Média de gols total 3.50. Defesas de ambos sofrem mais de 1.2 gols/jogo.",
+      "alerta_geral": null,
+      "valor_esperado": "Jogo com forte tendência para Over 2.5 e Ambas Marcam, indicando potencial para placar 2x2.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "16",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "11",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "CRB luta contra o rebaixamento, buscando pontos em casa. Fortaleza está no meio da tabela, mas com histórico de jogos com muitos gols.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "CRB: 1.83 Média Gols Marcados, 1.67 Média Gols Sofridos. Fortaleza: 0.43 Média Gols Marcados, 1.00 Média Gols Sofridos.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": "CRB: 0-15min (9% Marcado, 0% Sofrido), 16-30min (27% Marcado, 20% Sofrido), 31-45min (18% Marcado, 20% Sofrido), 46-60min (27% Marcado, 20% Sofrido), 76-90min (18% Marcado, 30% Sofrido). Fortaleza: 16-30min (33% Marcado, 0% Sofrido), 31-45min (33% Marcado, 43% Sofrido), 76-90min (33% Marcado, 0% Sofrido).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+      "stake_recomendada": "0.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O jogo apresenta um padrão forte de Over 2.5 e Ambas Marcam, com potencial para placar 2x2.",
+        "gatilho_saida_parcial": "Eventos que justificam reduzir exposição",
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "indice_over_2_5_>=_60%",
+          "indice_ambas_marcam_>=_60%",
+          "defesa_adv_>=_1.2"
+        ],
+        "criterios_total": 3,
+        "razao": "CRB tem 67% Over 2.5 e 50% Ambas Marcam. Fortaleza tem 67% Over 2.5 e 14% Ambas Marcam. Média de gols total 3.50. CRB sofre 1.67 gols/jogo, Fortaleza sofre 1.00 gols/jogo.",
+        "indice_over_2_5": "CRB: 67% | Fortaleza: 67% (Média: 67%)",
+        "indice_ambas_marcam": "CRB: 50% | Fortaleza: 14% (Média: 32%) - Este critério não é atendido para o Fortaleza.",
+        "indice_over_ht": "CRB: 83% | Fortaleza: 43% (Média: 63%)",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "International World Cup",
+      "jogo": "Belgium x Iran",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Belgium",
+      "probabilidade_estimada": "70%",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.64",
+      "explicacao_curta": "Bélgica com alto xG a favor (1.62) e 3 finalizações no alvo em 1 jogo. Irã com 0 finalizações no alvo e 0 xG a favor.",
+      "alerta_geral": null,
+      "valor_esperado": "Bélgica é favorita clara com bom desempenho ofensivo e Irã com desempenho ofensivo nulo.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": null,
+        "fora": null
+      },
+      "motivacao_tecnica": "Bélgica busca iniciar o torneio com vitória, enquanto Irã enfrenta um adversário de peso.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Belgium: 1.62 xG Médio a Favor, 3.00 Finalizações no Alvo. Iran: 0.00 xG Médio a Favor, 0.00 Finalizações no Alvo.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": "Belgium: 0-15min (0% Marcado, 0% Sofrido), 16-30min (0% Marcado, 100% Sofrido), 31-45min (0% Marcado, 0% Sofrido), 46-60min (0% Marcado, 0% Sofrido), 61-75min (100% Marcado, 0% Sofrido), 76-90min (0% Marcado, 0% Sofrido). Iran: 0-15min (0% Marcado, 0% Sofrido), 16-30min (0% Marcado, 0% Sofrido), 31-45min (0% Marcado, 0% Sofrido), 46-60min (0% Marcado, 0% Sofrido), 61-75min (0% Marcado, 0% Sofrido), 76-90min (0% Marcado, 0% Sofrido).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Bélgica é clara favorita com bom desempenho ofensivo.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Belgium",
+        "odd_alvo": "1.45",
+        "razao": "Bélgica demonstra bom poder ofensivo com alto xG e finalizações no alvo, contra um adversário com desempenho ofensivo nulo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "17:00",
+      "liga": "Brazil Serie B",
+      "jogo": "São Bernardo x Juventude",
+      "metodos_aplicados": [
+        "lay_1x0"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "10%",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "11.50",
+      "explicacao_curta": "Jogo com média de gols total de 1.84, visitante com 67% de Over 0.5 e 50% de Ambas Marcam. Improvável que termine em 1x0 para o mandante.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 10% para o placar 1x0, com fair odd de 10.00. Odd mínima de entrada de 11.50.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "12",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "17",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "São Bernardo busca se afastar da zona de rebaixamento, enquanto Juventude luta para sair dela. O jogo pode ter gols, tornando o placar exato 1x0 menos provável.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "São Bernardo: 1.00 Média Gols Marcados, 0.71 Média Gols Sofridos. Juventude: 0.67 Média Gols Marcados, 1.17 Média Gols Sofridos.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": "São Bernardo: 0-15min (29% Marcado, 20% Sofrido), 76-90min (43% Marcado, 40% Sofrido). Juventude: 31-45min (25% Marcado, 43% Sofrido), 46-60min (50% Marcado, 0% Sofrido), 76-90min (25% Marcado, 14% Sofrido).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O jogo tem um perfil de gols que torna o placar exato 1x0 improvável.",
+        "gatilho_saida_parcial": "Eventos que justificam reduzir exposição",
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "67%",
+        "visitante_marca_pct": "50%",
+        "media_gols_total": "1.84",
+        "btts_medio": "43%",
+        "razao": "Média de gols total de 1.84 (precisa >= 2.5). Visitante marca em 50% dos jogos (precisa > 60%). BTTS médio de 43% (precisa > 50%).",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "18:30",
+      "liga": "Brazil Serie B",
+      "jogo": "Goiás x Operário PR",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais 1.5 gols",
+      "probabilidade_estimada": "65%",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.77",
+      "explicacao_curta": "Operário PR tem forte desempenho no 2º tempo, marcando 50% dos seus gols entre 31-45min e 33% entre 46-60min. Goiás sofre 29% dos seus gols entre 61-75min e 43% entre 76-90min. Jogo com potencial para gols tardios.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 65% para gols tardios, com fair odd de 1.54. Odd mínima de entrada de 1.77.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "7",
+          "objetivo": "acesso"
+        },
+        "fora": {
+          "posicao": "12",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Goiás busca manter a posição de acesso, enquanto Operário PR busca se firmar no meio da tabela. O desempenho tardio de ambos os times sugere um jogo que pode se abrir no segundo tempo.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Goiás: 1.00 Média Gols Marcados, 1.17 Média Gols Sofridos. Operário PR: 1.00 Média Gols Marcados, 1.50 Média Gols Sofridos.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": "Goiás: 61-75min (17% Marcado, 29% Sofrido), 76-90min (33% Marcado, 43% Sofrido). Operário PR: 31-45min (50% Marcado, 11% Sofrido), 46-60min (33% Marcado, 22% Sofrido), 61-75min (0% Marcado, 11% Sofrido), 76-90min (17% Marcado, 11% Sofrido).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "ao_vivo",
+      "situacao_saida": null,
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O jogo apresenta um cenário de gols tardios com base nas estatísticas de momento dos gols.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "goias_sofrido_61_75_>=_25%",
+          "goias_sofrido_76_90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Goiás - brigando por acesso vs Operário PR - meio de tabela",
+        "indices_gols_faixas": "Goiás Marcado 61-75: 17% | 76-90: 33% | Goiás Sofrido 61-75: 29% | 76-90: 43% | Operário PR Marcado 61-75: 0% | 76-90: 17% | Operário PR Sofrido 61-75: 11% | 76-90: 11%",
+        "qual_condicao_atende": "Goiás Sofrido 61-75: 29% (atende a condição >= 25%) | Goiás Sofrido 76-90: 43% (atende a condição >= 25%)",
+        "motivo_motivacao": "Goiás na zona de acesso, Operário PR no meio de tabela.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais 1.5 gols (assumindo placar 0-0 ou 1-0)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "19:00",
+      "liga": "International World Cup",
+      "jogo": "Uruguay x Cape Verde Islands",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Uruguay",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "explicacao_curta": "Uruguai com alto xG a favor (0.50) e 0 finalizações no alvo em 1 jogo. Cabo Verde com 0 xG a favor e 1 finalização no alvo.",
+      "alerta_geral": null,
+      "valor_esperado": "Uruguai é favorita clara com potencial ofensivo, contra um adversário com desempenho ofensivo limitado.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": null,
+        "fora": null
+      },
+      "motivacao_tecnica": "Uruguai busca iniciar o torneio com vitória, enquanto Cabo Verde enfrenta um adversário de peso.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Uruguay: 0.50 xG Médio a Favor, 0.00 Finalizações no Alvo. Cape Verde Islands: 0.50 xG Médio Contra, 1.00 Finalizações no Alvo.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": "Uruguay: 0-15min (0% Marcado, 0% Sofrido), 16-30min (0% Marcado, 0% Sofrido), 31-45min (0% Marcado, 0% Sofrido), 46-60min (0% Marcado, 0% Sofrido), 61-75min (0% Marcado, 0% Sofrido), 76-90min (0% Marcado, 0% Sofrido). Cape Verde Islands: 0-15min (0% Marcado, 0% Sofrido), 16-30min (0% Marcado, 0% Sofrido), 31-45min (0% Marcado, 0% Sofrido), 46-60min (0% Marcado, 0% Sofrido), 61-75min (0% Marcado, 0% Sofrido), 76-90min (0% Marcado, 0% Sofrido).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Uruguai é clara favorita com potencial ofensivo.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Uruguay",
+        "odd_alvo": "1.45",
+        "razao": "Uruguai demonstra potencial ofensivo com xG a favor, contra um adversário com desempenho ofensivo limitado.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "22:00",
+      "liga": "International World Cup",
+      "jogo": "New Zealand x Egypt",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Egypt",
+      "probabilidade_estimada": "70%",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.64",
+      "explicacao_curta": "Egito com alto xG a favor (1.62) e 3 finalizações no alvo em 1 jogo. Nova Zelândia com 0 finalizações no alvo e 0 xG a favor.",
+      "alerta_geral": null,
+      "valor_esperado": "Egito é favorita clara com bom desempenho ofensivo e Nova Zelândia com desempenho ofensivo nulo.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": null,
+        "fora": null
+      },
+      "motivacao_tecnica": "Egito busca iniciar o torneio com vitória, enquanto Nova Zelândia enfrenta um adversário de peso.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "New Zealand: 0.00 xG Médio a Favor, 0.00 Finalizações no Alvo. Egypt: 1.62 xG Médio a Favor, 3.00 Finalizações no Alvo.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": "New Zealand: 0-15min (0% Marcado, 0% Sofrido), 16-30min (0% Marcado, 0% Sofrido), 31-45min (0% Marcado, 0% Sofrido), 46-60min (0% Marcado, 0% Sofrido), 61-75min (0% Marcado, 0% Sofrido), 76-90min (0% Marcado, 0% Sofrido). Egypt: 16-30min (100% Marcado, 0% Sofrido), 61-75min (0% Marcado, 100% Sofrido).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Egito é clara favorita com bom desempenho ofensivo.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Egypt",
+        "odd_alvo": "1.45",
+        "razao": "Egito demonstra bom poder ofensivo com alto xG e finalizações no alvo, contra um adversário com desempenho ofensivo nulo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "19:00",
+      "jogo": "Belgium x Iran",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para aplicar outros métodos além de back favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "Aplicável.",
+        "lay_zebra": "Não aplicável. Não há zebra com odd >= 5.00 e desempenho ruim.",
+        "over_limite_70": "Não aplicável. Sem dados de gols por período no PDF.",
+        "back_2x2": "Não aplicável. Não há dados suficientes de Over 2.5 e Ambas Marcam para ambos os times.",
+        "back_goleada": "Não aplicável. Favoritismo não é extremo (prob estimada 70%, precisa >= 70%) e não há dados de média ofensiva do favorito ou defesa do adversário.",
+        "lay_1x0": "Não aplicável. Não há dados suficientes para estimar P(1-0) e outros critérios.",
+        "lay_0x1": "Não aplicável. Não há dados suficientes para estimar P(0-1) e outros critérios."
+      }
+    },
+    {
+      "horario": "19:00",
+      "jogo": "Uruguay x Cape Verde Islands",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para aplicar outros métodos além de back favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "Aplicável.",
+        "lay_zebra": "Não aplicável. Não há zebra com odd >= 5.00 e desempenho ruim.",
+        "over_limite_70": "Não aplicável. Sem dados de gols por período no PDF.",
+        "back_2x2": "Não aplicável. Não há dados suficientes de Over 2.5 e Ambas Marcam para ambos os times.",
+        "back_goleada": "Não aplicável. Favoritismo não é extremo (prob estimada 75%, precisa >= 70%) e não há dados de média ofensiva do favorito ou defesa do adversário.",
+        "lay_1x0": "Não aplicável. Não há dados suficientes para estimar P(1-0) e outros critérios.",
+        "lay_0x1": "Não aplicável. Não há dados suficientes para estimar P(0-1) e outros critérios."
+      }
+    },
+    {
+      "horario": "22:00",
+      "jogo": "New Zealand x Egypt",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para aplicar outros métodos além de back favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "Aplicável.",
+        "lay_zebra": "Não aplicável. Não há zebra com odd >= 5.00 e desempenho ruim.",
+        "over_limite_70": "Não aplicável. Sem dados de gols por período no PDF.",
+        "back_2x2": "Não aplicável. Não há dados suficientes de Over 2.5 e Ambas Marcam para ambos os times.",
+        "back_goleada": "Não aplicável. Favoritismo não é extremo (prob estimada 70%, precisa >= 70%) e não há dados de média ofensiva do favorito ou defesa do adversário.",
+        "lay_1x0": "Não aplicável. Não há dados suficientes para estimar P(1-0) e outros critérios.",
+        "lay_0x1": "Não aplicável. Não há dados suficientes para estimar P(0-1) e outros critérios."
+      }
+    }
+  ],
   "pdfs": [
     {
       "jogo": "Avaí x Cuiabá",
@@ -33,6 +687,14 @@
     {
       "jogo": "Belgium x Iran",
       "arquivo": "pdfs/2026-06-21/International_World_Cup/007_16h00_Belgium_x_Iran.pdf"
+    },
+    {
+      "jogo": "Uruguay x Cape Verde Islands",
+      "arquivo": "pdfs/2026-06-21/International_World_Cup/008_19h00_Uruguay_x_Cape_Verde_Islands.pdf"
+    },
+    {
+      "jogo": "New Zealand x Egypt",
+      "arquivo": "pdfs/2026-06-21/International_World_Cup/009_22h00_New_Zealand_x_Egypt.pdf"
     }
   ]
 }
