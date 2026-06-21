@@ -6,6 +6,8 @@ import {
   ExternalLink, TrendingUp, Clock, Trophy, X, SlidersHorizontal, Radio,
 } from 'lucide-react';
 import { BadgeMetodo, metodosAtivos, metodosRankeados, METODOS_INFO, modoDoMetodo, razaoDoMetodo, confiancaDoMetodo } from '@/components/BadgeMetodo';
+import PlacaresProvaveis from '@/components/PlacaresProvaveis';
+import { calcularPlacaresMaisProvaveis, parseMediaGols } from '@/lib/poisson';
 import { ContextoTimesCompacto } from '@/components/ContextoTimes';
 import BotoesApostaMini from '@/components/BotoesApostaMini';
 import BotaoBaixarImagem from '@/components/BotaoBaixarImagem';
@@ -772,6 +774,14 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
                   {entrada.fair_odd && ` · fair ${entrada.fair_odd}`}
                 </div>
               )}
+              {(() => {
+                const mc = parseMediaGols(entrada.media_gols_casa);
+                const mf = parseMediaGols(entrada.media_gols_fora);
+                if (mc === null || mf === null) return null;
+                const top4 = calcularPlacaresMaisProvaveis(mc, mf, 4);
+                if (top4.length === 0) return null;
+                return <PlacaresProvaveis placares={top4} />;
+              })()}
             </div>
 
             {/* SECUNDÁRIOS — até 2, mais discretos */}

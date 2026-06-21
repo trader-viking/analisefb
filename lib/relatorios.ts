@@ -120,6 +120,8 @@ export type Entrada = {
   probabilidade_estimada?: string;
   fair_odd?: string;
   odd_minima_entrada?: string;
+  media_gols_casa?: string | number | null;
+  media_gols_fora?: string | number | null;
   odd_minima_secundaria?: string;
   valor_esperado?: string;
   explicacao_curta?: string;
