@@ -1,97 +1,58 @@
 {
   "data": "2026-06-22",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-06-22T07:52:56.001157",
+  "gerado_em": "2026-06-22T08:01:25.892489",
   "fonte": "radaresportivo.com",
-  "total_jogos_analisados": 1,
+  "total_jogos_analisados": 4,
   "entradas": [
     {
       "horario": "20:00",
       "liga": "Brazil Serie B",
       "jogo": "Ponte Preta x Gremio Novorizontino",
       "metodos_aplicados": [
-        "lay_zebra",
-        "back_2x2",
-        "lay_1x0",
-        "lay_0x1"
+        "lay_1x0"
       ],
-      "mercado_principal": "Lay Zebra",
-      "probabilidade_estimada": "20% (probabilidade da zebra vencer, estimada SÓ pelas estatísticas do PDF)",
-      "fair_odd": "5.00",
-      "odd_minima_entrada": "5.75",
-      "media_gols_casa": "0.90",
-      "media_gols_fora": "1.60",
-      "explicacao_curta": "Gremio Novorizontino é favorito com 1.75, mas Ponte Preta tem péssimo retrospecto em casa (1 vitória em 7 jogos). Zebra com odd alta e desempenho ruim.",
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "10%",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "11.50",
+      "media_gols_casa": "0.71",
+      "media_gols_fora": "1.57",
+      "explicacao_curta": "Ponte Preta com média de 0.71 gols marcados em casa e G. Novorizontino com 1.57 fora. Jogo com potencial para ambos marcarem.",
       "alerta_geral": null,
-      "valor_esperado": "A odd de 1.75 para o favorito é atraente, mas a Ponte Preta em casa tem um aproveitamento muito baixo (14% de vitórias). A odd mínima para lay zebra é 5.75.",
-      "mercado_secundario": "Back 2x2",
-      "odd_minima_secundaria": "10.80",
-      "desempenho_1t": "Casa: 0.50 marcados, 0.80 sofridos. Fora: 0.40 marcados, 0.30 sofridos.",
-      "desempenho_2t": "Casa: 0.40 marcados, 0.70 sofridos. Fora: 1.20 marcados, 0.60 sofridos.",
+      "valor_esperado": "A probabilidade estimada de 1x0 é de 10%, com odd justa de 10.00. A odd mínima de entrada é 11.50.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Ponte Preta: 0.43 marcados, 0.71 sofridos. Gremio Novorizontino: 0.29 marcados, 0.29 sofridos.",
+      "desempenho_2t": "Ponte Preta: 0.29 marcados, 0.86 sofridos. Gremio Novorizontino: 1.29 marcados, 0.43 sofridos.",
       "contexto_times": {
         "casa": {
-          "posicao": "19º (posição como MANDANTE/em casa)",
+          "posicao": "19º",
           "objetivo": "rebaixamento"
         },
         "fora": {
-          "posicao": "8º (posição como VISITANTE/fora)",
-          "objetivo": "acesso"
+          "posicao": "8º",
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Ponte Preta está em zona de rebaixamento (19º) com apenas 1 vitória em casa em 7 jogos. Gremio Novorizontino está em 8º e brigando por acesso, com bom desempenho fora de casa (1.60 pontos por jogo). O favoritismo do Gremio é claro.",
-      "coeficiente_regularidade": "Casa: CV moderado | Visitante: CV baixo",
-      "mando_de_campo": "Ponte Preta: 14% de vitórias em casa.",
+      "motivacao_tecnica": "Ponte Preta na zona de rebaixamento, buscando pontos em casa. Gremio Novorizontino com desempenho razoável fora de casa.",
+      "coeficiente_regularidade": "Casa: CV baixo (0.71) / Visitante: CV moderado (1.57)",
+      "mando_de_campo": "Ponte Preta: 14% vitórias em casa, 0.71 gols marcados.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Ponte Preta marca pouco em casa (0.90/jogo) e sofre muito (1.50/jogo). Gremio Novorizontino marca bem fora (1.60/jogo) e sofre pouco (0.90/jogo).",
-      "momento_gols": "Ponte Preta: 10% marcou após 75min. Gremio Novorizontino: 40% marcou após 75min.",
+      "especificidades_gols": "Ponte Preta tem dificuldade em marcar, Gremio Novorizontino mais produtivo fora.",
+      "momento_gols": "Ponte Preta: 14% após 75min. Gremio Novorizontino: 43% após 75min.",
       "jogadores_chave": null,
-      "placares_provaveis": "2x1, 3x1 para o visitante",
+      "placares_provaveis": "1x1, 2x1, 2x0",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro do visitante e péssimo momento do mandante em casa.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Jogo com potencial para gols e visitante competitivo.",
+        "gatilho_saida_parcial": "Placar 1-1",
+        "hard_stop": "Após 60min sem gol"
       },
-      "back_favorito": null,
-      "lay_zebra": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "odd_zebra_>=_5.00",
-          "desempenho_ruim_zebra",
-          "liga_permitida"
-        ],
-        "criterios_total": 3,
-        "modo": "pre_jogo",
-        "zebra": "Ponte Preta",
-        "favorito_do_jogo": "Gremio Novorizontino",
-        "odd_zebra_alvo": "5.50",
-        "razao": "Ponte Preta tem péssimo retrospecto em casa (1 vitória em 7 jogos) e está na zona de rebaixamento. Gremio Novorizontino tem bom desempenho fora e briga por acesso.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "2%"
-      },
-      "over_limite_70": null,
-      "back_2x2": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "over_2_5_>=_60%",
-          "ambas_marcam_>=_60%",
-          "defesa_sofre_>=_1.2_gols/jogo"
-        ],
-        "criterios_total": 3,
-        "razao": "Média de gols total de 2.69, 60% de Ambas Marcam e 62% de Over 2.5 nos jogos do campeonato. Defesas sofrem 1.92 (Ponte Preta) e 1.00 (Gremio Novorizontino).",
-        "indice_over_2_5": "62% (Ponte Preta 62%, Gremio Novorizontino 54%)",
-        "indice_ambas_marcam": "54% (Ponte Preta 54%, Gremio Novorizontino 54%)",
-        "indice_over_ht": "77% (Ponte Preta 77%, Gremio Novorizontino 46%)",
-        "modo": "pre_jogo",
-        "odd_alvo": "12.00",
-        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
-        "stake_recomendada": "0.5%"
-      },
-      "back_goleada": null,
       "lay_1x0": {
         "aplicavel": true,
         "criterios_atendidos": [
@@ -103,42 +64,115 @@
         ],
         "criterios_total": 5,
         "modo": "pre_jogo",
-        "prob_1_0_estimada": "8%",
+        "prob_1_0_estimada": "10%",
         "visitante_over_0_5": "71%",
         "visitante_marca_pct": "71%",
-        "media_gols_total": "2.69",
-        "btts_medio": "54%",
-        "razao": "Jogo com média de gols alta (2.69), visitante competitivo (marca em 71% dos jogos) e BTTS acima de 50%. Improvável que termine 1x0.",
+        "media_gols_total": "2.29",
+        "btts_medio": "57%",
+        "razao": "Jogo com média de gols de 2.29, visitante marca em 71% dos jogos fora e BTTS de 57%. Improvável que termine 1x0.",
         "odd_alvo": "10.50",
         "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
         "stake_recomendada": "2%"
       },
       "lay_0x1": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "p_0_1_<_12%",
-          "mand_over_0_5_>_65%",
-          "mand_marca_>_60%",
-          "media_gols_>=_2.5",
-          "btts_>_50%"
-        ],
+        "aplicavel": false,
+        "criterios_atendidos": [],
         "criterios_total": 5,
-        "modo": "pre_jogo",
-        "prob_0_1_estimada": "8%",
-        "mandante_over_0_5": "77%",
-        "mandante_marca_pct": "62%",
-        "media_gols_total": "2.69",
-        "btts_medio": "54%",
-        "razao": "Jogo com média de gols alta (2.69), mandante com alguma capacidade de marcar (62% dos jogos) e BTTS acima de 50%. Improvável que termine 0x1.",
-        "odd_alvo": "11.00",
-        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
-        "stake_recomendada": "2%"
+        "modo": null,
+        "prob_0_1_estimada": "18%",
+        "mandante_over_0_5": "57%",
+        "mandante_marca_pct": "57%",
+        "media_gols_total": "2.29",
+        "btts_medio": "57%",
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
       },
-      "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-06-22T11:00:16.688Z"
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": "Probabilidade estimada de vitória do favorito é 38% (Gremio Novorizontino), precisa ser >= 65%.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "liga_permitida"
+        ],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": "Odd da zebra (Ponte Preta) é 5.00, mas não atende ao critério de desempenho ruim (vitórias 15% vs 38%).",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "razao": "Over 2.5 média 43% (Ponte Preta 43%, G. Novorizontino 54%), precisa >= 60%.",
+        "indice_over_2_5": "43%",
+        "indice_ambas_marcam": "54%",
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": "Probabilidade estimada de vitória do favorito (G. Novorizontino) é 38%, precisa >= 70%.",
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
     }
   ],
-  "evitar": []
+  "evitar": [
+    {
+      "horario": "20:00",
+      "jogo": "Ponte Preta x Gremio Novorizontino",
+      "liga": "Brazil Serie B",
+      "motivo": "Jogo com potencial para gols, mas sem favoritismo claro para Back Favorito ou Lay Zebra.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Gremio Novorizontino) é 38%, precisa ser >= 60%.",
+        "lay_zebra": "Odd da zebra (Ponte Preta) é 5.00, mas não atende ao critério de desempenho ruim (vitórias 15% vs 38%).",
+        "over_limite_70": "Não há dados suficientes na tabela 'MOMENTO DOS GOLS' para aplicar o critério.",
+        "back_2x2": "Over 2.5 média 43% (Ponte Preta 43%, G. Novorizontino 54%), precisa >= 60%.",
+        "back_goleada": "Probabilidade estimada de vitória do favorito (G. Novorizontino) é 38%, precisa >= 70%.",
+        "lay_1x0": "P(1-0) estimada 10% (OK), visitante over 0.5 71% (OK), visitante marca 71% (OK), média gols 2.29 (OK), BTTS 57% (OK). Método aplicável.",
+        "lay_0x1": "P(0-1) estimada 18% (precisa < 12%)."
+      }
+    }
+  ]
 }
