@@ -1,25 +1,238 @@
 {
   "data": "2026-06-21",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-06-21T20:55:47.845083",
-  "fonte": "radaresportivo.com",
-  "total_jogos_analisados": 1,
-  "entradas": [],
-  "evitar": [
+  "gerado_em": "2026-06-21T21:22:47.882601",
+  "total_partidas_analisadas": 9,
+  "entradas": [
     {
       "horario": "11:00",
-      "jogo": "Avai x Cuiaba",
       "liga": "Brazil Serie B",
-      "motivo": "Sem dados suficientes para aplicar os métodos.",
-      "motivos_por_metodo": {
-        "back_favorito": "Dados insuficientes no PDF para avaliar favoritismo e condições.",
-        "lay_zebra": "Dados insuficientes no PDF para avaliar zebra e condições.",
-        "over_limite_70": "Dados insuficientes no PDF para avaliar momento dos gols.",
-        "back_2x2": "Dados insuficientes no PDF para avaliar padrões de gols e ambas marcam.",
-        "back_goleada": "Dados insuficientes no PDF para avaliar favoritismo extremo e fase ofensiva/defensiva.",
-        "lay_1x0": "Dados insuficientes no PDF para avaliar probabilidade de 1x0 e padrões de gols.",
-        "lay_0x1": "Dados insuficientes no PDF para avaliar probabilidade de 0x1 e padrões de gols."
+      "jogo": "Avaí x Cuiabá",
+      "metodos_aplicados": [
+        "lay_1x0"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "10%",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "12.60",
+      "media_gols_casa": "1.00",
+      "media_gols_fora": "0.67",
+      "explicacao_curta": "Jogo com média de gols total de 1.71, onde o visitante tem dificuldade ofensiva. O placar 1x0 é improvável.",
+      "alerta_geral": null,
+      "valor_esperado": "Prob. 10% → fair 10.00; com margem de segurança, só entrar acima de 12.60",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Avaí marca 0.43 no 1ºT, Cuiabá marca 0.17 no 1ºT",
+      "desempenho_2t": "Avaí marca 0.57 no 2ºT, Cuiabá marca 0.50 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "18",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "6",
+          "objetivo": "acesso"
+        }
+      },
+      "motivacao_tecnica": "Avaí (18º) tem aproveitamento de 0.86 pontos por jogo, enquanto Cuiabá (6º) tem 1.50. O Cuiabá busca o acesso, enquanto o Avaí está mais distante.",
+      "coeficiente_regularidade": "Casa: CV moderado / Visitante: CV baixo",
+      "mando_de_campo": "Avaí faz 43% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Avaí marca mais no 2º tempo, Cuiabá marca mais no 1º tempo.",
+      "momento_gols": "Avaí: 61-75 (14% Marcado, 22% Sofrido); Cuiabá: 31-45 (25% Marcado, 50% Sofrido)",
+      "jogadores_chave": "Avaí: Anselmo Ramon (5 gols); Cuiabá: Gabriel Boschilia (7 gols)",
+      "placares_provaveis": "1x1, 2x1, 2x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com média de gols baixa e visitante com dificuldade ofensiva, tornando o 1x0 improvável.",
+        "gatilho_saida_parcial": "Placar 1x1",
+        "hard_stop": "Após 60min sem gol"
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "50%",
+        "visitante_marca_pct": "67%",
+        "media_gols_total": "2.29",
+        "btts_medio": "17%",
+        "razao": "Média de gols total baixa (2.29) e BTTS baixo (17%) indicam um jogo com poucos gols, onde o placar 1x0 é improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
       }
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "01:00",
+      "jogo": "Tunisia x Japan",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para aplicar qualquer método.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF.",
+        "lay_zebra": "Dados insuficientes no PDF.",
+        "over_limite_70": "Dados insuficientes no PDF.",
+        "back_2x2": "Dados insuficientes no PDF.",
+        "back_goleada": "Dados insuficientes no PDF.",
+        "lay_1x0": "Dados insuficientes no PDF.",
+        "lay_0x1": "Dados insuficientes no PDF."
+      }
+    },
+    {
+      "horario": "13:00",
+      "jogo": "Spain x Saudi Arabia",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para aplicar qualquer método.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF.",
+        "lay_zebra": "Dados insuficientes no PDF.",
+        "over_limite_70": "Dados insuficientes no PDF.",
+        "back_2x2": "Dados insuficientes no PDF.",
+        "back_goleada": "Dados insuficientes no PDF.",
+        "lay_1x0": "Dados insuficientes no PDF.",
+        "lay_0x1": "Dados insuficientes no PDF."
+      }
+    },
+    {
+      "horario": "16:00",
+      "jogo": "CRB x Fortaleza",
+      "liga": "Brazil Serie B",
+      "motivo": "Jogo com alta probabilidade de gols, mas sem um favorito claro para Back Favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Fortaleza) é 50% - precisa ser >= 65%.",
+        "lay_zebra": "Zebra (CRB) tem odd estimada abaixo de 5.00.",
+        "over_limite_70": "CRB: Marcado 61-75: 0% | 76-90: 18%. Sofrido 61-75: 10% | 76-90: 30%. Fortaleza: Marcado 61-75: 0% | 76-90: 33%. Sofrido 61-75: 14% | 76-90: 0%. Nenhuma das condições de gols tardios atende o limiar de 25%.",
+        "back_2x2": "Índice de Over 2.5 dos dois times é 67% (CRB) e 29% (Fortaleza), média de 48% - precisa ser >= 60%.",
+        "back_goleada": "Favoritismo insuficiente para Back Goleada.",
+        "lay_1x0": "P(1-0) estimada > 12% devido à média de gols total alta e BTTS alto.",
+        "lay_0x1": "P(0-1) estimada > 12% devido à média de gols total alta e BTTS alto."
+      }
+    },
+    {
+      "horario": "16:00",
+      "jogo": "Belgium x Iran",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para aplicar qualquer método.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF.",
+        "lay_zebra": "Dados insuficientes no PDF.",
+        "over_limite_70": "Dados insuficientes no PDF.",
+        "back_2x2": "Dados insuficientes no PDF.",
+        "back_goleada": "Dados insuficientes no PDF.",
+        "lay_1x0": "Dados insuficientes no PDF.",
+        "lay_0x1": "Dados insuficientes no PDF."
+      }
+    },
+    {
+      "horario": "17:00",
+      "jogo": "São Bernardo x Juventude",
+      "liga": "Brazil Serie B",
+      "motivo": "Jogo equilibrado com pouca tendência clara para algum método.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (São Bernardo) é 55% - precisa ser >= 65%.",
+        "lay_zebra": "Zebra (Juventude) tem odd estimada abaixo de 5.00.",
+        "over_limite_70": "São Bernardo: Marcado 61-75: 0% | 76-90: 43%. Sofrido 61-75: 0% | 76-90: 40%. Juventude: Marcado 61-75: 0% | 76-90: 25%. Sofrido 61-75: 14% | 76-90: 14%. Apenas Juventude Marcado 76-90 atende o limiar de 25%, mas não é suficiente.",
+        "back_2x2": "Índice de Over 2.5 dos dois times é 29% (São Bernardo) e 33% (Juventude), média de 31% - precisa ser >= 60%.",
+        "back_goleada": "Favoritismo insuficiente para Back Goleada.",
+        "lay_1x0": "P(1-0) estimada > 12% devido à média de gols total alta e BTTS alto.",
+        "lay_0x1": "P(0-1) estimada > 12% devido à média de gols total alta e BTTS alto."
+      }
+    },
+    {
+      "horario": "18:30",
+      "jogo": "Goiás x Operário PR",
+      "liga": "Brazil Serie B",
+      "motivo": "Jogo com favoritismo para o Goiás, mas com dados de gols que não favorecem métodos específicos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Goiás) é 58% - precisa ser >= 65%.",
+        "lay_zebra": "Zebra (Operário PR) tem odd estimada abaixo de 5.00.",
+        "over_limite_70": "Goiás: Marcado 61-75: 17% | 76-90: 33%. Sofrido 61-75: 29% | 76-90: 43%. Operário PR: Marcado 61-75: 0% | 76-90: 17%. Sofrido 61-75: 11% | 76-90: 11%. Goiás Marcado 76-90 e Sofrido 61-75 e 76-90 atendem o limiar de 25%, mas não é suficiente para aplicar o método.",
+        "back_2x2": "Índice de Over 2.5 dos dois times é 33% (Goiás) e 83% (Operário PR), média de 58% - precisa ser >= 60%.",
+        "back_goleada": "Favoritismo insuficiente para Back Goleada.",
+        "lay_1x0": "P(1-0) estimada > 12% devido à média de gols total alta e BTTS alto.",
+        "lay_0x1": "P(0-1) estimada > 12% devido à média de gols total alta e BTTS alto."
+      }
+    },
+    {
+      "horario": "19:00",
+      "jogo": "Uruguay x Cape Verde Islands",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para aplicar qualquer método.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF.",
+        "lay_zebra": "Dados insuficientes no PDF.",
+        "over_limite_70": "Dados insuficientes no PDF.",
+        "back_2x2": "Dados insuficientes no PDF.",
+        "back_goleada": "Dados insuficientes no PDF.",
+        "lay_1x0": "Dados insuficientes no PDF.",
+        "lay_0x1": "Dados insuficientes no PDF."
+      }
+    },
+    {
+      "horario": "22:00",
+      "jogo": "New Zealand x Egypt",
+      "liga": "International World Cup",
+      "motivo": "Dados insuficientes para aplicar qualquer método.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF.",
+        "lay_zebra": "Dados insuficientes no PDF.",
+        "over_limite_70": "Dados insuficientes no PDF.",
+        "back_2x2": "Dados insuficientes no PDF.",
+        "back_goleada": "Dados insuficientes no PDF.",
+        "lay_1x0": "Dados insuficientes no PDF.",
+        "lay_0x1": "Dados insuficientes no PDF."
+      }
+    }
+  ],
+  "pdfs": [
+    {
+      "jogo": "Avaí x Cuiabá",
+      "arquivo": "pdfs/2026-06-21/Brazil_Serie_B/001_11h00_Avaí_x_Cuiabá.pdf"
+    },
+    {
+      "jogo": "CRB x Fortaleza",
+      "arquivo": "pdfs/2026-06-21/Brazil_Serie_B/002_16h00_CRB_x_Fortaleza.pdf"
+    },
+    {
+      "jogo": "São Bernardo x Juventude",
+      "arquivo": "pdfs/2026-06-21/Brazil_Serie_B/003_17h00_São_Bernardo_x_Juventude.pdf"
+    },
+    {
+      "jogo": "Goiás x Operário PR",
+      "arquivo": "pdfs/2026-06-21/Brazil_Serie_B/004_18h30_Goiás_x_Operário_PR.pdf"
+    },
+    {
+      "jogo": "Tunisia x Japan",
+      "arquivo": "pdfs/2026-06-21/International_World_Cup/005_01h00_Tunisia_x_Japan.pdf"
+    },
+    {
+      "jogo": "Spain x Saudi Arabia",
+      "arquivo": "pdfs/2026-06-21/International_World_Cup/006_13h00_Spain_x_Saudi_Arabia.pdf"
+    },
+    {
+      "jogo": "Belgium x Iran",
+      "arquivo": "pdfs/2026-06-21/International_World_Cup/007_16h00_Belgium_x_Iran.pdf"
+    },
+    {
+      "jogo": "Uruguay x Cape Verde Islands",
+      "arquivo": "pdfs/2026-06-21/International_World_Cup/008_19h00_Uruguay_x_Cape_Verde_Islands.pdf"
+    },
+    {
+      "jogo": "New Zealand x Egypt",
+      "arquivo": "pdfs/2026-06-21/International_World_Cup/009_22h00_New_Zealand_x_Egypt.pdf"
     }
   ]
 }
