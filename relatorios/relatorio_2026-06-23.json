@@ -1,9 +1,109 @@
 {
   "data": "2026-06-23",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-06-22T13:07:00.023493",
+  "gerado_em": "2026-06-22T13:16:31.110003",
   "fonte": "radaresportivo.com",
   "total_jogos_analisados": 6,
-  "entradas": [],
+  "entradas": [
+    {
+      "horario": "20:00",
+      "liga": "Brazil Serie B",
+      "jogo": "America MG x Criciuma",
+      "metodos_aplicados": [
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "10% (estimativa baseada na baixa probabilidade de 1x0)",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "11.50",
+      "media_gols_casa": "1.10",
+      "media_gols_fora": "1.00",
+      "explicacao_curta": "Jogo com média de gols total de 2.8, ambas marcam frequente e visitante competitivo. Improvável que termine 1x0 ou 0x1.",
+      "alerta_geral": null,
+      "valor_esperado": "A odd de 10.50 para Lay 1x0 e 11.00 para Lay 0x1 oferece valor, pois a probabilidade estimada de 10% para cada placar exato é menor que a odd oferecida.",
+      "mercado_secundario": "Lay 0x1",
+      "odd_minima_secundaria": "12.10",
+      "desempenho_1t": "America MG marca 0.7 no 1T, Criciuma marca 0.6 no 1T",
+      "desempenho_2t": "America MG marca 0.4 no 2T, Criciuma marca 0.7 no 2T",
+      "contexto_times": {
+        "casa": {
+          "posicao": "20º",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "8º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "America MG está na lanterna e com sérias dificuldades ofensivas e defensivas, enquanto Criciuma tem um desempenho mais equilibrado e está em uma posição mais confortável na tabela. A média de gols total é de 2.8, com ambas as equipes marcando em 60% dos jogos. A probabilidade de um placar exato de 1x0 ou 0x1 é baixa.",
+      "coeficiente_regularidade": "America MG: CV alto (sofre muitos gols) / Criciuma: CV moderado",
+      "mando_de_campo": "America MG tem 0% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "America MG tem dificuldade em marcar, Criciuma tem ataque mais consistente.",
+      "momento_gols": "America MG marca mais no 1º tempo (0.7), Criciuma marca mais no 2º tempo (0.7).",
+      "jogadores_chave": null,
+      "placares_provaveis": "2x1, 1x1, 2x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com potencial para gols e ambas marcam, tornando placares exatos de 1x0 e 0x1 menos prováveis.",
+        "gatilho_saida_parcial": "Placar 1x1 ou 0x1",
+        "hard_stop": "Após 60min sem gol"
+      },
+      "lay_favorito": null,
+      "lay_zebra": null,
+      "back_favorito": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "70%",
+        "visitante_marca_pct": "60%",
+        "media_gols_total": "2.80",
+        "btts_medio": "60%",
+        "razao": "O jogo tem um perfil ofensivo com média de gols total de 2.8, ambas marcam frequente (60%) e o visitante tem um bom percentual de marcar (60%). Isso torna o placar exato de 1x0 menos provável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "70%",
+        "mandante_marca_pct": "60%",
+        "media_gols_total": "2.80",
+        "btts_medio": "60%",
+        "razao": "O jogo tem um perfil ofensivo com média de gols total de 2.8, ambas marcam frequente (60%) e o mandante tem um bom percentual de marcar (60%). Isso torna o placar exato de 0x1 menos provável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    }
+  ],
   "evitar": []
 }
