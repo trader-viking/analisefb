@@ -298,8 +298,19 @@
       "lay_0x1": null,
       "confirmacao_visual": null,
       "_placar": "3x0",
-      "_status": "em_andamento",
-      "_placar_atualizado_em": "2026-06-23T00:30:16.309Z"
+      "_status": "finalizado",
+      "_placar_atualizado_em": "2026-06-23T00:50:16.181Z",
+      "_vereditos": {
+        "back_favorito": {
+          "resultado": "green",
+          "motivo": "Favorito (casa) venceu 3x0"
+        },
+        "over_limite_70": {
+          "resultado": "green",
+          "motivo": "3 gols > Over 2.5 (default — sem placar de entrada)"
+        }
+      },
+      "_veredito": "green"
     },
     {
       "horario": "21:00",
