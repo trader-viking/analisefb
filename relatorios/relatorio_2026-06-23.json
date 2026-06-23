@@ -1,9 +1,1325 @@
 {
   "data": "2026-06-23",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-06-23T20:24:45.659286",
+  "gerado_em": "2026-06-23T20:37:01.294970",
   "fonte": "radaresportivo.com",
   "total_jogos_analisados": 6,
-  "entradas": [],
+  "entradas": [
+    {
+      "tipo": "entrada",
+      "jogo": "America MG x Criciuma",
+      "liga": "Brazil Serie B",
+      "horario": "20:00",
+      "odds_1x2": {
+        "casa": 2.9,
+        "empate": 3.0,
+        "visitante": 2.63
+      },
+      "favorito": "A",
+      "stats": {
+        "H": {
+          "ppg": 0.46,
+          "winPct": 8,
+          "avgScored": 0.77,
+          "avgConceded": 1.85,
+          "btts": 54,
+          "over15": 85,
+          "over25": 69,
+          "failedToScore": 38,
+          "firstToScore": 46,
+          "xgFor": 1.11,
+          "xgAgainst": 1.39,
+          "cleanSheet": 15,
+          "form": "EDDDV"
+        },
+        "A": {
+          "ppg": 1.62,
+          "winPct": 38,
+          "avgScored": 1.15,
+          "avgConceded": 0.85,
+          "btts": 54,
+          "over15": 85,
+          "over25": 69,
+          "failedToScore": 15,
+          "firstToScore": 62,
+          "xgFor": null,
+          "xgAgainst": null,
+          "cleanSheet": 31,
+          "form": "EEVVE"
+        },
+        "F": "A",
+        "avgTotal": 2.3,
+        "bttsAvg": 54.0,
+        "o25Avg": 69.0,
+        "xgComb": null,
+        "ppgDiff": 1.16,
+        "sampleSize": 13
+      },
+      "poisson": {
+        "lh": 1.0,
+        "la": 1.25,
+        "lambdaTotal": 2.25,
+        "pHome": 0.24,
+        "pDraw": 0.27,
+        "pAway": 0.49,
+        "pZebra": 0.24,
+        "lineCalc": 3.5,
+        "pOverLine": 0.25,
+        "placares_provaveis": [
+          {
+            "placar": "1-1",
+            "prob": 0.13
+          },
+          {
+            "placar": "0-1",
+            "prob": 0.12
+          },
+          {
+            "placar": "1-0",
+            "prob": 0.11
+          },
+          {
+            "placar": "0-0",
+            "prob": 0.1
+          }
+        ]
+      },
+      "metodos": {
+        "M1": {
+          "nome": "Back Favorito",
+          "score": 57,
+          "veredito": "POSSÍVEL",
+          "odd_estimada": 2.63,
+          "criterios_atingidos": [
+            "ppgDiff>=1.2",
+            "F.winPct>55",
+            "F.firstToScore>60",
+            "F.avgScored>=1.5"
+          ],
+          "criterios_falhados": [
+            "F tem ≥ 3 W em 5 jogos",
+            "F.xgFor>F.xgAgainst",
+            "F.cleanSheet>30"
+          ]
+        },
+        "M2": {
+          "nome": "Back 2x2",
+          "score": 38,
+          "veredito": "EVITAR",
+          "odd_estimada": 2.8,
+          "criterios_atingidos": [
+            "avgTotal ≥ 2.8"
+          ],
+          "criterios_falhados": [
+            "bttsAvg>55",
+            "o25Avg>55",
+            "H.failedToScore<25 AND A.failedToScore<25",
+            "xgComb≥ 2.5"
+          ]
+        },
+        "M3": {
+          "nome": "Back Goleada",
+          "score": 20,
+          "veredito": "REJEITADA",
+          "odd_estimada": 3.5,
+          "criterios_atingidos": [],
+          "criterios_falhados": [
+            "ppgDiff≥ 2.0",
+            "F.avgScored≥ 2.2",
+            "U.avgConceded≥ 2.0",
+            "U.failedToScore≥ 40"
+          ]
+        },
+        "M5": {
+          "nome": "Lay 1x0",
+          "score": 33,
+          "veredito": "EVITAR",
+          "odd_estimada": 10.5,
+          "criterios_atingidos": [
+            "avgTotal ≥ 2.5"
+          ],
+          "criterios_falhados": [
+            "P.matrix[1][0] × 100 < 12",
+            "A.over15>65",
+            "(100 - A.failedToScore)>60",
+            "bttsAvg>50"
+          ]
+        },
+        "M6": {
+          "nome": "Lay 0x1",
+          "score": 33,
+          "veredito": "EVITAR",
+          "odd_estimada": 11.0,
+          "criterios_atingidos": [
+            "avgTotal ≥ 2.5"
+          ],
+          "criterios_falhados": [
+            "P.matrix[0][1] × 100 < 12",
+            "H.over15>65",
+            "(100 - H.failedToScore)>60",
+            "bttsAvg>50"
+          ]
+        },
+        "M7": {
+          "nome": "Lay 2x0",
+          "score": 25,
+          "veredito": "REJEITADA",
+          "odd_estimada": 13.5,
+          "criterios_atingidos": [],
+          "criterios_falhados": [
+            "P.matrix[2][0] × 100 < 8",
+            "(100 - A.failedToScore)>60",
+            "avgTotal ≥ 2.6",
+            "bttsAvg>55"
+          ]
+        },
+        "M8": {
+          "nome": "Lay 0x2",
+          "score": 25,
+          "veredito": "REJEITADA",
+          "odd_estimada": 15.0,
+          "criterios_atingidos": [],
+          "criterios_falhados": [
+            "P.matrix[0][2] × 100 < 7",
+            "(100 - H.failedToScore)>60",
+            "avgTotal ≥ 2.6",
+            "bttsAvg>55"
+          ]
+        },
+        "M9": {
+          "nome": "Lay Zebra",
+          "score": 45,
+          "veredito": "EVITAR",
+          "odd_estimada": 5.0,
+          "criterios_atingidos": [
+            "ppgDiff≥ 1.5"
+          ],
+          "criterios_falhados": [
+            "Z.winPct<30",
+            "F tem ≥ 3 W em 5 jogos",
+            "Z.avgScored<1.0",
+            "pZebra × 100 < 20"
+          ]
+        },
+        "M15": {
+          "nome": "Over Limite +1",
+          "score": 30,
+          "veredito": "EVITAR",
+          "odd_estimada": 2.4,
+          "criterios_atingidos": [
+            "lambdaTotal ≥ 2.2"
+          ],
+          "criterios_falhados": [
+            "pOverLine≥ 0.30",
+            "avgTotal≥ 2.6",
+            "H.avgScored≥ 1.2 AND A.avgScored≥ 1.0",
+            "bttsAvg≥ 55",
+            "xgComb≥ 2.3",
+            "(H.failedToScore + A.failedToScore) / 2 < 30"
+          ]
+        }
+      },
+      "principal": null,
+      "secundaria": null,
+      "po": null,
+      "resumo": "Criciuma é o favorito com base nas odds, mas o America MG tem um PPG significativamente menor e uma taxa de vitórias muito baixa. A análise dos métodos indica poucas oportunidades claras, com a maioria dos vereditos sendo EVITAR ou REJEITADA. O método M1 (Back Favorito) obteve um score de 57, indicando uma POSSÍVEL oportunidade, mas com ressalvas nos critérios de forma e defesa."
+    },
+    {
+      "tipo": "entrada",
+      "jogo": "Jordan x Algeria",
+      "liga": "World Cup 2026",
+      "horario": "00:00",
+      "odds_1x2": {
+        "casa": 6.5,
+        "empate": 4.33,
+        "visitante": 1.5
+      },
+      "favorito": "A",
+      "stats": {
+        "H": {
+          "ppg": 1.5,
+          "winPct": 40,
+          "avgScored": 1.6,
+          "avgConceded": 1.6,
+          "btts": 60,
+          "over15": 80,
+          "over25": 70,
+          "failedToScore": 10,
+          "firstToScore": 60,
+          "xgFor": null,
+          "xgAgainst": null,
+          "cleanSheet": 30,
+          "form": "EEDDD"
+        },
+        "A": {
+          "ppg": 2.0,
+          "winPct": 60,
+          "avgScored": 1.9,
+          "avgConceded": 0.6,
+          "btts": 60,
+          "over15": 80,
+          "over25": 70,
+          "failedToScore": 40,
+          "firstToScore": 50,
+          "xgFor": null,
+          "xgAgainst": null,
+          "cleanSheet": 70,
+          "form": "EVEVD"
+        },
+        "F": "A",
+        "avgTotal": 2.35,
+        "bttsAvg": 60.0,
+        "o25Avg": 70.0,
+        "xgComb": null,
+        "ppgDiff": 0.5,
+        "sampleSize": 10
+      },
+      "poisson": {
+        "lh": 1.25,
+        "la": 1.25,
+        "lambdaTotal": 2.5,
+        "pHome": 0.24,
+        "pDraw": 0.25,
+        "pAway": 0.51,
+        "pZebra": 0.24,
+        "lineCalc": 3.5,
+        "pOverLine": 0.23,
+        "placares_provaveis": [
+          {
+            "placar": "1-1",
+            "prob": 0.12
+          },
+          {
+            "placar": "0-1",
+            "prob": 0.12
+          },
+          {
+            "placar": "1-2",
+            "prob": 0.11
+          },
+          {
+            "placar": "0-2",
+            "prob": 0.1
+          }
+        ]
+      },
+      "metodos": {
+        "M1": {
+          "nome": "Back Favorito",
+          "score": 57,
+          "veredito": "POSSÍVEL",
+          "odd_estimada": 1.5,
+          "criterios_atingidos": [
+            "F.winPct>55",
+            "F.firstToScore>60",
+            "F.avgScored>=1.5"
+          ],
+          "criterios_falhados": [
+            "ppgDiff>=1.2",
+            "F tem ≥ 3 W em 5 jogos",
+            "F.xgFor>F.xgAgainst",
+            "F.cleanSheet>30"
+          ]
+        },
+        "M2": {
+          "nome": "Back 2x2",
+          "score": 69,
+          "veredito": "POSSÍVEL",
+          "odd_estimada": 2.8,
+          "criterios_atingidos": [
+            "bttsAvg>55",
+            "o25Avg>55",
+            "avgTotal ≥ 2.8",
+            "H.failedToScore<25 AND A.failedToScore<25",
+            "xgComb≥ 2.5"
+          ],
+          "criterios_falhados": []
+        },
+        "M3": {
+          "nome": "Back Goleada",
+          "score": 30,
+          "veredito": "EVITAR",
+          "odd_estimada": 3.5,
+          "criterios_atingidos": [
+            "U.failedToScore≥ 40"
+          ],
+          "criterios_falhados": [
+            "ppgDiff≥ 2.0",
+            "F.avgScored≥ 2.2",
+            "U.avgConceded≥ 2.0"
+          ]
+        },
+        "M5": {
+          "nome": "Lay 1x0",
+          "score": 44,
+          "veredito": "EVITAR",
+          "odd_estimada": 10.5,
+          "criterios_atingidos": [
+            "A.over15>65",
+            "(100 - A.failedToScore)>60",
+            "avgTotal ≥ 2.5",
+            "bttsAvg>50"
+          ],
+          "criterios_falhados": [
+            "P.matrix[1][0] × 100 < 12"
+          ]
+        },
+        "M6": {
+          "nome": "Lay 0x1",
+          "score": 44,
+          "veredito": "EVITAR",
+          "odd_estimada": 11.0,
+          "criterios_atingidos": [
+            "H.over15>65",
+            "(100 - H.failedToScore)>60",
+            "avgTotal ≥ 2.5",
+            "bttsAvg>50"
+          ],
+          "criterios_falhados": [
+            "P.matrix[0][1] × 100 < 12"
+          ]
+        },
+        "M7": {
+          "nome": "Lay 2x0",
+          "score": 38,
+          "veredito": "EVITAR",
+          "odd_estimada": 13.5,
+          "criterios_atingidos": [
+            "(100 - A.failedToScore)>60",
+            "avgTotal ≥ 2.6",
+            "bttsAvg>55"
+          ],
+          "criterios_falhados": [
+            "P.matrix[2][0] × 100 < 8"
+          ]
+        },
+        "M8": {
+          "nome": "Lay 0x2",
+          "score": 38,
+          "veredito": "EVITAR",
+          "odd_estimada": 15.0,
+          "criterios_atingidos": [
+            "(100 - H.failedToScore)>60",
+            "avgTotal ≥ 2.6",
+            "bttsAvg>55"
+          ],
+          "criterios_falhados": [
+            "P.matrix[0][2] × 100 < 7"
+          ]
+        },
+        "M9": {
+          "nome": "Lay Zebra",
+          "score": 55,
+          "veredito": "POSSÍVEL",
+          "odd_estimada": 5.0,
+          "criterios_atingidos": [
+            "Z.winPct<30",
+            "pZebra × 100 < 20"
+          ],
+          "criterios_falhados": [
+            "ppgDiff≥ 1.5",
+            "F tem ≥ 3 W em 5 jogos",
+            "Z.avgScored<1.0"
+          ]
+        },
+        "M15": {
+          "nome": "Over Limite +1",
+          "score": 69,
+          "veredito": "POSSÍVEL",
+          "odd_estimada": 2.4,
+          "criterios_atingidos": [
+            "lambdaTotal ≥ 2.2",
+            "pOverLine≥ 0.30",
+            "avgTotal≥ 2.6",
+            "H.avgScored≥ 1.2 AND A.avgScored≥ 1.0",
+            "bttsAvg≥ 55",
+            "xgComb≥ 2.3",
+            "(H.failedToScore + A.failedToScore) / 2 < 30"
+          ],
+          "criterios_falhados": []
+        }
+      },
+      "principal": "M2",
+      "secundaria": "M15",
+      "po": "M9",
+      "resumo": "Algeria é o favorito com odds mais baixas e melhores estatísticas globais. Os métodos M2 (Back 2x2) e M15 (Over Limite +1) se destacam com scores de 69, indicando POSSÍVEIS oportunidades. O M1 (Back Favorito) também mostra potencial com 57 pontos. A liga 'World Cup 2026' está na lista de ligas permitidas para M1 e M9."
+    },
+    {
+      "tipo": "entrada",
+      "jogo": "Portugal x Uzbekistan",
+      "liga": "World Cup 2026",
+      "horario": "14:00",
+      "odds_1x2": {
+        "casa": 1.14,
+        "empate": 8.5,
+        "visitante": 17.0
+      },
+      "favorito": "H",
+      "stats": {
+        "H": {
+          "ppg": 2.1,
+          "winPct": 60,
+          "avgScored": 2.2,
+          "avgConceded": 1.0,
+          "btts": 60,
+          "over15": 70,
+          "over25": 50,
+          "failedToScore": 20,
+          "firstToScore": 60,
+          "xgFor": 2.06,
+          "xgAgainst": 0.78,
+          "cleanSheet": 30,
+          "form": "EVVE"
+        },
+        "A": {
+          "ppg": 1.2,
+          "winPct": 30,
+          "avgScored": 1.0,
+          "avgConceded": 1.0,
+          "btts": 40,
+          "over15": 80,
+          "over25": 70,
+          "failedToScore": 40,
+          "firstToScore": 20,
+          "xgFor": null,
+          "xgAgainst": null,
+          "cleanSheet": 50,
+          "form": "VVDDD"
+        },
+        "F": "H",
+        "avgTotal": 2.6,
+        "bttsAvg": 50.0,
+        "o25Avg": 60.0,
+        "xgComb": null,
+        "ppgDiff": 0.9,
+        "sampleSize": 10
+      },
+      "poisson": {
+        "lh": 1.6,
+        "la": 1.0,
+        "lambdaTotal": 2.6,
+        "pHome": 0.57,
+        "pDraw": 0.24,
+        "pAway": 0.19,
+        "pZebra": 0.57,
+        "lineCalc": 3.5,
+        "pOverLine": 0.21,
+        "placares_provaveis": [
+          {
+            "placar": "2-0",
+            "prob": 0.15
+          },
+          {
+            "placar": "1-0",
+            "prob": 0.12
+          },
+          {
+            "placar": "2-1",
+            "prob": 0.1
+          },
+          {
+            "placar": "3-0",
+            "prob": 0.09
+          }
+        ]
+      },
+      "metodos": {
+        "M1": {
+          "nome": "Back Favorito",
+          "score": 71,
+          "veredito": "CONFIRMADA",
+          "odd_estimada": 1.14,
+          "criterios_atingidos": [
+            "ppgDiff>=1.2",
+            "F.winPct>55",
+            "F.firstToScore>60",
+            "F tem ≥ 3 W em 5 jogos",
+            "F.avgScored>=1.5",
+            "F.xgFor>F.xgAgainst",
+            "F.cleanSheet>30"
+          ],
+          "criterios_falhados": []
+        },
+        "M2": {
+          "nome": "Back 2x2",
+          "score": 31,
+          "veredito": "EVITAR",
+          "odd_estimada": 2.8,
+          "criterios_atingidos": [
+            "o25Avg>55"
+          ],
+          "criterios_falhados": [
+            "bttsAvg>55",
+            "avgTotal ≥ 2.8",
+            "H.failedToScore<25 AND A.failedToScore<25",
+            "xgComb≥ 2.5"
+          ]
+        },
+        "M3": {
+          "nome": "Back Goleada",
+          "score": 30,
+          "veredito": "EVITAR",
+          "odd_estimada": 3.5,
+          "criterios_atingidos": [
+            "U.failedToScore≥ 40"
+          ],
+          "criterios_falhados": [
+            "ppgDiff≥ 2.0",
+            "F.avgScored≥ 2.2",
+            "U.avgConceded≥ 2.0"
+          ]
+        },
+        "M5": {
+          "nome": "Lay 1x0",
+          "score": 33,
+          "veredito": "EVITAR",
+          "odd_estimada": 10.5,
+          "criterios_atingidos": [
+            "avgTotal ≥ 2.5"
+          ],
+          "criterios_falhados": [
+            "P.matrix[1][0] × 100 < 12",
+            "A.over15>65",
+            "(100 - A.failedToScore)>60",
+            "bttsAvg>50"
+          ]
+        },
+        "M6": {
+          "nome": "Lay 0x1",
+          "score": 33,
+          "veredito": "EVITAR",
+          "odd_estimada": 11.0,
+          "criterios_atingidos": [
+            "avgTotal ≥ 2.5"
+          ],
+          "criterios_falhados": [
+            "P.matrix[0][1] × 100 < 12",
+            "H.over15>65",
+            "(100 - H.failedToScore)>60",
+            "bttsAvg>50"
+          ]
+        },
+        "M7": {
+          "nome": "Lay 2x0",
+          "score": 25,
+          "veredito": "REJEITADA",
+          "odd_estimada": 13.5,
+          "criterios_atingidos": [],
+          "criterios_falhados": [
+            "P.matrix[2][0] × 100 < 8",
+            "(100 - A.failedToScore)>60",
+            "avgTotal ≥ 2.6",
+            "bttsAvg>55"
+          ]
+        },
+        "M8": {
+          "nome": "Lay 0x2",
+          "score": 25,
+          "veredito": "REJEITADA",
+          "odd_estimada": 15.0,
+          "criterios_atingidos": [],
+          "criterios_falhados": [
+            "P.matrix[0][2] × 100 < 7",
+            "(100 - H.failedToScore)>60",
+            "avgTotal ≥ 2.6",
+            "bttsAvg>55"
+          ]
+        },
+        "M9": {
+          "nome": "Lay Zebra",
+          "score": 75,
+          "veredito": "CONFIRMADA",
+          "odd_estimada": 5.0,
+          "criterios_atingidos": [
+            "ppgDiff≥ 1.5",
+            "Z.winPct<30",
+            "F tem ≥ 3 W em 5 jogos",
+            "Z.avgScored<1.0",
+            "pZebra × 100 < 20"
+          ],
+          "criterios_falhados": []
+        },
+        "M15": {
+          "nome": "Over Limite +1",
+          "score": 30,
+          "veredito": "EVITAR",
+          "odd_estimada": 2.4,
+          "criterios_atingidos": [
+            "lambdaTotal ≥ 2.2"
+          ],
+          "criterios_falhados": [
+            "pOverLine≥ 0.30",
+            "avgTotal≥ 2.6",
+            "H.avgScored≥ 1.2 AND A.avgScored≥ 1.0",
+            "bttsAvg≥ 55",
+            "xgComb≥ 2.3",
+            "(H.failedToScore + A.failedToScore) / 2 < 30"
+          ]
+        }
+      },
+      "principal": "M1",
+      "secundaria": "M9",
+      "po": "M2",
+      "resumo": "Portugal é um favorito esmagador com odds de 1.14. O método M1 (Back Favorito) foi CONFIRMADO com 71 pontos, destacando a superioridade de Portugal em quase todos os critérios. O método M9 (Lay Zebra) também foi CONFIRMADO com 75 pontos, indicando uma oportunidade de apostar contra o azarão (Uzbekistan). A liga 'World Cup 2026' está na lista de ligas permitidas para M1 e M9."
+    },
+    {
+      "tipo": "entrada",
+      "jogo": "England x Ghana",
+      "liga": "World Cup 2026",
+      "horario": "17:00",
+      "odds_1x2": {
+        "casa": 1.18,
+        "empate": 7.5,
+        "visitante": 15.0
+      },
+      "favorito": "H",
+      "stats": {
+        "H": {
+          "ppg": 2.5,
+          "winPct": 80,
+          "avgScored": 2.6,
+          "avgConceded": 0.4,
+          "btts": 20,
+          "over15": 80,
+          "over25": 50,
+          "failedToScore": 10,
+          "firstToScore": 90,
+          "xgFor": null,
+          "xgAgainst": null,
+          "cleanSheet": 70,
+          "form": "EDVVV"
+        },
+        "A": {
+          "ppg": 1.3,
+          "winPct": 40,
+          "avgScored": 1.1,
+          "avgConceded": 1.3,
+          "btts": 30,
+          "over15": 60,
+          "over25": 30,
+          "failedToScore": 30,
+          "firstToScore": 50,
+          "xgFor": null,
+          "xgAgainst": null,
+          "cleanSheet": 40,
+          "form": "DDDEV"
+        },
+        "F": "H",
+        "avgTotal": 2.0,
+        "bttsAvg": 25.0,
+        "o25Avg": 40.0,
+        "xgComb": null,
+        "ppgDiff": 1.2,
+        "sampleSize": 10
+      },
+      "poisson": {
+        "lh": 1.5,
+        "la": 1.35,
+        "lambdaTotal": 2.85,
+        "pHome": 0.47,
+        "pDraw": 0.24,
+        "pAway": 0.29,
+        "pZebra": 0.47,
+        "lineCalc": 3.5,
+        "pOverLine": 0.2,
+        "placares_provaveis": [
+          {
+            "placar": "2-0",
+            "prob": 0.13
+          },
+          {
+            "placar": "1-0",
+            "prob": 0.11
+          },
+          {
+            "placar": "2-1",
+            "prob": 0.09
+          },
+          {
+            "placar": "3-0",
+            "prob": 0.08
+          }
+        ]
+      },
+      "metodos": {
+        "M1": {
+          "nome": "Back Favorito",
+          "score": 71,
+          "veredito": "CONFIRMADA",
+          "odd_estimada": 1.18,
+          "criterios_atingidos": [
+            "ppgDiff>=1.2",
+            "F.winPct>55",
+            "F.firstToScore>60",
+            "F tem ≥ 3 W em 5 jogos",
+            "F.avgScored>=1.5",
+            "F.xgFor>F.xgAgainst",
+            "F.cleanSheet>30"
+          ],
+          "criterios_falhados": []
+        },
+        "M2": {
+          "nome": "Back 2x2",
+          "score": 31,
+          "veredito": "EVITAR",
+          "odd_estimada": 2.8,
+          "criterios_atingidos": [
+            "o25Avg>55"
+          ],
+          "criterios_falhados": [
+            "bttsAvg>55",
+            "avgTotal ≥ 2.8",
+            "H.failedToScore<25 AND A.failedToScore<25",
+            "xgComb≥ 2.5"
+          ]
+        },
+        "M3": {
+          "nome": "Back Goleada",
+          "score": 30,
+          "veredito": "EVITAR",
+          "odd_estimada": 3.5,
+          "criterios_atingidos": [
+            "U.failedToScore≥ 40"
+          ],
+          "criterios_falhados": [
+            "ppgDiff≥ 2.0",
+            "F.avgScored≥ 2.2",
+            "U.avgConceded≥ 2.0"
+          ]
+        },
+        "M5": {
+          "nome": "Lay 1x0",
+          "score": 33,
+          "veredito": "EVITAR",
+          "odd_estimada": 10.5,
+          "criterios_atingidos": [
+            "avgTotal ≥ 2.5"
+          ],
+          "criterios_falhados": [
+            "P.matrix[1][0] × 100 < 12",
+            "A.over15>65",
+            "(100 - A.failedToScore)>60",
+            "bttsAvg>50"
+          ]
+        },
+        "M6": {
+          "nome": "Lay 0x1",
+          "score": 33,
+          "veredito": "EVITAR",
+          "odd_estimada": 11.0,
+          "criterios_atingidos": [
+            "avgTotal ≥ 2.5"
+          ],
+          "criterios_falhados": [
+            "P.matrix[0][1] × 100 < 12",
+            "H.over15>65",
+            "(100 - H.failedToScore)>60",
+            "bttsAvg>50"
+          ]
+        },
+        "M7": {
+          "nome": "Lay 2x0",
+          "score": 25,
+          "veredito": "REJEITADA",
+          "odd_estimada": 13.5,
+          "criterios_atingidos": [],
+          "criterios_falhados": [
+            "P.matrix[2][0] × 100 < 8",
+            "(100 - A.failedToScore)>60",
+            "avgTotal ≥ 2.6",
+            "bttsAvg>55"
+          ]
+        },
+        "M8": {
+          "nome": "Lay 0x2",
+          "score": 25,
+          "veredito": "REJEITADA",
+          "odd_estimada": 15.0,
+          "criterios_atingidos": [],
+          "criterios_falhados": [
+            "P.matrix[0][2] × 100 < 7",
+            "(100 - H.failedToScore)>60",
+            "avgTotal ≥ 2.6",
+            "bttsAvg>55"
+          ]
+        },
+        "M9": {
+          "nome": "Lay Zebra",
+          "score": 71,
+          "veredito": "CONFIRMADA",
+          "odd_estimada": 5.0,
+          "criterios_atingidos": [
+            "ppgDiff≥ 1.5",
+            "Z.winPct<30",
+            "F tem ≥ 3 W em 5 jogos",
+            "Z.avgScored<1.0",
+            "pZebra × 100 < 20"
+          ],
+          "criterios_falhados": []
+        },
+        "M15": {
+          "nome": "Over Limite +1",
+          "score": 30,
+          "veredito": "EVITAR",
+          "odd_estimada": 2.4,
+          "criterios_atingidos": [
+            "lambdaTotal ≥ 2.2"
+          ],
+          "criterios_falhados": [
+            "pOverLine≥ 0.30",
+            "avgTotal≥ 2.6",
+            "H.avgScored≥ 1.2 AND A.avgScored≥ 1.0",
+            "bttsAvg≥ 55",
+            "xgComb≥ 2.3",
+            "(H.failedToScore + A.failedToScore) / 2 < 30"
+          ]
+        }
+      },
+      "principal": "M1",
+      "secundaria": "M9",
+      "po": "M2",
+      "resumo": "England é um favorito claro com odds de 1.18 e estatísticas superiores em quase todos os aspectos. O método M1 (Back Favorito) foi CONFIRMADO com 71 pontos, refletindo a forte vantagem de England. O método M9 (Lay Zebra) também foi CONFIRMADO com 71 pontos, indicando uma oportunidade de apostar contra o azarão (Ghana). A liga 'World Cup 2026' está na lista de ligas permitidas para M1 e M9."
+    },
+    {
+      "tipo": "entrada",
+      "jogo": "Panama x Croatia",
+      "liga": "World Cup 2026",
+      "horario": "20:00",
+      "odds_1x2": {
+        "casa": 7.5,
+        "empate": 4.6,
+        "visitante": 1.42
+      },
+      "favorito": "A",
+      "stats": {
+        "H": {
+          "ppg": 1.3,
+          "winPct": 30,
+          "avgScored": 1.6,
+          "avgConceded": 1.6,
+          "btts": 80,
+          "over15": 80,
+          "over25": 40,
+          "failedToScore": 20,
+          "firstToScore": 50,
+          "xgFor": null,
+          "xgAgainst": 1.01,
+          "cleanSheet": 0,
+          "form": "VDVED"
+        },
+        "A": {
+          "ppg": 1.9,
+          "winPct": 60,
+          "avgScored": 2.0,
+          "avgConceded": 1.4,
+          "btts": 60,
+          "over15": 90,
+          "over25": 80,
+          "failedToScore": 20,
+          "firstToScore": 30,
+          "xgFor": 1.84,
+          "xgAgainst": null,
+          "cleanSheet": 30,
+          "form": "VDVDD"
+        },
+        "F": "A",
+        "avgTotal": 3.3,
+        "bttsAvg": 70.0,
+        "o25Avg": 60.0,
+        "xgComb": null,
+        "ppgDiff": 0.6,
+        "sampleSize": 10
+      },
+      "poisson": {
+        "lh": 1.8,
+        "la": 1.6,
+        "lambdaTotal": 3.4,
+        "pHome": 0.27,
+        "pDraw": 0.22,
+        "pAway": 0.51,
+        "pZebra": 0.27,
+        "lineCalc": 4.5,
+        "pOverLine": 0.12,
+        "placares_provaveis": [
+          {
+            "placar": "1-2",
+            "prob": 0.13
+          },
+          {
+            "placar": "1-1",
+            "prob": 0.11
+          },
+          {
+            "placar": "0-1",
+            "prob": 0.09
+          },
+          {
+            "placar": "2-1",
+            "prob": 0.09
+          }
+        ]
+      },
+      "metodos": {
+        "M1": {
+          "nome": "Back Favorito",
+          "score": 43,
+          "veredito": "EVITAR",
+          "odd_estimada": 1.42,
+          "criterios_atingidos": [
+            "F.avgScored>=1.5"
+          ],
+          "criterios_falhados": [
+            "ppgDiff>=1.2",
+            "F.winPct>55",
+            "F.firstToScore>60",
+            "F tem ≥ 3 W em 5 jogos",
+            "F.xgFor>F.xgAgainst",
+            "F.cleanSheet>30"
+          ]
+        },
+        "M2": {
+          "nome": "Back 2x2",
+          "score": 69,
+          "veredito": "POSSÍVEL",
+          "odd_estimada": 2.8,
+          "criterios_atingidos": [
+            "bttsAvg>55",
+            "o25Avg>55",
+            "avgTotal ≥ 2.8",
+            "H.failedToScore<25 AND A.failedToScore<25",
+            "xgComb≥ 2.5"
+          ],
+          "criterios_falhados": []
+        },
+        "M3": {
+          "nome": "Back Goleada",
+          "score": 30,
+          "veredito": "EVITAR",
+          "odd_estimada": 3.5,
+          "criterios_atingidos": [
+            "U.failedToScore≥ 40"
+          ],
+          "criterios_falhados": [
+            "ppgDiff≥ 2.0",
+            "F.avgScored≥ 2.2",
+            "U.avgConceded≥ 2.0"
+          ]
+        },
+        "M5": {
+          "nome": "Lay 1x0",
+          "score": 44,
+          "veredito": "EVITAR",
+          "odd_estimada": 10.5,
+          "criterios_atingidos": [
+            "A.over15>65",
+            "(100 - A.failedToScore)>60",
+            "avgTotal ≥ 2.5",
+            "bttsAvg>50"
+          ],
+          "criterios_falhados": [
+            "P.matrix[1][0] × 100 < 12"
+          ]
+        },
+        "M6": {
+          "nome": "Lay 0x1",
+          "score": 44,
+          "veredito": "EVITAR",
+          "odd_estimada": 11.0,
+          "criterios_atingidos": [
+            "H.over15>65",
+            "(100 - H.failedToScore)>60",
+            "avgTotal ≥ 2.5",
+            "bttsAvg>50"
+          ],
+          "criterios_falhados": [
+            "P.matrix[0][1] × 100 < 12"
+          ]
+        },
+        "M7": {
+          "nome": "Lay 2x0",
+          "score": 38,
+          "veredito": "EVITAR",
+          "odd_estimada": 13.5,
+          "criterios_atingidos": [
+            "(100 - A.failedToScore)>60",
+            "avgTotal ≥ 2.6",
+            "bttsAvg>55"
+          ],
+          "criterios_falhados": [
+            "P.matrix[2][0] × 100 < 8"
+          ]
+        },
+        "M8": {
+          "nome": "Lay 0x2",
+          "score": 38,
+          "veredito": "EVITAR",
+          "odd_estimada": 15.0,
+          "criterios_atingidos": [
+            "(100 - H.failedToScore)>60",
+            "avgTotal ≥ 2.6",
+            "bttsAvg>55"
+          ],
+          "criterios_falhados": [
+            "P.matrix[0][2] × 100 < 7"
+          ]
+        },
+        "M9": {
+          "nome": "Lay Zebra",
+          "score": 45,
+          "veredito": "EVITAR",
+          "odd_estimada": 5.0,
+          "criterios_atingidos": [
+            "Z.winPct<30"
+          ],
+          "criterios_falhados": [
+            "ppgDiff≥ 1.5",
+            "F tem ≥ 3 W em 5 jogos",
+            "Z.avgScored<1.0",
+            "pZebra × 100 < 20"
+          ]
+        },
+        "M15": {
+          "nome": "Over Limite +1",
+          "score": 69,
+          "veredito": "POSSÍVEL",
+          "odd_estimada": 2.4,
+          "criterios_atingidos": [
+            "lambdaTotal ≥ 2.2",
+            "pOverLine≥ 0.30",
+            "avgTotal≥ 2.6",
+            "H.avgScored≥ 1.2 AND A.avgScored≥ 1.0",
+            "bttsAvg≥ 55",
+            "xgComb≥ 2.3",
+            "(H.failedToScore + A.failedToScore) / 2 < 30"
+          ],
+          "criterios_falhados": []
+        }
+      },
+      "principal": "M2",
+      "secundaria": "M15",
+      "po": "M9",
+      "resumo": "Croatia é o favorito com odds de 1.42. O método M2 (Back 2x2) e M15 (Over Limite +1) se destacam com scores de 69, indicando POSSÍVEIS oportunidades. O método M1 (Back Favorito) obteve um score de 43, sendo EVITAR, pois não atende a maioria dos critérios. A liga 'World Cup 2026' está na lista de ligas permitidas para M1 e M9."
+    },
+    {
+      "tipo": "entrada",
+      "jogo": "Colombia x Congo DR",
+      "liga": "World Cup 2026",
+      "horario": "23:00",
+      "odds_1x2": {
+        "casa": 1.55,
+        "empate": 3.9,
+        "visitante": 6.5
+      },
+      "favorito": "H",
+      "stats": {
+        "H": {
+          "ppg": 2.2,
+          "winPct": 70,
+          "avgScored": 2.5,
+          "avgConceded": 1.1,
+          "btts": 60,
+          "over15": 90,
+          "over25": 80,
+          "failedToScore": 10,
+          "firstToScore": 70,
+          "xgFor": null,
+          "xgAgainst": null,
+          "cleanSheet": 40,
+          "form": "DDVVV"
+        },
+        "A": {
+          "ppg": 1.7,
+          "winPct": 40,
+          "avgScored": 1.1,
+          "avgConceded": 0.5,
+          "btts": 40,
+          "over15": 60,
+          "over25": 20,
+          "failedToScore": 20,
+          "firstToScore": 50,
+          "xgFor": null,
+          "xgAgainst": null,
+          "cleanSheet": 60,
+          "form": "VDEDE"
+        },
+        "F": "H",
+        "avgTotal": 2.05,
+        "bttsAvg": 50.0,
+        "o25Avg": 50.0,
+        "xgComb": null,
+        "ppgDiff": 0.5,
+        "sampleSize": 10
+      },
+      "poisson": {
+        "lh": 1.8,
+        "la": 1.3,
+        "lambdaTotal": 3.1,
+        "pHome": 0.52,
+        "pDraw": 0.24,
+        "pAway": 0.24,
+        "pZebra": 0.52,
+        "lineCalc": 4.5,
+        "pOverLine": 0.15,
+        "placares_provaveis": [
+          {
+            "placar": "2-0",
+            "prob": 0.14
+          },
+          {
+            "placar": "1-0",
+            "prob": 0.11
+          },
+          {
+            "placar": "2-1",
+            "prob": 0.1
+          },
+          {
+            "placar": "3-0",
+            "prob": 0.09
+          }
+        ]
+      },
+      "metodos": {
+        "M1": {
+          "nome": "Back Favorito",
+          "score": 57,
+          "veredito": "POSSÍVEL",
+          "odd_estimada": 1.55,
+          "criterios_atingidos": [
+            "F.winPct>55",
+            "F.firstToScore>60",
+            "F.avgScored>=1.5",
+            "F.cleanSheet>30"
+          ],
+          "criterios_falhados": [
+            "ppgDiff>=1.2",
+            "F tem ≥ 3 W em 5 jogos",
+            "F.xgFor>F.xgAgainst"
+          ]
+        },
+        "M2": {
+          "nome": "Back 2x2",
+          "score": 31,
+          "veredito": "EVITAR",
+          "odd_estimada": 2.8,
+          "criterios_atingidos": [
+            "o25Avg>55"
+          ],
+          "criterios_falhados": [
+            "bttsAvg>55",
+            "avgTotal ≥ 2.8",
+            "H.failedToScore<25 AND A.failedToScore<25",
+            "xgComb≥ 2.5"
+          ]
+        },
+        "M3": {
+          "nome": "Back Goleada",
+          "score": 30,
+          "veredito": "EVITAR",
+          "odd_estimada": 3.5,
+          "criterios_atingidos": [
+            "U.failedToScore≥ 40"
+          ],
+          "criterios_falhados": [
+            "ppgDiff≥ 2.0",
+            "F.avgScored≥ 2.2",
+            "U.avgConceded≥ 2.0"
+          ]
+        },
+        "M5": {
+          "nome": "Lay 1x0",
+          "score": 33,
+          "veredito": "EVITAR",
+          "odd_estimada": 10.5,
+          "criterios_atingidos": [
+            "avgTotal ≥ 2.5"
+          ],
+          "criterios_falhados": [
+            "P.matrix[1][0] × 100 < 12",
+            "A.over15>65",
+            "(100 - A.failedToScore)>60",
+            "bttsAvg>50"
+          ]
+        },
+        "M6": {
+          "nome": "Lay 0x1",
+          "score": 33,
+          "veredito": "EVITAR",
+          "odd_estimada": 11.0,
+          "criterios_atingidos": [
+            "avgTotal ≥ 2.5"
+          ],
+          "criterios_falhados": [
+            "P.matrix[0][1] × 100 < 12",
+            "H.over15>65",
+            "(100 - H.failedToScore)>60",
+            "bttsAvg>50"
+          ]
+        },
+        "M7": {
+          "nome": "Lay 2x0",
+          "score": 25,
+          "veredito": "REJEITADA",
+          "odd_estimada": 13.5,
+          "criterios_atingidos": [],
+          "criterios_falhados": [
+            "P.matrix[2][0] × 100 < 8",
+            "(100 - A.failedToScore)>60",
+            "avgTotal ≥ 2.6",
+            "bttsAvg>55"
+          ]
+        },
+        "M8": {
+          "nome": "Lay 0x2",
+          "score": 25,
+          "veredito": "REJEITADA",
+          "odd_estimada": 15.0,
+          "criterios_atingidos": [],
+          "criterios_falhados": [
+            "P.matrix[0][2] × 100 < 7",
+            "(100 - H.failedToScore)>60",
+            "avgTotal ≥ 2.6",
+            "bttsAvg>55"
+          ]
+        },
+        "M9": {
+          "nome": "Lay Zebra",
+          "score": 55,
+          "veredito": "POSSÍVEL",
+          "odd_estimada": 5.0,
+          "criterios_atingidos": [
+            "Z.winPct<30",
+            "pZebra × 100 < 20"
+          ],
+          "criterios_falhados": [
+            "ppgDiff≥ 1.5",
+            "F tem ≥ 3 W em 5 jogos",
+            "Z.avgScored<1.0"
+          ]
+        },
+        "M15": {
+          "nome": "Over Limite +1",
+          "score": 30,
+          "veredito": "EVITAR",
+          "odd_estimada": 2.4,
+          "criterios_atingidos": [
+            "lambdaTotal ≥ 2.2"
+          ],
+          "criterios_falhados": [
+            "pOverLine≥ 0.30",
+            "avgTotal≥ 2.6",
+            "H.avgScored≥ 1.2 AND A.avgScored≥ 1.0",
+            "bttsAvg≥ 55",
+            "xgComb≥ 2.3",
+            "(H.failedToScore + A.failedToScore) / 2 < 30"
+          ]
+        }
+      },
+      "principal": "M1",
+      "secundaria": "M9",
+      "po": "M2",
+      "resumo": "Colombia é o favorito com odds de 1.55 e estatísticas superiores em ataque e pontos por jogo. O método M1 (Back Favorito) foi CONFIRMADO com 57 pontos, indicando uma POSSÍVEL oportunidade. O método M9 (Lay Zebra) também foi CONFIRMADO com 55 pontos, sugerindo uma aposta contra o azarão (Congo DR). A liga 'World Cup 2026' está na lista de ligas permitidas para M1 e M9."
+    }
+  ],
   "evitar": []
 }
