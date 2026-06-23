@@ -1,195 +1,78 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-export type OverLimite70 = {
-  aplicavel?: boolean;
-  elegivel?: boolean;
-  sub_cenario?: string;   // "gatilho_placar" | "padrao_fim"
-  modo?: string;          // "pre_jogo" | "ao_vivo"
-  favorito?: string;
-  indice_gols_final?: string;
-  condicao_entrada?: string;
-  mercado_sugerido?: string;
-  odd_esperada?: string;
-  stake_recomendada?: string;
-  observacoes?: string;
-};
+// =====================================================
+// ESTRUTURA v7.1.13 (sistema de score por pesos)
+// =====================================================
+// Tipos e constantes vivem em lib/metodos.ts (sem deps de node, podem ser
+// importados por componentes client).
+// Re-exports pra retrocompat (Entrada/Evitar/Relatorio agora moram em ./metodos)
+export type {
+  Entrada, Evitar, Relatorio, ContextoTimes,
+  OverLimite70, BackFavorito, LayZebra, Back2x2, BackGoleada, ConfirmacaoVisual,
+} from './metodos';
 
-export type BackFavorito = {
-  aplicavel?: boolean;
-  modo?: string;
-  favorito?: string;
-  odd_alvo?: string;
-  razao?: string;
-  gatilho_ao_vivo?: string;
-  stake_recomendada?: string;
-};
+export {
+  type Veredito, type Metodo, type StatsTime, type StatsAgregado,
+  type PlacarProvavel, type PoissonInfo, type MetodosV7, type Odds1x2,
+  METODOS_V7_KEYS, METODO_LABELS, METODO_HV, METODO_TIPO,
+  METODO_MERCADO, METODO_EMOJI, METODO_COR,
+} from './metodos';
+import type { Metodo, MetodosV7, StatsAgregado, PoissonInfo, Odds1x2, Veredito, Entrada, Relatorio } from './metodos';
+import { METODOS_V7_KEYS, METODO_HV } from './metodos';
 
-export type LayZebra = {
-  aplicavel?: boolean;
-  modo?: string;
-  zebra?: string;
-  odd_zebra_alvo?: string;
-  razao?: string;
-  gatilho_ao_vivo?: string;
-  stake_recomendada?: string;
-};
+// (Tipos Entrada/Evitar/Relatorio movidos pra lib/metodos.ts)
 
-export type Back2x2 = {
-  aplicavel?: boolean;
-  razao?: string;
-  indice_over_2_5?: string;
-  indice_ambas_marcam?: string;
-  indice_over_ht?: string;
-  modo?: string;
-  odd_alvo?: string;
-  regra_saida?: string;
-  gatilho_ao_vivo?: string;
-  stake_recomendada?: string;
-};
+// =====================================================
+// HELPERS DE MÉTODOS (usam as constantes de ./metodos)
+// =====================================================
 
-export type BackGoleada = {
-  aplicavel?: boolean;
-  candidato?: string;
-  razao?: string;
-  modo?: string;
-  mercado_sugerido?: string;
-  odd_esperada?: string;
-  stake_recomendada?: string;
-};
+export function metodosConfirmados(entrada: Entrada): string[] {
+  const out: string[] = [];
+  const m = entrada.metodos || {};
+  for (const k of METODOS_V7_KEYS) {
+    const obj = m[k];
+    if (obj && obj.veredito === 'CONFIRMADA') out.push(k as string);
+  }
+  return out;
+}
 
-export type OverGolos = {
-  aplicavel?: boolean;
-  modo?: string;
-  linha?: string;            // "over_1.5" | "over_2.5" | "over_0.5_ht" | "ambas_marcam"
-  mercado_sugerido?: string;
-  razao?: string;
-  odd_alvo?: string;
-  gatilho_ao_vivo?: string;
-  stake_recomendada?: string;
-};
+export function metodosPossiveis(entrada: Entrada): string[] {
+  const out: string[] = [];
+  const m = entrada.metodos || {};
+  for (const k of METODOS_V7_KEYS) {
+    const obj = m[k];
+    if (obj && (obj.veredito === 'POSSÍVEL' || obj.veredito === 'POSSIVEL')) out.push(k as string);
+  }
+  return out;
+}
 
-export type MercadoGols = {
-  aplicavel?: boolean;
-  sub_tipo?: string;         // "gols_ht" | "ambas_marcam" | "over_a_frente"
-  modo?: string;
-  mercado_sugerido?: string;
-  razao?: string;
-  odd_alvo?: string;
-  gatilho_ao_vivo?: string;
-  stake_recomendada?: string;
-};
+export function metodoPrincipal(entrada: Entrada): string | null {
+  if (entrada.principal) {
+    const k = entrada.principal as keyof MetodosV7;
+    if (entrada.metodos?.[k]) return k as string;
+  }
+  const conf = metodosConfirmados(entrada);
+  if (conf.length === 0) return null;
+  conf.sort((a, b) => {
+    const aHV = METODO_HV[a] ? 1 : 0;
+    const bHV = METODO_HV[b] ? 1 : 0;
+    if (aHV !== bHV) return bHV - aHV;
+    const aS = entrada.metodos?.[a as keyof MetodosV7]?.score || 0;
+    const bS = entrada.metodos?.[b as keyof MetodosV7]?.score || 0;
+    return bS - aS;
+  });
+  return conf[0];
+}
 
-export type ConfirmacaoVisual = {
-  aplicavel?: boolean;
-  elegivel?: boolean;
-  perfil_tatico?: string;
-  gatilhos_aceleracao?: string;
-  alerta_armadilha?: string;
-  mercado_recomendado?: string;
-  momento_observacao?: string;
-};
+// Detecta se é uma entrada no formato v7.1.13 (tem `metodos` dict)
+export function isV7(entrada: Entrada): boolean {
+  return !!(entrada.metodos && Object.keys(entrada.metodos).length > 0);
+}
 
-export type PlanoExecucao = {
-  abordagem?: string;
-  justificativa_abordagem?: string;
-  gatilho_saida_parcial?: string;
-  hard_stop?: string;
-};
-
-export type ContextoTime = {
-  posicao?: string;
-  objetivo?: string;
-};
-
-export type ContextoTimes = {
-  casa?: ContextoTime;
-  fora?: ContextoTime;
-};
-
-export type Entrada = {
-  horario: string;
-  liga: string;
-  jogo: string;
-  metodos_aplicados?: string[];
-  mercado_principal: string;
-  odd_principal?: string;            // legado (relatórios antigos)
-  fair_odd_calculada?: string;       // legado
-  odd_secundaria?: string;           // legado
-  // Novos campos de odd estimada (probabilidade → fair → mínima)
-  probabilidade_estimada?: string;
-  fair_odd?: string;
-  odd_minima_entrada?: string;
-  media_gols_casa?: string | number | null;
-  media_gols_fora?: string | number | null;
-  odd_minima_secundaria?: string;
-  valor_esperado?: string;
-  explicacao_curta?: string;
-  alerta_geral?: string;
-  mercado_secundario?: string;
-  desempenho_1t?: string;
-  desempenho_2t?: string;
-  contexto_times?: ContextoTimes | null;
-  motivacao_tecnica?: string;
-  coeficiente_regularidade?: string;
-  mando_de_campo?: string;
-  condicoes_campo?: string;
-  desfalques_chave?: string;
-  especificidades_gols?: string;
-  momento_gols?: string;
-  jogadores_chave?: string;
-  placares_provaveis?: string;
-  momento_entrada?: string;
-  situacao_saida?: string;
-  stake_recomendada?: string;
-  plano_execucao?: PlanoExecucao | null;
-  back_favorito?: BackFavorito | null;
-  lay_zebra?: LayZebra | null;
-  over_limite_70?: OverLimite70 | null;
-  back_2x2?: Back2x2 | null;
-  back_goleada?: BackGoleada | null;
-  lay_1x0?: any | null;
-  lay_0x1?: any | null;
-  over_golos?: OverGolos | null;
-  mercado_gols?: MercadoGols | null;
-  confirmacao_visual?: ConfirmacaoVisual | null;
-  // Placar gravado pelo Worker na auditoria (pra mostrar jogos encerrados)
-  _slug?: string;
-  _placar?: string | null;          // ex: "2x1"
-  _status?: string;                 // 'finalizado' | 'em_andamento' | 'agendado'
-  _placar_atualizado_em?: string;
-  _veredito?: string;               // 'green' | 'red' | 'inconclusivo' (do método principal)
-  _vereditos?: Record<string, { resultado?: string; motivo?: string }>; // por método
-};
-
-export type Evitar = {
-  horario: string;
-  liga: string;
-  jogo: string;
-  motivo: string;
-  motivos_por_metodo?: {
-    back_favorito?: string;
-    lay_zebra?: string;
-    over_limite_70?: string;
-    back_2x2?: string;
-    back_goleada?: string;
-    lay_1x0?: string;
-    lay_0x1?: string;
-  };
-};
-
-export type Relatorio = {
-  slug: string;
-  arquivo: string;
-  data: string;
-  variante: string;
-  titulo: string;
-  subtitulo?: string;
-  gerado_em?: string;
-  total_partidas_analisadas?: number;
-  entradas: Entrada[];
-  evitar: Evitar[];
-};
+// =====================================================
+// LISTAGEM DE RELATÓRIOS
+// =====================================================
 
 const RELATORIOS_DIR = path.join(process.cwd(), 'relatorios');
 
