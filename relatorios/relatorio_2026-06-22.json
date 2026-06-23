@@ -81,9 +81,9 @@
       },
       "lay_0x1": null,
       "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-06-22T16:05:16.310Z"
+      "_placar": "0x1",
+      "_status": "em_andamento",
+      "_placar_atualizado_em": "2026-06-23T00:20:16.107Z"
     },
     {
       "horario": "14:00",
@@ -189,9 +189,24 @@
       "lay_1x0": null,
       "lay_0x1": null,
       "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-06-22T16:05:16.310Z"
+      "_placar": "2x0",
+      "_status": "finalizado",
+      "_placar_atualizado_em": "2026-06-23T00:20:16.107Z",
+      "_vereditos": {
+        "back_favorito": {
+          "resultado": "green",
+          "motivo": "Favorito (casa) venceu 2x0"
+        },
+        "over_limite_70": {
+          "resultado": "red",
+          "motivo": "2 gols não passou Over 2.5 (default — sem placar de entrada)"
+        },
+        "back_goleada": {
+          "resultado": "red",
+          "motivo": "Sem goleada (2x0)"
+        }
+      },
+      "_veredito": "green"
     },
     {
       "horario": "18:00",
@@ -282,9 +297,9 @@
       "lay_1x0": null,
       "lay_0x1": null,
       "confirmacao_visual": null,
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-06-22T16:05:16.310Z"
+      "_placar": "2x0",
+      "_status": "em_andamento",
+      "_placar_atualizado_em": "2026-06-23T00:20:16.107Z"
     },
     {
       "horario": "21:00",
