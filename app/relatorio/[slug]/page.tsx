@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, TrendingUp, AlertTriangle } from 'lucide-react';
-import { getRelatorio, listarRelatorios, entradaSlug } from '@/lib/relatorios';
+import { getRelatorio, listarRelatorios, entradaSlug, METODO_LABELS } from '@/lib/relatorios';
 import ListaEntradas from '@/components/ListaEntradas';
 
 export function generateStaticParams() {
@@ -75,54 +75,44 @@ export default function RelatorioPage({ params }: { params: { slug: string } }) 
                   )}
                 </div>
                 <p className="text-sm text-ink-600 dark:text-ink-400">{j.motivo}</p>
+                {(j as any).motivos_principais && Array.isArray((j as any).motivos_principais) && (j as any).motivos_principais.length > 0 && (
+                  <ul className="mt-2 list-disc list-inside text-xs text-ink-500 dark:text-ink-400 space-y-0.5">
+                    {(j as any).motivos_principais.map((mp: string, i: number) => <li key={i}>{mp}</li>)}
+                  </ul>
+                )}
+                {/* v7.1.13: metodos_resumo */}
+                {(j as any).metodos_resumo && Object.keys((j as any).metodos_resumo).length > 0 && (
+                  <details className="mt-2">
+                    <summary className="text-xs text-ink-500 hover:text-ink-700 dark:hover:text-ink-300 cursor-pointer select-none">
+                      Ver score por método
+                    </summary>
+                    <ul className="mt-2 space-y-1 text-xs">
+                      {Object.entries((j as any).metodos_resumo as Record<string, { score?: number; veredito?: string }>).map(([mk, mv]) => (
+                        <li key={mk} className="flex gap-2">
+                          <span className="font-semibold text-ink-700 dark:text-ink-300 shrink-0">{METODO_LABELS[mk] || mk}:</span>
+                          <span className="text-ink-600 dark:text-ink-400 font-mono">
+                            score {mv.score ?? '?'} · {mv.veredito || '?'}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
+                )}
+                {/* Retrocompat: motivos_por_metodo (estrutura antiga) */}
                 {j.motivos_por_metodo && Object.values(j.motivos_por_metodo).some(Boolean) && (
                   <details className="mt-2">
                     <summary className="text-xs text-ink-500 hover:text-ink-700 dark:hover:text-ink-300 cursor-pointer select-none">
                       Ver por que cada método não se aplica
                     </summary>
                     <ul className="mt-2 space-y-1 text-xs">
-                      {j.motivos_por_metodo.back_favorito && (
-                        <li className="flex gap-2">
-                          <span className="font-semibold text-emerald-700 dark:text-emerald-400 shrink-0">Back Favorito:</span>
-                          <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.back_favorito}</span>
+                      {Object.entries(j.motivos_por_metodo as Record<string, string>).map(([mk, mv]) => mv && (
+                        <li key={mk} className="flex gap-2">
+                          <span className="font-semibold text-ink-700 dark:text-ink-300 shrink-0">
+                            {METODO_LABELS[mk] || mk}:
+                          </span>
+                          <span className="text-ink-600 dark:text-ink-400">{mv}</span>
                         </li>
-                      )}
-                      {j.motivos_por_metodo.lay_zebra && (
-                        <li className="flex gap-2">
-                          <span className="font-semibold text-rose-700 dark:text-rose-400 shrink-0">Lay Zebra:</span>
-                          <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.lay_zebra}</span>
-                        </li>
-                      )}
-                      {j.motivos_por_metodo.over_limite_70 && (
-                        <li className="flex gap-2">
-                          <span className="font-semibold text-purple-700 dark:text-purple-400 shrink-0">Over (+1):</span>
-                          <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.over_limite_70}</span>
-                        </li>
-                      )}
-                      {j.motivos_por_metodo.back_2x2 && (
-                        <li className="flex gap-2">
-                          <span className="font-semibold text-blue-700 dark:text-blue-400 shrink-0">Back 2x2:</span>
-                          <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.back_2x2}</span>
-                        </li>
-                      )}
-                      {j.motivos_por_metodo.back_goleada && (
-                        <li className="flex gap-2">
-                          <span className="font-semibold text-amber-700 dark:text-amber-400 shrink-0">Back Goleada:</span>
-                          <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.back_goleada}</span>
-                        </li>
-                      )}
-                      {j.motivos_por_metodo.lay_1x0 && (
-                        <li className="flex gap-2">
-                          <span className="font-semibold text-pink-700 dark:text-pink-400 shrink-0">Lay 1×0:</span>
-                          <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.lay_1x0}</span>
-                        </li>
-                      )}
-                      {j.motivos_por_metodo.lay_0x1 && (
-                        <li className="flex gap-2">
-                          <span className="font-semibold text-fuchsia-700 dark:text-fuchsia-400 shrink-0">Lay 0×1:</span>
-                          <span className="text-ink-600 dark:text-ink-400">{j.motivos_por_metodo.lay_0x1}</span>
-                        </li>
-                      )}
+                      ))}
                     </ul>
                   </details>
                 )}
