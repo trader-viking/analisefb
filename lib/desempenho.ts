@@ -1,24 +1,13 @@
 // Cálculos de desempenho/performance a partir dos relatórios auditados.
-// Premissas (v7.1.13):
-// - ODD usada: odd_estimada do método principal (do bloco metodos). Fallback: odd_minima_entrada.
-// - STAKE: % recomendada pelo método (M1=1.5%, M2=2%, M3=1%, M5/M6/M7/M8=2%, M9=2%, M15=1.5%).
-// - VEREDITO: _veredito = "green" | "red" | "void" | null.
+// Premissas:
+// - ODD usada: odd_minima_entrada (estimada pelo Gemini). Fallback: odd_principal.
+// - STAKE: % recomendada pelo método (back_favorito=2%, lay_zebra=2%, etc.).
+//   Default 1% se não houver recomendação parseável.
+// - VEREDITO: _veredito = "green" | "red" | "void" (push/anulado) | null/undefined.
 
 import type { Relatorio, Entrada } from './relatorios';
-import { METODOS_V7_KEYS } from './relatorios';
 
 export const STAKE_DEFAULT: Record<string, number> = {
-  // v7.1.13 (do documento operacional)
-  M1: 1.5,    // Back Favorito
-  M2: 2,      // Back 2x2 HV
-  M3: 1,      // Back Goleada HV
-  M5: 2,      // Lay 1x0
-  M6: 2,      // Lay 0x1
-  M7: 2,      // Lay 2x0
-  M8: 2,      // Lay 0x2
-  M9: 2,      // Lay Zebra
-  M15: 1.5,   // Over Limite HV
-  // Legado
   back_favorito: 2,
   lay_zebra: 2,
   over_limite_70: 1,
@@ -33,21 +22,9 @@ export type AnyEntrada = Entrada & {
   _status?: string;
 };
 
-// Pega a primeira odd útil (do método principal v7.1.13 > odd_minima_entrada legada).
+// Pega a primeira odd útil (mínima estimada > legado).
 export function oddDe(e: AnyEntrada): number | null {
-  // v7.1.13: pega odd do método principal
-  if (e.metodos && e.principal) {
-    const obj: any = (e.metodos as any)[e.principal];
-    if (obj && obj.odd_estimada) {
-      const m = String(obj.odd_estimada).replace(',', '.').match(/(\d+(?:\.\d+)?)/);
-      if (m) {
-        const n = parseFloat(m[1]);
-        if (n > 1) return n;
-      }
-    }
-  }
-  // Legado
-  const cand = (e as any).odd_minima_entrada || (e as any).odd_principal || '';
+  const cand = e.odd_minima_entrada || e.odd_principal || '';
   const m = String(cand).replace(',', '.').match(/(\d+(?:\.\d+)?)/);
   if (!m) return null;
   const n = parseFloat(m[1]);
@@ -56,18 +33,7 @@ export function oddDe(e: AnyEntrada): number | null {
 
 // Pega a stake recomendada do método principal (em %).
 export function stakeDe(e: AnyEntrada, metodoPrincipal: string): number {
-  // v7.1.13: tenta ler de entrada.metodos[M*].stake_recomendada
-  if (e.metodos && metodoPrincipal in (e.metodos as any)) {
-    const obj: any = (e.metodos as any)[metodoPrincipal];
-    if (obj && typeof obj.stake_recomendada === 'string') {
-      const m = obj.stake_recomendada.match(/(\d+(?:[.,]\d+)?)/);
-      if (m) {
-        const n = parseFloat(m[1].replace(',', '.'));
-        if (n > 0 && n <= 10) return n;
-      }
-    }
-  }
-  // Legado: e.back_favorito.stake_recomendada
+  // Tenta ler do objeto do método (ex: e.back_favorito.stake_recomendada)
   const obj = (e as any)[metodoPrincipal];
   if (obj && typeof obj.stake_recomendada === 'string') {
     const m = obj.stake_recomendada.match(/(\d+(?:[.,]\d+)?)/);
@@ -79,28 +45,11 @@ export function stakeDe(e: AnyEntrada, metodoPrincipal: string): number {
   return STAKE_DEFAULT[metodoPrincipal] ?? 1;
 }
 
-// Ordem de prioridade pra escolher método principal quando há vários
-// HV primeiro (M2, M3, M15), depois 1X2 (M1, M9), depois Lays placar (M5-M8)
-const ORDEM_DESEMPATE_NOVA = ['M2', 'M15', 'M3', 'M1', 'M9', 'M5', 'M6', 'M7', 'M8'];
-const ORDEM_DESEMPATE_LEGADO = [
-  'back_favorito', 'over_limite_70', 'back_2x2', 'lay_zebra', 'back_goleada',
-];
-
+// Define qual é o método principal da entrada, seguindo a ordem de desempate.
+const ORDEM_DESEMPATE = ['back_favorito', 'over_limite_70', 'back_2x2', 'lay_zebra', 'back_goleada'];
 export function metodoPrincipal(e: AnyEntrada): string | null {
-  // v7.1.13: prioriza campo "principal" se existir
-  if (e.principal && typeof e.principal === 'string') {
-    return e.principal;
-  }
-  // v7.1.13: procura método com veredito CONFIRMADA
-  if (e.metodos) {
-    for (const k of ORDEM_DESEMPATE_NOVA) {
-      const obj: any = (e.metodos as any)[k];
-      if (obj && obj.veredito === 'CONFIRMADA') return k;
-    }
-  }
-  // Legado
-  const ativos = ((e as any).metodos_aplicados || []).filter(Boolean);
-  for (const m of ORDEM_DESEMPATE_LEGADO) {
+  const ativos = (e.metodos_aplicados || []).filter(Boolean);
+  for (const m of ORDEM_DESEMPATE) {
     if (ativos.includes(m)) return m;
   }
   return ativos[0] || null;

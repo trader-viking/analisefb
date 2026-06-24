@@ -6,15 +6,11 @@ import {
   ChevronsUp, ChevronsDown, Equal, Crown, Waves,
 } from 'lucide-react';
 import { getEntrada, listarRelatorios, entradaSlug } from '@/lib/relatorios';
-import { isV7 } from '@/lib/relatorios';
 import { BadgeMetodo, metodosAtivos, modoDoMetodo } from '@/components/BadgeMetodo';
 import { ContextoTimesDetalhe } from '@/components/ContextoTimes';
 import BotaoBaixarPorId from '@/components/BotaoBaixarPorId';
 import BotoesAposta from '@/components/BotoesAposta';
 import BotaoFinalizar from '@/components/BotaoFinalizar';
-import StatsTimesV7 from '@/components/StatsTimesV7';
-import MetodosDetalhe from '@/components/MetodosDetalhe';
-import PoissonInfoCard from '@/components/PoissonInfoCard';
 
 export function generateStaticParams() {
   const params: { slug: string; entrada: string }[] = [];
@@ -182,19 +178,10 @@ export default function EntradaPage({
           )}
         </div>
 
-        {/* ====== BLOCOS v7.1.13: stats, métodos detalhados, Poisson ====== */}
-        {isV7(entrada) && (
-          <div className="mt-4 space-y-3">
-            <StatsTimesV7 entrada={entrada} />
-            <PoissonInfoCard entrada={entrada} />
-            <MetodosDetalhe entrada={entrada} />
-          </div>
-        )}
-
         {/* Tabela e motivação dos times */}
         {entrada.contexto_times && (
           <div className="mt-4">
-            <ContextoTimesDetalhe jogo={entrada.jogo} contexto={(entrada as any).contexto_times} />
+            <ContextoTimesDetalhe jogo={entrada.jogo} contexto={entrada.contexto_times} />
           </div>
         )}
 
