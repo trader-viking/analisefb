@@ -1,9 +1,97 @@
 {
   "data": "2026-06-24",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-06-23T15:42:23.546869",
+  "gerado_em": "2026-06-23T23:46:19.366780",
   "fonte": "radaresportivo.com",
   "total_jogos_analisados": 6,
-  "entradas": [],
-  "evitar": []
+  "entradas": [
+    {
+      "horario": "16:00",
+      "liga": "World Cup 2026",
+      "jogo": "Switzerland x Canada",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Switzerland",
+      "probabilidade_estimada": "55%",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "media_gols_casa": "1.70",
+      "media_gols_fora": "1.80",
+      "explicacao_curta": "Switzerland tem melhor retrospecto recente e média de gols superior. Favoritismo claro.",
+      "alerta_geral": null,
+      "valor_esperado": "Prob. estimada de 55% para vitória da Suíça, com fair odd de 1.82. Odd mínima de entrada de 2.09.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Switzerland marca 0.8 no 1ºT",
+      "desempenho_2t": "Canada sofre 0.4 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "Switzerland apresenta um retrospecto recente mais consistente, com mais vitórias e uma média de gols marcados superior em comparação ao Canadá. Embora ambos os times tenham um aproveitamento de pontos por jogo similar, a capacidade ofensiva demonstrada pela Suíça sugere um favoritismo.",
+      "coeficiente_regularidade": "Switzerland: CV baixo | Canada: CV moderado",
+      "mando_de_campo": "Switzerland: 60% vitórias em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Switzerland: marca mais no 2º tempo | Canada: marca mais no 1º tempo",
+      "momento_gols": "Switzerland: 61-75min (28%), 76-90min (32%) | Canada: 0-15min (20%), 16-30min (20%)",
+      "jogadores_chave": "N/A",
+      "placares_provaveis": "2x1, 1x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro com odd atrativa.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Switzerland",
+        "odd_alvo": "2.09",
+        "razao": "Switzerland tem um retrospecto recente mais forte e uma média de gols superior, indicando favoritismo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "16:00",
+      "jogo": "Switzerland x Canada",
+      "liga": "World Cup 2026",
+      "motivo": "Favoritismo claro da Suíça, mas sem dados suficientes para outros mercados.",
+      "motivos_por_metodo": {
+        "back_favorito": "Aplicável",
+        "lay_zebra": "Zebra (Canada) tem média de gols marcados de 1.80, acima do limite de 1.50 para ser considerada zebra fraca.",
+        "over_limite_70": "Dados de gols por faixa de tempo insuficientes para ambos os times.",
+        "back_2x2": "Índice de Over 2.5 para Switzerland é 40% e para Canada é 20%, abaixo do mínimo de 60%.",
+        "back_goleada": "Probabilidade estimada de vitória da Suíça é 55%, abaixo do mínimo de 70% para favoritismo extremo.",
+        "lay_1x0": "P(1-0) estimada > 12% devido à média de gols total de 3.00 e BTTS médio de 70%.",
+        "lay_0x1": "P(0-1) estimada > 12% devido à média de gols total de 3.00 e BTTS médio de 70%."
+      }
+    }
+  ]
 }
