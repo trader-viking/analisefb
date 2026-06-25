@@ -1,7 +1,7 @@
 {
   "data": "2026-06-24",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-06-24T22:46:38.498564",
+  "gerado_em": "2026-06-24T23:12:02.963412",
   "fonte": "radaresportivo.com",
   "total_jogos_analisados": 6,
   "entradas": [
@@ -16,47 +16,47 @@
       "probabilidade_estimada": "55%",
       "fair_odd": "1.82",
       "odd_minima_entrada": "2.09",
-      "media_gols_casa": "2.00",
-      "media_gols_fora": "1.50",
-      "explicacao_curta": "Switzerland tem bom retrospecto em casa e marcou o primeiro gol em 80% dos jogos. Canada tem média de gols sofridos alta.",
+      "media_gols_casa": "1.70",
+      "media_gols_fora": "1.80",
+      "explicacao_curta": "Switzerland tem bom retrospecto em casa e marcou o primeiro gol em 80% dos jogos. Canada tem média de gols alta, mas sofreu 1.50 gols/jogo.",
       "alerta_geral": null,
       "valor_esperado": "Probabilidade estimada de 55% para vitória da Switzerland, com fair odd de 1.82. Odd mínima de entrada de 2.09.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Switzerland marcou 1.90 gols no 1ºT",
-      "desempenho_2t": "Canada sofreu 1.00 gol no 2ºT",
+      "desempenho_1t": "Switzerland marcou 0.80 no 1ºT",
+      "desempenho_2t": "Canada sofreu 0.70 no 2ºT",
       "contexto_times": {
         "casa": {
           "posicao": "1",
-          "objetivo": "acesso"
+          "objetivo": "titulo"
         },
         "fora": {
           "posicao": "2",
-          "objetivo": "acesso"
+          "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Switzerland joga em casa com 7 de 7 pontos e marcou 7 gols em 3 jogos. Canada tem 4 pontos em 3 jogos e sofreu 3 gols.",
+      "motivacao_tecnica": "Switzerland joga em casa com bom aproveitamento (7/9 pontos) e marcou o primeiro gol em 80% dos jogos. Canada tem ataque forte (1.80 gols/jogo), mas defesa vulnerável (1.50 gols sofridos/jogo).",
       "coeficiente_regularidade": "Casa: CV moderado | Visitante: CV moderado",
-      "mando_de_campo": "Switzerland: 60% vitórias em casa",
+      "mando_de_campo": "Switzerland faz 78% dos pontos em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Switzerland marca 2.00 gols/jogo em casa, Canada sofre 0.40 gols/jogo fora.",
-      "momento_gols": "Switzerland marca mais gols no 2º tempo (1.90), Canada sofre mais no 2º tempo (0.50).",
-      "jogadores_chave": null,
-      "placares_provaveis": "2x1, 3x1",
+      "especificidades_gols": "Switzerland marca mais no 2º tempo (1.20 gols/jogo)",
+      "momento_gols": "Switzerland marca mais após os 75min (50%)",
+      "jogadores_chave": "Elvedi, Xhaka",
+      "placares_provaveis": "2x1, 1x1",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
+      "situacao_saida": "Cash-out se placar desfavorável",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro em casa com bons números ofensivos.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Favoritismo claro em casa com bom retrospecto.",
+        "gatilho_saida_parcial": "Gol do Canada",
+        "hard_stop": "Gol do Canada e placar desfavorável"
       },
       "back_favorito": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_estimada_>=_65%",
+          "prob_>=_65%",
           "em_casa_ou_aproveitamento",
           "adversario_<_35%",
           "liga_permitida"
@@ -65,93 +65,34 @@
         "modo": "pre_jogo",
         "favorito": "Switzerland",
         "odd_alvo": "2.09",
-        "razao": "Switzerland tem forte desempenho em casa (2.00 pts/jogo) e marcou 7 gols em 3 jogos. Canada sofre 0.40 gols/jogo fora.",
+        "razao": "Switzerland tem bom retrospecto em casa e marcou o primeiro gol em 80% dos jogos. Canada tem média de gols alta, mas sofreu 1.50 gols/jogo.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 3,
-        "modo": null,
-        "zebra": null,
-        "favorito_do_jogo": null,
-        "odd_zebra_alvo": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "over_limite_70": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 4,
-        "modo": null,
-        "favorito_ou_motivacao": null,
-        "indices_gols_faixas": null,
-        "qual_condicao_atende": null,
-        "motivo_motivacao": null,
-        "condicao_entrada": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null,
-        "alerta_armadilha": null
-      },
-      "back_2x2": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 3,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "back_goleada": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 3,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
-      },
-      "lay_1x0": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 5,
-        "modo": null,
-        "prob_1_0_estimada": null,
-        "visitante_over_0_5": null,
-        "visitante_marca_pct": null,
-        "media_gols_total": null,
-        "btts_medio": null,
-        "razao": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "lay_0x1": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 5,
-        "modo": null,
-        "prob_0_1_estimada": null,
-        "mandante_over_0_5": null,
-        "mandante_marca_pct": null,
-        "media_gols_total": null,
-        "btts_medio": null,
-        "razao": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
       "confirmacao_visual": null
     }
   ],
-  "evitar": []
+  "evitar": [
+    {
+      "horario": "16:00",
+      "jogo": "Bosnia-Herzegovina x Qatar",
+      "liga": "World Cup 2026",
+      "motivo": "Favoritismo extremo do Bosnia-Herzegovina, mas dados de gols insuficientes para outros métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada 70% (fair 1.43), mas odd mínima de entrada seria 1.64. O dado de 'Não marcou' do Qatar (50%) e a média de gols sofridos (1.60) não justificam a entrada com valor.",
+        "lay_zebra": "Qatar não se encaixa nos critérios de zebra (odd alta e desempenho ruim).",
+        "over_limite_70": "Dados de gols por período ausentes no PDF.",
+        "back_2x2": "Índices de Over 2.5 e Ambas Marcam insuficientes.",
+        "back_goleada": "Favoritismo claro, mas média ofensiva do Bosnia-Herzegovina (1.50) não atinge o mínimo de 2.5.",
+        "lay_1x0": "P(1-0) estimada > 12% devido à baixa média de gols total (2.10).",
+        "lay_0x1": "P(0-1) estimada > 12% devido à baixa média de gols total (2.10)."
+      }
+    }
+  ]
 }
