@@ -1,9 +1,173 @@
 {
   "data": "2026-06-25",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-06-24T06:27:59.232233",
+  "gerado_em": "2026-06-24T21:11:37.330859",
   "fonte": "radaresportivo.com",
   "total_jogos_analisados": 7,
-  "entradas": [],
-  "evitar": []
+  "entradas": [
+    {
+      "horario": "20:30",
+      "liga": "Brazil Serie B",
+      "jogo": "Cuiaba x Londrina",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Cuiaba",
+      "probabilidade_estimada": "58%",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.97",
+      "media_gols_casa": "0.64",
+      "media_gols_fora": "1.21",
+      "explicacao_curta": "Cuiabá tem melhor retrospecto em casa e enfrenta Londrina com defesa frágil.",
+      "alerta_geral": null,
+      "valor_esperado": "Prob. 58% → fair 1.72; com margem de segurança, só entrar acima de 1.97",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "11º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "17º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Cuiabá, 11º colocado com 19 pontos, busca se afastar da zona de rebaixamento. Londrina, 17º com 14 pontos, luta para sair da zona de rebaixamento. Cuiabá tem melhor desempenho em casa (4V, 7E, 3D, 9:7) comparado ao Londrina fora (2V, 2E, 3D, 9:10).",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Cuiaba: 57% não sofreu gols em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e odds razoáveis.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_estimada_>=_65%",
+          "adversario_<_35%",
+          "em_casa_ou_aproveitamento",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Cuiaba",
+        "odd_alvo": "1.97",
+        "razao": "Cuiabá é favorito com 58% de probabilidade estimada, jogando em casa contra um Londrina em má fase (29% de vitórias).",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "20:30",
+      "jogo": "Cuiaba x Londrina",
+      "liga": "Brazil Serie B",
+      "motivo": "Favoritismo moderado e dados de gols insuficientes para outros métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada 58% (precisa >= 65%)",
+        "lay_zebra": "Odd da zebra estimada > 5.00 não se aplica, mas desempenho não é catastrófico.",
+        "over_limite_70": "Dados de gols por período (61-75, 76-90) não disponíveis no PDF.",
+        "back_2x2": "Índice de Over 2.5 média 50% (precisa >= 60%) e Ambas Marcam média 30% (precisa >= 60%).",
+        "back_goleada": "Probabilidade estimada 58% (precisa >= 70%).",
+        "lay_1x0": "P(1-0) estimada > 12% (Londrina marca 1.21 gols/jogo).",
+        "lay_0x1": "Mandante marca 0.64 gols/jogo (precisa > 65% de jogos com gol)."
+      }
+    }
+  ]
 }
