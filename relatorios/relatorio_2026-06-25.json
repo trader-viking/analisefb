@@ -1,7 +1,7 @@
 {
   "data": "2026-06-25",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-06-24T22:54:27.012958",
+  "gerado_em": "2026-06-24T23:22:42.776250",
   "fonte": "radaresportivo.com",
   "total_jogos_analisados": 7,
   "entradas": [
@@ -13,21 +13,21 @@
         "back_favorito"
       ],
       "mercado_principal": "Vitória Cuiaba",
-      "probabilidade_estimada": "60%",
-      "fair_odd": "1.67",
-      "odd_minima_entrada": "1.92",
+      "probabilidade_estimada": "58%",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.98",
       "media_gols_casa": "0.70",
-      "media_gols_fora": "1.00",
-      "explicacao_curta": "Cuiabá favorito em casa contra Londrina com retrospecto fraco fora. Favoritismo claro e momento ofensivo.",
+      "media_gols_fora": "0.90",
+      "explicacao_curta": "Cuiabá tem melhor retrospecto recente em casa e enfrenta Londrina com dificuldade ofensiva.",
       "alerta_geral": null,
-      "valor_esperado": "Prob. 60% → fair 1.67; com margem de segurança, só entrar acima de 1.92",
+      "valor_esperado": "Probabilidade estimada de 58% para a vitória do Cuiabá, com fair odd de 1.72. Odd mínima de entrada de 1.98.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": "Cuiaba marca 0.40 no 1ºT",
-      "desempenho_2t": "Londrina sofre 0.70 no 2ºT",
+      "desempenho_1t": "Cuiaba marca 0.40 no 1ºT, Londrina marca 0.20 no 1ºT",
+      "desempenho_2t": "Cuiaba marca 0.30 no 2ºT, Londrina marca 0.70 no 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": "10º",
+          "posicao": "11º",
           "objetivo": "meio_tabela"
         },
         "fora": {
@@ -35,36 +35,37 @@
           "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "Cuiabá é o 10º colocado com 19 pontos, buscando se afastar da zona de rebaixamento. Londrina é o 17º com 14 pontos, lutando contra o rebaixamento. O Cuiabá tem um retrospecto defensivo sólido em casa (0.50 sofridos), enquanto o Londrina tem um ataque fraco fora de casa (0.90 marcados).",
-      "coeficiente_regularidade": "Casa: CV baixo / Visitante: CV moderado",
-      "mando_de_campo": "Cuiaba faz 57% dos pontos em casa",
+      "motivacao_tecnica": "Cuiabá, 11º colocado com 19 pontos, busca se afastar da zona de rebaixamento. Londrina, 17º com 14 pontos, luta para sair da zona de rebaixamento. Cuiabá tem melhor desempenho em casa (2 vitórias, 4 empates, 1 derrota) com média de 0.70 gols marcados e 0.57 sofridos. Londrina fora de casa tem 2 vitórias, 0 empates e 5 derrotas, com média de 1.14 gols marcados e 1.71 sofridos.",
+      "coeficiente_regularidade": "Cuiaba: CV baixo / Londrina: CV moderado",
+      "mando_de_campo": "Cuiaba: 57% dos pontos em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Cuiaba tem dificuldade em marcar gols, mas é sólido defensivamente. Londrina tem um ataque mais produtivo, mas sofre muitos gols.",
-      "momento_gols": "Cuiaba marca pouco no 2ºT, Londrina marca mais no 2ºT.",
+      "especificidades_gols": "Cuiaba marca mais no 1º tempo (0.40), Londrina marca mais no 2º tempo (0.70)",
+      "momento_gols": "Cuiaba: 61-75 (10%), 76-90 (20%). Londrina: 61-75 (10%), 76-90 (50%)",
       "jogadores_chave": null,
-      "placares_provaveis": "1x0, 2x0",
+      "placares_provaveis": "1x0, 1x1",
       "momento_entrada": "pre_jogo",
       "situacao_saida": null,
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro e odd inicial atrativa.",
+        "justificativa_abordagem": "Favoritismo claro em casa com odd atrativa.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
       "back_favorito": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_>=_65%",
+          "prob_estimada_>=_55%",
           "adversario_<_35%",
+          "em_casa",
           "liga_permitida"
         ],
         "criterios_total": 4,
         "modo": "pre_jogo",
         "favorito": "Cuiaba",
-        "odd_alvo": "1.75",
-        "razao": "Cuiabá é favorito com odd 1.75, jogando em casa contra um Londrina em má fase fora de casa (20% de aproveitamento).",
+        "odd_alvo": "1.98",
+        "razao": "Cuiabá joga em casa com melhor retrospecto recente e enfrenta um Londrina com dificuldade ofensiva e em má fase fora de casa.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
@@ -72,41 +73,607 @@
       "over_limite_70": null,
       "back_2x2": null,
       "back_goleada": null,
-      "lay_1x0": {
-        "aplicavel": false,
-        "criterios_atendidos": [
-          "p_1_0_<_12%"
-        ],
-        "criterios_total": 5,
-        "modo": "pre_jogo",
-        "prob_1_0_estimada": "15%",
-        "visitante_over_0_5": "70%",
-        "visitante_marca_pct": "43%",
-        "media_gols_total": "2.50",
-        "btts_medio": "30%",
-        "razao": "P(1-0) estimada em 15%, acima do limite de 12%.",
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "17:00",
+      "liga": "World Cup 2026",
+      "jogo": "Ecuador x Germany",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Germany",
+      "probabilidade_estimada": "65%",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.77",
+      "media_gols_casa": "1.50",
+      "media_gols_fora": "1.70",
+      "explicacao_curta": "Germany em excelente fase ofensiva, com média de 3.4 gols por jogo, contra um Ecuador com defesa vulnerável.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 65% para a vitória da Alemanha, com fair odd de 1.54. Odd mínima de entrada de 1.77.",
+      "mercado_secundario": "Mais 1.5 gols",
+      "odd_minima_secundaria": "1.77",
+      "desempenho_1t": "Ecuador marca 0.50 no 1ºT, Germany marca 1.50 no 1ºT",
+      "desempenho_2t": "Ecuador marca 0.60 no 2ºT, Germany marca 1.90 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "titulo"
+        }
       },
+      "motivacao_tecnica": "Germany demonstra um poder ofensivo avassalador, com média de 3.4 gols por jogo nos últimos 10. Ecuador, apesar de ter um bom retrospecto em casa, sofreu 1.2 gols por jogo como visitante e tem uma defesa que pode ser explorada. A Alemanha está em uma sequência de 10 vitórias consecutivas, marcando 2 ou mais gols nos últimos 8 jogos.",
+      "coeficiente_regularidade": "Ecuador: CV moderado / Germany: CV baixo",
+      "mando_de_campo": "Ecuador: 70% de vitórias em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Germany marca em todas as fases do jogo, com forte poder ofensivo no 2º tempo.",
+      "momento_gols": "Ecuador: 61-75 (10%), 76-90 (20%). Germany: 61-75 (10%), 76-90 (50%)",
+      "jogadores_chave": null,
+      "placares_provaveis": "1x3, 0x4",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo extremo da Alemanha com poder ofensivo.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_estimada_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Germany",
+        "odd_alvo": "1.77",
+        "razao": "Germany em excelente fase ofensiva, com média de 3.4 gols por jogo, contra um Ecuador com defesa vulnerável.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "%_Marcado_favorito_61-75_>=_25%",
+          "%_Marcado_favorito_76-90_>=_25%",
+          "%_Sofrido_adversário_61-75_>=_25%",
+          "%_Sofrido_adversário_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Germany - forte poder ofensivo",
+        "indices_gols_faixas": "Germany Marcado 61-75: 10% | 76-90: 50% | Ecuador Sofrido 61-75: 10% | 76-90: 20%",
+        "qual_condicao_atende": "Nenhuma das condições atende o limiar de 25%.",
+        "motivo_motivacao": "Germany em forte busca por título.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "17:00",
+      "liga": "World Cup 2026",
+      "jogo": "Curacao x Ivory Coast",
+      "metodos_aplicados": [
+        "lay_zebra"
+      ],
+      "mercado_principal": "Lay Ivory Coast",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "media_gols_casa": "2.57",
+      "media_gols_fora": "2.20",
+      "explicacao_curta": "Ivory Coast é favorita com odd baixa e retrospecto recente forte, enquanto Curacao tem dificuldade defensiva.",
+      "alerta_geral": null,
+      "valor_esperado": "Ivory Coast é a favorita clara, com odd de vitória estimada em 1.33. Lay na Ivory Coast (apostando contra a vitória dela) é uma operação de valor.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Curacao marca 0.86 no 1ºT, Ivory Coast marca 0.80 no 1ºT",
+      "desempenho_2t": "Curacao marca 1.71 no 2ºT, Ivory Coast marca 1.10 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Ivory Coast é a grande favorita, com 71% de vitórias nos últimos 10 jogos e média de 1.9 gols marcados. Curacao tem um retrospecto recente fraco, com apenas 20% de vitórias e uma defesa que sofre em média 2.2 gols por jogo. A odd para a vitória da Ivory Coast é baixa, tornando o Lay uma opção de valor.",
+      "coeficiente_regularidade": "Curacao: CV alto / Ivory Coast: CV moderado",
+      "mando_de_campo": "Curacao: 71% de vitórias em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Curacao marca mais no 2º tempo (1.71), Ivory Coast marca mais no 1º tempo (0.80)",
+      "momento_gols": "Curacao: 61-75 (40%), 76-90 (40%). Ivory Coast: 61-75 (40%), 76-90 (30%)",
+      "jogadores_chave": null,
+      "placares_provaveis": "0x1, 0x2",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro da Ivory Coast com odd baixa.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "odd_zebra_>=_5.00",
+          "desempenho_ruim",
+          "liga_permitida"
+        ],
+        "criterios_total": 3,
+        "modo": "pre_jogo",
+        "zebra": "Curacao",
+        "favorito_do_jogo": "Ivory Coast",
+        "odd_zebra_alvo": "15.00",
+        "razao": "Curacao é a zebra com odd muito alta (15.00) e retrospecto recente ruim (20% vitórias, 2.2 gols sofridos/jogo).",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "20:00",
+      "liga": "World Cup 2026",
+      "jogo": "Japan x Sweden",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Japan",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "media_gols_casa": "2.70",
+      "media_gols_fora": "1.50",
+      "explicacao_curta": "Japan em excelente fase ofensiva em casa, com média de 2.7 gols, contra uma Sweden com defesa vulnerável.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 60% para a vitória do Japan, com fair odd de 1.67. Odd mínima de entrada de 1.92.",
+      "mercado_secundario": "Mais 1.5 gols",
+      "odd_minima_secundaria": "1.92",
+      "desempenho_1t": "Japan marca 0.60 no 1ºT, Sweden marca 0.60 no 1ºT",
+      "desempenho_2t": "Japan marca 1.30 no 2ºT, Sweden marca 1.10 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "Japan demonstra um poder ofensivo notável em casa, com média de 2.7 gols por jogo. Sweden, apesar de ter um retrospecto recente razoável, tem uma defesa que sofre em média 2.2 gols por jogo. Japan está em uma sequência de 9 jogos sem perder, marcando 1 ou mais gols nos últimos 9 jogos.",
+      "coeficiente_regularidade": "Japan: CV baixo / Sweden: CV moderado",
+      "mando_de_campo": "Japan: 80% de vitórias em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Japan marca mais no 2º tempo (1.30), Sweden marca mais no 1º tempo (0.60)",
+      "momento_gols": "Japan: 61-75 (30%), 76-90 (50%). Sweden: 61-75 (30%), 76-90 (50%)",
+      "jogadores_chave": null,
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo do Japan com poder ofensivo em casa.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_estimada_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Japan",
+        "odd_alvo": "1.92",
+        "razao": "Japan em excelente fase ofensiva em casa, com média de 2.7 gols, contra uma Sweden com defesa vulnerável.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "%_Marcado_favorito_61-75_>=_25%",
+          "%_Marcado_favorito_76-90_>=_25%",
+          "%_Sofrido_adversário_61-75_>=_25%",
+          "%_Sofrido_adversário_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Japan - forte poder ofensivo em casa",
+        "indices_gols_faixas": "Japan Marcado 61-75: 30% | 76-90: 50% | Sweden Sofrido 61-75: 30% | 76-90: 50%",
+        "qual_condicao_atende": "Japan Marcado 61-75: 30% (atende), Japan Marcado 76-90: 50% (atende), Sweden Sofrido 61-75: 30% (atende), Sweden Sofrido 76-90: 50% (atende)",
+        "motivo_motivacao": "Japan buscando título.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "20:00",
+      "liga": "World Cup 2026",
+      "jogo": "Tunisia x Netherlands",
+      "metodos_aplicados": [
+        "lay_zebra"
+      ],
+      "mercado_principal": "Lay Netherlands",
+      "probabilidade_estimada": "70%",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.64",
+      "media_gols_casa": "1.70",
+      "media_gols_fora": "1.90",
+      "explicacao_curta": "Netherlands é favorita com odd baixa e retrospecto recente forte, enquanto Tunisia tem dificuldade defensiva.",
+      "alerta_geral": null,
+      "valor_esperado": "Netherlands é a favorita clara, com odd de vitória estimada em 1.43. Lay na Netherlands (apostando contra a vitória dela) é uma operação de valor.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Tunisia marca 0.50 no 1ºT, Netherlands marca 0.80 no 1ºT",
+      "desempenho_2t": "Tunisia marca 0.40 no 2ºT, Netherlands marca 1.10 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Netherlands é a grande favorita, com 60% de vitórias nos últimos 10 jogos e média de 2.5 gols marcados. Tunisia tem um retrospecto recente fraco, com apenas 20% de vitórias e uma defesa que sofre em média 2.1 gols por jogo. A odd para a vitória da Netherlands é baixa, tornando o Lay uma opção de valor.",
+      "coeficiente_regularidade": "Tunisia: CV alto / Netherlands: CV moderado",
+      "mando_de_campo": "Tunisia: 20% de vitórias em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Tunisia marca mais no 1º tempo (0.50), Netherlands marca mais no 2º tempo (1.10)",
+      "momento_gols": "Tunisia: 61-75 (40%), 76-90 (70%). Netherlands: 61-75 (40%), 76-90 (70%)",
+      "jogadores_chave": null,
+      "placares_provaveis": "0x1, 0x2",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro da Netherlands com odd baixa.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "odd_zebra_>=_5.00",
+          "desempenho_ruim",
+          "liga_permitida"
+        ],
+        "criterios_total": 3,
+        "modo": "pre_jogo",
+        "zebra": "Tunisia",
+        "favorito_do_jogo": "Netherlands",
+        "odd_zebra_alvo": "26.00",
+        "razao": "Tunisia é a zebra com odd muito alta (26.00) e retrospecto recente ruim (20% vitórias, 2.1 gols sofridos/jogo).",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "23:00",
+      "liga": "World Cup 2026",
+      "jogo": "Türkiye x USA",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Türkiye",
+      "probabilidade_estimada": "55%",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "media_gols_casa": "2.00",
+      "media_gols_fora": "0.80",
+      "explicacao_curta": "Türkiye em ótima fase ofensiva em casa, com média de 2.0 gols, contra uma USA com defesa vulnerável.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 55% para a vitória da Türkiye, com fair odd de 1.82. Odd mínima de entrada de 2.09.",
+      "mercado_secundario": "Mais 1.5 gols",
+      "odd_minima_secundaria": "2.09",
+      "desempenho_1t": "Türkiye marca 0.90 no 1ºT, USA marca 0.60 no 1ºT",
+      "desempenho_2t": "Türkiye marca 1.30 no 2ºT, USA marca 0.20 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "Türkiye demonstra um poder ofensivo notável em casa, com média de 2.0 gols por jogo. USA, apesar de ter um retrospecto recente razoável, tem uma defesa que sofre em média 1.2 gols por jogo e tem dificuldade em marcar gols fora de casa (média de 0.8). Türkiye está em uma sequência de 8 jogos sem perder, marcando 1 ou mais gols nos últimos 7 jogos.",
+      "coeficiente_regularidade": "Türkiye: CV baixo / USA: CV moderado",
+      "mando_de_campo": "Türkiye: 71% de vitórias em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Türkiye marca mais no 2º tempo (1.30), USA marca mais no 1º tempo (0.60)",
+      "momento_gols": "Türkiye: 61-75 (20%), 76-90 (20%). USA: 61-75 (0%), 76-90 (0%)",
+      "jogadores_chave": null,
+      "placares_provaveis": "2x1, 2x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo da Türkiye com poder ofensivo em casa.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_estimada_>=_55%",
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Türkiye",
+        "odd_alvo": "2.09",
+        "razao": "Türkiye em ótima fase ofensiva em casa, com média de 2.0 gols, contra uma USA com defesa vulnerável.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "%_Marcado_favorito_61-75_>=_25%",
+          "%_Marcado_favorito_76-90_>=_25%",
+          "%_Sofrido_adversário_61-75_>=_25%",
+          "%_Sofrido_adversário_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Türkiye - forte poder ofensivo em casa",
+        "indices_gols_faixas": "Türkiye Marcado 61-75: 20% | 76-90: 20% | USA Sofrido 61-75: 0% | 76-90: 0%",
+        "qual_condicao_atende": "Nenhuma das condições atende o limiar de 25%.",
+        "motivo_motivacao": "Türkiye buscando título.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "23:00",
+      "liga": "World Cup 2026",
+      "jogo": "Paraguay x Australia",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Paraguay",
+      "probabilidade_estimada": "55%",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "media_gols_casa": "1.40",
+      "media_gols_fora": "1.10",
+      "explicacao_curta": "Paraguay em boa fase em casa, com 70% de vitórias, contra um Australia com retrospecto recente ruim fora.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 55% para a vitória do Paraguay, com fair odd de 1.82. Odd mínima de entrada de 2.09.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Paraguay marca 0.50 no 1ºT, Australia marca 0.60 no 1ºT",
+      "desempenho_2t": "Paraguay marca 0.90 no 2ºT, Australia marca 0.50 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "Paraguay tem um forte desempenho em casa, com 70% de vitórias e média de 1.4 gols marcados. Australia tem um retrospecto recente muito fraco fora de casa, com 5 derrotas consecutivas e dificuldade em marcar gols (média de 1.1).",
+      "coeficiente_regularidade": "Paraguay: CV baixo / Australia: CV alto",
+      "mando_de_campo": "Paraguay: 70% de vitórias em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Paraguay marca mais no 2º tempo (0.90), Australia marca mais no 1º tempo (0.60)",
+      "momento_gols": "Paraguay: 61-75 (20%), 76-90 (20%). Australia: 61-75 (0%), 76-90 (0%)",
+      "jogadores_chave": null,
+      "placares_provaveis": "1x0, 2x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo do Paraguay com bom retrospecto em casa.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_estimada_>=_55%",
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Paraguay",
+        "odd_alvo": "2.09",
+        "razao": "Paraguay em boa fase em casa, com 70% de vitórias, contra um Australia com retrospecto recente ruim fora.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
       "lay_0x1": null,
       "confirmacao_visual": null
     }
   ],
   "evitar": [
     {
+      "horario": "20:30",
+      "jogo": "Cuiaba x Londrina",
+      "liga": "Brazil Serie B",
+      "motivo": "Sem favoritismo claro e dados de gols insuficientes para over/under.",
+      "motivos_por_metodo": {
+        "back_favorito": "prob estimada 58% - atende, mas odd mínima de entrada 1.98 não é atrativa.",
+        "lay_zebra": "odd da zebra (Londrina) estimada em 5.25, mas não atende critério de desempenho ruim (30% vitórias).",
+        "over_limite_70": "sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 2.79, mas Ambas Marcam média 21% - precisa >50%.",
+        "back_goleada": "favoritismo insuficiente - prob 58%, precisa >=70%.",
+        "lay_1x0": "P(1-0) estimada 8-11% (média total 1.14), mas visitante marca em 43% dos jogos - precisa >60%.",
+        "lay_0x1": "mandante marca em 21% dos jogos - precisa >60%."
+      }
+    },
+    {
       "horario": "17:00",
       "jogo": "Ecuador x Germany",
       "liga": "World Cup 2026",
-      "motivo": "Alemanha favorita com forte retrospecto ofensivo.",
+      "motivo": "Germany é favorita clara, mas Ecuador tem bom retrospecto em casa.",
       "motivos_por_metodo": {
-        "back_favorito": "Alemanha é favorita, mas odd 1.73 não oferece valor suficiente para entrada pré-jogo. Probabilidade estimada 58% (precisa >= 65%).",
-        "lay_zebra": "Equador é a zebra, mas a odd 4.10 não atinge o mínimo de 5.00.",
-        "over_limite_70": "Dados insuficientes para análise de gols por período.",
-        "back_2x2": "Índice de Over 2.5 é 20% para Equador e 80% para Alemanha, média 50% (precisa >= 60%).",
-        "back_goleada": "Probabilidade estimada de vitória da Alemanha é 58% (precisa >= 70%).",
-        "lay_1x0": "P(1-0) estimada alta devido ao ataque forte da Alemanha. Visitante marca em 50% dos jogos (precisa > 60%).",
-        "lay_0x1": "Mandante marca em 0% dos jogos (precisa > 60%)."
+        "back_favorito": "prob estimada 65% - atende, mas odd mínima de entrada 1.77 é baixa para o risco.",
+        "lay_zebra": "odd da zebra (Ecuador) estimada em 4.10, precisa >=5.00.",
+        "over_limite_70": "Germany Marcado 61-75: 10% | 76-90: 50%. Ecuador Sofrido 61-75: 10% | 76-90: 20%. Nenhuma condição atende o limiar de 25%.",
+        "back_2x2": "Over 2.5 média 4.10, mas Ambas Marcam média 50% - precisa >50%.",
+        "back_goleada": "favoritismo claro, mas prob estimada 65% - precisa >=70%.",
+        "lay_1x0": "P(1-0) estimada 8-11% (média total 1.70), mas visitante marca em 40% dos jogos - precisa >60%.",
+        "lay_0x1": "mandante marca em 40% dos jogos - precisa >60%."
+      }
+    },
+    {
+      "horario": "17:00",
+      "jogo": "Curacao x Ivory Coast",
+      "liga": "World Cup 2026",
+      "motivo": "Ivory Coast é favorita clara, mas a odd para Lay é muito baixa.",
+      "motivos_por_metodo": {
+        "back_favorito": "odd da Ivory Coast é muito baixa (1.14), não há valor.",
+        "lay_zebra": "odd da zebra (Curacao) é 15.00, mas o desempenho recente não é tão ruim quanto a odd sugere (vitórias em casa).",
+        "over_limite_70": "sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 3.50, mas Ambas Marcam média 50% - precisa >50%.",
+        "back_goleada": "favoritismo claro, mas prob estimada 75% - atende, mas odd para goleada não é atrativa.",
+        "lay_1x0": "P(1-0) estimada 8-11% (média total 3.50), mas visitante marca em 70% dos jogos - precisa >60%.",
+        "lay_0x1": "mandante marca em 14% dos jogos - precisa >60%."
+      }
+    },
+    {
+      "horario": "20:00",
+      "jogo": "Japan x Sweden",
+      "liga": "World Cup 2026",
+      "motivo": "Jogo equilibrado com ambas as equipes marcando e sofrendo gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "prob estimada 60% - atende, mas odd mínima de entrada 1.92 é baixa para o risco.",
+        "lay_zebra": "odd da zebra (Sweden) estimada em 4.33, precisa >=5.00.",
+        "over_limite_70": "Japan Marcado 61-75: 30% | 76-90: 50%. Sweden Sofrido 61-75: 30% | 76-90: 50%. Todas as condições atendem, mas a odd mínima de entrada para o over limite não é atrativa.",
+        "back_2x2": "Over 2.5 média 3.90, mas Ambas Marcam média 30% - precisa >50%.",
+        "back_goleada": "favoritismo insuficiente - prob 60%, precisa >=70%.",
+        "lay_1x0": "P(1-0) estimada 8-11% (média total 2.70), mas visitante marca em 30% dos jogos - precisa >60%.",
+        "lay_0x1": "mandante marca em 10% dos jogos - precisa >60%."
+      }
+    },
+    {
+      "horario": "20:00",
+      "jogo": "Tunisia x Netherlands",
+      "liga": "World Cup 2026",
+      "motivo": "Netherlands é favorita clara, mas a odd para Lay é muito baixa.",
+      "motivos_por_metodo": {
+        "back_favorito": "odd da Netherlands é muito baixa (1.09), não há valor.",
+        "lay_zebra": "odd da zebra (Tunisia) é 26.00, mas o desempenho recente não é tão ruim quanto a odd sugere (vitórias em casa).",
+        "over_limite_70": "sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 3.30, mas Ambas Marcam média 50% - precisa >50%.",
+        "back_goleada": "favoritismo claro, mas prob estimada 70% - atende, mas odd para goleada não é atrativa.",
+        "lay_1x0": "P(1-0) estimada 8-11% (média total 3.00), mas visitante marca em 50% dos jogos - precisa >60%.",
+        "lay_0x1": "mandante marca em 40% dos jogos - precisa >60%."
+      }
+    },
+    {
+      "horario": "23:00",
+      "jogo": "Türkiye x USA",
+      "liga": "World Cup 2026",
+      "motivo": "Jogo equilibrado com ambas as equipes marcando e sofrendo gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "prob estimada 55% - atende, mas odd mínima de entrada 2.09 é baixa para o risco.",
+        "lay_zebra": "odd da zebra (USA) estimada em 1.91, precisa >=5.00.",
+        "over_limite_70": "Türkiye Marcado 61-75: 20% | 76-90: 20%. USA Sofrido 61-75: 0% | 76-90: 0%. Nenhuma condição atende o limiar de 25%.",
+        "back_2x2": "Over 2.5 média 3.80, mas Ambas Marcam média 40% - precisa >50%.",
+        "back_goleada": "favoritismo insuficiente - prob 55%, precisa >=70%.",
+        "lay_1x0": "P(1-0) estimada 8-11% (média total 3.00), mas visitante marca em 40% dos jogos - precisa >60%.",
+        "lay_0x1": "mandante marca em 20% dos jogos - precisa >60%."
+      }
+    },
+    {
+      "horario": "23:00",
+      "jogo": "Paraguay x Australia",
+      "liga": "World Cup 2026",
+      "motivo": "Jogo equilibrado com ambas as equipes marcando e sofrendo gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "prob estimada 55% - atende, mas odd mínima de entrada 2.09 é baixa para o risco.",
+        "lay_zebra": "odd da zebra (Australia) estimada em 3.80, precisa >=5.00.",
+        "over_limite_70": "sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 2.70, mas Ambas Marcam média 50% - precisa >50%.",
+        "back_goleada": "favoritismo insuficiente - prob 55%, precisa >=70%.",
+        "lay_1x0": "P(1-0) estimada 8-11% (média total 2.70), mas visitante marca em 40% dos jogos - precisa >60%.",
+        "lay_0x1": "mandante marca em 10% dos jogos - precisa >60%."
       }
     }
   ]
