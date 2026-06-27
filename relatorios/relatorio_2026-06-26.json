@@ -1,9 +1,345 @@
 {
   "data": "2026-06-26",
-  "dia_consultado": "hoje",
-  "gerado_em": "2026-06-26T20:59:52.900857",
-  "fonte": "radaresportivo.com",
-  "total_jogos_analisados": 5,
-  "entradas": [],
-  "evitar": []
+  "variante": "",
+  "gerado_em": "2026-06-27T16:26:08.916336",
+  "total_partidas_analisadas": 3,
+  "total_partidas_disponiveis": 3,
+  "entradas": [
+    {
+      "horario": "16:00",
+      "liga": "World Cup",
+      "jogo": "Senegal x Iraque",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Vitória Senegal",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "media_gols_casa": "0.60",
+      "media_gols_fora": "0.60",
+      "explicacao_curta": "Senegal com 60% de vitórias e melhor desempenho geral contra Iraque com 40% de vitórias. Jogo com média de gols baixa.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 60% para a vitória do Senegal, resultando em uma fair odd de 1.67. A odd mínima de entrada é 1.92.",
+      "mercado_secundario": "Lay 1x0",
+      "odd_minima_secundaria": "9.00",
+      "desempenho_1t": "Senegal: Vitória 40%, Empate 40%, Derrota 20%. Iraque: Vitória 20%, Empate 30%, Derrota 50%.",
+      "desempenho_2t": "Senegal: Vitória 40%, Empate 40%, Derrota 20%. Iraque: Vitória 20%, Empate 30%, Derrota 50%.",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "Senegal apresenta um aproveitamento geral superior (1.90 pontos/jogo vs 1.30 do Iraque) e maior percentual de vitórias (60% vs 40%). Ambos os times têm média de gols marcados e sofridos igual, indicando um jogo potencialmente equilibrado, mas com ligeira vantagem para o Senegal. A baixa média de gols em ambos os times sugere que placares exatos como 1x0 ou 0x1 são menos prováveis, favorecendo o Lay desses placares.",
+      "coeficiente_regularidade": "Senegal: CV baixo | Iraque: CV moderado",
+      "mando_de_campo": "Senegal tem 60% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "Iraque tem alguns desfalques chave como Merchas Doski, Ibraheem Bayesh, Zaid Tahseen Abd Zaid Hantoosh e Amir Al-Ammari.",
+      "especificidades_gols": "Senegal marca 0.60 gols/jogo e sofre 0.40 gols/jogo. Iraque marca 0.60 gols/jogo e sofre 0.80 gols/jogo.",
+      "momento_gols": "Senegal: 1º Tempo (Marcados 70%, Sofridos 30%), 2º Tempo (Marcados 30%, Sofridos 70%). Iraque: 1º Tempo (Marcados 50%, Sofridos 70%), 2º Tempo (Marcados 50%, Sofridos 30%).",
+      "jogadores_chave": "Senegal: Krepin Diatta, Idrissa Gueye, Moussa Niakhate. Iraque: Amir Al-Ammari, Ali Jasim Elaibi Al Tameemi, Hussein Ali.",
+      "placares_provaveis": "1x0, 0x1, 1x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol para Lay 1x0 e Lay 0x1.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro do Senegal e perfil de jogo com poucos gols.",
+        "gatilho_saida_parcial": "Chegada em 1x1 ou 2x1/1x2 para Lay 1x0/0x1.",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_estimada_>=_60%",
+          "aproveitamento_geral_superior",
+          "media_gols_baixa"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Senegal",
+        "odd_alvo": "1.92",
+        "razao": "Senegal tem melhor aproveitamento geral e maior percentual de vitórias.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_1_0_estimada_<_12%",
+          "visitante_marca_pct_>_60%",
+          "media_gols_total_>=_2.5",
+          "btts_medio_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "8%",
+        "visitante_over_0_5": "50%",
+        "visitante_marca_pct": "60%",
+        "media_gols_total": "1.20",
+        "btts_medio": "45%",
+        "razao": "Baixa média de gols e baixo percentual de ambas marcam sugerem que 1x0 é um placar improvável.",
+        "odd_alvo": "9.00",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_0_1_estimada_<_12%",
+          "mandante_marca_pct_>_60%",
+          "media_gols_total_>=_2.5",
+          "btts_medio_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "8%",
+        "mandante_over_0_5": "50%",
+        "mandante_marca_pct": "71%",
+        "media_gols_total": "1.20",
+        "btts_medio": "45%",
+        "razao": "Baixa média de gols e baixo percentual de ambas marcam sugerem que 0x1 é um placar improvável.",
+        "odd_alvo": "9.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "World Cup",
+      "jogo": "Noruega x França",
+      "metodos_aplicados": [
+        "back_favorito",
+        "back_goleada",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória França",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "media_gols_casa": "1.00",
+      "media_gols_fora": "1.00",
+      "explicacao_curta": "França com 80% de vitórias e 1.00 gol/jogo contra Noruega com 60% de vitórias e 1.00 gol/jogo. Alto potencial ofensivo.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 75% para a vitória da França, resultando em uma fair odd de 1.33. A odd mínima de entrada é 1.53.",
+      "mercado_secundario": "Back Goleada",
+      "odd_minima_secundaria": "3.50",
+      "desempenho_1t": "Noruega: Vitória 40%, Empate 30%, Derrota 30%. França: Vitória 70%, Empate 20%, Derrota 10%.",
+      "desempenho_2t": "Noruega: Vitória 40%, Empate 30%, Derrota 30%. França: Vitória 70%, Empate 20%, Derrota 10%.",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "França demonstra um favoritismo claro com 80% de vitórias e 2.50 pontos por jogo, contra 60% de vitórias e 2.10 pontos por jogo da Noruega. Ambas as equipes marcam em média 1.00 gol por jogo, mas a França sofre significativamente menos gols (0.20 vs 0.50). O alto potencial ofensivo da França (18.80 finalizações/jogo) e sua eficiência em marcar gols (80% de jogos marcando primeiro) reforçam a expectativa de vitória e potencial para goleada.",
+      "coeficiente_regularidade": "Noruega: CV baixo | França: CV baixo",
+      "mando_de_campo": "Noruega tem 60% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "França tem Kouadio Kone e Adrien Rabiot como desfalques chave.",
+      "especificidades_gols": "Noruega marca 1.00 gol/jogo e sofre 0.50 gols/jogo. França marca 1.00 gol/jogo e sofre 0.20 gols/jogo.",
+      "momento_gols": "Noruega: 1º Tempo (Marcados 50%, Sofridos 50%), 2º Tempo (Marcados 50%, Sofridos 50%). França: 1º Tempo (Marcados 80%, Sofridos 20%), 2º Tempo (Marcados 20%, Sofridos 80%).",
+      "jogadores_chave": "Noruega: Alexander Sørloth, Antonio Nusa, Sander Berge. França: Michael Olise, Kouadio Kone, Dayot Upamecano.",
+      "placares_provaveis": "2x0, 3x1, 3x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro da França com alto potencial ofensivo.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_estimada_>=_65%",
+          "favorito_em_casa_ou_superior",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "França",
+        "odd_alvo": "1.53",
+        "razao": "França é favorita clara com 80% de vitórias e melhor desempenho geral.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_76-90_>=_25%",
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "favorito_ou_motivacao": "França - alta motivação",
+        "indices_gols_faixas": "Noruega Marcado 61-75: 30% | 76-90: 20% | Noruega Sofrido 61-75: 20% | 76-90: 30% | França Marcado 61-75: 20% | 76-90: 30% | França Sofrido 61-75: 30% | 76-90: 20%",
+        "qual_condicao_atende": "a) Noruega Marcado 61-75: 30% >= 25%; d) França Sofrido 61-75: 30% >= 25%",
+        "motivo_motivacao": "Jogo de seleções com alta motivação inerente.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=_70%",
+          "ofensiva_favorito_>=_2.5",
+          "defesa_adv_>=_2.0"
+        ],
+        "criterios_total": 3,
+        "candidato": "França",
+        "razao": "Favoritismo extremo da França, com alto poder ofensivo e defesa adversária frágil.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "França marca 4+ e vence",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "França com alta pressão e posse de bola, Noruega buscando contra-ataques.",
+        "gatilhos_aceleracao": "Subida de linhas da França, velocidade dos pontas franceses.",
+        "alerta_armadilha": "Possível relaxamento da França após abrir vantagem.",
+        "mercado_recomendado": "Back França ou Back Goleada",
+        "momento_observacao": "Primeiros 15-20 minutos"
+      }
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "08:35",
+      "jogo": "Qingdao Jonoon x Yunnan Yukun FC",
+      "liga": "Chinese Super League",
+      "motivo": "Falta de dados claros para aplicar métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada não clara com os dados disponíveis.",
+        "lay_zebra": "Não há zebra clara com odd >= 5.00 e desempenho ruim.",
+        "over_limite_70": "Dados de gols por faixa de tempo não disponíveis.",
+        "back_2x2": "Índices de Over 2.5 e Ambas Marcam não atingem os limiares necessários.",
+        "back_goleada": "Favoritismo insuficiente e dados ofensivos/defensivos não claros.",
+        "lay_1x0": "Dados insuficientes para estimar P(1-0) e outros critérios.",
+        "lay_0x1": "Dados insuficientes para estimar P(0-1) e outros critérios."
+      }
+    }
+  ]
 }
