@@ -1,160 +1,237 @@
 {
   "data": "2026-06-27",
-  "variante": "",
-  "gerado_em": "2026-06-27T16:41:42.459787",
-  "total_partidas_analisadas": 10,
-  "total_partidas_disponiveis": 10,
-  "entradas": [],
+  "dia_consultado": "hoje",
+  "gerado_em": "2026-06-27T21:48:43.040130",
+  "total_partidas_analisadas": 15,
+  "entradas": [
+    {
+      "horario": "20:30",
+      "liga": "International World Cup",
+      "jogo": "RD Congo x Uzbequistão",
+      "metodos_aplicados": [
+        "lay_1x0"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "10% (estimativa de 1x0)",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "11.00",
+      "media_gols_casa": "1.10",
+      "media_gols_fora": "1.00",
+      "explicacao_curta": "Jogo com média de gols total de 2.10, visitante com dificuldade ofensiva e mandante com defesa sólida. Improvável que termine 1x0.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade de 1x0 estimada em 10% (abaixo do limite de 12%), visitante marca em 70% dos jogos (acima de 65%), média de gols total 2.10 (abaixo de 2.5, mas o padrão defensivo de ambos favorece poucos gols).",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "RD Congo tem uma defesa muito forte (0.40 gols sofridos/jogo), enquanto o Uzbequistão tem um ataque fraco (0.40 gols marcados/jogo). A média total de gols é baixa (1.50). Estes fatores aumentam a probabilidade de um placar apertado e defensivo, tornando o 1x0 um placar menos provável do que outros placares de poucos gols.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "RD Congo: 60% de vitórias, 60% de jogos sem sofrer gols.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "Edo Kayembe (RD Congo), Cédric Bakambu (RD Congo), Eldor Shomurodov (Uzbequistão)",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com dados que se encaixam nos critérios do método.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "visitante_marca_pct_>_60%",
+          "media_gols_total_>=_2.5",
+          "btts_medio_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "80%",
+        "visitante_marca_pct": "40%",
+        "media_gols_total": "2.10",
+        "btts_medio": "30%",
+        "razao": "Média de gols total baixa (2.10), visitante com ataque fraco (0.40 gols/jogo) e mandante com defesa muito forte (0.40 gols sofridos/jogo). O placar 1x0 é improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    }
+  ],
   "evitar": [
-    {
-      "horario": "00:00",
-      "jogo": "Egipto x Irão",
-      "liga": "International World Cup",
-      "motivo": "Jogo equilibrado com médias de gols e desempenho semelhantes entre as equipes, sem um claro favorito ou padrão para os métodos.",
-      "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada de vitória de ambos os times é 40%, não havendo um favorito claro.",
-        "lay_zebra": "A odd da zebra não é especificada, e o desempenho recente de ambos os times é similar.",
-        "over_limite_70": "Não há dados de gols por período (faixas de tempo) no PDF para avaliar o critério.",
-        "back_2x2": "Índice de Over 2.5 Gols é 40% para ambos os times, abaixo do limiar de 60%.",
-        "back_goleada": "Probabilidade estimada de vitória do favorito é 40%, abaixo do limiar de 70%.",
-        "lay_1x0": "A probabilidade estimada de 1x0 é moderada, com média de gols total de 2.20 e ambas marcam de 50%, não se encaixando nos critérios de baixa probabilidade de 1x0.",
-        "lay_0x1": "A probabilidade estimada de 0x1 é moderada, com média de gols total de 2.20 e ambas marcam de 50%, não se encaixando nos critérios de baixa probabilidade de 0x1."
-      }
-    },
-    {
-      "horario": "00:00",
-      "jogo": "Nova Zelândia x Bélgica",
-      "liga": "International World Cup",
-      "motivo": "Favoritismo extremo da Bélgica, mas os dados de gols e padrões não se alinham com os métodos disponíveis.",
-      "motivos_por_metodo": {
-        "back_favorito": "Embora a Bélgica seja favorita (60% de vitórias vs 10%), os critérios de aproveitamento recente e fase do adversário não são aplicáveis a jogos de seleções sem histórico direto.",
-        "lay_zebra": "A zebra (Nova Zelândia) tem odd de vitória muito baixa (10%), não se encaixando no critério de odd >= 5.00.",
-        "over_limite_70": "Não há dados de gols por período (faixas de tempo) no PDF para avaliar o critério.",
-        "back_2x2": "Índice de Over 2.5 Gols é 55% para a Bélgica e 55% para a Nova Zelândia, ambos abaixo do limiar de 60%.",
-        "back_goleada": "A probabilidade estimada de vitória da Bélgica é 60%, abaixo do limiar de 70%.",
-        "lay_1x0": "A probabilidade estimada de 1x0 é alta, com média de gols total de 3.30 e ambas marcam de 60%, não se encaixando nos critérios de baixa probabilidade de 1x0.",
-        "lay_0x1": "A probabilidade estimada de 0x1 é alta, com média de gols total de 3.30 e ambas marcam de 60%, não se encaixando nos critérios de baixa probabilidade de 0x1."
-      }
-    },
-    {
-      "horario": "11:00",
-      "jogo": "Operário PR x América Mineiro",
-      "liga": "Brazil Serie B",
-      "motivo": "Jogo equilibrado sem claro favoritismo para Back Favorito, e sem padrões claros para outros métodos.",
-      "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada de vitória do favorito (Operário PR) é 43%, abaixo do limiar de 65%.",
-        "lay_zebra": "A zebra (América Mineiro) tem odd estimada de vitória baixa (14%), não se encaixando no critério de odd >= 5.00.",
-        "over_limite_70": "Não há dados de gols por período (faixas de tempo) no PDF para avaliar o critério.",
-        "back_2x2": "Índice de Over 2.5 Gols é 43% para Operário PR e 50% para América Mineiro, ambos abaixo do limiar de 60%.",
-        "back_goleada": "Probabilidade estimada de vitória do favorito (Operário PR) é 43%, abaixo do limiar de 70%.",
-        "lay_1x0": "A probabilidade estimada de 1x0 é alta, pois o Uzbequistão tem média de gols marcados de 1.00 e a média total de gols é 2.50, não se encaixando nos critérios de baixa probabilidade de 1x0 e alta média de gols.",
-        "lay_0x1": "A probabilidade estimada de 0x1 é alta, pois o Uzbequistão tem média de gols marcados de 1.00 e a média total de gols é 2.50, não se encaixando nos critérios de baixa probabilidade de 0x1 e alta média de gols."
-      }
-    },
-    {
-      "horario": "16:00",
-      "jogo": "Criciúma x São Bernardo",
-      "liga": "Brazil Serie B",
-      "motivo": "Jogo com tendência a poucos gols e favoritismo do mandante, mas sem atingir os critérios para métodos específicos.",
-      "motivos_por_metodo": {
-        "back_favorito": "A probabilidade estimada de vitória do favorito (Criciúma) é 50%, abaixo do limiar de 65%.",
-        "lay_zebra": "A zebra (São Bernardo) tem odd estimada de vitória alta (83%), mas o critério de desempenho ruim (3+ derrotas ou média de gols sofridos >= 2.0) não é claramente atendido pelos dados apresentados.",
-        "over_limite_70": "Não há dados de gols por período (faixas de tempo) no PDF para avaliar o critério.",
-        "back_2x2": "Índice de Over 2.5 Gols é 17% para Criciúma e 67% para São Bernardo. A média de Over 2.5 é 42%, abaixo do limiar de 60%.",
-        "back_goleada": "Probabilidade estimada de vitória do favorito (Criciúma) é 50%, abaixo do limiar de 70%.",
-        "lay_1x0": "A probabilidade estimada de 1x0 é alta, pois o São Bernardo tem média de gols marcados de 2.17 e a média total de gols é 3.00, não se encaixando nos critérios de baixa probabilidade de 1x0 e alta média de gols.",
-        "lay_0x1": "A probabilidade estimada de 0x1 é alta, pois o Criciúma tem média de gols marcados de 1.33 e a média total de gols é 2.00, não se encaixando nos critérios de baixa probabilidade de 0x1 e alta média de gols."
-      }
-    },
-    {
-      "horario": "18:00",
-      "jogo": "Panamá x Inglaterra",
-      "liga": "International World Cup",
-      "motivo": "Favoritismo claro da Inglaterra, mas os dados de gols e padrões não se alinham com os métodos disponíveis.",
-      "motivos_por_metodo": {
-        "back_favorito": "Embora a Inglaterra seja favorita (70% de vitórias vs 30%), os critérios de aproveitamento recente e fase do adversário não são aplicáveis a jogos de seleções sem histórico direto.",
-        "lay_zebra": "A zebra (Panamá) tem odd de vitória muito baixa (30%), não se encaixando no critério de odd >= 5.00.",
-        "over_limite_70": "Não há dados de gols por período (faixas de tempo) no PDF para avaliar o critério.",
-        "back_2x2": "Índice de Over 2.5 Gols é 40% para ambos os times, abaixo do limiar de 60%.",
-        "back_goleada": "A probabilidade estimada de vitória da Inglaterra é 70%, mas a média ofensiva da Inglaterra é 1.10 gols/jogo, abaixo do limiar de 2.5 gols/jogo.",
-        "lay_1x0": "A probabilidade estimada de 1x0 é moderada, com média de gols total de 2.90 e ambas marcam de 60%, não se encaixando nos critérios de baixa probabilidade de 1x0.",
-        "lay_0x1": "A probabilidade estimada de 0x1 é moderada, com média de gols total de 2.90 e ambas marcam de 60%, não se encaixando nos critérios de baixa probabilidade de 0x1."
-      }
-    },
     {
       "horario": "18:00",
       "jogo": "Croácia x Gana",
       "liga": "International World Cup",
-      "motivo": "Jogo equilibrado com favoritismo da Croácia, mas sem padrões claros para os métodos de Over/Under ou placares exatos.",
+      "motivo": "Sem favoritismo claro e dados de gols insuficientes para outros métodos.",
       "motivos_por_metodo": {
-        "back_favorito": "A probabilidade estimada de vitória da Croácia é 60%, mas a média de gols marcados de Gana é 0.10, o que não se encaixa no critério de adversário em má fase clara (aproveitamento recente < 35%).",
-        "lay_zebra": "A zebra (Gana) tem odd de vitória baixa (30%), não se encaixando no critério de odd >= 5.00.",
-        "over_limite_70": "Não há dados de gols por período (faixas de tempo) no PDF para avaliar o critério.",
-        "back_2x2": "Índice de Over 2.5 Gols é 50% para Croácia e 30% para Gana, ambos abaixo do limiar de 60%.",
-        "back_goleada": "A probabilidade estimada de vitória da Croácia é 60%, abaixo do limiar de 70%.",
-        "lay_1x0": "A probabilidade estimada de 1x0 é alta, com média de gols total de 2.30 e ambas marcam de 30%, não se encaixando nos critérios de baixa probabilidade de 1x0.",
-        "lay_0x1": "A probabilidade estimada de 0x1 é alta, com média de gols total de 2.30 e ambas marcam de 30%, não se encaixando nos critérios de baixa probabilidade de 0x1."
-      }
-    },
-    {
-      "horario": "20:30",
-      "jogo": "RD Congo x Uzbequistão",
-      "liga": "International World Cup",
-      "motivo": "Jogo equilibrado com favoritismo do RD Congo, mas sem padrões claros para os métodos de Over/Under ou placares exatos.",
-      "motivos_por_metodo": {
-        "back_favorito": "A probabilidade estimada de vitória do favorito (RD Congo) é 50%, abaixo do limiar de 65%.",
-        "lay_zebra": "A zebra (Uzbequistão) tem odd de vitória baixa (30%), não se encaixando no critério de odd >= 5.00.",
-        "over_limite_70": "Não há dados de gols por período (faixas de tempo) no PDF para avaliar o critério.",
-        "back_2x2": "Índice de Over 2.5 Gols é 10% para RD Congo e 50% para Uzbequistão, ambos abaixo do limiar de 60%.",
-        "back_goleada": "A probabilidade estimada de vitória do RD Congo é 50%, abaixo do limiar de 70%.",
-        "lay_1x0": "A probabilidade estimada de 1x0 é alta, com média de gols total de 1.50 e ambas marcam de 40%, não se encaixando nos critérios de baixa probabilidade de 1x0.",
-        "lay_0x1": "A probabilidade estimada de 0x1 é alta, com média de gols total de 1.50 e ambas marcam de 40%, não se encaixando nos critérios de baixa probabilidade de 0x1."
+        "back_favorito": "Probabilidade estimada de vitória da Croácia é 60% (precisa >= 65%).",
+        "lay_zebra": "Gana tem odd estimada de 3.80 (precisa >= 5.00).",
+        "over_limite_70": "Croácia: Marcado 61-75: 12% (precisa >= 25%). Gana: Marcado 61-75: 0% (precisa >= 25%).",
+        "back_2x2": "Over 2.5 média 50% (precisa >= 60%). Ambas marcam média 45% (precisa >= 60%).",
+        "back_goleada": "Probabilidade estimada de vitória da Croácia é 60% (precisa >= 70%).",
+        "lay_1x0": "P(1-0) estimada > 12% (média de gols total 2.30, visitante marca em 40% dos jogos).",
+        "lay_0x1": "P(0-1) estimada > 12% (média de gols total 2.30, mandante marca em 70% dos jogos, mas com baixa média de gols)."
       }
     },
     {
       "horario": "20:30",
       "jogo": "Colômbia x Portugal",
       "liga": "International World Cup",
-      "motivo": "Jogo equilibrado com leve favoritismo da Colômbia, mas sem padrões claros para os métodos de Over/Under ou placares exatos.",
+      "motivo": "Jogo equilibrado com ambos os times marcando e sofrendo gols.",
       "motivos_por_metodo": {
-        "back_favorito": "A probabilidade estimada de vitória da Colômbia é 70%, mas a média de gols marcados de Portugal é 1.30, o que não se encaixa no critério de adversário em má fase clara (aproveitamento recente < 35%).",
-        "lay_zebra": "A zebra (Portugal) tem odd de vitória baixa (60%), não se encaixando no critério de odd >= 5.00.",
-        "over_limite_70": "Não há dados de gols por período (faixas de tempo) no PDF para avaliar o critério.",
-        "back_2x2": "Índice de Over 2.5 Gols é 70% para Colômbia e 50% para Portugal, a média é 60%, mas o índice de ambas marcam é 50%, abaixo do limiar de 60%.",
-        "back_goleada": "A probabilidade estimada de vitória da Colômbia é 70%, mas a média ofensiva da Colômbia é 0.70 gols/jogo, abaixo do limiar de 2.5 gols/jogo.",
-        "lay_1x0": "A probabilidade estimada de 1x0 é moderada, com média de gols total de 2.80 e ambas marcam de 50%, não se encaixando nos critérios de baixa probabilidade de 1x0.",
-        "lay_0x1": "A probabilidade estimada de 0x1 é moderada, com média de gols total de 2.80 e ambas marcam de 50%, não se encaixando nos critérios de baixa probabilidade de 0x1."
-      }
-    },
-    {
-      "horario": "23:00",
-      "jogo": "Argélia x Áustria",
-      "liga": "International World Cup",
-      "motivo": "Jogo equilibrado com médias de gols e desempenho semelhantes entre as equipes, sem um claro favorito ou padrão para os métodos.",
-      "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada de vitória de ambos os times é 70%, não havendo um favorito claro.",
-        "lay_zebra": "A zebra (Áustria) tem odd de vitória alta (70%), mas o critério de desempenho ruim (3+ derrotas ou média de gols sofridos >= 2.0) não é claramente atendido pelos dados apresentados.",
-        "over_limite_70": "Não há dados de gols por período (faixas de tempo) no PDF para avaliar o critério.",
-        "back_2x2": "Índice de Over 2.5 Gols é 50% para Argélia e 40% para Áustria, ambos abaixo do limiar de 60%.",
-        "back_goleada": "Probabilidade estimada de vitória do favorito é 70%, mas a média ofensiva da Argélia é 1.10 gols/jogo, abaixo do limiar de 2.5 gols/jogo.",
-        "lay_1x0": "A probabilidade estimada de 1x0 é moderada, com média de gols total de 2.60 e ambas marcam de 40%, não se encaixando nos critérios de baixa probabilidade de 1x0.",
-        "lay_0x1": "A probabilidade estimada de 0x1 é moderada, com média de gols total de 2.60 e ambas marcam de 40%, não se encaixando nos critérios de baixa probabilidade de 0x1."
+        "back_favorito": "Probabilidade estimada de vitória da Colômbia é 52% (precisa >= 65%).",
+        "lay_zebra": "Gana tem odd estimada de 3.80 (precisa >= 5.00).",
+        "over_limite_70": "Colômbia: Marcado 76-90: 45% (atende). Portugal: Marcado 76-90: 13% (não atende).",
+        "back_2x2": "Over 2.5 média 60% (atende). Ambas marcam média 50% (precisa >= 60%).",
+        "back_goleada": "Probabilidade estimada de vitória da Colômbia é 52% (precisa >= 70%).",
+        "lay_1x0": "P(1-0) estimada > 12% (média de gols total 2.80, visitante marca em 60% dos jogos).",
+        "lay_0x1": "P(0-1) estimada > 12% (média de gols total 2.80, mandante marca em 70% dos jogos)."
+      },
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        }
       }
     },
     {
       "horario": "23:00",
       "jogo": "Jordânia x Argentina",
       "liga": "International World Cup",
-      "motivo": "Favoritismo extremo da Argentina, mas os dados de gols e padrões não se alinham com os métodos disponíveis.",
+      "motivo": "Favoritismo extremo da Argentina e dados de gols não se encaixam em outros métodos.",
       "motivos_por_metodo": {
-        "back_favorito": "Embora a Argentina seja favorita (90% de vitórias vs 30%), os critérios de aproveitamento recente e fase do adversário não são aplicáveis a jogos de seleções sem histórico direto.",
-        "lay_zebra": "A zebra (Jordânia) tem odd de vitória muito baixa (30%), não se encaixando no critério de odd >= 5.00.",
-        "over_limite_70": "Não há dados de gols por período (faixas de tempo) no PDF para avaliar o critério.",
-        "back_2x2": "Índice de Over 2.5 Gols é 70% para Argentina e 50% para Jordânia, a média é 60%, mas o índice de ambas marcam é 10% para Argentina e 60% para Jordânia, a média é 35%, abaixo do limiar de 60%.",
-        "back_goleada": "A probabilidade estimada de vitória da Argentina é 90%, mas a média ofensiva da Argentina é 1.30 gols/jogo, abaixo do limiar de 2.5 gols/jogo.",
-        "lay_1x0": "A probabilidade estimada de 1x0 é alta, com média de gols total de 3.20 e ambas marcam de 60%, não se encaixando nos critérios de baixa probabilidade de 1x0.",
-        "lay_0x1": "A probabilidade estimada de 0x1 é alta, com média de gols total de 3.20 e ambas marcam de 60%, não se encaixando nos critérios de baixa probabilidade de 0x1."
+        "back_favorito": "Probabilidade estimada de vitória da Argentina é 90% (atende). Jogo em liga permitida (atende).",
+        "lay_zebra": "Jordânia tem odd estimada de 8.00 (atende), mas não tem desempenho ruim (vitórias recentes).",
+        "over_limite_70": "Argentina: Marcado 76-90: 41% (não atende).",
+        "back_2x2": "Over 2.5 média 60% (atende). Ambas marcam média 35% (precisa >= 60%).",
+        "back_goleada": "Probabilidade estimada de vitória da Argentina é 90% (atende). Argentina com média ofensiva de 2.60 gols/jogo (atende). Jordânia sofre 1.80 gols/jogo (precisa >= 2.0).",
+        "lay_1x0": "P(1-0) estimada > 12% (média de gols total 3.20, visitante marca em 90% dos jogos).",
+        "lay_0x1": "P(0-1) estimada > 12% (média de gols total 3.20, mandante marca em 60% dos jogos)."
+      },
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "titulo"
+        }
       }
+    },
+    {
+      "horario": "23:00",
+      "jogo": "Argélia x Áustria",
+      "liga": "International World Cup",
+      "motivo": "Jogo equilibrado com ambos os times marcando e sofrendo gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória da Argélia é 50% (precisa >= 65%).",
+        "lay_zebra": "Áustria tem odd estimada de 2.00 (precisa >= 5.00).",
+        "over_limite_70": "Argélia: Marcado 46-60: 22% (não atende). Áustria: Marcado 46-60: 57% (atende).",
+        "back_2x2": "Over 2.5 média 45% (precisa >= 60%).",
+        "back_goleada": "Probabilidade estimada de vitória da Argélia é 50% (precisa >= 70%).",
+        "lay_1x0": "P(1-0) estimada > 12% (média de gols total 2.60, visitante marca em 70% dos jogos).",
+        "lay_0x1": "P(0-1) estimada > 12% (média de gols total 2.60, mandante marca em 70% dos jogos)."
+      },
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "sem_objetivo"
+        }
+      }
+    }
+  ],
+  "pdfs": [
+    {
+      "jogo": "Shenyang Urban x Shandong Luneng",
+      "arquivo": "pdfs/2026-06-27/China_Chinese_Super_League/001_08h00_Shenyang_Urban_x_Shandong_Luneng.pdf"
+    },
+    {
+      "jogo": "Sichuan Jiuniu x Chengdu Better City FC",
+      "arquivo": "pdfs/2026-06-27/China_Chinese_Super_League/002_08h35_Sichuan_Jiuniu_x_Chengdu_Better_City_FC.pdf"
+    },
+    {
+      "jogo": "Henan Jianye x Shanghai SIPG",
+      "arquivo": "pdfs/2026-06-27/China_Chinese_Super_League/003_08h35_Henan_Jianye_x_Shanghai_SIPG.pdf"
+    },
+    {
+      "jogo": "Chongqing Tongliang Long FC x Tianjin Teda",
+      "arquivo": "pdfs/2026-06-27/China_Chinese_Super_League/004_09h00_Chongqing_Tongliang_Long_FC_x_Tianjin_Teda.pdf"
+    },
+    {
+      "jogo": "Beijing Guoan x Wuhan Three Towns",
+      "arquivo": "pdfs/2026-06-27/China_Chinese_Super_League/005_09h00_Beijing_Guoan_x_Wuhan_Three_Towns.pdf"
+    },
+    {
+      "jogo": "Operário PR x América Mineiro",
+      "arquivo": "pdfs/2026-06-27/Brazil_Serie_B/006_11h00_Operário_PR_x_América_Mineiro.pdf"
+    },
+    {
+      "jogo": "Criciúma x São Bernardo",
+      "arquivo": "pdfs/2026-06-27/Brazil_Serie_B/007_16h00_Criciúma_x_São_Bernardo.pdf"
+    },
+    {
+      "jogo": "Egipto x Irão",
+      "arquivo": "pdfs/2026-06-27/International_World_Cup/008_00h00_Egipto_x_Irão.pdf"
+    },
+    {
+      "jogo": "Nova Zelândia x Bélgica",
+      "arquivo": "pdfs/2026-06-27/International_World_Cup/009_00h00_Nova_Zelândia_x_Bélgica.pdf"
+    },
+    {
+      "jogo": "Panamá x Inglaterra",
+      "arquivo": "pdfs/2026-06-27/International_World_Cup/010_18h00_Panamá_x_Inglaterra.pdf"
+    },
+    {
+      "jogo": "Croácia x Gana",
+      "arquivo": "pdfs/2026-06-27/International_World_Cup/011_18h00_Croácia_x_Gana.pdf"
+    },
+    {
+      "jogo": "RD Congo x Uzbequistão",
+      "arquivo": "pdfs/2026-06-27/International_World_Cup/012_20h30_RD_Congo_x_Uzbequistão.pdf"
+    },
+    {
+      "jogo": "Colômbia x Portugal",
+      "arquivo": "pdfs/2026-06-27/International_World_Cup/013_20h30_Colômbia_x_Portugal.pdf"
+    },
+    {
+      "jogo": "Argélia x Áustria",
+      "arquivo": "pdfs/2026-06-27/International_World_Cup/014_23h00_Argélia_x_Áustria.pdf"
+    },
+    {
+      "jogo": "Jordânia x Argentina",
+      "arquivo": "pdfs/2026-06-27/International_World_Cup/015_23h00_Jordânia_x_Argentina.pdf"
     }
   ]
 }
