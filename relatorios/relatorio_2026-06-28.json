@@ -1,30 +1,386 @@
 {
   "data": "2026-06-28",
-  "dia_consultado": "hoje",
-  "gerado_em": "2026-06-28T16:18:58.171825",
-  "total_partidas_analisadas": 7,
+  "variante": "",
+  "gerado_em": "2026-06-28T16:33:30.522055",
+  "total_partidas_analisadas": 11,
+  "total_partidas_disponiveis": 11,
   "entradas": [
     {
-      "horario": "16:00",
-      "liga": "Brazil Serie B",
-      "jogo": "Athlético GO x Ponte Preta",
+      "horario": "07:00",
+      "liga": "Chinese Super League",
+      "jogo": "Qingdao Youth Island FC x Hangzhou",
       "metodos_aplicados": [
+        "lay_0x1"
+      ],
+      "mercado_principal": "Lay 0x1",
+      "probabilidade_estimada": "28%",
+      "fair_odd": "3.57",
+      "odd_minima_entrada": "4.46",
+      "media_gols_casa": "1.00",
+      "media_gols_fora": "1.43",
+      "explicacao_curta": "Jogo com perfil ofensivo e mandante produtivo, tornando o placar 0x1 improvável.",
+      "alerta_geral": null,
+      "valor_esperado": "Prob. 28% → fair 3.57; com margem de segurança, só entrar acima de 4.46",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Qingdao marca 0.57 no 1T / Hangzhou sofre 1.14 no 1T",
+      "desempenho_2t": "Qingdao marca 0.43 no 2T / Hangzhou sofre 0.71 no 2T",
+      "contexto_times": {
+        "casa": {
+          "posicao": "7º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "8º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times estão no meio da tabela, com o Hangzhou tendo um ataque mais produtivo e o Qingdao Youth Island FC marcando em 86% dos seus jogos. A média total de gols é de 2.57, indicando um jogo com chances de mais de um gol.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "Qingdao Youth Island FC tem 1.29 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Qingdao Youth Island FC tem 71% de Ambas Marcam, Hangzhou tem 43%.",
+      "momento_gols": "Hangzhou marca 30% dos gols entre 76-90 minutos.",
+      "jogadores_chave": "",
+      "placares_provaveis": "1x1, 2x1, 2x2",
+      "momento_entrada": "Pré-jogo.",
+      "situacao_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O perfil ofensivo do mandante e a média de gols total acima de 2.5 tornam o placar 0x1 improvável.",
+        "gatilho_saida_parcial": "Se o jogo estiver 0x0 aos 30 minutos, reavaliar.",
+        "hard_stop": "Se o jogo estiver 0x1 aos 60 minutos."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "86%",
+        "mandante_marca_pct": "86%",
+        "media_gols_total": "2.57",
+        "btts_medio": "57%",
+        "razao": "O jogo tem perfil ofensivo com média de gols total de 2.57 e o mandante marca em 86% dos jogos, tornando o placar 0x1 improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "08:00",
+      "liga": "Chinese Super League",
+      "jogo": "Dalian Zhixing FC x Shanghai Shenhua",
+      "metodos_aplicados": [
+        "over_limite_70",
         "lay_1x0",
         "lay_0x1"
       ],
-      "mercado_principal": "Lay 1x0",
-      "probabilidade_estimada": "10% (estimativa para 1x0)",
-      "fair_odd": "10.00",
-      "odd_minima_entrada": "11.00",
-      "media_gols_casa": "0.83",
-      "media_gols_fora": "1.29",
-      "explicacao_curta": "Jogo com média de gols alta (3.16) e BTTS frequente (50%), indicando potencial para placares variados, tornando 1x0 e 0x1 improváveis.",
+      "mercado_principal": "Mais X.5 gols",
+      "probabilidade_estimada": "72%",
+      "fair_odd": "1.39",
+      "odd_minima_entrada": "1.53",
+      "media_gols_casa": "1.71",
+      "media_gols_fora": "1.57",
+      "explicacao_curta": "Dalian Zhixing é favorito claro com histórico de gols na reta final, e Shanghai Shenhua sofre gols nos últimos minutos. Jogo com perfil ofensivo.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 72% → fair 1.39; com margem de segurança, só entrar acima de 1.53",
+      "mercado_secundario": "Lay 1x0",
+      "odd_minima_secundaria": "10.50",
+      "desempenho_1t": "Dalian Zhixing marca 0.14 no 1T / Shanghai Shenhua sofre 0.71 no 1T",
+      "desempenho_2t": "Dalian Zhixing marca 1.57 no 2T / Shanghai Shenhua sofre 0.86 no 2T",
+      "contexto_times": {
+        "casa": {
+          "posicao": "3º",
+          "objetivo": "libertadores"
+        },
+        "fora": {
+          "posicao": "12º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Dalian Zhixing é um favorito claro, buscando o topo da tabela, com um ataque forte e defesa sólida. Shanghai Shenhua está na parte de baixo da tabela, com desempenho fraco fora de casa e defesa vulnerável. O jogo tem uma média total de gols alta (2.92) e ambos os times têm padrões de gols na reta final.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "Dalian Zhixing tem 2.14 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Dalian Zhixing tem 43% de Ambas Marcam, Shanghai Shenhua tem 71%.",
+      "momento_gols": "Dalian Zhixing marca 50% dos gols entre 76-90 min. Shanghai Shenhua sofre 27% dos gols entre 61-75 min.",
+      "jogadores_chave": "",
+      "placares_provaveis": "2x1, 3x1, 2x2",
+      "momento_entrada": "Ao vivo, após 65min para Over Limite. Pré-jogo para Lay 1x0 e Lay 0x1.",
+      "situacao_saida": "Cash-out se o jogo estiver 0x0, 3+ gols de diferença ou houver expulsão para Over Limite. Cash-out se 0-1, 1-1 ou após 60min sem gol para Lay 1x0. Cash-out se 1-0, 1-1 ou após 60min sem gol para Lay 0x1.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O forte favoritismo do Dalian Zhixing e o perfil de gols na reta final de ambos os times criam um cenário favorável para Over Limite. O perfil ofensivo geral do jogo torna os placares 1x0 e 0x1 improváveis.",
+        "gatilho_saida_parcial": "Para Over Limite, se o placar se mantiver baixo até os 75 minutos. Para Lay 1x0/0x1, se o placar se aproximar de 1x0/0x1.",
+        "hard_stop": "Para Over Limite, se o jogo estiver 0x0, 3+ gols de diferença ou houver expulsão. Para Lay 1x0/0x1, se o placar for 1x0/0x1 aos 60 minutos."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_76-90_>=_25%",
+          "adversario_sofrido_61-75_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Dalian Zhixing - brigando por vaga na Champions contra Shanghai Shenhua",
+        "indices_gols_faixas": "Dalian Zhixing Marcado 61-75: 17% | 76-90: 50% | Shanghai Shenhua Sofrido 61-75: 27% | 76-90: 0%",
+        "qual_condicao_atende": "b) Dalian Zhixing Marcado 76-90: 50%; c) Shanghai Shenhua Sofrido 61-75: 27%",
+        "motivo_motivacao": "Dalian Zhixing 3º brigando por vaga na Champions League vs Shanghai Shenhua 12º sem objetivos claros, com desequilíbrio técnico evidente.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "86%",
+        "visitante_marca_pct": "86%",
+        "media_gols_total": "2.92",
+        "btts_medio": "57%",
+        "razao": "O jogo tem perfil ofensivo com média de gols total de 2.92 e visitante produtivo, tornando o placar 1x0 improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "100%",
+        "mandante_marca_pct": "100%",
+        "media_gols_total": "2.92",
+        "btts_medio": "57%",
+        "razao": "O jogo tem perfil ofensivo com média de gols total de 2.92 e mandante produtivo, tornando o placar 0x1 improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Athletic Club x Avaí",
+      "metodos_aplicados": [
+        "lay_zebra"
+      ],
+      "mercado_principal": "Lay Avaí",
+      "probabilidade_estimada": "17%",
+      "fair_odd": "5.88",
+      "odd_minima_entrada": "7.35",
+      "media_gols_casa": "0.86",
+      "media_gols_fora": "1.17",
+      "explicacao_curta": "Avaí está em má fase com 17% de vitória e 5 derrotas nos últimos 6 jogos, além de sofrer 2.2 gols/jogo recentemente. Favoritismo do Athletic Club.",
       "alerta_geral": null,
-      "valor_esperado": "A probabilidade de 1x0 e 0x1 ser o placar final é baixa (<12%), com odds de mercado potencialmente acima das odds mínimas de entrada.",
-      "mercado_secundario": "Lay 0x1",
-      "odd_minima_secundaria": "12.10",
-      "desempenho_1t": "Atlético GO marca 0.67 no 1ºT",
-      "desempenho_2t": "Ponte Preta sofre 1.43 no 2ºT",
+      "valor_esperado": "Prob. 17% → fair 5.88; com margem de segurança, só entrar acima de 7.35",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Athletic Club marca 0.57 no 1T / Avaí sofre 1.17 no 1T",
+      "desempenho_2t": "Athletic Club marca 0.29 no 2T / Avaí sofre 0.67 no 2T",
+      "contexto_times": {
+        "casa": {
+          "posicao": "11º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "18º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "O Avaí, na zona de rebaixamento, apresenta um desempenho muito fraco, com apenas 17% de vitórias e uma defesa que sofre muitos gols. O Athletic Club, jogando em casa, tem um aproveitamento superior e busca se afastar da parte de baixo da tabela.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "Athletic Club tem 1.43 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Athletic Club tem 57% de Ambas Marcam, Avaí tem 67%.",
+      "momento_gols": "Avaí sofre 60% dos gols entre 76-90 minutos.",
+      "jogadores_chave": "",
+      "placares_provaveis": "",
+      "momento_entrada": "Ao vivo, após confirmação tática ou gol da zebra.",
+      "situacao_saida": "Cash-out se o favorito abrir vantagem ou se o jogo se estabilizar em empate.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A odd da zebra pode melhorar ao vivo, especialmente se ela marcar primeiro, permitindo uma entrada com mais valor.",
+        "gatilho_saida_parcial": "Se o favorito marcar primeiro e a odd da zebra cair significativamente.",
+        "hard_stop": "Se a zebra abrir 2 gols de vantagem ou o jogo se aproximar do final sem reação do favorito."
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_zebra_<=_20%",
+          "zebra_3+_derrotas_ou_media_gols_sofridos_>=_2.0",
+          "liga_permitida"
+        ],
+        "criterios_total": 3,
+        "modo": "ao_vivo",
+        "zebra": "Avaí",
+        "favorito_do_jogo": "Athletic Club",
+        "odd_zebra_alvo": "7.35",
+        "razao": "Avaí tem apenas 17% de vitórias, 5 derrotas nos últimos 6 jogos e média de 2.2 gols sofridos nos últimos 5, justificando apostar contra sua vitória.",
+        "gatilho_ao_vivo": "Lay após Avaí marcar primeiro para capturar odd melhor, ou se o Athletic Club demonstrar dominância.",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Juventude x Ceará",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra"
+      ],
+      "mercado_principal": "Vitória Juventude",
+      "probabilidade_estimada": "68%",
+      "fair_odd": "1.47",
+      "odd_minima_entrada": "1.65",
+      "media_gols_casa": "1.29",
+      "media_gols_fora": "0.83",
+      "explicacao_curta": "Juventude é favorito claro em casa com 68% de probabilidade de vitória, enfrentando um Ceará em má fase com apenas 17% de vitórias.",
+      "alerta_geral": null,
+      "valor_esperado": "Prob. 68% → fair 1.47; com margem de segurança, só entrar acima de 1.65",
+      "mercado_secundario": "Lay Ceará",
+      "odd_minima_secundaria": "7.35",
+      "desempenho_1t": "Juventude marca 0.71 no 1T / Ceará sofre 0.33 no 1T",
+      "desempenho_2t": "Juventude marca 0.57 no 2T / Ceará sofre 0.67 no 2T",
+      "contexto_times": {
+        "casa": {
+          "posicao": "7º",
+          "objetivo": "acesso"
+        },
+        "fora": {
+          "posicao": "14º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "O Juventude, jogando em casa, demonstra um forte favoritismo com 57% de vitórias e uma defesa muito sólida (0.14 gols sofridos/jogo). O Ceará, por outro lado, tem um desempenho fraco como visitante, com apenas 17% de vitórias e 3 derrotas nos últimos 5 jogos.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "Juventude tem 2.00 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Juventude tem 86% de jogos sem sofrer gols. Ceará tem 50% de Ambas Marcam.",
+      "momento_gols": "Ceará sofre 100% dos gols entre 76-90 minutos.",
+      "jogadores_chave": "",
+      "placares_provaveis": "1x0, 2x0",
+      "momento_entrada": "Pré-jogo, devido ao favoritismo claro e odd atraente.",
+      "situacao_saida": "Cash-out parcial se Juventude abrir 2 gols de vantagem. Cash-out total se Ceará empatar ou virar.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O favoritismo do Juventude é claro e a odd pré-jogo já oferece valor, minimizando o risco de queda ao vivo.",
+        "gatilho_saida_parcial": "Juventude marcando o primeiro gol e controlando o jogo.",
+        "hard_stop": "Ceará marcando primeiro ou Juventude não demonstrando dominância nos primeiros 20 minutos."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Juventude",
+        "odd_alvo": "1.65",
+        "razao": "Favoritismo claro do Juventude em casa com 68% de probabilidade de vitória contra um Ceará em má fase com 17% de vitórias.",
+        "gatilho_ao_vivo": "",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_zebra_<=_20%",
+          "zebra_3+_derrotas_ou_media_gols_sofridos_>=_2.0",
+          "liga_permitida"
+        ],
+        "criterios_total": 3,
+        "modo": "ao_vivo",
+        "zebra": "Ceará",
+        "favorito_do_jogo": "Juventude",
+        "odd_zebra_alvo": "7.35",
+        "razao": "Ceará tem apenas 17% de vitórias e 3 derrotas nos últimos 5 jogos, justificando apostar contra sua vitória.",
+        "gatilho_ao_vivo": "Lay após Ceará marcar primeiro para capturar odd melhor, ou se o Juventude demonstrar dominância.",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Atlético GO x Ponte Preta",
+      "metodos_aplicados": [
+        "lay_zebra",
+        "over_limite_70",
+        "back_2x2",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "probabilidade_estimada": "62%",
+      "fair_odd": "1.61",
+      "odd_minima_entrada": "1.80",
+      "media_gols_casa": "1.29",
+      "media_gols_fora": "0.83",
+      "explicacao_curta": "Jogo com potencial para gols na reta final, com Atlético GO marcando e Ponte Preta sofrendo gols nos últimos minutos. Ponte Preta em má fase e defesa frágil.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 62% → fair 1.61; com margem de segurança, só entrar acima de 1.80",
+      "mercado_secundario": "Lay Ponte Preta",
+      "odd_minima_secundaria": "7.35",
+      "desempenho_1t": "Atlético GO marca 0.43 no 1T / Ponte Preta sofre 1.17 no 1T",
+      "desempenho_2t": "Atlético GO marca 0.86 no 2T / Ponte Preta sofre 1.17 no 2T",
       "contexto_times": {
         "casa": {
           "posicao": "12º",
@@ -35,54 +391,82 @@
           "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "Atlético GO (12º) tem média de gols marcados de 0.83 e sofre 1.17. Ponte Preta (19º) tem média de gols marcados de 1.29 e sofre 2.58. A média total de gols é 3.16. O BTTS médio é 50%. A probabilidade de 1x0 e 0x1 ser o placar final é baixa.",
-      "coeficiente_regularidade": "Atlético GO: CV moderado / Ponte Preta: CV alto",
-      "mando_de_campo": "Atlético GO marca 0.83 gols em casa",
+      "motivacao_tecnica": "Atlético GO busca subir na tabela, enquanto a Ponte Preta luta contra o rebaixamento com uma defesa muito frágil (2.33 gols sofridos/jogo). Há um desequilíbrio técnico evidente e ambos os times têm histórico de jogos com muitos gols e Ambas Marcam.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "Atlético GO tem 1.29 pontos por jogo em casa.",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Atlético GO marca mais no 2º tempo (1.43), Ponte Preta marca mais no 2º tempo (1.71)",
-      "momento_gols": "Atlético GO: 61-75 (33%), 76-90 (22%). Ponte Preta: 76-90 (44%)",
-      "jogadores_chave": null,
-      "placares_provaveis": "2x1, 1x2, 2x2",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
-      "stake_recomendada": "2%",
+      "especificidades_gols": "Atlético GO tem 71% de Ambas Marcam, Ponte Preta tem 50%.",
+      "momento_gols": "Atlético GO marca 33% dos gols entre 61-75 min. Ponte Preta sofre 29% dos gols entre 76-90 min.",
+      "jogadores_chave": "",
+      "placares_provaveis": "2x1, 3x1, 2x2",
+      "momento_entrada": "Ao vivo, após 65min para Over Limite. Pré-jogo para Back 2x2 e Lay 0x1.",
+      "situacao_saida": "Cash-out parcial em 1x1, 2x1 ou 1x2 para Back 2x2. Cash-out se 1-0, 1-1 ou após 60min sem gol para Lay 0x1.",
+      "stake_recomendada": "1%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Jogo com potencial para muitos gols e placares variados.",
-        "gatilho_saida_parcial": "Placar 1x1 ou 2x1/1x2",
-        "hard_stop": "Placar 1x1 ou 2x1/1x2"
+        "justificativa_abordagem": "A fragilidade defensiva da Ponte Preta e o perfil ofensivo do Atlético GO criam um cenário propício para gols, especialmente na reta final.",
+        "gatilho_saida_parcial": "Para Over Limite, se o placar se mantiver baixo até os 75 minutos. Para Back 2x2, ao atingir 1x1, 2x1 ou 1x2.",
+        "hard_stop": "Para Over Limite, se o jogo estiver 0x0, 3+ gols de diferença ou houver expulsão. Para Back 2x2, se o jogo estiver 0x0 aos 70 minutos."
       },
       "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": {
+      "lay_zebra": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_1_0_<_12%",
-          "visit_over_0_5_>_65%",
-          "visit_marca_>_60%",
-          "media_gols_>=_2.5",
-          "btts_>_50%"
+          "prob_zebra_<=_20%",
+          "zebra_3+_derrotas_ou_media_gols_sofridos_>=_2.0",
+          "liga_permitida"
         ],
-        "criterios_total": 5,
-        "modo": "pre_jogo",
-        "prob_1_0_estimada": "10%",
-        "visitante_over_0_5": "50%",
-        "visitante_marca_pct": "50%",
-        "media_gols_total": "3.16",
-        "btts_medio": "50%",
-        "razao": "O jogo tem média de gols alta e o visitante tem dificuldade em marcar, mas o padrão geral sugere que 1x0 é improvável.",
-        "odd_alvo": "11.00",
-        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "criterios_total": 3,
+        "modo": "ao_vivo",
+        "zebra": "Ponte Preta",
+        "favorito_do_jogo": "Atlético GO",
+        "odd_zebra_alvo": "7.35",
+        "razao": "Ponte Preta tem apenas 17% de vitórias, 4 derrotas nos últimos 5 jogos e média de 2.33 gols sofridos, justificando apostar contra sua vitória.",
+        "gatilho_ao_vivo": "Lay após Ponte Preta marcar primeiro para capturar odd melhor, ou se o Atlético GO demonstrar dominância.",
         "stake_recomendada": "2%"
       },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_61-75_>=_25%",
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Atlético GO - busca subir na tabela contra Ponte Preta em queda livre",
+        "indices_gols_faixas": "Atlético GO Marcado 61-75: 33% | 76-90: 22% | Ponte Preta Sofrido 61-75: 0% | 76-90: 29%",
+        "qual_condicao_atende": "a) Atlético GO Marcado 61-75: 33%; d) Ponte Preta Sofrido 76-90: 29%",
+        "motivo_motivacao": "Atlético GO 12º brigando por meio de tabela vs Ponte Preta 19º na zona de rebaixamento, com defesa muito frágil.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over_2.5_medio_>=_60%",
+          "ambas_marcam_medio_>=_60%",
+          "defesa_sofre_>=_1.2_gols/jogo"
+        ],
+        "criterios_total": 3,
+        "razao": "Ambos os times têm alto índice de Over 2.5 (70% média) e Ambas Marcam (60.5% média), com defesas que sofrem mais de 1.2 gols/jogo, indicando um jogo aberto e com chances de placar 2x2.",
+        "indice_over_2_5": "70% — Atlético GO 57%, Ponte Preta 83%",
+        "indice_ambas_marcam": "60.5% — Atlético GO 71%, Ponte Preta 50%",
+        "indice_over_ht": "70% — Atlético GO 57%, Ponte Preta 83%",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "lay_1x0": null,
       "lay_0x1": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_0_1_<_12%",
+          "p_0_1_<_12%",
           "mand_over_0_5_>_65%",
           "mand_marca_>_60%",
           "media_gols_>=_2.5",
@@ -91,47 +475,347 @@
         "criterios_total": 5,
         "modo": "pre_jogo",
         "prob_0_1_estimada": "10%",
-        "mandante_over_0_5": "67%",
-        "mandante_marca_pct": "67%",
-        "media_gols_total": "3.16",
-        "btts_medio": "50%",
-        "razao": "O jogo tem média de gols alta e o mandante tem um padrão ofensivo razoável, tornando 0x1 improvável.",
-        "odd_alvo": "12.00",
+        "mandante_over_0_5": "71%",
+        "mandante_marca_pct": "71%",
+        "media_gols_total": "2.87",
+        "btts_medio": "60.5%",
+        "razao": "O jogo tem perfil ofensivo com média de gols alta e mandante produtivo, tornando o placar 0x1 improvável.",
+        "odd_alvo": "11.00",
         "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
         "stake_recomendada": "2%"
       },
       "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "International World Cup",
+      "jogo": "África do Sul x Canadá",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "probabilidade_estimada": "58%",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "2.03",
+      "media_gols_casa": "0.90",
+      "media_gols_fora": "1.60",
+      "explicacao_curta": "Jogo de Copa do Mundo com alta motivação, e África do Sul tem histórico de marcar gols na reta final.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 58% → fair 1.72; com margem de segurança, só entrar acima de 2.03",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "África do Sul marca 0.10 no 1T / Canadá sofre 0.30 no 1T",
+      "desempenho_2t": "África do Sul marca 0.70 no 2T / Canadá sofre 0.30 no 2T",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "2º",
+          "objetivo": "libertadores"
+        }
+      },
+      "motivacao_tecnica": "Sendo um jogo de Copa do Mundo, a motivação é máxima para ambas as seleções. A África do Sul tem um histórico de marcar gols na reta final, o que pode levar a um aumento de gols no segundo tempo.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "África do Sul tem 60% de Ambas Marcam, Canadá tem 40%.",
+      "momento_gols": "África do Sul marca 25% dos gols entre 61-75 min e 38% entre 76-90 min.",
+      "jogadores_chave": "",
+      "placares_provaveis": "1x1, 2x1",
+      "momento_entrada": "Ao vivo, após 65min.",
+      "situacao_saida": "Cash-out se o jogo estiver 0x0, 3+ gols de diferença ou houver expulsão.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A alta motivação de um jogo de Copa do Mundo e o padrão de gols na reta final da África do Sul justificam a entrada ao vivo.",
+        "gatilho_saida_parcial": "Se o placar se mantiver baixo até os 75 minutos.",
+        "hard_stop": "Se o jogo estiver 0x0, 3+ gols de diferença ou houver expulsão."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_61-75_>=_25%",
+          "favorito_marcado_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Canadá - jogo de Copa do Mundo com alta motivação",
+        "indices_gols_faixas": "África do Sul Marcado 61-75: 25% | 76-90: 38% | Canadá Sofrido 61-75: 0% | 76-90: 0%",
+        "qual_condicao_atende": "a) África do Sul Marcado 61-75: 25%; b) África do Sul Marcado 76-90: 38%",
+        "motivo_motivacao": "Jogo de Copa do Mundo, com alta motivação por definição para ambas as seleções.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "World Cup",
+      "jogo": "África do Sul x Canadá",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Canadá",
+      "probabilidade_estimada": "65%",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.72",
+      "media_gols_casa": "0.90",
+      "media_gols_fora": "1.60",
+      "explicacao_curta": "Canadá é favorito claro com 40% de vitórias e média de 1.6 gols/jogo, enfrentando África do Sul com 20% de vitórias e defesa mais frágil (1.2 gols sofridos/jogo).",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 65% → fair 1.54; com margem de segurança, só entrar acima de 1.72",
+      "mercado_secundario": "Mais X.5 gols (Over Limite)",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": "África do Sul marca 0.10 no 1ºT, Canadá marca 0.50 no 1ºT",
+      "desempenho_2t": "África do Sul marca 0.70 no 2ºT, Canadá marca 1.10 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "2º",
+          "objetivo": "libertadores"
+        }
+      },
+      "motivacao_tecnica": "Canadá demonstra superioridade estatística em aproveitamento (1.70 pts/jogo vs 1.00), gols marcados (1.60 vs 0.90) e gols sofridos (0.60 vs 1.20). Além disso, está em 2º lugar no grupo da World Cup, indicando boa fase e alta motivação para avançar. África do Sul tem um desempenho mais fraco, com 20% de vitórias e sofrendo mais gols.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "Não aplicável para seleções em campo neutro, mas Canadá tem melhor desempenho geral.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Canadá marca mais no 2º tempo (1.10 gols/jogo), África do Sul também (0.70 gols/jogo).",
+      "momento_gols": "África do Sul marca 25% (61-75) e 38% (76-90). Canadá marca 31% (61-75) e 31% (76-90). África do Sul sofre 25% (61-75) e 38% (76-90).",
+      "jogadores_chave": "Canadá: Jonathan David (11 gols), Tajon Buchanan (4 gols). África do Sul: Oswin Reagan Appollis (8 gols), Lyle Foster (6 gols).",
+      "placares_provaveis": "2x0, 2x1, 3x0 para o Canadá",
+      "momento_entrada": "Pré-jogo para Back Favorito, após 65min para Over Limite",
+      "situacao_saida": "Cash-out se o Canadá abrir boa vantagem ou se o jogo travar para Back Favorito. Para Over Limite, evitar se 0x0, goleada ou expulsão.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro do Canadá com boas estatísticas ofensivas e defensivas, e alta motivação em Copa do Mundo.",
+        "gatilho_saida_parcial": "Back Favorito: se Canadá abrir 2 gols de vantagem. Over Limite: se o gol sair rapidamente após a entrada.",
+        "hard_stop": "Back Favorito: se Canadá estiver perdendo por 2 gols. Over Limite: se não houver gol até os 80-85 minutos."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "superioridade_clara",
+          "adversario_aproveitamento_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito": "Canadá",
+        "odd_alvo": "1.72",
+        "razao": "Canadá é estatisticamente superior em todos os aspectos, com melhor aproveitamento, ataque e defesa, e está em melhor posição na World Cup.",
+        "gatilho_ao_vivo": "após 15-20min se dominância tática e ofensiva clara do Canadá",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_61-75_>=_25%",
+          "favorito_marcado_76-90_>=_25%",
+          "adversario_sofrido_61-75_>=_25%",
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Canadá - alta motivação em jogo de World Cup",
+        "indices_gols_faixas": "África do Sul Marcado 61-75: 25% | 76-90: 38% | África do Sul Sofrido 61-75: 18% | 76-90: 9% | Canadá Marcado 61-75: 31% | 76-90: 31% | Canadá Sofrido 61-75: 0% | 76-90: 0%",
+        "qual_condicao_atende": "a) Canadá Marcado 61-75: 31%; b) Canadá Marcado 76-90: 31%; c) África do Sul Marcado 61-75: 25%; d) África do Sul Marcado 76-90: 38%",
+        "motivo_motivacao": "Jogo de World Cup com alta motivação para ambos os times, especialmente para o Canadá que busca avançar na competição.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "18:30",
+      "liga": "Brazil Serie B",
+      "jogo": "Fortaleza x Sport Recife",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "probabilidade_estimada": "48%",
+      "fair_odd": "2.08",
+      "odd_minima_entrada": "2.46",
+      "media_gols_casa": "2.00",
+      "media_gols_fora": "1.00",
+      "explicacao_curta": "Fortaleza tem histórico de marcar gols na reta final, e o jogo tem alta motivação por briga de acesso.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 48% → fair 2.08; com margem de segurança, só entrar acima de 2.46",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Fortaleza marca 0.83 no 1T / Sport Recife sofre 0.33 no 1T",
+      "desempenho_2t": "Fortaleza marca 1.17 no 2T / Sport Recife sofre 0.00 no 2T",
+      "contexto_times": {
+        "casa": {
+          "posicao": "8º",
+          "objetivo": "acesso"
+        },
+        "fora": {
+          "posicao": "4º",
+          "objetivo": "acesso"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times estão na parte de cima da tabela e brigam por posições de acesso, o que garante alta motivação. O Fortaleza tem um ataque forte em casa e histórico de marcar gols na reta final.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "Fortaleza tem 2.17 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Fortaleza tem 50% de Ambas Marcam, Sport Recife tem 33%.",
+      "momento_gols": "Fortaleza marca 33% dos gols entre 76-90 minutos.",
+      "jogadores_chave": "",
+      "placares_provaveis": "1x1, 2x1",
+      "momento_entrada": "Ao vivo, após 65min.",
+      "situacao_saida": "Cash-out se o jogo estiver 0x0, 3+ gols de diferença ou houver expulsão.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O histórico de gols na reta final do Fortaleza e a alta motivação do jogo justificam a entrada ao vivo.",
+        "gatilho_saida_parcial": "Se o placar se mantiver baixo até os 75 minutos.",
+        "hard_stop": "Se o jogo estiver 0x0, 3+ gols de diferença ou houver expulsão."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Fortaleza - brigando por acesso contra Sport Recife",
+        "indices_gols_faixas": "Fortaleza Marcado 61-75: 8% | 76-90: 33% | Sport Recife Sofrido 61-75: 0% | 76-90: 0%",
+        "qual_condicao_atende": "b) Fortaleza Marcado 76-90: 33%",
+        "motivo_motivacao": "Fortaleza 8º e Sport Recife 4º, ambos brigando por posições de acesso, garantindo alta motivação.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "18:30",
+      "liga": "Brazil Serie B",
+      "jogo": "Náutico x Goiás",
+      "metodos_aplicados": [
+        "lay_zebra",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "probabilidade_estimada": "63%",
+      "fair_odd": "1.59",
+      "odd_minima_entrada": "1.78",
+      "media_gols_casa": "1.00",
+      "media_gols_fora": "1.00",
+      "explicacao_curta": "Náutico tem histórico de marcar gols na reta final e Goiás sofre gols nos últimos minutos, com ambos os times motivados.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 63% → fair 1.59; com margem de segurança, só entrar acima de 1.78",
+      "mercado_secundario": "Lay Goiás",
+      "odd_minima_secundaria": "8.93",
+      "desempenho_1t": "Náutico marca 0.33 no 1T / Goiás sofre 0.29 no 1T",
+      "desempenho_2t": "Náutico marca 0.67 no 2T / Goiás sofre 1.29 no 2T",
+      "contexto_times": {
+        "casa": {
+          "posicao": "9º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "13º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Náutico busca subir na tabela, enquanto Goiás luta para se afastar da zona de rebaixamento. O Náutico tem um bom aproveitamento em casa e o Goiás tem um desempenho fraco fora, com defesa vulnerável no segundo tempo.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "Náutico tem 1.50 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Náutico tem 0% de Ambas Marcam, Goiás tem 57%.",
+      "momento_gols": "Náutico marca 33% dos gols entre 61-75 min. Goiás sofre 27% dos gols entre 61-75 min e 27% entre 76-90 min.",
+      "jogadores_chave": "",
+      "placares_provaveis": "1x0, 2x1",
+      "momento_entrada": "Ao vivo, após 65min para Over Limite. Ao vivo para Lay Zebra.",
+      "situacao_saida": "Cash-out se o jogo estiver 0x0, 3+ gols de diferença ou houver expulsão para Over Limite. Cash-out se o favorito abrir vantagem para Lay Zebra.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O perfil de gols na reta final de ambos os times e a motivação para o resultado justificam a entrada em Over Limite.",
+        "gatilho_saida_parcial": "Se o placar se mantiver baixo até os 75 minutos para Over Limite.",
+        "hard_stop": "Se o jogo estiver 0x0, 3+ gols de diferença ou houver expulsão para Over Limite."
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_zebra_<=_20%",
+          "zebra_3+_derrotas_ou_media_gols_sofridos_>=_2.0",
+          "liga_permitida"
+        ],
+        "criterios_total": 3,
+        "modo": "ao_vivo",
+        "zebra": "Goiás",
+        "favorito_do_jogo": "Náutico",
+        "odd_zebra_alvo": "8.93",
+        "razao": "Goiás tem apenas 14% de vitórias e 3 derrotas nos últimos 5 jogos, justificando apostar contra sua vitória.",
+        "gatilho_ao_vivo": "Lay após Goiás marcar primeiro para capturar odd melhor, ou se o Náutico demonstrar dominância.",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_61-75_>=_25%",
+          "adversario_sofrido_61-75_>=_25%",
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Náutico - busca subir na tabela contra Goiás",
+        "indices_gols_faixas": "Náutico Marcado 61-75: 33% | 76-90: 17% | Goiás Sofrido 61-75: 27% | 76-90: 27%",
+        "qual_condicao_atende": "a) Náutico Marcado 61-75: 33%; c) Goiás Sofrido 61-75: 27%; d) Goiás Sofrido 76-90: 27%",
+        "motivo_motivacao": "Náutico 9º e Goiás 13º, ambos com objetivos de subir na tabela ou se afastar do rebaixamento, garantindo motivação.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
     }
   ],
-  "evitar": [],
-  "pdfs": [
-    {
-      "jogo": "Qingdao Youth Island FC x Hangzhou",
-      "arquivo": "pdfs/2026-06-28/China_Chinese_Super_League/001_07h00_Qingdao_Youth_Island_FC_x_Hangzhou.pdf"
-    },
-    {
-      "jogo": "Athletic Club x Avaí",
-      "arquivo": "pdfs/2026-06-28/Brazil_Serie_B/003_16h00_Athletic_Club_x_Avaí.pdf"
-    },
-    {
-      "jogo": "Juventude x Ceará",
-      "arquivo": "pdfs/2026-06-28/Brazil_Serie_B/004_16h00_Juventude_x_Ceará.pdf"
-    },
-    {
-      "jogo": "Atlético GO x Ponte Preta",
-      "arquivo": "pdfs/2026-06-28/Brazil_Serie_B/005_16h00_Atlético_GO_x_Ponte_Preta.pdf"
-    },
-    {
-      "jogo": "Fortaleza x Sport Recife",
-      "arquivo": "pdfs/2026-06-28/Brazil_Serie_B/006_18h30_Fortaleza_x_Sport_Recife.pdf"
-    },
-    {
-      "jogo": "Náutico x Goiás",
-      "arquivo": "pdfs/2026-06-28/Brazil_Serie_B/007_18h30_Náutico_x_Goiás.pdf"
-    },
-    {
-      "jogo": "África do Sul x Canadá",
-      "arquivo": "pdfs/2026-06-28/International_World_Cup/008_16h00_África_do_Sul_x_Canadá.pdf"
-    }
-  ]
+  "evitar": []
 }
