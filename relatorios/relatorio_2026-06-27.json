@@ -1,174 +1,158 @@
 {
   "data": "2026-06-27",
-  "dia_consultado": "hoje",
-  "gerado_em": "2026-06-27T21:48:43.040130",
+  "dia_consultado": "ontem",
+  "gerado_em": "2026-06-28T10:31:59.548098",
   "total_partidas_analisadas": 15,
-  "entradas": [
-    {
-      "horario": "20:30",
-      "liga": "International World Cup",
-      "jogo": "RD Congo x Uzbequistão",
-      "metodos_aplicados": [
-        "lay_1x0"
-      ],
-      "mercado_principal": "Lay 1x0",
-      "probabilidade_estimada": "10% (estimativa de 1x0)",
-      "fair_odd": "10.00",
-      "odd_minima_entrada": "11.00",
-      "media_gols_casa": "1.10",
-      "media_gols_fora": "1.00",
-      "explicacao_curta": "Jogo com média de gols total de 2.10, visitante com dificuldade ofensiva e mandante com defesa sólida. Improvável que termine 1x0.",
-      "alerta_geral": null,
-      "valor_esperado": "Probabilidade de 1x0 estimada em 10% (abaixo do limite de 12%), visitante marca em 70% dos jogos (acima de 65%), média de gols total 2.10 (abaixo de 2.5, mas o padrão defensivo de ambos favorece poucos gols).",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
-      "contexto_times": {
-        "casa": {
-          "posicao": null,
-          "objetivo": "sem_objetivo"
-        },
-        "fora": {
-          "posicao": null,
-          "objetivo": "sem_objetivo"
-        }
-      },
-      "motivacao_tecnica": "RD Congo tem uma defesa muito forte (0.40 gols sofridos/jogo), enquanto o Uzbequistão tem um ataque fraco (0.40 gols marcados/jogo). A média total de gols é baixa (1.50). Estes fatores aumentam a probabilidade de um placar apertado e defensivo, tornando o 1x0 um placar menos provável do que outros placares de poucos gols.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": "RD Congo: 60% de vitórias, 60% de jogos sem sofrer gols.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "Edo Kayembe (RD Congo), Cédric Bakambu (RD Congo), Eldor Shomurodov (Uzbequistão)",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "jogadores_chave": null,
-      "placares_provaveis": null,
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Jogo com dados que se encaixam nos critérios do método.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
-      },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "visitante_marca_pct_>_60%",
-          "media_gols_total_>=_2.5",
-          "btts_medio_>_50%"
-        ],
-        "criterios_total": 5,
-        "modo": "pre_jogo",
-        "prob_1_0_estimada": "10%",
-        "visitante_over_0_5": "80%",
-        "visitante_marca_pct": "40%",
-        "media_gols_total": "2.10",
-        "btts_medio": "30%",
-        "razao": "Média de gols total baixa (2.10), visitante com ataque fraco (0.40 gols/jogo) e mandante com defesa muito forte (0.40 gols sofridos/jogo). O placar 1x0 é improvável.",
-        "odd_alvo": "11.00",
-        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
-        "stake_recomendada": "2%"
-      },
-      "lay_0x1": null,
-      "confirmacao_visual": null
-    }
-  ],
+  "entradas": [],
   "evitar": [
     {
+      "horario": "00:00",
+      "jogo": "Egipto x Irão",
+      "liga": "International World Cup",
+      "motivo": "Jogo com média de gols baixa e ambos os times com dificuldade ofensiva, o que pode levar a um placar apertado.",
+      "motivos_por_metodo": {
+        "back_favorito": "NÃO aplicavel",
+        "lay_zebra": "NÃO aplicavel",
+        "over_limite_70": "NÃO aplicavel",
+        "back_2x2": "NÃO aplicavel",
+        "back_goleada": "NÃO aplicavel",
+        "lay_1x0": "aplicavel",
+        "lay_0x1": "aplicavel"
+      }
+    },
+    {
+      "horario": "00:00",
+      "jogo": "Nova Zelândia x Bélgica",
+      "liga": "International World Cup",
+      "motivo": "Favoritismo claro da Bélgica com alto potencial ofensivo contra uma Nova Zelândia com defesa frágil.",
+      "motivos_por_metodo": {
+        "back_favorito": "aplicavel",
+        "lay_zebra": "NÃO aplicavel",
+        "over_limite_70": "NÃO aplicavel",
+        "back_2x2": "NÃO aplicavel",
+        "back_goleada": "aplicavel",
+        "lay_1x0": "NÃO aplicavel",
+        "lay_0x1": "NÃO aplicavel"
+      }
+    },
+    {
+      "horario": "08:00",
+      "jogo": "Shenyang Urban x Shandong Luneng",
+      "liga": "China Chinese Super League",
+      "motivo": "Favoritismo extremo do visitante com alto potencial ofensivo e defesa frágil do mandante.",
+      "motivos_por_metodo": {
+        "back_favorito": "aplicavel",
+        "lay_zebra": "NÃO aplicavel",
+        "over_limite_70": "NÃO aplicavel",
+        "back_2x2": "NÃO aplicavel",
+        "back_goleada": "aplicavel",
+        "lay_1x0": "NÃO aplicavel",
+        "lay_0x1": "NÃO aplicavel"
+      }
+    },
+    {
+      "horario": "08:35",
+      "jogo": "Sichuan Jiuniu x Chengdu Better City FC",
+      "liga": "China Chinese Super League",
+      "motivo": "Jogo com alto potencial de gols e ambas marcam, com ambos os times apresentando bons índices.",
+      "motivos_por_metodo": {
+        "back_favorito": "NÃO aplicavel",
+        "lay_zebra": "NÃO aplicavel",
+        "over_limite_70": "NÃO aplicavel",
+        "back_2x2": "aplicavel",
+        "back_goleada": "NÃO aplicavel",
+        "lay_1x0": "NÃO aplicavel",
+        "lay_0x1": "NÃO aplicavel"
+      }
+    },
+    {
+      "horario": "08:35",
+      "jogo": "Henan Jianye x Shanghai SIPG",
+      "liga": "China Chinese Super League",
+      "motivo": "Jogo com média de gols baixa e ambos os times com dificuldade ofensiva, o que pode levar a um placar apertado.",
+      "motivos_por_metodo": {
+        "back_favorito": "NÃO aplicavel",
+        "lay_zebra": "NÃO aplicavel",
+        "over_limite_70": "NÃO aplicavel",
+        "back_2x2": "NÃO aplicavel",
+        "back_goleada": "NÃO aplicavel",
+        "lay_1x0": "aplicavel",
+        "lay_0x1": "aplicavel"
+      }
+    },
+    {
+      "horario": "09:00",
+      "jogo": "Chongqing Tongliang Long FC x Tianjin Teda",
+      "liga": "China Chinese Super League",
+      "motivo": "Jogo com média de gols baixa e ambos os times com dificuldade ofensiva, o que pode levar a um placar apertado.",
+      "motivos_por_metodo": {
+        "back_favorito": "NÃO aplicavel",
+        "lay_zebra": "NÃO aplicavel",
+        "over_limite_70": "NÃO aplicavel",
+        "back_2x2": "NÃO aplicavel",
+        "back_goleada": "NÃO aplicavel",
+        "lay_1x0": "aplicavel",
+        "lay_0x1": "aplicavel"
+      }
+    },
+    {
+      "horario": "09:00",
+      "jogo": "Beijing Guoan x Wuhan Three Towns",
+      "liga": "China Chinese Super League",
+      "motivo": "Jogo com média de gols alta e ambas marcam frequente, com ambos os times apresentando bons índices.",
+      "motivos_por_metodo": {
+        "back_favorito": "NÃO aplicavel",
+        "lay_zebra": "NÃO aplicavel",
+        "over_limite_70": "NÃO aplicavel",
+        "back_2x2": "aplicavel",
+        "back_goleada": "NÃO aplicavel",
+        "lay_1x0": "NÃO aplicavel",
+        "lay_0x1": "NÃO aplicavel"
+      }
+    },
+    {
+      "horario": "11:00",
+      "jogo": "Operário PR x América Mineiro",
+      "liga": "Brazil Serie B",
+      "motivo": "América Mineiro em má fase, com baixo aproveitamento e dificuldade ofensiva, contra um Operário PR com desempenho razoável em casa.",
+      "motivos_por_metodo": {
+        "back_favorito": "aplicavel",
+        "lay_zebra": "NÃO aplicavel",
+        "over_limite_70": "NÃO aplicavel",
+        "back_2x2": "NÃO aplicavel",
+        "back_goleada": "NÃO aplicavel",
+        "lay_1x0": "aplicavel",
+        "lay_0x1": "aplicavel"
+      }
+    },
+    {
+      "horario": "16:00",
+      "jogo": "Criciúma x São Bernardo",
+      "liga": "Brazil Serie B",
+      "motivo": "Criciúma em boa fase ofensiva e defensiva em casa, contra um São Bernardo com desempenho fora de casa inconsistente.",
+      "motivos_por_metodo": {
+        "back_favorito": "aplicavel",
+        "lay_zebra": "NÃO aplicavel",
+        "over_limite_70": "NÃO aplicavel",
+        "back_2x2": "NÃO aplicavel",
+        "back_goleada": "NÃO aplicavel",
+        "lay_1x0": "NÃO aplicavel",
+        "lay_0x1": "NÃO aplicavel"
+      }
+    },
+    {
       "horario": "18:00",
-      "jogo": "Croácia x Gana",
+      "jogo": "Panamá x Inglaterra",
       "liga": "International World Cup",
-      "motivo": "Sem favoritismo claro e dados de gols insuficientes para outros métodos.",
+      "motivo": "Favoritismo extremo da Inglaterra com alto potencial ofensivo e defesa frágil do Panamá.",
       "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada de vitória da Croácia é 60% (precisa >= 65%).",
-        "lay_zebra": "Gana tem odd estimada de 3.80 (precisa >= 5.00).",
-        "over_limite_70": "Croácia: Marcado 61-75: 12% (precisa >= 25%). Gana: Marcado 61-75: 0% (precisa >= 25%).",
-        "back_2x2": "Over 2.5 média 50% (precisa >= 60%). Ambas marcam média 45% (precisa >= 60%).",
-        "back_goleada": "Probabilidade estimada de vitória da Croácia é 60% (precisa >= 70%).",
-        "lay_1x0": "P(1-0) estimada > 12% (média de gols total 2.30, visitante marca em 40% dos jogos).",
-        "lay_0x1": "P(0-1) estimada > 12% (média de gols total 2.30, mandante marca em 70% dos jogos, mas com baixa média de gols)."
-      }
-    },
-    {
-      "horario": "20:30",
-      "jogo": "Colômbia x Portugal",
-      "liga": "International World Cup",
-      "motivo": "Jogo equilibrado com ambos os times marcando e sofrendo gols.",
-      "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada de vitória da Colômbia é 52% (precisa >= 65%).",
-        "lay_zebra": "Gana tem odd estimada de 3.80 (precisa >= 5.00).",
-        "over_limite_70": "Colômbia: Marcado 76-90: 45% (atende). Portugal: Marcado 76-90: 13% (não atende).",
-        "back_2x2": "Over 2.5 média 60% (atende). Ambas marcam média 50% (precisa >= 60%).",
-        "back_goleada": "Probabilidade estimada de vitória da Colômbia é 52% (precisa >= 70%).",
-        "lay_1x0": "P(1-0) estimada > 12% (média de gols total 2.80, visitante marca em 60% dos jogos).",
-        "lay_0x1": "P(0-1) estimada > 12% (média de gols total 2.80, mandante marca em 70% dos jogos)."
-      },
-      "contexto_times": {
-        "casa": {
-          "posicao": null,
-          "objetivo": "sem_objetivo"
-        },
-        "fora": {
-          "posicao": null,
-          "objetivo": "sem_objetivo"
-        }
-      }
-    },
-    {
-      "horario": "23:00",
-      "jogo": "Jordânia x Argentina",
-      "liga": "International World Cup",
-      "motivo": "Favoritismo extremo da Argentina e dados de gols não se encaixam em outros métodos.",
-      "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada de vitória da Argentina é 90% (atende). Jogo em liga permitida (atende).",
-        "lay_zebra": "Jordânia tem odd estimada de 8.00 (atende), mas não tem desempenho ruim (vitórias recentes).",
-        "over_limite_70": "Argentina: Marcado 76-90: 41% (não atende).",
-        "back_2x2": "Over 2.5 média 60% (atende). Ambas marcam média 35% (precisa >= 60%).",
-        "back_goleada": "Probabilidade estimada de vitória da Argentina é 90% (atende). Argentina com média ofensiva de 2.60 gols/jogo (atende). Jordânia sofre 1.80 gols/jogo (precisa >= 2.0).",
-        "lay_1x0": "P(1-0) estimada > 12% (média de gols total 3.20, visitante marca em 90% dos jogos).",
-        "lay_0x1": "P(0-1) estimada > 12% (média de gols total 3.20, mandante marca em 60% dos jogos)."
-      },
-      "contexto_times": {
-        "casa": {
-          "posicao": null,
-          "objetivo": "sem_objetivo"
-        },
-        "fora": {
-          "posicao": null,
-          "objetivo": "titulo"
-        }
-      }
-    },
-    {
-      "horario": "23:00",
-      "jogo": "Argélia x Áustria",
-      "liga": "International World Cup",
-      "motivo": "Jogo equilibrado com ambos os times marcando e sofrendo gols.",
-      "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada de vitória da Argélia é 50% (precisa >= 65%).",
-        "lay_zebra": "Áustria tem odd estimada de 2.00 (precisa >= 5.00).",
-        "over_limite_70": "Argélia: Marcado 46-60: 22% (não atende). Áustria: Marcado 46-60: 57% (atende).",
-        "back_2x2": "Over 2.5 média 45% (precisa >= 60%).",
-        "back_goleada": "Probabilidade estimada de vitória da Argélia é 50% (precisa >= 70%).",
-        "lay_1x0": "P(1-0) estimada > 12% (média de gols total 2.60, visitante marca em 70% dos jogos).",
-        "lay_0x1": "P(0-1) estimada > 12% (média de gols total 2.60, mandante marca em 70% dos jogos)."
-      },
-      "contexto_times": {
-        "casa": {
-          "posicao": null,
-          "objetivo": "sem_objetivo"
-        },
-        "fora": {
-          "posicao": null,
-          "objetivo": "sem_objetivo"
-        }
+        "back_favorito": "aplicavel",
+        "lay_zebra": "NÃO aplicavel",
+        "over_limite_70": "NÃO aplicavel",
+        "back_2x2": "NÃO aplicavel",
+        "back_goleada": "aplicavel",
+        "lay_1x0": "NÃO aplicavel",
+        "lay_0x1": "NÃO aplicavel"
       }
     }
   ],
