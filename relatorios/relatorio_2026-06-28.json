@@ -1,220 +1,308 @@
 {
   "data": "2026-06-28",
-  "dia_consultado": "amanha",
-  "gerado_em": "2026-06-27T12:26:21.076457",
-  "total_partidas_analisadas": 3,
+  "dia_consultado": "hoje",
+  "gerado_em": "2026-06-28T09:36:03.987473",
+  "total_partidas_analisadas": 8,
   "entradas": [
     {
-      "horario": "07:00",
-      "liga": "Chinese Super League",
-      "jogo": "Qingdao Youth Island FC x Hangzhou",
+      "horario": "16:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Athletic Club x Avaí",
       "metodos_aplicados": [
-        "back_2x2"
+        "lay_1x0"
       ],
-      "mercado_principal": "Ambas Marcam e Mais de 2.5 Gols",
-      "probabilidade_estimada": "55%",
-      "fair_odd": "1.82",
-      "odd_minima_entrada": "2.09",
-      "media_gols_casa": "1.00",
-      "media_gols_fora": "1.43",
-      "explicacao_curta": "Ambos os times têm histórico de Over 2.5 e Ambas Marcam, com potencial para um jogo aberto.",
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "8% (estimativa de 1x0 ser o placar exato)",
+      "fair_odd": "12.50",
+      "odd_minima_entrada": "10.50",
+      "media_gols_casa": "1.17",
+      "media_gols_fora": "0.83",
+      "explicacao_curta": "Athletic Club com média de 1.17 gols em casa e Avaí com média de 0.83 gols fora. Média total de gols 2.00. Visitante marca em 57% dos jogos.",
       "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 55% para Over 2.5 e Ambas Marcam, com fair odd de 1.82. Odd mínima de entrada de 2.09.",
+      "valor_esperado": "A odd mínima de 10.50 é atingível, pois a probabilidade de 1x0 ser o placar exato é baixa (<12%) e o jogo tem potencial para mais gols.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
+      "desempenho_1t": "Athletic Club marca 0.57 no 1ºT, Avaí sofre 1.17 no 1ºT",
+      "desempenho_2t": "Athletic Club marca 0.60 no 2ºT, Avaí sofre 0.71 no 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": "6º",
+          "posicao": "11º",
           "objetivo": "meio_tabela"
         },
         "fora": {
-          "posicao": "8º",
-          "objetivo": "meio_tabela"
+          "posicao": "18º",
+          "objetivo": "rebaixamento"
         }
       },
-      "motivacao_tecnica": "Ambos os times estão no meio da tabela, sem grandes objetivos, o que pode levar a um jogo mais aberto e com gols.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": "Qingdao Youth Island FC: Média de 1.00 gol marcado e 0.86 sofrido em casa.",
+      "motivacao_tecnica": "Athletic Club tem um desempenho razoável em casa, enquanto o Avaí tem um desempenho muito fraco fora de casa, com média de gols marcados baixa. A média total de gols é 2.00, o que não favorece um placar de 1x0 como o mais provável. O Avaí marca em 57% dos jogos, o que aumenta a chance de ambos marcarem e, consequentemente, de o placar não ser 1x0.",
+      "coeficiente_regularidade": "Athletic Club: CV baixo / Avaí: CV moderado",
+      "mando_de_campo": "Athletic Club faz 50% dos pontos em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
+      "especificidades_gols": "Athletic Club marca 0.57 gols no 1ºT e 0.60 no 2ºT. Avaí marca 0.57 gols no 1ºT e 0.29 no 2ºT.",
+      "momento_gols": "Athletic Club: 31-45 (33% marcados), 61-75 (17% marcados). Avaí: 31-45 (20% marcados), 76-90 (40% marcados).",
       "jogadores_chave": null,
-      "placares_provaveis": null,
+      "placares_provaveis": "2x1, 1x1, 2x0",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "0.5%",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+      "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Jogo com potencial para gols de ambos os lados.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Jogo com potencial para gols e com visitante que marca fora.",
+        "gatilho_saida_parcial": "Placar 0-1, 1-1",
+        "hard_stop": "Placar 0-1, 1-1 ou após 60min sem gol"
       },
       "back_favorito": null,
       "lay_zebra": null,
       "over_limite_70": null,
-      "back_2x2": {
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "indice_over_2_5_>=_60%",
-          "ambas_marcam_>=_60%",
-          "ambos_defesa_>=_1.2_gols/jogo"
+          "prob_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
         ],
-        "criterios_total": 3,
-        "razao": "Ambos os times apresentam altos índices de Over 2.5 gols (14% e 71%) e Ambas Marcam (71% e 43%). A média de gols total é 2.71.",
-        "indice_over_2_5": "Qingdao Youth Island FC: 14% (Over 2.5), Hangzhou: 71% (Over 2.5). Média: 42.5%.",
-        "indice_ambas_marcam": "Qingdao Youth Island FC: 71% (Ambas Marcam), Hangzhou: 43% (Ambas Marcam). Média: 57%.",
-        "indice_over_ht": null,
+        "criterios_total": 5,
         "modo": "pre_jogo",
-        "odd_alvo": "12.00",
-        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
-        "stake_recomendada": "0.5%"
+        "prob_1_0_estimada": "8%",
+        "visitante_over_0_5": "57%",
+        "visitante_marca_pct": "57%",
+        "media_gols_total": "2.00",
+        "btts_medio": "50%",
+        "razao": "O placar 1x0 é improvável devido à média de gols total de 2.00 e ao fato de o Avaí marcar em 57% dos jogos fora.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
       },
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "08:00",
-      "liga": "Chinese Super League",
-      "jogo": "Dalian Zhixing FC x Shanghai Shenhua",
-      "metodos_aplicados": [
-        "back_2x2"
-      ],
-      "mercado_principal": "Ambas Marcam e Mais de 2.5 Gols",
-      "probabilidade_estimada": "57%",
-      "fair_odd": "1.75",
-      "odd_minima_entrada": "2.01",
-      "media_gols_casa": "1.71",
-      "media_gols_fora": "1.57",
-      "explicacao_curta": "Jogo com alto potencial de gols, com ambos os times apresentando bons índices de Over 2.5 e Ambas Marcam.",
-      "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 57% para Over 2.5 e Ambas Marcam, com fair odd de 1.75. Odd mínima de entrada de 2.01.",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
-      "contexto_times": {
-        "casa": {
-          "posicao": "3º",
-          "objetivo": "acesso"
-        },
-        "fora": {
-          "posicao": "12º",
-          "objetivo": "meio_tabela"
-        }
-      },
-      "motivacao_tecnica": "Dalian Zhixing FC busca o acesso, enquanto Shanghai Shenhua está no meio da tabela. O histórico de gols de ambos sugere um jogo aberto.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": "Dalian Zhixing FC: Média de 1.71 gol marcado e 1.00 sofrido em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
-      "placares_provaveis": null,
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "0.5%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Jogo com potencial para muitos gols.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
-      },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": null,
-      "back_2x2": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "indice_over_2_5_>=_60%",
-          "ambas_marcam_>=_60%",
-          "ambos_defesa_>=_1.2_gols/jogo"
-        ],
-        "criterios_total": 3,
-        "razao": "Ambos os times apresentam altos índices de Over 2.5 gols (57% e 57%) e Ambas Marcam (43% e 71%). A média de gols total é 2.71.",
-        "indice_over_2_5": "Dalian Zhixing FC: 57% (Over 2.5), Shanghai Shenhua: 57% (Over 2.5). Média: 57%.",
-        "indice_ambas_marcam": "Dalian Zhixing FC: 43% (Ambas Marcam), Shanghai Shenhua: 71% (Ambas Marcam). Média: 57%.",
-        "indice_over_ht": null,
-        "modo": "pre_jogo",
-        "odd_alvo": "12.00",
-        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
-        "stake_recomendada": "0.5%"
-      },
-      "back_goleada": null,
-      "lay_1x0": null,
       "lay_0x1": null,
       "confirmacao_visual": null
     },
     {
       "horario": "16:00",
-      "liga": "World Cup",
-      "jogo": "África do Sul x Canadá",
+      "liga": "Brazil Serie B",
+      "jogo": "Juventude x Ceará",
       "metodos_aplicados": [
-        "lay_zebra"
+        "lay_0x1"
       ],
-      "mercado_principal": "Lay África do Sul",
-      "probabilidade_estimada": "15%",
-      "fair_odd": "6.67",
-      "odd_minima_entrada": "8.67",
-      "media_gols_casa": "0.90",
-      "media_gols_fora": "1.60",
-      "explicacao_curta": "Canadá é favorito claro com melhor ataque e defesa. África do Sul tem histórico de sofrer gols e pouca capacidade ofensiva.",
+      "mercado_principal": "Lay 0x1",
+      "probabilidade_estimada": "8% (estimativa de 0x1 ser o placar exato)",
+      "fair_odd": "12.50",
+      "odd_minima_entrada": "10.50",
+      "media_gols_casa": "0.83",
+      "media_gols_fora": "0.14",
+      "explicacao_curta": "Juventude com média de 0.83 gols em casa e Ceará com média de 0.14 gols fora. Média total de gols 1.83. Mandante marca em 56% dos jogos.",
       "alerta_geral": null,
-      "valor_esperado": "Canadá é favorito com odd estimada de 1.70. África do Sul tem baixa probabilidade de vitória (15%), com fair odd de 6.67. Odd mínima de entrada de 8.67.",
+      "valor_esperado": "A odd mínima de 10.50 é atingível, pois a probabilidade de 0x1 ser o placar exato é baixa (<12%) e o jogo tem potencial para mais gols.",
       "mercado_secundario": null,
       "odd_minima_secundaria": null,
-      "desempenho_1t": null,
-      "desempenho_2t": null,
+      "desempenho_1t": "Juventude marca 0.57 no 1ºT, Ceará sofre 0.57 no 1ºT",
+      "desempenho_2t": "Juventude marca 0.26 no 2ºT, Ceará sofre 0.86 no 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": null,
-          "objetivo": null
+          "posicao": "7º",
+          "objetivo": "acesso"
         },
         "fora": {
-          "posicao": null,
-          "objetivo": null
+          "posicao": "14º",
+          "objetivo": "meio_tabela"
         }
       },
-      "motivacao_tecnica": "Canadá demonstra maior força ofensiva e defensiva em comparação com a África do Sul, que tem um ataque fraco e uma defesa vulnerável.",
-      "coeficiente_regularidade": null,
-      "mando_de_campo": "África do Sul: Média de 0.90 gol marcado e 1.20 sofrido em casa.",
+      "motivacao_tecnica": "Juventude tem um bom desempenho em casa, enquanto o Ceará tem um desempenho muito fraco fora de casa, com média de gols marcados baixíssima. A média total de gols é 1.83, o que não favorece um placar de 0x1 como o mais provável. O Juventude marca em 56% dos jogos, o que aumenta a chance de ambos marcarem e, consequentemente, de o placar não ser 0x1.",
+      "coeficiente_regularidade": "Juventude: CV baixo / Ceará: CV moderado",
+      "mando_de_campo": "Juventude faz 50% dos pontos em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": null,
-      "momento_gols": null,
+      "especificidades_gols": "Juventude marca 0.57 gols no 1ºT e 0.26 no 2ºT. Ceará marca 0.57 gols no 1ºT e 0.14 no 2ºT.",
+      "momento_gols": "Juventude: 31-45 (22% marcados), 61-75 (33% marcados). Ceará: 31-45 (18% marcados), 76-90 (27% marcados).",
       "jogadores_chave": null,
-      "placares_provaveis": null,
+      "placares_provaveis": "1x1, 1x0, 2x0",
       "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
+      "situacao_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Zebra com odd alta e desempenho inferior.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
+        "justificativa_abordagem": "Jogo com potencial para gols e com mandante que marca.",
+        "gatilho_saida_parcial": "Placar 1-0, 1-1",
+        "hard_stop": "Placar 1-0, 1-1 ou após 60min sem gol"
       },
       "back_favorito": null,
-      "lay_zebra": {
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "odd_zebra_>=_5.00",
-          "desempenho_ruim",
-          "liga_permitida"
+          "prob_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
         ],
-        "criterios_total": 3,
+        "criterios_total": 5,
         "modo": "pre_jogo",
-        "zebra": "África do Sul",
-        "favorito_do_jogo": "Canadá",
-        "odd_zebra_alvo": "5.50",
-        "razao": "África do Sul tem um ataque fraco (0.90 gol/jogo) e uma defesa vulnerável (1.20 gol/jogo), enquanto o Canadá tem um ataque forte (1.60 gol/jogo) e uma defesa sólida (0.60 gol/jogo).",
-        "gatilho_ao_vivo": null,
+        "prob_0_1_estimada": "8%",
+        "mandante_over_0_5": "56%",
+        "mandante_marca_pct": "56%",
+        "media_gols_total": "1.83",
+        "btts_medio": "50%",
+        "razao": "O placar 0x1 é improvável devido à média de gols total de 1.83 e ao fato de o Juventude marcar em 56% dos jogos em casa.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
         "stake_recomendada": "2%"
       },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "International World Cup",
+      "jogo": "África do Sul x Canadá",
+      "metodos_aplicados": [
+        "lay_1x0"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "8% (estimativa de 1x0 ser o placar exato)",
+      "fair_odd": "12.50",
+      "odd_minima_entrada": "10.50",
+      "media_gols_casa": "1.60",
+      "media_gols_fora": "1.20",
+      "explicacao_curta": "África do Sul com média de 1.60 gols em casa e Canadá com média de 1.20 gols fora. Média total de gols 2.20. Visitante marca em 70% dos jogos.",
+      "alerta_geral": null,
+      "valor_esperado": "A odd mínima de 10.50 é atingível, pois a probabilidade de 1x0 ser o placar exato é baixa (<12%) e o jogo tem potencial para mais gols.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "África do Sul marca 0.67 no 1ºT, Canadá sofre 0.50 no 1ºT",
+      "desempenho_2t": "África do Sul marca 0.93 no 2ºT, Canadá sofre 0.70 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "acesso"
+        }
+      },
+      "motivacao_tecnica": "África do Sul tem um bom desempenho ofensivo em casa, enquanto o Canadá tem um desempenho razoável fora de casa. A média total de gols é 2.20, o que não favorece um placar de 1x0 como o mais provável. O Canadá marca em 70% dos jogos, o que aumenta a chance de ambos marcarem e, consequentemente, de o placar não ser 1x0.",
+      "coeficiente_regularidade": "África do Sul: CV baixo / Canadá: CV moderado",
+      "mando_de_campo": "África do Sul faz 20% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "África do Sul marca 0.67 gols no 1ºT e 0.93 no 2ºT. Canadá marca 0.50 gols no 1ºT e 1.20 no 2ºT.",
+      "momento_gols": "África do Sul: 61-75 (25% marcados), 76-90 (38% marcados). Canadá: 61-75 (18% marcados), 76-90 (9% marcados).",
+      "jogadores_chave": null,
+      "placares_provaveis": "1x1, 2x1, 1x2",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com potencial para gols e com visitante que marca fora.",
+        "gatilho_saida_parcial": "Placar 0-1, 1-1",
+        "hard_stop": "Placar 0-1, 1-1 ou após 60min sem gol"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
       "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "8%",
+        "visitante_over_0_5": "70%",
+        "visitante_marca_pct": "70%",
+        "media_gols_total": "2.20",
+        "btts_medio": "59%",
+        "razao": "O placar 1x0 é improvável devido à média de gols total de 2.20 e ao fato de o Canadá marcar em 70% dos jogos fora.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "18:30",
+      "liga": "Brazil Serie B",
+      "jogo": "Náutico x Goiás",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Over Limite (+1 gol)",
+      "probabilidade_estimada": "60% (probabilidade de haver mais gols na segunda etapa)",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "media_gols_casa": "1.00",
+      "media_gols_fora": "0.83",
+      "explicacao_curta": "Náutico tem 71% de gols sofridos no 2º tempo e Goiás tem 67% de gols sofridos no 2º tempo. Ambos os times marcam e sofrem gols.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "A odd mínima de 1.92 é atingível, pois ambos os times mostram tendência de gols na segunda etapa.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Náutico marca 0.57 no 1ºT, Goiás sofre 0.57 no 1ºT",
+      "desempenho_2t": "Náutico marca 0.43 no 2ºT, Goiás sofre 1.29 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "9º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "13º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Náutico tem 71% de gols sofridos no segundo tempo, e Goiás tem 67% de gols sofridos no segundo tempo. Isso indica uma tendência de ambos os times sofrerem gols na parte final do jogo, o que pode levar a mais gols. A motivação é de meio de tabela, mas a tendência de gols no segundo tempo é clara.",
+      "coeficiente_regularidade": "Náutico: CV moderado / Goiás: CV alto",
+      "mando_de_campo": "Náutico faz 50% dos pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Náutico marca 0.57 gols no 1ºT e 0.43 no 2ºT. Goiás marca 0.57 gols no 1ºT e 0.29 no 2ºT.",
+      "momento_gols": "Náutico: 61-75 (33% marcados), 76-90 (17% marcados). Goiás: 61-75 (20% marcados), 76-90 (40% marcados).",
+      "jogadores_chave": null,
+      "placares_provaveis": "1x1, 2x1, 1x2",
+      "momento_entrada": "ao_vivo",
+      "situacao_saida": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Tendência de gols no segundo tempo para ambos os times.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_61-75_>_25%",
+          "adversario_sofrido_76-90_>_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Náutico - meio de tabela",
+        "indices_gols_faixas": "Náutico Marcado 61-75: 33% | 76-90: 17% | Goiás Sofrido 61-75: 20% | 76-90: 40%",
+        "qual_condicao_atende": "Náutico Marcado 61-75: 33% (>25%) | Goiás Sofrido 76-90: 40% (>25%)",
+        "motivo_motivacao": "Ambos os times estão no meio de tabela, sem objetivos claros de acesso ou rebaixamento, mas a tendência de gols no segundo tempo é notável.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
       "back_2x2": null,
       "back_goleada": null,
       "lay_1x0": null,
@@ -226,59 +314,126 @@
     {
       "horario": "07:00",
       "jogo": "Qingdao Youth Island FC x Hangzhou",
-      "liga": "Chinese Super League",
-      "motivo": "Jogo com potencial para gols, mas sem favoritismo claro para um dos lados.",
+      "liga": "China Chinese Super League",
+      "motivo": "Jogo com baixo favoritismo e dados de gols insuficientes para Over/Under.",
       "motivos_por_metodo": {
         "back_favorito": "Probabilidade estimada de vitória do favorito (Hangzhou) é 43%, abaixo do mínimo de 65%.",
-        "lay_zebra": "A zebra (Qingdao Youth Island FC) tem odd estimada de 2.45, abaixo do mínimo de 5.00.",
-        "over_limite_70": "Dados de gols por faixa de tempo não estão disponíveis no PDF para aplicar o critério.",
-        "back_2x2": "Índice de Over 2.5 gols é 42.5% (média), abaixo do mínimo de 60%.",
-        "back_goleada": "Probabilidade estimada de vitória do favorito (Hangzhou) é 43%, abaixo do mínimo de 70%.",
-        "lay_1x0": "P(1-0) estimada é alta devido à média de gols total ser 2.71, mas o visitante marca em 43% dos jogos, o que não atende ao critério de visitante competitivo.",
-        "lay_0x1": "P(0-1) estimada é alta devido à média de gols total ser 2.71, mas o mandante marca em 1.00 gol/jogo, o que não atende ao critério de mandante produtivo."
+        "lay_zebra": "A zebra (Qingdao Youth Island FC) tem odd estimada de 2.19, não se enquadrando no critério de odd >= 5.00.",
+        "over_limite_70": "Não há dados de gols por período (61-75 e 76-90) para ambos os times no PDF.",
+        "back_2x2": "O índice de Over 2.5 para ambos os times é 71% e 43% respectivamente, com média de 57%, abaixo do mínimo de 60%. O índice de Ambas Marcam é 43% e 45%, com média de 44%, abaixo do mínimo de 60%.",
+        "back_goleada": "O favoritismo não é extremo (Hangzhou tem 43% de probabilidade de vitória), a média ofensiva do favorito é 1.20 (abaixo de 2.5) e a defesa do adversário é frágil (sofre 1.86 gols/jogo), mas os outros critérios não são atendidos.",
+        "lay_1x0": "A probabilidade estimada de 1x0 ser o placar exato é alta (acima de 12%) devido à baixa média de gols total (3.29) e ao fato de o visitante marcar em 43% dos jogos. O BTTS médio é 44%, abaixo de 50%.",
+        "lay_0x1": "A probabilidade estimada de 0x1 ser o placar exato é alta (acima de 12%) devido à baixa média de gols total (3.29) e ao fato de o mandante marcar em 43% dos jogos. O BTTS médio é 44%, abaixo de 50%."
       }
     },
     {
       "horario": "08:00",
       "jogo": "Dalian Zhixing FC x Shanghai Shenhua",
-      "liga": "Chinese Super League",
-      "motivo": "Jogo com potencial para gols, mas sem favoritismo claro para um dos lados.",
+      "liga": "China Chinese Super League",
+      "motivo": "Jogo equilibrado com ambos os times marcando e sofrendo gols, mas sem um favorito claro para Back Favorito ou Lay Zebra.",
       "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada de vitória do favorito (Dalian Zhixing FC) é 71%, mas a odd mínima de entrada é 2.01, o que não é considerado um favoritismo extremo para este método.",
-        "lay_zebra": "A zebra (Shanghai Shenhua) tem odd estimada de 2.62, abaixo do mínimo de 5.00.",
-        "over_limite_70": "Dados de gols por faixa de tempo não estão disponíveis no PDF para aplicar o critério.",
-        "back_goleada": "Probabilidade estimada de vitória do favorito (Dalian Zhixing FC) é 71%, mas a média ofensiva do favorito é 1.71 gols/jogo, abaixo do mínimo de 2.5.",
-        "lay_1x0": "P(1-0) estimada é moderada. O visitante marca em 71% dos jogos, mas a média de gols total é 2.71, o que não é alto o suficiente para justificar o lay.",
-        "lay_0x1": "P(0-1) estimada é moderada. O mandante marca em 1.71 gol/jogo, mas a média de gols total é 2.71, o que não é alto o suficiente para justificar o lay."
+        "back_favorito": "A probabilidade estimada de vitória do favorito (Dalian Zhixing FC) é 71%, mas a média de gols do adversário é 1.00 (abaixo do mínimo de 1.5) e o aproveitamento recente do adversário é 29% (abaixo de 35%).",
+        "lay_zebra": "A zebra (Shanghai Shenhua) tem odd estimada de 1.71, não se enquadrando no critério de odd >= 5.00.",
+        "over_limite_70": "Não há dados de gols por período (61-75 e 76-90) para ambos os times no PDF.",
+        "back_2x2": "O índice de Over 2.5 para ambos os times é 57% e 57%, com média de 57%, abaixo do mínimo de 60%. O índice de Ambas Marcam é 71% e 46%, com média de 58.5%, abaixo do mínimo de 60%.",
+        "back_goleada": "O favoritismo não é extremo (Dalian Zhixing FC tem 71% de probabilidade de vitória), a média ofensiva do favorito é 1.57 (abaixo de 2.5) e a defesa do adversário é frágil (sofre 0.71 gols/jogo), mas os outros critérios não são atendidos.",
+        "lay_1x0": "A probabilidade estimada de 1x0 ser o placar exato é alta (acima de 12%) devido à baixa média de gols total (3.14) e ao fato de o visitante marcar em 46% dos jogos. O BTTS médio é 58.5%, acima de 50%, mas o visitante marca em 46% dos jogos, abaixo de 60%.",
+        "lay_0x1": "A probabilidade estimada de 0x1 ser o placar exato é alta (acima de 12%) devido à baixa média de gols total (3.14) e ao fato de o mandante marcar em 71% dos jogos. O BTTS médio é 58.5%, acima de 50%, mas o mandante marca em 71% dos jogos, acima de 60%, porém a média de gols total é 3.14, o que não favorece um placar de 0x1."
+      }
+    },
+    {
+      "horario": "16:00",
+      "jogo": "Juventude x Ceará",
+      "liga": "Brazil Serie B",
+      "motivo": "Jogo com baixa média de gols e Ceará com desempenho muito fraco fora de casa.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do favorito (Juventude) é 57%, abaixo do mínimo de 65%.",
+        "lay_zebra": "A zebra (Ceará) tem odd estimada de 3.10, não se enquadrando no critério de odd >= 5.00.",
+        "over_limite_70": "Juventude: Marcado 61-75: 11% | 76-90: 11%. Sofrido 61-75: 22% | 76-90: 100%. Ceará: Marcado 61-75: 14% | 76-90: 0%. Sofrido 61-75: 56% | 76-90: 86%. Nenhum dos critérios de gols na reta final é atendido.",
+        "back_2x2": "O índice de Over 2.5 para ambos os times é 17% e 0% respectivamente, com média de 8.5%, abaixo do mínimo de 60%. O índice de Ambas Marcam é 50% e 50%, com média de 50%, abaixo do mínimo de 60%.",
+        "back_goleada": "O favoritismo não é extremo (Juventude tem 57% de probabilidade de vitória), a média ofensiva do favorito é 0.83 (abaixo de 2.5) e a defesa do adversário é frágil (sofre 1.43 gols/jogo), mas os outros critérios não são atendidos.",
+        "lay_1x0": "A probabilidade estimada de 1x0 ser o placar exato é alta (acima de 12%) devido à baixa média de gols total (1.83) e ao fato de o visitante marcar em 14% dos jogos. O BTTS médio é 50%, não atendendo ao critério de >50%.",
+        "lay_0x1": "A probabilidade estimada de 0x1 ser o placar exato é alta (acima de 12%) devido à baixa média de gols total (1.83) e ao fato de o mandante marcar em 56% dos jogos. O BTTS médio é 50%, não atendendo ao critério de >50%."
+      }
+    },
+    {
+      "horario": "16:00",
+      "jogo": "Atlético GO x Ponte Preta",
+      "liga": "Brazil Serie B",
+      "motivo": "Jogo com baixa média de gols e Atlético GO com desempenho ofensivo fraco.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do favorito (Atlético GO) é 29%, abaixo do mínimo de 65%.",
+        "lay_zebra": "A zebra (Ponte Preta) tem odd estimada de 2.33, não se enquadrando no critério de odd >= 5.00.",
+        "over_limite_70": "Atlético GO: Marcado 61-75: 33% | 76-90: 22%. Sofrido 61-75: 11% | 76-90: 11%. Ponte Preta: Marcado 61-75: 11% | 76-90: 44%. Sofrido 61-75: 11% | 76-90: 0%. Nenhum dos critérios de gols na reta final é atendido.",
+        "back_2x2": "O índice de Over 2.5 para ambos os times é 17% e 17%, com média de 17%, abaixo do mínimo de 60%. O índice de Ambas Marcam é 50% e 52%, com média de 51%, abaixo do mínimo de 60%.",
+        "back_goleada": "O favoritismo não é extremo (Atlético GO tem 29% de probabilidade de vitória), a média ofensiva do favorito é 0.83 (abaixo de 2.5) e a defesa do adversário é frágil (sofre 1.17 gols/jogo), mas os outros critérios não são atendidos.",
+        "lay_1x0": "A probabilidade estimada de 1x0 ser o placar exato é alta (acima de 12%) devido à baixa média de gols total (3.16) e ao fato de o visitante marcar em 52% dos jogos. O BTTS médio é 51%, acima de 50%, mas o visitante marca em 52% dos jogos, abaixo de 60%.",
+        "lay_0x1": "A probabilidade estimada de 0x1 ser o placar exato é alta (acima de 12%) devido à baixa média de gols total (3.16) e ao fato de o mandante marcar em 71% dos jogos. O BTTS médio é 51%, acima de 50%, mas o mandante marca em 71% dos jogos, acima de 60%, porém a média de gols total é 3.16, o que não favorece um placar de 0x1."
       }
     },
     {
       "horario": "16:00",
       "jogo": "África do Sul x Canadá",
-      "liga": "World Cup",
-      "motivo": "Canadá é favorito claro, mas a odd mínima de entrada para lay zebra é alta.",
+      "liga": "International World Cup",
+      "motivo": "Jogo de seleções com pouca informação histórica direta e dados de gols divididos.",
       "motivos_por_metodo": {
-        "back_favorito": "A odd de entrada para o favorito (Canadá) seria muito baixa, não oferecendo valor.",
-        "over_limite_70": "Dados de gols por faixa de tempo não estão disponíveis no PDF para aplicar o critério.",
-        "back_2x2": "Índice de Over 2.5 gols é 30% (média), abaixo do mínimo de 60%.",
-        "back_goleada": "Favoritismo do Canadá não é extremo o suficiente (odd estimada 1.70) para justificar este método.",
-        "lay_1x0": "P(1-0) estimada é alta devido à média de gols total ser 2.10, mas o visitante marca em 50% dos jogos, o que não atende ao critério de visitante competitivo.",
-        "lay_0x1": "P(0-1) estimada é alta devido à média de gols total ser 2.10, mas o mandante marca em 0.90 gol/jogo, o que não atende ao critério de mandante produtivo."
+        "back_favorito": "A probabilidade estimada de vitória do favorito (Canadá) é 40%, abaixo do mínimo de 65%.",
+        "lay_zebra": "A zebra (África do Sul) tem odd estimada de 1.70, não se enquadrando no critério de odd >= 5.00.",
+        "over_limite_70": "África do Sul: Marcado 61-75: 25% | 76-90: 38%. Sofrido 61-75: 18% | 76-90: 9%. Canadá: Marcado 61-75: 18% | 76-90: 9%. Sofrido 61-75: 18% | 76-90: 0%. Nenhum dos critérios de gols na reta final é atendido.",
+        "back_2x2": "O índice de Over 2.5 para ambos os times é 30% e 30%, com média de 30%, abaixo do mínimo de 60%. O índice de Ambas Marcam é 40% e 59%, com média de 49.5%, abaixo do mínimo de 60%.",
+        "back_goleada": "O favoritismo não é extremo (Canadá tem 40% de probabilidade de vitória), a média ofensiva do favorito é 1.20 (abaixo de 2.5) e a defesa do adversário é frágil (sofre 0.60 gols/jogo), mas os outros critérios não são atendidos.",
+        "lay_1x0": "A probabilidade estimada de 1x0 ser o placar exato é alta (acima de 12%) devido à média de gols total de 2.20 e ao fato de o visitante marcar em 70% dos jogos. O BTTS médio é 49.5%, abaixo de 50%.",
+        "lay_0x1": "A probabilidade estimada de 0x1 ser o placar exato é alta (acima de 12%) devido à média de gols total de 2.20 e ao fato de o mandante marcar em 70% dos jogos. O BTTS médio é 49.5%, abaixo de 50%."
+      }
+    },
+    {
+      "horario": "18:30",
+      "jogo": "Fortaleza x Sport Recife",
+      "liga": "Brazil Serie B",
+      "motivo": "Jogo com baixa média de gols e Fortaleza com desempenho defensivo muito forte.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do favorito (Fortaleza) é 67%, mas o aproveitamento recente do adversário é 33% (abaixo de 35%).",
+        "lay_zebra": "A zebra (Sport Recife) tem odd estimada de 2.00, não se enquadrando no critério de odd >= 5.00.",
+        "over_limite_70": "Fortaleza: Marcado 61-75: 8% | 76-90: 33%. Sofrido 61-75: 0% | 76-90: 0%. Sport Recife: Marcado 61-75: 8% | 76-90: 14%. Sofrido 61-75: 0% | 76-90: 0%. Nenhum dos critérios de gols na reta final é atendido.",
+        "back_2x2": "O índice de Over 2.5 para ambos os times é 33% e 33%, com média de 33%, abaixo do mínimo de 60%. O índice de Ambas Marcam é 33% e 50%, com média de 41.5%, abaixo do mínimo de 60%.",
+        "back_goleada": "O favoritismo não é extremo (Fortaleza tem 67% de probabilidade de vitória), a média ofensiva do favorito é 1.00 (abaixo de 2.5) e a defesa do adversário é frágil (sofre 0.33 gols/jogo), mas os outros critérios não são atendidos.",
+        "lay_1x0": "A probabilidade estimada de 1x0 ser o placar exato é alta (acima de 12%) devido à baixa média de gols total (1.33) e ao fato de o visitante marcar em 50% dos jogos. O BTTS médio é 41.5%, abaixo de 50%.",
+        "lay_0x1": "A probabilidade estimada de 0x1 ser o placar exato é alta (acima de 12%) devido à baixa média de gols total (1.33) e ao fato de o mandante marcar em 67% dos jogos. O BTTS médio é 41.5%, abaixo de 50%."
       }
     }
   ],
   "pdfs": [
     {
-      "jogo": "28 Jun Qingdao Youth Island FC Hangzhou Chinese Super League 2.30 3.42 2.45",
-      "arquivo": "pdfs/2026-06-28/Chinese_Super_League/001_07h00_28_Jun_Qingdao_Youth_Island_FC_Hangzhou_Chinese_Super_League.pdf"
+      "jogo": "Qingdao Youth Island FC x Hangzhou",
+      "arquivo": "pdfs/2026-06-28/China_Chinese_Super_League/001_07h00_Qingdao_Youth_Island_FC_x_Hangzhou.pdf"
     },
     {
-      "jogo": "28 Jun Dalian Zhixing FC Shanghai Shenhua Chinese Super League 2.31 3.45 2.62",
-      "arquivo": "pdfs/2026-06-28/Chinese_Super_League/002_08h00_28_Jun_Dalian_Zhixing_FC_Shanghai_Shenhua_Chinese_Super_Leag.pdf"
+      "jogo": "Dalian Zhixing FC x Shanghai Shenhua",
+      "arquivo": "pdfs/2026-06-28/China_Chinese_Super_League/002_08h00_Dalian_Zhixing_FC_x_Shanghai_Shenhua.pdf"
     },
     {
-      "jogo": "28 Jun África do Sul Canadá World Cup 4.44 3.60 1.70",
-      "arquivo": "pdfs/2026-06-28/World_Cup/003_16h00_28_Jun_África_do_Sul_Canadá_World_Cup_444_360_170.pdf"
+      "jogo": "Athletic Club x Avaí",
+      "arquivo": "pdfs/2026-06-28/Brazil_Serie_B/003_16h00_Athletic_Club_x_Avaí.pdf"
+    },
+    {
+      "jogo": "Juventude x Ceará",
+      "arquivo": "pdfs/2026-06-28/Brazil_Serie_B/004_16h00_Juventude_x_Ceará.pdf"
+    },
+    {
+      "jogo": "Atlético GO x Ponte Preta",
+      "arquivo": "pdfs/2026-06-28/Brazil_Serie_B/005_16h00_Atlético_GO_x_Ponte_Preta.pdf"
+    },
+    {
+      "jogo": "Fortaleza x Sport Recife",
+      "arquivo": "pdfs/2026-06-28/Brazil_Serie_B/006_18h30_Fortaleza_x_Sport_Recife.pdf"
+    },
+    {
+      "jogo": "Náutico x Goiás",
+      "arquivo": "pdfs/2026-06-28/Brazil_Serie_B/007_18h30_Náutico_x_Goiás.pdf"
+    },
+    {
+      "jogo": "África do Sul x Canadá",
+      "arquivo": "pdfs/2026-06-28/International_World_Cup/008_16h00_África_do_Sul_x_Canadá.pdf"
     }
   ]
 }
