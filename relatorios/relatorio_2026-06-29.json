@@ -1,0 +1,145 @@
+{
+  "data": "2026-06-29",
+  "dia_consultado": "amanha",
+  "gerado_em": "2026-06-28T12:10:48.539442",
+  "total_partidas_analisadas": 3,
+  "entradas": [
+    {
+      "horario": "14:00",
+      "liga": "International World Cup",
+      "jogo": "Brasil x Japão",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Brasil",
+      "probabilidade_estimada": "70%",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.60",
+      "media_gols_casa": "2.00",
+      "media_gols_fora": "1.10",
+      "explicacao_curta": "Brasil com 70% de vitórias e 2.00 gols/jogo contra Japão que sofre 1.10 gols/jogo. Favoritismo claro e bom momento ofensivo.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 70% → fair 1.43; com margem de segurança, só entrar acima de 1.60.",
+      "mercado_secundario": "Mais 1.5 gols (após 65min)",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": "Brasil marca 1.50 no 1ºT",
+      "desempenho_2t": "Japão sofre 1.50 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "",
+          "objetivo": ""
+        }
+      },
+      "motivacao_tecnica": "Brasil é favorito claro com histórico recente forte e bom desempenho ofensivo. Japão tem um desempenho defensivo razoável, mas o poder de fogo do Brasil deve prevalecer.",
+      "coeficiente_regularidade": "Brasil: CV baixo / Japão: CV moderado",
+      "mando_de_campo": "Brasil tem 70% de vitórias em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Brasil tem forte poder ofensivo, Japão tem dificuldade em manter a defesa sólida.",
+      "momento_gols": "Brasil marca mais no 2º tempo (1.50), Japão sofre mais no 2º tempo (1.50).",
+      "jogadores_chave": "",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
+        "gatilho_saida_parcial": "",
+        "hard_stop": ""
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "liga_permitida",
+          "adversario_<_35%"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Brasil",
+        "odd_alvo": "1.60",
+        "razao": "Brasil é favorito claro com 70% de vitórias e bom desempenho ofensivo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_61-75_>=_25%",
+          "favorito_marcado_76-90_>=_25%",
+          "adversario_sofrido_61-75_>=_25%",
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Brasil - jogo de Copa do Mundo, alta motivação.",
+        "indices_gols_faixas": "Brasil Marcado 61-75: 4% | Brasil Marcado 76-90: 17% | Japão Sofrido 61-75: 27% | Japão Sofrido 76-90: 18%",
+        "qual_condicao_atende": "adversario_sofrido_61-75_>=_25% (27%)",
+        "motivo_motivacao": "Jogo de Copa do Mundo, ambas as seleções buscam a vitória.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "17:30",
+      "jogo": "Alemanha x Paraguai",
+      "liga": "International World Cup",
+      "motivo": "Favoritismo alemão não é suficiente para justificar entrada direta, e dados de gols não favorecem outros métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "prob estimada 60% — precisa ≥65%",
+        "lay_zebra": "zebra com odd estimada 3.50 — precisa ≥5.00",
+        "over_limite_70": "sem dados de gols por período no PDF",
+        "back_2x2": "Over 2.5 média 60% — precisa ≥60% (mas BTTS médio 50% — precisa >50%)",
+        "back_goleada": "prob estimada 60% — precisa ≥70%",
+        "lay_1x0": "P(1-0) estimada 15% — precisa <12%",
+        "lay_0x1": "mandante marca em 80% — precisa >60% (mas P(0-1) estimada 15% — precisa <12%)"
+      }
+    },
+    {
+      "horario": "22:00",
+      "jogo": "Holanda x Marrocos",
+      "liga": "International World Cup",
+      "motivo": "Jogo equilibrado com ambos os times apresentando bom desempenho ofensivo e defensivo, sem um favorito claro para Back Favorito ou Lay Zebra.",
+      "motivos_por_metodo": {
+        "back_favorito": "prob estimada 58% — precisa ≥65%",
+        "lay_zebra": "zebra com odd estimada 3.50 — precisa ≥5.00",
+        "over_limite_70": "sem dados de gols por período no PDF",
+        "back_2x2": "Over 2.5 média 50% — precisa ≥60%",
+        "back_goleada": "prob estimada 58% — precisa ≥70%",
+        "lay_1x0": "P(1-0) estimada 15% — precisa <12%",
+        "lay_0x1": "mandante marca em 80% — precisa >60% (mas P(0-1) estimada 15% — precisa <12%)"
+      }
+    }
+  ],
+  "pdfs": [
+    {
+      "jogo": "Brasil x Japão",
+      "arquivo": "pdfs/2026-06-29/International_World_Cup/001_14h00_Brasil_x_Japão.pdf"
+    },
+    {
+      "jogo": "Alemanha x Paraguai",
+      "arquivo": "pdfs/2026-06-29/International_World_Cup/002_17h30_Alemanha_x_Paraguai.pdf"
+    },
+    {
+      "jogo": "Holanda x Marrocos",
+      "arquivo": "pdfs/2026-06-29/International_World_Cup/003_22h00_Holanda_x_Marrocos.pdf"
+    }
+  ]
+}
