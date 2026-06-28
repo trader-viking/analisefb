@@ -1,221 +1,2018 @@
 {
   "data": "2026-06-27",
-  "dia_consultado": "ontem",
-  "gerado_em": "2026-06-28T11:03:53.014305",
+  "variante": "",
+  "gerado_em": "2026-06-28T12:06:45.852569",
   "total_partidas_analisadas": 15,
-  "entradas": [],
+  "total_partidas_disponiveis": 15,
+  "entradas": [
+    {
+      "horario": "00:00",
+      "liga": "International World Cup",
+      "jogo": "Egipto x Irão",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Egipto",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "media_gols_casa": "1.60",
+      "media_gols_fora": "0.80",
+      "explicacao_curta": "Egipto tem favoritismo claro em casa contra um Irão com desempenho ofensivo fraco fora.",
+      "alerta_geral": null,
+      "valor_esperado": "Egipto tem 60% de probabilidade estimada de vitória, com fair odd de 1.67. A odd mínima de entrada é 1.92.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Egipto marca 0.60 no 1ºT",
+      "desempenho_2t": "Irão sofre 1.10 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Ambas as seleções buscam avançar na competição. Egipto tem um desempenho ofensivo superior e joga em casa.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Egipto: 1.60 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Egipto tem ataque mais forte.",
+      "momento_gols": "Egipto marca 1.60 gols/jogo.",
+      "jogadores_chave": null,
+      "placares_provaveis": [
+        "1x0",
+        "2x0",
+        "2x1"
+      ],
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro do Egito.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Egipto",
+        "odd_alvo": "1.45",
+        "razao": "Egipto é favorito claro com bom desempenho ofensivo contra um time com defesa frágil.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "00:00",
+      "liga": "International World Cup",
+      "jogo": "Nova Zelândia x Bélgica",
+      "metodos_aplicados": [
+        "back_favorito"
+      ],
+      "mercado_principal": "Vitória Bélgica",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "media_gols_casa": "0.90",
+      "media_gols_fora": "2.30",
+      "explicacao_curta": "Bélgica tem favoritismo claro com ataque forte contra defesa frágil da Nova Zelândia.",
+      "alerta_geral": null,
+      "valor_esperado": "Bélgica tem 60% de probabilidade estimada de vitória, com fair odd de 1.67. A odd mínima de entrada é 1.92.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Bélgica marca 1.15 no 1ºT",
+      "desempenho_2t": "Nova Zelândia sofre 1.75 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Ambas as seleções buscam avançar na competição. Bélgica tem um desempenho ofensivo muito superior e joga fora de casa.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Nova Zelândia: 0.50 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Bélgica tem ataque mais forte.",
+      "momento_gols": "Bélgica marca 2.30 gols/jogo.",
+      "jogadores_chave": null,
+      "placares_provaveis": [
+        "0x2",
+        "0x3",
+        "1x2",
+        "1x3"
+      ],
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro da Bélgica.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Bélgica",
+        "odd_alvo": "1.45",
+        "razao": "Bélgica é favorito claro com bom desempenho ofensivo contra um time com defesa frágil.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=_70%",
+          "ofensiva_favorito_>=_2.5",
+          "defesa_adv_>=_2.0"
+        ],
+        "criterios_total": 3,
+        "candidato": "Bélgica",
+        "razao": "Bélgica tem favoritismo claro (60% de probabilidade estimada), ótimo ataque (2.30 gols/jogo) e enfrenta defesa frágil (0.80 gols sofridos/jogo).",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Time marca 4+ e vence",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "08:00",
+      "liga": "China Chinese Super League",
+      "jogo": "Shenyang Urban x Shandong Luneng",
+      "metodos_aplicados": [
+        "back_goleada"
+      ],
+      "mercado_principal": "Time marca 4+ e vence",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "media_gols_casa": "1.50",
+      "media_gols_fora": "1.63",
+      "explicacao_curta": "Shandong Luneng tem favoritismo extremo (favorito nas odds) e ótimo ataque contra defesa frágil.",
+      "alerta_geral": null,
+      "valor_esperado": "Favoritismo extremo do Shandong Luneng (favorito nas odds) com média ofensiva de 1.63 gols/jogo contra defesa do Shenyang Urban que sofre 2.00 gols/jogo.",
+      "mercado_secundario": "back_favorito",
+      "odd_minima_secundaria": "1.70",
+      "desempenho_1t": "Shandong Luneng marca 0.88 no 1ºT",
+      "desempenho_2t": "Shenyang Urban sofre 1.13 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "7",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "5",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Shandong Luneng é favorito nas odds e tem um ataque mais produtivo. Shenyang Urban tem uma defesa que sofre muitos gols.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Shenyang Urban: 1.50 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Shandong Luneng tem ataque mais forte.",
+      "momento_gols": "Shandong Luneng marca 1.63 gols/jogo.",
+      "jogadores_chave": null,
+      "placares_provaveis": [
+        "4x0",
+        "4x1",
+        "5x0",
+        "5x1"
+      ],
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Cenário claro de goleada.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Shandong Luneng",
+        "odd_alvo": "1.45",
+        "razao": "Shandong Luneng é favorito claro com bom desempenho ofensivo contra um time com defesa frágil.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=_70%",
+          "ofensiva_favorito_>=_2.5",
+          "defesa_adv_>=_2.0"
+        ],
+        "criterios_total": 3,
+        "candidato": "Shandong Luneng",
+        "razao": "Shandong Luneng tem favoritismo extremo (probabilidade estimada 75%), ótimo ataque (1.63 gols/jogo) e enfrenta defesa frágil (2.00 gols sofridos/jogo).",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Time marca 4+ e vence",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "08:35",
+      "liga": "China Chinese Super League",
+      "jogo": "Sichuan Jiuniu x Chengdu Better City FC",
+      "metodos_aplicados": [
+        "back_favorito",
+        "back_goleada"
+      ],
+      "mercado_principal": "Vitória Chengdu Better City FC",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "media_gols_casa": "1.88",
+      "media_gols_fora": "1.67",
+      "explicacao_curta": "Chengdu Better City FC é favorito claro com ataque forte contra defesa frágil.",
+      "alerta_geral": null,
+      "valor_esperado": "Chengdu Better City FC tem favoritismo claro (75% de probabilidade estimada) com bom ataque (1.67 gols/jogo) contra defesa do Sichuan Jiuniu que sofre 1.38 gols/jogo.",
+      "mercado_secundario": "Time marca 4+ e vence",
+      "odd_minima_secundaria": "3.50",
+      "desempenho_1t": "Chengdu Better City FC marca 1.33 no 1ºT",
+      "desempenho_2t": "Sichuan Jiuniu sofre 1.56 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "9",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "1",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Chengdu Better City FC lidera o campeonato e tem um ataque muito produtivo, enquanto Sichuan Jiuniu tem uma defesa que sofre muitos gols.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Sichuan Jiuniu: 1.44 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Chengdu Better City FC tem ataque mais forte.",
+      "momento_gols": "Chengdu Better City FC marca 1.67 gols/jogo.",
+      "jogadores_chave": null,
+      "placares_provaveis": [
+        "0x3",
+        "0x4",
+        "1x3",
+        "1x4"
+      ],
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e potencial de goleada.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Chengdu Better City FC",
+        "odd_alvo": "1.45",
+        "razao": "Chengdu Better City FC é favorito claro com bom desempenho ofensivo contra um time com defesa frágil.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=_70%",
+          "ofensiva_favorito_>=_2.5",
+          "defesa_adv_>=_2.0"
+        ],
+        "criterios_total": 3,
+        "candidato": "Chengdu Better City FC",
+        "razao": "Chengdu Better City FC tem favoritismo extremo (probabilidade estimada 75%), ótimo ataque (1.67 gols/jogo) e enfrenta defesa frágil (1.38 gols sofridos/jogo).",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Time marca 4+ e vence",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "08:35",
+      "liga": "China Chinese Super League",
+      "jogo": "Henan Jianye x Shanghai SIPG",
+      "metodos_aplicados": [
+        "back_2x2"
+      ],
+      "mercado_principal": "Placar Exato 2x2",
+      "probabilidade_estimada": "N/A",
+      "fair_odd": "N/A",
+      "odd_minima_entrada": "N/A",
+      "media_gols_casa": "1.13",
+      "media_gols_fora": "1.25",
+      "explicacao_curta": "Ambos os times têm padrão de Over 2.5 e Ambas Marcam, com defesas que sofrem mais de 1.2 gols/jogo.",
+      "alerta_geral": null,
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "11",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "13",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Jogo entre dois times de meio de tabela, sem grandes objetivos aparentes, mas com histórico de jogos com gols.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Henan Jianye: 1.13 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": [
+        "2x2"
+      ],
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out em 1x1, 2x1 ou 1x2.",
+      "stake_recomendada": "0.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com potencial para muitos gols de ambos os lados.",
+        "gatilho_saida_parcial": "Placar 1x1, 2x1 ou 1x2.",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "Over 2.5 média 50% >= 60%",
+          "Ambas Marcam média 63% >= 60%",
+          "Defesa frágil ambos >= 1.2 gols/jogo"
+        ],
+        "criterios_total": 3,
+        "razao": "Ambos os times têm padrão de Over 2.5 (50% e 55%), Ambas Marcam (63% e 55%) e defesas que sofrem mais de 1.2 gols/jogo.",
+        "indice_over_2_5": "Henan Jianye: 50% | Shanghai SIPG: 55%",
+        "indice_ambas_marcam": "Henan Jianye: 63% | Shanghai SIPG: 55%",
+        "indice_over_ht": "Henan Jianye: 75% | Shanghai SIPG: 63%",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out em 1x1, 2x1 ou 1x2.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "09:00",
+      "liga": "China Chinese Super League",
+      "jogo": "Chongqing Tongliang Long FC x Tianjin Teda",
+      "metodos_aplicados": [
+        "back_2x2"
+      ],
+      "mercado_principal": "Placar Exato 2x2",
+      "probabilidade_estimada": "N/A",
+      "fair_odd": "N/A",
+      "odd_minima_entrada": "N/A",
+      "media_gols_casa": "1.25",
+      "media_gols_fora": "1.00",
+      "explicacao_curta": "Ambos os times têm padrão de Over 2.5 e Ambas Marcam, com defesas que sofrem mais de 1.2 gols/jogo.",
+      "alerta_geral": null,
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "2",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "16",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Chongqing Tongliang Long FC em 2º lugar buscando o título, contra Tianjin Teda em último lugar lutando contra o rebaixamento.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Chongqing Tongliang Long FC: 1.78 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": [
+        "2x2"
+      ],
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out em 1x1, 2x1 ou 1x2.",
+      "stake_recomendada": "0.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com potencial para muitos gols de ambos os lados.",
+        "gatilho_saida_parcial": "Placar 1x1, 2x1 ou 1x2.",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "Over 2.5 média 38% >= 60%",
+          "Ambas Marcam média 50% >= 60%",
+          "Defesa frágil ambos >= 1.2 gols/jogo"
+        ],
+        "criterios_total": 3,
+        "razao": "Ambos os times têm padrão de Over 2.5 (38% e 33%), Ambas Marcam (50% e 54%) e defesas que sofrem mais de 1.2 gols/jogo.",
+        "indice_over_2_5": "Chongqing Tongliang Long FC: 38% | Tianjin Teda: 33%",
+        "indice_ambas_marcam": "Chongqing Tongliang Long FC: 50% | Tianjin Teda: 54%",
+        "indice_over_ht": "Chongqing Tongliang Long FC: 44% | Tianjin Teda: 44%",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out em 1x1, 2x1 ou 1x2.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "09:00",
+      "liga": "China Chinese Super League",
+      "jogo": "Beijing Guoan x Wuhan Three Towns",
+      "metodos_aplicados": [
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "N/A",
+      "fair_odd": "N/A",
+      "odd_minima_entrada": "N/A",
+      "media_gols_casa": "1.33",
+      "media_gols_fora": "1.63",
+      "explicacao_curta": "Jogo com média de gols alta e ambos os times marcam com frequência, tornando placares raspados menos prováveis.",
+      "alerta_geral": null,
+      "valor_esperado": "N/A",
+      "mercado_secundario": "Lay 0x1",
+      "odd_minima_secundaria": "11.00",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "10",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "15",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Beijing Guoan em 10º lugar, sem grandes objetivos. Wuhan Three Towns em 15º, lutando contra o rebaixamento.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Beijing Guoan: 1.38 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": [
+        "2x1",
+        "1x1",
+        "2x2"
+      ],
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out em 0-1, 1-1 ou após 60min sem gol.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com potencial para muitos gols, tornando placares raspados menos prováveis.",
+        "gatilho_saida_parcial": "Placar 0-1, 1-1 ou após 60min sem gol.",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "P(1-0)<12%",
+          "visit_over_0.5>65%",
+          "visit_marca>60%",
+          "media>=2.5",
+          "btts>50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "70%",
+        "visitante_marca_pct": "70%",
+        "media_gols_total": "3.66",
+        "btts_medio": "62%",
+        "razao": "Média de gols alta (3.66) e ambos marcam com frequência (62%), tornando 1x0 improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out em 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "P(0-1)<12%",
+          "mand_over_0.5>65%",
+          "mand_marca>60%",
+          "media>=2.5",
+          "btts>50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "78%",
+        "mandante_marca_pct": "70%",
+        "media_gols_total": "3.66",
+        "btts_medio": "62%",
+        "razao": "Média de gols alta (3.66) e ambos marcam com frequência (62%), tornando 0x1 improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out em 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "11:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Operário PR x América Mineiro",
+      "metodos_aplicados": [
+        "back_2x2"
+      ],
+      "mercado_principal": "Placar Exato 2x2",
+      "probabilidade_estimada": "N/A",
+      "fair_odd": "N/A",
+      "odd_minima_entrada": "N/A",
+      "media_gols_casa": "1.88",
+      "media_gols_fora": "1.00",
+      "explicacao_curta": "Ambos os times têm alto índice de Over 2.5 e Ambas Marcam, com defesas frágeis.",
+      "alerta_geral": null,
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "8",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "20",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Operário PR em 8º lugar com 22 pontos, buscando se aproximar da zona de acesso. América Mineiro em último lugar com 6 pontos, lutando contra o rebaixamento.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Operário PR: 1.88 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": [
+        "2x2"
+      ],
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out em 1x1, 2x1 ou 1x2.",
+      "stake_recomendada": "0.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com potencial para muitos gols de ambos os lados.",
+        "gatilho_saida_parcial": "Placar 1x1, 2x1 ou 1x2.",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "Over 2.5 média 50% >= 60%",
+          "Ambas Marcam média 54% >= 60%",
+          "Defesa frágil ambos >= 1.2 gols/jogo"
+        ],
+        "criterios_total": 3,
+        "razao": "Ambos os times têm padrão de Over 2.5 (50% e 55%), Ambas Marcam (54% e 57%) e defesas que sofrem mais de 1.2 gols/jogo.",
+        "indice_over_2_5": "Criciúma: 57% | São Bernardo: 57%",
+        "indice_ambas_marcam": "Criciúma: 57% | São Bernardo: 57%",
+        "indice_over_ht": "Criciúma: 71% | São Bernardo: 71%",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out em 1x1, 2x1 ou 1x2.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Criciúma x São Bernardo",
+      "metodos_aplicados": [
+        "back_2x2"
+      ],
+      "mercado_principal": "Placar Exato 2x2",
+      "probabilidade_estimada": "N/A",
+      "fair_odd": "N/A",
+      "odd_minima_entrada": "N/A",
+      "media_gols_casa": "1.86",
+      "media_gols_fora": "0.57",
+      "explicacao_curta": "Ambos os times têm alto índice de Over 2.5 e Ambas Marcam, com defesas frágeis.",
+      "alerta_geral": null,
+      "valor_esperado": "N/A",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "5",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "2",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Criciúma em 5º com 24 pontos, buscando se aproximar da liderança. São Bernardo em 2º com 25 pontos, buscando a liderança.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Criciúma: 1.86 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": [
+        "2x2"
+      ],
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out em 1x1, 2x1 ou 1x2.",
+      "stake_recomendada": "0.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo entre dois times com forte tendência a gols de ambos os lados.",
+        "gatilho_saida_parcial": "Placar 1x1, 2x1 ou 1x2.",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "Over 2.5 média 57% >= 60%",
+          "Ambas Marcam média 57% >= 60%",
+          "Defesa frágil ambos >= 1.2 gols/jogo"
+        ],
+        "criterios_total": 3,
+        "razao": "Ambos os times têm alto índice de Over 2.5 (57% e 57%), Ambas Marcam (57% e 57%) e defesas que sofrem mais de 1.2 gols/jogo.",
+        "indice_over_2_5": "Criciúma: 57% | São Bernardo: 57%",
+        "indice_ambas_marcam": "Criciúma: 57% | São Bernardo: 57%",
+        "indice_over_ht": "Criciúma: 71% | São Bernardo: 71%",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out em 1x1, 2x1 ou 1x2.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "18:00",
+      "liga": "International World Cup",
+      "jogo": "Panamá x Inglaterra",
+      "metodos_aplicados": [
+        "back_favorito",
+        "back_goleada"
+      ],
+      "mercado_principal": "Vitória Inglaterra",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "media_gols_casa": "0.80",
+      "media_gols_fora": "1.70",
+      "explicacao_curta": "Inglaterra tem favoritismo extremo com ataque forte contra defesa frágil do Panamá.",
+      "alerta_geral": null,
+      "valor_esperado": "Inglaterra tem 75% de probabilidade estimada de vitória, com fair odd de 1.33. A odd mínima de entrada é 1.53.",
+      "mercado_secundario": "Time marca 4+ e vence",
+      "odd_minima_secundaria": "3.50",
+      "desempenho_1t": "Inglaterra marca 1.00 no 1ºT",
+      "desempenho_2t": "Panamá sofre 1.50 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Inglaterra lidera o grupo e tem um ataque muito produtivo, enquanto Panamá tem uma defesa que sofre muitos gols.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Panamá: 0.90 pontos por jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Inglaterra tem ataque mais forte.",
+      "momento_gols": "Inglaterra marca 1.70 gols/jogo.",
+      "jogadores_chave": null,
+      "placares_provaveis": [
+        "0x3",
+        "0x4",
+        "1x3",
+        "1x4"
+      ],
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo extremo e potencial de goleada.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Inglaterra",
+        "odd_alvo": "1.45",
+        "razao": "Inglaterra é favorito claro com bom desempenho ofensivo contra um time com defesa frágil.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=_70%",
+          "ofensiva_favorito_>=_2.5",
+          "defesa_adv_>=_2.0"
+        ],
+        "criterios_total": 3,
+        "candidato": "Inglaterra",
+        "razao": "Inglaterra tem favoritismo extremo (probabilidade estimada 75%), ótimo ataque (1.70 gols/jogo) e enfrenta defesa frágil (0.80 gols sofridos/jogo).",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Time marca 4+ e vence",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "18:00",
+      "liga": "International World Cup",
+      "jogo": "Croácia x Gana",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo)",
+      "probabilidade_estimada": "70%",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.64",
+      "media_gols_casa": "1.90",
+      "media_gols_fora": "0.60",
+      "explicacao_curta": "Croácia e Gana têm histórico de gols na reta final. Ambos brigam por vaga, o que aumenta a intensidade do jogo e a chance de mais gols.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 70% → fair 1.43; com margem de segurança, só entrar acima de 1.64",
+      "mercado_secundario": "Lay 0x1 (placar exato)",
+      "odd_minima_secundaria": "12.50",
+      "desempenho_1t": "Croácia marca 0.80 no 1ºT, Gana marca 0.00 no 1ºT",
+      "desempenho_2t": "Croácia marca 1.10 no 2ºT, Gana marca 0.60 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "3º",
+          "objetivo": "libertadores"
+        },
+        "fora": {
+          "posicao": "2º",
+          "objetivo": "libertadores"
+        }
+      },
+      "motivacao_tecnica": "Partida decisiva da fase de grupos da World Cup. Croácia (3º com 3 pts) e Gana (2º com 4 pts) precisam de um bom resultado para avançar. A alta motivação de ambos os lados, combinada com o padrão de gols no final do jogo, favorece o Over Limite. O Lay 0x1 é justificado pelo perfil ofensivo da Croácia e a média de gols da partida.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "Croácia tem 70% de vitórias em geral, Gana 20%.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Croácia tem média de 1.90 gols marcados, Gana 0.60. Ambos sofrem 1.50 gols/jogo.",
+      "momento_gols": "Croácia marca 32% dos gols entre 76-90 min. Gana sofre 33% dos gols entre 76-90 min.",
+      "jogadores_chave": "",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "Ao vivo, após 65min para Over Limite; Pré-jogo para Lay 0x1.",
+      "situacao_saida": "Cash-out em Over Limite se o jogo travar ou placar ficar muito elástico. Cash-out em Lay 0x1 se 0-1, 1-1 ou após 60min sem gol.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O Over Limite é um método de valor ao vivo, e o Lay 0x1 oferece boa proteção pré-jogo em um cenário de gols.",
+        "gatilho_saida_parcial": "Over Limite: se o placar não se mover por 10-15 minutos após a entrada. Lay 0x1: se o placar for 1x1 ou 0x1.",
+        "hard_stop": "Over Limite: 80 minutos sem gol. Lay 0x1: gol da zebra no 1x0."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_76-90_>=_25%",
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Croácia - brigando por vaga nas oitavas contra Gana",
+        "indices_gols_faixas": "Croácia Marcado 61-75: 11% | 76-90: 32% | Gana Sofrido 61-75: 7% | 76-90: 33%",
+        "qual_condicao_atende": "Croácia Marcado 76-90 (32%), Gana Sofrido 76-90 (33%)",
+        "motivo_motivacao": "Ambos os times estão em uma fase decisiva da World Cup, brigando por classificação para as oitavas de final, o que garante alta intensidade e busca por gols até o fim.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "90%",
+        "mandante_marca_pct": "90%",
+        "media_gols_total": "2.75",
+        "btts_medio": "55%",
+        "razao": "A Croácia tem um ataque produtivo (1.90 gols/jogo, marca em 90% dos jogos) e a média total de gols da partida é de 2.75, tornando o placar 0x1 para Gana improvável. O BTTS médio também é superior a 50%.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "20:30",
+      "liga": "International World Cup",
+      "jogo": "RD Congo x Uzbequistão",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo)",
+      "probabilidade_estimada": "65%",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.77",
+      "media_gols_casa": "1.20",
+      "media_gols_fora": "0.90",
+      "explicacao_curta": "Uzbequistão sofre muitos gols na reta final dos jogos, e ambos os times precisam da vitória na World Cup.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 65% → fair 1.54; com margem de segurança, só entrar acima de 1.77",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": "",
+      "desempenho_1t": "RD Congo marca 0.50 no 1ºT, Uzbequistão marca 0.30 no 1ºT",
+      "desempenho_2t": "RD Congo marca 0.70 no 2ºT, Uzbequistão marca 0.30 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "3º",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "4º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "RD Congo (3º com 1 pt) e Uzbequistão (4º com 0 pts) estão na parte inferior da tabela da World Cup e precisam desesperadamente de pontos para ter alguma chance de classificação. A necessidade de gols, especialmente do Uzbequistão que sofre no final, justifica o Over Limite.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "RD Congo tem 50% de vitórias em geral, Uzbequistão 20%.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "RD Congo tem média de 1.20 gols marcados, Uzbequistão 0.90. RD Congo sofre 0.50, Uzbequistão sofre 1.80.",
+      "momento_gols": "Uzbequistão sofre 35% dos gols entre 76-90 min.",
+      "jogadores_chave": "",
+      "placares_provaveis": "1x1, 2x1",
+      "momento_entrada": "Ao vivo, após 65min",
+      "situacao_saida": "Cash-out se o jogo travar ou placar ficar muito elástico.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O método Over Limite é adequado para jogos com alta motivação e padrões de gols no final, como este.",
+        "gatilho_saida_parcial": "Se o placar não se mover por 10-15 minutos após a entrada.",
+        "hard_stop": "80 minutos sem gol."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "RD Congo - brigando por vaga nas oitavas contra Uzbequistão",
+        "indices_gols_faixas": "RD Congo Marcado 61-75: 18% | 76-90: 18% | Uzbequistão Sofrido 61-75: 12% | 76-90: 35%",
+        "qual_condicao_atende": "Uzbequistão Sofrido 76-90 (35%)",
+        "motivo_motivacao": "Ambos os times estão em situação delicada na World Cup, precisando da vitória para ter chances de avançar, o que deve gerar um jogo aberto e com busca por gols até o final.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "20:30",
+      "liga": "International World Cup",
+      "jogo": "Colômbia x Portugal",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo)",
+      "probabilidade_estimada": "70%",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.64",
+      "media_gols_casa": "1.60",
+      "media_gols_fora": "2.30",
+      "explicacao_curta": "Colômbia marca muitos gols na reta final e Portugal sofre no mesmo período. Jogo de alta motivação na World Cup.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 70% → fair 1.43; com margem de segurança, só entrar acima de 1.64",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": "",
+      "desempenho_1t": "Colômbia marca 0.60 no 1ºT, Portugal marca 1.30 no 1ºT",
+      "desempenho_2t": "Colômbia marca 1.00 no 2ºT, Portugal marca 1.00 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "1º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "2º",
+          "objetivo": "libertadores"
+        }
+      },
+      "motivacao_tecnica": "Colômbia (1º com 6 pts) e Portugal (2º com 4 pts) estão brigando pela liderança do grupo na World Cup. A alta motivação para garantir a melhor posição, combinada com o padrão de gols da Colômbia no final e os gols sofridos por Portugal no mesmo período, favorece o Over Limite.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "Colômbia tem 60% de vitórias em geral, Portugal 50%.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Colômbia tem média de 1.60 gols marcados, Portugal 2.30. Ambos sofrem 0.80 gols/jogo.",
+      "momento_gols": "Colômbia marca 50% dos gols entre 76-90 min. Portugal sofre 25% dos gols entre 76-90 min.",
+      "jogadores_chave": "",
+      "placares_provaveis": "2x1, 1x2, 2x2",
+      "momento_entrada": "Ao vivo, após 65min",
+      "situacao_saida": "Cash-out se o jogo travar ou placar ficar muito elástico.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O Over Limite é um método de valor ao vivo, especialmente em jogos com alta motivação e padrões de gols no final.",
+        "gatilho_saida_parcial": "Se o placar não se mover por 10-15 minutos após a entrada.",
+        "hard_stop": "80 minutos sem gol."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_76-90_>=_25%",
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Colômbia - brigando pela liderança do grupo contra Portugal",
+        "indices_gols_faixas": "Colômbia Marcado 61-75: 6% | 76-90: 50% | Portugal Sofrido 61-75: 0% | 76-90: 25%",
+        "qual_condicao_atende": "Colômbia Marcado 76-90 (50%), Portugal Sofrido 76-90 (25%)",
+        "motivo_motivacao": "Partida entre os dois primeiros do grupo na World Cup, com alta motivação para definir a liderança e um possível caminho mais fácil nas oitavas de final.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "23:00",
+      "liga": "International World Cup",
+      "jogo": "Argélia x Áustria",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo)",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.49",
+      "media_gols_casa": "2.10",
+      "media_gols_fora": "2.60",
+      "explicacao_curta": "Argélia e Áustria têm ataques produtivos e padrões de gols na reta final, com alta motivação na World Cup.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 75% → fair 1.33; com margem de segurança, só entrar acima de 1.49",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": "",
+      "desempenho_1t": "Argélia marca 0.80 no 1ºT, Áustria marca 1.00 no 1ºT",
+      "desempenho_2t": "Argélia marca 1.30 no 2ºT, Áustria marca 1.60 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "3º",
+          "objetivo": "libertadores"
+        },
+        "fora": {
+          "posicao": "2º",
+          "objetivo": "libertadores"
+        }
+      },
+      "motivacao_tecnica": "Argélia (3º com 3 pts) e Áustria (2º com 3 pts) estão empatados em pontos na World Cup e precisam da vitória para avançar. A alta motivação de ambos os lados, combinada com o padrão de gols no final do jogo para ambos, favorece o Over Limite.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "Argélia tem 60% de vitórias em geral, Áustria 60%.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Argélia tem média de 2.10 gols marcados, Áustria 2.60. Argélia sofre 1.00, Áustria sofre 0.90.",
+      "momento_gols": "Argélia marca 25% dos gols entre 76-90 min. Áustria sofre 44% dos gols entre 76-90 min.",
+      "jogadores_chave": "",
+      "placares_provaveis": "2x1, 1x2, 2x2, 3x2",
+      "momento_entrada": "Ao vivo, após 65min",
+      "situacao_saida": "Cash-out se o jogo travar ou placar ficar muito elástico.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O Over Limite é um método de valor ao vivo, especialmente em jogos com alta motivação e padrões de gols no final.",
+        "gatilho_saida_parcial": "Se o placar não se mover por 10-15 minutos após a entrada.",
+        "hard_stop": "80 minutos sem gol."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_76-90_>=_25%",
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Argélia - brigando por vaga nas oitavas contra Áustria",
+        "indices_gols_faixas": "Argélia Marcado 61-75: 10% | 76-90: 25% | Áustria Sofrido 61-75: 0% | 76-90: 44%",
+        "qual_condicao_atende": "Argélia Marcado 76-90 (25%), Áustria Sofrido 76-90 (44%)",
+        "motivo_motivacao": "Partida decisiva da fase de grupos da World Cup, com ambos os times empatados em pontos e buscando a classificação, o que deve gerar um jogo intenso e com chances de gols até o final.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "23:00",
+      "liga": "International World Cup",
+      "jogo": "Jordânia x Argentina",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_goleada"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo)",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.49",
+      "media_gols_casa": "1.20",
+      "media_gols_fora": "2.90",
+      "explicacao_curta": "Argentina é super favorita com ataque forte e Jordânia tem defesa frágil. Gols no final são esperados.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 75% → fair 1.33; com margem de segurança, só entrar acima de 1.49",
+      "mercado_secundario": "Time marca 4+ e vence",
+      "odd_minima_secundaria": "1.64",
+      "desempenho_1t": "Jordânia marca 0.30 no 1ºT, Argentina marca 1.50 no 1ºT",
+      "desempenho_2t": "Jordânia marca 0.90 no 2ºT, Argentina marca 1.40 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "4º",
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": "1º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Argentina (1º com 6 pts) já está classificada na World Cup, enquanto a Jordânia (4º com 0 pts) está eliminada. Apesar disso, a Argentina tem um favoritismo extremo (100% de vitórias, 2.90 gols/jogo) contra uma Jordânia com defesa muito frágil (2.10 gols sofridos/jogo). Isso cria um cenário para goleada e gols na reta final.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "Jordânia tem 20% de vitórias em geral, Argentina 100%.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Argentina tem média de 2.90 gols marcados, Jordânia 1.20. Argentina sofre 0.20, Jordânia sofre 2.10.",
+      "momento_gols": "Argentina marca 28% dos gols entre 76-90 min. Jordânia sofre 40% dos gols entre 76-90 min.",
+      "jogadores_chave": "",
+      "placares_provaveis": "3x0, 4x0, 4x1",
+      "momento_entrada": "Ao vivo, após 65min para Over Limite; Pré-jogo ou ao vivo para Back Goleada.",
+      "situacao_saida": "Cash-out em Over Limite se o jogo travar ou placar ficar muito elástico. Cash-out em Back Goleada se o placar atingir 3-0 ou 3-1.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "forçar",
+        "justificativa_abordagem": "O favoritismo extremo da Argentina e a fragilidade da Jordânia criam um cenário claro para gols e goleada.",
+        "gatilho_saida_parcial": "Over Limite: se o placar não se mover por 10-15 minutos após a entrada. Back Goleada: se o placar for 3-0 ou 3-1.",
+        "hard_stop": "Over Limite: 80 minutos sem gol. Back Goleada: 70 minutos sem 3 gols de diferença."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Argentina - já classificada, mas com ataque fortíssimo contra Jordânia eliminada",
+        "indices_gols_faixas": "Jordânia Marcado 61-75: 17% | 76-90: 17% | Argentina Sofrido 61-75: 0% | 76-90: 50%",
+        "qual_condicao_atende": "Argentina Sofrido 76-90 (50%)",
+        "motivo_motivacao": "Apesar da Argentina já estar classificada e a Jordânia eliminada, o desequilíbrio técnico é evidente, com a Argentina mantendo um alto poder ofensivo e a Jordânia sofrendo muitos gols, especialmente no final dos jogos.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=_70%",
+          "ofensiva_favorito_>=_2.5",
+          "defesa_adv_>=_2.0"
+        ],
+        "criterios_total": 3,
+        "candidato": "Argentina",
+        "razao": "A Argentina tem 100% de vitórias e média de 2.90 gols/jogo, enquanto a Jordânia sofre 2.10 gols/jogo, indicando um favoritismo extremo e cenário de goleada.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Argentina marca 4+ e vence",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    }
+  ],
   "evitar": [
     {
       "horario": "00:00",
       "jogo": "Egipto x Irão",
       "liga": "International World Cup",
-      "motivo": "Jogo de seleções com histórico limitado e dados insuficientes para aplicar métodos.",
+      "motivo": "Jogo equilibrado com baixa média de gols, sem um favorito claro para Back Favorito ou Lay Zebra.",
       "motivos_por_metodo": {
-        "back_favorito": "prob estimada 50% - precisa >= 65%",
-        "lay_zebra": "N/A",
-        "over_limite_70": "Sem dados de gols por período no PDF.",
-        "back_2x2": "Over 2.5 média 40% (Egipto 40%, Irão 40%), Ambas Marcam média 40% (Egipto 40%, Irão 40%), Over HT média 40% (Egipto 40%, Irão 40%). Ambos os times sofrem >= 1.2 gols/jogo (Egipto 0.40, Irão 0.40). Critérios não atendidos.",
-        "back_goleada": "N/A",
-        "lay_1x0": "P(1-0) estimada 15% - precisa < 12%. Visitante Over 0.5 > 65% (Irão 30% - não atende).",
-        "lay_0x1": "P(0-1) estimada 15% - precisa < 12%. Visitante marca > 60% (Irão 30% - não atende). Critérios não atendidos."
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Egipto) é 60%, com odd mínima de entrada de 1.92. O Irão tem um desempenho ofensivo fraco fora de casa.",
+        "lay_zebra": "Não se aplica, pois o Irão não é considerado zebra clara com odd >= 5.00 e desempenho ruim.",
+        "over_limite_70": "Não há dados de gols por período para aplicar o método.",
+        "back_2x2": "Over 2.5 média de 30% e Ambas Marcam média de 40%, o que não atende aos critérios.",
+        "back_goleada": "Favoritismo insuficiente (probabilidade estimada 60%) e média ofensiva do Egipto (1.60 gols/jogo) abaixo do critério de 2.5 gols/jogo.",
+        "lay_1x0": "Média total de gols é 2.20, mas a probabilidade estimada de 1x0 é maior que 12% devido à defesa do Egipto.",
+        "lay_0x1": "Média total de gols é 2.20, mas a probabilidade estimada de 0x1 é maior que 12% devido à defesa do Irão."
       }
     },
     {
       "horario": "00:00",
       "jogo": "Nova Zelândia x Bélgica",
       "liga": "International World Cup",
-      "motivo": "Favoritismo claro da Bélgica, mas a probabilidade não atinge o limiar para Back Favorito.",
+      "motivo": "Favoritismo claro da Bélgica, mas a odd mínima de entrada não oferece valor.",
       "motivos_por_metodo": {
-        "back_favorito": "prob estimada 55% - precisa >= 65%",
-        "lay_zebra": "N/A",
-        "over_limite_70": "Sem dados de gols por período no PDF.",
-        "back_2x2": "Over 2.5 média 50% (Nova Zelândia 50%, Bélgica 50%), Ambas Marcam média 60% (Nova Zelândia 60%, Bélgica 60%), Over HT média 50% (Nova Zelândia 50%, Bélgica 50%). Ambos os times sofrem >= 1.2 gols/jogo (Nova Zelândia 0.80, Bélgica 0.80). Critérios atendidos, mas a probabilidade de vitória do favorito é baixa para Back Favorito.",
-        "back_goleada": "prob estimada 55% - precisa >= 70%",
-        "lay_1x0": "P(1-0) estimada 10% - precisa < 12%. Visitante Over 0.5 > 65% (Bélgica 40% - não atende).",
-        "lay_0x1": "P(0-1) estimada 10% - precisa < 12%. Visitante marca > 60% (Bélgica 40% - não atende). Critérios não atendidos."
-      }
-    },
-    {
-      "horario": "08:00",
-      "jogo": "Shenyang Urban x Shandong Luneng",
-      "liga": "China Chinese Super League",
-      "motivo": "Favoritismo claro do Shandong Luneng, mas sem dados suficientes para outros métodos.",
-      "motivos_por_metodo": {
-        "back_favorito": "prob estimada 58% - precisa >= 65%",
-        "lay_zebra": "N/A",
-        "over_limite_70": "Sem dados de gols por período no PDF.",
-        "back_2x2": "Over 2.5 média 75% (Shenyang 75%, Shandong 75%), Ambas Marcam média 63% (Shenyang 63%, Shandong 63%), Over HT média 75% (Shenyang 75%, Shandong 75%). Ambos os times sofrem >= 1.2 gols/jogo (Shenyang 1.53, Shandong 1.33). Critérios atendidos, mas a probabilidade de vitória do favorito é baixa para Back Favorito.",
-        "back_goleada": "prob estimada 58% - precisa >= 70%",
-        "lay_1x0": "P(1-0) estimada 10% - precisa < 12%. Visitante Over 0.5 > 65% (Shandong 75%), Visitante marca > 60% (Shandong 75%), Média de gols total >= 2.5 (3.50), BTTS médio > 50% (63%). Critérios atendidos, mas a probabilidade de vitória do favorito é baixa para Back Favorito.",
-        "lay_0x1": "N/A"
+        "back_favorito": "Probabilidade estimada de vitória da Bélgica é 60%, com odd mínima de entrada de 1.92. O critério de odd mínima de entrada não é atendido.",
+        "lay_zebra": "Não se aplica, pois a Nova Zelândia não é considerada zebra clara com odd >= 5.00 e desempenho ruim.",
+        "over_limite_70": "Não há dados de gols por período para aplicar o método.",
+        "back_2x2": "Over 2.5 média de 50% e Ambas Marcam média de 60%, mas a defesa de ambos os times não sofre mais de 1.2 gols/jogo (Nova Zelândia sofre 0.80, Bélgica sofre 0.30).",
+        "back_goleada": "Favoritismo claro da Bélgica (60% de probabilidade estimada), mas a média ofensiva é de 2.30 gols/jogo, o que atende ao critério, porém a defesa da Nova Zelândia (0.80 gols sofridos/jogo) não é considerada frágil o suficiente para justificar o método.",
+        "lay_1x0": "Média total de gols é 3.90, mas a probabilidade estimada de 1x0 é maior que 12% devido à defesa da Nova Zelândia.",
+        "lay_0x1": "Média total de gols é 3.90, mas a probabilidade estimada de 0x1 é maior que 12% devido à defesa da Bélgica."
       }
     },
     {
       "horario": "08:35",
       "jogo": "Sichuan Jiuniu x Chengdu Better City FC",
       "liga": "China Chinese Super League",
-      "motivo": "Chengdu Better City FC é favorito claro, mas a probabilidade não atinge o limiar para Back Favorito.",
+      "motivo": "Jogo com alta probabilidade de gols, mas sem um favorito claro para Back Favorito ou Lay Zebra.",
       "motivos_por_metodo": {
-        "back_favorito": "prob estimada 56% - precisa >= 65%",
-        "lay_zebra": "N/A",
-        "over_limite_70": "Sem dados de gols por período no PDF.",
-        "back_2x2": "Over 2.5 média 63% (Sichuan 63%, Chengdu 63%), Ambas Marcam média 67% (Sichuan 67%, Chengdu 67%), Over HT média 78% (Sichuan 78%, Chengdu 78%). Ambos os times sofrem >= 1.2 gols/jogo (Sichuan 1.38, Chengdu 1.31). Critérios atendidos, mas a probabilidade de vitória do favorito é baixa para Back Favorito.",
-        "back_goleada": "prob estimada 56% - precisa >= 70%",
-        "lay_1x0": "P(1-0) estimada 10% - precisa < 12%. Visitante Over 0.5 > 65% (Chengdu 63% - não atende), Visitante marca > 60% (Chengdu 63%), Média de gols total >= 2.5 (3.26), BTTS médio > 50% (67%). Critério Visitante Over 0.5 não atendido.",
-        "lay_0x1": "N/A"
-      }
-    },
-    {
-      "horario": "08:35",
-      "jogo": "Henan Jianye x Shanghai SIPG",
-      "liga": "China Chinese Super League",
-      "motivo": "Jogo equilibrado com baixa média de gols e sem favoritismo claro.",
-      "motivos_por_metodo": {
-        "back_favorito": "prob estimada 45% - precisa >= 65%",
-        "lay_zebra": "N/A",
-        "over_limite_70": "Sem dados de gols por período no PDF.",
-        "back_2x2": "Over 2.5 média 50% (Henan 50%, Shanghai 50%), Ambas Marcam média 50% (Henan 50%, Shanghai 50%), Over HT média 50% (Henan 50%, Shanghai 50%). Ambos os times sofrem >= 1.2 gols/jogo (Henan 1.50, Shanghai 1.50). Critérios não atendidos.",
-        "back_goleada": "N/A",
-        "lay_1x0": "P(1-0) estimada 15% - precisa < 12%. Visitante Over 0.5 > 65% (Shanghai 63% - não atende).",
-        "lay_0x1": "P(0-1) estimada 15% - precisa < 12%. Visitante marca > 60% (Shanghai 63%). Média de gols total >= 2.5 (2.63). BTTS médio > 50% (50% - não atende). Critérios não atendidos."
-      }
-    },
-    {
-      "horario": "09:00",
-      "jogo": "Chongqing Tongliang Long FC x Tianjin Teda",
-      "liga": "China Chinese Super League",
-      "motivo": "Jogo com baixa média de gols e sem favoritismo claro.",
-      "motivos_por_metodo": {
-        "back_favorito": "prob estimada 55% - precisa >= 65%",
-        "lay_zebra": "N/A",
-        "over_limite_70": "Sem dados de gols por período no PDF.",
-        "back_2x2": "Over 2.5 média 33% (Chongqing 33%, Tianjin 33%), Ambas Marcam média 50% (Chongqing 50%, Tianjin 50%), Over HT média 44% (Chongqing 44%, Tianjin 44%). Ambos os times sofrem >= 1.2 gols/jogo (Chongqing 1.25, Tianjin 1.25). Critérios não atendidos.",
-        "back_goleada": "N/A",
-        "lay_1x0": "P(1-0) estimada 15% - precisa < 12%. Visitante Over 0.5 > 65% (Tianjin 50% - não atende).",
-        "lay_0x1": "P(0-1) estimada 15% - precisa < 12%. Visitante marca > 60% (Tianjin 50% - não atende). Critérios não atendidos."
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Chengdu Better City FC) é 75%, mas a odd mínima de entrada seria 1.53, o que não oferece valor suficiente.",
+        "lay_zebra": "Não se aplica, pois Chengdu Better City FC é o favorito.",
+        "over_limite_70": "Não há dados de gols por período para aplicar o método.",
+        "back_2x2": "Over 2.5 média de 56% e Ambas Marcam média de 63%, mas a defesa de ambos os times não sofre mais de 1.2 gols/jogo (Sichuan Jiuniu sofre 1.38, Chengdu Better City FC sofre 1.31).",
+        "back_goleada": "Probabilidade estimada de vitória do favorito (Chengdu Better City FC) é 75%, mas a média ofensiva é de 1.67 gols/jogo, abaixo do critério de 2.5 gols/jogo.",
+        "lay_1x0": "Média total de gols é 3.26, mas a probabilidade estimada de 1x0 é maior que 12% devido à defesa do Sichuan Jiuniu.",
+        "lay_0x1": "Média total de gols é 3.26, mas a probabilidade estimada de 0x1 é maior que 12% devido à defesa do Chengdu Better City FC."
       }
     },
     {
       "horario": "09:00",
       "jogo": "Beijing Guoan x Wuhan Three Towns",
       "liga": "China Chinese Super League",
-      "motivo": "Jogo com baixa média de gols e sem favoritismo claro.",
+      "motivo": "Jogo com alta probabilidade de gols, mas sem um favorito claro para Back Favorito ou Lay Zebra.",
       "motivos_por_metodo": {
-        "back_favorito": "prob estimada 58% - precisa >= 65%",
-        "lay_zebra": "N/A",
-        "over_limite_70": "Sem dados de gols por período no PDF.",
-        "back_2x2": "Over 2.5 média 50% (Beijing 50%, Wuhan 50%), Ambas Marcam média 75% (Beijing 75%, Wuhan 75%), Over HT média 50% (Beijing 50%, Wuhan 50%). Ambos os times sofrem >= 1.2 gols/jogo (Beijing 1.22, Wuhan 1.22). Critérios atendidos, mas a probabilidade de vitória do favorito é baixa para Back Favorito.",
-        "back_goleada": "prob estimada 58% - precisa >= 70%",
-        "lay_1x0": "P(1-0) estimada 10% - precisa < 12%. Visitante Over 0.5 > 65% (Wuhan 50% - não atende).",
-        "lay_0x1": "P(0-1) estimada 10% - precisa < 12%. Visitante marca > 60% (Wuhan 50% - não atende). Critérios não atendidos."
-      }
-    },
-    {
-      "horario": "11:00",
-      "jogo": "Operário PR x América Mineiro",
-      "liga": "Brazil Serie B",
-      "motivo": "América Mineiro é zebra com odd baixa e Operário PR tem bom desempenho em casa.",
-      "motivos_por_metodo": {
-        "back_favorito": "prob estimada 55% - precisa >= 65%",
-        "lay_zebra": "N/A",
-        "over_limite_70": "Sem dados de gols por período no PDF.",
-        "back_2x2": "Over 2.5 média 50% (Operário 50%, América 50%), Ambas Marcam média 38% (Operário 38%, América 38%), Over HT média 50% (Operário 50%, América 50%). Ambos os times sofrem >= 1.2 gols/jogo (Operário 1.75, América 1.75). Critérios não atendidos.",
-        "back_goleada": "N/A",
-        "lay_1x0": "P(1-0) estimada 15% - precisa < 12%. Visitante Over 0.5 > 65% (América 25% - não atende).",
-        "lay_0x1": "P(0-1) estimada 15% - precisa < 12%. Visitante marca > 60% (América 25% - não atende). Critérios não atendidos."
-      }
-    },
-    {
-      "horario": "16:00",
-      "jogo": "Criciúma x São Bernardo",
-      "liga": "Brazil Serie B",
-      "motivo": "Jogo equilibrado com favoritismo leve para o São Bernardo, mas sem dados suficientes para outros métodos.",
-      "motivos_por_metodo": {
-        "back_favorito": "prob estimada 55% - precisa >= 65%",
-        "lay_zebra": "N/A",
-        "over_limite_70": "Sem dados de gols por período no PDF.",
-        "back_2x2": "Over 2.5 média 57% (Criciúma 57%, São Bernardo 57%), Ambas Marcam média 57% (Criciúma 57%, São Bernardo 57%), Over HT média 71% (Criciúma 71%, São Bernardo 71%). Ambos os times sofrem >= 1.2 gols/jogo (Criciúma 0.86, São Bernardo 0.86). Critérios atendidos, mas a probabilidade de vitória do favorito é baixa para Back Favorito.",
-        "back_goleada": "N/A",
-        "lay_1x0": "P(1-0) estimada 10% - precisa < 12%. Visitante Over 0.5 > 65% (São Bernardo 29% - não atende).",
-        "lay_0x1": "P(0-1) estimada 10% - precisa < 12%. Visitante marca > 60% (São Bernardo 29% - não atende). Critérios não atendidos."
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Beijing Guoan) é 38%, o que não atende ao critério de 65%.",
+        "lay_zebra": "Não se aplica, pois não há zebra clara com odd >= 5.00 e desempenho ruim.",
+        "over_limite_70": "Não há dados de gols por período para aplicar o método.",
+        "back_2x2": "Over 2.5 média de 38% e Ambas Marcam média de 62%, mas a defesa de ambos os times não sofre mais de 1.2 gols/jogo (Beijing Guoan sofre 1.22, Wuhan Three Towns sofre 1.66).",
+        "back_goleada": "Favoritismo insuficiente (probabilidade estimada 38%) e média ofensiva do Beijing Guoan (0.33 gols/jogo) abaixo do critério de 2.5 gols/jogo.",
+        "lay_1x0": "Média total de gols é 3.66, mas a probabilidade estimada de 1x0 é maior que 12% devido à defesa do Beijing Guoan.",
+        "lay_0x1": "Média total de gols é 3.66, mas a probabilidade estimada de 0x1 é maior que 12% devido à defesa do Wuhan Three Towns."
       }
     },
     {
       "horario": "18:00",
       "jogo": "Panamá x Inglaterra",
       "liga": "International World Cup",
-      "motivo": "Favoritismo claro da Inglaterra, mas a probabilidade não atinge o limiar para Back Favorito.",
+      "motivo": "Favoritismo claro da Inglaterra, mas a odd mínima de entrada não oferece valor.",
       "motivos_por_metodo": {
-        "back_favorito": "prob estimada 58% - precisa >= 65%",
-        "lay_zebra": "N/A",
-        "over_limite_70": "Sem dados de gols por período no PDF.",
-        "back_2x2": "Over 2.5 média 30% (Panamá 30%, Inglaterra 30%), Ambas Marcam média 20% (Panamá 20%, Inglaterra 20%), Over HT média 30% (Panamá 30%, Inglaterra 30%). Ambos os times sofrem >= 1.2 gols/jogo (Panamá 0.30, Inglaterra 0.30). Critérios não atendidos.",
-        "back_goleada": "prob estimada 58% - precisa >= 70%",
-        "lay_1x0": "P(1-0) estimada 15% - precisa < 12%. Visitante Over 0.5 > 65% (Inglaterra 40% - não atende).",
-        "lay_0x1": "P(0-1) estimada 15% - precisa < 12%. Visitante marca > 60% (Inglaterra 40% - não atende). Critérios não atendidos."
+        "back_favorito": "Probabilidade estimada de vitória da Inglaterra é 75%, com odd mínima de entrada de 1.53. O critério de odd mínima de entrada não é atendido.",
+        "lay_zebra": "Não se aplica, pois o Panamá não é considerado zebra clara com odd >= 5.00 e desempenho ruim.",
+        "over_limite_70": "Não há dados de gols por período para aplicar o método.",
+        "back_2x2": "Over 2.5 média de 20% e Ambas Marcam média de 20%, o que não atende aos critérios.",
+        "back_goleada": "Favoritismo claro da Inglaterra (75% de probabilidade estimada), mas a média ofensiva é de 1.70 gols/jogo, o que não atende ao critério de 2.5 gols/jogo.",
+        "lay_1x0": "Média total de gols é 2.40, mas a probabilidade estimada de 1x0 é maior que 12% devido à defesa do Panamá.",
+        "lay_0x1": "Média total de gols é 2.40, mas a probabilidade estimada de 0x1 é maior que 12% devido à defesa da Inglaterra."
       }
-    }
-  ],
-  "pdfs": [
-    {
-      "jogo": "Shenyang Urban x Shandong Luneng",
-      "arquivo": "pdfs/2026-06-27/China_Chinese_Super_League/001_08h00_Shenyang_Urban_x_Shandong_Luneng.pdf"
-    },
-    {
-      "jogo": "Sichuan Jiuniu x Chengdu Better City FC",
-      "arquivo": "pdfs/2026-06-27/China_Chinese_Super_League/002_08h35_Sichuan_Jiuniu_x_Chengdu_Better_City_FC.pdf"
-    },
-    {
-      "jogo": "Henan Jianye x Shanghai SIPG",
-      "arquivo": "pdfs/2026-06-27/China_Chinese_Super_League/003_08h35_Henan_Jianye_x_Shanghai_SIPG.pdf"
-    },
-    {
-      "jogo": "Chongqing Tongliang Long FC x Tianjin Teda",
-      "arquivo": "pdfs/2026-06-27/China_Chinese_Super_League/004_09h00_Chongqing_Tongliang_Long_FC_x_Tianjin_Teda.pdf"
-    },
-    {
-      "jogo": "Beijing Guoan x Wuhan Three Towns",
-      "arquivo": "pdfs/2026-06-27/China_Chinese_Super_League/005_09h00_Beijing_Guoan_x_Wuhan_Three_Towns.pdf"
-    },
-    {
-      "jogo": "Operário PR x América Mineiro",
-      "arquivo": "pdfs/2026-06-27/Brazil_Serie_B/006_11h00_Operário_PR_x_América_Mineiro.pdf"
-    },
-    {
-      "jogo": "Criciúma x São Bernardo",
-      "arquivo": "pdfs/2026-06-27/Brazil_Serie_B/007_16h00_Criciúma_x_São_Bernardo.pdf"
-    },
-    {
-      "jogo": "Egipto x Irão",
-      "arquivo": "pdfs/2026-06-27/International_World_Cup/008_00h00_Egipto_x_Irão.pdf"
-    },
-    {
-      "jogo": "Nova Zelândia x Bélgica",
-      "arquivo": "pdfs/2026-06-27/International_World_Cup/009_00h00_Nova_Zelândia_x_Bélgica.pdf"
-    },
-    {
-      "jogo": "Panamá x Inglaterra",
-      "arquivo": "pdfs/2026-06-27/International_World_Cup/010_18h00_Panamá_x_Inglaterra.pdf"
-    },
-    {
-      "jogo": "Croácia x Gana",
-      "arquivo": "pdfs/2026-06-27/International_World_Cup/011_18h00_Croácia_x_Gana.pdf"
-    },
-    {
-      "jogo": "RD Congo x Uzbequistão",
-      "arquivo": "pdfs/2026-06-27/International_World_Cup/012_20h30_RD_Congo_x_Uzbequistão.pdf"
-    },
-    {
-      "jogo": "Colômbia x Portugal",
-      "arquivo": "pdfs/2026-06-27/International_World_Cup/013_20h30_Colômbia_x_Portugal.pdf"
-    },
-    {
-      "jogo": "Argélia x Áustria",
-      "arquivo": "pdfs/2026-06-27/International_World_Cup/014_23h00_Argélia_x_Áustria.pdf"
-    },
-    {
-      "jogo": "Jordânia x Argentina",
-      "arquivo": "pdfs/2026-06-27/International_World_Cup/015_23h00_Jordânia_x_Argentina.pdf"
     }
   ]
 }
