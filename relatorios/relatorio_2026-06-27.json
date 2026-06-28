@@ -1,7 +1,7 @@
 {
   "data": "2026-06-27",
   "dia_consultado": "ontem",
-  "gerado_em": "2026-06-28T10:31:59.548098",
+  "gerado_em": "2026-06-28T11:03:53.014305",
   "total_partidas_analisadas": 15,
   "entradas": [],
   "evitar": [
@@ -9,150 +9,150 @@
       "horario": "00:00",
       "jogo": "Egipto x Irão",
       "liga": "International World Cup",
-      "motivo": "Jogo com média de gols baixa e ambos os times com dificuldade ofensiva, o que pode levar a um placar apertado.",
+      "motivo": "Jogo de seleções com histórico limitado e dados insuficientes para aplicar métodos.",
       "motivos_por_metodo": {
-        "back_favorito": "NÃO aplicavel",
-        "lay_zebra": "NÃO aplicavel",
-        "over_limite_70": "NÃO aplicavel",
-        "back_2x2": "NÃO aplicavel",
-        "back_goleada": "NÃO aplicavel",
-        "lay_1x0": "aplicavel",
-        "lay_0x1": "aplicavel"
+        "back_favorito": "prob estimada 50% - precisa >= 65%",
+        "lay_zebra": "N/A",
+        "over_limite_70": "Sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 40% (Egipto 40%, Irão 40%), Ambas Marcam média 40% (Egipto 40%, Irão 40%), Over HT média 40% (Egipto 40%, Irão 40%). Ambos os times sofrem >= 1.2 gols/jogo (Egipto 0.40, Irão 0.40). Critérios não atendidos.",
+        "back_goleada": "N/A",
+        "lay_1x0": "P(1-0) estimada 15% - precisa < 12%. Visitante Over 0.5 > 65% (Irão 30% - não atende).",
+        "lay_0x1": "P(0-1) estimada 15% - precisa < 12%. Visitante marca > 60% (Irão 30% - não atende). Critérios não atendidos."
       }
     },
     {
       "horario": "00:00",
       "jogo": "Nova Zelândia x Bélgica",
       "liga": "International World Cup",
-      "motivo": "Favoritismo claro da Bélgica com alto potencial ofensivo contra uma Nova Zelândia com defesa frágil.",
+      "motivo": "Favoritismo claro da Bélgica, mas a probabilidade não atinge o limiar para Back Favorito.",
       "motivos_por_metodo": {
-        "back_favorito": "aplicavel",
-        "lay_zebra": "NÃO aplicavel",
-        "over_limite_70": "NÃO aplicavel",
-        "back_2x2": "NÃO aplicavel",
-        "back_goleada": "aplicavel",
-        "lay_1x0": "NÃO aplicavel",
-        "lay_0x1": "NÃO aplicavel"
+        "back_favorito": "prob estimada 55% - precisa >= 65%",
+        "lay_zebra": "N/A",
+        "over_limite_70": "Sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 50% (Nova Zelândia 50%, Bélgica 50%), Ambas Marcam média 60% (Nova Zelândia 60%, Bélgica 60%), Over HT média 50% (Nova Zelândia 50%, Bélgica 50%). Ambos os times sofrem >= 1.2 gols/jogo (Nova Zelândia 0.80, Bélgica 0.80). Critérios atendidos, mas a probabilidade de vitória do favorito é baixa para Back Favorito.",
+        "back_goleada": "prob estimada 55% - precisa >= 70%",
+        "lay_1x0": "P(1-0) estimada 10% - precisa < 12%. Visitante Over 0.5 > 65% (Bélgica 40% - não atende).",
+        "lay_0x1": "P(0-1) estimada 10% - precisa < 12%. Visitante marca > 60% (Bélgica 40% - não atende). Critérios não atendidos."
       }
     },
     {
       "horario": "08:00",
       "jogo": "Shenyang Urban x Shandong Luneng",
       "liga": "China Chinese Super League",
-      "motivo": "Favoritismo extremo do visitante com alto potencial ofensivo e defesa frágil do mandante.",
+      "motivo": "Favoritismo claro do Shandong Luneng, mas sem dados suficientes para outros métodos.",
       "motivos_por_metodo": {
-        "back_favorito": "aplicavel",
-        "lay_zebra": "NÃO aplicavel",
-        "over_limite_70": "NÃO aplicavel",
-        "back_2x2": "NÃO aplicavel",
-        "back_goleada": "aplicavel",
-        "lay_1x0": "NÃO aplicavel",
-        "lay_0x1": "NÃO aplicavel"
+        "back_favorito": "prob estimada 58% - precisa >= 65%",
+        "lay_zebra": "N/A",
+        "over_limite_70": "Sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 75% (Shenyang 75%, Shandong 75%), Ambas Marcam média 63% (Shenyang 63%, Shandong 63%), Over HT média 75% (Shenyang 75%, Shandong 75%). Ambos os times sofrem >= 1.2 gols/jogo (Shenyang 1.53, Shandong 1.33). Critérios atendidos, mas a probabilidade de vitória do favorito é baixa para Back Favorito.",
+        "back_goleada": "prob estimada 58% - precisa >= 70%",
+        "lay_1x0": "P(1-0) estimada 10% - precisa < 12%. Visitante Over 0.5 > 65% (Shandong 75%), Visitante marca > 60% (Shandong 75%), Média de gols total >= 2.5 (3.50), BTTS médio > 50% (63%). Critérios atendidos, mas a probabilidade de vitória do favorito é baixa para Back Favorito.",
+        "lay_0x1": "N/A"
       }
     },
     {
       "horario": "08:35",
       "jogo": "Sichuan Jiuniu x Chengdu Better City FC",
       "liga": "China Chinese Super League",
-      "motivo": "Jogo com alto potencial de gols e ambas marcam, com ambos os times apresentando bons índices.",
+      "motivo": "Chengdu Better City FC é favorito claro, mas a probabilidade não atinge o limiar para Back Favorito.",
       "motivos_por_metodo": {
-        "back_favorito": "NÃO aplicavel",
-        "lay_zebra": "NÃO aplicavel",
-        "over_limite_70": "NÃO aplicavel",
-        "back_2x2": "aplicavel",
-        "back_goleada": "NÃO aplicavel",
-        "lay_1x0": "NÃO aplicavel",
-        "lay_0x1": "NÃO aplicavel"
+        "back_favorito": "prob estimada 56% - precisa >= 65%",
+        "lay_zebra": "N/A",
+        "over_limite_70": "Sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 63% (Sichuan 63%, Chengdu 63%), Ambas Marcam média 67% (Sichuan 67%, Chengdu 67%), Over HT média 78% (Sichuan 78%, Chengdu 78%). Ambos os times sofrem >= 1.2 gols/jogo (Sichuan 1.38, Chengdu 1.31). Critérios atendidos, mas a probabilidade de vitória do favorito é baixa para Back Favorito.",
+        "back_goleada": "prob estimada 56% - precisa >= 70%",
+        "lay_1x0": "P(1-0) estimada 10% - precisa < 12%. Visitante Over 0.5 > 65% (Chengdu 63% - não atende), Visitante marca > 60% (Chengdu 63%), Média de gols total >= 2.5 (3.26), BTTS médio > 50% (67%). Critério Visitante Over 0.5 não atendido.",
+        "lay_0x1": "N/A"
       }
     },
     {
       "horario": "08:35",
       "jogo": "Henan Jianye x Shanghai SIPG",
       "liga": "China Chinese Super League",
-      "motivo": "Jogo com média de gols baixa e ambos os times com dificuldade ofensiva, o que pode levar a um placar apertado.",
+      "motivo": "Jogo equilibrado com baixa média de gols e sem favoritismo claro.",
       "motivos_por_metodo": {
-        "back_favorito": "NÃO aplicavel",
-        "lay_zebra": "NÃO aplicavel",
-        "over_limite_70": "NÃO aplicavel",
-        "back_2x2": "NÃO aplicavel",
-        "back_goleada": "NÃO aplicavel",
-        "lay_1x0": "aplicavel",
-        "lay_0x1": "aplicavel"
+        "back_favorito": "prob estimada 45% - precisa >= 65%",
+        "lay_zebra": "N/A",
+        "over_limite_70": "Sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 50% (Henan 50%, Shanghai 50%), Ambas Marcam média 50% (Henan 50%, Shanghai 50%), Over HT média 50% (Henan 50%, Shanghai 50%). Ambos os times sofrem >= 1.2 gols/jogo (Henan 1.50, Shanghai 1.50). Critérios não atendidos.",
+        "back_goleada": "N/A",
+        "lay_1x0": "P(1-0) estimada 15% - precisa < 12%. Visitante Over 0.5 > 65% (Shanghai 63% - não atende).",
+        "lay_0x1": "P(0-1) estimada 15% - precisa < 12%. Visitante marca > 60% (Shanghai 63%). Média de gols total >= 2.5 (2.63). BTTS médio > 50% (50% - não atende). Critérios não atendidos."
       }
     },
     {
       "horario": "09:00",
       "jogo": "Chongqing Tongliang Long FC x Tianjin Teda",
       "liga": "China Chinese Super League",
-      "motivo": "Jogo com média de gols baixa e ambos os times com dificuldade ofensiva, o que pode levar a um placar apertado.",
+      "motivo": "Jogo com baixa média de gols e sem favoritismo claro.",
       "motivos_por_metodo": {
-        "back_favorito": "NÃO aplicavel",
-        "lay_zebra": "NÃO aplicavel",
-        "over_limite_70": "NÃO aplicavel",
-        "back_2x2": "NÃO aplicavel",
-        "back_goleada": "NÃO aplicavel",
-        "lay_1x0": "aplicavel",
-        "lay_0x1": "aplicavel"
+        "back_favorito": "prob estimada 55% - precisa >= 65%",
+        "lay_zebra": "N/A",
+        "over_limite_70": "Sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 33% (Chongqing 33%, Tianjin 33%), Ambas Marcam média 50% (Chongqing 50%, Tianjin 50%), Over HT média 44% (Chongqing 44%, Tianjin 44%). Ambos os times sofrem >= 1.2 gols/jogo (Chongqing 1.25, Tianjin 1.25). Critérios não atendidos.",
+        "back_goleada": "N/A",
+        "lay_1x0": "P(1-0) estimada 15% - precisa < 12%. Visitante Over 0.5 > 65% (Tianjin 50% - não atende).",
+        "lay_0x1": "P(0-1) estimada 15% - precisa < 12%. Visitante marca > 60% (Tianjin 50% - não atende). Critérios não atendidos."
       }
     },
     {
       "horario": "09:00",
       "jogo": "Beijing Guoan x Wuhan Three Towns",
       "liga": "China Chinese Super League",
-      "motivo": "Jogo com média de gols alta e ambas marcam frequente, com ambos os times apresentando bons índices.",
+      "motivo": "Jogo com baixa média de gols e sem favoritismo claro.",
       "motivos_por_metodo": {
-        "back_favorito": "NÃO aplicavel",
-        "lay_zebra": "NÃO aplicavel",
-        "over_limite_70": "NÃO aplicavel",
-        "back_2x2": "aplicavel",
-        "back_goleada": "NÃO aplicavel",
-        "lay_1x0": "NÃO aplicavel",
-        "lay_0x1": "NÃO aplicavel"
+        "back_favorito": "prob estimada 58% - precisa >= 65%",
+        "lay_zebra": "N/A",
+        "over_limite_70": "Sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 50% (Beijing 50%, Wuhan 50%), Ambas Marcam média 75% (Beijing 75%, Wuhan 75%), Over HT média 50% (Beijing 50%, Wuhan 50%). Ambos os times sofrem >= 1.2 gols/jogo (Beijing 1.22, Wuhan 1.22). Critérios atendidos, mas a probabilidade de vitória do favorito é baixa para Back Favorito.",
+        "back_goleada": "prob estimada 58% - precisa >= 70%",
+        "lay_1x0": "P(1-0) estimada 10% - precisa < 12%. Visitante Over 0.5 > 65% (Wuhan 50% - não atende).",
+        "lay_0x1": "P(0-1) estimada 10% - precisa < 12%. Visitante marca > 60% (Wuhan 50% - não atende). Critérios não atendidos."
       }
     },
     {
       "horario": "11:00",
       "jogo": "Operário PR x América Mineiro",
       "liga": "Brazil Serie B",
-      "motivo": "América Mineiro em má fase, com baixo aproveitamento e dificuldade ofensiva, contra um Operário PR com desempenho razoável em casa.",
+      "motivo": "América Mineiro é zebra com odd baixa e Operário PR tem bom desempenho em casa.",
       "motivos_por_metodo": {
-        "back_favorito": "aplicavel",
-        "lay_zebra": "NÃO aplicavel",
-        "over_limite_70": "NÃO aplicavel",
-        "back_2x2": "NÃO aplicavel",
-        "back_goleada": "NÃO aplicavel",
-        "lay_1x0": "aplicavel",
-        "lay_0x1": "aplicavel"
+        "back_favorito": "prob estimada 55% - precisa >= 65%",
+        "lay_zebra": "N/A",
+        "over_limite_70": "Sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 50% (Operário 50%, América 50%), Ambas Marcam média 38% (Operário 38%, América 38%), Over HT média 50% (Operário 50%, América 50%). Ambos os times sofrem >= 1.2 gols/jogo (Operário 1.75, América 1.75). Critérios não atendidos.",
+        "back_goleada": "N/A",
+        "lay_1x0": "P(1-0) estimada 15% - precisa < 12%. Visitante Over 0.5 > 65% (América 25% - não atende).",
+        "lay_0x1": "P(0-1) estimada 15% - precisa < 12%. Visitante marca > 60% (América 25% - não atende). Critérios não atendidos."
       }
     },
     {
       "horario": "16:00",
       "jogo": "Criciúma x São Bernardo",
       "liga": "Brazil Serie B",
-      "motivo": "Criciúma em boa fase ofensiva e defensiva em casa, contra um São Bernardo com desempenho fora de casa inconsistente.",
+      "motivo": "Jogo equilibrado com favoritismo leve para o São Bernardo, mas sem dados suficientes para outros métodos.",
       "motivos_por_metodo": {
-        "back_favorito": "aplicavel",
-        "lay_zebra": "NÃO aplicavel",
-        "over_limite_70": "NÃO aplicavel",
-        "back_2x2": "NÃO aplicavel",
-        "back_goleada": "NÃO aplicavel",
-        "lay_1x0": "NÃO aplicavel",
-        "lay_0x1": "NÃO aplicavel"
+        "back_favorito": "prob estimada 55% - precisa >= 65%",
+        "lay_zebra": "N/A",
+        "over_limite_70": "Sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 57% (Criciúma 57%, São Bernardo 57%), Ambas Marcam média 57% (Criciúma 57%, São Bernardo 57%), Over HT média 71% (Criciúma 71%, São Bernardo 71%). Ambos os times sofrem >= 1.2 gols/jogo (Criciúma 0.86, São Bernardo 0.86). Critérios atendidos, mas a probabilidade de vitória do favorito é baixa para Back Favorito.",
+        "back_goleada": "N/A",
+        "lay_1x0": "P(1-0) estimada 10% - precisa < 12%. Visitante Over 0.5 > 65% (São Bernardo 29% - não atende).",
+        "lay_0x1": "P(0-1) estimada 10% - precisa < 12%. Visitante marca > 60% (São Bernardo 29% - não atende). Critérios não atendidos."
       }
     },
     {
       "horario": "18:00",
       "jogo": "Panamá x Inglaterra",
       "liga": "International World Cup",
-      "motivo": "Favoritismo extremo da Inglaterra com alto potencial ofensivo e defesa frágil do Panamá.",
+      "motivo": "Favoritismo claro da Inglaterra, mas a probabilidade não atinge o limiar para Back Favorito.",
       "motivos_por_metodo": {
-        "back_favorito": "aplicavel",
-        "lay_zebra": "NÃO aplicavel",
-        "over_limite_70": "NÃO aplicavel",
-        "back_2x2": "NÃO aplicavel",
-        "back_goleada": "aplicavel",
-        "lay_1x0": "NÃO aplicavel",
-        "lay_0x1": "NÃO aplicavel"
+        "back_favorito": "prob estimada 58% - precisa >= 65%",
+        "lay_zebra": "N/A",
+        "over_limite_70": "Sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 30% (Panamá 30%, Inglaterra 30%), Ambas Marcam média 20% (Panamá 20%, Inglaterra 20%), Over HT média 30% (Panamá 30%, Inglaterra 30%). Ambos os times sofrem >= 1.2 gols/jogo (Panamá 0.30, Inglaterra 0.30). Critérios não atendidos.",
+        "back_goleada": "prob estimada 58% - precisa >= 70%",
+        "lay_1x0": "P(1-0) estimada 15% - precisa < 12%. Visitante Over 0.5 > 65% (Inglaterra 40% - não atende).",
+        "lay_0x1": "P(0-1) estimada 15% - precisa < 12%. Visitante marca > 60% (Inglaterra 40% - não atende). Critérios não atendidos."
       }
     }
   ],
