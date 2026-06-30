@@ -1,0 +1,408 @@
+{
+  "data": "2026-06-30",
+  "dia_consultado": "hoje",
+  "gerado_em": "2026-06-30T06:25:18.675842",
+  "total_partidas_analisadas": 4,
+  "entradas": [
+    {
+      "horario": "14:00",
+      "liga": "International World Cup",
+      "jogo": "Costa do Marfim x Noruega",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2"
+      ],
+      "mercado_principal": "Over Limite (+1 gol)",
+      "probabilidade_estimada": "70% (probabilidade de Over 2.5 gols)",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.60",
+      "media_gols_casa": "2.20",
+      "media_gols_fora": "0.90",
+      "explicacao_curta": "Costa do Marfim tem alta produção ofensiva no 2º tempo (60% dos gols marcados) e Noruega sofre 22% dos gols entre 61-75min, indicando potencial para gols tardios.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "A Costa do Marfim tem forte tendência a marcar gols no segundo tempo, e a Noruega sofre gols nesse período, o que favorece o over limite.",
+      "mercado_secundario": "Back 2x2",
+      "odd_minima_secundaria": "12.00",
+      "desempenho_1t": "Costa do Marfim marca 40% no 1T, Noruega sofre 22% no 1T",
+      "desempenho_2t": "Costa do Marfim marca 60% no 2T, Noruega sofre 22% no 2T",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Ambas as seleções estão em fase de grupos da Copa do Mundo, com alta motivação para buscar a vitória e avançar. A Costa do Marfim demonstra força ofensiva no segundo tempo, enquanto a Noruega tem uma janela de sofrimento nesse período.",
+      "coeficiente_regularidade": "Costa do Marfim: CV alto (2.20 gols marcados / 1.40 gols sofridos). Noruega: CV moderado (0.90 gols marcados / 2.90 gols sofridos).",
+      "mando_de_campo": "Costa do Marfim tem 70% de vitórias.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Costa do Marfim tem forte produção ofensiva no 2º tempo (60% dos gols marcados). Noruega tem produção mais equilibrada, mas sofre muitos gols no 2º tempo (22% entre 61-75min).",
+      "momento_gols": "Costa do Marfim Marcado 61-75: 15%, 76-90: 30%. Noruega Sofrido 61-75: 11%, 76-90: 11%.",
+      "jogadores_chave": null,
+      "placares_provaveis": "2x1, 3x1, 2x2",
+      "momento_entrada": "ao_vivo",
+      "situacao_saida": "Cash-out se 0-0, 1-1 ou após 60min sem gol.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Potencial de gols no segundo tempo, com a Costa do Marfim marcando e a Noruega sofrendo.",
+        "gatilho_saida_parcial": "Placar 1-1",
+        "hard_stop": "Após 60min sem gol"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "Favorito Marcado 61-75 >= 25%",
+          "Favorito Marcado 76-90 >= 25%",
+          "Adversário Sofrido 61-75 >= 25%",
+          "Adversário Sofrido 76-90 >= 25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Costa do Marfim - brigando pela classificação",
+        "indices_gols_faixas": "Costa do Marfim Marcado 61-75: 15% | 76-90: 30% | Noruega Sofrido 61-75: 11% | 76-90: 11%",
+        "qual_condicao_atende": "Favorito Marcado 76-90: 30% (atende condição b)",
+        "motivo_motivacao": "Jogo de Copa do Mundo, ambas equipes buscam a vitória para avançar.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "indice_over_2_5_>=_60%",
+          "indice_ambas_marcam_>=_60%",
+          "defesa_>=_1.2_gols/jogo"
+        ],
+        "criterios_total": 3,
+        "razao": "Ambos os times têm alto índice de Over 2.5 (71% Costa do Marfim, 30% Noruega - média 50.5%, mas Noruega tem 60% de Over 1.5) e BTTS (90% Costa do Marfim, 54% Noruega - média 72%). Defesa da Noruega sofre 2.9 gols/jogo.",
+        "indice_over_2_5": "Costa do Marfim: 71%, Noruega: 30% (Média: 50.5%)",
+        "indice_ambas_marcam": "Costa do Marfim: 90%, Noruega: 54% (Média: 72%)",
+        "indice_over_ht": "Costa do Marfim: 80%, Noruega: 40% (Média: 60%)",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "18:00",
+      "liga": "International World Cup",
+      "jogo": "França x Suécia",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Back Favorito",
+      "probabilidade_estimada": "75% (probabilidade de vitória da França)",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.50",
+      "media_gols_casa": "1.80",
+      "media_gols_fora": "1.00",
+      "explicacao_curta": "França é favorita com 80% de vitórias e forte ataque (1.80 gols/jogo), contra Suécia com defesa frágil (1.00 gols/jogo).",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Favoritismo claro da França, com bom retrospecto ofensivo e enfrentando uma Suécia com defesa vulnerável.",
+      "mercado_secundario": "Over Limite (+1 gol)",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": "França marca 30% no 1T, Suécia sofre 10% no 1T",
+      "desempenho_2t": "França marca 70% no 2T, Suécia sofre 40% no 2T",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Ambas as seleções buscam a vitória para avançar na Copa do Mundo. A França demonstra um favoritismo claro com seu histórico e poder ofensivo, enquanto a Suécia tem uma defesa que sofre gols com frequência.",
+      "coeficiente_regularidade": "França: CV alto (1.80 gols marcados / 1.00 gols sofridos). Suécia: CV moderado (1.00 gols marcados / 2.10 gols sofridos).",
+      "mando_de_campo": "França tem 80% de vitórias.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "França tem forte produção ofensiva no 2º tempo (70% dos gols marcados). Suécia sofre muitos gols no 2º tempo (40%).",
+      "momento_gols": "França Marcado 61-75: 21%, 76-90: 21%. Suécia Sofrido 61-75: 20%, 76-90: 40%.",
+      "jogadores_chave": null,
+      "placares_provaveis": "2x1, 3x1, 2x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-0, 1-1 ou após 60min sem gol.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro da França, com bom retrospecto ofensivo e enfrentando uma Suécia com defesa vulnerável.",
+        "gatilho_saida_parcial": "Placar 1-1",
+        "hard_stop": "Após 60min sem gol"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "França",
+        "odd_alvo": "1.45",
+        "razao": "França é favorita clara com 80% de vitórias e forte poder ofensivo, contra uma Suécia com defesa que sofre 2.1 gols por jogo.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "Favorito Marcado 61-75 >= 25%",
+          "Favorito Marcado 76-90 >= 25%",
+          "Adversário Sofrido 61-75 >= 25%",
+          "Adversário Sofrido 76-90 >= 25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "França - brigando pela classificação",
+        "indices_gols_faixas": "França Marcado 61-75: 21% | 76-90: 21% | Suécia Sofrido 61-75: 20% | 76-90: 40%",
+        "qual_condicao_atende": "Adversário Sofrido 76-90: 40% (atende condição d)",
+        "motivo_motivacao": "Jogo de Copa do Mundo, ambas equipes buscam a vitória para avançar.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "20:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Botafogo SP x CRB",
+      "metodos_aplicados": [
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "10% (P(1-0) estimada)",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "12.00",
+      "media_gols_casa": "1.57",
+      "media_gols_fora": "1.17",
+      "explicacao_curta": "Jogo com média de gols alta (3.43) e BTTS frequente (86%), indicando dificuldade para placares exatos e apertados como 1x0 ou 0x1.",
+      "alerta_geral": null,
+      "valor_esperado": "A média de gols total (3.43) e o BTTS (86%) sugerem que placares exatos de 1x0 ou 0x1 são improváveis, justificando o lay.",
+      "mercado_secundario": "Lay 0x1",
+      "odd_minima_secundaria": "11.00",
+      "desempenho_1t": "Botafogo SP marca 40% no 1T, CRB sofre 29% no 1T",
+      "desempenho_2t": "Botafogo SP sofre 29% no 2T, CRB marca 45% no 2T",
+      "contexto_times": {
+        "casa": {
+          "posicao": "15º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "16º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times estão na parte intermediária da tabela, sem grande motivação para título ou rebaixamento. O foco é manter a posição. A média de gols e o BTTS indicam um jogo com potencial para gols, tornando placares exatos de 1x0 ou 0x1 menos prováveis.",
+      "coeficiente_regularidade": "Botafogo SP: CV moderado (1.57 gols marcados / 1.86 gols sofridos). CRB: CV moderado (1.17 gols marcados / 2.84 gols sofridos).",
+      "mando_de_campo": "Botafogo SP tem 16 pontos em 14 jogos como mandante.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Botafogo SP tem boa produção ofensiva no 1º tempo (40% dos gols marcados), mas sofre bastante no 2º tempo (29% dos gols sofridos). CRB tem produção mais distribuída, mas sofre muitos gols no 2º tempo (45%).",
+      "momento_gols": "Botafogo SP: 31-45 (40% marcados), 46-60 (20% marcados). CRB: 16-30 (14% sofridos), 46-60 (29% sofridos).",
+      "jogadores_chave": null,
+      "placares_provaveis": "2x1, 1x1, 2x2",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com potencial de gols e BTTS, onde placares exatos de 1x0 ou 0x1 são menos prováveis.",
+        "gatilho_saida_parcial": "Placar 1-1",
+        "hard_stop": "Após 60min sem gol"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "P(1-0)_<_12%",
+          "visit_over_0.5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "86%",
+        "visitante_marca_pct": "83%",
+        "media_gols_total": "3.43",
+        "btts_medio": "86%",
+        "razao": "O jogo tem alta probabilidade de gols e ambas marcam, tornando o placar exato 1x0 improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "P(0-1)_<_12%",
+          "mand_over_0.5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "100%",
+        "mandante_marca_pct": "86%",
+        "media_gols_total": "3.43",
+        "btts_medio": "86%",
+        "razao": "O jogo tem alta probabilidade de gols e ambas marcam, tornando o placar exato 0x1 improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "22:00",
+      "liga": "International World Cup",
+      "jogo": "México x Equador",
+      "metodos_aplicados": [
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "10% (P(1-0) estimada)",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "12.00",
+      "media_gols_casa": "1.20",
+      "media_gols_fora": "0.20",
+      "explicacao_curta": "Jogo com baixa média de gols (1.80) e México com forte defesa (0.60 gols sofridos), tornando placares exatos de 1x0 ou 0x1 mais prováveis.",
+      "alerta_geral": null,
+      "valor_esperado": "A baixa média de gols e a solidez defensiva do México tornam os placares exatos de 1x0 e 0x1 mais prováveis, o que é desfavorável para o lay.",
+      "mercado_secundario": "Lay 0x1",
+      "odd_minima_secundaria": "11.00",
+      "desempenho_1t": "México marca 20% no 1T, Equador sofre 50% no 1T",
+      "desempenho_2t": "México marca 80% no 2T, Equador sofre 50% no 2T",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Ambas as seleções buscam a vitória para avançar na Copa do Mundo. O México demonstra uma defesa muito sólida, enquanto o Equador tem um ataque com pouca produção. Isso sugere um jogo com poucos gols, onde placares exatos de 1x0 ou 0x1 podem ser mais prováveis.",
+      "coeficiente_regularidade": "México: CV baixo (1.20 gols marcados / 0.60 gols sofridos). Equador: CV muito baixo (0.20 gols marcados / 2.20 gols sofridos).",
+      "mando_de_campo": "México tem 80% de vitórias.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "México tem forte produção ofensiva no 2º tempo (80% dos gols marcados). Equador tem pouquíssima produção ofensiva em ambos os tempos.",
+      "momento_gols": "México Marcado 46-60: 25%, 76-90: 15%. Equador Sofrido 16-30: 50%, 46-60: 50%.",
+      "jogadores_chave": null,
+      "placares_provaveis": "1x0, 0x1, 1x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 1-0, 0-1 ou após 60min sem gol.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com baixa média de gols e defesa sólida do México, tornando placares exatos de 1x0 ou 0x1 mais prováveis.",
+        "gatilho_saida_parcial": "Placar 1-1",
+        "hard_stop": "Após 60min sem gol"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "P(1-0)_<_12%",
+          "visit_over_0.5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "60%",
+        "visitante_marca_pct": "20%",
+        "media_gols_total": "1.80",
+        "btts_medio": "35%",
+        "razao": "O jogo tem baixa média de gols e o Equador tem dificuldade em marcar, o que aumenta a probabilidade de um placar exato de 1x0 para o México.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "P(0-1)_<_12%",
+          "mand_over_0.5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "90%",
+        "mandante_marca_pct": "80%",
+        "media_gols_total": "1.80",
+        "btts_medio": "35%",
+        "razao": "O jogo tem baixa média de gols e o México tem dificuldade em não marcar, o que aumenta a probabilidade de um placar exato de 0x1 para o Equador.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    }
+  ],
+  "evitar": [],
+  "pdfs": [
+    {
+      "jogo": "Botafogo SP x CRB",
+      "arquivo": "pdfs/2026-06-30/Brazil_Serie_B/001_20h00_Botafogo_SP_x_CRB.pdf"
+    },
+    {
+      "jogo": "Costa do Marfim x Noruega",
+      "arquivo": "pdfs/2026-06-30/International_World_Cup/002_14h00_Costa_do_Marfim_x_Noruega.pdf"
+    },
+    {
+      "jogo": "França x Suécia",
+      "arquivo": "pdfs/2026-06-30/International_World_Cup/003_18h00_França_x_Suécia.pdf"
+    },
+    {
+      "jogo": "México x Equador",
+      "arquivo": "pdfs/2026-06-30/International_World_Cup/004_22h00_México_x_Equador.pdf"
+    }
+  ]
+}
