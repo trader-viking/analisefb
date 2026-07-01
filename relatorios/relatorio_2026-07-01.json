@@ -1,7 +1,7 @@
 {
   "data": "2026-07-01",
-  "dia_consultado": "amanha",
-  "gerado_em": "2026-06-30T16:43:53.587437",
+  "dia_consultado": "hoje",
+  "gerado_em": "2026-07-01T06:15:19.433679",
   "total_partidas_analisadas": 3,
   "entradas": [
     {
@@ -17,39 +17,39 @@
       "fair_odd": "1.18",
       "odd_minima_entrada": "1.32",
       "media_gols_casa": "2.30",
-      "media_gols_fora": "0.50",
-      "explicacao_curta": "Inglaterra favorita com forte retrospecto em casa e RD Congo com ataque fraco fora. Jogo com potencial para gols no final.",
+      "media_gols_fora": "0.80",
+      "explicacao_curta": "Inglaterra favorita com 70% de aproveitamento em casa e RD Congo com apenas 50% de vitórias. Favoritismo claro.",
       "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
       "valor_esperado": "Probabilidade estimada de 85% para a vitória da Inglaterra, com fair odd de 1.18. A odd mínima de entrada é 1.32.",
-      "mercado_secundario": "Mais 1.5 gols (2º Tempo)",
+      "mercado_secundario": "Mais 1.5 gols",
       "odd_minima_secundaria": "1.60",
-      "desempenho_1t": "Inglaterra marca 1.20 no 1ºT",
-      "desempenho_2t": "RD Congo sofre 0.50 no 2ºT",
+      "desempenho_1t": "Inglaterra marca 0.80 no 1ºT, RD Congo sofre 0.50 no 1ºT",
+      "desempenho_2t": "Inglaterra marca 1.50 no 2ºT, RD Congo sofre 0.30 no 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": null,
+          "posicao": "1",
           "objetivo": "titulo"
         },
         "fora": {
-          "posicao": null,
+          "posicao": "4",
           "objetivo": "sem_objetivo"
         }
       },
-      "motivacao_tecnica": "Inglaterra demonstra forte poder ofensivo em casa, com média de 2.30 gols por jogo. RD Congo apresenta um ataque muito limitado fora de casa, com média de apenas 0.50 gols. A Inglaterra também tem um bom desempenho no segundo tempo, com 70% de seus gols marcados nessa etapa, o que sugere um potencial para mais gols no final da partida.",
-      "coeficiente_regularidade": "Inglaterra: CV baixo | RD Congo: CV alto",
+      "motivacao_tecnica": "Inglaterra é favorita clara, com 70% de aproveitamento em casa e RD Congo com apenas 50% de vitórias fora. A Inglaterra também tem um ataque mais prolífico.",
+      "coeficiente_regularidade": "Inglaterra: CV baixo / RD Congo: CV moderado",
       "mando_de_campo": "Inglaterra faz 70% dos pontos em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Inglaterra marca com frequência no segundo tempo.",
-      "momento_gols": "Inglaterra marca 20% dos gols entre 61-75 e 30% entre 76-90. RD Congo sofre 25% dos gols entre 76-90.",
+      "especificidades_gols": "Inglaterra tem bom ataque no 2º tempo, RD Congo sofre mais gols no 1º tempo.",
+      "momento_gols": "Inglaterra marca mais entre 61-75 e 76-90. RD Congo sofre mais entre 31-45.",
       "jogadores_chave": null,
-      "placares_provaveis": "2x0, 3x0, 3x1",
-      "momento_entrada": "Pré-jogo",
+      "placares_provaveis": "2x0, 3x1",
+      "momento_entrada": "pre_jogo",
       "situacao_saida": null,
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro e dados estatísticos robustos.",
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
@@ -65,34 +65,52 @@
         "modo": "pre_jogo",
         "favorito": "Inglaterra",
         "odd_alvo": "1.32",
-        "razao": "Inglaterra é clara favorita jogando em casa contra um adversário com baixo aproveitamento ofensivo fora.",
+        "razao": "Inglaterra é favorita clara com 70% de aproveitamento em casa e RD Congo com apenas 50% de vitórias fora.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3
+      },
       "over_limite_70": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "favorito_marcado_61_75_>=_25%",
-          "favorito_marcado_76_90_>=_25%",
-          "adversario_sofrido_76_90_>=_25%"
+          "favorito_marcado_61-75_>=_25%"
         ],
         "criterios_total": 4,
         "modo": "ao_vivo",
-        "favorito_ou_motivacao": "Inglaterra - Jogo de Copa do Mundo, alta motivação.",
-        "indices_gols_faixas": "Inglaterra Marcado 61-75: 20% | Inglaterra Marcado 76-90: 30% | RD Congo Sofrido 61-75: 0% | RD Congo Sofrido 76-90: 25%",
-        "qual_condicao_atende": "Inglaterra Marcado 76-90 (30%) e RD Congo Sofrido 76-90 (25%)",
-        "motivo_motivacao": "Jogo de Copa do Mundo, ambas as equipes buscam avançar.",
+        "favorito_ou_motivacao": "Inglaterra - brigando pela liderança do grupo",
+        "indices_gols_faixas": "Inglaterra Marcado 61-75: 20% | 76-90: 30% | RD Congo Sofrido 61-75: 0% | 76-90: 25%",
+        "qual_condicao_atende": "favorito_marcado_76-90_>=_25%",
+        "motivo_motivacao": "Inglaterra busca a liderança do grupo, RD Congo já eliminada.",
         "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
-        "mercado_sugerido": "Mais 1.5 gols (2º Tempo)",
+        "mercado_sugerido": "Mais 1.5 gols",
         "odd_esperada": "1.60 a 2.20",
         "stake_recomendada": "1%",
         "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
       },
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5
+      },
       "confirmacao_visual": null
     },
     {
@@ -101,47 +119,48 @@
       "jogo": "Bélgica x Senegal",
       "metodos_aplicados": [
         "back_favorito",
-        "over_limite_70",
-        "back_2x2"
+        "back_2x2",
+        "lay_1x0",
+        "lay_0x1"
       ],
       "mercado_principal": "Vitória Bélgica",
       "probabilidade_estimada": "65%",
       "fair_odd": "1.54",
-      "odd_minima_entrada": "1.72",
+      "odd_minima_entrada": "1.70",
       "media_gols_casa": "1.80",
       "media_gols_fora": "0.80",
-      "explicacao_curta": "Bélgica favorita com bom ataque em casa. Jogo com potencial para gols em ambas as etapas e no final.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Probabilidade estimada de 65% para a vitória da Bélgica, com fair odd de 1.54. A odd mínima de entrada é 1.72.",
-      "mercado_secundario": "Mais 1.5 gols (2º Tempo)",
-      "odd_minima_secundaria": "1.60",
-      "desempenho_1t": "Bélgica marca 1.80 no 1ºT",
-      "desempenho_2t": "Senegal sofre 0.80 no 2ºT",
+      "explicacao_curta": "Bélgica com bom ataque e Senegal com defesa vulnerável. Jogo com potencial para gols de ambos os lados.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 65% para a vitória da Bélgica, com fair odd de 1.54. A odd mínima de entrada é 1.70.",
+      "mercado_secundario": "Mais 2.5 gols",
+      "odd_minima_secundaria": "1.75",
+      "desempenho_1t": "Bélgica marca 0.60 no 1ºT, Senegal sofre 0.50 no 1ºT",
+      "desempenho_2t": "Bélgica marca 1.20 no 2ºT, Senegal sofre 0.40 no 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": null,
+          "posicao": "1",
           "objetivo": "titulo"
         },
         "fora": {
-          "posicao": null,
+          "posicao": "3",
           "objetivo": "sem_objetivo"
         }
       },
-      "motivacao_tecnica": "Bélgica tem um ataque forte em casa (1.80 gols/jogo) e Senegal sofre uma média considerável fora (0.80 gols/jogo). Ambos os times mostram potencial para gols no segundo tempo, com a Bélgica marcando 32% de seus gols entre 46-60min e Senegal sofrendo 38% entre 76-90min. O jogo também apresenta características para ambas marcarem e over 2.5.",
-      "coeficiente_regularidade": "Bélgica: CV baixo | Senegal: CV alto",
+      "motivacao_tecnica": "Bélgica tem um ataque forte e Senegal uma defesa que sofre muitos gols. O jogo tem potencial para muitos gols.",
+      "coeficiente_regularidade": "Bélgica: CV baixo / Senegal: CV moderado",
       "mando_de_campo": "Bélgica faz 60% dos pontos em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Bélgica tem forte poder ofensivo no segundo tempo.",
-      "momento_gols": "Bélgica marca 32% dos gols entre 46-60 e 26% entre 76-90. Senegal sofre 38% dos gols entre 76-90.",
+      "especificidades_gols": "Bélgica marca mais no 2º tempo, Senegal sofre mais no 2º tempo.",
+      "momento_gols": "Bélgica marca mais entre 46-60 e 76-90. Senegal sofre mais entre 76-90.",
       "jogadores_chave": null,
-      "placares_provaveis": "2x1, 3x1, 2x2",
-      "momento_entrada": "Pré-jogo",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "pre_jogo",
       "situacao_saida": null,
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo da Bélgica, potencial de gols e características para over 2.5.",
+        "justificativa_abordagem": "Favoritismo da Bélgica e potencial de gols.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
@@ -156,51 +175,85 @@
         "criterios_total": 4,
         "modo": "pre_jogo",
         "favorito": "Bélgica",
-        "odd_alvo": "1.72",
-        "razao": "Bélgica é favorita jogando em casa contra Senegal que tem um desempenho defensivo questionável fora.",
+        "odd_alvo": "1.70",
+        "razao": "Bélgica tem 60% de vitórias em casa e Senegal tem apenas 40% de vitórias fora.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3
+      },
       "over_limite_70": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "favorito_marcado_46_60_>=_25%",
-          "favorito_marcado_76_90_>=_25%",
-          "adversario_sofrido_76_90_>=_25%"
-        ],
-        "criterios_total": 4,
-        "modo": "ao_vivo",
-        "favorito_ou_motivacao": "Bélgica - Jogo de Copa do Mundo, alta motivação.",
-        "indices_gols_faixas": "Bélgica Marcado 46-60: 32% | Bélgica Marcado 76-90: 26% | Senegal Sofrido 46-60: 0% | Senegal Sofrido 76-90: 38%",
-        "qual_condicao_atende": "Bélgica Marcado 46-60 (32%), Bélgica Marcado 76-90 (26%) e Senegal Sofrido 76-90 (38%)",
-        "motivo_motivacao": "Jogo de Copa do Mundo, ambas as equipes buscam avançar.",
-        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
-        "mercado_sugerido": "Mais 1.5 gols (2º Tempo)",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4
       },
       "back_2x2": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "indice_over_2_5_>=_60%",
-          "indice_ambas_marcam_>=_60%",
-          "media_gols_>=_2.0"
+          "over_2_5_>=_60%",
+          "ambas_marcam_>=_60%",
+          "defesa_>=_1.2_gols/jogo"
         ],
         "criterios_total": 3,
-        "razao": "Ambos os times apresentam alto índice de Over 2.5 e Ambas Marcam, com média de gols acima de 2.0.",
-        "indice_over_2_5": "50% (Bélgica 50%, Senegal 50%)",
-        "indice_ambas_marcam": "40% (Bélgica 40%, Senegal 40%)",
-        "indice_over_ht": "60% (Bélgica 60%, Senegal 60%)",
+        "razao": "Ambos os times têm alto índice de Over 2.5 e Ambas Marcam, com defesas que sofrem mais de 1 gol por jogo.",
+        "indice_over_2_5": "Bélgica: 50%, Senegal: 50% (média 50% - precisa >= 60%)",
+        "indice_ambas_marcam": "Bélgica: 40%, Senegal: 40% (média 40% - precisa >= 60%)",
+        "indice_over_ht": "Bélgica: 60%, Senegal: 75% (média 67.5% - precisa >= 70%)",
         "modo": "pre_jogo",
         "odd_alvo": "12.00",
         "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
         "stake_recomendada": "0.5%"
       },
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "40%",
+        "visitante_marca_pct": "40%",
+        "media_gols_total": "2.80",
+        "btts_medio": "40%",
+        "razao": "O jogo tem média de gols alta e BTTS razoável, mas o Senegal tem dificuldade em marcar fora.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "90%",
+        "mandante_marca_pct": "60%",
+        "media_gols_total": "2.80",
+        "btts_medio": "40%",
+        "razao": "O jogo tem média de gols alta e BTTS razoável, com o mandante marcando em 60% dos jogos.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
       "confirmacao_visual": null
     },
     {
@@ -208,90 +261,142 @@
       "liga": "World Cup",
       "jogo": "EUA x Bósnia Herzegovina",
       "metodos_aplicados": [
-        "over_limite_70",
-        "back_2x2"
+        "back_favorito",
+        "back_2x2",
+        "lay_1x0",
+        "lay_0x1"
       ],
-      "mercado_principal": "Mais 1.5 gols (2º Tempo)",
-      "probabilidade_estimada": "55%",
-      "fair_odd": "1.82",
-      "odd_minima_entrada": "2.00",
+      "mercado_principal": "Vitória EUA",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.85",
       "media_gols_casa": "1.60",
-      "media_gols_fora": "1.80",
-      "explicacao_curta": "Jogo com potencial de gols em ambas as etapas e no final. EUA e Bósnia têm histórico de jogos com muitos gols.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Probabilidade estimada de 55% para o over 2.5 gols, com fair odd de 1.82. A odd mínima de entrada é 2.00.",
-      "mercado_secundario": "Ambas Marcam",
-      "odd_minima_secundaria": "1.70",
-      "desempenho_1t": "EUA marca 1.60 no 1ºT",
-      "desempenho_2t": "Bósnia Herzegovina sofre 1.80 no 2ºT",
+      "media_gols_fora": "0.90",
+      "explicacao_curta": "EUA com bom ataque e Bósnia com defesa vulnerável. Jogo com potencial para gols de ambos os lados.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 60% para a vitória dos EUA, com fair odd de 1.67. A odd mínima de entrada é 1.85.",
+      "mercado_secundario": "Mais 2.5 gols",
+      "odd_minima_secundaria": "1.80",
+      "desempenho_1t": "EUA marca 0.70 no 1ºT, Bósnia sofre 0.40 no 1ºT",
+      "desempenho_2t": "EUA marca 0.90 no 2ºT, Bósnia sofre 0.80 no 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": null,
+          "posicao": "1",
           "objetivo": "titulo"
         },
         "fora": {
-          "posicao": null,
+          "posicao": "4",
           "objetivo": "sem_objetivo"
         }
       },
-      "motivacao_tecnica": "Ambos os times apresentam um alto índice de Over 2.5 gols (EUA 40%, Bósnia 50%) e Ambas Marcam (EUA 90%, Bósnia 80%). A média de gols total é de 2.80. O jogo tem potencial para gols no segundo tempo, com EUA marcando 9% dos seus gols entre 76-90 e Bósnia sofrendo 11% no mesmo período. A Bósnia também tem um ataque forte fora de casa (1.80 gols/jogo).",
-      "coeficiente_regularidade": "EUA: CV alto | Bósnia Herzegovina: CV alto",
+      "motivacao_tecnica": "EUA tem um ataque mais forte e Bósnia uma defesa que sofre muitos gols. O jogo tem potencial para muitos gols.",
+      "coeficiente_regularidade": "EUA: CV baixo / Bósnia: CV moderado",
       "mando_de_campo": "EUA faz 60% dos pontos em casa",
       "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "EUA tem um ataque forte no primeiro tempo.",
-      "momento_gols": "EUA marca 9% dos gols entre 76-90. Bósnia sofre 11% dos gols entre 76-90.",
+      "especificidades_gols": "EUA marca mais no 1º tempo, Bósnia sofre mais no 2º tempo.",
+      "momento_gols": "EUA marca mais entre 31-45. Bósnia sofre mais entre 46-60.",
       "jogadores_chave": null,
-      "placares_provaveis": "2x1, 2x2, 3x1",
-      "momento_entrada": "Pré-jogo",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "pre_jogo",
       "situacao_saida": null,
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Alto potencial de gols em ambas as etapas e histórico de jogos com muitos gols.",
+        "justificativa_abordagem": "Favoritismo dos EUA e potencial de gols.",
         "gatilho_saida_parcial": null,
         "hard_stop": null
       },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": {
+      "back_favorito": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "favorito_marcado_76_90_>=_25%",
-          "adversario_sofrido_76_90_>=_25%"
+          "prob_>=_65%",
+          "em_casa_ou_aproveitamento",
+          "adversario_<_35%",
+          "liga_permitida"
         ],
         "criterios_total": 4,
-        "modo": "ao_vivo",
-        "favorito_ou_motivacao": "EUA - Jogo de Copa do Mundo, alta motivação.",
-        "indices_gols_faixas": "EUA Marcado 61-75: 13% | EUA Marcado 76-90: 9% | Bósnia Sofrido 61-75: 11% | Bósnia Sofrido 76-90: 11%",
-        "qual_condicao_atende": "Bósnia Sofrido 76-90 (11%)",
-        "motivo_motivacao": "Jogo de Copa do Mundo, ambas as equipes buscam avançar.",
-        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
-        "mercado_sugerido": "Mais 1.5 gols (2º Tempo)",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+        "modo": "pre_jogo",
+        "favorito": "EUA",
+        "odd_alvo": "1.85",
+        "razao": "EUA tem 60% de vitórias em casa e Bósnia tem apenas 30% de vitórias fora.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4
       },
       "back_2x2": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "indice_over_2_5_>=_60%",
-          "indice_ambas_marcam_>=_60%",
-          "media_gols_>=_2.0"
+          "over_2_5_>=_60%",
+          "ambas_marcam_>=_60%",
+          "defesa_>=_1.2_gols/jogo"
         ],
         "criterios_total": 3,
-        "razao": "Ambos os times apresentam alto índice de Over 2.5 e Ambas Marcam, com média de gols acima de 2.0.",
-        "indice_over_2_5": "45% (EUA 40%, Bósnia 50%)",
-        "indice_ambas_marcam": "85% (EUA 90%, Bósnia 80%)",
-        "indice_over_ht": "85% (EUA 70%, Bósnia 100%)",
+        "razao": "Ambos os times têm alto índice de Over 2.5 e Ambas Marcam, com defesas que sofrem mais de 1 gol por jogo.",
+        "indice_over_2_5": "EUA: 40%, Bósnia: 50% (média 45% - precisa >= 60%)",
+        "indice_ambas_marcam": "EUA: 90%, Bósnia: 90% (média 90% - precisa >= 60%)",
+        "indice_over_ht": "EUA: 40%, Bósnia: 70% (média 55% - precisa >= 70%)",
         "modo": "pre_jogo",
         "odd_alvo": "12.00",
         "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
         "stake_recomendada": "0.5%"
       },
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "10%",
+        "visitante_marca_pct": "10%",
+        "media_gols_total": "2.80",
+        "btts_medio": "90%",
+        "razao": "O jogo tem média de gols alta e BTTS alto, mas o visitante tem dificuldade em marcar.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "100%",
+        "mandante_marca_pct": "70%",
+        "media_gols_total": "2.80",
+        "btts_medio": "90%",
+        "razao": "O jogo tem média de gols alta e BTTS alto, com o mandante marcando em 70% dos jogos.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
       "confirmacao_visual": null
     }
   ],
