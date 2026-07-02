@@ -1,0 +1,513 @@
+{
+  "data": "2026-07-03",
+  "dia_consultado": "amanha",
+  "gerado_em": "2026-07-02T19:00:25.273349",
+  "total_partidas_analisadas": 5,
+  "entradas": [
+    {
+      "horario": "00:00",
+      "liga": "International World Cup",
+      "jogo": "Suíça x Argélia",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Mais X.5 gols (Over Limite)",
+      "probabilidade_estimada": "48% (vitória Argélia)",
+      "fair_odd": "2.08",
+      "odd_minima_entrada": "2.46",
+      "media_gols_casa": "2.00",
+      "media_gols_fora": "2.10",
+      "explicacao_curta": "Ambas as seleções têm histórico de gols na reta final e alta motivação em Copa do Mundo. O perfil ofensivo de ambos também torna placares 1x0 ou 0x1 improváveis.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 48% → fair 2.08; com margem de segurança, só entrar acima de 2.46",
+      "mercado_secundario": "Lay 1x0",
+      "odd_minima_secundaria": "10.50",
+      "desempenho_1t": "Suíça marca 0.80 no 1ºT, Argélia sofre 0.30 no 1ºT",
+      "desempenho_2t": "Suíça marca 1.20 no 2ºT, Argélia sofre 0.70 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "3º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Jogo de Copa do Mundo, o que garante alta motivação para ambas as seleções. Suíça e Argélia demonstram capacidade de marcar gols, especialmente no segundo tempo, e a média de gols total é alta, favorecendo o Over Limite e desfavorecendo placares magros como 1x0 ou 0x1.",
+      "coeficiente_regularidade": "Não disponível no material",
+      "mando_de_campo": "Jogo em campo neutro (Copa do Mundo).",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "Não disponível no material",
+      "especificidades_gols": "Suíça tem média de 2.00 gols marcados e 1.10 sofridos. Argélia tem média de 2.10 gols marcados e 1.00 sofridos.",
+      "momento_gols": "Suíça marca 30% dos gols entre 76-90 min. Argélia sofre 20% dos gols entre 76-90 min.",
+      "jogadores_chave": "Não disponível no material",
+      "placares_provaveis": "2x1, 1x1, 2x2",
+      "momento_entrada": "Ao vivo (Over Limite), Pré-jogo (Lay 1x0, Lay 0x1)",
+      "situacao_saida": "Cash-out em placares intermediários para Lay 1x0 e Lay 0x1. Para Over Limite, evitar se jogo empatado, goleada ou expulsão.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "As estatísticas de gols no final do jogo e o perfil ofensivo de ambas as seleções justificam as entradas em Over Limite, Lay 1x0 e Lay 0x1.",
+        "gatilho_saida_parcial": "Lay 1x0: cash-out se 0-1, 1-1 ou após 60min sem gol. Lay 0x1: cash-out se 1-0, 1-1 ou após 60min sem gol.",
+        "hard_stop": "Para Over Limite, sair se as condições de armadilha forem atingidas."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Suíça - alta motivação em Copa do Mundo",
+        "indices_gols_faixas": "Favorito Marcado 61-75: 10% | 76-90: 30% | Adversário Sofrido 61-75: 0% | 76-90: 20%",
+        "qual_condicao_atende": "b) Favorito Marcado 76-90: 30%",
+        "motivo_motivacao": "Ambas as seleções estão em uma Copa do Mundo, o que garante alta motivação. Suíça tem um histórico de marcar gols na reta final dos jogos.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2_5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "70%",
+        "visitante_marca_pct": "70%",
+        "media_gols_total": "3.10",
+        "btts_medio": "55%",
+        "razao": "A média de gols total é alta (3.10), o visitante Argélia marca em 70% dos jogos e o BTTS médio é de 55%, indicando que o placar 1x0 é improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2_5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "80%",
+        "mandante_marca_pct": "80%",
+        "media_gols_total": "3.10",
+        "btts_medio": "55%",
+        "razao": "A média de gols total é alta (3.10), o mandante Suíça marca em 80% dos jogos e o BTTS médio é de 55%, indicando que o placar 0x1 é improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "09:00",
+      "liga": "China Chinese Super League",
+      "jogo": "Yunnan Yukun FC x Henan Jianye",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Mais X.5 gols (Over Limite)",
+      "probabilidade_estimada": "48% (vitória Yunnan)",
+      "fair_odd": "2.08",
+      "odd_minima_entrada": "2.46",
+      "media_gols_casa": "1.29",
+      "media_gols_fora": "0.50",
+      "explicacao_curta": "Yunnan e Henan têm bom histórico de gols no final do jogo. Além disso, o jogo apresenta padrões para 2x2 e é improvável que termine em 0x1.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 48% → fair 2.08; com margem de segurança, só entrar acima de 2.46",
+      "mercado_secundario": "Placar Exato 2x2",
+      "odd_minima_secundaria": "12.00",
+      "desempenho_1t": "Yunnan marca 0.50 no 1ºT, Henan sofre 0.38 no 1ºT",
+      "desempenho_2t": "Yunnan marca 0.71 no 2ºT, Henan sofre 0.88 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "5º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "13º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Yunnan (5º) tem um desempenho ligeiramente superior ao Henan (13º) na liga. Ambos os times mostram capacidade de marcar e sofrer gols, especialmente na reta final dos jogos, o que favorece o Over Limite. O padrão de gols também indica potencial para um 2x2 e desfavorece um 0x1.",
+      "coeficiente_regularidade": "Não disponível no material",
+      "mando_de_campo": "Yunnan joga em casa, o que geralmente reforça seu desempenho.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "Não disponível no material",
+      "especificidades_gols": "Yunnan tem média de 2.00 gols marcados e 1.71 sofridos. Henan tem média de 1.00 gols marcados e 1.25 sofridos.",
+      "momento_gols": "Yunnan marca 29% dos gols entre 76-90 min. Henan sofre 30% dos gols entre 76-90 min.",
+      "jogadores_chave": "Não disponível no material",
+      "placares_provaveis": "2x1, 1x1, 2x2",
+      "momento_entrada": "Ao vivo (Over Limite), Pré-jogo (Back 2x2, Lay 0x1)",
+      "situacao_saida": "Cash-out em placares intermediários para Back 2x2 e Lay 0x1. Para Over Limite, evitar se jogo empatado, goleada ou expulsão.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "As estatísticas indicam valor em múltiplos mercados de gols, com boa margem de segurança para o Over Limite e padrões claros para Back 2x2 e Lay 0x1.",
+        "gatilho_saida_parcial": "Back 2x2: cash-out parcial em 1x1, 2x1 ou 1x2. Lay 0x1: cash-out se 1-0, 1-1 ou após 60min sem gol.",
+        "hard_stop": "Não segurar Back 2x2 até o final se atingir placares intermediários. Para Over Limite, sair se as condições de armadilha forem atingidas."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_76-90_>=_25%",
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Yunnan Yukun FC - meio de tabela, busca subir na classificação",
+        "indices_gols_faixas": "Favorito Marcado 61-75: 7% | 76-90: 29% | Adversário Sofrido 61-75: 10% | 76-90: 30%",
+        "qual_condicao_atende": "a) Favorito Marcado 76-90: 29% | d) Adversário Sofrido 76-90: 30%",
+        "motivo_motivacao": "Yunnan (5º) e Henan (13º) estão no meio da tabela, buscando melhorar suas posições. Ambos os times têm histórico de gols na reta final.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over_2_5_>=_60%",
+          "ambas_marcam_>=_60%",
+          "defesa_sofre_>=_1_2"
+        ],
+        "criterios_total": 3,
+        "razao": "Ambos os times têm alto índice de Over 2.5 (74.5% média) e Ambas Marcam (60% média), com defesas que sofrem mais de 1.2 gols por jogo, indicando um jogo aberto e com chances de placar alto.",
+        "indice_over_2_5": "74.5% — Yunnan 86%, Henan 63%",
+        "indice_ambas_marcam": "60% — Yunnan 57%, Henan 63%",
+        "indice_over_ht": "74.5% — Yunnan 86%, Henan 63%",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar até o final se chegar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2_5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "86%",
+        "mandante_marca_pct": "86%",
+        "media_gols_total": "2.98",
+        "btts_medio": "60%",
+        "razao": "O mandante Yunnan tem um ataque produtivo (marca em 86% dos jogos) e a média total de gols é alta (2.98), além de um BTTS médio de 60%, tornando o placar 0x1 improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "15:00",
+      "liga": "International World Cup",
+      "jogo": "Austrália x Egipto",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols (Over Limite)",
+      "probabilidade_estimada": "58% (vitória Egipto)",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.98",
+      "media_gols_casa": "1.00",
+      "media_gols_fora": "1.40",
+      "explicacao_curta": "Ambas as seleções têm histórico de gols na reta final e alta motivação em Copa do Mundo, favorecendo o Over Limite.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 58% → fair 1.72; com margem de segurança, só entrar acima de 1.98",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": "",
+      "desempenho_1t": "Austrália marca 0.30 no 1ºT, Egipto sofre 0.40 no 1ºT",
+      "desempenho_2t": "Austrália marca 0.70 no 2ºT, Egipto sofre 0.40 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "2º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Jogo de Copa do Mundo, o que garante alta motivação para ambas as seleções. Austrália e Egipto demonstram capacidade de marcar e sofrer gols na reta final dos jogos, o que favorece o Over Limite.",
+      "coeficiente_regularidade": "Não disponível no material",
+      "mando_de_campo": "Jogo em campo neutro (Copa do Mundo).",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "Não disponível no material",
+      "especificidades_gols": "Austrália tem média de 1.00 gols marcados e 1.10 sofridos. Egipto tem média de 1.40 gols marcados e 0.80 sofridos.",
+      "momento_gols": "Austrália marca 30% dos gols entre 61-75 min e 30% entre 76-90 min. Egipto sofre 25% dos gols entre 61-75 min.",
+      "jogadores_chave": "Não disponível no material",
+      "placares_provaveis": "1x1, 1x2, 0x1",
+      "momento_entrada": "Ao vivo (Over Limite)",
+      "situacao_saida": "Para Over Limite, evitar se jogo empatado, goleada ou expulsão.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "As estatísticas de gols no final do jogo e a alta motivação em Copa do Mundo justificam a entrada em Over Limite.",
+        "gatilho_saida_parcial": "Não aplicável para este método.",
+        "hard_stop": "Para Over Limite, sair se as condições de armadilha forem atingidas."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_61-75_>=_25%",
+          "favorito_marcado_76-90_>=_25%",
+          "adversario_sofrido_61-75_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Austrália - alta motivação em Copa do Mundo",
+        "indices_gols_faixas": "Favorito Marcado 61-75: 30% | 76-90: 30% | Adversário Sofrido 61-75: 25% | 76-90: 13%",
+        "qual_condicao_atende": "a) Favorito Marcado 61-75: 30% | b) Favorito Marcado 76-90: 30% | c) Adversário Sofrido 61-75: 25%",
+        "motivo_motivacao": "Ambas as seleções estão em uma Copa do Mundo, o que garante alta motivação. Austrália tem um histórico de marcar gols na reta final e Egipto de sofrer gols nesse período.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "19:00",
+      "liga": "International World Cup",
+      "jogo": "Argentina x Cabo Verde",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Argentina",
+      "probabilidade_estimada": "85% (vitória Argentina)",
+      "fair_odd": "1.18",
+      "odd_minima_entrada": "1.30",
+      "media_gols_casa": "2.90",
+      "media_gols_fora": "1.50",
+      "explicacao_curta": "Argentina é super favorita com 100% de vitórias e ataque forte, contra Cabo Verde com aproveitamento baixo. Há também padrão de gols na reta final.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 85% → fair 1.18; com margem de segurança, só entrar acima de 1.30",
+      "mercado_secundario": "Mais X.5 gols (Over Limite)",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": "Argentina marca 1.50 no 1ºT, Cabo Verde sofre 0.40 no 1ºT",
+      "desempenho_2t": "Argentina marca 1.40 no 2ºT, Cabo Verde sofre 0.40 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "1º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Argentina é líder da Copa do Mundo com 100% de vitórias e um ataque muito potente (2.90 gols/jogo) e defesa sólida (0.20 gols sofridos/jogo). Cabo Verde tem um aproveitamento de apenas 30%. A motivação é máxima para a Argentina em busca do título. Além disso, a Argentina tem um histórico de marcar gols na reta final.",
+      "coeficiente_regularidade": "Não disponível no material",
+      "mando_de_campo": "Jogo em campo neutro (Copa do Mundo), mas Argentina é o favorito claro.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "Não disponível no material",
+      "especificidades_gols": "Argentina tem média de 2.90 gols marcados e 0.20 sofridos. Cabo Verde tem média de 1.50 gols marcados e 0.80 sofridos.",
+      "momento_gols": "Argentina marca 28% dos gols entre 76-90 min. Cabo Verde sofre 50% dos gols entre 46-60 min e 50% entre 76-90 min.",
+      "jogadores_chave": "Não disponível no material",
+      "placares_provaveis": "2x0, 3x0, 3x1",
+      "momento_entrada": "Pré-jogo (Back Favorito), Ao vivo (Over Limite)",
+      "situacao_saida": "Para Over Limite, evitar se jogo empatado, goleada ou expulsão.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "forcar",
+        "justificativa_abordagem": "O favoritismo extremo da Argentina e seu desempenho consistente justificam uma entrada pré-jogo. O Over Limite é uma aposta complementar ao vivo.",
+        "gatilho_saida_parcial": "Não aplicável para Back Favorito. Para Over Limite, não aplicável.",
+        "hard_stop": "Não aplicável para Back Favorito. Para Over Limite, sair se as condições de armadilha forem atingidas."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "claramente_superior",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Argentina",
+        "odd_alvo": "1.30",
+        "razao": "Argentina é super favorita com 85% de probabilidade de vitória, 100% de aproveitamento e ataque muito forte, contra Cabo Verde com apenas 30% de vitórias.",
+        "gatilho_ao_vivo": "",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_76-90_>=_25%",
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Argentina - alta motivação em Copa do Mundo",
+        "indices_gols_faixas": "Favorito Marcado 61-75: 10% | 76-90: 28% | Adversário Sofrido 61-75: 13% | 76-90: 13%",
+        "qual_condicao_atende": "b) Favorito Marcado 76-90: 28%",
+        "motivo_motivacao": "Argentina está em uma Copa do Mundo com alta motivação e tem um histórico de marcar gols na reta final dos jogos.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "22:30",
+      "liga": "International World Cup",
+      "jogo": "Colômbia x Gana",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Colômbia",
+      "probabilidade_estimada": "68% (vitória Colômbia)",
+      "fair_odd": "1.47",
+      "odd_minima_entrada": "1.65",
+      "media_gols_casa": "1.60",
+      "media_gols_fora": "0.60",
+      "explicacao_curta": "Colômbia é favorita com bom aproveitamento e ataque superior, contra Gana com desempenho fraco. Há também padrão de gols na reta final.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 68% → fair 1.47; com margem de segurança, só entrar acima de 1.65",
+      "mercado_secundario": "Mais X.5 gols (Over Limite)",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": "Colômbia marca 0.60 no 1ºT, Gana sofre 0.50 no 1ºT",
+      "desempenho_2t": "Colômbia marca 1.00 no 2ºT, Gana sofre 1.00 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "3º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Colômbia é favorita com 68% de probabilidade de vitória, 60% de aproveitamento e ataque mais produtivo (1.60 gols/jogo) que Gana (0.60 gols/jogo). Gana tem um aproveitamento de apenas 20% e defesa mais frágil (1.50 gols sofridos/jogo). A motivação é máxima para ambas as seleções em Copa do Mundo. Colômbia tem um histórico de marcar gols na reta final.",
+      "coeficiente_regularidade": "Não disponível no material",
+      "mando_de_campo": "Jogo em campo neutro (Copa do Mundo), mas Colômbia é o favorito claro.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "Não disponível no material",
+      "especificidades_gols": "Colômbia tem média de 1.60 gols marcados e 0.80 sofridos. Gana tem média de 0.60 gols marcados e 1.50 sofridos.",
+      "momento_gols": "Colômbia marca 50% dos gols entre 76-90 min. Gana sofre 33% dos gols entre 76-90 min e 50% entre 61-75 min.",
+      "jogadores_chave": "Não disponível no material",
+      "placares_provaveis": "2x0, 2x1, 1x0",
+      "momento_entrada": "Pré-jogo (Back Favorito), Ao vivo (Over Limite)",
+      "situacao_saida": "Para Over Limite, evitar se jogo empatado, goleada ou expulsão.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O favoritismo da Colômbia é claro e seu desempenho consistente justifica uma entrada pré-jogo. O Over Limite é uma aposta complementar ao vivo, dada a tendência de gols no final do jogo.",
+        "gatilho_saida_parcial": "Não aplicável para Back Favorito. Para Over Limite, não aplicável.",
+        "hard_stop": "Não aplicável para Back Favorito. Para Over Limite, sair se as condições de armadilha forem atingidas."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "claramente_superior",
+          "adversario_<_35%",
+          "liga_permitida"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito": "Colômbia",
+        "odd_alvo": "1.65",
+        "razao": "Colômbia é favorita com 68% de probabilidade de vitória e bom aproveitamento, contra Gana com apenas 20% de vitórias e defesa mais frágil.",
+        "gatilho_ao_vivo": "após 15min se dominância clara",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_76-90_>=_25%",
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Colômbia - alta motivação em Copa do Mundo",
+        "indices_gols_faixas": "Favorito Marcado 61-75: 6% | 76-90: 50% | Adversário Sofrido 61-75: 7% | 76-90: 33%",
+        "qual_condicao_atende": "b) Favorito Marcado 76-90: 50% | d) Adversário Sofrido 76-90: 33%",
+        "motivo_motivacao": "Ambas as seleções estão em uma Copa do Mundo, o que garante alta motivação. Colômbia tem um histórico de marcar gols na reta final e Gana de sofrer gols nesse período.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    }
+  ],
+  "evitar": [],
+  "pdfs": [
+    {
+      "jogo": "Yunnan Yukun FC x Henan Jianye",
+      "arquivo": "pdfs/2026-07-03/China_Chinese_Super_League/001_09h00_Yunnan_Yukun_FC_x_Henan_Jianye.pdf"
+    },
+    {
+      "jogo": "Suíça x Argélia",
+      "arquivo": "pdfs/2026-07-03/International_World_Cup/002_00h00_Suíça_x_Argélia.pdf"
+    },
+    {
+      "jogo": "Austrália x Egipto",
+      "arquivo": "pdfs/2026-07-03/International_World_Cup/003_15h00_Austrália_x_Egipto.pdf"
+    },
+    {
+      "jogo": "Argentina x Cabo Verde",
+      "arquivo": "pdfs/2026-07-03/International_World_Cup/004_19h00_Argentina_x_Cabo_Verde.pdf"
+    },
+    {
+      "jogo": "Colômbia x Gana",
+      "arquivo": "pdfs/2026-07-03/International_World_Cup/005_22h30_Colômbia_x_Gana.pdf"
+    }
+  ]
+}
