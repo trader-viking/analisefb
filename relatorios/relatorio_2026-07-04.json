@@ -1,0 +1,609 @@
+{
+  "data": "2026-07-04",
+  "dia_consultado": "amanha",
+  "gerado_em": "2026-07-03T17:21:57.328490",
+  "total_partidas_analisadas": 11,
+  "entradas": [
+    {
+      "horario": "14:00",
+      "liga": "International World Cup",
+      "jogo": "Canadá x Marrocos",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais 2.5 gols",
+      "probabilidade_estimada": "50% (probabilidade de gols na reta final, estimada pelas estatísticas de gols por período)",
+      "fair_odd": "2.00",
+      "odd_minima_entrada": "2.30",
+      "media_gols_casa": "2.00",
+      "media_gols_fora": "0.60",
+      "explicacao_curta": "Canadá e Marrocos têm potencial para gols na segunda etapa. O Canadá tem um ataque forte em casa e Marrocos tem um ataque mais consistente.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 50% para gols na segunda etapa, com fair odd de 2.00. A odd mínima de entrada é 2.30.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Canadá marca 0.70 no 1ºT",
+      "desempenho_2t": "Marrocos sofre 0.80 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": null
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": null
+        }
+      },
+      "motivacao_tecnica": "Canadá tem 35% de gols marcados no 2º tempo e Marrocos tem 0% de gols marcados no 2º tempo. No entanto, Marrocos sofre 50% dos seus gols no 2º tempo, o que pode indicar uma abertura para gols.",
+      "coeficiente_regularidade": "Canadá: CV baixo / Marrocos: CV moderado",
+      "mando_de_campo": "Canadá faz 1.90 pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Canadá tem um ataque muito forte em casa, Marrocos tem um ataque mais equilibrado.",
+      "momento_gols": "Canadá Marcado 61-75: 29% | 76-90: 35%; Marrocos Sofrido 46-60: 50% | 61-75: 0%",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "ao_vivo",
+      "situacao_saida": "Cash-out se o jogo empatar, ou se houver goleada consolidada.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O método Over Limite é aplicado em jogos com potencial de gols na segunda etapa.",
+        "gatilho_saida_parcial": "Se o jogo empatar ou houver um gol que consolide a goleada.",
+        "hard_stop": "Se o placar atingir 3 gols de diferença ou o jogo empatar."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "Canadá Marcado 61-75: 29% (precisa >= 25%)",
+          "Canadá Marcado 76-90: 35% (precisa >= 25%)",
+          "Marrocos Sofrido 46-60: 50% (precisa >= 25%)",
+          "Marrocos Sofrido 61-75: 0% (precisa >= 25%)"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Canadá - jogo de Copa do Mundo com alta motivação",
+        "indices_gols_faixas": "Canadá Marcado 61-75: 29% | 76-90: 35% | Marrocos Sofrido 46-60: 50% | 61-75: 0%",
+        "qual_condicao_atende": "Canadá Marcado 61-75 (29%) e Canadá Marcado 76-90 (35%)",
+        "motivo_motivacao": "Copa do Mundo, jogo decisivo para ambas as equipes.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais 1.5 gols (se placar 1-0), Mais 2.5 gols (se placar 1-1 ou 2-0), etc.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Londrina x CRB",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais 2.5 gols",
+      "probabilidade_estimada": "60% (probabilidade de gols na reta final, estimada pelas estatísticas de gols por período)",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "media_gols_casa": "1.50",
+      "media_gols_fora": "1.43",
+      "explicacao_curta": "Londrina e CRB têm média de gols na segunda etapa. O jogo tem potencial para mais gols após os 65 minutos.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 60% para gols na segunda etapa, com fair odd de 1.67. A odd mínima de entrada é 1.92.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Londrina marca 0.71 no 1ºT",
+      "desempenho_2t": "CRB sofre 1.43 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": null
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": null
+        }
+      },
+      "motivacao_tecnica": "Londrina tem 57% de gols marcados no 2º tempo e CRB tem 71% de gols marcados no 2º tempo. Ambos os times demonstram maior propensão a gols na segunda metade da partida.",
+      "coeficiente_regularidade": "Londrina: CV baixo / CRB: CV moderado",
+      "mando_de_campo": "Londrina faz 1.50 pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Londrina marca mais no final do jogo, CRB também tem bom desempenho no segundo tempo.",
+      "momento_gols": "61-75: Londrina 11%, CRB 30%; 76-90: Londrina 33%, CRB 20%",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "ao_vivo",
+      "situacao_saida": "Cash-out se o jogo empatar, ou se houver goleada consolidada.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O método Over Limite é aplicado em jogos com potencial de gols na segunda etapa.",
+        "gatilho_saida_parcial": "Se o jogo empatar ou houver um gol que consolide a goleada.",
+        "hard_stop": "Se o placar atingir 3 gols de diferença ou o jogo empatar."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "Londrina Marcado 61-75: 11% (precisa >= 25%)",
+          "Londrina Marcado 76-90: 33% (precisa >= 25%)",
+          "CRB Sofrido 61-75: 30% (precisa >= 25%)",
+          "CRB Sofrido 76-90: 20% (precisa >= 25%)"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Londrina - jogo equilibrado com potencial de gols na segunda etapa",
+        "indices_gols_faixas": "Londrina Marcado 61-75: 11% | 76-90: 33% | CRB Sofrido 61-75: 30% | 76-90: 20%",
+        "qual_condicao_atende": "Londrina Marcado 76-90 (33%) e CRB Sofrido 61-75 (30%)",
+        "motivo_motivacao": "Jogo da Serie B, ambos os times precisam pontuar.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais 1.5 gols (se placar 1-0), Mais 2.5 gols (se placar 1-1 ou 2-0), etc.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Criciúma x Sport Recife",
+      "metodos_aplicados": [
+        "lay_1x0"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "10% (probabilidade de 1x0 estimada, considerando a média de gols e o perfil dos times)",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "10.50",
+      "media_gols_casa": "1.00",
+      "media_gols_fora": "0.57",
+      "explicacao_curta": "Criciúma tem um ataque forte em casa e Sport Recife tem dificuldade em marcar fora. O placar 1x0 é improvável.",
+      "alerta_geral": null,
+      "valor_esperado": "A probabilidade de 1x0 ser o placar final é baixa (<12%), com média de gols total de 1.57 e BTTS médio estimado em 43%. O Sport tem dificuldade em marcar fora.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Criciúma marca 0.71 no 1ºT",
+      "desempenho_2t": "Sport Recife sofre 0.86 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": null
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": null
+        }
+      },
+      "motivacao_tecnica": "Criciúma tem um bom ataque em casa (1.00 gol/jogo) e Sport Recife tem um ataque fraco fora de casa (0.57 gol/jogo). A média de gols total é baixa (1.57), mas o Criciúma tem 71% de jogos com mais de 0.5 gols no 1º tempo, o que pode levar a um placar mais elástico.",
+      "coeficiente_regularidade": "Criciúma: CV baixo / Sport Recife: CV moderado",
+      "mando_de_campo": "Criciúma faz 1.71 pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Criciúma tem um ataque mais produtivo em casa.",
+      "momento_gols": "Criciúma marca mais no 2º tempo (56%), Sport Recife sofre mais no 2º tempo (71%).",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O método Lay 1x0 é aplicado em jogos onde o placar 1x0 é improvável.",
+        "gatilho_saida_parcial": "Se o placar ficar 0-1, 1-1 ou se o jogo não tiver gols até os 60 minutos.",
+        "hard_stop": "Se o placar ficar 0-1, 1-1 ou se o jogo não tiver gols até os 60 minutos."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "P(1-0) estimada 10% (<12%)",
+          "Visitante Over 0.5: 43% (precisa >65%)",
+          "Visitante marca pct: 43% (precisa >60%)",
+          "Média gols total: 1.57 (precisa >=2.5)",
+          "BTTS médio: 43% (precisa >50%)"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "43%",
+        "visitante_marca_pct": "43%",
+        "media_gols_total": "1.57",
+        "btts_medio": "43%",
+        "razao": "O placar 1x0 é improvável devido à dificuldade do Sport Recife em marcar fora e a média de gols total ser baixa.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "16:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Novorizontino x Atlético GO",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais 2.5 gols",
+      "probabilidade_estimada": "50% (probabilidade de gols na reta final, estimada pelas estatísticas de gols por período)",
+      "fair_odd": "2.00",
+      "odd_minima_entrada": "2.30",
+      "media_gols_casa": "1.00",
+      "media_gols_fora": "1.29",
+      "explicacao_curta": "Novorizontino e Atlético GO têm potencial para gols na segunda etapa. O jogo é equilibrado e pode ter mais gols após os 65 minutos.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 50% para gols na segunda etapa, com fair odd de 2.00. A odd mínima de entrada é 2.30.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Novorizontino marca 0.57 no 1ºT",
+      "desempenho_2t": "Atlético GO sofre 1.29 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "objetivo": null
+        },
+        "fora": {
+          "posicao": null,
+          "objetivo": null
+        }
+      },
+      "motivacao_tecnica": "Novorizontino tem 27% de gols marcados no 2º tempo e Atlético GO tem 22% de gols marcados no 2º tempo. Ambos os times demonstram alguma propensão a gols na segunda metade da partida.",
+      "coeficiente_regularidade": "Novorizontino: CV baixo / Atlético GO: CV moderado",
+      "mando_de_campo": "Novorizontino faz 2.00 pontos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ambos os times marcam mais no segundo tempo.",
+      "momento_gols": "0-15: Novorizontino 27%, Atlético GO 0%; 16-30: Novorizontino 0%, Atlético GO 11%; 31-45: Novorizontino 0%, Atlético GO 33%; 46-60: Novorizontino 9%, Atlético GO 22%; 61-75: Novorizontino 27%, Atlético GO 0%; 76-90: Novorizontino 36%, Atlético GO 33%",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "ao_vivo",
+      "situacao_saida": "Cash-out se o jogo empatar, ou se houver goleada consolidada.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O método Over Limite é aplicado em jogos com potencial de gols na segunda etapa.",
+        "gatilho_saida_parcial": "Se o jogo empatar ou houver um gol que consolide a goleada.",
+        "hard_stop": "Se o placar atingir 3 gols de diferença ou o jogo empatar."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "Novorizontino Marcado 61-75: 27% (precisa >= 25%)",
+          "Novorizontino Marcado 76-90: 36% (precisa >= 25%)",
+          "Atlético GO Sofrido 46-60: 22% (precisa >= 25%)",
+          "Atlético GO Sofrido 61-75: 0% (precisa >= 25%)"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Novorizontino - jogo equilibrado com potencial de gols na segunda etapa",
+        "indices_gols_faixas": "Novorizontino Marcado 61-75: 27% | 76-90: 36% | Atlético GO Sofrido 46-60: 22% | 61-75: 0%",
+        "qual_condicao_atende": "Novorizontino Marcado 61-75 (27%) e Novorizontino Marcado 76-90 (36%)",
+        "motivo_motivacao": "Jogo da Serie B, ambos os times precisam pontuar.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais 1.5 gols (se placar 1-0), Mais 2.5 gols (se placar 1-1 ou 2-0), etc.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "18:00",
+      "liga": "World Cup",
+      "jogo": "Paraguai x França",
+      "metodos_aplicados": [
+        "back_goleada",
+        "over_limite_70",
+        "back_2x2"
+      ],
+      "mercado_principal": "Time marca 4+ e vence",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "media_gols_casa": "2.90",
+      "media_gols_fora": "1.20",
+      "explicacao_curta": "França em excelente fase ofensiva (2.90 gols/jogo) contra defesa paraguaia que sofre 1.20 gols/jogo. Cenário de goleada favorável.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 75% para a França marcar 4+ gols e vencer, com fair odd de 1.33. A odd mínima de entrada é 1.53.",
+      "mercado_secundario": "Mais 1.5 gols (2º Tempo)",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": "França marca 1.30 gols no 1ºT",
+      "desempenho_2t": "Paraguai sofre 1.30 gols no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "",
+          "objetivo": ""
+        }
+      },
+      "motivacao_tecnica": "França demonstra um poder ofensivo avassalador, com média de 2.90 gols por jogo e 75% de seus jogos terminando com mais de 2.5 gols. A defesa do Paraguai, embora razoável em casa (1.20 gols sofridos), tem mostrado fragilidades em jogos recentes. A França lidera seu grupo na Copa do Mundo com 9 pontos e saldo de gols positivo, indicando alta motivação para manter o ímpeto. O Paraguai, apesar de ter vencido alguns jogos, enfrenta um adversário de calibre superior.",
+      "coeficiente_regularidade": "França: CV baixo | Paraguai: CV moderado",
+      "mando_de_campo": "França tem 90% de vitórias em seus jogos recentes.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "França tem forte poder de finalização e aproveita bem as oportunidades criadas.",
+      "momento_gols": "França marca 25% dos seus gols entre 46-60min e 25% entre 61-75min. Paraguai sofre 33% dos seus gols entre 46-60min.",
+      "jogadores_chave": "Mbappé, Griezmann",
+      "placares_provaveis": "3x1, 4x1, 4x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se o placar atingir 3 gols de diferença ou se o Paraguai abrir o placar.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Cenário claro de favoritismo e potencial de goleada.",
+        "gatilho_saida_parcial": "Placar 2x0 ou 3x0 para a França.",
+        "hard_stop": "Se o Paraguai abrir o placar."
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "França Marcado 61-75: 25%",
+          "França Marcado 76-90: 8%",
+          "Paraguai Sofrido 61-75: 17%",
+          "Paraguai Sofrido 76-90: 8%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "França - brigando pela liderança do grupo",
+        "indices_gols_faixas": "França Marcado 61-75: 25% | 76-90: 8% | Paraguai Sofrido 61-75: 17% | 76-90: 8%",
+        "qual_condicao_atende": "França Marcado 61-75: 25% (atende a condição >= 25%)",
+        "motivo_motivacao": "França busca consolidar a liderança do grupo na Copa do Mundo.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais 1.5 gols (se placar 1-0), Mais 2.5 gols (se placar 1-1), Mais 3.5 gols (se placar 2-1)",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "Over 2.5 média 70%",
+          "Ambas Marcam média 70%",
+          "Defesa França sofre 0.80 gols/jogo"
+        ],
+        "criterios_total": 3,
+        "razao": "Ambos os times apresentam alto índice de Over 2.5 (França 70%, Paraguai 70%) e Ambas Marcam (França 70%, Paraguai 70%). A França tem um ataque muito forte e o Paraguai tem capacidade de marcar.",
+        "indice_over_2_5": "70% (França 70%, Paraguai 70%)",
+        "indice_ambas_marcam": "70% (França 70%, Paraguai 70%)",
+        "indice_over_ht": "80% (França 80%, Paraguai 70%)",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "Probabilidade favorita 75%",
+          "Ofensiva favorita 2.90 gols/jogo",
+          "Defesa adversária 1.20 gols/jogo"
+        ],
+        "criterios_total": 3,
+        "candidato": "França",
+        "razao": "Favoritismo extremo da França (75% de probabilidade estimada), com um ataque avassalador (2.90 gols/jogo) e uma defesa paraguaia que sofre 1.20 gols/jogo, cria um cenário propício para uma goleada.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "França marca 4+ e vence",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "P(1-0) estimada 8%",
+          "Visitante over 0.5 70%",
+          "Visitante marca pct 70%",
+          "Média gols total 3.70",
+          "BTTS médio 70%"
+        ],
+        "criterios_total": 5
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "P(0-1) estimada 8%",
+          "Mandante over 0.5 80%",
+          "Mandante marca pct 80%",
+          "Média gols total 3.70",
+          "BTTS médio 70%"
+        ],
+        "criterios_total": 5
+      },
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "França com alta pressão e busca por gols desde o início. Paraguai com defesa organizada, mas vulnerável a ataques rápidos.",
+        "gatilhos_aceleracao": "Gol da França, subida de linhas de marcação, velocidade nas transições.",
+        "alerta_armadilha": "Gol do Paraguai no início do jogo.",
+        "mercado_recomendado": "Over 2.5 gols",
+        "momento_observacao": "Primeiros 15-20 minutos"
+      }
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "08:00",
+      "jogo": "Qingdao Youth Island FC x Shanghai SIPG",
+      "liga": "China Chinese Super League",
+      "motivo": "Jogo com baixo favoritismo e dados de gols insuficientes para outros métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Shanghai SIPG) é 50% (precisa >= 65%).",
+        "lay_zebra": "Não se aplica, pois o Shanghai SIPG é o favorito.",
+        "over_limite_70": "Dados de gols por período insuficientes no PDF para aplicar o critério.",
+        "back_2x2": "Over 2.5 média 50% (precisa >= 60%), Ambas Marcam média 63% (precisa >= 60%), Over HT média 63% (precisa >= 70%). Critérios não atendidos.",
+        "back_goleada": "Probabilidade estimada de vitória do favorito (Shanghai SIPG) é 50% (precisa >= 70%).",
+        "lay_1x0": "P(1-0) estimada >12% (precisa <12%), Visitante Over 0.5 38% (precisa >65%), Média gols total 2.63 (OK), BTTS médio 63% (OK). Critérios não atendidos.",
+        "lay_0x1": "P(0-1) estimada >12% (precisa <12%), Mandante Over 0.5 88% (OK), Mandante marca pct 88% (OK), Média gols total 2.63 (OK), BTTS médio 63% (OK). Critérios não atendidos."
+      }
+    },
+    {
+      "horario": "08:00",
+      "jogo": "Shenyang Urban x Chongqing Tongliang Long FC",
+      "liga": "China Chinese Super League",
+      "motivo": "Jogo equilibrado com baixo favoritismo e dados de gols insuficientes para outros métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Chongqing Tongliang Long FC) é 50% (precisa >= 65%).",
+        "lay_zebra": "Não se aplica, pois o Chongqing Tongliang Long FC é o favorito.",
+        "over_limite_70": "Dados de gols por período insuficientes no PDF para aplicar o critério.",
+        "back_2x2": "Over 2.5 média 43% (precisa >= 60%), Ambas Marcam média 43% (precisa >= 60%), Over HT média 75% (OK). Critérios não atendidos.",
+        "back_goleada": "Probabilidade estimada de vitória do favorito (Chongqing Tongliang Long FC) é 50% (precisa >= 70%).",
+        "lay_1x0": "P(1-0) estimada >12% (precisa <12%), Visitante Over 0.5 43% (precisa >65%), Média gols total 2.00 (precisa >=2.5), BTTS médio 43% (precisa >50%). Critérios não atendidos.",
+        "lay_0x1": "P(0-1) estimada >12% (precisa <12%), Mandante Over 0.5 75% (OK), Mandante marca pct 71% (precisa >60%), Média gols total 2.00 (precisa >=2.5), BTTS médio 43% (precisa >50%). Critérios não atendidos."
+      }
+    },
+    {
+      "horario": "08:35",
+      "jogo": "Beijing Guoan x Shandong Luneng",
+      "liga": "China Chinese Super League",
+      "motivo": "Jogo com favoritismo para o visitante e dados de gols insuficientes para outros métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Shandong Luneng) é 50% (precisa >= 65%).",
+        "lay_zebra": "Não se aplica, pois o Shandong Luneng é o favorito.",
+        "over_limite_70": "Dados de gols por período insuficientes no PDF para aplicar o critério.",
+        "back_2x2": "Over 2.5 média 75% (OK), Ambas Marcam média 63% (OK), Over HT média 63% (precisa >= 70%). Critérios não atendidos.",
+        "back_goleada": "Probabilidade estimada de vitória do favorito (Shandong Luneng) é 50% (precisa >= 70%).",
+        "lay_1x0": "P(1-0) estimada >12% (precisa <12%), Visitante Over 0.5 25% (precisa >65%), Média gols total 3.50 (OK), BTTS médio 63% (OK). Critérios não atendidos.",
+        "lay_0x1": "P(0-1) estimada >12% (precisa <12%), Mandante Over 0.5 100% (OK), Mandante marca pct 75% (OK), Média gols total 3.50 (OK), BTTS médio 63% (OK). Critérios não atendidos."
+      }
+    },
+    {
+      "horario": "08:35",
+      "jogo": "Dalian Zhixing FC x Wuhan Three Towns",
+      "liga": "China Chinese Super League",
+      "motivo": "Jogo com forte favoritismo para o mandante e dados de gols insuficientes para outros métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Dalian Zhixing FC) é 63% (precisa >= 65%).",
+        "lay_zebra": "Não se aplica, pois o Dalian Zhixing FC é o favorito.",
+        "over_limite_70": "Dados de gols por período insuficientes no PDF para aplicar o critério.",
+        "back_2x2": "Over 2.5 média 67% (OK), Ambas Marcam média 78% (OK), Over HT média 63% (precisa >= 70%). Critérios não atendidos.",
+        "back_goleada": "Probabilidade estimada de vitória do favorito (Dalian Zhixing FC) é 63% (precisa >= 70%).",
+        "lay_1x0": "P(1-0) estimada >12% (precisa <12%), Visitante Over 0.5 50% (precisa >65%), Média gols total 3.66 (OK), BTTS médio 78% (OK). Critérios não atendidos.",
+        "lay_0x1": "P(0-1) estimada >12% (precisa <12%), Mandante Over 0.5 100% (OK), Mandante marca pct 100% (OK), Média gols total 3.66 (OK), BTTS médio 78% (OK). Critérios não atendidos."
+      }
+    },
+    {
+      "horario": "09:00",
+      "jogo": "Tianjin Teda x Sichuan Jiuniu",
+      "liga": "China Chinese Super League",
+      "motivo": "Jogo com baixo favoritismo e dados de gols insuficientes para outros métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Sichuan Jiuniu) é 57% (precisa >= 65%).",
+        "lay_zebra": "Não se aplica, pois o Sichuan Jiuniu é o favorito.",
+        "over_limite_70": "Dados de gols por período insuficientes no PDF para aplicar o critério.",
+        "back_2x2": "Over 2.5 média 43% (precisa >= 60%), Ambas Marcam média 57% (precisa >= 60%), Over HT média 63% (precisa >= 70%). Critérios não atendidos.",
+        "back_goleada": "Probabilidade estimada de vitória do favorito (Sichuan Jiuniu) é 57% (precisa >= 70%).",
+        "lay_1x0": "P(1-0) estimada >12% (precisa <12%), Visitante Over 0.5 43% (precisa >65%), Média gols total 2.57 (OK), BTTS médio 57% (OK). Critérios não atendidos.",
+        "lay_0x1": "P(0-1) estimada >12% (precisa <12%), Mandante Over 0.5 100% (OK), Mandante marca pct 57% (precisa >60%), Média gols total 2.57 (OK), BTTS médio 57% (OK). Critérios não atendidos."
+      }
+    },
+    {
+      "horario": "16:00",
+      "jogo": "Criciúma x Sport Recife",
+      "liga": "Brazil Serie B",
+      "motivo": "Jogo com baixo favoritismo e dados de gols insuficientes para outros métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Criciúma) é 57% (precisa >= 65%).",
+        "lay_zebra": "Não se aplica, pois o Criciúma é o favorito.",
+        "over_limite_70": "Criciúma Marcado 61-75: 22% (precisa >= 25%), Criciúma Marcado 76-90: 11% (precisa >= 25%), Sport Recife Sofrido 46-60: 25% (precisa >= 25%), Sport Recife Sofrido 61-75: 25% (precisa >= 25%). Critérios não atendidos.",
+        "back_2x2": "Over 2.5 média 43% (precisa >= 60%), Ambas Marcam média 43% (precisa >= 60%), Over HT média 71% (OK). Critérios não atendidos.",
+        "back_goleada": "Probabilidade estimada de vitória do favorito (Criciúma) é 57% (precisa >= 70%).",
+        "lay_1x0": "P(1-0) estimada >12% (precisa <12%), Visitante Over 0.5 43% (precisa >65%), Média gols total 1.57 (precisa >=2.5), BTTS médio 43% (precisa >50%). Critérios não atendidos.",
+        "lay_0x1": "P(0-1) estimada >12% (precisa <12%), Mandante Over 0.5 100% (OK), Mandante marca pct 100% (OK), Média gols total 1.57 (precisa >=2.5), BTTS médio 43% (precisa >50%). Critérios não atendidos."
+      }
+    },
+    {
+      "horario": "16:00",
+      "jogo": "Goiás x Ceará",
+      "liga": "Brazil Serie B",
+      "motivo": "Jogo equilibrado com baixo favoritismo e dados de gols insuficientes para outros métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do favorito (Goiás) é 57% (precisa >= 65%).",
+        "lay_zebra": "Não se aplica, pois o Goiás é o favorito.",
+        "over_limite_70": "Goiás Marcado 61-75: 17% (precisa >= 25%), Goiás Marcado 76-90: 33% (precisa >= 25%), Ceará Sofrido 46-60: 10% (precisa >= 25%), Ceará Sofrido 61-75: 20% (precisa >= 25%). Critérios não atendidos.",
+        "back_2x2": "Over 2.5 média 14% (precisa >= 60%), Ambas Marcam média 43% (precisa >= 60%), Over HT média 43% (precisa >= 70%). Critérios não atendidos.",
+        "back_goleada": "Probabilidade estimada de vitória do favorito (Goiás) é 57% (precisa >= 70%).",
+        "lay_1x0": "P(1-0) estimada >12% (precisa <12%), Visitante Over 0.5 43% (precisa >65%), Média gols total 1.85 (precisa >=2.5), BTTS médio 43% (precisa >50%). Critérios não atendidos.",
+        "lay_0x1": "P(0-1) estimada >12% (precisa <12%), Mandante Over 0.5 56% (precisa >65%), Mandante marca pct 56% (precisa >60%), Média gols total 1.85 (precisa >=2.5), BTTS médio 43% (precisa >50%). Critérios não atendidos."
+      }
+    }
+  ],
+  "pdfs": [
+    {
+      "jogo": "Qingdao Youth Island FC x Shanghai SIPG",
+      "arquivo": "pdfs/2026-07-04/China_Chinese_Super_League/001_08h00_Qingdao_Youth_Island_FC_x_Shanghai_SIPG.pdf"
+    },
+    {
+      "jogo": "Shenyang Urban x Chongqing Tongliang Long FC",
+      "arquivo": "pdfs/2026-07-04/China_Chinese_Super_League/002_08h00_Shenyang_Urban_x_Chongqing_Tongliang_Long_FC.pdf"
+    },
+    {
+      "jogo": "Beijing Guoan x Shandong Luneng",
+      "arquivo": "pdfs/2026-07-04/China_Chinese_Super_League/003_08h35_Beijing_Guoan_x_Shandong_Luneng.pdf"
+    },
+    {
+      "jogo": "Dalian Zhixing FC x Wuhan Three Towns",
+      "arquivo": "pdfs/2026-07-04/China_Chinese_Super_League/004_08h35_Dalian_Zhixing_FC_x_Wuhan_Three_Towns.pdf"
+    },
+    {
+      "jogo": "Tianjin Teda x Sichuan Jiuniu",
+      "arquivo": "pdfs/2026-07-04/China_Chinese_Super_League/005_09h00_Tianjin_Teda_x_Sichuan_Jiuniu.pdf"
+    },
+    {
+      "jogo": "Londrina x CRB",
+      "arquivo": "pdfs/2026-07-04/Brazil_Serie_B/006_16h00_Londrina_x_CRB.pdf"
+    },
+    {
+      "jogo": "Criciúma x Sport Recife",
+      "arquivo": "pdfs/2026-07-04/Brazil_Serie_B/007_16h00_Criciúma_x_Sport_Recife.pdf"
+    },
+    {
+      "jogo": "Novorizontino x Atlético GO",
+      "arquivo": "pdfs/2026-07-04/Brazil_Serie_B/008_16h00_Novorizontino_x_Atlético_GO.pdf"
+    },
+    {
+      "jogo": "Goiás x Ceará",
+      "arquivo": "pdfs/2026-07-04/Brazil_Serie_B/009_20h00_Goiás_x_Ceará.pdf"
+    },
+    {
+      "jogo": "Canadá x Marrocos",
+      "arquivo": "pdfs/2026-07-04/International_World_Cup/010_14h00_Canadá_x_Marrocos.pdf"
+    },
+    {
+      "jogo": "Paraguai x França",
+      "arquivo": "pdfs/2026-07-04/International_World_Cup/011_18h00_Paraguai_x_França.pdf"
+    }
+  ]
+}
