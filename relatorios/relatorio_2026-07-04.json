@@ -1,7 +1,7 @@
 {
   "data": "2026-07-04",
   "variante": "",
-  "gerado_em": "2026-07-04T08:45:21.391532",
+  "gerado_em": "2026-07-04T09:13:51.998389",
   "total_partidas_analisadas": 11,
   "total_partidas_disponiveis": 11,
   "entradas": [
@@ -457,125 +457,119 @@
     },
     {
       "horario": "18:00",
-      "liga": "World Cup",
+      "liga": "International World Cup",
       "jogo": "Paraguai x França",
       "metodos_aplicados": [
-        "back_favorito",
-        "back_goleada",
-        "over_limite_70"
+        "over_limite_70",
+        "lay_1x0",
+        "lay_0x1"
       ],
-      "mercado_principal": "Vitória França",
-      "probabilidade_estimada": "85%",
-      "fair_odd": "1.18",
-      "odd_minima_entrada": "1.32",
+      "mercado_principal": "Mais X.5 gols",
+      "probabilidade_estimada": "70% (probabilidade de mais um gol após 65min)",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.65",
       "media_gols_casa": "1.20",
       "media_gols_fora": "2.90",
-      "explicacao_curta": "França é favorita absoluta com 90% de vitórias e ataque avassalador. Paraguai sofre muitos gols.",
+      "explicacao_curta": "Jogo de Copa do Mundo com alta motivação. França tem ataque potente e Paraguai mostra capacidade de marcar e sofrer gols na reta final, indicando potencial para mais gols.",
       "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Prob. 85% → fair 1.18; com margem de segurança, só entrar acima de 1.32",
-      "mercado_secundario": "França marca 4+ e vence",
-      "odd_minima_secundaria": "4.00",
-      "desempenho_1t": "França marca 1.30 no 1ºT",
-      "desempenho_2t": "Paraguai sofre 1.60 no 2ºT",
+      "valor_esperado": "Prob. 70% → fair 1.43; com margem de segurança, só entrar acima de 1.65",
+      "mercado_secundario": "Lay 1x0",
+      "odd_minima_secundaria": "10.50",
+      "desempenho_1t": "Paraguai marca 0.50 gols/jogo no 1ºT, França marca 1.30 gols/jogo no 1ºT.",
+      "desempenho_2t": "Paraguai marca 0.70 gols/jogo no 2ºT, França marca 1.60 gols/jogo no 2ºT.",
       "contexto_times": {
         "casa": {
           "posicao": "",
           "objetivo": "titulo"
         },
         "fora": {
-          "posicao": "",
+          "posicao": "1º",
           "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "França lidera o grupo com 9 pontos, 100% de aproveitamento e busca manter a hegemonia. Paraguai, apesar de ter 3 pontos, ainda tem chances matemáticas, mas enfrenta um adversário de nível muito superior.",
-      "coeficiente_regularidade": "França: CV baixo / Paraguai: CV moderado",
-      "mando_de_campo": "França tem 90% de vitórias e média de 2.90 gols marcados.",
-      "condicoes_campo": "Pitch, clima, fadiga. Se irrelevante: 'sem fatores relevantes'",
+      "motivacao_tecnica": "França é um super favorito com ataque potente (2.90 gols/jogo) e Paraguai, embora menos ofensivo (1.20 gols/jogo), tem capacidade de marcar e sofre gols. O contexto de Copa do Mundo garante alta motivação para ambas as seleções, favorecendo um jogo com gols.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "Jogo em campo neutro (Copa do Mundo).",
+      "condicoes_campo": "sem fatores relevantes",
       "desfalques_chave": "elenco completo",
-      "especificidades_gols": "França tem ataque avassalador, Paraguai sofre muitos gols.",
-      "momento_gols": "França marca mais no 2º tempo (80% Over 0.5 gols), Paraguai sofre mais no 2º tempo (85% Over 1.5 gols).",
-      "jogadores_chave": "Mbappé, Griezmann (FRA)",
-      "placares_provaveis": "3x0, 4x1, 3x1",
-      "momento_entrada": "Pré-jogo",
-      "situacao_saida": "Se o jogo ficar empatado ou o Paraguai abrir o placar.",
-      "stake_recomendada": "3%",
+      "especificidades_gols": "França tem ataque muito produtivo e marca consistentemente. Paraguai marca menos, mas tem capacidade de balançar as redes.",
+      "momento_gols": "Paraguai marca 25% dos gols entre 61-75min. França sofre 50% dos gols entre 76-90min.",
+      "jogadores_chave": "sem dados específicos no material",
+      "placares_provaveis": "2x1, 3x1, 3x0",
+      "momento_entrada": "Ao vivo, após 65min para Over Limite; Pré-jogo para Lay 1x0 e Lay 0x1.",
+      "situacao_saida": "Cash-out para Lay 1x0/0x1 se placar 0-1/1-0 ou 1-1, ou após 60min sem gol. Para Over Limite, cash-out se gol sair.",
+      "stake_recomendada": "1%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo extremo e dados estatísticos claros.",
-        "gatilho_saida_parcial": "Se França abrir 2x0 ou 3x0.",
-        "hard_stop": "Se Paraguai abrir o placar."
+        "justificativa_abordagem": "Métodos com critérios bem definidos e boa margem de segurança, especialmente em um jogo de Copa do Mundo com alta motivação.",
+        "gatilho_saida_parcial": "Para Lay 1x0/0x1, cash-out parcial em 2x1 ou 1x2.",
+        "hard_stop": "Para Lay 1x0/0x1, se o placar alvo (1x0 ou 0x1) se concretizar."
       },
-      "back_favorito": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "prob_>=_85%",
-          "favorito_em_casa_ou_superior",
-          "adversario_<_35%",
-          "liga_permitida"
-        ],
-        "criterios_total": 4,
-        "modo": "pre_jogo",
-        "favorito": "França",
-        "odd_alvo": "1.32",
-        "razao": "França é favorita absoluta com 90% de vitórias e ataque avassalador.",
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": "3%"
-      },
-      "lay_zebra": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 3
-      },
+      "back_favorito": null,
+      "lay_zebra": null,
       "over_limite_70": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "favorito_marcado_76-90_>=_25%",
-          "adversario_sofrido_46-60_>=_25%"
+          "paraguai_marcado_61-75_>=_25%",
+          "franca_sofrido_76-90_>=_25%"
         ],
         "criterios_total": 4,
         "modo": "ao_vivo",
-        "favorito_ou_motivacao": "França - busca manter hegemonia",
-        "indices_gols_faixas": "Paraguai Marcado 61-75: 25% | 76-90: 8% | Paraguai Sofrido 61-75: 17% | 76-90: 8% | França Marcado 61-75: 25% | 76-90: 8% | França Sofrido 61-75: 17% | 76-90: 8%",
-        "qual_condicao_atende": "França Marcado 61-75: 25% (atende a); Paraguai Sofrido 46-60: 33% (atende c)",
-        "motivo_motivacao": "França busca manter 100% de aproveitamento.",
-        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "favorito_ou_motivacao": "França - brigando pelo título da Copa do Mundo",
+        "indices_gols_faixas": "Paraguai Marcado 61-75: 25% | 76-90: 8% | França Sofrido 61-75: 13% | 76-90: 50%",
+        "qual_condicao_atende": "Paraguai Marcado 61-75 (25%) e França Sofrido 76-90 (50%)",
+        "motivo_motivacao": "Jogo de Copa do Mundo, alta motivação para ambas as seleções. França com ataque potente e Paraguai com capacidade de marcar.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
         "mercado_sugerido": "Mais X.5 gols",
         "odd_esperada": "1.60 a 2.20",
         "stake_recomendada": "1%",
         "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
       },
-      "back_2x2": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 3
-      },
-      "back_goleada": {
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_favorito_>=_70%",
-          "ofensiva_favorito_>=_2.5",
-          "defesa_adv_>=_2.0"
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
         ],
-        "criterios_total": 3,
-        "candidato": "França",
-        "razao": "Favoritismo extremo da França, ataque avassalador e defesa frágil do Paraguai.",
+        "criterios_total": 5,
         "modo": "pre_jogo",
-        "mercado_sugerido": "França marca 4+ e vence",
-        "odd_esperada": "3.50 a 7.00",
-        "stake_recomendada": "1%"
-      },
-      "lay_1x0": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 5
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "100%",
+        "visitante_marca_pct": "100%",
+        "media_gols_total": "3.05",
+        "btts_medio": "60%",
+        "razao": "França tem ataque muito potente (2.90 gols/jogo) e marca em 100% dos jogos, além de alta média de gols total (3.05) e BTTS (60%), tornando o placar 1x0 improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
       },
       "lay_0x1": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 5
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "80%",
+        "mandante_marca_pct": "80%",
+        "media_gols_total": "3.05",
+        "btts_medio": "60%",
+        "razao": "Paraguai tem capacidade ofensiva (1.20 gols/jogo) e marca em 80% dos jogos, com alta média de gols total (3.05) e BTTS (60%), tornando o placar 0x1 improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
       },
-      "confirmacao_visual": null,
-      "media_gols_ajustada_coerencia": true
+      "confirmacao_visual": null
     }
   ],
   "evitar": [
@@ -598,7 +592,7 @@
       "horario": "16:00",
       "jogo": "Criciúma x Sport Recife",
       "liga": "Brazil Serie B",
-      "motivo": "Reprovado na validação numérica dos critérios do lay: lay_1x0: visitante marca em 57% dos jogos (precisa >65%); visitante marca 57% (precisa >60%); média de gols total 1.57 (precisa ≥2.5); ambas marcam 43% (precisa >50%)"
+      "motivo": "Reprovado na validação numérica dos critérios do lay: lay_1x0: visitante marca em 57% dos jogos (precisa >65%); visitante marca 57% (precisa >60%); média de gols total 1.57 (precisa ≥2.5); ambas marcam 43% (precisa >50%); P(1x0) calculada por Poisson das médias = 21% (precisa <12% — o placar é provável demais pra fazer lay dele)"
     },
     {
       "horario": "20:00",
