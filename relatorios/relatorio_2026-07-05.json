@@ -1,0 +1,76 @@
+{
+  "data": "2026-07-05",
+  "variante": "",
+  "gerado_em": "2026-07-04T08:46:57.352671",
+  "total_partidas_analisadas": 5,
+  "total_partidas_disponiveis": 5,
+  "entradas": [],
+  "evitar": [
+    {
+      "horario": "08:00",
+      "jogo": "Qingdao Jonoon x Chengdu Better City FC",
+      "liga": "China Chinese Super League",
+      "motivo": "Favoritismo do Chengdu e alta média de gols, mas não se encaixa em métodos específicos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do Chengdu é 75%, mas o jogo não se encaixa nos critérios de odd mínima de entrada.",
+        "lay_zebra": "Não aplicável, pois Chengdu é favorito.",
+        "over_limite_70": "Dados de gols por faixa de tempo não disponíveis no PDF.",
+        "back_2x2": "Índice de Over 2.5 é 63%, mas BTTS é 63% e a média de gols é 3.26, o que não se encaixa nos critérios de 2x2.",
+        "back_goleada": "Favoritismo do Chengdu é claro (75% de vitórias), mas a média ofensiva do Chengdu é 1.25 gols/jogo, abaixo do mínimo de 2.5.",
+        "lay_1x0": "Média de gols total é 3.26, mas o visitante (Chengdu) marca em 50% dos jogos, abaixo do mínimo de 60%.",
+        "lay_0x1": "Média de gols total é 3.26, mas o mandante (Qingdao) marca em 75% dos jogos, abaixo do mínimo de 60%."
+      }
+    },
+    {
+      "horario": "08:35",
+      "jogo": "Shanghai Shenhua x Hangzhou",
+      "liga": "China Chinese Super League",
+      "motivo": "Jogo com alta média de gols, mas sem um claro favoritismo ou padrão para os métodos específicos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do Shanghai Shenhua é 50%, o que não configura um favorito claro para o método.",
+        "lay_zebra": "Não aplicável, pois não há zebra clara com odd >= 5.00.",
+        "over_limite_70": "Dados de gols por faixa de tempo não disponíveis no PDF.",
+        "back_2x2": "Índice de Over 2.5 é 75%, mas BTTS é 50% e a média de gols é 3.38, o que não se encaixa nos critérios de 2x2.",
+        "back_goleada": "Não aplicável, pois não há favoritismo extremo (probabilidade estimada de vitória do Shanghai Shenhua é 50%).",
+        "lay_1x0": "Média de gols total é 3.38, mas o visitante (Hangzhou) marca em 38% dos jogos, abaixo do mínimo de 60%.",
+        "lay_0x1": "Média de gols total é 3.38, mas o mandante (Shanghai Shenhua) marca em 100% dos jogos, o que não se encaixa no critério de P(0-1) estimada < 12%."
+      }
+    },
+    {
+      "horario": "17:00",
+      "jogo": "Brasil x Noruega",
+      "liga": "International World Cup",
+      "motivo": "Jogo de seleções com alta média de gols, mas sem um claro favorito para Back Favorito ou Lay Zebra.",
+      "motivos_por_metodo": {
+        "back_favorito": "Brasil tem 70% de vitórias, mas a odd mínima de entrada não é atingida com a probabilidade estimada.",
+        "lay_zebra": "Noruega tem 60% de vitórias, não se configurando como zebra com odd >= 5.00.",
+        "over_limite_70": "Dados de gols por faixa de tempo não disponíveis no PDF.",
+        "back_2x2": "Índice de Over 2.5 é 80%, mas BTTS é 90% e a média de gols é 3.70, o que não se encaixa nos critérios de 2x2.",
+        "back_goleada": "Não aplicável, pois não há favoritismo extremo (probabilidade estimada de vitória do Brasil é 70%, mas não é extremo).",
+        "lay_1x0": "Média de gols total é 3.70, mas o visitante (Noruega) marca em 70% dos jogos, abaixo do mínimo de 60%.",
+        "lay_0x1": "Média de gols total é 3.70, mas o mandante (Brasil) marca em 100% dos jogos, o que não se encaixa no critério de P(0-1) estimada < 12%."
+      }
+    },
+    {
+      "horario": "21:00",
+      "jogo": "México x Inglaterra",
+      "liga": "International World Cup",
+      "motivo": "Jogo de seleções com alta média de gols, mas sem um claro favorito para Back Favorito ou Lay Zebra.",
+      "motivos_por_metodo": {
+        "back_favorito": "México tem 80% de vitórias, mas a odd mínima de entrada não é atingida com a probabilidade estimada.",
+        "lay_zebra": "Inglaterra tem 70% de vitórias, não se configurando como zebra com odd >= 5.00.",
+        "over_limite_70": "Dados de gols por faixa de tempo não disponíveis no PDF.",
+        "back_2x2": "Índice de Over 2.5 é 30%, o que não atende ao critério de >= 60%.",
+        "back_goleada": "Não aplicável, pois não há favoritismo extremo (probabilidade estimada de vitória do México é 80%, mas não é extremo).",
+        "lay_1x0": "Média de gols total é 2.20, mas o visitante (Inglaterra) marca em 70% dos jogos, abaixo do mínimo de 60%.",
+        "lay_0x1": "Média de gols total é 2.20, mas o mandante (México) marca em 90% dos jogos, o que não se encaixa no critério de P(0-1) estimada < 12%."
+      }
+    },
+    {
+      "horario": "20:30",
+      "jogo": "Náutico x Juventude",
+      "liga": "Brazil Serie B",
+      "motivo": "Reprovado na validação numérica dos critérios do lay: lay_1x0: média de gols total 1.71 (precisa ≥2.5); ambas marcam 43% (precisa >50%)"
+    }
+  ]
+}
