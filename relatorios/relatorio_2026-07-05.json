@@ -1,76 +1,663 @@
 {
   "data": "2026-07-05",
-  "variante": "",
-  "gerado_em": "2026-07-04T08:46:57.352671",
+  "dia_consultado": "amanha",
+  "gerado_em": "2026-07-04T08:56:29.233184",
   "total_partidas_analisadas": 5,
-  "total_partidas_disponiveis": 5,
-  "entradas": [],
-  "evitar": [
+  "entradas": [
     {
       "horario": "08:00",
-      "jogo": "Qingdao Jonoon x Chengdu Better City FC",
       "liga": "China Chinese Super League",
-      "motivo": "Favoritismo do Chengdu e alta média de gols, mas não se encaixa em métodos específicos.",
-      "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada de vitória do Chengdu é 75%, mas o jogo não se encaixa nos critérios de odd mínima de entrada.",
-        "lay_zebra": "Não aplicável, pois Chengdu é favorito.",
-        "over_limite_70": "Dados de gols por faixa de tempo não disponíveis no PDF.",
-        "back_2x2": "Índice de Over 2.5 é 63%, mas BTTS é 63% e a média de gols é 3.26, o que não se encaixa nos critérios de 2x2.",
-        "back_goleada": "Favoritismo do Chengdu é claro (75% de vitórias), mas a média ofensiva do Chengdu é 1.25 gols/jogo, abaixo do mínimo de 2.5.",
-        "lay_1x0": "Média de gols total é 3.26, mas o visitante (Chengdu) marca em 50% dos jogos, abaixo do mínimo de 60%.",
-        "lay_0x1": "Média de gols total é 3.26, mas o mandante (Qingdao) marca em 75% dos jogos, abaixo do mínimo de 60%."
-      }
+      "jogo": "Qingdao Jonoon x Chengdu Better City FC",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2",
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "probabilidade_estimada": "55%",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.14",
+      "media_gols_casa": "2.00",
+      "media_gols_fora": "1.88",
+      "explicacao_curta": "Chengdu, líder da liga, enfrenta Qingdao com defesas que sofrem gols no final do jogo. Há um bom padrão para gols tardios e placares abertos.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 55% → fair 1.82; com margem de segurança, só entrar acima de 2.14",
+      "mercado_secundario": "Placar Exato 2x2",
+      "odd_minima_secundaria": "13.89",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "14º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "1º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "O Chengdu Better City FC é o líder da liga e busca manter a ponta, enquanto o Qingdao Jonoon está na 14ª posição. Ambos os times têm médias de gols totais altas (3.25 e 3.26) e o Chengdu tem um histórico de sofrer gols na reta final (27% e 45% nos últimos 30 minutos), o que favorece o método Over Limite. Além disso, ambos os times têm bom índice de Over 2.5 e Ambas Marcam, e defesas que sofrem mais de 1.2 gols/jogo, indicando um jogo aberto.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": "Chengdu sofre 27% dos gols entre 61-75min e 45% entre 76-90min.",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "Ao vivo, após 65min",
+      "situacao_saida": "Cash-out se o placar atingir o alvo ou se o jogo travar.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "As estatísticas de gols tardios do adversário são fortes, indicando valor para um gol adicional.",
+        "gatilho_saida_parcial": "Se o jogo estiver com placar baixo e sem chances claras após 75min.",
+        "hard_stop": "Saída total se o jogo estiver 0x0 ou com 3+ gols de diferença."
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": "Jogo fora das ligas permitidas para Back Favorito.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": "Jogo fora das ligas permitidas para Lay Zebra.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "adversario_sofrido_61-75_>=_25%",
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Chengdu Better City FC - líder da liga, busca manter a ponta.",
+        "indices_gols_faixas": "Qingdao Marcado 61-75: 13% | 76-90: 19% | Chengdu Sofrido 61-75: 27% | 76-90: 45%",
+        "qual_condicao_atende": "c (Chengdu Sofrido 61-75: 27%) e d (Chengdu Sofrido 76-90: 45%)",
+        "motivo_motivacao": "Chengdu é o líder da liga e tem alta motivação para manter a posição, enquanto Qingdao está na parte de baixo da tabela.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over_2_5_>=_60%",
+          "ambas_marcam_>=_60%",
+          "defesa_fragil_>=_1_2_gols"
+        ],
+        "criterios_total": 3,
+        "razao": "Ambos os times apresentam alto índice de Over 2.5 (63% cada) e Ambas Marcam (63% cada), com defesas que sofrem mais de 1.2 gols/jogo (Qingdao 1.25, Chengdu 1.38).",
+        "indice_over_2_5": "63% — Qingdao 63%, Chengdu 63%",
+        "indice_ambas_marcam": "63% — Qingdao 63%, Chengdu 63%",
+        "indice_over_ht": "57% — Qingdao 63%, Chengdu 50%",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": "Média ofensiva do favorito (1.88) abaixo de 2.5 gols/jogo. Adversário sofre (1.25) abaixo de 2.0 gols/jogo.",
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "media_gols_total_>=_2.5",
+          "visitante_over_0_5_>_65%",
+          "visitante_marca_>_60%",
+          "btts_medio_>_50%",
+          "p_1_0_estimada_<_12%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "88%",
+        "visitante_marca_pct": "87%",
+        "media_gols_total": "3.255",
+        "btts_medio": "63%",
+        "razao": "O jogo tem perfil de muitos gols (média total 3.255) e o visitante (Chengdu) é muito produtivo (marca em 87% dos jogos, Over 0.5 em 88%), tornando o placar 1x0 improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "media_gols_total_>=_2.5",
+          "mandante_over_0_5_>_65%",
+          "mandante_marca_>_60%",
+          "btts_medio_>_50%",
+          "p_0_1_estimada_<_12%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "75%",
+        "mandante_marca_pct": "75%",
+        "media_gols_total": "3.255",
+        "btts_medio": "63%",
+        "razao": "O jogo tem perfil de muitos gols (média total 3.255) e o mandante (Qingdao) é produtivo (marca em 75% dos jogos, Over 0.5 em 75%), tornando o placar 0x1 improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
     },
     {
       "horario": "08:35",
-      "jogo": "Shanghai Shenhua x Hangzhou",
       "liga": "China Chinese Super League",
-      "motivo": "Jogo com alta média de gols, mas sem um claro favoritismo ou padrão para os métodos específicos.",
-      "motivos_por_metodo": {
-        "back_favorito": "Probabilidade estimada de vitória do Shanghai Shenhua é 50%, o que não configura um favorito claro para o método.",
-        "lay_zebra": "Não aplicável, pois não há zebra clara com odd >= 5.00.",
-        "over_limite_70": "Dados de gols por faixa de tempo não disponíveis no PDF.",
-        "back_2x2": "Índice de Over 2.5 é 75%, mas BTTS é 50% e a média de gols é 3.38, o que não se encaixa nos critérios de 2x2.",
-        "back_goleada": "Não aplicável, pois não há favoritismo extremo (probabilidade estimada de vitória do Shanghai Shenhua é 50%).",
-        "lay_1x0": "Média de gols total é 3.38, mas o visitante (Hangzhou) marca em 38% dos jogos, abaixo do mínimo de 60%.",
-        "lay_0x1": "Média de gols total é 3.38, mas o mandante (Shanghai Shenhua) marca em 100% dos jogos, o que não se encaixa no critério de P(0-1) estimada < 12%."
-      }
+      "jogo": "Shanghai Shenhua x Hangzhou",
+      "metodos_aplicados": [
+        "back_2x2",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Placar Exato 2x2",
+      "probabilidade_estimada": "9%",
+      "fair_odd": "11.11",
+      "odd_minima_entrada": "13.89",
+      "media_gols_casa": "2.25",
+      "media_gols_fora": "1.38",
+      "explicacao_curta": "Ambos os times têm alto índice de Over 2.5 e Ambas Marcam, com defesas que sofrem muitos gols, indicando um jogo aberto e com chances de 2x2.",
+      "alerta_geral": null,
+      "valor_esperado": "Prob. 9% → fair 11.11; com margem de segurança, só entrar acima de 13.89",
+      "mercado_secundario": "Lay Placar Exato 0x1",
+      "odd_minima_secundaria": "11.00",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "11º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "8º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Shanghai Shenhua e Hangzhou são times de meio de tabela, com o Shanghai em 11º e Hangzhou em 8º. Ambos têm um perfil ofensivo, com altas médias de gols totais (3.88 e 3.38) e altos índices de Over 2.5 (75% cada) e Ambas Marcam (Shanghai 75%, Hangzhou 50%). As defesas são frágeis, com Shanghai sofrendo 1.63 gols/jogo e Hangzhou 2.00 gols/jogo, o que favorece um placar com gols para ambos os lados e um potencial 2x2.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": "2x2, 3x2, 2x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2.",
+      "stake_recomendada": "0.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "As estatísticas de gols e defesas frágeis indicam um cenário propício para o placar 2x2.",
+        "gatilho_saida_parcial": "Ao atingir 1x1, 2x1 ou 1x2.",
+        "hard_stop": "Não segurar a aposta até o final se o placar passar pelos gatilhos de saída."
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": "Jogo fora das ligas permitidas para Back Favorito.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": "Jogo fora das ligas permitidas para Lay Zebra.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over_2_5_>=_60%",
+          "ambas_marcam_>=_60%",
+          "defesa_fragil_>=_1_2_gols"
+        ],
+        "criterios_total": 3,
+        "razao": "Ambos os times apresentam alto índice de Over 2.5 (75% cada) e Ambas Marcam (média 62.5%), com defesas que sofrem mais de 1.2 gols/jogo (Shanghai 1.63, Hangzhou 2.00).",
+        "indice_over_2_5": "75% — Shanghai 75%, Hangzhou 75%",
+        "indice_ambas_marcam": "62.5% — Shanghai 75%, Hangzhou 50%",
+        "indice_over_ht": "88% — Shanghai 75%, Hangzhou 100%",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": "Favoritismo insuficiente (prob. 50%, precisa >=70%). Média ofensiva do favorito (2.25) abaixo de 2.5 gols/jogo.",
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": "Visitante Over 0.5 (63%) não atende o critério de >65%.",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "media_gols_total_>=_2.5",
+          "mandante_over_0_5_>_65%",
+          "mandante_marca_>_60%",
+          "btts_medio_>_50%",
+          "p_0_1_estimada_<_12%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "100%",
+        "mandante_marca_pct": "100%",
+        "media_gols_total": "3.63",
+        "btts_medio": "62.5%",
+        "razao": "O jogo tem perfil de muitos gols (média total 3.63) e o mandante (Shanghai Shenhua) é muito produtivo (marca em 100% dos jogos, Over 0.5 em 100%), tornando o placar 0x1 improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
     },
     {
       "horario": "17:00",
-      "jogo": "Brasil x Noruega",
       "liga": "International World Cup",
-      "motivo": "Jogo de seleções com alta média de gols, mas sem um claro favorito para Back Favorito ou Lay Zebra.",
-      "motivos_por_metodo": {
-        "back_favorito": "Brasil tem 70% de vitórias, mas a odd mínima de entrada não é atingida com a probabilidade estimada.",
-        "lay_zebra": "Noruega tem 60% de vitórias, não se configurando como zebra com odd >= 5.00.",
-        "over_limite_70": "Dados de gols por faixa de tempo não disponíveis no PDF.",
-        "back_2x2": "Índice de Over 2.5 é 80%, mas BTTS é 90% e a média de gols é 3.70, o que não se encaixa nos critérios de 2x2.",
-        "back_goleada": "Não aplicável, pois não há favoritismo extremo (probabilidade estimada de vitória do Brasil é 70%, mas não é extremo).",
-        "lay_1x0": "Média de gols total é 3.70, mas o visitante (Noruega) marca em 70% dos jogos, abaixo do mínimo de 60%.",
-        "lay_0x1": "Média de gols total é 3.70, mas o mandante (Brasil) marca em 100% dos jogos, o que não se encaixa no critério de P(0-1) estimada < 12%."
-      }
+      "jogo": "Brasil x Noruega",
+      "metodos_aplicados": [
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Lay Placar Exato 1x0",
+      "probabilidade_estimada": "10%",
+      "fair_odd": "10.00",
+      "odd_minima_entrada": "10.50",
+      "media_gols_casa": "2.40",
+      "media_gols_fora": "2.30",
+      "explicacao_curta": "Ambas as seleções têm ataques muito produtivos e altas médias de gols, tornando placares apertados como 1x0 ou 0x1 improváveis.",
+      "alerta_geral": null,
+      "valor_esperado": "Prob. 10% (de 1x0) → fair 10.00; com margem de segurança, só entrar acima de 10.50",
+      "mercado_secundario": "Lay Placar Exato 0x1",
+      "odd_minima_secundaria": "11.00",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "2º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Este é um jogo de Copa do Mundo, com alta motivação para ambas as seleções. Brasil e Noruega são equipes com ataques muito fortes (média de 2.40 e 2.30 gols/jogo, respectivamente) e altas médias de gols totais (3.30 e 3.70). Ambas Marcam é frequente (Brasil 70%, Noruega 90%). O perfil ofensivo de ambos os lados torna placares como 1x0 ou 0x1 muito improváveis.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": "2x1, 2x2, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol (para Lay 1x0); Cash-out se 1-0, 1-1 ou após 60min sem gol (para Lay 0x1).",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O perfil ofensivo de ambas as seleções e a alta média de gols tornam os placares 1x0 e 0x1 muito improváveis.",
+        "gatilho_saida_parcial": "Se o jogo estiver 0-0 ou 1-0/0-1 por muito tempo sem chances claras.",
+        "hard_stop": "Saída total se o placar se aproximar do 1x0 ou 0x1 e o jogo estiver travado."
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": "Adversário (Noruega) não está em má fase (60% de vitórias, precisa <35%).",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": "Probabilidade estimada de vitória da zebra (Noruega) é de 60%, acima do máximo de 20%.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "razao": "Defesa do mandante (Brasil) sofre 0.90 gols/jogo, abaixo do mínimo de 1.2.",
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": "Média ofensiva do favorito (2.20 nos últimos 5) abaixo de 2.5 gols/jogo. Adversário sofre (1.40) abaixo de 2.0 gols/jogo.",
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "media_gols_total_>=_2.5",
+          "visitante_over_0_5_>_65%",
+          "visitante_marca_>_60%",
+          "btts_medio_>_50%",
+          "p_1_0_estimada_<_12%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "visitante_over_0_5": "90%",
+        "visitante_marca_pct": "90%",
+        "media_gols_total": "3.50",
+        "btts_medio": "80%",
+        "razao": "O jogo tem perfil de muitos gols (média total 3.50) e o visitante (Noruega) é muito produtivo (marca em 90% dos jogos, Over 0.5 em 90%), tornando o placar 1x0 improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "media_gols_total_>=_2.5",
+          "mandante_over_0_5_>_65%",
+          "mandante_marca_>_60%",
+          "btts_medio_>_50%",
+          "p_0_1_estimada_<_12%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "mandante_over_0_5": "100%",
+        "mandante_marca_pct": "100%",
+        "media_gols_total": "3.50",
+        "btts_medio": "80%",
+        "razao": "O jogo tem perfil de muitos gols (média total 3.50) e o mandante (Brasil) é muito produtivo (marca em 100% dos jogos, Over 0.5 em 100%), tornando o placar 0x1 improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
     },
+    {
+      "horario": "20:30",
+      "liga": "Brazil Serie B",
+      "jogo": "Náutico x Juventude",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "probabilidade_estimada": "45%",
+      "fair_odd": "2.22",
+      "odd_minima_entrada": "2.61",
+      "media_gols_casa": "0.86",
+      "media_gols_fora": "0.71",
+      "explicacao_curta": "Náutico tem um bom índice de gols marcados na reta final do jogo, o que pode gerar um gol adicional em um jogo de baixa média.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 45% → fair 2.22; com margem de segurança, só entrar acima de 2.61",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "13º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "5º",
+          "objetivo": "acesso"
+        }
+      },
+      "motivacao_tecnica": "O Juventude está na 5ª posição e briga pelo acesso, enquanto o Náutico está em 13º. Apesar da média total de gols ser baixa (1.715), o Náutico tem um bom índice de gols marcados entre 61-75 minutos (33%), o que pode gerar um gol adicional na reta final do jogo, especialmente com a motivação do Juventude em buscar o resultado.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": "Náutico marca 33% dos gols entre 61-75min.",
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "Ao vivo, após 65min",
+      "situacao_saida": "Cash-out se o placar atingir o alvo ou se o jogo travar.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O índice de gols tardios do mandante é o único critério forte para este jogo de baixa média de gols.",
+        "gatilho_saida_parcial": "Se o jogo estiver com placar baixo e sem chances claras após 75min.",
+        "hard_stop": "Saída total se o jogo estiver 0x0 ou com 3+ gols de diferença."
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 4,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": "Probabilidade estimada de vitória do favorito (Juventude) é de ~45-50%, abaixo do mínimo de 65%.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "odd_zebra_alvo": null,
+        "razao": "Probabilidade estimada de vitória da zebra (Náutico) é de 43%, acima do máximo de 20%.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_61-75_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Náutico - time da casa com bom índice de gols tardios.",
+        "indices_gols_faixas": "Náutico Marcado 61-75: 33% | 76-90: 17% | Juventude Sofrido 61-75: 14% | 76-90: 14%",
+        "qual_condicao_atende": "a (Náutico Marcado 61-75: 33%)",
+        "motivo_motivacao": "Juventude briga por acesso, o que pode levar a um aumento da intensidade no final do jogo.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "razao": "Média de Over 2.5 gols (29%) abaixo do mínimo de 60%.",
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": "Favoritismo insuficiente (prob. ~45-50%, precisa >=70%).",
+        "modo": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": "Média total de gols (1.715) abaixo do mínimo de 2.5.",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": "Média total de gols (1.715) abaixo do mínimo de 2.5.",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null
+    }
+  ],
+  "evitar": [
     {
       "horario": "21:00",
       "jogo": "México x Inglaterra",
       "liga": "International World Cup",
-      "motivo": "Jogo de seleções com alta média de gols, mas sem um claro favorito para Back Favorito ou Lay Zebra.",
+      "motivo": "Nenhum método se aplica devido a critérios não atendidos, principalmente a falta de má fase do adversário para Back Favorito e Lay Zebra, e baixos índices de gols tardios.",
       "motivos_por_metodo": {
-        "back_favorito": "México tem 80% de vitórias, mas a odd mínima de entrada não é atingida com a probabilidade estimada.",
-        "lay_zebra": "Inglaterra tem 70% de vitórias, não se configurando como zebra com odd >= 5.00.",
-        "over_limite_70": "Dados de gols por faixa de tempo não disponíveis no PDF.",
-        "back_2x2": "Índice de Over 2.5 é 30%, o que não atende ao critério de >= 60%.",
-        "back_goleada": "Não aplicável, pois não há favoritismo extremo (probabilidade estimada de vitória do México é 80%, mas não é extremo).",
-        "lay_1x0": "Média de gols total é 2.20, mas o visitante (Inglaterra) marca em 70% dos jogos, abaixo do mínimo de 60%.",
-        "lay_0x1": "Média de gols total é 2.20, mas o mandante (México) marca em 90% dos jogos, o que não se encaixa no critério de P(0-1) estimada < 12%."
+        "back_favorito": "Adversário (Inglaterra) não está em má fase (70% de vitórias, precisa <35%).",
+        "lay_zebra": "Probabilidade estimada de vitória da zebra (Inglaterra) é de 70%, acima do máximo de 20%.",
+        "over_limite_70": "Nenhum dos índices de gols Marcado/Sofrido nas faixas 61-75 ou 76-90 atinge 25%.",
+        "back_2x2": "Média de Over 2.5 gols (30%) abaixo do mínimo de 60%.",
+        "back_goleada": "Adversário (Inglaterra) sofre 0.50 gols/jogo, abaixo do mínimo de 2.0.",
+        "lay_1x0": "Média total de gols (2.25) abaixo do mínimo de 2.5.",
+        "lay_0x1": "Média total de gols (2.25) abaixo do mínimo de 2.5."
       }
+    }
+  ],
+  "pdfs": [
+    {
+      "jogo": "Qingdao Jonoon x Chengdu Better City FC",
+      "arquivo": "pdfs/2026-07-05/China_Chinese_Super_League/001_08h00_Qingdao_Jonoon_x_Chengdu_Better_City_FC.pdf"
     },
     {
-      "horario": "20:30",
+      "jogo": "Shanghai Shenhua x Hangzhou",
+      "arquivo": "pdfs/2026-07-05/China_Chinese_Super_League/002_08h35_Shanghai_Shenhua_x_Hangzhou.pdf"
+    },
+    {
       "jogo": "Náutico x Juventude",
-      "liga": "Brazil Serie B",
-      "motivo": "Reprovado na validação numérica dos critérios do lay: lay_1x0: média de gols total 1.71 (precisa ≥2.5); ambas marcam 43% (precisa >50%)"
+      "arquivo": "pdfs/2026-07-05/Brazil_Serie_B/003_20h30_Náutico_x_Juventude.pdf"
+    },
+    {
+      "jogo": "Brasil x Noruega",
+      "arquivo": "pdfs/2026-07-05/International_World_Cup/004_17h00_Brasil_x_Noruega.pdf"
+    },
+    {
+      "jogo": "México x Inglaterra",
+      "arquivo": "pdfs/2026-07-05/International_World_Cup/005_21h00_México_x_Inglaterra.pdf"
     }
   ]
 }
