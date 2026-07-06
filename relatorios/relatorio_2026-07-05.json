@@ -1,523 +1,195 @@
 {
   "data": "2026-07-05",
   "dia_consultado": "ontem",
-  "gerado_em": "2026-07-06T00:27:41.433990",
-  "total_partidas_analisadas": 5,
+  "gerado_em": "2026-07-06T01:05:47.093150",
+  "total_partidas_analisadas": 14,
   "entradas": [
     {
-      "horario": "08:00",
-      "liga": "China Chinese Super League",
-      "jogo": "Qingdao Jonoon x Chengdu Better City FC",
-      "metodos_aplicados": [
-        "over_limite_70"
-      ],
-      "mercado_principal": "Mais X.5 gols",
-      "probabilidade_estimada": "70%",
-      "fair_odd": "1.43",
-      "odd_minima_entrada": "1.60",
-      "media_gols_casa": "2.00",
-      "media_gols_fora": "1.88",
-      "odds_mercado": {
-        "casa": "5.50",
-        "empate": "4.10",
-        "fora": "1.55",
-        "dupla_chance_1x": "2.50",
-        "dupla_chance_12": "1.20",
-        "dupla_chance_x2": "1.13",
-        "over_05": "1.01",
-        "under_05": "13.00",
-        "over_15": "1.19",
-        "under_15": "4.83",
-        "over_25": "1.57",
-        "under_25": "2.35"
-      },
-      "h2h_odds": {
-        "resumo_favorito_casa": "Super Fav: 6V 3E 8D +3.2U",
-        "resumo_favorito_fora": null,
-        "leitura": "Qingdao Jonoon tem histórico misto em diferentes papéis, mas não como favorito nesta faixa de odd. Chengdu Better City FC é o favorito claro.",
-        "jogos_relevantes": [
-          {
-            "data": "26/06/26",
-            "confronto": "Qingdao Jonoon Yunnan Yukun FC",
-            "time_analisado": "Qingdao Jonoon",
-            "papel": "parelho",
-            "odd": "2.87",
-            "placar": "4 - 2",
-            "resultado": "V",
-            "marcou_primeiro": true,
-            "gol_1t": true,
-            "gol_2t": true,
-            "nao_sofreu": false
-          },
-          {
-            "data": "20/06/26",
-            "confronto": "Wuxi Wugou FC Qingdao Jonoon",
-            "time_analisado": "Qingdao Jonoon",
-            "papel": "parelho",
-            "odd": "2.20",
-            "placar": "2 - 2",
-            "resultado": "E",
-            "marcou_primeiro": false,
-            "gol_1t": true,
-            "gol_2t": true,
-            "nao_sofreu": false
-          },
-          {
-            "data": "30/05/26",
-            "confronto": "Sichuan Jiuniu Qingdao Jonoon",
-            "time_analisado": "Qingdao Jonoon",
-            "papel": "parelho",
-            "odd": "3.25",
-            "placar": "3 - 2",
-            "resultado": "D",
-            "marcou_primeiro": false,
-            "gol_1t": true,
-            "gol_2t": true,
-            "nao_sofreu": false
-          }
-        ]
-      },
-      "explicacao_curta": "Chengdu, líder da liga, tem alta porcentagem de gols marcados e sofridos na reta final. Jogo com desequilíbrio técnico e motivação clara.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Prob. 70% → fair 1.43; com margem de segurança, só entrar acima de 1.60",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": "Qingdao marca 1.25 no 1ºT, Chengdu sofre 0.71 no 1ºT",
-      "desempenho_2t": "Qingdao sofre 1.00 no 2ºT, Chengdu marca 1.25 no 2ºT",
-      "contexto_times": {
-        "casa": {
-          "posicao": "14º",
-          "objetivo": "rebaixamento"
-        },
-        "fora": {
-          "posicao": "1º",
-          "objetivo": "titulo"
-        }
-      },
-      "motivacao_tecnica": "Chengdu, líder da liga, busca manter a ponta contra um Qingdao que luta para se afastar da zona de rebaixamento. O desequilíbrio técnico e a motivação de ambos os lados podem levar a um jogo aberto, especialmente no final.",
-      "coeficiente_regularidade": "",
-      "mando_de_campo": "Qingdao faz 63% dos pontos em casa. Chengdu faz 75% dos pontos fora.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Qingdao tem 31% dos gols marcados nos primeiros 15 min. Chengdu tem 47% dos gols marcados nos últimos 15 min.",
-      "momento_gols": "Chengdu marca 47% dos gols entre 76-90 min e sofre 27% entre 61-75 min e 45% entre 76-90 min.",
-      "jogadores_chave": "",
-      "placares_provaveis": "",
-      "momento_entrada": "ao_vivo",
-      "situacao_saida": "Cash-out ao atingir o lucro desejado ou se o jogo travar.",
-      "stake_recomendada": "1%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "O mercado de Over Limite é dinâmico e oferece oportunidades de valor ao vivo.",
-        "gatilho_saida_parcial": "Se o jogo estiver muito parado ou com poucas chances de gol após a entrada.",
-        "hard_stop": "Saída total se o placar atingir 3+ gols de diferença ou houver expulsão."
-      },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "chengdu_marcado_76-90_>=_25%",
-          "chengdu_sofrido_61-75_>=_25%",
-          "chengdu_sofrido_76-90_>=_25%"
-        ],
-        "criterios_total": 4,
-        "modo": "ao_vivo",
-        "favorito_ou_motivacao": "Chengdu Better City FC - líder da liga, busca manter a ponta",
-        "indices_gols_faixas": "Favorito Marcado 61-75: 13% | 76-90: 19% | Adversário Sofrido 61-75: 27% | 76-90: 45%",
-        "qual_condicao_atende": "b) Chengdu Marcado 76-90: 47%; c) Chengdu Sofrido 61-75: 27%; d) Chengdu Sofrido 76-90: 45%",
-        "motivo_motivacao": "Chengdu 1º colocado brigando por título vs Qingdao 14º lutando contra rebaixamento — desequilíbrio técnico evidente.",
-        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
-        "mercado_sugerido": "Mais X.5 gols",
-        "ponderacao_odds": "Over 1.5 no 2º Tempo a 1.85 é superior à odd mínima de 1.60, indicando valor para gols tardios. Over 2.5 a 1.57 também sugere jogo com gols.",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
-      },
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "08:35",
-      "liga": "China Chinese Super League",
-      "jogo": "Shanghai Shenhua x Hangzhou",
+      "horario": "11:00",
+      "liga": "Brazil Serie C",
+      "jogo": "Ypiranga Erechim x Paysandu",
       "metodos_aplicados": [
         "over_limite_70",
-        "back_2x2",
+        "lay_1x0",
         "lay_0x1"
       ],
       "mercado_principal": "Mais X.5 gols",
-      "probabilidade_estimada": "75%",
-      "fair_odd": "1.33",
-      "odd_minima_entrada": "1.49",
-      "media_gols_casa": "2.25",
-      "media_gols_fora": "1.38",
+      "probabilidade_estimada": "",
+      "fair_odd": "",
+      "odd_minima_entrada": "",
+      "media_gols_casa": "1.50",
+      "media_gols_fora": "1.40",
       "odds_mercado": {
-        "casa": "1.60",
-        "empate": "4.75",
-        "fora": "4.33",
-        "dupla_chance_1x": "1.17",
-        "dupla_chance_12": "1.17",
-        "dupla_chance_x2": "2.30",
-        "over_05": "1.01",
-        "under_05": "29.00",
-        "over_15": "1.11",
-        "under_15": "6.99",
-        "over_25": "1.36",
-        "under_25": "3.10"
-      },
-      "h2h_odds": {
-        "resumo_favorito_casa": "Super Fav: 9V 6E 10D -8.9U",
-        "resumo_favorito_fora": null,
-        "leitura": "Shanghai Shenhua tem histórico de tropeços como favorito, com empates e derrotas em odds baixas, indicando que não é um favorito super confiável.",
-        "jogos_relevantes": [
-          {
-            "data": "24/05/26",
-            "confronto": "Shanghai Shenhua Sichuan Jiuniu",
-            "time_analisado": "Shanghai Shenhua",
-            "papel": "favorito",
-            "odd": "1.50",
-            "placar": "1 - 2",
-            "resultado": "D",
-            "marcou_primeiro": true,
-            "gol_1t": true,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "20/05/26",
-            "confronto": "Shanghai Shenhua Wuhan Three Towns",
-            "time_analisado": "Shanghai Shenhua",
-            "papel": "favorito",
-            "odd": "1.44",
-            "placar": "2 - 2",
-            "resultado": "E",
-            "marcou_primeiro": true,
-            "gol_1t": true,
-            "gol_2t": true,
-            "nao_sofreu": false
-          },
-          {
-            "data": "09/05/26",
-            "confronto": "Shanghai Shenhua Chongqing Tongliang Long FC",
-            "time_analisado": "Shanghai Shenhua",
-            "papel": "favorito",
-            "odd": "1.45",
-            "placar": "2 - 2",
-            "resultado": "E",
-            "marcou_primeiro": true,
-            "gol_1t": true,
-            "gol_2t": true,
-            "nao_sofreu": false
-          }
-        ]
-      },
-      "explicacao_curta": "Shanghai tem bom ataque em casa e Hangzhou sofre muitos gols fora. Ambos com alto Over 2.5 e Ambas Marcam, indicando jogo aberto e com gols tardios.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Prob. 75% → fair 1.33; com margem de segurança, só entrar acima de 1.49",
-      "mercado_secundario": "Placar Exato 2x2",
-      "odd_minima_secundaria": "12.00",
-      "desempenho_1t": "Shanghai marca 1.38 no 1ºT, Hangzhou sofre 1.13 no 1ºT",
-      "desempenho_2t": "Shanghai marca 0.88 no 2ºT, Hangzhou sofre 0.88 no 2ºT",
-      "contexto_times": {
-        "casa": {
-          "posicao": "11º",
-          "objetivo": "meio_tabela"
-        },
-        "fora": {
-          "posicao": "9º",
-          "objetivo": "meio_tabela"
-        }
-      },
-      "motivacao_tecnica": "Shanghai Shenhua, com bom ataque em casa (2.25 gols/jogo), enfrenta um Hangzhou que sofre muitos gols fora (2.00 gols/jogo). Ambos os times têm alto índice de Over 2.5 e Ambas Marcam, indicando um jogo aberto e com gols.",
-      "coeficiente_regularidade": "",
-      "mando_de_campo": "Shanghai faz 50% dos pontos em casa. Hangzhou faz 38% dos pontos fora.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Shanghai marca mais no 1º tempo (28% 31-45min). Hangzhou marca mais no 2º tempo (36% 46-60min, 27% 76-90min). Shanghai sofre mais no final (38% 76-90min).",
-      "momento_gols": "Shanghai sofre 38% dos gols entre 76-90 min. Hangzhou marca 27% dos gols entre 76-90 min.",
-      "jogadores_chave": "",
-      "placares_provaveis": "",
-      "momento_entrada": "ao_vivo",
-      "situacao_saida": "Cash-out ao atingir o lucro desejado ou se o jogo travar.",
-      "stake_recomendada": "1%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "O mercado de Over Limite é dinâmico e oferece oportunidades de valor ao vivo. Back 2x2 é uma aposta de alto risco/recompensa que se beneficia de jogos abertos.",
-        "gatilho_saida_parcial": "Para Back 2x2, cash-out em 1x1, 2x1 ou 1x2. Para Over Limite, se o jogo estiver muito parado.",
-        "hard_stop": "Saída total se o placar atingir 3+ gols de diferença ou houver expulsão."
-      },
-      "back_favorito": null,
-      "lay_zebra": null,
-      "over_limite_70": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "shanghai_sofrido_76-90_>=_25%",
-          "hangzhou_marcado_76-90_>=_25%"
-        ],
-        "criterios_total": 4,
-        "modo": "ao_vivo",
-        "favorito_ou_motivacao": "Shanghai Shenhua - busca subir na tabela",
-        "indices_gols_faixas": "Favorito Marcado 61-75: 17% | 76-90: 6% | Adversário Sofrido 61-75: 19% | 76-90: 19%",
-        "qual_condicao_atende": "d) Shanghai Sofrido 76-90: 38%; b) Hangzhou Marcado 76-90: 27%",
-        "motivo_motivacao": "Shanghai 11º e Hangzhou 9º, ambos em meio de tabela com ataques produtivos e defesas vulneráveis.",
-        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
-        "mercado_sugerido": "Mais X.5 gols",
-        "ponderacao_odds": "Over 1.5 no 2º Tempo a 1.55 é superior à odd mínima de 1.49, indicando valor para gols tardios. Over 2.5 a 1.36 também sugere jogo com muitos gols.",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
-      },
-      "back_2x2": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "over_2_5_>=_60%",
-          "ambas_marcam_>=_60%",
-          "defesa_sofre_>=_1_2",
-          "over_ht_>=_70%"
-        ],
-        "criterios_total": 4,
-        "razao": "Ambos os times têm alto índice de Over 2.5 (75%), Ambas Marcam (62.5%) e Over HT (87.5%), com defesas que sofrem muitos gols (Shanghai 1.63, Hangzhou 2.00).",
-        "indice_over_2_5": "75% — Shanghai 75%, Hangzhou 75%",
-        "indice_ambas_marcam": "62.5% — Shanghai 75%, Hangzhou 50%",
-        "indice_over_ht": "87.5% — Shanghai 75%, Hangzhou 100%",
-        "ponderacao_odds": "Over 2.5 a 1.36 e Ambas Marcam a 1.44 são odds baixas, confirmando a expectativa do mercado por um jogo com muitos gols e gols de ambos os lados.",
-        "modo": "pre_jogo",
-        "odd_alvo": "12.00",
-        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
-        "stake_recomendada": "0.5%"
-      },
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "p_0_1_<_12%",
-          "mand_over_0_5_>_65%",
-          "mand_marca_>_60%",
-          "media_gols_>=_2_5",
-          "btts_>_50%"
-        ],
-        "criterios_total": 5,
-        "modo": "pre_jogo",
-        "prob_0_1_estimada": "10%",
-        "ponderacao_odds": "Under 1.5 a 3.10 é uma odd alta, indicando que o mercado não espera um placar baixo. Over 2.5 a 1.36 reforça a expectativa de mais gols, tornando 0x1 improvável.",
-        "mandante_over_0_5": "100%",
-        "mandante_marca_pct": "100%",
-        "media_gols_total": "3.63",
-        "btts_medio": "62.5%",
-        "razao": "O mandante Shanghai Shenhua tem um ataque muito produtivo (2.25 gols/jogo) e marca em 100% dos jogos. A média total de gols é alta (3.63) e o BTTS médio é 62.5%, tornando um placar de 0x1 improvável.",
-        "odd_alvo": "11.00",
-        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
-        "stake_recomendada": "2%"
-      },
-      "confirmacao_visual": null
-    },
-    {
-      "horario": "17:00",
-      "liga": "International World Cup",
-      "jogo": "Brasil x Noruega",
-      "metodos_aplicados": [
-        "back_favorito",
-        "over_limite_70"
-      ],
-      "mercado_principal": "Vitória Brasil",
-      "probabilidade_estimada": "68%",
-      "fair_odd": "1.47",
-      "odd_minima_entrada": "1.65",
-      "media_gols_casa": "2.40",
-      "media_gols_fora": "2.30",
-      "odds_mercado": {
-        "casa": "1.75",
-        "empate": "3.70",
-        "fora": "4.75",
-        "dupla_chance_1x": "1.14",
+        "casa": "2.35",
+        "empate": "3.20",
+        "fora": "2.62",
+        "dupla_chance_1x": "1.33",
         "dupla_chance_12": "1.25",
-        "dupla_chance_x2": "2.00",
-        "over_05": "1.01",
-        "under_05": "13.00",
-        "over_15": "1.26",
-        "under_15": "3.89",
-        "over_25": "1.66",
-        "under_25": "2.20"
+        "dupla_chance_x2": "1.57",
+        "over_05": "1.02",
+        "under_05": "10.00",
+        "over_15": "1.25",
+        "under_15": "3.60",
+        "over_25": "1.95",
+        "under_25": "1.85"
       },
       "h2h_odds": {
-        "resumo_favorito_casa": "Super Fav: 19V 11E 8D -9.5U",
+        "resumo_favorito_casa": "Parelho: 5V 3E 6D -0.1U",
         "resumo_favorito_fora": null,
-        "leitura": "Brasil tem histórico de tropeços como favorito, com empates e algumas derrotas em odds baixas, o que é um alerta para a confiança no favoritismo.",
+        "leitura": "Ypiranga como parelho tem um histórico ligeiramente negativo, com 5 vitórias, 3 empates e 6 derrotas.",
         "jogos_relevantes": [
           {
-            "data": "13/06/26",
-            "confronto": "Brasil Marrocos",
-            "time_analisado": "Brasil",
-            "papel": "favorito",
-            "odd": "1.65",
+            "data": "28/06/26",
+            "confronto": "Ypiranga Erechim",
+            "time_analisado": "Ypiranga Erechim",
+            "papel": "parelho",
+            "odd": "1.95",
             "placar": "1 - 1",
             "resultado": "E",
-            "marcou_primeiro": true,
-            "gol_1t": true,
-            "gol_2t": false,
-            "nao_sofreu": false
+            "marcou_primeiro": null,
+            "gol_1t": null,
+            "gol_2t": null,
+            "nao_sofreu": null
           },
           {
-            "data": "31/03/26",
-            "confronto": "Brasil Croácia",
-            "time_analisado": "Brasil",
+            "data": "15/06/26",
+            "confronto": "Ypiranga Erechim Botafogo PB",
+            "time_analisado": "Ypiranga Erechim",
             "papel": "favorito",
-            "odd": "1.72",
-            "placar": "3 - 1",
-            "resultado": "V",
-            "marcou_primeiro": true,
-            "gol_1t": true,
-            "gol_2t": true,
-            "nao_sofreu": false
+            "odd": "2.10",
+            "placar": "1 - 1",
+            "resultado": "E",
+            "marcou_primeiro": null,
+            "gol_1t": null,
+            "gol_2t": null,
+            "nao_sofreu": null
           },
           {
-            "data": "26/03/26",
-            "confronto": "Brasil França",
-            "time_analisado": "Brasil",
-            "papel": "parelho",
-            "odd": "2.90",
-            "placar": "1 - 2",
+            "data": "16/05/26",
+            "confronto": "Ypiranga Erechim Maringá",
+            "time_analisado": "Ypiranga Erechim",
+            "papel": "favorito",
+            "odd": "2.50",
+            "placar": "1 - 4",
             "resultado": "D",
-            "marcou_primeiro": false,
-            "gol_1t": true,
-            "gol_2t": false,
-            "nao_sofreu": false
+            "marcou_primeiro": null,
+            "gol_1t": null,
+            "gol_2t": null,
+            "nao_sofreu": null
+          },
+          {
+            "data": "05/05/26",
+            "confronto": "Ypiranga Erechim Ituano",
+            "time_analisado": "Ypiranga Erechim",
+            "papel": "favorito",
+            "odd": "2.05",
+            "placar": "2 - 0",
+            "resultado": "V",
+            "marcou_primeiro": null,
+            "gol_1t": null,
+            "gol_2t": null,
+            "nao_sofreu": null
+          },
+          {
+            "data": "18/04/26",
+            "confronto": "Ypiranga Erechim Anápolis",
+            "time_analisado": "Ypiranga Erechim",
+            "papel": "super_favorito",
+            "odd": "1.60",
+            "placar": "3 - 0",
+            "resultado": "V",
+            "marcou_primeiro": null,
+            "gol_1t": null,
+            "gol_2t": null,
+            "nao_sofreu": null
+          },
+          {
+            "data": "06/04/26",
+            "confronto": "Ypiranga Erechim Figueirense",
+            "time_analisado": "Ypiranga Erechim",
+            "papel": "favorito",
+            "odd": "2.20",
+            "placar": "1 - 1",
+            "resultado": "E",
+            "marcou_primeiro": null,
+            "gol_1t": null,
+            "gol_2t": null,
+            "nao_sofreu": null
+          },
+          {
+            "data": "25/02/26",
+            "confronto": "Ypiranga Erechim Ji-Paraná Futebol Clube",
+            "time_analisado": "Ypiranga Erechim",
+            "papel": "super_favorito",
+            "odd": "1.25",
+            "placar": "2 - 0",
+            "resultado": "V",
+            "marcou_primeiro": null,
+            "gol_1t": null,
+            "gol_2t": null,
+            "nao_sofreu": null
           }
         ]
-      },
-      "explicacao_curta": "Brasil é favorito com bom aproveitamento e ataque forte. Jogo de Copa do Mundo com motivação máxima e potencial para gols tardios.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Prob. 68% → fair 1.47; com margem de segurança, só entrar acima de 1.65",
-      "mercado_secundario": "Mais X.5 gols",
-      "odd_minima_secundaria": "1.49",
-      "desempenho_1t": "Brasil marca 1.30 no 1ºT, Noruega sofre 0.70 no 1ºT",
-      "desempenho_2t": "Brasil marca 1.10 no 2ºT, Noruega sofre 0.70 no 2ºT",
-      "contexto_times": {
-        "casa": {
-          "posicao": "",
-          "objetivo": "titulo"
-        },
-        "fora": {
-          "posicao": "2º",
-          "objetivo": "titulo"
-        }
-      },
-      "motivacao_tecnica": "Jogo de Copa do Mundo, fase eliminatória, motivação máxima para ambas as seleções. Brasil é favorito, mas Noruega tem ataque forte e pode surpreender. O histórico do Brasil como favorito com tropeços é um alerta, mas a odd de mercado ainda oferece valor.",
-      "coeficiente_regularidade": "",
-      "mando_de_campo": "Brasil tem 70% de vitórias. Noruega tem 60% de vitórias.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Brasil marca mais no final do 1º tempo (33% 31-45min) e no final do 2º tempo (21% 76-90min). Noruega marca mais no 2º tempo (22% 46-60min, 26% 76-90min).",
-      "momento_gols": "Noruega marca 26% dos gols entre 76-90 min.",
-      "jogadores_chave": "",
-      "placares_provaveis": "",
-      "momento_entrada": "ao_vivo",
-      "situacao_saida": "Cash-out ao atingir o lucro desejado ou se o jogo travar.",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "A odd do Brasil oferece valor pré-jogo, mas o histórico de tropeços sugere cautela. O Over Limite é uma boa opção ao vivo para confirmar o ritmo do jogo.",
-        "gatilho_saida_parcial": "Para Back Favorito, se o Brasil abrir 2 gols de vantagem. Para Over Limite, se o jogo estiver muito parado.",
-        "hard_stop": "Saída total se o Brasil sofrer um gol inesperado ou se o placar atingir 3+ gols de diferença para Over Limite."
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "prob_>=_65%",
-          "em_casa_ou_aproveitamento",
-          "liga_permitida"
-        ],
-        "criterios_total": 4,
-        "modo": "ao_vivo",
-        "favorito": "Brasil",
-        "odd_alvo": "1.75",
-        "razao": "Brasil tem 70% de vitórias e ataque forte (2.40 gols/jogo). Noruega, embora boa, tem defesa mais vulnerável (1.40 gols sofridos).",
-        "ponderacao_odds": "Odd de 1.75 para o Brasil é superior à odd mínima de 1.65, indicando valor. No entanto, o histórico do Brasil de tropeços como favorito (muitos empates e algumas derrotas com odds baixas) sugere cautela e entrada ao vivo.",
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": null,
-      "over_limite_70": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "noruega_marcado_76-90_>=_25%"
-        ],
-        "criterios_total": 4,
-        "modo": "ao_vivo",
-        "favorito_ou_motivacao": "Brasil - motivação máxima em Copa do Mundo",
-        "indices_gols_faixas": "Favorito Marcado 61-75: 4% | 76-90: 21% | Adversário Sofrido 61-75: 14% | 76-90: 21%",
-        "qual_condicao_atende": "b) Noruega Marcado 76-90: 26%",
-        "motivo_motivacao": "Copa do Mundo, fase eliminatória, motivação máxima para ambas as seleções.",
-        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
-        "mercado_sugerido": "Mais X.5 gols",
-        "ponderacao_odds": "Over 2.5 a 1.66 e Over 1.5 no 2º Tempo a 1.95 são superiores à odd mínima de 1.49, indicando valor para gols tardios. O mercado também espera um jogo com gols.",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
-      },
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
-      "confirmacao_visual": null
-    }
-  ],
-  "evitar": [
-    {
-      "horario": "20:30",
-      "jogo": "Náutico x Juventude",
-      "liga": "Brazil Serie B",
-      "motivo": "Favoritismo não claro, perfil de poucos gols e odds de mercado desfavoráveis para Over Limite.",
-      "motivos_por_metodo": {
-        "back_favorito": "Odd do favorito (Náutico 2.35) é maior que 1.80, não se enquadra como favorito claro.",
-        "lay_zebra": "Odd da zebra (Juventude 3.40) é menor que 5.00, não se enquadra como zebra para Lay.",
-        "over_limite_70": "Apesar de alguns picos de gols tardios, a média total de gols é baixa (1.71) e o mercado precifica Under 2.5 a 1.53, indicando forte expectativa de poucos gols, o que vai contra o método.",
-        "back_2x2": "Média de Over 2.5 dos dois times (29%) é menor que 60%.",
-        "back_goleada": "Probabilidade estimada de vitória do favorito (Náutico) não é >= 70% (odd 2.35).",
-        "lay_1x0": "Média total de gols (1.71) é menor que 2.5, o que aumenta a probabilidade de 1x0.",
-        "lay_0x1": "Média total de gols (1.71) é menor que 2.5, o que aumenta a probabilidade de 0x1."
-      }
-    },
-    {
-      "horario": "22:00",
-      "jogo": "México x Inglaterra",
-      "liga": "International World Cup",
-      "motivo": "Favoritismo não claro, perfil de poucos gols e odds de mercado desfavoráveis para Over Limite.",
-      "motivos_por_metodo": {
-        "back_favorito": "Odd do favorito (Inglaterra 2.40) é maior que 1.80, não se enquadra como favorito claro.",
-        "lay_zebra": "Odd da zebra (México 3.10) é menor que 5.00, não se enquadra como zebra para Lay.",
-        "over_limite_70": "Apesar de alguns picos de gols tardios para a Inglaterra, a média total de gols é baixa (2.20) e o mercado precifica Under 2.5 a 1.61, indicando forte expectativa de poucos gols, o que vai contra o método.",
-        "back_2x2": "Média de Over 2.5 dos dois times (30%) é menor que 60%.",
-        "back_goleada": "Probabilidade estimada de vitória do favorito (Inglaterra) não é >= 70% (odd 2.40).",
-        "lay_1x0": "Média total de gols (2.25) é menor que 2.5, o que aumenta a probabilidade de 1x0.",
-        "lay_0x1": "Média total de gols (2.25) é menor que 2.5, o que aumenta a probabilidade de 0x1."
       }
     }
   ],
+  "evitar": [],
   "pdfs": [
     {
+      "jogo": "IFK Göteborg x AIK",
+      "arquivo": "pdfs/2026-07-05/Sweden_Allsvenskan/001_09h00_IFK_Göteborg_x_AIK.pdf"
+    },
+    {
+      "jogo": "Kalmar x Örgryte",
+      "arquivo": "pdfs/2026-07-05/Sweden_Allsvenskan/002_09h00_Kalmar_x_Örgryte.pdf"
+    },
+    {
+      "jogo": "Elfsborg x Hammarby",
+      "arquivo": "pdfs/2026-07-05/Sweden_Allsvenskan/003_11h30_Elfsborg_x_Hammarby.pdf"
+    },
+    {
       "jogo": "Qingdao Jonoon x Chengdu Better City FC",
-      "arquivo": "pdfs/2026-07-05/China_Chinese_Super_League/001_08h00_Qingdao_Jonoon_x_Chengdu_Better_City_FC.pdf"
+      "arquivo": "pdfs/2026-07-05/China_Chinese_Super_League/004_08h00_Qingdao_Jonoon_x_Chengdu_Better_City_FC.pdf"
     },
     {
       "jogo": "Shanghai Shenhua x Hangzhou",
-      "arquivo": "pdfs/2026-07-05/China_Chinese_Super_League/002_08h35_Shanghai_Shenhua_x_Hangzhou.pdf"
+      "arquivo": "pdfs/2026-07-05/China_Chinese_Super_League/005_08h35_Shanghai_Shenhua_x_Hangzhou.pdf"
+    },
+    {
+      "jogo": "Odd x Haugesund",
+      "arquivo": "pdfs/2026-07-05/Norway_First_Division/006_11h00_Odd_x_Haugesund.pdf"
+    },
+    {
+      "jogo": "FC Seoul x Incheon United",
+      "arquivo": "pdfs/2026-07-05/South_Korea_K_League_1/007_07h30_FC_Seoul_x_Incheon_United.pdf"
+    },
+    {
+      "jogo": "Gwangju x Ulsan",
+      "arquivo": "pdfs/2026-07-05/South_Korea_K_League_1/008_07h30_Gwangju_x_Ulsan.pdf"
+    },
+    {
+      "jogo": "Sangju Sangmu x Jeju United",
+      "arquivo": "pdfs/2026-07-05/South_Korea_K_League_1/009_07h30_Sangju_Sangmu_x_Jeju_United.pdf"
     },
     {
       "jogo": "Náutico x Juventude",
-      "arquivo": "pdfs/2026-07-05/Brazil_Serie_B/003_20h30_Náutico_x_Juventude.pdf"
+      "arquivo": "pdfs/2026-07-05/Brazil_Serie_B/010_20h30_Náutico_x_Juventude.pdf"
+    },
+    {
+      "jogo": "Ypiranga Erechim x Paysandu",
+      "arquivo": "pdfs/2026-07-05/Brazil_Serie_C/011_11h00_Ypiranga_Erechim_x_Paysandu.pdf"
+    },
+    {
+      "jogo": "Anápolis x Botafogo PB",
+      "arquivo": "pdfs/2026-07-05/Brazil_Serie_C/012_21h00_Anápolis_x_Botafogo_PB.pdf"
     },
     {
       "jogo": "Brasil x Noruega",
-      "arquivo": "pdfs/2026-07-05/International_World_Cup/004_17h00_Brasil_x_Noruega.pdf"
+      "arquivo": "pdfs/2026-07-05/International_World_Cup/013_17h00_Brasil_x_Noruega.pdf"
     },
     {
       "jogo": "México x Inglaterra",
-      "arquivo": "pdfs/2026-07-05/International_World_Cup/005_22h00_México_x_Inglaterra.pdf"
+      "arquivo": "pdfs/2026-07-05/International_World_Cup/014_22h00_México_x_Inglaterra.pdf"
     }
   ]
 }
