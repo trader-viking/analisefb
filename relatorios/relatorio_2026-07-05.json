@@ -1,76 +1,445 @@
 {
   "data": "2026-07-05",
-  "variante": "",
-  "gerado_em": "2026-07-06T16:06:46.758940",
+  "dia_consultado": "ontem",
+  "gerado_em": "2026-07-06T16:15:59.407410",
   "total_partidas_analisadas": 5,
-  "total_partidas_disponiveis": 5,
-  "entradas": [],
+  "entradas": [
+    {
+      "horario": "08:00",
+      "liga": "China Chinese Super League",
+      "jogo": "Qingdao Jonoon x Chengdu Better City FC",
+      "metodos_aplicados": [
+        "lay_1x0"
+      ],
+      "mercado_principal": "Vitória Chengdu Better City FC",
+      "probabilidade_estimada": "65%",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.77",
+      "media_gols_casa": "1.22",
+      "media_gols_fora": "1.78",
+      "odds_mercado": {
+        "casa": "5.50",
+        "empate": "4.10",
+        "fora": "1.55",
+        "dupla_chance_1x": "2.50",
+        "dupla_chance_12": "1.20",
+        "dupla_chance_x2": "1.13",
+        "over_05": "1.01",
+        "under_05": "13.00",
+        "over_15": "1.19",
+        "under_15": "4.83",
+        "over_25": "1.57",
+        "under_25": "2.35",
+        "over_35": "2.54",
+        "under_35": "1.54",
+        "over_45": "4.54",
+        "under_45": "1.21"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": "Chengdu Better City FC como favorito: 3V 0E 0D (odd média 1.55)",
+        "leitura": "Chengdu Better City FC tem um retrospecto impecável como favorito, vencendo todos os jogos com odd média de 1.55. Qingdao Jonoon, por outro lado, tem um retrospecto negativo como zebra.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Chengdu Better City FC",
+        "texto": "Chengdu Better City FC entrega como favorito: 3V 0E 0D quando cotado abaixo de 1.60."
+      },
+      "explicacao_curta": "Chengdu Better City FC é favorito com odd de 1.55 e histórico perfeito como favorito. Qingdao Jonoon tem um retrospecto fraco como zebra.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 65% para a vitória do Chengdu Better City FC, com fair odd de 1.54. A odd mínima de entrada é 1.77, e o mercado oferece 1.55, indicando falta de valor para este método.",
+      "mercado_secundario": "Lay 1x0",
+      "odd_minima_secundaria": "9.00",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "14º",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "1º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Chengdu Better City FC lidera a liga com 40 pontos e busca manter a vantagem, enquanto Qingdao Jonoon está na zona de rebaixamento com 13 pontos. O favoritismo do Chengdu é claro.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Qingdao Jonoon tem aproveitamento de 38% em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e histórico positivo do favorito.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "8%",
+        "ponderacao_odds": "O Under 1.5 está a 4.83, indicando que o mercado espera mais de 1.5 gols, o que é favorável para o lay 1x0. O H2H não possui dados relevantes para esta análise.",
+        "visitante_over_0_5": "89%",
+        "visitante_marca_pct": "89%",
+        "media_gols_total": "3.11",
+        "btts_medio": "67%",
+        "razao": "O jogo tem um alto potencial de gols, com ambos os times marcando com frequência e o visitante sendo muito forte ofensivamente. O placar exato 1x0 é improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
+    {
+      "horario": "08:35",
+      "liga": "China Chinese Super League",
+      "jogo": "Shanghai Shenhua x Hangzhou",
+      "metodos_aplicados": [
+        "lay_0x1"
+      ],
+      "mercado_principal": "Vitória Shanghai Shenhua",
+      "probabilidade_estimada": "65%",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.77",
+      "media_gols_casa": "1.67",
+      "media_gols_fora": "1.44",
+      "odds_mercado": {
+        "casa": "1.60",
+        "empate": "4.75",
+        "fora": "4.33",
+        "dupla_chance_1x": "1.17",
+        "dupla_chance_12": "1.17",
+        "dupla_chance_x2": "2.30",
+        "over_05": "1.01",
+        "under_05": "29.00",
+        "over_15": "1.11",
+        "under_15": "6.99",
+        "over_25": "1.36",
+        "under_25": "3.10",
+        "over_35": "1.93",
+        "under_35": "1.94",
+        "over_45": "3.08",
+        "under_45": "1.38"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Shanghai Shenhua como favorito: 9V 6E 10D (odd média 1.55)",
+        "resumo_favorito_fora": null,
+        "leitura": "Shanghai Shenhua tem um retrospecto misto como favorito, com mais empates e derrotas do que vitórias. Hangzhou, como visitante, tem um retrospecto fraco.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": "alerta",
+        "time": "Shanghai Shenhua",
+        "texto": "Shanghai Shenhua tem retrospecto misto como favorito: 9V 6E 10D quando cotado abaixo de 1.60."
+      },
+      "explicacao_curta": "Shanghai Shenhua é favorito com odd de 1.60, mas seu retrospecto como favorito é misto. Hangzhou tem um retrospecto fraco como visitante.",
+      "alerta_geral": null,
+      "valor_esperado": "A probabilidade estimada de 65% para a vitória do Shanghai Shenhua resulta em uma fair odd de 1.54. A odd mínima de entrada é 1.77, e o mercado oferece 1.60, indicando falta de valor para este método.",
+      "mercado_secundario": "Lay 0x1",
+      "odd_minima_secundaria": "9.00",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "11º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "8º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Shanghai Shenhua está em 11º lugar com 16 pontos, enquanto Hangzhou está em 8º com 17 pontos. Ambos os times estão na zona intermediária da tabela, sem objetivos claros de título ou rebaixamento.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Shanghai Shenhua tem aproveitamento de 56% em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo do Shanghai Shenhua, apesar do retrospecto misto.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "8%",
+        "ponderacao_odds": "O Under 1.5 está a 6.99, indicando que o mercado espera mais de 1.5 gols, o que é favorável para o lay 0x1. O H2H não possui dados relevantes para esta análise.",
+        "mandante_over_0_5": "100%",
+        "mandante_marca_pct": "100%",
+        "media_gols_total": "3.55",
+        "btts_medio": "78%",
+        "razao": "O jogo tem um alto potencial de gols, com ambos os times marcando com frequência e o mandante sendo muito forte ofensivamente. O placar exato 0x1 é improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null,
+      "media_gols_ajustada_coerencia": true
+    },
+    {
+      "horario": "17:00",
+      "liga": "International World Cup",
+      "jogo": "Brasil x Noruega",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Brasil",
+      "probabilidade_estimada": "65%",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.77",
+      "media_gols_casa": "2.10",
+      "media_gols_fora": "1.10",
+      "odds_mercado": {
+        "casa": "1.75",
+        "empate": "3.70",
+        "fora": "4.75",
+        "dupla_chance_1x": "1.14",
+        "dupla_chance_12": "1.22",
+        "dupla_chance_x2": "2.00",
+        "over_05": "1.03",
+        "under_05": "13.00",
+        "over_15": "1.26",
+        "under_15": "3.89",
+        "over_25": "1.66",
+        "under_25": "2.20",
+        "over_35": "2.80",
+        "under_35": "1.46",
+        "over_45": "5.20",
+        "under_45": "1.17"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Brasil como favorito: 19V 11E 8D (odd média 1.75)",
+        "resumo_favorito_fora": null,
+        "leitura": "Brasil tem um retrospecto positivo como favorito, com mais vitórias do que derrotas e empates. A odd média de 1.75 é consistente com seu histórico.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Brasil",
+        "texto": "Brasil entrega como favorito: 19V 11E 8D quando cotado abaixo de 1.75."
+      },
+      "explicacao_curta": "Brasil é favorito em casa com odd de 1.75 e histórico positivo como favorito. O time também demonstra capacidade de marcar gols no segundo tempo.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "A probabilidade estimada de 65% para a vitória do Brasil resulta em uma fair odd de 1.54. A odd mínima de entrada é 1.77. O mercado oferece 1.75, indicando um valor marginal.",
+      "mercado_secundario": "Over Limite (+1 gol)",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "2",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "2",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Ambas as seleções estão em posições de destaque na fase de grupos da Copa do Mundo, indicando alta motivação para vencer e garantir a liderança.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Brasil tem aproveitamento de 60% em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": {
+        "favorito_marcado_61_75": "26%",
+        "favorito_marcado_76_90": "26%",
+        "adversario_sofrido_61_75": "9%",
+        "adversario_sofrido_76_90": "36%"
+      },
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo do Brasil e potencial de gols tardios.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "liga_permitida",
+          "favorito_entrega_como_favorito"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Brasil",
+        "odd_alvo": "1.77",
+        "razao": "Brasil é favorito com odd de 1.75 e tem um histórico positivo como favorito. O time também demonstra capacidade de marcar gols no segundo tempo.",
+        "ponderacao_odds": "A odd de 1.75 para o Brasil confirma o favoritismo. O retrospecto do Brasil como favorito (19V 11E 8D) reforça a entrada, atingindo a odd mínima de 1.77.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "favorito_marcado_76_90_>=_25%",
+          "adversario_sofrido_76_90_>=_25%",
+          "liga_permitida",
+          "alta_motivacao"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Brasil - alta motivação na Copa do Mundo",
+        "indices_gols_faixas": "Favorito Marcado 61-75: 26% | 76-90: 26% | Adversário Sofrido 61-75: 9% | 76-90: 36%",
+        "qual_condicao_atende": "Favorito Marcado 61-75: 26% (>= 25%) | Favorito Marcado 76-90: 26% (>= 25%) | Adversário Sofrido 76-90: 36% (>= 25%)",
+        "motivo_motivacao": "Jogo de Copa do Mundo, ambas seleções brigando pela liderança do grupo.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "O Over 2.5 está a 1.66, indicando que o mercado espera um jogo com gols. O retrospecto de gols tardios de ambos os times sugere potencial para o over limite.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão."
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    }
+  ],
   "evitar": [
     {
       "horario": "08:00",
       "jogo": "Qingdao Jonoon x Chengdu Better City FC",
       "liga": "China Chinese Super League",
-      "motivo": "Favoritismo extremo do visitante com alta média de gols.",
+      "motivo": "Falta de valor na odd do favorito.",
       "motivos_por_metodo": {
-        "back_favorito": "Chengdu Better City FC é favorito com odd 1.55, mas Qingdao Jonoon tem bom aproveitamento em casa (56%) e média de gols marcados de 1.89.",
-        "lay_zebra": "A odd da zebra (Qingdao Jonoon) é muito alta (5.50) e o desempenho recente não justifica um lay.",
-        "over_limite_70": "Não há dados suficientes sobre o momento dos gols por faixa de tempo para aplicar este método.",
-        "back_2x2": "O índice de Over 2.5 dos times é de 56% e 78%, respectivamente, o que não atende ao critério de 60% para ambos.",
-        "back_goleada": "Favoritismo do Chengdu Better City FC não é extremo o suficiente (odd 1.55, precisa < 1.40).",
-        "lay_1x0": "A probabilidade estimada de 1x0 é alta devido à média de gols total (3.11) e ao alto percentual de ambas marcam (67%).",
-        "lay_0x1": "A probabilidade estimada de 0x1 é baixa devido ao alto poder ofensivo do Chengdu Better City FC (média de gols 1.78)."
+        "back_favorito": "Odd de mercado (1.55) inferior à odd mínima de entrada (1.77).",
+        "lay_zebra": "Odd da zebra (5.50) não atinge o critério de 5.00 para lay zebra.",
+        "over_limite_70": "Sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 56% — precisa >= 60%.",
+        "back_goleada": "Favoritismo insuficiente — prob estimada 65%, precisa >= 70%.",
+        "lay_1x0": "P(1-0) estimada 8% (OK), mas o visitante marca em 89% e o BTTS médio é 67% (OK), porém a odd de mercado para Under 1.5 é 4.83, indicando que o mercado espera mais de 1.5 gols, o que torna o lay 1x0 menos atrativo.",
+        "lay_0x1": "Mandante marca em 78% (OK), mas o BTTS médio é 67% (OK), e a média total de gols é 3.11 (OK). No entanto, a odd de mercado para Under 1.5 é 4.83, indicando que o mercado espera mais de 1.5 gols, o que torna o lay 0x1 menos atrativo."
       }
     },
     {
       "horario": "08:35",
       "jogo": "Shanghai Shenhua x Hangzhou",
       "liga": "China Chinese Super League",
-      "motivo": "Jogo com alto potencial de gols, mas sem um favorito claro para back.",
+      "motivo": "Falta de valor na odd do favorito e retrospecto misto.",
       "motivos_por_metodo": {
-        "back_favorito": "Shanghai Shenhua é favorito com odd 1.60, mas Hangzhou tem um bom retrospecto recente e a odd não é extrema.",
-        "lay_zebra": "A odd da zebra (Hangzhou) é alta (4.33), mas o time tem um bom aproveitamento recente e marca gols.",
-        "over_limite_70": "Não há dados suficientes sobre o momento dos gols por faixa de tempo para aplicar este método.",
-        "back_2x2": "O índice de Over 2.5 dos times é de 67% e 78%, respectivamente, o que atende ao critério. No entanto, o índice de Ambas Marcam é de 56% e 78%, o que não atende ao critério de 60% para ambos.",
-        "back_goleada": "Favoritismo do Shanghai Shenhua não é extremo o suficiente (odd 1.60, precisa < 1.40).",
-        "lay_1x0": "A probabilidade estimada de 1x0 é baixa devido à média de gols total (3.55) e ao alto percentual de ambas marcam (78%).",
-        "lay_0x1": "A probabilidade estimada de 0x1 é baixa devido ao alto poder ofensivo do Shanghai Shenhua (média de gols 1.44)."
-      }
-    },
-    {
-      "horario": "17:00",
-      "jogo": "Brasil x Noruega",
-      "liga": "International World Cup",
-      "motivo": "Jogo de seleções com alto potencial de gols e favoritismo do Brasil.",
-      "motivos_por_metodo": {
-        "back_favorito": "Brasil é favorito com odd 1.75, mas a Noruega tem um bom retrospecto recente e a odd não é extrema. Além disso, o H2H mostra um retrospecto misto do Brasil como favorito.",
-        "lay_zebra": "A odd da zebra (Noruega) é alta (4.75), mas o time tem um bom aproveitamento recente e marca gols.",
-        "over_limite_70": "Não há dados suficientes sobre o momento dos gols por faixa de tempo para aplicar este método.",
-        "back_2x2": "O índice de Over 2.5 dos times é de 80% e 20%, respectivamente, o que não atende ao critério de 60% para ambos.",
-        "back_goleada": "Favoritismo do Brasil não é extremo o suficiente (odd 1.75, precisa < 1.40).",
-        "lay_1x0": "A probabilidade estimada de 1x0 é baixa devido à média de gols total (3.50) e ao alto percentual de ambas marcam (90%).",
-        "lay_0x1": "A probabilidade estimada de 0x1 é baixa devido ao alto poder ofensivo do Brasil (média de gols 2.10)."
-      }
-    },
-    {
-      "horario": "22:00",
-      "jogo": "México x Inglaterra",
-      "liga": "International World Cup",
-      "motivo": "Jogo equilibrado com potencial de gols, mas sem um favorito claro para back.",
-      "motivos_por_metodo": {
-        "back_favorito": "Inglaterra é favorito com odd 2.55, mas o México tem um bom retrospecto recente e a odd não é extrema. Além disso, o H2H mostra um retrospecto misto da Inglaterra como favorita.",
-        "lay_zebra": "A odd da zebra (México) é alta (3.10), mas o time tem um bom aproveitamento recente e marca gols.",
-        "over_limite_70": "Não há dados suficientes sobre o momento dos gols por faixa de tempo para aplicar este método.",
-        "back_2x2": "O índice de Over 2.5 dos times é de 40% e 70%, respectivamente, o que não atende ao critério de 60% para ambos.",
-        "back_goleada": "Favoritismo da Inglaterra não é extremo o suficiente (odd 2.55, precisa < 1.40).",
-        "lay_1x0": "A probabilidade estimada de 1x0 é baixa devido à média de gols total (2.50) e ao alto percentual de ambas marcam (40%).",
-        "lay_0x1": "A probabilidade estimada de 0x1 é baixa devido ao alto poder ofensivo do México (média de gols 1.80)."
+        "back_favorito": "Odd de mercado (1.60) inferior à odd mínima de entrada (1.77). Retrospecto do favorito como favorito é misto (9V 6E 10D).",
+        "lay_zebra": "Odd da zebra (4.33) não atinge o critério de 5.00 para lay zebra.",
+        "over_limite_70": "Sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 78% (OK), Ambas Marcam média 67% (OK), mas Over HT média 78% (OK). No entanto, a odd de mercado para Over 2.5 é 1.36, indicando que o mercado espera poucos gols.",
+        "back_goleada": "Favoritismo insuficiente — prob estimada 65%, precisa >= 70%.",
+        "lay_1x0": "P(1-0) estimada 8% (OK), mas o mandante marca em 100% e o BTTS médio é 78% (OK). No entanto, a odd de mercado para Under 1.5 é 6.99, indicando que o mercado espera mais de 1.5 gols, o que torna o lay 1x0 menos atrativo.",
+        "lay_0x1": "P(0-1) estimada 8% (OK), mas o mandante marca em 100% e o BTTS médio é 78% (OK). No entanto, a odd de mercado para Under 1.5 é 6.99, indicando que o mercado espera mais de 1.5 gols, o que torna o lay 0x1 menos atrativo."
       }
     },
     {
       "horario": "20:30",
       "jogo": "Náutico x Juventude",
       "liga": "Brazil Serie B",
-      "motivo": "Reprovado pela ponderação com odds reais do mercado: back_favorito: mercado não confirma favoritismo: menor odd 1X2 é 2.3 (precisa ≤2.1)"
+      "motivo": "Falta de valor na odd do favorito e retrospecto fraco do visitante como zebra.",
+      "motivos_por_metodo": {
+        "back_favorito": "Odd de mercado (2.30) superior à odd mínima de entrada (1.64), mas o retrospecto do favorito como favorito é misto (6V 2E 7D).",
+        "lay_zebra": "Odd da zebra (3.40) não atinge o critério de 5.00 para lay zebra.",
+        "over_limite_70": "Sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 25% — precisa >= 60%.",
+        "back_goleada": "Favoritismo insuficiente — prob estimada 70%, precisa >= 70%.",
+        "lay_1x0": "P(1-0) estimada 12% (não atende critério <12%).",
+        "lay_0x1": "P(0-1) estimada 12% (não atende critério <12%)."
+      }
+    },
+    {
+      "horario": "22:00",
+      "jogo": "México x Inglaterra",
+      "liga": "International World Cup",
+      "motivo": "Falta de valor na odd do favorito e retrospecto misto do favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "Odd de mercado (2.55) superior à odd mínima de entrada (2.09), mas o retrospecto do favorito como favorito não está disponível.",
+        "lay_zebra": "Odd da zebra (3.10) não atinge o critério de 5.00 para lay zebra.",
+        "over_limite_70": "Sem dados de gols por período no PDF.",
+        "back_2x2": "Over 2.5 média 40% — precisa >= 60%.",
+        "back_goleada": "Favoritismo insuficiente — prob estimada 55%, precisa >= 70%.",
+        "lay_1x0": "P(1-0) estimada 12% (não atende critério <12%).",
+        "lay_0x1": "P(0-1) estimada 12% (não atende critério <12%)."
+      }
+    },
+    {
+      "horario": "20:30",
+      "jogo": "Náutico x Juventude",
+      "liga": "Brazil Serie B",
+      "motivo": "Reprovado pela ponderação com odds reais do mercado: lay_zebra: não há zebra: maior odd 1X2 é 3.4 (precisa ≥3.5 — jogo parelho, lay caro à toa)"
+    },
+    {
+      "horario": "22:00",
+      "jogo": "México x Inglaterra",
+      "liga": "International World Cup",
+      "motivo": "Reprovado pela ponderação com odds reais do mercado: back_favorito: mercado não confirma favoritismo: menor odd 1X2 é 2.55 (precisa ≤2.1)"
+    }
+  ],
+  "pdfs": [
+    {
+      "jogo": "Qingdao Jonoon x Chengdu Better City FC",
+      "arquivo": "pdfs/2026-07-05/China_Chinese_Super_League/001_08h00_Qingdao_Jonoon_x_Chengdu_Better_City_FC.pdf"
+    },
+    {
+      "jogo": "Shanghai Shenhua x Hangzhou",
+      "arquivo": "pdfs/2026-07-05/China_Chinese_Super_League/002_08h35_Shanghai_Shenhua_x_Hangzhou.pdf"
+    },
+    {
+      "jogo": "Náutico x Juventude",
+      "arquivo": "pdfs/2026-07-05/Brazil_Serie_B/003_20h30_Náutico_x_Juventude.pdf"
+    },
+    {
+      "jogo": "Brasil x Noruega",
+      "arquivo": "pdfs/2026-07-05/International_World_Cup/004_17h00_Brasil_x_Noruega.pdf"
+    },
+    {
+      "jogo": "México x Inglaterra",
+      "arquivo": "pdfs/2026-07-05/International_World_Cup/005_22h00_México_x_Inglaterra.pdf"
     }
   ]
 }
