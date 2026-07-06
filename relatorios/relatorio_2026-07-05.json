@@ -1,195 +1,121 @@
 {
   "data": "2026-07-05",
-  "dia_consultado": "ontem",
-  "gerado_em": "2026-07-06T01:05:47.093150",
-  "total_partidas_analisadas": 14,
-  "entradas": [
+  "variante": "",
+  "gerado_em": "2026-07-06T08:36:56.768489",
+  "total_partidas_analisadas": 20,
+  "total_partidas_disponiveis": 20,
+  "entradas": [],
+  "evitar": [
+    {
+      "horario": "08:00",
+      "jogo": "Qingdao Jonoon x Chengdu Better City FC",
+      "liga": "China Chinese Super League",
+      "motivo": "Chengdu Better City FC é favorito claro, mas a odd de mercado não oferece valor para back favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do Chengdu Better City FC é 75%, mas a odd de mercado de 1.55 é inferior à odd mínima de entrada de 1.97. Não há valor.",
+        "lay_zebra": "A odd da zebra (Qingdao Jonoon) é 5.50, o que atende ao critério. No entanto, o Qingdao Jonoon tem um bom aproveitamento ofensivo em casa (75% de jogos com gol) e o mercado não indica uma zebra tão clara.",
+        "over_limite_70": "Não há dados suficientes na tabela 'MOMENTO DOS GOLS' para aplicar este método.",
+        "back_2x2": "O índice de Over 2.5 dos dois times é 63% (Qingdao Jonoon 63%, Chengdu Better City FC 63%), o que atende ao critério. O índice de Ambas Marcam é 63% (Qingdao Jonoon 63%, Chengdu Better City FC 63%), o que também atende. No entanto, a odd de Over 2.5 de 1.57 é baixa, indicando que o mercado não espera muitos gols.",
+        "back_goleada": "Não há favoritismo extremo (probabilidade estimada de vitória do Chengdu é 75%, mas a odd de mercado é 1.55).",
+        "lay_1x0": "A probabilidade estimada de 1x0 é baixa, mas a média total de gols é 3.26 e o mercado espera muitos gols, o que não favorece o lay 1x0.",
+        "lay_0x1": "A probabilidade estimada de 0x1 é baixa, mas a média total de gols é 3.26 e o mercado espera muitos gols, o que não favorece o lay 0x1."
+      }
+    },
+    {
+      "horario": "08:35",
+      "jogo": "Shanghai Shenhua x Hangzhou",
+      "liga": "China Chinese Super League",
+      "motivo": "Shanghai Shenhua é favorito, mas a odd de mercado não oferece valor para back favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do Shanghai Shenhua é 62%, mas a odd de mercado de 1.60 é inferior à odd mínima de entrada de 1.97. Não há valor.",
+        "lay_zebra": "A odd da zebra (Hangzhou) é 4.33, abaixo do limiar de 5.00 para lay zebra. O Hangzhou tem um aproveitamento ofensivo fora de casa de 62% de jogos com gol, o que dificulta o lay.",
+        "over_limite_70": "Não há dados suficientes na tabela 'MOMENTO DOS GOLS' para aplicar este método.",
+        "back_2x2": "O índice de Over 2.5 dos dois times é 75% (Shanghai Shenhua 75%, Hangzhou 63%), o que atende ao critério. O índice de Ambas Marcam é 50% (Shanghai Shenhua 50%, Hangzhou 50%), o que não atende ao limiar de 60%.",
+        "back_goleada": "Não há favoritismo extremo (probabilidade estimada de vitória do Shanghai Shenhua é 62%, mas a odd de mercado é 1.60).",
+        "lay_1x0": "A probabilidade estimada de 1x0 é alta, mas a média total de gols é 3.38 e o mercado espera muitos gols, o que não favorece o lay 1x0.",
+        "lay_0x1": "A probabilidade estimada de 0x1 é alta, mas a média total de gols é 3.38 e o mercado espera muitos gols, o que não favorece o lay 0x1."
+      }
+    },
     {
       "horario": "11:00",
+      "jogo": "Ypiranga Erechim x Paysandu",
       "liga": "Brazil Serie C",
-      "jogo": "Ypiranga Erechim x Paysandu",
-      "metodos_aplicados": [
-        "over_limite_70",
-        "lay_1x0",
-        "lay_0x1"
-      ],
-      "mercado_principal": "Mais X.5 gols",
-      "probabilidade_estimada": "",
-      "fair_odd": "",
-      "odd_minima_entrada": "",
-      "media_gols_casa": "1.50",
-      "media_gols_fora": "1.40",
-      "odds_mercado": {
-        "casa": "2.35",
-        "empate": "3.20",
-        "fora": "2.62",
-        "dupla_chance_1x": "1.33",
-        "dupla_chance_12": "1.25",
-        "dupla_chance_x2": "1.57",
-        "over_05": "1.02",
-        "under_05": "10.00",
-        "over_15": "1.25",
-        "under_15": "3.60",
-        "over_25": "1.95",
-        "under_25": "1.85"
-      },
-      "h2h_odds": {
-        "resumo_favorito_casa": "Parelho: 5V 3E 6D -0.1U",
-        "resumo_favorito_fora": null,
-        "leitura": "Ypiranga como parelho tem um histórico ligeiramente negativo, com 5 vitórias, 3 empates e 6 derrotas.",
-        "jogos_relevantes": [
-          {
-            "data": "28/06/26",
-            "confronto": "Ypiranga Erechim",
-            "time_analisado": "Ypiranga Erechim",
-            "papel": "parelho",
-            "odd": "1.95",
-            "placar": "1 - 1",
-            "resultado": "E",
-            "marcou_primeiro": null,
-            "gol_1t": null,
-            "gol_2t": null,
-            "nao_sofreu": null
-          },
-          {
-            "data": "15/06/26",
-            "confronto": "Ypiranga Erechim Botafogo PB",
-            "time_analisado": "Ypiranga Erechim",
-            "papel": "favorito",
-            "odd": "2.10",
-            "placar": "1 - 1",
-            "resultado": "E",
-            "marcou_primeiro": null,
-            "gol_1t": null,
-            "gol_2t": null,
-            "nao_sofreu": null
-          },
-          {
-            "data": "16/05/26",
-            "confronto": "Ypiranga Erechim Maringá",
-            "time_analisado": "Ypiranga Erechim",
-            "papel": "favorito",
-            "odd": "2.50",
-            "placar": "1 - 4",
-            "resultado": "D",
-            "marcou_primeiro": null,
-            "gol_1t": null,
-            "gol_2t": null,
-            "nao_sofreu": null
-          },
-          {
-            "data": "05/05/26",
-            "confronto": "Ypiranga Erechim Ituano",
-            "time_analisado": "Ypiranga Erechim",
-            "papel": "favorito",
-            "odd": "2.05",
-            "placar": "2 - 0",
-            "resultado": "V",
-            "marcou_primeiro": null,
-            "gol_1t": null,
-            "gol_2t": null,
-            "nao_sofreu": null
-          },
-          {
-            "data": "18/04/26",
-            "confronto": "Ypiranga Erechim Anápolis",
-            "time_analisado": "Ypiranga Erechim",
-            "papel": "super_favorito",
-            "odd": "1.60",
-            "placar": "3 - 0",
-            "resultado": "V",
-            "marcou_primeiro": null,
-            "gol_1t": null,
-            "gol_2t": null,
-            "nao_sofreu": null
-          },
-          {
-            "data": "06/04/26",
-            "confronto": "Ypiranga Erechim Figueirense",
-            "time_analisado": "Ypiranga Erechim",
-            "papel": "favorito",
-            "odd": "2.20",
-            "placar": "1 - 1",
-            "resultado": "E",
-            "marcou_primeiro": null,
-            "gol_1t": null,
-            "gol_2t": null,
-            "nao_sofreu": null
-          },
-          {
-            "data": "25/02/26",
-            "confronto": "Ypiranga Erechim Ji-Paraná Futebol Clube",
-            "time_analisado": "Ypiranga Erechim",
-            "papel": "super_favorito",
-            "odd": "1.25",
-            "placar": "2 - 0",
-            "resultado": "V",
-            "marcou_primeiro": null,
-            "gol_1t": null,
-            "gol_2t": null,
-            "nao_sofreu": null
-          }
-        ]
+      "motivo": "Jogo equilibrado com ambas as equipes apresentando padrões de gols moderados.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do Ypiranga Erechim é 50%, o que não configura um favorito claro. Odd de mercado de 2.35 não oferece valor para back favorito.",
+        "lay_zebra": "A odd da zebra (Paysandu) é 2.62, abaixo do limiar de 5.00 para lay zebra. Além disso, o Paysandu tem um bom aproveitamento ofensivo fora de casa (80% de jogos com gol).",
+        "over_limite_70": "Não há dados suficientes na tabela 'MOMENTO DOS GOLS' para aplicar este método.",
+        "back_2x2": "O índice de Over 2.5 dos dois times é 40% (Ypiranga 40%, Paysandu 17%), abaixo do limiar de 60%. O índice de Ambas Marcam é 40% (Ypiranga 40%, Paysandu 67%), também abaixo do limiar de 60%.",
+        "back_goleada": "Não há favoritismo extremo (probabilidade estimada de vitória do Ypiranga é 50%, precisa de 70%).",
+        "lay_1x0": "A probabilidade estimada de 1x0 é alta (acima de 12%) devido à média total de gols ser 2.40 e o Paysandu ter um bom percentual de jogos com gol fora (80%).",
+        "lay_0x1": "A probabilidade estimada de 0x1 é alta (acima de 12%) devido à média total de gols ser 2.40 e o Ypiranga ter um bom percentual de jogos com gol em casa (83%)."
       }
-    }
-  ],
-  "evitar": [],
-  "pdfs": [
-    {
-      "jogo": "IFK Göteborg x AIK",
-      "arquivo": "pdfs/2026-07-05/Sweden_Allsvenskan/001_09h00_IFK_Göteborg_x_AIK.pdf"
     },
     {
-      "jogo": "Kalmar x Örgryte",
-      "arquivo": "pdfs/2026-07-05/Sweden_Allsvenskan/002_09h00_Kalmar_x_Örgryte.pdf"
-    },
-    {
-      "jogo": "Elfsborg x Hammarby",
-      "arquivo": "pdfs/2026-07-05/Sweden_Allsvenskan/003_11h30_Elfsborg_x_Hammarby.pdf"
-    },
-    {
-      "jogo": "Qingdao Jonoon x Chengdu Better City FC",
-      "arquivo": "pdfs/2026-07-05/China_Chinese_Super_League/004_08h00_Qingdao_Jonoon_x_Chengdu_Better_City_FC.pdf"
-    },
-    {
-      "jogo": "Shanghai Shenhua x Hangzhou",
-      "arquivo": "pdfs/2026-07-05/China_Chinese_Super_League/005_08h35_Shanghai_Shenhua_x_Hangzhou.pdf"
-    },
-    {
-      "jogo": "Odd x Haugesund",
-      "arquivo": "pdfs/2026-07-05/Norway_First_Division/006_11h00_Odd_x_Haugesund.pdf"
-    },
-    {
-      "jogo": "FC Seoul x Incheon United",
-      "arquivo": "pdfs/2026-07-05/South_Korea_K_League_1/007_07h30_FC_Seoul_x_Incheon_United.pdf"
-    },
-    {
-      "jogo": "Gwangju x Ulsan",
-      "arquivo": "pdfs/2026-07-05/South_Korea_K_League_1/008_07h30_Gwangju_x_Ulsan.pdf"
-    },
-    {
-      "jogo": "Sangju Sangmu x Jeju United",
-      "arquivo": "pdfs/2026-07-05/South_Korea_K_League_1/009_07h30_Sangju_Sangmu_x_Jeju_United.pdf"
-    },
-    {
-      "jogo": "Náutico x Juventude",
-      "arquivo": "pdfs/2026-07-05/Brazil_Serie_B/010_20h30_Náutico_x_Juventude.pdf"
-    },
-    {
-      "jogo": "Ypiranga Erechim x Paysandu",
-      "arquivo": "pdfs/2026-07-05/Brazil_Serie_C/011_11h00_Ypiranga_Erechim_x_Paysandu.pdf"
-    },
-    {
-      "jogo": "Anápolis x Botafogo PB",
-      "arquivo": "pdfs/2026-07-05/Brazil_Serie_C/012_21h00_Anápolis_x_Botafogo_PB.pdf"
-    },
-    {
+      "horario": "17:00",
       "jogo": "Brasil x Noruega",
-      "arquivo": "pdfs/2026-07-05/International_World_Cup/013_17h00_Brasil_x_Noruega.pdf"
+      "liga": "International World Cup",
+      "motivo": "Brasil é favorito, mas a odd de mercado não oferece valor para back favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do Brasil é 65%, mas a odd de mercado de 1.75 é inferior à odd mínima de entrada de 1.97. Não há valor.",
+        "lay_zebra": "A odd da zebra (Noruega) é 4.75, abaixo do limiar de 5.00 para lay zebra. O Noruega tem um aproveitamento ofensivo fora de casa de 70% de jogos com gol, o que dificulta o lay.",
+        "over_limite_70": "Não há dados suficientes na tabela 'MOMENTO DOS GOLS' para aplicar este método.",
+        "back_2x2": "O índice de Over 2.5 dos dois times é 20% (Brasil 20%, Noruega 10%), abaixo do limiar de 60%. O índice de Ambas Marcam é 90% (Brasil 90%, Noruega 70%), o que atende ao critério, mas o Over 2.5 não.",
+        "back_goleada": "Não há favoritismo extremo (probabilidade estimada de vitória do Brasil é 65%, mas a odd de mercado é 1.75).",
+        "lay_1x0": "A probabilidade estimada de 1x0 é alta, mas a média total de gols é 3.70 e o mercado espera muitos gols, o que não favorece o lay 1x0.",
+        "lay_0x1": "A probabilidade estimada de 0x1 é alta, mas a média total de gols é 3.70 e o mercado espera muitos gols, o que não favorece o lay 0x1."
+      }
     },
     {
+      "horario": "20:30",
+      "jogo": "Náutico x Juventude",
+      "liga": "Brazil Serie B",
+      "motivo": "Odd de mercado não oferece valor para back favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "A odd de mercado de 2.35 é inferior à odd mínima de entrada de 1.97.",
+        "lay_zebra": "A odd da zebra (Juventude) é 3.40, abaixo do limiar de 5.00. O Juventude tem um aproveitamento de 29% de vitórias fora de casa.",
+        "over_limite_70": "Não há dados de gols por período.",
+        "back_2x2": "Índice de Over 2.5 é 29% (Náutico 29%, Juventude 14%), abaixo do limiar de 60%. Índice de Ambas Marcam é 43% (Náutico 43%, Juventude 29%), abaixo do limiar de 60%.",
+        "back_goleada": "Favoritismo insuficiente e odd de mercado não indica cenário de goleada.",
+        "lay_1x0": "Média total de gols é 1.71, abaixo do limiar de 2.5. O Juventude marca 0.71 gols/jogo fora, o que não favorece o lay 1x0.",
+        "lay_0x1": "Média total de gols é 1.71, abaixo do limiar de 2.5. O Náutico marca 0.86 gols/jogo em casa, o que não favorece o lay 0x1."
+      }
+    },
+    {
+      "horario": "21:00",
+      "jogo": "Anápolis x Botafogo PB",
+      "liga": "Brazil Serie C",
+      "motivo": "Jogo com favoritismo do Anápolis, mas com ambos os times apresentando médias de gols elevadas e histórico de ambas marcarem.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória do Anápolis é 54%, o que não configura um favorito claro. A odd de mercado de 2.37 não oferece valor para back favorito.",
+        "lay_zebra": "A odd da zebra (Botafogo PB) é 2.70, abaixo do limiar de 5.00 para lay zebra. O Botafogo PB tem um aproveitamento de 83% de jogos com gol fora de casa, o que dificulta o lay.",
+        "over_limite_70": "Não há dados suficientes na tabela 'MOMENTO DOS GOLS' para aplicar este método.",
+        "back_2x2": "O índice de Over 2.5 dos dois times é 50% (Anápolis 50%, Botafogo PB 40%), abaixo do limiar de 60%. O índice de Ambas Marcam é 60% (Anápolis 60%, Botafogo PB 67%), que atende ao critério, mas o Over 2.5 não.",
+        "back_goleada": "Não há favoritismo extremo (probabilidade estimada de vitória do Anápolis é 54%, precisa de 70%).",
+        "lay_1x0": "A probabilidade estimada de 1x0 é alta (acima de 12%) devido à média total de gols ser 3.00 e o Botafogo PB ter um aproveitamento de 83% de jogos com gol fora.",
+        "lay_0x1": "A probabilidade estimada de 0x1 é alta (acima de 12%) devido à média total de gols ser 3.00 e o Anápolis ter um aproveitamento de 80% de jogos com gol em casa."
+      }
+    },
+    {
+      "horario": "21:00",
       "jogo": "México x Inglaterra",
-      "arquivo": "pdfs/2026-07-05/International_World_Cup/014_22h00_México_x_Inglaterra.pdf"
+      "liga": "International World Cup",
+      "motivo": "Inglaterra é favorita clara, mas a odd de mercado não oferece valor para back favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "A probabilidade estimada de vitória da Inglaterra é 70%, mas a odd de mercado de 1.55 é inferior à odd mínima de entrada de 1.97. Não há valor.",
+        "lay_zebra": "A odd da zebra (México) é 2.10, abaixo do limiar de 5.00 para lay zebra. O México tem um aproveitamento ofensivo em casa de 80% de jogos com gol, o que dificulta o lay.",
+        "over_limite_70": "Não há dados suficientes na tabela 'MOMENTO DOS GOLS' para aplicar este método.",
+        "back_2x2": "O índice de Over 2.5 dos dois times é 30% (México 30%, Inglaterra 20%), abaixo do limiar de 60%. O índice de Ambas Marcam é 30% (México 30%, Inglaterra 30%), o que não atende ao limiar de 60%.",
+        "back_goleada": "Não há favoritismo extremo (probabilidade estimada de vitória da Inglaterra é 70%, mas a odd de mercado é 1.55).",
+        "lay_1x0": "A probabilidade estimada de 1x0 é alta, mas a média total de gols é 2.20 e o mercado espera poucos gols, o que não favorece o lay 1x0.",
+        "lay_0x1": "A probabilidade estimada de 0x1 é alta, mas a média total de gols é 2.20 e o mercado espera poucos gols, o que não favorece o lay 0x1."
+      }
+    },
+    {
+      "horario": "20:30",
+      "jogo": "Náutico x Juventude",
+      "liga": "Brazil Serie B",
+      "motivo": "Reprovado pela ponderação com odds reais do mercado: back_favorito: mercado não confirma favoritismo: menor odd 1X2 é 2.35 (precisa ≤2.1)"
     }
   ]
 }
