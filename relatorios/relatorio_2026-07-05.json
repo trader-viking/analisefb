@@ -1,278 +1,76 @@
 {
   "data": "2026-07-05",
   "variante": "",
-  "gerado_em": "2026-07-06T08:44:53.695634",
-  "total_partidas_analisadas": 20,
-  "total_partidas_disponiveis": 20,
-  "entradas": [
-    {
-      "horario": "08:00",
-      "liga": "China Chinese Super League",
-      "jogo": "Qingdao Jonoon x Chengdu Better City FC",
-      "metodos_aplicados": [
-        "back_favorito"
-      ],
-      "mercado_principal": "Vitória Chengdu Better City FC",
-      "probabilidade_estimada": "75% (probabilidade de vitória do Chengdu Better City FC)",
-      "fair_odd": "1.33",
-      "odd_minima_entrada": "1.52",
-      "media_gols_casa": "1.25",
-      "media_gols_fora": "1.88",
-      "odds_mercado": {
-        "casa": "5.50",
-        "empate": "4.10",
-        "fora": "1.55",
-        "dupla_chance_1x": "2.50",
-        "dupla_chance_12": "1.20",
-        "dupla_chance_x2": "1.13",
-        "over_05": "1.01",
-        "under_05": "13.00",
-        "over_15": "1.19",
-        "under_15": "4.83",
-        "over_25": "1.57",
-        "under_25": "2.35"
-      },
-      "h2h_odds": {
-        "resumo_favorito_casa": "Chengdu Better City FC como visitante: 6V 3E 8D (+3.2U)",
-        "resumo_favorito_fora": null,
-        "leitura": "Chengdu Better City FC tem um retrospecto misto como visitante, com mais vitórias do que derrotas, mas com uma odd de 1.55 que confirma o favoritismo.",
-        "jogos_relevantes": [
-          {
-            "data": "26/06/26",
-            "confronto": "Qingdao Jonoon x Yunnan Yukun FC",
-            "time_analisado": "Qingdao Jonoon",
-            "papel": "favorito",
-            "odd": "2.87",
-            "placar": "4 - 2",
-            "resultado": "V",
-            "marcou_primeiro": true,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "20/06/26",
-            "confronto": "Wuxi Wugou FC x Qingdao Jonoon",
-            "time_analisado": "Qingdao Jonoon",
-            "papel": "favorito",
-            "odd": "2.20",
-            "placar": "2 - 2",
-            "resultado": "E",
-            "marcou_primeiro": true,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "30/05/26",
-            "confronto": "Sichuan Jiuniu x Qingdao Jonoon",
-            "time_analisado": "Qingdao Jonoon",
-            "papel": "favorito",
-            "odd": "3.25",
-            "placar": "3 - 2",
-            "resultado": "V",
-            "marcou_primeiro": true,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "24/05/26",
-            "confronto": "Qingdao Jonoon x Chongqing Tongliang Long FC",
-            "time_analisado": "Qingdao Jonoon",
-            "papel": "favorito",
-            "odd": "2.25",
-            "placar": "0 - 1",
-            "resultado": "D",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "20/05/26",
-            "confronto": "Shenyang Urban x Qingdao Jonoon",
-            "time_analisado": "Qingdao Jonoon",
-            "papel": "favorito",
-            "odd": "3.20",
-            "placar": "2 - 1",
-            "resultado": "V",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "15/05/26",
-            "confronto": "Beijing Guoan x Qingdao Jonoon",
-            "time_analisado": "Qingdao Jonoon",
-            "papel": "favorito",
-            "odd": "7.50",
-            "placar": "4 - 2",
-            "resultado": "V",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          }
-        ]
-      },
-      "alerta_odds": {
-        "tipo": "favorito",
-        "time": "Chengdu Better City FC",
-        "texto": "Chengdu Better City FC tem um retrospecto misto como visitante: 6V 3E 8D com odd média de 3.2U. O favoritismo atual de 1.55 é confirmado, mas o histórico não é esmagador."
-      },
-      "explicacao_curta": "Chengdu Better City FC é favorito com 75% de chance de vitória, enfrentando Qingdao Jonoon que tem um aproveitamento de 63% em casa. O favoritismo é claro.",
-      "alerta_geral": null,
-      "valor_esperado": "Probabilidade estimada de 75% resulta em fair odd de 1.33. A odd de mercado de 1.55 oferece valor.",
-      "mercado_secundario": null,
-      "odd_minima_secundaria": null,
-      "desempenho_1t": "Qingdao Jonoon marca 0.63 no 1ºT, sofre 0.38",
-      "desempenho_2t": "Chengdu Better City FC marca 1.25 no 2ºT, sofre 1.00",
-      "contexto_times": {
-        "casa": {
-          "posicao": "14º",
-          "objetivo": "meio_tabela"
-        },
-        "fora": {
-          "posicao": "1º",
-          "objetivo": "titulo"
-        }
-      },
-      "motivacao_tecnica": "Chengdu Better City FC lidera a liga com 40 pontos, enquanto Qingdao Jonoon está na 14ª posição com 13 pontos. O favoritismo do Chengdu é justificado pela posição na tabela e desempenho geral.",
-      "coeficiente_regularidade": "Qingdao Jonoon: CV baixo (1.88 gols marcados vs 1.38 sofridos). Chengdu Better City FC: CV moderado (1.25 gols marcados vs 1.00 sofridos).",
-      "mando_de_campo": "Qingdao Jonoon tem 63% de vitórias em casa.",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo",
-      "especificidades_gols": "Qingdao Jonoon marca mais no 2º tempo (63% dos gols). Chengdu Better City FC marca mais no 2º tempo (50% dos gols).",
-      "momento_gols": "Qingdao Jonoon: 61-75 (33% marcados). Chengdu Better City FC: 46-60 (40% sofridos).",
-      "jogadores_chave": null,
-      "placares_provaveis": "2-1, 2-0",
-      "momento_entrada": "pre_jogo",
-      "situacao_saida": null,
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo claro e odd com valor.",
-        "gatilho_saida_parcial": null,
-        "hard_stop": null
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "prob_estimada_>_65%",
-          "favorito_em_casa_ou_superior",
-          "odds_mercado_confirma_favoritismo",
-          "liga_permitida"
-        ],
-        "criterios_total": 4,
-        "modo": "pre_jogo",
-        "favorito": "Chengdu Better City FC",
-        "odd_alvo": "1.45",
-        "razao": "Chengdu Better City FC é favorito com 75% de chance de vitória e odds de mercado de 1.55, confirmando o favoritismo.",
-        "ponderacao_odds": "A odd de 1.55 para o favorito confirma o favoritismo. O retrospecto como visitante é misto, mas o favoritismo atual é claro.",
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 3,
-        "zebra": null,
-        "favorito_do_jogo": null,
-        "ponderacao_odds": null,
-        "razao": null,
-        "gatilho_ao_vivo": null,
-        "stake_recomendada": null
-      },
-      "over_limite_70": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 4,
-        "favorito_ou_motivacao": null,
-        "indices_gols_faixas": null,
-        "qual_condicao_atende": null,
-        "motivo_motivacao": null,
-        "condicao_entrada": null,
-        "mercado_sugerido": null,
-        "ponderacao_odds": null,
-        "odd_esperada": null,
-        "stake_recomendada": null,
-        "alerta_armadilha": null
-      },
-      "back_2x2": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 3,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "ponderacao_odds": null,
-        "modo": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "back_goleada": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 3,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "ponderacao_odds": null,
-        "odd_esperada": null,
-        "stake_recomendada": null
-      },
-      "lay_1x0": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 5,
-        "modo": null,
-        "prob_1_0_estimada": null,
-        "ponderacao_odds": null,
-        "visitante_over_0_5": null,
-        "visitante_marca_pct": null,
-        "media_gols_total": null,
-        "btts_medio": null,
-        "razao": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "lay_0x1": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 5,
-        "modo": null,
-        "prob_0_1_estimada": null,
-        "ponderacao_odds": null,
-        "mandante_over_0_5": null,
-        "mandante_marca_pct": null,
-        "media_gols_total": null,
-        "btts_medio": null,
-        "razao": null,
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": null
-      },
-      "confirmacao_visual": null,
-      "media_gols_ajustada_coerencia": true
-    }
-  ],
+  "gerado_em": "2026-07-06T16:06:46.758940",
+  "total_partidas_analisadas": 5,
+  "total_partidas_disponiveis": 5,
+  "entradas": [],
   "evitar": [
     {
-      "horario": "22:00",
-      "jogo": "México x Inglaterra",
+      "horario": "08:00",
+      "jogo": "Qingdao Jonoon x Chengdu Better City FC",
+      "liga": "China Chinese Super League",
+      "motivo": "Favoritismo extremo do visitante com alta média de gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Chengdu Better City FC é favorito com odd 1.55, mas Qingdao Jonoon tem bom aproveitamento em casa (56%) e média de gols marcados de 1.89.",
+        "lay_zebra": "A odd da zebra (Qingdao Jonoon) é muito alta (5.50) e o desempenho recente não justifica um lay.",
+        "over_limite_70": "Não há dados suficientes sobre o momento dos gols por faixa de tempo para aplicar este método.",
+        "back_2x2": "O índice de Over 2.5 dos times é de 56% e 78%, respectivamente, o que não atende ao critério de 60% para ambos.",
+        "back_goleada": "Favoritismo do Chengdu Better City FC não é extremo o suficiente (odd 1.55, precisa < 1.40).",
+        "lay_1x0": "A probabilidade estimada de 1x0 é alta devido à média de gols total (3.11) e ao alto percentual de ambas marcam (67%).",
+        "lay_0x1": "A probabilidade estimada de 0x1 é baixa devido ao alto poder ofensivo do Chengdu Better City FC (média de gols 1.78)."
+      }
+    },
+    {
+      "horario": "08:35",
+      "jogo": "Shanghai Shenhua x Hangzhou",
+      "liga": "China Chinese Super League",
+      "motivo": "Jogo com alto potencial de gols, mas sem um favorito claro para back.",
+      "motivos_por_metodo": {
+        "back_favorito": "Shanghai Shenhua é favorito com odd 1.60, mas Hangzhou tem um bom retrospecto recente e a odd não é extrema.",
+        "lay_zebra": "A odd da zebra (Hangzhou) é alta (4.33), mas o time tem um bom aproveitamento recente e marca gols.",
+        "over_limite_70": "Não há dados suficientes sobre o momento dos gols por faixa de tempo para aplicar este método.",
+        "back_2x2": "O índice de Over 2.5 dos times é de 67% e 78%, respectivamente, o que atende ao critério. No entanto, o índice de Ambas Marcam é de 56% e 78%, o que não atende ao critério de 60% para ambos.",
+        "back_goleada": "Favoritismo do Shanghai Shenhua não é extremo o suficiente (odd 1.60, precisa < 1.40).",
+        "lay_1x0": "A probabilidade estimada de 1x0 é baixa devido à média de gols total (3.55) e ao alto percentual de ambas marcam (78%).",
+        "lay_0x1": "A probabilidade estimada de 0x1 é baixa devido ao alto poder ofensivo do Shanghai Shenhua (média de gols 1.44)."
+      }
+    },
+    {
+      "horario": "17:00",
+      "jogo": "Brasil x Noruega",
       "liga": "International World Cup",
-      "motivo": "Reprovado pela ponderação com odds reais do mercado: back_favorito: mercado não confirma favoritismo: menor odd 1X2 é 2.4 (precisa ≤2.1)"
+      "motivo": "Jogo de seleções com alto potencial de gols e favoritismo do Brasil.",
+      "motivos_por_metodo": {
+        "back_favorito": "Brasil é favorito com odd 1.75, mas a Noruega tem um bom retrospecto recente e a odd não é extrema. Além disso, o H2H mostra um retrospecto misto do Brasil como favorito.",
+        "lay_zebra": "A odd da zebra (Noruega) é alta (4.75), mas o time tem um bom aproveitamento recente e marca gols.",
+        "over_limite_70": "Não há dados suficientes sobre o momento dos gols por faixa de tempo para aplicar este método.",
+        "back_2x2": "O índice de Over 2.5 dos times é de 80% e 20%, respectivamente, o que não atende ao critério de 60% para ambos.",
+        "back_goleada": "Favoritismo do Brasil não é extremo o suficiente (odd 1.75, precisa < 1.40).",
+        "lay_1x0": "A probabilidade estimada de 1x0 é baixa devido à média de gols total (3.50) e ao alto percentual de ambas marcam (90%).",
+        "lay_0x1": "A probabilidade estimada de 0x1 é baixa devido ao alto poder ofensivo do Brasil (média de gols 2.10)."
+      }
     },
     {
       "horario": "22:00",
       "jogo": "México x Inglaterra",
       "liga": "International World Cup",
-      "motivo": "Reprovado pela ponderação com odds reais do mercado: back_goleada: mercado espera poucos gols: P(Over 2.5) implícita 41% (precisa ≥45%)"
+      "motivo": "Jogo equilibrado com potencial de gols, mas sem um favorito claro para back.",
+      "motivos_por_metodo": {
+        "back_favorito": "Inglaterra é favorito com odd 2.55, mas o México tem um bom retrospecto recente e a odd não é extrema. Além disso, o H2H mostra um retrospecto misto da Inglaterra como favorita.",
+        "lay_zebra": "A odd da zebra (México) é alta (3.10), mas o time tem um bom aproveitamento recente e marca gols.",
+        "over_limite_70": "Não há dados suficientes sobre o momento dos gols por faixa de tempo para aplicar este método.",
+        "back_2x2": "O índice de Over 2.5 dos times é de 40% e 70%, respectivamente, o que não atende ao critério de 60% para ambos.",
+        "back_goleada": "Favoritismo da Inglaterra não é extremo o suficiente (odd 2.55, precisa < 1.40).",
+        "lay_1x0": "A probabilidade estimada de 1x0 é baixa devido à média de gols total (2.50) e ao alto percentual de ambas marcam (40%).",
+        "lay_0x1": "A probabilidade estimada de 0x1 é baixa devido ao alto poder ofensivo do México (média de gols 1.80)."
+      }
+    },
+    {
+      "horario": "20:30",
+      "jogo": "Náutico x Juventude",
+      "liga": "Brazil Serie B",
+      "motivo": "Reprovado pela ponderação com odds reais do mercado: back_favorito: mercado não confirma favoritismo: menor odd 1X2 é 2.3 (precisa ≤2.1)"
     }
   ]
 }
