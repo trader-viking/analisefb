@@ -1,10 +1,121 @@
 {
   "data": "2026-07-06",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-07-05T22:41:24.067315",
+  "gerado_em": "2026-07-05T23:44:10.494503",
   "total_partidas_analisadas": 4,
-  "entradas": [],
-  "evitar": [],
+  "entradas": [
+    {
+      "horario": "19:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Vila Nova x São Bernardo",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "probabilidade_estimada": "60% (probabilidade de mais um gol após 65min)",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "media_gols_casa": "2.00",
+      "media_gols_fora": "1.86",
+      "explicacao_curta": "Ambos os times têm histórico de sofrer gols na reta final e estão brigando por promoção, o que aumenta a intensidade no segundo tempo.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 60% → fair 1.67; com margem de segurança, só entrar acima de 1.92",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "",
+      "desempenho_2t": "",
+      "contexto_times": {
+        "casa": {
+          "posicao": "3º",
+          "objetivo": "acesso"
+        },
+        "fora": {
+          "posicao": "6º",
+          "objetivo": "acesso"
+        }
+      },
+      "motivacao_tecnica": "Vila Nova (3º) e São Bernardo (6º) estão na briga por uma vaga na promoção, o que garante alta motivação. Ambos os times têm histórico de sofrer gols na reta final dos jogos, com o São Bernardo sofrendo 38% de seus gols entre 76-90 minutos.",
+      "coeficiente_regularidade": "",
+      "mando_de_campo": "Vila Nova tem 71% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "",
+      "momento_gols": "São Bernardo sofre 38% dos gols entre 76-90 minutos.",
+      "jogadores_chave": "",
+      "placares_provaveis": "",
+      "momento_entrada": "Ao vivo, após 65min",
+      "situacao_saida": "Cash-out se o gol sair ou se o jogo travar",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A entrada ao vivo permite confirmar a intensidade e a necessidade de gols.",
+        "gatilho_saida_parcial": "Se o jogo estiver muito travado ou com poucas chances de gol após 75 minutos.",
+        "hard_stop": "Saída total se não houver gol até os 85 minutos."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "adversario_sofrido_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Vila Nova e São Bernardo - brigando por promoção",
+        "indices_gols_faixas": "Vila Nova Marcado 61-75: 21% | 76-90: 7% | São Bernardo Sofrido 61-75: 13% | 76-90: 38%",
+        "qual_condicao_atende": "d) São Bernardo Sofrido 76-90: 38%",
+        "motivo_motivacao": "Vila Nova (3º) e São Bernardo (6º) estão na briga por uma vaga na promoção, garantindo alta motivação e busca por resultado até o final.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "16:00",
+      "jogo": "Portugal x Espanha",
+      "liga": "International World Cup",
+      "motivo": "Sem favoritismo claro o suficiente para Back Favorito e sem padrões de gols na reta final ou placares exatos improváveis.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória da Espanha (favorito) é de 55-60%, abaixo do mínimo de 65%. Além disso, Portugal tem aproveitamento recente de 80%, não se encaixando no critério de adversário em má fase (<35%).",
+        "lay_zebra": "A odd de Portugal (zebra) é 4.00, abaixo do mínimo de 5.00 para Lay Zebra. A probabilidade de vitória de Portugal é de 25%, acima do máximo de 20%.",
+        "over_limite_70": "Nenhuma das condições de gols marcados/sofridos nas faixas 61-75 ou 76-90 atinge o mínimo de 25% para nenhum dos times.",
+        "back_2x2": "A média de Over 2.5 gols é de 55% (Portugal 50%, Espanha 60%), abaixo do mínimo de 60%. A média de Ambas Marcam é de 40% (Portugal 50%, Espanha 30%), abaixo do mínimo de 60%. As defesas de ambos os times sofrem menos de 1.2 gols/jogo (Portugal 0.70, Espanha 0.40).",
+        "back_goleada": "A probabilidade estimada de vitória do favorito (Espanha) é de 55-60%, abaixo do mínimo de 70% para Back Goleada.",
+        "lay_1x0": "O BTTS médio entre os dois times é de 40% (Portugal 50%, Espanha 30%), abaixo do mínimo de 50%.",
+        "lay_0x1": "O BTTS médio entre os dois times é de 40% (Portugal 50%, Espanha 30%), abaixo do mínimo de 50%."
+      }
+    },
+    {
+      "horario": "21:00",
+      "jogo": "EUA x Bélgica",
+      "liga": "International World Cup",
+      "motivo": "Não há favoritismo claro nas odds, nem padrões de gols na reta final. As odds mínimas para Lay 1x0/0x1 estão fora da faixa ideal.",
+      "motivos_por_metodo": {
+        "back_favorito": "Não há um favorito claro nas odds (ambos 2.62), o que não atende ao critério de favorito claro (<1.80).",
+        "lay_zebra": "Não há uma zebra clara nas odds (ambos 2.62), o que não atende ao critério de odd da zebra >= 5.00.",
+        "over_limite_70": "Nenhuma das condições de gols marcados/sofridos nas faixas 61-75 ou 76-90 atinge o mínimo de 25% para nenhum dos times.",
+        "back_2x2": "A defesa da Bélgica sofre 0.80 gols/jogo, abaixo do mínimo de 1.2 gols/jogo para ambos os times.",
+        "back_goleada": "Não há favoritismo extremo (odds 2.62, precisa <1.40).",
+        "lay_1x0": "A odd mínima de entrada calculada (15.00) está acima da odd máxima ideal (12.00) para este método.",
+        "lay_0x1": "A odd mínima de entrada calculada (15.00) está acima da odd máxima ideal (13.00) para este método."
+      }
+    },
+    {
+      "horario": "19:00",
+      "jogo": "Botafogo SP x Avaí",
+      "liga": "Brazil Serie B",
+      "motivo": "Reprovado na validação numérica dos critérios do lay: lay_1x0: BLOQUEADO: 1x0 está entre os 4 placares mais prováveis por Poisson (13% > 12%) — fazer lay do placar mais provável contradiz a análise"
+    }
+  ],
   "pdfs": [
     {
       "jogo": "Botafogo SP x Avaí",
