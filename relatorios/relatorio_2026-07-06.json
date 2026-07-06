@@ -1,97 +1,775 @@
 {
   "data": "2026-07-06",
-  "dia_consultado": "hoje",
-  "gerado_em": "2026-07-06T10:08:54.641219",
-  "total_partidas_analisadas": 8,
+  "variante": "",
+  "gerado_em": "2026-07-06T15:59:44.760790",
+  "total_partidas_analisadas": 4,
+  "total_partidas_disponiveis": 4,
   "entradas": [
+    {
+      "horario": "16:00",
+      "liga": "International World Cup",
+      "jogo": "Portugal x Espanha",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "probabilidade_estimada": "52%",
+      "fair_odd": "1.92",
+      "odd_minima_entrada": "2.24",
+      "media_gols_casa": "2.30",
+      "media_gols_fora": "2.10",
+      "odds_mercado": {
+        "casa": "4.10",
+        "empate": "3.50",
+        "fora": "1.90",
+        "dupla_chance_1x": "1.83",
+        "dupla_chance_12": "1.25",
+        "dupla_chance_x2": "1.20",
+        "over_05": "1.04",
+        "under_05": "12.00",
+        "over_15": "1.23",
+        "under_15": "4.15",
+        "over_25": "1.80",
+        "under_25": "2.00"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: 30V 9E 5D -3.3U",
+        "resumo_favorito_fora": null,
+        "leitura": "Portugal, quando cotado como zebra (odd 3.80-3.90), conseguiu um empate contra a Espanha e uma vitória contra a Alemanha, mostrando capacidade de pontuar em jogos difíceis. O confronto direto anterior (Portugal x Espanha, odd 3.80) terminou 2-2, reforçando o cenário de gols.",
+        "jogos_relevantes": [
+          {
+            "data": "08/06/25",
+            "confronto": "Portugal x Espanha",
+            "time_analisado": "Portugal",
+            "papel": "zebra",
+            "odd": "3.80",
+            "placar": "2-2",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "04/06/25",
+            "confronto": "Alemanha x Portugal",
+            "time_analisado": "Portugal",
+            "papel": "zebra",
+            "odd": "3.90",
+            "placar": "1-2",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "Espanha",
+        "texto": "Espanha é favorita com odd 1.90, mas Portugal tem histórico de pontuar como zebra contra adversários fortes (1V 1E em 2 jogos com odds próximas)."
+      },
+      "explicacao_curta": "Jogo eliminatório de Copa do Mundo com alta motivação. A Espanha tem histórico de sofrer gols na reta final, o que favorece o Over Limite.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 52% → fair 1.92; com margem de segurança, só entrar acima de 2.24",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": "",
+      "desempenho_1t": "Portugal marca 1.10 no 1ºT, Espanha sofre 0.20 no 1ºT",
+      "desempenho_2t": "Portugal marca 1.20 no 2ºT, Espanha sofre 0.20 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "2º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "1º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Trata-se de um jogo eliminatório de Copa do Mundo, o que garante motivação máxima para ambas as seleções. A Espanha, embora tenha uma defesa sólida, mostra uma porcentagem de gols sofridos na faixa de 61-75 minutos que atende ao critério.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Portugal joga em casa, mas em torneios de seleções o mando é menos relevante.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Portugal tem média de 2.30 gols marcados, Espanha 2.10. Espanha sofre apenas 0.40 gols/jogo.",
+      "momento_gols": "Espanha sofre 25% dos seus gols entre 61-75 minutos.",
+      "jogadores_chave": null,
+      "placares_provaveis": "1x1, 2x1, 1x2",
+      "momento_entrada": "Ao vivo, após 65min",
+      "situacao_saida": "Cash-out se o gol sair ou se o jogo travar sem chances claras.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A alta motivação de um jogo eliminatório e o padrão de gols sofridos pela Espanha na reta final justificam a entrada, apesar da solidez defensiva geral.",
+        "gatilho_saida_parcial": "Se o jogo estiver muito travado ou com poucas chances após 75 minutos.",
+        "hard_stop": "Saída total aos 85 minutos sem gol."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "adversario_sofre_61-75_>=_25%",
+          "motivacao_maxima"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Espanha - jogo eliminatório de Copa do Mundo",
+        "indices_gols_faixas": "Portugal Marcado 61-75: 17% | 76-90: 17% | Espanha Sofrido 61-75: 25% | 76-90: 0%",
+        "qual_condicao_atende": "c) Espanha Sofrido 61-75: 25%",
+        "motivo_motivacao": "Jogo eliminatório de Copa do Mundo, motivação máxima para ambas as seleções.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "As odds de Over 2.5 (1.80) e Under 2.5 (2.00) são equilibradas, indicando que o mercado espera um jogo com chances de gols. O histórico de gols no 2º tempo do H2H (Portugal x Espanha 2-2) reforça a possibilidade de gols tardios.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null
+    },
     {
       "horario": "19:00",
       "liga": "Brazil Serie B",
       "jogo": "Botafogo SP x Avaí",
       "metodos_aplicados": [
-        "back_favorito"
+        "over_limite_70",
+        "lay_0x1"
       ],
-      "mercado_principal": "Vitória Botafogo SP",
-      "probabilidade_estimada": "65%",
-      "fair_odd": "1.54",
-      "odd_minima_entrada": "1.72",
-      "media_gols_casa": "1.71",
+      "mercado_principal": "Mais X.5 gols",
+      "probabilidade_estimada": "58%",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.93",
+      "media_gols_casa": "1.43",
       "media_gols_fora": "1.00",
-      "explicacao_curta": "Botafogo SP favorito com prob. de vitória >= 65% e Avaí em má fase.",
-      "placares_provaveis": "2-1, 1-0",
-      "media_gols_ajustada_coerencia": true
-    }
-  ],
-  "evitar": [
-    {
-      "horario": "14:00",
-      "jogo": "Brommapojkarna x GAIS",
-      "liga": "Sweden Allsvenskan",
-      "motivo": "nenhum método atende"
-    },
-    {
-      "horario": "16:00",
-      "liga": "International World Cup",
-      "jogo": "Portugal x Espanha",
-      "motivo": "nenhum método atende"
+      "odds_mercado": {
+        "casa": "1.90",
+        "empate": "3.20",
+        "fora": "4.50",
+        "dupla_chance_1x": "1.20",
+        "dupla_chance_12": "1.33",
+        "dupla_chance_x2": "1.83",
+        "over_05": "1.10",
+        "under_05": "7.45",
+        "over_15": "1.42",
+        "under_15": "2.92",
+        "over_25": "2.35",
+        "under_25": "1.57"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: 4V 4E 7D -0.8U",
+        "resumo_favorito_fora": null,
+        "leitura": "Botafogo SP tem histórico misto como favorito, com derrotas para times de odds 2.00 e 2.20, mas o Avaí tem um desempenho muito fraco como visitante.",
+        "jogos_relevantes": [
+          {
+            "data": "30/06/26",
+            "confronto": "Botafogo SP x CRB",
+            "time_analisado": "Botafogo SP",
+            "papel": "favorito",
+            "odd": "2.40",
+            "placar": "0-1",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "14/06/26",
+            "confronto": "Botafogo SP x Operário PR",
+            "time_analisado": "Botafogo SP",
+            "papel": "favorito",
+            "odd": "2.40",
+            "placar": "2-1",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "25/05/26",
+            "confronto": "Botafogo SP x Athletic Club",
+            "time_analisado": "Botafogo SP",
+            "papel": "favorito",
+            "odd": "2.20",
+            "placar": "1-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "02/05/26",
+            "confronto": "Botafogo SP x Náutico",
+            "time_analisado": "Botafogo SP",
+            "papel": "favorito",
+            "odd": "2.35",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "19/04/26",
+            "confronto": "Botafogo SP x Atlético GO",
+            "time_analisado": "Botafogo SP",
+            "papel": "favorito",
+            "odd": "2.45",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "05/04/26",
+            "confronto": "Botafogo SP x São Bernardo",
+            "time_analisado": "Botafogo SP",
+            "papel": "favorito",
+            "odd": "2.00",
+            "placar": "1-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "Botafogo SP",
+        "texto": "Botafogo SP tem histórico misto como favorito em casa (1V 2E 3D em jogos com odds entre 1.90 e 2.45), não sendo um favorito super confiável."
+      },
+      "explicacao_curta": "Ambos os times estão na zona de rebaixamento, o que gera alta motivação para buscar gols. O Avaí tem histórico de sofrer gols na reta final.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 58% → fair 1.72; com margem de segurança, só entrar acima de 1.93",
+      "mercado_secundario": "Lay 1x0",
+      "odd_minima_secundaria": "10.50",
+      "desempenho_1t": "Botafogo SP marca 0.86 no 1ºT, Avaí sofre 1.00 no 1ºT",
+      "desempenho_2t": "Botafogo SP marca 0.57 no 2ºT, Avaí sofre 0.71 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "17º",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "18º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Confronto direto na zona de rebaixamento da Série B, com ambos os times precisando pontuar. A alta motivação deve levar a um jogo aberto, especialmente na reta final.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Botafogo SP tem 29% de vitórias em casa, Avaí tem 14% de vitórias fora.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Botafogo SP tem média de 1.43 gols marcados, Avaí 1.00. Avaí sofre 1.71 gols/jogo.",
+      "momento_gols": "Avaí sofre 25% dos seus gols entre 76-90 minutos.",
+      "jogadores_chave": null,
+      "placares_provaveis": "2x1, 1x1, 1x2",
+      "momento_entrada": "Ao vivo, após 65min",
+      "situacao_saida": "Cash-out se o gol sair ou se o jogo travar sem chances claras.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A motivação de ambos os times na zona de rebaixamento e o histórico de gols tardios do Avaí justificam a entrada, mas com cautela.",
+        "gatilho_saida_parcial": "Se o jogo estiver muito travado ou com poucas chances após 75 minutos.",
+        "hard_stop": "Saída total aos 85 minutos sem gol."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "adversario_sofre_76-90_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Botafogo SP - confronto direto na zona de rebaixamento",
+        "indices_gols_faixas": "Botafogo SP Marcado 61-75: 10% | 76-90: 10% | Avaí Sofrido 61-75: 8% | 76-90: 25%",
+        "qual_condicao_atende": "d) Avaí Sofrido 76-90: 25%",
+        "motivo_motivacao": "Ambos os times estão na zona de rebaixamento (17º e 18º), o que gera alta motivação para buscar o resultado até o fim.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "As odds de Over 2.5 (2.35) e Under 2.5 (1.57) indicam que o mercado espera um jogo com poucos gols, o que é um alerta. No entanto, a alta motivação e o histórico de gols tardios do Avaí podem gerar valor.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "ponderacao_odds": "A odd de Under 1.5 (2.92) sugere que o mercado não espera um placar tão baixo, o que reforça o Lay 1x0. O Avaí marcou em 71% dos jogos, tornando o 1x0 improvável.",
+        "visitante_over_0_5": "71%",
+        "visitante_marca_pct": "71%",
+        "media_gols_total": "2.64",
+        "btts_medio": "64%",
+        "razao": "O Avaí tem um ataque razoável e marca em mais de 70% dos jogos, além de a média de gols total ser acima de 2.5, tornando o placar 1x0 para o mandante improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%",
+        "_bloqueado_poisson": true,
+        "_prob_poisson_pct": 12.6,
+        "razao_reprovacao": "BLOQUEADO: 1x0 está entre os 4 placares mais prováveis por Poisson (13% > 12%) — fazer lay do placar mais provável contradiz a análise"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "ponderacao_odds": "A odd de Under 1.5 (2.92) sugere que o mercado não espera um placar tão baixo, o que reforça o Lay 0x1. O Botafogo SP marcou em 86% dos jogos, tornando o 0x1 improvável.",
+        "mandante_over_0_5": "86%",
+        "mandante_marca_pct": "86%",
+        "media_gols_total": "2.64",
+        "btts_medio": "64%",
+        "razao": "O Botafogo SP tem um ataque produtivo em casa, marcando em 86% dos jogos, e a média de gols total é acima de 2.5, o que torna o placar 0x1 para o visitante improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
     },
     {
       "horario": "19:00",
-      "jogo": "Vila Nova x São Bernardo",
       "liga": "Brazil Serie B",
-      "motivo": "nenhum método atende"
-    },
-    {
-      "horario": "19:00",
-      "jogo": "Brusque x Figueirense",
-      "liga": "Brazil Serie C",
-      "motivo": "nenhum método atende"
-    },
-    {
-      "horario": "21:00",
-      "jogo": "Amazonas x Itabaiana",
-      "liga": "Brazil Serie C",
-      "motivo": "nenhum método atende"
+      "jogo": "Vila Nova x São Bernardo",
+      "metodos_aplicados": [
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "62%",
+      "fair_odd": "1.61",
+      "odd_minima_entrada": "1.80",
+      "media_gols_casa": "2.00",
+      "media_gols_fora": "1.86",
+      "odds_mercado": {
+        "casa": "1.95",
+        "empate": "3.25",
+        "fora": "4.10",
+        "dupla_chance_1x": "1.25",
+        "dupla_chance_12": "1.30",
+        "dupla_chance_x2": "1.80",
+        "over_05": "1.06",
+        "under_05": "8.50",
+        "over_15": "1.43",
+        "under_15": "2.88",
+        "over_25": "2.25",
+        "under_25": "1.61"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: 8V 7E 3D +2.1U",
+        "resumo_favorito_fora": null,
+        "leitura": "Vila Nova tem um histórico muito positivo como favorito em casa, com alta taxa de vitórias e gols marcados, o que reforça a improbabilidade de placares baixos como 1x0 ou 0x1.",
+        "jogos_relevantes": [
+          {
+            "data": "20/06/26",
+            "confronto": "Vila Nova x Náutico",
+            "time_analisado": "Vila Nova",
+            "papel": "favorito",
+            "odd": "2.30",
+            "placar": "4-3",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "08/06/26",
+            "confronto": "Vila Nova x Botafogo SP",
+            "time_analisado": "Vila Nova",
+            "papel": "favorito",
+            "odd": "2.25",
+            "placar": "1-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": false,
+            "nao_sofreu": true
+          },
+          {
+            "data": "17/05/26",
+            "confronto": "Vila Nova x Avaí",
+            "time_analisado": "Vila Nova",
+            "papel": "favorito",
+            "odd": "2.10",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "04/05/26",
+            "confronto": "Vila Nova x Athletic Club",
+            "time_analisado": "Vila Nova",
+            "papel": "favorito",
+            "odd": "1.95",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "18/04/26",
+            "confronto": "Vila Nova x Operário PR",
+            "time_analisado": "Vila Nova",
+            "papel": "favorito",
+            "odd": "2.30",
+            "placar": "2-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "04/04/26",
+            "confronto": "Vila Nova x Atlético GO",
+            "time_analisado": "Vila Nova",
+            "papel": "favorito",
+            "odd": "2.05",
+            "placar": "2-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Vila Nova",
+        "texto": "Vila Nova entrega como favorito: 5V 1E 0D nos últimos 6 jogos em casa quando cotado entre 1.95 e 2.30, com muitos gols marcados."
+      },
+      "explicacao_curta": "Ambos os times têm ataques produtivos e médias de gols totais altas, tornando placares como 1x0 ou 0x1 improváveis. O Vila Nova tem um forte histórico como mandante.",
+      "alerta_geral": null,
+      "valor_esperado": "Prob. 62% → fair 1.61; com margem de segurança, só entrar acima de 1.80",
+      "mercado_secundario": "Lay 0x1",
+      "odd_minima_secundaria": "11.00",
+      "desempenho_1t": "Vila Nova marca 1.14 no 1ºT, São Bernardo sofre 0.57 no 1ºT",
+      "desempenho_2t": "Vila Nova marca 0.86 no 2ºT, São Bernardo sofre 0.29 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "3º",
+          "objetivo": "acesso"
+        },
+        "fora": {
+          "posicao": "6º",
+          "objetivo": "acesso"
+        }
+      },
+      "motivacao_tecnica": "Confronto direto na parte de cima da tabela, com ambos os times brigando por acesso. O Vila Nova tem um excelente desempenho em casa, com alta média de gols marcados, enquanto o São Bernardo também tem um ataque eficiente fora de casa.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Vila Nova tem 71% de vitórias em casa e 0% de derrotas.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Vila Nova tem média de 2.00 gols marcados, São Bernardo 1.86. Ambos têm defesas sólidas, mas os ataques são muito eficientes.",
+      "momento_gols": "Vila Nova marca 21% dos gols entre 16-30min e 21% entre 31-45min. São Bernardo marca 31% entre 76-90min.",
+      "jogadores_chave": null,
+      "placares_provaveis": "2x1, 2x2, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol para Lay 1x0; Cash-out se 1-0, 1-1 ou após 60min sem gol para Lay 0x1.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "As estatísticas de gols e o desempenho ofensivo de ambos os times tornam os placares 1x0 e 0x1 improváveis, oferecendo valor para o Lay.",
+        "gatilho_saida_parcial": "Se o jogo estiver muito fechado e sem chances claras de gol no primeiro tempo.",
+        "hard_stop": "Saída total se o placar for 1x0 ou 0x1 após 70 minutos."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "ponderacao_odds": "A odd de Under 1.5 (2.88) indica que o mercado não espera um placar tão baixo, reforçando o Lay 1x0. O São Bernardo marcou em 86% dos jogos, tornando o 1x0 improvável.",
+        "visitante_over_0_5": "86%",
+        "visitante_marca_pct": "86%",
+        "media_gols_total": "2.93",
+        "btts_medio": "64%",
+        "razao": "O São Bernardo tem um ataque muito eficiente fora de casa, marcando em 86% dos jogos, e a média de gols total é alta (2.93), o que torna o placar 1x0 para o mandante improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "ponderacao_odds": "A odd de Under 1.5 (2.88) indica que o mercado não espera um placar tão baixo, reforçando o Lay 0x1. O Vila Nova marcou em 100% dos jogos, tornando o 0x1 improvável.",
+        "mandante_over_0_5": "100%",
+        "mandante_marca_pct": "100%",
+        "media_gols_total": "2.93",
+        "btts_medio": "64%",
+        "razao": "O Vila Nova tem um ataque extremamente produtivo em casa, marcando em 100% dos jogos, e a média de gols total é alta (2.93), o que torna o placar 0x1 para o visitante improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
     },
     {
       "horario": "21:00",
       "liga": "International World Cup",
       "jogo": "EUA x Bélgica",
-      "motivo": "nenhum método atende"
+      "metodos_aplicados": [
+        "over_limite_70",
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Mais X.5 gols",
+      "probabilidade_estimada": "38%",
+      "fair_odd": "2.63",
+      "odd_minima_entrada": "3.08",
+      "media_gols_casa": "2.30",
+      "media_gols_fora": "3.00",
+      "odds_mercado": {
+        "casa": "2.35",
+        "empate": "3.50",
+        "fora": "2.87",
+        "dupla_chance_1x": "1.36",
+        "dupla_chance_12": "1.29",
+        "dupla_chance_x2": "1.50",
+        "over_05": "1.01",
+        "under_05": "13.00",
+        "over_15": "1.26",
+        "under_15": "4.03",
+        "over_25": "1.66",
+        "under_25": "2.20"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: 20V 5E 17D -10U",
+        "resumo_favorito_fora": null,
+        "leitura": "O histórico dos EUA como favorito ou parelho (odds entre 2.00 e 3.00) é negativo, com muitas derrotas. No entanto, o confronto direto anterior contra a Bélgica (odd 3.10) terminou 2-5, indicando um jogo com muitos gols, o que é positivo para os métodos de gols.",
+        "jogos_relevantes": [
+          {
+            "data": "28/03/26",
+            "confronto": "EUA x Bélgica",
+            "time_analisado": "EUA",
+            "papel": "zebra",
+            "odd": "3.10",
+            "placar": "2-5",
+            "resultado": "D",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "31/05/26",
+            "confronto": "EUA x Senegal",
+            "time_analisado": "EUA",
+            "papel": "favorito",
+            "odd": "2.62",
+            "placar": "3-2",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "06/09/25",
+            "confronto": "EUA x Coreia do Sul",
+            "time_analisado": "EUA",
+            "papel": "favorito",
+            "odd": "2.20",
+            "placar": "0-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "07/09/24",
+            "confronto": "EUA x Canadá",
+            "time_analisado": "EUA",
+            "papel": "favorito",
+            "odd": "1.95",
+            "placar": "1-2",
+            "resultado": "D",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "08/06/24",
+            "confronto": "EUA x Colômbia",
+            "time_analisado": "EUA",
+            "papel": "favorito",
+            "odd": "2.75",
+            "placar": "1-5",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "alerta",
+        "time": "EUA",
+        "texto": "EUA costuma tropeçar como favorito ou parelho: 1V 0E 4D nos últimos 5 jogos em casa quando cotado entre 1.95 e 3.10."
+      },
+      "explicacao_curta": "Jogo eliminatório de Copa do Mundo com alta motivação e histórico de muitos gols. A Bélgica tem padrão de sofrer gols na reta final, e ambos os ataques são muito produtivos.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 38% → fair 2.63; com margem de segurança, só entrar acima de 3.08",
+      "mercado_secundario": "Lay 1x0",
+      "odd_minima_secundaria": "10.50",
+      "desempenho_1t": "EUA marca 1.60 no 1ºT, Bélgica sofre 0.50 no 1ºT",
+      "desempenho_2t": "EUA marca 0.70 no 2ºT, Bélgica sofre 0.30 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "2º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "1º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Jogo eliminatório de Copa do Mundo, garantindo motivação máxima. Ambos os times têm ataques muito fortes (EUA 2.30, Bélgica 3.00 gols/jogo) e a Bélgica tem um histórico de sofrer gols na reta final, o que favorece o Over Limite. O confronto direto anterior terminou 2-5, indicando um jogo aberto.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "EUA joga em casa, mas em torneios de seleções o mando é menos relevante.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "EUA tem média de 2.30 gols marcados, Bélgica 3.00. Ambos têm alta porcentagem de Ambas Marcam e Over 2.5.",
+      "momento_gols": "Bélgica sofre 25% dos seus gols entre 76-90 minutos.",
+      "jogadores_chave": null,
+      "placares_provaveis": "2x2, 3x2, 2x3",
+      "momento_entrada": "Ao vivo, após 65min",
+      "situacao_saida": "Cash-out se o gol sair ou se o jogo travar sem chances claras.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "A alta motivação, o perfil ofensivo de ambos e o histórico de gols tardios da Bélgica justificam a entrada, apesar do alerta de odds para os EUA.",
+        "gatilho_saida_parcial": "Se o jogo estiver muito travado ou com poucas chances após 75 minutos.",
+        "hard_stop": "Saída total aos 85 minutos sem gol."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "adversario_sofre_76-90_>=_25%",
+          "motivacao_maxima"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Bélgica - jogo eliminatório de Copa do Mundo",
+        "indices_gols_faixas": "EUA Marcado 61-75: 13% | 76-90: 13% | Bélgica Sofrido 61-75: 0% | 76-90: 25%",
+        "qual_condicao_atende": "d) Bélgica Sofrido 76-90: 25%",
+        "motivo_motivacao": "Jogo eliminatório de Copa do Mundo, motivação máxima para ambas as seleções.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "As odds de Over 2.5 (1.66) e Ambas Marcam (1.50) são baixas, indicando que o mercado espera um jogo com muitos gols, o que reforça o Over Limite. O confronto direto anterior (EUA x Bélgica 2-5) teve muitos gols no 2º tempo.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%",
+          "visit_over_0_5_>_65%",
+          "visit_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "ponderacao_odds": "A odd de Under 1.5 (4.03) é alta, indicando que o mercado espera 2+ gols, o que reforça o Lay 1x0. A Bélgica marcou em 90% dos jogos, tornando o 1x0 improvável. O confronto direto anterior terminou 2-5.",
+        "visitante_over_0_5": "90%",
+        "visitante_marca_pct": "90%",
+        "media_gols_total": "3.90",
+        "btts_medio": "65%",
+        "razao": "A Bélgica tem um ataque extremamente potente, marcando em 90% dos jogos com média de 3.00 gols, e a média de gols total é muito alta (3.90), tornando o placar 1x0 para o mandante improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0_1_<_12%",
+          "mand_over_0_5_>_65%",
+          "mand_marca_>_60%",
+          "media_gols_>=_2.5",
+          "btts_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "ponderacao_odds": "A odd de Under 1.5 (4.03) é alta, indicando que o mercado espera 2+ gols, o que reforça o Lay 0x1. Os EUA marcaram em 90% dos jogos, tornando o 0x1 improvável. O confronto direto anterior terminou 2-5.",
+        "mandante_over_0_5": "90%",
+        "mandante_marca_pct": "90%",
+        "media_gols_total": "3.90",
+        "btts_medio": "65%",
+        "razao": "Os EUA têm um ataque muito produtivo, marcando em 90% dos jogos com média de 2.30 gols, e a média de gols total é muito alta (3.90), o que torna o placar 0x1 para o visitante improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null
     }
   ],
-  "pdfs": [
-    {
-      "jogo": "Häcken x Djurgården",
-      "arquivo": "pdfs/2026-07-06/Sweden_Allsvenskan/001_14h00_Häcken_x_Djurgården.pdf"
-    },
-    {
-      "jogo": "Brommapojkarna x GAIS",
-      "arquivo": "pdfs/2026-07-06/Sweden_Allsvenskan/002_14h00_Brommapojkarna_x_GAIS.pdf"
-    },
-    {
-      "jogo": "Botafogo SP x Avaí",
-      "arquivo": "pdfs/2026-07-06/Brazil_Serie_B/003_19h00_Botafogo_SP_x_Avaí.pdf"
-    },
-    {
-      "jogo": "Vila Nova x São Bernardo",
-      "arquivo": "pdfs/2026-07-06/Brazil_Serie_B/004_19h00_Vila_Nova_x_São_Bernardo.pdf"
-    },
-    {
-      "jogo": "Brusque x Figueirense",
-      "arquivo": "pdfs/2026-07-06/Brazil_Serie_C/005_19h00_Brusque_x_Figueirense.pdf"
-    },
-    {
-      "jogo": "Amazonas x Itabaiana",
-      "arquivo": "pdfs/2026-07-06/Brazil_Serie_C/006_21h00_Amazonas_x_Itabaiana.pdf"
-    },
-    {
-      "jogo": "Portugal x Espanha",
-      "arquivo": "pdfs/2026-07-06/International_World_Cup/007_16h00_Portugal_x_Espanha.pdf"
-    },
-    {
-      "jogo": "EUA x Bélgica",
-      "arquivo": "pdfs/2026-07-06/International_World_Cup/008_21h00_EUA_x_Bélgica.pdf"
-    }
-  ]
+  "evitar": []
 }
