@@ -5,13 +5,18 @@ import Link from 'next/link';
 import {
   ExternalLink, TrendingUp, Clock, Trophy, X, SlidersHorizontal, Radio,
 } from 'lucide-react';
-import { BadgeMetodo, metodosAtivos, metodosRankeados, METODOS_INFO, modoDoMetodo, razaoDoMetodo, confiancaDoMetodo } from '@/components/BadgeMetodo';
+import { BadgeMetodo, metodosAtivos, metodosRankeados, METODOS_INFO, modoDoMetodo, razaoDoMetodo, confiancaDoMetodo, LinhaPlanoMetodo } from '@/components/BadgeMetodo';
 import PlacaresProvaveis from '@/components/PlacaresProvaveis';
 import { calcularPlacaresMaisProvaveis, parseMediaGols } from '@/lib/poisson';
 import { ContextoTimesCompacto } from '@/components/ContextoTimes';
 import BotoesApostaMini from '@/components/BotoesApostaMini';
 import BotaoBaixarImagem from '@/components/BotaoBaixarImagem';
 import BotaoFinalizar from '@/components/BotaoFinalizar';
+import FiltroMetodo from '@/components/FiltroMetodo';
+import CountdownPartida from '@/components/CountdownPartida';
+import GolsTimeline from '@/components/GolsTimeline';
+import BotaoCopiarTelegram from '@/components/BotaoCopiarTelegram';
+import HistoricoOdds from '@/components/HistoricoOdds';
 import type { Entrada } from '@/lib/relatorios';
 
 type EntradaComSlug = Entrada & { _slug: string };
@@ -45,6 +50,8 @@ type Placar = {
   gols_casa: number | null;
   gols_fora: number | null;
   status: 'finalizado' | 'em_andamento' | 'agendado';
+  minuto?: number | null;      // melhoria #3: minuto atual do jogo
+  fixture_id?: number | null;  // melhoria #5: id na API-Football (eventos)
 };
 
 function normalizarNome(s: string): string {
@@ -515,6 +522,14 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
             </button>
           </div>
 
+          {/* Melhoria #4: filtro rápido por método (mesmo estado da lateral) */}
+          <FiltroMetodo
+            metodosDisponiveis={metodosDisponiveis}
+            contagem={contagemMetodos}
+            ativos={metodosAtivos_}
+            onChange={setMetodosAtivos_}
+          />
+
           {/* Abas: Ativos / Encerrados (separação automática pelo placar) */}
           <div className="flex items-center gap-1 mb-4 border-b border-ink-200 dark:border-ink-800">
             <button
@@ -640,6 +655,8 @@ type Placar2 = {
   casa: string; fora: string;
   gols_casa: number | null; gols_fora: number | null;
   status: 'finalizado' | 'em_andamento' | 'agendado';
+  minuto?: number | null;
+  fixture_id?: number | null;
 };
 
 function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlug }: {
@@ -659,6 +676,14 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
           <span className="inline-flex items-center gap-1">
             <Clock size={12} />
             <span className="font-mono">{entrada.horario}</span>
+            {/* Melhoria #6: contador regressivo até o início (some quando
+                o jogo está rolando/encerrado — o placar assume) */}
+            {!aoVivo && !encerrado && (
+              <CountdownPartida
+                data={(relatorioSlug.match(/^(\d{4}-\d{2}-\d{2})/) || [])[1] || ''}
+                horario={entrada.horario}
+              />
+            )}
           </span>
         )}
         {entrada.liga && (
@@ -706,6 +731,12 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
         {placar && (placar.gols_casa !== null && placar.gols_fora !== null) && (
           <div className={`shrink-0 font-bold tabular-nums text-lg ${encerrado ? 'text-ink-700 dark:text-ink-200' : 'text-red-600 dark:text-red-400'}`}>
             {placar.gols_casa}<span className="text-ink-400 mx-0.5">x</span>{placar.gols_fora}
+            {/* Melhoria #3: minuto do jogo ao lado do placar ("2-1 · 67'") */}
+            {aoVivo && placar.minuto != null && (
+              <span className="ml-1 text-xs font-semibold align-middle text-red-500">
+                · {placar.minuto}&apos;
+              </span>
+            )}
           </div>
         )}
       </div>
@@ -719,6 +750,18 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
             <BadgeMetodo key={m} metodo={m} modo={modoDoMetodo(entrada, m)} />
           ))}
         </div>
+      )}
+
+      {/* Melhoria #5: linha do tempo dos gols — só em entradas com Over
+          Limite e quando o worker identificou o fixture (jogo rolando ou
+          encerrado). Mostra o gatilho de 65min e cada gol no minuto real. */}
+      {!!(entrada.over_limite_70 && (entrada.over_limite_70 as any).aplicavel) &&
+        placar?.fixture_id != null && (aoVivo || encerrado) && (
+        <GolsTimeline
+          fixtureId={placar.fixture_id}
+          minutoAtual={placar.minuto}
+          encerrado={encerrado}
+        />
       )}
 
       {/* PRINCIPAL — destaque grande, fundo colorido pela cor do método */}
@@ -763,6 +806,35 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
               <div className="text-sm font-medium text-ink-800 dark:text-ink-200 mb-1">
                 {entrada.mercado_principal}
               </div>
+              {/* Melhoria #2: O QUE FAZER — odd ideal + stake + modo de saída */}
+              <LinhaPlanoMetodo entrada={entrada} metodo={principal} />
+              {/* ALERTA DE ODD: histórico do time na faixa de odd de hoje
+                  (ex: "Náutico costuma tropeçar como favorito: 1V 1E 3D").
+                  Vem do Gemini (H2H com odds) ou do fallback do main.py. */}
+              {(() => {
+                const ao: any = (entrada as any).alerta_odds;
+                if (!ao || typeof ao !== 'object' || !ao.texto) return null;
+                const tipo = ao.tipo === 'alerta' || ao.tipo === 'positivo' ? ao.tipo : 'neutro';
+                const estilos: Record<string, string> = {
+                  alerta: 'bg-amber-50 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 border-amber-300 dark:border-amber-800',
+                  positivo: 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-300 border-emerald-300 dark:border-emerald-800',
+                  neutro: 'bg-ink-50 dark:bg-ink-900 text-ink-600 dark:text-ink-400 border-ink-200 dark:border-ink-700',
+                };
+                const icone = tipo === 'alerta' ? '⚠' : tipo === 'positivo' ? '✓' : 'ℹ';
+                return (
+                  <div className={`mt-1.5 px-2.5 py-1.5 rounded text-[11px] font-medium border flex gap-1.5 items-start ${estilos[tipo]}`}>
+                    <span aria-hidden="true" className="shrink-0">{icone}</span>
+                    <span>
+                      <span className="uppercase tracking-wider text-[9px] font-bold block opacity-70">
+                        Histórico na odd
+                      </span>
+                      {ao.texto}
+                    </span>
+                  </div>
+                );
+              })()}
+              {/* Melhoria #10: histórico de odds (abriu X → agora Y) */}
+              <HistoricoOdds entrada={entrada} />
               {razaoP && (
                 <div className="text-[11px] leading-relaxed text-ink-700 dark:text-ink-300">
                   {razaoP}
@@ -781,22 +853,43 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
                 const top4 = calcularPlacaresMaisProvaveis(mc, mf, 4);
                 if (top4.length === 0) return null;
 
-                // ⚠ DETECÇÃO DE INCONSISTÊNCIA:
-                // Se o método principal é Lay X-Y e esse placar aparece nos top 4 prováveis,
-                // ALERTA — a operação é contraditória.
+                // 🚫 MELHORIA #1 — BLOQUEIO (não mais só alerta):
+                // Se o método principal é Lay X-Y e esse placar aparece nos
+                // top 4 prováveis com prob > 12%, a entrada é BLOQUEADA.
+                // (A trava do main.py e do worker já impedem publicar; isto
+                // aqui é a 3ª camada, pra relatórios antigos já no ar.)
+                const LIMIAR_BLOQUEIO = 12;
+                let bloqueio: string | null = null;
                 let alertaInconsistencia: string | null = null;
                 if (principal === 'lay_1x0') {
                   const p10 = top4.find(p => p.gols_casa === 1 && p.gols_fora === 0);
-                  if (p10) alertaInconsistencia = `Atenção: 1×0 aparece entre os placares mais prováveis (${p10.prob_pct}%). Lay 1×0 contradiz a análise — revise antes de operar.`;
+                  if (p10 && p10.prob_pct > LIMIAR_BLOQUEIO) {
+                    bloqueio = `1×0 está entre os placares mais prováveis (${p10.prob_pct}%). Lay 1×0 contradiz a análise — NÃO OPERAR esta entrada.`;
+                  } else if (p10) {
+                    alertaInconsistencia = `Atenção: 1×0 aparece entre os placares mais prováveis (${p10.prob_pct}%). Revise antes de operar.`;
+                  }
                 } else if (principal === 'lay_0x1') {
                   const p01 = top4.find(p => p.gols_casa === 0 && p.gols_fora === 1);
-                  if (p01) alertaInconsistencia = `Atenção: 0×1 aparece entre os placares mais prováveis (${p01.prob_pct}%). Lay 0×1 contradiz a análise — revise antes de operar.`;
+                  if (p01 && p01.prob_pct > LIMIAR_BLOQUEIO) {
+                    bloqueio = `0×1 está entre os placares mais prováveis (${p01.prob_pct}%). Lay 0×1 contradiz a análise — NÃO OPERAR esta entrada.`;
+                  } else if (p01) {
+                    alertaInconsistencia = `Atenção: 0×1 aparece entre os placares mais prováveis (${p01.prob_pct}%). Revise antes de operar.`;
+                  }
                 }
 
                 return (
                   <>
                     <PlacaresProvaveis placares={top4} />
-                    {alertaInconsistencia && (
+                    {bloqueio && (
+                      <div className="mt-2 px-2.5 py-2 rounded-md text-[11px] font-semibold bg-red-600 text-white flex gap-1.5 items-start shadow-sm">
+                        <span aria-hidden="true">🚫</span>
+                        <span>
+                          <span className="uppercase tracking-wider block mb-0.5">Entrada bloqueada</span>
+                          {bloqueio}
+                        </span>
+                      </div>
+                    )}
+                    {!bloqueio && alertaInconsistencia && (
                       <div className="mt-2 px-2.5 py-1.5 rounded text-[11px] font-medium bg-red-50 dark:bg-red-950/40 text-red-700 dark:text-red-300 border border-red-200 dark:border-red-900 flex gap-1.5 items-start">
                         <span aria-hidden="true">⚠</span>
                         <span>{alertaInconsistencia}</span>
@@ -834,6 +927,8 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
                           {razao}
                         </div>
                       )}
+                      {/* Melhoria #2: odd/stake/saída também nos secundários */}
+                      <LinhaPlanoMetodo entrada={entrada} metodo={m} compacto />
                     </div>
                   );
                 })}
@@ -857,7 +952,18 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
       )}
 
       <div className="mt-auto pt-3 border-t border-ink-100 dark:border-ink-800 space-y-2" data-no-export="true">
-        <BotoesApostaMini jogo={entrada.jogo} />
+        <div className="flex items-center gap-2">
+          <div className="flex-1 min-w-0">
+            <BotoesApostaMini jogo={entrada.jogo} />
+          </div>
+          {/* Melhoria #9: copiar entrada formatada pro Telegram */}
+          <BotaoCopiarTelegram
+            entrada={entrada}
+            metodoPrincipal={
+              metodosRankeados(entrada).filter(m => m !== 'confirmacao_visual')[0] || null
+            }
+          />
+        </div>
         <Link
           href={`/relatorio/${relatorioSlug}/${entrada._slug}/`}
           target="_blank"
