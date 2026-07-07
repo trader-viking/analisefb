@@ -118,6 +118,10 @@ export function metodosAtivos(entrada: Entrada): string[] {
   // aplicavel: true no objeto, ou marcou o objeto como null, ainda consideramos.
   if (Array.isArray(entrada.metodos_aplicados)) {
     for (const m of entrada.metodos_aplicados) {
+      // Melhoria #1: método bloqueado pela trava de Poisson (main.py ou
+      // worker) NUNCA volta pela lista metodos_aplicados
+      const obj: any = (entrada as any)[m];
+      if (obj && obj._bloqueado_poisson) continue;
       if (METODOS_INFO[m] && !setVistos.has(m)) {
         result.push(m);
         setVistos.add(m);
@@ -235,6 +239,93 @@ const ORDEM_FIXA: Record<string, number> = {
   back_goleada: 2,
   confirmacao_visual: 1,
 };
+
+// =====================================================================
+// Melhoria #2 — Plano de execução do método: odd ideal + stake + saída
+// "O que fazer", em vez de só "Lay 1×0 aplicável".
+// Ex: "Odd ≥ 10.50 · Stake 2% · Saída: cash-out no 65min ou 2º gol"
+// =====================================================================
+export type PlanoMetodo = {
+  odd: string | null;
+  stake: string | null;
+  saida: string | null;
+};
+
+// Extrai o primeiro número de uma string ("10.50 (odd alvo)" → "10.50")
+function primeiroNumero(v: unknown): string | null {
+  if (typeof v === 'number') return String(v);
+  if (typeof v !== 'string') return null;
+  const m = v.match(/\d+(?:[.,]\d+)?/);
+  return m ? m[0].replace(',', '.') : null;
+}
+
+export function planoDoMetodo(entrada: Entrada, metodo: string): PlanoMetodo {
+  const obj: any = (entrada as any)[metodo] || {};
+  const e: any = entrada as any;
+
+  // Odd de referência do método (cada método usa um campo diferente no JSON)
+  const oddBruta =
+    obj.odd_alvo || obj.odd_zebra_alvo || obj.odd_esperada ||
+    e.odd_minima_entrada || e.odd_principal || null;
+  // odd_esperada do Over vem como faixa ("1.60 a 2.20") — mantém como está
+  const odd = typeof oddBruta === 'string' && /\d\s*a\s*\d/.test(oddBruta)
+    ? oddBruta.trim()
+    : primeiroNumero(oddBruta);
+
+  const stake = primeiroNumero(obj.stake_recomendada || e.stake_recomendada)
+    ? `${primeiroNumero(obj.stake_recomendada || e.stake_recomendada)}%`
+    : null;
+
+  const saida =
+    obj.regra_saida || obj.condicao_entrada || obj.gatilho_ao_vivo ||
+    e.situacao_saida || null;
+
+  return { odd, stake, saida: typeof saida === 'string' ? saida : null };
+}
+
+export function LinhaPlanoMetodo({
+  entrada,
+  metodo,
+  compacto = false,
+}: {
+  entrada: Entrada;
+  metodo: string;
+  compacto?: boolean;
+}) {
+  const { odd, stake, saida } = planoDoMetodo(entrada, metodo);
+  if (!odd && !stake && !saida) return null;
+  const ehFaixa = odd ? /\sa\s/.test(odd) : false;
+  return (
+    <div
+      className={`flex flex-wrap items-center gap-x-2 gap-y-0.5 ${
+        compacto ? 'text-[10px]' : 'text-[11px]'
+      } font-medium text-ink-800 dark:text-ink-200 bg-white/60 dark:bg-ink-950/40 rounded px-2 py-1 mt-1.5 ring-1 ring-inset ring-ink-200/70 dark:ring-ink-800`}
+    >
+      {odd && (
+        <span className="inline-flex items-center gap-1 tabular-nums">
+          <span className="text-ink-400">Odd</span>
+          <span className="font-bold text-emerald-700 dark:text-emerald-400">
+            {ehFaixa ? odd : `≥ ${odd}`}
+          </span>
+        </span>
+      )}
+      {odd && (stake || saida) && <span className="text-ink-300">·</span>}
+      {stake && (
+        <span className="inline-flex items-center gap-1 tabular-nums">
+          <span className="text-ink-400">Stake</span>
+          <span className="font-bold">{stake}</span>
+        </span>
+      )}
+      {stake && saida && <span className="text-ink-300">·</span>}
+      {saida && (
+        <span className="inline-flex items-baseline gap-1 min-w-0">
+          <span className="text-ink-400 shrink-0">Saída</span>
+          <span className={compacto ? 'truncate max-w-[200px]' : ''}>{saida}</span>
+        </span>
+      )}
+    </div>
+  );
+}
 
 // Retorna a razão (motivo) escrita pelo Gemini pra um método específico
 export function razaoDoMetodo(entrada: Entrada, metodo: string): string {
