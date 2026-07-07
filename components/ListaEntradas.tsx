@@ -835,6 +835,40 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
               })()}
               {/* Melhoria #10: histórico de odds (abriu X → agora Y) */}
               <HistoricoOdds entrada={entrada} />
+              {/* ALERTA DE JOGADORES: ausências que impactam os métodos
+                  (ex: "Sem Messi, Argentina perde criação — enfraquece Back Favorito") */}
+              {(() => {
+                const jog: any = (entrada as any).jogadores;
+                const ausencias: any[] = jog?.ausencias_impacto;
+                if (!Array.isArray(ausencias) || ausencias.length === 0) return null;
+                return (
+                  <div className="mt-1.5 space-y-1">
+                    {ausencias.map((a: any, i: number) => {
+                      if (!a || !a.jogador || !a.impacto) return null;
+                      const statusIcon = a.status === 'ausente' || a.status === 'suspenso'
+                        ? '🚫' : a.status === 'lesionado' ? '🏥' : '❓';
+                      const statusLabel = a.status === 'ausente' ? 'Ausente'
+                        : a.status === 'suspenso' ? 'Suspenso'
+                        : a.status === 'lesionado' ? 'Lesionado' : 'Dúvida';
+                      return (
+                        <div
+                          key={i}
+                          className="px-2.5 py-1.5 rounded text-[11px] font-medium bg-orange-50 dark:bg-orange-950/40 text-orange-800 dark:text-orange-300 border border-orange-200 dark:border-orange-800 flex gap-1.5 items-start"
+                        >
+                          <span aria-hidden="true" className="shrink-0">{statusIcon}</span>
+                          <span>
+                            <span className="font-bold">{a.jogador}</span>
+                            <span className="text-[9px] uppercase tracking-wider ml-1 opacity-70">
+                              ({a.time} · {statusLabel})
+                            </span>
+                            <span className="block mt-0.5">{a.impacto}</span>
+                          </span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                );
+              })()}
               {razaoP && (
                 <div className="text-[11px] leading-relaxed text-ink-700 dark:text-ink-300">
                   {razaoP}
