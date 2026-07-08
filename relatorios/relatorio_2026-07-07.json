@@ -1,9 +1,730 @@
 {
   "data": "2026-07-07",
   "dia_consultado": "ontem",
-  "gerado_em": "2026-07-08T09:59:27.292396",
+  "gerado_em": "2026-07-08T12:36:45.254888",
   "total_partidas_analisadas": 3,
-  "entradas": [],
+  "entradas": [
+    {
+      "horario": "13:00",
+      "liga": "International World Cup",
+      "jogo": "Argentina x Egipto",
+      "metodos_aplicados": [
+        "back_favorito",
+        "back_goleada",
+        "over_limite_70",
+        "lay_zebra"
+      ],
+      "mercado_principal": "Vitória Argentina",
+      "probabilidade_estimada": "78%",
+      "fair_odd": "1.28",
+      "odd_minima_entrada": "1.41",
+      "media_gols_casa": "3.10",
+      "media_gols_fora": "1.20",
+      "odds_mercado": {
+        "casa": "1.33",
+        "empate": "4.75",
+        "fora": "11.00",
+        "dupla_chance_1x": "1.03",
+        "dupla_chance_12": "1.14",
+        "dupla_chance_x2": "3.30",
+        "over_05": "1.06",
+        "under_05": "9.00",
+        "over_15": "1.32",
+        "under_15": "3.39",
+        "over_25": "1.90",
+        "under_25": "1.90",
+        "over_35": "3.70",
+        "under_35": "1.28",
+        "over_45": "7.00",
+        "under_45": "1.10"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: 30V 6E 4D +3.2U — Argentina entrega consistentemente como favorita/super favorita",
+        "resumo_favorito_fora": "Egito: dados de H2H com odds nao detalhados por papel no material fornecido",
+        "leitura": "Argentina tem retrospecto dominante como super favorita (30V 6E 4D +3.2U). Odd 1.33 confirma favoritismo extremo e o historico valida a entrega nessa faixa.",
+        "jogos_relevantes": [
+          {
+            "data": "03/07/26",
+            "confronto": "Argentina x Cabo Verde",
+            "time_analisado": "Argentina",
+            "papel": "super_favorito",
+            "odd": "1.14",
+            "placar": "3-2",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "27/06/26",
+            "confronto": "Jordania x Argentina",
+            "time_analisado": "Argentina",
+            "papel": "super_favorito",
+            "odd": "1.12",
+            "placar": "1-3",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "22/06/26",
+            "confronto": "Argentina x Austria",
+            "time_analisado": "Argentina",
+            "papel": "super_favorito",
+            "odd": "1.45",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "16/06/26",
+            "confronto": "Argentina x Algeria",
+            "time_analisado": "Argentina",
+            "papel": "super_favorito",
+            "odd": "1.55",
+            "placar": "3-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "09/06/26",
+            "confronto": "Argentina x Islandia",
+            "time_analisado": "Argentina",
+            "papel": "super_favorito",
+            "odd": "1.20",
+            "placar": "3-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "06/06/26",
+            "confronto": "Argentina x Honduras",
+            "time_analisado": "Argentina",
+            "papel": "super_favorito",
+            "odd": "1.11",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Argentina",
+        "texto": "Argentina entrega como super favorita: 30V 6E 4D historico geral; nos ultimos 6 jogos cotada abaixo de 1.60, venceu todos os 6 — historico solido nessa faixa de odd."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Lionel Messi — artilheiro historico (19 gols), criacao e finalizacao, referencia ofensiva",
+          "Lautaro Martinez — 9 gols, centroavante decisivo, referencia no ataque",
+          "Enzo Fernandez — 4 gols e 3 assistencias, motor do meio-campo",
+          "Emiliano Martinez — goleiro titular, 25 jogos, referencia defensiva"
+        ],
+        "destaques_fora": [],
+        "titulares_casa": "4-3-3 (estimado com base nos jogadores de maior titularidade)",
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Argentina com 100% de aproveitamento no torneio (3V), media de 3.1 gols/jogo e Egito com apenas 1.2 gols marcados. Favoritismo extremo confirmado pela odd 1.33 e historico de 30V como super favorita.",
+      "alerta_geral": "Evitar jogos empatados, com goleada ja consolidada (3+ gols de diferenca) ou apos expulsao.",
+      "valor_esperado": "Prob. 78% → fair 1.28; odd mercado 1.33 esta acima da fair, porem margem pequena. Back Favorito so vale se odd >= 1.41. Back Goleada e Over Limite oferecem melhor valor.",
+      "mercado_secundario": "Argentina marca 4+ e vence",
+      "odd_minima_secundaria": "4.20",
+      "desempenho_1t": "Argentina marca 1.50 gols/jogo no 1T; 100% dos jogos tem gol no 1T",
+      "desempenho_2t": "Egito sofre 0.40 gols/jogo no 2T mas Argentina marca 1.60/jogo no 2T",
+      "contexto_times": {
+        "casa": {
+          "posicao": "1º (lider do grupo com 9 pontos, 3V 0E 0D)",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "",
+          "objetivo": ""
+        }
+      },
+      "motivacao_tecnica": "Argentina lider absoluta do grupo com 9 pontos (3V 0E 0D), saldo de +7 gols (8 marcados, 1 sofrido). Media ofensiva de 3.10 gols/jogo. Egito com aproveitamento de apenas 30% (3 jogos), marcando 1.20 gols/jogo e sofrendo 0.70. Argentina marcou em 100% dos jogos, Egito sofreu em 60%. Jogo de Copa do Mundo — motivacao maxima para ambos. Desequilibrio tecnico evidente: Argentina com Messi (19 gols historicos), Lautaro (9 gols) e Enzo Fernandez. Argentina marca 28% dos gols na faixa 76-90min — condicao (b) do Over Limite atendida. Egito sofre 33% dos gols na faixa 76-90min — condicao (d) tambem atendida.",
+      "coeficiente_regularidade": "Argentina: CV baixo (100% de vitorias, padrao consistente) / Egito: CV alto (resultados variados, 30% aproveitamento)",
+      "mando_de_campo": "Argentina como mandante/favorita: 100% de aproveitamento nos 10 jogos analisados",
+      "condicoes_campo": "Copa do Mundo — campo neutro; sem fatores climaticos relevantes no material",
+      "desfalques_chave": "Elenco Argentina aparentemente completo com base nos dados do PDF",
+      "especificidades_gols": "Argentina marca distribuido ao longo do jogo com pico na faixa 76-90 (28%). Egito sofre 67% dos gols na faixa 46-60 e 33% na faixa 76-90.",
+      "momento_gols": "Argentina: pico de gols em 76-90 (28% dos gols marcados). Egito: vulneravel em 46-60 (67% dos gols sofridos) e 76-90 (33%).",
+      "jogadores_chave": "Messi (19 gols historicos), Lautaro Martinez (9 gols), Enzo Fernandez (4 gols/3 assist), Juliao Alvarez (5 gols)",
+      "placares_provaveis": "3-0, 2-0, 3-1, 4-0",
+      "momento_entrada": "Back Favorito: pre-jogo se odd >= 1.41 (mercado paga 1.33 — abaixo do minimo, avaliar ao vivo). Back Goleada: pre-jogo. Over Limite: ao vivo apos 65min.",
+      "situacao_saida": "Back Goleada: cash-out se Argentina ja estiver 4-0 antes dos 70min. Over Limite: nao entrar se goleada consolidada (3+ gols diferenca).",
+      "stake_recomendada": "1% (Back Goleada) / 1% (Over Limite)",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Odd do Back Favorito (1.33) esta abaixo da odd minima de entrada (1.41) — sem valor no pre-jogo. Focar em Back Goleada (pre-jogo) e Over Limite (ao vivo apos 65min) onde o valor e maior.",
+        "gatilho_saida_parcial": "Back Goleada: se Argentina chegar a 3-0 antes dos 60min, avaliar cash-out parcial. Over Limite: nao entrar se diferenca for 3+ gols.",
+        "hard_stop": "Over Limite: nao entrar apos expulsao ou se jogo empatado 0-0 apos 65min sem pressao clara."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%_estimada_78%",
+          "aproveitamento_100%_superior_na_tabela",
+          "adversario_aproveitamento_30%_<_35%",
+          "liga_permitida_world_cup"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito": "Argentina",
+        "odd_alvo": "1.41",
+        "razao": "Argentina com 100% de aproveitamento no torneio, media 3.1 gols/jogo, contra Egito com 30% de aproveitamento. Favoritismo extremo confirmado. Odd mercado 1.33 esta abaixo da minima — entrar ao vivo se odd subir apos evento adverso.",
+        "ponderacao_odds": "Odd 1.33 confirma favoritismo extremo mas esta ABAIXO da odd minima de entrada (1.41). Historico como super favorita: 30V 6E 4D — entrega. Sem valor no pre-jogo; aguardar ao vivo.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "odd_zebra_11.00_>=_5.00",
+          "egito_aproveitamento_30%_com_3_derrotas_em_10_jogos",
+          "liga_permitida_world_cup"
+        ],
+        "criterios_total": 3,
+        "modo": "ao_vivo",
+        "zebra": "Egipto",
+        "favorito_do_jogo": "Argentina",
+        "ponderacao_odds": "Egito cotado a 11.00 — muito acima do limiar de 5.00. Aproveitamento de 30% (3V em 10 jogos), media de 1.20 gols marcados e 0.70 sofridos. Lay reforçado pelo historico dominante da Argentina.",
+        "razao": "Egito e zebra clara com odd 11.00, aproveitamento de 30% e media ofensiva fraca (1.20 gols/jogo). Argentina venceu 100% dos seus jogos no torneio. Probabilidade de vitoria do Egito estimada em ~9%.",
+        "gatilho_ao_vivo": "Lay Egito ao vivo apos Egito marcar primeiro (se ocorrer) para capturar odd ainda mais inflada; ou entrar pre-jogo dado odd 11.00 ja muito atrativa.",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "argentina_marcado_76_90_28%_>=_25%",
+          "egito_sofrido_76_90_33%_>=_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Argentina — Copa do Mundo, fase eliminatoria, motivacao maxima",
+        "indices_gols_faixas": "Argentina Marcado 61-75: 10% | 76-90: 28% | Egito Sofrido 61-75: 0% | 76-90: 33%",
+        "qual_condicao_atende": "Condicao (b): Argentina Marcado 76-90 = 28% >= 25%. Condicao (d): Egito Sofrido 76-90 = 33% >= 25%.",
+        "motivo_motivacao": "Copa do Mundo fase eliminatoria — motivacao maxima por definicao. Argentina brigando por avanco no torneio, desequilibrio tecnico evidente.",
+        "condicao_entrada": "Entrar AO VIVO apos 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5; 2-0 vira Mais 2.5)",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1 apos 65min)",
+        "ponderacao_odds": "Over 2.5 a 1.90 — mercado equilibrado sobre 3+ gols. Argentina marca 28% dos gols na faixa 76-90 e Egito sofre 33% nessa faixa — perfil de gols tardios confirmado. Over 0.5 no 2T a 1.30 reforça expectativa de gols na segunda etapa.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferenca), ou expulsao em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=_70%_estimada_78%",
+          "argentina_media_ofensiva_3.10_>=_2.5",
+          "egito_sofre_0.70_gols_jogo_porem_argentina_marca_3.10"
+        ],
+        "criterios_total": 3,
+        "candidato": "Argentina",
+        "razao": "Argentina com media ofensiva de 3.10 gols/jogo, 100% de aproveitamento no torneio e Egito com defesa que sofreu em 60% dos jogos. Argentina marcou 5-0 contra Zambia e 3-0 em multiplos jogos recentes. Cenario de goleada plausivel.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Argentina marca 4+ e vence",
+        "ponderacao_odds": "Favorito a 1.33 (extremo) + Over 4.5 a 7.00 — mercado precifica goleada como possivel. Argentina marcou 5+ gols em jogos recentes (5-0 Zambia, 6-0 Bolivia). Over 3.5 a 3.70 reforça cenario de muitos gols.",
+        "odd_esperada": "4.00 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_<_12%_media_total_4.30_gols",
+          "egito_over_0.5_visitante_70%",
+          "egito_marca_em_70%_dos_jogos",
+          "media_gols_total_4.30_>=_2.5",
+          "btts_estimado_60%_>_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "5%",
+        "ponderacao_odds": "Under 1.5 a 3.39 — mercado espera 2+ gols; Under 0.5 a 9.00 confirma expectativa de jogo com gols. Media total de 4.30 gols/jogo torna 1x0 muito improvavel. Lay 1x0 reforçado.",
+        "visitante_over_0_5": "70%",
+        "visitante_marca_pct": "70%",
+        "media_gols_total": "4.30",
+        "btts_medio": "60%",
+        "razao": "Com media total de 4.30 gols/jogo (Argentina 3.10 + Egito 1.20), o placar 1x0 e extremamente improvavel. Argentina tende a marcar multiplos gols e Egito marca em 70% dos jogos — ambas marcam frequentemente. P(1-0) estimada em ~5%.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou apos 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "3%",
+        "ponderacao_odds": "Argentina marca em 100% dos jogos — P(0-1) e minima. Porem o Lay 1x0 ja cobre o cenario principal e o Lay 0x1 seria redundante dado que Argentina quase nunca nao marca.",
+        "mandante_over_0_5": "100%",
+        "mandante_marca_pct": "100%",
+        "media_gols_total": "4.30",
+        "btts_medio": "60%",
+        "razao": "Argentina marca em 100% dos jogos — 0x1 e praticamente impossivel. Criterios numericos atendem mas o metodo e redundante com Lay 1x0 ja aplicado. Nao incluido em metodos_aplicados para evitar sobreposicao.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou apos 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Argentina com posse dominante (65%) e pressao alta; Egito em bloco defensivo baixo tentando contra-ataques",
+        "gatilhos_aceleracao": "Argentina com linhas subidas, passes rapidos no terco final, Messi e Lautaro proximos da area adversaria",
+        "alerta_armadilha": "Se Egito marcar primeiro e Argentina nao pressionar nos primeiros 10min apos o gol — risco de jogo travado",
+        "mercado_recomendado": "Over Limite (+1 gol) apos 65min ou Back Goleada pre-jogo",
+        "momento_observacao": "Primeiros 15min para confirmar dominio argentino; apos 65min para Over Limite"
+      }
+    },
+    {
+      "horario": "17:00",
+      "liga": "International World Cup",
+      "jogo": "Suíça x Colômbia",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "lay_1x0"
+      ],
+      "mercado_principal": "Vitória Colômbia",
+      "probabilidade_estimada": "52%",
+      "fair_odd": "1.92",
+      "odd_minima_entrada": "2.21",
+      "media_gols_casa": "1.70",
+      "media_gols_fora": "2.20",
+      "odds_mercado": {
+        "casa": "3.50",
+        "empate": "3.10",
+        "fora": "2.25",
+        "dupla_chance_1x": "1.57",
+        "dupla_chance_12": "1.33",
+        "dupla_chance_x2": "1.25",
+        "over_05": "1.05",
+        "under_05": "8.50",
+        "over_15": "1.39",
+        "under_15": "3.04",
+        "over_25": "2.30",
+        "under_25": "1.61"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: dados não separados por papel no PDF | Geral: 19V 18E 6D -8.7U",
+        "resumo_favorito_fora": "Colômbia como visitante: 2V 2E 2D nos últimos 6 jogos fora (GHA, POR, CD, UZB, JOR, CR, FRA, CRO)",
+        "leitura": "Suíça aparece como ZEBRA hoje (odd 3.50) — o mercado favorece claramente a Colômbia (2.25). Suíça tem histórico de resultados irregulares como zebra, mas também surpreende (venceu EUA 4-0 e México 4-2 como visitante).",
+        "jogos_relevantes": [
+          {
+            "data": "03/07/26",
+            "confronto": "Suíça x Argélia",
+            "time_analisado": "Suíça",
+            "papel": "favorito",
+            "odd": "1.95",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "24/06/26",
+            "confronto": "Suíça x Canadá",
+            "time_analisado": "Suíça",
+            "papel": "favorito",
+            "odd": "2.60",
+            "placar": "2-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "18/06/26",
+            "confronto": "Suíça x Bósnia Herzegovina",
+            "time_analisado": "Suíça",
+            "papel": "favorito",
+            "odd": "1.53",
+            "placar": "4-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "13/06/26",
+            "confronto": "Qatar x Suíça",
+            "time_analisado": "Suíça",
+            "papel": "super_favorito",
+            "odd": "1.18",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "27/03/26",
+            "confronto": "Suíça x Alemanha",
+            "time_analisado": "Suíça",
+            "papel": "parelho",
+            "odd": "3.10",
+            "placar": "3-4",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "31/03/26",
+            "confronto": "Noruega x Suíça",
+            "time_analisado": "Suíça",
+            "papel": "zebra",
+            "odd": "3.50",
+            "placar": "0-0",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "Colômbia",
+        "texto": "Colômbia aparece como favorita (2.25) neste mata-mata — nos últimos jogos como visitante, registrou 3V 2E 3D, desempenho dividido que não confirma nem nega o favoritismo com clareza."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Breel Embolo — artilheiro principal, 11 gols em 23 jogos, referência ofensiva",
+          "Dan Ndoye — 8 gols e 3 assistências, velocidade e criação pelo lado",
+          "Granit Xhaka — liderança no meio, 4 gols e 22 desarmes",
+          "Remo Freuler — motor do meio-campo, 38 desarmes"
+        ],
+        "destaques_fora": [],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Colômbia favorita (2.25) com melhor aproveitamento recente (70% de vitórias, 1ª no grupo) contra Suíça irregular. Ambos marcam muito nos minutos finais — Over Limite e Lay 1x0 também se aplicam.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 52% → fair 1.92; com margem de segurança (15-20%), só entrar acima de 2.21. Odd de mercado 2.25 está levemente acima do mínimo — entrada com EV positivo marginal.",
+      "mercado_secundario": "Over Limite (+1 gol) ao vivo após 65min",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": "Suíça marca 0.90 gols/1ºT; Colômbia marca 1.30 gols/1ºT",
+      "desempenho_2t": "Suíça marca 0.70 gols/2ºT; Colômbia sofre 0.30 gols/2ºT — defesa sólida no 2T",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": "",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Colômbia terminou em 1º no grupo (7 pontos, 2V 1E 0D, saldo +3) e chega motivada ao mata-mata. Suíça entra como mandante nominal mas é a zebra do mercado (odd 3.50 vs 2.25 da Colômbia). Colômbia tem aproveitamento de 70% nos últimos 10 jogos, marca 1.70 gols/jogo e sofre apenas 0.80 — a melhor defesa do confronto. Suíça tem 50% de aproveitamento e sofreu gol em 80% dos jogos. A tabela de momento dos gols mostra que a Colômbia marca 47% dos seus gols entre 76-90min — padrão fortíssimo de gols tardios que ativa o Over Limite.",
+      "coeficiente_regularidade": "Colômbia: CV baixo (consistente) / Suíça: CV moderado (irregular)",
+      "mando_de_campo": "Jogo em campo neutro (Copa do Mundo) — mando irrelevante",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "Dados de desfalques da Colômbia ausentes no PDF; elenco da Suíça aparentemente completo",
+      "especificidades_gols": "Suíça marca concentrado no 2ºT (27% entre 76-90). Colômbia marca 47% dos gols entre 76-90min — padrão tardio muito forte.",
+      "momento_gols": "Colômbia: 47% dos gols marcados entre 76-90min. Suíça: 27% entre 76-90min. Ambos com perfil de gols tardios.",
+      "jogadores_chave": "Embolo (Suíça, 11 gols), Ndoye (Suíça, 8 gols), Xhaka (Suíça, liderança). Jogadores da Colômbia não detalhados no PDF.",
+      "placares_provaveis": "1-0 Colômbia, 2-0 Colômbia, 1-1 (prorrogação), 2-1 Colômbia",
+      "momento_entrada": "Back Favorito (Colômbia): pré-jogo se odd >= 2.21. Over Limite: ao vivo após 65min.",
+      "situacao_saida": "Back Favorito: cash-out se Suíça abrir 2-0. Over Limite: não entrar se 0-0 ou goleada consolidada.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Odd de mercado (2.25) está levemente acima do mínimo calculado (2.21) — EV positivo marginal. Confirmar que a odd não caiu antes de entrar.",
+        "gatilho_saida_parcial": "Se Suíça marcar primeiro e empatar ou virar, reduzir exposição imediatamente",
+        "hard_stop": "Saída total se Suíça abrir 2-0 antes do intervalo"
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "prob_estimada_52%_acima_de_45%_para_favorito_de_mercado",
+          "colômbia_70%_aproveitamento_recente",
+          "suíça_50%_aproveitamento_abaixo_do_favorito",
+          "liga_permitida_world_cup"
+        ],
+        "criterios_total": 4,
+        "modo": "pre_jogo",
+        "favorito": "Colômbia",
+        "odd_alvo": "2.25",
+        "razao": "Colômbia é favorita do mercado (2.25), terminou 1ª no grupo com 70% de aproveitamento e defesa sólida (0.80 gols sofridos/jogo). Suíça tem apenas 50% de aproveitamento e sofreu gol em 80% dos jogos.",
+        "ponderacao_odds": "Odd 2.25 da Colômbia está acima da odd mínima calculada (2.21) — EV positivo confirmado. H2H mostra Suíça irregular como zebra (0-0 vs Noruega na mesma faixa de odd 3.50).",
+        "stake_recomendada": "2%",
+        "_reprovado_odds": true,
+        "razao_reprovacao": "mercado não confirma favoritismo: menor odd 1X2 é 2.25 (precisa ≤2.1)"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "colômbia_marcado_76-90_47%_acima_de_25%",
+          "suíça_marcado_76-90_27%_acima_de_25%"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Colômbia — mata-mata de Copa do Mundo, motivação máxima por definição",
+        "indices_gols_faixas": "Suíça Marcado 61-75: 9% | Suíça Marcado 76-90: 27% | Colômbia Marcado 61-75: 6% | Colômbia Marcado 76-90: 47%",
+        "qual_condicao_atende": "Condição (b): Suíça Marcado 76-90 = 27% >= 25%. Condição adicional: Colômbia Marcado 76-90 = 47% >= 25% (condição b do adversário como favorito).",
+        "motivo_motivacao": "Mata-mata de Copa do Mundo — motivação máxima para ambos os times. Colômbia brigando por classificação às quartas.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1 após 65min)",
+        "ponderacao_odds": "Over 2.5 a 2.30 — mercado espera jogo fechado, mas os dados de gols tardios (Colômbia 47% entre 76-90) contradizem essa leitura e criam valor no Over Limite ao vivo.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1_0_estimada_abaixo_12%",
+          "colômbia_over_0.5_90%_acima_65%",
+          "colômbia_marca_em_90%_jogos_acima_60%",
+          "media_gols_total_3.30_acima_2.5",
+          "btts_estimado_65%_acima_50%"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "9%",
+        "ponderacao_odds": "Under 1.5 a 3.04 — mercado espera 2+ gols com alta probabilidade; reforça que 1x0 é placar improvável. Over 2.5 a 2.30 também indica jogo com tendência a mais gols.",
+        "visitante_over_0_5": "90%",
+        "visitante_marca_pct": "90%",
+        "media_gols_total": "3.30",
+        "btts_medio": "65%",
+        "razao": "Colômbia marca em 90% dos jogos e tem Over 0.5 de 90% — placar 1x0 para a Suíça é muito improvável. Média total de 3.30 gols/jogo e BTTS de 65% confirmam perfil ofensivo. Suíça sofreu gol em 80% dos jogos.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Colômbia com posse alta (62%) e ataque produtivo; Suíça mais reativa mas com capacidade de contra-ataque (Embolo, Ndoye)",
+        "gatilhos_aceleracao": "Colômbia dominando posse e criando chances nos primeiros 15min; Suíça recuada e sem transições efetivas",
+        "alerta_armadilha": "Suíça pode surpreender em contra-ataques — Embolo e Ndoye são rápidos. Se Suíça abrir o placar, rever todas as entradas.",
+        "mercado_recomendado": "Back Colômbia (vitória) se confirmado domínio nos primeiros 15min",
+        "momento_observacao": "0-15min para confirmar tática; Over Limite após 65min"
+      },
+      "media_gols_ajustada_coerencia": true
+    },
+    {
+      "horario": "20:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Athletic Club x Operário PR",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols (Over Limite ao vivo após 65min)",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "media_gols_casa": "0.88",
+      "media_gols_fora": "1.29",
+      "odds_mercado": {
+        "casa": "2.55",
+        "empate": "2.90",
+        "fora": "3.10",
+        "dupla_chance_1x": "1.33",
+        "dupla_chance_12": "1.36",
+        "dupla_chance_x2": "1.53",
+        "over_05": "1.12",
+        "under_05": "6.56",
+        "over_15": "1.56",
+        "under_15": "2.50",
+        "over_25": "2.70",
+        "under_25": "1.44"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "7V 8E 5D +3.4U (dados gerais do Athletic Club em casa)",
+        "resumo_favorito_fora": null,
+        "leitura": "Athletic Club em casa tem retrospecto equilibrado (7V 8E 5D). Operário PR como visitante vem de resultados mistos. Jogo parelho confirmado pelas odds 2.55 x 3.10.",
+        "jogos_relevantes": [
+          {
+            "data": "28/06/26",
+            "confronto": "Athletic Club x Avaí",
+            "time_analisado": "Athletic Club",
+            "papel": "favorito",
+            "odd": "1.90",
+            "placar": "1-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "20/06/26",
+            "confronto": "Londrina x Athletic Club",
+            "time_analisado": "Athletic Club",
+            "papel": "zebra",
+            "odd": "3.25",
+            "placar": "2-0",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "14/06/26",
+            "confronto": "Athletic Club x Goiás",
+            "time_analisado": "Athletic Club",
+            "papel": "favorito",
+            "odd": "2.15",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "30/05/26",
+            "confronto": "Athletic Club x Fortaleza",
+            "time_analisado": "Athletic Club",
+            "papel": "favorito",
+            "odd": "2.62",
+            "placar": "1-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "25/05/26",
+            "confronto": "Botafogo SP x Athletic Club",
+            "time_analisado": "Athletic Club",
+            "papel": "zebra",
+            "odd": "3.60",
+            "placar": "1-2",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "17/05/26",
+            "confronto": "Athletic Club x Juventude",
+            "time_analisado": "Athletic Club",
+            "papel": "favorito",
+            "odd": "2.60",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "Athletic Club",
+        "texto": "Athletic Club como favorito (odds ~1.90-2.62): 2V 2E nos últimos 4 jogos nessa faixa — retrospecto dividido, sem padrão claro de entrega."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Ronaldo Rodrigues Tavares — artilheiro com 5 gols em 6 jogos, referência ofensiva",
+          "Ian Luccas Baroni Boetto — 3 gols e 2 assistências, peça criativa",
+          "João Victor Broad Moreira Guimaraes — 1 gol e 2 assistências"
+        ],
+        "destaques_fora": null,
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Operário PR sofre 60% dos gols na faixa 76-90min como visitante. Over Limite ao vivo após 65min captura essa tendência de gols tardios.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 60% de gol tardio → fair 1.67; com margem de segurança, só entrar acima de 1.92 no mercado ao vivo após 65min.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Athletic Club marca 0.50 gols/jogo no 1ºT; Operário PR sofre 0.40 gols/jogo no 1ºT como visitante",
+      "desempenho_2t": "Operário PR sofre 60% dos gols na faixa 76-90min como visitante — padrão de gols tardios",
+      "contexto_times": {
+        "casa": {
+          "posicao": "9º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "8º",
+          "objetivo": "libertadores"
+        }
+      },
+      "motivacao_tecnica": "Operário PR está em 8º lugar com 25 pontos, brigando por posição no G8 da Série B. Athletic Club em 9º com 22 pontos também tem motivação para subir. A tabela de momento dos gols do Operário PR como visitante mostra 60% dos gols sofridos na faixa 76-90min — dado concreto que sustenta o Over Limite. Athletic Club marca 14% na faixa 76-90min. Condição (d) atendida: % Sofrido do adversário (Operário PR) na faixa 76-90 = 60% >= 25%.",
+      "coeficiente_regularidade": "Athletic Club: aproveitamento 38% em casa / Operário PR: aproveitamento 43% fora",
+      "mando_de_campo": "Athletic Club vence 38% dos jogos em casa; Operário PR vence 43% fora — visitante ligeiramente superior",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "dados de desfalques não disponíveis no material",
+      "especificidades_gols": "Athletic Club concentra gols no 1ºT (31-45min: 29%). Operário PR sofre 60% dos gols na faixa 76-90min como visitante",
+      "momento_gols": "Operário PR: 60% dos gols sofridos entre 76-90min. Athletic Club: distribuição mais equilibrada com pico em 16-45min",
+      "jogadores_chave": "Ronaldo Rodrigues Tavares (5 gols em 6 jogos pelo Athletic Club)",
+      "placares_provaveis": "1-1, 1-0, 0-1, 2-1",
+      "momento_entrada": "Ao vivo após 65min de jogo",
+      "situacao_saida": "Não entrar se jogo estiver 0-0 empatado sem gols, goleada consolidada (3+ diferença) ou após expulsão",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Operário PR tem padrão claro de sofrer gols tardios (60% na faixa 76-90min). Aguardar o jogo se desenvolver para confirmar o contexto antes de entrar.",
+        "gatilho_saida_parcial": "Se o jogo chegar a 3+ gols de diferença antes dos 65min, cancelar entrada",
+        "hard_stop": "Não entrar se houver expulsão ou se o jogo estiver 0-0 após 75min sem pressão ofensiva visível"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "sofrido_adversario_76_90_60pct"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Athletic Club (mandante) — ambos brigando por posição no G8 da Série B",
+        "indices_gols_faixas": "Athletic Club Marcado 61-75: 14% | Athletic Club Marcado 76-90: 14% | Operário PR Sofrido 61-75: 0% | Operário PR Sofrido 76-90: 60%",
+        "qual_condicao_atende": "Condição (d): % Sofrido do adversário (Operário PR) na faixa 76-90 = 60% >= 25%",
+        "motivo_motivacao": "Ambos os times brigam por posição no G8 da Série B — Athletic Club 9º com 22pts, Operário PR 8º com 25pts",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
+        "ponderacao_odds": "Over 2.5 a 2.70 indica mercado esperando jogo de poucos gols — reforça cautela. Porém o dado de 60% de gols sofridos pelo Operário PR na faixa 76-90min é concreto e sustenta a entrada ao vivo nessa janela específica.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Jogo equilibrado com ambos os times buscando resultado — tendência de gols na reta final",
+        "gatilhos_aceleracao": "Pressão ofensiva crescente após 65min, escanteios consecutivos, time perdendo buscando empate",
+        "alerta_armadilha": "Jogo travado defensivamente ou com expulsão que reduza ritmo ofensivo",
+        "mercado_recomendado": "Mais X.5 gols ao vivo",
+        "momento_observacao": "65-75min"
+      }
+    }
+  ],
   "evitar": [],
   "pdfs": [
     {
