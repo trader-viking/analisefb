@@ -1,9 +1,194 @@
 {
   "data": "2026-07-08",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-07-08T17:19:11.003698",
-  "total_partidas_analisadas": 1,
+  "gerado_em": "2026-07-08T19:11:42.335428",
+  "total_partidas_analisadas": 3,
   "entradas": [
+    {
+      "horario": "21:00",
+      "liga": "Bolivia LFPB",
+      "jogo": "Real Potosí x ABB",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2"
+      ],
+      "mercado_principal": "Over Limite (+1 gol) ao vivo após 65min",
+      "probabilidade_estimada": "58%",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "2.00",
+      "media_gols_casa": "1.33",
+      "media_gols_fora": "1.67",
+      "odds_mercado": {
+        "casa": "1.65",
+        "empate": "4.00",
+        "fora": "4.33",
+        "dupla_chance_1x": "1.17",
+        "dupla_chance_12": "1.17",
+        "dupla_chance_x2": "2.10",
+        "over_05": "1.01",
+        "under_05": "17.00",
+        "over_15": "1.14",
+        "under_15": "5.50",
+        "over_25": "1.50",
+        "under_25": "2.50"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Favorito: 1V 3E 2D -4.3U",
+        "resumo_favorito_fora": null,
+        "leitura": "Real Potosí como favorito tem retrospecto negativo (-4.3U em 6 jogos), com empates e derrotas frequentes. ABB fora sofre muito (3.00 gols sofridos/jogo).",
+        "jogos_relevantes": [
+          {
+            "data": "01/05/26",
+            "confronto": "Real Potosí x CDT Real Oruro",
+            "time_analisado": "Real Potosí",
+            "papel": "favorito",
+            "odd": "1.66",
+            "placar": "1-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "22/04/26",
+            "confronto": "Real Potosí x Guabirá",
+            "time_analisado": "Real Potosí",
+            "papel": "favorito",
+            "odd": "1.65",
+            "placar": "3-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "04/04/26",
+            "confronto": "Real Potosí x Aurora",
+            "time_analisado": "Real Potosí",
+            "papel": "parelho",
+            "odd": "2.00",
+            "placar": "0-0",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "alerta",
+        "time": "Real Potosí",
+        "texto": "Real Potosí como favorito cotado ~1.65 tem retrospecto ruim: 1V 3E 2D com -4.3U — não entrega nessa faixa de odd."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Jeferson Rivas Tirado — artilheiro com 2 gols em 5 jogos",
+          "Gonzalo Añasgo — 1 gol e 2 assistências, criação",
+          "Imanol Cárdenas — 1 gol em 6 jogos, presença ofensiva"
+        ],
+        "destaques_fora": [
+          "Rodderyk Perozo Bravo — artilheiro com 3 gols em 5 jogos",
+          "Juan Gallego — 3 gols em 4 jogos, referência ofensiva",
+          "Layonel Figueroa Prado — 2 gols e 2 assistências em 6 jogos",
+          "Alejandro Chumacero — 1 gol e 1 assistência, polivalente"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Média total de 3.00 gols/jogo e ABB sofre 3.00 gols/jogo fora. Ambos marcam em 100% dos jogos recentes. Perfil explosivo de gols na reta final.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Média total de gols altíssima (3.00/jogo) e índices de Over 2.5 em 100% dos jogos do ABB fora. Over Limite ao vivo após 65min captura valor real.",
+      "mercado_secundario": "Back 2x2 (placar exato 2x2)",
+      "odd_minima_secundaria": "12.00",
+      "desempenho_1t": "Real Potosí marca 0.67 gols no 1ºT; ABB sofre 0.67 no 1ºT fora",
+      "desempenho_2t": "Real Potosí marca 0.67 no 2ºT; ABB sofre 1.67 no 2ºT fora — explosão de gols na etapa final",
+      "contexto_times": {
+        "casa": {
+          "posicao": "13º",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "10º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Real Potosí é 13º na tabela com apenas 6 pontos em 6 jogos, brigando para não cair. ABB é 10º com 9 pontos em 7 jogos. Ambos têm motivação para pontuar. A média total de gols é 3.00/jogo (1.33 marcados + 0.67 sofridos pelo Potosí em casa; 1.67 marcados + 3.00 sofridos pelo ABB fora). Over 2.5 em 100% dos jogos do ABB fora e 67% do Potosí em casa. Ambas marcam em 100% dos jogos recentes de ambos. Gols na faixa 76-90: Potosí marcou 50% e sofreu 50% — condição (b) e (d) atendidas.",
+      "coeficiente_regularidade": "Casa: irregular (1V 3E 2D) / Visitante: irregular (3V 0E 4D fora)",
+      "mando_de_campo": "Real Potosí em casa: 33% de vitórias, 33% empates, 33% derrotas — mando fraco",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (sem informação de desfalques no material)",
+      "especificidades_gols": "Potosí marca concentrado nas faixas 16-30 e 76-90. ABB sofre pesado na faixa 61-75 (44% dos gols sofridos fora).",
+      "momento_gols": "Faixa 76-90: Potosí marcou 50% dos gols e sofreu 50%. Faixa 61-75: ABB sofreu 44% dos gols fora.",
+      "jogadores_chave": "Perozo Bravo (ABB, 3 gols), Gallego (ABB, 3 gols), Rivas Tirado (Potosí, 2 gols)",
+      "placares_provaveis": "2x1, 1x2, 2x2, 3x1",
+      "momento_entrada": "Ao vivo após 65min — mercado Mais X.5 gols onde X = placar total + 1",
+      "situacao_saida": "Não aplicável ao Over Limite (aposta de resultado final de gols)",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Aguardar 65min para confirmar ritmo de jogo e placar parcial antes de entrar no Over Limite",
+        "gatilho_saida_parcial": "Se jogo estiver empatado 0x0 após 65min, NÃO entrar. Se goleada consolidada (3+ gols de diferença), NÃO entrar.",
+        "hard_stop": "Não entrar se houver expulsão em campo ou placar de goleada consolidada"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "Potosí Marcado 76-90: 50% >= 25% (condição b)",
+          "ABB Sofrido 61-75: 50% >= 25% (condição c)",
+          "ABB Sofrido 76-90: 50% >= 25% (condição d)"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Real Potosí — brigando contra rebaixamento (13º), motivação alta para pontuar em casa",
+        "indices_gols_faixas": "Potosí Marcado 61-75: 0% | Potosí Marcado 76-90: 50% | ABB Sofrido 61-75: 50% | ABB Sofrido 76-90: 50%",
+        "qual_condicao_atende": "Condições b, c e d — Potosí Marcado 76-90: 50%; ABB Sofrido 61-75: 50%; ABB Sofrido 76-90: 50%",
+        "motivo_motivacao": "Real Potosí em zona de rebaixamento (13º, 6pts) precisa vencer em casa. ABB defesa porosa fora (3.00 gols sofridos/jogo).",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
+        "ponderacao_odds": "Over 2.5 a 1.50 — mercado já precifica jogo aberto. ABB sofreu gols no 2ºT em 100% dos jogos fora. Reforça entrada ao vivo.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "Over 2.5 média 84% (ABB 100% fora, Potosí 67% em casa)",
+          "Ambas Marcam 67% média (Potosí 33% casa, ABB 100% fora)",
+          "Defesa ABB sofre 3.00 gols/jogo fora — frágil"
+        ],
+        "criterios_total": 3,
+        "razao": "Over 2.5 em 84% dos jogos combinados, ABB marca em 100% dos jogos fora e sofre 3.00/jogo. Potosí marca 1.33/jogo em casa. Perfil claro de jogo aberto com gols dos dois lados.",
+        "indice_over_2_5": "84% média — Potosí 67% em casa, ABB 100% fora",
+        "indice_ambas_marcam": "67% média — Potosí 33% em casa, ABB 100% fora",
+        "indice_over_ht": "67% média — Potosí 33% Over 0.5 HT em casa, ABB 100% Over 0.5 HT fora",
+        "ponderacao_odds": "Over 2.5 a 1.50 — mercado confirma expectativa de jogo com muitos gols. Ambas Marcam a 1.50 também reforça.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Jogo aberto com ambos os times buscando gol — Potosí precisa vencer, ABB tem ataque produtivo fora",
+        "gatilhos_aceleracao": "Potosí pressionando no 2ºT, ABB expondo espaços no contra-ataque",
+        "alerta_armadilha": "Jogo travado no 0x0 após 65min ou expulsão que feche o jogo",
+        "mercado_recomendado": "Over Limite (+1 gol) ao vivo após 65min",
+        "momento_observacao": "65-75min"
+      },
+      "_ev_pct": 16,
+      "_ev_odd": 2.0,
+      "_ev_base": "minima"
+    },
     {
       "horario": "20:00",
       "liga": "Brazil Serie B",
@@ -34,9 +219,9 @@
         "under_25": "1.61"
       },
       "h2h_odds": {
-        "resumo_favorito_casa": "Super Fav: 3V 2E 13D -8.4U",
+        "resumo_favorito_casa": "Parelho/Zebra: 3V 2E 13D -8.4U (Ponte Preta como mandante em vários papéis — desempenho catastrófico)",
         "resumo_favorito_fora": null,
-        "leitura": "Ponte Preta é catastrófica como favorita ou parelho: 3V 2E 13D nos últimos jogos rastreados. Criciúma chega como favorita clara (odd 1.66) contra um time lanterna sem vitórias recentes.",
+        "leitura": "Ponte Preta acumula 13 derrotas nos últimos jogos analisados no H2H, com -8.4U. Criciúma chega como favorito claro (1.66) e 3º colocado na tabela com 30 pontos.",
         "jogos_relevantes": [
           {
             "data": "02/07/26",
@@ -68,7 +253,7 @@
             "data": "22/06/26",
             "confronto": "Ponte Preta x Novorizontino",
             "time_analisado": "Ponte Preta",
-            "papel": "favorito",
+            "papel": "parelho",
             "odd": "4.10",
             "placar": "0-2",
             "resultado": "D",
@@ -107,7 +292,7 @@
             "data": "18/05/26",
             "confronto": "Ponte Preta x Londrina",
             "time_analisado": "Ponte Preta",
-            "papel": "parelho",
+            "papel": "favorito",
             "odd": "2.37",
             "placar": "1-4",
             "resultado": "D",
@@ -119,28 +304,33 @@
         ]
       },
       "alerta_odds": {
-        "tipo": "positivo",
-        "time": "Criciúma",
-        "texto": "Criciúma chega como favorita (odd 1.66) contra o lanterna; Ponte Preta acumula 3V 2E 13D no H2H rastreado e não vence há 8 jogos — favorita entrega neste contexto."
+        "tipo": "alerta",
+        "time": "Ponte Preta",
+        "texto": "Ponte Preta acumula 13 derrotas nos últimos jogos rastreados — inclusive perdeu como favorito (odd 2.37 vs Londrina, 1-4). Histórico catastrófico reforça o Lay Zebra."
       },
       "jogadores": {
         "destaques_casa": [
-          "William Pottker — centroavante, 2 gols em 12 jogos",
-          "Diego Barbosa — lateral/meia, 1 gol e 3 assistências",
+          "William Pottker — atacante, 2 gols em 12 jogos",
+          "Diego Barbosa — meia, 1 gol e 3 assistências",
           "Elvis Araújo — meia, 1 gol e 2 assistências"
         ],
-        "destaques_fora": null,
+        "destaques_fora": [
+          "Fellipe Mateus — atacante, 3 gols em 16 jogos",
+          "Wagner Silva — meia/atacante, 3 gols e 1 assistência",
+          "Rómulo Otero — meia criativo, 3 gols e 2 assistências",
+          "Marcelo Hermes — lateral, 1 gol e 1 assistência"
+        ],
         "titulares_casa": null,
         "titulares_fora": null,
         "ausencias_impacto": []
       },
-      "explicacao_curta": "Criciúma é 3ª na Serie B (30pts) visitando o lanterna Ponte Preta (8pts, 12 derrotas). Odd 1.66 já na mínima de entrada. Zebra em colapso total.",
+      "explicacao_curta": "Criciúma é 3º na Série B com 30 pontos e chega como favorito claro (1.66). Ponte Preta é lanterna com apenas 8 pontos e 12 derrotas em 16 jogos — cenário ideal para Back Favorito e Lay Zebra.",
       "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Prob. 68% → fair 1.47; odd de mercado 1.66 já supera a mínima de 1.66 — EV positivo confirmado.",
+      "valor_esperado": "Prob. 68% → fair 1.47; odd de mercado 1.66 já supera a mínima estimada de 1.66 — entrada com EV positivo confirmado.",
       "mercado_secundario": "Lay Ponte Preta (Lay Zebra)",
       "odd_minima_secundaria": "5.50",
-      "desempenho_1t": "Ponte Preta marca 0.38 gols/jogo no 1ºT; Criciúma sofre 0.88 gols/jogo no 1ºT",
-      "desempenho_2t": "Criciúma marca 0.50 gols/jogo no 2ºT; Ponte Preta sofre 0.38 gols/jogo no 2ºT",
+      "desempenho_1t": "Ponte Preta marca 0.38 gols/jogo no 1ºT; Criciúma sofre 0.25 gols/jogo no 1ºT como visitante",
+      "desempenho_2t": "Criciúma marca 0.50 gols/jogo no 2ºT fora; Ponte Preta sofre 0.38 gols/jogo no 2ºT",
       "contexto_times": {
         "casa": {
           "posicao": "19º",
@@ -151,70 +341,70 @@
           "objetivo": "acesso"
         }
       },
-      "motivacao_tecnica": "Criciúma é 3ª colocada com 30 pontos, brigando pelo acesso/liderança. Ponte Preta é lanterna absoluta com apenas 8 pontos em 16 jogos (2V 2E 12D), saldo de -21 gols. Nos últimos 8 jogos como mandante, Ponte Preta venceu apenas 13% (1 jogo). Criciúma fora de casa: 5V 2E 1D nos últimos 8 jogos como visitante. Desequilíbrio técnico e motivacional extremo.",
-      "coeficiente_regularidade": "Ponte Preta: altamente irregular (13% de vitórias) / Criciúma: consistente fora (62% de vitórias como visitante)",
-      "mando_de_campo": "Ponte Preta vence apenas 13% dos jogos em casa — mando irrelevante",
+      "motivacao_tecnica": "Criciúma ocupa o 3º lugar da Série B com 30 pontos e briga diretamente pelo acesso/título. Ponte Preta é o 19º colocado com apenas 8 pontos em 16 jogos (2V 2E 12D), saldo de -21 gols e média de apenas 0.63 gols marcados por jogo em casa. O Criciúma como visitante tem aproveitamento de 75% (6V 1E 1D nos últimos 8 jogos fora), marcando 1.00 gol/jogo e sofrendo apenas 0.88. O H2H da Ponte Preta mostra 13 derrotas nos últimos jogos rastreados com -8.4U. Favoritismo do Criciúma é amplamente justificado.",
+      "coeficiente_regularidade": "Ponte Preta: CV alto (irregular, lanterna) / Criciúma: CV baixo (consistente, 3º colocado)",
+      "mando_de_campo": "Ponte Preta vence apenas 13% dos jogos em casa — mando de campo irrelevante",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "dados de escalação não disponíveis no material",
-      "especificidades_gols": "Ponte Preta marca 0.63 gols/jogo (casa); Criciúma marca 1.00 gol/jogo (fora) e sofre apenas 0.88",
-      "momento_gols": "Criciúma: 25% dos gols sofridos na faixa 76-90 (condição d atendida para Over Limite). Ponte Preta: 20% marcados em 76-90.",
-      "jogadores_chave": "William Pottker (2 gols) e Diego Barbosa (3 assistências) pela Ponte Preta; dados de Criciúma não detalhados no material",
-      "placares_provaveis": "0x1, 0x2, 1x2",
-      "momento_entrada": "Pré-jogo para Back Favorito e Lay Zebra; ao vivo após 65min para Over Limite",
-      "situacao_saida": "Back Favorito: cash-out se Ponte Preta abrir 2-0; Lay Zebra: cash-out se Ponte Preta marcar primeiro antes dos 60min",
+      "desfalques_chave": "Dados de escalação não disponíveis no material",
+      "especificidades_gols": "Criciúma marca principalmente entre 31-45min (38% dos gols) e 76-90min (29%). Ponte Preta concentra gols sofridos no 1ºT (38% entre 31-45min)",
+      "momento_gols": "Criciúma: pico de gols sofridos em 16-30min (29%) e 76-90min (29%). Ponte Preta: pico de gols sofridos em 31-45min (38%)",
+      "jogadores_chave": "Criciúma: Rómulo Otero (3G+2A), Fellipe Mateus (3G), Wagner Silva (3G+1A). Ponte Preta: William Pottker (2G)",
+      "placares_provaveis": "0-1, 0-2, 1-2",
+      "momento_entrada": "Pré-jogo (Back Favorito Criciúma) ou ao vivo após confirmação de domínio do Criciúma nos primeiros 15min",
+      "situacao_saida": "Cash-out parcial se Ponte Preta abrir o placar; manter se Criciúma dominar",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Odd 1.66 está exatamente na mínima de entrada — aguardar ao vivo pode melhorar odd se Criciúma não marcar nos primeiros 15min",
-        "gatilho_saida_parcial": "Ponte Preta marcar primeiro ou empate após 70min",
-        "hard_stop": "Saída total se Ponte Preta abrir 2-0 ou expulsão de jogador do Criciúma"
+        "justificativa_abordagem": "Odd 1.66 já está no limite mínimo estimado — entrar pré-jogo captura o valor antes de possível compressão ao vivo",
+        "gatilho_saida_parcial": "Ponte Preta marca primeiro — reduzir exposição imediatamente",
+        "hard_stop": "Saída total se Ponte Preta abrir 2-0 ou se Criciúma tiver jogador expulso antes dos 60min"
       },
       "back_favorito": {
         "aplicavel": true,
         "criterios_atendidos": [
           "prob_>=_65%",
-          "adversario_<_35%_aproveitamento",
+          "adversario_aproveitamento_<_35%",
           "liga_permitida",
-          "criciuma_superior_na_tabela"
+          "criciuma_3o_colocado_vs_lanterna"
         ],
         "criterios_total": 4,
         "modo": "pre_jogo",
         "favorito": "Criciúma",
         "odd_alvo": "1.66",
-        "razao": "Criciúma 3ª colocada (30pts) visita o lanterna Ponte Preta (8pts, 13% de aproveitamento). Visitante com 62% de vitórias fora de casa nos últimos 8 jogos.",
-        "ponderacao_odds": "Odd 1.66 confirma favoritismo claro; Ponte Preta acumula 3V 2E 13D no H2H rastreado — favorita entrega neste papel.",
+        "razao": "Criciúma 3º colocado com 30 pontos e 75% de aproveitamento fora vs Ponte Preta lanterna com 13% de aproveitamento em casa e 12 derrotas em 16 jogos",
+        "ponderacao_odds": "Odd 1.66 confirma favoritismo claro do mercado; H2H mostra Ponte Preta com 13D nos últimos jogos rastreados (-8.4U) — entrega do favorito reforçada",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_zebra_<=_20%",
-          "zebra_com_5+_derrotas_recentes",
+          "odd_zebra_>=_5.00",
+          "desempenho_ruim_ponte_preta",
           "liga_permitida"
         ],
         "criterios_total": 3,
         "modo": "pre_jogo",
         "zebra": "Ponte Preta",
         "favorito_do_jogo": "Criciúma",
-        "ponderacao_odds": "Odd da zebra a 5.50 no mercado (acima do mínimo de 5.00); Ponte Preta perdeu 8 dos últimos 8 jogos rastreados — lay amplamente justificado.",
-        "razao": "Ponte Preta é lanterna com 12 derrotas em 16 jogos, saldo -21, sem vencer há 8 partidas. Odd 5.50 confirma zebra. Criciúma em excelente fase fora.",
+        "ponderacao_odds": "Ponte Preta a 5.50 no mercado — acima do limiar de 5.00. H2H mostra 13 derrotas nos últimos jogos com -8.4U. Lay reforçado.",
+        "razao": "Ponte Preta é lanterna com 12 derrotas em 16 jogos, saldo -21, média de 0.63 gols marcados em casa. Histórico H2H catastrófico. Probabilidade de vitória da Ponte Preta estimada em ~13%.",
         "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
       "over_limite_70": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "criciuma_sofrido_76-90_>=25%"
+          "criciuma_sofrido_76-90_>=_25%"
         ],
         "criterios_total": 4,
         "modo": "ao_vivo",
-        "favorito_ou_motivacao": "Criciúma — brigando pelo acesso/liderança da Serie B (3ª colocada, 30pts)",
-        "indices_gols_faixas": "Ponte Preta Marcado 61-75: 0% | 76-90: 20% | Criciúma Sofrido 61-75: 0% | 76-90: 29%",
-        "qual_condicao_atende": "Condição d: Criciúma Sofrido 76-90 = 29% (>= 25%)",
-        "motivo_motivacao": "Criciúma brigando pelo acesso/liderança; Ponte Preta desesperada contra rebaixamento — ambos com motivação para buscar gols no final",
+        "favorito_ou_motivacao": "Criciúma — brigando pelo acesso/título (3º colocado) contra lanterna sem motivação",
+        "indices_gols_faixas": "Favorito (Criciúma visitante) Marcado 61-75: 0% | 76-90: 25% | Adversário (Ponte Preta casa) Sofrido 61-75: 15% | 76-90: 23%",
+        "qual_condicao_atende": "Condição b: Criciúma Marcado 76-90 = 25% (atinge o limiar mínimo de 25%)",
+        "motivo_motivacao": "Criciúma briga pelo acesso/título (3º com 30 pontos); Ponte Preta sem motivação real (lanterna, rebaixamento praticamente definido)",
         "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
         "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar ao vivo após 65min)",
-        "ponderacao_odds": "Over 1.5 a 1.44 e Over 2.5 a 2.25 — mercado espera jogo de poucos gols, mas Criciúma sofre 29% dos gols na faixa 76-90, criando valor ao vivo.",
+        "ponderacao_odds": "Over 2.5 a 2.25 — mercado espera jogo de poucos gols (média total 1.88). Usar com cautela; gatilho só após 65min com placar em aberto",
         "odd_esperada": "1.60 a 2.20",
         "stake_recomendada": "1%",
         "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
@@ -227,17 +417,17 @@
           "p_1_0_<_12%",
           "visit_over_0_5_>_65%",
           "visit_marca_>_60%",
-          "media_gols_>=_2.5_estimada"
+          "media_gols_>=_2.5_nao_atende"
         ],
         "criterios_total": 5,
         "modo": "pre_jogo",
-        "prob_1_0_estimada": "7%",
-        "ponderacao_odds": "Under 1.5 a 2.84 — mercado NÃO espera jogo de 0 ou 1 gol; Criciúma marca em 75% dos jogos fora. Lay 1x0 reforçado: placar 1-0 para Ponte Preta é improvável dado o contexto.",
-        "visitante_over_0_5": "75%",
+        "prob_1_0_estimada": "~7% (Ponte Preta marca 0.63/jogo em casa; Criciúma sofre 0.88/jogo fora — placar 1-0 para Ponte Preta é improvável dado o contexto)",
+        "ponderacao_odds": "Under 1.5 a 2.84 — mercado não espera jogo de 0 ou 1 gol; reforça que 1x0 é improvável. Porém média total de gols é 1.88 — abaixo de 2.5, o que enfraquece o critério de média.",
+        "visitante_over_0_5": "75% (Criciúma marcou em 75% dos jogos fora nos últimos 8)",
         "visitante_marca_pct": "75%",
-        "media_gols_total": "1.88",
-        "btts_medio": "50%",
-        "razao": "Ponte Preta marca apenas 0.63 gols/jogo em casa e tem xG de 1.34. Criciúma marca em 75% dos jogos fora. Placar 1-0 para Ponte Preta exigiria que o lanterna vencesse o 3º colocado — extremamente improvável. Média total 1.88 está abaixo de 2.5, mas o contexto de Criciúma marcar (75%) e Ponte Preta não segurar (sofre em 75% dos jogos) torna o 1-0 para Ponte Preta muito improvável.",
+        "media_gols_total": "1.88 (média total entre os dois times — ABAIXO do limiar de 2.5)",
+        "btts_medio": "50% (Ambas Marcam: Ponte Preta 50%, Criciúma 50% — média 50%, no limite)",
+        "razao": "Criciúma marca em 75% dos jogos fora e Ponte Preta tem ataque fraquíssimo (0.63 gols/jogo em casa). O placar 1x0 para Ponte Preta é extremamente improvável dado o contexto. Porém a média total de gols (1.88) não atinge o limiar de 2.5 — critério não atendido.",
         "odd_alvo": "10.50",
         "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
         "stake_recomendada": "2%",
@@ -248,22 +438,46 @@
       "lay_0x1": null,
       "confirmacao_visual": {
         "aplicavel": true,
-        "perfil_tatico": "Criciúma deve pressionar desde o início; Ponte Preta tende a recuar e defender",
-        "gatilhos_aceleracao": "Criciúma com posse alta, linhas subidas, Ponte Preta sem conseguir sair para o ataque",
-        "alerta_armadilha": "Gol rápido de Ponte Preta pode inflar odd do Criciúma — oportunidade de lay zebra ao vivo ainda melhor",
+        "perfil_tatico": "Criciúma deve dominar posse e criar chances; Ponte Preta tende a recuar e defender",
+        "gatilhos_aceleracao": "Criciúma com linhas altas, pressão no campo adversário nos primeiros 15min, escanteios a favor",
+        "alerta_armadilha": "Gol rápido da Ponte Preta pode travar o jogo — evitar Over Limite nesse cenário",
         "mercado_recomendado": "Vitória Criciúma (Back Favorito) ou Lay Ponte Preta",
-        "momento_observacao": "Primeiros 15 minutos"
+        "momento_observacao": "0-15min para confirmar domínio do Criciúma"
       },
       "_ev_pct": 13,
       "_ev_odd": 1.66,
       "_ev_base": "mercado"
     }
   ],
-  "evitar": [],
+  "evitar": [
+    {
+      "horario": "19:00",
+      "jogo": "CDT Real Oruro x Universitario de Vinto",
+      "liga": "Bolivia LFPB",
+      "motivo": "Liga fora das permitidas para Back Favorito/Lay Zebra; critérios de gols insuficientes para Over Limite, Back 2x2, Back Goleada, Lay 1x0 e Lay 0x1.",
+      "motivos_por_metodo": {
+        "back_favorito": "Liga Bolivia LFPB nao esta na lista de ligas permitidas para Back Favorito — metodo proibido nesta liga.",
+        "lay_zebra": "Liga Bolivia LFPB nao esta na lista de ligas permitidas para Lay Zebra — metodo proibido nesta liga.",
+        "over_limite_70": "Tabela MOMENTO DOS GOLS do CDT Real Oruro (mandante/favorito): Marcado 61-75 = 0%, Marcado 76-90 = 0%. Sofrido do adversario (Universitario de Vinto como visitante): dados da tabela de gols mostram Sofrido 61-75 = 33% e Sofrido 76-90 = 0% — porem esses dados sao do Universitario de Vinto em geral, nao especificamente como visitante. Alem disso, o favorito (Real Oruro) nao atinge 25% em nenhuma das 4 condicoes relevantes (Marcado 61-75 = 0%, Marcado 76-90 = 0%). Condicao nao atendida pelo favorito; sofrido do adversario como visitante nao confirmado com clareza suficiente no PDF para aplicar com seguranca.",
+        "back_2x2": "Over 2.5 do CDT Real Oruro em casa = 33% (precisa >= 60%); media de gols total no H2H = 2.0 (precisa >= 2.5 para o metodo). Criterios nao atendidos.",
+        "back_goleada": "Probabilidade estimada de vitoria do favorito (Real Oruro) nao atinge 70%: aproveitamento de 0% de vitorias em casa nos ultimos jogos (0V 2E 3D como mandante no H2H recente); media ofensiva em casa = 2.0 gols/jogo mas sem favoritismo extremo confirmado. Criterio de prob >= 70% nao atendido.",
+        "lay_1x0": "Media de gols total entre os dois times = 2.0 (precisa >= 2.5). Visitante (Universitario de Vinto) marca em 67% dos jogos fora, mas media total abaixo do minimo. Criterio de media >= 2.5 nao atendido.",
+        "lay_0x1": "Media de gols total entre os dois times = 2.0 (precisa >= 2.5). Criterio de media >= 2.5 nao atendido. Mandante (Real Oruro) marca em 100% dos jogos em casa nos ultimos 2, mas amostra muito pequena e media total insuficiente."
+      }
+    }
+  ],
   "pdfs": [
     {
+      "jogo": "CDT Real Oruro x Universitario de Vinto",
+      "arquivo": "pdfs/2026-07-08/Bolivia_LFPB/001_19h00_CDT_Real_Oruro_x_Universitario_de_Vinto.pdf"
+    },
+    {
+      "jogo": "Real Potosí x ABB",
+      "arquivo": "pdfs/2026-07-08/Bolivia_LFPB/002_21h00_Real_Potosí_x_ABB.pdf"
+    },
+    {
       "jogo": "Ponte Preta x Criciúma",
-      "arquivo": "pdfs/2026-07-08/Brazil_Serie_B/001_20h00_Ponte_Preta_x_Criciúma.pdf"
+      "arquivo": "pdfs/2026-07-08/Brazil_Serie_B/003_20h00_Ponte_Preta_x_Criciúma.pdf"
     }
   ]
 }
