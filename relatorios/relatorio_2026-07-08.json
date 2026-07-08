@@ -1,9 +1,264 @@
 {
   "data": "2026-07-08",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-07-08T09:54:20.172280",
+  "gerado_em": "2026-07-08T13:14:04.407545",
   "total_partidas_analisadas": 1,
-  "entradas": [],
+  "entradas": [
+    {
+      "horario": "20:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Ponte Preta x Criciúma",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Criciúma",
+      "probabilidade_estimada": "68%",
+      "fair_odd": "1.47",
+      "odd_minima_entrada": "1.65",
+      "media_gols_casa": "0.63",
+      "media_gols_fora": "1.00",
+      "odds_mercado": {
+        "casa": "6.25",
+        "empate": "3.60",
+        "fora": "1.60",
+        "dupla_chance_1x": "2.30",
+        "dupla_chance_12": "1.25",
+        "dupla_chance_x2": "1.13",
+        "over_05": "1.06",
+        "under_05": "8.50",
+        "over_15": "1.42",
+        "under_15": "2.91",
+        "over_25": "2.20",
+        "under_25": "1.65"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Ponte Preta como zebra/parelho: 3V 2E 13D -8.4U — histórico catastrófico como time inferior",
+        "resumo_favorito_fora": "Criciúma como favorito/visitante: dados de H2H não detalhados por papel para o Criciúma no material",
+        "leitura": "Ponte Preta acumula 13 derrotas nos últimos 18 jogos com odds sempre altas contra ela. Criciúma chega como 3º colocado com 8V 6E 2D na temporada.",
+        "jogos_relevantes": [
+          {
+            "data": "02/07/26",
+            "confronto": "Fortaleza x Ponte Preta",
+            "time_analisado": "Ponte Preta",
+            "papel": "zebra",
+            "odd": "12.00",
+            "placar": "2-0",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "28/06/26",
+            "confronto": "Atlético GO x Ponte Preta",
+            "time_analisado": "Ponte Preta",
+            "papel": "zebra",
+            "odd": "9.50",
+            "placar": "2-0",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "22/06/26",
+            "confronto": "Ponte Preta x Novorizontino",
+            "time_analisado": "Ponte Preta",
+            "papel": "parelho",
+            "odd": "4.10",
+            "placar": "0-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "14/06/26",
+            "confronto": "Juventude x Ponte Preta",
+            "time_analisado": "Ponte Preta",
+            "papel": "zebra",
+            "odd": "8.50",
+            "placar": "3-0",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "09/06/26",
+            "confronto": "Ponte Preta x Cuiabá",
+            "time_analisado": "Ponte Preta",
+            "papel": "parelho",
+            "odd": "3.50",
+            "placar": "1-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "18/05/26",
+            "confronto": "Ponte Preta x Londrina",
+            "time_analisado": "Ponte Preta",
+            "papel": "parelho",
+            "odd": "2.37",
+            "placar": "1-4",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "alerta",
+        "time": "Ponte Preta",
+        "texto": "Ponte Preta acumula 13D nos últimos 18 jogos com odds sempre acima de 2.37 — nunca entrega nem como parelho, reforça o Lay."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "William Pottker — centroavante, 2 gols em 12 jogos",
+          "Diego Barbosa — lateral/meia, 1 gol e 3 assistências",
+          "Elvis Araújo — 1 gol e 2 assistências em 12 jogos"
+        ],
+        "destaques_fora": [
+          "Dados individuais do Criciúma não detalhados na aba de jogadores do material"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Criciúma é 3º colocado (30pts) visitando o lanterna Ponte Preta (8pts, 12 derrotas em 16 jogos). Favoritismo extremo confirmado pela odd 1.60 de mercado.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 68% → fair 1.47; odd de mercado 1.60 está acima da mínima 1.65 — valor marginal no pré-jogo, preferir ao vivo para melhor odd",
+      "mercado_secundario": "Lay Ponte Preta (Lay Zebra)",
+      "odd_minima_secundaria": "5.50",
+      "desempenho_1t": "Ponte Preta marca 0.38 gols/jogo no 1ºT; Criciúma sofre 0.88 gols/jogo no 1ºT como visitante",
+      "desempenho_2t": "Criciúma marca 0.50 gols/jogo no 2ºT fora; Ponte Preta sofre 0.38 gols/jogo no 2ºT em casa",
+      "contexto_times": {
+        "casa": {
+          "posicao": "19º",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "3º",
+          "objetivo": "acesso"
+        }
+      },
+      "motivacao_tecnica": "Criciúma é 3º colocado com 30 pontos, brigando por acesso/liderança. Ponte Preta é lanterna com apenas 8 pontos em 16 jogos, 12 derrotas, saldo de -21 gols. Desequilíbrio técnico e motivacional extremo. Criciúma fora de casa: 8 jogos recentes com 5V 2E 1D, marcando 1.00 gol/jogo e sofrendo apenas 0.88. Ponte Preta em casa: 13% de aproveitamento, 0.63 gols marcados e 1.63 sofridos por jogo.",
+      "coeficiente_regularidade": "Ponte Preta: CV alto (resultados muito negativos e consistentes) / Criciúma: CV baixo (resultados consistentemente positivos)",
+      "mando_de_campo": "Ponte Preta em casa: apenas 13% de aproveitamento (1V em 8 jogos como mandante no recorte)",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "Dados de desfalques não disponíveis no material",
+      "especificidades_gols": "Criciúma marca principalmente no 1ºT (25% dos gols entre 0-15min e 31-45min) e no 2ºT final (25% entre 76-90min). Ponte Preta sofre concentração de gols no 1ºT (31-45min: 38% dos gols sofridos).",
+      "momento_gols": "Criciúma: 25% dos gols marcados entre 76-90min (condição d atendida para Over Limite). Ponte Preta sofre 23% dos gols entre 76-90min.",
+      "jogadores_chave": "William Pottker (2 gols) e Diego Barbosa (3 assistências) pela Ponte Preta; Criciúma sem dados individuais no material",
+      "placares_provaveis": "0x1, 0x2, 1x2",
+      "momento_entrada": "Back Favorito: ao vivo após 15min confirmando domínio do Criciúma. Lay Zebra: pré-jogo ou ao vivo após gol da Ponte Preta. Over Limite: ao vivo após 65min.",
+      "situacao_saida": "Back Favorito: cash-out se Ponte Preta abrir 2-0. Lay Zebra: cash-out se Ponte Preta vencer o 1ºT. Over Limite: evitar se 0-0 ou expulsão.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Odd 1.60 de mercado está marginalmente acima da mínima 1.65 — ao vivo permite confirmar domínio e capturar odd melhor após 15min",
+        "gatilho_saida_parcial": "Ponte Preta marcar primeiro ou empate após 60min",
+        "hard_stop": "Saída total se Ponte Preta vencer o 1ºT ou placar 1-0 para a Ponte Preta após 70min"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_>=_65%",
+          "adversario_<_35%_aproveitamento",
+          "liga_permitida",
+          "criciuma_superior_na_tabela"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito": "Criciúma",
+        "odd_alvo": "1.60",
+        "razao": "Criciúma 3º colocado com 30pts visita o lanterna Ponte Preta com apenas 8pts e 12 derrotas. Aproveitamento da Ponte Preta como mandante é de apenas 13%.",
+        "ponderacao_odds": "Odd 1.60 confirma favoritismo extremo do Criciúma. H2H mostra Ponte Preta com 13D em 18 jogos — favorito entrega historicamente neste contexto.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "odd_zebra_>=_5.00_ponte_preta_6.25",
+          "desempenho_ruim_12_derrotas_16_jogos",
+          "liga_permitida"
+        ],
+        "criterios_total": 3,
+        "modo": "pre_jogo",
+        "zebra": "Ponte Preta",
+        "favorito_do_jogo": "Criciúma",
+        "ponderacao_odds": "Ponte Preta a 6.25 no mercado — bem acima do mínimo de 5.00. H2H mostra 13D nos últimos 18 jogos com odds sempre altas. Lay pré-jogo captura valor antes do mercado corrigir.",
+        "razao": "Ponte Preta é lanterna com 12 derrotas em 16 jogos, saldo de -21, aproveitamento de 13% em casa. Média de 1.63 gols sofridos por jogo. Zebra com desempenho catastrófico.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "criciuma_sofrido_76_90_29pct_>=_25pct",
+          "criciuma_marcado_76_90_25pct_>=_25pct"
+        ],
+        "criterios_total": 4,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Criciúma — 3º colocado brigando por acesso/liderança contra lanterna sem motivação",
+        "indices_gols_faixas": "Favorito (Criciúma) Marcado 61-75: 0% | 76-90: 25% | Adversário (Ponte Preta como mandante) Sofrido 61-75: 15% | 76-90: 23%. Usando tabela de Criciúma como visitante: Marcado 76-90: 25% (condição b atendida). Ponte Preta sofrido 76-90: 23% (abaixo de 25%, não atende isoladamente).",
+        "qual_condicao_atende": "Condição b: Criciúma (favorito) Marcado na faixa 76-90 = 25% >= 25%",
+        "motivo_motivacao": "Criciúma brigando por acesso/liderança (3º com 30pts) vs Ponte Preta lanterna sem objetivos — desequilíbrio técnico e motivacional extremo",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1 ao entrar após 65min)",
+        "ponderacao_odds": "Over 2.5 a 2.20 — mercado espera jogo de poucos gols (média total 1.88). Cautela: entrar apenas se placar já tiver 1+ gol para reduzir risco de jogo travado.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "p_1_0_estimada_baixa_media_total_1.88_visitante_marca_75pct",
+          "visitante_over_0_5_75pct_>_65pct",
+          "visitante_marca_75pct_>_60pct",
+          "btts_estimado_62pct_>_50pct"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "ponderacao_odds": "Under 1.5 a 2.91 — mercado NÃO espera jogo de 0 ou 1 gol, reforça o lay. Over 1.5 a 1.42 indica expectativa de 2+ gols. Criciúma marca em 75% dos jogos fora.",
+        "visitante_over_0_5": "75%",
+        "visitante_marca_pct": "75%",
+        "media_gols_total": "1.88",
+        "btts_medio": "62%",
+        "razao": "Criciúma marca em 75% dos jogos como visitante e tem Over 0.5 de 75%. Ambas Marcam em 50% dos jogos. Placar 1x0 exigiria Ponte Preta marcar e Criciúma não marcar — improvável dado o perfil ofensivo do visitante. Under 1.5 caro (2.91) confirma expectativa de gols.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%",
+        "_bloqueado_poisson": true,
+        "_prob_poisson_pct": 12.3,
+        "razao_reprovacao": "média de gols total 1.88 (precisa ≥2.5); BLOQUEADO: 1x0 está entre os 4 placares mais prováveis por Poisson (12% > 12%) — fazer lay do placar mais provável contradiz a análise"
+      },
+      "lay_0x1": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Criciúma deve impor posse e pressão alta; Ponte Preta tende a recuar e defender em bloco baixo",
+        "gatilhos_aceleracao": "Criciúma com domínio territorial nos primeiros 15min, escanteios frequentes, Ponte Preta sem finalizações",
+        "alerta_armadilha": "Gol precoce da Ponte Preta pode travar o jogo e inflar odds do Criciúma — aguardar reação antes de entrar",
+        "mercado_recomendado": "Vitória Criciúma (Back Favorito ao vivo) ou Lay Ponte Preta (já pré-jogo)",
+        "momento_observacao": "Primeiros 15-20 minutos para confirmar domínio do Criciúma"
+      }
+    }
+  ],
   "evitar": [],
   "pdfs": [
     {
