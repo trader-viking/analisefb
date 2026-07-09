@@ -1,8 +1,8 @@
 {
   "data": "2026-07-09",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-07-08T17:22:38.444445",
-  "total_partidas_analisadas": 1,
+  "gerado_em": "2026-07-08T22:28:48.279977",
+  "total_partidas_analisadas": 2,
   "entradas": [
     {
       "horario": "17:00",
@@ -10,8 +10,8 @@
       "jogo": "França x Marrocos",
       "metodos_aplicados": [
         "back_favorito",
-        "lay_zebra",
         "over_limite_70",
+        "lay_zebra",
         "lay_1x0"
       ],
       "mercado_principal": "Vitória França",
@@ -35,9 +35,9 @@
         "under_25": "1.90"
       },
       "h2h_odds": {
-        "resumo_favorito_casa": "Super Fav + Favorito + Parelho: 30V 7E 6D -0.9U (histórico geral da França no H2H)",
+        "resumo_favorito_casa": "Super Fav + Favorito + Parelho: 30V 7E 6D -0.9U (histórico geral França)",
         "resumo_favorito_fora": null,
-        "leitura": "França tem retrospecto dominante (30V 7E 6D) e entrega como favorita na maioria dos papéis. Odd 1.57 confirma favoritismo claro do mercado.",
+        "leitura": "França tem 30V 7E 6D no histórico geral com odds, mas o saldo de unidades é levemente negativo (-0.9U), indicando que o mercado precifica bem. Marrocos como visitante tem 40% de empates nos últimos 10 jogos fora.",
         "jogos_relevantes": [
           {
             "data": "04/07/26",
@@ -50,7 +50,7 @@
             "marcou_primeiro": false,
             "gol_1t": false,
             "gol_2t": true,
-            "nao_sofreu": false
+            "nao_sofreu": true
           },
           {
             "data": "30/06/26",
@@ -114,7 +114,7 @@
             "resultado": "D",
             "marcou_primeiro": false,
             "gol_1t": true,
-            "gol_2t": true,
+            "gol_2t": false,
             "nao_sofreu": false
           }
         ]
@@ -122,104 +122,110 @@
       "alerta_odds": {
         "tipo": "positivo",
         "time": "França",
-        "texto": "França entrega como favorita: 9V 1D nos últimos 10 jogos, incluindo vitórias como super favorita (odds 1.07-1.45). Odd de hoje 1.57 está acima do mínimo estimado de 1.65 — verificar se mercado oferece valor suficiente."
+        "texto": "França entrega como favorita: 4V nos últimos 5 jogos cotada abaixo de 1.60, com apenas 1 derrota (Costa do Marfim, odd 1.20). Odd atual 1.57 está acima da mínima estimada de 1.65 — verificar se há valor real."
       },
       "jogadores": {
         "destaques_casa": [
           "Kylian Mbappé — artilheiro com 15 gols e 7 assistências em 19 jogos, referência ofensiva",
           "Michael Olise — 7 gols e 7 assistências em 22 jogos, criação e finalização",
-          "Aurélien Tchouaméni — 43 desarmes, pilar defensivo no meio-campo",
-          "Mike Maignan — goleiro titular em todos os 23 jogos"
+          "Ousmane Dembélé — 6 gols e 4 assistências, velocidade e drible",
+          "Aurélien Tchouaméni — 43 desarmes, pilar defensivo no meio"
         ],
-        "destaques_fora": null,
-        "titulares_casa": null,
-        "titulares_fora": null,
+        "destaques_fora": [
+          "Brahim Diaz — artilheiro com 14 gols e 6 assistências em 29 jogos",
+          "Ismael Saibari — 12 gols em 29 jogos, segundo maior goleador",
+          "Achraf Hakimi — 3 gols e 11 assistências, lateral ofensivo decisivo",
+          "Azzedine Ounahi — 7 gols e 7 assistências, motor do meio-campo"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
         "ausencias_impacto": []
       },
-      "explicacao_curta": "França com 90% de aproveitamento (9V em 10), média de 2.60 gols/jogo e Marrocos como zebra a 6.50. Favoritismo extremo confirmado pelo mercado e pelo histórico recente.",
+      "explicacao_curta": "França 90% de aproveitamento em 10 jogos, média 2.60 gols/jogo. Marrocos fora tem 40% de empates e 0% de derrotas — mas enfrenta nível muito superior. Favoritismo claro em Copa do Mundo.",
       "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Prob. 68% → fair 1.47; odd mercado 1.57 está acima da fair mas abaixo da mínima ideal de 1.65 — entrada marginal no pré-jogo, preferir ao vivo para melhor odd.",
-      "mercado_secundario": "Lay Marrocos (Lay Zebra)",
-      "odd_minima_secundaria": "5.00",
-      "desempenho_1t": "França marca 1.30 gols/jogo no 1ºT; 80% dos jogos têm Over 0.5 no 1ºT",
-      "desempenho_2t": "Marrocos sofre 0.40 gols/jogo no 2ºT mas França marca 0.70 no 2ºT; Marrocos sofreu 50% dos gols na faixa 76-90",
+      "valor_esperado": "Prob. 68% → fair 1.47; odd mercado 1.57 está acima da fair mas abaixo da mínima ideal de 1.65. Valor marginal — entrada ao vivo melhora a odd.",
+      "mercado_secundario": "Over Limite (+1 gol) ao vivo após 65min",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": "França marca 1.30 gols/jogo no 1ºT; Marrocos sofre 0.60 gols/jogo no 1ºT fora",
+      "desempenho_2t": "França marca 1.60 gols/jogo no 2ºT; Marrocos sofre 0.40 gols/jogo no 2ºT fora",
       "contexto_times": {
         "casa": {
-          "posicao": "1º (grupo — 9 pontos, 3V 0E 0D)",
+          "posicao": "1º (grupo)",
+          "posicao_geral": "1º",
           "objetivo": "titulo"
         },
         "fora": {
           "posicao": "",
+          "posicao_geral": "",
           "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "França lidera o grupo com 9 pontos (3V 0E 0D), saldo de +8 gols (10 marcados, 2 sofridos). Marrocos chega como visitante com 60% de aproveitamento (6V 4E 0D em 10 jogos fora). Jogo eliminatório de Copa do Mundo — motivação máxima para ambos. França tem Mbappé (15 gols) e Olise (7 gols) em excelente fase. Marrocos tem defesa sólida (0.70 gols sofridos/jogo) mas enfrenta o ataque mais produtivo do torneio.",
-      "coeficiente_regularidade": "França: CV baixo (9V em 10, muito consistente) / Marrocos: CV moderado (60% aproveitamento fora, 40% empates)",
-      "mando_de_campo": "França com 90% de aproveitamento nos últimos 10 jogos; Marrocos com 60% fora de casa",
-      "condicoes_campo": "Sem fatores relevantes informados no material",
-      "desfalques_chave": "Dados de desfalques do Marrocos ausentes no material; elenco França aparentemente completo",
-      "especificidades_gols": "França marca principalmente no 1ºT (27% dos gols na faixa 31-45) e tem pico ofensivo na faixa 61-75 (23%). Marrocos sofre 50% dos gols na faixa 76-90.",
-      "momento_gols": "França: pico 31-45 (27% marcado) e 61-75 (23% marcado). Marrocos: 76-90 concentra 50% dos gols sofridos — janela crítica para Over Limite.",
-      "jogadores_chave": "Mbappé (15 gols), Olise (7 gols/7 assist), Barcola (5 gols)",
+      "motivacao_tecnica": "França lidera o grupo com 9 pontos em 3 jogos (3V 0E 0D), saldo +8, em fase eliminatória da Copa do Mundo — motivação máxima. Marrocos chega como visitante com 40% de empates nos últimos 10 jogos fora, mas também com 60% de vitórias. França tem 90% de aproveitamento, 2.60 gols/jogo marcados e apenas 0.80 sofridos. Mbappé com 15 gols é o grande diferencial. Marrocos tem Brahim Diaz (14 gols) como ameaça real. Jogo eliminatório = motivação máxima para ambos.",
+      "coeficiente_regularidade": "França: muito regular (90% aproveitamento, 9V 1D em 10) / Marrocos: moderado (60% vitórias, 40% empates fora)",
+      "mando_de_campo": "França atua como mandante neste contexto de Copa; 90% de aproveitamento nos últimos 10 jogos",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (sem ausências identificadas no PDF)",
+      "especificidades_gols": "França marca principalmente no 1ºT (27% dos gols entre 31-45min) e tem pico no 2ºT tardio. Marrocos sofre 50% dos gols na faixa 76-90min fora.",
+      "momento_gols": "França: pico 31-45min (27% marcados) e 61-75min (23%). Marrocos sofrido: pico brutal 76-90min (50% dos gols sofridos fora)",
+      "jogadores_chave": "Mbappé (15G/7A), Olise (7G/7A), Brahim Diaz (14G/6A), Hakimi (3G/11A)",
       "placares_provaveis": "2x0, 2x1, 3x1",
-      "momento_entrada": "Back Favorito: ao vivo após confirmação tática (15min). Over Limite: após 65min. Lay Zebra: pré-jogo ou ao vivo após gol de Marrocos.",
-      "situacao_saida": "Back Favorito: cash-out se Marrocos abrir 2-0. Lay Zebra: cash-out se Marrocos vencer por 2+ gols. Over Limite: cash-out se expulsão ou goleada consolidada.",
+      "momento_entrada": "Back Favorito: ao vivo após confirmação tática (15-20min). Over Limite: após 65min se placar tiver 1+ gol",
+      "situacao_saida": "Back Favorito: cash-out se Marrocos virar o placar. Over Limite: segurar até apito final",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Odd 1.57 está marginalmente abaixo da mínima ideal de 1.65; ao vivo permite confirmar domínio francês e capturar odd melhor",
-        "gatilho_saida_parcial": "Marrocos marca primeiro — reavaliar exposição",
-        "hard_stop": "Marrocos 2-0 antes dos 60min — saída total"
+        "justificativa_abordagem": "Odd 1.57 está marginalmente abaixo da mínima ideal (1.65). Ao vivo após 15min de domínio francês melhora a odd e confirma tática.",
+        "gatilho_saida_parcial": "Marrocos marca primeiro — reduzir 50% da posição imediatamente",
+        "hard_stop": "Marrocos vira o placar (ex: 0-1) — saída total"
       },
       "back_favorito": {
         "aplicavel": true,
         "criterios_atendidos": [
           "prob_>=_65%",
           "aproveitamento_superior_90%",
-          "adversario_aproveitamento_60%_fora",
+          "adversario_40%_empates_sem_derrotas_mas_nivel_inferior",
           "liga_permitida_world_cup"
         ],
         "criterios_total": 4,
         "modo": "ao_vivo",
         "favorito": "França",
         "odd_alvo": "1.65",
-        "razao": "França com 90% de aproveitamento (9V em 10), média de 2.60 gols/jogo e Mbappé em grande fase. Marrocos é zebra a 6.50 com 40% de empates fora.",
-        "ponderacao_odds": "Odd 1.57 confirma favoritismo do mercado; H2H mostra 30V 7E 6D no histórico geral. Ao vivo para capturar odd acima de 1.65 após confirmação tática.",
+        "razao": "França com 90% de aproveitamento, 2.60 gols/jogo e artilheiro Mbappé (15G). Marrocos fora tem 0% de derrotas mas enfrenta nível muito superior em fase eliminatória.",
+        "ponderacao_odds": "Odd 1.57 confirma favoritismo claro. H2H mostra França entregando como favorita (4V em 5 jogos recentes cotada abaixo de 1.60). Ao vivo melhora margem de valor.",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
         "aplicavel": true,
         "criterios_atendidos": [
           "odd_zebra_6.50_>=_5.00",
-          "marrocos_0_derrotas_mas_40%_empates_e_inferior_tecnicamente",
+          "marrocos_0_vitorias_em_10_jogos_fora_contra_tops",
           "liga_permitida_world_cup"
         ],
         "criterios_total": 3,
-        "modo": "pre_jogo",
+        "modo": "ao_vivo",
         "zebra": "Marrocos",
         "favorito_do_jogo": "França",
-        "ponderacao_odds": "Odd de Marrocos a 6.50 — bem acima do limiar de 5.00. Marrocos tem 0 derrotas mas 40% de empates fora; contra França (90% aproveitamento), vitória marroquina é improvável.",
-        "razao": "Marrocos a 6.50 como visitante contra a França mais dominante do torneio. Mesmo sem sequência de derrotas, o desequilíbrio técnico é extremo — França marca 2.60/jogo, Marrocos sofre 0.70/jogo mas nunca enfrentou ataque desta magnitude neste torneio.",
-        "gatilho_ao_vivo": "Se ao vivo: lay após Marrocos abrir o placar (odd inflará ainda mais)",
+        "ponderacao_odds": "Marrocos a 6.50 — odd alta confirma zebra. Fora de casa, Marrocos tem 40% empates e 60% vitórias, mas contra seleções de nível inferior. Contra França (nível Copa), o risco de vitória marroquina é baixo.",
+        "razao": "Marrocos como visitante contra França em fase eliminatória de Copa do Mundo. Odd 6.50 reflete corretamente o status de zebra. França tem superioridade técnica clara (Mbappé, Olise, Dembélé).",
+        "gatilho_ao_vivo": "Lay Marrocos ao vivo se Marrocos abrir o placar — odd inflará ainda mais, capturando valor máximo",
         "stake_recomendada": "2%"
       },
       "over_limite_70": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "franca_marcado_61_75_23%_>=_25%_nao_atinge_mas_marrocos_sofrido_76_90_50%_>=_25%",
-          "marrocos_sofrido_76_90_50%_>=_25%",
-          "motivacao_eliminatoria_copa_do_mundo",
-          "media_gols_total_3.40"
+          "marrocos_sofrido_76-90_50%_>=_25%",
+          "franca_marcado_61-75_23%_proximo",
+          "motivacao_maxima_eliminatoria_copa"
         ],
         "criterios_total": 4,
         "modo": "ao_vivo",
-        "favorito_ou_motivacao": "França - eliminatória de Copa do Mundo, motivação máxima",
+        "favorito_ou_motivacao": "França - fase eliminatória da Copa do Mundo, motivação máxima para ambas as seleções",
         "indices_gols_faixas": "França Marcado 61-75: 23% | França Marcado 76-90: 12% | Marrocos Sofrido 61-75: 13% | Marrocos Sofrido 76-90: 50%",
-        "qual_condicao_atende": "Condição d: Marrocos Sofrido 76-90 = 50% (>= 25%). Marrocos concentra metade dos gols sofridos nos minutos finais.",
-        "motivo_motivacao": "Jogo eliminatório de Copa do Mundo — motivação máxima por definição. França brigando por avanço na competição.",
+        "qual_condicao_atende": "Condição (d): Marrocos Sofrido 76-90 = 50% >= 25%. Condição (a): França Marcado 61-75 = 23% (próximo mas abaixo de 25%). Principal gatilho: Marrocos sofre 50% dos gols entre 76-90min.",
+        "motivo_motivacao": "Fase eliminatória da Copa do Mundo — motivação máxima por definição. França briga pelo título, Marrocos quer fazer história.",
         "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
         "mercado_sugerido": "Mais X.5 gols (ex: se 1-0 → Mais 1.5; se 1-1 → Mais 2.5)",
-        "ponderacao_odds": "Over 2.5 a 1.90 — mercado equilibrado entre over e under. Marrocos sofre 50% dos gols na faixa 76-90, janela ideal para Over Limite. Over 0.5 no 2ºT a 1.29 confirma expectativa de gols tardios.",
+        "ponderacao_odds": "Over 2.5 a 1.90 — mercado equilibrado entre over e under. Marrocos sofre 50% dos gols entre 76-90min, janela perfeita para o método. Over 0.5 2ºT a 1.29 confirma expectativa de gols tardios.",
         "odd_esperada": "1.60 a 2.20",
         "stake_recomendada": "1%",
         "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
@@ -229,21 +235,21 @@
       "lay_1x0": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "p_1_0_estimada_~8%_media_total_3.40",
-          "marrocos_over_0.5_100%_>=_65%",
-          "marrocos_marca_em_100%_jogos_>=_60%",
+          "p_1_0_<_12%_media_total_3.40",
+          "visitante_over_0.5_100%_>_65%",
+          "visitante_marca_100%_>_60%",
           "media_gols_total_3.40_>=_2.5",
-          "btts_estimado_~65%_>_50%"
+          "btts_estimado_70%_>_50%"
         ],
         "criterios_total": 5,
         "modo": "pre_jogo",
-        "prob_1_0_estimada": "~8% (média total 3.40 gols — perfil ofensivo alto, 1x0 improvável)",
-        "ponderacao_odds": "Under 1.5 a 3.47 — mercado espera 2+ gols; reforça que 1x0 é improvável. Over 2.5 a 1.90 confirma perfil de jogo aberto.",
-        "visitante_over_0_5": "100% (Marrocos marcou em 100% dos últimos 10 jogos fora)",
-        "visitante_marca_pct": "100% (Marrocos Over 0.5 gols = 100%)",
-        "media_gols_total": "3.40 (França 2.60 + Marrocos 2.30 média; total combinado 3.40 conforme PDF)",
-        "btts_medio": "~65% (França BTTS 70%, Marrocos BTTS 60% — média 65%)",
-        "razao": "Com média total de 3.40 gols e Marrocos marcando em 100% dos jogos, o placar 1x0 é altamente improvável. Under 1.5 a 3.47 confirma que o mercado espera jogo com múltiplos gols.",
+        "prob_1_0_estimada": "7%",
+        "ponderacao_odds": "Under 1.5 a 3.47 — mercado espera 2+ gols (caro para under). Over 2.5 a 1.90 equilibrado. Marrocos marca em 100% dos jogos fora — placar 1x0 é improvável dado o perfil ofensivo de ambos.",
+        "visitante_over_0_5": "100%",
+        "visitante_marca_pct": "100%",
+        "media_gols_total": "3.40",
+        "btts_medio": "70%",
+        "razao": "Marrocos marca em 100% dos jogos fora e tem média 2.30 gols/jogo. BTTS estimado em 70%. Média total de 3.40 gols/jogo torna o placar 1x0 muito improvável.",
         "odd_alvo": "10.50",
         "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
         "stake_recomendada": "2%"
@@ -252,21 +258,41 @@
       "confirmacao_visual": {
         "aplicavel": true,
         "perfil_tatico": "França deve dominar posse (62% média) e pressionar alto. Marrocos tende a defender em bloco baixo e contra-atacar.",
-        "gatilhos_aceleracao": "França com linhas subidas, passes rápidos entre Mbappé-Olise-Barcola, pressão alta nos primeiros 15min",
-        "alerta_armadilha": "Marrocos pode surpreender no contra-ataque — se abrir 1-0, odd de França sobe e Lay Zebra ao vivo fica ainda mais atrativo",
-        "mercado_recomendado": "Back Favorito (França) ao vivo após confirmação de domínio; Over Limite após 65min",
-        "momento_observacao": "0-15min para confirmar domínio francês; 65min+ para Over Limite"
+        "gatilhos_aceleracao": "França com linhas subidas, passes rápidos entre Mbappé-Olise-Dembélé, pressão alta após perda de bola",
+        "alerta_armadilha": "Marrocos é perigoso no contra-ataque com Hakimi e Brahim Diaz. Se França abrir espaços, risco de gol marroquino.",
+        "mercado_recomendado": "Back Favorito (França) ao vivo após 15min de domínio confirmado",
+        "momento_observacao": "Primeiros 15-20 minutos para confirmar domínio francês"
       },
       "_ev_pct": 7,
       "_ev_odd": 1.57,
       "_ev_base": "mercado"
     }
   ],
-  "evitar": [],
+  "evitar": [
+    {
+      "horario": "21:00",
+      "jogo": "Nacional Potosí x Aurora",
+      "liga": "Bolivia LFPB",
+      "motivo": "Liga fora das permitidas para Back Favorito/Lay Zebra; dados de gols insuficientes (média total 1.75, Over 2.5 apenas 13%) para métodos de gols; Aurora é 3º na tabela e não é zebra fraca.",
+      "motivos_por_metodo": {
+        "back_favorito": "Liga Bolivia LFPB não está na lista de ligas permitidas para Back Favorito. Método proibido para esta liga.",
+        "lay_zebra": "Liga Bolivia LFPB não está na lista de ligas permitidas para Lay Zebra. Método proibido para esta liga. Adicionalmente, Aurora é 3º na tabela geral (16 pontos, invicta) — não é uma zebra em má fase; odd 4.20 está abaixo do mínimo de 5.00 exigido.",
+        "over_limite_70": "Tabela MOMENTO DOS GOLS (H2H): Nacional Potosí Marcado 61-75: 50%, 76-90: 50%; Aurora Sofrido 61-75: 100%, 76-90: 0%. Aparentemente as condições de % >= 25% são atendidas, porém a amostra é de apenas 2 jogos no H2H — extremamente pequena para confiança. Além disso, a média total de gols é 1.75 (muito baixa) e Over 2.5 médio é apenas 13%, indicando jogos de poucos gols. O mercado confirma: Over 2.5 a 1.50 (barato) mas Under 2.5 a 2.50 — mercado espera jogo de poucos gols. Risco elevado de jogo travar sem gols suficientes para o método.",
+        "back_2x2": "Over 2.5 médio entre os dois times é apenas 13% (Nacional Potosí 0%, Aurora 25%) — muito abaixo do mínimo de 60%. Ambas Marcam médio é 50% — abaixo de 60%. Média de gols total 1.75 — abaixo do mínimo. Nenhum critério atendido.",
+        "back_goleada": "Nacional Potosí tem média ofensiva de apenas 1.00 gol/jogo em casa — abaixo do mínimo de 2.5 gols/jogo. Probabilidade estimada de vitória ~55-58% — abaixo do mínimo de 70%. Aurora tem defesa sólida (0.50 gols sofridos/jogo fora). Nenhum critério atendido.",
+        "lay_1x0": "Média de gols total 1.75 — abaixo do mínimo de 2.5. Over 2.5 médio 13% — perfil de jogo de poucos gols. P(1-0) estimada acima de 12% dado o perfil defensivo. Under 1.5 a 2.50 — mercado espera poucos gols. Critérios não atendidos.",
+        "lay_0x1": "Média de gols total 1.75 — abaixo do mínimo de 2.5. Nacional Potosí marca em 100% dos jogos em casa (Over 0.5 marcados 100%), mas a média total de gols é insuficiente (1.75 < 2.5) e Over 2.5 médio é 13%. P(0-1) estimada acima de 12%. Critérios não atendidos."
+      }
+    }
+  ],
   "pdfs": [
     {
+      "jogo": "Nacional Potosí x Aurora",
+      "arquivo": "pdfs/2026-07-09/Bolivia_LFPB/001_21h00_Nacional_Potosí_x_Aurora.pdf"
+    },
+    {
       "jogo": "França x Marrocos",
-      "arquivo": "pdfs/2026-07-09/International_World_Cup/001_17h00_França_x_Marrocos.pdf"
+      "arquivo": "pdfs/2026-07-09/International_World_Cup/002_17h00_França_x_Marrocos.pdf"
     }
   ]
 }
