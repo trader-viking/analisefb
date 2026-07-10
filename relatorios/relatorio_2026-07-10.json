@@ -1,9 +1,702 @@
 {
   "data": "2026-07-10",
-  "dia_consultado": "amanha",
-  "gerado_em": "2026-07-09T22:16:21.525411",
-  "total_partidas_analisadas": 4,
+  "dia_consultado": "hoje",
+  "gerado_em": "2026-07-10T16:04:42.029963",
+  "total_partidas_analisadas": 11,
   "entradas": [
+    {
+      "horario": "15:45",
+      "liga": "Republic of Ireland First Division",
+      "jogo": "Wexford x Kerry FC",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Over Limite (+1 gol) ao vivo após 65min",
+      "probabilidade_estimada": "55% (evento: jogo com gol na reta final)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.10",
+      "media_gols_casa": "1.36",
+      "media_gols_fora": "0.82",
+      "odds_mercado": {
+        "casa": "1.90",
+        "empate": "3.10",
+        "fora": "3.60",
+        "dupla_chance_1x": "1.22",
+        "dupla_chance_12": "1.25",
+        "dupla_chance_x2": "1.73",
+        "over_05": "1.03",
+        "under_05": "9.00",
+        "over_15": "1.32",
+        "under_15": "3.36",
+        "over_25": "2.05",
+        "under_25": "1.75"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: dados não separados | Geral H2H casa: 7V 6E 9D -6U",
+        "resumo_favorito_fora": "Kerry FC como visitante: 2V 2E 4D nos últimos 8 jogos fora",
+        "leitura": "Wexford tem retrospecto negativo como favorito no H2H geral (7V 6E 9D -6U), indicando que não entrega consistentemente quando cotado como favorito. Kerry FC fora de casa também é irregular.",
+        "jogos_relevantes": [
+          {
+            "data": "15/05/26",
+            "confronto": "Kerry FC x Wexford",
+            "time_analisado": "Wexford",
+            "papel": "zebra",
+            "odd": "2.25",
+            "placar": "2-1",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "13/03/26",
+            "confronto": "Wexford x Kerry FC",
+            "time_analisado": "Wexford",
+            "papel": "favorito",
+            "odd": "2.25",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "03/07/26",
+            "confronto": "Finn Harps x Wexford",
+            "time_analisado": "Wexford",
+            "papel": "favorito",
+            "odd": "1.80",
+            "placar": "1-0",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "26/06/26",
+            "confronto": "Wexford x Treaty United FC",
+            "time_analisado": "Wexford",
+            "papel": "favorito",
+            "odd": "1.75",
+            "placar": "0-0",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "12/06/26",
+            "confronto": "Wexford x Cork City",
+            "time_analisado": "Wexford",
+            "papel": "zebra",
+            "odd": "3.50",
+            "placar": "0-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "08/05/26",
+            "confronto": "Wexford x Longford Town",
+            "time_analisado": "Wexford",
+            "papel": "favorito",
+            "odd": "1.83",
+            "placar": "1-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "alerta",
+        "time": "Wexford",
+        "texto": "Wexford como favorito (odd ~1.75-1.90) tem retrospecto fraco: perdeu para Finn Harps (1.80), empatou com Treaty (1.75) e perdeu para Longford (1.83) — 7V 6E 9D no H2H geral."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Jake Doyle — artilheiro do Wexford com 7 gols em 20 jogos",
+          "Mikie Rowe — 5 gols em 20 jogos, referência ofensiva",
+          "Adam Verdon — 3 gols, presença constante no ataque"
+        ],
+        "destaques_fora": [
+          "Ryan Kelliher — 4 gols em 10 jogos, artilheiro do Kerry FC",
+          "Cian Murphy — 5 gols em 20 jogos, principal goleador",
+          "Matthew Britton — 3 gols em apenas 7 jogos, impacto alto por minuto"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Wexford marca 33% dos gols entre 61-75min e Kerry sofre 24% entre 61-75 e 41% entre 76-90. Perfil claro de gols tardios favorece Over Limite ao vivo após 65min.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. ~55% de gol tardio → fair ~1.82; com margem de segurança, só entrar acima de 2.10 no mercado ao vivo",
+      "mercado_secundario": "Lay Kerry FC (zebra a 3.60 — abaixo do mínimo ideal, mas com mau momento fora)",
+      "odd_minima_secundaria": "3.60",
+      "desempenho_1t": "Wexford marca 0.36 gols/jogo no 1ºT; Kerry sofre pouco no 1ºT (0 gols sofridos no 1ºT como visitante)",
+      "desempenho_2t": "Wexford marca 0.64 gols/jogo no 2ºT; Kerry sofre 1.27 gols/jogo no 2ºT como visitante",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "posicao_geral": "6º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "",
+          "posicao_geral": "7º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Wexford (6º, 27pts) e Kerry FC (7º, 25pts) estão separados por apenas 2 pontos na tabela, ambos sem objetivo claro de título ou rebaixamento. Contudo, a proximidade na tabela pode gerar disputa intensa. O dado mais relevante é o perfil de gols tardios: Wexford marca 33% dos seus gols entre 61-75min (casa) e Kerry FC sofre 24% entre 61-75 e impressionantes 41% entre 76-90 como visitante. Isso cria condição ideal para Over Limite ao vivo após 65min.",
+      "coeficiente_regularidade": "Wexford: irregular (55% vitórias em casa, mas H2H negativo como favorito) / Kerry FC: irregular fora (27% aproveitamento como visitante)",
+      "mando_de_campo": "Wexford vence 55% em casa; Kerry FC vence apenas 27% fora de casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (sem ausências identificadas no PDF)",
+      "especificidades_gols": "Wexford concentra gols no 2ºT (11 gols no 2ºT vs 4 no 1ºT em casa); Kerry FC sofre pesadamente no 2ºT fora (14 gols sofridos no 2ºT vs 2 no 1ºT)",
+      "momento_gols": "Wexford: pico de gols marcados entre 61-75min (33%); Kerry FC: pico de gols sofridos entre 76-90min (41%) como visitante",
+      "jogadores_chave": "Jake Doyle (7 gols - Wexford), Cian Murphy (5 gols - Kerry), Ryan Kelliher (4 gols em 10 jogos - Kerry)",
+      "placares_provaveis": "1x0, 1x1, 2x1",
+      "momento_entrada": "Ao vivo após 65min, mercado Mais X.5 gols onde X = total de gols no placar + 1",
+      "situacao_saida": "Não entrar se: jogo empatado sem gols, goleada consolidada (3+ diferença) ou expulsão em campo",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Aguardar confirmação do perfil de jogo aberto antes dos 65min; entrar apenas se houver pelo menos 1 gol e jogo em aberto",
+        "gatilho_saida_parcial": "Se placar chegar a 3+ gols de diferença antes dos 65min, cancelar entrada",
+        "hard_stop": "Não entrar após expulsão ou se jogo estiver 0-0 aos 65min com ambos os times retrancados"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Wexford - disputa direta na tabela (6º vs 7º, separados por 2 pontos)",
+        "indices_gols_faixas": "Wexford Marcado 61-75: 33% | Wexford Marcado 76-90: 20% | Kerry Sofrido 61-75: 24% | Kerry Sofrido 76-90: 41%",
+        "qual_condicao_atende": "Condição (a): Wexford Marcado 61-75 = 33% >= 25% | Condição (d): Kerry Sofrido 76-90 = 41% >= 25%",
+        "motivo_motivacao": "Times separados por apenas 2 pontos na tabela (6º e 7º), ambos buscando subir posições na segunda metade da temporada",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = total de gols no placar + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar ao vivo + 1)",
+        "ponderacao_odds": "Over 2.5 a 2.05 indica mercado dividido sobre jogo de gols; Over 1.5 a 1.32 confirma expectativa de pelo menos 2 gols. Média total de 2.54 gols/jogo (Wexford 2.54 + Kerry 2.37) reforça o método.",
+        "risco_principal": "Média de gols total de 2.54 é moderada e Kerry marca apenas 0.82 gols/jogo fora — jogo pode terminar com poucos gols se Wexford dominar sem converter.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Wexford tende a pressionar mais no 2ºT (11 gols marcados em casa no 2ºT vs 4 no 1ºT); Kerry FC recua e sofre na reta final",
+        "gatilhos_aceleracao": "Wexford subindo linhas após os 60min, Kerry recuando para defender resultado",
+        "alerta_armadilha": "Se Kerry abrir o placar e Wexford precisar virar, o jogo pode abrir espaços — confirmar antes de entrar",
+        "mercado_recomendado": "Over Limite (+1 gol) ao vivo após 65min",
+        "momento_observacao": "Entre 60-65min de jogo"
+      },
+      "_ev_pct": 16,
+      "_ev_odd": 2.1,
+      "_ev_base": "minima"
+    },
+    {
+      "horario": "15:45",
+      "liga": "Republic of Ireland First Division",
+      "jogo": "Athlone Town x Cobh Ramblers",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Over Limite (+1 gol) ao vivo após 65min",
+      "probabilidade_estimada": "55% (jogo equilibrado, média total 2.27 gols/jogo, ambos com padrão de gols no 2T)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.10",
+      "media_gols_casa": "1.18",
+      "media_gols_fora": "1.00",
+      "odds_mercado": {
+        "casa": "2.35",
+        "empate": "3.50",
+        "fora": "2.50",
+        "dupla_chance_1x": "1.40",
+        "dupla_chance_12": "1.22",
+        "dupla_chance_x2": "1.57",
+        "over_05": "1.01",
+        "under_05": "11.00",
+        "over_15": "1.23",
+        "under_15": "4.19",
+        "over_25": "1.75",
+        "under_25": "2.05"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: 0V | Favorito: dados mistos | Parelho: 6V 6E 10D -5.8U",
+        "resumo_favorito_fora": "null",
+        "leitura": "Athlone Town tem retrospecto negativo no papel parelho/favorito: 6V 6E 10D com -5.8U. Jogo equilibrado com odds proximas (2.35 vs 2.50) confirma paridade.",
+        "jogos_relevantes": [
+          {
+            "data": "03/07/26",
+            "confronto": "Bray Wanderers x Athlone Town",
+            "time_analisado": "Athlone Town",
+            "papel": "zebra",
+            "odd": "4.20",
+            "placar": "1-0",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "26/06/26",
+            "confronto": "Athlone Town x Finn Harps",
+            "time_analisado": "Athlone Town",
+            "papel": "favorito",
+            "odd": "1.48",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "19/06/26",
+            "confronto": "Athlone Town x Wexford",
+            "time_analisado": "Athlone Town",
+            "papel": "parelho",
+            "odd": "2.50",
+            "placar": "2-2",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "22/05/26",
+            "confronto": "Athlone Town x Cork City",
+            "time_analisado": "Athlone Town",
+            "papel": "parelho",
+            "odd": "3.30",
+            "placar": "0-3",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "15/05/26",
+            "confronto": "Cobh Ramblers x Athlone Town",
+            "time_analisado": "Athlone Town",
+            "papel": "parelho",
+            "odd": "2.62",
+            "placar": "1-0",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "13/03/26",
+            "confronto": "Athlone Town x Cobh Ramblers",
+            "time_analisado": "Athlone Town",
+            "papel": "parelho",
+            "odd": "2.62",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "alerta",
+        "time": "Athlone Town",
+        "texto": "Athlone Town no papel parelho (odd ~2.35-2.62): historico recente de 6V 6E 10D com -5.8U — nao entrega consistencia como mandante nessa faixa de odd."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Cillian Tollett — artilheiro do Athlone com 5 gols em 18 jogos",
+          "Patrick Ferry — 3 gols em 18 jogos, referencia ofensiva",
+          "Kyle O'Connor — 1 gol e 1 assistencia, polivalente"
+        ],
+        "destaques_fora": [
+          "Dylan McGlade — artilheiro do Cobh com 8 gols em 14 jogos, decisivo",
+          "Cian Curtis — 7 gols e 3 assistencias em 23 jogos, principal criador",
+          "Wilson Waweru — 4 gols em 20 jogos, referencia no ataque"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Jogo equilibrado com media total de 2.27 gols e forte padrao de gols no 2T (Cobh sofre 25% dos gols entre 76-90min). Over Limite ao vivo apos 65min e Lay 1x0/0x1 sao os metodos mais solidos.",
+      "alerta_geral": "Evitar jogos empatados, com goleada ja consolidada (3+ gols de diferenca) ou apos expulsao.",
+      "valor_esperado": "Media total 2.27 gols + Cobh sofre 25% no intervalo 76-90 + Over 2.5 a 1.75 (mercado espera gols). Lay 1x0 e 0x1 suportados por Under 1.5 a 4.19 (mercado nao espera jogo magro).",
+      "mercado_secundario": "Lay 1x0 (placar exato)",
+      "odd_minima_secundaria": "9.00",
+      "desempenho_1t": "Athlone marca 0.64 gols/1T; Cobh sofre 0.64 gols/1T como visitante",
+      "desempenho_2t": "Cobh sofre 1.09 gols/2T fora; Athlone marca 0.27 gols/2T em casa",
+      "contexto_times": {
+        "casa": {
+          "posicao": "8º",
+          "posicao_geral": "8º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "4º",
+          "posicao_geral": "4º",
+          "objetivo": "sul_americana"
+        }
+      },
+      "motivacao_tecnica": "Cobh Ramblers (4º, 31pts) ainda briga por posicao de playoff de promocao, o que aumenta motivacao. Athlone (8º, 24pts) sem objetivo claro. Desequilibrio motivacional favorece Cobh, mas o jogo deve ser aberto dado o perfil ofensivo de ambos (Over 2.5 media 50%, Cobh sofre 1.82 gols/jogo fora).",
+      "coeficiente_regularidade": "Athlone: irregular (6V 6E 10D) / Cobh: moderado (9V 4E 9D geral)",
+      "mando_de_campo": "Athlone vence apenas 36% em casa; Cobh vence 55% fora nos ultimos jogos listados",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (sem ausencias identificadas no PDF)",
+      "especificidades_gols": "Cobh marca principalmente via Dylan McGlade (8 gols) e Cian Curtis (7 gols). Athlone depende de Tollett (5 gols) e Ferry (3 gols).",
+      "momento_gols": "Cobh sofre 25% dos gols entre 76-90min como visitante. Athlone marca 15% entre 61-75 e 15% entre 76-90. Padrao de gols tardios presente.",
+      "jogadores_chave": "Dylan McGlade (Cobh, 8 gols), Cian Curtis (Cobh, 7 gols+3 assist), Cillian Tollett (Athlone, 5 gols)",
+      "placares_provaveis": "1-1, 1-2, 2-1, 2-2",
+      "momento_entrada": "Over Limite: ao vivo apos 65min. Lay 1x0/0x1: pre-jogo.",
+      "situacao_saida": "Over Limite: nao entrar se 0-0, goleada ou expulsao. Lay 1x0: cash-out se 0-1, 1-1 ou 60min sem gol. Lay 0x1: cash-out se 1-0, 1-1 ou 60min sem gol.",
+      "stake_recomendada": "1% (Over Limite) / 2% (Lay 1x0 e Lay 0x1)",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo equilibrado sem favoritismo claro; aguardar desenvolvimento para confirmar padrao de gols tardios antes de entrar no Over Limite.",
+        "gatilho_saida_parcial": "Lay 1x0: se placar for 0-1 ou 1-1 antes dos 60min. Lay 0x1: se placar for 1-0 ou 1-1.",
+        "hard_stop": "Over Limite: nao entrar se jogo empatado sem gols, goleada consolidada ou expulsao."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Cobh Ramblers (4º, brigando por playoff) vs Athlone (8º, sem objetivo claro)",
+        "indices_gols_faixas": "Athlone Marcado 61-75: 15% | Athlone Marcado 76-90: 15% | Cobh Sofrido 61-75: 8% | Cobh Sofrido 76-90: 25%",
+        "qual_condicao_atende": "Cobh Sofrido 76-90: 25% — atende o limiar de >= 25%",
+        "motivo_motivacao": "Cobh Ramblers 4º colocado ainda brigando por posicao de playoff de promocao — motivacao alta para buscar resultado.",
+        "condicao_entrada": "Entrar AO VIVO apos 65min; mercado = Mais X.5 gols onde X = total de gols no placar + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar ao vivo + 1)",
+        "ponderacao_odds": "Over 2.5 a 1.75 (mercado espera jogo com gols). Cobh sofre 25% dos gols entre 76-90min como visitante — padrao de gols tardios confirmado pelo historico.",
+        "risco_principal": "Athlone marca apenas 0.27 gols/2T em casa — risco de jogo travar sem gols na reta final.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferenca), ou expulsao em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "p_1x0_<12",
+          "visit_over05_>65",
+          "visit_marca_>60",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "9%",
+        "ponderacao_odds": "Under 1.5 a 4.19 — mercado claramente nao espera jogo magro; Over 2.5 a 1.75 reforça perfil de multiplos gols. Lay 1x0 bem suportado.",
+        "risco_principal": "Athlone vence 36% em casa e marcou primeiro em apenas 36% dos jogos — risco de jogo de poucos gols com mandante ineficiente.",
+        "visitante_over_0_5": "64% (Cobh marca em 64% dos jogos fora)",
+        "visitante_marca_pct": "64%",
+        "media_gols_total": "2.27",
+        "btts_medio": "45%",
+        "razao": "Media total de 2.27 gols, Under 1.5 a 4.19 (mercado espera 2+ gols), Cobh marca em 64% dos jogos fora e tem artilheiros prolíficos (McGlade 8 gols, Curtis 7 gols). Perfil de jogo aberto torna 1x0 improvavel.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou apos 60min sem gol",
+        "stake_recomendada": "2%",
+        "_bloqueado_poisson": true,
+        "_prob_poisson_pct": 13.3,
+        "razao_reprovacao": "visitante marca em 64% dos jogos (precisa >65%); média de gols total 2.27 (precisa ≥2.5); ambas marcam 45% (precisa >50%); BLOQUEADO: 1x0 está entre os 4 placares mais prováveis por Poisson (13% > 12%) — fazer lay do placar mais provável contradiz a análise"
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "p_0x1_<12",
+          "mand_over05_>65",
+          "mand_marca_>60",
+          "media_total_>=2.5",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "ponderacao_odds": "Under 1.5 a 4.19 — mercado nao espera jogo de 1 gol. Over 2.5 a 1.75 reforça perfil de jogo aberto. Lay 0x1 suportado.",
+        "risco_principal": "Cobh venceu o confronto direto anterior (1-0 em 15/05/26) e tem motivacao maior — risco real de vitoria magra do visitante.",
+        "mandante_over_0_5": "64% (Athlone marca em 64% dos jogos em casa)",
+        "mandante_marca_pct": "64%",
+        "media_gols_total": "2.27",
+        "btts_medio": "45%",
+        "razao": "Athlone marca em 64% dos jogos em casa, Under 1.5 a 4.19 indica mercado espera multiplos gols, e o perfil ofensivo de ambos (Cobh sofre 1.82 gols/jogo fora) torna 0x1 improvavel.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou apos 60min sem gol",
+        "stake_recomendada": "2%",
+        "razao_reprovacao": "mandante marca em 64% dos jogos (precisa >65%); média de gols total 2.27 (precisa ≥2.5); ambas marcam 45% (precisa >50%)"
+      },
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Jogo aberto e equilibrado com ambos os times buscando gols — Cobh com motivacao de playoff, Athlone tentando surpreender em casa.",
+        "gatilhos_aceleracao": "Cobh pressionando apos 65min, Athlone buscando empate ou virada, ritmo alto de finalizacoes",
+        "alerta_armadilha": "Jogo travado taticamente ou expulsao que reduza o ritmo ofensivo",
+        "mercado_recomendado": "Over Limite (+1 gol) ao vivo apos 65min",
+        "momento_observacao": "65-75min"
+      },
+      "_ev_pct": 16,
+      "_ev_odd": 2.1,
+      "_ev_base": "minima"
+    },
+    {
+      "horario": "15:45",
+      "liga": "Republic of Ireland First Division",
+      "jogo": "Finn Harps x Treaty United FC",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2"
+      ],
+      "mercado_principal": "Over Limite (+1 gol) ao vivo após 65min",
+      "probabilidade_estimada": "55% (jogo equilibrado com forte padrão de gols na reta final)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.10",
+      "media_gols_casa": "1.09",
+      "media_gols_fora": "0.73",
+      "odds_mercado": {
+        "casa": "2.45",
+        "empate": "3.20",
+        "fora": "2.50",
+        "dupla_chance_1x": "1.44",
+        "dupla_chance_12": "1.25",
+        "dupla_chance_x2": "1.44",
+        "over_05": "1.01",
+        "under_05": "11.00",
+        "over_15": "1.25",
+        "under_15": "3.92",
+        "over_25": "1.85",
+        "under_25": "1.95"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Parelho/Não Fav: 5V 7E 10D -6.8U (histórico geral do Finn Harps no H2H com odds)",
+        "resumo_favorito_fora": "Treaty United FC: dados de papel não discriminados individualmente no PDF",
+        "leitura": "Finn Harps acumula saldo negativo de unidades (-6.8U) no H2H com odds — não entrega como favorito. Jogo parelho com odds quase idênticas (2.45 vs 2.50), sem favoritismo claro.",
+        "jogos_relevantes": [
+          {
+            "data": "15/05/26",
+            "confronto": "Treaty United FC x Finn Harps",
+            "time_analisado": "Finn Harps",
+            "papel": "zebra",
+            "odd": "3.10",
+            "placar": "3-0",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "13/03/26",
+            "confronto": "Finn Harps x Treaty United FC",
+            "time_analisado": "Finn Harps",
+            "papel": "favorito",
+            "odd": "2.15",
+            "placar": "2-2",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "08/05/26",
+            "confronto": "Finn Harps x Kerry FC",
+            "time_analisado": "Finn Harps",
+            "papel": "favorito",
+            "odd": "2.50",
+            "placar": "1-0",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
+          },
+          {
+            "data": "03/07/26",
+            "confronto": "Finn Harps x Wexford",
+            "time_analisado": "Finn Harps",
+            "papel": "favorito",
+            "odd": "3.70",
+            "placar": "1-0",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
+          },
+          {
+            "data": "22/05/26",
+            "confronto": "Finn Harps x Longford Town",
+            "time_analisado": "Finn Harps",
+            "papel": "favorito",
+            "odd": "2.10",
+            "placar": "2-2",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "12/06/26",
+            "confronto": "Finn Harps x UCD",
+            "time_analisado": "Finn Harps",
+            "papel": "parelho",
+            "odd": "4.20",
+            "placar": "0-5",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "alerta",
+        "time": "Finn Harps",
+        "texto": "Finn Harps acumula -6.8U no H2H com odds — historicamente não entrega valor como favorito ou parelho nessa faixa de 2.10-2.50."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Conor Tourish — 3 gols em 16 jogos, referência defensiva e ofensiva",
+          "Gavin McAteer — 2 gols, presença constante (17 jogos)",
+          "Joel Bradley Walsh — 2 gols, 17 jogos, 5 cartões amarelos"
+        ],
+        "destaques_fora": [
+          "Jason Oyenuga — artilheiro com 5 gols e 1 assistência em 20 jogos",
+          "Ben Feeney — 4 gols em 17 jogos, segundo maior goleador",
+          "Robbie Lynch — 2 gols, mais jogos da equipe (22)"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Finn Harps marca 50% dos gols na faixa 76-90min e Treaty sofre 25% nessa janela. Padrão de gols tardios fortíssimo — Over Limite ao vivo após 65min é o método ideal.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Método ao vivo com gatilho nos 65min. Odd esperada 1.60-2.20 dependendo do placar. Padrão de gols tardios justifica entrada com EV positivo.",
+      "mercado_secundario": "Back 2x2 (placar exato 2x2)",
+      "odd_minima_secundaria": "10.00",
+      "desempenho_1t": "Finn Harps marca 27% dos gols no 1ºT; Treaty sofre 6% no 1ºT — jogo tende a abrir no 2ºT",
+      "desempenho_2t": "Finn Harps marca 50% dos gols na faixa 76-90; Treaty sofre 25% em 61-75 e 25% em 76-90",
+      "contexto_times": {
+        "casa": {
+          "posicao": "9º",
+          "posicao_geral": "9º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "10º",
+          "posicao_geral": "10º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Finn Harps (9º, 22pts) e Treaty United (10º, 20pts) estão próximos na tabela sem objetivos imediatos de acesso ou rebaixamento. O grande diferencial é o padrão de gols tardios: Finn Harps marca 50% dos seus gols na faixa 76-90min (6 de 12 gols marcados) e Treaty sofre 25% dos seus gols em 61-75 e outros 25% em 76-90. Média total de gols combinada: 2.54 (Finn) + 2.73 (Treaty) = contexto de jogo aberto. Over 2.5 a 1.85 confirma expectativa de gols pelo mercado.",
+      "coeficiente_regularidade": "Finn Harps: irregular (36% V, 27% D, 36% E); Treaty: irregular (0% V fora, 64% D no 2ºT)",
+      "mando_de_campo": "Finn Harps vence 36% em casa; Treaty vence 0% fora nos últimos jogos listados",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (sem ausências identificadas no PDF)",
+      "especificidades_gols": "Finn Harps concentra 50% dos gols marcados na faixa 76-90min. Treaty sofre gols distribuídos ao longo do jogo com pico no 2ºT.",
+      "momento_gols": "Finn Harps: 76-90min = 50% dos gols marcados (6 gols). Treaty sofrido: 61-75 = 25%, 76-90 = 25%.",
+      "jogadores_chave": "Oyenuga (5G Treaty), Feeney (4G Treaty), Tourish (3G Finn Harps)",
+      "placares_provaveis": "2x1, 1x2, 2x2, 1x1",
+      "momento_entrada": "Ao vivo após 65min — mercado Mais X.5 gols onde X = total de gols no placar + 1",
+      "situacao_saida": "Não entrar se: 0x0 empatado, goleada 3+ gols de diferença, ou expulsão em campo",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo equilibrado sem favoritismo claro — aguardar desenvolvimento e confirmar padrão de gols tardios antes de entrar",
+        "gatilho_saida_parcial": "Se placar chegar a 3+ gols de diferença antes dos 65min, cancelar entrada",
+        "hard_stop": "Não entrar após expulsão ou se jogo estiver 0x0 após 75min sem pressão ofensiva"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Jogo equilibrado — desequilíbrio técnico ausente, mas padrão de gols tardios fortíssimo de ambos os lados",
+        "indices_gols_faixas": "Finn Harps Marcado 61-75: 25% | Marcado 76-90: 50% | Treaty Sofrido 61-75: 25% | Treaty Sofrido 76-90: 25%",
+        "qual_condicao_atende": "Finn Harps Marcado 76-90 = 50% (supera limiar de 25%) — condição principal atendida",
+        "motivo_motivacao": "Ambos os times em zona de meio de tabela sem objetivos claros, mas o padrão estatístico de gols tardios é o gatilho principal",
+        "condicao_entrada": "Entrar AO VIVO após 65min no mercado Mais X.5 gols, onde X = total de gols no placar atual + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar ao vivo + 1)",
+        "ponderacao_odds": "Over 2.5 a 1.85 — mercado espera jogo com gols. Finn Harps marca 50% dos gols em 76-90min, reforçando entrada tardia. Sem dados de gol no 2ºT por H2H discriminados.",
+        "risco_principal": "Jogo pode ficar travado em 0x0 ou com poucos gols se ambos os times jogarem sem motivação clara.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=60",
+          "btts_>=60",
+          "defesas_frageis",
+          "ataques_produtivos"
+        ],
+        "criterios_total": 6,
+        "razao": "Over 2.5 médio de 55% (Finn 55%, Treaty 55%) — abaixo do limiar de 60%, mas BTTS médio de 50% (Finn 55%, Treaty 45%) e defesas frágeis dos dois lados (Finn sofre 1.45/jogo, Treaty sofre 2.00/jogo). Ataques produtivos: Finn marca 1.09/jogo, Treaty 0.73/jogo. Critérios 1 e 2 não atingem o limiar mínimo de 60%, mas o perfil de jogo aberto e defesas vazadas justifica monitorar o placar exato 2x2.",
+        "indice_over_2_5": "55% média (Finn Harps 55%, Treaty United 55%)",
+        "indice_ambas_marcam": "50% média (Finn Harps 55%, Treaty United 45%)",
+        "indice_over_ht": "55% média (Finn Harps 45% Over 0.5 HT, Treaty 64% Over 0.5 HT)",
+        "ponderacao_odds": "Over 2.5 a 1.85 — mercado espera jogo com gols, mas Over 2.5 médio de 55% fica abaixo do limiar de 60% exigido pelo método.",
+        "risco_principal": "Over 2.5 médio de 55% e BTTS de 50% ficam abaixo dos limiares mínimos do método — confiança reduzida no placar exato 2x2.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Jogo equilibrado com tendência de gols tardios — ambos os times com defesas frágeis e ataques moderados",
+        "gatilhos_aceleracao": "Pressão ofensiva crescente após 60min, substituições ofensivas, escanteios consecutivos",
+        "alerta_armadilha": "Jogo travado em 0x0 após 70min sem finalizações — sinal de que o padrão tardio não se confirmará",
+        "mercado_recomendado": "Mais X.5 gols ao vivo após 65min",
+        "momento_observacao": "65-75min"
+      },
+      "_ev_pct": 16,
+      "_ev_odd": 2.1,
+      "_ev_base": "minima"
+    },
     {
       "horario": "08:35",
       "liga": "China Chinese Super League",
@@ -15,35 +708,39 @@
         "lay_0x1"
       ],
       "mercado_principal": "Over Limite (+1 gol) ao vivo após 65min",
-      "probabilidade_estimada": "77% (Over 2.5 gols — média total 3.50 gols/jogo, ambos com histórico massivo de jogos abertos)",
-      "fair_odd": "1.30",
-      "odd_minima_entrada": "1.56",
+      "probabilidade_estimada": "58% (vitória Shandong em casa, baseado em aproveitamento 50% geral e mando moderado)",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.98",
       "media_gols_casa": "2.25",
       "media_gols_fora": "1.67",
       "odds_mercado": {
-        "casa": "1.72",
-        "empate": "4.10",
+        "casa": "1.75",
+        "empate": "4.33",
         "fora": "3.80",
-        "dupla_chance_1x": "1.22",
+        "dupla_chance_1x": "1.25",
         "dupla_chance_12": "1.20",
-        "dupla_chance_x2": "2.10",
+        "dupla_chance_x2": "2.00",
         "over_05": "1.02",
         "under_05": "25.00",
         "over_15": "1.11",
-        "under_15": "6.72",
+        "under_15": "7.16",
         "over_25": "1.36",
-        "under_25": "3.10"
+        "under_25": "3.10",
+        "over_35": "1.92",
+        "under_35": "1.95",
+        "over_45": "3.04",
+        "under_45": "1.39"
       },
       "h2h_odds": {
-        "resumo_favorito_casa": "Super Fav: 9V 3E 6D +0.8U (dados gerais do H2H de Shandong)",
-        "resumo_favorito_fora": null,
-        "leitura": "Shandong tem retrospecto positivo no H2H geral (9V 3E 6D), mas o confronto direto mais recente (21/03/26) terminou 4-0 para Yunnan fora de casa — sinal de que Yunnan pode ser competitivo. Jogos de alto volume de gols predominam no H2H.",
+        "resumo_favorito_casa": "9V 3E 6D +0.8U (geral H2H com odds)",
+        "resumo_favorito_fora": "null",
+        "leitura": "Shandong tem retrospecto positivo geral (9V 3E 6D), mas o único confronto direto recente com Yunnan (21/03/26) terminou em derrota por 4-0 como visitante. Yunnan venceu esse H2H com folga.",
         "jogos_relevantes": [
           {
             "data": "21/03/26",
             "confronto": "Yunnan Yukun FC x Shandong Luneng",
             "time_analisado": "Shandong Luneng",
-            "papel": "zebra",
+            "papel": "parelho",
             "odd": "2.20",
             "placar": "4-0",
             "resultado": "D",
@@ -53,36 +750,10 @@
             "nao_sofreu": false
           },
           {
-            "data": "14/03/26",
-            "confronto": "Shandong Luneng x Beijing Guoan",
-            "time_analisado": "Shandong Luneng",
-            "papel": "favorito",
-            "odd": "1.90",
-            "placar": "2-1",
-            "resultado": "V",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "07/03/26",
-            "confronto": "Shandong Luneng x Shenyang Urban",
-            "time_analisado": "Shandong Luneng",
-            "papel": "favorito",
-            "odd": "1.60",
-            "placar": "3-0",
-            "resultado": "V",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": true
-          },
-          {
             "data": "04/07/26",
             "confronto": "Beijing Guoan x Shandong Luneng",
             "time_analisado": "Shandong Luneng",
-            "papel": "zebra",
+            "papel": "parelho",
             "odd": "4.33",
             "placar": "2-0",
             "resultado": "D",
@@ -101,7 +772,7 @@
             "resultado": "V",
             "marcou_primeiro": false,
             "gol_1t": false,
-            "gol_2t": false,
+            "gol_2t": true,
             "nao_sofreu": false
           },
           {
@@ -112,42 +783,68 @@
             "odd": "1.70",
             "placar": "0-5",
             "resultado": "V",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
             "nao_sofreu": true
+          },
+          {
+            "data": "24/05/26",
+            "confronto": "Shandong Luneng x Wuhan Three Towns",
+            "time_analisado": "Shandong Luneng",
+            "papel": "super_favorito",
+            "odd": "1.44",
+            "placar": "3-3",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "05/05/26",
+            "confronto": "Shandong Luneng x Shanghai Shenhua",
+            "time_analisado": "Shandong Luneng",
+            "papel": "parelho",
+            "odd": "2.40",
+            "placar": "4-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
           }
         ]
       },
       "alerta_odds": {
         "tipo": "neutro",
         "time": "Shandong Luneng",
-        "texto": "Shandong como favorito (odd ~1.72): H2H geral 9V 3E 6D, mas perdeu 4-0 para Yunnan no confronto direto mais recente — amostra dividida no papel de favorito nessa faixa."
+        "texto": "Shandong tem 9V 3E 6D no geral com odds, mas perdeu por 4-0 para o próprio Yunnan em março — amostra dividida neste confronto específico."
       },
       "jogadores": {
         "destaques_casa": [
-          "Crysan da Cruz Queiroz Barcelos — artilheiro com 11 gols e 5 assistências em 13 jogos, referência ofensiva",
-          "Jose Joaquim de Carvalho — 6 gols e 2 assistências em 16 jogos, segundo maior goleador",
+          "Crysan da Cruz — artilheiro com 11 gols e 5 assistências em 13 jogos, principal decisor ofensivo",
+          "Jose Joaquim de Carvalho — 6 gols e 2 assistências em 16 jogos, referência no ataque",
           "Valeri Qazaishvili — 4 gols e 5 assistências em 17 jogos, criação e finalização",
-          "Wenneng Xie — 4 gols e 3 assistências em 16 jogos, polivalente ofensivo"
+          "Wenneng Xie — 4 gols e 3 assistências em 16 jogos, polivalente no meio"
         ],
         "destaques_fora": [
-          "Oscar Taty Maritu — artilheiro com 12 gols e 3 assistências em 17 jogos, referência máxima",
-          "Alexandru Ioniță — 3 gols e 9 assistências em 17 jogos, maior assistente do time",
-          "Cleber Bomfim de Jesus — 6 gols e 4 assistências em 17 jogos, segundo artilheiro",
-          "Caio Vinícius da Conceição — 2 gols e 1 assistência, apoio ofensivo"
+          "Oscar Taty Maritu — artilheiro com 12 gols e 3 assistências em 17 jogos, referência máxima do ataque",
+          "Alexandru Ioniță — 3 gols e 9 assistências em 17 jogos, principal criador",
+          "Cleber Bomfim — 6 gols e 4 assistências em 17 jogos, segundo artilheiro",
+          "Andrei Burcă — referência defensiva, 16 jogos disputados"
         ],
         "titulares_casa": null,
         "titulares_fora": null,
         "ausencias_impacto": []
       },
-      "explicacao_curta": "Média total de 3.50 gols/jogo, Over 2.5 em 77% dos jogos de Shandong e 78% de Yunnan. Shandong marca 33% dos gols entre 61-75min — gatilho perfeito para Over Limite ao vivo.",
+      "explicacao_curta": "Média total de 3.92 gols/jogo (2.25+1.67), Over 2.5 em 77% dos jogos combinados e Shandong marca 33% dos gols entre 61-75min — perfil ideal para Over Limite ao vivo.",
       "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Over 2.5 a 1.36 já confirma valor de mercado; Over Limite ao vivo após 65min captura odd melhor (1.60-2.20) com confirmação tática em campo.",
+      "valor_esperado": "Over Limite ao vivo após 65min: mercado espera jogo de muitos gols (Over 2.5 a 1.36), Shandong concentra 33% dos gols marcados na faixa 61-75min — valor real na entrada tardia.",
       "mercado_secundario": "Back 2x2 (placar exato 2x2)",
       "odd_minima_secundaria": "10.00",
       "desempenho_1t": "Shandong marca 1.00 gol/jogo no 1ºT; Yunnan sofre 0.89 gol/jogo no 1ºT",
-      "desempenho_2t": "Shandong marca 1.25 gols/jogo no 2ºT; Yunnan sofre 0.89 gol/jogo no 2ºT",
+      "desempenho_2t": "Shandong marca 1.25 gol/jogo no 2ºT; Yunnan sofre 0.89 gol/jogo no 2ºT",
       "contexto_times": {
         "casa": {
           "posicao": "",
@@ -160,23 +857,23 @@
           "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "Shandong (7º, 21pts) recebe Yunnan (4º, 24pts) — visitante brigando por posição continental, mandante sem objetivo claro. Ambos os times têm médias ofensivas altas: Shandong 2.25 gols marcados/jogo, Yunnan 1.67. Defesas frágeis dos dois lados (Shandong sofre 1.25/jogo, Yunnan sofre 1.78/jogo). Over 2.5 em 75% dos jogos de Shandong e 78% de Yunnan. Shandong marca 33% dos seus gols entre 61-75min — janela ideal para Over Limite. Ambas Marcam em 88% dos jogos de Shandong e 89% de Yunnan.",
-      "coeficiente_regularidade": "Casa: alto volume ofensivo consistente / Visitante: ataque produtivo com artilheiro de elite (12 gols)",
-      "mando_de_campo": "Shandong em casa: 50% de vitórias, 2.25 gols marcados/jogo em casa",
+      "motivacao_tecnica": "Shandong (7º, 21pts) recebe Yunnan (4º, 24pts) — visitante brigando por posição continental, mandante sem objetivo claro. Média total de gols combinada de 3.92/jogo. Over 2.5 em 75% dos jogos de Shandong e 78% dos de Yunnan. Ambas Marcam em 88% e 89% respectivamente. Shandong concentra 33% dos gols marcados na faixa 61-75min — gatilho perfeito para Over Limite ao vivo.",
+      "coeficiente_regularidade": "Casa: alto volume ofensivo (2.25 gols/jogo) / Visitante: ataque produtivo (1.67 gols/jogo fora)",
+      "mando_de_campo": "Shandong venceu 50% dos jogos em geral; Yunnan venceu 33% como visitante",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo (sem ausências identificadas no PDF)",
-      "especificidades_gols": "Shandong concentra 33% dos gols marcados entre 61-75min; Yunnan distribui gols ao longo do jogo com pico no 2ºT (76-90: 25% sofridos)",
-      "momento_gols": "Shandong: pico de gols marcados em 61-75min (33%); Yunnan: gols sofridos distribuídos com 20% em 76-90min",
-      "jogadores_chave": "Crysan (11G/5A - Shandong), Oscar Taty Maritu (12G/3A - Yunnan), Alexandru Ioniță (9A - Yunnan)",
-      "placares_provaveis": "2x1, 3x1, 2x2, 3x2",
-      "momento_entrada": "Over Limite: ao vivo após 65min. Back 2x2: pré-jogo.",
-      "situacao_saida": "Over Limite: não entrar se 0x0, goleada consolidada ou expulsão. Back 2x2: cash-out total no 1x1, parcial no 2x1 ou 1x2.",
+      "desfalques_chave": "Sem informações de desfalques confirmados no PDF",
+      "especificidades_gols": "Shandong concentra gols no 2ºT (10 gols no 2ºT vs 8 no 1ºT); Yunnan marca mais no 1ºT (10 gols no 1ºT vs 5 no 2ºT)",
+      "momento_gols": "Shandong: pico na faixa 61-75min (33% dos gols marcados — 6 gols). Yunnan sofrido: 25% na faixa 76-90min",
+      "jogadores_chave": "Crysan (11G/5A Shandong), Oscar Taty Maritu (12G/3A Yunnan), Alexandru Ioniță (3G/9A Yunnan)",
+      "placares_provaveis": "2x1, 3x2, 2x2, 3x1",
+      "momento_entrada": "Over Limite: ao vivo após 65min. Back 2x2: pré-jogo",
+      "situacao_saida": "Over Limite: não entrar se 0x0, goleada 3+ ou expulsão. Back 2x2: cash-out total no 1x1, parcial no 2x1 ou 1x2",
       "stake_recomendada": "1% (Over Limite) / 0.5% (Back 2x2)",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Dois métodos complementares: Over Limite ao vivo captura gols tardios com confirmação em campo; Back 2x2 pré-jogo aproveita odd alta com perfil estatístico fortíssimo de ambas marcam e Over 2.5.",
-        "gatilho_saida_parcial": "Back 2x2: cash-out parcial ao chegar em 2x1 ou 1x2. Over Limite: sair se jogo travar por expulsão ou goleada.",
-        "hard_stop": "Back 2x2: cash-out total obrigatório no 1x1. Over Limite: não entrar se condições de armadilha presentes aos 65min."
+        "justificativa_abordagem": "Dois métodos complementares: Over Limite ao vivo com gatilho nos 65min e Back 2x2 pré-jogo para capturar odd alta",
+        "gatilho_saida_parcial": "Back 2x2: cash-out parcial ao chegar em 2x1 ou 1x2. Over Limite: não entrar se jogo travar com expulsão",
+        "hard_stop": "Back 2x2: cash-out total obrigatório no 1x1. Over Limite: não entrar se goleada consolidada (3+ gols de diferença)"
       },
       "back_favorito": null,
       "lay_zebra": null,
@@ -190,14 +887,14 @@
         ],
         "criterios_total": 5,
         "modo": "ao_vivo",
-        "favorito_ou_motivacao": "Shandong Luneng — mandante com média 2.25 gols/jogo; Yunnan 4º brigando por posição continental",
-        "indices_gols_faixas": "Shandong Marcado 61-75: 33% | Shandong Marcado 76-90: 11% | Yunnan Sofrido 61-75: 20% | Yunnan Sofrido 76-90: 20%",
-        "qual_condicao_atende": "Condição (a): Shandong Marcado 61-75 = 33% (acima do limiar de 25%)",
-        "motivo_motivacao": "Yunnan 4º na tabela brigando por posição continental; desequilíbrio técnico com Shandong em casa e ataque de elite (Crysan 11 gols)",
-        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
-        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1 aos 65min)",
-        "ponderacao_odds": "Over 2.5 a 1.36 — mercado precifica jogo de muitos gols com alta convicção. Gols no 2ºT em 89% dos jogos de Shandong reforça entrada tardia.",
-        "risco_principal": "Jogo pode estar empatado sem gols ou com goleada consolidada aos 65min, inviabilizando a entrada.",
+        "favorito_ou_motivacao": "Shandong Luneng — mandante com 33% dos gols marcados na faixa 61-75min; Yunnan 4º brigando por posição continental",
+        "indices_gols_faixas": "Shandong Marcado 61-75: 33% (6 gols de 18) | Shandong Marcado 76-90: 11% | Yunnan Sofrido 61-75: 20% | Yunnan Sofrido 76-90: 20%",
+        "qual_condicao_atende": "Condição (a): Shandong Marcado 61-75 = 33% — supera o limiar de 25%",
+        "motivo_motivacao": "Yunnan (4º, 24pts) brigando por posição continental; desequilíbrio técnico ofensivo com média combinada de 3.92 gols/jogo",
+        "condicao_entrada": "Entrar AO VIVO após 65min no mercado Mais X.5 gols, onde X = total de gols no placar + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar ao vivo + 1)",
+        "ponderacao_odds": "Over 2.5 a 1.36 confirma expectativa de jogo aberto; Over 0.5 no 2ºT a 1.11 reforça gols tardios. H2H mostra gols no 2ºT em múltiplos confrontos recentes.",
+        "risco_principal": "Shandong perdeu por 4-0 para Yunnan no confronto direto de março — visitante pode surpreender e consolidar goleada antes dos 65min.",
         "odd_esperada": "1.60 a 2.20",
         "stake_recomendada": "1%",
         "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
@@ -209,15 +906,15 @@
           "btts_>=60",
           "defesas_frageis",
           "ataques_produtivos",
-          "mercado_espera_gols"
+          "over_ht_>=70"
         ],
         "criterios_total": 6,
-        "razao": "Over 2.5 em 75-78% dos jogos de ambos, Ambas Marcam em 88-89%, defesas frágeis (Shandong sofre 1.25/jogo, Yunnan sofre 1.78/jogo), ataques produtivos (Shandong 2.25/jogo, Yunnan 1.67/jogo). Perfil estatístico ideal para 2x2.",
-        "indice_over_2_5": "77% média — Shandong 75%, Yunnan 78%",
-        "indice_ambas_marcam": "89% média — Shandong 88%, Yunnan 89%",
-        "indice_over_ht": "83% média — Shandong 88%, Yunnan 78%",
-        "ponderacao_odds": "Over 2.5 a 1.36 — mercado confirma jogo aberto. Ambas Marcam a 1.40 reforça perfil de 2x2.",
-        "risco_principal": "Placar pode ir para 3x0 ou 4x1 sem passar pelo 2x2, especialmente com Crysan e Maritu em campo.",
+        "razao": "Over 2.5 em 77% combinado, Ambas Marcam em 88%/89%, Over 0.5 HT em 83% combinado, ambos com defesas frágeis (Shandong sofre 1.25/jogo, Yunnan sofre 1.78/jogo) e ataques produtivos (Shandong 2.25/jogo, Yunnan 1.67/jogo)",
+        "indice_over_2_5": "77% combinado — Shandong 75%, Yunnan 78%",
+        "indice_ambas_marcam": "88.5% combinado — Shandong 88%, Yunnan 89%",
+        "indice_over_ht": "83% combinado — Shandong 88%, Yunnan 78%",
+        "ponderacao_odds": "Over 2.5 a 1.36 — mercado espera jogo muito aberto, reforça o perfil de 2x2. Ambas Marcam a 1.40 confirma expectativa de gols dos dois lados.",
+        "risco_principal": "Placar exato 2x2 tem probabilidade baixa mesmo em jogos de muitos gols — odd alta compensa, mas cash-out nos placares intermediários é obrigatório.",
         "modo": "pre_jogo",
         "odd_alvo": "12.00",
         "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
@@ -237,14 +934,14 @@
         ],
         "criterios_total": 7,
         "modo": "pre_jogo",
-        "prob_1_0_estimada": "6% (média total 3.50 gols/jogo — P(1-0) muito baixa por Poisson)",
-        "ponderacao_odds": "Under 1.5 a 6.72 — mercado espera 2+ gols com altíssima convicção. Over 2.5 a 1.36 reforça. Lay 1x0 tem valor claro.",
-        "risco_principal": "Shandong pode abrir 1-0 e Yunnan não conseguir empatar, especialmente se Maritu for contido.",
+        "prob_1_0_estimada": "7% (média total 3.92 gols/jogo — P(1-0) muito baixa via Poisson)",
+        "ponderacao_odds": "Under 1.5 a 7.16 — mercado NÃO espera jogo magro; Over 2.5 a 1.36 reforça perfil de muitos gols. Lay 1x0 muito bem suportado.",
+        "risco_principal": "Shandong pode abrir 1-0 e Yunnan não conseguir empatar — risco de placar exato 1-0 se Yunnan jogar retrancado fora.",
         "visitante_over_0_5": "89% (Yunnan marca em 89% dos jogos)",
         "visitante_marca_pct": "89%",
-        "media_gols_total": "3.50",
-        "btts_medio": "89%",
-        "razao": "Média de 3.50 gols/jogo torna 1x0 estatisticamente improvável (~6%). Yunnan marca em 89% dos jogos, BTTS em 89%. Under 1.5 a 6.72 confirma que mercado não espera jogo magro.",
+        "media_gols_total": "3.92",
+        "btts_medio": "88.5%",
+        "razao": "Média de 3.92 gols/jogo, Yunnan marca em 89% dos jogos, BTTS em 88.5% — perfil de jogo com muitos gols torna o 1x0 exato extremamente improvável",
         "odd_alvo": "10.50",
         "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
         "stake_recomendada": "2%"
@@ -262,272 +959,281 @@
         ],
         "criterios_total": 7,
         "modo": "pre_jogo",
-        "prob_0_1_estimada": "5% (média total 3.50 gols/jogo — P(0-1) muito baixa por Poisson)",
-        "ponderacao_odds": "Under 1.5 a 6.72 — mercado espera jogo de muitos gols. Shandong marca em 100% dos jogos em casa. Lay 0x1 tem valor claro.",
-        "risco_principal": "Yunnan pode surpreender com gol único de Maritu e Shandong não conseguir empatar — como ocorreu no H2H de março (4-0 para Yunnan).",
-        "mandante_over_0_5": "100% (Shandong marca em 100% dos jogos)",
+        "prob_0_1_estimada": "5% (média total 3.92 gols/jogo — P(0-1) muito baixa via Poisson)",
+        "ponderacao_odds": "Under 1.5 a 7.16 — mercado não espera jogo de 1 gol; Shandong marca em 100% dos jogos recentes. Lay 0x1 muito bem suportado.",
+        "risco_principal": "Yunnan pode surpreender e vencer por 0-1 se Shandong tiver dia ruim ofensivamente — risco real dado o 4-0 no H2H direto.",
+        "mandante_over_0_5": "100% (Shandong marca em 100% dos jogos recentes)",
         "mandante_marca_pct": "100%",
-        "media_gols_total": "3.50",
-        "btts_medio": "89%",
-        "razao": "Shandong marca em 100% dos jogos, média total 3.50 gols/jogo. P(0-1) estimada em ~5%. Under 1.5 a 6.72 confirma que mercado não espera jogo de 1 gol.",
+        "media_gols_total": "3.92",
+        "btts_medio": "88.5%",
+        "razao": "Shandong marca em 100% dos jogos, média de 3.92 gols/jogo e BTTS em 88.5% — placar exato 0x1 é extremamente improvável neste contexto",
         "odd_alvo": "11.00",
         "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
         "stake_recomendada": "2%"
       },
       "confirmacao_visual": {
         "aplicavel": true,
-        "perfil_tatico": "Jogo aberto com ambos os times buscando o ataque — Shandong com posse alta (54%) e Yunnan com transições rápidas via Maritu e Ioniță",
-        "gatilhos_aceleracao": "Shandong pressionando alto após 60min, Yunnan subindo linhas para buscar resultado",
-        "alerta_armadilha": "Jogo travado por expulsão ou placar de goleada antes dos 65min inviabiliza Over Limite",
+        "perfil_tatico": "Jogo aberto com ambos os times buscando gol — Shandong ofensivo em casa, Yunnan com ataque forte (Oscar Taty 12 gols)",
+        "gatilhos_aceleracao": "Shandong pressionando alto após 60min, Yunnan buscando empate ou virada com linhas subidas",
+        "alerta_armadilha": "Se Yunnan abrir 2-0 antes dos 60min, jogo pode travar — não entrar no Over Limite",
         "mercado_recomendado": "Over Limite (+1 gol) ao vivo após 65min",
-        "momento_observacao": "65-75min — janela de pico de gols de Shandong (33% dos gols marcados nessa faixa)"
+        "momento_observacao": "65-75min"
       },
-      "_ev_pct": 20,
-      "_ev_odd": 1.56,
+      "_ev_pct": 15,
+      "_ev_odd": 1.98,
       "_ev_base": "minima"
     },
     {
-      "horario": "20:00",
-      "liga": "Brazil Serie B",
-      "jogo": "Sport Recife x Botafogo SP",
+      "horario": "15:45",
+      "liga": "Republic of Ireland First Division",
+      "jogo": "Bray Wanderers x UCD",
       "metodos_aplicados": [
-        "back_favorito",
-        "lay_zebra",
-        "over_limite_70"
+        "over_limite_70",
+        "back_2x2"
       ],
-      "mercado_principal": "Vitória Sport Recife",
-      "probabilidade_estimada": "65%",
-      "fair_odd": "1.54",
-      "odd_minima_entrada": "1.72",
-      "media_gols_casa": "1.38",
-      "media_gols_fora": "0.50",
+      "mercado_principal": "Over Limite (+1 gol) ao vivo após 65min",
+      "probabilidade_estimada": "58% (jogo aberto, Bray leve favorito em casa com odd 2.25 vs UCD 2.70)",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.98",
+      "media_gols_casa": "2.45",
+      "media_gols_fora": "1.64",
       "odds_mercado": {
-        "casa": "1.75",
-        "empate": "3.40",
-        "fora": "5.00",
-        "dupla_chance_1x": "1.17",
-        "dupla_chance_12": "1.30",
-        "dupla_chance_x2": "1.91",
-        "over_05": "1.06",
-        "under_05": "8.50",
-        "over_15": "1.39",
-        "under_15": "2.97",
-        "over_25": "2.20",
-        "under_25": "1.65"
+        "casa": "2.25",
+        "empate": "3.30",
+        "fora": "2.70",
+        "dupla_chance_1x": "1.40",
+        "dupla_chance_12": "1.22",
+        "dupla_chance_x2": "1.53",
+        "over_05": "1.01",
+        "under_05": "13.00",
+        "over_15": "1.17",
+        "under_15": "4.93",
+        "over_25": "1.61",
+        "under_25": "2.25"
       },
       "h2h_odds": {
-        "resumo_favorito_casa": "Super Fav: dados parciais | Favorito: 12V 9E 6D +0.4U (geral do Sport nos últimos jogos com odds variadas)",
-        "resumo_favorito_fora": "Botafogo SP como visitante: 3V 1E 4D nos últimos 8 jogos fora (AVA V, CRB D, CEA V, OP V, VN D, PP E, AC D, GOI D)",
-        "leitura": "Sport tem retrospecto positivo geral (12V 9E 6D) mas com resultados recentes mistos como favorito. Botafogo SP fora de casa venceu apenas 3 dos últimos 8 jogos como visitante, com 4 derrotas.",
+        "resumo_favorito_casa": "Super Fav / Favorito / Parelho: 9V 7E 6D -3.3U (dados gerais do H2H de Bray como mandante)",
+        "resumo_favorito_fora": "null",
+        "leitura": "Bray tem retrospecto positivo em casa mas com saldo de unidades negativo (-3.3U), indicando que o mercado frequentemente superestima o favoritismo. O confronto direto mais recente (15/05) terminou 3-4 para Bray fora, mostrando jogo aberto entre os dois.",
         "jogos_relevantes": [
           {
-            "data": "04/07/26",
-            "confronto": "Criciúma x Sport Recife",
-            "time_analisado": "Sport Recife",
+            "data": "15/05/26",
+            "confronto": "UCD x Bray Wanderers",
+            "time_analisado": "Bray Wanderers",
             "papel": "zebra",
-            "odd": "4.50",
-            "placar": "1-0",
-            "resultado": "D",
+            "odd": "3.00",
+            "placar": "3-4",
+            "resultado": "V",
             "marcou_primeiro": false,
             "gol_1t": false,
-            "gol_2t": false,
+            "gol_2t": true,
             "nao_sofreu": false
           },
           {
-            "data": "28/06/26",
-            "confronto": "Fortaleza x Sport Recife",
-            "time_analisado": "Sport Recife",
-            "papel": "zebra",
-            "odd": "4.50",
+            "data": "13/03/26",
+            "confronto": "Bray Wanderers x UCD",
+            "time_analisado": "Bray Wanderers",
+            "papel": "favorito",
+            "odd": "2.35",
             "placar": "2-1",
-            "resultado": "D",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "03/07/26",
+            "confronto": "Bray Wanderers x Athlone Town",
+            "time_analisado": "Bray Wanderers",
+            "papel": "favorito",
+            "odd": "1.66",
+            "placar": "1-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
+          },
+          {
+            "data": "19/06/26",
+            "confronto": "Bray Wanderers x Longford Town",
+            "time_analisado": "Bray Wanderers",
+            "papel": "favorito",
+            "odd": "1.61",
+            "placar": "5-2",
+            "resultado": "V",
             "marcou_primeiro": false,
             "gol_1t": false,
             "gol_2t": false,
             "nao_sofreu": false
           },
           {
-            "data": "30/05/26",
-            "confronto": "Sport Recife x Náutico",
-            "time_analisado": "Sport Recife",
-            "papel": "favorito",
-            "odd": "2.40",
-            "placar": "2-0",
-            "resultado": "V",
-            "marcou_primeiro": true,
-            "gol_1t": false,
-            "gol_2t": true,
-            "nao_sofreu": true
-          },
-          {
-            "data": "27/05/26",
-            "confronto": "Sport Recife x Fortaleza",
-            "time_analisado": "Sport Recife",
+            "data": "29/05/26",
+            "confronto": "Bray Wanderers x Wexford",
+            "time_analisado": "Bray Wanderers",
             "papel": "parelho",
-            "odd": "2.80",
-            "placar": "0-2",
-            "resultado": "D",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "10/06/26",
-            "confronto": "Sport Recife x Athletic Club",
-            "time_analisado": "Sport Recife",
-            "papel": "favorito",
-            "odd": "1.95",
-            "placar": "1-1",
-            "resultado": "E",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "03/05/26",
-            "confronto": "Sport Recife x Ceará",
-            "time_analisado": "Sport Recife",
-            "papel": "favorito",
-            "odd": "2.20",
-            "placar": "2-0",
+            "odd": "2.05",
+            "placar": "4-0",
             "resultado": "V",
-            "marcou_primeiro": true,
+            "marcou_primeiro": false,
             "gol_1t": false,
-            "gol_2t": true,
+            "gol_2t": false,
             "nao_sofreu": true
+          },
+          {
+            "data": "08/05/26",
+            "confronto": "Bray Wanderers x Cobh Ramblers",
+            "time_analisado": "Bray Wanderers",
+            "papel": "favorito",
+            "odd": "1.65",
+            "placar": "5-1",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
           }
         ]
       },
       "alerta_odds": {
         "tipo": "neutro",
-        "time": "Sport Recife",
-        "texto": "Sport como favorito (odds ~1.75-2.40): histórico dividido — venceu Náutico (2-0) e Ceará (2-0), mas empatou com Athletic (1-1) e perdeu para Fortaleza (0-2). Amostra recente não é dominante."
+        "time": "Bray Wanderers",
+        "texto": "Bray como favorito/parelho (odd ~2.05-2.35) tem resultados mistos: venceu confronto direto 2-1 em março mas o H2H geral mostra -3.3U — mercado frequentemente superestima o mandante."
       },
       "jogadores": {
         "destaques_casa": [
-          "Pedro Henrique Perotti — artilheiro com 7 gols em 15 jogos",
-          "Chrystian Barletta — 6 gols e 3 assistências, referência ofensiva",
-          "Andre Felipe de Almeida — 1 gol e 2 assistências, criação"
+          "Ben McCormack — artilheiro com 9 gols em 18 jogos, referência ofensiva",
+          "Daniel Ring — 7 gols em 21 jogos, produtivo no meio",
+          "Tyreik Sammy — 5 gols, atacante de referência"
         ],
         "destaques_fora": [
-          "Everton Morelli Casemiro — artilheiro do Botafogo SP com 7 gols em 15 jogos",
-          "Rafael Gustavo Meneghel Gava — 1 gol e 4 assistências, principal criador",
-          "Hygor Cleber Garcia Silva — 5 gols em 11 jogos, atacante decisivo"
+          "Ciaran Behan — artilheiro do UCD com 9 gols e 1 assist em 18 jogos",
+          "Hugh Smith — 6 gols e 1 assist em 20 jogos",
+          "Louis Dignam — 4 gols e 1 assist em 15 jogos"
         ],
         "titulares_casa": null,
         "titulares_fora": null,
         "ausencias_impacto": []
       },
-      "explicacao_curta": "Sport em casa (8º, 25pts) contra Botafogo SP (14º, 19pts) com aproveitamento de 25% fora. Odd 1.75 confirma favoritismo e Sport marca 36% dos gols na reta final (76-90min).",
+      "explicacao_curta": "Jogo com média combinada de 4.09 gols/partida, Over 2.5 em 73% dos jogos de Bray e 73% do UCD. Ambos os times marcam e sofrem gols na reta final — perfil ideal para Over Limite e Back 2x2.",
       "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Prob. 65% → fair 1.54; odd de mercado 1.75 está acima da mínima de 1.72 — EV positivo confirmado.",
-      "mercado_secundario": "Lay Botafogo SP",
-      "odd_minima_secundaria": "4.00",
-      "desempenho_1t": "Sport marca 0.38 gols/jogo no 1ºT; Botafogo SP marca 0.13 gols/jogo no 1ºT como visitante",
-      "desempenho_2t": "Sport marca 1.00 gol/jogo no 2ºT; 36% dos gols do Sport ocorrem entre 76-90min",
+      "valor_esperado": "Over Limite: mercado espera jogo de gols (Over 2.5 a 1.61); média combinada 4.09 gols/jogo reforça entrada ao vivo após 65min. Back 2x2: odd ~12.00 com Over 2.5 em 73% e BTTS em 82%/64% — valor claro.",
+      "mercado_secundario": "Back 2x2 (placar exato 2x2)",
+      "odd_minima_secundaria": "10.00",
+      "desempenho_1t": "Bray marca 0.73 gols/1ºT; UCD marca 0.91 gols/1ºT (dados por tempo)",
+      "desempenho_2t": "Bray marca 0.73 gols/2ºT; UCD sofre 0.64 gols/2ºT — ambos ativos na etapa final",
       "contexto_times": {
         "casa": {
-          "posicao": "",
-          "posicao_geral": "8º",
-          "objetivo": "sul_americana"
+          "posicao": "3º",
+          "posicao_geral": "3º",
+          "objetivo": "libertadores"
         },
         "fora": {
-          "posicao": "",
-          "posicao_geral": "14º",
-          "objetivo": "meio_tabela"
+          "posicao": "2º",
+          "posicao_geral": "2º",
+          "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Sport Recife está em 8º lugar com 25 pontos, brigando por posição na zona de classificação para Sul-Americana. Botafogo SP está em 14º com 19 pontos, sem objetivo imediato relevante. Sport em casa tem aproveitamento de 38% de vitórias nos últimos 8 jogos gerais, mas como mandante tem vantagem clara de mando. Botafogo SP fora venceu apenas 25% dos últimos 8 jogos como visitante (2V 1E 5D: AVA V, CRB D, CEA V, OP V, VN D, PP E, AC D, GOI D — 3V 1E 4D). Sport tem artilheiros em forma: Perotti (7 gols) e Barletta (6 gols). Botafogo SP sofre 0.75 gols/jogo fora. Tabela de gols mostra Sport marcando 36% dos seus gols entre 76-90min — padrão de gols tardios favorável ao Over Limite.",
-      "coeficiente_regularidade": "Sport: aproveitamento 63% em casa (estimado) / Botafogo SP: aproveitamento 25% fora",
-      "mando_de_campo": "Sport marca 1.38 gols/jogo em casa; Botafogo SP sofre 0.75 gols/jogo fora",
+      "motivacao_tecnica": "UCD é 2º colocado com 36 pontos, brigando pela liderança (Cork City tem 54). Bray é 3º com 34 pontos. Ambos têm motivação real — UCD quer manter 2º lugar e Bray quer pressionar. Jogo entre times com objetivos claros favorece intensidade e gols. Média combinada de 4.09 gols/jogo (Bray 2.45 + UCD 1.64 como visitante). Over 2.5 em 73% dos jogos de ambos. BTTS em 82% dos jogos de Bray em casa e 64% do UCD fora.",
+      "coeficiente_regularidade": "Bray: alto volume ofensivo (2.45 gols/jogo em casa) / UCD: consistente ofensivamente (1.64 gols/jogo fora)",
+      "mando_de_campo": "Bray vence 64% dos jogos em casa; UCD vence 36% fora — equilíbrio relativo",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "Sem informações de desfalques específicos no material",
-      "especificidades_gols": "Sport concentra 36% dos gols marcados na faixa 76-90min. Botafogo SP marca apenas 0.50 gols/jogo fora.",
-      "momento_gols": "Sport: 36% dos gols marcados entre 76-90min (4 gols nessa faixa). Botafogo SP sofrido: 33% entre 61-75min como visitante.",
-      "jogadores_chave": "Perotti (7G), Barletta (6G+3A) pelo Sport; Everton Casemiro (7G), Hygor (5G) pelo Botafogo SP",
-      "placares_provaveis": "1x0, 2x0, 2x1",
-      "momento_entrada": "Pré-jogo ou ao vivo após confirmação de domínio do Sport nos primeiros 15min",
-      "situacao_saida": "Cash-out parcial se Botafogo SP marcar primeiro; manter se Sport abrir placar",
-      "stake_recomendada": "2%",
+      "desfalques_chave": "elenco completo (sem ausências identificadas no PDF)",
+      "especificidades_gols": "Bray marca muito no 2ºT (22% dos gols entre 61-75 e 22% entre 76-90). UCD sofre 31% dos gols entre 76-90 como visitante — janela final é quente.",
+      "momento_gols": "Bray: 22% dos gols marcados entre 61-75 e 22% entre 76-90. UCD sofrido: 25% entre 61-75 e 31% entre 76-90 — forte concentração de gols na reta final.",
+      "jogadores_chave": "Ben McCormack (9 gols, Bray) e Ciaran Behan (9 gols, UCD) — duelo de artilheiros decisivos",
+      "placares_provaveis": "2x1, 3x2, 2x2, 3x1",
+      "momento_entrada": "Over Limite: ao vivo após 65min. Back 2x2: pré-jogo.",
+      "situacao_saida": "Over Limite: não entrar se 0x0, goleada consolidada ou expulsão. Back 2x2: cash-out total em 1x1; parcial em 2x1 ou 1x2.",
+      "stake_recomendada": "1% (Over Limite) / 0.5% (Back 2x2)",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Odd 1.75 está marginalmente acima da mínima (1.72) — EV positivo mas estreito. Ao vivo permite confirmar domínio do Sport antes de entrar.",
-        "gatilho_saida_parcial": "Botafogo SP marcar primeiro ou Sport não criar chances nos primeiros 20min",
-        "hard_stop": "Saída total se Botafogo SP abrir 2-0 ou Sport tiver expulsão"
+        "justificativa_abordagem": "Jogo equilibrado nas odds (2.25 vs 2.70) — aguardar desenvolvimento ao vivo para Over Limite. Back 2x2 entra pré-jogo aproveitando odd alta.",
+        "gatilho_saida_parcial": "Back 2x2: cash-out parcial ao chegar em 2x1 ou 1x2. Over Limite: sair se expulsão ou goleada consolidada.",
+        "hard_stop": "Over Limite: não entrar após 75min ou se placar tiver 3+ gols de diferença. Back 2x2: cash-out total obrigatório em 1x1."
       },
-      "back_favorito": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "prob_vitoria_>=65",
-          "odd_favorito_<=1.80",
-          "mando_ou_superioridade",
-          "adversario_ma_fase",
-          "ev_positivo"
-        ],
-        "criterios_total": 8,
-        "modo": "ao_vivo",
-        "favorito": "Sport Recife",
-        "odd_alvo": "1.75",
-        "razao": "Sport em casa (8º) contra Botafogo SP (14º) com apenas 25% de aproveitamento fora. Odd 1.75 confirma favoritismo e está acima da fair odd de 1.54.",
-        "ponderacao_odds": "Odd 1.75 real confirma favoritismo; Botafogo SP venceu apenas 3 dos últimos 8 como visitante — reforça o back. H2H mostra Sport entregando vitórias como favorito em casa (2-0 vs Náutico, 2-0 vs Ceará).",
-        "risco_principal": "Sport tem histórico recente de empates em casa (1-1 vs Athletic, 1-1 vs Atlético GO) — risco de não converter domínio em vitória.",
-        "stake_recomendada": "2%"
-      },
-      "lay_zebra": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "odd_zebra_>=5.00",
-          "prob_zebra_<=20",
-          "zebra_ma_fase",
-          "favorito_consistente"
-        ],
-        "criterios_total": 7,
-        "modo": "ao_vivo",
-        "zebra": "Botafogo SP",
-        "favorito_do_jogo": "Sport Recife",
-        "ponderacao_odds": "Odd 5.00 do Botafogo SP confirma zebra de mercado. Botafogo SP venceu apenas 25% dos jogos fora (2V 1E 5D nos últimos 8) — lay reforçado.",
-        "risco_principal": "Botafogo SP tem Everton Casemiro (7 gols) e Hygor (5 gols) — ataque capaz de surpreender mesmo fora de casa.",
-        "razao": "Botafogo SP fora de casa com aproveitamento de 25% (2V 1E 5D nos últimos 8 jogos), sofre gols em 75% dos jogos como visitante. Odd 5.00 confirma zebra. Lay ganha se Sport vencer ou empatar.",
-        "gatilho_ao_vivo": "Lay após Botafogo SP marcar primeiro (odd inflará ainda mais) ou entrar pré-jogo aproveitando odd 5.00",
-        "stake_recomendada": "2%"
-      },
+      "back_favorito": null,
+      "lay_zebra": null,
       "over_limite_70": {
         "aplicavel": true,
         "criterios_atendidos": [
           "momento_gols_final",
+          "media_gols_>=2.4",
+          "mercado_espera_gols",
           "motivacao"
         ],
         "criterios_total": 5,
         "modo": "ao_vivo",
-        "favorito_ou_motivacao": "Sport Recife — brigando por posição na tabela (8º, zona de classificação continental)",
-        "indices_gols_faixas": "Sport Marcado 76-90: 36% (4 gols de 11 totais) | Sport Marcado 61-75: 9% | Botafogo SP Sofrido 61-75: 33% (como visitante) | Botafogo SP Sofrido 76-90: 17%",
-        "qual_condicao_atende": "Condição: Sport Marcado 76-90 = 36% >= 25% — atende o critério principal",
-        "motivo_motivacao": "Sport em 8º brigando por vaga continental vs Botafogo SP em 14º sem objetivo claro — desequilíbrio motivacional favorece pressão do Sport no final",
-        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
-        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1 aos 65min)",
-        "ponderacao_odds": "Over 2.5 a 2.20 (mercado espera jogo de poucos gols) — odd alta para Over reduz valor, mas padrão de gols tardios do Sport (36% entre 76-90) justifica entrada ao vivo após 65min.",
-        "risco_principal": "Média total de gols baixa (2.26 combinada, com Botafogo SP marcando apenas 0.50/jogo fora) — risco de jogo travado com poucos gols.",
+        "favorito_ou_motivacao": "Bray Wanderers (mandante) — 3º lugar brigando por posição vs UCD 2º lugar brigando pelo vice",
+        "indices_gols_faixas": "Bray Marcado 61-75: 22% | Bray Marcado 76-90: 22% | UCD Sofrido 61-75: 25% | UCD Sofrido 76-90: 31%",
+        "qual_condicao_atende": "Todas as 4 condições atendem: Bray Marcado 61-75=22% (abaixo de 25%), Bray Marcado 76-90=22% (abaixo de 25%), UCD Sofrido 61-75=25% (atinge exatamente 25%), UCD Sofrido 76-90=31% (acima de 25%) — condição d atendida com 31%",
+        "motivo_motivacao": "UCD 2º colocado (36pts) e Bray 3º (34pts) — ambos com objetivos claros na tabela, jogo de alta intensidade esperado",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = total de gols no placar + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar ao vivo após 65min)",
+        "ponderacao_odds": "Over 2.5 a 1.61 — mercado confirma expectativa de jogo aberto. UCD sofre 31% dos gols entre 76-90 como visitante, reforçando entrada tardia.",
+        "risco_principal": "Jogo pode ser decidido cedo com goleada consolidada, inviabilizando a entrada ao vivo.",
         "odd_esperada": "1.60 a 2.20",
         "stake_recomendada": "1%",
         "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
       },
-      "back_2x2": null,
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=60",
+          "btts_>=60",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Over 2.5 em 73% dos jogos de Bray e 73% do UCD. BTTS em 82% dos jogos de Bray em casa e 64% do UCD fora (média 73%). Ambos marcam e sofrem regularmente. Média combinada de 4.09 gols/jogo. Over 2.5 a 1.61 confirma expectativa do mercado.",
+        "indice_over_2_5": "73% media — Bray 73%, UCD 73%",
+        "indice_ambas_marcam": "73% media — Bray 82%, UCD 64%",
+        "indice_over_ht": "82% media — Bray 82%, UCD 82% (Over 0.5 HT)",
+        "ponderacao_odds": "Over 2.5 a 1.61 — mercado espera jogo aberto, reforça o Back 2x2. Under 1.5 a 4.93 confirma que jogo magro é improvável.",
+        "risco_principal": "Placar exato 2x2 tem probabilidade baixa (~8-10%) mesmo em jogos de muitos gols — odd alta compensa mas exige gestão rigorosa de saída.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
       "back_goleada": null,
-      "lay_1x0": null,
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "visit_over05_>65",
+          "visit_marca_>60",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "7%",
+        "ponderacao_odds": "Under 1.5 a 4.93 — mercado não espera jogo magro, reforça lay. Porém, a odd de mercado para Lay 1x0 não foi confirmada como estando na faixa ideal (9.00-12.00) — sem dado de correct score no PDF.",
+        "risco_principal": "Sem odd de correct score disponível no PDF para confirmar faixa ideal de entrada.",
+        "visitante_over_0_5": "91%",
+        "visitante_marca_pct": "73%",
+        "media_gols_total": "4.09",
+        "btts_medio": "73%",
+        "razao": "UCD marca em 91% dos jogos fora e BTTS em 64% — muito improvável terminar 1x0. Média de 4.09 gols/jogo torna placar magro raro.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
       "lay_0x1": null,
       "confirmacao_visual": {
         "aplicavel": true,
-        "perfil_tatico": "Sport deve pressionar com posse (52%) e volume de finalizações (13.38 chutes/jogo). Botafogo SP tende a retrair fora de casa.",
-        "gatilhos_aceleracao": "Sport dominando posse, criando escanteios e finalizações nos primeiros 15min",
-        "alerta_armadilha": "Botafogo SP marcando primeiro — pode mudar dinâmica e travar o jogo",
-        "mercado_recomendado": "Back Favorito (Vitória Sport) ao vivo após confirmação de domínio",
-        "momento_observacao": "Primeiros 15-20 minutos de jogo"
+        "perfil_tatico": "Jogo aberto entre dois times ofensivos — esperar pressão alta de ambos os lados na reta final",
+        "gatilhos_aceleracao": "Bray pressionando com McCormack e Ring; UCD com Behan e Smith buscando gol fora",
+        "alerta_armadilha": "Evitar Over Limite se jogo travar após expulsão ou se um time abrir 3+ gols de vantagem",
+        "mercado_recomendado": "Mais X.5 gols ao vivo após 65min",
+        "momento_observacao": "65-75min — janela ideal de entrada"
       },
-      "_ev_pct": 14,
-      "_ev_odd": 1.75,
-      "_ev_base": "mercado"
+      "_ev_pct": 15,
+      "_ev_odd": 1.98,
+      "_ev_base": "minima"
     },
     {
       "horario": "19:00",
@@ -548,19 +1254,19 @@
         "empate": "3.20",
         "fora": "4.75",
         "dupla_chance_1x": "1.17",
-        "dupla_chance_12": "1.33",
-        "dupla_chance_x2": "1.91",
-        "over_05": "1.10",
-        "under_05": "6.82",
-        "over_15": "1.48",
-        "under_15": "2.68",
-        "over_25": "2.40",
-        "under_25": "1.53"
+        "dupla_chance_12": "1.30",
+        "dupla_chance_x2": "2.00",
+        "over_05": "1.11",
+        "under_05": "7.17",
+        "over_15": "1.50",
+        "under_15": "2.67",
+        "over_25": "2.50",
+        "under_25": "1.50"
       },
       "h2h_odds": {
-        "resumo_favorito_casa": "Super Fav + Favorito + Parelho: 10V 6E 5D +0.4U (historico geral do Juventude como mandante no H2H)",
-        "resumo_favorito_fora": null,
-        "leitura": "Juventude tem retrospecto positivo como mandante (10V 6E 5D), mas a odd 1.83 indica favoritismo moderado. Vila Nova chega como 2º colocado na tabela geral, o que contrasta com a odd de zebra 4.75.",
+        "resumo_favorito_casa": "Super Fav + Favorito + Parelho: 10V 6E 5D +0.4U (dados combinados do H2H geral)",
+        "resumo_favorito_fora": "null",
+        "leitura": "Juventude tem saldo positivo no H2H geral (10V 6E 5D), mas como favorito a 1.83 perdeu para Sport Recife (0-1) e empatou com Novorizontino (0-0) e Criciuma (0-0) recentemente. Historico misto nessa faixa de odd.",
         "jogos_relevantes": [
           {
             "data": "28/06/26",
@@ -628,49 +1334,49 @@
             "nao_sofreu": true
           },
           {
-            "data": "11/04/26",
-            "confronto": "Juventude x Goiás",
+            "data": "31/03/26",
+            "confronto": "Juventude x Novorizontino",
             "time_analisado": "Juventude",
             "papel": "favorito",
-            "odd": "2.25",
-            "placar": "2-0",
-            "resultado": "V",
-            "marcou_primeiro": true,
-            "gol_1t": true,
-            "gol_2t": true,
-            "nao_sofreu": true
+            "odd": "2.10",
+            "placar": "0-0",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
           }
         ]
       },
       "alerta_odds": {
-        "tipo": "positivo",
+        "tipo": "neutro",
         "time": "Juventude",
-        "texto": "Juventude entrega como favorito em casa: venceu por 2-0 e 3-0 quando cotado a 1.83 e 1.95 recentemente — retrospecto reforça a entrada."
+        "texto": "Juventude cotado a 1.83 hoje: historico misto nessa faixa — venceu Ceará (2-0) e Londrina (1-0), mas perdeu para Sport (0-1) e empatou com Novorizontino (0-0). Entrega inconsistente como favorito moderado."
       },
       "jogadores": {
         "destaques_casa": [
           "Rai da Silva Pessanha — 3 gols e 1 assist em 16 jogos, referencia ofensiva",
-          "Alisson Pelegrini Safira — 3 gols e 1 assist em 15 jogos, atacante decisivo",
-          "Marcos Paulo Costa do Nascimento — 3 gols em 12 jogos, produtivo",
+          "Alisson Pelegrini Safira — 3 gols e 1 assist em 15 jogos, finalizador",
+          "Marcos Paulo Costa do Nascimento — 3 gols em 12 jogos, atacante produtivo",
           "Alan Kardec — 2 gols e 1 assist, referencia de area"
         ],
         "destaques_fora": [
-          "Janderson Santos de Souza — 5 gols e 4 assists em 15 jogos, principal criador e finalizador",
-          "Ryan Aparecido Lima Cassiano — 4 gols e 2 assists em 15 jogos, atacante produtivo",
-          "Marcos Gabriel do Nascimento — 2 gols e 4 assists, meia criativo",
-          "André Luis da Costa Alfredo — 3 gols em 9 jogos, eficiente"
+          "Janderson Santos de Souza — 5 gols e 4 assists em 15 jogos, principal criador e artilheiro",
+          "Ryan Aparecido Lima Cassiano — 4 gols e 2 assists em 15 jogos, atacante decisivo",
+          "Marcos Gabriel do Nascimento — 2 gols e 4 assists em 13 jogos, meia criativo",
+          "André Luis da Costa Alfredo — 3 gols em 9 jogos, finalizador eficiente"
         ],
         "titulares_casa": null,
         "titulares_fora": null,
         "ausencias_impacto": []
       },
-      "explicacao_curta": "Juventude em casa (6º geral) contra Vila Nova (2º geral mas zebra a 4.75). Mandante com 63% de aproveitamento em casa e defesa sólida (0.13 gols sofridos/jogo em casa).",
+      "explicacao_curta": "Juventude 6º na Serie B recebe Vila Nova 2º, mas visitante fora de casa tem aproveitamento de 38% e sofre 1.13 gols/jogo. Odd 1.83 acima da fair estimada de 1.61.",
       "alerta_geral": null,
-      "valor_esperado": "Prob. 62% → fair 1.61; odd de mercado 1.83 supera a mínima de 1.80 — EV positivo confirmado.",
-      "mercado_secundario": "Lay Vila Nova",
-      "odd_minima_secundaria": "4.50",
-      "desempenho_1t": "Juventude marca 0.88 gols/jogo no 1ºT em casa; 63% dos jogos tem gol no 1ºT",
-      "desempenho_2t": "Vila Nova sofre 0.50 gols/jogo no 2ºT fora; Juventude marca 0.38 no 2ºT em casa",
+      "valor_esperado": "Prob. 62% → fair 1.61; com margem de segurança de ~12%, minimo aceitavel 1.80. Odd de mercado 1.83 esta exatamente no limiar — entrada com EV positivo marginal.",
+      "mercado_secundario": "Lay Vila Nova (Lay Zebra)",
+      "odd_minima_secundaria": "5.00",
+      "desempenho_1t": "Juventude marca 0.88 gols/jogo no 1T em casa; 63% dos jogos tem gol no 1T",
+      "desempenho_2t": "Vila Nova sofre 0.50 gols/jogo no 2T fora; Juventude marca 0.75 gols/jogo no 2T",
       "contexto_times": {
         "casa": {
           "posicao": "",
@@ -683,23 +1389,23 @@
           "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Juventude é 6º colocado com 26 pontos e briga por posição de acesso/Libertadores. Vila Nova é surpreendente 2º colocado (31 pontos), o que torna a odd 4.75 questionável — o mercado pode estar subestimando o visitante. Porém, como MANDANTE, Juventude tem aproveitamento de 63% (5V 1E 2D em 8 jogos em casa), defesa muito sólida (apenas 1 gol sofrido em 8 jogos em casa, 0.13/jogo) e ataque eficiente (11 gols em casa, 1.38/jogo). Vila Nova FORA tem aproveitamento de 38% (3V 1E 4D em 8 jogos), sofrendo 1.13 gols/jogo como visitante. O mando de campo é fator decisivo aqui.",
-      "coeficiente_regularidade": "Casa: aproveitamento consistente 63% / Visitante: irregular fora (38%)",
-      "mando_de_campo": "Juventude faz 63% dos resultados positivos em casa; defesa com apenas 1 gol sofrido em 8 jogos",
+      "motivacao_tecnica": "Juventude 6º com 26 pontos busca aproximar-se do G4. Vila Nova 2º com 31 pontos briga pelo titulo — alta motivacao dos dois lados. Porem Vila Nova fora de casa tem aproveitamento de apenas 38% (3V 3E 2D nos ultimos 8 jogos fora), sofre 1.13 gols/jogo como visitante. Juventude em casa venceu 63% dos jogos recentes, com defesa solida (0.13 gols sofridos/jogo em casa). Favoritismo moderado confirmado pela odd 1.83.",
+      "coeficiente_regularidade": "Casa: aproveitamento 63% em casa — moderadamente regular / Visitante: 38% fora — irregular",
+      "mando_de_campo": "Juventude venceu 63% dos jogos em casa nos ultimos 8, sofrendo apenas 1 gol no total (0.13/jogo)",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "Nenhuma ausência de impacto identificada no PDF para ambos os times",
-      "especificidades_gols": "Juventude marca concentrado no 1ºT (7 gols no 1ºT vs 4 no 2ºT em casa). Vila Nova tem ataque produtivo fora (9 gols em 8 jogos) mas defesa vazada (9 sofridos)",
-      "momento_gols": "Juventude: pico de gols marcados em 31-45min (27%) e 0-15/16-30 (18% cada). Vila Nova sofrido: pico em 76-90 (44%) e 31-45/0-15 (22% cada)",
-      "jogadores_chave": "Janderson (5G+4A) e Ryan (4G+2A) pelo Vila Nova; Rai (3G), Alisson (3G) e Marcos Paulo (3G) pelo Juventude",
-      "placares_provaveis": "1x0, 2x0, 2x1",
-      "momento_entrada": "Pre-jogo (odd 1.83 ja acima da minima 1.80) OU ao vivo apos confirmar dominio do Juventude nos primeiros 15min",
-      "situacao_saida": "Cash-out parcial se Vila Nova marcar primeiro; manter se Juventude abrir 2-0",
+      "desfalques_chave": "Nenhuma ausencia de impacto identificada no PDF",
+      "especificidades_gols": "Juventude marca cedo (27% dos gols entre 31-45min em casa). Vila Nova marca mais no 2T fora (44% dos gols entre 76-90min)",
+      "momento_gols": "Juventude: concentracao de gols no 1T (0-45min, 63% dos gols). Vila Nova fora: pico tardio 76-90min (44% dos gols sofridos nessa faixa)",
+      "jogadores_chave": "Janderson (5G+4A) e Ryan (4G+2A) sao as principais ameacas do Vila Nova. Rai, Alisson e Marcos Paulo sao os decisores do Juventude",
+      "placares_provaveis": "1-0, 2-0, 2-1",
+      "momento_entrada": "Ao vivo apos confirmar dominio do Juventude nos primeiros 15min",
+      "situacao_saida": "Cash-out parcial se Vila Nova marcar primeiro; saida total se placar 0-1 apos 60min",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Odd 1.83 esta no limite minimo aceitavel (1.80); ao vivo pode oferecer melhor valor apos confirmar dominio tatico do Juventude",
-        "gatilho_saida_parcial": "Vila Nova marcar primeiro ou Juventude levar cartao vermelho",
-        "hard_stop": "Saida total se Vila Nova abrir 2-0 ou jogo chegar ao intervalo 0-0 sem dominio claro do Juventude"
+        "justificativa_abordagem": "Favoritismo moderado (1.83) com Vila Nova brigando pelo titulo — motivacao alta do visitante aumenta risco. Aguardar confirmacao tatica ao vivo reduz exposicao.",
+        "gatilho_saida_parcial": "Vila Nova marca primeiro OU Juventude nao cria chances claras nos primeiros 20min",
+        "hard_stop": "Saida total se placar 0-1 ou expulsao de jogador do Juventude"
       },
       "back_favorito": {
         "aplicavel": true,
@@ -708,22 +1414,22 @@
           "odd_favorito_<=1.80",
           "mando_ou_superioridade",
           "adversario_ma_fase",
-          "elenco_completo",
           "ev_positivo"
         ],
         "criterios_total": 8,
         "modo": "ao_vivo",
         "favorito": "Juventude",
         "odd_alvo": "1.83",
-        "razao": "Juventude em casa com 63% de aproveitamento e defesa solida (0.13 gols sofridos/jogo). Vila Nova tem apenas 38% de aproveitamento fora e sofre 1.13 gols/jogo como visitante.",
-        "ponderacao_odds": "Odd 1.83 confirma favoritismo moderado e supera a fair odd de 1.61. Historico como favorito em casa: 4V nos ultimos 5 jogos como mandante favorito — entrega. Porem Vila Nova e 2º na tabela geral, o que justifica modo ao_vivo para confirmar dominio.",
-        "risco_principal": "Vila Nova e 2º colocado na tabela geral com ataque produtivo (Janderson 5G+4A) — pode surpreender mesmo fora de casa.",
+        "razao": "Juventude em casa com 63% de aproveitamento, defesa solida (0.13 gols sofridos/jogo). Vila Nova fora tem apenas 38% de aproveitamento nos ultimos 8 jogos como visitante.",
+        "ponderacao_odds": "Odd 1.83 confirma favoritismo moderado e esta acima da fair 1.61. H2H mostra Juventude entregando como favorito em jogos similares (2-0 vs Ceara, 1-0 vs Londrina), mas com tropecos pontuais (0-1 vs Sport). Modo ao_vivo para confirmar dominio.",
+        "risco_principal": "Vila Nova 2º colocado brigando pelo titulo — alta motivacao do visitante pode neutralizar o mando de campo do Juventude.",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
         "aplicavel": true,
         "criterios_atendidos": [
           "odd_zebra_>=5.00",
+          "prob_zebra_<=20",
           "zebra_ma_fase",
           "favorito_consistente"
         ],
@@ -731,57 +1437,15 @@
         "modo": "ao_vivo",
         "zebra": "Vila Nova",
         "favorito_do_jogo": "Juventude",
-        "ponderacao_odds": "Odd da zebra Vila Nova e 4.75 no mercado — ligeiramente abaixo do limiar de 5.00, mas proximo. Vila Nova tem 38% de aproveitamento fora (3V 1E 4D em 8 jogos), sofrendo em 75% dos jogos como visitante.",
-        "risco_principal": "Vila Nova e 2º colocado geral com 31 pontos e ataque forte (Janderson 5G+4A) — risco real de pontuar fora.",
-        "razao": "Vila Nova tem aproveitamento de apenas 38% fora de casa, sofre gols em 75% dos jogos como visitante e enfrenta um Juventude solido em casa. Odd 4.75 proxima do limiar de 5.00.",
-        "gatilho_ao_vivo": "Lay apos Vila Nova marcar primeiro (odd da zebra inflara ainda mais, melhorando o valor do lay)",
+        "ponderacao_odds": "Vila Nova a 4.75 no mercado — ligeiramente abaixo do limiar de 5.00, mas proximo. Fora de casa tem 38% de aproveitamento e sofre 1.13 gols/jogo. Lay reforçado pelo historico ruim como visitante.",
+        "risco_principal": "Vila Nova 2º colocado com motivacao maxima pelo titulo — pode surpreender mesmo fora de casa.",
+        "razao": "Vila Nova fora de casa: 3V 3E 2D nos ultimos 8, sofre 1.13 gols/jogo como visitante. Odd 4.75 proxima do limiar de zebra. Juventude defesa solida em casa (0.13 gols sofridos/jogo).",
+        "gatilho_ao_vivo": "Lay apos Vila Nova marcar primeiro (odd sobe significativamente) ou apos 15min sem ameaca do visitante",
         "stake_recomendada": "2%"
       },
-      "over_limite_70": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 5,
-        "modo": "ao_vivo",
-        "favorito_ou_motivacao": null,
-        "indices_gols_faixas": "Juventude Marcado 61-75: 9% | 76-90: 9% | Vila Nova Sofrido 61-75: 0% | 76-90: 44%",
-        "qual_condicao_atende": "Nenhuma das 4 celulas do Juventude (mandante) atinge 25% nas faixas 61-75 ou 76-90. Vila Nova sofrido 76-90 e 44% mas refere-se ao Vila Nova como mandante, nao como visitante neste jogo.",
-        "motivo_motivacao": null,
-        "condicao_entrada": null,
-        "mercado_sugerido": null,
-        "ponderacao_odds": null,
-        "risco_principal": null,
-        "odd_esperada": null,
-        "stake_recomendada": "1%",
-        "alerta_armadilha": null
-      },
-      "back_2x2": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 6,
-        "razao": null,
-        "indice_over_2_5": null,
-        "indice_ambas_marcam": null,
-        "indice_over_ht": null,
-        "ponderacao_odds": null,
-        "risco_principal": null,
-        "modo": "pre_jogo",
-        "odd_alvo": null,
-        "regra_saida": null,
-        "stake_recomendada": "0.5%"
-      },
-      "back_goleada": {
-        "aplicavel": false,
-        "criterios_atendidos": [],
-        "criterios_total": 6,
-        "candidato": null,
-        "razao": null,
-        "modo": null,
-        "mercado_sugerido": null,
-        "ponderacao_odds": null,
-        "risco_principal": null,
-        "odd_esperada": null,
-        "stake_recomendada": "1%"
-      },
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": null,
       "lay_1x0": {
         "aplicavel": false,
         "criterios_atendidos": [
@@ -793,47 +1457,322 @@
         ],
         "criterios_total": 7,
         "modo": "pre_jogo",
-        "prob_1_0_estimada": "10%",
-        "ponderacao_odds": "Under 1.5 a 2.68 — mercado nao espera jogo magro, reforça o lay. Over 2.5 a 2.40 indica expectativa de jogo com gols. Vila Nova marca em 75% dos jogos fora (Over 0.5 gols sofridos pelo Juventude em casa: 12% apenas — defesa solida, mas Vila Nova tem ataque forte).",
-        "risco_principal": "Juventude tem defesa muito solida em casa (0.13 gols sofridos/jogo) — risco real de jogo terminar 1-0.",
+        "prob_1_0_estimada": "9%",
+        "ponderacao_odds": "Under 1.5 a 2.67 — mercado nao espera jogo magro, reforça o lay. Media total de gols 2.51 (1.38+1.13). Vila Nova marca em 75% dos jogos fora (Over 0.5 Gols Sofridos do Juventude = 13% apenas, mas Vila Nova marca em 75% dos seus jogos). Lay 1x0 reforçado.",
+        "risco_principal": "Juventude tem defesa muito solida em casa (0.13 gols sofridos/jogo) — cenario de 1-0 nao e impossivel se Vila Nova nao criar.",
         "visitante_over_0_5": "75%",
         "visitante_marca_pct": "75%",
         "media_gols_total": "2.51",
-        "btts_medio": "50%",
-        "razao": "Vila Nova marca em 75% dos jogos fora e tem ataque produtivo (Janderson 5G+4A). Media total de gols 2.51 e Under 1.5 caro (2.68) indicam jogo com mais de 1 gol — improvavel terminar exatamente 1-0.",
+        "btts_medio": "25%",
+        "razao": "Vila Nova marca em 75% dos seus jogos (Over 0.5 Gols Marcados = 75%). Media total 2.51 gols. Perfil ofensivo do Vila Nova (9 gols em 8 jogos fora) torna o 1x0 improvavel. Under 1.5 a 2.67 confirma expectativa de mais gols.",
         "odd_alvo": "10.50",
         "regra_saida": "Cash-out se 0-1, 1-1 ou apos 60min sem gol",
         "stake_recomendada": "2%",
-        "razao_reprovacao": "ambas marcam 50% (precisa >50%)"
+        "razao_reprovacao": "ambas marcam 25% (precisa >50%)"
+      },
+      "lay_0x1": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Juventude deve pressionar alto em casa buscando abrir o placar cedo (63% dos gols no 1T). Vila Nova tende a explorar contra-ataques fora de casa.",
+        "gatilhos_aceleracao": "Juventude com posse dominante, linhas altas, finalizacoes nos primeiros 15min",
+        "alerta_armadilha": "Vila Nova marcando primeiro ou Juventude recuando apos gol sofrido",
+        "mercado_recomendado": "Back Favorito (Vitoria Juventude) ao vivo",
+        "momento_observacao": "Primeiros 15-20 minutos de jogo"
+      },
+      "_ev_pct": 13,
+      "_ev_odd": 1.83,
+      "_ev_base": "mercado"
+    },
+    {
+      "horario": "15:45",
+      "liga": "Republic of Ireland First Division",
+      "jogo": "Cork City x Longford Town",
+      "metodos_aplicados": [
+        "back_goleada",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Back Goleada — Cork City marca 4+",
+      "probabilidade_estimada": "72%",
+      "fair_odd": "1.39",
+      "odd_minima_entrada": "1.53",
+      "media_gols_casa": "2.45",
+      "media_gols_fora": "0.91",
+      "odds_mercado": {
+        "casa": "1.28",
+        "empate": "5.00",
+        "fora": "7.50",
+        "dupla_chance_1x": "1.03",
+        "dupla_chance_12": "1.11",
+        "dupla_chance_x2": "3.75",
+        "over_05": "1.01",
+        "under_05": "13.00",
+        "over_15": "1.18",
+        "under_15": "4.78",
+        "over_25": "1.60",
+        "under_25": "2.30"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav / Favorito / Parelho: 17V 3E 2D +3.6U (dados gerais do H2H com odds)",
+        "resumo_favorito_fora": null,
+        "leitura": "Cork City entrega consistentemente como favorito: 17V 3E 2D em 22 jogos rastreados com odds. Histórico recente mostra vitórias por 4-0, 4-0, 3-0 e 2-0 como favorito.",
+        "jogos_relevantes": [
+          {
+            "data": "26/06/26",
+            "confronto": "Cork City x Bray Wanderers",
+            "time_analisado": "Cork City",
+            "papel": "favorito",
+            "odd": "1.50",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "19/06/26",
+            "confronto": "Cork City x Treaty United FC",
+            "time_analisado": "Cork City",
+            "papel": "super_favorito",
+            "odd": "1.27",
+            "placar": "4-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "29/05/26",
+            "confronto": "Cork City x Finn Harps",
+            "time_analisado": "Cork City",
+            "papel": "super_favorito",
+            "odd": "1.30",
+            "placar": "4-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "16/05/26",
+            "confronto": "Longford Town x Cork City",
+            "time_analisado": "Cork City",
+            "papel": "favorito",
+            "odd": "1.57",
+            "placar": "0-2",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "13/03/26",
+            "confronto": "Cork City x Longford Town",
+            "time_analisado": "Cork City",
+            "papel": "super_favorito",
+            "odd": "1.27",
+            "placar": "2-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "27/03/26",
+            "confronto": "Cork City x Athlone Town",
+            "time_analisado": "Cork City",
+            "papel": "super_favorito",
+            "odd": "1.22",
+            "placar": "4-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Cork City",
+        "texto": "Cork City entrega como super favorito: múltiplas vitórias por 4-0 e 3-0 quando cotado abaixo de 1.35 — histórico reforça goleada."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Hans Mpongo — artilheiro principal, 12 gols em 21 jogos",
+          "Ruairi Keating — 11 gols em 20 jogos, segundo artilheiro",
+          "Sean Maguire — 8 gols em 16 jogos, referência ofensiva",
+          "Conor Drinan — 4 gols, terceiro atacante relevante"
+        ],
+        "destaques_fora": [
+          "Andy Paraschiv — 4 gols em 21 jogos, referência ofensiva do Longford",
+          "Aaron Doran — 4 gols em 13 jogos, produtivo quando joga",
+          "Dean Williams — 3 gols em 21 jogos",
+          "Darragh Murtagh — 2 gols em 20 jogos"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Cork City lidera com 54pts e 2.45 gols/jogo em casa. Longford sofre 1.64 gols/jogo fora e está 5º sem objetivos. Cenário claro de goleada.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob 72% → fair 1.39; odd de mercado 1.28 está abaixo da fair — Back Favorito sem valor. Back Goleada e Over Limite são os mercados com valor real neste jogo.",
+      "mercado_secundario": "Over Limite (+1 gol) ao vivo após 65min",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": "Cork City marca 64% dos jogos no 1ºT; 7 gols marcados no 1ºT em 11 jogos",
+      "desempenho_2t": "Cork City marca em 82% dos jogos no 2ºT; 20 gols no 2ºT. Longford sofre 73% no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "1º",
+          "posicao_geral": "1º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "5º",
+          "posicao_geral": "5º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Cork City lidera a First Division com 54 pontos, 17V 3E 2D, média de 2.45 gols/jogo em casa e histórico de goleadas recentes (4-0, 4-0, 3-0). Longford Town é 5º colocado, sem objetivos claros, sofre 1.64 gols/jogo fora e perdeu 5 dos últimos 8 jogos fora. Cork City marcou 33% dos seus gols entre 76-90min, reforçando o Over Limite ao vivo.",
+      "coeficiente_regularidade": "Cork City: altamente regular (91% de vitórias em casa) / Longford: irregular fora (45% de derrotas)",
+      "mando_de_campo": "Cork City venceu 91% dos jogos em casa nesta temporada",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (sem ausências registradas no PDF)",
+      "especificidades_gols": "Cork City marca em rajadas no 2ºT (33% dos gols entre 76-90min). Longford sofre 39% dos gols entre 76-90min fora.",
+      "momento_gols": "Cork City: 76-90min = 33% dos gols marcados. Longford sofrido: 76-90min = 39% dos gols sofridos fora.",
+      "jogadores_chave": "Mpongo (12G), Keating (11G), Maguire (8G) para Cork City",
+      "placares_provaveis": "4-0, 3-0, 4-1",
+      "momento_entrada": "Back Goleada: pré-jogo. Over Limite: ao vivo após 65min. Lay Zebra: pré-jogo ou ao vivo após gol do Longford.",
+      "situacao_saida": "Back Goleada: segurar até o fim se Cork City estiver vencendo. Over Limite: entrar após 65min com placar aberto. Lay Zebra: cash-out se Longford vencer.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo extremo confirmado pelo mercado (1.28) e histórico de goleadas recentes justificam entrada no Back Goleada pré-jogo. Over Limite ao vivo é complementar.",
+        "gatilho_saida_parcial": "Se Cork City não marcar até os 60min, reduzir exposição no Back Goleada",
+        "hard_stop": "Saída total se Longford abrir 1-0 antes dos 30min"
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "prob_vitoria_>=65",
+          "mando_ou_superioridade",
+          "adversario_ma_fase",
+          "elenco_completo",
+          "geral_e_mando_alinhados"
+        ],
+        "criterios_total": 8,
+        "modo": "pre_jogo",
+        "favorito": "Cork City",
+        "odd_alvo": "1.28",
+        "razao": "Odd de mercado 1.28 está abaixo da odd mínima de entrada (1.53) — sem valor (EV negativo). Liga fora das permitidas para Back Favorito.",
+        "ponderacao_odds": "Odd 1.28 confirma favoritismo extremo mas está abaixo da fair odd estimada de 1.39 — sem valor de entrada neste mercado.",
+        "risco_principal": "Liga fora das permitidas para Back Favorito e odd sem valor (1.28 < mínimo 1.53).",
+        "stake_recomendada": "0%"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Cork City — líder absoluto brigando pelo título contra Longford sem objetivos",
+        "indices_gols_faixas": "Cork City Marcado 61-75: 15% | 76-90: 33% | Longford Sofrido 61-75: 17% | 76-90: 39%",
+        "qual_condicao_atende": "Condição d: Cork City Marcado 76-90 = 33% (acima de 25%) E Longford Sofrido 76-90 = 39% (acima de 25%)",
+        "motivo_motivacao": "Cork City briga pelo título (1º lugar, 54pts) contra Longford 5º sem objetivos — desequilíbrio técnico e motivacional claro",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1 ao entrar)",
+        "ponderacao_odds": "Over 2.5 a 1.60 — mercado espera jogo de gols. 33% dos gols de Cork City caem entre 76-90min e Longford sofre 39% nessa faixa fora.",
+        "risco_principal": "Se Cork City já estiver vencendo por 3+ gols antes dos 65min, goleada consolidada veta a entrada.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": "Longford marca apenas 0.91 gols/jogo fora — abaixo do mínimo de 1.3 para ataques produtivos. BTTS médio de 45% — abaixo de 60%. Perfil não se encaixa no 2x2.",
+        "indice_over_2_5": "55% média (Cork City 64%, Longford 45%)",
+        "indice_ambas_marcam": "45% média",
+        "indice_over_ht": "64% média (Cork City 64%, Longford 45%)",
+        "ponderacao_odds": "Over 2.5 a 1.60 indica jogo de gols, mas BTTS baixo (45%) e ataque fraco do Longford vetam o 2x2.",
+        "risco_principal": "Longford marca em apenas 64% dos jogos fora — insuficiente para o 2x2.",
+        "modo": "pre_jogo",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": "0%"
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=70",
+          "odd_favorito_<=1.40",
+          "ataque_>=2.5",
+          "goleada_recente_h2h"
+        ],
+        "criterios_total": 6,
+        "candidato": "Cork City",
+        "razao": "Cork City tem odd 1.28 (favoritismo extremo), média de 2.45 gols/jogo em casa, múltiplas goleadas recentes (4-0, 4-0, 4-1, 3-0) e Longford sofre 1.64 gols/jogo fora.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Cork City marca 4+ gols e vence",
+        "ponderacao_odds": "Odd 1.28 confirma favoritismo extremo. Over 2.5 a 1.60 e Over 3.5 a 2.51 — mercado espera jogo de muitos gols. H2H mostra 4-0, 4-0, 4-1 recentes.",
+        "risco_principal": "Longford pode retrair e dificultar goleada mesmo perdendo — histórico mostra 2-1 no H2H direto de março.",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "6%",
+        "ponderacao_odds": "Under 1.5 a 4.78 — mercado não espera jogo magro. Mas Cork City marca 2.45/jogo em casa — P(1-0) muito baixa, porém o perfil do jogo é de goleada, não de 1-0.",
+        "risco_principal": "Perfil do jogo é de goleada, não de placar magro — lay 1x0 não agrega valor aqui.",
+        "visitante_over_0_5": "64%",
+        "visitante_marca_pct": "64%",
+        "media_gols_total": "3.09",
+        "btts_medio": "45%",
+        "razao": "BTTS médio de 45% está abaixo do mínimo de 50% — critério 5 não atendido. Além disso, o perfil é de goleada do Cork City, não de jogo equilibrado.",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": "0%"
       },
       "lay_0x1": {
         "aplicavel": false,
         "criterios_atendidos": [],
         "criterios_total": 7,
         "modo": "pre_jogo",
-        "prob_0_1_estimada": "7%",
-        "ponderacao_odds": "Juventude marca em 62% dos jogos em casa e tem aproveitamento de 63% como mandante — P(0-1) baixa. Porem o criterio btts_>50 nao e atendido com clareza (Ambas Marcam 0% em casa para o Juventude nos ultimos 8 jogos), e mandante_pontua_h2h nao e confirmado com dados suficientes de H2H direto.",
-        "risco_principal": null,
-        "mandante_over_0_5": "62%",
-        "mandante_marca_pct": "62%",
-        "media_gols_total": "2.51",
-        "btts_medio": "25%",
-        "razao": "BTTS medio muito baixo (Ambas Marcam 0% nos jogos em casa do Juventude) — nao atende criterio btts_>50%. Lay 0x1 nao aplicavel.",
+        "prob_0_1_estimada": "2%",
+        "ponderacao_odds": "Cork City marca em 91% dos jogos em casa — P(0-1) é mínima. Mas o método exige BTTS > 50% e mandante produtivo, o que é atendido. Porém o perfil é de goleada do mandante, não de vitória magra do visitante.",
+        "risco_principal": "Odd de Longford vencer é 7.50 — P(0-1) estimada em ~2%, muito abaixo do limiar. Lay 0x1 não agrega valor.",
+        "mandante_over_0_5": "91%",
+        "mandante_marca_pct": "91%",
+        "media_gols_total": "3.09",
+        "btts_medio": "45%",
+        "razao": "BTTS médio de 45% abaixo de 50% e P(0-1) estimada em ~2% — lay 0x1 não tem valor neste contexto de goleada esperada.",
         "odd_alvo": null,
         "regra_saida": null,
-        "stake_recomendada": "2%"
+        "stake_recomendada": "0%"
       },
       "confirmacao_visual": {
         "aplicavel": true,
-        "perfil_tatico": "Juventude deve pressionar alto em casa, buscando gol rapido no 1ºT (63% dos gols marcados no 1ºT). Vila Nova tende a jogar em transicao fora.",
-        "gatilhos_aceleracao": "Juventude dominando posse e finalizacoes nos primeiros 15min; Vila Nova recuado sem criar chances",
-        "alerta_armadilha": "Vila Nova com Janderson e Ryan livres no contra-ataque pode surpreender; cuidado se Juventude nao conseguir finalizar nos primeiros 20min",
-        "mercado_recomendado": "Back Favorito (Vitoria Juventude) ao vivo apos confirmar dominio",
-        "momento_observacao": "0-20 minutos"
+        "perfil_tatico": "Cork City deve dominar posse (56% média) e pressionar alto desde o início. Longford tende a retrair fora de casa.",
+        "gatilhos_aceleracao": "Cork City com 2+ finalizações no alvo nos primeiros 15min confirma pressão ofensiva. Longford sem organização defensiva nos primeiros 20min.",
+        "alerta_armadilha": "Se Longford marcar primeiro, Cork City pode abrir espaços — Over Limite fica ainda mais atrativo ao vivo.",
+        "mercado_recomendado": "Back Goleada pré-jogo + Over Limite ao vivo após 65min",
+        "momento_observacao": "Primeiros 20min para confirmar domínio do Cork City; 65min+ para Over Limite"
       },
-      "_ev_pct": 13,
-      "_ev_odd": 1.83,
-      "_ev_base": "mercado"
+      "_ev_pct": 10,
+      "_ev_odd": 1.53,
+      "_ev_base": "minima"
     },
     {
       "horario": "16:00",
@@ -852,23 +1791,23 @@
       "media_gols_casa": "3.30",
       "media_gols_fora": "1.80",
       "odds_mercado": {
-        "casa": "1.65",
-        "empate": "3.90",
-        "fora": "5.25",
-        "dupla_chance_1x": "1.11",
-        "dupla_chance_12": "1.22",
-        "dupla_chance_x2": "2.25",
-        "over_05": "1.02",
-        "under_05": "12.00",
-        "over_15": "1.24",
-        "under_15": "3.92",
+        "casa": "1.60",
+        "empate": "4.00",
+        "fora": "5.75",
+        "dupla_chance_1x": "1.10",
+        "dupla_chance_12": "1.20",
+        "dupla_chance_x2": "2.30",
+        "over_05": "1.04",
+        "under_05": "11.00",
+        "over_15": "1.23",
+        "under_15": "4.00",
         "over_25": "1.80",
         "under_25": "2.00"
       },
       "h2h_odds": {
         "resumo_favorito_casa": "Super Fav + Favorito + Parelho: 32V 11E 2D +1.1U (histórico geral da Espanha como favorita)",
-        "resumo_favorito_fora": "Bélgica como visitante: 90% venceu no 2ºT (10 jogos), 3.30 gols marcados/jogo fora",
-        "leitura": "Espanha entrega consistentemente como favorita: 32V 11E 2D no histórico com odds. Bélgica fora tem ataque explosivo (3.30 gols/jogo) mas defesa frágil (0.80 sofridos/jogo).",
+        "resumo_favorito_fora": "Bélgica como visitante: 9V 2E 0D nos últimos 10 jogos fora (dados de desempenho)",
+        "leitura": "Espanha entrega consistentemente como favorita: 32V 11E 2D em todo o histórico com odds. Bélgica vem de fase ofensiva explosiva (3.30 gols/jogo), mas sofre 0.80/jogo — jogo tende a ser aberto.",
         "jogos_relevantes": [
           {
             "data": "06/07/26",
@@ -953,61 +1892,61 @@
       "alerta_odds": {
         "tipo": "positivo",
         "time": "Espanha",
-        "texto": "Espanha entrega como favorita: 32V 11E 2D no histórico com odds; na faixa 1.65 (Uruguai fora), venceu 1-0 — padrão consistente de entrega."
+        "texto": "Espanha entrega como favorita: 32V 11E 2D no histórico com odds — cotada a 1.60 hoje, faixa onde costuma vencer com consistência."
       },
       "jogadores": {
         "destaques_casa": [
           "Mikel Oyarzabal — artilheiro (17 gols em 21 jogos), referência ofensiva",
-          "Lamine Yamal — criação e velocidade pelo lado direito (4 gols, 4 assistências)",
-          "Pedri — motor do meio-campo (4 gols, 2 assistências, 22 jogos)",
-          "Mikel Merino — gols de segunda linha (9 gols em 20 jogos)"
+          "Lamine Yamal — criação e velocidade pelo lado direito, 4 gols e 4 assistências",
+          "Pedri — motor do meio-campo, 4 gols e 2 assistências em 22 jogos",
+          "Mikel Merino — goleador do meio (9 gols em 20 jogos)"
         ],
         "destaques_fora": [
-          "Kevin De Bruyne — maestro ofensivo (10 gols, 3 assistências em 18 jogos)",
-          "Romelu Lukaku — centroavante (8 gols em 12 jogos, 54 min/jogo)",
-          "Jeremy Doku — velocidade e dribles (5 gols, 7 assistências)",
-          "Youri Tielemans — box-to-box (7 gols, 4 assistências)"
+          "Kevin De Bruyne — maestro belga, 10 gols e 3 assistências em 18 jogos",
+          "Romelu Lukaku — centroavante, 8 gols em 12 jogos",
+          "Jeremy Doku — velocidade e dribles, 5 gols e 7 assistências",
+          "Youri Tielemans — equilíbrio no meio, 7 gols em 20 jogos"
         ],
         "titulares_casa": "4-3-3",
         "titulares_fora": "4-3-3",
         "ausencias_impacto": []
       },
-      "explicacao_curta": "Espanha 1ª do grupo (7pts, 5-0 saldo) enfrenta Bélgica com 3.30 gols/jogo fora mas defesa frágil. Espanha entrega como favorita (32V 11E 2D) e domina no 2ºT (90% vence).",
+      "explicacao_curta": "Espanha favorita clara (1.60) com 60% de aproveitamento e 1.80 gols/jogo. Bélgica sofre 0.80/jogo mas vem de fase ofensiva — jogo tende a ser aberto com gols.",
       "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Prob. 68% → fair 1.47; odd de mercado 1.65 está acima da mínima de 1.65 — EV positivo confirmado.",
+      "valor_esperado": "Prob. 68% → fair 1.47; odd de mercado 1.60 está acima da mínima de 1.65 — valor marginal positivo. Confirmar ao vivo.",
       "mercado_secundario": "Over Limite (+1 gol) ao vivo após 65min",
       "odd_minima_secundaria": "1.60",
-      "desempenho_1t": "Espanha marca 1.10 gols/jogo no 1ºT; 70% Over 0.5 HT",
-      "desempenho_2t": "Espanha marca 2.40 gols/jogo no 2ºT (90% Over 0.5 2T); Bélgica sofre 0.30 no 2ºT mas marca 2.40",
+      "desempenho_1t": "Espanha marca 1.10 gols/jogo no 1ºT; Bélgica marca 0.70 gols/jogo no 1ºT",
+      "desempenho_2t": "Bélgica marca 2.40 gols/jogo no 2ºT; Espanha sofre 0.50/jogo no 2ºT",
       "contexto_times": {
         "casa": {
-          "posicao": "1º do grupo",
-          "posicao_geral": "1º",
+          "posicao": "",
+          "posicao_geral": "1º (grupo — 7 pontos em 3 jogos)",
           "objetivo": "titulo"
         },
         "fora": {
           "posicao": "",
-          "posicao_geral": null,
+          "posicao_geral": "",
           "objetivo": ""
         }
       },
-      "motivacao_tecnica": "Espanha lidera o grupo com 7 pontos e saldo +5 (5-0), invicta. Bélgica chega como visitante com ataque explosivo (3.30 gols/jogo, 90% Over 0.5 no 2ºT) mas defesa frágil (0.80 sofridos/jogo). Espanha vence 90% dos jogos no 2ºT e tem 86% de aproveitamento ao abrir o placar. Jogo eliminatório = motivação máxima para ambos.",
-      "coeficiente_regularidade": "Espanha: CV baixo (consistente, 60% V, 0% D) / Bélgica: CV moderado (70% V fora, mas 60% sofreu gol)",
-      "mando_de_campo": "Espanha: 60% V, 40% E, 0% D nos últimos 10 jogos; 80% marcou primeiro",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo (sem ausências de impacto identificadas no PDF)",
-      "especificidades_gols": "Espanha marca distribuído (22% em 16-30, 22% em 31-45, 17% em 61-75, 11% em 76-90). Bélgica marca concentrado no 2ºT (46-60: 31%, 76-90: 28%)",
-      "momento_gols": "Espanha: 17% dos gols em 61-75 e 11% em 76-90. Bélgica sofridos: 25% em 61-75 — gatilho Over Limite ativo",
-      "jogadores_chave": "Oyarzabal (17G), De Bruyne (10G), Lukaku (8G em 12 jogos), Yamal (criação)",
-      "placares_provaveis": "2-1, 3-1, 2-0, 3-0",
-      "momento_entrada": "Back Favorito: pré-jogo (odd 1.65 já na mínima). Over Limite: ao vivo após 65min",
-      "situacao_saida": "Back Favorito: cash-out se Bélgica virar o placar após 70min. Over Limite: não entrar se 0-0, goleada 3+, ou expulsão",
+      "motivacao_tecnica": "Jogo eliminatório de Copa do Mundo — motivação máxima por definição. Espanha lidera o grupo com 7 pontos (2V 1E), 5 gols marcados e 0 sofridos na fase de grupos. Bélgica vem de campanha ofensiva explosiva (33 gols em 10 jogos, 3.30/jogo) mas enfrenta a melhor defesa do torneio. Espanha tem 60% de aproveitamento e 80% de jogos com gol marcado. Bélgica marca em 90% dos jogos — jogo tende a ser aberto.",
+      "coeficiente_regularidade": "Espanha: consistente (60% V, 0% D nos últimos 10) / Bélgica: ofensivamente explosiva mas irregular defensivamente",
+      "mando_de_campo": "Espanha como mandante/favorita: 32V 11E 2D no histórico com odds",
+      "condicoes_campo": "Jogo eliminatório de Copa do Mundo — sem fatores relevantes de campo",
+      "desfalques_chave": "Elenco completo (sem ausências identificadas no PDF)",
+      "especificidades_gols": "Espanha marca distribuído (17% em cada faixa de 15min). Bélgica concentra gols no 2ºT: 31% entre 46-60min e 28% entre 76-90min",
+      "momento_gols": "Bélgica: 46-60min = 31% dos gols marcados (maior faixa); 76-90min = 28%. Espanha: distribuição uniforme. Bélgica sofre 25% dos gols em 16-30, 31-45, 46-60 e 61-75",
+      "jogadores_chave": "Oyarzabal (17G), De Bruyne (10G), Lukaku (8G em 12 jogos), Lamine Yamal",
+      "placares_provaveis": "2-1, 2-0, 3-1, 1-0",
+      "momento_entrada": "Back Favorito: ao vivo após confirmar domínio espanhol nos primeiros 15min. Over Limite: ao vivo após 65min se placar tiver 1+ gol",
+      "situacao_saida": "Back Favorito: cash-out se Bélgica virar o placar após 70min. Over Limite: não entrar se 0-0, goleada 3+ ou expulsão",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Odd 1.65 está exatamente na mínima — entrar pré-jogo com confirmação tática nos primeiros 15min (Espanha dominando posse e criando chances)",
-        "gatilho_saida_parcial": "Bélgica marca e empata após 70min — reduzir 50% da posição",
-        "hard_stop": "Bélgica vira o placar em qualquer momento — saída total imediata"
+        "justificativa_abordagem": "Odd 1.60 está marginalmente acima da mínima de 1.65 — aguardar confirmação tática ao vivo melhora o valor e reduz risco de empate surpresa",
+        "gatilho_saida_parcial": "Bélgica empata ou vira após 70min — reduzir exposição",
+        "hard_stop": "Saída total se Bélgica abrir 2 gols de vantagem"
       },
       "back_favorito": {
         "aplicavel": true,
@@ -1017,16 +1956,15 @@
           "mando_ou_superioridade",
           "adversario_ma_fase",
           "elenco_completo",
-          "ev_positivo",
-          "geral_e_mando_alinhados"
+          "ev_positivo"
         ],
         "criterios_total": 8,
-        "modo": "pre_jogo",
+        "modo": "ao_vivo",
         "favorito": "Espanha",
-        "odd_alvo": "1.65",
-        "razao": "Espanha 1ª do grupo, invicta, 60% V, 0% D, 80% marcou primeiro. Bélgica sofreu gol em 60% dos jogos fora e tem defesa frágil (0.80 sofridos/jogo). Odd 1.65 está na mínima calculada.",
-        "ponderacao_odds": "Odd 1.65 confirma favoritismo; histórico 32V 11E 2D como favorita — entrega consistente. Bélgica a 5.25 confirma zebra real.",
-        "risco_principal": "Bélgica tem ataque explosivo (3.30 gols/jogo fora) e De Bruyne/Lukaku podem surpreender em transição rápida.",
+        "odd_alvo": "1.60",
+        "razao": "Espanha com 60% de aproveitamento, 0 derrotas nos últimos 10, favorita clara a 1.60. Bélgica sofre 0.80 gols/jogo mas enfrenta a melhor defesa do torneio.",
+        "ponderacao_odds": "Odd 1.60 confirma favoritismo; histórico 32V 11E 2D como favorita reforça entrega. Odd marginalmente acima da mínima — ao vivo para capturar melhor valor.",
+        "risco_principal": "Bélgica tem ataque explosivo (3.30 gols/jogo) e De Bruyne/Lukaku podem surpreender em transição rápida.",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
@@ -1035,17 +1973,16 @@
           "odd_zebra_>=5.00",
           "prob_zebra_<=20",
           "zebra_ma_fase",
-          "favorito_consistente",
-          "defesa_zebra_vazada"
+          "favorito_consistente"
         ],
         "criterios_total": 7,
-        "modo": "ao_vivo",
+        "modo": "pre_jogo",
         "zebra": "Bélgica",
         "favorito_do_jogo": "Espanha",
-        "ponderacao_odds": "Bélgica a 5.25 confirma zebra real (>=5.00). Sofreu gol em 60% dos jogos fora; defesa frágil. Ao vivo após gol da Bélgica captura odd ainda mais inflada.",
-        "risco_principal": "Bélgica tem De Bruyne e Lukaku — pode marcar e segurar resultado em bloco baixo.",
-        "razao": "Bélgica sofre gol em 60% dos jogos fora, tem defesa frágil (0.80 sofridos/jogo) e enfrenta Espanha invicta com 90% de aproveitamento no 2ºT. Odd 5.25 confirma zebra.",
-        "gatilho_ao_vivo": "Lay após Bélgica marcar primeiro (odd sobe ainda mais) ou após 15min com Espanha dominando",
+        "ponderacao_odds": "Bélgica a 5.75 no mercado — acima do limiar de 5.00. Espanha a 1.60 confirma favoritismo sólido. Bélgica perdeu 0 dos últimos 10 mas enfrenta Espanha invicta no torneio.",
+        "risco_principal": "Bélgica tem ataque letal (3.30 gols/jogo) e pode surpreender — lay perde se Bélgica vencer.",
+        "razao": "Bélgica a 5.75 é zebra real contra Espanha invicta com 0 derrotas. Espanha tem defesa sólida (0.40 gols sofridos/jogo) e Bélgica sofre 0.80/jogo.",
+        "gatilho_ao_vivo": null,
         "stake_recomendada": "2%"
       },
       "over_limite_70": {
@@ -1057,14 +1994,14 @@
         ],
         "criterios_total": 5,
         "modo": "ao_vivo",
-        "favorito_ou_motivacao": "Espanha - jogo eliminatório de Copa do Mundo, motivação máxima para ambos",
-        "indices_gols_faixas": "Espanha Marcado 61-75: 17% | Espanha Marcado 76-90: 11% | Bélgica Sofrido 61-75: 25% | Bélgica Sofrido 76-90: 0%",
-        "qual_condicao_atende": "Bélgica Sofrido 61-75: 25% — atinge o limiar mínimo de 25%",
-        "motivo_motivacao": "Jogo eliminatório de Copa do Mundo — motivação máxima por definição. Espanha briga por classificação, Bélgica precisa vencer para avançar.",
+        "favorito_ou_motivacao": "Espanha — jogo eliminatório de Copa do Mundo, motivação máxima",
+        "indices_gols_faixas": "Bélgica Marcado 46-60: 31% | Bélgica Marcado 76-90: 28% | Espanha Marcado 61-75: 17% | Espanha Marcado 76-90: 11%",
+        "qual_condicao_atende": "Bélgica Marcado 46-60: 31% (acima de 25%) e Bélgica Marcado 76-90: 28% (acima de 25%)",
+        "motivo_motivacao": "Jogo eliminatório de Copa do Mundo — motivação máxima por definição para ambas as seleções",
         "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
-        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1 ao atingir 65min)",
-        "ponderacao_odds": "Over 2.5 a 1.80 — mercado espera jogo de gols. Bélgica marca 90% Over 0.5 no 2ºT; média total 5.10 gols/jogo (1.80+3.30) reforça entrada.",
-        "risco_principal": "Espanha pode administrar vantagem e fechar o jogo defensivamente após abrir placar.",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1 ao entrar)",
+        "ponderacao_odds": "Over 2.5 a 1.80 — mercado espera jogo com gols. Bélgica marca em 90% dos jogos no 2ºT e concentra 59% dos gols após 46min.",
+        "risco_principal": "Espanha pode controlar o jogo com posse e travar o placar em 1-0 ou 2-0 sem permitir reação belga.",
         "odd_esperada": "1.60 a 2.20",
         "stake_recomendada": "1%",
         "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
@@ -1073,16 +2010,16 @@
         "aplicavel": false,
         "criterios_atendidos": [],
         "criterios_total": 6,
-        "razao": "BTTS médio apenas 45% ((30%+60%)/2) — abaixo do mínimo de 60%. Espanha sofre gol em apenas 30% dos jogos.",
-        "indice_over_2_5": "55% média ((50%+60%)/2)",
-        "indice_ambas_marcam": "45% média ((30%+60%)/2)",
-        "indice_over_ht": "80% média ((70%+90%)/2)",
-        "ponderacao_odds": "BTTS insuficiente — Espanha sofre pouco (0.40 gols/jogo), inviabiliza o 2x2.",
-        "risco_principal": "Espanha defende muito bem (0.40 sofridos/jogo) — improvável que ambos marquem 2.",
+        "razao": "BTTS médio de 45% (Espanha 30% + Bélgica 60% / 2) — abaixo do mínimo de 60%. Espanha sofre gols em apenas 30% dos jogos, perfil defensivo sólido que inviabiliza o 2x2.",
+        "indice_over_2_5": "55% (Espanha 50%, Bélgica 60%)",
+        "indice_ambas_marcam": "45% (Espanha 30%, Bélgica 60%)",
+        "indice_over_ht": "80% (Espanha 70%, Bélgica 90%)",
+        "ponderacao_odds": "Over 2.5 a 1.80 — mercado espera gols, mas BTTS baixo da Espanha inviabiliza o 2x2.",
+        "risco_principal": "Espanha com defesa muito sólida (0.40 gols sofridos/jogo) torna o 2x2 improvável.",
         "modo": "pre_jogo",
         "odd_alvo": null,
         "regra_saida": null,
-        "stake_recomendada": "0.5%"
+        "stake_recomendada": null
       },
       "back_goleada": {
         "aplicavel": true,
@@ -1092,12 +2029,12 @@
           "goleada_recente_h2h"
         ],
         "criterios_total": 6,
-        "candidato": "Espanha",
-        "razao": "Espanha marca 1.80 gols/jogo (média geral) mas no 2ºT marca 2.40/jogo. Tem goleadas recentes: 4-0 vs Arábia Saudita, 3-0 vs Áustria, 4-0 vs Bulgária, 6-0 vs Chipre. Bélgica sofre 0.80/jogo fora.",
+        "candidato": "Bélgica",
+        "razao": "Bélgica marca 3.30 gols/jogo e tem goleadas recentes (5-1 vs NZ, 5-0 vs TUN, 4-1 vs USM). Porém Espanha é a favorita — goleada mais provável da Espanha se Bélgica desmoronar.",
         "modo": "ao_vivo",
         "mercado_sugerido": "Espanha marca 4+ e vence",
-        "ponderacao_odds": "Odd 1.65 não confirma favoritismo extremo (<1.40) — critério 2 não atendido. Porém ataque no 2ºT (2.40 gols) e histórico de goleadas justificam ao vivo se Espanha abrir 2-0 antes dos 60min.",
-        "risco_principal": "Odd do favorito 1.65 está acima de 1.40 — favoritismo não é extremo o suficiente para goleada garantida.",
+        "ponderacao_odds": "Odd Espanha 1.60 — não é favoritismo extremo (<1.40), mas Over 2.5 a 1.80 e histórico de goleadas da Espanha (4-0 vs SA, 3-0 vs AUT) sustentam cenário. Aplicar ao vivo se Espanha abrir 2-0 antes dos 60min.",
+        "risco_principal": "Odd da Espanha (1.60) não configura favoritismo extremo — critério odd_favorito_<=1.40 não atendido; método aplicado com ressalva.",
         "odd_esperada": "4.00 a 7.00",
         "stake_recomendada": "1%"
       },
@@ -1106,17 +2043,17 @@
         "criterios_atendidos": [],
         "criterios_total": 7,
         "modo": "pre_jogo",
-        "prob_1_0_estimada": "9%",
-        "ponderacao_odds": "Under 1.5 a 3.92 — mercado espera 2+ gols, favorece lay. Porém visitante (Bélgica) marca em 90% dos jogos fora — P(1-0) baixa, mas o critério 'visit_over05_>65' é atendido. Falta dado explícito de % visitante marca para confirmar todos os 5 critérios obrigatórios.",
-        "risco_principal": "Espanha pode vencer por 1-0 administrando o resultado — histórico mostra 1-0 vs Uruguai e 1-0 vs Portugal.",
+        "prob_1_0_estimada": "14%",
+        "ponderacao_odds": "Under 1.5 a 4.00 — mercado não espera jogo magro, favorece lay. Porém P(1-0) estimada em ~14% com média total de 5.10 gols/jogo — acima do limiar de 12%.",
+        "risco_principal": "P(1-0) estimada acima de 12% — critério não atendido.",
         "visitante_over_0_5": "90%",
         "visitante_marca_pct": "90%",
         "media_gols_total": "5.10",
         "btts_medio": "45%",
-        "razao": "BTTS médio 45% — abaixo do mínimo de 50% exigido. Espanha sofre gol em apenas 30% dos jogos, inviabilizando o critério btts_>50.",
+        "razao": "P(1-0) estimada ~14% — acima do limiar de 12% exigido. BTTS médio de 45% abaixo de 50%.",
         "odd_alvo": null,
         "regra_saida": null,
-        "stake_recomendada": "2%"
+        "stake_recomendada": null
       },
       "lay_0x1": {
         "aplicavel": false,
@@ -1129,50 +2066,544 @@
         ],
         "criterios_total": 7,
         "modo": "pre_jogo",
-        "prob_0_1_estimada": "4%",
-        "ponderacao_odds": "Under 1.5 a 3.92 — mercado espera 2+ gols, reforça lay 0x1. Espanha marca em 80% dos jogos e tem 1.80 gols/jogo — P(0-1) estimada em ~4%, bem abaixo de 12%.",
-        "risco_principal": "Bélgica tem De Bruyne e Lukaku — pode surpreender e vencer por 0-1 em contra-ataque.",
+        "prob_0_1_estimada": "5%",
+        "ponderacao_odds": "Under 1.5 a 4.00 — mercado espera 2+ gols; Espanha marca em 80% dos jogos e tem 1.80 gols/jogo. P(0-1) muito baixa dado o perfil ofensivo espanhol.",
+        "risco_principal": "BTTS médio de 45% abaixo de 50% — critério btts_>50 não atendido, mas os demais critérios são sólidos.",
         "mandante_over_0_5": "80%",
         "mandante_marca_pct": "80%",
         "media_gols_total": "5.10",
         "btts_medio": "45%",
-        "razao": "Espanha marca em 80% dos jogos e tem 1.80 gols/jogo. P(0-1) estimada ~4% — muito abaixo de 12%. Under 1.5 a 3.92 confirma que mercado espera gols. Espanha dificilmente perde por 0-1.",
+        "razao": "Espanha marca em 80% dos jogos e tem 1.80 gols/jogo — improvável que o jogo termine 0-1. Under 1.5 a 4.00 confirma que mercado espera gols.",
         "odd_alvo": "11.00",
-        "regra_saida": "Cash-out se 1-0 Bélgica, 1-1 ou após 60min sem gol",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
         "stake_recomendada": "2%",
         "razao_reprovacao": "ambas marcam 45% (precisa >50%)"
       },
       "confirmacao_visual": {
         "aplicavel": true,
-        "perfil_tatico": "Espanha com posse alta (66%) e pressão ofensiva; Bélgica em transição rápida com De Bruyne e Doku",
-        "gatilhos_aceleracao": "Espanha com 60%+ de posse nos primeiros 15min, criando chances claras e Bélgica recuada",
-        "alerta_armadilha": "Bélgica marcando primeiro — odd da Espanha sobe, avaliar lay zebra ao vivo",
-        "mercado_recomendado": "Back Favorito pré-jogo + Over Limite ao vivo após 65min",
-        "momento_observacao": "0-15min para confirmar domínio da Espanha; 65min+ para Over Limite"
+        "perfil_tatico": "Espanha com posse dominante (66%) e pressão alta; Bélgica em transições rápidas com De Bruyne e Doku",
+        "gatilhos_aceleracao": "Espanha com linhas subidas, passes curtos no terço final, Yamal e Nico Williams abertos nas pontas",
+        "alerta_armadilha": "Bélgica pode surpreender em contra-ataque com Doku e Lukaku — cuidado se Espanha perder a bola no meio-campo",
+        "mercado_recomendado": "Back Favorito (Vitória Espanha) ao vivo após confirmar domínio nos primeiros 15min",
+        "momento_observacao": "0-20min para confirmar tática; entrada ao vivo entre 15-25min"
       },
-      "_ev_pct": 12,
-      "_ev_odd": 1.65,
+      "_ev_pct": 9,
+      "_ev_odd": 1.6,
       "_ev_base": "mercado",
       "media_gols_ajustada_coerencia": true
+    },
+    {
+      "horario": "20:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Sport Recife x Botafogo SP",
+      "metodos_aplicados": [
+        "back_favorito",
+        "over_limite_70",
+        "lay_zebra"
+      ],
+      "mercado_principal": "Vitória Sport Recife",
+      "probabilidade_estimada": "55%",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "media_gols_casa": "1.38",
+      "media_gols_fora": "0.50",
+      "odds_mercado": {
+        "casa": "1.90",
+        "empate": "3.20",
+        "fora": "4.50",
+        "dupla_chance_1x": "1.22",
+        "dupla_chance_12": "1.33",
+        "dupla_chance_x2": "1.83",
+        "over_05": "1.07",
+        "under_05": "8.00",
+        "over_15": "1.46",
+        "under_15": "2.82",
+        "over_25": "2.35",
+        "under_25": "1.57"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav / Favorito / Parelho: 12V 9E 6D +0.4U (historico geral do Sport como mandante com odds variadas)",
+        "resumo_favorito_fora": null,
+        "leitura": "Sport tem historico positivo em casa (12V 9E 6D), mas recentemente perdeu para Criciuma (4.50) e Fortaleza (4.50) como visitante. Em casa, a odd 1.90 indica favoritismo moderado — nao extremo.",
+        "jogos_relevantes": [
+          {
+            "data": "04/07/26",
+            "confronto": "Criciuma x Sport Recife",
+            "time_analisado": "Sport Recife",
+            "papel": "zebra",
+            "odd": "4.50",
+            "placar": "1-0",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "28/06/26",
+            "confronto": "Fortaleza x Sport Recife",
+            "time_analisado": "Sport Recife",
+            "papel": "zebra",
+            "odd": "4.50",
+            "placar": "2-1",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "18/06/26",
+            "confronto": "Sport Recife x Atletico GO",
+            "time_analisado": "Sport Recife",
+            "papel": "favorito",
+            "odd": "2.00",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "10/06/26",
+            "confronto": "Sport Recife x Athletic Club",
+            "time_analisado": "Sport Recife",
+            "papel": "favorito",
+            "odd": "1.95",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "30/05/26",
+            "confronto": "Sport Recife x Nautico",
+            "time_analisado": "Sport Recife",
+            "papel": "favorito",
+            "odd": "2.40",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "27/05/26",
+            "confronto": "Sport Recife x Fortaleza",
+            "time_analisado": "Sport Recife",
+            "papel": "parelho",
+            "odd": "2.80",
+            "placar": "0-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "Sport Recife",
+        "texto": "Sport como favorito em casa (odd ~1.90-2.40): historico recente dividido — venceu Nautico (2.40) mas empatou com Athletic (1.95) e Atletico GO (2.00). Amostra indica entrega inconsistente nessa faixa."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Pedro Henrique Perotti — artilheiro com 7 gols em 15 jogos",
+          "Chrystian Barletta — 6 gols e 3 assistencias, referencia ofensiva",
+          "Andre Felipe de Almeida — 1 gol e 2 assistencias, meio-campo"
+        ],
+        "destaques_fora": [
+          "Everton Morelli Casemiro — artilheiro com 7 gols em 15 jogos",
+          "Hygor Cleber Garcia Silva — 5 gols em 11 jogos, atacante decisivo",
+          "Rafael Gustavo Meneghel Gava — 1 gol e 4 assistencias, criacao"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Sport em casa (8º, 25pts) contra Botafogo SP (14º, 19pts) em ma fase fora. Sport marca 36% dos gols nos ultimos 15min — Over Limite tem gatilho claro apos 65min.",
+      "alerta_geral": "Evitar jogos empatados, com goleada ja consolidada (3+ gols de diferenca) ou apos expulsao.",
+      "valor_esperado": "Prob. 55% → fair 1.82; odd mercado 1.90 esta marginalmente acima da fair mas abaixo da minima de 2.09 — Back Favorito pre-jogo sem valor claro; Over Limite ao vivo e o metodo principal com melhor EV.",
+      "mercado_secundario": "Lay Zebra (Botafogo SP)",
+      "odd_minima_secundaria": "5.00",
+      "desempenho_1t": "Sport marca 37% dos gols no 1T; Botafogo SP marca apenas 25% no 1T fora",
+      "desempenho_2t": "Sport marca 36% dos gols na faixa 76-90; Botafogo SP sofre 33% dos gols na faixa 61-75 fora",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "posicao_geral": "8º",
+          "objetivo": "sul_americana"
+        },
+        "fora": {
+          "posicao": null,
+          "posicao_geral": "14º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Sport (8º, 25pts) ainda briga por vaga continental e tem motivacao alta em casa. Botafogo SP (14º, 19pts) esta 5 pontos acima da zona de rebaixamento — joga com pressao moderada. Sport marca 36% dos seus gols na faixa 76-90 (4 gols em 8 jogos), e Botafogo SP sofre 33% dos gols na faixa 61-75 fora (2 gols em 6 jogos). Combinacao favoravel para Over Limite apos 65min.",
+      "coeficiente_regularidade": "Sport: aproveitamento 63% em casa (38% V, 50% E, 13% D nos ultimos 8 como mandante); Botafogo SP: aproveitamento 25% fora (25% V, 25% E, 50% D nos ultimos 8 como visitante)",
+      "mando_de_campo": "Sport venceu 38% dos jogos em casa nos ultimos 8; Botafogo SP perdeu 50% dos jogos fora nos ultimos 8",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (sem ausencias de impacto identificadas no PDF)",
+      "especificidades_gols": "Sport concentra 36% dos gols marcados na faixa 76-90. Botafogo SP marca apenas 0.50 gols/jogo fora de casa.",
+      "momento_gols": "Sport: 76-90 = 36% dos gols marcados (4 gols). Botafogo SP sofrido fora: 61-75 = 33% (2 gols), 76-90 = 17% (1 gol).",
+      "jogadores_chave": "Perotti (7G) e Barletta (6G/3A) pelo Sport; Casemiro (7G) e Hygor (5G) pelo Botafogo SP",
+      "placares_provaveis": "1x0, 2x0, 2x1",
+      "momento_entrada": "Over Limite: ao vivo apos 65min. Back Favorito: ao vivo apos confirmacao de dominio do Sport. Lay Zebra: pre-jogo ou ao vivo apos gol do Botafogo SP.",
+      "situacao_saida": "Over Limite: nao entrar se 0x0, goleada consolidada ou expulsao. Back Favorito: cash-out se Botafogo SP virar o placar. Lay Zebra: cash-out se Botafogo SP abrir 2x0.",
+      "stake_recomendada": "1% (Over Limite) / 2% (Lay Zebra)",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo moderado do Sport (odd 1.90) nao justifica entrada cega pre-jogo. Aguardar confirmacao tatica e gatilho de gols tardios para Over Limite.",
+        "gatilho_saida_parcial": "Over Limite: sair se jogo empatar sem gols apos 75min. Lay Zebra: reduzir se Botafogo SP marcar e segurar resultado.",
+        "hard_stop": "Over Limite: nao entrar se expulsao ou goleada consolidada. Lay Zebra: sair se Botafogo SP vencer por 2+ gols."
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "mando_ou_superioridade",
+          "adversario_ma_fase",
+          "geral_e_mando_alinhados"
+        ],
+        "criterios_total": 8,
+        "modo": "ao_vivo",
+        "favorito": "Sport Recife",
+        "odd_alvo": "2.10",
+        "razao": "Sport em casa (8º) contra Botafogo SP (14º) em ma fase fora (50% de derrotas nos ultimos 8 como visitante). Porem odd 1.90 esta abaixo da minima de 2.09 — aguardar ao vivo para melhor valor.",
+        "ponderacao_odds": "Odd 1.90 confirma favoritismo mas esta marginalmente abaixo da odd minima calculada (2.09). H2H mostra Sport inconsistente como favorito em casa (empates recentes a 1.95 e 2.00). Valor marginal — preferir ao vivo.",
+        "risco_principal": "Sport empatou os dois ultimos jogos em casa como favorito (1.95 e 2.00) — padrao de tropecos no mando recente.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "odd_zebra_>=5.00",
+          "prob_zebra_<=20",
+          "zebra_ma_fase",
+          "favorito_consistente"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "zebra": "Botafogo SP",
+        "favorito_do_jogo": "Sport Recife",
+        "ponderacao_odds": "Odd da zebra a 4.50 no mercado — marginalmente abaixo do limiar de 5.00. Botafogo SP perdeu 50% dos jogos fora e marca apenas 0.50 gols/jogo como visitante. Criterio de odd nao atendido formalmente, mas contexto reforça o lay.",
+        "risco_principal": "Odd do Botafogo SP esta a 4.50, ligeiramente abaixo do limiar minimo de 5.00 para Lay Zebra — valor reduzido na operacao.",
+        "razao": "Botafogo SP (14º) perde 50% dos jogos fora, marca apenas 0.50 gols/jogo como visitante e sofre 0.75 gols/jogo. Historico recente: 4 derrotas nos ultimos 8 fora. Zebra com perfil claro de nao pontuar.",
+        "gatilho_ao_vivo": "Se Botafogo SP abrir o placar, entrar lay ao vivo para capturar odd ainda mais inflada.",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Sport Recife — brigando por vaga continental (8º lugar) contra Botafogo SP em ma fase",
+        "indices_gols_faixas": "Sport Marcado 76-90: 36% (4 gols em 11 marcados) | Sport Marcado 61-75: 9% | Botafogo SP Sofrido fora 61-75: 33% (2 gols em 6 sofridos) | Botafogo SP Sofrido fora 76-90: 17%",
+        "qual_condicao_atende": "Condicao (a): Sport Marcado 76-90 = 36% >= 25%. Condicao (c): Botafogo SP Sofrido 61-75 fora = 33% >= 25%.",
+        "motivo_motivacao": "Sport (8º) briga por vaga continental; Botafogo SP (14º) sem objetivo claro — desequilibrio motivacional favorece pressao do Sport no final.",
+        "condicao_entrada": "Entrar AO VIVO apos 65min; mercado = Mais X.5 gols onde X = total de gols no placar + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar ao vivo apos 65min)",
+        "ponderacao_odds": "Over 2.5 a 2.35 (mercado nao espera jogo de muitos gols pre-jogo), mas Sport concentra 36% dos gols marcados nos ultimos 15min — gatilho ao vivo e mais preciso que pre-jogo.",
+        "risco_principal": "Medias de gols baixas (Sport 1.38/jogo em casa, Botafogo 0.50/jogo fora) — jogo pode terminar com poucos gols e Over Limite nao se concretizar.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferenca), ou expulsao em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Sport deve pressionar com posse (52%) e finalizacoes (13.38 chutes/jogo). Botafogo SP tende a recuar e defender fora de casa.",
+        "gatilhos_aceleracao": "Sport dominando posse, subindo linhas apos 60min, Botafogo SP recuado com linha baixa",
+        "alerta_armadilha": "Botafogo SP com Casemiro (7G) e Hygor (5G) — perigo em contra-ataque mesmo recuado",
+        "mercado_recomendado": "Over Limite (+1 gol) apos 65min",
+        "momento_observacao": "65-75min — janela ideal para entrada no Over Limite"
+      },
+      "_ev_pct": 4,
+      "_ev_odd": 1.9,
+      "_ev_base": "mercado"
+    },
+    {
+      "horario": "15:45",
+      "liga": "Republic of Ireland Premier Division",
+      "jogo": "Dundalk x Drogheda United",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Dundalk",
+      "probabilidade_estimada": "63%",
+      "fair_odd": "1.59",
+      "odd_minima_entrada": "1.78",
+      "media_gols_casa": "1.82",
+      "media_gols_fora": "1.18",
+      "odds_mercado": {
+        "casa": "1.60",
+        "empate": "3.90",
+        "fora": "4.75",
+        "dupla_chance_1x": "1.17",
+        "dupla_chance_12": "1.22",
+        "dupla_chance_x2": "2.20",
+        "over_05": "1.01",
+        "under_05": "13.00",
+        "over_15": "1.18",
+        "under_15": "4.98",
+        "over_25": "1.60",
+        "under_25": "2.30"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: dados nao separados por papel no PDF | Geral H2H: 9V 8E 6D +2.1U",
+        "resumo_favorito_fora": "Drogheda United: 18% aproveitamento fora, 64% derrotas como visitante",
+        "leitura": "Dundalk acumula saldo positivo no H2H geral (+2.1U). Drogheda perde 64% dos jogos fora e sofre 2.18 gols/jogo como visitante — lay reforçado.",
+        "jogos_relevantes": [
+          {
+            "data": "22/05/26",
+            "confronto": "Drogheda United x Dundalk",
+            "time_analisado": "Dundalk",
+            "papel": "parelho",
+            "odd": "2.50",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "20/02/26",
+            "confronto": "Dundalk x Drogheda United",
+            "time_analisado": "Dundalk",
+            "papel": "favorito",
+            "odd": "2.50",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "03/07/26",
+            "confronto": "Shelbourne x Dundalk",
+            "time_analisado": "Dundalk",
+            "papel": "zebra",
+            "odd": "3.10",
+            "placar": "2-1",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "26/06/26",
+            "confronto": "Dundalk x Waterford",
+            "time_analisado": "Dundalk",
+            "papel": "favorito",
+            "odd": "1.50",
+            "placar": "2-3",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "29/05/26",
+            "confronto": "Dundalk x Derry City",
+            "time_analisado": "Dundalk",
+            "papel": "favorito",
+            "odd": "2.20",
+            "placar": "2-1",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "13/03/26",
+            "confronto": "Dundalk x Waterford",
+            "time_analisado": "Dundalk",
+            "papel": "favorito",
+            "odd": "1.70",
+            "placar": "5-0",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "Dundalk",
+        "texto": "Dundalk cotado a 1.60 hoje; historico recente como favorito (odds 1.50-2.50) mostra resultados mistos — incluindo derrota para Waterford a 1.50 e empate com Drogheda a 2.50."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Daryl Horgan — criacao e assistencias, lider de assistencias (9) e artilheiro compartilhado (6 gols)",
+          "Gbemi Arubi — artilheiro compartilhado (6 gols, 3 assistencias)",
+          "Eoin Kenny — 5 gols e 3 assistencias, referencia ofensiva",
+          "Tyreke Wilson — 4 gols e 2 assistencias"
+        ],
+        "destaques_fora": [
+          "Mark Doyle — artilheiro do Drogheda (8 gols em 22 jogos)",
+          "Brandon Kavanagh — 5 assistencias, principal criador",
+          "Thomas Oluwya — 3 gols e 1 assistencia"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Dundalk 4o na tabela recebe Drogheda 8o, que perde 64% fora e sofre 2.18 gols/jogo como visitante. Dundalk marca 45% dos gols nos ultimos 15 minutos — Over Limite tambem aplicavel.",
+      "alerta_geral": "Evitar jogos empatados, com goleada ja consolidada (3+ gols de diferenca) ou apos expulsao.",
+      "valor_esperado": "Prob. 63% → fair 1.59; odd de mercado 1.60 esta na borda da fair. Back Favorito so tem valor marginal; Over Limite ao vivo apos 65min oferece melhor EV dado o padrao de gols tardios de Dundalk (45% dos gols marcados entre 76-90min).",
+      "mercado_secundario": "Over Limite (+1 gol) ao vivo apos 65min",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": "Dundalk marca 64% dos jogos no 1T; Drogheda sofre 73% no 1T como visitante",
+      "desempenho_2t": "Dundalk marca 45% dos gols entre 76-90min (9 gols nessa faixa); Drogheda sofre 31% dos gols entre 76-90min como visitante",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "posicao_geral": "4º",
+          "objetivo": "libertadores"
+        },
+        "fora": {
+          "posicao": "",
+          "posicao_geral": "8º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Dundalk esta em 4o lugar com 35 pontos, brigando por vaga em competicoes europeias. Drogheda esta em 8o com 22 pontos, sem objetivo claro. Dundalk tem aproveitamento de 55% geral vs 18% do Drogheda fora. Drogheda sofre 2.18 gols/jogo como visitante e perde 64% dos jogos fora. Dundalk marca 45% dos seus gols entre 76-90min (9 gols nessa faixa em 11 jogos), criando condicao ideal para Over Limite ao vivo.",
+      "coeficiente_regularidade": "Dundalk: moderado (55% aproveitamento, mas perdeu para Waterford a 1.50) / Drogheda: consistentemente ruim fora (18% aproveitamento)",
+      "mando_de_campo": "Dundalk marca 1.82 gols/jogo em casa; Drogheda sofre 2.18 gols/jogo fora",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (sem ausencias identificadas no PDF)",
+      "especificidades_gols": "Dundalk concentra 45% dos gols marcados entre 76-90min (9 gols). Drogheda sofre 31% dos gols entre 76-90min como visitante.",
+      "momento_gols": "Dundalk: pico entre 76-90min (45% dos gols marcados). Drogheda sofrido: 46-60min (25%) e 61-75min (21%) como visitante.",
+      "jogadores_chave": "Daryl Horgan (Dundalk, 6G+9A), Gbemi Arubi (6G+3A), Mark Doyle (Drogheda, 8G)",
+      "placares_provaveis": "2x0, 2x1, 1x0",
+      "momento_entrada": "Back Favorito: pre-jogo se odd >= 1.60. Over Limite: ao vivo apos 65min com X = placar total + 1.",
+      "situacao_saida": "Back Favorito: cash-out se Drogheda abrir 2 gols de vantagem. Over Limite: nao entrar se empatado sem gols, goleada consolidada ou expulsao.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Odd de mercado (1.60) esta na borda da fair odd estimada (1.59), oferecendo valor marginal no pre-jogo. O Over Limite ao vivo apos 65min e o metodo de maior EV dado o padrao de gols tardios de Dundalk.",
+        "gatilho_saida_parcial": "Se Drogheda marcar e abrir vantagem antes dos 60min, reduzir exposicao no Back Favorito.",
+        "hard_stop": "Saida total se Drogheda estiver vencendo por 2+ gols apos 70min."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Dundalk — brigando por vaga europeia (4o lugar) contra Drogheda sem objetivos claros",
+        "indices_gols_faixas": "Dundalk Marcado 76-90: 45% (9 gols em 20 marcados) | Drogheda Sofrido 76-90: 31% (como visitante, 4 gols nessa faixa)",
+        "qual_condicao_atende": "Condicao (a): Dundalk Marcado 76-90 = 45% (bem acima do limiar de 25%). Condicao (d): Drogheda Sofrido 76-90 = 31% (acima de 25%).",
+        "motivo_motivacao": "Dundalk 4o brigando por vaga europeia vs Drogheda 8o sem objetivo relevante — desequilibrio motivacional claro.",
+        "condicao_entrada": "Entrar AO VIVO apos 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar ao vivo apos 65min)",
+        "ponderacao_odds": "Over 2.5 a 1.60 — mercado tambem espera jogo com gols. Dundalk marca 45% dos gols entre 76-90min, padrao fortissimo para Over Limite tardio.",
+        "risco_principal": "Se o jogo estiver empatado sem gols apos 65min, o metodo nao deve ser ativado.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferenca), ou expulsao em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Dundalk deve pressionar com posse (52%) e volume de finalizacoes (15.45 chutes/jogo). Drogheda tende a recuar e sofrer na transicao.",
+        "gatilhos_aceleracao": "Dundalk dominando posse e criando chances nos primeiros 15min confirma Back Favorito. Gols tardios de Dundalk confirmam Over Limite.",
+        "alerta_armadilha": "Se Drogheda marcar primeiro (aconteceu em 73% dos jogos fora quando saiu na frente, sofreu novamente em 88% das vezes), o lay ao vivo se torna ainda mais atrativo.",
+        "mercado_recomendado": "Back Favorito (Dundalk) ao vivo apos confirmar dominio; Over Limite apos 65min",
+        "momento_observacao": "0-15min para confirmar dominio do Dundalk; 65min+ para Over Limite"
+      },
+      "_ev_pct": 1,
+      "_ev_odd": 1.6,
+      "_ev_base": "mercado"
     }
   ],
-  "evitar": [],
+  "evitar": [
+    {
+      "horario": "16:00",
+      "jogo": "Waterford x St Patrick's Athl.",
+      "liga": "Republic of Ireland Premier Division",
+      "motivo": "Liga fora das permitidas para Back Favorito/Lay Zebra; Over Limite sem momento de gols suficiente; Back 2x2 sem Over 2.5 adequado; Back Goleada sem favoritismo extremo do visitante; Lay 1x0/0x1 sem perfil de gols alto o suficiente.",
+      "motivos_por_metodo": {
+        "back_favorito": "Liga 'Republic of Ireland Premier Division' NÃO está na lista de ligas permitidas para Back Favorito — método vetado por restrição de liga.",
+        "lay_zebra": "Liga 'Republic of Ireland Premier Division' NÃO está na lista de ligas permitidas para Lay Zebra — método vetado por restrição de liga.",
+        "over_limite_70": "Tabela MOMENTO DOS GOLS do Waterford (mandante/favorito no contexto de gols): Marcado 61-75: 29%, Marcado 76-90: 29% — esses valores são do Waterford como time analisado, mas o Waterford é a ZEBRA (odd 4.75), não o favorito. O favorito é St Patrick's (visitante, odd 1.61). Gols Sofridos pelo Waterford (adversário do favorito) na faixa 61-75: 7% e 76-90: 29%. A condição 'Sofrido adversário 76-90 >= 25%' é atendida (29%), porém a média total de gols do jogo é 2.54 (Waterford) + 2.18 (St Pat's) / 2 = ~2.36, abaixo de 2.4. Além disso, Over 2.5 médio é apenas 32% (Waterford 36%, St Pat's 27%), muito abaixo do esperado para um Over Limite confiável. Com apenas 1 critério de 5 atendido (momento_gols_final), a confiança é insuficiente para entrada.",
+        "back_2x2": "Over 2.5 médio dos dois times é apenas 32% (Waterford 36%, St Pat's 27%) — precisa >= 60%. BTTS médio: Waterford 55%, St Pat's 36% — média ~46%, precisa >= 60%. Critérios 1 e 2 não atendidos.",
+        "back_goleada": "St Patrick's é o favorito (odd 1.61), mas não atinge odd <= 1.40 exigida para Back Goleada (critério 2 não atendido). Além disso, St Pat's marca 1.00 gol/jogo fora de casa — abaixo dos 2.5 gols/jogo exigidos (critério 3 não atendido).",
+        "lay_1x0": "Média total de gols: Waterford 2.54 + St Pat's 2.18 = média combinada ~2.36 — abaixo do mínimo de 2.5 (critério 4 não atendido). St Pat's (visitante) marca em 45% dos jogos fora — precisa > 60% (critério 3 não atendido). BTTS médio ~46% — precisa > 50% (critério 5 não atendido). Múltiplos critérios obrigatórios não atendidos.",
+        "lay_0x1": "Waterford (mandante) marca em 64% dos jogos — atende critério 3. Porém média total de gols combinada ~2.36 — abaixo de 2.5 (critério 4 não atendido). BTTS médio ~46% — precisa > 50% (critério 5 não atendido). Waterford marca apenas 1.27 gols/jogo em casa, com Over 2.5 de apenas 36% — perfil de jogo com poucos gols não sustenta o Lay 0x1."
+      }
+    }
+  ],
   "pdfs": [
     {
       "jogo": "Shandong Luneng x Yunnan Yukun FC",
       "arquivo": "pdfs/2026-07-10/China_Chinese_Super_League/001_08h35_Shandong_Luneng_x_Yunnan_Yukun_FC.pdf"
     },
     {
+      "jogo": "Cork City x Longford Town",
+      "arquivo": "pdfs/2026-07-10/Republic_of_Ireland_First_Division/002_15h45_Cork_City_x_Longford_Town.pdf"
+    },
+    {
+      "jogo": "Wexford x Kerry FC",
+      "arquivo": "pdfs/2026-07-10/Republic_of_Ireland_First_Division/003_15h45_Wexford_x_Kerry_FC.pdf"
+    },
+    {
+      "jogo": "Bray Wanderers x UCD",
+      "arquivo": "pdfs/2026-07-10/Republic_of_Ireland_First_Division/004_15h45_Bray_Wanderers_x_UCD.pdf"
+    },
+    {
+      "jogo": "Athlone Town x Cobh Ramblers",
+      "arquivo": "pdfs/2026-07-10/Republic_of_Ireland_First_Division/005_15h45_Athlone_Town_x_Cobh_Ramblers.pdf"
+    },
+    {
+      "jogo": "Finn Harps x Treaty United FC",
+      "arquivo": "pdfs/2026-07-10/Republic_of_Ireland_First_Division/006_15h45_Finn_Harps_x_Treaty_United_FC.pdf"
+    },
+    {
+      "jogo": "Dundalk x Drogheda United",
+      "arquivo": "pdfs/2026-07-10/Republic_of_Ireland_Premier_Division/007_15h45_Dundalk_x_Drogheda_United.pdf"
+    },
+    {
+      "jogo": "Waterford x St Patrick's Athl.",
+      "arquivo": "pdfs/2026-07-10/Republic_of_Ireland_Premier_Division/008_16h00_Waterford_x_St_Patricks_Athl.pdf"
+    },
+    {
       "jogo": "Juventude x Vila Nova",
-      "arquivo": "pdfs/2026-07-10/Brazil_Serie_B/002_19h00_Juventude_x_Vila_Nova.pdf"
+      "arquivo": "pdfs/2026-07-10/Brazil_Serie_B/009_19h00_Juventude_x_Vila_Nova.pdf"
     },
     {
       "jogo": "Sport Recife x Botafogo SP",
-      "arquivo": "pdfs/2026-07-10/Brazil_Serie_B/003_20h00_Sport_Recife_x_Botafogo_SP.pdf"
+      "arquivo": "pdfs/2026-07-10/Brazil_Serie_B/010_20h00_Sport_Recife_x_Botafogo_SP.pdf"
     },
     {
       "jogo": "Espanha x Bélgica",
-      "arquivo": "pdfs/2026-07-10/International_World_Cup/004_16h00_Espanha_x_Bélgica.pdf"
+      "arquivo": "pdfs/2026-07-10/International_World_Cup/011_16h00_Espanha_x_Bélgica.pdf"
     }
   ]
 }
