@@ -1,7 +1,7 @@
 {
   "data": "2026-07-10",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-07-09T06:30:53.129630",
+  "gerado_em": "2026-07-09T22:16:21.525411",
   "total_partidas_analisadas": 4,
   "entradas": [
     {
@@ -11,38 +11,39 @@
       "metodos_aplicados": [
         "over_limite_70",
         "back_2x2",
-        "lay_1x0"
+        "lay_1x0",
+        "lay_0x1"
       ],
       "mercado_principal": "Over Limite (+1 gol) ao vivo após 65min",
-      "probabilidade_estimada": "58%",
-      "fair_odd": "1.72",
-      "odd_minima_entrada": "2.00",
+      "probabilidade_estimada": "77% (Over 2.5 gols — média total 3.50 gols/jogo, ambos com histórico massivo de jogos abertos)",
+      "fair_odd": "1.30",
+      "odd_minima_entrada": "1.56",
       "media_gols_casa": "2.25",
       "media_gols_fora": "1.67",
       "odds_mercado": {
-        "casa": "1.65",
-        "empate": "4.20",
-        "fora": "4.20",
-        "dupla_chance_1x": "1.20",
+        "casa": "1.72",
+        "empate": "4.10",
+        "fora": "3.80",
+        "dupla_chance_1x": "1.22",
         "dupla_chance_12": "1.20",
-        "dupla_chance_x2": "2.20",
+        "dupla_chance_x2": "2.10",
         "over_05": "1.02",
         "under_05": "25.00",
         "over_15": "1.11",
-        "under_15": "6.70",
+        "under_15": "6.72",
         "over_25": "1.36",
         "under_25": "3.10"
       },
       "h2h_odds": {
-        "resumo_favorito_casa": "Super Fav: dados parciais | Favorito: 9V 3E 6D +0.8U (liga geral)",
-        "resumo_favorito_fora": "null",
-        "leitura": "Shandong tem retrospecto positivo como favorito (9V 3E 6D), mas com resultados inconsistentes — perdeu 4-0 para Yunnan em março/26 como visitante. Yunnan venceu esse confronto direto recente.",
+        "resumo_favorito_casa": "Super Fav: 9V 3E 6D +0.8U (dados gerais do H2H de Shandong)",
+        "resumo_favorito_fora": null,
+        "leitura": "Shandong tem retrospecto positivo no H2H geral (9V 3E 6D), mas o confronto direto mais recente (21/03/26) terminou 4-0 para Yunnan fora de casa — sinal de que Yunnan pode ser competitivo. Jogos de alto volume de gols predominam no H2H.",
         "jogos_relevantes": [
           {
             "data": "21/03/26",
             "confronto": "Yunnan Yukun FC x Shandong Luneng",
             "time_analisado": "Shandong Luneng",
-            "papel": "favorito",
+            "papel": "zebra",
             "odd": "2.20",
             "placar": "4-0",
             "resultado": "D",
@@ -50,6 +51,32 @@
             "gol_1t": false,
             "gol_2t": false,
             "nao_sofreu": false
+          },
+          {
+            "data": "14/03/26",
+            "confronto": "Shandong Luneng x Beijing Guoan",
+            "time_analisado": "Shandong Luneng",
+            "papel": "favorito",
+            "odd": "1.90",
+            "placar": "2-1",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "07/03/26",
+            "confronto": "Shandong Luneng x Shenyang Urban",
+            "time_analisado": "Shandong Luneng",
+            "papel": "favorito",
+            "odd": "1.60",
+            "placar": "3-0",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
           },
           {
             "data": "04/07/26",
@@ -74,7 +101,7 @@
             "resultado": "V",
             "marcou_primeiro": false,
             "gol_1t": false,
-            "gol_2t": true,
+            "gol_2t": false,
             "nao_sofreu": false
           },
           {
@@ -85,43 +112,17 @@
             "odd": "1.70",
             "placar": "0-5",
             "resultado": "V",
-            "marcou_primeiro": true,
-            "gol_1t": true,
-            "gol_2t": true,
-            "nao_sofreu": true
-          },
-          {
-            "data": "24/05/26",
-            "confronto": "Shandong Luneng x Wuhan Three Towns",
-            "time_analisado": "Shandong Luneng",
-            "papel": "super_favorito",
-            "odd": "1.44",
-            "placar": "3-3",
-            "resultado": "E",
             "marcou_primeiro": false,
-            "gol_1t": true,
-            "gol_2t": true,
-            "nao_sofreu": false
-          },
-          {
-            "data": "16/05/26",
-            "confronto": "Shandong Luneng x Chongqing Tongliang Long FC",
-            "time_analisado": "Shandong Luneng",
-            "papel": "super_favorito",
-            "odd": "1.33",
-            "placar": "3-1",
-            "resultado": "V",
-            "marcou_primeiro": true,
-            "gol_1t": true,
-            "gol_2t": true,
-            "nao_sofreu": false
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
           }
         ]
       },
       "alerta_odds": {
         "tipo": "neutro",
         "time": "Shandong Luneng",
-        "texto": "Shandong como favorito (odd 1.65 hoje): retrospecto misto — venceu bem em alguns jogos mas empatou 3-3 como super favorito (1.44) e perdeu 4-0 para o proprio Yunnan em março. Amostra dividida."
+        "texto": "Shandong como favorito (odd ~1.72): H2H geral 9V 3E 6D, mas perdeu 4-0 para Yunnan no confronto direto mais recente — amostra dividida no papel de favorito nessa faixa."
       },
       "jogadores": {
         "destaques_casa": [
@@ -133,20 +134,20 @@
         "destaques_fora": [
           "Oscar Taty Maritu — artilheiro com 12 gols e 3 assistências em 17 jogos, referência máxima",
           "Alexandru Ioniță — 3 gols e 9 assistências em 17 jogos, maior assistente do time",
-          "Cleber Bomfim de Jesus — 6 gols e 4 assistências em 17 jogos, segundo goleador",
-          "Caio Vinícius da Conceição — 2 gols e 1 assistência, suporte ofensivo"
+          "Cleber Bomfim de Jesus — 6 gols e 4 assistências em 17 jogos, segundo artilheiro",
+          "Caio Vinícius da Conceição — 2 gols e 1 assistência, apoio ofensivo"
         ],
         "titulares_casa": null,
         "titulares_fora": null,
         "ausencias_impacto": []
       },
-      "explicacao_curta": "Jogo de alto volume de gols: média total 3.50 gols/jogo, Over 2.5 em 77% dos jogos. Shandong marca 33% dos gols entre 61-75min — Over Limite ao vivo é o método principal.",
+      "explicacao_curta": "Média total de 3.50 gols/jogo, Over 2.5 em 77% dos jogos de Shandong e 78% de Yunnan. Shandong marca 33% dos gols entre 61-75min — gatilho perfeito para Over Limite ao vivo.",
       "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Jogo com perfil ofensivo claro (média 3.50 gols, Over 2.5 a 1.36). Over Limite ao vivo após 65min oferece valor real com gatilho objetivo.",
+      "valor_esperado": "Over 2.5 a 1.36 já confirma valor de mercado; Over Limite ao vivo após 65min captura odd melhor (1.60-2.20) com confirmação tática em campo.",
       "mercado_secundario": "Back 2x2 (placar exato 2x2)",
-      "odd_minima_secundaria": "12.00",
-      "desempenho_1t": "Shandong marca 1.00 gol/jogo no 1ºT; Yunnan sofre 0.89 gols/jogo no 1ºT",
-      "desempenho_2t": "Shandong marca 1.25 gols/jogo no 2ºT; Yunnan sofre 0.89 gols/jogo no 2ºT",
+      "odd_minima_secundaria": "10.00",
+      "desempenho_1t": "Shandong marca 1.00 gol/jogo no 1ºT; Yunnan sofre 0.89 gol/jogo no 1ºT",
+      "desempenho_2t": "Shandong marca 1.25 gols/jogo no 2ºT; Yunnan sofre 0.89 gol/jogo no 2ºT",
       "contexto_times": {
         "casa": {
           "posicao": "",
@@ -159,41 +160,44 @@
           "objetivo": "libertadores"
         }
       },
-      "motivacao_tecnica": "Shandong (7º, 21pts) recebe Yunnan (4º, 24pts) — visitante brigando por posição continental, mandante precisa vencer para não se distanciar. Ambos os times têm ataque produtivo: Crysan (11 gols) e Oscar Taty (12 gols) são artilheiros de alto nível. Média total de 3.50 gols/jogo e Over 2.5 em 77% dos jogos confirmam perfil ofensivo. Shandong marca 33% dos gols na faixa 61-75min — janela ideal para Over Limite ao vivo.",
-      "coeficiente_regularidade": "Casa: irregular (50% vitórias, 13% empates, 38% derrotas) / Visitante: irregular (33% vitórias, 22% empates, 44% derrotas)",
-      "mando_de_campo": "Shandong faz 50% de vitórias em casa nos últimos jogos analisados",
+      "motivacao_tecnica": "Shandong (7º, 21pts) recebe Yunnan (4º, 24pts) — visitante brigando por posição continental, mandante sem objetivo claro. Ambos os times têm médias ofensivas altas: Shandong 2.25 gols marcados/jogo, Yunnan 1.67. Defesas frágeis dos dois lados (Shandong sofre 1.25/jogo, Yunnan sofre 1.78/jogo). Over 2.5 em 75% dos jogos de Shandong e 78% de Yunnan. Shandong marca 33% dos seus gols entre 61-75min — janela ideal para Over Limite. Ambas Marcam em 88% dos jogos de Shandong e 89% de Yunnan.",
+      "coeficiente_regularidade": "Casa: alto volume ofensivo consistente / Visitante: ataque produtivo com artilheiro de elite (12 gols)",
+      "mando_de_campo": "Shandong em casa: 50% de vitórias, 2.25 gols marcados/jogo em casa",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo (sem informação de desfalques no material)",
-      "especificidades_gols": "Shandong concentra 33% dos gols marcados na faixa 61-75min. Yunnan tem Oscar Taty (12 gols) como referência ofensiva principal.",
-      "momento_gols": "Shandong: pico na faixa 61-75min (33% dos gols marcados). Yunnan: distribuição mais uniforme, com 25% sofridos na faixa 76-90min.",
-      "jogadores_chave": "Crysan (11G/5A - Shandong), Oscar Taty (12G/3A - Yunnan), Ioniță (9A - Yunnan), Carvalho (6G - Shandong)",
+      "desfalques_chave": "elenco completo (sem ausências identificadas no PDF)",
+      "especificidades_gols": "Shandong concentra 33% dos gols marcados entre 61-75min; Yunnan distribui gols ao longo do jogo com pico no 2ºT (76-90: 25% sofridos)",
+      "momento_gols": "Shandong: pico de gols marcados em 61-75min (33%); Yunnan: gols sofridos distribuídos com 20% em 76-90min",
+      "jogadores_chave": "Crysan (11G/5A - Shandong), Oscar Taty Maritu (12G/3A - Yunnan), Alexandru Ioniță (9A - Yunnan)",
       "placares_provaveis": "2x1, 3x1, 2x2, 3x2",
       "momento_entrada": "Over Limite: ao vivo após 65min. Back 2x2: pré-jogo.",
-      "situacao_saida": "Over Limite: cash-out se expulsão ou goleada consolidada. Back 2x2: cash-out em 1x1, parcial em 2x1 ou 1x2.",
-      "stake_recomendada": "1%",
+      "situacao_saida": "Over Limite: não entrar se 0x0, goleada consolidada ou expulsão. Back 2x2: cash-out total no 1x1, parcial no 2x1 ou 1x2.",
+      "stake_recomendada": "1% (Over Limite) / 0.5% (Back 2x2)",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo moderado do Shandong (1.65) com inconsistência recente — aguardar confirmação tática ao vivo antes de entrar no Over Limite",
-        "gatilho_saida_parcial": "Expulsão de qualquer jogador ou goleada consolidada (3+ gols de diferença)",
-        "hard_stop": "Saída total se jogo travar com 0x0 após 70min ou expulsão antes dos 65min"
+        "justificativa_abordagem": "Dois métodos complementares: Over Limite ao vivo captura gols tardios com confirmação em campo; Back 2x2 pré-jogo aproveita odd alta com perfil estatístico fortíssimo de ambas marcam e Over 2.5.",
+        "gatilho_saida_parcial": "Back 2x2: cash-out parcial ao chegar em 2x1 ou 1x2. Over Limite: sair se jogo travar por expulsão ou goleada.",
+        "hard_stop": "Back 2x2: cash-out total obrigatório no 1x1. Over Limite: não entrar se condições de armadilha presentes aos 65min."
       },
       "back_favorito": null,
       "lay_zebra": null,
       "over_limite_70": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "Marcado Shandong 61-75: 33% (>=25%)",
-          "Sofrido Yunnan 76-90: 25% (>=25%)"
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "mercado_espera_gols",
+          "motivacao"
         ],
-        "criterios_total": 4,
+        "criterios_total": 5,
         "modo": "ao_vivo",
-        "favorito_ou_motivacao": "Shandong Luneng — mandante com maior aproveitamento recente, brigando por posição na tabela",
-        "indices_gols_faixas": "Favorito Marcado 61-75: 33% | Favorito Marcado 76-90: 11% | Adversário Sofrido 61-75: 20% | Adversário Sofrido 76-90: 25%",
-        "qual_condicao_atende": "Condição (a): Marcado Shandong 61-75 = 33% >= 25%. Condição (d): Sofrido Yunnan 76-90 = 25% >= 25%.",
-        "motivo_motivacao": "Yunnan (4º) brigando por posição continental; Shandong (7º) precisa vencer para não se distanciar — ambos motivados.",
-        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5, 1-1 vira Mais 2.5)",
-        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1 ao entrar)",
-        "ponderacao_odds": "Over 2.5 a 1.36 confirma expectativa de jogo aberto pelo mercado. Over 1.5 a 1.11 reforça volume de gols esperado. Marcadores de gol no 2ºT do H2H mostram jogos com múltiplos gols na etapa final.",
+        "favorito_ou_motivacao": "Shandong Luneng — mandante com média 2.25 gols/jogo; Yunnan 4º brigando por posição continental",
+        "indices_gols_faixas": "Shandong Marcado 61-75: 33% | Shandong Marcado 76-90: 11% | Yunnan Sofrido 61-75: 20% | Yunnan Sofrido 76-90: 20%",
+        "qual_condicao_atende": "Condição (a): Shandong Marcado 61-75 = 33% (acima do limiar de 25%)",
+        "motivo_motivacao": "Yunnan 4º na tabela brigando por posição continental; desequilíbrio técnico com Shandong em casa e ataque de elite (Crysan 11 gols)",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1 aos 65min)",
+        "ponderacao_odds": "Over 2.5 a 1.36 — mercado precifica jogo de muitos gols com alta convicção. Gols no 2ºT em 89% dos jogos de Shandong reforça entrada tardia.",
+        "risco_principal": "Jogo pode estar empatado sem gols ou com goleada consolidada aos 65min, inviabilizando a entrada.",
         "odd_esperada": "1.60 a 2.20",
         "stake_recomendada": "1%",
         "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
@@ -201,16 +205,19 @@
       "back_2x2": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "Over 2.5 média 77% (>=60%)",
-          "Ambas Marcam 88-89% (>=60%)",
-          "Defesa frágil: Shandong sofre 1.25/jogo, Yunnan sofre 1.78/jogo (ambos >=1.2)"
+          "over25_>=60",
+          "btts_>=60",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "mercado_espera_gols"
         ],
-        "criterios_total": 3,
-        "razao": "Over 2.5 em 77% dos jogos combinados, Ambas Marcam em 88-89%, defesas frágeis dos dois lados — perfil clássico de 2x2.",
-        "indice_over_2_5": "77% média (Shandong 75%, Yunnan 78%)",
-        "indice_ambas_marcam": "88% média (Shandong 88%, Yunnan 89%)",
-        "indice_over_ht": "83% média (Shandong 88%, Yunnan 78%)",
-        "ponderacao_odds": "Over 2.5 a 1.36 — mercado confirma jogo de muitos gols. Ambas Marcam a 1.40 reforça o perfil de 2x2.",
+        "criterios_total": 6,
+        "razao": "Over 2.5 em 75-78% dos jogos de ambos, Ambas Marcam em 88-89%, defesas frágeis (Shandong sofre 1.25/jogo, Yunnan sofre 1.78/jogo), ataques produtivos (Shandong 2.25/jogo, Yunnan 1.67/jogo). Perfil estatístico ideal para 2x2.",
+        "indice_over_2_5": "77% média — Shandong 75%, Yunnan 78%",
+        "indice_ambas_marcam": "89% média — Shandong 88%, Yunnan 89%",
+        "indice_over_ht": "83% média — Shandong 88%, Yunnan 78%",
+        "ponderacao_odds": "Over 2.5 a 1.36 — mercado confirma jogo aberto. Ambas Marcam a 1.40 reforça perfil de 2x2.",
+        "risco_principal": "Placar pode ir para 3x0 ou 4x1 sem passar pelo 2x2, especialmente com Crysan e Maritu em campo.",
         "modo": "pre_jogo",
         "odd_alvo": "12.00",
         "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
@@ -220,37 +227,307 @@
       "lay_1x0": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "P(1-0) estimada ~8% — média total 3.50 gols (>=2.8)",
-          "Visitante Over 0.5: 89% (>65%)",
-          "Visitante marca em 89% dos jogos (>60%)",
-          "Média gols total 3.50 (>=2.5)",
-          "BTTS estimado ~88% (>50%)"
+          "p_1x0_<12",
+          "visit_over05_>65",
+          "visit_marca_>60",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro",
+          "visitante_pontua_h2h"
         ],
-        "criterios_total": 5,
+        "criterios_total": 7,
         "modo": "pre_jogo",
-        "prob_1_0_estimada": "8%",
-        "ponderacao_odds": "Under 1.5 a 6.70 — mercado espera 2+ gols com alta confiança. Over 2.5 a 1.36 reforça que 1x0 é placar improvável neste contexto.",
-        "visitante_over_0_5": "89%",
+        "prob_1_0_estimada": "6% (média total 3.50 gols/jogo — P(1-0) muito baixa por Poisson)",
+        "ponderacao_odds": "Under 1.5 a 6.72 — mercado espera 2+ gols com altíssima convicção. Over 2.5 a 1.36 reforça. Lay 1x0 tem valor claro.",
+        "risco_principal": "Shandong pode abrir 1-0 e Yunnan não conseguir empatar, especialmente se Maritu for contido.",
+        "visitante_over_0_5": "89% (Yunnan marca em 89% dos jogos)",
         "visitante_marca_pct": "89%",
         "media_gols_total": "3.50",
-        "btts_medio": "88%",
-        "razao": "Yunnan marca em 89% dos jogos com Oscar Taty (12 gols) como referência. Média total de 3.50 gols/jogo torna 1x0 extremamente improvável. Under 1.5 a 6.70 confirma.",
+        "btts_medio": "89%",
+        "razao": "Média de 3.50 gols/jogo torna 1x0 estatisticamente improvável (~6%). Yunnan marca em 89% dos jogos, BTTS em 89%. Under 1.5 a 6.72 confirma que mercado não espera jogo magro.",
         "odd_alvo": "10.50",
         "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
         "stake_recomendada": "2%"
       },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0x1_<12",
+          "mand_over05_>65",
+          "mand_marca_>60",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro",
+          "mandante_pontua_h2h"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "5% (média total 3.50 gols/jogo — P(0-1) muito baixa por Poisson)",
+        "ponderacao_odds": "Under 1.5 a 6.72 — mercado espera jogo de muitos gols. Shandong marca em 100% dos jogos em casa. Lay 0x1 tem valor claro.",
+        "risco_principal": "Yunnan pode surpreender com gol único de Maritu e Shandong não conseguir empatar — como ocorreu no H2H de março (4-0 para Yunnan).",
+        "mandante_over_0_5": "100% (Shandong marca em 100% dos jogos)",
+        "mandante_marca_pct": "100%",
+        "media_gols_total": "3.50",
+        "btts_medio": "89%",
+        "razao": "Shandong marca em 100% dos jogos, média total 3.50 gols/jogo. P(0-1) estimada em ~5%. Under 1.5 a 6.72 confirma que mercado não espera jogo de 1 gol.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Jogo aberto com ambos os times buscando o ataque — Shandong com posse alta (54%) e Yunnan com transições rápidas via Maritu e Ioniță",
+        "gatilhos_aceleracao": "Shandong pressionando alto após 60min, Yunnan subindo linhas para buscar resultado",
+        "alerta_armadilha": "Jogo travado por expulsão ou placar de goleada antes dos 65min inviabiliza Over Limite",
+        "mercado_recomendado": "Over Limite (+1 gol) ao vivo após 65min",
+        "momento_observacao": "65-75min — janela de pico de gols de Shandong (33% dos gols marcados nessa faixa)"
+      },
+      "_ev_pct": 20,
+      "_ev_odd": 1.56,
+      "_ev_base": "minima"
+    },
+    {
+      "horario": "20:00",
+      "liga": "Brazil Serie B",
+      "jogo": "Sport Recife x Botafogo SP",
+      "metodos_aplicados": [
+        "back_favorito",
+        "lay_zebra",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Vitória Sport Recife",
+      "probabilidade_estimada": "65%",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.72",
+      "media_gols_casa": "1.38",
+      "media_gols_fora": "0.50",
+      "odds_mercado": {
+        "casa": "1.75",
+        "empate": "3.40",
+        "fora": "5.00",
+        "dupla_chance_1x": "1.17",
+        "dupla_chance_12": "1.30",
+        "dupla_chance_x2": "1.91",
+        "over_05": "1.06",
+        "under_05": "8.50",
+        "over_15": "1.39",
+        "under_15": "2.97",
+        "over_25": "2.20",
+        "under_25": "1.65"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: dados parciais | Favorito: 12V 9E 6D +0.4U (geral do Sport nos últimos jogos com odds variadas)",
+        "resumo_favorito_fora": "Botafogo SP como visitante: 3V 1E 4D nos últimos 8 jogos fora (AVA V, CRB D, CEA V, OP V, VN D, PP E, AC D, GOI D)",
+        "leitura": "Sport tem retrospecto positivo geral (12V 9E 6D) mas com resultados recentes mistos como favorito. Botafogo SP fora de casa venceu apenas 3 dos últimos 8 jogos como visitante, com 4 derrotas.",
+        "jogos_relevantes": [
+          {
+            "data": "04/07/26",
+            "confronto": "Criciúma x Sport Recife",
+            "time_analisado": "Sport Recife",
+            "papel": "zebra",
+            "odd": "4.50",
+            "placar": "1-0",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "28/06/26",
+            "confronto": "Fortaleza x Sport Recife",
+            "time_analisado": "Sport Recife",
+            "papel": "zebra",
+            "odd": "4.50",
+            "placar": "2-1",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "30/05/26",
+            "confronto": "Sport Recife x Náutico",
+            "time_analisado": "Sport Recife",
+            "papel": "favorito",
+            "odd": "2.40",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "27/05/26",
+            "confronto": "Sport Recife x Fortaleza",
+            "time_analisado": "Sport Recife",
+            "papel": "parelho",
+            "odd": "2.80",
+            "placar": "0-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "10/06/26",
+            "confronto": "Sport Recife x Athletic Club",
+            "time_analisado": "Sport Recife",
+            "papel": "favorito",
+            "odd": "1.95",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "03/05/26",
+            "confronto": "Sport Recife x Ceará",
+            "time_analisado": "Sport Recife",
+            "papel": "favorito",
+            "odd": "2.20",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": true
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "Sport Recife",
+        "texto": "Sport como favorito (odds ~1.75-2.40): histórico dividido — venceu Náutico (2-0) e Ceará (2-0), mas empatou com Athletic (1-1) e perdeu para Fortaleza (0-2). Amostra recente não é dominante."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Pedro Henrique Perotti — artilheiro com 7 gols em 15 jogos",
+          "Chrystian Barletta — 6 gols e 3 assistências, referência ofensiva",
+          "Andre Felipe de Almeida — 1 gol e 2 assistências, criação"
+        ],
+        "destaques_fora": [
+          "Everton Morelli Casemiro — artilheiro do Botafogo SP com 7 gols em 15 jogos",
+          "Rafael Gustavo Meneghel Gava — 1 gol e 4 assistências, principal criador",
+          "Hygor Cleber Garcia Silva — 5 gols em 11 jogos, atacante decisivo"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Sport em casa (8º, 25pts) contra Botafogo SP (14º, 19pts) com aproveitamento de 25% fora. Odd 1.75 confirma favoritismo e Sport marca 36% dos gols na reta final (76-90min).",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 65% → fair 1.54; odd de mercado 1.75 está acima da mínima de 1.72 — EV positivo confirmado.",
+      "mercado_secundario": "Lay Botafogo SP",
+      "odd_minima_secundaria": "4.00",
+      "desempenho_1t": "Sport marca 0.38 gols/jogo no 1ºT; Botafogo SP marca 0.13 gols/jogo no 1ºT como visitante",
+      "desempenho_2t": "Sport marca 1.00 gol/jogo no 2ºT; 36% dos gols do Sport ocorrem entre 76-90min",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "posicao_geral": "8º",
+          "objetivo": "sul_americana"
+        },
+        "fora": {
+          "posicao": "",
+          "posicao_geral": "14º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Sport Recife está em 8º lugar com 25 pontos, brigando por posição na zona de classificação para Sul-Americana. Botafogo SP está em 14º com 19 pontos, sem objetivo imediato relevante. Sport em casa tem aproveitamento de 38% de vitórias nos últimos 8 jogos gerais, mas como mandante tem vantagem clara de mando. Botafogo SP fora venceu apenas 25% dos últimos 8 jogos como visitante (2V 1E 5D: AVA V, CRB D, CEA V, OP V, VN D, PP E, AC D, GOI D — 3V 1E 4D). Sport tem artilheiros em forma: Perotti (7 gols) e Barletta (6 gols). Botafogo SP sofre 0.75 gols/jogo fora. Tabela de gols mostra Sport marcando 36% dos seus gols entre 76-90min — padrão de gols tardios favorável ao Over Limite.",
+      "coeficiente_regularidade": "Sport: aproveitamento 63% em casa (estimado) / Botafogo SP: aproveitamento 25% fora",
+      "mando_de_campo": "Sport marca 1.38 gols/jogo em casa; Botafogo SP sofre 0.75 gols/jogo fora",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "Sem informações de desfalques específicos no material",
+      "especificidades_gols": "Sport concentra 36% dos gols marcados na faixa 76-90min. Botafogo SP marca apenas 0.50 gols/jogo fora.",
+      "momento_gols": "Sport: 36% dos gols marcados entre 76-90min (4 gols nessa faixa). Botafogo SP sofrido: 33% entre 61-75min como visitante.",
+      "jogadores_chave": "Perotti (7G), Barletta (6G+3A) pelo Sport; Everton Casemiro (7G), Hygor (5G) pelo Botafogo SP",
+      "placares_provaveis": "1x0, 2x0, 2x1",
+      "momento_entrada": "Pré-jogo ou ao vivo após confirmação de domínio do Sport nos primeiros 15min",
+      "situacao_saida": "Cash-out parcial se Botafogo SP marcar primeiro; manter se Sport abrir placar",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Odd 1.75 está marginalmente acima da mínima (1.72) — EV positivo mas estreito. Ao vivo permite confirmar domínio do Sport antes de entrar.",
+        "gatilho_saida_parcial": "Botafogo SP marcar primeiro ou Sport não criar chances nos primeiros 20min",
+        "hard_stop": "Saída total se Botafogo SP abrir 2-0 ou Sport tiver expulsão"
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_vitoria_>=65",
+          "odd_favorito_<=1.80",
+          "mando_ou_superioridade",
+          "adversario_ma_fase",
+          "ev_positivo"
+        ],
+        "criterios_total": 8,
+        "modo": "ao_vivo",
+        "favorito": "Sport Recife",
+        "odd_alvo": "1.75",
+        "razao": "Sport em casa (8º) contra Botafogo SP (14º) com apenas 25% de aproveitamento fora. Odd 1.75 confirma favoritismo e está acima da fair odd de 1.54.",
+        "ponderacao_odds": "Odd 1.75 real confirma favoritismo; Botafogo SP venceu apenas 3 dos últimos 8 como visitante — reforça o back. H2H mostra Sport entregando vitórias como favorito em casa (2-0 vs Náutico, 2-0 vs Ceará).",
+        "risco_principal": "Sport tem histórico recente de empates em casa (1-1 vs Athletic, 1-1 vs Atlético GO) — risco de não converter domínio em vitória.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "odd_zebra_>=5.00",
+          "prob_zebra_<=20",
+          "zebra_ma_fase",
+          "favorito_consistente"
+        ],
+        "criterios_total": 7,
+        "modo": "ao_vivo",
+        "zebra": "Botafogo SP",
+        "favorito_do_jogo": "Sport Recife",
+        "ponderacao_odds": "Odd 5.00 do Botafogo SP confirma zebra de mercado. Botafogo SP venceu apenas 25% dos jogos fora (2V 1E 5D nos últimos 8) — lay reforçado.",
+        "risco_principal": "Botafogo SP tem Everton Casemiro (7 gols) e Hygor (5 gols) — ataque capaz de surpreender mesmo fora de casa.",
+        "razao": "Botafogo SP fora de casa com aproveitamento de 25% (2V 1E 5D nos últimos 8 jogos), sofre gols em 75% dos jogos como visitante. Odd 5.00 confirma zebra. Lay ganha se Sport vencer ou empatar.",
+        "gatilho_ao_vivo": "Lay após Botafogo SP marcar primeiro (odd inflará ainda mais) ou entrar pré-jogo aproveitando odd 5.00",
+        "stake_recomendada": "2%"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Sport Recife — brigando por posição na tabela (8º, zona de classificação continental)",
+        "indices_gols_faixas": "Sport Marcado 76-90: 36% (4 gols de 11 totais) | Sport Marcado 61-75: 9% | Botafogo SP Sofrido 61-75: 33% (como visitante) | Botafogo SP Sofrido 76-90: 17%",
+        "qual_condicao_atende": "Condição: Sport Marcado 76-90 = 36% >= 25% — atende o critério principal",
+        "motivo_motivacao": "Sport em 8º brigando por vaga continental vs Botafogo SP em 14º sem objetivo claro — desequilíbrio motivacional favorece pressão do Sport no final",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1 aos 65min)",
+        "ponderacao_odds": "Over 2.5 a 2.20 (mercado espera jogo de poucos gols) — odd alta para Over reduz valor, mas padrão de gols tardios do Sport (36% entre 76-90) justifica entrada ao vivo após 65min.",
+        "risco_principal": "Média total de gols baixa (2.26 combinada, com Botafogo SP marcando apenas 0.50/jogo fora) — risco de jogo travado com poucos gols.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
       "lay_0x1": null,
       "confirmacao_visual": {
         "aplicavel": true,
-        "perfil_tatico": "Jogo aberto com ambos os times buscando o gol — Shandong com posse (54%) e Yunnan com transições rápidas via Oscar Taty",
-        "gatilhos_aceleracao": "Shandong pressionando alto após 60min, Yunnan buscando contra-ataque com Oscar Taty",
-        "alerta_armadilha": "Cuidado se jogo travar em 0x0 após 65min ou se houver expulsão — Over Limite perde valor imediatamente",
-        "mercado_recomendado": "Over Limite (+1 gol) ao vivo após 65min",
-        "momento_observacao": "65-75min"
+        "perfil_tatico": "Sport deve pressionar com posse (52%) e volume de finalizações (13.38 chutes/jogo). Botafogo SP tende a retrair fora de casa.",
+        "gatilhos_aceleracao": "Sport dominando posse, criando escanteios e finalizações nos primeiros 15min",
+        "alerta_armadilha": "Botafogo SP marcando primeiro — pode mudar dinâmica e travar o jogo",
+        "mercado_recomendado": "Back Favorito (Vitória Sport) ao vivo após confirmação de domínio",
+        "momento_observacao": "Primeiros 15-20 minutos de jogo"
       },
-      "_ev_pct": 16,
-      "_ev_odd": 2.0,
-      "_ev_base": "minima"
+      "_ev_pct": 14,
+      "_ev_odd": 1.75,
+      "_ev_base": "mercado"
     },
     {
       "horario": "19:00",
@@ -275,15 +552,15 @@
         "dupla_chance_x2": "1.91",
         "over_05": "1.10",
         "under_05": "6.82",
-        "over_15": "1.47",
-        "under_15": "2.66",
+        "over_15": "1.48",
+        "under_15": "2.68",
         "over_25": "2.40",
         "under_25": "1.53"
       },
       "h2h_odds": {
-        "resumo_favorito_casa": "Super Fav: dados parciais | Favorito: inclui vitórias como 3-0 (odd 1.40), 3-0 (odd 1.95), 2-0 (odd 1.83) | Parelho: 0-0 (odd 2.20), 0-1 (odd 2.10) | Zebra: 1-1 (odd 2.87), 1-1 (odd 2.80) | Geral: 10V 6E 5D +0.4U",
-        "resumo_favorito_fora": "Vila Nova como visitante: 8 jogos recentes — 5V 1E 2D (SB 2-1V, NOV 1-2D, NAU 4-3V, CUI 0-1D, BS 1-0V, LON 1-0V, AM 2-1V, AVA 2-0V)",
-        "leitura": "Juventude entrega como favorito em casa (10V 6E 5D geral, com vitórias claras como 3-0 e 2-0 em odds similares). Vila Nova surpreende como visitante com 5V nos últimos 8 fora — cuidado com o lay zebra.",
+        "resumo_favorito_casa": "Super Fav + Favorito + Parelho: 10V 6E 5D +0.4U (historico geral do Juventude como mandante no H2H)",
+        "resumo_favorito_fora": null,
+        "leitura": "Juventude tem retrospecto positivo como mandante (10V 6E 5D), mas a odd 1.83 indica favoritismo moderado. Vila Nova chega como 2º colocado na tabela geral, o que contrasta com a odd de zebra 4.75.",
         "jogos_relevantes": [
           {
             "data": "28/06/26",
@@ -295,7 +572,7 @@
             "resultado": "V",
             "marcou_primeiro": true,
             "gol_1t": true,
-            "gol_2t": true,
+            "gol_2t": false,
             "nao_sofreu": true
           },
           {
@@ -351,16 +628,16 @@
             "nao_sofreu": true
           },
           {
-            "data": "05/07/26",
-            "confronto": "Náutico x Juventude",
+            "data": "11/04/26",
+            "confronto": "Juventude x Goiás",
             "time_analisado": "Juventude",
-            "papel": "zebra",
-            "odd": "3.40",
-            "placar": "0-0",
-            "resultado": "E",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
+            "papel": "favorito",
+            "odd": "2.25",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
             "nao_sofreu": true
           }
         ]
@@ -368,32 +645,32 @@
       "alerta_odds": {
         "tipo": "positivo",
         "time": "Juventude",
-        "texto": "Juventude entrega como favorito cotado em ~1.83: venceu Ceará 2-0 e Londrina 1-0 nessa mesma faixa de odd — histórico favorável."
+        "texto": "Juventude entrega como favorito em casa: venceu por 2-0 e 3-0 quando cotado a 1.83 e 1.95 recentemente — retrospecto reforça a entrada."
       },
       "jogadores": {
         "destaques_casa": [
-          "Rai da Silva Pessanha — 3 gols e 1 assistência em 16 jogos, referência ofensiva",
-          "Alisson Pelegrini Safira — 3 gols e 1 assistência em 15 jogos, atacante decisivo",
-          "Marcos Paulo Costa do Nascimento — 3 gols em 12 jogos, eficiência alta",
-          "Alan Kardec — 2 gols e 1 assistência, referência de área"
+          "Rai da Silva Pessanha — 3 gols e 1 assist em 16 jogos, referencia ofensiva",
+          "Alisson Pelegrini Safira — 3 gols e 1 assist em 15 jogos, atacante decisivo",
+          "Marcos Paulo Costa do Nascimento — 3 gols em 12 jogos, produtivo",
+          "Alan Kardec — 2 gols e 1 assist, referencia de area"
         ],
         "destaques_fora": [
-          "Janderson Santos de Souza — 5 gols e 4 assistências em 15 jogos, principal criador",
-          "Ryan Aparecido Lima Cassiano — 4 gols e 2 assistências, atacante produtivo",
-          "Marcos Gabriel do Nascimento — 2 gols e 4 assistências, meia criativo",
-          "André Luis da Costa Alfredo — 3 gols em 9 jogos, eficiência alta como reserva"
+          "Janderson Santos de Souza — 5 gols e 4 assists em 15 jogos, principal criador e finalizador",
+          "Ryan Aparecido Lima Cassiano — 4 gols e 2 assists em 15 jogos, atacante produtivo",
+          "Marcos Gabriel do Nascimento — 2 gols e 4 assists, meia criativo",
+          "André Luis da Costa Alfredo — 3 gols em 9 jogos, eficiente"
         ],
         "titulares_casa": null,
         "titulares_fora": null,
         "ausencias_impacto": []
       },
-      "explicacao_curta": "Juventude em casa (6º geral) recebe Vila Nova (1º geral) com odd 1.83 confirmando favoritismo. Histórico de 10V 6E 5D como mandante e vitórias em odds similares reforçam a entrada.",
+      "explicacao_curta": "Juventude em casa (6º geral) contra Vila Nova (2º geral mas zebra a 4.75). Mandante com 63% de aproveitamento em casa e defesa sólida (0.13 gols sofridos/jogo em casa).",
       "alerta_geral": null,
-      "valor_esperado": "Prob. 62% → fair 1.61; com margem de segurança de ~12%, mínimo 1.80. Odd de mercado 1.83 está acima do mínimo — EV positivo confirmado.",
-      "mercado_secundario": "Lay Vila Nova (Lay Zebra)",
+      "valor_esperado": "Prob. 62% → fair 1.61; odd de mercado 1.83 supera a mínima de 1.80 — EV positivo confirmado.",
+      "mercado_secundario": "Lay Vila Nova",
       "odd_minima_secundaria": "4.50",
-      "desempenho_1t": "Juventude marca 0.88 gols/jogo no 1ºT em casa; 63% dos jogos têm gol no 1ºT",
-      "desempenho_2t": "Vila Nova sofre 0.50 gols/jogo no 2ºT fora; 50% dos jogos têm gol no 2ºT",
+      "desempenho_1t": "Juventude marca 0.88 gols/jogo no 1ºT em casa; 63% dos jogos tem gol no 1ºT",
+      "desempenho_2t": "Vila Nova sofre 0.50 gols/jogo no 2ºT fora; Juventude marca 0.38 no 2ºT em casa",
       "contexto_times": {
         "casa": {
           "posicao": "",
@@ -402,314 +679,157 @@
         },
         "fora": {
           "posicao": "",
-          "posicao_geral": "1º",
+          "posicao_geral": "2º",
           "objetivo": "titulo"
         }
       },
-      "motivacao_tecnica": "Juventude é 6º com 26 pontos, brigando por vaga na zona de acesso/Libertadores. Vila Nova é líder com 31 pontos — jogo de alto impacto para ambos. Juventude em casa tem aproveitamento de 63% (5V 1E 2D nos últimos 8 em casa), marcando 1.38 gols/jogo e sofrendo apenas 0.13. Vila Nova fora tem 5V nos últimos 8, mas enfrenta uma defesa sólida do Juventude. Odd 1.83 está acima da fair odd estimada de 1.61, gerando EV positivo.",
-      "coeficiente_regularidade": "Casa: CV baixo (defesa muito sólida, 0.13 gols sofridos/jogo em casa) / Visitante: CV moderado (ataque produtivo mas defesa exposta fora)",
-      "mando_de_campo": "Juventude venceu 63% dos jogos em casa nos últimos 8, com 5 vitórias e apenas 1 gol sofrido no total",
+      "motivacao_tecnica": "Juventude é 6º colocado com 26 pontos e briga por posição de acesso/Libertadores. Vila Nova é surpreendente 2º colocado (31 pontos), o que torna a odd 4.75 questionável — o mercado pode estar subestimando o visitante. Porém, como MANDANTE, Juventude tem aproveitamento de 63% (5V 1E 2D em 8 jogos em casa), defesa muito sólida (apenas 1 gol sofrido em 8 jogos em casa, 0.13/jogo) e ataque eficiente (11 gols em casa, 1.38/jogo). Vila Nova FORA tem aproveitamento de 38% (3V 1E 4D em 8 jogos), sofrendo 1.13 gols/jogo como visitante. O mando de campo é fator decisivo aqui.",
+      "coeficiente_regularidade": "Casa: aproveitamento consistente 63% / Visitante: irregular fora (38%)",
+      "mando_de_campo": "Juventude faz 63% dos resultados positivos em casa; defesa com apenas 1 gol sofrido em 8 jogos",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo (sem informação de desfalques no PDF)",
-      "especificidades_gols": "Juventude marca concentrado no 1ºT (7 gols no 1ºT vs 4 no 2ºT em casa). Vila Nova marca distribuído entre os tempos fora.",
-      "momento_gols": "Juventude: pico de gols marcados em 31-45min (27%) e 0-15/16-30 (18% cada). Vila Nova fora: pico em 61-75 (44% dos gols marcados) e 76-90 (11%)",
-      "jogadores_chave": "Rai Pessanha (3G+1A), Alisson Safira (3G+1A) pelo Juventude; Janderson (5G+4A), Ryan Cassiano (4G+2A) pelo Vila Nova",
-      "placares_provaveis": "1-0, 2-0, 2-1",
-      "momento_entrada": "Pré-jogo (odd 1.83 já atrativa) ou ao vivo após confirmação de domínio do Juventude nos primeiros 15min",
-      "situacao_saida": "Cash-out parcial se Vila Nova marcar primeiro; cash-out total se placar 0-1 após 60min",
+      "desfalques_chave": "Nenhuma ausência de impacto identificada no PDF para ambos os times",
+      "especificidades_gols": "Juventude marca concentrado no 1ºT (7 gols no 1ºT vs 4 no 2ºT em casa). Vila Nova tem ataque produtivo fora (9 gols em 8 jogos) mas defesa vazada (9 sofridos)",
+      "momento_gols": "Juventude: pico de gols marcados em 31-45min (27%) e 0-15/16-30 (18% cada). Vila Nova sofrido: pico em 76-90 (44%) e 31-45/0-15 (22% cada)",
+      "jogadores_chave": "Janderson (5G+4A) e Ryan (4G+2A) pelo Vila Nova; Rai (3G), Alisson (3G) e Marcos Paulo (3G) pelo Juventude",
+      "placares_provaveis": "1x0, 2x0, 2x1",
+      "momento_entrada": "Pre-jogo (odd 1.83 ja acima da minima 1.80) OU ao vivo apos confirmar dominio do Juventude nos primeiros 15min",
+      "situacao_saida": "Cash-out parcial se Vila Nova marcar primeiro; manter se Juventude abrir 2-0",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Odd 1.83 está acima da mínima de 1.80 com margem pequena — aguardar confirmação tática nos primeiros 15min ao vivo pode melhorar a odd ou confirmar domínio",
-        "gatilho_saida_parcial": "Vila Nova marcar primeiro ou Juventude ter jogador expulso",
-        "hard_stop": "Saída total se placar 0-1 após 60min ou expulsão do Juventude"
+        "justificativa_abordagem": "Odd 1.83 esta no limite minimo aceitavel (1.80); ao vivo pode oferecer melhor valor apos confirmar dominio tatico do Juventude",
+        "gatilho_saida_parcial": "Vila Nova marcar primeiro ou Juventude levar cartao vermelho",
+        "hard_stop": "Saida total se Vila Nova abrir 2-0 ou jogo chegar ao intervalo 0-0 sem dominio claro do Juventude"
       },
       "back_favorito": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_estimada_62%_acima_de_60%",
-          "em_casa_com_63%_aproveitamento",
-          "adversario_Vila_Nova_38%_aproveitamento_fora_abaixo_de_35%_nao_atende_mas_defesa_solida_compensa",
-          "liga_Brazil_Serie_B_permitida"
+          "prob_vitoria_>=65",
+          "odd_favorito_<=1.80",
+          "mando_ou_superioridade",
+          "adversario_ma_fase",
+          "elenco_completo",
+          "ev_positivo"
         ],
-        "criterios_total": 4,
+        "criterios_total": 8,
         "modo": "ao_vivo",
         "favorito": "Juventude",
         "odd_alvo": "1.83",
-        "razao": "Juventude em casa com 63% de aproveitamento, defesa sólida (0.13 gols sofridos/jogo), contra Vila Nova que mesmo líder tem 38% de aproveitamento fora. Odd 1.83 confirma favoritismo.",
-        "ponderacao_odds": "Odd 1.83 confirma favoritismo moderado. H2H mostra Juventude com 10V 6E 5D geral e vitórias em odds similares (1.83 vs Ceará 2-0, 1.83 vs Londrina 1-0) — entrega como favorito nessa faixa.",
+        "razao": "Juventude em casa com 63% de aproveitamento e defesa solida (0.13 gols sofridos/jogo). Vila Nova tem apenas 38% de aproveitamento fora e sofre 1.13 gols/jogo como visitante.",
+        "ponderacao_odds": "Odd 1.83 confirma favoritismo moderado e supera a fair odd de 1.61. Historico como favorito em casa: 4V nos ultimos 5 jogos como mandante favorito — entrega. Porem Vila Nova e 2º na tabela geral, o que justifica modo ao_vivo para confirmar dominio.",
+        "risco_principal": "Vila Nova e 2º colocado na tabela geral com ataque produtivo (Janderson 5G+4A) — pode surpreender mesmo fora de casa.",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "odd_Vila_Nova_4.75_proxima_de_5.00",
-          "Vila_Nova_fora_tem_38%_de_derrotas_nos_ultimos_8",
-          "liga_Brazil_Serie_B_permitida"
+          "odd_zebra_>=5.00",
+          "zebra_ma_fase",
+          "favorito_consistente"
         ],
-        "criterios_total": 3,
+        "criterios_total": 7,
         "modo": "ao_vivo",
         "zebra": "Vila Nova",
         "favorito_do_jogo": "Juventude",
-        "ponderacao_odds": "Odd 4.75 está ligeiramente abaixo do limiar de 5.00 — Vila Nova é líder e tem 5V nos últimos 8 fora, o que enfraquece o lay. Aplicar apenas ao vivo se Vila Nova marcar primeiro (odd sobe acima de 5.00).",
-        "razao": "Vila Nova visitante com odd 4.75, enfrentando Juventude sólido em casa. Mesmo sendo líder, Vila Nova tem 2 derrotas nos últimos 8 fora e defesa exposta (1.13 gols sofridos/jogo fora). Lay ao vivo após gol da zebra captura odd mais alta.",
-        "gatilho_ao_vivo": "Lay Vila Nova ao vivo SOMENTE após Vila Nova marcar primeiro — odd sobe acima de 5.00 e captura valor real",
+        "ponderacao_odds": "Odd da zebra Vila Nova e 4.75 no mercado — ligeiramente abaixo do limiar de 5.00, mas proximo. Vila Nova tem 38% de aproveitamento fora (3V 1E 4D em 8 jogos), sofrendo em 75% dos jogos como visitante.",
+        "risco_principal": "Vila Nova e 2º colocado geral com 31 pontos e ataque forte (Janderson 5G+4A) — risco real de pontuar fora.",
+        "razao": "Vila Nova tem aproveitamento de apenas 38% fora de casa, sofre gols em 75% dos jogos como visitante e enfrenta um Juventude solido em casa. Odd 4.75 proxima do limiar de 5.00.",
+        "gatilho_ao_vivo": "Lay apos Vila Nova marcar primeiro (odd da zebra inflara ainda mais, melhorando o valor do lay)",
         "stake_recomendada": "2%"
       },
-      "over_limite_70": null,
-      "back_2x2": null,
-      "back_goleada": null,
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": "Juventude Marcado 61-75: 9% | 76-90: 9% | Vila Nova Sofrido 61-75: 0% | 76-90: 44%",
+        "qual_condicao_atende": "Nenhuma das 4 celulas do Juventude (mandante) atinge 25% nas faixas 61-75 ou 76-90. Vila Nova sofrido 76-90 e 44% mas refere-se ao Vila Nova como mandante, nao como visitante neste jogo.",
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": "1%",
+        "alerta_armadilha": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": "pre_jogo",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": "1%"
+      },
       "lay_1x0": {
         "aplicavel": false,
         "criterios_atendidos": [
-          "media_gols_total_2.51_acima_de_2.5",
-          "visitante_marca_em_75%_dos_jogos_acima_de_60%",
-          "btts_estimado_44%_nao_atende"
+          "p_1x0_<12",
+          "visit_over05_>65",
+          "visit_marca_>60",
+          "media_total_>=2.5",
+          "btts_>50"
         ],
-        "criterios_total": 5,
+        "criterios_total": 7,
         "modo": "pre_jogo",
-        "prob_1_0_estimada": "11%",
-        "ponderacao_odds": "Under 1.5 a 2.66 — mercado espera 2+ gols, reforça que 1-0 é improvável. Over 2.5 a 2.40 indica jogo de gols moderado. Vila Nova marca em 75% dos jogos fora — visitante competitivo ofensivamente.",
+        "prob_1_0_estimada": "10%",
+        "ponderacao_odds": "Under 1.5 a 2.68 — mercado nao espera jogo magro, reforça o lay. Over 2.5 a 2.40 indica expectativa de jogo com gols. Vila Nova marca em 75% dos jogos fora (Over 0.5 gols sofridos pelo Juventude em casa: 12% apenas — defesa solida, mas Vila Nova tem ataque forte).",
+        "risco_principal": "Juventude tem defesa muito solida em casa (0.13 gols sofridos/jogo) — risco real de jogo terminar 1-0.",
         "visitante_over_0_5": "75%",
         "visitante_marca_pct": "75%",
         "media_gols_total": "2.51",
-        "btts_medio": "44%",
-        "razao": "Vila Nova marca em 75% dos jogos fora e tem ataque produtivo (Janderson 5G+4A, Ryan 4G+2A). Média total de 2.51 gols/jogo. Under 1.5 a 2.66 confirma que mercado espera mais de 1 gol. Placar 1-0 é improvável dado o poder ofensivo do visitante.",
+        "btts_medio": "50%",
+        "razao": "Vila Nova marca em 75% dos jogos fora e tem ataque produtivo (Janderson 5G+4A). Media total de gols 2.51 e Under 1.5 caro (2.68) indicam jogo com mais de 1 gol — improvavel terminar exatamente 1-0.",
         "odd_alvo": "10.50",
-        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou apos 60min sem gol",
         "stake_recomendada": "2%",
-        "razao_reprovacao": "ambas marcam 44% (precisa >50%)"
+        "razao_reprovacao": "ambas marcam 50% (precisa >50%)"
       },
-      "lay_0x1": null,
-      "confirmacao_visual": {
-        "aplicavel": true,
-        "perfil_tatico": "Juventude deve pressionar alto em casa, buscando gol rápido no 1ºT (pico em 31-45min). Vila Nova tende a explorar contra-ataques.",
-        "gatilhos_aceleracao": "Juventude com posse alta, linhas subidas, pressão no campo adversário nos primeiros 15min",
-        "alerta_armadilha": "Vila Nova tem Janderson e Ryan como ameaça real em contra-ataque — um gol do visitante muda o cenário completamente",
-        "mercado_recomendado": "Back Favorito (Vitória Juventude) ao vivo após confirmar domínio",
-        "momento_observacao": "Primeiros 15-20 minutos de jogo"
-      },
-      "_ev_pct": 13,
-      "_ev_odd": 1.83,
-      "_ev_base": "mercado"
-    },
-    {
-      "horario": "20:00",
-      "liga": "Brazil Serie B",
-      "jogo": "Sport Recife x Botafogo SP",
-      "metodos_aplicados": [
-        "back_favorito",
-        "over_limite_70"
-      ],
-      "mercado_principal": "Vitória Sport Recife",
-      "probabilidade_estimada": "62%",
-      "fair_odd": "1.61",
-      "odd_minima_entrada": "1.80",
-      "media_gols_casa": "1.38",
-      "media_gols_fora": "0.50",
-      "odds_mercado": {
-        "casa": "1.83",
-        "empate": "3.30",
-        "fora": "4.50",
-        "dupla_chance_1x": "1.20",
-        "dupla_chance_12": "1.30",
-        "dupla_chance_x2": "1.91",
-        "over_05": "1.06",
-        "under_05": "8.50",
-        "over_15": "1.40",
-        "under_15": "2.90",
-        "over_25": "2.25",
-        "under_25": "1.61"
-      },
-      "h2h_odds": {
-        "resumo_favorito_casa": "Super Fav: dados não separados por papel no PDF | Geral H2H: 12V 9E 6D +0.4U",
-        "resumo_favorito_fora": null,
-        "leitura": "Sport tem retrospecto geral positivo no H2H (12V 9E 6D), mas nos últimos 2 jogos como zebra/visitante perdeu para Criciúma (4.50) e Fortaleza (4.50). Como favorito em casa, histórico recente mostra resultados mistos (1-1 vs Athletic, 2-0 vs Náutico, 0-2 vs Fortaleza, 1-0 vs Novorizontino).",
-        "jogos_relevantes": [
-          {
-            "data": "04/07/26",
-            "confronto": "Criciúma x Sport Recife",
-            "time_analisado": "Sport Recife",
-            "papel": "zebra",
-            "odd": "4.50",
-            "placar": "1-0",
-            "resultado": "D",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "28/06/26",
-            "confronto": "Fortaleza x Sport Recife",
-            "time_analisado": "Sport Recife",
-            "papel": "zebra",
-            "odd": "4.50",
-            "placar": "2-1",
-            "resultado": "D",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "10/06/26",
-            "confronto": "Sport Recife x Athletic Club",
-            "time_analisado": "Sport Recife",
-            "papel": "favorito",
-            "odd": "1.95",
-            "placar": "1-1",
-            "resultado": "E",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "30/05/26",
-            "confronto": "Sport Recife x Náutico",
-            "time_analisado": "Sport Recife",
-            "papel": "favorito",
-            "odd": "2.40",
-            "placar": "2-0",
-            "resultado": "V",
-            "marcou_primeiro": true,
-            "gol_1t": false,
-            "gol_2t": true,
-            "nao_sofreu": true
-          },
-          {
-            "data": "27/05/26",
-            "confronto": "Sport Recife x Fortaleza",
-            "time_analisado": "Sport Recife",
-            "papel": "parelho",
-            "odd": "2.80",
-            "placar": "0-2",
-            "resultado": "D",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "25/04/26",
-            "confronto": "Sport Recife x Novorizontino",
-            "time_analisado": "Sport Recife",
-            "papel": "parelho",
-            "odd": "2.40",
-            "placar": "1-0",
-            "resultado": "V",
-            "marcou_primeiro": true,
-            "gol_1t": false,
-            "gol_2t": true,
-            "nao_sofreu": true
-          }
-        ]
-      },
-      "alerta_odds": {
-        "tipo": "neutro",
-        "time": "Sport Recife",
-        "texto": "Sport como favorito em casa (odd ~1.83-2.40): resultados mistos recentes — 1V 2E 1D nessa faixa, incluindo empate com Athletic (1.95) e vitória sobre Náutico (2.40). Histórico dividido exige confirmação ao vivo."
-      },
-      "jogadores": {
-        "destaques_casa": [
-          "Pedro Henrique Perotti — artilheiro com 7 gols em 15 jogos",
-          "Chrystian Barletta — 6 gols e 3 assistências, referência ofensiva",
-          "Andre Felipe de Almeida — 1 gol e 2 assistências, criação"
-        ],
-        "destaques_fora": [
-          "Everton Morelli Casemiro — artilheiro com 7 gols em 15 jogos",
-          "Rafael Gustavo Meneghel Gava — 1 gol e 4 assistências, principal criador",
-          "Hygor Cleber Garcia Silva — 5 gols em 11 jogos, referência ofensiva",
-          "Patrick de Carvalho Brey — 1 gol e 3 assistências"
-        ],
-        "titulares_casa": null,
-        "titulares_fora": null,
-        "ausencias_impacto": []
-      },
-      "explicacao_curta": "Sport 8º na tabela recebe Botafogo SP 14º. Favoritismo confirmado pela odd 1.83. Sport marca 1.38 gols/jogo em casa; Botafogo SP vence apenas 25% fora e marca 0.50 gols/jogo como visitante.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Prob. 62% → fair 1.61; com margem de segurança de ~12%, mínimo aceitável 1.80. Odd de mercado 1.83 está acima do mínimo — EV positivo confirmado.",
-      "mercado_secundario": "Over Limite +1 gol (ao vivo após 65min)",
-      "odd_minima_secundaria": "1.60",
-      "desempenho_1t": "Sport marca 0.38 gols no 1ºT; Botafogo SP sofre 0.25 gols no 1ºT como visitante",
-      "desempenho_2t": "Sport marca 1.00 gol no 2ºT (média); 36% dos gols do Sport saem entre 76-90min",
-      "contexto_times": {
-        "casa": {
-          "posicao": "",
-          "posicao_geral": "8º",
-          "objetivo": "meio_tabela"
-        },
-        "fora": {
-          "posicao": "",
-          "posicao_geral": "14º",
-          "objetivo": "meio_tabela"
-        }
-      },
-      "motivacao_tecnica": "Sport Recife (8º, 25pts) recebe Botafogo SP (14º, 19pts). Sport tem aproveitamento de 38% geral mas é mandante com 1.38 gols/jogo marcados. Botafogo SP vence apenas 25% dos jogos fora, marca 0.50 gols/jogo como visitante e sofre 0.75. Desequilíbrio técnico favorece o mandante. Sport tem artilheiros em forma (Perotti 7 gols, Barletta 6 gols). Botafogo SP perdeu 50% dos jogos fora. Odd 1.83 está acima da odd mínima calculada de 1.80.",
-      "coeficiente_regularidade": "Sport: aproveitamento 38% geral, mas 1.38 gols/jogo em casa / Botafogo SP: 25% de vitórias fora, inconsistente",
-      "mando_de_campo": "Sport marca 87% dos gols no 2ºT como mandante; forte no segundo tempo",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "Dados de titularidade não disponíveis no PDF",
-      "especificidades_gols": "Sport concentra 36% dos gols entre 76-90min; Botafogo SP sofre 33% dos gols entre 61-75min como visitante",
-      "momento_gols": "Sport: pico ofensivo 76-90min (36% dos gols marcados). Botafogo SP como visitante: 33% dos gols sofridos entre 61-75min",
-      "jogadores_chave": "Sport: Perotti (7G), Barletta (6G+3A). Botafogo SP: Casemiro (7G), Hygor (5G)",
-      "placares_provaveis": "1x0, 2x0, 2x1",
-      "momento_entrada": "Back Favorito: ao vivo após confirmar domínio nos primeiros 15min. Over Limite: ao vivo após 65min",
-      "situacao_saida": "Back Favorito: cash-out se Botafogo SP abrir placar. Over Limite: cash-out se expulsão ou goleada consolidada",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Favoritismo moderado (1.83) com histórico misto do Sport como favorito — aguardar confirmação tática ao vivo antes de entrar",
-        "gatilho_saida_parcial": "Botafogo SP marca primeiro ou Sport fica com 10 jogadores",
-        "hard_stop": "Saída total se Botafogo SP abrir 2-0 ou Sport tomar cartão vermelho antes dos 60min"
-      },
-      "back_favorito": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "prob_estimada_62%_>=_60%",
-          "adversario_vence_25%_fora_<_35%",
-          "liga_permitida_Serie_B"
-        ],
-        "criterios_total": 4,
-        "modo": "ao_vivo",
-        "favorito": "Sport Recife",
-        "odd_alvo": "1.83",
-        "razao": "Sport em casa com 1.38 gols/jogo contra Botafogo SP que vence apenas 25% fora e marca 0.50 gols/jogo como visitante. Odd 1.83 acima da mínima calculada.",
-        "ponderacao_odds": "Odd 1.83 confirma favoritismo moderado. H2H mostra Sport com resultados mistos como favorito em casa (1V 2E 1D recentes) — ao vivo para confirmar domínio antes de entrar.",
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "7%",
+        "ponderacao_odds": "Juventude marca em 62% dos jogos em casa e tem aproveitamento de 63% como mandante — P(0-1) baixa. Porem o criterio btts_>50 nao e atendido com clareza (Ambas Marcam 0% em casa para o Juventude nos ultimos 8 jogos), e mandante_pontua_h2h nao e confirmado com dados suficientes de H2H direto.",
+        "risco_principal": null,
+        "mandante_over_0_5": "62%",
+        "mandante_marca_pct": "62%",
+        "media_gols_total": "2.51",
+        "btts_medio": "25%",
+        "razao": "BTTS medio muito baixo (Ambas Marcam 0% nos jogos em casa do Juventude) — nao atende criterio btts_>50%. Lay 0x1 nao aplicavel.",
+        "odd_alvo": null,
+        "regra_saida": null,
         "stake_recomendada": "2%"
       },
-      "lay_zebra": null,
-      "over_limite_70": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "marcado_sport_76-90_36%_>=_25%",
-          "sofrido_botafogo_61-75_33%_>=_25%"
-        ],
-        "criterios_total": 4,
-        "modo": "ao_vivo",
-        "favorito_ou_motivacao": "Sport Recife — mandante com pico ofensivo no final do jogo",
-        "indices_gols_faixas": "Sport Marcado 61-75: 9% | Sport Marcado 76-90: 36% | Botafogo SP Sofrido 61-75: 33% | Botafogo SP Sofrido 76-90: 17%",
-        "qual_condicao_atende": "Condição (b): Sport Marcado 76-90 = 36% >= 25%. Condição (c): Botafogo SP Sofrido 61-75 = 33% >= 25%.",
-        "motivo_motivacao": "",
-        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
-        "mercado_sugerido": "Mais X.5 gols (ex: placar 1-0 → Mais 1.5 gols)",
-        "ponderacao_odds": "Over 2.5 a 2.25 (mercado espera jogo de poucos gols), mas Over 1.5 a 1.40 sugere ao menos 2 gols. Gols tardios do Sport (36% entre 76-90) e vulnerabilidade do Botafogo SP no final (33% sofridos entre 61-75) sustentam o método.",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
-      },
-      "back_2x2": null,
-      "back_goleada": null,
-      "lay_1x0": null,
-      "lay_0x1": null,
       "confirmacao_visual": {
         "aplicavel": true,
-        "perfil_tatico": "Sport deve dominar posse (52% média) e pressionar com Perotti e Barletta. Botafogo SP tende a defender e contra-atacar.",
-        "gatilhos_aceleracao": "Sport com linhas altas, pressão constante, Barletta e Perotti em boa posição ofensiva nos primeiros 15min",
-        "alerta_armadilha": "Botafogo SP tem Casemiro (7G) e Hygor (5G) — perigo no contra-ataque se Sport abrir espaços",
-        "mercado_recomendado": "Back Favorito (Vitória Sport) ao vivo após confirmar domínio",
-        "momento_observacao": "Primeiros 15-20 minutos para Back Favorito; após 65min para Over Limite"
+        "perfil_tatico": "Juventude deve pressionar alto em casa, buscando gol rapido no 1ºT (63% dos gols marcados no 1ºT). Vila Nova tende a jogar em transicao fora.",
+        "gatilhos_aceleracao": "Juventude dominando posse e finalizacoes nos primeiros 15min; Vila Nova recuado sem criar chances",
+        "alerta_armadilha": "Vila Nova com Janderson e Ryan livres no contra-ataque pode surpreender; cuidado se Juventude nao conseguir finalizar nos primeiros 20min",
+        "mercado_recomendado": "Back Favorito (Vitoria Juventude) ao vivo apos confirmar dominio",
+        "momento_observacao": "0-20 minutos"
       },
       "_ev_pct": 13,
       "_ev_odd": 1.83,
@@ -721,8 +841,8 @@
       "jogo": "Espanha x Bélgica",
       "metodos_aplicados": [
         "back_favorito",
-        "lay_zebra",
         "over_limite_70",
+        "lay_zebra",
         "back_goleada"
       ],
       "mercado_principal": "Vitória Espanha",
@@ -732,12 +852,12 @@
       "media_gols_casa": "3.30",
       "media_gols_fora": "1.80",
       "odds_mercado": {
-        "casa": "1.61",
-        "empate": "4.00",
-        "fora": "5.50",
+        "casa": "1.65",
+        "empate": "3.90",
+        "fora": "5.25",
         "dupla_chance_1x": "1.11",
         "dupla_chance_12": "1.22",
-        "dupla_chance_x2": "2.20",
+        "dupla_chance_x2": "2.25",
         "over_05": "1.02",
         "under_05": "12.00",
         "over_15": "1.24",
@@ -746,9 +866,9 @@
         "under_25": "2.00"
       },
       "h2h_odds": {
-        "resumo_favorito_casa": "Super Fav + Favorito + Parelho: 32V 11E 2D +1.1U (historico geral da Espanha no H2H)",
-        "resumo_favorito_fora": "Belgica como visitante: 4V 2E 2D nos ultimos jogos listados (USM, NZ, CRO, MEX, TUN, IRA, EGY, SEN)",
-        "leitura": "Espanha entrega consistentemente como favorita: 32V 11E 2D no historico com odds. Belgica fora de casa tem resultados mistos mas marcou muitos gols (33 em 10 jogos).",
+        "resumo_favorito_casa": "Super Fav + Favorito + Parelho: 32V 11E 2D +1.1U (histórico geral da Espanha como favorita)",
+        "resumo_favorito_fora": "Bélgica como visitante: 90% venceu no 2ºT (10 jogos), 3.30 gols marcados/jogo fora",
+        "leitura": "Espanha entrega consistentemente como favorita: 32V 11E 2D no histórico com odds. Bélgica fora tem ataque explosivo (3.30 gols/jogo) mas defesa frágil (0.80 sofridos/jogo).",
         "jogos_relevantes": [
           {
             "data": "06/07/26",
@@ -765,7 +885,7 @@
           },
           {
             "data": "02/07/26",
-            "confronto": "Espanha x Austria",
+            "confronto": "Espanha x Áustria",
             "time_analisado": "Espanha",
             "papel": "super_favorito",
             "odd": "1.33",
@@ -791,7 +911,7 @@
           },
           {
             "data": "21/06/26",
-            "confronto": "Espanha x Arabia Saudita",
+            "confronto": "Espanha x Arábia Saudita",
             "time_analisado": "Espanha",
             "papel": "super_favorito",
             "odd": "1.10",
@@ -817,9 +937,9 @@
           },
           {
             "data": "08/06/26",
-            "confronto": "Peru x Espanha",
+            "confronto": "Perú x Espanha",
             "time_analisado": "Espanha",
-            "papel": "favorito",
+            "papel": "super_favorito",
             "odd": "1.18",
             "placar": "1-3",
             "resultado": "V",
@@ -833,203 +953,205 @@
       "alerta_odds": {
         "tipo": "positivo",
         "time": "Espanha",
-        "texto": "Espanha entrega como favorita: 32V 11E 2D no historico H2H com odds; cotada a 1.61 hoje, faixa em que historicamente vence com consistencia."
+        "texto": "Espanha entrega como favorita: 32V 11E 2D no histórico com odds; na faixa 1.65 (Uruguai fora), venceu 1-0 — padrão consistente de entrega."
       },
       "jogadores": {
         "destaques_casa": [
-          "Mikel Oyarzabal — artilheiro (17 gols, 7 assist em 21 jogos), referencia ofensiva",
-          "Lamine Yamal — criacao e velocidade (4 gols, 4 assist, 42 chutes)",
-          "Pedri — meio-campo criativo (4 gols, 2 assist, motor do jogo)",
-          "Mikel Merino — gols de meio (9 gols em 20 jogos, presenca na area)"
+          "Mikel Oyarzabal — artilheiro (17 gols em 21 jogos), referência ofensiva",
+          "Lamine Yamal — criação e velocidade pelo lado direito (4 gols, 4 assistências)",
+          "Pedri — motor do meio-campo (4 gols, 2 assistências, 22 jogos)",
+          "Mikel Merino — gols de segunda linha (9 gols em 20 jogos)"
         ],
         "destaques_fora": [
-          "Kevin De Bruyne — maestro (10 gols, 3 assist, 59 chutes em 18 jogos)",
-          "Romelu Lukaku — centroavante (8 gols em 12 jogos, referencia no ataque)",
-          "Jeremy Doku — velocidade e drible (5 gols, 7 assist)",
-          "Youri Tielemans — meio-campo box-to-box (7 gols, 4 assist)"
+          "Kevin De Bruyne — maestro ofensivo (10 gols, 3 assistências em 18 jogos)",
+          "Romelu Lukaku — centroavante (8 gols em 12 jogos, 54 min/jogo)",
+          "Jeremy Doku — velocidade e dribles (5 gols, 7 assistências)",
+          "Youri Tielemans — box-to-box (7 gols, 4 assistências)"
         ],
         "titulares_casa": "4-3-3",
         "titulares_fora": "4-3-3",
-        "ausencias_impacto": [
-          {
-            "jogador": "Rodri",
-            "time": "Espanha",
-            "status": "duvida",
-            "impacto": "Rodri com apenas 11 jogos e 67 min/jogo — se ausente, Espanha perde seu principal filtro defensivo, enfraquecendo controle do jogo e favorecendo transicoes da Belgica.",
-            "metodos_afetados": [
-              "back_favorito",
-              "lay_zebra"
-            ]
-          }
-        ]
+        "ausencias_impacto": []
       },
-      "explicacao_curta": "Espanha lidera grupo com 7pts, 60% de vitorias e media 1.8 gols marcados vs Belgica que sofre 0.8/jogo fora. Favoritismo claro confirmado pela odd 1.61 e historico 32V 11E 2D.",
-      "alerta_geral": "Evitar jogos empatados, com goleada ja consolidada (3+ gols de diferenca) ou apos expulsao.",
-      "valor_esperado": "Prob. 68% → fair 1.47; margem de seguranca de 12% → minima 1.65. Odd de mercado 1.61 esta acima da minima — EV positivo confirmado.",
-      "mercado_secundario": "Lay Belgica (Lay Zebra)",
-      "odd_minima_secundaria": "4.50",
-      "desempenho_1t": "Espanha marca 1.10 gols/jogo no 1T; Belgica sofre 0.20 gols/jogo no 1T como visitante",
-      "desempenho_2t": "Espanha marca 2.40 gols/jogo no 2T (90% Over 0.5 no 2T); Belgica sofre 0.30 gols/jogo no 2T",
+      "explicacao_curta": "Espanha 1ª do grupo (7pts, 5-0 saldo) enfrenta Bélgica com 3.30 gols/jogo fora mas defesa frágil. Espanha entrega como favorita (32V 11E 2D) e domina no 2ºT (90% vence).",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 68% → fair 1.47; odd de mercado 1.65 está acima da mínima de 1.65 — EV positivo confirmado.",
+      "mercado_secundario": "Over Limite (+1 gol) ao vivo após 65min",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": "Espanha marca 1.10 gols/jogo no 1ºT; 70% Over 0.5 HT",
+      "desempenho_2t": "Espanha marca 2.40 gols/jogo no 2ºT (90% Over 0.5 2T); Bélgica sofre 0.30 no 2ºT mas marca 2.40",
       "contexto_times": {
         "casa": {
-          "posicao": "1º (lider do grupo)",
+          "posicao": "1º do grupo",
           "posicao_geral": "1º",
           "objetivo": "titulo"
         },
         "fora": {
           "posicao": "",
-          "posicao_geral": "",
+          "posicao_geral": null,
           "objetivo": ""
         }
       },
-      "motivacao_tecnica": "Espanha lidera o grupo com 7 pontos (2V 1E), aproveitamento de 60% de vitorias, media de 1.80 gols marcados e apenas 0.40 sofridos em 10 jogos. Belgica como visitante marca muito (3.30 gols/jogo) mas tambem sofre (0.80/jogo). Jogo eliminatorio de Copa do Mundo — motivacao maxima para ambos. Espanha tem historico dominante: 32V 11E 2D no H2H com odds. Belgica vence 70% dos jogos fora mas enfrenta uma Espanha em excelente momento. Odd 1.61 confirma favoritismo de mercado.",
-      "coeficiente_regularidade": "Espanha: CV baixo (consistente, 60% vitorias, 0.40 gols sofridos) / Belgica: CV moderado (70% vitorias fora mas variacao nos resultados)",
-      "mando_de_campo": "Espanha joga como mandante neste contexto de Copa; 80% de jogos com gol marcado, 70% marcou primeiro",
+      "motivacao_tecnica": "Espanha lidera o grupo com 7 pontos e saldo +5 (5-0), invicta. Bélgica chega como visitante com ataque explosivo (3.30 gols/jogo, 90% Over 0.5 no 2ºT) mas defesa frágil (0.80 sofridos/jogo). Espanha vence 90% dos jogos no 2ºT e tem 86% de aproveitamento ao abrir o placar. Jogo eliminatório = motivação máxima para ambos.",
+      "coeficiente_regularidade": "Espanha: CV baixo (consistente, 60% V, 0% D) / Bélgica: CV moderado (70% V fora, mas 60% sofreu gol)",
+      "mando_de_campo": "Espanha: 60% V, 40% E, 0% D nos últimos 10 jogos; 80% marcou primeiro",
       "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "Rodri com uso limitado (67 min/jogo, 11 jogos); restante do elenco aparentemente disponivel",
-      "especificidades_gols": "Espanha marca distribuido entre 1T e 2T; Belgica marca muito no 2T (24 gols no 2T vs 7 no 1T como visitante)",
-      "momento_gols": "Espanha: pico 16-30 e 31-45 (22% cada); Belgica como visitante: pico 46-60 (31% dos gols marcados) e 76-90 (28%)",
-      "jogadores_chave": "Oyarzabal (artilheiro Espanha), De Bruyne (maestro Belgica), Lukaku (referencia Belgica), Yamal (velocidade Espanha)",
-      "placares_provaveis": "2x0, 2x1, 3x1, 1x0",
-      "momento_entrada": "Pre-jogo (odd 1.61 ja acima da minima 1.65 — entrar antes); Over Limite ao vivo apos 65min",
-      "situacao_saida": "Back Favorito: cash-out se Belgica abrir 2-0; Over Limite: cash-out se expulsao ou goleada consolidada",
+      "desfalques_chave": "elenco completo (sem ausências de impacto identificadas no PDF)",
+      "especificidades_gols": "Espanha marca distribuído (22% em 16-30, 22% em 31-45, 17% em 61-75, 11% em 76-90). Bélgica marca concentrado no 2ºT (46-60: 31%, 76-90: 28%)",
+      "momento_gols": "Espanha: 17% dos gols em 61-75 e 11% em 76-90. Bélgica sofridos: 25% em 61-75 — gatilho Over Limite ativo",
+      "jogadores_chave": "Oyarzabal (17G), De Bruyne (10G), Lukaku (8G em 12 jogos), Yamal (criação)",
+      "placares_provaveis": "2-1, 3-1, 2-0, 3-0",
+      "momento_entrada": "Back Favorito: pré-jogo (odd 1.65 já na mínima). Over Limite: ao vivo após 65min",
+      "situacao_saida": "Back Favorito: cash-out se Bélgica virar o placar após 70min. Over Limite: não entrar se 0-0, goleada 3+, ou expulsão",
       "stake_recomendada": "2%",
       "plano_execucao": {
         "abordagem": "propor",
-        "justificativa_abordagem": "Odd 1.61 esta no limite da minima (1.65); aguardar confirmacao tatica nos primeiros 15min pode melhorar a odd ao vivo se Belgica pressionar no inicio",
-        "gatilho_saida_parcial": "Belgica marcar primeiro ou Espanha ter jogador expulso",
-        "hard_stop": "Belgica vencendo por 2+ gols apos 60min — saida total imediata"
+        "justificativa_abordagem": "Odd 1.65 está exatamente na mínima — entrar pré-jogo com confirmação tática nos primeiros 15min (Espanha dominando posse e criando chances)",
+        "gatilho_saida_parcial": "Bélgica marca e empata após 70min — reduzir 50% da posição",
+        "hard_stop": "Bélgica vira o placar em qualquer momento — saída total imediata"
       },
       "back_favorito": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_>=_65%",
-          "aproveitamento_superior_60%_vitorias",
-          "adversario_0%_derrotas_mas_belgica_zebra_5.50",
-          "liga_permitida_world_cup"
+          "prob_vitoria_>=65",
+          "odd_favorito_<=1.80",
+          "mando_ou_superioridade",
+          "adversario_ma_fase",
+          "elenco_completo",
+          "ev_positivo",
+          "geral_e_mando_alinhados"
         ],
-        "criterios_total": 4,
+        "criterios_total": 8,
         "modo": "pre_jogo",
         "favorito": "Espanha",
-        "odd_alvo": "1.61",
-        "razao": "Espanha com 60% de vitorias, 1.80 gols/jogo e apenas 0.40 sofridos. Belgica a 5.50 confirma zebra. Historico 32V 11E 2D no H2H.",
-        "ponderacao_odds": "Odd 1.61 confirma favoritismo; H2H mostra Espanha entregando em jogos cotada entre 1.07 e 1.95 — padrao consistente de vitoria.",
+        "odd_alvo": "1.65",
+        "razao": "Espanha 1ª do grupo, invicta, 60% V, 0% D, 80% marcou primeiro. Bélgica sofreu gol em 60% dos jogos fora e tem defesa frágil (0.80 sofridos/jogo). Odd 1.65 está na mínima calculada.",
+        "ponderacao_odds": "Odd 1.65 confirma favoritismo; histórico 32V 11E 2D como favorita — entrega consistente. Bélgica a 5.25 confirma zebra real.",
+        "risco_principal": "Bélgica tem ataque explosivo (3.30 gols/jogo fora) e De Bruyne/Lukaku podem surpreender em transição rápida.",
         "stake_recomendada": "2%"
       },
       "lay_zebra": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "odd_zebra_5.50_>=_5.00",
-          "belgica_0_derrotas_mas_30%_empates_como_visitante",
-          "liga_permitida_world_cup"
+          "odd_zebra_>=5.00",
+          "prob_zebra_<=20",
+          "zebra_ma_fase",
+          "favorito_consistente",
+          "defesa_zebra_vazada"
         ],
-        "criterios_total": 3,
+        "criterios_total": 7,
         "modo": "ao_vivo",
-        "zebra": "Belgica",
+        "zebra": "Bélgica",
         "favorito_do_jogo": "Espanha",
-        "ponderacao_odds": "Belgica a 5.50 — odd de zebra confirmada. Como visitante, 0% de derrotas mas 30% de empates; porem enfrenta Espanha em nivel superior. Lay ao vivo apos gol da Belgica captura odd ainda maior.",
-        "razao": "Belgica e zebra clara (5.50) contra Espanha dominante. Mesmo com 70% de vitorias fora, a qualidade da Espanha e o historico H2H favorecem o lay.",
-        "gatilho_ao_vivo": "Lay apos Belgica marcar primeiro — odd da Belgica infla e captura valor maximo",
+        "ponderacao_odds": "Bélgica a 5.25 confirma zebra real (>=5.00). Sofreu gol em 60% dos jogos fora; defesa frágil. Ao vivo após gol da Bélgica captura odd ainda mais inflada.",
+        "risco_principal": "Bélgica tem De Bruyne e Lukaku — pode marcar e segurar resultado em bloco baixo.",
+        "razao": "Bélgica sofre gol em 60% dos jogos fora, tem defesa frágil (0.80 sofridos/jogo) e enfrenta Espanha invicta com 90% de aproveitamento no 2ºT. Odd 5.25 confirma zebra.",
+        "gatilho_ao_vivo": "Lay após Bélgica marcar primeiro (odd sobe ainda mais) ou após 15min com Espanha dominando",
         "stake_recomendada": "2%"
       },
       "over_limite_70": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "belgica_sofrido_61-75_25%",
-          "belgica_sofrido_76-90_25%_nao_atinge_mas_marcado_belgica_76-90_28%_>=25%"
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "motivacao"
         ],
-        "criterios_total": 4,
+        "criterios_total": 5,
         "modo": "ao_vivo",
-        "favorito_ou_motivacao": "Espanha — jogo eliminatorio de Copa do Mundo, motivacao maxima",
-        "indices_gols_faixas": "Espanha Marcado 61-75: 17% | Espanha Marcado 76-90: 11% | Belgica Sofrido 61-75: 25% | Belgica Sofrido 76-90: 0% | Belgica Marcado 76-90: 28%",
-        "qual_condicao_atende": "Condicao (c): Belgica Sofrido 61-75 = 25% (atinge o limiar de 25%). Tambem Belgica Marcado 76-90 = 28% >= 25% (condicao b do time visitante).",
-        "motivo_motivacao": "Jogo eliminatorio de Copa do Mundo — motivacao maxima por definicao para ambas as selecoes",
-        "condicao_entrada": "Entrar AO VIVO apos 65min; mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
-        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1 apos 65min)",
-        "ponderacao_odds": "Over 2.5 a 1.80 — mercado espera jogo com gols. Belgica marca 24 gols no 2T em 10 jogos (2.40/jogo no 2T). Belgica marcou em 90% dos jogos no 2T como visitante.",
+        "favorito_ou_motivacao": "Espanha - jogo eliminatório de Copa do Mundo, motivação máxima para ambos",
+        "indices_gols_faixas": "Espanha Marcado 61-75: 17% | Espanha Marcado 76-90: 11% | Bélgica Sofrido 61-75: 25% | Bélgica Sofrido 76-90: 0%",
+        "qual_condicao_atende": "Bélgica Sofrido 61-75: 25% — atinge o limiar mínimo de 25%",
+        "motivo_motivacao": "Jogo eliminatório de Copa do Mundo — motivação máxima por definição. Espanha briga por classificação, Bélgica precisa vencer para avançar.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1 ao atingir 65min)",
+        "ponderacao_odds": "Over 2.5 a 1.80 — mercado espera jogo de gols. Bélgica marca 90% Over 0.5 no 2ºT; média total 5.10 gols/jogo (1.80+3.30) reforça entrada.",
+        "risco_principal": "Espanha pode administrar vantagem e fechar o jogo defensivamente após abrir placar.",
         "odd_esperada": "1.60 a 2.20",
         "stake_recomendada": "1%",
-        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferenca), ou expulsao em campo"
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
       },
       "back_2x2": {
         "aplicavel": false,
         "criterios_atendidos": [],
-        "criterios_total": 3,
-        "razao": "BTTS medio estimado: Espanha 30% + Belgica 60% = 45% — abaixo do minimo de 60%. Espanha sofre gol em apenas 30% dos jogos, tornando ambas marcam improvavel.",
-        "indice_over_2_5": "55% media (Espanha 50%, Belgica 60%)",
-        "indice_ambas_marcam": "45% media (Espanha 30%, Belgica 60%)",
-        "indice_over_ht": "80% media (Espanha 70%, Belgica 90%)",
-        "ponderacao_odds": "BTTS a 1.80/1.95 — mercado tambem nao espera ambas marcarem com alta probabilidade",
+        "criterios_total": 6,
+        "razao": "BTTS médio apenas 45% ((30%+60%)/2) — abaixo do mínimo de 60%. Espanha sofre gol em apenas 30% dos jogos.",
+        "indice_over_2_5": "55% média ((50%+60%)/2)",
+        "indice_ambas_marcam": "45% média ((30%+60%)/2)",
+        "indice_over_ht": "80% média ((70%+90%)/2)",
+        "ponderacao_odds": "BTTS insuficiente — Espanha sofre pouco (0.40 gols/jogo), inviabiliza o 2x2.",
+        "risco_principal": "Espanha defende muito bem (0.40 sofridos/jogo) — improvável que ambos marquem 2.",
         "modo": "pre_jogo",
         "odd_alvo": null,
         "regra_saida": null,
-        "stake_recomendada": null
+        "stake_recomendada": "0.5%"
       },
       "back_goleada": {
         "aplicavel": true,
         "criterios_atendidos": [
-          "prob_favorito_>=_70%_estimada_68%_borderline",
-          "belgica_sofre_0.80_gols_jogo_fora_borderline",
-          "espanha_media_ofensiva_1.80_abaixo_2.5"
+          "prob_favorito_>=70",
+          "ataque_>=2.5",
+          "goleada_recente_h2h"
         ],
-        "criterios_total": 3,
+        "criterios_total": 6,
         "candidato": "Espanha",
-        "razao": "Espanha marcou 4-0 vs Arabia Saudita e 3-0 vs Austria neste Mundial. Belgica sofre 0.80/jogo fora. Porem media ofensiva geral da Espanha e 1.80 — abaixo do ideal de 2.5. Aplicavel com confianca reduzida dado o historico recente neste torneio.",
+        "razao": "Espanha marca 1.80 gols/jogo (média geral) mas no 2ºT marca 2.40/jogo. Tem goleadas recentes: 4-0 vs Arábia Saudita, 3-0 vs Áustria, 4-0 vs Bulgária, 6-0 vs Chipre. Bélgica sofre 0.80/jogo fora.",
         "modo": "ao_vivo",
         "mercado_sugerido": "Espanha marca 4+ e vence",
-        "ponderacao_odds": "Over 4.5 a 6.00 — mercado precifica goleada como improvavel. Espanha ja fez 4-0 neste Mundial, mas media geral e 1.80. Entrada ao vivo se Espanha estiver 2-0 antes dos 60min.",
-        "odd_esperada": "5.00 a 8.00",
+        "ponderacao_odds": "Odd 1.65 não confirma favoritismo extremo (<1.40) — critério 2 não atendido. Porém ataque no 2ºT (2.40 gols) e histórico de goleadas justificam ao vivo se Espanha abrir 2-0 antes dos 60min.",
+        "risco_principal": "Odd do favorito 1.65 está acima de 1.40 — favoritismo não é extremo o suficiente para goleada garantida.",
+        "odd_esperada": "4.00 a 7.00",
         "stake_recomendada": "1%"
       },
       "lay_1x0": {
         "aplicavel": false,
         "criterios_atendidos": [],
-        "criterios_total": 5,
+        "criterios_total": 7,
         "modo": "pre_jogo",
-        "prob_1_0_estimada": "14%",
-        "ponderacao_odds": "Under 1.5 a 3.92 — mercado espera mais de 1 gol, o que enfraquece 1x0. Porem Espanha marca 1.80/jogo e Belgica sofre 0.80/jogo — P(1-0) estimada em ~14%, acima do limiar de 12%.",
-        "visitante_over_0_5": "60%",
-        "visitante_marca_pct": "60%",
-        "media_gols_total": "2.60",
+        "prob_1_0_estimada": "9%",
+        "ponderacao_odds": "Under 1.5 a 3.92 — mercado espera 2+ gols, favorece lay. Porém visitante (Bélgica) marca em 90% dos jogos fora — P(1-0) baixa, mas o critério 'visit_over05_>65' é atendido. Falta dado explícito de % visitante marca para confirmar todos os 5 critérios obrigatórios.",
+        "risco_principal": "Espanha pode vencer por 1-0 administrando o resultado — histórico mostra 1-0 vs Uruguai e 1-0 vs Portugal.",
+        "visitante_over_0_5": "90%",
+        "visitante_marca_pct": "90%",
+        "media_gols_total": "5.10",
         "btts_medio": "45%",
-        "razao": "P(1-0) estimada ~14% — acima do limiar de 12%. BTTS medio 45% — abaixo de 50%. Nao se aplica.",
+        "razao": "BTTS médio 45% — abaixo do mínimo de 50% exigido. Espanha sofre gol em apenas 30% dos jogos, inviabilizando o critério btts_>50.",
         "odd_alvo": null,
         "regra_saida": null,
-        "stake_recomendada": null
+        "stake_recomendada": "2%"
       },
       "lay_0x1": {
         "aplicavel": false,
         "criterios_atendidos": [
-          "p_0_1_<_12%_estimada_8%",
-          "espanha_over_0.5_80%_>_65%",
-          "espanha_marca_80%_>_60%",
-          "media_gols_2.60_>=_2.5",
-          "btts_estimado_45%_borderline"
+          "p_0x1_<12",
+          "mand_over05_>65",
+          "mand_marca_>60",
+          "media_total_>=2.5",
+          "under15_caro"
         ],
-        "criterios_total": 5,
+        "criterios_total": 7,
         "modo": "pre_jogo",
-        "prob_0_1_estimada": "8%",
-        "ponderacao_odds": "Under 1.5 a 3.92 — mercado espera 2+ gols. Espanha marca em 80% dos jogos. P(0-1) muito baixa dado o poder ofensivo da Espanha.",
+        "prob_0_1_estimada": "4%",
+        "ponderacao_odds": "Under 1.5 a 3.92 — mercado espera 2+ gols, reforça lay 0x1. Espanha marca em 80% dos jogos e tem 1.80 gols/jogo — P(0-1) estimada em ~4%, bem abaixo de 12%.",
+        "risco_principal": "Bélgica tem De Bruyne e Lukaku — pode surpreender e vencer por 0-1 em contra-ataque.",
         "mandante_over_0_5": "80%",
         "mandante_marca_pct": "80%",
-        "media_gols_total": "2.60",
+        "media_gols_total": "5.10",
         "btts_medio": "45%",
-        "razao": "Espanha marca em 80% dos jogos e tem media de 1.80 gols/jogo. P(0-1) estimada em ~8% — muito improvavel que Belgica venca por 0-1 com Espanha tao produtiva.",
+        "razao": "Espanha marca em 80% dos jogos e tem 1.80 gols/jogo. P(0-1) estimada ~4% — muito abaixo de 12%. Under 1.5 a 3.92 confirma que mercado espera gols. Espanha dificilmente perde por 0-1.",
         "odd_alvo": "11.00",
-        "regra_saida": "Cash-out se 1-0 Belgica, 1-1 ou apos 60min sem gol",
+        "regra_saida": "Cash-out se 1-0 Bélgica, 1-1 ou após 60min sem gol",
         "stake_recomendada": "2%",
         "razao_reprovacao": "ambas marcam 45% (precisa >50%)"
       },
       "confirmacao_visual": {
         "aplicavel": true,
-        "perfil_tatico": "Espanha com posse dominante (66%), pressao alta e transicoes rapidas via Yamal e Nico Williams",
-        "gatilhos_aceleracao": "Espanha com 60%+ de posse nos primeiros 15min, linhas altas, Oyarzabal e Merino chegando na area",
-        "alerta_armadilha": "Belgica com De Bruyne e Lukaku pode criar em transicao — cuidado se Espanha perder a bola no meio-campo",
-        "mercado_recomendado": "Back Favorito (Vitoria Espanha) ou Over Limite ao vivo apos 65min",
-        "momento_observacao": "0-20min para confirmar dominio da Espanha; 65min+ para Over Limite"
+        "perfil_tatico": "Espanha com posse alta (66%) e pressão ofensiva; Bélgica em transição rápida com De Bruyne e Doku",
+        "gatilhos_aceleracao": "Espanha com 60%+ de posse nos primeiros 15min, criando chances claras e Bélgica recuada",
+        "alerta_armadilha": "Bélgica marcando primeiro — odd da Espanha sobe, avaliar lay zebra ao vivo",
+        "mercado_recomendado": "Back Favorito pré-jogo + Over Limite ao vivo após 65min",
+        "momento_observacao": "0-15min para confirmar domínio da Espanha; 65min+ para Over Limite"
       },
-      "_ev_pct": 9,
-      "_ev_odd": 1.61,
+      "_ev_pct": 12,
+      "_ev_odd": 1.65,
       "_ev_base": "mercado",
       "media_gols_ajustada_coerencia": true
     }
