@@ -12,11 +12,11 @@ import { ContextoTimesCompacto } from '@/components/ContextoTimes';
 import BotoesApostaMini from '@/components/BotoesApostaMini';
 import BotaoBaixarImagem from '@/components/BotaoBaixarImagem';
 import BotaoFinalizar from '@/components/BotaoFinalizar';
-import FiltroMetodo from '@/components/FiltroMetodo';
 import CountdownPartida from '@/components/CountdownPartida';
 import GolsTimeline from '@/components/GolsTimeline';
 import BotaoCopiarTelegram from '@/components/BotaoCopiarTelegram';
 import HistoricoOdds from '@/components/HistoricoOdds';
+import RadarAoVivo from '@/components/RadarAoVivo';
 import type { Entrada } from '@/lib/relatorios';
 
 type EntradaComSlug = Entrada & { _slug: string };
@@ -522,13 +522,60 @@ export default function ListaEntradas({ relatorioSlug, entradas }: Props) {
             </button>
           </div>
 
-          {/* Melhoria #4: filtro rápido por método (mesmo estado da lateral) */}
-          <FiltroMetodo
-            metodosDisponiveis={metodosDisponiveis}
-            contagem={contagemMetodos}
-            ativos={metodosAtivos_}
-            onChange={setMetodosAtivos_}
-          />
+          {/* RESUMO DO DIA: foto instantânea sem precisar rolar a lista */}
+          {(() => {
+            let aoVivoN = 0, greens = 0, reds = 0, pendentes = 0;
+            let lucro = 0, exposto = 0;
+            for (const e of entradas) {
+              const p = placarDe(e);
+              if (p?.status === 'em_andamento') aoVivoN++;
+              const v = (e as any)._veredito;
+              if (v === 'green' || v === 'red') {
+                if (v === 'green') greens++; else reds++;
+                // ROI estimado com stake/odd recomendados
+                const stakeM = String((e as any).stake_recomendada || '').match(/\d+(?:[.,]\d+)?/);
+                const oddM = String((e as any).odd_minima_entrada || '').match(/\d+(?:[.,]\d+)?/);
+                const stake = stakeM ? parseFloat(stakeM[0].replace(',', '.')) : 0;
+                const odd = oddM ? parseFloat(oddM[0].replace(',', '.')) : 0;
+                if (stake > 0) {
+                  exposto += stake;
+                  lucro += v === 'green' ? (odd > 1 ? (odd - 1) * stake : stake) : -stake;
+                }
+              } else if (p?.status === 'finalizado') {
+                pendentes++;
+              }
+            }
+            const roi = exposto > 0 ? (lucro / exposto) * 100 : null;
+            return (
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-3 px-3 py-2 rounded-lg bg-ink-50 dark:bg-ink-900/60 ring-1 ring-ink-200/60 dark:ring-ink-800 text-xs">
+                <span className="font-semibold tabular-nums">{entradas.length} entrada{entradas.length !== 1 ? 's' : ''}</span>
+                {aoVivoN > 0 && (
+                  <span className="inline-flex items-center gap-1 font-semibold text-red-600 dark:text-red-400 tabular-nums">
+                    <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
+                    {aoVivoN} ao vivo
+                  </span>
+                )}
+                {(greens > 0 || reds > 0) && (
+                  <>
+                    <span className="text-emerald-700 dark:text-emerald-400 font-semibold tabular-nums">✅ {greens}</span>
+                    <span className="text-red-700 dark:text-red-400 font-semibold tabular-nums">❌ {reds}</span>
+                  </>
+                )}
+                {pendentes > 0 && (
+                  <span className="text-ink-500 tabular-nums">{pendentes} aguardando veredito</span>
+                )}
+                {roi !== null && (
+                  <span className={`ml-auto font-bold tabular-nums ${roi >= 0 ? 'text-emerald-700 dark:text-emerald-400' : 'text-red-700 dark:text-red-400'}`}>
+                    ROI {roi >= 0 ? '+' : ''}{roi.toFixed(0)}%
+                  </span>
+                )}
+              </div>
+            );
+          })()}
+
+          {/* Filtro por método/liga: fica só no botão "Filtros" (gaveta no
+              mobile, lateral no desktop). Os chips rápidos foram removidos
+              por redundância — faziam o mesmo que a gaveta. */}
 
           {/* Abas: Ativos / Encerrados (separação automática pelo placar) */}
           <div className="flex items-center gap-1 mb-4 border-b border-ink-200 dark:border-ink-800">
@@ -742,6 +789,34 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
       </div>
 
       <ContextoTimesCompacto jogo={entrada.jogo} contexto={entrada.contexto_times} />
+      {/* CLASSIFICAÇÃO GERAL: complementa a posição por mando (casa/fora)
+          que o ContextoTimesCompacto já mostra. Divergência entre geral e
+          mando é sinal relevante (ex: 5º geral mas 15º fora = viaja mal). */}
+      {(() => {
+        const ctx: any = (entrada as any).contexto_times;
+        const gc = ctx?.casa?.posicao_geral;
+        const gf = ctx?.fora?.posicao_geral;
+        if (!gc && !gf) return null;
+        const partes = (entrada.jogo || '').split(/\s+x\s+/i);
+        return (
+          <div className="flex items-center gap-2 text-[11px] text-ink-600 dark:text-ink-400 tabular-nums">
+            <span className="text-[9px] uppercase tracking-wider text-ink-400 font-semibold">
+              🏆 Geral
+            </span>
+            {gc && (
+              <span>
+                <b className="text-ink-800 dark:text-ink-200">{partes[0] || 'Casa'}</b> {gc}
+              </span>
+            )}
+            {gc && gf && <span className="text-ink-300">·</span>}
+            {gf && (
+              <span>
+                <b className="text-ink-800 dark:text-ink-200">{partes[1] || 'Fora'}</b> {gf}
+              </span>
+            )}
+          </div>
+        );
+      })()}
 
       {/* Lista compacta de badges (todos os métodos aplicáveis) */}
       {mAtivos.length > 0 && (
@@ -763,6 +838,10 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
           encerrado={encerrado}
         />
       )}
+
+      {/* RADAR AO VIVO: widget de pressão do SofaScore (attack momentum),
+          só em jogos rolando, carregado sob demanda (clique) */}
+      {aoVivo && <RadarAoVivo jogo={entrada.jogo} />}
 
       {/* PRINCIPAL — destaque grande, fundo colorido pela cor do método */}
       {(() => {
@@ -789,16 +868,46 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
                   <span className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[11px] font-semibold ${infoP?.cor_text || 'text-ink-700'}`}>
                     {infoP?.icone}
                     {infoP?.label || principal}
-                    {confP !== null && (
-                      <span className="ml-1 opacity-75">· {confP}%</span>
-                    )}
+                    {confP !== null && (() => {
+                      const obj: any = (entrada as any)[principal] || {};
+                      const atend = Array.isArray(obj.criterios_atendidos) ? obj.criterios_atendidos.length : null;
+                      const total = typeof obj.criterios_total === 'number' ? obj.criterios_total : null;
+                      const lista = Array.isArray(obj.criterios_atendidos)
+                        ? obj.criterios_atendidos.join(' · ') : '';
+                      return (
+                        <span
+                          className="ml-1 opacity-75 tabular-nums"
+                          title={lista ? `Critérios atendidos: ${lista}` : undefined}
+                        >
+                          · {confP}%{atend !== null && total !== null ? ` (${atend}/${total})` : ''}
+                        </span>
+                      );
+                    })()}
                   </span>
                 </div>
                 {(entrada.odd_minima_entrada || entrada.odd_principal) && (
-                  <span className="text-right shrink-0">
-                    <span className="block text-[9px] uppercase tracking-wider text-ink-400 leading-none">Odd mín.</span>
-                    <span className="font-bold text-emerald-600 dark:text-emerald-400 tabular-nums">
-                      {entrada.odd_minima_entrada || entrada.odd_principal}
+                  <span className="text-right shrink-0 inline-flex items-start gap-2">
+                    {/* EV calculado em código: prob da IA × odd real do mercado */}
+                    {typeof (entrada as any)._ev_pct === 'number' && (
+                      <span className="text-right">
+                        <span className="block text-[9px] uppercase tracking-wider text-ink-400 leading-none">EV</span>
+                        <span
+                          className={`font-bold tabular-nums ${
+                            (entrada as any)._ev_pct >= 0
+                              ? 'text-emerald-600 dark:text-emerald-400'
+                              : 'text-red-600 dark:text-red-400'
+                          }`}
+                          title={`Valor esperado por unidade apostada (odd ${(entrada as any)._ev_odd ?? '—'}, base ${(entrada as any)._ev_base === 'mercado' ? 'odd real do mercado' : 'odd mínima'})`}
+                        >
+                          {(entrada as any)._ev_pct >= 0 ? '+' : ''}{(entrada as any)._ev_pct}%
+                        </span>
+                      </span>
+                    )}
+                    <span className="text-right">
+                      <span className="block text-[9px] uppercase tracking-wider text-ink-400 leading-none">Odd mín.</span>
+                      <span className="font-bold text-emerald-600 dark:text-emerald-400 tabular-nums">
+                        {entrada.odd_minima_entrada || entrada.odd_principal}
+                      </span>
                     </span>
                   </span>
                 )}
@@ -808,6 +917,29 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
               </div>
               {/* Melhoria #2: O QUE FAZER — odd ideal + stake + modo de saída */}
               <LinhaPlanoMetodo entrada={entrada} metodo={principal} />
+              {/* PONDERAÇÃO DE MERCADO: como as odds reais e o H2H pesaram
+                  (escrito pela IA método a método) */}
+              {(() => {
+                const pond = (entrada as any)[principal]?.ponderacao_odds;
+                if (!pond || typeof pond !== 'string') return null;
+                return (
+                  <div className="mt-1.5 text-[11px] leading-snug text-ink-600 dark:text-ink-400 flex gap-1.5 items-start">
+                    <span className="shrink-0" aria-hidden="true">📊</span>
+                    <span><b className="text-ink-700 dark:text-ink-300">Mercado:</b> {pond}</span>
+                  </div>
+                );
+              })()}
+              {/* RISCO PRINCIPAL: o maior risco real desta operação */}
+              {(() => {
+                const risco = (entrada as any)[principal]?.risco_principal;
+                if (!risco || typeof risco !== 'string') return null;
+                return (
+                  <div className="mt-1 text-[11px] leading-snug text-red-700 dark:text-red-400 flex gap-1.5 items-start">
+                    <span className="shrink-0" aria-hidden="true">⚠</span>
+                    <span><b>Risco:</b> {risco}</span>
+                  </div>
+                );
+              })()}
               {/* ALERTA DE ODD: histórico do time na faixa de odd de hoje
                   (ex: "Náutico costuma tropeçar como favorito: 1V 1E 3D").
                   Vem do Gemini (H2H com odds) ou do fallback do main.py. */}
@@ -815,6 +947,23 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
                 const ao: any = (entrada as any).alerta_odds;
                 if (!ao || typeof ao !== 'object' || !ao.texto) return null;
                 const tipo = ao.tipo === 'alerta' || ao.tipo === 'positivo' ? ao.tipo : 'neutro';
+                // AVISO REFORÇADO: Back Favorito + histórico de TROPEÇO na
+                // faixa de odd = o pior cenário do método. Banner vermelho
+                // forte, não o âmbar genérico.
+                const tropecoNoBack = principal === 'back_favorito' && tipo === 'alerta';
+                if (tropecoNoBack) {
+                  return (
+                    <div className="mt-1.5 px-2.5 py-2 rounded-md text-[11px] font-semibold bg-red-600 text-white flex gap-1.5 items-start shadow-sm">
+                      <span aria-hidden="true">🚨</span>
+                      <span>
+                        <span className="uppercase tracking-wider block mb-0.5">
+                          Favorito tropeça nesta faixa de odd
+                        </span>
+                        {ao.texto} — reduza a stake ou aguarde confirmação ao vivo.
+                      </span>
+                    </div>
+                  );
+                }
                 const estilos: Record<string, string> = {
                   alerta: 'bg-amber-50 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 border-amber-300 dark:border-amber-800',
                   positivo: 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-300 border-emerald-300 dark:border-emerald-800',
@@ -835,14 +984,42 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
               })()}
               {/* Melhoria #10: histórico de odds (abriu X → agora Y) */}
               <HistoricoOdds entrada={entrada} />
-              {/* ALERTA DE JOGADORES: ausências que impactam os métodos
-                  (ex: "Sem Messi, Argentina perde criação — enfraquece Back Favorito") */}
+              {/* JOGADORES DECISIVOS + AUSÊNCIAS: quem faz diferença em campo
+                  e quem desfalca (impacto nos métodos) */}
               {(() => {
                 const jog: any = (entrada as any).jogadores;
-                const ausencias: any[] = jog?.ausencias_impacto;
-                if (!Array.isArray(ausencias) || ausencias.length === 0) return null;
+                if (!jog) return null;
+                const nomeSo = (s: any) =>
+                  typeof s === 'string' ? s.split('—')[0].split(' - ')[0].trim() : '';
+                const dCasa: string[] = Array.isArray(jog.destaques_casa)
+                  ? jog.destaques_casa.map(nomeSo).filter(Boolean) : [];
+                const dFora: string[] = Array.isArray(jog.destaques_fora)
+                  ? jog.destaques_fora.map(nomeSo).filter(Boolean) : [];
+                const partes = (entrada.jogo || '').split(/\s+x\s+/i);
+                const temDecisivos = dCasa.length > 0 || dFora.length > 0;
+                const ausencias: any[] = Array.isArray(jog.ausencias_impacto)
+                  ? jog.ausencias_impacto : [];
+                if (!temDecisivos && ausencias.length === 0) return null;
                 return (
                   <div className="mt-1.5 space-y-1">
+                    {temDecisivos && (
+                      <div className="px-2.5 py-1.5 rounded text-[11px] bg-sky-50 dark:bg-sky-950/40 text-sky-800 dark:text-sky-300 border border-sky-200 dark:border-sky-900">
+                        <span className="text-[9px] uppercase tracking-wider font-bold block opacity-70">
+                          ⭐ Jogadores decisivos
+                        </span>
+                        {dCasa.length > 0 && (
+                          <span>
+                            <b>{partes[0] || 'Casa'}:</b> {dCasa.slice(0, 4).join(', ')}
+                          </span>
+                        )}
+                        {dCasa.length > 0 && dFora.length > 0 && <span className="mx-1 opacity-50">·</span>}
+                        {dFora.length > 0 && (
+                          <span>
+                            <b>{partes[1] || 'Fora'}:</b> {dFora.slice(0, 4).join(', ')}
+                          </span>
+                        )}
+                      </div>
+                    )}
                     {ausencias.map((a: any, i: number) => {
                       if (!a || !a.jogador || !a.impacto) return null;
                       const statusIcon = a.status === 'ausente' || a.status === 'suspenso'
@@ -986,6 +1163,25 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
       )}
 
       <div className="mt-auto pt-3 border-t border-ink-100 dark:border-ink-800 space-y-2" data-no-export="true">
+        {/* LINK DE ESTATÍSTICAS: página da partida na fonte (clube), com as
+            abas completas de Jogadores, Cartões e Escanteios. Fallback:
+            busca no SofaScore quando o relatório não tem a URL. */}
+        {(() => {
+          const urlFonte = (entrada as any)._url_fonte;
+          const urlSofa = `https://www.sofascore.com/search?q=${encodeURIComponent(entrada.jogo || '')}`;
+          return (
+            <a
+              href={urlFonte || urlSofa}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-[11px] font-medium text-sky-600 dark:text-sky-400 hover:underline"
+            >
+              📊 Estatísticas completas
+              <span className="text-ink-400 font-normal">jogadores · cartões · escanteios</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          );
+        })()}
         <div className="flex items-center gap-2">
           <div className="flex-1 min-w-0">
             <BotoesApostaMini jogo={entrada.jogo} />

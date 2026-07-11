@@ -5,4 +5,4 @@ compatibility_date = "2024-09-01"
 # Cron trigger: roda a auditoria a cada hora, dos minutos 5 de cada hora
 # (5min depois pra dar tempo dos jogos terminarem antes de buscar resultado)
 [triggers]
-crons = ["5 * * * *"]
+crons = ["0 * * * *", "*/10 * * * *"]

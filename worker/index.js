@@ -115,6 +115,35 @@ export default {
 
         return resposta(corpo, 200, corsHeaders);
       }
+      if (path === '/sofascore' && method === 'GET') {
+        // RADAR AO VIVO: resolve o ID da partida no SofaScore pelo nome
+        // do jogo, pro site embutir o widget de Attack Momentum.
+        // GET /sofascore?jogo=Time+A+x+Time+B → { event_id } | { event_id: null }
+        // Cache de 24h (o ID não muda). Obs: usa a API pública não
+        // documentada do SofaScore — se mudar, o radar some do card mas
+        // nada mais quebra.
+        const jogo = url.searchParams.get('jogo') || '';
+        if (!jogo || jogo.length < 5) {
+          return resposta({ erro: 'jogo invalido' }, 400, corsHeaders);
+        }
+        const cacheKey = new Request(`https://cache.local/sofascore?jogo=${encodeURIComponent(jogo.toLowerCase())}`);
+        const cacheSS = caches.default;
+        const cachedSS = await cacheSS.match(cacheKey);
+        if (cachedSS) {
+          return resposta(await cachedSS.json(), 200, corsHeaders);
+        }
+        let eventId = null;
+        try {
+          eventId = await buscarEventoSofascore(jogo);
+        } catch (e) {
+          console.log('sofascore falhou:', e.message);
+        }
+        const corpo = { jogo, event_id: eventId };
+        await cacheSS.put(cacheKey, new Response(JSON.stringify(corpo), {
+          headers: { 'Content-Type': 'application/json', 'Cache-Control': 'max-age=86400' },
+        }));
+        return resposta(corpo, 200, corsHeaders);
+      }
       if (path === '/eventos' && method === 'GET') {
         // Melhoria #5: linha do tempo dos gols de uma partida.
         // GET /eventos?fixture_id=12345 → { gols: [{minuto, time, jogador}] }
@@ -1108,6 +1137,28 @@ async function verificarGatilhosLive(env) {
     return { status: 'sem_entradas' };
   }
 
+  // ECONOMIA DE COTA #1 — JANELA DE JOGOS: só consulta a API-Football se
+  // AGORA estiver dentro da janela de algum jogo do relatório (do horário
+  // de início até +2h40). Fora disso: zero chamadas — o cron de 10min
+  // roda o dia todo mas a cota gratuita (100/dia) só é gasta quando há
+  // jogo analisado potencialmente rolando. Horários do relatório são BRT
+  // (UTC-3, sem horário de verão desde 2019).
+  const agoraBRT = new Date(Date.now() - 3 * 3600 * 1000);
+  const minAgora = agoraBRT.getUTCHours() * 60 + agoraBRT.getUTCMinutes();
+  let algumaJanela = false;
+  for (const e of relatorio.entradas) {
+    const m = (e.horario || '').match(/(\d{1,2}):(\d{2})/);
+    if (!m) { algumaJanela = true; break; } // sem horário = não dá pra saber → checa
+    const inicio = parseInt(m[1]) * 60 + parseInt(m[2]);
+    if (minAgora >= inicio - 10 && minAgora <= inicio + 160) {
+      algumaJanela = true;
+      break;
+    }
+  }
+  if (!algumaJanela) {
+    return { status: 'fora_da_janela_de_jogos', chamadas_api: 0 };
+  }
+
   // Placares (aproveita o mesmo cache de 10min do /placares)
   let placares;
   try { placares = await buscarPlacaresDoDia(env, hoje); } catch (e) { return { erro: e.message }; }
@@ -1121,11 +1172,21 @@ async function verificarGatilhosLive(env) {
     const placar = encontrarPlacar(entrada.jogo, placares);
     if (!placar || placar.status !== 'em_andamento') continue;
 
-    // Stats live só quando algum gatilho depende de pressão e há cota
+    // ECONOMIA DE COTA #2 — stats de pressão só na JANELA DE DECISÃO de
+    // cada método (fora dela, os gatilhos de placar funcionam sem stats):
+    //   Over Limite  → minuto 55-85 (gatilho é 65')
+    //   Back Fav ao vivo → minuto 10-75
+    //   Lay 1×0/0×1  → só quando o placar ESTÁ no placar do lay, ou 0-0 aos 50'+
+    //   Lay Zebra    → só quando saiu exatamente 1 gol (zebra pode ter marcado)
+    const min = placar.minuto ?? 0;
+    const gc = placar.gols_casa ?? 0;
+    const gf = placar.gols_fora ?? 0;
     const precisaStats =
-      (entrada.back_favorito?.aplicavel && entrada.back_favorito.modo === 'ao_vivo') ||
-      entrada.over_limite_70?.aplicavel || entrada.lay_zebra?.aplicavel ||
-      entrada.lay_1x0?.aplicavel || entrada.lay_0x1?.aplicavel;
+      (entrada.over_limite_70?.aplicavel && min >= 55 && min <= 85) ||
+      (entrada.back_favorito?.aplicavel && entrada.back_favorito.modo === 'ao_vivo' && min >= 10 && min <= 75) ||
+      (entrada.lay_1x0?.aplicavel && ((gc === 1 && gf === 0) || (gc === 0 && gf === 0 && min >= 50))) ||
+      (entrada.lay_0x1?.aplicavel && ((gc === 0 && gf === 1) || (gc === 0 && gf === 0 && min >= 50))) ||
+      (entrada.lay_zebra?.aplicavel && gc + gf === 1);
 
     let stats = null, statsAntes = null;
     if (precisaStats && placar.fixture_id && statsCalls < MAX_STATS_CALLS_POR_RUN) {
@@ -1165,6 +1226,57 @@ async function verificarGatilhosLive(env) {
   }
 
   return { status: 'ok', jogos_ao_vivo_checados: statsCalls, alertas_enviados: enviados, detalhes };
+}
+
+// =============================================================
+// RADAR AO VIVO — busca o ID do evento no SofaScore pelo nome
+// do jogo ("Time A x Time B"). Matching: os dois times precisam
+// aparecer (por token) e o jogo precisa ser de HOJE (±1 dia).
+// =============================================================
+async function buscarEventoSofascore(jogo) {
+  const partes = jogo.split(/\s+x\s+/i).map((s) => s.trim()).filter(Boolean);
+  if (partes.length !== 2) return null;
+
+  const norm = (s) => (s || '').toLowerCase().normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9 ]/g, ' ')
+    .replace(/\s+/g, ' ').trim();
+  const tokens = (s) => norm(s).split(' ').filter((t) => t.length >= 4);
+
+  // Busca pelo time da casa (menos ambíguo que a frase inteira)
+  const q = encodeURIComponent(partes[0]);
+  const r = await fetch(`https://api.sofascore.com/api/v1/search/all?q=${q}`, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+      'Accept': 'application/json',
+    },
+  });
+  if (!r.ok) return null;
+  const dados = await r.json();
+
+  const agora = Date.now() / 1000;
+  const UM_DIA = 86400;
+  const tokCasa = tokens(partes[0]);
+  const tokFora = tokens(partes[1]);
+
+  let melhor = null;
+  for (const res of dados.results || []) {
+    if (res.type !== 'event' || !res.entity) continue;
+    const ev = res.entity;
+    const nomeCasa = norm(ev.homeTeam?.name || '');
+    const nomeFora = norm(ev.awayTeam?.name || '');
+    const casaBate = tokCasa.some((t) => nomeCasa.includes(t)) ||
+      tokens(ev.homeTeam?.name || '').some((t) => norm(partes[0]).includes(t));
+    const foraBate = tokFora.some((t) => nomeFora.includes(t)) ||
+      tokens(ev.awayTeam?.name || '').some((t) => norm(partes[1]).includes(t));
+    if (!casaBate || !foraBate) continue;
+    const ts = ev.startTimestamp || 0;
+    if (Math.abs(ts - agora) > UM_DIA) continue; // só jogo de hoje (±1 dia)
+    // Preferência pro mais próximo do agora
+    if (!melhor || Math.abs(ts - agora) < Math.abs(melhor.ts - agora)) {
+      melhor = { id: ev.id, ts };
+    }
+  }
+  return melhor ? melhor.id : null;
 }
 
 // Tenta encontrar placar de um jogo pelo nome (matching flexível)
