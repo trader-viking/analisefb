@@ -784,6 +784,24 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
                 · {placar.minuto}&apos;
               </span>
             )}
+            {/* VEREDITO DA AUDITORIA: green/red gravado pelo worker quando
+                o jogo finaliza (tooltip mostra o motivo) */}
+            {(entrada as any)._veredito === 'green' && (
+              <span
+                className="ml-1.5 align-middle inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-emerald-600 text-white"
+                title={(entrada as any)._veredito_motivo || 'Green'}
+              >
+                ✓ Green
+              </span>
+            )}
+            {(entrada as any)._veredito === 'red' && (
+              <span
+                className="ml-1.5 align-middle inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-red-600 text-white"
+                title={(entrada as any)._veredito_motivo || 'Red'}
+              >
+                ✗ Red
+              </span>
+            )}
           </div>
         )}
       </div>

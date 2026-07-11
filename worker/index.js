@@ -509,8 +509,11 @@ async function gravarPlacaresNosRelatorios(env) {
         const gc = placar.gols_casa;
         const gf = placar.gols_fora;
         const metodos = entrada.metodos_aplicados || [];
-        // Pega o método principal (primeiro da lista rankeada)
-        const principal = metodos[0] || '';
+        // Principal = ordem FIXA de desempate (a mesma do site/main.py),
+        // não a ordem em que o array veio da IA
+        const ORDEM = ['back_favorito', 'over_limite_70', 'back_2x2', 'lay_zebra',
+                       'lay_1x0', 'lay_0x1', 'back_goleada'];
+        const principal = ORDEM.find((m) => metodos.includes(m)) || metodos[0] || '';
         let veredito = null;
         let motivo = null;
 
@@ -539,7 +542,11 @@ async function gravarPlacaresNosRelatorios(env) {
             if (gc + gf > linha) {
               veredito = 'green'; motivo = `${gc + gf} gols (Mais ${linha}.5 batido)`;
             } else {
-              veredito = 'red'; motivo = `${gc + gf} gols (Mais ${linha}.5 não batido)`;
+              // NÃO marca red: a entrada do Over é CONDICIONAL ao vivo
+              // (só entra aos 65' se não empatado/sem goleada). Se a linha
+              // não bateu, não sabemos se a entrada sequer aconteceu →
+              // fica pendente pro botão Finalizar (veredito manual).
+              motivo = null;
             }
           }
         }
@@ -569,12 +576,34 @@ async function gravarPlacaresNosRelatorios(env) {
             motivo = gf > gc ? `Fora (zebra) venceu ${gc}×${gf}` : `Fora não venceu (${gc}×${gf})`;
           }
         }
-        // BACK 2x2: ambos marcaram = green (passaram por 1x1 → cash-out)
+        // BACK 2x2: green se o jogo PASSOU pelo 1×1 (regra de cash-out)
+        // ou terminou exatamente 2×2. Atenção: placar final com ambos
+        // marcando NÃO garante que passou por 1×1 (ex: 0-0→2-0→2-1).
+        // Reconstruímos a sequência com os minutos dos gols (/eventos).
         else if (principal === 'back_2x2') {
-          veredito = (gc >= 1 && gf >= 1) ? 'green' : 'red';
-          motivo = (gc >= 1 && gf >= 1)
-            ? `Passou por 1×1 (final ${gc}×${gf}) — cash-out`
-            : `Não passou por 1×1 (final ${gc}×${gf})`;
+          if (gc === 2 && gf === 2) {
+            veredito = 'green'; motivo = `Terminou 2×2 — green cheio`;
+          } else if (gc === 0 || gf === 0) {
+            veredito = 'red'; motivo = `Nunca chegou ao 1×1 (final ${gc}×${gf})`;
+          } else if (placar.fixture_id) {
+            try {
+              const gols = await buscarGolsDaPartida(env, placar.fixture_id);
+              let c = 0, f = 0, passou1x1 = false;
+              const nomeCasa = (placar.casa || '').toLowerCase();
+              for (const g of gols) {
+                if ((g.time || '').toLowerCase() === nomeCasa ||
+                    nomeCasa.includes((g.time || '').toLowerCase().split(' ')[0])) c++;
+                else f++;
+                if (c === 1 && f === 1) { passou1x1 = true; break; }
+              }
+              veredito = passou1x1 ? 'green' : 'red';
+              motivo = passou1x1
+                ? `Passou pelo 1×1 (final ${gc}×${gf}) — cash-out`
+                : `Não passou pelo 1×1 (final ${gc}×${gf})`;
+            } catch {
+              motivo = null; // sem eventos → pendente pro Finalizar manual
+            }
+          }
         }
         // BACK GOLEADA: 4+ gols de um lado = green
         else if (principal === 'back_goleada') {
