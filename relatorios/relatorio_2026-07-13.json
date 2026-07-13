@@ -1,301 +1,57 @@
 {
   "data": "2026-07-13",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-07-13T15:46:20.931162",
+  "gerado_em": "2026-07-13T16:04:31.044141",
   "total_partidas_analisadas": 4,
-  "entradas": [
-    {
-      "horario": "19:00",
-      "liga": "Brazil Serie B",
-      "jogo": "América Mineiro x Londrina",
-      "metodos_aplicados": [
-        "lay_zebra",
-        "over_limite_70",
-        "back_2x2"
-      ],
-      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
-      "probabilidade_estimada": "18% (vitória Londrina estimada com base em aproveitamento 25% fora, posição 16º geral vs 20º do América)",
-      "fair_odd": "5.56",
-      "odd_minima_entrada": "6.67",
-      "media_gols_casa": 1.16,
-      "media_gols_fora": 1.48,
-      "media_sofridos_casa": "1.71",
-      "media_sofridos_fora": "1.75",
-      "odds_mercado": {
-        "casa": "2.10",
-        "empate": "3.10",
-        "fora": "3.80",
-        "dupla_chance_1x": "1.25",
-        "dupla_chance_12": "1.33",
-        "dupla_chance_x2": "1.67",
-        "over_05": "1.06",
-        "under_05": "8.50",
-        "over_15": "1.39",
-        "under_15": "3.05",
-        "over_25": "2.15",
-        "under_25": "1.66"
-      },
-      "h2h_odds": {
-        "resumo_favorito_casa": "América Mineiro como favorito/parelho: 1V 5E 12D (-12.2U) — histórico catastrófico no papel de favorito",
-        "resumo_favorito_fora": "Londrina fora: 25% aproveitamento (2V 1E 5D em 8 jogos fora no período recente)",
-        "leitura": "América Mineiro não entrega como favorito: 1V 5E 12D no papel de favorito/parelho com -12.2U. Londrina fora tem 25% de aproveitamento mas o América em casa tem apenas 0% de vitórias nos últimos 7 jogos em casa.",
-        "jogos_relevantes": [
-          {
-            "data": "02/07/26",
-            "confronto": "Cuiabá x América Mineiro",
-            "time_analisado": "América Mineiro",
-            "papel": "zebra",
-            "odd": "5.00",
-            "placar": "1-0",
-            "resultado": "D",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "27/06/26",
-            "confronto": "Operário PR x América Mineiro",
-            "time_analisado": "América Mineiro",
-            "papel": "zebra",
-            "odd": "4.75",
-            "placar": "1-0",
-            "resultado": "D",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "23/06/26",
-            "confronto": "América Mineiro x Criciúma",
-            "time_analisado": "América Mineiro",
-            "papel": "favorito",
-            "odd": "3.10",
-            "placar": "0-1",
-            "resultado": "D",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "16/06/26",
-            "confronto": "Fortaleza x América Mineiro",
-            "time_analisado": "América Mineiro",
-            "papel": "zebra",
-            "odd": "5.75",
-            "placar": "0-3",
-            "resultado": "D",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "08/06/26",
-            "confronto": "América Mineiro x Atlético GO",
-            "time_analisado": "América Mineiro",
-            "papel": "favorito",
-            "odd": "2.35",
-            "placar": "1-2",
-            "resultado": "D",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          },
-          {
-            "data": "24/05/26",
-            "confronto": "América Mineiro x Vila Nova",
-            "time_analisado": "América Mineiro",
-            "papel": "favorito",
-            "odd": "2.20",
-            "placar": "1-2",
-            "resultado": "D",
-            "marcou_primeiro": false,
-            "gol_1t": false,
-            "gol_2t": false,
-            "nao_sofreu": false
-          }
-        ]
-      },
-      "alerta_odds": {
-        "tipo": "alerta",
-        "time": "América Mineiro",
-        "texto": "América Mineiro acumula 1V 5E 12D como favorito/parelho com -12.2U — não entrega mesmo quando cotado abaixo de 2.35."
-      },
-      "jogadores": {
-        "destaques_casa": [
-          "Gonzalo Mastriani — artilheiro do América com 3 gols em 15 jogos",
-          "Matías Segovia — 1 gol e 3 assistências, principal criador",
-          "Gabriel Barros — 1 gol e 1 assistência em 10 jogos"
-        ],
-        "destaques_fora": [
-          "Bruno Santos — artilheiro do Londrina com 11 gols e 3 assistências em 16 jogos",
-          "Iago Teles — 3 gols e 3 assistências, referência ofensiva",
-          "Victor Hugo Mota — 4 assistências, criador principal",
-          "André Siqueira — 2 gols em 16 jogos, consistência defensiva/ofensiva"
-        ],
-        "titulares_casa": null,
-        "titulares_fora": null,
-        "ausencias_impacto": []
-      },
-      "explicacao_curta": "América Mineiro é lanterna (20º, 6pts) com 0% de vitórias em casa nos últimos 7 jogos. Londrina (odd 3.80) tem Bruno Santos com 11 gols — lay no América faz mais sentido que lay no Londrina.",
-      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
-      "valor_esperado": "Lay Londrina: odd 3.80 no mercado. Prob vitória Londrina estimada ~18-20% — fair odd ~5.00-5.56. Odd de mercado 3.80 está ABAIXO da mínima para lay com margem. ATENÇÃO: ver análise completa abaixo.",
-      "mercado_secundario": "Mais X.5 gols (ao vivo após 65min)",
-      "odd_minima_secundaria": "1.60",
-      "desempenho_1t": "América marca 0.57 gols/jogo no 1ºT; Londrina sofre 33% dos gols entre 31-45min",
-      "desempenho_2t": "América sofre 0.75 gols/jogo no 2ºT; Londrina marca 0.88 gols/jogo no 2ºT",
-      "contexto_times": {
-        "casa": {
-          "posicao": "",
-          "posicao_geral": "20º",
-          "objetivo": "rebaixamento"
-        },
-        "fora": {
-          "posicao": "",
-          "posicao_geral": "16º",
-          "objetivo": "rebaixamento"
-        }
-      },
-      "motivacao_tecnica": "América Mineiro é lanterna absoluta com apenas 6 pontos em 16 jogos (1V 3E 12D), aproveitamento de 12.5%. Em casa, 0% de vitórias nos últimos 7 jogos. Londrina está em 16º com 18 pontos, também em zona de rebaixamento, mas com Bruno Santos artilheiro com 11 gols — desequilíbrio ofensivo claro. O Londrina tem motivação máxima (fuga do rebaixamento) e ataque mais produtivo. O América não vence em casa há muito tempo e não entrega como favorito (1V 5E 12D no papel). Jogo entre dois times em crise, mas o América está em situação muito pior.",
-      "coeficiente_regularidade": "América: altamente irregular (0% vitórias em casa) / Londrina: moderado (25% aproveitamento fora)",
-      "mando_de_campo": "América faz 0% de vitórias em casa nos últimos 7 jogos — mando não representa vantagem real",
-      "condicoes_campo": "sem fatores relevantes",
-      "desfalques_chave": "elenco completo (sem ausências identificadas no PDF)",
-      "especificidades_gols": "América marca concentrado nos primeiros 30min (75% dos gols entre 0-30min); Londrina marca distribuído com Bruno Santos como referência",
-      "momento_gols": "América: 50% dos gols marcados entre 0-15min; Londrina sofrido: 33% entre 31-45min e 33% entre 61-75min e 25% entre 76-90min",
-      "jogadores_chave": "Bruno Santos (Londrina, 11 gols) é o grande diferencial; Mastriani (América, 3 gols) é o único referencial ofensivo do mandante",
-      "placares_provaveis": "1x1, 0x1, 1x2, 0x2",
-      "momento_entrada": "Lay Londrina pré-jogo SE odd subir para 5.00+; Over Limite ao vivo após 65min",
-      "situacao_saida": "Lay: cash-out se Londrina abrir 2-0; Over: não entrar se 0x0 ou goleada consolidada",
-      "stake_recomendada": "2%",
-      "plano_execucao": {
-        "abordagem": "propor",
-        "justificativa_abordagem": "Odd do Londrina (3.80) está abaixo da mínima para lay com margem de segurança. Aguardar movimento de mercado ou entrar no Over Limite ao vivo como principal.",
-        "gatilho_saida_parcial": "Londrina marcar 2 gols sem resposta do América",
-        "hard_stop": "Londrina vencendo por 2+ gols após 70min — encerrar posição"
-      },
-      "back_favorito": null,
-      "lay_zebra": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "zebra_ma_fase",
-          "favorito_consistente",
-          "defesa_zebra_vazada"
-        ],
-        "criterios_total": 7,
-        "modo": "ao_vivo",
-        "zebra": "Londrina",
-        "favorito_do_jogo": "América Mineiro",
-        "ponderacao_odds": "ATENÇÃO: a odd do Londrina no mercado é 3.80 — abaixo do mínimo de 5.00 exigido pelo método. O critério 'odd_zebra_5.00_a_8.50' NÃO é atendido. Lay Londrina só seria válido se a odd subir para 5.00+ ao vivo (ex: após gol do América). Londrina sofre gols em 100% dos jogos fora como visitante.",
-        "risco_principal": "Odd do Londrina (3.80) está abaixo do mínimo de 5.00 — lay pré-jogo não tem valor; aguardar ao vivo.",
-        "razao": "Londrina fora tem 25% de aproveitamento, sofre gols em 100% dos jogos como visitante e enfrenta time desesperado em casa. Porém odd 3.80 não atinge o mínimo de 5.00 para lay com margem.",
-        "gatilho_ao_vivo": "Entrar lay Londrina ao vivo SE odd subir para 5.00+ (ex: após gol do América ou Londrina ficar com 10)",
-        "stake_recomendada": "2%"
-      },
-      "over_limite_70": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "momento_gols_final",
-          "media_gols_>=2.4",
-          "motivacao"
-        ],
-        "criterios_total": 5,
-        "modo": "ao_vivo",
-        "favorito_ou_motivacao": "Londrina — ambos brigando contra rebaixamento, desequilíbrio ofensivo com Bruno Santos",
-        "indices_gols_faixas": "América Sofrido 61-75: 33% | América Sofrido 76-90: 25% | Londrina Marcado 61-75: 10% | Londrina Marcado 76-90: 36%",
-        "qual_condicao_atende": "América Sofrido 61-75: 33% (>=25%) e América Sofrido 76-90: 25% (>=25%) — ambas atendem",
-        "motivo_motivacao": "Ambos os times brigam contra rebaixamento — América lanterna (20º, 6pts) e Londrina em 16º (18pts). Motivação máxima para os dois lados.",
-        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = total de gols no placar + 1",
-        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
-        "ponderacao_odds": "Over 2.5 a 2.15 — mercado espera jogo com poucos gols, o que pode gerar odd boa ao vivo. Média total de gols 2.28 (América 0.57+1.71 sofridos; Londrina 1.25+1.75 sofridos). Londrina marca 36% dos gols entre 76-90min.",
-        "risco_principal": "América marca apenas 0.57 gols/jogo em casa — risco de jogo travado com poucos gols no total.",
-        "odd_esperada": "1.60 a 2.20",
-        "stake_recomendada": "1%",
-        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
-      },
-      "back_2x2": {
-        "aplicavel": true,
-        "criterios_atendidos": [
-          "over25_>=60",
-          "btts_>=60",
-          "defesas_frageis",
-          "ataques_produtivos"
-        ],
-        "criterios_total": 6,
-        "razao": "Over 2.5 médio de 73% (América 71%, Londrina 75%) e Ambas Marcam médio de 53.5% (América 57%, Londrina 50%). Defesas frágeis: América sofre 1.71/jogo, Londrina sofre 1.75/jogo. Londrina marca 1.25/jogo. Porém Over HT não atinge 70% e odd Over 2.5 (2.15) está acima de 1.90.",
-        "indice_over_2_5": "73% média — América Mineiro 71%, Londrina 75%",
-        "indice_ambas_marcam": "53.5% média — América 57%, Londrina 50%",
-        "indice_over_ht": "80% média — América 71%, Londrina 88%",
-        "ponderacao_odds": "Over 2.5 a 2.15 — acima do limite de 1.90 exigido pelo método. Mercado não confirma jogo de muitos gols. Critério 'mercado_espera_gols' não atendido.",
-        "risco_principal": "América marca apenas 0.57 gols/jogo em casa — ataque insuficiente para sustentar 2x2.",
-        "modo": "pre_jogo",
-        "odd_alvo": "12.00",
-        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
-        "stake_recomendada": "0.5%"
-      },
-      "back_goleada": null,
-      "lay_1x0": {
-        "aplicavel": false,
-        "criterios_atendidos": [
-          "visit_over05_>65",
-          "mandante_produtivo_>=1.5",
-          "media_total_>=2.5",
-          "btts_>50",
-          "under15_caro"
-        ],
-        "criterios_total": 7,
-        "modo": "pre_jogo",
-        "prob_1_0_estimada": "7%",
-        "ponderacao_odds": "Under 1.5 a 3.05 — mercado espera 2+ gols, reforça o lay. Over 2.5 a 2.15 indica jogo com gols. Londrina marca em 50% dos jogos fora (abaixo do ideal de 65%, critério 'visit_over05_>65' parcialmente atendido com 50% Over 0.5 sofridos pelo América).",
-        "risco_principal": "América marca apenas 0.57 gols/jogo em casa — risco real de jogo terminar 1x0 se o América marcar cedo e se fechar.",
-        "visitante_over_0_5": "50%",
-        "visitante_marca_pct": "50%",
-        "media_gols_total": "2.28",
-        "btts_medio": "53.5%",
-        "razao": "Jogo entre dois times com defesas frágeis e Over 2.5 em 73% dos jogos. Under 1.5 caro (3.05) indica que mercado espera mais de 1 gol. América não vence em casa há 7 jogos — improvável terminar em 1x0 limpo.",
-        "odd_alvo": "10.50",
-        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
-        "stake_recomendada": "2%",
-        "razao_reprovacao": "visitante marca em 50% dos jogos (precisa >65%); visitante marca 50% (precisa >60%); média de gols total 2.28 (precisa ≥2.5)"
-      },
-      "lay_0x1": null,
-      "confirmacao_visual": {
-        "aplicavel": true,
-        "perfil_tatico": "Jogo entre dois times em crise, América sem vencer em casa, Londrina com ataque produtivo liderado por Bruno Santos",
-        "gatilhos_aceleracao": "Londrina pressionando alto, Bruno Santos recebendo bolas na área, América recuado",
-        "alerta_armadilha": "América marcando cedo e se fechando — pode travar o jogo e favorecer 1x0",
-        "mercado_recomendado": "Over Limite ao vivo após 65min ou Lay 1x0 pré-jogo",
-        "momento_observacao": "Primeiros 15min para avaliar postura tática do América"
-      },
-      "_media_casa_bruta": "0.57",
-      "_media_fora_bruta": "1.25",
-      "_mercado_original_incoerente": "Lay Londrina (apostar contra vitória do Londrina)",
-      "_ev_pct": 20,
-      "_ev_odd": 6.67,
-      "_ev_base": "minima",
-      "_url_fonte": "https://clube.theoborges.com/game/8469748?dia=hoje&mode=ha&modo=detalhado"
-    }
-  ],
+  "entradas": [],
   "evitar": [
+    {
+      "horario": "19:30",
+      "jogo": "Itabaiana x Brusque",
+      "liga": "Brazil Serie C",
+      "motivo": "Liga fora das permitidas para Back Favorito/Lay Zebra; demais métodos não atingem critérios numéricos mínimos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Liga 'Brazil Serie C' não está na lista de ligas permitidas para Back Favorito — método vetado por restrição de liga.",
+        "lay_zebra": "Liga 'Brazil Serie C' não está na lista de ligas permitidas para Lay Zebra — método vetado por restrição de liga.",
+        "over_limite_70": "Tabela MOMENTO DOS GOLS do Itabaiana (mandante): Marcado 61-75 = 0%, 76-90 = 20%. Brusque (visitante) Sofrido 61-75 = 33%, 76-90 = 22%. Nenhuma das 4 células atinge o limiar de 25% na faixa 61-75 para o favorito marcado (0%), e a faixa 76-90 do Brusque sofrido (22%) fica abaixo de 25%. Apenas o Brusque sofrido 61-75 = 33% atende, mas o critério exige que seja do favorito marcado OU do adversário sofrido — Brusque é o visitante/adversário e 61-75 sofrido = 33% >= 25% ATENDE o item 1. Porém, média de gols somada: Itabaiana 0.83 + Brusque 1.17 = 2.00 — abaixo do mínimo de 2.4 (item 2 não atendido). Over 2.5 real = 2.50 — acima de 2.10 (item 3 não atendido). Motivação: Itabaiana 18º sem objetivo claro, Brusque 2º brigando por acesso — desequilíbrio motivacional desfavorável ao mandante (item 5 parcialmente). Com apenas 1 dos 5 critérios atendidos e item 1 sendo o único obrigatório, a entrada não tem sustentação suficiente.",
+        "back_2x2": "Over 2.5 médio: Itabaiana 50%, Brusque 33% — média 42%, abaixo do mínimo de 60% (item 1 não atendido). BTTS médio: Itabaiana 50%, Brusque 67% — média 58%, abaixo de 60% (item 2 não atendido). Critérios obrigatórios 1 e 2 não atingidos.",
+        "back_goleada": "Odd do mandante Itabaiana = 2.25 — muito acima do máximo de 1.40 exigido (item 2 não atendido). Média de gols marcados do Itabaiana = 0.83/jogo — abaixo de 2.5 (item 3 não atendido). Método inviável.",
+        "lay_1x0": "Média de gols total: Itabaiana 0.83 + Brusque 1.17 = 2.00 — abaixo do mínimo de 2.5 (item 4 não atendido). BTTS médio estimado ~58% — marginalmente acima de 50%, mas média total insuficiente. Under 1.5 = 2.56 — acima de 2.40, favorável, mas com média total de gols de 2.00 a P(1-0) é elevada. Itabaiana marca em 67% dos jogos em casa, mas média de gols marcados 0.83 — abaixo de 1.5 (item 3 não atendido). Critérios obrigatórios 3 e 4 não atingidos.",
+        "lay_0x1": "Brusque marca 1.17 gols/jogo fora — abaixo de 1.5 (item 3 não atendido). Média total de gols 2.00 — abaixo de 2.5 (item 4 não atendido). Critérios obrigatórios 3 e 4 não atingidos."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8511612?dia=hoje&mode=ha&modo=detalhado"
+    },
     {
       "horario": "20:30",
       "jogo": "Ceará x Athletic Club",
       "liga": "Brazil Serie B",
-      "motivo": "Ceará em má fase (17º, 4V em 16 jogos, aproveitamento ~35%) e sem favoritismo sólido; Athletic Club visitante compacto mas sem superioridade clara. Nenhum método atinge os critérios mínimos.",
+      "motivo": "Ceará é o mandante mas está em má fase (17º, 4V 5E 7D) e a odd 1.85 não reflete favoritismo sólido; Athletic Club (12º) tem desempenho equilibrado fora. Nenhum método atinge os critérios mínimos com segurança.",
       "motivos_por_metodo": {
-        "back_favorito": "Ceará é o favorito (odd 1.85), mas aproveitamento em casa é de apenas 38% de vitórias (3V em 8 jogos como mandante) e o time está em 17º na tabela com -5 de saldo. Critério 'adversario_ma_fase' não atendido: Athletic Club tem aproveitamento de 29% de vitórias fora, mas com 43% de empates — não configura má fase clara (<35%). Critério 'prob_vitoria_>=65' não atendido: com 38% de vitórias em casa e adversário que empata muito, probabilidade estimada fica em ~48-52%, abaixo dos 65% exigidos. Critério 'ev_>=5pct' não verificável sem odd mínima atingida.",
+        "back_favorito": "Ceará tem aproveitamento recente de 38% em casa (precisa ≥65% de prob estimada). Últimos 8 jogos em casa: 2V 1E 5D — aproveitamento de ~31%. Odd 1.85 está na faixa permitida, mas o critério 'adversario_ma_fase' não é atendido: Athletic Club tem 29% de vitórias fora mas 43% de empates, aproveitamento de ~36% fora (acima do limiar de <35%). Critério 'prob_vitoria_>=65' não atendido: com Ceará em 17º e Athletic em 12º, prob estimada ~45-48%. Critérios obrigatórios 1 e 4 não atendem.",
         "lay_zebra": "Athletic Club tem odd 4.75 no mercado — abaixo do mínimo de 5.00 exigido para Lay Zebra. Critério 'odd_zebra_5.00_a_8.50' não atendido.",
-        "over_limite_70": "Tabela MOMENTO DOS GOLS do Ceará (mandante): Marcado 61-75: 10%, 76-90: 0% — ambos abaixo do limiar de 25%. Sofrido do Athletic Club (visitante) 61-75: 40%, 76-90: 10% — a faixa 61-75 do adversário atinge 40%, o que atenderia o critério 'momento_gols_final'. Porém, o Over 2.5 está a 2.40 (acima de 2.10 exigido para critério 'mercado_espera_gols'), e a média total de gols é 2.50 (Ceará 1.25 marcados + Athletic 1.29 marcados = 2.54 somados, marginalmente acima de 2.4). Critério 'mercado_espera_gols' não atendido (Over 2.5 = 2.40 > 2.10). Apenas 1 dos 5 critérios atende com segurança — insuficiente para aplicar o método.",
-        "back_2x2": "Over 2.5 médio: Ceará 50%, Athletic Club 43% — média de ~47%, abaixo dos 60% exigidos. Critério 'over25_>=60' não atendido. BTTS: Ceará 63%, Athletic Club 86% — média ~75%, atende. Mas o critério principal (Over 2.5 >=60%) falha, impedindo aplicação.",
-        "back_goleada": "Ceará marca 1.25 gols/jogo em casa — muito abaixo dos 2.5 gols/jogo exigidos. Critério 'ataque_>=2.5' não atendido. Odd do favorito é 1.85, acima do máximo de 1.40 exigido. Critério 'odd_favorito_<=1.40' não atendido.",
-        "lay_1x0": "P(1-0) estimada: com médias de 1.25 gols marcados pelo Ceará e 1.43 sofridos pelo Athletic fora, a probabilidade de 1-0 via Poisson é estimada em ~12-14% — acima do limiar de <8.6% (na odd alvo 10.50). Critério 'p_1x0_com_margem' não atendido. Além disso, visitante marca em apenas 43% dos jogos fora (abaixo dos 65% exigidos para 'visit_over05_>65').",
-        "lay_0x1": "Athletic Club marca 1.29 gols/jogo fora, mas o mandante Ceará marca em apenas 75% dos jogos em casa (Over 0.5 marcados = 75%) — marginalmente acima de 65%, atende 'mand_over05_>65'. Porém, P(0-1) estimada com médias de 1.29 gols do Athletic e 1.25 sofridos pelo Ceará em casa resulta em ~10-12% — no limite ou acima do limiar de <8.6% na odd alvo 11.00. Critério 'p_0x1_com_margem' não atendido com margem de segurança. Under 1.5 está a 2.74 (atende 'under15_caro'). Mas sem os critérios 1 e 3 ('visitante_produtivo_>=1.5': Athletic marca 1.29/jogo fora, abaixo de 1.5), não aplica."
+        "over_limite_70": "Tabela MOMENTO DOS GOLS do Ceará (mandante): Marcado 61-75: 10%, 76-90: 0%. Sofrido do Athletic (visitante) 61-75: 40%, 76-90: 10%. Nenhuma das 4 células atinge o limiar de ≥25% para o favorito marcado nas faixas finais. O Ceará não marca nos minutos finais (0% em 76-90). Critério 'momento_gols_final' não atendido.",
+        "back_2x2": "Over 2.5 médio: Ceará 50%, Athletic 43% — média ~47%, abaixo do mínimo de 60%. BTTS: Ceará 63%, Athletic 86% — média ~75% (atende). Over HT: Ceará 75%, Athletic 57% — média ~66% (abaixo de 70%). Critério 'over25_>=60' não atendido (47% < 60%). Critério 'over_ht_>=70' não atendido (66% < 70%). Dois dos três critérios obrigatórios falham.",
+        "back_goleada": "Ceará marca 1.25 gols/jogo em casa — abaixo do mínimo de 2.5 gols/jogo nos últimos 5. Odd do Ceará é 1.85, acima do máximo de 1.40 para Back Goleada. Critérios 'odd_favorito_<=1.40' e 'ataque_>=2.5' não atendidos.",
+        "lay_1x0": "Ceará marca 1.25 gols/jogo em casa — abaixo do mínimo de 1.5 para 'mandante_produtivo_>=1.5'. Média total de gols: 2.50 (limiar é ≥2.5, borderline). BTTS médio: ~75% (atende). Porém o critério 'mandante_produtivo_>=1.5' não é atendido (1.25 < 1.5). Além disso, Ceará sofreu gol em 87% dos jogos em casa, o que eleva P(1-0) — com ataque fraco e defesa vazada, o 1x0 não é improvável o suficiente. Critério 'mandante_produtivo_>=1.5' não atendido.",
+        "lay_0x1": "Athletic Club marca 1.29 gols/jogo fora — abaixo do mínimo de 1.5 para 'visitante_produtivo_>=1.5'. Mandante (Ceará) marca em 75% dos jogos em casa (atende >65%). Porém 'visitante_produtivo_>=1.5' não atendido (1.29 < 1.5). Média total 2.50 (borderline). Critério obrigatório 'visitante_produtivo_>=1.5' não atendido."
       },
       "_url_fonte": "https://clube.theoborges.com/game/8469747?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "20:30",
+      "jogo": "Figueirense x Volta Redonda",
+      "liga": "Brazil Serie C",
+      "motivo": "Figueirense fora das ligas permitidas para Back Favorito/Lay Zebra; demais métodos não atingem critérios numéricos mínimos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Liga 'Brazil Serie C' não está na lista de ligas permitidas para Back Favorito. Método vetado por restrição de liga.",
+        "lay_zebra": "Liga 'Brazil Serie C' não está na lista de ligas permitidas para Lay Zebra. Método vetado por restrição de liga.",
+        "over_limite_70": "Tabela MOMENTO DOS GOLS do Figueirense (mandante/favorito): Marcado 61-75 = 50% e 76-90 = 33% — esses valores atendem o limiar de 25%. PORÉM, a média total de gols somada é apenas 1.33 (Figueirense 1.00 + Volta Redonda 0.33 como visitante), muito abaixo de 2.4 (critério 2 não atendido). Além disso, Over 2.5 está a 2.37 — acima de 2.10 (critério 3 não atendido). Motivação: ambos brigam por posição na tabela mas sem urgência extrema. Com apenas 1 dos 5 critérios claramente atendido e dois critérios-chave reprovados, o método não oferece segurança suficiente.",
+        "back_2x2": "Over 2.5 médio: Figueirense em casa 67%, Volta Redonda fora 33% — média 50%, abaixo do mínimo de 60% (critério 1 não atendido). BTTS médio: Figueirense em casa 67%, Volta Redonda fora 17% — média 42%, abaixo de 60% (critério 2 não atendido). Volta Redonda marca apenas 0.33 gols/jogo fora (critério 4 não atendido). Método inviável.",
+        "back_goleada": "Figueirense marca apenas 1.00 gol/jogo em casa — abaixo do mínimo de 2.5 (critério 3 não atendido). Odd do favorito é 1.95, acima de 1.40 (critério 2 não atendido). Probabilidade estimada ~51%, abaixo de 70% (critério 1 não atendido).",
+        "lay_1x0": "Visitante (Volta Redonda) marca apenas 0.33 gols/jogo fora — muito abaixo do mínimo de 1.5 (critério 3 não atendido). Visitante marca em apenas 33% dos jogos fora — abaixo de 65% (critério 2 não atendido). BTTS médio estimado ~42% — abaixo de 50% (critério 5 não atendido). Média total de gols 1.33 — abaixo de 2.5 (critério 4 não atendido). Método inviável.",
+        "lay_0x1": "Mandante (Figueirense) marca apenas 1.00 gol/jogo em casa — abaixo de 1.5 (critério 3 não atendido). Mandante marca em 67% dos jogos em casa — marginalmente acima de 65%, mas média total de gols 1.33 abaixo de 2.5 (critério 4 não atendido). BTTS médio ~42% abaixo de 50% (critério 5 não atendido). Método inviável."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8511603?dia=hoje&mode=ha&modo=detalhado"
     }
   ],
   "pdfs": [
