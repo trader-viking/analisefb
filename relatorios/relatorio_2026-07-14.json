@@ -1,9 +1,993 @@
 {
   "data": "2026-07-14",
   "dia_consultado": "amanha",
-  "gerado_em": "2026-07-13T16:27:10.445311",
-  "total_partidas_analisadas": 2,
-  "entradas": [],
+  "gerado_em": "2026-07-13T16:55:58.939114",
+  "total_partidas_analisadas": 4,
+  "entradas": [
+    {
+      "horario": "08:35",
+      "liga": "China Chinese Super League",
+      "jogo": "Hangzhou x Qingdao Jonoon",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2",
+        "lay_1x0"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "78% (Hangzhou vence ou empata — lay na zebra)",
+      "fair_odd": "1.28",
+      "odd_minima_entrada": "1.47",
+      "media_gols_casa": 1.69,
+      "media_gols_fora": 1.25,
+      "media_sofridos_casa": "1.25",
+      "media_sofridos_fora": "2.13",
+      "odds_mercado": {
+        "casa": "1.42",
+        "empate": "5.00",
+        "fora": "6.25",
+        "dupla_chance_1x": "1.13",
+        "dupla_chance_12": "1.14",
+        "dupla_chance_x2": "2.80",
+        "over_05": "1.01",
+        "under_05": "17.00",
+        "over_15": "1.11",
+        "under_15": "6.62",
+        "over_25": "1.40",
+        "under_25": "2.87",
+        "over_35": "2.03",
+        "under_35": "1.83",
+        "over_45": "3.31",
+        "under_45": "1.33"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "H2H geral: 6V 5E 7D (-3.7U) — Hangzhou não entrega consistentemente como favorito",
+        "resumo_favorito_fora": "Qingdao Jonoon: 75% derrota como visitante nos últimos 8 jogos fora",
+        "leitura": "No único H2H direto recente (20/03/26), Qingdao Jonoon perdeu 1-4 em casa para Hangzhou. Hangzhou tem retrospecto negativo como favorito no geral (-3.7U), mas Qingdao sofre 2.13 gols/jogo fora e perde 75% como visitante.",
+        "jogos_relevantes": [
+          {
+            "data": "20/03/26",
+            "confronto": "Qingdao Jonoon x Hangzhou",
+            "time_analisado": "Hangzhou",
+            "papel": "favorito",
+            "odd": "1.75",
+            "placar": "1-4",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "08/03/26",
+            "confronto": "Hangzhou x Qingdao Youth Island FC",
+            "time_analisado": "Hangzhou",
+            "papel": "favorito",
+            "odd": "1.42",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
+          },
+          {
+            "data": "05/04/26",
+            "confronto": "Hangzhou x Chongqing Tongliang Long FC",
+            "time_analisado": "Hangzhou",
+            "papel": "super_favorito",
+            "odd": "1.36",
+            "placar": "0-1",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "24/05/26",
+            "confronto": "Hangzhou x Shenyang Urban",
+            "time_analisado": "Hangzhou",
+            "papel": "favorito",
+            "odd": "1.66",
+            "placar": "0-5",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "20/05/26",
+            "confronto": "Hangzhou x Shandong Luneng",
+            "time_analisado": "Hangzhou",
+            "papel": "parelho",
+            "odd": "2.70",
+            "placar": "4-1",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "10/05/26",
+            "confronto": "Hangzhou x Tianjin Teda",
+            "time_analisado": "Hangzhou",
+            "papel": "favorito",
+            "odd": "1.66",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "alerta",
+        "time": "Hangzhou",
+        "texto": "Hangzhou tem -3.7U como favorito no H2H geral e perdeu 0-5 e 0-1 recentemente como favorito — favoritismo de papel, prefira lay na zebra ao vivo."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Yudong Wang — 6 gols e 3 assistências, principal finalizador",
+          "Alexandru Mitrita — 3 gols e 8 assistências, criação ofensiva",
+          "Marko Tolic — 4 gols, referência no ataque"
+        ],
+        "destaques_fora": [
+          "Yaw Yeboah — artilheiro com 6 gols e 3 assistências",
+          "Malcom Edjouma — 4 gols, motor do meio-campo",
+          "Chuangyi Lin — 2 gols e 3 assistências"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Qingdao Jonoon sofre 2.13 gols/jogo fora, perde 75% como visitante e tem odd 6.25. Lay na zebra ao vivo após eventual gol dela captura valor alto.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Zebra a 6.25 com prob real de vitória ~13-15%; fair lay ~1.15; ao vivo após gol da zebra a odd sobe para 8-10+, gerando EV muito positivo.",
+      "mercado_secundario": "Mais X.5 gols (ao vivo após 65min)",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": "Hangzhou marca 0.38 gols no 1ºT; Qingdao sofre 30% dos gols nos primeiros 15min",
+      "desempenho_2t": "Hangzhou marca 1.13 gols no 2ºT; Qingdao sofre 40% dos gols entre 76-90min",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "posicao_geral": "11º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "",
+          "posicao_geral": "14º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Hangzhou (11º, 17pts) recebe Qingdao Jonoon (14º, 14pts) — ambos no meio/baixo da tabela sem objetivos imediatos de título ou rebaixamento. Qingdao fora de casa: 75% de derrotas, sofre 2.13 gols/jogo. Média total de gols do confronto: 2.50 (Hangzhou) + 3.38 (Qingdao fora) — jogo aberto. Hangzhou marca 30% dos gols entre 61-75min e 30% entre 76-90min, indicando pressão final forte.",
+      "coeficiente_regularidade": "Hangzhou: irregular (6V 4E 7D geral) / Qingdao fora: muito ruim (1V 1E 6D)",
+      "mando_de_campo": "Hangzhou em casa: 38% de vitórias, 38% empates — desempenho modesto como mandante",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (sem ausências registradas no PDF)",
+      "especificidades_gols": "Hangzhou concentra gols no 2ºT (61-90min = 60% dos gols marcados); Qingdao sofre 54% dos gols entre 46-90min fora",
+      "momento_gols": "Hangzhou: 30% marcados 61-75 e 30% marcados 76-90. Qingdao sofrido: 12% 61-75 e 24% 76-90",
+      "jogadores_chave": "Yudong Wang (6G), Mitrita (8A), Yaw Yeboah (6G visitante)",
+      "placares_provaveis": "2x1, 1x1, 2x0",
+      "momento_entrada": "Lay Zebra: ao vivo, preferencialmente após Qingdao marcar primeiro (odd sobe para 8-10+). Over Limite: ao vivo após 65min",
+      "situacao_saida": "Lay Zebra: cash-out se Qingdao abrir 2-0 ou após 75min com Qingdao vencendo. Over Limite: não entrar se empatado 0-0, goleada 3+ ou expulsão",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Hangzhou tem histórico negativo como favorito (-3.7U), então aguardar confirmação ao vivo antes de entrar no lay",
+        "gatilho_saida_parcial": "Qingdao marca segundo gol ou Hangzhou fica com 10 jogadores",
+        "hard_stop": "Saída total se Qingdao vencer o 1ºT ou placar 2-0 para visitante após 60min"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Hangzhou — desequilíbrio técnico claro em casa contra visitante com defesa frágil",
+        "indices_gols_faixas": "Hangzhou Marcado 61-75: 30% | Hangzhou Marcado 76-90: 30% | Qingdao Sofrido 61-75: 12% | Qingdao Sofrido 76-90: 24%",
+        "qual_condicao_atende": "Condição a (Hangzhou Marcado 61-75: 30% >= 25%) e condição b (Hangzhou Marcado 76-90: 30% >= 25%)",
+        "motivo_motivacao": "Desequilíbrio técnico: Hangzhou em casa vs Qingdao com pior defesa fora (2.13 gols sofridos/jogo)",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
+        "ponderacao_odds": "Over 2.5 a 1.40 — mercado espera jogo com gols. Over 0.5 2ºT a 1.14 confirma expectativa de gols na etapa final.",
+        "risco_principal": "Jogo pode estar empatado sem gols aos 65min ou com expulsão — condições que vetam a entrada.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=60",
+          "btts_>=60",
+          "defesas_frageis",
+          "ataques_produtivos"
+        ],
+        "criterios_total": 6,
+        "razao": "Over 2.5 médio 51% (Hangzhou 38%, Qingdao 63%) — limítrofe mas Qingdao fora tem 75% BTTS e ambos sofrem gols. Média total 2.50+3.38/2=2.94. Defesas frágeis dos dois lados.",
+        "indice_over_2_5": "Média ~51% — Hangzhou 38%, Qingdao Jonoon 63%",
+        "indice_ambas_marcam": "Média ~63% — Hangzhou 50%, Qingdao 75%",
+        "indice_over_ht": "Hangzhou Over 0.5 HT: 63%; Qingdao Over 0.5 HT: 63% — média 63% (abaixo do ideal 70%)",
+        "ponderacao_odds": "Over 2.5 a 1.40 — mercado espera jogo aberto. Ambas Marcam a 1.53 confirma expectativa de gols dos dois lados.",
+        "risco_principal": "Over HT médio 63% — abaixo do limiar ideal de 70%, reduz probabilidade de 2x2 com gols no 1ºT.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "mandante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "7%",
+        "ponderacao_odds": "Under 1.5 a 6.62 — mercado NÃO espera jogo magro. Over 2.5 a 1.40 reforça perfil de múltiplos gols. Lay 1x0 bem suportado.",
+        "risco_principal": "Hangzhou marca apenas 1.25 gols/jogo em casa — ataque modesto pode resultar em placar baixo.",
+        "visitante_over_0_5": "75%",
+        "visitante_marca_pct": "75%",
+        "media_gols_total": "2.94",
+        "btts_medio": "63%",
+        "razao": "Qingdao marca em 75% dos jogos fora, BTTS 63%, média total ~2.94 gols — perfil de jogo com gols dos dois lados torna 1x0 improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Hangzhou deve pressionar com posse (57%) e volume de chutes (16.25/jogo); Qingdao tende a defender e contra-atacar fora",
+        "gatilhos_aceleracao": "Hangzhou com posse alta, linhas subidas e Qingdao recuado — confirma cenário de pressão e gols tardios",
+        "alerta_armadilha": "Qingdao marcou primeiro em 13% dos jogos fora — se abrir o placar, odd do lay sobe muito (oportunidade ao vivo)",
+        "mercado_recomendado": "Lay Qingdao Jonoon ao vivo (após gol da zebra ou após 15min de domínio do Hangzhou)",
+        "momento_observacao": "Primeiros 15-20min para confirmar domínio do Hangzhou; 65min+ para Over Limite"
+      },
+      "_media_casa_bruta": "1.25",
+      "_media_fora_bruta": "1.25",
+      "_mercado_original_incoerente": "Lay Qingdao Jonoon (ao vivo)",
+      "_ev_pct": 15,
+      "_ev_odd": 1.47,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8471302?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "16:00",
+      "liga": "International World Cup",
+      "jogo": "França x Espanha",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "58%",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.98",
+      "media_gols_casa": 1.4,
+      "media_gols_fora": 1.25,
+      "media_sofridos_casa": "0.70",
+      "media_sofridos_fora": "0.30",
+      "odds_mercado": {
+        "casa": "2.35",
+        "empate": "3.25",
+        "fora": "3.20",
+        "dupla_chance_1x": "1.30",
+        "dupla_chance_12": "1.30",
+        "dupla_chance_x2": "1.57",
+        "over_05": "1.02",
+        "under_05": "11.00",
+        "over_15": "1.23",
+        "under_15": "3.97",
+        "over_25": "1.90",
+        "under_25": "1.90"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav + Favorito + Parelho: 31V 7E 6D -0.4U (histórico geral da França como mandante/favorito)",
+        "resumo_favorito_fora": "Espanha como visitante: 7V 1E 2D nos últimos 10 jogos fora (dados de desempenho do PDF)",
+        "leitura": "França tem retrospecto sólido como favorita (31V 7E 6D), mas o saldo de unidades negativo (-0.4U) indica que o mercado precifica bem e há pouco valor residual. Espanha venceu o último H2H direto (5-4 em jun/25) e tem 70% de aproveitamento fora.",
+        "jogos_relevantes": [
+          {
+            "data": "05/06/25",
+            "confronto": "Espanha x França",
+            "time_analisado": "França",
+            "papel": "zebra",
+            "odd": "3.00",
+            "placar": "5-4",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "09/07/24",
+            "confronto": "Espanha x França",
+            "time_analisado": "França",
+            "papel": "zebra",
+            "odd": "3.10",
+            "placar": "2-1",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "09/07/26",
+            "confronto": "França x Marrocos",
+            "time_analisado": "França",
+            "papel": "favorito",
+            "odd": "1.57",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "30/06/26",
+            "confronto": "França x Suécia",
+            "time_analisado": "França",
+            "papel": "super_favorito",
+            "odd": "1.28",
+            "placar": "3-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "04/06/26",
+            "confronto": "França x Costa do Marfim",
+            "time_analisado": "França",
+            "papel": "super_favorito",
+            "odd": "1.20",
+            "placar": "1-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "16/06/26",
+            "confronto": "França x Senegal",
+            "time_analisado": "França",
+            "papel": "favorito",
+            "odd": "1.45",
+            "placar": "3-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "França",
+        "texto": "França cotada a 2.35 hoje — nos dois H2H diretos recentes contra Espanha (odds 3.00 e 3.10) foi derrotada. Como favorita em geral tem 31V 7E 6D, mas saldo de unidades negativo (-0.4U) indica valor apertado."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Kylian Mbappé — artilheiro com 16 gols e 8 assistências, referência ofensiva",
+          "Michael Olise — 7 gols e 7 assistências, criação e finalização",
+          "Ousmane Dembélé — 7 gols e 4 assistências, velocidade e dribles",
+          "Mike Maignan — goleiro titular, 24 jogos"
+        ],
+        "destaques_fora": [
+          "Mikel Oyarzabal — artilheiro com 17 gols e 7 assistências",
+          "Mikel Merino — 10 gols, referência no meio-campo",
+          "Lamine Yamal — 4 gols e 4 assistências, ala direita decisiva",
+          "Pedri — 4 gols e 2 assistências, motor do meio-campo"
+        ],
+        "titulares_casa": "4-3-3 (estimado: Maignan; Koundé, Upamecano, Saliba, Digne; Tchouaméni, Koné, Rabiot; Olise, Mbappé, Dembélé)",
+        "titulares_fora": "4-3-3 (estimado: Unai Simón; Porro, Laporte, Cubarsí, Cucurella; Rodri, Fabián, Pedri; Yamal, Oyarzabal, Nico Williams)",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "França em casa na Copa com 90% de aproveitamento e Mbappé artilheiro (16 gols). Espanha é forte visitante mas odd 2.35 oferece valor para back ao vivo após confirmação tática.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. estimada 58% → fair odd 1.72; com margem de segurança de 15%, mínimo aceitável 1.98. Odd de mercado 2.35 está ACIMA do mínimo — há valor real.",
+      "mercado_secundario": "Mais X.5 gols (ao vivo após 65min)",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": "França marca 1.00 gol/jogo no 1ºT (10 gols em 10 jogos); Espanha sofre 0.30 gols/jogo no geral",
+      "desempenho_2t": "França marca 1.50 gols/jogo no 2ºT (15 gols em 10 jogos); Espanha sofre 0.10 gols/jogo no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "1º (grupo da Copa do Mundo)",
+          "posicao_geral": "1º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "",
+          "posicao_geral": "",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "França lidera seu grupo com 3V 0E 0D, 10 gols marcados e apenas 2 sofridos. Mbappé com 16 gols no torneio. Espanha venceu o último confronto direto (5-4 em jun/25) e tem 70% de aproveitamento fora. Ambas as seleções brigam pelo título — motivação máxima. A odd 2.35 para França oferece valor real (fair odd estimada 1.72). Jogo de alto nível técnico com potencial de gols, especialmente no 2ºT onde França marca 1.50/jogo.",
+      "coeficiente_regularidade": "França: CV baixo (90% aproveitamento, consistente) / Espanha: CV moderado (70% aproveitamento fora, 30% empates)",
+      "mando_de_campo": "França faz 100% dos pontos em casa neste torneio (3V em 3 jogos como mandante)",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (ambos os times com elencos completos conforme dados do PDF)",
+      "especificidades_gols": "França marca principalmente entre 31-45min (24%) e 61-75min (28%); Espanha sofre 57% dos gols na faixa 76-90min",
+      "momento_gols": "França: pico de gols marcados em 61-75min (28%) e 31-45min (24%). Espanha: 57% dos gols sofridos ocorrem em 76-90min — janela crítica para Over Limite",
+      "jogadores_chave": "Mbappé (16G/8A), Olise (7G/7A), Dembélé (7G/4A) pela França; Oyarzabal (17G/7A), Merino (10G), Yamal (4G/4A) pela Espanha",
+      "placares_provaveis": "2x1, 1x0, 2x0, 3x1",
+      "momento_entrada": "Back Favorito: ao vivo após 15min confirmando domínio francês. Over Limite: ao vivo após 65min se houver 1-2 gols no placar.",
+      "situacao_saida": "Back Favorito: cash-out parcial se Espanha empatar após 70min. Over Limite: não entrar se 0x0, goleada consolidada ou expulsão.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Odd 2.35 tem valor real (acima da mínima 1.98), mas Espanha é adversário de alto nível com vitória recente no H2H. Aguardar 15min para confirmar domínio francês antes de entrar.",
+        "gatilho_saida_parcial": "Espanha marca e empata após 70min — reduzir 50% da posição",
+        "hard_stop": "Espanha vira o placar em qualquer momento — saída total imediata"
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "prob_vitoria_>=65",
+          "mando_ou_superioridade",
+          "elenco_completo",
+          "ev_>=5pct"
+        ],
+        "criterios_total": 8,
+        "modo": "ao_vivo",
+        "favorito": "França",
+        "odd_alvo": "2.35",
+        "razao": "França com 90% de aproveitamento no torneio, artilheiro Mbappé (16 gols), mandante com 3V em 3 jogos. Odd 2.35 está acima da fair odd estimada (1.72) com EV positivo claro.",
+        "ponderacao_odds": "Odd 1X2 de 2.35 confirma favoritismo moderado. Histórico geral 31V 7E 6D como favorita reforça, mas saldo -0.4U e derrota nos 2 H2H diretos recentes contra Espanha pedem cautela — modo ao vivo para confirmar.",
+        "risco_principal": "Espanha venceu os 2 últimos confrontos diretos (5-4 e 2-1) e tem ataque poderoso com Oyarzabal (17 gols) — zebrada real possível.",
+        "stake_recomendada": "2%",
+        "_reprovado_odds": true,
+        "razao_reprovacao": "mercado não confirma favoritismo: menor odd 1X2 é 2.35 (precisa ≤2.1)"
+      },
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "França - semifinal da Copa do Mundo, motivação máxima para ambas as seleções",
+        "indices_gols_faixas": "França Marcado 61-75: 28% | França Marcado 76-90: 12% | Espanha Sofrido 76-90: 57% | Espanha Sofrido 61-75: 14%",
+        "qual_condicao_atende": "Condição (a): França Marcado 61-75 = 28% (acima de 25%). Condição extra: Espanha Sofrido 76-90 = 57% (muito acima de 25%)",
+        "motivo_motivacao": "Semifinal da Copa do Mundo — motivação máxima por definição. Ambas brigam pelo título.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = total de gols no placar + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1 ao entrar)",
+        "ponderacao_odds": "Over 2.5 a 1.90 — mercado equilibrado entre over e under. Espanha sofre 57% dos gols na faixa 76-90min, janela ideal para o método. Over 0.5 2ºT a 1.25 confirma expectativa de gols na etapa final.",
+        "risco_principal": "Ambas as defesas são sólidas (França sofre 0.70/jogo, Espanha 0.30/jogo) — jogo pode ser travado e terminar com poucos gols.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "mand_over05_>65",
+          "visitante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "7%",
+        "ponderacao_odds": "Under 1.5 a 3.97 — mercado espera 2+ gols com alta probabilidade. Over 2.5 a 1.90 reforça perfil de jogo aberto. Lay 0x1 bem suportado pelo mercado.",
+        "risco_principal": "Espanha tem defesa muito sólida (0.30 gols sofridos/jogo) — se França não marcar, 0x1 se torna possível.",
+        "mandante_over_0_5": "100% (França marcou em 100% dos jogos)",
+        "mandante_marca_pct": "100%",
+        "media_gols_total": "4.30 (2.50 França + 1.80 Espanha)",
+        "btts_medio": "60% (França 60% BTTS, Espanha 30% — média 45%; usando Over 0.5 marcados de ambos como proxy: França 100% marca, Espanha 80% marca)",
+        "razao": "França marca em 100% dos jogos (2.50 gols/jogo) e Espanha marca em 80% (1.80 gols/jogo). Média total de 4.30 gols torna o 0x1 extremamente improvável. Under 1.5 a 3.97 confirma que mercado não espera jogo de 1 gol.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "França deve pressionar com Mbappé, Olise e Dembélé em transições rápidas. Espanha tende a controlar posse (66%) e criar por Yamal e Nico Williams.",
+        "gatilhos_aceleracao": "França dominando posse nos primeiros 15min, Mbappé recebendo em profundidade, Espanha sem conseguir sair jogando",
+        "alerta_armadilha": "Espanha controlando o jogo com posse alta (>65%) e França recuada — sinal de que o favoritismo não se confirma em campo",
+        "mercado_recomendado": "Back Favorito (França) ao vivo após confirmação de domínio nos primeiros 15-20min",
+        "momento_observacao": "0-20min para confirmar tática; 65min+ para Over Limite"
+      },
+      "_media_casa_bruta": "2.50",
+      "_media_fora_bruta": "1.80",
+      "_alerta_coerencia": "prob estimada 58% diverge da P(vitória) implícita nas médias de gols (40%) — revise médias ou probabilidade",
+      "_mercado_original_incoerente": "Vitória França",
+      "_ev_pct": 15,
+      "_ev_odd": 1.98,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8581640?dia=amanha&mode=overall&modo=detalhado"
+    },
+    {
+      "horario": "19:00",
+      "liga": "Bolivia LFPB",
+      "jogo": "CDT Real Oruro x Club Always Ready",
+      "metodos_aplicados": [
+        "back_2x2",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo)",
+      "probabilidade_estimada": "57% (Always Ready vencer)",
+      "fair_odd": "1.75",
+      "odd_minima_entrada": "2.02",
+      "media_gols_casa": 1.75,
+      "media_gols_fora": 1.62,
+      "media_sofridos_casa": "1.75",
+      "media_sofridos_fora": "0.75",
+      "odds_mercado": {
+        "casa": "3.50",
+        "empate": "4.00",
+        "fora": "1.75",
+        "dupla_chance_1x": "1.91",
+        "dupla_chance_12": "1.17",
+        "dupla_chance_x2": "1.25",
+        "over_05": "1.02",
+        "under_05": "15.50",
+        "over_15": "1.08",
+        "under_15": "5.70",
+        "over_25": "1.44",
+        "under_25": "2.65",
+        "over_35": "2.05",
+        "under_35": "1.70",
+        "over_45": "3.35",
+        "under_45": "1.28"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: 3V 2E 3D +1.1U (papel de favorito/super favorito em casa — amostra mista)",
+        "resumo_favorito_fora": "Dados de H2H com odds do Always Ready como visitante nao detalhados no PDF",
+        "leitura": "CDT Real Oruro como favorito (odd 2.10-2.45) venceu 2 dos ultimos jogos nessa faixa, mas a amostra e pequena. Always Ready e o favorito hoje (odd 1.75) e vem de bom momento geral (2o na tabela).",
+        "jogos_relevantes": [
+          {
+            "data": "11/07/26",
+            "confronto": "CDT Real Oruro x CD Gualberto Villarroel",
+            "time_analisado": "CDT Real Oruro",
+            "papel": "favorito",
+            "odd": "2.45",
+            "placar": "3-1",
+            "resultado": "V",
+            "marcou_primeiro": null,
+            "gol_1t": null,
+            "gol_2t": null,
+            "nao_sofreu": false
+          },
+          {
+            "data": "08/07/26",
+            "confronto": "CDT Real Oruro x Universitario de Vinto",
+            "time_analisado": "CDT Real Oruro",
+            "papel": "favorito",
+            "odd": "2.10",
+            "placar": "4-1",
+            "resultado": "V",
+            "marcou_primeiro": null,
+            "gol_1t": null,
+            "gol_2t": null,
+            "nao_sofreu": false
+          },
+          {
+            "data": "26/04/26",
+            "confronto": "CDT Real Oruro x The Strongest",
+            "time_analisado": "CDT Real Oruro",
+            "papel": "parelho",
+            "odd": "3.90",
+            "placar": "2-3",
+            "resultado": "D",
+            "marcou_primeiro": null,
+            "gol_1t": null,
+            "gol_2t": null,
+            "nao_sofreu": false
+          },
+          {
+            "data": "12/04/26",
+            "confronto": "CDT Real Oruro x Blooming",
+            "time_analisado": "CDT Real Oruro",
+            "papel": "favorito",
+            "odd": "1.61",
+            "placar": "2-2",
+            "resultado": "E",
+            "marcou_primeiro": null,
+            "gol_1t": null,
+            "gol_2t": null,
+            "nao_sofreu": false
+          },
+          {
+            "data": "03/04/26",
+            "confronto": "Bolivar x CDT Real Oruro",
+            "time_analisado": "CDT Real Oruro",
+            "papel": "zebra",
+            "odd": "11.00",
+            "placar": "5-2",
+            "resultado": "D",
+            "marcou_primeiro": null,
+            "gol_1t": null,
+            "gol_2t": null,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "Club Always Ready",
+        "texto": "Always Ready cotado a 1.75 hoje; historico de H2H com odds do visitante nesta faixa nao detalhado no PDF — amostra insuficiente para classificar entrega como favorito externo."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Daniel Guillermo Porozo Valencia — artilheiro com 5 gols em 8 jogos",
+          "Angel Fernando Quinonez Guerrero — 2 gols e 2 assistencias",
+          "Adriel Fernandez Sanchez — 2 gols e 2 assistencias"
+        ],
+        "destaques_fora": [
+          "Enrique Luis Triverio — artilheiro com 4 gols em 8 jogos",
+          "Fernando Nava Ortega — 3 gols em 8 jogos",
+          "Jesus Maximiliano Maraude Cano — 1 gol e 3 assistencias"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Jogo com media total de 4.50 gols/partida (Oruro 2.75 marcados + Always Ready 1.50). Over 2.5 a 1.44 e 100% dos jogos do Oruro terminam com Over 2.5. Perfil ideal para gols no final.",
+      "alerta_geral": "Evitar jogos empatados, com goleada ja consolidada (3+ gols de diferenca) ou apos expulsao.",
+      "valor_esperado": "Over Limite: mercado espera muitos gols (Over 2.5 a 1.44); gols no 2T em 88% dos jogos do Oruro e 75% do Always Ready. Back 2x2: Over 2.5 media 75%, BTTS 88%, Over HT 63% — criterio HT nao atinge 70% mas os outros sao fortes.",
+      "mercado_secundario": "Placar exato 2x2 (pre-jogo)",
+      "odd_minima_secundaria": "10.00",
+      "desempenho_1t": "Oruro marca 1.00 gol no 1T (media); Always Ready marca 1.25 no 1T como visitante",
+      "desempenho_2t": "Oruro marca 1.75 no 2T; Always Ready sofre 0.75 no 2T fora",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "posicao_geral": "8º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "",
+          "posicao_geral": "2º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Always Ready e 2o colocado com 17 pontos, brigando pelo titulo contra The Strongest (18 pts). Oruro e 8o sem objetivo claro. Desequilibrio motivacional favorece Always Ready, que tambem tem melhor ataque (14 gols em 8 jogos). Jogo com perfil de muitos gols: Oruro marca 2.75/jogo em casa e sofre 1.75/jogo. Media total de 4.50 gols/jogo e Over 2.5 em 100% dos jogos do Oruro.",
+      "coeficiente_regularidade": "Oruro: alto volume ofensivo mas defesa fragil / Always Ready: consistente (2o lugar, +9 saldo)",
+      "mando_de_campo": "Oruro marca 100% dos jogos em casa com Over 2.5; Always Ready vence 50% fora",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (sem ausencias de impacto identificadas no PDF)",
+      "especificidades_gols": "Oruro concentra gols no 2T (46-60: 27%, 61-75: 18%, 76-90: 18%). Always Ready marca 43% dos gols sofridos na faixa 76-90.",
+      "momento_gols": "Oruro: 76-90 = 18% marcados. Always Ready: 76-90 = 43% sofridos (como visitante). Condicao de momento_gols_final ATENDIDA: sofrido do adversario na faixa 76-90 = 43% >= 25%.",
+      "jogadores_chave": "Porozo Valencia (Oruro, 5 gols), Triverio (Always Ready, 4 gols), Nava Ortega (Always Ready, 3 gols)",
+      "placares_provaveis": "2x1, 3x1, 2x2, 3x2",
+      "momento_entrada": "Over Limite: ao vivo apos 65min. Back 2x2: pre-jogo.",
+      "situacao_saida": "Over Limite: nao entrar se 0x0, goleada 3+ ou expulsao. Back 2x2: cash-out total no 1x1; parcial no 2x1 ou 1x2.",
+      "stake_recomendada": "1% (Over Limite) / 0.5% (Back 2x2)",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Over Limite ao vivo apos 65min com placar em aberto; Back 2x2 pre-jogo pela odd alta e perfil de gols dos dois lados.",
+        "gatilho_saida_parcial": "Back 2x2: cash-out parcial ao chegar em 2x1 ou 1x2. Over Limite: nao entrar se jogo travar com expulsao.",
+        "hard_stop": "Back 2x2: cash-out total no 1x1. Over Limite: nao entrar se diferenca >= 3 gols ou expulsao."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "mercado_espera_gols",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Club Always Ready — 2o colocado brigando pelo titulo da LFPB",
+        "indices_gols_faixas": "Oruro Marcado 61-75: 18% | 76-90: 18% | Always Ready Sofrido 61-75: 0% | 76-90: 43%",
+        "qual_condicao_atende": "Condicao d: Always Ready Sofrido 76-90 = 43% >= 25%",
+        "motivo_motivacao": "Always Ready 2o colocado com 17 pts brigando pelo titulo vs Oruro 8o sem objetivo — desequilibrio motivacional claro",
+        "condicao_entrada": "Entrar AO VIVO apos 65min; mercado = Mais X.5 gols onde X = total de gols no placar + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
+        "ponderacao_odds": "Over 2.5 a 1.44 confirma expectativa de jogo aberto. Always Ready sofre 43% dos gols na faixa 76-90 como visitante — janela final e produtiva.",
+        "risco_principal": "Se o jogo estiver empatado sem gols apos 65min, a entrada e vetada pelo protocolo.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferenca), ou expulsao em campo"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=60",
+          "btts_>=60",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Over 2.5 media 75% (Oruro 100%, Always Ready 50%), BTTS 88% (Oruro 100%, Always Ready 75%), ambos com defesas frageis (Oruro sofre 1.75/jogo, Always Ready 0.75 fora mas 1.50 geral) e ataques produtivos (Oruro 2.75, Always Ready 1.50 fora). Over HT 63% — abaixo de 70% mas os outros criterios sao muito fortes.",
+        "indice_over_2_5": "75% media — Oruro 100%, Always Ready 50%",
+        "indice_ambas_marcam": "88% media — Oruro 100%, Always Ready 75%",
+        "indice_over_ht": "63% media — Oruro 75%, Always Ready 50% (nao atinge 70% mas criterios 1-3 sao solidos)",
+        "ponderacao_odds": "Over 2.5 a 1.44 — mercado confirma jogo de gols. Ambas Marcam a 1.40 reforça o perfil de 2x2.",
+        "risco_principal": "Over HT abaixo de 70% reduz probabilidade de placar 2x2 especifico; odd do placar exato pode nao compensar.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Jogo aberto com ambos os times buscando o gol; Oruro ofensivo em casa, Always Ready com pressao motivacional pelo titulo",
+        "gatilhos_aceleracao": "Always Ready subindo linhas apos 60min, Oruro buscando empate se estiver perdendo",
+        "alerta_armadilha": "Jogo travado com placar 0x0 apos 65min — nao entrar no Over Limite",
+        "mercado_recomendado": "Mais X.5 gols ao vivo apos 65min",
+        "momento_observacao": "65-70min"
+      },
+      "_media_casa_bruta": "2.75",
+      "_media_fora_bruta": "1.50",
+      "_ev_pct": 15,
+      "_ev_odd": 2.02,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8507109?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "21:30",
+      "liga": "Bolivia LFPB",
+      "jogo": "Blooming x CD Gualberto Villarroel Deportivo San Jose",
+      "metodos_aplicados": [
+        "back_goleada",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "72%",
+      "fair_odd": "1.39",
+      "odd_minima_entrada": "1.40",
+      "media_gols_casa": 2.29,
+      "media_gols_fora": 0.54,
+      "media_sofridos_casa": "0.33",
+      "media_sofridos_fora": "2.25",
+      "odds_mercado": {
+        "casa": "1.40",
+        "empate": "4.50",
+        "fora": "7.00",
+        "dupla_chance_1x": "1.08",
+        "dupla_chance_12": "1.14",
+        "dupla_chance_x2": "2.70",
+        "over_05": "1.01",
+        "under_05": "17.00",
+        "over_15": "1.13",
+        "under_15": "6.00",
+        "over_25": "1.44",
+        "under_25": "2.70",
+        "over_35": "2.20",
+        "under_35": "1.65",
+        "over_45": "3.80",
+        "under_45": "1.25"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav/Fav/Parelho/Nao Fav: 4V 4E 7D -7.5U (historico geral do Blooming no H2H com odds)",
+        "resumo_favorito_fora": "San Jose sem dados de papel como zebra com amostra suficiente no PDF",
+        "leitura": "Blooming tem historico negativo no H2H geral (4V 4E 7D), mas hoje e favorito extremo em casa a 1.40 contra o lanterna. San Jose nao tem V como azarao registrada no PDF.",
+        "jogos_relevantes": [
+          {
+            "data": "03/04/26",
+            "confronto": "Blooming x Guabira",
+            "time_analisado": "Blooming",
+            "papel": "favorito",
+            "odd": "1.70",
+            "placar": "5-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "04/03/26",
+            "confronto": "Blooming x CD Cultural San Antonio de Bulo Bulo",
+            "time_analisado": "Blooming",
+            "papel": "favorito",
+            "odd": "1.70",
+            "placar": "3-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "22/04/26",
+            "confronto": "Blooming x Nacional Potosi",
+            "time_analisado": "Blooming",
+            "papel": "favorito",
+            "odd": "1.60",
+            "placar": "2-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "10/05/26",
+            "confronto": "Blooming x Bolivar",
+            "time_analisado": "Blooming",
+            "papel": "parelho",
+            "odd": "3.10",
+            "placar": "0-0",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
+          },
+          {
+            "data": "07/05/26",
+            "confronto": "Blooming x Bragantino",
+            "time_analisado": "Blooming",
+            "papel": "parelho",
+            "odd": "3.50",
+            "placar": "0-6",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "21/05/26",
+            "confronto": "Blooming x Carabobo",
+            "time_analisado": "Blooming",
+            "papel": "favorito",
+            "odd": "4.50",
+            "placar": "0-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Blooming",
+        "texto": "Blooming venceu 3-0 e 5-0 como favorito cotado a 1.60-1.70 em casa — entrega como favorito extremo em casa contra adversarios fracos."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Jhord Bayron Garces Moreno — artilheiro com 4 gols em 6 jogos",
+          "Cesar Alejandro Menacho Claros — 3 gols e 1 assistencia em 8 jogos",
+          "Roberto Carlos Hinojosa Marin — 1 gol e 2 assistencias"
+        ],
+        "destaques_fora": [
+          "Alex Albino Caceres Mendez — 3 gols e 1 assistencia em 8 jogos, referencia ofensiva",
+          "Joaquin Adan Lencinas — titular absoluto (720min), 1 gol",
+          "Moises Calero — 2 assistencias, mas 4 cartoes amarelos e 1 vermelho (risco de suspensao)"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Blooming em casa (5º geral) contra o lanterna San Jose (16º, 5pts). San Jose sofre 2.25 gols/jogo fora e Blooming marca 2.33/jogo em casa — cenario de goleada.",
+      "alerta_geral": "Evitar jogos empatados, com goleada ja consolidada (3+ gols de diferenca) ou apos expulsao.",
+      "valor_esperado": "Prob 72% → fair 1.39; Back Goleada busca odd 4.00+ no mercado 'marca 4+'. Lay Zebra a 7.00 com margem de seguranca ampla.",
+      "mercado_secundario": "Lay CD Gualberto Villarroel Deportivo San Jose",
+      "odd_minima_secundaria": "5.00",
+      "desempenho_1t": "Blooming marca 67% dos gols no 1T (5 gols nas faixas 0-15, 16-30, 31-45)",
+      "desempenho_2t": "San Jose sofre gols em 100% dos jogos fora; 7 gols sofridos em 4 jogos fora",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "posicao_geral": "5º",
+          "objetivo": "libertadores"
+        },
+        "fora": {
+          "posicao": "",
+          "posicao_geral": "16º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Blooming 5º com 12pts briga por vaga continental. San Jose e lanterna com apenas 5pts em 8 jogos, 1V 2E 5D, sofre 2.0 gols/jogo no geral. Fora de casa San Jose tem aproveitamento de 0.25 pts/jogo (0V 1E 3D). Blooming em casa marca 2.33 gols/jogo e sofre apenas 0.33. Desequilibrio tecnico extremo.",
+      "coeficiente_regularidade": "Casa: alto aproveitamento em casa (67% vitorias) / Visitante: CV alto, resultados muito ruins fora",
+      "mando_de_campo": "Blooming venceu 67% dos jogos em casa no recorte do PDF",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (sem ausencias identificadas no PDF)",
+      "especificidades_gols": "Blooming marca cedo (29% dos gols entre 0-15min e 29% entre 16-30min). San Jose marca pouco (0.75/jogo fora) e sofre muito (2.25/jogo fora).",
+      "momento_gols": "Blooming concentra gols no 1T (71% das faixas 0-45). San Jose sofreu 100% na faixa 61-75 no recorte de casa.",
+      "jogadores_chave": "Garces Moreno (4 gols) e Menacho Claros (3 gols) sao os finalizadores do Blooming. Caceres Mendez e o unico com producao ofensiva relevante no San Jose.",
+      "placares_provaveis": "3x0, 4x0, 3x1",
+      "momento_entrada": "Pre-jogo para Back Goleada e Lay Zebra. Over Limite ao vivo apos 65min se placar parcial permitir.",
+      "situacao_saida": "Back Goleada: segurar ate o fim ou cash-out se Blooming nao marcar ate 60min. Lay Zebra: cash-out se San Jose marcar e empatar. Over Limite: nao entrar se goleada consolidada (3+ de diferenca).",
+      "stake_recomendada": "1% Back Goleada | 2% Lay Zebra | 1% Over Limite",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo extremo confirmado pelo mercado (1.40). San Jose e o pior time da liga fora de casa. Multiplos metodos convergem.",
+        "gatilho_saida_parcial": "Lay Zebra: cash-out parcial se San Jose marcar primeiro. Back Goleada: cash-out se Blooming nao marcar 3+ ate 70min.",
+        "hard_stop": "Lay Zebra: saida total se San Jose vencer o 1T. Over Limite: nao entrar se expulsao ou goleada consolidada."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Blooming — brigando por vaga continental contra lanterna sem objetivo",
+        "indices_gols_faixas": "Blooming Marcado 61-75: 14% | 76-90: 14% | San Jose Sofrido 61-75: 100% | 76-90: nao disponivel separado",
+        "qual_condicao_atende": "Condicao c: San Jose Sofrido 61-75 = 100% (supera limiar de 25%)",
+        "motivo_motivacao": "Blooming 5º brigando por vaga continental vs San Jose lanterna sem objetivo — desequilibrio tecnico extremo.",
+        "condicao_entrada": "Entrar AO VIVO apos 65min, mercado = Mais X.5 gols onde X = total de gols no placar + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
+        "ponderacao_odds": "Over 2.5 a 1.44 — mercado espera jogo com gols. Media total de 3.08 gols/jogo (2.33+0.75). San Jose sofre gols em 100% dos jogos fora.",
+        "risco_principal": "Se Blooming ja estiver vencendo por 3+ gols antes dos 65min, metodo nao deve ser ativado (goleada consolidada).",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferenca), ou expulsao em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=70",
+          "odd_favorito_<=1.40",
+          "ataque_>=2.5",
+          "adversario_sofre_>=2.0",
+          "goleada_recente_h2h"
+        ],
+        "criterios_total": 6,
+        "candidato": "Blooming",
+        "razao": "Blooming marca 2.33 gols/jogo em casa, San Jose sofre 2.25 gols/jogo fora. H2H mostra Blooming 5-0 e 3-0 em jogos como favorito extremo em casa. Odd 1.40 confirma favoritismo extremo.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Blooming marca 4+ e vence",
+        "ponderacao_odds": "Favorito a 1.40 + Over 2.5 a 1.44 — mercado confirma jogo de gols. Over 4.5 a 3.80 e o mercado alvo para goleada.",
+        "risco_principal": "San Jose pode retrair e dificultar a goleada mesmo sendo muito inferior tecnicamente.",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Blooming deve dominar posse (52% media) e pressionar alto. San Jose tende a retrair e defender.",
+        "gatilhos_aceleracao": "Blooming abrindo o placar nos primeiros 30min (padrao historico), San Jose sem reacao ofensiva",
+        "alerta_armadilha": "Se San Jose marcar primeiro (raro mas possivel), Lay Zebra ao vivo fica ainda mais atrativo com odd inflada.",
+        "mercado_recomendado": "Lay Zebra pre-jogo ou Back Goleada pre-jogo",
+        "momento_observacao": "Primeiros 30min para confirmar dominio do Blooming"
+      },
+      "_media_casa_bruta": "2.33",
+      "_media_fora_bruta": "0.75",
+      "_mercado_original_incoerente": "Blooming marca 4+ e vence",
+      "_ev_pct": 1,
+      "_ev_odd": 1.4,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8507128?dia=amanha&mode=ha&modo=detalhado"
+    }
+  ],
   "evitar": [],
   "pdfs": [
     {
@@ -13,6 +997,14 @@
     {
       "jogo": "CDT Real Oruro x Club Always Ready",
       "arquivo": "pdfs/2026-07-14/Bolivia_LFPB/002_19h00_CDT_Real_Oruro_x_Club_Always_Ready.pdf"
+    },
+    {
+      "jogo": "Blooming x CD Gualberto Villarroel Deportivo San Jose",
+      "arquivo": "pdfs/2026-07-14/Bolivia_LFPB/003_21h30_Blooming_x_CD_Gualberto_Villarroel_Deportivo_San_Jose.pdf"
+    },
+    {
+      "jogo": "França x Espanha",
+      "arquivo": "pdfs/2026-07-14/International_World_Cup/004_16h00_França_x_Espanha.pdf"
     }
   ]
 }
