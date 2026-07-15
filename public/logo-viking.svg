@@ -1,0 +1,23 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Análises Trader Viking">
+  <defs>
+    <linearGradient id="ouro" x1="8" y1="4" x2="40" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4D588"/>
+      <stop offset="0.5" stop-color="#C9962E"/>
+      <stop offset="1" stop-color="#8A6516"/>
+    </linearGradient>
+    <linearGradient id="ouroBrilho" x1="14" y1="10" x2="30" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBE7B8"/>
+      <stop offset="1" stop-color="#D3A63C"/>
+    </linearGradient>
+  </defs>
+  <!-- escudo/base escura -->
+  <path d="M24 2 L42 9 V25 C42 36 34 43 24 46 C14 43 6 36 6 25 V9 Z" fill="#12100B" stroke="url(#ouro)" stroke-width="1.5"/>
+  <!-- machado viking estilizado formando um 'V' -->
+  <path d="M17 13 L24 30 L31 13" stroke="url(#ouroBrilho)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- lâmina do machado (asa direita) -->
+  <path d="M31 13 C35 14 37.5 17 37 21 C34.5 20 32 19 30 19.5 Z" fill="url(#ouro)"/>
+  <!-- lâmina do machado (asa esquerda) -->
+  <path d="M17 13 C13 14 10.5 17 11 21 C13.5 20 16 19 18 19.5 Z" fill="url(#ouro)"/>
+  <!-- ponto de pressão / seta ascendente (green) -->
+  <path d="M24 34 L20 40 H28 Z" fill="url(#ouroBrilho)"/>
+</svg>

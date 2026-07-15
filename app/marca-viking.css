@@ -1,0 +1,57 @@
+/* ============================================================
+   ANÁLISES TRADER VIKING — identidade visual
+   Direção: viking premium. Dourado forjado sobre escuro profundo.
+   Força (o machado, a pressão) com sofisticação (ouro, contraste alto).
+   Importe em app/globals.css:  @import './marca-viking.css';
+   ============================================================ */
+
+:root {
+  /* Ouro forjado — o dourado NÃO é chapado; tem brilho e sombra */
+  --viking-ouro:        #C9962E;   /* ouro base (bordas, ícones) */
+  --viking-ouro-claro:  #F4D588;   /* brilho (hover, destaques) */
+  --viking-ouro-escuro: #8A6516;   /* sombra do ouro (gradientes) */
+
+  /* Escuros — não é preto puro, é um carvão quente (mais premium) */
+  --viking-carvao:      #12100B;   /* fundo mais profundo */
+  --viking-noite:       #1A1712;   /* superfícies/cards */
+  --viking-pedra:       #2A2620;   /* bordas sutis, divisores */
+
+  /* Sinais (mantêm o padrão do site pra green/red não confundir) */
+  --viking-green:       #3FB868;
+  --viking-red:         #E5484D;
+
+  /* Neutros de texto sobre escuro */
+  --viking-marfim:      #EDE7D8;   /* texto principal */
+  --viking-bruma:       #9B9384;   /* texto secundário/labels */
+
+  /* Gradiente-assinatura (usar com MUITA parcimônia: só no logo/hero) */
+  --viking-grad-ouro: linear-gradient(135deg, #F4D588 0%, #C9962E 50%, #8A6516 100%);
+}
+
+/* Utilitárias da marca (prefixo tv- pra não colidir com Tailwind) */
+.tv-ouro        { color: var(--viking-ouro); }
+.tv-ouro-claro  { color: var(--viking-ouro-claro); }
+.tv-texto-ouro  {
+  background: var(--viking-grad-ouro);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent; color: transparent;
+}
+.tv-borda-ouro  { border-color: var(--viking-ouro); }
+.tv-fundo-noite { background: var(--viking-noite); }
+
+/* Régua/divisor com fio dourado — estrutura que carrega a marca */
+.tv-regua {
+  height: 1px; border: 0;
+  background: linear-gradient(90deg, transparent, var(--viking-ouro) 20%, var(--viking-ouro) 80%, transparent);
+  opacity: 0.5;
+}
+
+/* Título display da marca: peso alto, letras condensadas, tracking negativo.
+   Fonte sugerida: "Oswald" ou "Archivo" (condensada, tem força viking).
+   Body sugerido: "Inter" (o que o site já usa). */
+.tv-display {
+  font-family: "Oswald", "Archivo Narrow", system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
