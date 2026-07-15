@@ -1,0 +1,16 @@
+{
+  "name": "Análises Trader Viking",
+  "short_name": "Trader Viking",
+  "description": "Análises e entradas de trading esportivo ao vivo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#12100B",
+  "theme_color": "#12100B",
+  "orientation": "portrait",
+  "categories": ["sports", "finance"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -71,6 +71,89 @@ export default {
         const resultado = await rodarAuditoria(env);
         return resposta(resultado, 200, corsHeaders);
       }
+      if (path === '/diag-auditoria' && method === 'GET') {
+        // DIAGNÓSTICO: testa a auditoria de UM dia e reporta cada etapa,
+        // sem gravar nada. /diag-auditoria?data=2026-07-11
+        const data = url.searchParams.get('data');
+        if (!data || !/^\d{4}-\d{2}-\d{2}$/.test(data)) {
+          return resposta({ erro: 'use ?data=AAAA-MM-DD' }, 400, corsHeaders);
+        }
+        const diag = { data, etapas: {} };
+        // 0. Config do GitHub que o worker está usando (sem vazar token)
+        diag.config = {
+          owner: env.GITHUB_OWNER || '(vazio)',
+          repo: env.GITHUB_REPO || '(vazio)',
+          branch: env.GITHUB_BRANCH || '(vazio → usa main)',
+          tem_token: !!env.GITHUB_TOKEN,
+          path: `${ENTRADAS_PATH_PREFIX}${data}.json`,
+        };
+        // 0b. Chamada CRUA à API do GitHub — reporta status e primeiros bytes
+        try {
+          const ghUrl = `https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/contents/${ENTRADAS_PATH_PREFIX}${data}.json?ref=${env.GITHUB_BRANCH || 'main'}`;
+          const ghResp = await fetch(ghUrl, {
+            headers: {
+              'Authorization': `Bearer ${env.GITHUB_TOKEN}`,
+              'User-Agent': 'analises-trader-worker',
+              'Accept': 'application/vnd.github+json',
+            },
+          });
+          diag.github_raw = {
+            url: ghUrl.replace(env.GITHUB_OWNER, 'OWNER').replace(env.GITHUB_REPO, 'REPO'),
+            status: ghResp.status,
+            status_texto: ghResp.statusText,
+          };
+          const txt = await ghResp.text();
+          diag.github_raw.corpo_inicio = txt.slice(0, 180);
+        } catch (e) {
+          diag.github_raw = { erro: e.message };
+        }
+        // 1. Relatório existe no GitHub? (via helper normal)
+        let relatorio;
+        try {
+          const res = await lerArquivoGithubGenerico(env, `${ENTRADAS_PATH_PREFIX}${data}.json`);
+          if (!res.conteudo) { diag.etapas.relatorio = 'VAZIO'; return resposta(diag, 200, corsHeaders); }
+          relatorio = JSON.parse(res.conteudo);
+          diag.etapas.relatorio = `OK — ${relatorio.entradas?.length || 0} entradas`;
+        } catch (e) {
+          diag.etapas.relatorio = `FALHOU: ${e.message}`;
+          return resposta(diag, 200, corsHeaders);
+        }
+        // 2. API-Football retorna placares dessa data?
+        let placares;
+        try {
+          placares = await buscarPlacaresDoDia(env, data);
+          diag.etapas.placares_api = `OK — ${placares?.length || 0} jogos retornados`;
+          diag.exemplos_api = (placares || []).slice(0, 5).map(p =>
+            `${p.casa} ${p.gols_casa}x${p.gols_fora} ${p.fora} [${p.status}]`);
+        } catch (e) {
+          diag.etapas.placares_api = `FALHOU: ${e.message}`;
+          return resposta(diag, 200, corsHeaders);
+        }
+        // 3. Matching: quantas entradas casam com algum placar?
+        let casaram = 0; const naoCasaram = [];
+        for (const e of (relatorio.entradas || [])) {
+          const p = encontrarPlacar(e.jogo, placares || []);
+          if (p) casaram++;
+          else naoCasaram.push(e.jogo);
+        }
+        diag.etapas.matching = `${casaram}/${relatorio.entradas?.length || 0} entradas casaram com placar`;
+        diag.jogos_sem_match = naoCasaram.slice(0, 10);
+        return resposta(diag, 200, corsHeaders);
+      }
+      if (path === '/reauditar' && method === 'POST') {
+        // Recupera vereditos de MUITOS dias atrás sob demanda.
+        // /reauditar?dias=45 → varre os últimos 45 dias e grava veredito
+        // em toda entrada encerrada ainda sem ele. Use pra recuperar
+        // histórico (dias que o cron nunca auditou).
+        const dias = Math.min(parseInt(url.searchParams.get('dias') || '30', 10) || 30, 90);
+        let atualizados = 0;
+        try {
+          atualizados = await gravarPlacaresNosRelatorios(env, dias);
+        } catch (e) {
+          return resposta({ erro: e.message, dias }, 500, corsHeaders);
+        }
+        return resposta({ status: 'ok', dias_varridos: dias, relatorios_atualizados: atualizados }, 200, corsHeaders);
+      }
       if (path === '/live' && method === 'POST') {
         // Roda a checagem de gatilhos live manualmente (debug/teste)
         const resultado = await verificarGatilhosLive(env);
@@ -153,7 +236,11 @@ export default {
         if (!fixtureId || !/^\d+$/.test(fixtureId)) {
           return resposta({ erro: 'fixture_id invalido' }, 400, corsHeaders);
         }
-        const cacheKey = new Request(`https://cache.local/eventos?fixture_id=${fixtureId}`);
+        // final=1 → jogo encerrado: gols não mudam mais, cache de 24h
+        // (economiza cota agora que a timeline aparece em TODOS os cards)
+        const ehFinal = url.searchParams.get('final') === '1';
+        const ttl = ehFinal ? 86400 : 300;
+        const cacheKey = new Request(`https://cache.local/eventos?fixture_id=${fixtureId}&final=${ehFinal ? 1 : 0}`);
         const cache = caches.default;
         const cached = await cache.match(cacheKey);
         if (cached) {
@@ -163,7 +250,7 @@ export default {
         const gols = await buscarGolsDaPartida(env, fixtureId);
         const corpo = { fixture_id: Number(fixtureId), gols, cache: false };
         const respCache = new Response(JSON.stringify(corpo), {
-          headers: { 'Content-Type': 'application/json', 'Cache-Control': 'max-age=300' },
+          headers: { 'Content-Type': 'application/json', 'Cache-Control': `max-age=${ttl}` },
         });
         await cache.put(cacheKey, respCache.clone());
         return resposta(corpo, 200, corsHeaders);
@@ -441,13 +528,17 @@ async function rodarAuditoria(env) {
 // Isso permite o site mostrar "Encerrado 2x1" sem depender da API
 // (que no plano free nao retorna datas passadas).
 // =============================================================
-async function gravarPlacaresNosRelatorios(env) {
+async function gravarPlacaresNosRelatorios(env, diasAtras = 10) {
+  // Varre os últimos N dias (não só hoje/ontem): assim uma execução
+  // recupera dias que ficaram sem veredito porque o cron não rodou na
+  // janela pós-jogo. Pula relatórios cujas entradas JÁ estão todas
+  // auditadas (evita reprocessar e gastar API à toa).
   const hoje = new Date();
-  const ontem = new Date(hoje.getTime() - 24 * 60 * 60 * 1000);
-  const datas = [
-    hoje.toISOString().slice(0, 10),
-    ontem.toISOString().slice(0, 10),
-  ];
+  const datas = [];
+  for (let i = 0; i <= diasAtras; i++) {
+    const d = new Date(hoje.getTime() - i * 24 * 60 * 60 * 1000);
+    datas.push(d.toISOString().slice(0, 10));
+  }
 
   let totalAtualizados = 0;
 
@@ -466,6 +557,10 @@ async function gravarPlacaresNosRelatorios(env) {
     let relatorio;
     try { relatorio = JSON.parse(relatorioRaw); } catch { continue; }
     if (!relatorio.entradas || !Array.isArray(relatorio.entradas)) continue;
+
+    // Pula se TODAS as entradas já têm veredito (nada a fazer)
+    const faltaAuditar = relatorio.entradas.some(e => !e._veredito);
+    if (!faltaAuditar) continue;
 
     // Busca placares da data
     let placares;
@@ -772,7 +867,7 @@ function parseNumero(v) {
 }
 
 function bloquearLaysContraPoisson(relatorio) {
-  const LIMIAR = 12; // %
+  const LIMIAR = 10; // % — alinhado ao main.py (12% era -EV nas odds praticadas)
   let mudou = false;
   for (const entrada of relatorio.entradas || []) {
     const mc = parseNumero(entrada.media_gols_casa);

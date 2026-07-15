@@ -24,10 +24,12 @@ export default function GolsTimeline({
   fixtureId,
   minutoAtual,
   encerrado,
+  mostrarGatilho65 = false,
 }: {
   fixtureId: number | null | undefined;
   minutoAtual?: number | null;
   encerrado?: boolean;
+  mostrarGatilho65?: boolean;
 }) {
   const [gols, setGols] = useState<Gol[] | null>(null);
   const [erro, setErro] = useState(false);
@@ -37,7 +39,8 @@ export default function GolsTimeline({
     if (!apiUrl || !fixtureId) return;
     let cancelado = false;
     const buscar = () => {
-      fetch(`${apiUrl}/eventos?fixture_id=${fixtureId}`)
+      // final=1: jogo encerrado → o worker cacheia 24h (gols não mudam)
+      fetch(`${apiUrl}/eventos?fixture_id=${fixtureId}${encerrado ? '&final=1' : ''}`)
         .then((r) => (r.ok ? r.json() : null))
         .then((dados) => {
           if (!cancelado && dados && Array.isArray(dados.gols)) setGols(dados.gols);
@@ -73,18 +76,22 @@ export default function GolsTimeline({
             style={{ width: `${pctJogado}%` }}
           />
         </div>
-        {/* Marcador do gatilho do Over Limite (65min) */}
-        <div
-          className="absolute top-0 bottom-0 w-px bg-purple-500"
-          style={{ left: `${(65 / 90) * 100}%` }}
-          title="Gatilho do Over Limite: 65min"
-        />
-        <div
-          className="absolute -top-0.5 text-[8px] font-bold text-purple-600 dark:text-purple-400 -translate-x-1/2"
-          style={{ left: `${(65 / 90) * 100}%` }}
-        >
-          65&apos;
-        </div>
+        {/* Marcador do gatilho do Over Limite (65min) — só quando o método se aplica */}
+        {mostrarGatilho65 && (
+          <>
+            <div
+              className="absolute top-0 bottom-0 w-px bg-purple-500"
+              style={{ left: `${(65 / 90) * 100}%` }}
+              title="Gatilho do Over Limite: 65min"
+            />
+            <div
+              className="absolute -top-0.5 text-[8px] font-bold text-purple-600 dark:text-purple-400 -translate-x-1/2"
+              style={{ left: `${(65 / 90) * 100}%` }}
+            >
+              65&apos;
+            </div>
+          </>
+        )}
         {gols.map((g, i) => (
           <span
             key={i}

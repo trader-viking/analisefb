@@ -876,12 +876,14 @@ function CardEntrada({ entrada, mAtivos, placar, encerrado, aoVivo, relatorioSlu
       {/* Melhoria #5: linha do tempo dos gols — só em entradas com Over
           Limite e quando o worker identificou o fixture (jogo rolando ou
           encerrado). Mostra o gatilho de 65min e cada gol no minuto real. */}
-      {!!(entrada.over_limite_70 && (entrada.over_limite_70 as any).aplicavel) &&
-        placar?.fixture_id != null && (aoVivo || encerrado) && (
+      {/* Linha do tempo dos gols — TODAS as partidas rolando/encerradas
+          (o marcador de 65' só aparece quando o Over Limite se aplica) */}
+      {placar?.fixture_id != null && (aoVivo || encerrado) && (
         <GolsTimeline
           fixtureId={placar.fixture_id}
           minutoAtual={placar.minuto}
           encerrado={encerrado}
+          mostrarGatilho65={!!(entrada.over_limite_70 && (entrada.over_limite_70 as any).aplicavel)}
         />
       )}
 
