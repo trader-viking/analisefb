@@ -3,6 +3,7 @@ import './globals.css';
 import Link from 'next/link';
 import ThemeToggle from '@/components/ThemeToggle';
 import HeaderViking from '@/components/HeaderViking';
+import BotaoInstalar from '@/components/BotaoInstalar';
 
 export const metadata: Metadata = {
   title: 'Análises Trader',
@@ -12,12 +13,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <HeaderViking />
-
-<link rel="manifest" href="/manifest.json" />
-<meta name="theme-color" content="#12100B" />
-<link rel="apple-touch-icon" href="/icon-192.png" />
- <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap" rel="stylesheet" />
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#12100B" />
+        <link rel="apple-touch-icon" href="/icon-192.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap" rel="stylesheet" />
 
         <script
           dangerouslySetInnerHTML={{
@@ -31,31 +31,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             `,
           }}
         />
-
-
       </head>
       <body>
-
-import BotaoInstalar from '@/components/BotaoInstalar';
-...
-<BotaoInstalar />
-
-        <header className="sticky top-0 z-10 backdrop-blur-md bg-white/80 dark:bg-ink-950/80 border-b border-ink-200 dark:border-ink-800">
-          <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-            <Link href="/" className="font-bold tracking-tight text-lg hover:opacity-70 transition">
-              📊 Análises Trader
-            </Link>
-            <div className="flex items-center gap-1 sm:gap-3">
-              <Link
-                href="/auditoria/"
-                className="text-sm font-medium px-3 py-1.5 rounded-md hover:bg-ink-100 dark:hover:bg-ink-800 transition"
-              >
-                Auditoria
-              </Link>
-              <ThemeToggle />
-            </div>
-          </div>
-        </header>
+        <BotaoInstalar />
+        
+        <HeaderViking />
+        
         <main className="max-w-6xl mx-auto px-4 py-6">{children}</main>
         <footer className="max-w-6xl mx-auto px-4 py-8 text-xs text-ink-500 text-center">
           Análises geradas automaticamente · Não constitui recomendação de aposta
