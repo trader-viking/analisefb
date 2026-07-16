@@ -322,10 +322,22 @@
       "_media_fora_bruta": "1.17",
       "_alerta_coerencia": "prob estimada 58% diverge da P(vitória) implícita nas médias de gols (29%) — revise médias ou probabilidade",
       "_ev_pct": 16,
-      "_ev_odd": 2.0,
+      "_ev_odd": 2,
       "_ev_base": "mercado",
       "media_gols_ajustada_coerencia": true,
-      "_url_fonte": "https://clube.theoborges.com/game/8391026?dia=hoje&mode=ha&modo=detalhado"
+      "_url_fonte": "https://clube.theoborges.com/game/8391026?dia=hoje&mode=ha&modo=detalhado",
+      "_odds_historico": [
+        {
+          "ts": "2026-07-16T13:34:31.501716",
+          "odd": 1.97,
+          "origem": "relatorio"
+        },
+        {
+          "ts": "2026-07-16T18:00:55.457Z",
+          "odd": 2.28,
+          "origem": "api"
+        }
+      ]
     },
     {
       "horario": "16:00",
