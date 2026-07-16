@@ -1,10 +1,2226 @@
 {
   "data": "2026-07-16",
   "dia_consultado": "hoje",
-  "gerado_em": "2026-07-16T12:40:49.155154",
-  "total_partidas_analisadas": 3,
-  "entradas": [],
-  "evitar": [],
+  "gerado_em": "2026-07-16T13:34:31.501716",
+  "total_partidas_analisadas": 9,
+  "entradas": [
+    {
+      "horario": "20:30",
+      "liga": "USA MLS",
+      "jogo": "Montreal Impact x Toronto",
+      "metodos_aplicados": [
+        "back_2x2",
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Vitória Montreal Impact",
+      "probabilidade_estimada": "58%",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.97",
+      "media_gols_casa": 1.69,
+      "media_gols_fora": 1.27,
+      "media_sofridos_casa": "2.20",
+      "media_sofridos_fora": "1.55",
+      "odds_mercado": {
+        "casa": "2.00",
+        "empate": "3.75",
+        "fora": "3.60",
+        "dupla_chance_1x": "1.25",
+        "dupla_chance_12": "1.22",
+        "dupla_chance_x2": "1.73",
+        "over_05": "1.01",
+        "under_05": "15.00",
+        "over_15": "1.20",
+        "under_15": "4.66",
+        "over_25": "1.61",
+        "under_25": "2.25",
+        "over_35": "2.61",
+        "under_35": "1.51",
+        "over_45": "4.84",
+        "under_45": "1.19",
+        "over_05_ht": "1.25",
+        "under_05_ht": "3.60",
+        "over_15_ht": "2.47",
+        "under_15_ht": "1.54",
+        "over_05_2t": "1.18",
+        "under_05_2t": "4.40",
+        "over_15_2t": "1.85",
+        "under_15_2t": "1.85",
+        "over_25_2t": "3.70",
+        "under_25_2t": "1.25",
+        "ambas_marcam": "1.57",
+        "ambas_marcam_1t": "3.75",
+        "ambas_marcam_2t": "2.75",
+        "nao_sofrer_casa": "3.20",
+        "nao_sofrer_fora": "4.75",
+        "vitoria_sem_sofrer_casa": "4.00",
+        "vitoria_sem_sofrer_fora": "7.00",
+        "cantos_1x2": "1.76",
+        "over_cantos_75": "1.17",
+        "under_cantos_75": "3.35",
+        "over_cantos_85": "1.47",
+        "under_cantos_85": "2.48",
+        "over_cantos_95": "1.65",
+        "under_cantos_95": "2.05",
+        "over_cantos_105": "2.23",
+        "under_cantos_105": "1.57",
+        "over_cantos_115": "2.85",
+        "under_cantos_115": "1.36"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Montreal Impact: Super Fav: 4V 2E 8D | Favorito: 0V 0E 0D | Parelho: 0V 0E 0D",
+        "resumo_favorito_fora": "Toronto: Não Fav: 0V 0E 0D",
+        "leitura": "Montreal Impact tem um retrospecto negativo como Super Favorito em casa, mas o Toronto é um time que não se destaca como Não Favorito. O jogo é equilibrado.",
+        "jogos_relevantes": [
+          {
+            "data": "23/05/26",
+            "confronto": "Montreal Impact x DC United",
+            "time_analisado": "Montreal Impact",
+            "papel": "super_favorito",
+            "odd": "3.50",
+            "placar": "4 - 4",
+            "resultado": "E",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "16/05/26",
+            "confronto": "Montreal Impact x Chicago Fire",
+            "time_analisado": "Montreal Impact",
+            "papel": "favorito",
+            "odd": "2.80",
+            "placar": "0 - 2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "13/05/26",
+            "confronto": "Montreal Impact x Portland Timbers",
+            "time_analisado": "Montreal Impact",
+            "papel": "favorito",
+            "odd": "2.20",
+            "placar": "2 - 2",
+            "resultado": "E",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "09/05/26",
+            "confronto": "Montreal Impact x Orlando City",
+            "time_analisado": "Montreal Impact",
+            "papel": "favorito",
+            "odd": "1.95",
+            "placar": "2 - 0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
+          },
+          {
+            "data": "02/05/26",
+            "confronto": "Atlanta United FC x Montreal Impact",
+            "time_analisado": "Montreal Impact",
+            "papel": "nao_fav",
+            "odd": "3.30",
+            "placar": "3 - 1",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "25/04/26",
+            "confronto": "Montreal Impact x New York City",
+            "time_analisado": "Montreal Impact",
+            "papel": "favorito",
+            "odd": "2.80",
+            "placar": "1 - 0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "alerta",
+        "time": "Montreal Impact",
+        "texto": "Montreal Impact tem retrospecto negativo como Super Favorito em casa: 4V 2E 8D. A odd de 2.00 hoje não é tão baixa para justificar um back sem mais garantias."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Prince-Osei Owusu — artilheiro com 9 gols",
+          "Wikelman José Carmona Torres — 4 gols e 2 assistências",
+          "Daniel Armando Ríos Calderón — 2 gols"
+        ],
+        "destaques_fora": [
+          "Daniel Salloi — 4 gols e 3 assistências",
+          "Joshua Sargent — 3 gols",
+          "Kobe Franklin — 2 gols e 2 assistências"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Montreal Impact favorito com odd 2.00, mas com retrospecto negativo como Super Favorito. Toronto com defesa frágil e ataque mediano. Jogo com potencial de gols.",
+      "alerta_geral": null,
+      "valor_esperado": "A probabilidade estimada de 58% para a vitória do Montreal Impact resulta em uma fair odd de 1.72. A odd mínima de entrada é 1.97. A odd de mercado de 2.00 oferece um pequeno valor.",
+      "mercado_secundario": "Lay Zebra",
+      "odd_minima_secundaria": "6.00",
+      "desempenho_1t": "Montreal Impact marca 0.60 gols no 1ºT, Toronto sofre 1.60 gols no 1ºT.",
+      "desempenho_2t": "Montreal Impact marca 0.40 gols no 2ºT, Toronto sofre 0.60 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "25º",
+          "posicao_geral": "25º",
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": "24º",
+          "posicao_geral": "24º",
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times estão na parte inferior da tabela e sem objetivos claros para o restante da temporada. O Montreal Impact joga em casa com odd de favorito, mas seu retrospecto como Super Favorito é ruim. O Toronto tem uma defesa que sofre muitos gols.",
+      "coeficiente_regularidade": "Montreal Impact: CV baixo (1.00 gols marcados / 2.20 gols sofridos). Toronto: CV moderado (1.17 gols marcados / 1.55 gols sofridos).",
+      "mando_de_campo": "Montreal Impact tem 14% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Montreal Impact marca mais gols no final do jogo (30% entre 76-90 min). Toronto sofre mais gols no meio do jogo (29% entre 46-60 e 61-75 min).",
+      "momento_gols": "Montreal Impact: 30% dos gols marcados entre 76-90 min. Toronto: 29% dos gols sofridos entre 46-60 min e 61-75 min.",
+      "jogadores_chave": "Prince-Osei Owusu (Montreal Impact), Daniel Salloi (Toronto)",
+      "placares_provaveis": "2x1, 2x2, 3x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out no 1x1 para Back Favorito, Lay Zebra após gol do favorito, cash-out no 1x1 para Back 2x2, cash-out se 0-1 ou 1-1 para Lay 1x0, cash-out se 1-0 ou 1-1 para Lay 0x1.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O jogo apresenta múltiplos cenários de entrada com valor, permitindo diversificação.",
+        "gatilho_saida_parcial": "Placar 1x1 para Back 2x2, gol do favorito para Lay Zebra.",
+        "hard_stop": "Perda do stake para todos os métodos."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Montreal Impact - sem motivação clara",
+        "indices_gols_faixas": "Montreal Impact Marcado 61-75: 0% | 76-90: 30% | Toronto Sofrido 61-75: 29% | 76-90: 14%",
+        "qual_condicao_atende": "Montreal Impact Marcado 76-90: 30% (acima de 25%)",
+        "motivo_motivacao": "Ambos os times estão sem objetivos claros na tabela.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "Over 2.5 a 1.61 e Over 1.5 a 1.20 indicam que o mercado espera gols. O H2H não tem dados de gols por tempo.",
+        "risco_principal": "O jogo pode não ter gols nos minutos finais se o placar estiver consolidado.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=60",
+          "btts_>=60",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Ambos os times têm alto índice de Over 2.5 e Ambas Marcam, defesas frágeis e ataques produtivos. O mercado espera gols.",
+        "indice_over_2_5": "Montreal Impact 80%, Toronto 65%",
+        "indice_ambas_marcam": "Montreal Impact 60%, Toronto 60%",
+        "indice_over_ht": "Montreal Impact 83%, Toronto 83%",
+        "ponderacao_odds": "Over 2.5 a 1.61 indica que o mercado espera um jogo com mais de 2.5 gols.",
+        "risco_principal": "Um dos times pode não conseguir marcar ou a defesa pode se fechar.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "adversario_sofre_>=2.0"
+        ],
+        "criterios_total": 6,
+        "candidato": "Montreal Impact",
+        "razao": "O Montreal Impact não demonstra favoritismo extremo nem um ataque consistentemente goleador.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "mandante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "ponderacao_odds": "Under 1.5 a 4.66 indica que o mercado não espera um jogo com poucos gols, o que favorece o lay 1x0. O BTTS a 1.57 também sugere que ambos os times devem marcar.",
+        "risco_principal": "O Montreal Impact pode conseguir uma vitória apertada por 1x0.",
+        "visitante_over_0_5": "67%",
+        "visitante_marca_pct": "67%",
+        "media_gols_total": "3.20",
+        "btts_medio": "60%",
+        "razao": "O jogo tem média de gols alta, o visitante marca com frequência e o mercado não espera um jogo com poucos gols.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0x1_com_margem",
+          "mand_over05_>65",
+          "visitante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "ponderacao_odds": "Under 1.5 a 4.66 indica que o mercado não espera um jogo com poucos gols, o que favorece o lay 0x1. O BTTS a 1.57 também sugere que ambos os times devem marcar.",
+        "risco_principal": "O Toronto pode conseguir uma vitória apertada por 0x1.",
+        "mandante_over_0_5": "83%",
+        "mandante_marca_pct": "83%",
+        "media_gols_total": "3.20",
+        "btts_medio": "60%",
+        "razao": "O jogo tem média de gols alta, o mandante marca com frequência e o mercado não espera um jogo com poucos gols.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null,
+      "_media_casa_bruta": "1.00",
+      "_media_fora_bruta": "1.17",
+      "_alerta_coerencia": "prob estimada 58% diverge da P(vitória) implícita nas médias de gols (29%) — revise médias ou probabilidade",
+      "_ev_pct": 16,
+      "_ev_odd": 2.0,
+      "_ev_base": "mercado",
+      "media_gols_ajustada_coerencia": true,
+      "_url_fonte": "https://clube.theoborges.com/game/8391026?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "16:00",
+      "liga": "Bolívia Divisão Profissional",
+      "jogo": "ABB x Independiente Petrolero",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2",
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "65%",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.77",
+      "media_gols_casa": 1.75,
+      "media_gols_fora": 1.88,
+      "media_sofridos_casa": "2.00",
+      "media_sofridos_fora": "1.75",
+      "odds_mercado": {
+        "casa": "1.61",
+        "empate": "4.10",
+        "fora": "4.50",
+        "dupla_chance_1x": "1.17",
+        "dupla_chance_12": "1.17",
+        "dupla_chance_x2": "2.00",
+        "over_05": "1.01",
+        "under_05": "17.00",
+        "over_15": "1.13",
+        "under_15": "6.00",
+        "over_25": "1.44",
+        "under_25": "2.70",
+        "over_35": "2.18",
+        "under_35": "1.65",
+        "over_45": "3.50",
+        "under_45": "1.29",
+        "over_05_ht": "1.20",
+        "under_05_ht": "4.00",
+        "over_15_ht": "2.15",
+        "under_15_ht": "1.65",
+        "over_25_ht": "4.50",
+        "under_25_ht": "1.17",
+        "over_05_2t": "1.14",
+        "under_05_2t": "5.00",
+        "over_15_2t": "1.67",
+        "under_15_2t": "2.10",
+        "over_25_2t": "3.00",
+        "under_25_2t": "1.33",
+        "ambas_marcam": "1.44",
+        "ambas_marcam_1t": "3.40",
+        "ambas_marcam_2t": "2.50"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Como o MANDANTE performa nos papéis (ex: 'Super Fav: 4V 1E 0D | Favorito: 6V 2E 7D | Parelho: 3V 3E 2D'); null se não tiver",
+        "resumo_favorito_fora": "Mesmo formato para o VISITANTE; null se não tiver",
+        "leitura": "O H2H com odds não está disponível no material fornecido.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Alejandro Saúl Chumacero Bracamonte — criação e finalização, artilheiro do time",
+          "Rodderyk Simón Perozo Bravo — 3 gols",
+          "Juan Gallego — 3 gols"
+        ],
+        "destaques_fora": [
+          "Willie Hortencio Barbosa — 5 gols",
+          "Alán Jorge Mercado Berthalet — 2 gols",
+          "Rodrigo Rivas Gonzalez — 2 gols"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "ABB é favorito com odd 1.61, 3º na tabela geral e 13º em casa, contra Independiente Petrolero 8º na geral e 8º fora. Média de gols alta em ambos os times.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 65% para a vitória do ABB resulta em uma fair odd de 1.54. A odd mínima de entrada é 1.77, indicando valor se a odd de mercado for superior.",
+      "mercado_secundario": "Mais 2.5 gols",
+      "odd_minima_secundaria": "1.62",
+      "desempenho_1t": "ABB marca 0.75 gols no 1ºT, sofre 0.75. Independiente Petrolero marca 0.75 gols no 1ºT, sofre 0.75.",
+      "desempenho_2t": "ABB marca 1.00 gols no 2ºT, sofre 1.00. Independiente Petrolero marca 1.00 gols no 2ºT, sofre 1.00.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "13º",
+          "posicao_geral": "13º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "8º",
+          "posicao_geral": "8º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "ABB é favorito com odd de 1.61. Embora ambos os times estejam no meio da tabela, o ABB tem um histórico recente de gols marcados e sofridos, com média total de 3.50 gols por jogo. O Independiente Petrolero também apresenta médias de gols elevadas. A odd de 1.61 para o ABB sugere um favoritismo que pode ser explorado.",
+      "coeficiente_regularidade": "ABB: CV moderado | Independiente Petrolero: CV moderado",
+      "mando_de_campo": "ABB tem um aproveitamento de 50% de vitórias em casa, marcando 1.75 gols e sofrendo 2.00.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "ABB tem média de 1.75 gols marcados e 2.00 sofridos. Independiente Petrolero tem média de 1.75 gols marcados e 1.75 sofridos.",
+      "momento_gols": "ABB: 61-75 (29% marcados, 13% sofridos). Independiente Petrolero: 76-90 (29% marcados, 38% sofridos).",
+      "jogadores_chave": [
+        "Alejandro Saúl Chumacero Bracamonte (ABB)",
+        "Rodderyk Simón Perozo Bravo (ABB)",
+        "Juan Gallego (ABB)",
+        "Willie Hortencio Barbosa (Independiente Petrolero)",
+        "Alán Jorge Mercado Berthalet (Independiente Petrolero)",
+        "Rodrigo Rivas Gonzalez (Independiente Petrolero)"
+      ],
+      "placares_provaveis": "2x1, 3x1, 2x2",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out parcial em 2x1 ou 1x2 para Back 2x2; cash-out se 0-1, 1-1 ou após 60min sem gol para Lay 1x0/0x1.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e potencial de gols.",
+        "gatilho_saida_parcial": "Placar 2x1 ou 1x2 para Back 2x2.",
+        "hard_stop": "Placar 1x1 para Back 2x2; placar 0-1, 1-1 ou 60min sem gol para Lay 1x0/0x1."
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 5,
+        "favorito_ou_motivacao": "ABB - jogo com potencial de gols",
+        "indices_gols_faixas": "ABB Marcado 61-75: 29% | 76-90: 29% | Independiente Petrolero Sofrido 61-75: 13% | 76-90: 38%",
+        "qual_condicao_atende": "momento_gols_final (ABB Marcado 61-75: 29% > 25%)",
+        "motivo_motivacao": "Ambos os times apresentam médias de gols elevadas e histórico de gols no segundo tempo.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "O mercado de Over 2.5 a 1.44 e Over 3.5 a 2.18 sugere que gols são esperados. O H2H com odds não está disponível para análise.",
+        "risco_principal": "O jogo pode ter um ritmo mais lento no final se o placar estiver muito elástico.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=60",
+          "btts_>=60",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Ambos os times têm alto índice de Over 2.5 (ABB 88%, Ind. Petrolero 75%), Ambas Marcam (ABB 75%, Ind. Petrolero 100%), defesas que sofrem gols (ABB 2.00, Ind. Petrolero 1.75) e ataques produtivos (ABB 1.75, Ind. Petrolero 1.75). O Over 0.5 HT é de 75% para o ABB e 75% para o Independiente Petrolero.",
+        "indice_over_2_5": "ABB 88%, Ind. Petrolero 75%",
+        "indice_ambas_marcam": "ABB 75%, Ind. Petrolero 100%",
+        "indice_over_ht": "ABB 75%, Ind. Petrolero 75%",
+        "ponderacao_odds": "A odd de Over 2.5 a 1.44 indica que o mercado espera um jogo com gols, o que reforça a aplicabilidade do método.",
+        "risco_principal": "Um dos times pode ter um desempenho ofensivo abaixo do esperado.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total no 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "mandante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "8%",
+        "ponderacao_odds": "A odd de Under 1.5 a 6.00 é alta, indicando que o mercado não espera um jogo com poucos gols, o que reforça o lay 1x0. O H2H com odds não está disponível.",
+        "risco_principal": "O ABB pode ter um desempenho ofensivo limitado no início do jogo.",
+        "visitante_over_0_5": "75%",
+        "visitante_marca_pct": "75%",
+        "media_gols_total": "3.50",
+        "btts_medio": "88%",
+        "razao": "O jogo tem média de gols alta (3.50), o visitante marca em 75% dos jogos e o mandante tem um ataque produtivo (1.75 gols/jogo). O mercado não espera um jogo com poucos gols (Under 1.5 a 6.00).",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0x1_com_margem",
+          "mand_over05_>65",
+          "visitante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "8%",
+        "ponderacao_odds": "A odd de Under 1.5 a 6.00 é alta, indicando que o mercado não espera um jogo com poucos gols, o que reforça o lay 0x1. O H2H com odds não está disponível.",
+        "risco_principal": "O Independiente Petrolero pode ter um desempenho ofensivo limitado no início do jogo.",
+        "mandante_over_0_5": "75%",
+        "mandante_marca_pct": "75%",
+        "media_gols_total": "3.50",
+        "btts_medio": "88%",
+        "razao": "O jogo tem média de gols alta (3.50), o mandante marca em 75% dos jogos e o visitante tem um ataque produtivo (1.75 gols/jogo). O mercado não espera um jogo com poucos gols (Under 1.5 a 6.00).",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": {
+        "aplicavel": null,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_media_casa_bruta": "1.75",
+      "_media_fora_bruta": "1.75",
+      "_mercado_original_incoerente": "Vitória ABB",
+      "_ev_pct": 15,
+      "_ev_odd": 1.77,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8507135?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "21:30",
+      "liga": "USA MLS",
+      "jogo": "Chicago Fire x Vancouver Whitecaps",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2",
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "55%",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "media_gols_casa": 1.61,
+      "media_gols_fora": 1.23,
+      "media_sofridos_casa": "1.13",
+      "media_sofridos_fora": "1.05",
+      "odds_mercado": {
+        "casa": "2.75",
+        "empate": "3.80",
+        "fora": "2.30",
+        "dupla_chance_1x": "1.53",
+        "dupla_chance_12": "1.22",
+        "dupla_chance_x2": "1.44",
+        "over_05": "1.01",
+        "under_05": "17.00",
+        "over_15": "1.16",
+        "under_15": "5.45",
+        "over_25": "1.53",
+        "under_25": "2.40",
+        "over_35": "2.31",
+        "under_35": "1.65",
+        "over_45": "3.89",
+        "under_45": "1.27"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Como o MANDANTE performa nos papéis (ex: 'Super Fav: 4V 1E 0D | Favorito: 6V 2E 7D | Parelho: 3V 3E 2D'); null se não tiver",
+        "resumo_favorito_fora": "Mesmo formato para o VISITANTE; null se não tiver",
+        "leitura": "Chicago Fire tem retrospecto misto como favorito (6V 2E 7D), mas a odd atual é mais alta que a média histórica. Vancouver tem bom desempenho como visitante.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "Chicago Fire",
+        "texto": "Chicago Fire tem retrospecto misto como favorito: 6V 2E 7D nos últimos jogos cotado abaixo de 2.40. Odd atual de 2.75 é mais alta que a média histórica."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Hugo Cuypers — artilheiro com 13 gols",
+          "Philip Zinckernagel — 5 gols e 7 assistências"
+        ],
+        "destaques_fora": [
+          "Brian White — artilheiro com 10 gols",
+          "Sebastian Berhalter — 6 gols e 5 assistências"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Chicago Fire em casa, com bom retrospecto recente e ataque produtivo. Vancouver também ataca bem, mas sofre gols. Jogo com potencial para gols e vitória do mandante.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 55% para vitória do Chicago Fire resulta em fair odd de 1.82. A odd mínima de entrada é 2.09. A odd de mercado de 2.75 oferece valor.",
+      "mercado_secundario": "Mais 2.5 gols",
+      "odd_minima_secundaria": "1.70",
+      "desempenho_1t": "Chicago Fire marca 0.75 gols no 1ºT; Vancouver Whitecaps marca 0.63 gols no 1ºT.",
+      "desempenho_2t": "Chicago Fire marca 1.33 gols no 2ºT; Vancouver Whitecaps marca 0.70 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "5º",
+          "posicao_geral": "5º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "2º",
+          "posicao_geral": "2º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Chicago Fire (5º) e Vancouver Whitecaps (2º) estão na briga pelo título da MLS. Chicago tem um bom retrospecto em casa (8V 2E 4D), enquanto Vancouver é um dos melhores visitantes (10V 2E 2D). Ambos os times têm ataques fortes e sofrem gols, o que sugere um jogo aberto com potencial para gols e vitória do mandante.",
+      "coeficiente_regularidade": "Casa: CV alto | Visitante: CV alto",
+      "mando_de_campo": "Chicago Fire tem 63% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Chicago Fire marca mais no 2º tempo (1.33 gols/jogo). Vancouver Whitecaps marca mais no 1º tempo (0.63 gols/jogo).",
+      "momento_gols": "Chicago Fire: 61-75 (19%), 76-90 (38%). Vancouver Whitecaps: 76-90 (44%).",
+      "jogadores_chave": "Hugo Cuypers (CHI), Philip Zinckernagel (CHI), Brian White (VAN), Sebastian Berhalter (VAN)",
+      "placares_provaveis": "2x1, 3x1, 2x2",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out parcial em 2x1 ou 1x2.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo equilibrado com potencial de gols e favoritismo leve do mandante.",
+        "gatilho_saida_parcial": "Placar 2x1 ou 1x2.",
+        "hard_stop": "Se o placar chegar a 3 gols de diferença."
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "mercado_espera_gols",
+          "gols_2t_no_h2h",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "favorito_ou_motivacao": "Chicago Fire - brigando pelo título contra Vancouver Whitecaps, também na briga pelo título.",
+        "indices_gols_faixas": "Chicago Fire Marcado 61-75: 19% | 76-90: 38% | Vancouver Whitecaps Sofrido 61-75: 0% | 76-90: 44%",
+        "qual_condicao_atende": "momento_gols_final (Chicago Fire Marcado 76-90: 38% > 25%; Vancouver Whitecaps Sofrido 76-90: 44% > 25%)",
+        "motivo_motivacao": "Ambos os times estão na briga pelo título da MLS, o que garante alta motivação.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "Over 2.5 a 1.53 e Over 3.5 a 2.31 indicam que o mercado espera gols. O H2H mostra gols no segundo tempo para ambos os times.",
+        "risco_principal": "O jogo pode se tornar mais defensivo se um time abrir vantagem.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=60",
+          "btts_>=60",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Ambos os times têm alto índice de Over 2.5 e Ambas Marcam, além de defesas que sofrem gols e ataques produtivos. O mercado também espera gols.",
+        "indice_over_2_5": "Chicago Fire: 50% | Vancouver Whitecaps: 63% | Média: 56.5% (precisa >= 60%)",
+        "indice_ambas_marcam": "Chicago Fire: 83% | Vancouver Whitecaps: 83% | Média: 83% (precisa >= 60%)",
+        "indice_over_ht": "Chicago Fire: 38% | Vancouver Whitecaps: 38% | Média: 38% (precisa >= 70%)",
+        "ponderacao_odds": "Over 2.5 a 1.53 e Over 3.5 a 2.31 indicam que o mercado espera um jogo com gols.",
+        "risco_principal": "O índice de Over HT é baixo para ambos os times, o que pode indicar um início de jogo mais lento.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "mandante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro",
+          "visitante_pontua_h2h"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "8%",
+        "ponderacao_odds": "Under 1.5 a 5.45 indica que o mercado não espera um jogo com poucos gols, o que reforça o lay 1x0. O H2H não possui dados suficientes para análise.",
+        "risco_principal": "Vancouver Whitecaps tem um ataque forte e pode marcar, dificultando o lay 1x0.",
+        "visitante_over_0_5": "83%",
+        "visitante_marca_pct": "83%",
+        "media_gols_total": "3.50",
+        "btts_medio": "83%",
+        "razao": "O jogo tem potencial para muitos gols, com ambos os times marcando com frequência e o mercado esperando mais de 2.5 gols. O visitante também tem bom poder ofensivo.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0x1_com_margem",
+          "mand_over05_>65",
+          "visitante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro",
+          "mandante_pontua_h2h"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "8%",
+        "ponderacao_odds": "Under 1.5 a 5.45 indica que o mercado não espera um jogo com poucos gols, o que reforça o lay 0x1. O H2H não possui dados suficientes para análise.",
+        "risco_principal": "Chicago Fire tem um ataque forte em casa e pode marcar, dificultando o lay 0x1.",
+        "mandante_over_0_5": "100%",
+        "mandante_marca_pct": "100%",
+        "media_gols_total": "3.50",
+        "btts_medio": "83%",
+        "razao": "O jogo tem potencial para muitos gols, com ambos os times marcando com frequência e o mercado esperando mais de 2.5 gols. O mandante também tem bom poder ofensivo em casa.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null,
+      "_media_casa_bruta": "2.17",
+      "_media_fora_bruta": "1.33",
+      "_mercado_original_incoerente": "Vitória Chicago Fire",
+      "_ev_pct": 15,
+      "_ev_odd": 2.09,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8390766?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "21:30",
+      "liga": "USA USA",
+      "jogo": "St Louis City SC x Sporting KC",
+      "metodos_aplicados": [
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo)",
+      "probabilidade_estimada": "70%",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.64",
+      "media_gols_casa": 2.49,
+      "media_gols_fora": 0.94,
+      "media_sofridos_casa": "1.17",
+      "media_sofridos_fora": "3.14",
+      "odds_mercado": {
+        "casa": "1.45",
+        "empate": "5.00",
+        "fora": "5.75",
+        "dupla_chance_1x": "1.08",
+        "dupla_chance_12": "1.13",
+        "dupla_chance_x2": "2.75",
+        "over_05": "1.01",
+        "under_05": "21.00",
+        "over_15": "1.12",
+        "under_15": "6.51",
+        "over_25": "1.36",
+        "under_25": "3.10"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: null | Favorito: 4V 4E 6D | Parelho: null | Não Fav: null",
+        "resumo_favorito_fora": null,
+        "leitura": "St Louis City SC tem um histórico negativo como favorito (4V 4E 6D), mas seus jogos frequentemente têm gols no segundo tempo (100% dos confrontos listados).",
+        "jogos_relevantes": [
+          {
+            "data": "23/05/26",
+            "confronto": "St Louis City SC x Austin FC",
+            "time_analisado": "St Louis City SC",
+            "papel": "favorito",
+            "odd": "1.75",
+            "placar": "3 - 0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "16/05/26",
+            "confronto": "DC United x St Louis City SC",
+            "time_analisado": "St Louis City SC",
+            "papel": "não_fav",
+            "odd": "3.40",
+            "placar": "1 - 1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "13/05/26",
+            "confronto": "St Louis City SC x Los Angeles FC",
+            "time_analisado": "St Louis City SC",
+            "papel": "parelho",
+            "odd": "2.75",
+            "placar": "2 - 1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "09/05/26",
+            "confronto": "Colorado Rapids x St Louis City SC",
+            "time_analisado": "St Louis City SC",
+            "papel": "não_fav",
+            "odd": "3.60",
+            "placar": "0 - 1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "03/05/26",
+            "confronto": "Austin FC x St Louis City SC",
+            "time_analisado": "St Louis City SC",
+            "papel": "não_fav",
+            "odd": "2.70",
+            "placar": "2 - 0",
+            "resultado": "D",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "25/04/26",
+            "confronto": "St Louis City SC x SJ Earthquakes",
+            "time_analisado": "St Louis City SC",
+            "papel": "favorito",
+            "odd": "2.05",
+            "placar": "2 - 3",
+            "resultado": "D",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "St Louis City SC",
+        "texto": "Os jogos do St Louis City SC têm um histórico de 100% de gols no segundo tempo nos confrontos listados, o que é positivo para o Over Limite."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Marcel Hartel — meio-campo ofensivo, artilheiro",
+          "Simon Becher — atacante, principal assistente",
+          "Chris Durkin — meio-campo, importante na marcação"
+        ],
+        "destaques_fora": [
+          "Dejan Joveljić — atacante, artilheiro do time",
+          "Calvin Harris — atacante, artilheiro e assistente",
+          "Manuel García Alonso — meio-campo, assistente"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Jogo com alta expectativa de gols, com Sporting KC sofrendo muitos gols no segundo tempo e mercado esperando jogo aberto.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Prob. 70% → fair 1.43; com margem de segurança, só entrar acima de 1.64",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "St Louis City SC marca 0.67 gols no 1ºT, Sporting KC sofre 0.33 gols no 1ºT.",
+      "desempenho_2t": "St Louis City SC marca 1.17 gols no 2ºT, Sporting KC sofre 1.57 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "posicao_geral": "22º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": null,
+          "posicao_geral": "29º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "St Louis City SC busca subir na tabela, enquanto Sporting KC é o último colocado e luta contra o rebaixamento, o que pode gerar um jogo aberto e com desespero ofensivo do visitante, favorecendo gols.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "St Louis City SC vence 50% dos jogos em casa, Sporting KC perde 71% dos jogos fora.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "St Louis City SC tem média de 1.83 gols marcados e 1.17 sofridos em casa. Sporting KC tem média de 0.71 gols marcados e 3.14 sofridos fora.",
+      "momento_gols": "Sporting KC sofre 43% dos gols entre 61-75 minutos. St Louis City SC marca 36% dos gols entre 46-60 minutos.",
+      "jogadores_chave": "St Louis City SC: Marcel Hartel, Simon Becher. Sporting KC: Dejan Joveljić, Calvin Harris.",
+      "placares_provaveis": "2x1, 3x1, 2x2",
+      "momento_entrada": "Ao vivo, após 65 minutos",
+      "situacao_saida": "Cash-out se o jogo travar ou se o gol sair rapidamente.",
+      "stake_recomendada": "1%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "As estatísticas de gols tardios e a motivação dos times indicam uma boa oportunidade para mais gols.",
+        "gatilho_saida_parcial": "Se o jogo estiver muito parado ou com poucas chances após a entrada.",
+        "hard_stop": "Se o placar atingir uma goleada (3+ gols de diferença) ou houver expulsão."
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "prob_vitoria_>=65",
+          "odd_favorito_1.40_a_1.80",
+          "mando_ou_superioridade",
+          "adversario_ma_fase",
+          "elenco_completo",
+          "geral_e_mando_alinhados"
+        ],
+        "criterios_total": 8,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "odd_zebra_5.00_a_8.50",
+          "zebra_ma_fase",
+          "favorito_consistente",
+          "zebra_sem_retorno_chave",
+          "defesa_zebra_vazada"
+        ],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "mercado_espera_gols",
+          "gols_2t_no_h2h",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "St Louis City SC - busca subir na tabela, Sporting KC - luta contra o rebaixamento",
+        "indices_gols_faixas": "St Louis City SC Marcado 61-75: 9% | 76-90: 18% | Sporting KC Sofrido 61-75: 43% | 76-90: 18%",
+        "qual_condicao_atende": "Sporting KC Sofrido 61-75: 43% (atende >= 25%)",
+        "motivo_motivacao": "St Louis City SC busca subir na tabela, Sporting KC luta contra o rebaixamento, gerando desequilíbrio e necessidade de gols.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "Odd de Over 2.5 a 1.36 indica que o mercado espera muitos gols. O H2H do St Louis City SC mostra gols no 2º tempo em 100% dos jogos, reforçando a expectativa de gols tardios.",
+        "risco_principal": "O jogo pode travar se um time abrir grande vantagem ou se houver expulsão.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "over25_>=60"
+        ],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "adversario_sofre_>=2.0",
+          "goleada_recente_h2h",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "mandante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "p_0x1_com_margem",
+          "mand_over05_>65",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro",
+          "mandante_pontua_h2h"
+        ],
+        "criterios_total": 7,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null,
+      "_media_casa_bruta": "1.83",
+      "_media_fora_bruta": "0.71",
+      "_ev_pct": 15,
+      "_ev_odd": 1.64,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8391045?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "19:30",
+      "liga": "Brasil Serie A",
+      "jogo": "Botafogo x Santos",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2",
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "58%",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.97",
+      "media_gols_casa": 1.54,
+      "media_gols_fora": 1.92,
+      "media_sofridos_casa": "2.13",
+      "media_sofridos_fora": "1.71",
+      "odds_mercado": {
+        "casa": "2.05",
+        "empate": "3.50",
+        "fora": "3.50",
+        "dupla_chance_1x": "1.29",
+        "dupla_chance_12": "1.30",
+        "dupla_chance_x2": "1.73",
+        "over_05": "1.03",
+        "under_05": "12.00",
+        "over_15": "1.28",
+        "under_15": "3.77",
+        "over_25": "1.85",
+        "under_25": "1.95",
+        "over_35": "3.23",
+        "under_35": "1.36",
+        "over_45": "6.36",
+        "under_45": "1.13"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Como o MANDANTE performa nos papéis (ex: 'Super Fav: 4V 1E 0D | Favorito: 6V 2E 7D | Parelho: 3V 3E 2D'); null se não tiver",
+        "resumo_favorito_fora": "Mesmo formato para o VISITANTE; null se não tiver",
+        "leitura": "Botafogo tem retrospecto misto como favorito (6V 4E 7D), mas Santos tem dificuldade como visitante (5V 6E 7D).",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "Botafogo",
+        "texto": "Botafogo tem retrospecto misto como favorito: 6V 4E 7D nos últimos jogos cotado abaixo de 2.40."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Arthur Cabral — atacante, 7 gols",
+          "Danilo Oliveira — atacante, 7 gols",
+          "Edenilson — meio-campista, 4 gols"
+        ],
+        "destaques_fora": [
+          "Gabriel Barbosa Almeida — atacante, 7 gols",
+          "Neymar — atacante, 4 gols",
+          "Álvaro Barreal — meio-campista, 3 gols"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Botafogo favorito com odd 2.05, busca manter bom aproveitamento em casa contra Santos que sofre muitos gols fora.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 58% para o Botafogo, com fair odd de 1.72. Odd mínima de entrada de 1.97.",
+      "mercado_secundario": "Mais de 2.5 gols",
+      "odd_minima_secundaria": "2.10",
+      "desempenho_1t": "Botafogo marca 0.75 gols no 1ºT, Santos sofre 1.63 gols no 1ºT.",
+      "desempenho_2t": "Botafogo marca 0.63 gols no 2ºT, Santos sofre 1.00 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "12º",
+          "posicao_geral": "12º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "16º",
+          "posicao_geral": "16º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Botafogo (12º) busca se afastar da zona de rebaixamento, enquanto Santos (16º) está diretamente na luta contra a queda. O Botafogo tem um ataque mais produtivo em casa (1.38 gols/jogo) comparado ao Santos que sofre muitos gols fora (1.71 gols/jogo).",
+      "coeficiente_regularidade": "Botafogo: CV moderado | Santos: CV alto",
+      "mando_de_campo": "Botafogo tem 71% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Botafogo marca mais no final do jogo (27% entre 76-90 min). Santos sofre mais no final do jogo (35% entre 61-75 e 76-90 min).",
+      "momento_gols": "Botafogo: 61-75 (20%), 76-90 (27%). Santos: 61-75 (17%), 76-90 (25%).",
+      "jogadores_chave": "Arthur Cabral (BOT), Danilo Oliveira (BOT), Gabriel Barbosa Almeida (SAN), Neymar (SAN).",
+      "placares_provaveis": "2x1, 3x1, 2x2",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out parcial em 2x1 ou 1x2.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e cenário de gols.",
+        "gatilho_saida_parcial": "Placar 2x1 ou 1x2.",
+        "hard_stop": "Se o placar chegar a 0-1 ou 1-0 para o Santos."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Botafogo - busca se afastar da zona de rebaixamento.",
+        "indices_gols_faixas": "Botafogo Marcado 61-75: 20% | 76-90: 27% | Santos Sofrido 61-75: 17% | 76-90: 25%",
+        "qual_condicao_atende": "momento_gols_final (Botafogo marcado 76-90: 27% >= 25%)",
+        "motivo_motivacao": "Ambos os times lutam por objetivos importantes na tabela.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "Over 2.5 a 1.85 e Over 3.5 a 3.23 indicam que o mercado espera gols.",
+        "risco_principal": "Jogo pode travar se um time abrir vantagem cedo.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=60",
+          "btts_>=60",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Alto índice de Over 2.5 (75%), Ambas Marcam (86%), defesas frágeis e ataques produtivos.",
+        "indice_over_2_5": "75% (Botafogo 75%, Santos 71%)",
+        "indice_ambas_marcam": "86% (Botafogo 86%, Santos 88%)",
+        "indice_over_ht": "71% (Botafogo 71%, Santos 71%)",
+        "ponderacao_odds": "Over 2.5 a 1.85 e Ambas Marcam a 1.75 indicam que o mercado espera um jogo aberto.",
+        "risco_principal": "Um dos times pode não conseguir finalizar ou converter as chances.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "mandante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "8%",
+        "ponderacao_odds": "Under 1.5 a 3.77 e Under 2.5 a 1.95 indicam que o mercado espera mais de 2 gols, o que favorece o lay 1x0.",
+        "risco_principal": "Santos pode segurar o placar em 0-0 ou 1-0.",
+        "visitante_over_0_5": "88%",
+        "visitante_marca_pct": "88%",
+        "media_gols_total": "3.51",
+        "btts_medio": "86%",
+        "razao": "Santos marca em 88% dos jogos fora e o placar total esperado é alto.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0x1_com_margem",
+          "mand_over05_>65",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "8%",
+        "ponderacao_odds": "Under 1.5 a 3.77 e Under 2.5 a 1.95 indicam que o mercado espera mais de 2 gols, o que favorece o lay 0x1.",
+        "risco_principal": "Botafogo pode ter um dia inspirado e vencer sem sofrer.",
+        "mandante_over_0_5": "86%",
+        "mandante_marca_pct": "86%",
+        "media_gols_total": "3.51",
+        "btts_medio": "86%",
+        "razao": "Botafogo marca em 86% dos jogos em casa e o placar total esperado é alto.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null,
+      "_media_casa_bruta": "1.38",
+      "_media_fora_bruta": "1.71",
+      "_alerta_coerencia": "prob estimada 58% diverge da P(vitória) implícita nas médias de gols (31%) — revise médias ou probabilidade",
+      "_mercado_original_incoerente": "Vitória Botafogo",
+      "_ev_pct": 14,
+      "_ev_odd": 1.97,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8409705?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "19:30",
+      "liga": "Brasil Serie A",
+      "jogo": "Vitória x Vasco da Gama",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2",
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "58%",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.97",
+      "media_gols_casa": 1.65,
+      "media_gols_fora": 1.31,
+      "media_sofridos_casa": "1.38",
+      "media_sofridos_fora": "1.55",
+      "odds_mercado": {
+        "casa": "2.35",
+        "empate": "3.30",
+        "fora": "3.10",
+        "dupla_chance_1x": "1.36",
+        "dupla_chance_12": "1.33",
+        "dupla_chance_x2": "1.57",
+        "over_05": "1.05",
+        "under_05": "9.00",
+        "over_15": "1.32",
+        "under_15": "3.46",
+        "over_25": "2.05",
+        "under_25": "1.75",
+        "over_35": "3.63",
+        "under_35": "1.30",
+        "over_45": "7.29",
+        "under_45": "1.11"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Vitória: 15V 5E 9D (+5.3U)",
+        "resumo_favorito_fora": null,
+        "leitura": "Vitória tem um retrospecto positivo como mandante, mas o Vasco tem mostrado resiliência fora de casa.",
+        "jogos_relevantes": [
+          {
+            "data": "06/06/26",
+            "confronto": "Vitória x Fortaleza",
+            "time_analisado": "Vitória",
+            "papel": "super_fav",
+            "odd": "1.85",
+            "placar": "2 - 1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "02/06/26",
+            "confronto": "Fortaleza x Vitória",
+            "time_analisado": "Vitória",
+            "papel": "favorito",
+            "odd": "3.10",
+            "placar": "1 - 2",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "30/05/26",
+            "confronto": "Santos x Vitória",
+            "time_analisado": "Vitória",
+            "papel": "favorito",
+            "odd": "5.50",
+            "placar": "3 - 1",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "27/05/26",
+            "confronto": "ABC x Vitória",
+            "time_analisado": "Vitória",
+            "papel": "super_fav",
+            "odd": "2.05",
+            "placar": "3 - 4",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "23/05/26",
+            "confronto": "Vitória x Internacional",
+            "time_analisado": "Vitória",
+            "papel": "favorito",
+            "odd": "2.90",
+            "placar": "2 - 0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
+          },
+          {
+            "data": "20/05/26",
+            "confronto": "Vitória x ABC",
+            "time_analisado": "Vitória",
+            "papel": "super_fav",
+            "odd": "1.44",
+            "placar": "6 - 2",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Vitória",
+        "texto": "Vitória entrega como favorito: 15V 5E 9D quando cotado abaixo de 5.50."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Carlos Rene de Sousa Ferreira — artilheiro com 5 gols",
+          "Ramon Ramos Lima — titular com 14 jogos e 2 gols",
+          "Gabriel Baralhas — titular com 14 jogos e 2 gols"
+        ],
+        "destaques_fora": [
+          "Thiago Mendes — titular com 16 jogos e 3 gols",
+          "Andres Gomez — titular com 16 jogos e 3 gols",
+          "Cauan Lucas Barros da Luz — titular com 15 jogos e 3 gols"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Vitória em casa com bom retrospecto e ataque produtivo. Vasco com defesa vulnerável. Jogo com potencial de gols.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 58% para a vitória do Vitória, com fair odd de 1.72. A odd mínima de entrada é 1.97, indicando valor.",
+      "mercado_secundario": "Mais 2.5 gols",
+      "odd_minima_secundaria": "2.20",
+      "desempenho_1t": "Vitória marca 0.75 gols no 1ºT, Vasco sofre 1.13 gols no 1ºT.",
+      "desempenho_2t": "Vitória marca 0.88 gols no 2ºT, Vasco sofre 1.00 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "13º",
+          "posicao_geral": "13º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": null,
+          "posicao_geral": "17º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Vitória (13º) busca se afastar da zona de rebaixamento e consolidar posição no meio de tabela. Vasco (17º) luta desesperadamente contra o rebaixamento, o que pode gerar um jogo mais aberto ou tenso.",
+      "coeficiente_regularidade": "Vitória: CV moderado | Vasco: CV alto",
+      "mando_de_campo": "Vitória tem 6V 4E 7D em casa, com 21 gols marcados e 25 sofridos.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Vitória marca mais no 2º tempo. Vasco sofre mais no 1º tempo.",
+      "momento_gols": "Vitória tem picos de gols entre 16-30 e 76-90. Vasco sofre gols em todas as faixas, com pico entre 61-75.",
+      "jogadores_chave": "Carlos Rene (Vitória), Thiago Mendes (Vasco)",
+      "placares_provaveis": "2x1, 3x1, 2x2",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out no 1x1 ou 2x1/1x2.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo do Vitória e potencial de gols.",
+        "gatilho_saida_parcial": "Placar 2x1 ou 1x2.",
+        "hard_stop": "Placar 1x1."
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 5,
+        "favorito_ou_motivacao": "Vitória - busca se afastar do rebaixamento",
+        "indices_gols_faixas": "Vitória Marcado 61-75: 14% | 76-90: 21% | Vasco Sofrido 61-75: 25% | 76-90: 19%",
+        "qual_condicao_atende": "Vasco Sofrido 61-75: 25%",
+        "motivo_motivacao": "Vitória (13º) busca se afastar do rebaixamento. Vasco (17º) luta desesperadamente contra o rebaixamento.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "Over 2.5 a 2.05 e Over 3.5 a 3.63 indicam que o mercado espera gols. O H2H mostra gols no segundo tempo.",
+        "risco_principal": "Jogo pode ficar truncado pela tensão do rebaixamento.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=60",
+          "btts_>=60",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Ambos os times têm alto índice de Over 2.5 e Ambas Marcam, com defesas vulneráveis e ataques produtivos.",
+        "indice_over_2_5": "Vitória 63%, Vasco 44% (Média 53.5%)",
+        "indice_ambas_marcam": "Vitória 88%, Vasco 75% (Média 81.5%)",
+        "indice_over_ht": "Vitória 75%, Vasco 75% (Média 75%)",
+        "ponderacao_odds": "Over 2.5 a 2.05 sugere que o mercado espera um jogo com gols.",
+        "risco_principal": "Um dos times pode ter um dia defensivo inspirado.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "mandante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "9%",
+        "ponderacao_odds": "Under 1.5 a 3.46 indica que o mercado não espera um jogo com poucos gols, o que favorece o lay 1x0.",
+        "risco_principal": "Vitória pode ter dificuldade em furar a defesa do Vasco se jogar de forma conservadora.",
+        "visitante_over_0_5": "75%",
+        "visitante_marca_pct": "75%",
+        "media_gols_total": "3.25",
+        "btts_medio": "81.5%",
+        "razao": "O jogo tem potencial para mais de um gol, com ambos os times marcando e o Vasco sendo capaz de balançar as redes.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0x1_com_margem",
+          "mand_over05_>65",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "7%",
+        "ponderacao_odds": "Under 1.5 a 3.46 indica que o mercado não espera um jogo com poucos gols, o que favorece o lay 0x1.",
+        "risco_principal": "Vitória pode marcar cedo e dificultar a vida do Vasco.",
+        "mandante_over_0_5": "88%",
+        "mandante_marca_pct": "88%",
+        "media_gols_total": "3.25",
+        "btts_medio": "81.5%",
+        "razao": "O Vitória tem um ataque produtivo em casa e o Vasco pode sofrer gols, tornando o placar 0x1 improvável.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null,
+      "_media_casa_bruta": "1.75",
+      "_media_fora_bruta": "1.25",
+      "_mercado_original_incoerente": "Vitória",
+      "_ev_pct": 14,
+      "_ev_odd": 1.97,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8409713?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "20:00",
+      "liga": "Brazil Serie B",
+      "jogo": "CRB x Náutico",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.90",
+      "media_gols_casa": 1.67,
+      "media_gols_fora": 1.65,
+      "media_sofridos_casa": "1.67",
+      "media_sofridos_fora": "1.67",
+      "odds_mercado": {
+        "casa": "1.95",
+        "empate": "3.30",
+        "fora": "4.00",
+        "dupla_chance_1x": "1.25",
+        "dupla_chance_12": "1.30",
+        "dupla_chance_x2": "1.80",
+        "over_05": "1.07",
+        "under_05": "11.00",
+        "over_15": "1.28",
+        "under_15": "3.70",
+        "over_25": "1.95",
+        "under_25": "1.85",
+        "over_35": "3.41",
+        "under_35": "1.32",
+        "over_45": "6.94",
+        "under_45": "1.11"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "CRB como favorito: 9V 8E 10D (-6.8U)",
+        "resumo_favorito_fora": null,
+        "leitura": "CRB tem retrospecto ligeiramente negativo como favorito, mas a odd atual é mais favorável.",
+        "jogos_relevantes": [
+          {
+            "data": "12/07/26",
+            "confronto": "CRB x Goiás",
+            "time_analisado": "CRB",
+            "papel": "favorito",
+            "odd": "1.80",
+            "placar": "2 - 2",
+            "resultado": "E",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "04/07/26",
+            "confronto": "Londrina x CRB",
+            "time_analisado": "CRB",
+            "papel": "favorito",
+            "odd": "2.75",
+            "placar": "5 - 0",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "30/06/26",
+            "confronto": "Botafogo SP x CRB",
+            "time_analisado": "CRB",
+            "papel": "favorito",
+            "odd": "3.00",
+            "placar": "0 - 1",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "21/06/26",
+            "confronto": "CRB x Fortaleza",
+            "time_analisado": "CRB",
+            "papel": "favorito",
+            "odd": "2.40",
+            "placar": "1 - 1",
+            "resultado": "E",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "12/06/26",
+            "confronto": "Atlético GO x CRB",
+            "time_analisado": "CRB",
+            "papel": "favorito",
+            "odd": "4.00",
+            "placar": "3 - 3",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "07/06/26",
+            "confronto": "CRB x São Bernardo",
+            "time_analisado": "CRB",
+            "papel": "favorito",
+            "odd": "1.66",
+            "placar": "2 - 3",
+            "resultado": "D",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": false,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "CRB",
+        "texto": "CRB tem retrospecto misto como favorito, com 9V 8E 10D em jogos cotados abaixo de 2.40."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Mikael - artilheiro com 11 gols",
+          "Adailson Freire Pereira da Silva - 4 gols e 3 assistências",
+          "Thiago Fernandes Rodrigues - 2 gols"
+        ],
+        "destaques_fora": [
+          "Vinícius Santos Silva - 6 gols",
+          "Vinicius Rodrigues Adelino dos Santos - 5 gols e 2 assistências",
+          "Victor Andrade Santos - 2 gols"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "CRB é favorito em casa com odd 1.95, enfrentando Náutico que sofre muitos gols fora. Ambos os times têm média de gols alta.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 60% para vitória do CRB resulta em fair odd de 1.67. Odd mínima de entrada é 1.90, oferecendo valor.",
+      "mercado_secundario": "Lay Zebra",
+      "odd_minima_secundaria": "5.00",
+      "desempenho_1t": "CRB marca 0.88 gols no 1ºT, Náutico sofre 0.88 gols no 1ºT.",
+      "desempenho_2t": "CRB marca 1.22 gols no 2ºT, Náutico sofre 0.78 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "15º",
+          "posicao_geral": "15º",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "13º",
+          "posicao_geral": "13º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times estão na zona de rebaixamento, tornando este um jogo crucial para ambos. CRB joga em casa e tem odd de favorito, mas o retrospecto recente não é tão forte. Náutico sofre muitos gols fora de casa.",
+      "coeficiente_regularidade": "CRB: CV moderado | Náutico: CV alto",
+      "mando_de_campo": "CRB tem 5V 5E 7D em casa, marcando 1.67 gols e sofrendo 1.67.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "CRB marca mais no 2º tempo, Náutico sofre mais no 1º tempo.",
+      "momento_gols": "CRB: 16-30 (3 gols), 46-60 (3 gols), 76-90 (2 gols). Náutico: 0-15 (0 gols), 31-45 (4 gols), 76-90 (4 gols).",
+      "jogadores_chave": "Mikael (CRB), Vinícius Santos Silva (Náutico)",
+      "placares_provaveis": "2x1, 2x2, 3x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out parcial em 2x1 ou 1x2.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo em casa contra time que sofre muitos gols fora.",
+        "gatilho_saida_parcial": "Placar 2x1 ou 1x2.",
+        "hard_stop": "Se o Náutico abrir o placar."
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "prob_vitoria_>=65",
+          "odd_favorito_1.40_a_1.80",
+          "mando_ou_superioridade",
+          "adversario_ma_fase",
+          "ev_>=5pct"
+        ],
+        "criterios_total": 8,
+        "modo": "pre_jogo",
+        "favorito": "CRB",
+        "odd_alvo": "1.95",
+        "razao": "CRB é favorito em casa com odd de 1.95 contra o Náutico, que tem um retrospecto defensivo fraco fora de casa.",
+        "ponderacao_odds": "Odd de 1.95 para o CRB é aceitável. O retrospecto como favorito do CRB é misto, mas a odd atual é mais atrativa do que em jogos anteriores.",
+        "risco_principal": "Náutico tem capacidade de marcar gols fora de casa, mesmo sofrendo muitos.",
+        "stake_recomendada": "2%",
+        "_reprovado_odds": true,
+        "razao_reprovacao": "mercado não confirma favoritismo: menor odd 1X2 é 1.95 (precisa ≤1.9)"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "odd_zebra_5.00_a_8.50",
+          "prob_zebra_<=15",
+          "zebra_ma_fase",
+          "nao_pontua_como_azarona",
+          "defesa_zebra_vazada"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "zebra": "Náutico",
+        "favorito_do_jogo": "CRB",
+        "ponderacao_odds": "Odd de 4.00 para o Náutico não atinge o critério de odd mínima para lay zebra (>=5.00). No entanto, o retrospecto como azarão é muito ruim (0V 2E 8D).",
+        "risco_principal": "Náutico tem capacidade de marcar gols fora de casa, mesmo sofrendo muitos.",
+        "razao": "Náutico tem um retrospecto muito ruim como azarão, com dificuldade em pontuar e defesa vazada.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": "2%",
+        "_reprovado_odds": true,
+        "razao_reprovacao": "não há zebra: maior odd 1X2 é 4 (precisa ≥4.5 — jogo parelho, lay caro à toa)"
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "mercado_espera_gols",
+          "gols_2t_no_h2h",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "CRB - ambos os times lutam contra o rebaixamento.",
+        "indices_gols_faixas": "CRB Marcado 61-75: 14% | 76-90: 14% | Náutico Sofrido 61-75: 8% | 76-90: 31%",
+        "qual_condicao_atende": "momento_gols_final (Náutico sofreu 31% dos gols entre 76-90min)",
+        "motivo_motivacao": "Jogo crucial para ambos os times na luta contra o rebaixamento.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "Over 2.5 a 1.95 e Over 3.5 a 3.41 indicam que o mercado espera gols. Náutico sofre muitos gols no final do jogo.",
+        "risco_principal": "Jogo pode se tornar mais defensivo se um time abrir o placar.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão."
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=60",
+          "btts_>=60",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Ambos os times têm alto índice de Over 2.5 e Ambas Marcam, com defesas frágeis e ataques produtivos.",
+        "indice_over_2_5": "CRB: 44% | Náutico: 54% (Média: 49% - NECESSITA AJUSTE)",
+        "indice_ambas_marcam": "CRB: 56% | Náutico: 63% (Média: 59.5% - NECESSITA AJUSTE)",
+        "indice_over_ht": "CRB: 38% | Náutico: 38% (Média: 38% - NECESSITA AJUSTE)",
+        "ponderacao_odds": "Over 2.5 a 1.95 sugere que o mercado espera um jogo com gols.",
+        "risco_principal": "Um dos times pode adotar uma postura mais defensiva se sair na frente.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "mandante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "ponderacao_odds": "Under 1.5 a 3.70 indica que o mercado não espera um jogo com poucos gols, o que favorece o lay 1x0.",
+        "risco_principal": "Náutico pode se fechar defensivamente se sair na frente.",
+        "visitante_over_0_5": "63%",
+        "visitante_marca_pct": "63%",
+        "media_gols_total": "3.34",
+        "btts_medio": "60%",
+        "razao": "Média de gols alta e ambos os times marcando com frequência sugerem que o placar não ficará no 1x0.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%",
+        "razao_reprovacao": "visitante marca em 63% dos jogos (precisa >65%)"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0x1_com_margem",
+          "mand_over05_>65",
+          "visitante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "ponderacao_odds": "Under 1.5 a 3.70 indica que o mercado não espera um jogo com poucos gols, o que favorece o lay 0x1.",
+        "risco_principal": "CRB pode abrir o placar e pressionar.",
+        "mandante_over_0_5": "75%",
+        "mandante_marca_pct": "75%",
+        "media_gols_total": "3.34",
+        "btts_medio": "60%",
+        "razao": "Média de gols alta e ambos os times marcando com frequência sugerem que o placar não ficará no 0x1.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": null,
+      "_media_casa_bruta": "1.67",
+      "_media_fora_bruta": "1.63",
+      "_mercado_original_incoerente": "Vitória CRB",
+      "_ev_pct": 14,
+      "_ev_odd": 1.9,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8469734?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "23:30",
+      "liga": "USA MLS",
+      "jogo": "Seattle Sounders x Portland Timbers",
+      "metodos_aplicados": [
+        "back_goleada"
+      ],
+      "mercado_principal": "Vitória Seattle Sounders",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "media_gols_casa": 2.08,
+      "media_gols_fora": 1.65,
+      "media_sofridos_casa": "2.13",
+      "media_sofridos_fora": "3.17",
+      "odds_mercado": {
+        "casa": "1.48",
+        "empate": "5.00",
+        "fora": "5.50",
+        "dupla_chance_1x": "1.10",
+        "dupla_chance_12": "1.14",
+        "dupla_chance_x2": "2.63",
+        "over_05": "1.01",
+        "under_05": "21.00",
+        "over_15": "1.12",
+        "under_15": "6.86",
+        "over_25": "1.36",
+        "under_25": "3.10",
+        "over_35": "2.05",
+        "under_35": "1.82",
+        "over_45": "3.42",
+        "under_45": "1.33",
+        "over_05_ht": "1.14",
+        "under_05_ht": "4.80",
+        "over_15_ht": "1.95",
+        "under_15_ht": "1.75",
+        "over_25_ht": "4.00",
+        "under_25_ht": "1.20",
+        "over_05_2t": "1.12",
+        "under_05_2t": "5.00",
+        "over_15_2t": "1.62",
+        "under_15_2t": "2.15",
+        "over_25_2t": "2.90",
+        "under_25_2t": "1.35",
+        "ambas_marcam_yes": "1.50",
+        "ambas_marcam_no": "2.50",
+        "ambas_marcam_1t_yes": "3.50",
+        "ambas_marcam_1t_no": "1.28",
+        "ambas_marcam_2t_yes": "2.62",
+        "ambas_marcam_2t_no": "1.44",
+        "nao_sofrer_casa_yes": "2.88",
+        "nao_sofrer_casa_no": "1.36",
+        "nao_sofrer_fora_yes": "8.00",
+        "nao_sofrer_fora_no": "1.04",
+        "vitoria_sem_sofrer_casa": "3.20",
+        "vitoria_sem_sofrer_fora": "12.00"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Seattle Sounders como favorito: 10V 3E 4D (+6.8U)",
+        "resumo_favorito_fora": null,
+        "leitura": "Seattle Sounders tem um retrospecto muito forte como favorito, com alta taxa de vitórias e lucro considerável.",
+        "jogos_relevantes": [
+          {
+            "data": "16/05/26",
+            "confronto": "Seattle Sounders x LA Galaxy",
+            "time_analisado": "Seattle Sounders",
+            "papel": "favorito",
+            "odd": "1.70",
+            "placar": "0-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "13/05/26",
+            "confronto": "Seattle Sounders x SJ Earthquakes",
+            "time_analisado": "Seattle Sounders",
+            "papel": "favorito",
+            "odd": "1.42",
+            "placar": "3-2",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "09/05/26",
+            "confronto": "Seattle Sounders x San Diego FC",
+            "time_analisado": "Seattle Sounders",
+            "papel": "favorito",
+            "odd": "1.57",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "02/05/26",
+            "confronto": "Sporting KC x Seattle Sounders",
+            "time_analisado": "Seattle Sounders",
+            "papel": "favorito",
+            "odd": "1.53",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "25/04/26",
+            "confronto": "Seattle Sounders x FC Dallas",
+            "time_analisado": "Seattle Sounders",
+            "papel": "favorito",
+            "odd": "1.50",
+            "placar": "2-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "18/04/26",
+            "confronto": "Seattle Sounders x St Louis City SC",
+            "time_analisado": "Seattle Sounders",
+            "papel": "favorito",
+            "odd": "1.90",
+            "placar": "4-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Seattle Sounders",
+        "texto": "Seattle Sounders entrega como favorito: 10V 3E 4D nos últimos jogos cotado abaixo de 1.90, com lucro de +6.8U."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Paul Rothrock — 4 gols, 1 assistência, decisivo no ataque",
+          "Cristian Roldan — 3 gols, 1 assistência, meio-campo forte",
+          "Albert Rusnák — 3 gols, 3 assistências, criação e finalização"
+        ],
+        "destaques_fora": [
+          "Kevin Jesús Kelsy Genez — 5 gols, 2 assistências, principal artilheiro",
+          "Kristoffer Velde — 4 gols, 1 assistência, atacante perigoso",
+          "Antony — 2 gols, 1 assistência, criatividade no ataque"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Seattle Sounders é favorito claro em casa, com bom retrospecto como mandante e contra um Portland Timbers em má fase e com defesa vazada.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 75% para a vitória do Seattle Sounders resulta em uma fair odd de 1.33. Com a odd mínima de entrada de 1.53, há valor esperado positivo.",
+      "mercado_secundario": "Vitória Seattle Sounders (marcando 4+ gols)",
+      "odd_minima_secundaria": "4.00",
+      "desempenho_1t": "Seattle Sounders marca 1.00 gol no 1ºT e sofre 1.25. Portland Timbers marca 1.17 no 1ºT e sofre 2.13.",
+      "desempenho_2t": "Seattle Sounders marca 0.63 gol no 2ºT e sofre 0.88. Portland Timbers marca 0.50 no 2ºT e sofre 0.88.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "10º",
+          "posicao_geral": "10º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "23º",
+          "posicao_geral": "23º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Seattle Sounders, 10º na tabela, busca manter uma boa sequência em casa. Portland Timbers, 23º, luta contra o rebaixamento e tem um desempenho defensivo muito frágil, sofrendo uma média de 3.17 gols por jogo.",
+      "coeficiente_regularidade": "Seattle Sounders: CV moderado (1.00 gol marcado, 2.13 sofrido). Portland Timbers: CV alto (1.17 gol marcado, 3.17 sofrido).",
+      "mando_de_campo": "Seattle Sounders tem um aproveitamento de 67% de vitórias em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Seattle Sounders marca mais gols no final do jogo (25% entre 76-90 min). Portland Timbers marca mais gols no início do jogo (17% entre 0-15 min) e no final (25% entre 76-90 min).",
+      "momento_gols": "Seattle Sounders: 25% dos gols marcados entre 76-90 min. Portland Timbers: 29% dos gols sofridos entre 76-90 min.",
+      "jogadores_chave": [
+        "Paul Rothrock",
+        "Cristian Roldan",
+        "Albert Rusnák",
+        "Kevin Jesús Kelsy Genez",
+        "Kristoffer Velde"
+      ],
+      "placares_provaveis": "2x1, 3x1, 3x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out parcial em caso de 2x0 ou 3x1 para o Seattle Sounders.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos robustos.",
+        "gatilho_saida_parcial": "Placar 2-0 ou 3-1 para o Seattle Sounders.",
+        "hard_stop": "Se o Portland Timbers abrir o placar."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "back_2x2": null,
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=70",
+          "odd_favorito_<=1.40",
+          "ataque_>=2.5",
+          "adversario_sofre_>=2.0"
+        ],
+        "criterios_total": 6,
+        "candidato": "Seattle Sounders",
+        "razao": "Seattle Sounders é favorito extremo (odd 1.48, prob estimada 75%) com ataque produtivo (1.00 gol/jogo) contra um Portland Timbers com defesa muito frágil (sofre 3.17 gols/jogo).",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Seattle Sounders marca 4+ gols",
+        "ponderacao_odds": "Odd de 1.48 para o Seattle Sounders e 1.36 para Over 2.5 confirmam o cenário de goleada.",
+        "risco_principal": "Portland Timbers pode segurar o placar em alguns momentos devido à sua capacidade ofensiva.",
+        "odd_esperada": "4.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null,
+      "_media_casa_bruta": "1.00",
+      "_media_fora_bruta": "1.17",
+      "_alerta_coerencia": "prob estimada 75% diverge da P(vitória) implícita nas médias de gols (48%) — revise médias ou probabilidade",
+      "_ev_pct": 11,
+      "_ev_odd": 1.48,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8391011?dia=hoje&mode=ha&modo=detalhado"
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "22:00",
+      "jogo": "Necaxa x Atlante",
+      "liga": "Mexico Mexico Liga MX",
+      "motivo": "Dados insuficientes para análise",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF para avaliar desempenho e retrospecto.",
+        "lay_zebra": "Dados insuficientes no PDF para avaliar desempenho e retrospecto.",
+        "over_limite_70": "Dados insuficientes no PDF para avaliar gols por período.",
+        "back_2x2": "Dados insuficientes no PDF para avaliar padrões de gols.",
+        "back_goleada": "Dados insuficientes no PDF para avaliar favoritismo e desempenho ofensivo/defensivo.",
+        "lay_1x0": "Dados insuficientes no PDF para avaliar padrões de gols e placares prováveis.",
+        "lay_0x1": "Dados insuficientes no PDF para avaliar padrões de gols e placares prováveis."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8548258?dia=hoje&mode=ha&modo=detalhado"
+    }
+  ],
   "pdfs": [
     {
       "jogo": "ABB x Independiente Petrolero",
@@ -17,6 +2233,30 @@
     {
       "jogo": "Vitória x Vasco da Gama",
       "arquivo": "pdfs/2026-07-16/Brasil_Brasil_-_Serie_A/003_19h30_Vitória_x_Vasco_da_Gama.pdf"
+    },
+    {
+      "jogo": "CRB x Náutico",
+      "arquivo": "pdfs/2026-07-16/Brasil_Brasil_-_Serie_B/004_20h00_CRB_x_Náutico.pdf"
+    },
+    {
+      "jogo": "Necaxa x Atlante",
+      "arquivo": "pdfs/2026-07-16/Mexico_Mexico_-_Liga_MX/005_22h00_Necaxa_x_Atlante.pdf"
+    },
+    {
+      "jogo": "Montreal Impact x Toronto",
+      "arquivo": "pdfs/2026-07-16/USA_USA_-_MLS/006_20h30_Montreal_Impact_x_Toronto.pdf"
+    },
+    {
+      "jogo": "Chicago Fire x Vancouver Whitecaps",
+      "arquivo": "pdfs/2026-07-16/USA_USA_-_MLS/007_21h30_Chicago_Fire_x_Vancouver_Whitecaps.pdf"
+    },
+    {
+      "jogo": "St Louis City SC x Sporting KC",
+      "arquivo": "pdfs/2026-07-16/USA_USA_-_MLS/008_21h30_St_Louis_City_SC_x_Sporting_KC.pdf"
+    },
+    {
+      "jogo": "Seattle Sounders x Portland Timbers",
+      "arquivo": "pdfs/2026-07-16/USA_USA_-_MLS/009_23h30_Seattle_Sounders_x_Portland_Timbers.pdf"
     }
   ]
 }
