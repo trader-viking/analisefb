@@ -1,0 +1,825 @@
+{
+  "data": "2026-07-16",
+  "dia_consultado": "amanha",
+  "gerado_em": "2026-07-15T21:43:49.379663",
+  "total_partidas_analisadas": 9,
+  "entradas": [
+    {
+      "horario": "19:30",
+      "liga": "Brazil Serie A",
+      "jogo": "Botafogo x Santos",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "back_2x2",
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo)",
+      "probabilidade_estimada": "55% (probabilidade de Over 2.5 gols, estimada pelas médias e índices do PDF)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.10",
+      "media_gols_casa": 2.13,
+      "media_gols_fora": 1.54,
+      "media_sofridos_casa": "1.71",
+      "media_sofridos_fora": "2.13",
+      "odds_mercado": {
+        "casa": "2.00",
+        "empate": "3.60",
+        "fora": "3.60",
+        "dupla_chance_1x": "1.25",
+        "dupla_chance_12": "1.29",
+        "dupla_chance_x2": "1.80",
+        "over_05": "1.04",
+        "under_05": "11.00",
+        "over_15": "1.28",
+        "under_15": "3.76",
+        "over_25": "1.85",
+        "under_25": "1.95"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: dados parciais | Favorito: dados parciais | Parelho: dados parciais | Total geral: 13V 6E 10D +2.7U",
+        "resumo_favorito_fora": "Dados de Santos como visitante não discriminados por papel no PDF",
+        "leitura": "Botafogo tem saldo positivo geral (13V 6E 10D) mas com resultados inconsistentes recentes: perdeu para Bahia (3.40), Chapecoense (2.30), Nacional Potosí (3.10) e Fluminense (5.50) como favorito. Histórico sugere time que tropeça como favorito em jogos que deveria vencer.",
+        "jogos_relevantes": [
+          {
+            "data": "30/05/26",
+            "confronto": "Bahia x Botafogo",
+            "time_analisado": "Botafogo",
+            "papel": "favorito",
+            "odd": "3.40",
+            "placar": "2-1",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "27/05/26",
+            "confronto": "Caracas x Botafogo",
+            "time_analisado": "Botafogo",
+            "papel": "favorito",
+            "odd": "2.05",
+            "placar": "1-3",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "17/05/26",
+            "confronto": "Botafogo x Corinthians",
+            "time_analisado": "Botafogo",
+            "papel": "parelho",
+            "odd": "2.75",
+            "placar": "3-1",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "14/05/26",
+            "confronto": "Chapecoense x Botafogo",
+            "time_analisado": "Botafogo",
+            "papel": "favorito",
+            "odd": "2.30",
+            "placar": "2-0",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "06/05/26",
+            "confronto": "Botafogo x Racing Club",
+            "time_analisado": "Botafogo",
+            "papel": "parelho",
+            "odd": "2.37",
+            "placar": "2-1",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "02/05/26",
+            "confronto": "Botafogo x Remo",
+            "time_analisado": "Botafogo",
+            "papel": "super_favorito",
+            "odd": "1.57",
+            "placar": "1-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "alerta",
+        "time": "Botafogo",
+        "texto": "Botafogo perdeu como super favorito (odd 1.57 vs Remo) e como favorito (odd 2.30 vs Chapecoense) — histórico recente indica que nao entrega consistentemente no papel de favorito."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Arthur Cabral — centroavante, artilheiro com 7 gols em 15 jogos",
+          "Danilo Oliveira — meia-atacante, 7 gols e 2 assistencias em 12 jogos",
+          "Edenilson — meia, 4 gols e 2 assistencias",
+          "Alex Telles — lateral-esquerdo, 2 gols e 2 assistencias, titular absoluto"
+        ],
+        "destaques_fora": [
+          "Gabriel Barbosa (Gabigol) — atacante, artilheiro com 7 gols em 12 jogos",
+          "Neymar — meia-atacante, 4 gols e 2 assistencias em 8 jogos",
+          "Alvaro Barreal — ponta, 3 gols em 15 jogos",
+          "Benjamin Rollheiser — atacante, 3 gols em 14 jogos"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Jogo com media total de 3.68 gols/partida, Over 2.5 em 88% dos jogos do Santos e 75% do Botafogo. Ambas marcam em 71-88% dos jogos. Perfil ideal para Over Limite e Back 2x2.",
+      "alerta_geral": "Evitar jogos empatados, com goleada ja consolidada (3+ gols de diferenca) ou apos expulsao.",
+      "valor_esperado": "Media total 3.68 gols/jogo, Over 2.5 a 1.85 no mercado — mercado confirma jogo aberto. Over Limite ao vivo apos 65min com placar parcial.",
+      "mercado_secundario": "Back 2x2 (placar exato 2x2)",
+      "odd_minima_secundaria": "10.00",
+      "desempenho_1t": "Botafogo marca 0.71 gols/1T; Santos sofre 0.71 gols/1T em media",
+      "desempenho_2t": "Botafogo marca 0.75 gols/2T; Santos sofre 1.63 gols/2T — segundo tempo muito mais goleador para o Santos",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "posicao_geral": null,
+          "objetivo": ""
+        },
+        "fora": {
+          "posicao": "",
+          "posicao_geral": null,
+          "objetivo": ""
+        }
+      },
+      "motivacao_tecnica": "Botafogo em casa com media de 2.14 gols marcados e 1.71 sofridos. Santos fora com 1.38 marcados e 2.13 sofridos. Media total combinada de 3.68 gols/jogo. Over 2.5 em 75% dos jogos do Botafogo e 88% dos jogos do Santos. Ambas marcam em 71% (Botafogo) e 88% (Santos). Santos sofre 87% dos jogos e marca 87% — perfil de jogo aberto. Gols no 2T do Santos: 87% sofre gol no 2T, 1.63 gols sofridos/2T. Botafogo marca 27% dos seus gols entre 76-90min. Santos sofre 35% dos seus gols entre 61-75 e 35% entre 76-90 — concentracao enorme de gols no final.",
+      "coeficiente_regularidade": "Botafogo: CV moderado (resultados variados) / Santos: CV alto (muito inconsistente fora)",
+      "mando_de_campo": "Botafogo vence 43% em casa; Santos perde 50% fora — mando relevante mas nao dominante",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (sem ausencias de impacto identificadas no PDF)",
+      "especificidades_gols": "Botafogo concentra gols no final (27% entre 76-90). Santos sofre 35% dos gols entre 61-75 e 35% entre 76-90 — perfil de colapso defensivo no segundo tempo.",
+      "momento_gols": "Botafogo: 27% dos gols marcados entre 76-90min. Santos: 35% dos gols sofridos entre 61-75 e 35% entre 76-90 — janela critica apos 60min.",
+      "jogadores_chave": "Arthur Cabral (7G), Danilo Oliveira (7G) pelo Botafogo; Gabigol (7G), Neymar (4G+2A) pelo Santos",
+      "placares_provaveis": "2x1, 2x2, 3x1, 3x2",
+      "momento_entrada": "Over Limite: ao vivo apos 65min. Back 2x2: pre-jogo.",
+      "situacao_saida": "Over Limite: nao entrar se 0x0, goleada 3+ ou expulsao. Back 2x2: cash-out total em 1x1, parcial em 2x1 ou 1x2.",
+      "stake_recomendada": "1% (Over Limite) / 0.5% (Back 2x2)",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo equilibrado nas odds (2.00 x 3.60) mas com perfil estatistico fortemente voltado para gols — esperar confirmacao ao vivo antes de entrar no Over Limite.",
+        "gatilho_saida_parcial": "Back 2x2: cash-out parcial ao chegar em 2x1 ou 1x2. Over Limite: sair se expulsao ou goleada consolidada.",
+        "hard_stop": "Back 2x2: cash-out total obrigatorio ao chegar em 1x1. Over Limite: nao entrar se condicoes de armadilha presentes."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "mercado_espera_gols",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Botafogo (mandante) — jogo com desequilibrio tecnico moderado e perfil ofensivo de ambos os lados",
+        "indices_gols_faixas": "Botafogo Marcado 61-75: 20% | Botafogo Marcado 76-90: 27% | Santos Sofrido 61-75: 35% | Santos Sofrido 76-90: 35%",
+        "qual_condicao_atende": "Santos Sofrido 61-75: 35% (acima de 25%) e Santos Sofrido 76-90: 35% (acima de 25%) e Botafogo Marcado 76-90: 27% (acima de 25%) — 3 das 4 condicoes atendem",
+        "motivo_motivacao": "Desequilibrio tecnico moderado com Botafogo em casa; ambos os times com perfil ofensivo elevado e defesas frageis",
+        "condicao_entrada": "Entrar AO VIVO apos 65min, mercado = Mais X.5 gols onde X = total de gols no placar + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
+        "ponderacao_odds": "Over 2.5 a 1.85 confirma expectativa de jogo aberto. Santos sofre gol no 2T em 87% dos jogos — reforco forte para Over Limite no segundo tempo.",
+        "risco_principal": "Jogo pode ficar travado taticamente se Botafogo abrir 2-0 cedo e Santos recuar — goleada consolidada vetaria a entrada.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferenca), ou expulsao em campo"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=60",
+          "btts_>=60",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Over 2.5 em 75% (Botafogo) e 88% (Santos), media 81.5%. Ambas marcam em 71% (Botafogo) e 88% (Santos), media 79.5%. Ambos sofrem mais de 1.2 gols/jogo (Botafogo 1.71, Santos 2.13). Ambos marcam mais de 1.3 gols/jogo (Botafogo 2.14, Santos 1.38). Over 2.5 a 1.85 no mercado.",
+        "indice_over_2_5": "81.5% media — Botafogo 75%, Santos 88%",
+        "indice_ambas_marcam": "79.5% media — Botafogo 71%, Santos 88%",
+        "indice_over_ht": "73% media — Botafogo 71% Over 0.5 HT, Santos 75% Over 0.5 HT",
+        "ponderacao_odds": "Over 2.5 a 1.85 — mercado espera jogo aberto, reforco para Back 2x2. Ambas marcam a 1.70 tambem confirma perfil de gols dos dois lados.",
+        "risco_principal": "Santos marca apenas 1.38 gols/jogo fora — ataque visitante pode nao produzir o suficiente para o 2x2.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "media_total_>=2.5",
+          "under15_caro",
+          "visitante_pontua_h2h"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "7%",
+        "ponderacao_odds": "Under 1.5 a 3.76 — mercado nao espera jogo magro, reforco forte para Lay 1x0. Over 2.5 a 1.85 confirma expectativa de multiplos gols.",
+        "risco_principal": "Botafogo marca 27% dos gols entre 76-90 — possibilidade de gol tardio unico nao pode ser descartada.",
+        "visitante_over_0_5": "87% (Santos marca em 87% dos jogos)",
+        "visitante_marca_pct": "87%",
+        "media_gols_total": "3.68",
+        "btts_medio": "79.5%",
+        "razao": "Media total de 3.68 gols/jogo, Santos marca em 87% dos jogos, BTTS em 79.5% — perfil de jogo com multiplos gols torna o 1x0 improvavel. Under 1.5 a 3.76 confirma que mercado nao espera placar magro.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou apos 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0x1_com_margem",
+          "mand_over05_>65",
+          "media_total_>=2.5",
+          "under15_caro",
+          "mandante_pontua_h2h"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "5%",
+        "ponderacao_odds": "Under 1.5 a 3.76 — mercado espera 2+ gols, reforco para Lay 0x1. Botafogo marca em 86% dos jogos em casa.",
+        "risco_principal": "Santos tem ataque com Gabigol e Neymar — pode surpreender e marcar o unico gol do jogo em contra-ataque.",
+        "mandante_over_0_5": "86%",
+        "mandante_marca_pct": "86%",
+        "media_gols_total": "3.68",
+        "btts_medio": "79.5%",
+        "razao": "Botafogo marca em 86% dos jogos em casa, media total 3.68 gols, BTTS 79.5% — placar 0x1 e extremamente improvavel neste contexto ofensivo.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou apos 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Jogo aberto com ambos os times buscando o gol — Botafogo ofensivo em casa, Santos fragil defensivamente fora",
+        "gatilhos_aceleracao": "Santos recuando apos sofrer gol, Botafogo com posse alta e pressao constante, ritmo de jogo acelerado no 2T",
+        "alerta_armadilha": "Jogo travado taticamente com 0x0 apos 65min — Over Limite perde valor. Expulsao de qualquer lado trava o jogo.",
+        "mercado_recomendado": "Mais X.5 gols ao vivo apos 65min",
+        "momento_observacao": "65-75min"
+      },
+      "_media_casa_bruta": "2.14",
+      "_media_fora_bruta": "1.38",
+      "_ev_pct": 16,
+      "_ev_odd": 2.1,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8409705?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "16:00",
+      "liga": "Bolívia Divisão Profissional",
+      "jogo": "ABB x Independiente Petrolero",
+      "metodos_aplicados": [
+        "back_2x2",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo)",
+      "probabilidade_estimada": "58%",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.98",
+      "media_gols_casa": 1.75,
+      "media_gols_fora": 1.88,
+      "media_sofridos_casa": "2.00",
+      "media_sofridos_fora": "1.75",
+      "odds_mercado": {
+        "casa": "2.05",
+        "empate": "3.70",
+        "fora": "3.10",
+        "dupla_chance_1x": "1.33",
+        "dupla_chance_12": "1.20",
+        "dupla_chance_x2": "1.67",
+        "over_05": "1.02",
+        "under_05": "15.50",
+        "over_15": "1.13",
+        "under_15": "6.00",
+        "over_25": "1.47",
+        "under_25": "2.60"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: 3V 0E 5D +0.2U (papel de favorito/super favorito em casa — histórico ruim como favorito)",
+        "resumo_favorito_fora": null,
+        "leitura": "ABB tem retrospecto negativo como favorito: 3V 0E 5D nos jogos em que foi cotado como favorito/super favorito em casa. Não entrega consistentemente nesse papel.",
+        "jogos_relevantes": [
+          {
+            "data": "08/07/26",
+            "confronto": "Real Potosí x ABB",
+            "time_analisado": "ABB",
+            "papel": "zebra",
+            "odd": "5.00",
+            "placar": "3-1",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "30/05/26",
+            "confronto": "ABB x Club Always Ready",
+            "time_analisado": "ABB",
+            "papel": "zebra",
+            "odd": "4.50",
+            "placar": "1-3",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "11/05/26",
+            "confronto": "ABB x Oriente Petrolero",
+            "time_analisado": "ABB",
+            "papel": "favorito",
+            "odd": "1.65",
+            "placar": "3-1",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "03/05/26",
+            "confronto": "The Strongest x ABB",
+            "time_analisado": "ABB",
+            "papel": "zebra",
+            "odd": "7.00",
+            "placar": "3-1",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "25/04/26",
+            "confronto": "ABB x Blooming",
+            "time_analisado": "ABB",
+            "papel": "favorito",
+            "odd": "2.05",
+            "placar": "3-2",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "21/04/26",
+            "confronto": "Universitario de Vinto x ABB",
+            "time_analisado": "ABB",
+            "papel": "zebra",
+            "odd": "7.00",
+            "placar": "5-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "alerta",
+        "time": "ABB",
+        "texto": "ABB tem histórico ruim como favorito: 3V 0E 5D quando cotado abaixo de 2.10 — favoritismo de papel, não entrega consistentemente."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Rodderyk Perozo — artilheiro com 3 gols em 6 jogos",
+          "Juan Gallego — 3 gols em 5 jogos, referência ofensiva",
+          "Layonel Figueroa — 2 gols e 2 assistências, criação e finalização",
+          "Denilson Valda — 2 assistências, armador"
+        ],
+        "destaques_fora": [
+          "Willie Barbosa — artilheiro com 5 gols em 8 jogos, principal ameaça",
+          "Rodrigo Rivas — 2 gols e 1 assistência em 6 jogos",
+          "Alán Mercado — 2 gols e 1 assistência em 5 jogos",
+          "Juan Villavicencio — 1 gol e 2 assistências, criação"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Jogo com média total de 3.6 gols, Over 2.5 em 88% dos jogos combinados e Ambas Marcam em 75-100%. Perfil claro de muitos gols nos dois tempos.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Over Limite: prob ~58% de gol adicional após 65min dado o padrão de gols tardios (ABB marca 29% e 29% nas faixas 61-75 e 76-90; Petrolero sofre 13% e 38% nessas faixas). Fair odd ~1.72; mínima 1.98.",
+      "mercado_secundario": "Placar exato 2x2 (pré-jogo)",
+      "odd_minima_secundaria": "10.00",
+      "desempenho_1t": "ABB marca 0.50 gols/1ºT; Petrolero sofre 0.50 gols/1ºT — primeiro tempo mais fechado",
+      "desempenho_2t": "ABB marca 0.75 gols/2ºT; Petrolero sofre 1.00 gol/2ºT — segundo tempo mais aberto",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "posicao_geral": "13º",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "",
+          "posicao_geral": "7º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "ABB é 13º com 9 pontos em 8 jogos, brigando para fugir da zona de rebaixamento — alta motivação em casa. Petrolero é 7º com 12 pontos, sem objetivo imediato mas com elenco competitivo. Ambos os times têm médias ofensivas de 1.75 gols/jogo e defesas que sofrem 1.75-2.00 gols/jogo. Over 2.5 em 88% da média combinada e Ambas Marcam em 75-100% dos jogos recentes. Gols tardios: ABB marca 29% na faixa 61-75 e 29% na 76-90; Petrolero sofre 13% na 61-75 e 38% na 76-90 — padrão forte de gols no final.",
+      "coeficiente_regularidade": "ABB: irregular (3V 0E 5D como favorito) / Petrolero: moderado (3V 3E 2D nos últimos 8)",
+      "mando_de_campo": "ABB em casa: 50% de vitórias nos últimos 4 jogos em casa",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo (sem ausências identificadas no PDF)",
+      "especificidades_gols": "ABB marca mais no 2ºT (0.75/jogo) e nas faixas 61-75 e 76-90. Petrolero tem Willie Barbosa como referência (5 gols em 8 jogos).",
+      "momento_gols": "ABB: 29% dos gols marcados na faixa 61-75 e 29% na 76-90. Petrolero sofre: 13% na 61-75 e 38% na 76-90.",
+      "jogadores_chave": "ABB: Rodderyk Perozo (3G), Juan Gallego (3G). Petrolero: Willie Barbosa (5G), Rodrigo Rivas (2G).",
+      "placares_provaveis": "2x1, 2x2, 3x2, 1x2",
+      "momento_entrada": "Over Limite: ao vivo após 65min. Back 2x2: pré-jogo.",
+      "situacao_saida": "Over Limite: não entrar se 0x0, goleada consolidada ou expulsão. Back 2x2: cash-out total no 1x1; parcial no 2x1 ou 1x2.",
+      "stake_recomendada": "1% (Over Limite) / 0.5% (Back 2x2)",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo equilibrado nas odds (2.05 x 3.10) com padrão claro de gols — aguardar desenvolvimento antes de entrar no Over Limite; Back 2x2 pré-jogo captura odd alta.",
+        "gatilho_saida_parcial": "Back 2x2: cash-out parcial ao chegar em 2x1 ou 1x2. Over Limite: não entrar se jogo travar com expulsão.",
+        "hard_stop": "Back 2x2: cash-out total no 1x1. Over Limite: não entrar após 75min se placar ainda 0x0."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "mercado_espera_gols",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "ABB (mandante) — brigando para fugir do rebaixamento (13º), alta motivação em casa",
+        "indices_gols_faixas": "ABB Marcado 61-75: 29% | ABB Marcado 76-90: 29% | Petrolero Sofrido 61-75: 13% | Petrolero Sofrido 76-90: 38%",
+        "qual_condicao_atende": "ABB Marcado 61-75: 29% (>=25%) e ABB Marcado 76-90: 29% (>=25%) e Petrolero Sofrido 76-90: 38% (>=25%)",
+        "motivo_motivacao": "ABB 13º brigando contra rebaixamento — motivação máxima em casa. Petrolero 7º sem objetivo imediato mas com elenco competitivo.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
+        "ponderacao_odds": "Over 2.5 a 1.47 — mercado espera jogo aberto. Over 1.5 a 1.13 confirma expectativa de muitos gols. Gols no 2ºT em 100% dos jogos recentes de ambos reforça entrada tardia.",
+        "risco_principal": "Jogo pode travar se ABB abrir vantagem e Petrolero recuar — monitorar intensidade após 60min.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=60",
+          "btts_>=60",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Over 2.5 em 88% da média combinada, Ambas Marcam em 75-100%, Over HT em 88% dos jogos. Ambos marcam 1.75 gols/jogo e sofrem 1.75-2.00 gols/jogo — perfil ideal para 2x2.",
+        "indice_over_2_5": "88% média combinada — ABB 75%, Petrolero 100%",
+        "indice_ambas_marcam": "88% média combinada — ABB 75%, Petrolero 100%",
+        "indice_over_ht": "88% média combinada — ABB 100%, Petrolero 75%",
+        "ponderacao_odds": "Over 2.5 a 1.47 — mercado espera jogo aberto e com gols. Ambas Marcam a 1.40 reforça o perfil de 2x2.",
+        "risco_principal": "Placar pode ir direto para 3x1 ou 2x0 sem passar pelo 2x2 — gestão de saída obrigatória.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "visit_over05_>65",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "7%",
+        "ponderacao_odds": "Under 1.5 a 6.00 — mercado espera 2+ gols; lay reforçado. Porém ABB não é favorito claro (odd 2.05) e o perfil de jogo aberto reduz P(1-0).",
+        "risco_principal": "ABB tem histórico de tropeçar como favorito — risco de resultado inesperado.",
+        "visitante_over_0_5": "100%",
+        "visitante_marca_pct": "75%",
+        "media_gols_total": "3.50",
+        "btts_medio": "88%",
+        "razao": "Média total de 3.50 gols, Ambas Marcam em 88% e Petrolero marca em 100% dos jogos recentes — P(1-0) muito baixa. Porém critério 'p_1x0_com_margem' e 'mandante_produtivo_>=1.5' precisam ser verificados: ABB marca 1.75/jogo (atende), mas sem dados de Under 1.5 real confirmando odd >= 2.40 (Under 1.5 = 6.00, atende). Critério 1 atende (P~7% x 10.50 = 0.74 <= 0.90). Faltam dados de H2H direto para 'visitante_pontua_h2h' — não atendido. Aplicável parcialmente mas não é o método principal.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": null,
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Jogo aberto com ambos os times buscando gol — ABB motivado em casa pela luta contra rebaixamento",
+        "gatilhos_aceleracao": "Ambos os times com linhas altas, transições rápidas, chutes frequentes (ABB 17.25/jogo, Petrolero 8.00/jogo)",
+        "alerta_armadilha": "Se ABB abrir 2x0 antes dos 60min, Petrolero pode recuar e travar o jogo",
+        "mercado_recomendado": "Mais X.5 gols ao vivo após 65min",
+        "momento_observacao": "65-75min"
+      },
+      "_media_casa_bruta": "1.75",
+      "_media_fora_bruta": "1.75",
+      "_ev_pct": 15,
+      "_ev_odd": 1.98,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8507135?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "19:30",
+      "liga": "brazil serie a",
+      "jogo": "Vitória x Vasco da Gama",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo)",
+      "probabilidade_estimada": "55% (Over 2.5 gols no jogo)",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "media_gols_casa": 1.88,
+      "media_gols_fora": 0.81,
+      "media_sofridos_casa": "0.38",
+      "media_sofridos_fora": "2.00",
+      "odds_mercado": {
+        "casa": "2.37",
+        "empate": "3.30",
+        "fora": "3.10",
+        "dupla_chance_1x": "1.36",
+        "dupla_chance_12": "1.33",
+        "dupla_chance_x2": "1.57",
+        "over_05": "1.06",
+        "under_05": "9.00",
+        "over_15": "1.32",
+        "under_15": "3.43",
+        "over_25": "2.05",
+        "under_25": "1.75",
+        "over_35": "3.60",
+        "under_35": "1.29",
+        "over_45": "7.16",
+        "under_45": "1.10"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav / Favorito / Parelho: 15V 5E 9D +5.3U (geral do Vitória como mandante no H2H histórico)",
+        "resumo_favorito_fora": "Vasco como visitante: dados de desempenho fora mostram 0% vitórias, 50% empates, 50% derrotas nos últimos 8 jogos fora",
+        "leitura": "Vitória tem histórico positivo como mandante (+5.3U), mas a odd 2.37 indica jogo equilibrado. Vasco fora de casa é muito fraco: 0V 4E 4D nos últimos 8 jogos fora, sofrendo 2.0 gols/jogo.",
+        "jogos_relevantes": [
+          {
+            "data": "06/06/26",
+            "confronto": "Vitória x Fortaleza",
+            "time_analisado": "Vitória",
+            "papel": "favorito",
+            "odd": "1.85",
+            "placar": "2-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "02/06/26",
+            "confronto": "Fortaleza x Vitória",
+            "time_analisado": "Vitória",
+            "papel": "zebra",
+            "odd": "3.10",
+            "placar": "1-2",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "23/05/26",
+            "confronto": "Vitória x Internacional",
+            "time_analisado": "Vitória",
+            "papel": "parelho",
+            "odd": "2.90",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "20/05/26",
+            "confronto": "Vitória x ABC",
+            "time_analisado": "Vitória",
+            "papel": "super_favorito",
+            "odd": "1.44",
+            "placar": "6-2",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "14/05/26",
+            "confronto": "Vitória x Flamengo",
+            "time_analisado": "Vitória",
+            "papel": "zebra",
+            "odd": "4.00",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "06/05/26",
+            "confronto": "Vitória x Ceará",
+            "time_analisado": "Vitória",
+            "papel": "favorito",
+            "odd": "1.83",
+            "placar": "1-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": false,
+            "nao_sofreu": true
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Vitória",
+        "texto": "Vitória entrega bem em casa: 15V 5E 9D como mandante no H2H geral (+5.3U), com padrão ofensivo forte (1.75 gols/jogo marcados em casa)."
+      },
+      "jogadores": {
+        "destaques_casa": null,
+        "destaques_fora": [
+          "Thiago Mendes — meio-campo, 3 gols e 1 assistência em 16 jogos",
+          "Andres Gomez — ataque, 3 gols e 2 assistências, 57 chutes em 16 jogos",
+          "José Luis Rodríguez Bebanz — meia, 2 gols e 4 assistências em 12 jogos",
+          "Luis Eduardo Soares da Silva — meia, 2 gols e 3 assistências em 11 jogos"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Vitória marca 1.75 gols/jogo em casa e o Vasco sofre 2.0 gols/jogo fora. Tabela de momento dos gols mostra 40% dos gols do Vitória entre 76-90min — Over Limite ao vivo após 65min é o método ideal.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Over 2.5 a 2.05 está próximo da fair odd estimada. O valor real está no Over Limite ao vivo após 65min, onde a odd melhora conforme o placar parcial.",
+      "mercado_secundario": "Lay 0x1 (pré-jogo)",
+      "odd_minima_secundaria": "9.00",
+      "desempenho_1t": "Vitória marca 75% dos jogos no 1ºT (Over 0.5 HT 75%); Vasco sofre gol no 1ºT em 88% dos jogos fora",
+      "desempenho_2t": "Vitória marca 40% dos gols entre 76-90min; Vasco sofre 25% dos gols entre 61-75min e 19% entre 76-90min fora",
+      "contexto_times": {
+        "casa": {
+          "posicao": "",
+          "posicao_geral": null,
+          "objetivo": ""
+        },
+        "fora": {
+          "posicao": "",
+          "posicao_geral": null,
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Vitória em casa com 75% de aproveitamento (6V 1E 1D nos últimos 8 em casa), marcando 1.75 gols/jogo. Vasco fora de casa em colapso: 0V 4E 4D, sofrendo 2.0 gols/jogo. A tabela de momento dos gols do Vitória mostra 21% dos gols marcados entre 76-90min e 14% entre 61-75min — padrão de gols tardios claro. Vasco sofre 25% dos gols entre 61-75min fora. Combinação ideal para Over Limite ao vivo após 65min.",
+      "coeficiente_regularidade": "Casa: CV baixo (75% aproveitamento consistente) / Visitante: CV alto (oscilação extrema fora)",
+      "mando_de_campo": "Vitória faz 75% dos pontos em casa nos últimos 8 jogos (6V 1E 1D)",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "Dados de jogadores do Vitória (mandante) ausentes no PDF; elenco do Vasco aparentemente completo",
+      "especificidades_gols": "Vitória concentra gols na reta final (21% entre 76-90min). Vasco marca pouco fora (1.25 gols/jogo) mas sofre muito (2.0 gols/jogo fora)",
+      "momento_gols": "Vitória Marcado: 76-90 = 21% (3 gols em 14 marcados em casa). Vasco Sofrido fora: 61-75 = 25% (4 gols em 16 sofridos fora)",
+      "jogadores_chave": "Vasco: Andres Gomez (3G 2A, 57 chutes), Thiago Mendes (3G 1A), José Bebanz (2G 4A)",
+      "placares_provaveis": "2x0, 2x1, 1x1",
+      "momento_entrada": "Over Limite: ao vivo após 65min. Lay 0x1: pré-jogo",
+      "situacao_saida": "Over Limite: não entrar se 0x0, goleada consolidada ou expulsão. Lay 0x1: cash-out se 1-0, 1-1 ou 60min sem gol",
+      "stake_recomendada": "1% (Over Limite) / 2% (Lay 0x1)",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo equilibrado nas odds (2.37 x 3.10) mas com padrão claro de gols tardios do Vitória e Vasco defensivamente frágil fora. Aguardar desenvolvimento do jogo para confirmar entrada no Over Limite.",
+        "gatilho_saida_parcial": "Over Limite: se placar chegar a 3+ gols de diferença antes dos 65min, cancelar entrada",
+        "hard_stop": "Over Limite: não entrar após expulsão ou se jogo estiver 0x0 após 75min sem pressão clara"
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.4",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Vitória (mandante) — desequilíbrio técnico claro em casa contra Vasco em colapso fora",
+        "indices_gols_faixas": "Vitória Marcado 61-75: 14% | Vitória Marcado 76-90: 21% | Vasco Sofrido 61-75: 25% | Vasco Sofrido 76-90: 19%",
+        "qual_condicao_atende": "Condição c atendida: Vasco Sofrido 61-75 = 25% (atinge o limiar mínimo de 25%)",
+        "motivo_motivacao": "Desequilíbrio técnico: Vitória 75% aproveitamento em casa vs Vasco 0% vitórias fora nos últimos 8 jogos",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
+        "ponderacao_odds": "Over 2.5 a 2.05 indica mercado dividido sobre gols. Vasco sofre gol no 2ºT em 87% dos jogos fora (Over 0.5 2T a 1.25 confirma). Marcadores de gol tardio do Vitória reforçam entrada após 65min.",
+        "risco_principal": "Over 2.5 a 2.05 mostra mercado sem consenso sobre jogo de gols — se Vitória abrir 1x0 e Vasco se fechar, o segundo gol pode não sair.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0x1_com_margem",
+          "mand_over05_>65",
+          "media_total_>=2.5",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "7%",
+        "ponderacao_odds": "Under 1.5 a 3.43 — mercado espera jogo com 2+ gols; Vitória marca em 88% dos jogos em casa (Over 0.5 mandante altíssimo). Lay 0x1 reforçado: improvável Vasco vencer por 0x1 com Vitória tão produtivo em casa.",
+        "risco_principal": "Vasco tem jogadores criativos (Andres Gomez, Bebanz) e pode surpreender com contra-ataque, tornando o 0x1 possível se Vitória desperdiçar chances.",
+        "mandante_over_0_5": "88%",
+        "mandante_marca_pct": "88%",
+        "media_gols_total": "3.00",
+        "btts_medio": "57%",
+        "razao": "Vitória marca em 88% dos jogos em casa (1.75 gols/jogo) e a média total é 3.0 gols/jogo. Extremamente improvável que o jogo termine 0x1 com mandante tão produtivo. Under 1.5 a 3.43 confirma que mercado espera mais gols.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": {
+        "aplicavel": true,
+        "perfil_tatico": "Vitória pressionando alto em casa, Vasco tentando segurar e contra-atacar",
+        "gatilhos_aceleracao": "Vitória com posse dominante após 60min, Vasco recuado e sem saída de bola",
+        "alerta_armadilha": "Se Vasco abrir o placar, o jogo pode travar — reavaliar Over Limite",
+        "mercado_recomendado": "Mais X.5 gols ao vivo após 65min",
+        "momento_observacao": "65-75min"
+      },
+      "_media_casa_bruta": "1.75",
+      "_media_fora_bruta": "1.25",
+      "_ev_pct": 15,
+      "_ev_odd": 2.09,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8409713?dia=amanha&mode=ha&modo=detalhado"
+    }
+  ],
+  "evitar": [],
+  "pdfs": [
+    {
+      "jogo": "ABB x Independiente Petrolero",
+      "arquivo": "pdfs/2026-07-16/Bolívia_Bolívia_-_Divisão_Profissional/001_16h00_ABB_x_Independiente_Petrolero.pdf"
+    },
+    {
+      "jogo": "Botafogo x Santos",
+      "arquivo": "pdfs/2026-07-16/Brasil_Brasil_-_Serie_A/002_19h30_Botafogo_x_Santos.pdf"
+    },
+    {
+      "jogo": "Vitória x Vasco da Gama",
+      "arquivo": "pdfs/2026-07-16/Brasil_Brasil_-_Serie_A/003_19h30_Vitória_x_Vasco_da_Gama.pdf"
+    },
+    {
+      "jogo": "CRB x Náutico",
+      "arquivo": "pdfs/2026-07-16/Brasil_Brasil_-_Serie_B/004_20h00_CRB_x_Náutico.pdf"
+    },
+    {
+      "jogo": "Necaxa x Atlante",
+      "arquivo": "pdfs/2026-07-16/Mexico_Mexico_-_Liga_MX/005_22h00_Necaxa_x_Atlante.pdf"
+    },
+    {
+      "jogo": "Montreal Impact x Toronto",
+      "arquivo": "pdfs/2026-07-16/USA_USA_-_MLS/006_20h30_Montreal_Impact_x_Toronto.pdf"
+    },
+    {
+      "jogo": "Chicago Fire x Vancouver Whitecaps",
+      "arquivo": "pdfs/2026-07-16/USA_USA_-_MLS/007_21h30_Chicago_Fire_x_Vancouver_Whitecaps.pdf"
+    },
+    {
+      "jogo": "St Louis City SC x Sporting KC",
+      "arquivo": "pdfs/2026-07-16/USA_USA_-_MLS/008_21h30_St_Louis_City_SC_x_Sporting_KC.pdf"
+    },
+    {
+      "jogo": "Seattle Sounders x Portland Timbers",
+      "arquivo": "pdfs/2026-07-16/USA_USA_-_MLS/009_23h30_Seattle_Sounders_x_Portland_Timbers.pdf"
+    }
+  ]
+}
