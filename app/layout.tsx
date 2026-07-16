@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Link from 'next/link';
 import ThemeToggle from '@/components/ThemeToggle';
-<HeaderViking />
+import HeaderViking from '@/components/HeaderViking';
 
 export const metadata: Metadata = {
   title: 'Análises Trader',
@@ -12,11 +12,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <head>
+      <HeaderViking />
 
 <link rel="manifest" href="/manifest.json" />
 <meta name="theme-color" content="#12100B" />
 <link rel="apple-touch-icon" href="/icon-192.png" />
+ <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap" rel="stylesheet" />
 
         <script
           dangerouslySetInnerHTML={{
