@@ -978,7 +978,7 @@
         "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
         "stake_recomendada": "2%",
         "_bloqueado_poisson": true,
-        "_prob_poisson_pct": 12.0,
+        "_prob_poisson_pct": 12,
         "razao_reprovacao": "visitante marca em 63% dos jogos (precisa >65%); BLOQUEADO: 1x0 está entre os 4 placares mais prováveis por Poisson (12% > 10%) — fazer lay do placar mais provável contradiz a análise"
       },
       "lay_0x1": {
@@ -1840,7 +1840,19 @@
       "_ev_pct": 6,
       "_ev_odd": 2.09,
       "_ev_base": "minima",
-      "_url_fonte": "https://clube.theoborges.com/game/8471155?dia=hoje&mode=ha&modo=detalhado"
+      "_url_fonte": "https://clube.theoborges.com/game/8471155?dia=hoje&mode=ha&modo=detalhado",
+      "_odds_historico": [
+        {
+          "ts": "2026-07-17T01:27:48.682297",
+          "odd": 2.09,
+          "origem": "relatorio"
+        },
+        {
+          "ts": "2026-07-17T06:00:57.536Z",
+          "odd": 13,
+          "origem": "api"
+        }
+      ]
     },
     {
       "horario": "19:30",
