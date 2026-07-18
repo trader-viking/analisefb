@@ -612,9 +612,9 @@
       "_ev_odd": 1.85,
       "_ev_base": "mercado",
       "_url_fonte": "https://clube.theoborges.com/game/8469746?dia=amanha&mode=ha&modo=detalhado",
-      "_placar": null,
-      "_status": "agendado",
-      "_placar_atualizado_em": "2026-07-18T02:00:45.094Z",
+      "_placar": "0x0",
+      "_status": "em_andamento",
+      "_placar_atualizado_em": "2026-07-18T19:00:45.039Z",
       "_odds_historico": [
         {
           "ts": "2026-07-17T22:19:43.568311",
@@ -894,9 +894,9 @@
       "_ev_odd": 1.01,
       "_ev_base": "mercado",
       "_url_fonte": "https://clube.theoborges.com/game/8471296?dia=amanha&mode=ha&modo=detalhado",
-      "_placar": "0x0",
-      "_status": "em_andamento",
-      "_placar_atualizado_em": "2026-07-18T13:00:45.094Z",
+      "_placar": "0x2",
+      "_status": "finalizado",
+      "_placar_atualizado_em": "2026-07-18T19:00:45.039Z",
       "_odds_historico": [
         {
           "ts": "2026-07-17T22:19:43.568311",
@@ -908,7 +908,10 @@
           "odd": 1.25,
           "origem": "api"
         }
-      ]
+      ],
+      "_veredito": "red",
+      "_veredito_motivo": "Nunca chegou ao 1×1 (final 0×2)",
+      "_veredito_em": "2026-07-18T19:00:45.039Z"
     },
     {
       "horario": "21:30",
@@ -1944,8 +1947,8 @@
       "_ev_base": "mercado",
       "_url_fonte": "https://clube.theoborges.com/game/8471153?dia=amanha&mode=ha&modo=detalhado",
       "_placar": "2x0",
-      "_status": "em_andamento",
-      "_placar_atualizado_em": "2026-07-18T13:00:45.094Z",
+      "_status": "finalizado",
+      "_placar_atualizado_em": "2026-07-18T19:00:45.039Z",
       "_odds_historico": [
         {
           "ts": "2026-07-17T22:19:43.568311",
@@ -2473,8 +2476,8 @@
       "_ev_base": "mercado",
       "_url_fonte": "https://clube.theoborges.com/game/8471150?dia=amanha&mode=ha&modo=detalhado",
       "_placar": "3x1",
-      "_status": "em_andamento",
-      "_placar_atualizado_em": "2026-07-18T13:00:45.318Z",
+      "_status": "finalizado",
+      "_placar_atualizado_em": "2026-07-18T19:00:45.039Z",
       "_odds_historico": [
         {
           "ts": "2026-07-17T22:19:43.568311",
@@ -2486,7 +2489,10 @@
           "odd": 1.22,
           "origem": "api"
         }
-      ]
+      ],
+      "_veredito": "red",
+      "_veredito_motivo": "Não passou pelo 1×1 (final 3×1)",
+      "_veredito_em": "2026-07-18T19:00:45.254Z"
     },
     {
       "horario": "16:00",
