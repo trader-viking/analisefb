@@ -606,7 +606,7 @@ async function gravarPlacaresNosRelatorios(env, diasAtras = 10) {
         const metodos = entrada.metodos_aplicados || [];
         // Principal = ordem FIXA de desempate (a mesma do site/main.py),
         // não a ordem em que o array veio da IA
-        const ORDEM = ['back_favorito', 'over_limite_70', 'back_2x2', 'lay_zebra',
+        const ORDEM = ['back_favorito', 'over_limite_70', 'over_ht_05', 'back_2x2', 'lay_zebra',
                        'lay_1x0', 'lay_0x1', 'back_goleada'];
         const principal = ORDEM.find((m) => metodos.includes(m)) || metodos[0] || '';
         let veredito = null;
@@ -643,6 +643,18 @@ async function gravarPlacaresNosRelatorios(env, diasAtras = 10) {
               // fica pendente pro botão Finalizar (veredito manual).
               motivo = null;
             }
+          }
+        }
+        // OVER HT: 1+ gol no 1º tempo = green (usa placar do intervalo)
+        else if (principal === 'over_ht_05') {
+          const gcHt = placar.gols_casa_ht;
+          const gfHt = placar.gols_fora_ht;
+          if (gcHt === null || gcHt === undefined || gfHt === null || gfHt === undefined) {
+            motivo = null; // sem placar de HT → pendente
+          } else if (gcHt + gfHt >= 1) {
+            veredito = 'green'; motivo = `${gcHt + gfHt} gol(s) no 1ºT (HT ${gcHt}x${gfHt}) — green`;
+          } else {
+            veredito = 'red'; motivo = `0x0 no 1ºT — sem gol no intervalo`;
           }
         }
         // BACK FAVORITO: favorito venceu = green
@@ -1153,6 +1165,47 @@ function avaliarGatilhosEntrada(entrada, placar, stats, statsAntes) {
     }
   }
 
+  // ---- OVER HT (+0.5 no 1ºT): janela de entrada ao vivo ----
+  // O método pede entrada pré-jogo OU ao vivo se 0-0 aos 12-18min com
+  // pressão. Alertamos em dois momentos:
+  //  a) janela de entrada (12-30min, ainda 0-0) → sugestão de entrada
+  //  b) gol saiu no 1ºT → confirmação de green na hora
+  if (aplicado('over_ht_05') && min <= 45) {
+    const { odd, stake } = planoDoMetodoWorker(entrada, 'over_ht_05');
+    if (gc + gf === 0 && min >= 12 && min <= 30) {
+      // Ainda 0-0: só alerta se houver pressão (senão é entrada às cegas)
+      let pressao = '';
+      let temPressao = false;
+      if (stats) {
+        const pc = avaliarPressao(stats.casa, statsAntes?.casa, min, statsAntes?._minuto);
+        const pf = avaliarPressao(stats.fora, statsAntes?.fora, min, statsAntes?._minuto);
+        const lado = pc.pressionando ? { n: placar.casa, r: pc.resumo }
+                   : pf.pressionando ? { n: placar.fora, r: pf.resumo } : null;
+        temPressao = !!lado;
+        pressao = lado
+          ? `\n📈 <b>${lado.n} pressionando</b>: ${lado.r}`
+          : `\n📊 Sem pressão clara: casa ${pc.resumo} | fora ${pf.resumo}`;
+      }
+      if (temPressao || !stats) {
+        alertas.push({
+          chave: `overht_entrada:${entrada.jogo}`,
+          msg: `⚡ <b>ENTRADA — Over HT (+0.5 1ºT)</b>\n${cab}\n` +
+               `Mercado: <b>Mais 0.5 gols HT</b>` +
+               (odd ? ` · Odd ${odd}` : '') + (stake ? ` · Stake ${stake}` : '') +
+               pressao +
+               `\n⏱ ${min}' — ainda 0-0, restam ${Math.max(0, 45 - min)}min do 1ºT`,
+        });
+      }
+    } else if (gc + gf >= 1) {
+      // Gol no 1º tempo = green imediato (o mercado já resolveu)
+      alertas.push({
+        chave: `overht_green:${entrada.jogo}`,
+        msg: `✅ <b>GREEN — Over HT (+0.5 1ºT)</b>\n${cab}\n` +
+             `Gol aos ${min}' — placar ${gc}x${gf}. Mercado resolvido.`,
+      });
+    }
+  }
+
   // ---- BACK FAVORITO ao vivo: favorito pressionando ----
   const bf = entrada.back_favorito;
   if (aplicado('back_favorito') && bf.modo === 'ao_vivo' && stats && min >= 10 && min <= 75) {
@@ -1307,6 +1360,7 @@ async function verificarGatilhosLive(env) {
     const gf = placar.gols_fora ?? 0;
     const precisaStats =
       (entrada.over_limite_70?.aplicavel && min >= 55 && min <= 85) ||
+      (entrada.over_ht_05?.aplicavel && min >= 10 && min <= 32 && gc + gf === 0) ||
       (entrada.back_favorito?.aplicavel && entrada.back_favorito.modo === 'ao_vivo' && min >= 10 && min <= 75) ||
       (entrada.lay_1x0?.aplicavel && ((gc === 1 && gf === 0) || (gc === 0 && gf === 0 && min >= 50))) ||
       (entrada.lay_0x1?.aplicavel && ((gc === 0 && gf === 1) || (gc === 0 && gf === 0 && min >= 50))) ||
