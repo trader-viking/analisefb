@@ -92,6 +92,9 @@ export default function AoVivoPage() {
   const jogos = painel?.jogos ?? [];
   const quentes = jogos.filter((j) => j.alertas_enviados > 0);
   const alertas = painel?.alertas ?? [];
+  const andamento = alertas.filter((a) => a.tipo === 'entrada');
+  const resolvido = alertas.filter((a) => a.tipo === 'green' || a.tipo === 'red');
+  const movimento = alertas.filter((a) => a.tipo === 'favor' || a.tipo === 'contra' || a.tipo === 'saida');
 
   return (
     <div className="ao-vivo">
@@ -202,25 +205,9 @@ export default function AoVivoPage() {
         </>
       )}
 
-      <div className="av-h2">🔔 Entradas e saídas <span className="av-cont">{alertas.length}</span></div>
-      {alertas.length === 0 ? (
-        <div className="av-vazio">Nenhum sinal recente.<br />Entradas, greens e avisos de saída aparecem aqui.</div>
-      ) : (
-        alertas.map((a, i) => {
-          const { l1, l2, l3 } = partesDaMsg(a.msg);
-          const cor = corDoTipo(a.tipo);
-          const hora = a.hora ? new Date(a.hora).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' }) : '';
-          return (
-            <div className="av-alerta" key={i} style={{ borderColor: cor + '66' }}>
-              <div className="l1"><span dangerouslySetInnerHTML={{ __html: l1 }} /><span className="hora">{hora}</span></div>
-              {l2 && <div className="l2" style={{ ['--c' as any]: cor }}>
-                <span dangerouslySetInnerHTML={{ __html: l2.replace(/<b>(.*?)<\/b>/, `<b style="color:${cor}">$1</b>`) }} />
-              </div>}
-              {l3 && <div className="l3" dangerouslySetInnerHTML={{ __html: l3 }} />}
-            </div>
-          );
-        })
-      )}
+      {renderSecao('🎯 Entradas em andamento', andamento, 'Nenhuma posição aberta.')}
+      {renderSecao('📈 Movimentação', movimento, 'Sem gols a favor ou contra no momento.')}
+      {renderSecao('🏁 Resolvidos', resolvido, 'Nenhum green ou red ainda.')}
 
       <div className="av-h2">🔥 Partidas quentes <span className="av-cont">{quentes.length}</span></div>
       <div className="av-grid">
@@ -236,6 +223,34 @@ export default function AoVivoPage() {
           : jogos.map((j, i) => <CardJogo j={j} key={i} />)}
       </div>
     </div>
+  );
+}
+
+function renderSecao(titulo: string, lista: Alerta[], vazioMsg: string) {
+  return (
+    <>
+      <div className="av-h2">{titulo} <span className="av-cont">{lista.length}</span></div>
+      {lista.length === 0 ? (
+        <div className="av-vazio">{vazioMsg}</div>
+      ) : (
+        lista.map((a, i) => {
+          const { l1, l2, l3 } = partesDaMsg(a.msg);
+          const cor = corDoTipo(a.tipo);
+          const hora = a.hora ? new Date(a.hora).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' }) : '';
+          return (
+            <div className="av-alerta" key={i} style={{ borderColor: cor + '66' }}>
+              <div className="l1"><span dangerouslySetInnerHTML={{ __html: l1 }} /><span className="hora">{hora}</span></div>
+              {l2 && (
+                <div className="l2">
+                  <span dangerouslySetInnerHTML={{ __html: l2.replace(/<b>(.*?)<\/b>/, `<b style="color:${cor}">$1</b>`) }} />
+                </div>
+              )}
+              {l3 && <div className="l3" dangerouslySetInnerHTML={{ __html: l3 }} />}
+            </div>
+          );
+        })
+      )}
+    </>
   );
 }
 
