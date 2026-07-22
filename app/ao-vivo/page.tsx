@@ -33,11 +33,19 @@ type Historico = {
 
 // Divide a mensagem no formato Telegram (3 linhas) para exibição
 function partesDaMsg(msg: string) {
-  const linhas = (msg || '').split('\n');
+  const linhas = (msg || '').split('\n').filter((x) => x.trim());
+  const resto = linhas.slice(2);
+  let pressao = '';
+  const motivo: string[] = [];
+  for (const ln of resto) {
+    if (ln.trim().startsWith('⚡')) pressao = ln;
+    else motivo.push(ln);
+  }
   return {
     l1: (linhas[0] || '').replace(/^🚨\s*/, '').replace(/^✅\s*/, '').replace(/^⚠️\s*/, '').replace(/^🔴\s*/, '').replace(/^⚽\s*/, ''),
     l2: (linhas[1] || '').replace(/^🎯\s*/, ''),
-    l3: linhas.slice(2).join(' ').replace(/^💬\s*/, ''),
+    l3: motivo.join(' ').replace(/^💬\s*/, ''),
+    pressao,
   };
 }
 
@@ -57,6 +65,31 @@ export default function AoVivoPage() {
   const [historico, setHistorico] = useState<Historico | null>(null);
   const [erro, setErro] = useState<string | null>(null);
   const [carregando, setCarregando] = useState(true);
+  const [limpando, setLimpando] = useState(false);
+  const [msgLimpar, setMsgLimpar] = useState<string | null>(null);
+
+  const limparPainel = useCallback(async () => {
+    const segredo = window.prompt('Digite a senha para zerar o painel:');
+    if (!segredo) return;
+    setLimpando(true);
+    setMsgLimpar(null);
+    try {
+      const r = await fetch(`${API}/painel-limpar?secret=${encodeURIComponent(segredo)}`, { cache: 'no-store' });
+      const d = await r.json();
+      if (r.ok && d.status === 'limpo') {
+        setMsgLimpar('Painel zerado.');
+        setTimeout(() => setMsgLimpar(null), 4000);
+      } else {
+        setMsgLimpar(d.erro || 'Não foi possível limpar (senha errada?).');
+        setTimeout(() => setMsgLimpar(null), 5000);
+      }
+    } catch (e: any) {
+      setMsgLimpar('Erro de conexão.');
+      setTimeout(() => setMsgLimpar(null), 4000);
+    } finally {
+      setLimpando(false);
+    }
+  }, []);
 
   const buscar = useCallback(async () => {
     try {
@@ -111,6 +144,13 @@ export default function AoVivoPage() {
           font-size:20px; background:linear-gradient(135deg,var(--ouro-claro),var(--ouro));
           -webkit-background-clip:text; background-clip:text; color:transparent; }
         .av-status { display:flex; align-items:center; gap:7px; font-size:12px; color:var(--bruma); }
+        .av-limpar { margin-left:6px; background:transparent; border:1px solid var(--pedra);
+          color:var(--bruma); font-size:11px; padding:3px 9px; border-radius:7px; cursor:pointer;
+          font-family:inherit; transition:all .15s; }
+        .av-limpar:hover:not(:disabled) { border-color:var(--vermelho); color:var(--vermelho); }
+        .av-limpar:disabled { opacity:.5; cursor:default; }
+        .av-msg-limpar { font-size:12px; color:var(--ouro-claro); text-align:right;
+          margin:-2px 0 8px; }
         .av-dot { width:9px;height:9px;border-radius:50%;background:var(--bruma); }
         .av-dot.on { background:var(--verde); box-shadow:0 0 9px var(--verde); animation:avpulse 2s infinite; }
         @keyframes avpulse { 0%,100%{opacity:1} 50%{opacity:.4} }
@@ -125,6 +165,7 @@ export default function AoVivoPage() {
         .av-alerta .l2 { margin-top:7px; font-size:13.5px; }
         .av-alerta .l2 b:first-child { font-family:Oswald; text-transform:uppercase; font-size:12.5px; letter-spacing:.04em; }
         .av-alerta .l3 { margin-top:6px; font-size:12px; color:var(--bruma); }
+        .av-alerta .l-pressao { margin-top:6px; font-size:12px; color:var(--ouro-claro); font-weight:600; }
         .av-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:11px; }
         .av-card { background:var(--noite); border:1px solid var(--pedra); border-radius:11px; padding:13px 14px; }
         .av-card.quente { border-color:rgba(201,150,46,.5); }
@@ -172,8 +213,12 @@ export default function AoVivoPage() {
               : painel?.online ? 'ao vivo'
               : 'scanner offline'}
           </span>
+          <button className="av-limpar" onClick={limparPainel} disabled={limpando} title="Zerar as leituras e alertas acumulados">
+            {limpando ? '...' : '🧹 limpar'}
+          </button>
         </div>
       </div>
+      {msgLimpar && <div className="av-msg-limpar">{msgLimpar}</div>}
 
       {historico && historico.resumo.total > 0 && (
         <>
@@ -234,7 +279,7 @@ function renderSecao(titulo: string, lista: Alerta[], vazioMsg: string) {
         <div className="av-vazio">{vazioMsg}</div>
       ) : (
         lista.map((a, i) => {
-          const { l1, l2, l3 } = partesDaMsg(a.msg);
+          const { l1, l2, l3, pressao } = partesDaMsg(a.msg);
           const cor = corDoTipo(a.tipo);
           const hora = a.hora ? new Date(a.hora).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' }) : '';
           return (
@@ -246,6 +291,7 @@ function renderSecao(titulo: string, lista: Alerta[], vazioMsg: string) {
                 </div>
               )}
               {l3 && <div className="l3" dangerouslySetInnerHTML={{ __html: l3 }} />}
+              {pressao && <div className="l-pressao" dangerouslySetInnerHTML={{ __html: pressao }} />}
             </div>
           );
         })
