@@ -24,6 +24,13 @@ type Jogo = {
 type Alerta = { jogo: string; msg: string; tipo: string; hora: string };
 type Painel = { alertas: Alerta[]; jogos: Jogo[]; online: boolean; atualizado_em: string | null };
 
+type MetodoStat = { metodo: string; green: number; red: number; saida: number; total: number; taxa_acerto: number | null };
+type Historico = {
+  metodos: MetodoStat[];
+  resumo: { total: number; green: number; red: number; saida: number; taxa_acerto_geral: number | null };
+  resultados: { jogo: string; metodo: string; resultado: string; placar: string; data_hora: string }[];
+};
+
 // Divide a mensagem no formato Telegram (3 linhas) para exibição
 function partesDaMsg(msg: string) {
   const linhas = (msg || '').split('\n');
@@ -47,6 +54,7 @@ function corDoTipo(tipo: string) {
 
 export default function AoVivoPage() {
   const [painel, setPainel] = useState<Painel | null>(null);
+  const [historico, setHistorico] = useState<Historico | null>(null);
   const [erro, setErro] = useState<string | null>(null);
   const [carregando, setCarregando] = useState(true);
 
@@ -66,11 +74,20 @@ export default function AoVivoPage() {
     }
   }, []);
 
+  const buscarHistorico = useCallback(async () => {
+    try {
+      const r = await fetch(`${API}/historico`, { cache: 'no-store' });
+      if (r.ok) setHistorico(await r.json());
+    } catch { /* histórico é secundário, silencia erro */ }
+  }, []);
+
   useEffect(() => {
     buscar();
+    buscarHistorico();
     const id = setInterval(buscar, 5000);
-    return () => clearInterval(id);
-  }, [buscar]);
+    const idH = setInterval(buscarHistorico, 60000); // histórico muda devagar
+    return () => { clearInterval(id); clearInterval(idH); };
+  }, [buscar, buscarHistorico]);
 
   const jogos = painel?.jogos ?? [];
   const quentes = jogos.filter((j) => j.alertas_enviados > 0);
@@ -120,6 +137,26 @@ export default function AoVivoPage() {
           background:rgba(63,184,104,.12); color:var(--verde); border:1px solid rgba(63,184,104,.4); font-weight:600; }
         .av-vazio { color:var(--bruma); font-size:13px; padding:30px; text-align:center;
           background:var(--noite); border:1px dashed var(--pedra); border-radius:12px; }
+        .av-placar-geral { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:6px; }
+        .av-kpi { flex:1; min-width:90px; background:var(--noite); border:1px solid var(--pedra);
+          border-radius:11px; padding:12px 14px; text-align:center; }
+        .av-kpi .num { font-family:Oswald,sans-serif; font-size:26px; font-weight:700; line-height:1; }
+        .av-kpi .rot { font-size:10px; text-transform:uppercase; letter-spacing:.1em; color:var(--bruma); margin-top:5px; }
+        .av-kpi.green .num { color:var(--verde); }
+        .av-kpi.red .num { color:var(--vermelho); }
+        .av-kpi.taxa .num { color:var(--ouro-claro); }
+        .av-metodos { display:flex; flex-direction:column; gap:7px; }
+        .av-metodo { background:var(--noite); border:1px solid var(--pedra); border-radius:10px;
+          padding:10px 13px; display:flex; align-items:center; justify-content:space-between; gap:10px; }
+        .av-metodo .nome { font-family:Oswald,sans-serif; text-transform:uppercase; font-size:12.5px;
+          letter-spacing:.03em; }
+        .av-metodo .barra { flex:1; height:6px; border-radius:3px; background:var(--pedra); overflow:hidden;
+          max-width:180px; display:flex; }
+        .av-metodo .barra .g { background:var(--verde); }
+        .av-metodo .barra .r { background:var(--vermelho); }
+        .av-metodo .nums { font-size:11px; color:var(--bruma); white-space:nowrap; }
+        .av-metodo .nums b { color:var(--marfim); }
+        .av-metodo .taxa { font-family:Oswald,sans-serif; font-size:16px; font-weight:700; min-width:44px; text-align:right; }
       `}</style>
 
       <div className="av-topo">
@@ -134,6 +171,36 @@ export default function AoVivoPage() {
           </span>
         </div>
       </div>
+
+      {historico && historico.resumo.total > 0 && (
+        <>
+          <div className="av-h2">📊 Placar dos métodos <span className="av-cont">{historico.resumo.total}</span></div>
+          <div className="av-placar-geral">
+            <div className="av-kpi green"><div className="num">{historico.resumo.green}</div><div className="rot">Greens</div></div>
+            <div className="av-kpi red"><div className="num">{historico.resumo.red}</div><div className="rot">Reds</div></div>
+            <div className="av-kpi taxa"><div className="num">{historico.resumo.taxa_acerto_geral ?? '—'}{historico.resumo.taxa_acerto_geral !== null ? '%' : ''}</div><div className="rot">Acerto geral</div></div>
+          </div>
+          <div className="av-metodos" style={{ marginBottom: 8 }}>
+            {historico.metodos.map((m, i) => {
+              const decididos = m.green + m.red;
+              const pctG = decididos > 0 ? (100 * m.green) / decididos : 0;
+              return (
+                <div className="av-metodo" key={i}>
+                  <span className="nome">{m.metodo}</span>
+                  <div className="barra">
+                    <div className="g" style={{ width: pctG + '%' }} />
+                    <div className="r" style={{ width: (100 - pctG) + '%' }} />
+                  </div>
+                  <span className="nums"><b>{m.green}</b>G · <b>{m.red}</b>R{m.saida > 0 ? <> · {m.saida}S</> : null}</span>
+                  <span className="taxa" style={{ color: m.taxa_acerto === null ? 'var(--bruma)' : m.taxa_acerto >= 50 ? 'var(--verde)' : 'var(--vermelho)' }}>
+                    {m.taxa_acerto !== null ? m.taxa_acerto + '%' : '—'}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+        </>
+      )}
 
       <div className="av-h2">🔔 Entradas e saídas <span className="av-cont">{alertas.length}</span></div>
       {alertas.length === 0 ? (
