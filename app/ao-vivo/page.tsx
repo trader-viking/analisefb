@@ -19,6 +19,7 @@ type Jogo = {
   jogo: string; minuto: number;
   gols_casa: number | null; gols_fora: number | null;
   casa: Stat | null; fora: Stat | null;
+  pressao_casa: number | null; pressao_fora: number | null;
   alertas_enviados: number; atualizado_em: number;
 };
 type Alerta = { jogo: string; msg: string; tipo: string; hora: string };
@@ -176,6 +177,12 @@ export default function AoVivoPage() {
         .av-placar { font-size:21px; font-weight:700; margin:7px 0 3px; font-variant-numeric:tabular-nums; }
         .av-placar .sep { color:var(--bruma); margin:0 5px; font-weight:400; font-size:15px; }
         .av-stats { display:flex; gap:12px; margin-top:7px; font-size:11px; color:var(--bruma); flex-wrap:wrap; }
+        .av-barra-pressao { height:5px; border-radius:3px; background:var(--pedra); margin:8px 0 3px;
+          overflow:hidden; display:flex; }
+        .av-barra-pressao .c { background:linear-gradient(90deg,var(--ouro),var(--ouro-claro)); }
+        .av-barra-pressao .f { background:#4a4436; }
+        .av-pressao-row { display:flex; justify-content:space-between; font-size:11px; color:var(--bruma); }
+        .av-pressao-row .alta { color:var(--ouro-claro); font-weight:700; }
         .av-stats b { color:var(--marfim); }
         .av-tag { margin-top:8px; display:inline-flex; font-size:10px; border-radius:20px; padding:2px 9px;
           background:rgba(63,184,104,.12); color:var(--verde); border:1px solid rgba(63,184,104,.4); font-weight:600; }
@@ -304,6 +311,11 @@ function CardJogo({ j }: { j: Jogo }) {
   const quente = j.alertas_enviados > 0;
   const cg = j.casa?.chutes_no_gol ?? j.casa?.chutesGol;
   const fg = j.fora?.chutes_no_gol ?? j.fora?.chutesGol;
+  const pc = j.pressao_casa, pf = j.pressao_fora;
+  const temPressao = pc != null && pf != null;
+  const soma = temPressao ? (Number(pc) + Number(pf)) || 1 : 1;
+  const pctCasa = temPressao ? Math.round((100 * Number(pc)) / soma) : 50;
+  const casaAlta = temPressao && Number(pc) >= Number(pf);
   return (
     <div className={'av-card' + (quente ? ' quente' : '')}>
       <div className="av-card-top">
@@ -312,6 +324,18 @@ function CardJogo({ j }: { j: Jogo }) {
       </div>
       {j.gols_casa !== null && (
         <div className="av-placar">{j.gols_casa}<span className="sep">×</span>{j.gols_fora}</div>
+      )}
+      {temPressao && (
+        <>
+          <div className="av-barra-pressao">
+            <div className="c" style={{ width: pctCasa + '%' }} />
+            <div className="f" style={{ width: (100 - pctCasa) + '%' }} />
+          </div>
+          <div className="av-pressao-row">
+            <span className={casaAlta ? 'alta' : ''}>⚡ {pc}</span>
+            <span className={!casaAlta ? 'alta' : ''}>{pf} ⚡</span>
+          </div>
+        </>
       )}
       {j.casa && j.fora && (
         <div className="av-stats">
