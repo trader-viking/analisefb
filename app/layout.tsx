@@ -27,6 +27,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap"
           rel="stylesheet"
         />
+        {/* Animação do pontinho "Ao Vivo" no menu */}
+        <style
+          dangerouslySetInnerHTML={{
+            __html:
+              '@keyframes aovivo-pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }',
+          }}
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -108,6 +115,25 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
             {/* Ações à direita */}
             <div className="flex items-center gap-1 sm:gap-3">
+              <Link
+                href="/ao-vivo/"
+                className="text-sm font-medium px-3 py-1.5 rounded-md text-[#EDE7D8] hover:text-[#F4D588] transition-colors flex items-center gap-1.5"
+              >
+                {/* Pontinho pulsante — indica painel em tempo real */}
+                <span
+                  aria-hidden="true"
+                  style={{
+                    width: 7,
+                    height: 7,
+                    borderRadius: '50%',
+                    background: '#3FB868',
+                    boxShadow: '0 0 8px #3FB868',
+                    display: 'inline-block',
+                    animation: 'aovivo-pulse 2s infinite',
+                  }}
+                />
+                Ao Vivo
+              </Link>
               <Link
                 href="/auditoria/"
                 className="text-sm font-medium px-3 py-1.5 rounded-md text-[#EDE7D8] hover:text-[#F4D588] transition-colors"
