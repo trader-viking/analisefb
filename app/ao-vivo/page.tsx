@@ -61,6 +61,106 @@ function corDoTipo(tipo: string) {
   }
 }
 
+// Cor real (hex) pro canvas, que não entende var(--...)
+function corHexDoTipo(tipo: string) {
+  if (tipo === 'green' || tipo === 'favor') return '#3FB868';
+  if (tipo === 'red' || tipo === 'contra' || tipo === 'saida') return '#E5484D';
+  return '#F4D588';
+}
+
+function semHtml(s: string) {
+  return (s || '').replace(/<[^>]+>/g, '').trim();
+}
+
+function quebrarTexto(ctx: CanvasRenderingContext2D, texto: string, maxW: number, font: string) {
+  ctx.font = font;
+  const palavras = texto.split(' ');
+  const linhas: string[] = [];
+  let atual = '';
+  for (const p of palavras) {
+    const t = atual ? atual + ' ' + p : p;
+    if (ctx.measureText(t).width > maxW && atual) { linhas.push(atual); atual = p; }
+    else atual = t;
+  }
+  if (atual) linhas.push(atual);
+  return linhas;
+}
+
+// Gera uma imagem PNG do sinal (pra compartilhar) e dispara o download.
+// Desenhado à mão no canvas — sem dependências externas no projeto.
+function baixarImagemSinal(a: Alerta) {
+  const L = (a.msg || '').split('\n').filter((x) => x.trim());
+  const l1 = semHtml(L[0] || '').replace(/^[🚨✅⚠️🔴⚽]\s*/u, '');
+  const l2 = semHtml(L[1] || '').replace(/^🎯\s*/u, '');
+  const resto = L.slice(2).map(semHtml);
+  const motivo = resto.filter((x) => !x.startsWith('⚡')).join(' ').replace(/^💬\s*/u, '');
+  const pressao = resto.find((x) => x.startsWith('⚡')) || '';
+
+  const W = 1000, PAD = 56;
+  const cnv = document.createElement('canvas');
+  const ctx = cnv.getContext('2d');
+  if (!ctx) return;
+
+  const FONTE = 'Inter, -apple-system, "Segoe UI", sans-serif';
+  const TITULO = 'Oswald, Inter, sans-serif';
+
+  // mede quantas linhas o motivo ocupa pra calcular a altura
+  cnv.width = W; cnv.height = 400;
+  const linhasMotivo = motivo ? quebrarTexto(ctx, motivo, W - PAD * 2, `26px ${FONTE}`) : [];
+  const H = 300 + linhasMotivo.length * 36 + (pressao ? 46 : 0);
+  cnv.width = W; cnv.height = H;
+
+  const cor = corHexDoTipo(a.tipo);
+
+  // fundo + brilho dourado no topo
+  const g = ctx.createLinearGradient(0, 0, W, H);
+  g.addColorStop(0, '#17140F'); g.addColorStop(1, '#0D0B08');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  const g2 = ctx.createRadialGradient(W / 2, 0, 0, W / 2, 0, W * 0.8);
+  g2.addColorStop(0, 'rgba(201,150,46,0.16)'); g2.addColorStop(1, 'rgba(201,150,46,0)');
+  ctx.fillStyle = g2; ctx.fillRect(0, 0, W, 260);
+  ctx.strokeStyle = cor; ctx.lineWidth = 3;
+  ctx.strokeRect(1.5, 1.5, W - 3, H - 3);
+
+  let y = PAD;
+  ctx.font = `600 22px ${TITULO}`; ctx.fillStyle = '#C9962E';
+  ctx.fillText('TRADER VIKING', PAD, y + 8);
+  ctx.font = `400 18px ${FONTE}`; ctx.fillStyle = '#8F8778';
+  ctx.textAlign = 'right'; ctx.fillText('SCANNER AO VIVO', W - PAD, y + 8); ctx.textAlign = 'left';
+  y += 46;
+  ctx.strokeStyle = 'rgba(201,150,46,0.25)'; ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.moveTo(PAD, y); ctx.lineTo(W - PAD, y); ctx.stroke();
+  y += 58;
+
+  ctx.font = `700 40px ${FONTE}`; ctx.fillStyle = '#EDE7D8';
+  ctx.fillText(l1, PAD, y); y += 58;
+  ctx.font = `700 30px ${TITULO}`; ctx.fillStyle = cor;
+  ctx.fillText(l2, PAD, y); y += 50;
+  if (linhasMotivo.length) {
+    ctx.font = `26px ${FONTE}`; ctx.fillStyle = '#8F8778';
+    for (const ln of linhasMotivo) { ctx.fillText(ln, PAD, y); y += 36; }
+  }
+  if (pressao) {
+    y += 8;
+    ctx.font = `600 25px ${FONTE}`; ctx.fillStyle = '#F4D588';
+    ctx.fillText(pressao, PAD, y);
+  }
+
+  const nome = (l1.split('·')[0] || 'sinal').trim()
+    .replace(/[^\wÀ-ÿ\s-]/g, '').replace(/\s+/g, '-').slice(0, 50);
+  cnv.toBlob((blob) => {
+    if (!blob) return;
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `${nome || 'sinal'}.png`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }, 'image/png');
+}
+
 export default function AoVivoPage() {
   const [painel, setPainel] = useState<Painel | null>(null);
   const [historico, setHistorico] = useState<Historico | null>(null);
@@ -163,6 +263,11 @@ export default function AoVivoPage() {
           border:1px solid rgba(201,150,46,.4); }
         .av-alerta .l1 { font-weight:700; font-size:15px; display:flex; justify-content:space-between; gap:10px; }
         .av-alerta .l1 .hora { font-size:11px; color:var(--bruma); font-weight:500; white-space:nowrap; }
+        .av-alerta .l1-dir { display:flex; align-items:center; gap:9px; white-space:nowrap; }
+        .av-baixar { background:transparent; border:1px solid var(--pedra); color:var(--bruma);
+          font-size:11px; font-family:inherit; padding:3px 9px; border-radius:7px; cursor:pointer;
+          transition:all .15s; }
+        .av-baixar:hover { border-color:var(--ouro); color:var(--ouro-claro); }
         .av-alerta .l2 { margin-top:7px; font-size:13.5px; }
         .av-alerta .l2 b:first-child { font-family:Oswald; text-transform:uppercase; font-size:12.5px; letter-spacing:.04em; }
         .av-alerta .l3 { margin-top:6px; font-size:12px; color:var(--bruma); }
@@ -278,6 +383,122 @@ export default function AoVivoPage() {
   );
 }
 
+// Gera uma imagem PNG do alerta (card viking) e dispara o download.
+// Tudo no canvas do navegador — não depende de servidor nem de libs.
+function baixarImagemAlerta(a: Alerta) {
+  const { l1, l2, l3, pressao } = partesDaMsg(a.msg);
+  const cor = corDoTipo(a.tipo);
+  // remove tags HTML pra desenhar texto puro no canvas
+  const limpa = (s: string) => (s || '').replace(/<[^>]+>/g, '').trim();
+  const linha1 = limpa(l1);
+  const linha2 = limpa(l2);
+  const linha3 = limpa(l3);
+  const linhaP = limpa(pressao);
+
+  const W = 1080, pad = 64;
+  // altura dinâmica conforme quantas linhas há
+  let H = 420;
+  if (!linha3) H -= 60;
+  if (!linhaP) H -= 60;
+
+  const canvas = document.createElement('canvas');
+  const scale = 2; // nitidez (retina)
+  canvas.width = W * scale;
+  canvas.height = H * scale;
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return;
+  ctx.scale(scale, scale);
+
+  // Fundo carvão com leve brilho dourado no topo
+  ctx.fillStyle = '#0D0B08';
+  ctx.fillRect(0, 0, W, H);
+  const grad = ctx.createRadialGradient(W / 2, -60, 40, W / 2, -60, 700);
+  grad.addColorStop(0, 'rgba(201,150,46,0.12)');
+  grad.addColorStop(1, 'rgba(201,150,46,0)');
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, W, 260);
+
+  // Borda dourada arredondada
+  const rr = (x: number, y: number, w: number, h: number, r: number) => {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  };
+  ctx.strokeStyle = cor;
+  ctx.lineWidth = 2;
+  rr(20, 20, W - 40, H - 40, 24);
+  ctx.stroke();
+
+  // Marca d'água / título
+  ctx.textBaseline = 'top';
+  ctx.fillStyle = '#C9962E';
+  ctx.font = '700 26px Oswald, Arial, sans-serif';
+  ctx.fillText('TRADER VIKING', pad, 46);
+  ctx.fillStyle = '#8F8778';
+  ctx.font = '500 15px Inter, Arial, sans-serif';
+  ctx.fillText('SINAL AO VIVO', pad, 80);
+
+  // Linha 1 — placar (grande, branco)
+  let y = 130;
+  ctx.fillStyle = '#EDE7D8';
+  ctx.font = '700 38px Inter, Arial, sans-serif';
+  ctx.fillText(linha1, pad, y);
+  y += 62;
+
+  // Linha 2 — método + entrada (cor do tipo)
+  ctx.fillStyle = cor;
+  ctx.font = '700 28px Oswald, Arial, sans-serif';
+  wrapText(ctx, linha2, pad, y, W - pad * 2, 36);
+  y += linha2.length > 48 ? 78 : 46;
+
+  // Linha 3 — motivo
+  if (linha3) {
+    ctx.fillStyle = '#8F8778';
+    ctx.font = '400 20px Inter, Arial, sans-serif';
+    wrapText(ctx, linha3, pad, y, W - pad * 2, 28);
+    y += 56;
+  }
+  // Pressão
+  if (linhaP) {
+    ctx.fillStyle = '#F4D588';
+    ctx.font = '600 20px Inter, Arial, sans-serif';
+    ctx.fillText(linhaP, pad, y);
+  }
+
+  // Download
+  canvas.toBlob((blob) => {
+    if (!blob) return;
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    const nome = linha1.replace(/[^a-zA-Z0-9]+/g, '_').slice(0, 40) || 'sinal';
+    link.href = url;
+    link.download = `trader_viking_${nome}.png`;
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }, 'image/png');
+}
+
+// Quebra texto em várias linhas dentro de uma largura máxima
+function wrapText(ctx: CanvasRenderingContext2D, text: string, x: number, y: number, maxW: number, lh: number) {
+  const palavras = text.split(' ');
+  let linha = '';
+  for (const p of palavras) {
+    const teste = linha ? linha + ' ' + p : p;
+    if (ctx.measureText(teste).width > maxW && linha) {
+      ctx.fillText(linha, x, y);
+      linha = p;
+      y += lh;
+    } else {
+      linha = teste;
+    }
+  }
+  if (linha) ctx.fillText(linha, x, y);
+}
+
 function renderSecao(titulo: string, lista: Alerta[], vazioMsg: string) {
   return (
     <>
@@ -291,7 +512,17 @@ function renderSecao(titulo: string, lista: Alerta[], vazioMsg: string) {
           const hora = a.hora ? new Date(a.hora).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' }) : '';
           return (
             <div className="av-alerta" key={i} style={{ borderColor: cor + '66' }}>
-              <div className="l1"><span dangerouslySetInnerHTML={{ __html: l1 }} /><span className="hora">{hora}</span></div>
+              <div className="l1">
+                <span dangerouslySetInnerHTML={{ __html: l1 }} />
+                <span className="l1-dir">
+                  <button
+                    className="av-baixar"
+                    onClick={() => baixarImagemSinal(a)}
+                    title="Baixar este sinal como imagem"
+                  >⬇ imagem</button>
+                  <span className="hora">{hora}</span>
+                </span>
+              </div>
               {l2 && (
                 <div className="l2">
                   <span dangerouslySetInnerHTML={{ __html: l2.replace(/<b>(.*?)<\/b>/, `<b style="color:${cor}">$1</b>`) }} />
