@@ -168,6 +168,43 @@ export default function AoVivoPage() {
   const [carregando, setCarregando] = useState(true);
   const [limpando, setLimpando] = useState(false);
   const [msgLimpar, setMsgLimpar] = useState<string | null>(null);
+  const [senha, setSenha] = useState<string | null>(null);
+  const [marcado, setMarcado] = useState<Record<string, string>>({});
+
+  // Extrai o nome do método do texto do alerta (ex: "LAY 1x0", "OVER LIMITE")
+  const metodoDoAlerta = (msg: string) => {
+    const linha2 = ((msg || '').split('\n')[1] || '').replace(/<[^>]+>/g, '');
+    // linha de placar ("A 3 x 1 B · 78'") não é método — ignora
+    if (/\d+\s*x\s*\d+/i.test(linha2) && !/LAY|OVER|BACK/i.test(linha2)) return 'MANUAL';
+    const mm = linha2.match(/(LAY 1x0|LAY 0x1|LAY ZEBRA|OVER LIMITE|OVER HT|BACK 2x2|BACK FAVORITO|BACK GOLEADA)/i);
+    return mm ? mm[1].toUpperCase() : 'MANUAL';
+  };
+
+  const registrarManual = useCallback(async (a: Alerta, resultado: 'green' | 'red') => {
+    let s = senha;
+    if (!s) {
+      s = window.prompt('Digite a senha para registrar resultados:') || '';
+      if (!s) return;
+      setSenha(s);
+    }
+    const chave = a.jogo + '|' + a.hora;
+    try {
+      const metodo = metodoDoAlerta(a.msg);
+      const params = new URLSearchParams({
+        secret: s, jogo: a.jogo, metodo, resultado,
+      });
+      const r = await fetch(`${API}/registrar-manual?${params.toString()}`, { cache: 'no-store' });
+      const d = await r.json();
+      if (r.ok && (d.status === 'registrado' || d.status === 'ja_registrado')) {
+        setMarcado((prev) => ({ ...prev, [chave]: resultado }));
+      } else {
+        if (d.erro && /segredo/.test(d.erro)) setSenha(null); // senha errada: pede de novo
+        alert(d.erro || 'Não foi possível registrar.');
+      }
+    } catch {
+      alert('Erro de conexão ao registrar.');
+    }
+  }, [senha]);
 
   const limparPainel = useCallback(async () => {
     const segredo = window.prompt('Digite a senha para zerar o painel:');
@@ -272,6 +309,19 @@ export default function AoVivoPage() {
         .av-alerta .l2 b:first-child { font-family:Oswald; text-transform:uppercase; font-size:12.5px; letter-spacing:.04em; }
         .av-alerta .l3 { margin-top:6px; font-size:12px; color:var(--bruma); }
         .av-alerta .l-pressao { margin-top:6px; font-size:12px; color:var(--ouro-claro); font-weight:600; }
+        .av-marcar { margin-top:11px; padding-top:10px; border-top:1px solid rgba(201,150,46,0.12);
+          display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+        .av-marcar-lbl { font-size:11px; color:var(--bruma); }
+        .av-btn-green, .av-btn-red { font-size:12px; font-family:inherit; font-weight:600;
+          padding:4px 12px; border-radius:7px; cursor:pointer; border:1px solid; background:transparent;
+          transition:all .15s; }
+        .av-btn-green { color:var(--verde); border-color:rgba(63,184,104,0.45); }
+        .av-btn-green:hover { background:rgba(63,184,104,0.15); }
+        .av-btn-red { color:var(--vermelho); border-color:rgba(229,72,77,0.45); }
+        .av-btn-red:hover { background:rgba(229,72,77,0.15); }
+        .av-marcado { font-size:12px; font-weight:600; }
+        .av-marcado.green { color:var(--verde); }
+        .av-marcado.red { color:var(--vermelho); }
         .av-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:11px; }
         .av-card { background:var(--noite); border:1px solid var(--pedra); border-radius:11px; padding:13px 14px; }
         .av-card.quente { border-color:rgba(201,150,46,.5); }
@@ -362,9 +412,9 @@ export default function AoVivoPage() {
         </>
       )}
 
-      {renderSecao('🎯 Entradas em andamento', andamento, 'Nenhuma posição aberta.')}
-      {renderSecao('📈 Movimentação', movimento, 'Sem gols a favor ou contra no momento.')}
-      {renderSecao('🏁 Resolvidos', resolvido, 'Nenhum green ou red ainda.')}
+      {renderSecao('🎯 Entradas em andamento', andamento, 'Nenhuma posição aberta.', registrarManual, marcado, true)}
+      {renderSecao('📈 Movimentação', movimento, 'Sem gols a favor ou contra no momento.', registrarManual, marcado, true)}
+      {renderSecao('🏁 Resolvidos', resolvido, 'Nenhum green ou red ainda.', registrarManual, marcado, false)}
 
       <div className="av-h2">🔥 Partidas quentes <span className="av-cont">{quentes.length}</span></div>
       <div className="av-grid">
@@ -499,7 +549,12 @@ function wrapText(ctx: CanvasRenderingContext2D, text: string, x: number, y: num
   if (linha) ctx.fillText(linha, x, y);
 }
 
-function renderSecao(titulo: string, lista: Alerta[], vazioMsg: string) {
+function renderSecao(
+  titulo: string, lista: Alerta[], vazioMsg: string,
+  registrar?: (a: Alerta, r: 'green' | 'red') => void,
+  marcado?: Record<string, string>,
+  mostrarBotoes?: boolean,
+) {
   return (
     <>
       <div className="av-h2">{titulo} <span className="av-cont">{lista.length}</span></div>
@@ -510,6 +565,8 @@ function renderSecao(titulo: string, lista: Alerta[], vazioMsg: string) {
           const { l1, l2, l3, pressao } = partesDaMsg(a.msg);
           const cor = corDoTipo(a.tipo);
           const hora = a.hora ? new Date(a.hora).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' }) : '';
+          const chave = a.jogo + '|' + a.hora;
+          const jaMarcado = marcado ? marcado[chave] : undefined;
           return (
             <div className="av-alerta" key={i} style={{ borderColor: cor + '66' }}>
               <div className="l1">
@@ -530,6 +587,21 @@ function renderSecao(titulo: string, lista: Alerta[], vazioMsg: string) {
               )}
               {l3 && <div className="l3" dangerouslySetInnerHTML={{ __html: l3 }} />}
               {pressao && <div className="l-pressao" dangerouslySetInnerHTML={{ __html: pressao }} />}
+              {mostrarBotoes && registrar && (
+                <div className="av-marcar">
+                  {jaMarcado ? (
+                    <span className={'av-marcado ' + jaMarcado}>
+                      {jaMarcado === 'green' ? '✅ registrado como GREEN' : '🔴 registrado como RED'}
+                    </span>
+                  ) : (
+                    <>
+                      <span className="av-marcar-lbl">Marcar resultado:</span>
+                      <button className="av-btn-green" onClick={() => registrar(a, 'green')}>✅ Green</button>
+                      <button className="av-btn-red" onClick={() => registrar(a, 'red')}>🔴 Red</button>
+                    </>
+                  )}
+                </div>
+              )}
             </div>
           );
         })
