@@ -1,0 +1,525 @@
+{
+  "data": "2026-07-27",
+  "dia_consultado": "hoje",
+  "gerado_em": "2026-07-27T19:01:34.367602",
+  "total_partidas_analisadas": 4,
+  "entradas": [
+    {
+      "horario": "19:30",
+      "liga": "Brasil Serie B",
+      "jogo": "Atlético GO x Operário PR",
+      "metodos_aplicados": [
+        "over_ht_05",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "58%",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.98",
+      "media_gols_casa": 1.27,
+      "media_gols_fora": 1.06,
+      "media_sofridos_casa": "0.90",
+      "media_sofridos_fora": "1.22",
+      "odds_mercado": {
+        "casa": "2.10",
+        "empate": "3.10",
+        "fora": "3.80",
+        "dupla_chance_1x": "1.25",
+        "dupla_chance_12": "1.33",
+        "dupla_chance_x2": "1.73",
+        "over_05": "1.07",
+        "under_05": "8.00",
+        "over_15": "1.41",
+        "under_15": "2.95",
+        "over_25": "2.25",
+        "under_25": "1.61"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Como o MANDANTE performa nos papéis (ex: 'Super Fav: 4V 1E 0D | Favorito: 6V 2E 7D | Parelho: 3V 3E 2D'); null se não tiver",
+        "resumo_favorito_fora": "Mesmo formato para o VISITANTE; null se não tiver",
+        "leitura": "Atlético GO tem retrospecto positivo como favorito em casa, com 10V 9E 5D. Operário PR tem retrospecto equilibrado como visitante.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Atlético GO",
+        "texto": "Atlético GO entrega como favorito em casa: 10V 9E 5D quando cotado abaixo de 2.10."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Gustavo Coutinho — artilheiro com 8 gols",
+          "Léo Jacó — 4 gols e 0 assistências"
+        ],
+        "destaques_fora": [
+          "Pablo — artilheiro com 5 gols",
+          "Gabriel Boschilia — 9 gols e 1 assistência"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-4-2",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Atlético GO é favorito em casa com bom aproveitamento e ataque produtivo. Operário PR tem defesa que sofre gols e retrospecto recente com derrotas.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 58% para o Atlético GO, com fair odd de 1.72. A odd mínima de entrada é 1.98, e a odd de mercado é 2.10, indicando valor.",
+      "mercado_secundario": "Mais 0.5 gols HT",
+      "odd_minima_secundaria": "1.50",
+      "desempenho_1t": "Atlético GO marca 0.60 gols no 1ºT; Operário PR sofre 0.67 gols no 1ºT.",
+      "desempenho_2t": "Atlético GO sofre 0.30 gols no 2ºT; Operário PR marca 0.56 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "8º",
+          "posicao_geral": "8º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "5º",
+          "posicao_geral": "2º",
+          "objetivo": "acesso"
+        }
+      },
+      "motivacao_tecnica": "Atlético GO, 8º na tabela geral e 7º em casa, busca se aproximar do G4. Operário PR, 2º na geral e 5º fora, busca manter a posição de acesso.",
+      "coeficiente_regularidade": "Atlético GO: CV moderado. Operário PR: CV moderado.",
+      "mando_de_campo": "Atlético GO tem 4V 4E 2D em casa (16 pontos).",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Atlético GO marca mais no 1º tempo (60% dos gols); Operário PR marca mais no 2º tempo (56% dos gols).",
+      "momento_gols": "Atlético GO: 61-75 (25% marcados). Operário PR: 76-90 (44% sofridos).",
+      "jogadores_chave": "Gustavo Coutinho (ATL), Pablo (OPE)",
+      "placares_provaveis": "2x1, 1x1, 2x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out em 1x1 ou 2x1/1x2.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e odd atrativa.",
+        "gatilho_saida_parcial": "Placar 2x1 ou 1x2.",
+        "hard_stop": "Perda total."
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "prob_vitoria_>=68",
+          "odd_favorito_1.40_a_1.80",
+          "mando_ou_superioridade",
+          "adversario_ma_fase",
+          "entrega_como_favorito",
+          "elenco_completo",
+          "ev_>=5pct",
+          "geral_e_mando_alinhados"
+        ],
+        "criterios_total": 8,
+        "modo": "pre_jogo",
+        "favorito": "Atlético GO",
+        "odd_alvo": "1.98",
+        "razao": "Atlético GO é favorito em casa com odd atrativa, enfrentando um Operário PR que sofre gols e tem retrospecto recente com derrotas.",
+        "ponderacao_odds": "Odd 2.10 confirma favoritismo. H2H mostra que Atlético GO entrega como favorito em casa (10V 9E 5D).",
+        "risco_principal": "Operário PR tem bom retrospecto recente fora de casa.",
+        "stake_recomendada": "2%",
+        "_reprovado_odds": true,
+        "razao_reprovacao": "mercado não confirma favoritismo: menor odd 1X2 é 2.1 (precisa ≤1.85)"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "ataques_iniciam_forte",
+          "mercado_confirma",
+          "sem_perfil_estudado"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "78%",
+        "gols_1t_faixas": "Atlético GO Marcado 1ºT: 60% | Operário PR Sofrido 1ºT: 22%",
+        "media_gols_1t": "1.2",
+        "razao": "Ambos os times têm bom índice de Over 0.5 HT e o Atlético GO costuma marcar cedo.",
+        "ponderacao_odds": "Odd 1.44 para Over 0.5 HT confirma expectativa de gol no primeiro tempo.",
+        "risco_principal": "Operário PR pode segurar o placar no início.",
+        "condicao_entrada": "Pré-jogo.",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=65",
+          "btts_>=65",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Jogo com potencial para muitos gols, com ambos os times marcando e sofrendo, e histórico de gols no primeiro tempo.",
+        "indice_over_2_5": "78%",
+        "indice_ambas_marcam": "56%",
+        "indice_over_ht": "78%",
+        "ponderacao_odds": "Over 2.5 a 2.25 indica que o mercado espera um jogo com gols.",
+        "risco_principal": "Um dos times pode ter um desempenho defensivo mais sólido do que o esperado.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null,
+      "_media_casa_bruta": "1.33",
+      "_media_fora_bruta": "1.22",
+      "_alerta_coerencia": "prob estimada 58% diverge da P(vitória) implícita nas médias de gols (41%) — revise médias ou probabilidade",
+      "_mercado_original_incoerente": "Vitória Atlético GO",
+      "_ev_pct": -38,
+      "_ev_odd": 1.07,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8469555?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "14:00",
+      "liga": "Sweden Allsvenskan",
+      "jogo": "Häcken x AIK",
+      "metodos_aplicados": [
+        "over_ht_05",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "58%",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.97",
+      "media_gols_casa": 1.43,
+      "media_gols_fora": 1.43,
+      "media_sofridos_casa": "1.29",
+      "media_sofridos_fora": "1.29",
+      "odds_mercado": {
+        "casa": "1.90",
+        "empate": "4.00",
+        "fora": "3.40",
+        "dupla_chance_1x": "1.25",
+        "dupla_chance_12": "1.22",
+        "dupla_chance_x2": "1.91",
+        "over_05": "1.01",
+        "under_05": "17.00",
+        "over_15": "1.12",
+        "under_15": "6.58",
+        "over_25": "1.44",
+        "under_25": "2.70",
+        "over_35": "2.07",
+        "under_35": "1.79",
+        "over_45": "3.47",
+        "under_45": "1.32"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Como o MANDANTE performa nos papéis (ex: 'Super Fav: 6V 5E 2D | Favorito: 6V 5E 2D'); null se não tiver",
+        "resumo_favorito_fora": "Mesmo formato para o VISITANTE; null se não tiver",
+        "leitura": "Häcken tem um retrospecto positivo como favorito, com 6V 5E 2D. AIK tem um retrospecto equilibrado como visitante.",
+        "jogos_relevantes": [
+          {
+            "data": "19/07/26",
+            "confronto": "Halmstad Häcken",
+            "time_analisado": "Häcken",
+            "papel": "favorito",
+            "odd": "1.57",
+            "placar": "0 - 2",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "11/07/26",
+            "confronto": "Örgryte Häcken",
+            "time_analisado": "Häcken",
+            "papel": "favorito",
+            "odd": "1.44",
+            "placar": "4 - 3",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "06/07/26",
+            "confronto": "Häcken Djurgården",
+            "time_analisado": "Häcken",
+            "papel": "favorito",
+            "odd": "2.40",
+            "placar": "2 - 4",
+            "resultado": "D",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "31/05/26",
+            "confronto": "Häcken Hammarby",
+            "time_analisado": "Häcken",
+            "papel": "favorito",
+            "odd": "3.00",
+            "placar": "3 - 2",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "25/05/26",
+            "confronto": "Elfsborg Häcken",
+            "time_analisado": "Häcken",
+            "papel": "favorito",
+            "odd": "2.37",
+            "placar": "1 - 1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "17/05/26",
+            "confronto": "Mjällby Häcken",
+            "time_analisado": "Häcken",
+            "papel": "favorito",
+            "odd": "3.00",
+            "placar": "0 - 1",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": true
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Häcken",
+        "texto": "Häcken tem um bom retrospecto como favorito, com 6V 5E 2D em jogos onde foi cotado como favorito."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Gustav Lindgren — artilheiro com 7 gols",
+          "Adrian Lars Fredrik Svanbäck — 4 gols e 4 assistências",
+          "Juliusb Lindberg — 3 gols e 5 assistências"
+        ],
+        "destaques_fora": [
+          "Johan Hove — 4 gols e 1 assistência",
+          "Bersant Celina — 2 gols e 2 assistências",
+          "Zadok Yohanna — 2 gols e 3 assistências"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Häcken é favorito com odd 1.90, 4º na tabela geral e 6º em casa. AIK é 7º na geral e 10º fora. Ambos marcam em 4/5 jogos recentes. Jogo com potencial de gols.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 58% para a vitória do Häcken, com fair odd de 1.72. A odd mínima de entrada é 1.97, e a odd de mercado de 1.90 está ligeiramente abaixo, mas o histórico e os dados de gols justificam a entrada.",
+      "mercado_secundario": "Mais 0.5 gols HT",
+      "odd_minima_secundaria": "1.25",
+      "desempenho_1t": "Häcken marca 33% dos seus gols no 1ºT (2 gols). AIK marca 29% dos seus gols no 1ºT (2 gols).",
+      "desempenho_2t": "Häcken marca 67% dos seus gols no 2ºT (8 gols). AIK marca 71% dos seus gols no 2ºT (5 gols).",
+      "contexto_times": {
+        "casa": {
+          "posicao": "6º",
+          "posicao_geral": "4º",
+          "objetivo": "libertadores"
+        },
+        "fora": {
+          "posicao": "10º",
+          "posicao_geral": "7º",
+          "objetivo": "sul_americana"
+        }
+      },
+      "motivacao_tecnica": "Häcken está em 4º na tabela geral e 6º em casa, brigando por vaga continental. AIK está em 7º na geral e 10º fora, buscando vaga na Conference League. Ambos os times têm bom retrospecto recente de ambas marcam e mais de 2.5 gols.",
+      "coeficiente_regularidade": "Häcken: CV moderado. AIK: CV moderado.",
+      "mando_de_campo": "Häcken tem 3V 2E 1D em casa, marcando 14 gols e sofrendo 13.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Häcken marca mais no 2º tempo. AIK marca mais no 1º tempo.",
+      "momento_gols": "Häcken tem picos de gols entre 46-60 e 76-90. AIK tem picos de gols entre 0-15 e 76-90.",
+      "jogadores_chave": "Gustav Lindgren (Häcken), Johan Hove (AIK)",
+      "placares_provaveis": "2x1, 3x1, 2x2",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out parcial em 2x1 ou 1x2.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo do Häcken e potencial de gols.",
+        "gatilho_saida_parcial": "Placar 2x1 ou 1x2.",
+        "hard_stop": "Se o placar chegar a 1x1, fazer cash-out total."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "ataques_iniciam_forte",
+          "mercado_confirma",
+          "sem_perfil_estudado"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "83% (Häcken 83%, AIK 83%)",
+        "gols_1t_faixas": "Häcken Marcado 1ºT: 7% | AIK Marcado 1ºT: 23%",
+        "media_gols_1t": "1.57 (Häcken) + 1.57 (AIK) = 3.14 / 2 = 1.57",
+        "razao": "Ambos os times têm alta média de gols no primeiro tempo e o mercado confirma com odd de 1.17 para Over 0.5 HT.",
+        "ponderacao_odds": "Odd de 1.17 para Over 0.5 HT confirma a expectativa de gols no primeiro tempo.",
+        "risco_principal": "Um dos times pode começar mais cauteloso.",
+        "condicao_entrada": "Pré-jogo na odd de abertura.",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=65",
+          "btts_>=65",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Ambos os times têm alto índice de Over 2.5 e Ambas Marcam. Häcken marca 1.57 gols/jogo e sofre 1.29. AIK marca 1.57 gols/jogo e sofre 1.29. O mercado espera gols com Over 2.5 a 1.44.",
+        "indice_over_2_5": "71% (Häcken) + 86% (AIK) = 157% / 2 = 78.5%",
+        "indice_ambas_marcam": "100% (Häcken) + 100% (AIK) = 100%",
+        "indice_over_ht": "83% (Häcken) + 83% (AIK) = 83%",
+        "ponderacao_odds": "Over 2.5 a 1.44 indica que o mercado espera um jogo com gols.",
+        "risco_principal": "Um dos times pode ter um dia defensivo mais sólido.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null,
+      "_media_casa_bruta": "1.57",
+      "_media_fora_bruta": "1.57",
+      "_alerta_coerencia": "prob estimada 58% diverge da P(vitória) implícita nas médias de gols (38%) — revise médias ou probabilidade",
+      "_mercado_original_incoerente": "Vitória Häcken",
+      "_ev_pct": -41,
+      "_ev_odd": 1.01,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8420469?dia=hoje&mode=ha&modo=detalhado"
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "19:30",
+      "jogo": "Sport Recife x Cuiabá",
+      "liga": "Brasil Serie B",
+      "motivo": "Reprovado na validação numérica dos critérios do lay: lay_1x0: visitante marca em 33% dos jogos (precisa >65%); visitante marca 33% (precisa >60%); média de gols total 1.45 (precisa ≥2.5); ambas marcam 22% (precisa >50%); BLOQUEADO: 1x0 está entre os 4 placares mais prováveis por Poisson (14% > 10%) — fazer lay do placar mais provável contradiz a análise | lay_0x1: média de gols total 1.45 (precisa ≥2.5); ambas marcam 22% (precisa >50%); BLOQUEADO: 0x1 está entre os 4 placares mais prováveis por Poisson (11% > 10%) — fazer lay do placar mais provável contradiz a análise",
+      "_url_fonte": "https://clube.theoborges.com/game/8469711?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "19:30",
+      "jogo": "CRB x Vila Nova",
+      "liga": "Brasil Serie B",
+      "motivo": "Reprovado na validação numérica dos critérios do lay: lay_1x0: visitante marca 60% (precisa >60%)",
+      "_url_fonte": "https://clube.theoborges.com/game/8469724?dia=hoje&mode=ha&modo=detalhado"
+    }
+  ],
+  "pdfs": [
+    {
+      "jogo": "Sport Recife x Cuiabá",
+      "arquivo": "pdfs/2026-07-27/Brasil_Brasil_-_Serie_B/001_19h30_Sport_Recife_x_Cuiabá.pdf"
+    },
+    {
+      "jogo": "CRB x Vila Nova",
+      "arquivo": "pdfs/2026-07-27/Brasil_Brasil_-_Serie_B/002_19h30_CRB_x_Vila_Nova.pdf"
+    },
+    {
+      "jogo": "Atlético GO x Operário PR",
+      "arquivo": "pdfs/2026-07-27/Brasil_Brasil_-_Serie_B/003_19h30_Atlético_GO_x_Operário_PR.pdf"
+    },
+    {
+      "jogo": "Häcken x AIK",
+      "arquivo": "pdfs/2026-07-27/Sweden_Sweden_-_Allsvenskan/004_14h00_Häcken_x_AIK.pdf"
+    }
+  ]
+}
