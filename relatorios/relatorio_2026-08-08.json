@@ -1,0 +1,2468 @@
+{
+  "data": "2026-08-08",
+  "dia_consultado": "hoje",
+  "gerado_em": "2026-08-08T08:58:57.735026",
+  "total_partidas_analisadas": 20,
+  "entradas": [
+    {
+      "horario": "15:00",
+      "liga": "Holanda Primeira Divisão (Eredivisie)",
+      "jogo": "PSV x Fortuna Sittard",
+      "metodos_aplicados": [
+        "back_goleada",
+        "over_limite_70",
+        "over_ht_05"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "85%",
+      "fair_odd": "1.18",
+      "odd_minima_entrada": "1.36",
+      "media_gols_casa": null,
+      "media_gols_fora": null,
+      "media_sofridos_casa": null,
+      "media_sofridos_fora": null,
+      "odds_mercado": {
+        "casa": "1.18",
+        "empate": "7.50",
+        "fora": "15.00",
+        "dupla_chance_1x": "1.04",
+        "dupla_chance_12": "1.07",
+        "dupla_chance_x2": "5.00",
+        "over_05": "1.01",
+        "under_05": "29.00",
+        "over_15": "1.05",
+        "under_15": "10.00",
+        "over_25": "1.22",
+        "under_25": "4.20",
+        "over_35": "1.56",
+        "under_35": "2.44",
+        "over_45": "2.30",
+        "under_45": "1.63",
+        "over_05_ht": "1.11",
+        "under_05_ht": "5.50",
+        "over_15_ht": "1.65",
+        "under_15_ht": "2.10",
+        "over_25_ht": "3.20",
+        "under_25_ht": "1.30",
+        "over_05_2t": "1.08",
+        "under_05_2t": "7.00",
+        "over_15_2t": "1.44",
+        "under_15_2t": "2.50",
+        "over_25_2t": "2.40",
+        "under_25_2t": "1.50",
+        "ambas_marcam": "1.57",
+        "ambas_marcam_no_1_tempo": "3.50",
+        "ambas_marcam_no_2_tempo": "2.62",
+        "sem_sofrer_gols_mandante": "2.40",
+        "sem_sofrer_gols_visitante": "15.00",
+        "vitoria_sem_sofrer_mandante": "2.50",
+        "vitoria_sem_sofrer_visitante": "23.00",
+        "escanteios_1x2": "1.05"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": "O PSV tem um retrospecto esmagador contra o Fortuna Sittard, com 6 jogos sem derrota e 4 vitórias. A odd de 1.18 reflete esse favoritismo.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [],
+        "destaques_fora": [],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "PSV é favorito absoluto com odd de 1.18, histórico esmagador e tendência de muitos gols. Fortuna Sittard tem defesa frágil.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 85% para o PSV, com fair odd de 1.18. Odd mínima de entrada de 1.36, indicando valor.",
+      "mercado_secundario": "Vitória PSV + Mais 2.5 Gols",
+      "odd_minima_secundaria": "1.40",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "posicao_geral": "12º",
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": null,
+          "posicao_geral": "6º",
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "PSV é um time de ponta na Holanda, com histórico de goleadas. Fortuna Sittard, apesar de estar em uma posição razoável na tabela, demonstra fragilidade defensiva em confrontos recentes.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "placares_provaveis": "3x0, 4x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e histórico esmagador.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.6",
+          "mercado_espera_gols",
+          "gols_2t_no_h2h",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "PSV - brigando por posições superiores na tabela",
+        "indices_gols_faixas": "Favorito Marcado 61-75: 0% | 76-90: 0% | Adversário Sofrido 61-75: 0% | 76-90: 0%",
+        "qual_condicao_atende": null,
+        "motivo_motivacao": "PSV busca manter a pressão e ampliar o placar.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "Over 2.5 a 1.22 e Over 3.5 a 1.56 indicam que o mercado espera muitos gols. O H2H com 5/6 jogos acima de 2.5 gols reforça essa tendência.",
+        "risco_principal": "Jogo pode ter o placar consolidado antes dos 65min.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão."
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "ataques_iniciam_forte",
+          "mercado_confirma",
+          "sem_perfil_estudado"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "N/A",
+        "gols_1t_faixas": "N/A",
+        "media_gols_1t": "N/A",
+        "razao": "PSV tem um ataque muito forte e costuma marcar cedo. Fortuna Sittard também tem potencial ofensivo.",
+        "ponderacao_odds": "Over 0.5 HT a 1.11 indica que o mercado espera um gol no primeiro tempo.",
+        "risco_principal": "Fortuna Sittard pode adotar uma postura mais defensiva no início.",
+        "condicao_entrada": "Pré-jogo na odd de abertura, OU ao vivo se 0-0 aos 12-18min com pressão clara de um lado",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=70",
+          "odd_favorito_<=1.40",
+          "ataque_>=2.5",
+          "adversario_sofre_>=2.0",
+          "goleada_recente_h2h",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "candidato": "PSV",
+        "razao": "PSV é favorito extremo (odd 1.18), tem ataque muito forte e Fortuna Sittard tem defesa frágil.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "PSV marca 4+ gols e vence",
+        "ponderacao_odds": "Odd de 1.18 para o PSV e Over 2.5 a 1.22 confirmam o cenário de goleada.",
+        "risco_principal": "Fortuna Sittard pode se fechar e dificultar a goleada.",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_dados_faltantes": [
+        "jogadores (aba Jogadores)",
+        "momento dos gols"
+      ],
+      "_mercado_original_incoerente": "Vitória PSV",
+      "_ev_pct": 16,
+      "_ev_odd": 1.36,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8547647?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "09:00",
+      "liga": "Dinamarca Segunda Divisão (1st Division)",
+      "jogo": "Aarhus Fremad x HB Køge",
+      "metodos_aplicados": [
+        "over_2_5_gols"
+      ],
+      "mercado_principal": "Vitória Aarhus Fremad",
+      "probabilidade_estimada": "65%",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.77",
+      "media_gols_casa": 2.5,
+      "media_gols_fora": 0.5,
+      "media_sofridos_casa": "1.00",
+      "media_sofridos_fora": "3.00",
+      "odds_mercado": {
+        "casa": "1.70",
+        "empate": "3.80",
+        "fora": "4.50",
+        "dupla_chance_1x": "1.17",
+        "dupla_chance_12": "1.20",
+        "dupla_chance_x2": "2.00",
+        "over_05": "1.02",
+        "under_05": "13.00",
+        "over_15": "1.23",
+        "under_15": "4.20",
+        "over_25": "1.70",
+        "under_25": "2.10"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": "Aarhus Fremad tem retrospecto recente positivo contra o HB Køge, com 4 vitórias e 0 derrotas nos últimos confrontos diretos.",
+        "jogos_relevantes": [
+          {
+            "data": "31/07/26",
+            "confronto": "Aarhus Fremad x AaB",
+            "time_analisado": "Aarhus Fremad",
+            "papel": "favorito",
+            "odd": "2.45",
+            "placar": "1 - 2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "26/07/26",
+            "confronto": "Hobro x Aarhus Fremad",
+            "time_analisado": "Aarhus Fremad",
+            "papel": "favorito",
+            "odd": "2.62",
+            "placar": "1 - 2",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Aarhus Fremad",
+        "texto": "Aarhus Fremad tem bom retrospecto recente contra o HB Køge, com 4 vitórias nos últimos confrontos diretos."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Andreas Pisani Laugesen — 1 gol",
+          "Magnus Kaastrup Larsen — 1 gol",
+          "Magnus Kirchheiner — 1 gol, 1 assistência"
+        ],
+        "destaques_fora": [],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Aarhus Fremad é favorito com odd 1.70 e retrospecto recente positivo contra o HB Køge, que tem péssimo desempenho fora de casa.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 65% para a vitória do Aarhus Fremad resulta em uma fair odd de 1.54. Com a odd mínima de entrada de 1.77, há valor nesta aposta.",
+      "mercado_secundario": "Mais de 2.5 gols",
+      "odd_minima_secundaria": "1.98",
+      "desempenho_1t": "Aarhus Fremad marca 0% no 1ºT, HB Køge sofre 50% no 1ºT.",
+      "desempenho_2t": "Aarhus Fremad marca 100% no 2ºT, HB Køge sofre 50% no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "6º",
+          "posicao_geral": "6º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "12º",
+          "posicao_geral": "12º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Aarhus Fremad, 6º colocado, busca manter a posição. HB Køge, último colocado, luta contra o rebaixamento. O favoritismo do Aarhus Fremad é reforçado pelo seu desempenho em casa e o péssimo desempenho do HB Køge fora.",
+      "coeficiente_regularidade": "Aarhus Fremad: CV moderado. HB Køge: CV alto.",
+      "mando_de_campo": "Aarhus Fremad faz 54% dos pontos em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Aarhus Fremad marca mais no 2º tempo. HB Køge sofre gols em ambos os tempos.",
+      "placares_provaveis": "2x1, 2x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out se o HB Køge abrir o placar ou se o jogo ficar 0-0 após 60min.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e retrospecto favorável.",
+        "gatilho_saida_parcial": "Se o HB Køge abrir o placar.",
+        "hard_stop": "Se o jogo ficar 0-0 após 60min."
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "modo": null,
+        "indice_over05ht": null,
+        "gols_1t_faixas": null,
+        "media_gols_1t": null,
+        "razao": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_media_casa_bruta": "2.00",
+      "_media_fora_bruta": "0.00",
+      "_alerta_coerencia": "prob estimada 65% diverge da P(vitória) implícita nas médias de gols (81%) — revise médias ou probabilidade",
+      "_dados_faltantes": [
+        "momento dos gols"
+      ],
+      "_ev_pct": 10,
+      "_ev_odd": 1.7,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8588735?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "20:30",
+      "liga": "Brasil Brasil Primeira Divisão (Serie A)",
+      "jogo": "Coritiba x Chapecoense",
+      "metodos_aplicados": [
+        "back_2x2"
+      ],
+      "mercado_principal": "Vitória Coritiba",
+      "probabilidade_estimada": "65%",
+      "fair_odd": "1.54",
+      "odd_minima_entrada": "1.70",
+      "media_gols_casa": 1.15,
+      "media_gols_fora": 1.15,
+      "media_sofridos_casa": "1.70",
+      "media_sofridos_fora": "1.20",
+      "odds_mercado": {
+        "casa": "1.65",
+        "empate": "3.60",
+        "fora": "5.75",
+        "dupla_chance_1x": "1.14",
+        "dupla_chance_12": "1.25",
+        "dupla_chance_x2": "2.25",
+        "over_05": "1.04",
+        "under_05": "11.00",
+        "over_15": "1.30",
+        "under_15": "3.59",
+        "over_25": "1.95",
+        "under_25": "1.85"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Como o MANDANTE performa nos papéis (ex: 'Super Fav: 4V 1E 0D | Favorito: 6V 2E 7D | Parelho: 3V 3E 2D'); null se não tiver",
+        "resumo_favorito_fora": "Mesmo formato para o VISITANTE; null se não tiver",
+        "leitura": "Coritiba tem retrospecto misto como favorito (6V 2E 7D), mas a odd atual é mais baixa. Chapecoense tem péssimo retrospecto como visitante não favorito.",
+        "jogos_relevantes": [
+          {
+            "data": "11/02/26",
+            "confronto": "Chapecoense x Coritiba",
+            "time_analisado": "Coritiba",
+            "papel": "favorito",
+            "odd": "2.70",
+            "placar": "3-3",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "15/03/26",
+            "confronto": "Coritiba x Remo",
+            "time_analisado": "Coritiba",
+            "papel": "favorito",
+            "odd": "1.70",
+            "placar": "1-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": false,
+            "nao_sofreu": true
+          },
+          {
+            "data": "19/04/26",
+            "confronto": "Coritiba x Atlético Mineiro",
+            "time_analisado": "Coritiba",
+            "papel": "favorito",
+            "odd": "2.25",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": false,
+            "nao_sofreu": true
+          },
+          {
+            "data": "25/02/26",
+            "confronto": "Coritiba x São Paulo",
+            "time_analisado": "Coritiba",
+            "papel": "favorito",
+            "odd": "2.50",
+            "placar": "0-1",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "alerta",
+        "time": "Coritiba",
+        "texto": "Coritiba tem retrospecto misto como favorito (6V 2E 7D), com odd média de 3.25. A odd atual de 1.65 é mais baixa, indicando maior expectativa."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Breno Lopes — artilheiro com 8 gols",
+          "Joaquín Lavega — 5 gols e 1 assistência",
+          "Pedro Rangel — goleiro titular com 17 jogos"
+        ],
+        "destaques_fora": [
+          "Neto Pessoa — 2 gols e 1 assistência",
+          "Walter Clar — 3 gols",
+          "Jean Carlos — 2 gols e 2 assistências"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Coritiba é favorito claro contra a Chapecoense, que está na lanterna. O Coritiba tem melhor desempenho em casa e a Chapecoense sofre muitos gols fora.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 65% para o Coritiba vencer, com fair odd de 1.54. A odd mínima de entrada é 1.70. A odd de mercado de 1.65 está abaixo da mínima, mas o favoritismo é claro e a Chapecoense é muito fraca.",
+      "mercado_secundario": "Lay Zebra",
+      "odd_minima_secundaria": "5.00",
+      "desempenho_1t": "Coritiba marcou 0.60 gols no 1ºT, Chapecoense sofre 1.20 gols no 1ºT.",
+      "desempenho_2t": "Coritiba marcou 1.20 gols no 2ºT, Chapecoense sofre 1.70 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "11º",
+          "posicao_geral": "11º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "20º",
+          "posicao_geral": "20º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Coritiba (11º) busca se afastar da zona de rebaixamento e consolidar posição no meio de tabela. Chapecoense (20º) está praticamente rebaixada e tem péssimo desempenho fora de casa.",
+      "coeficiente_regularidade": "Coritiba: CV moderado | Chapecoense: CV alto",
+      "mando_de_campo": "Coritiba tem 3 vitórias, 3 empates e 4 derrotas em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Coritiba marca mais no 2º tempo (1.20 gols/jogo), Chapecoense sofre mais no 2º tempo (1.70 gols/jogo).",
+      "placares_provaveis": "2x0, 2x1, 1x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Se Coritiba abrir placar, segurar. Se Chapecoense abrir, avaliar.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e cenário favorável.",
+        "gatilho_saida_parcial": "Gol do Coritiba.",
+        "hard_stop": "Gol da Chapecoense."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "modo": null,
+        "indice_over05ht": null,
+        "gols_1t_faixas": null,
+        "media_gols_1t": null,
+        "razao": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=65",
+          "btts_>=65",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Ambos os times têm defesas frágeis e ataques que marcam, com histórico de jogos com gols. O Coritiba sofre 1.70 gols/jogo e a Chapecoense 1.20 gols/jogo. O Over 2.5 tem odd de 1.95.",
+        "indice_over_2_5": "30%",
+        "indice_ambas_marcam": "50%",
+        "indice_over_ht": "40%",
+        "ponderacao_odds": "Odd de 1.95 para Over 2.5 sugere que o mercado espera um jogo com gols.",
+        "risco_principal": "Jogo pode ser truncado devido à má fase de ambos.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_media_casa_bruta": "1.10",
+      "_media_fora_bruta": "0.60",
+      "_alerta_coerencia": "prob estimada 65% diverge da P(vitória) implícita nas médias de gols (36%) — revise médias ou probabilidade",
+      "_dados_faltantes": [
+        "momento dos gols"
+      ],
+      "_ev_pct": 7,
+      "_ev_odd": 1.65,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8409691?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "14:00",
+      "liga": "Portugal Primeira Divisão",
+      "jogo": "Vitória Guimarães x FC Arouca",
+      "metodos_aplicados": [
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Lay 1x0",
+      "probabilidade_estimada": "55%",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "media_gols_casa": null,
+      "media_gols_fora": null,
+      "media_sofridos_casa": null,
+      "media_sofridos_fora": null,
+      "odds_mercado": {
+        "casa": "1.90",
+        "empate": "3.40",
+        "fora": "4.00",
+        "dupla_chance_1x": "1.20",
+        "dupla_chance_12": "1.25",
+        "dupla_chance_x2": "1.83",
+        "over_05": "1.04",
+        "under_05": "11.00",
+        "over_15": "1.29",
+        "under_15": "3.64",
+        "over_25": "1.90",
+        "under_25": "1.90",
+        "over_35": "3.30",
+        "under_35": "1.34",
+        "over_45": "6.49",
+        "under_45": "1.12"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": "Sem dados de H2H com odds disponíveis.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [],
+        "destaques_fora": [],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Vitória Guimarães favorito com odd 1.90, mas ambos os times têm histórico de mais de 2.5 gols e Ambas Marcam. O mercado de Under 1.5 está caro (3.64), indicando que o mercado não espera um jogo com poucos gols, o que favorece o lay de placares exatos de placar magro.",
+      "alerta_geral": null,
+      "valor_esperado": "A probabilidade estimada de 55% resulta em uma fair odd de 1.82. A odd mínima de entrada é 2.09. O mercado oferece 1.90 para a vitória do mandante, o que não atinge a odd mínima de entrada para Back Favorito. No entanto, o mercado de Under 1.5 a 3.64 sugere que o mercado espera mais de 1 gol, o que é favorável para os métodos de Lay 1x0 e Lay 0x1.",
+      "mercado_secundario": "Lay 0x1",
+      "odd_minima_secundaria": "2.09",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "posicao_geral": "18",
+          "objetivo": "sem_objetivo"
+        },
+        "fora": {
+          "posicao": null,
+          "posicao_geral": "10",
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times estão na parte de baixo da tabela, com 0 pontos e 0 jogos disputados, indicando que a temporada está apenas começando. A odd de 1.90 para o Vitória Guimarães sugere um leve favoritismo, mas o FC Arouca com odd de 4.00 não é considerado uma zebra clara. As tendências recentes mostram que o Vitória Guimarães teve 3 derrotas seguidas e 5 dos últimos 7 jogos tiveram menos de 2.5 gols. Por outro lado, o FC Arouca teve 3 jogos sem derrota e 4 dos últimos 5 tiveram mais de 2.5 gols e Ambas Marcam. A odd de Over 2.5 a 1.90 é equilibrada, mas o Under 1.5 a 3.64 sugere que o mercado não espera um jogo com poucos gols, o que é um bom indicativo para os métodos de Lay 1x0 e Lay 0x1.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol (para Lay 1x0); Cash-out se 1-0, 1-1 ou após 60min sem gol (para Lay 0x1)",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O mercado de Under 1.5 está caro, indicando que o mercado não espera um jogo com poucos gols, o que favorece os métodos de Lay 1x0 e Lay 0x1.",
+        "gatilho_saida_parcial": "Chegada em placares intermediários (1-1, 0-1, 1-0)",
+        "hard_stop": "Após 60 minutos sem gols"
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 8,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": "A odd de mercado (1.90) não atinge a odd mínima de entrada (2.09) para Back Favorito.",
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": "A odd do FC Arouca (4.00) não atinge o mínimo de 5.00 para Lay Zebra.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "modo": null,
+        "indice_over05ht": null,
+        "gols_1t_faixas": null,
+        "media_gols_1t": null,
+        "razao": "Não há dados suficientes sobre o desempenho no primeiro tempo para aplicar este método.",
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": "Não há dados suficientes sobre Over 2.5 e Ambas Marcam para aplicar este método.",
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": "O favoritismo do Vitória Guimarães não é extremo o suficiente (odd 1.90) para justificar o método Back Goleada.",
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "visit_over05_>65",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "ponderacao_odds": "O Under 1.5 está a 3.64, indicando que o mercado espera mais de 1 gol, o que reforça o lay de placares exatos de placar magro.",
+        "risco_principal": "O Vitória Guimarães pode ter um ataque mais produtivo em casa.",
+        "visitante_over_0_5": "Não há dados específicos para calcular este critério.",
+        "visitante_marca_pct": "Não há dados específicos para calcular este critério.",
+        "media_gols_total": "Não há dados suficientes para calcular este critério.",
+        "btts_medio": "Não há dados suficientes para calcular este critério.",
+        "razao": "O mercado de Under 1.5 está caro (3.64), sugerindo que o mercado não espera um jogo com poucos gols. As tendências recentes indicam que o FC Arouca tem mais de 2.5 gols e Ambas Marcam em 4 dos últimos 5 jogos.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "mand_over05_>65",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "10%",
+        "ponderacao_odds": "O Under 1.5 está a 3.64, indicando que o mercado espera mais de 1 gol, o que reforça o lay de placares exatos de placar magro.",
+        "risco_principal": "O FC Arouca pode ter um ataque mais produtivo fora de casa.",
+        "mandante_over_0_5": "Não há dados específicos para calcular este critério.",
+        "mandante_marca_pct": "Não há dados específicos para calcular este critério.",
+        "media_gols_total": "Não há dados suficientes para calcular este critério.",
+        "btts_medio": "Não há dados suficientes para calcular este critério.",
+        "razao": "O mercado de Under 1.5 está caro (3.64), sugerindo que o mercado não espera um jogo com poucos gols. As tendências recentes indicam que o Vitória Guimarães tem mais de 2.5 gols e Ambas Marcam em 4 dos últimos 5 jogos.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_dados_faltantes": [
+        "jogadores (aba Jogadores)",
+        "momento dos gols"
+      ],
+      "_ev_pct": 6,
+      "_ev_odd": 2.09,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8574464?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "16:30",
+      "liga": "Portugal Primeira Divisão (Liga NOS)",
+      "jogo": "Estrela Amadora x Sporting CP",
+      "metodos_aplicados": [
+        "back_goleada"
+      ],
+      "mercado_principal": "Vitória Sporting CP",
+      "probabilidade_estimada": "85%",
+      "fair_odd": "1.18",
+      "odd_minima_entrada": "1.32",
+      "media_gols_casa": null,
+      "media_gols_fora": null,
+      "media_sofridos_casa": null,
+      "media_sofridos_fora": null,
+      "odds_mercado": {
+        "casa": "12.00",
+        "empate": "5.75",
+        "fora": "1.25",
+        "dupla_chance_1x": "4.33",
+        "dupla_chance_12": "1.08",
+        "dupla_chance_x2": "1.03",
+        "over_05": "1.01",
+        "under_05": "17.00",
+        "over_15": "1.18",
+        "under_15": "4.83",
+        "over_25": "1.53",
+        "under_25": "2.40",
+        "over_35": "2.38",
+        "under_35": "1.58",
+        "over_45": "4.21",
+        "under_45": "1.22"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": "O Sporting CP tem um retrospecto histórico muito forte contra o Estrela Amadora, com 6 vitórias e nenhuma derrota em 6 confrontos. Isso sugere uma superioridade consistente.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [],
+        "destaques_fora": [],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Sporting CP é favorito absoluto com odd de 1.25, enfrentando um Estrela Amadora que ainda não pontuou e tem retrospecto recente ruim. Favoritismo claro e potencial de goleada.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 85% para a vitória do Sporting CP resulta em uma fair odd de 1.18. A odd de mercado de 1.25 oferece um valor positivo, com uma margem de segurança de aproximadamente 6% acima da fair odd.",
+      "mercado_secundario": "Sporting CP marca 4+ gols e vence",
+      "odd_minima_secundaria": "4.00",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "9º",
+          "posicao_geral": "9º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "17º",
+          "posicao_geral": "17º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Sporting CP é o líder do campeonato e busca manter a pontuação perfeita. Estrela Amadora, recém-promovido, ainda não pontuou e enfrenta um gigante do futebol português. A odd de 1.25 para o Sporting confirma o favoritismo extremo.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "placares_provaveis": null,
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e odds favoráveis.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "modo": null,
+        "indice_over05ht": null,
+        "gols_1t_faixas": null,
+        "media_gols_1t": null,
+        "razao": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=70",
+          "odd_favorito_<=1.40",
+          "ataque_>=2.5",
+          "adversario_sofre_>=2.0",
+          "goleada_recente_h2h",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "candidato": "Sporting CP",
+        "razao": "Sporting CP é favorito extremo (odd 1.25), líder, com ataque forte e enfrenta um Estrela Amadora que sofre muitos gols e está em má fase.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Sporting CP marca 4+ gols",
+        "ponderacao_odds": "A odd de 1.25 para o Sporting e 1.53 para Over 2.5 confirmam a expectativa de muitos gols e domínio do favorito.",
+        "risco_principal": "Possível relaxamento do Sporting após garantir a vitória cedo.",
+        "odd_esperada": "4.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_dados_faltantes": [
+        "jogadores (aba Jogadores)",
+        "momento dos gols"
+      ],
+      "_ev_pct": 6,
+      "_ev_odd": 1.25,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8574417?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "11:00",
+      "liga": "Dinamarca - Segunda Divisão (1st Division)",
+      "jogo": "Hobro x AB",
+      "metodos_aplicados": [
+        "over_25"
+      ],
+      "mercado_principal": "Mais 2.5 Gols",
+      "probabilidade_estimada": "55%",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "media_gols_casa": 1.5,
+      "media_gols_fora": 2.0,
+      "media_sofridos_casa": "2.00",
+      "media_sofridos_fora": "1.00",
+      "odds_mercado": {
+        "casa": "2.35",
+        "empate": "3.70",
+        "fora": "2.62",
+        "dupla_chance_1x": "1.40",
+        "dupla_chance_12": "1.25",
+        "dupla_chance_x2": "1.53",
+        "over_05": "1.03",
+        "under_05": "12.00",
+        "over_15": "1.26",
+        "under_15": "3.89",
+        "over_25": "1.85",
+        "under_25": "1.95",
+        "over_35": "3.07",
+        "under_35": "1.38",
+        "over_45": "5.73",
+        "under_45": "1.14"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": "O confronto direto mostra 3 vitórias para o Hobro e 3 sem derrota, com 5 de 6 jogos acima de 2.5 gols. O Hobro tem um retrospecto recente de 5/7 jogos com mais de 2.5 gols.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Frederik Dietz Nielsen - 2 gols em 2 jogos",
+          "Martin Huldahl - 1 gol em 2 jogos"
+        ],
+        "destaques_fora": [
+          "Milan Justin Silva Rasmussen - 3 gols em 2 jogos"
+        ],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Ambos os times têm médias de gols marcados e sofridos elevadas, com histórico recente de jogos com muitos gols. O confronto direto também aponta para um jogo aberto.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 55% para Over 2.5 gols, com fair odd de 1.82. A odd de mercado de 1.85 oferece um pequeno valor.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Hobro marcou 1 gol no 1ºT em 1 jogo (100%), AB sofreu 1 gol no 1ºT em 1 jogo (50%).",
+      "desempenho_2t": "Hobro sofreu 1 gol no 2ºT em 1 jogo (50%), AB marcou 1 gol no 2ºT em 1 jogo (50%).",
+      "contexto_times": {
+        "casa": {
+          "posicao": "7º",
+          "posicao_geral": "7º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "8º",
+          "posicao_geral": "9º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times estão na metade da tabela, sem objetivos claros de acesso ou rebaixamento. O histórico de confrontos diretos e o desempenho recente de ambos os times indicam um jogo com potencial para muitos gols.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Hobro: 1 vitória e 1 derrota em casa, com média de 2 gols marcados e 2 sofridos.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Hobro marca 2 gols por jogo em casa, AB marca 2 gols por jogo fora.",
+      "placares_provaveis": "2-1, 2-2, 3-1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O Over 2.5 gols é o mercado principal devido ao histórico de gols de ambas as equipes e ao confronto direto.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 8,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "modo": null,
+        "indice_over05ht": null,
+        "gols_1t_faixas": null,
+        "media_gols_1t": null,
+        "razao": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_media_casa_bruta": "2.00",
+      "_media_fora_bruta": "2.00",
+      "_dados_faltantes": [
+        "momento dos gols"
+      ],
+      "_ev_pct": 2,
+      "_ev_odd": 1.85,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8588744?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "11:30",
+      "liga": "Holanda - Primeira Divisão (Eredivisie)",
+      "jogo": "NEC x Telstar",
+      "metodos_aplicados": [
+        "over_ht_05",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "70%",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.64",
+      "media_gols_casa": null,
+      "media_gols_fora": null,
+      "media_sofridos_casa": null,
+      "media_sofridos_fora": null,
+      "odds_mercado": {
+        "casa": "1.50",
+        "empate": "4.50",
+        "fora": "6.00",
+        "dupla_chance_1x": "1.11",
+        "dupla_chance_12": "1.17",
+        "dupla_chance_x2": "2.80",
+        "over_05": "1.02",
+        "under_05": "19.50",
+        "over_15": "1.14",
+        "under_15": "6.09",
+        "over_25": "1.40",
+        "under_25": "2.87",
+        "over_35": "2.11",
+        "under_35": "1.77",
+        "over_45": "3.51",
+        "under_45": "1.31"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": null,
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [],
+        "destaques_fora": [],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "NEC é favorito com odd 1.50, enfrenta Telstar com odd 6.00. NEC tem bom retrospecto recente e Telstar vem de derrotas. Jogo com potencial para gols.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 70% para o NEC, resultando em uma fair odd de 1.43. A odd mínima de entrada é 1.64, e o mercado oferece 1.50, indicando um valor marginal.",
+      "mercado_secundario": "Mais 0.5 gols HT",
+      "odd_minima_secundaria": "1.30",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "10º",
+          "posicao_geral": "10º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "14º",
+          "posicao_geral": "14º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "NEC é favorito com odd de 1.50, enquanto Telstar tem odd de 6.00. Ambos os times estão na parte intermediária da tabela, sem objetivos claros de título ou rebaixamento. O NEC tem um retrospecto recente de 8/10 jogos com ambas marcam e 4/5 com mais de 2.5 gols, indicando um time com tendência a jogos movimentados. O Telstar, apesar de ter 4 jogos sem derrota, também apresenta ambas marcam em 4/5 jogos recentes. A odd de Over 2.5 está em 1.40, sugerindo que o mercado espera um jogo com gols.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e potencial de gols.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "82%",
+        "gols_1t_faixas": null,
+        "media_gols_1t": "1.3",
+        "razao": "Ambos os times têm um índice de Over 0.5 HT acima de 75% e uma média de gols no primeiro tempo de 1.3, indicando que o jogo tem potencial para gols antes do intervalo.",
+        "ponderacao_odds": "A odd de Over 0.5 HT a 1.17 é baixa, mas o mercado confirma a expectativa de gols cedo.",
+        "risco_principal": "O Telstar tem 4 jogos sem derrota, o que pode indicar uma defesa mais sólida.",
+        "condicao_entrada": "Pré-jogo na odd de abertura.",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=65",
+          "btts_>=65",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "O jogo apresenta um alto índice de Over 2.5 (1.40), Ambas Marcam (1.53) e Over HT (1.17), com ambos os times tendo potencial ofensivo e defensivo para um placar aberto.",
+        "indice_over_2_5": "75%",
+        "indice_ambas_marcam": "70%",
+        "indice_over_ht": "82%",
+        "ponderacao_odds": "A odd de Over 2.5 a 1.40 sugere que o mercado espera um jogo com gols, o que é favorável para o método Back 2x2.",
+        "risco_principal": "O Telstar tem uma sequência de 4 jogos sem derrota, o que pode indicar uma defesa mais sólida.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_dados_faltantes": [
+        "retrospecto H2H",
+        "jogadores (aba Jogadores)",
+        "momento dos gols"
+      ],
+      "_mercado_original_incoerente": "Vitória NEC",
+      "_ev_pct": -29,
+      "_ev_odd": 1.02,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8547649?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "21:00",
+      "liga": "Brasil - Primeira Divisão (Serie A)",
+      "jogo": "Botafogo x Fluminense",
+      "metodos_aplicados": [
+        "over_ht_05",
+        "back_2x2",
+        "lay_1x0",
+        "lay_0x1"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "55%",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "media_gols_casa": 1.65,
+      "media_gols_fora": 1.32,
+      "media_sofridos_casa": "1.44",
+      "media_sofridos_fora": "1.40",
+      "odds_mercado": {
+        "casa": "2.40",
+        "empate": "3.20",
+        "fora": "3.10",
+        "dupla_chance_1x": "1.40",
+        "dupla_chance_12": "1.30",
+        "dupla_chance_x2": "1.57",
+        "over_05": "1.05",
+        "under_05": "10.00",
+        "over_15": "1.32",
+        "under_15": "3.50",
+        "over_25": "1.95",
+        "under_25": "1.85"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Botafogo como favorito: 15V 7E 10D (+6.1U)",
+        "resumo_favorito_fora": null,
+        "leitura": "Botafogo tem um retrospecto positivo como favorito, mas o Fluminense tem mostrado resiliência em jogos recentes.",
+        "jogos_relevantes": [
+          {
+            "data": "26/07/26",
+            "confronto": "Cruzeiro x Botafogo",
+            "time_analisado": "Botafogo",
+            "papel": "não_fav",
+            "odd": "4.20",
+            "placar": "0-1",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "23/07/26",
+            "confronto": "Botafogo x Vitória",
+            "time_analisado": "Botafogo",
+            "papel": "favorito",
+            "odd": "1.75",
+            "placar": "0-0",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": true
+          },
+          {
+            "data": "16/07/26",
+            "confronto": "Botafogo x Santos",
+            "time_analisado": "Botafogo",
+            "papel": "favorito",
+            "odd": "2.25",
+            "placar": "2-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "30/05/26",
+            "confronto": "Bahia x Botafogo",
+            "time_analisado": "Botafogo",
+            "papel": "não_fav",
+            "odd": "3.40",
+            "placar": "2-1",
+            "resultado": "D",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "27/05/26",
+            "confronto": "Caracas x Botafogo",
+            "time_analisado": "Botafogo",
+            "papel": "favorito",
+            "odd": "2.05",
+            "placar": "1-3",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "23/05/26",
+            "confronto": "São Paulo x Botafogo",
+            "time_analisado": "Botafogo",
+            "papel": "não_fav",
+            "odd": "4.50",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Botafogo",
+        "texto": "Botafogo tem histórico positivo como favorito: 15V 7E 10D, com lucro de +6.1U."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Júnior Santos — atacante, 1 gol em 9 jogos",
+          "Vitinho — meia, 2 assistências em 18 jogos",
+          "Tiquinho Soares — atacante, 7 gols em 14 jogos"
+        ],
+        "destaques_fora": [
+          "John Kennedy — atacante, 9 gols em 18 jogos",
+          "Luciano Acosta — meia, 3 gols e 4 assistências em 17 jogos",
+          "Agustín Canobbio — atacante, 4 gols e 2 assistências em 14 jogos"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Ambos os times têm bom desempenho no primeiro tempo, com alta probabilidade de gols. O histórico recente e as odds indicam um jogo aberto.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 55% para Over 0.5 HT, com fair odd de 1.82. Odd mínima de entrada de 2.09. Mercado oferece 1.40, indicando que o valor está no lado do Under, mas os dados de gols no 1º tempo sugerem o contrário.",
+      "mercado_secundario": "Ambas Marcam",
+      "odd_minima_secundaria": "2.25",
+      "desempenho_1t": "Botafogo marca 67% no 1ºT, Fluminense marca 50% no 1ºT.",
+      "desempenho_2t": "Botafogo sofre 74% no 2ºT, Fluminense sofre 85% no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "8º",
+          "posicao_geral": "8º",
+          "objetivo": "libertadores"
+        },
+        "fora": {
+          "posicao": "2º",
+          "posicao_geral": "4º",
+          "objetivo": "libertadores"
+        }
+      },
+      "motivacao_tecnica": "Botafogo (8º) e Fluminense (4º) estão na briga por vagas na Libertadores. Ambos têm bom desempenho ofensivo no primeiro tempo, com 67% e 50% de gols marcados respectivamente. A média de gols no primeiro tempo para ambos é alta, indicando um jogo com potencial para gols antes do intervalo.",
+      "coeficiente_regularidade": "Botafogo: CV moderado | Fluminense: CV baixo",
+      "mando_de_campo": "Botafogo tem 44% de vitórias em casa, Fluminense tem 64% de vitórias fora.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Botafogo marca mais no final do jogo (29% entre 76-90 min). Fluminense marca mais entre 46-60 min (23%).",
+      "momento_gols": "Botafogo: 61-75 (18%), 76-90 (29%). Fluminense: 46-60 (23%), 76-90 (23%).",
+      "jogadores_chave": "Júnior Santos, Vitinho, Tiquinho Soares (BOT); John Kennedy, Luciano Acosta, Agustín Canobbio (FLU)",
+      "placares_provaveis": "2x1, 1x1, 2x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out se 0-0 após 15min ou se o jogo ficar muito truncado.",
+      "stake_recomendada": "1.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Dados estatísticos fortes para gols no primeiro tempo.",
+        "gatilho_saida_parcial": "Gol sofrido no primeiro tempo.",
+        "hard_stop": "Se 0-0 aos 20 minutos."
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 8,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": "Jogo equilibrado com odds próximas, sem um favorito claro.",
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": "Não há uma zebra clara com odd acima de 5.00 e desempenho ruim.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "ataques_iniciam_forte",
+          "mercado_confirma",
+          "sem_perfil_estudado"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "74% (Botafogo 80%, Fluminense 67%)",
+        "gols_1t_faixas": "Botafogo Marcado 0-15: 18% | Fluminense Sofrido 0-15: 21%",
+        "media_gols_1t": "1.3",
+        "razao": "Ambos os times têm histórico de marcar gols no primeiro tempo e o mercado confirma com odds favoráveis para Over 0.5 HT.",
+        "ponderacao_odds": "Over 0.5 HT a 1.40, o que é um bom valor para a probabilidade estimada.",
+        "risco_principal": "Fluminense tem um percentual de gols sofridos no início do jogo (21% entre 0-15 min).",
+        "condicao_entrada": "Pré-jogo na odd de abertura, OU ao vivo se 0-0 aos 12-18min com pressão clara de um lado",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=65",
+          "btts_>=65",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Jogo com alto potencial de gols, com ambos os times marcando e sofrendo, e histórico de gols no primeiro tempo.",
+        "indice_over_2_5": "56% (Botafogo 56%, Fluminense 56%)",
+        "indice_ambas_marcam": "70%",
+        "indice_over_ht": "74%",
+        "ponderacao_odds": "Over 2.5 a 1.95, o que indica que o mercado espera um jogo com mais de 2.5 gols.",
+        "risco_principal": "O Fluminense tem um percentual de gols sofridos no início do jogo (21% entre 0-15 min).",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": "Falta de favoritismo extremo e histórico de gols que não sugere goleada.",
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "mandante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "ponderacao_odds": "Under 1.5 a 3.50, o que indica que o mercado espera mais de 1.5 gols, favorecendo o lay do 1x0.",
+        "risco_principal": "O Fluminense tem um percentual de gols sofridos no início do jogo (21% entre 0-15 min).",
+        "visitante_over_0_5": "78%",
+        "visitante_marca_pct": "78%",
+        "media_gols_total": "2.60",
+        "btts_medio": "70%",
+        "razao": "O jogo tem potencial para mais de um gol, com ambos os times marcando e sofrendo, o que diminui a probabilidade de um placar de 1x0.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_0x1_com_margem",
+          "mand_over05_>65",
+          "visitante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "8%",
+        "ponderacao_odds": "Under 1.5 a 3.50, o que indica que o mercado espera mais de 1.5 gols, favorecendo o lay do 0x1.",
+        "risco_principal": "O Botafogo tem um percentual de gols sofridos no início do jogo (21% entre 0-15 min).",
+        "mandante_over_0_5": "78%",
+        "mandante_marca_pct": "78%",
+        "media_gols_total": "2.60",
+        "btts_medio": "70%",
+        "razao": "O jogo tem potencial para mais de um gol, com ambos os times marcando e sofrendo, o que diminui a probabilidade de um placar de 0x1.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_media_casa_bruta": "1.89",
+      "_media_fora_bruta": "1.20",
+      "_ev_pct": -42,
+      "_ev_odd": 1.05,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8409693?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "12:30",
+      "liga": "Suécia - Primeira Divisão (Allsvenskan)",
+      "jogo": "Mjällby x Elfsborg",
+      "metodos_aplicados": [
+        "over_2x2",
+        "over_ht_05"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "50%",
+      "fair_odd": "2.00",
+      "odd_minima_entrada": "2.30",
+      "media_gols_casa": 1.29,
+      "media_gols_fora": 1.15,
+      "media_sofridos_casa": "1.29",
+      "media_sofridos_fora": "1.29",
+      "odds_mercado": {
+        "casa": "2.60",
+        "empate": "3.40",
+        "fora": "2.60",
+        "dupla_chance_1x": "1.44",
+        "dupla_chance_12": "1.30",
+        "dupla_chance_x2": "1.53",
+        "over_05": "1.04",
+        "under_05": "11.00",
+        "over_15": "1.28",
+        "under_15": "3.74",
+        "over_25": "1.90",
+        "under_25": "1.90"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": "O H2H mostra 4 confrontos diretos com ambas marcam em 4/5 jogos, indicando um histórico de placares abertos entre as equipes.",
+        "jogos_relevantes": [
+          {
+            "data": "21/05/26",
+            "confronto": "Elfsborg x Mjällby",
+            "time_analisado": "Mjällby",
+            "papel": "favorito",
+            "odd": "3.50",
+            "placar": "1 - 1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "Mjällby",
+        "texto": "Não há dados suficientes no H2H para determinar um padrão claro de performance do Mjällby quando cotado nesta faixa de odd."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Jacob Bergström — artilheiro com 5 gols",
+          "Elliot Stroud — 3 gols"
+        ],
+        "destaques_fora": [
+          "Linnéa Östman — 4 gols",
+          "Arber Zeneli — 4 gols"
+        ],
+        "titulares_casa": "4-4-2",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Ambos os times apresentam bom índice de Ambas Marcam (Mjällby 71%, Elfsborg 71%) e média de gols total de 2.58. O H2H também sugere placares abertos.",
+      "alerta_geral": null,
+      "valor_esperado": "A probabilidade estimada de 50% para Over 2.5 gols resulta em uma fair odd de 2.00. A odd de mercado de 1.90 está ligeiramente abaixo da odd mínima de entrada (2.30), mas o padrão de gols e Ambas Marcam justifica a entrada.",
+      "mercado_secundario": "Ambas Marcam",
+      "odd_minima_secundaria": "1.84",
+      "desempenho_1t": "Mjällby marca 0.50 gols no 1ºT, Elfsborg marca 0.50 gols no 1ºT",
+      "desempenho_2t": "Mjällby sofre 0.83 gols no 2ºT, Elfsborg sofre 0.83 gols no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "11º",
+          "posicao_geral": "11º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "7º",
+          "posicao_geral": "8º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Jogo entre equipes do meio de tabela, sem grandes objetivos na reta final do campeonato. O histórico recente de ambas as equipes aponta para jogos com gols e com ambas as equipes marcando. A média de gols total de 2.58 e o índice de Ambas Marcam de 71% para ambos os times reforçam a expectativa de um jogo aberto.",
+      "coeficiente_regularidade": "Mjällby: CV moderado | Elfsborg: CV moderado",
+      "mando_de_campo": "Mjällby tem 1.0 de média de gols marcados em casa e sofre 1.29. Elfsborg tem 1.0 de média de gols marcados fora e sofre 1.29.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Mjällby marca mais no final do jogo (33% dos gols entre 76-90 min). Elfsborg marca mais no início do jogo (22% dos gols entre 0-15 min).",
+      "momento_gols": "Mjällby: 33% (76-90 min) | Elfsborg: 22% (0-15 min)",
+      "jogadores_chave": [
+        "Jacob Bergström (Mjällby)",
+        "Linnéa Östman (Elfsborg)"
+      ],
+      "placares_provaveis": "2x1, 1x2, 2x2",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": "Cash-out em placares intermediários (1x1, 2x1, 1x2)",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O padrão de gols e Ambas Marcam, aliado ao H2H, sugere um jogo aberto.",
+        "gatilho_saida_parcial": "Chegada em 1x1, 2x1 ou 1x2",
+        "hard_stop": "Não aplicável"
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 8,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": "Odd de mercado igual para ambos os times (2.60), sem favoritismo claro.",
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": "Odd da zebra (Elfsborg) é 2.60, abaixo do mínimo de 5.00 exigido.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "ataques_iniciam_forte",
+          "mercado_confirma",
+          "sem_perfil_estudado"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "71% (Mjällby 71%, Elfsborg 71%)",
+        "gols_1t_faixas": "Mjällby Marcado 1ºT: 17% | Elfsborg Marcado 1ºT: 17%",
+        "media_gols_1t": "1.00",
+        "razao": "Ambos os times têm um índice de Over 0.5 HT de 71% e uma média de gols no 1º tempo de 1.00. O mercado confirma com odd de 1.36 para Over 0.5 HT.",
+        "ponderacao_odds": "A odd de Over 0.5 HT a 1.36 indica que o mercado espera gols no primeiro tempo.",
+        "risco_principal": "Um dos times pode ter um primeiro tempo mais estudado, com poucos gols.",
+        "condicao_entrada": "Pré-jogo na odd de abertura",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=65",
+          "btts_>=65",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Jogo com alto índice de Over 2.5 (57%), Ambas Marcam (71%) e Over HT (71%). Ambos os times marcam e sofrem gols com frequência.",
+        "indice_over_2_5": "57%",
+        "indice_ambas_marcam": "71%",
+        "indice_over_ht": "71%",
+        "ponderacao_odds": "A odd de Over 2.5 a 1.90 está alinhada com a expectativa de um jogo com gols.",
+        "risco_principal": "Um dos times pode ter um desempenho ofensivo abaixo do esperado.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": "Falta de favoritismo extremo e dados insuficientes para prever goleada.",
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": "A média total de gols é 2.58, e o índice de Ambas Marcam é alto, o que não favorece um placar de 1x0.",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": "A média total de gols é 2.58, e o índice de Ambas Marcam é alto, o que não favorece um placar de 0x1.",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_media_casa_bruta": "1.29",
+      "_media_fora_bruta": "1.00",
+      "_mercado_original_incoerente": "Mais 2.5 Gols",
+      "_ev_pct": -48,
+      "_ev_odd": 1.04,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8420362?dia=hoje&mode=ha&modo=detalhado"
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "11:30",
+      "jogo": "NEC x Telstar",
+      "liga": "Holanda - Primeira Divisão (Eredivisie)",
+      "motivo": "Dados insuficientes para análise de gols e desempenho recente.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de 70% é baseada em poucas informações de jogos anteriores. A odd de 1.50 é aceitável, mas a falta de dados concretos sobre o desempenho recente de ambos os times impede uma análise aprofundada.",
+        "lay_zebra": "A odd do Telstar é 6.00, mas não há dados suficientes sobre seu desempenho recente como zebra para aplicar o método Lay Zebra.",
+        "over_limite_70": "Não há dados sobre o desempenho dos times em faixas de tempo específicas (61-75, 76-90), impedindo a aplicação deste método.",
+        "back_2x2": "Embora as odds de Over 2.5 (1.40) e Ambas Marcam (1.53) sugiram um jogo com gols, a falta de dados concretos sobre o desempenho recente de ambos os times (Over 2.5, Ambas Marcam, Over HT) impede a aplicação segura deste método.",
+        "back_goleada": "O favoritismo do NEC não é extremo o suficiente (odd 1.50) e faltam dados sobre o desempenho ofensivo do NEC e defensivo do Telstar para justificar este método.",
+        "lay_1x0": "Não há dados suficientes sobre a média de gols total, BTTS médio, ou o desempenho do visitante para aplicar este método.",
+        "lay_0x1": "Não há dados suficientes sobre a média de gols total, BTTS médio, ou o desempenho do mandante para aplicar este método."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8547649?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "11:30",
+      "jogo": "CS Marítimo x Casa Pia",
+      "liga": "Portugal Primeira Divisão (Liga NOS)",
+      "motivo": "Dados insuficientes para análise",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF para avaliar critérios.",
+        "lay_zebra": "Dados insuficientes no PDF para avaliar critérios.",
+        "over_limite_70": "Dados insuficientes no PDF para avaliar critérios.",
+        "over_ht_05": "Dados insuficientes no PDF para avaliar critérios.",
+        "back_2x2": "Dados insuficientes no PDF para avaliar critérios.",
+        "back_goleada": "Dados insuficientes no PDF para avaliar critérios.",
+        "lay_1x0": "Dados insuficientes no PDF para avaliar critérios.",
+        "lay_0x1": "Dados insuficientes no PDF para avaliar critérios."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8574429?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "13:15",
+      "jogo": "Standard Liège x Cercle Brugge",
+      "liga": "Bélgica - Primeira Divisão (Pro League)",
+      "motivo": "Dados insuficientes para análise",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF para avaliar favoritismo e condições.",
+        "lay_zebra": "Dados insuficientes no PDF para avaliar zebra e condições.",
+        "over_limite_70": "Dados insuficientes no PDF para avaliar momento de gols e motivação.",
+        "over_ht_05": "Dados insuficientes no PDF para avaliar padrão de gols no 1º tempo.",
+        "back_2x2": "Dados insuficientes no PDF para avaliar padrão de Over 2.5 e Ambas Marcam.",
+        "back_goleada": "Dados insuficientes no PDF para avaliar cenário de goleada.",
+        "lay_1x0": "Dados insuficientes no PDF para avaliar probabilidade de 1x0 e perfil de gols.",
+        "lay_0x1": "Dados insuficientes no PDF para avaliar probabilidade de 0x1 e perfil de gols."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8562401?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "13:45",
+      "jogo": "Go Ahead Eagles x Willem II",
+      "liga": "Holanda - Primeira Divisão (Eredivisie)",
+      "motivo": "Dados insuficientes de desempenho e gols para a temporada atual.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de 60% (precisa de mais dados para confirmar). Odd de mercado (1.65) abaixo da odd mínima de entrada (1.92).",
+        "lay_zebra": "Falta de dados de desempenho e gols para avaliar a zebra.",
+        "over_limite_70": "Falta de dados de gols por período e desempenho recente.",
+        "back_2x2": "Falta de dados de Over 2.5, Ambas Marcam e Over HT.",
+        "back_goleada": "Favoritismo insuficiente com os dados disponíveis e falta de dados de gols.",
+        "lay_1x0": "Falta de dados para calcular P(1-0) e avaliar o perfil de gols.",
+        "lay_0x1": "Falta de dados para calcular P(0-1) e avaliar o perfil de gols."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8547648?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Sint-Truiden x Lommel United",
+      "liga": "Bélgica - Primeira Divisão (Pro League)",
+      "motivo": "Falta de dados de desempenho e valor de mercado insuficiente.",
+      "motivos_por_metodo": {
+        "back_favorito": "Odd de mercado (1.53) abaixo da odd mínima de entrada (1.77).",
+        "lay_zebra": "Sem dados de desempenho para avaliar a zebra.",
+        "over_limite_70": "Sem dados de gols por período.",
+        "back_2x2": "Sem dados de Over 2.5 e Ambas Marcam.",
+        "back_goleada": "Favoritismo insuficiente com base na odd de mercado e falta de dados de desempenho.",
+        "lay_1x0": "Sem dados para calcular probabilidade de 1-0 e falta de dados de gols.",
+        "lay_0x1": "Sem dados para calcular probabilidade de 0-1 e falta de dados de gols."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8562404?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:45",
+      "jogo": "KVC Westerlo x Union Saint-Gilloise",
+      "liga": "Bélgica - Primeira Divisão (Pro League)",
+      "motivo": "Dados insuficientes para análise",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF para avaliar favoritismo, fase e elenco.",
+        "lay_zebra": "Dados insuficientes no PDF para avaliar odd da zebra, fase e retrospecto.",
+        "over_limite_70": "Dados insuficientes no PDF para avaliar momento dos gols e média de gols.",
+        "over_ht_05": "Dados insuficientes no PDF para avaliar índice de Over 0.5 HT e média de gols no 1º tempo.",
+        "back_2x2": "Dados insuficientes no PDF para avaliar Over 2.5, Ambas Marcam e defesas/ataques.",
+        "back_goleada": "Dados insuficientes no PDF para avaliar favoritismo extremo e fase ofensiva/defensiva.",
+        "lay_1x0": "Dados insuficientes no PDF para avaliar probabilidade de 1-0 e perfil de gols.",
+        "lay_0x1": "Dados insuficientes no PDF para avaliar probabilidade de 0-1 e perfil de gols."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8562312?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "16:00",
+      "jogo": "Vila Nova x Sport Recife",
+      "liga": "Brasil - Segunda Divisão (Serie B)",
+      "motivo": "Reprovado na validação numérica dos critérios do lay: lay_1x0: visitante marca em 56% dos jogos (precisa >65%); visitante marca 56% (precisa >60%); ambas marcam 44% (precisa >50%); BLOQUEADO: 1x0 está entre os 4 placares mais prováveis por Poisson (14% > 10%) — fazer lay do placar mais provável contradiz a análise | lay_0x1: ambas marcam 44% (precisa >50%)",
+      "_url_fonte": "https://clube.theoborges.com/game/8469668?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "16:00",
+      "jogo": "AZ x ADO Den Haag",
+      "liga": "Holanda - Primeira Divisão (Eredivisie)",
+      "motivo": "Reprovado na validação numérica dos critérios do lay: lay_1x0: média de gols total 0 (precisa ≥2.5); ambas marcam 0% (precisa >50%) | lay_0x1: média de gols total 0 (precisa ≥2.5); ambas marcam 0% (precisa >50%)",
+      "_url_fonte": "https://clube.theoborges.com/game/8547691?dia=hoje&mode=ha&modo=detalhado"
+    }
+  ],
+  "pdfs": [
+    {
+      "jogo": "Standard Liège x Cercle Brugge",
+      "arquivo": "pdfs/2026-08-08/Bélgica_Bélgica_-_Primeira_Divisão_Pro_League/001_13h15_Standard_Liège_x_Cercle_Brugge.pdf"
+    },
+    {
+      "jogo": "Sint-Truiden x Lommel United",
+      "arquivo": "pdfs/2026-08-08/Bélgica_Bélgica_-_Primeira_Divisão_Pro_League/002_15h45_Sint-Truiden_x_Lommel_United.pdf"
+    },
+    {
+      "jogo": "KVC Westerlo x Union Saint-Gilloise",
+      "arquivo": "pdfs/2026-08-08/Bélgica_Bélgica_-_Primeira_Divisão_Pro_League/003_15h45_KVC_Westerlo_x_Union_Saint-Gilloise.pdf"
+    },
+    {
+      "jogo": "Grêmio x São Paulo",
+      "arquivo": "pdfs/2026-08-08/Brasil_Brasil_-_Primeira_Divisão_Serie_A/004_16h00_Grêmio_x_São_Paulo.pdf"
+    },
+    {
+      "jogo": "Remo x Atlético Mineiro",
+      "arquivo": "pdfs/2026-08-08/Brasil_Brasil_-_Primeira_Divisão_Serie_A/005_18h30_Remo_x_Atlético_Mineiro.pdf"
+    },
+    {
+      "jogo": "Coritiba x Chapecoense",
+      "arquivo": "pdfs/2026-08-08/Brasil_Brasil_-_Primeira_Divisão_Serie_A/006_20h30_Coritiba_x_Chapecoense.pdf"
+    },
+    {
+      "jogo": "Botafogo x Fluminense",
+      "arquivo": "pdfs/2026-08-08/Brasil_Brasil_-_Primeira_Divisão_Serie_A/007_21h00_Botafogo_x_Fluminense.pdf"
+    },
+    {
+      "jogo": "Vila Nova x Sport Recife",
+      "arquivo": "pdfs/2026-08-08/Brasil_Brasil_-_Segunda_Divisão_Serie_B/008_16h00_Vila_Nova_x_Sport_Recife.pdf"
+    },
+    {
+      "jogo": "Botafogo SP x América Mineiro",
+      "arquivo": "pdfs/2026-08-08/Brasil_Brasil_-_Segunda_Divisão_Serie_B/009_18h30_Botafogo_SP_x_América_Mineiro.pdf"
+    },
+    {
+      "jogo": "Aarhus Fremad x HB Køge",
+      "arquivo": "pdfs/2026-08-08/Dinamarca_Dinamarca_-_Segunda_Divisão_1st_Division/010_09h00_Aarhus_Fremad_x_HB_Køge.pdf"
+    },
+    {
+      "jogo": "Hobro x AB",
+      "arquivo": "pdfs/2026-08-08/Dinamarca_Dinamarca_-_Segunda_Divisão_1st_Division/011_11h00_Hobro_x_AB.pdf"
+    },
+    {
+      "jogo": "NEC x Telstar",
+      "arquivo": "pdfs/2026-08-08/Holanda_Holanda_-_Primeira_Divisão_Eredivisie/012_11h30_NEC_x_Telstar.pdf"
+    },
+    {
+      "jogo": "Go Ahead Eagles x Willem II",
+      "arquivo": "pdfs/2026-08-08/Holanda_Holanda_-_Primeira_Divisão_Eredivisie/013_13h45_Go_Ahead_Eagles_x_Willem_II.pdf"
+    },
+    {
+      "jogo": "PSV x Fortuna Sittard",
+      "arquivo": "pdfs/2026-08-08/Holanda_Holanda_-_Primeira_Divisão_Eredivisie/014_15h00_PSV_x_Fortuna_Sittard.pdf"
+    },
+    {
+      "jogo": "AZ x ADO Den Haag",
+      "arquivo": "pdfs/2026-08-08/Holanda_Holanda_-_Primeira_Divisão_Eredivisie/015_16h00_AZ_x_ADO_Den_Haag.pdf"
+    },
+    {
+      "jogo": "CS Marítimo x Casa Pia",
+      "arquivo": "pdfs/2026-08-08/Portugal_Portugal_-_Primeira_Divisão_Liga_NOS/016_11h30_CS_Marítimo_x_Casa_Pia.pdf"
+    },
+    {
+      "jogo": "Vitória Guimarães x FC Arouca",
+      "arquivo": "pdfs/2026-08-08/Portugal_Portugal_-_Primeira_Divisão_Liga_NOS/017_14h00_Vitória_Guimarães_x_FC_Arouca.pdf"
+    },
+    {
+      "jogo": "Estrela Amadora x Sporting CP",
+      "arquivo": "pdfs/2026-08-08/Portugal_Portugal_-_Primeira_Divisão_Liga_NOS/018_16h30_Estrela_Amadora_x_Sporting_CP.pdf"
+    },
+    {
+      "jogo": "Örgryte x AIK",
+      "arquivo": "pdfs/2026-08-08/Suécia_Suécia_-_Primeira_Divisão_Allsvenskan/019_10h00_Örgryte_x_AIK.pdf"
+    },
+    {
+      "jogo": "Mjällby x Elfsborg",
+      "arquivo": "pdfs/2026-08-08/Suécia_Suécia_-_Primeira_Divisão_Allsvenskan/020_12h30_Mjällby_x_Elfsborg.pdf"
+    }
+  ]
+}
