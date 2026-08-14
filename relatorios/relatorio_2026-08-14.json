@@ -1,0 +1,1801 @@
+{
+  "data": "2026-08-14",
+  "dia_consultado": "hoje",
+  "gerado_em": "2026-08-14T19:51:05.216952",
+  "total_partidas_analisadas": 10,
+  "entradas": [
+    {
+      "horario": "16:15",
+      "liga": "Portugal Primeira Divisão (Liga NOS)",
+      "jogo": "Sporting CP x Vitória Guimarães",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "over_ht_05"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "70%",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.64",
+      "media_gols_casa": null,
+      "media_gols_fora": null,
+      "media_sofridos_casa": null,
+      "media_sofridos_fora": null,
+      "odds_mercado": {
+        "casa": "1.36",
+        "empate": "5.00",
+        "fora": "7.50",
+        "dupla_chance_1x": "1.05",
+        "dupla_chance_12": "1.11",
+        "dupla_chance_x2": "3.30",
+        "over_05": "1.01",
+        "under_05": "17.00",
+        "over_15": "1.14",
+        "under_15": "5.50",
+        "over_25": "1.57",
+        "under_25": "2.35",
+        "over_35": "2.38",
+        "under_35": "1.57",
+        "over_45": "4.20",
+        "under_45": "1.22"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Como o MANDANTE performa nos papéis (ex: 'Super Fav: 4V 1E 0D | Favorito: 6V 2E 7D | Parelho: 3V 3E 2D'); null se não tiver",
+        "resumo_favorito_fora": "Mesmo formato para o VISITANTE; null se não tiver",
+        "leitura": "O Sporting CP tem um retrospecto recente de 8 jogos sem derrota, com 7/10 Over 2.5 Gols e 7/10 Ambas Marcam. O Vitória Guimarães vem de 4 derrotas consecutivas e 4 jogos sem vitória, com 6/8 Menos de 2.5 Gols.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Fotis Ioannidis - 1 gol em 61 min",
+          "Rodrigo Zalazar - 1 gol, 1 assistência em 90 min"
+        ],
+        "destaques_fora": [
+          "Gustavo da Silva Cunha - 6 chutes em 90 min",
+          "Alioune Ndoye - 6 chutes em 78 min"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Sporting CP é favorito com odd 1.36, sem derrota nos últimos 8 jogos e com bom retrospecto recente de gols. Vitória Guimarães em má fase, com 4 derrotas seguidas.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 70% para a vitória do Sporting CP resulta em uma fair odd de 1.43. Com a margem de segurança, a odd mínima de entrada é 1.64. A odd de mercado de 1.36 está abaixo da mínima, mas o favoritismo é claro e o método Back Favorito se aplica.",
+      "mercado_secundario": "Mais 0.5 gols HT",
+      "odd_minima_secundaria": "1.35",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "14º",
+          "posicao_geral": "17º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "17º",
+          "posicao_geral": "18º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Sporting CP, apesar de estar em 14º em casa, vem de 8 jogos sem derrota e tem um retrospecto recente de gols (7/10 Over 2.5, 7/10 Ambas Marcam). Vitória Guimarães está em má fase, com 4 derrotas consecutivas e 4 jogos sem vitória, além de 6/8 Menos de 2.5 Gols. O Sporting CP busca manter a invencibilidade e o Vitória luta contra o rebaixamento.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e retrospecto recente favorável.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.6",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Sporting CP - busca manter invencibilidade",
+        "indices_gols_faixas": "Favorito Marcado 61-75: 0% | 76-90: 0% | Adversário Sofrido 61-75: 0% | 76-90: 0%",
+        "qual_condicao_atende": "Nenhuma das condições de gols tardios atende o limiar mínimo.",
+        "motivo_motivacao": "Sporting CP busca manter a invencibilidade e o Vitória luta contra o rebaixamento.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "Over 2.5 a 1.57 indica que o mercado espera gols. O H2H mostra 7/9 Over 2.5 Gols.",
+        "risco_principal": "Jogo pode se tornar mais defensivo se o Sporting abrir o placar cedo.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão."
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "mercado_confirma"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "75% (Sporting CP: 7/10, Vitória Guimarães: 6/8)",
+        "gols_1t_faixas": "Favorito Marcado 1ºT: 0% | Adversário Sofrido 1ºT: 0%",
+        "media_gols_1t": "0.00",
+        "razao": "O índice de Over 0.5 HT é de 75%, e a odd de mercado de 1.22 confirma a expectativa de gols no primeiro tempo.",
+        "ponderacao_odds": "A odd de Over 0.5 HT a 1.22 é baixa, indicando que o mercado espera gols no primeiro tempo.",
+        "risco_principal": "Ambos os times podem ter um primeiro tempo mais estudado.",
+        "condicao_entrada": "Pré-jogo na odd de abertura, OU ao vivo se 0-0 aos 12-18min com pressão clara de um lado",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "media_total_>=2.5",
+          "btts_>50"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "10%",
+        "ponderacao_odds": "O Under 2.5 a 2.35 indica que o mercado espera mais de 2 gols, o que favorece o lay do 1x0. O H2H mostra 7/9 Over 2.5 Gols.",
+        "risco_principal": "Vitória Guimarães pode adotar uma postura muito defensiva.",
+        "visitante_over_0_5": "6/8 (75%)",
+        "visitante_marca_pct": "75%",
+        "media_gols_total": "2.8",
+        "btts_medio": "4/5 (80%)",
+        "razao": "O Sporting CP é um time ofensivo e o Vitória Guimarães tem histórico de sofrer gols fora. A odd do Under 2.5 é alta, indicando expectativa de gols.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%",
+        "razao_reprovacao": "visitante marca em 6% dos jogos (precisa >65%); ambas marcam 4% (precisa >50%)"
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_dados_faltantes": [
+        "momento dos gols"
+      ],
+      "_mercado_original_incoerente": "Vitória Sporting CP",
+      "_ev_pct": 15,
+      "_ev_odd": 1.64,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8574388?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "20:30",
+      "liga": "Brasil - Segunda Divisão (Serie B)",
+      "jogo": "Sport Recife x Londrina",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "over_ht_05"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "70%",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.64",
+      "media_gols_casa": 1.32,
+      "media_gols_fora": 1.41,
+      "media_sofridos_casa": "1.64",
+      "media_sofridos_fora": "1.55",
+      "odds_mercado": {
+        "casa": "1.66",
+        "empate": "3.50",
+        "fora": "5.50",
+        "dupla_chance_1x": "1.14",
+        "dupla_chance_12": "1.25",
+        "dupla_chance_x2": "2.25",
+        "over_05": "1.04",
+        "under_05": "10.00",
+        "over_15": "1.31",
+        "under_15": "3.56",
+        "over_25": "1.95",
+        "under_25": "1.85"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Sport Recife como favorito: 13V 13E 6D (-1.1U)",
+        "resumo_favorito_fora": null,
+        "leitura": "Sport Recife tem um retrospecto misto como favorito, com mais empates do que vitórias.",
+        "jogos_relevantes": [
+          {
+            "data": "04/04/26",
+            "confronto": "Londrina x Sport Recife",
+            "time_analisado": "Sport Recife",
+            "papel": "favorito",
+            "odd": "3.20",
+            "placar": "1-2",
+            "resultado": "D",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "01/04/26",
+            "confronto": "Sport Recife x Vila Nova",
+            "time_analisado": "Sport Recife",
+            "papel": "favorito",
+            "odd": "1.83",
+            "placar": "1-1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "24/03/26",
+            "confronto": "Sport Recife x Jacuipense",
+            "time_analisado": "Sport Recife",
+            "papel": "favorito",
+            "odd": "1.53",
+            "placar": "2-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "Sport Recife",
+        "texto": "Sport Recife tem um retrospecto misto como favorito, com mais empates do que vitórias."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Perotti — artilheiro com 9 gols",
+          "Chrystian Barletta — 9 gols e 3 assistências",
+          "Bruno Santos — 11 gols"
+        ],
+        "destaques_fora": [
+          "Bruno Santos — artilheiro com 11 gols",
+          "Iago Teles — 3 gols e 3 assistências",
+          "William Pottker — 2 gols"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Sport Recife é favorito em casa contra o Londrina, que tem um retrospecto ruim como visitante e está na zona de rebaixamento. O Sport vem de uma sequência invicta.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 70% para a vitória do Sport Recife, com fair odd de 1.43. A odd mínima de entrada é 1.64, e o mercado oferece 1.66, indicando valor.",
+      "mercado_secundario": "Mais 0.5 gols HT",
+      "odd_minima_secundaria": "1.50",
+      "desempenho_1t": "Sport Recife marca 0.27 gols no 1ºT; Londrina marca 0.82 gols no 1ºT.",
+      "desempenho_2t": "Sport Recife sofre 0.82 gols no 2ºT; Londrina sofre 0.73 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "10º",
+          "posicao_geral": "10º",
+          "objetivo": "acesso"
+        },
+        "fora": {
+          "posicao": "17º",
+          "posicao_geral": "17º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Sport Recife está na 10ª posição com 32 pontos, buscando se aproximar da zona de acesso. Londrina está em 17º com 20 pontos, lutando contra o rebaixamento. O Sport tem um retrospecto recente invicto de 5 jogos, enquanto o Londrina vem de 3 derrotas seguidas.",
+      "coeficiente_regularidade": "Sport Recife: CV moderado | Londrina: CV alto",
+      "mando_de_campo": "Sport Recife tem 3V, 7E, 1D em casa, com 16 pontos em 11 jogos.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Sport Recife marca 1.09 gols/jogo e sofre 1.64 gols/jogo. Londrina marca 1.18 gols/jogo e sofre 1.55 gols/jogo.",
+      "momento_gols": "Sport Recife marca mais gols no 2º tempo (35% entre 46-60min, 29% entre 76-90min). Londrina marca mais gols no 2º tempo (31% entre 76-90min).",
+      "jogadores_chave": "Perotti (Sport Recife), Chrystian Barletta (Sport Recife), Bruno Santos (Londrina).",
+      "placares_provaveis": "2x1, 1x0, 2x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out se o placar for desfavorável ou se o Londrina abrir o placar.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e bom momento do Sport.",
+        "gatilho_saida_parcial": "Gol do Londrina ou placar desfavorável.",
+        "hard_stop": "Se o Londrina abrir o placar."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.6",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Sport Recife - buscando acesso",
+        "indices_gols_faixas": "Sport Recife Marcado 61-75: 12% | 76-90: 29% | Londrina Sofrido 61-75: 15% | 76-90: 31%",
+        "qual_condicao_atende": "Londrina Sofrido 76-90: 31% (acima de 25%)",
+        "motivo_motivacao": "Sport Recife busca acesso, Londrina luta contra rebaixamento.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "Over 2.5 a 1.95 e Over 3.5 a 3.57 indicam que o mercado espera gols. O H2H com 6/7 jogos acima de 2.5 gols reforça a tendência.",
+        "risco_principal": "Jogo pode se tornar truncado se o Londrina se fechar após abrir o placar.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão."
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "mercado_confirma"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "73% (Sport Recife 73%, Londrina 73%)",
+        "gols_1t_faixas": "Sport Recife Marcado 0-15: 0% | 16-30: 18% | 31-45: 6% | Londrina Sofrido 0-15: 8% | 16-30: 15% | 31-45: 15%",
+        "media_gols_1t": "1.1 (Sport Recife 0.45 + Londrina 0.73)",
+        "razao": "Ambos os times têm um índice de Over 0.5 HT de 73% e uma média de gols no primeiro tempo de 1.1. O mercado confirma com odd de 1.36.",
+        "ponderacao_odds": "Odd de 1.36 para Over 0.5 HT sugere que o mercado espera gols no primeiro tempo.",
+        "risco_principal": "O Londrina pode adotar uma postura mais defensiva no início.",
+        "condicao_entrada": "Pré-jogo na odd de abertura, OU ao vivo se 0-0 aos 12-18min com pressão clara de um lado",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": null,
+      "back_goleada": null,
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "mandante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "9.5%",
+        "ponderacao_odds": "Under 1.5 a 3.56 é caro, indicando que o mercado espera mais de 1 gol. O H2H com 6/7 jogos acima de 2.5 gols reforça a tendência.",
+        "risco_principal": "O Sport pode ter dificuldade em furar a defesa do Londrina no início.",
+        "visitante_over_0_5": "73%",
+        "visitante_marca_pct": "55%",
+        "media_gols_total": "2.73",
+        "btts_medio": "55%",
+        "razao": "O jogo tem potencial para mais de 1 gol, com o Londrina marcando em 73% dos jogos fora e o Sport sendo produtivo em casa. O mercado de Under 1.5 está caro.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%",
+        "razao_reprovacao": "visitante marca 55% (precisa >60%)"
+      },
+      "lay_0x1": null,
+      "confirmacao_visual": null,
+      "_media_casa_bruta": "1.09",
+      "_media_fora_bruta": "1.18",
+      "_alerta_coerencia": "prob estimada 70% diverge da P(vitória) implícita nas médias de gols (35%) — revise médias ou probabilidade",
+      "_mercado_original_incoerente": "Vitória Sport Recife",
+      "_ev_pct": 15,
+      "_ev_odd": 1.64,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8469563?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:00",
+      "liga": "saudi arabia professional league",
+      "jogo": "Al Hilal x Al Faisaly",
+      "metodos_aplicados": [
+        "back_favorito",
+        "back_goleada"
+      ],
+      "mercado_principal": "Vitória Al Hilal",
+      "probabilidade_estimada": "90%",
+      "fair_odd": "1.11",
+      "odd_minima_entrada": "1.25",
+      "media_gols_casa": null,
+      "media_gols_fora": null,
+      "media_sofridos_casa": null,
+      "media_sofridos_fora": null,
+      "odds_mercado": {
+        "casa": "1.14",
+        "empate": "7.00",
+        "fora": "17.00",
+        "dupla_chance_1x": "1.03",
+        "dupla_chance_12": "1.06",
+        "dupla_chance_x2": "6.50",
+        "over_05": "1.01",
+        "under_05": "20.00",
+        "over_15": "1.08",
+        "under_15": "7.50",
+        "over_25": "1.33",
+        "under_25": "3.40",
+        "over_35": "1.80",
+        "under_35": "2.00",
+        "over_45": "2.80",
+        "under_45": "1.42",
+        "over_05_ht": "1.13",
+        "under_05_ht": "5.20",
+        "over_15_ht": "1.92",
+        "under_15_ht": "1.85",
+        "over_25_ht": "3.60",
+        "under_25_ht": "1.25",
+        "over_05_2t": "1.07",
+        "under_05_2t": "5.75",
+        "over_15_2t": "1.53",
+        "under_15_2t": "2.25",
+        "over_25_2t": "2.53",
+        "under_25_2t": "1.43",
+        "ambas_marcam_yes": "2.00",
+        "ambas_marcam_no": "1.72",
+        "ambas_marcam_1t_yes": "4.50",
+        "ambas_marcam_1t_no": "1.18",
+        "ambas_marcam_2t_yes": "3.50",
+        "ambas_marcam_2t_no": "1.28"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": null,
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [],
+        "destaques_fora": [],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Al Hilal é favorito absoluto com odd de 1.14, enfrentando Al Faisaly que ainda não pontuou na liga. Favoritismo extremo e cenário de goleada.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 90% para a vitória do Al Hilal, com fair odd de 1.11. A odd de mercado de 1.14 oferece um pequeno valor.",
+      "mercado_secundario": "Vitória Al Hilal (marcar 4+ gols)",
+      "odd_minima_secundaria": "4.00",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": null,
+          "posicao_geral": "7",
+          "objetivo": null
+        },
+        "fora": {
+          "posicao": null,
+          "posicao_geral": "2",
+          "objetivo": null
+        }
+      },
+      "motivacao_tecnica": "Al Hilal é um dos favoritos ao título e joga em casa contra um Al Faisaly que ainda não pontuou e tem odd de 17.00. O favoritismo é extremo.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "placares_provaveis": "3x0, 4x0, 4x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo extremo e odd atrativa para goleada.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_vitoria_>=68",
+          "odd_favorito_1.40_a_1.80",
+          "mando_ou_superioridade",
+          "adversario_ma_fase",
+          "elenco_completo",
+          "ev_>=5pct",
+          "geral_e_mando_alinhados"
+        ],
+        "criterios_total": 8,
+        "modo": "pre_jogo",
+        "favorito": "Al Hilal",
+        "odd_alvo": "1.14",
+        "razao": "Al Hilal é favorito absoluto com odd de 1.14, jogando em casa contra um Al Faisaly que ainda não pontuou na liga. Favoritismo claro e elenco completo.",
+        "ponderacao_odds": "Odd de 1.14 confirma o favoritismo extremo. O H2H não está disponível, mas o retrospecto recente do Al Hilal é forte.",
+        "risco_principal": "Al Faisaly pode surpreender com um gol isolado.",
+        "stake_recomendada": "5%"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "modo": null,
+        "indice_over05ht": null,
+        "gols_1t_faixas": null,
+        "media_gols_1t": null,
+        "razao": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=70",
+          "odd_favorito_<=1.40",
+          "adversario_sofre_>=2.0"
+        ],
+        "criterios_total": 6,
+        "candidato": "Al Hilal",
+        "razao": "Favoritismo extremo do Al Hilal (odd 1.14) contra um Al Faisaly que ainda não pontuou e tem histórico recente de sofrer muitos gols.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Al Hilal marca 4+ gols",
+        "ponderacao_odds": "Odd de 1.14 para o Al Hilal e 1.33 para Over 2.5 confirmam o cenário de goleada.",
+        "risco_principal": "Al Faisaly pode se fechar defensivamente.",
+        "odd_esperada": "4.00",
+        "stake_recomendada": "2%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_dados_faltantes": [
+        "retrospecto H2H",
+        "jogadores (aba Jogadores)",
+        "momento dos gols"
+      ],
+      "_ev_pct": 3,
+      "_ev_odd": 1.14,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8620395?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "14:00",
+      "liga": "Dinamarca - Segunda Divisão (1st Division)",
+      "jogo": "AaB x Fredericia",
+      "metodos_aplicados": [
+        "over_ht_05"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "media_gols_casa": 1.25,
+      "media_gols_fora": 0.75,
+      "media_sofridos_casa": "1.00",
+      "media_sofridos_fora": "1.50",
+      "odds_mercado": {
+        "casa": "2.62",
+        "empate": "3.50",
+        "fora": "2.45",
+        "dupla_chance_1x": "1.53",
+        "dupla_chance_12": "1.22",
+        "dupla_chance_x2": "1.40",
+        "over_05": "1.01",
+        "under_05": "15.00",
+        "over_15": "1.17",
+        "under_15": "5.01",
+        "over_25": "1.60",
+        "under_25": "2.30",
+        "over_35": "2.48",
+        "under_35": "1.55",
+        "over_45": "4.31",
+        "under_45": "1.22"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": "Não há dados de H2H com odds disponíveis.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Frederik Børsting — meio-campista com 1 gol",
+          "Markus Andreas Kaasa — meio-campista com 1 gol",
+          "Kornelius Normann Hansen — meio-campista com 1 gol"
+        ],
+        "destaques_fora": [
+          "Frederik Thykær Rieper — atacante com 1 gol",
+          "Nemo Thomsen — atacante com 1 gol",
+          "Elias Hansborg — atacante com 1 gol"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Ambos os times têm bom índice de Over 0.5 HT (100% para AaB e 75% para Fredericia). O mercado também indica gols cedo com odd de 1.25 para Over 0.5 HT.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 60% para Over 0.5 HT, com odd mínima de entrada de 1.92. O mercado oferece 1.25, indicando valor.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "AaB marca 0.5 gols no 1ºT, Fredericia marca 0% no 1ºT.",
+      "desempenho_2t": "AaB sofre 0% no 2ºT, Fredericia marca 1 gol no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "2",
+          "posicao_geral": "2",
+          "objetivo": "acesso"
+        },
+        "fora": {
+          "posicao": "1",
+          "posicao_geral": "6",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "AaB está em 2º lugar na tabela geral e como mandante, buscando acesso. Fredericia está em 6º lugar geral e 1º como visitante, buscando manter a boa fase. Ambos os times demonstram capacidade de marcar no primeiro tempo, com AaB marcando em 50% dos seus jogos e Fredericia tendo 75% de Over 0.5 HT.",
+      "coeficiente_regularidade": "AaB: CV moderado | Fredericia: CV alto",
+      "mando_de_campo": "AaB tem 100% de aproveitamento em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "AaB marca no 1º tempo em 50% dos jogos. Fredericia tem 75% de Over 0.5 HT.",
+      "momento_gols": "AaB marca 50% dos seus gols no 1º tempo. Fredericia marca 50% dos seus gols no 2º tempo.",
+      "jogadores_chave": [
+        "Frederik Børsting",
+        "Markus Andreas Kaasa",
+        "Kornelius Normann Hansen",
+        "Frederik Thykær Rieper",
+        "Nemo Thomsen",
+        "Elias Hansborg"
+      ],
+      "placares_provaveis": null,
+      "momento_entrada": "pré-jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "1.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O Over 0.5 HT é um mercado com boa probabilidade de acerto e odd razoável.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 8,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": "Jogo muito equilibrado, sem um favorito claro nas odds.",
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": "Nenhum dos times se encaixa como zebra com odd >= 5.00.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "87.5%",
+        "gols_1t_faixas": "AaB Marcado 1ºT: 50% | Fredericia Marcado 1ºT: 0%",
+        "media_gols_1t": "0.50",
+        "razao": "Ambos os times demonstram capacidade de marcar no primeiro tempo, com AaB marcando em 50% dos seus jogos e Fredericia tendo 75% de Over 0.5 HT. O mercado também indica gols cedo com odd de 1.25 para Over 0.5 HT.",
+        "ponderacao_odds": "A odd de Over 0.5 HT é 1.25, o que é baixo, mas o índice de Over 0.5 HT de ambos os times é alto.",
+        "risco_principal": "Fredericia tem 0% de gols marcados no 1º tempo.",
+        "condicao_entrada": "Pré-jogo na odd de abertura.",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": "O índice de Over 2.5 gols é baixo (1.60), indicando que o mercado não espera um jogo com muitos gols.",
+        "indice_over_2_5": "0%",
+        "indice_ambas_marcam": "100%",
+        "indice_over_ht": "87.5%",
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": "Não há favoritismo extremo para nenhum dos lados.",
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": "A média de gols total é 2.00, o que não favorece um placar de 1x0. Além disso, o mercado de Under 1.5 gols está muito baixo (5.01).",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": "A média de gols total é 2.00, o que não favorece um placar de 0x1. Além disso, o mercado de Under 1.5 gols está muito baixo (5.01).",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_media_casa_bruta": "1.00",
+      "_media_fora_bruta": "0.50",
+      "_ev_pct": -39,
+      "_ev_odd": 1.01,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8588636?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "14:00",
+      "liga": "Suécia - Primeira Divisão (Allsvenskan)",
+      "jogo": "Elfsborg x Västerås SK",
+      "metodos_aplicados": [
+        "over_2_5",
+        "over_ht_05"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "media_gols_casa": 1.69,
+      "media_gols_fora": 1.13,
+      "media_sofridos_casa": "1.13",
+      "media_sofridos_fora": "2.13",
+      "odds_mercado": {
+        "casa": "1.61",
+        "empate": "4.10",
+        "fora": "5.00",
+        "dupla_chance_1x": "1.14",
+        "dupla_chance_12": "1.22",
+        "dupla_chance_x2": "2.40",
+        "over_05": "1.01",
+        "under_05": "11.00",
+        "over_15": "1.22",
+        "under_15": "4.36",
+        "over_25": "1.70",
+        "under_25": "2.10",
+        "over_35": "2.77",
+        "under_35": "1.45",
+        "over_45": "5.15",
+        "under_45": "1.17",
+        "over_05_ht": "1.29",
+        "under_05_ht": "3.30",
+        "over_15_ht": "2.55",
+        "under_15_ht": "1.51",
+        "over_25_ht": "6.50",
+        "under_25_ht": "1.08",
+        "over_05_2t": "1.20",
+        "under_05_2t": "4.20",
+        "over_15_2t": "1.91",
+        "under_15_2t": "1.80",
+        "over_25_2t": "4.00",
+        "under_25_2t": "1.22",
+        "ambas_marcam_yes": "1.75",
+        "ambas_marcam_no": "2.00",
+        "ambas_marcam_1t_yes": "4.33",
+        "ambas_marcam_1t_no": "1.20",
+        "ambas_marcam_2t_yes": "3.25",
+        "ambas_marcam_2t_no": "1.33"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Elfsborg como favorito: 6V 6E 4D",
+        "resumo_favorito_fora": "Västerås SK como favorito: 4V 1E 3D",
+        "leitura": "Elfsborg tem um retrospecto positivo como favorito, enquanto Västerås SK tem um desempenho mais modesto quando cotado como favorito.",
+        "jogos_relevantes": [
+          {
+            "data": "11/04/26",
+            "confronto": "Västerås SK x Elfsborg",
+            "time_analisado": "Elfsborg",
+            "papel": "favorito",
+            "odd": "2.50",
+            "placar": "2-2",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Elfsborg",
+        "texto": "Elfsborg entrega como favorito: 6V 6E 4D quando cotado abaixo de 2.50."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Mikkel Ladefoged — artilheiro com 9 gols",
+          "Júlíus Magnússon — 2 gols e 4 assistências",
+          "Simon Olsson — 1 gol e 2 assistências"
+        ],
+        "destaques_fora": [
+          "Axel Sountonoma Taonsa — artilheiro com 6 gols",
+          "Mikkel Ladefoged — artilheiro com 9 gols",
+          "Marcus Baggesen — 2 gols e 3 assistências"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Elfsborg é favorito em casa, com bom retrospecto e ataque produtivo. Västerås SK sofre muitos gols fora e tem tendência a jogos com mais de 2.5 gols.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 60% para a vitória do Elfsborg, com fair odd de 1.67. A odd mínima de entrada é 1.92, e a odd de mercado de 1.61 não oferece valor.",
+      "mercado_secundario": "Mais 2.5 gols",
+      "odd_minima_secundaria": "1.96",
+      "desempenho_1t": "Elfsborg marca 0.5 gols no 1ºT, Västerås SK sofre 1.13 gols no 1ºT",
+      "desempenho_2t": "Elfsborg marca 0.75 gols no 2ºT, Västerås SK sofre 1.00 gols no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "8",
+          "posicao_geral": "7",
+          "objetivo": "libertadores"
+        },
+        "fora": {
+          "posicao": "7",
+          "posicao_geral": "6",
+          "objetivo": "libertadores"
+        }
+      },
+      "motivacao_tecnica": "Elfsborg (7º) e Västerås SK (6º) estão próximos na tabela e ambos lutam por vagas em competições europeias. Elfsborg tem um desempenho sólido em casa (3V 3E 2D), enquanto Västerås SK tem um retrospecto mais fraco fora (3V 3E 2D). O Elfsborg tem um ataque mais consistente e uma defesa que sofre menos gols em casa do que o Västerås SK sofre fora.",
+      "coeficiente_regularidade": "Elfsborg: CV moderado | Västerås SK: CV alto",
+      "mando_de_campo": "Elfsborg: 3V 3E 2D em casa (11 gols marcados, 9 sofridos)",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Elfsborg marca mais no 2º tempo (63% dos gols), Västerås SK marca mais no 1º tempo (50% dos gols).",
+      "momento_gols": "Elfsborg: 61-75 (27%), 76-90 (36%) | Västerås SK: 46-60 (22%), 61-75 (24%)",
+      "jogadores_chave": "Mikkel Ladefoged (Elfsborg), Axel Sountonoma Taonsa (Västerås SK)",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O favoritismo do Elfsborg é claro, mas a odd de mercado não oferece valor suficiente para uma entrada direta.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "ataques_iniciam_forte",
+          "mercado_confirma",
+          "sem_perfil_estudado"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "82% (Elfsborg 75%, Västerås SK 82%)",
+        "gols_1t_faixas": "Elfsborg Marcado 1ºT: 18% | Västerås SK Sofrido 1ºT: 11%",
+        "media_gols_1t": "1.63",
+        "razao": "Ambos os times têm um bom índice de Over 0.5 HT e a média de gols no primeiro tempo é alta. O mercado também confirma essa tendência.",
+        "ponderacao_odds": "Odd de Over 0.5 HT a 1.29 confirma a expectativa de gols no primeiro tempo.",
+        "risco_principal": "Västerås SK sofre muitos gols no segundo tempo, o que pode equilibrar o jogo.",
+        "condicao_entrada": "Pré-jogo",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null,
+      "_media_casa_bruta": "1.25",
+      "_media_fora_bruta": "1.13",
+      "_mercado_original_incoerente": "Vitória Elfsborg",
+      "_ev_pct": -39,
+      "_ev_odd": 1.01,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8420435?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:45",
+      "liga": "Bélgica - Primeira Divisão (Pro League)",
+      "jogo": "Cercle Brugge x Sint-Truiden",
+      "metodos_aplicados": [
+        "over_ht_05",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "55%",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "media_gols_casa": null,
+      "media_gols_fora": null,
+      "media_sofridos_casa": null,
+      "media_sofridos_fora": null,
+      "odds_mercado": {
+        "casa": "2.50",
+        "empate": "3.50",
+        "fora": "2.62",
+        "dupla_chance_1x": "1.30",
+        "dupla_chance_12": "1.33",
+        "dupla_chance_x2": "1.62",
+        "over_05": "1.07",
+        "under_05": "8.00",
+        "over_15": "1.44",
+        "under_15": "2.70",
+        "over_25": "1.70",
+        "under_25": "2.10",
+        "ambas_marcam": "1.57",
+        "ambas_marcam_1t": "4.00",
+        "ambas_marcam_2t": "2.75"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": "O H2H não apresenta dados relevantes para esta partida.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Lukas Hubert Mondele Anzun - atacante, 1 gol",
+          "Christiaan Ravych - defensor, 1 gol"
+        ],
+        "destaques_fora": [
+          "Ilias Sebaoui - atacante, 1 gol"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Ambos os times têm alta tendência de gols no primeiro tempo (82% Over 0.5 HT) e o mercado espera um jogo aberto (Over 2.5 a 1.70).",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 55% para Over 0.5 HT, com odd mínima de entrada de 2.09. O mercado oferece 1.44 para Over 1.5 HT, indicando valor.",
+      "mercado_secundario": "Resultado Exato 2x2",
+      "odd_minima_secundaria": "10.00",
+      "desempenho_1t": "Cercle Brugge: 0% Over 0.5 HT; Sint-Truiden: 0% Over 0.5 HT",
+      "desempenho_2t": "Cercle Brugge: 0% Over 0.5 2ºT; Sint-Truiden: 0% Over 0.5 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "10º",
+          "posicao_geral": "9º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "9º",
+          "posicao_geral": "9º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times estão na metade da tabela, sem objetivos claros de título ou rebaixamento. A tendência de gols nos jogos recentes de ambos os times (10/10 para Mais de 2.5 Gols e 9/10 para Ambas Marcam) sugere um jogo aberto. A odd de Over 2.5 a 1.70 confirma essa expectativa do mercado.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Cercle Brugge: 0V 1E 0D em casa (0 pontos). Sint-Truiden: 0V 1E 0D fora (1 ponto).",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "placares_provaveis": "2x1, 1x2, 2x2",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out total no 1x1; parcial no 2x1 ou 1x2.",
+      "stake_recomendada": "1.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O jogo apresenta características de ambos os times marcarem e de um placar com mais de 2.5 gols.",
+        "gatilho_saida_parcial": "Chegada em 2x1 ou 1x2.",
+        "hard_stop": "Chegada em 1x1."
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 8,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": "Não há um favorito claro nas odds (2.50 x 2.62) e a probabilidade estimada não atinge o limiar de 68%.",
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": "A odd da zebra (Sint-Truiden a 2.62) não atinge o mínimo de 5.00 para este método.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "mercado_confirma"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "82% (Cercle Brugge: 80%, Sint-Truiden: 84%)",
+        "gols_1t_faixas": "Cercle Brugge Marcado 1ºT: 0% | Sint-Truiden Marcado 1ºT: 0%",
+        "media_gols_1t": "0.00",
+        "razao": "Apesar da média de gols no 1º tempo ser 0.00, a tendência geral de Over 0.5 HT é alta (82%) e o mercado confirma com odd de Over 2.5 a 1.70.",
+        "ponderacao_odds": "A odd de Over 0.5 HT não está disponível, mas a odd de Over 2.5 a 1.70 sugere que o mercado espera gols.",
+        "risco_principal": "Ambos os times têm média de 0 gols no primeiro tempo, indicando que os gols podem sair apenas no segundo tempo.",
+        "condicao_entrada": "Pré-jogo na odd de abertura, OU ao vivo se 0-0 aos 12-18min com pressão clara de um lado",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=65",
+          "btts_>=65",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Alto índice de Over 2.5 (10/10), Ambas Marcam (9/10) e Over HT (8/10) nos jogos recentes de ambos os times, com odds de mercado confirmando a expectativa de gols.",
+        "indice_over_2_5": "100% (Cercle Brugge: 100%, Sint-Truiden: 100%)",
+        "indice_ambas_marcam": "90% (Cercle Brugge: 90%, Sint-Truiden: 90%)",
+        "indice_over_ht": "82% (Cercle Brugge: 80%, Sint-Truiden: 84%)",
+        "ponderacao_odds": "A odd de Over 2.5 a 1.70 confirma a expectativa do mercado por um jogo com muitos gols.",
+        "risco_principal": "Apesar das tendências, os dados de gols por tempo são 0%, o que pode indicar que os gols só ocorrem no segundo tempo.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": "Não há favoritismo extremo (odds 2.50 x 2.62) nem dados que indiquem um ataque muito forte para um dos lados.",
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": "Os dados de gols por tempo são 0%, o que sugere que o jogo pode não ter gols no primeiro tempo, mas não há garantia de que não terminará 1x0. A odd de Under 1.5 a 2.70 não é considerada 'cara' o suficiente para justificar o lay.",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": "Os dados de gols por tempo são 0%, o que sugere que o jogo pode não ter gols no primeiro tempo, mas não há garantia de que não terminará 0x1. A odd de Under 1.5 a 2.70 não é considerada 'cara' o suficiente para justificar o lay.",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_dados_faltantes": [
+        "momento dos gols"
+      ],
+      "_ev_pct": -41,
+      "_ev_odd": 1.07,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8562319?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:00",
+      "liga": "Holanda Primeira Divisão (Eredivisie)",
+      "jogo": "Telstar x Sparta Rotterdam",
+      "metodos_aplicados": [
+        "over_ht_05",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "55%",
+      "fair_odd": "1.82",
+      "odd_minima_entrada": "2.09",
+      "media_gols_casa": null,
+      "media_gols_fora": null,
+      "media_sofridos_casa": null,
+      "media_sofridos_fora": null,
+      "odds_mercado": {
+        "casa": "2.25",
+        "empate": "3.70",
+        "fora": "3.00",
+        "dupla_chance_1x": "1.33",
+        "dupla_chance_12": "1.25",
+        "dupla_chance_x2": "1.73",
+        "over_05": "1.01",
+        "under_05": "17.00",
+        "over_15": "1.18",
+        "under_15": "5.29",
+        "over_25": "1.57",
+        "under_25": "2.35",
+        "over_35": "2.39",
+        "under_35": "1.62",
+        "over_45": "4.14",
+        "under_45": "1.25",
+        "over_05_ht": "1.20",
+        "under_05_ht": "4.00",
+        "over_15_ht": "2.31",
+        "under_15_ht": "1.62",
+        "over_25_ht": "5.50",
+        "under_25_ht": "1.11",
+        "over_05_2t": "1.17",
+        "under_05_2t": "4.60",
+        "over_15_2t": "1.75",
+        "under_15_2t": "1.95",
+        "over_25_2t": "3.40",
+        "under_25_2t": "1.29",
+        "ambas_marcam": "1.50",
+        "ambas_marcam_no_1_tempo": "3.75",
+        "ambas_marcam_no_2_tempo": "2.62",
+        "mandante_nao_sofre": "3.55",
+        "visitante_nao_sofre": "5.00",
+        "vitoria_sem_sofrer_mandante": "4.50",
+        "vitoria_sem_sofrer_visitante": "6.50"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": "Dados H2H insuficientes para análise.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Rui Mendes — atacante, marcou 1 gol",
+          "Patrick Brouwer — atacante, marcou 1 gol e 1 assistência"
+        ],
+        "destaques_fora": [
+          "Shunsuke Mito — meia, atuou 77 minutos",
+          "Ayoni Santos — meia, atuou 77 minutos"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Telstar com 8/10 jogos acima de 2.5 gols e 6/8 com ambas marcam. Sparta Rotterdam com 4/5 jogos acima de 2.5 gols. Ambos os times apresentam tendências de jogos abertos.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 55% para Over HT, resultando em uma fair odd de 1.82. A odd mínima de entrada é 2.09, indicando valor se a odd de mercado for superior.",
+      "mercado_secundario": "Mais 2.5 Gols",
+      "odd_minima_secundaria": "1.75",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "8º",
+          "posicao_geral": "8º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "15º",
+          "posicao_geral": "11º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Telstar está em 8º lugar com 3 pontos, mostrando um desempenho razoável em casa. Sparta Rotterdam está em 11º lugar com 0 pontos, indicando um início de temporada mais difícil. Ambos os times têm histórico recente de jogos com muitos gols.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "placares_provaveis": null,
+      "momento_entrada": "Pré-jogo ou ao vivo se 0-0 aos 12-18min com pressão clara de um lado",
+      "situacao_saida": null,
+      "stake_recomendada": "1.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Ambos os times apresentam tendências de jogos com gols no primeiro tempo.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 8,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": "Probabilidade estimada de vitória do Telstar é de 45% (fair odd 2.22), que não atende ao critério de odd mínima de entrada de 2.09.",
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": "A odd do Sparta Rotterdam é 3.00, que não atende ao critério de odd mínima de 5.00 para a zebra.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "mercado_confirma"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "75%",
+        "gols_1t_faixas": "Favorito Marcado 1ºT: 0% | Adversário Sofrido 1ºT: 0%",
+        "media_gols_1t": "0.0",
+        "razao": "Ambos os times têm um índice de Over 0.5 HT de 75% e a odd de mercado confirma a expectativa de gols no primeiro tempo.",
+        "ponderacao_odds": "A odd de Over 0.5 HT é 1.20, confirmando a expectativa do mercado.",
+        "risco_principal": "Ambos os times têm média de 1º tempo baixa.",
+        "condicao_entrada": "Pré-jogo na odd de abertura.",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=65",
+          "btts_>=65",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Ambos os times apresentam alto índice de Over 2.5 Gols (8/10 para Telstar, 4/5 para Sparta Rotterdam) e Ambas Marcam (6/8 para Telstar). A odd de Over 2.5 é 1.57, indicando que o mercado também espera um jogo com gols.",
+        "indice_over_2_5": "70%",
+        "indice_ambas_marcam": "65%",
+        "indice_over_ht": "75%",
+        "ponderacao_odds": "A odd de Over 2.5 é 1.57, confirmando a expectativa do mercado de um jogo com gols.",
+        "risco_principal": "Ambos os times têm média de 1º tempo baixa.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "candidato": null,
+        "razao": "O favoritismo não é extremo o suficiente para justificar o método Back Goleada.",
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": "Os dados de gols e tendências não suportam a aplicação do Lay 1x0.",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": "Os dados de gols e tendências não suportam a aplicação do Lay 0x1.",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": null,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_dados_faltantes": [
+        "momento dos gols"
+      ],
+      "_ev_pct": -44,
+      "_ev_odd": 1.01,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8547651?dia=hoje&mode=ha&modo=detalhado"
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "13:50",
+      "jogo": "Al Suqoor x Al Feiha",
+      "liga": "Arábia Saudita - Primeira Divisão (Professional League)",
+      "motivo": "Dados insuficientes para aplicar outros métodos além de Back Favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "Aplicado.",
+        "lay_zebra": "Odd da zebra (Al Feiha) é 4.33, abaixo do mínimo de 5.00.",
+        "over_limite_70": "Não há dados de gols por período ou momento dos gols.",
+        "back_2x2": "Índices de Over 2.5 e Ambas Marcam não disponíveis.",
+        "back_goleada": "Probabilidade estimada do favorito (Al Suqoor) é 60%, abaixo do mínimo de 70%.",
+        "lay_1x0": "Não há dados suficientes para calcular P(1-0) com margem. Média de gols total é 0.00.",
+        "lay_0x1": "Não há dados suficientes para calcular P(0-1) com margem. Média de gols total é 0.00."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8620392?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:00",
+      "jogo": "Al Ittifaq x Al Riyadh",
+      "liga": "Arábia Saudita - Primeira Divisão (Professional League)",
+      "motivo": "Dados insuficientes para análise de desempenho recente.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados de desempenho e aproveitamento ausentes no PDF.",
+        "lay_zebra": "Dados de desempenho e aproveitamento ausentes no PDF.",
+        "over_limite_70": "Dados de gols por período ausentes no PDF.",
+        "over_ht_05": "Dados de gols por período ausentes no PDF.",
+        "back_2x2": "Dados de Over 2.5 e Ambas Marcam ausentes no PDF.",
+        "back_goleada": "Dados de desempenho ofensivo e defensivo ausentes no PDF.",
+        "lay_1x0": "Dados de média de gols e BTTS ausentes no PDF.",
+        "lay_0x1": "Dados de média de gols e BTTS ausentes no PDF."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8620406?dia=hoje&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:00",
+      "jogo": "Telstar x Sparta Rotterdam",
+      "liga": "Holanda Primeira Divisão (Eredivisie)",
+      "motivo": "Dados insuficientes para aplicar métodos de forma confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "Probabilidade estimada de vitória do Telstar é de 45% (fair odd 2.22), que não atende ao critério de odd mínima de entrada de 2.09.",
+        "lay_zebra": "A odd do Sparta Rotterdam é 3.00, que não atende ao critério de odd mínima de 5.00 para a zebra.",
+        "over_limite_70": "Dados de gols por período no PDF são insuficientes.",
+        "back_2x2": "Embora haja tendência de gols, a falta de dados específicos sobre a performance no 1º tempo e a fragilidade das defesas impede a aplicação segura.",
+        "back_goleada": "O favoritismo não é extremo o suficiente para justificar o método Back Goleada.",
+        "lay_1x0": "Os dados de gols e tendências não suportam a aplicação do Lay 1x0.",
+        "lay_0x1": "Os dados de gols e tendências não suportam a aplicação do Lay 0x1."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8547651?dia=hoje&mode=ha&modo=detalhado"
+    }
+  ],
+  "pdfs": [
+    {
+      "jogo": "Al Suqoor x Al Feiha",
+      "arquivo": "pdfs/2026-08-14/Arábia_Saudita_Arábia_Saudita_-_Primeira_Divisão_Professiona/001_13h50_Al_Suqoor_x_Al_Feiha.pdf"
+    },
+    {
+      "jogo": "Al Hilal x Al Faisaly",
+      "arquivo": "pdfs/2026-08-14/Arábia_Saudita_Arábia_Saudita_-_Primeira_Divisão_Professiona/002_15h00_Al_Hilal_x_Al_Faisaly.pdf"
+    },
+    {
+      "jogo": "Al Ittifaq x Al Riyadh",
+      "arquivo": "pdfs/2026-08-14/Arábia_Saudita_Arábia_Saudita_-_Primeira_Divisão_Professiona/003_15h00_Al_Ittifaq_x_Al_Riyadh.pdf"
+    },
+    {
+      "jogo": "Cercle Brugge x Sint-Truiden",
+      "arquivo": "pdfs/2026-08-14/Bélgica_Bélgica_-_Primeira_Divisão_Pro_League/004_15h45_Cercle_Brugge_x_Sint-Truiden.pdf"
+    },
+    {
+      "jogo": "Sport Recife x Londrina",
+      "arquivo": "pdfs/2026-08-14/Brasil_Brasil_-_Segunda_Divisão_Serie_B/007_20h30_Sport_Recife_x_Londrina.pdf"
+    },
+    {
+      "jogo": "AaB x Fredericia",
+      "arquivo": "pdfs/2026-08-14/Dinamarca_Dinamarca_-_Segunda_Divisão_1st_Division/008_14h00_AaB_x_Fredericia.pdf"
+    },
+    {
+      "jogo": "Kolding IF x Vejle",
+      "arquivo": "pdfs/2026-08-14/Dinamarca_Dinamarca_-_Segunda_Divisão_1st_Division/009_14h00_Kolding_IF_x_Vejle.pdf"
+    },
+    {
+      "jogo": "Telstar x Sparta Rotterdam",
+      "arquivo": "pdfs/2026-08-14/Holanda_Holanda_-_Primeira_Divisão_Eredivisie/010_15h00_Telstar_x_Sparta_Rotterdam.pdf"
+    },
+    {
+      "jogo": "Sporting CP x Vitória Guimarães",
+      "arquivo": "pdfs/2026-08-14/Portugal_Portugal_-_Primeira_Divisão_Liga_NOS/011_16h15_Sporting_CP_x_Vitória_Guimarães.pdf"
+    },
+    {
+      "jogo": "Elfsborg x Västerås SK",
+      "arquivo": "pdfs/2026-08-14/Suécia_Suécia_-_Primeira_Divisão_Allsvenskan/012_14h00_Elfsborg_x_Västerås_SK.pdf"
+    }
+  ]
+}
