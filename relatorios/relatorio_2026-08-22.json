@@ -1,0 +1,4032 @@
+{
+  "data": "2026-08-22",
+  "dia_consultado": "amanha",
+  "gerado_em": "2026-08-21T21:21:01.886565",
+  "total_partidas_analisadas": 43,
+  "entradas": [
+    {
+      "horario": "10:00",
+      "liga": "Suécia - Primeira Divisão (Allsvenskan)",
+      "jogo": "Örgryte x Halmstad",
+      "metodos_aplicados": [
+        "back_2x2"
+      ],
+      "mercado_principal": "Vitória Örgryte",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "media_gols_casa": 1.94,
+      "media_gols_fora": 1.31,
+      "media_sofridos_casa": "2.00",
+      "media_sofridos_fora": "2.13",
+      "odds_mercado": {
+        "casa": "2.00",
+        "empate": "3.70",
+        "fora": "3.40",
+        "dupla_chance_1x": "1.30",
+        "dupla_chance_12": "1.25",
+        "dupla_chance_x2": "1.83",
+        "over_05": "1.01",
+        "under_05": "15.00",
+        "over_15": "1.21",
+        "under_15": "4.42",
+        "over_25": "1.65",
+        "under_25": "2.20",
+        "over_35": "2.66",
+        "under_35": "1.47",
+        "over_45": "4.80",
+        "under_45": "1.18"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Örgryte como favorito: 3V 4E 10D (+2U)",
+        "resumo_favorito_fora": null,
+        "leitura": "Örgryte tem retrospecto negativo como favorito, mas Halmstad é o pior visitante da liga.",
+        "jogos_relevantes": [
+          {
+            "data": "23/05/26",
+            "confronto": "Halmstad x Örgryte",
+            "time_analisado": "Örgryte",
+            "papel": "favorito",
+            "odd": "3.70",
+            "placar": "2-0",
+            "resultado": "V",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "alerta",
+        "time": "Örgryte",
+        "texto": "Örgryte tem retrospecto ruim como favorito (3V 4E 10D), mas Halmstad é o pior visitante da liga."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Noah Christoffersson — artilheiro com 8 gols"
+        ],
+        "destaques_fora": [
+          "Omar Faraj — 3 gols"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-4-2",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Örgryte joga em casa contra o pior visitante da liga. Apesar do retrospecto negativo como favorito, a fragilidade defensiva do Halmstad e o mando de campo favorecem a entrada.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 60% para a vitória do Örgryte, com fair odd de 1.67. A odd mínima de entrada é 1.92, indicando valor.",
+      "mercado_secundario": "Lay Zebra",
+      "odd_minima_secundaria": "5.00",
+      "desempenho_1t": "Örgryte marca 0.50 no 1ºT, Halmstad sofre 1.38 no 1ºT",
+      "desempenho_2t": "Örgryte marca 0.38 no 2ºT, Halmstad sofre 1.38 no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "15",
+          "posicao_geral": "15",
+          "objetivo": "rebaixamento"
+        },
+        "fora": {
+          "posicao": "16",
+          "posicao_geral": "16",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times lutam contra o rebaixamento, o que pode gerar um jogo mais aberto. Örgryte tem um ataque mais produtivo em casa, enquanto Halmstad é o pior visitante da liga, com apenas 5 gols marcados em 8 jogos.",
+      "coeficiente_regularidade": "Örgryte: CV baixo | Halmstad: CV alto",
+      "mando_de_campo": "Örgryte tem 7 pontos em 8 jogos em casa (0.88 pts/jogo), Halmstad tem 2 pontos em 8 jogos fora (0.25 pts/jogo).",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Örgryte marca mais no 2º tempo (36%), Halmstad marca mais no 1º tempo (19%) e no meio do 2º tempo (41%).",
+      "momento_gols": "Örgryte: 61-75 (29%), 76-90 (36%). Halmstad: 46-60 (41%).",
+      "jogadores_chave": "Noah Christoffersson (Örgryte), Omar Faraj (Halmstad)",
+      "placares_provaveis": "2x1, 2x0, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out em caso de placar desfavorável ou se o Halmstad abrir o placar.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo do mandante contra o pior visitante da liga.",
+        "gatilho_saida_parcial": "Placar 2-0 para o Örgryte.",
+        "hard_stop": "Placar 0-1 ou 1-2 para o Halmstad."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=65",
+          "btts_>=65",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Ambos os times têm alto índice de Over 2.5 gols (Örgryte 63%, Halmstad 51%), Ambas Marcam (Örgryte 88%, Halmstad 50%), e defesas frágeis.",
+        "indice_over_2_5": "63%",
+        "indice_ambas_marcam": "88%",
+        "indice_over_ht": "63%",
+        "ponderacao_odds": "Over 2.5 a 1.65 indica que o mercado espera gols.",
+        "risco_principal": "O Halmstad tem um ataque muito fraco.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "modo": null,
+        "indice_over05ht": null,
+        "gols_1t_faixas": null,
+        "media_gols_1t": null,
+        "razao": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_media_casa_bruta": "1.75",
+      "_media_fora_bruta": "0.63",
+      "_ev_pct": 20,
+      "_ev_odd": 2.0,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8420445?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "12:15",
+      "liga": "França Primeira Divisão (Ligue 1)",
+      "jogo": "Lens x Auxerre",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "over_ht_05",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "media_gols_casa": null,
+      "media_gols_fora": null,
+      "media_sofridos_casa": null,
+      "media_sofridos_fora": null,
+      "odds_mercado": {
+        "casa": "1.55",
+        "empate": "4.50",
+        "fora": "5.25",
+        "dupla_chance_1x": "1.13",
+        "dupla_chance_12": "1.17",
+        "dupla_chance_x2": "2.40",
+        "over_05": "1.01",
+        "under_05": "15.00",
+        "over_15": "1.20",
+        "under_15": "4.50",
+        "over_25": "1.66",
+        "under_25": "2.20",
+        "over_35": "2.72",
+        "under_35": "1.49",
+        "over_45": "5.00",
+        "under_45": "1.17",
+        "over_05_ht": "1.25",
+        "under_05_ht": "3.60",
+        "over_15_ht": "2.40",
+        "under_15_ht": "1.50",
+        "over_25_ht": "5.50",
+        "under_25_ht": "1.11",
+        "over_05_2t": "1.20",
+        "under_05_2t": "4.33",
+        "over_15_2t": "1.85",
+        "under_15_2t": "1.85",
+        "over_25_2t": "3.80",
+        "under_25_2t": "1.22",
+        "ambas_marcam_yes": "1.70",
+        "ambas_marcam_no": "2.05",
+        "ambas_marcam_1t_yes": "4.00",
+        "ambas_marcam_1t_no": "1.22",
+        "ambas_marcam_2t_yes": "3.00",
+        "ambas_marcam_2t_no": "1.36",
+        "mandante_nao_sofre_yes": "2.40",
+        "mandante_nao_sofre_no": "1.50",
+        "visitante_nao_sofre_yes": "6.25",
+        "visitante_nao_sofre_no": "1.09",
+        "vitoria_sem_sofrer_mandante": "2.88",
+        "vitoria_sem_sofrer_visitante": "9.50",
+        "escanteios_1x2": "1.37",
+        "over_75_cantos": "1.21",
+        "under_75_cantos": "3.58",
+        "over_85_cantos": "1.46",
+        "under_85_cantos": "2.59",
+        "over_95_cantos": "1.81",
+        "under_95_cantos": "2.00",
+        "over_105_cantos": "2.28",
+        "under_105_cantos": "1.59"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": "Dados de H2H com odds não disponíveis no material fornecido.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [],
+        "destaques_fora": [],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Lens é favorito com odd 1.55, enfrenta Auxerre com odd 5.25. Ambos os times vêm de 3 vitórias seguidas e 3 jogos sem derrota. O mercado espera gols com Over 2.5 a 1.66.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 75% para o Lens, resultando em uma fair odd de 1.33. A odd mínima de entrada é 1.53, e o mercado oferece 1.55, indicando valor.",
+      "mercado_secundario": "Mais 0.5 gols HT",
+      "odd_minima_secundaria": "1.35",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "6",
+          "posicao_geral": "6",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "2",
+          "posicao_geral": "2",
+          "objetivo": "acesso"
+        }
+      },
+      "motivacao_tecnica": "Lens, 6º colocado, busca manter a boa fase e se aproximar da zona de classificação europeia. Auxerre, 2º colocado, luta pelo acesso. Ambos os times vêm de sequências positivas de vitórias e sem derrotas, indicando bom momento.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "placares_provaveis": null,
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e bom momento dos times.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.6",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Lens - buscando manter a boa fase e aproximação europeia",
+        "indices_gols_faixas": "Lens Marcado 61-75: 0% | 76-90: 0% | Auxerre Sofrido 61-75: 0% | 76-90: 0%",
+        "qual_condicao_atende": "Nenhuma das faixas de gols tardios atende ao critério mínimo de 25%.",
+        "motivo_motivacao": "Lens busca vaga europeia, Auxerre busca acesso. Jogo com motivação alta.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "Over 2.5 a 1.66 e Over 1.5 a 1.20 indicam que o mercado espera gols. No entanto, os dados de 'Momentos dos Gols' não mostram atividade tardia significativa.",
+        "risco_principal": "Falta de gols nos minutos finais pode impedir a entrada.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão."
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "mercado_confirma"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "0% (média dos dois times)",
+        "gols_1t_faixas": "Lens Marcado 1ºT: 0% | Auxerre Sofrido 1ºT: 0%",
+        "media_gols_1t": "0.0",
+        "razao": "Apesar da odd de Over 0.5 HT ser baixa (1.25), os dados de 'Momentos dos Gols' e 'Média de Gols no 1º Tempo' não mostram atividade significativa no início do jogo.",
+        "ponderacao_odds": "Odd de 1.25 para Over 0.5 HT sugere que o mercado espera um gol no primeiro tempo, mas os dados internos não corroboram.",
+        "risco_principal": "Falta de gols no primeiro tempo.",
+        "condicao_entrada": "Pré-jogo na odd de abertura, OU ao vivo se 0-0 aos 12-18min com pressão clara de um lado",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=65",
+          "btts_>=65",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Ambos os times têm tendência a Over 2.5 gols (1.66) e Ambas Marcam (1.70). O mercado espera gols.",
+        "indice_over_2_5": "4/5 (80%)",
+        "indice_ambas_marcam": "4/5 (80%)",
+        "indice_over_ht": "Não especificado nos dados fornecidos para este critério.",
+        "ponderacao_odds": "Over 2.5 a 1.66 indica que o mercado espera um jogo com gols. A odd de 2.20 para Under 2.5 reforça essa expectativa.",
+        "risco_principal": "Um dos times pode não marcar, ou o jogo pode ter menos de 3 gols.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "mandante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "8%",
+        "ponderacao_odds": "Under 1.5 a 4.50 indica que o mercado não espera um jogo com poucos gols, o que favorece o lay 1x0. O Over 2.5 a 1.66 também reforça essa ideia.",
+        "risco_principal": "O Lens pode vencer por 1-0.",
+        "visitante_over_0_5": "100%",
+        "visitante_marca_pct": "100%",
+        "media_gols_total": "0.00",
+        "btts_medio": "0%",
+        "razao": "O Auxerre tem 100% de aproveitamento em marcar e sofrer gols, e o mercado espera mais de 2.5 gols. O Lens também tem um bom retrospecto recente.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%",
+        "razao_reprovacao": "média de gols total 0 (precisa ≥2.5); ambas marcam 0% (precisa >50%)"
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "p_0x1_com_margem",
+          "mand_over05_>65",
+          "visitante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "8%",
+        "ponderacao_odds": "Under 1.5 a 4.50 indica que o mercado não espera um jogo com poucos gols, o que favorece o lay 0x1. O Over 2.5 a 1.66 também reforça essa ideia.",
+        "risco_principal": "O Auxerre pode vencer por 0-1.",
+        "mandante_over_0_5": "100%",
+        "mandante_marca_pct": "100%",
+        "media_gols_total": "0.00",
+        "btts_medio": "0%",
+        "razao": "O Lens tem 100% de aproveitamento em marcar e sofrer gols, e o mercado espera mais de 2.5 gols. O Auxerre também tem um bom retrospecto recente.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%",
+        "razao_reprovacao": "média de gols total 0 (precisa ≥2.5); ambas marcam 0% (precisa >50%)"
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_dados_faltantes": [
+        "jogadores (aba Jogadores)",
+        "momento dos gols"
+      ],
+      "_mercado_original_incoerente": "Vitória Lens",
+      "_ev_pct": 15,
+      "_ev_odd": 1.53,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8548657?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "13:30",
+      "liga": "Itália - Primeira Divisão (Serie A)",
+      "jogo": "Inter Milan x Monza",
+      "metodos_aplicados": [
+        "back_goleada",
+        "over_limite_70",
+        "over_ht_05"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "85%",
+      "fair_odd": "1.18",
+      "odd_minima_entrada": "1.35",
+      "media_gols_casa": null,
+      "media_gols_fora": null,
+      "media_sofridos_casa": null,
+      "media_sofridos_fora": null,
+      "odds_mercado": {
+        "casa": "1.22",
+        "empate": "6.50",
+        "fora": "13.00",
+        "dupla_chance_1x": "1.03",
+        "dupla_chance_12": "1.08",
+        "dupla_chance_x2": "4.50",
+        "over_05": "1.01",
+        "under_05": "15.00",
+        "over_15": "1.17",
+        "under_15": "5.00",
+        "over_25": "1.61",
+        "under_25": "2.30",
+        "over_35": "2.55",
+        "under_35": "1.54",
+        "over_45": "4.50",
+        "under_45": "1.20"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": "Sem dados de H2H com odds disponíveis.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [],
+        "destaques_fora": [],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Inter Milan é favorito absoluto com odd de 1.22, enfrentando um Monza com desempenho recente fraco e sem dados claros de gols. Favoritismo extremo e potencial de goleada.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 85% para a vitória do Inter Milan resulta em uma fair odd de 1.18. A odd de mercado de 1.22 oferece um valor esperado positivo, com uma odd mínima de entrada de 1.35.",
+      "mercado_secundario": "Back Goleada",
+      "odd_minima_secundaria": "4.00",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "9",
+          "posicao_geral": "9",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "13",
+          "posicao_geral": "13",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Inter Milan, na 9ª posição geral e com odd de 1.22, demonstra favoritismo claro. Monza, em 13º, não apresenta dados de desempenho recentes que sugiram resistência. A odd de Over 2.5 a 1.61 indica que o mercado espera gols.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "placares_provaveis": "2x0, 3x1",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e odd atrativa.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.6",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Inter Milan - brigando pelo título",
+        "indices_gols_faixas": "Sem dados disponíveis para esta partida.",
+        "qual_condicao_atende": "Sem dados disponíveis para esta partida.",
+        "motivo_motivacao": "Inter Milan busca o título da Serie A.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "Over 2.5 a 1.61 indica que o mercado espera gols. Sem dados de H2H para analisar gols no 2º tempo.",
+        "risco_principal": "Jogo pode se tornar defensivo após o placar ser definido.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão."
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "mercado_confirma"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "Sem dados disponíveis para esta partida.",
+        "gols_1t_faixas": "Sem dados disponíveis para esta partida.",
+        "media_gols_1t": "Sem dados disponíveis para esta partida.",
+        "razao": "Inter Milan é favorito com odd de 1.22 e odd de Over 0.5 HT a 1.25 sugere que o mercado espera gols no primeiro tempo.",
+        "ponderacao_odds": "Over 0.5 HT a 1.25 indica que o mercado espera um gol no primeiro tempo.",
+        "risco_principal": "O jogo pode se tornar mais estudado no início.",
+        "condicao_entrada": "Pré-jogo na odd de abertura, OU ao vivo se 0-0 aos 12-18min com pressão clara de um lado",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=70",
+          "odd_favorito_<=1.40",
+          "ataque_>=2.5",
+          "adversario_sofre_>=2.0"
+        ],
+        "criterios_total": 6,
+        "candidato": "Inter Milan",
+        "razao": "Inter Milan é favorito extremo (odd 1.22) com potencial ofensivo e enfrenta um Monza com defesa frágil.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Inter Milan marca 4+ gols e vence",
+        "ponderacao_odds": "Favoritismo extremo (odd 1.22) e Over 2.5 a 1.61 reforçam o cenário de goleada.",
+        "risco_principal": "Monza pode adotar uma postura defensiva e segurar o placar.",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_dados_faltantes": [
+        "jogadores (aba Jogadores)",
+        "momento dos gols"
+      ],
+      "_mercado_original_incoerente": "Vitória Inter Milan",
+      "_ev_pct": 15,
+      "_ev_odd": 1.35,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8545091?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "16:00",
+      "liga": "Brasil - Primeira Divisão (Serie A)",
+      "jogo": "Fluminense x Remo",
+      "metodos_aplicados": [
+        "over_limite_70",
+        "over_ht_05"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "media_gols_casa": 1.88,
+      "media_gols_fora": 1.04,
+      "media_sofridos_casa": "1.08",
+      "media_sofridos_fora": "2.00",
+      "odds_mercado": {
+        "casa": "1.44",
+        "empate": "4.20",
+        "fora": "8.00",
+        "dupla_chance_1x": "1.08",
+        "dupla_chance_12": "1.20",
+        "dupla_chance_x2": "2.88",
+        "over_05": "1.03",
+        "under_05": "12.00",
+        "over_15": "1.26",
+        "under_15": "3.95",
+        "over_25": "1.80",
+        "under_25": "2.00",
+        "over_35": "3.01",
+        "under_35": "1.40",
+        "over_45": "5.77",
+        "under_45": "1.15"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Fluminense como favorito: 13V 14E 8D (-11.1U)",
+        "resumo_favorito_fora": null,
+        "leitura": "Fluminense tem um retrospecto misto como favorito, com mais empates e derrotas do que vitórias, mas a odd atual é mais baixa do que a média histórica.",
+        "jogos_relevantes": [
+          {
+            "data": "12/03/26",
+            "confronto": "Remo x Fluminense",
+            "time_analisado": "Fluminense",
+            "papel": "favorito",
+            "odd": "1.90",
+            "placar": "0 - 2",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "25/02/26",
+            "confronto": "Palmeiras x Fluminense",
+            "time_analisado": "Fluminense",
+            "papel": "zebra",
+            "odd": "5.00",
+            "placar": "2 - 1",
+            "resultado": "D",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          },
+          {
+            "data": "28/01/26",
+            "confronto": "Fluminense x Grêmio",
+            "time_analisado": "Fluminense",
+            "papel": "favorito",
+            "odd": "1.61",
+            "placar": "2 - 1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": false,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "neutro",
+        "time": "Fluminense",
+        "texto": "Fluminense tem um retrospecto misto como favorito, com 13V 14E 8D nos jogos cotados abaixo de 3.20."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "John Kennedy — artilheiro com 9 gols",
+          "Luciano Acosta — 3 gols e 4 assistências",
+          "Savarino — 3 gols e 2 assistências"
+        ],
+        "destaques_fora": [
+          "Alef Manga — artilheiro com 5 gols",
+          "Jajá — 6 gols e 1 assistência",
+          "Yago Pikachu — 2 gols e 1 assistência"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Fluminense é favorito claro em casa, com bom aproveitamento e ataque produtivo, contra um Remo em má fase e com defesa vazada.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 75% para a vitória do Fluminense resulta em uma fair odd de 1.33. Com a odd de mercado a 1.44 e uma margem de segurança, a entrada é válida.",
+      "mercado_secundario": "Mais 0.5 gols HT",
+      "odd_minima_secundaria": "1.47",
+      "desempenho_1t": "Fluminense marca 0.75 gols no 1ºT, Remo marca 0.23 gols no 1ºT",
+      "desempenho_2t": "Fluminense sofre 0.33 gols no 2ºT, Remo sofre 1.08 gols no 2ºT",
+      "contexto_times": {
+        "casa": {
+          "posicao": "2º",
+          "posicao_geral": "4º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "14º",
+          "posicao_geral": "18º",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Fluminense, 4º colocado geral e 2º em casa, briga pelo título. Remo, 18º colocado geral e 14º em casa, luta contra o rebaixamento. O favoritismo do Fluminense é reforçado pela posição e objetivos.",
+      "coeficiente_regularidade": "Fluminense: CV baixo | Remo: CV alto",
+      "mando_de_campo": "Fluminense tem 8V 3E 1D em casa (83% de aproveitamento).",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Fluminense marca mais no 2º tempo (42% dos gols), Remo marca mais no 1º tempo (23% dos gols).",
+      "placares_provaveis": "2x0, 2x1, 3x0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out se o Remo abrir o placar ou se o jogo ficar 0-0 após 60min.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
+        "gatilho_saida_parcial": "Gol do Remo.",
+        "hard_stop": "Gol do Remo."
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.6",
+          "mercado_espera_gols",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Fluminense - brigando pelo título",
+        "indices_gols_faixas": "Fluminense Marcado 61-75: 8% | 76-90: 42% | Remo Sofrido 61-75: 4% | 76-90: 13%",
+        "qual_condicao_atende": "Momento Gols Final: Fluminense Marcado 76-90 (42%) > 35%",
+        "motivo_motivacao": "Fluminense briga pelo título, Remo luta contra o rebaixamento.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1.",
+        "mercado_sugerido": "Mais X.5 gols",
+        "ponderacao_odds": "Over 2.5 a 1.80 e Over 3.5 a 3.01 indicam que o mercado espera gols. Remo sofre 2.00 gols por jogo em média.",
+        "risco_principal": "Jogo pode se tornar mais defensivo se o Fluminense abrir vantagem cedo.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão."
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "mercado_confirma"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "75% (Fluminense 75%, Remo 75%)",
+        "gols_1t_faixas": "Fluminense Marcado 1ºT: 67% | Remo Sofrido 1ºT: 83%",
+        "media_gols_1t": "1.75 (Fluminense) + 1.00 (Remo) = 2.75",
+        "razao": "Ambos os times têm alta probabilidade de Over 0.5 HT e média de gols no primeiro tempo acima de 1.1. O mercado confirma com odd de 1.34.",
+        "ponderacao_odds": "Odd de Over 0.5 HT a 1.34 confirma a expectativa de gols no primeiro tempo.",
+        "risco_principal": "Remo pode adotar postura muito defensiva no início.",
+        "condicao_entrada": "Pré-jogo na odd de abertura.",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "mandante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "8%",
+        "ponderacao_odds": "Under 1.5 a 3.95 indica que o mercado espera mais de 1 gol. O Over 2.5 a 1.80 também sugere um jogo com gols.",
+        "risco_principal": "Fluminense pode ter dificuldade em furar a defesa do Remo se o jogo se tornar truncado.",
+        "visitante_over_0_5": "50%",
+        "visitante_marca_pct": "50%",
+        "media_gols_total": "2.83",
+        "btts_medio": "75%",
+        "razao": "O jogo tem média de gols alta (2.83), BTTS de 75% e o Under 1.5 está caro (3.95), indicando que um placar de 1x0 é improvável.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%",
+        "_bloqueado_poisson": true,
+        "_prob_poisson_pct": 10.1,
+        "razao_reprovacao": "visitante marca em 50% dos jogos (precisa >65%); visitante marca 50% (precisa >60%); BLOQUEADO: 1x0 está entre os 4 placares mais prováveis por Poisson (10% > 10%) — fazer lay do placar mais provável contradiz a análise"
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_media_casa_bruta": "1.75",
+      "_media_fora_bruta": "1.00",
+      "_alerta_coerencia": "prob estimada 75% diverge da P(vitória) implícita nas médias de gols (57%) — revise médias ou probabilidade",
+      "_dados_faltantes": [
+        "momento dos gols"
+      ],
+      "_mercado_original_incoerente": "Vitória Fluminense",
+      "_ev_pct": 15,
+      "_ev_odd": 1.53,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8409683?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "16:30",
+      "liga": "Portugal - Primeira Divisão (Liga NOS)",
+      "jogo": "Sporting CP x Alverca",
+      "metodos_aplicados": [
+        "back_goleada",
+        "over_limite_70"
+      ],
+      "mercado_principal": "Mais X.5 gols (ao vivo — gatilho 65min)",
+      "probabilidade_estimada": "85%",
+      "fair_odd": "1.18",
+      "odd_minima_entrada": "1.34",
+      "media_gols_casa": 2.5,
+      "media_gols_fora": 1.0,
+      "media_sofridos_casa": "2.00",
+      "media_sofridos_fora": "2.00",
+      "odds_mercado": {
+        "casa": "1.22",
+        "empate": "6.00",
+        "fora": "12.00",
+        "dupla_chance_1x": "1.03",
+        "dupla_chance_12": "1.08",
+        "dupla_chance_x2": "4.33",
+        "over_05": "1.01",
+        "under_05": "19.50",
+        "over_15": "1.15",
+        "under_15": "5.53",
+        "over_25": "1.47",
+        "under_25": "2.60",
+        "over_35": "2.19",
+        "under_35": "1.69",
+        "over_45": "3.75",
+        "under_45": "1.27"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Como o MANDANTE performa nos papéis (ex: 'Super Fav: 4V 1E 0D | Favorito: 6V 2E 7D | Parelho: 3V 3E 2D'); null se não tiver",
+        "resumo_favorito_fora": "Mesmo formato para o VISITANTE; null se não tiver",
+        "leitura": "Sporting CP tem histórico recente de vitórias e empates contra adversários de menor expressão, mas os dados de H2H com odds não estão disponíveis.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Fotis Ioannidis — artilheiro com 2 gols e 2 assistências",
+          "Geny Catamo — 2 assistências",
+          "Rodrigo Zalazar — 1 gol e 1 assistência"
+        ],
+        "destaques_fora": [
+          "Vivaldo Leandro Semedo Moura Sousa — 1 gol",
+          "Ian Luccas — 1 gol",
+          "Rayan Lucas Marques de Souza — 1 assistência"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Sporting CP é favorito absoluto com 100% de vitórias em casa e média de 3 gols marcados. Alverca tem 0% de vitórias fora e sofreu 2 gols por jogo.",
+      "alerta_geral": "Evitar jogos empatados, com goleada já consolidada (3+ gols de diferença) ou após expulsão.",
+      "valor_esperado": "Probabilidade estimada de 85% resulta em fair odd de 1.18. A odd mínima de entrada é 1.34, indicando que a odd de mercado de 1.22 não oferece valor.",
+      "mercado_secundario": "Gols - Mais 2.5",
+      "odd_minima_secundaria": "1.60",
+      "desempenho_1t": "Sporting CP marcou 100% dos seus gols no 1º tempo.",
+      "desempenho_2t": "Alverca sofreu 100% dos seus gols no 2º tempo.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "7º",
+          "posicao_geral": "7º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "16º",
+          "posicao_geral": "16º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Sporting CP lidera a liga com 100% de aproveitamento em casa e média de 3 gols marcados. Alverca tem 0% de vitórias fora e sofreu 2 gols por jogo. O favoritismo é claro.",
+      "coeficiente_regularidade": "Casa: CV alto | Visitante: CV baixo",
+      "mando_de_campo": "Sporting CP faz 100% dos pontos em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Sporting CP marca cedo e amplia; Alverca sofre no 2º tempo.",
+      "momento_gols": "Sporting CP: 0-15 (33%), 16-30 (33%), 31-45 (33%). Alverca: 0-15 (50%), 31-45 (50%).",
+      "jogadores_chave": "Fotis Ioannidis, Geny Catamo, Rodrigo Zalazar (Sporting CP)",
+      "placares_provaveis": "3-0, 3-1, 4-0",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "N/A",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos robustos.",
+        "gatilho_saida_parcial": "N/A",
+        "hard_stop": "N/A"
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "momento_gols_final",
+          "media_gols_>=2.6",
+          "mercado_espera_gols",
+          "motivacao"
+        ],
+        "criterios_total": 5,
+        "modo": "ao_vivo",
+        "favorito_ou_motivacao": "Sporting CP - brigando por título",
+        "indices_gols_faixas": "Sporting CP Marcado 61-75: 0% | 76-90: 0% | Alverca Sofrido 61-75: 100% | 76-90: 0%",
+        "qual_condicao_atende": "Alverca Sofrido 61-75: 100% (ultrapassa 25%)",
+        "motivo_motivacao": "Sporting CP busca manter a liderança.",
+        "condicao_entrada": "Entrar AO VIVO após 65min, mercado = Mais X.5 gols onde X = placar total + 1 (ex: 1-0 vira Mais 1.5)",
+        "mercado_sugerido": "Mais X.5 gols (calcular X conforme placar atual + 1)",
+        "ponderacao_odds": "Over 2.5 a 1.47 e Over 3.5 a 2.19 indicam que o mercado espera gols. Alverca sofre 100% dos seus gols no 2º tempo.",
+        "risco_principal": "O jogo pode se tornar defensivo após o Sporting abrir vantagem.",
+        "odd_esperada": "1.60 a 2.20",
+        "stake_recomendada": "1%",
+        "alerta_armadilha": "EVITAR se: jogo empatado (0x0), goleada já consolidada (3+ gols de diferença), ou expulsão em campo"
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "mercado_confirma"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "100%",
+        "gols_1t_faixas": "Sporting CP Marcado 1ºT: 100% | Alverca Sofrido 1ºT: 100%",
+        "media_gols_1t": "3.00",
+        "razao": "Sporting CP marca 100% dos seus gols no 1º tempo, com média de 3.00 gols no total. O mercado confirma com odd de 1.17 para Over 0.5 HT.",
+        "ponderacao_odds": "Odd de 1.17 para Over 0.5 HT é baixa, indicando alta probabilidade de gol no primeiro tempo.",
+        "risco_principal": "Alverca pode adotar uma postura defensiva e segurar o placar no primeiro tempo.",
+        "condicao_entrada": "Pré-jogo na odd de abertura, OU ao vivo se 0-0 aos 12-18min com pressão clara de um lado",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=70",
+          "odd_favorito_<=1.40",
+          "ataque_>=2.5",
+          "adversario_sofre_>=2.0"
+        ],
+        "criterios_total": 6,
+        "candidato": "Sporting CP",
+        "razao": "Sporting CP é favorito extremo (odd 1.22), tem ataque forte (3.00 gols/jogo) e enfrenta um Alverca que sofre 2.00 gols/jogo.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Sporting CP marca 4+ e vence",
+        "ponderacao_odds": "Odd de 1.22 para o Sporting CP e 1.47 para Over 2.5 confirmam o cenário de goleada.",
+        "risco_principal": "Alverca pode surpreender com um gol isolado, apesar do retrospecto negativo.",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_media_casa_bruta": "3.00",
+      "_media_fora_bruta": "0.00",
+      "_alerta_coerencia": "prob estimada 85% diverge da P(vitória) implícita nas médias de gols (70%) — revise médias ou probabilidade",
+      "_mercado_original_incoerente": "Vitória Sporting CP",
+      "_ev_pct": 14,
+      "_ev_odd": 1.34,
+      "_ev_base": "minima",
+      "_url_fonte": "https://clube.theoborges.com/game/8574396?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "16:30",
+      "liga": "Espanha - Primeira Divisão (La Liga)",
+      "jogo": "RCD Espanyol x Real Madrid",
+      "metodos_aplicados": [
+        "back_goleada"
+      ],
+      "mercado_principal": "Vitória Real Madrid",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "media_gols_casa": 0.0,
+      "media_gols_fora": 1.5,
+      "media_sofridos_casa": "0.00",
+      "media_sofridos_fora": "0.00",
+      "odds_mercado": {
+        "casa": "7.00",
+        "empate": "4.50",
+        "fora": "1.44",
+        "dupla_chance_1x": "2.88",
+        "dupla_chance_12": "1.14",
+        "dupla_chance_x2": "1.06",
+        "over_05": "1.01",
+        "under_05": "15.00",
+        "over_15": "1.20",
+        "under_15": "4.50",
+        "over_25": "1.72",
+        "under_25": "2.10",
+        "over_35": "2.81",
+        "under_35": "1.46",
+        "over_45": "5.00",
+        "under_45": "1.17",
+        "over_05_ht": "1.34",
+        "under_05_ht": "3.31",
+        "over_15_ht": "2.59",
+        "under_15_ht": "1.51",
+        "over_25_ht": "6.50",
+        "under_25_ht": "1.08",
+        "over_05_2t": "1.22",
+        "under_05_2t": "4.00",
+        "over_15_2t": "2.00",
+        "under_15_2t": "1.75",
+        "over_25_2t": "4.20",
+        "under_25_2t": "1.20"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": "O Real Madrid tem um histórico recente impecável como visitante, com 3 vitórias em 3 jogos, marcando em todos e sofrendo poucos gols.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Real Madrid",
+        "texto": "Real Madrid entrega como visitante: 3V 0E 0D nos últimos jogos cotado abaixo de 1.50."
+      },
+      "jogadores": {
+        "destaques_casa": [],
+        "destaques_fora": [],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Real Madrid em excelente forma como visitante, com ataque produtivo e defesa sólida. Espanyol com bom início, mas enfrenta um gigante.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 75% para a vitória do Real Madrid, com fair odd de 1.33. A odd de mercado de 1.44 oferece valor.",
+      "mercado_secundario": "Vitória Real Madrid (Back Goleada)",
+      "odd_minima_secundaria": "3.50",
+      "desempenho_1t": "RCD Espanyol marcou 2 gols no 1ºT, Real Madrid 0 gols no 1ºT.",
+      "desempenho_2t": "RCD Espanyol marcou 0 gols no 2ºT, Real Madrid 0 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "2º",
+          "posicao_geral": "2º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": null,
+          "posicao_geral": "17º",
+          "objetivo": "sem_objetivo"
+        }
+      },
+      "motivacao_tecnica": "O RCD Espanyol iniciou a temporada com 100% de aproveitamento e 3 gols marcados em 1 jogo, liderando a tabela. No entanto, o Real Madrid, apesar de ter 0 jogos e 0 pontos na tabela geral, é um time de ponta com histórico de vitórias. A odd de 1.44 para o Real Madrid sugere que o mercado ainda não precificou totalmente seu potencial.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "RCD Espanyol: 100% de aproveitamento em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "RCD Espanyol marca cedo e amplia. Real Madrid ainda não marcou.",
+      "momento_gols": "RCD Espanyol marca nos minutos 0-15 e 31-45.",
+      "jogadores_chave": [],
+      "placares_provaveis": "2x0, 3x0",
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e odd atrativa.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "modo": null,
+        "indice_over05ht": null,
+        "gols_1t_faixas": null,
+        "media_gols_1t": null,
+        "razao": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=70",
+          "odd_favorito_<=1.40",
+          "ataque_>=2.5"
+        ],
+        "criterios_total": 6,
+        "candidato": "Real Madrid",
+        "razao": "Favoritismo extremo do Real Madrid (odd 1.44) e seu histórico recente de ataque produtivo (3 gols em 1 jogo).",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Real Madrid marca 4+ gols",
+        "ponderacao_odds": "A odd de 1.44 para o Real Madrid confirma o favoritismo extremo. O Over 2.5 a 1.72 sugere que o mercado espera gols.",
+        "risco_principal": "O Real Madrid pode poupar titulares ou ter um início de temporada mais lento.",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_media_casa_bruta": "3.00",
+      "_media_fora_bruta": "0.00",
+      "_alerta_coerencia": "prob estimada 75% diverge da P(vitória) implícita nas médias de gols (0%) — revise médias ou probabilidade",
+      "_dados_faltantes": [
+        "jogadores (aba Jogadores)"
+      ],
+      "_ev_pct": 8,
+      "_ev_odd": 1.44,
+      "_ev_base": "mercado",
+      "media_gols_ajustada_coerencia": true,
+      "_url_fonte": "https://clube.theoborges.com/game/8570508?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "08:30",
+      "liga": "England Premier League",
+      "jogo": "Hull City x Manchester United",
+      "metodos_aplicados": [
+        "back_favorito",
+        "back_goleada"
+      ],
+      "mercado_principal": "Vitória Manchester United",
+      "probabilidade_estimada": "75%",
+      "fair_odd": "1.33",
+      "odd_minima_entrada": "1.53",
+      "media_gols_casa": null,
+      "media_gols_fora": null,
+      "media_sofridos_casa": null,
+      "media_sofridos_fora": null,
+      "odds_mercado": {
+        "casa": "8.50",
+        "empate": "5.00",
+        "fora": "1.36",
+        "dupla_chance_1x": "3.10",
+        "dupla_chance_12": "1.14",
+        "dupla_chance_x2": "1.05",
+        "over_05": "1.01",
+        "under_05": "13.00",
+        "over_15": "1.18",
+        "under_15": "4.50",
+        "over_25": "1.66",
+        "under_25": "2.20",
+        "over_35": "2.67",
+        "under_35": "1.50",
+        "over_45": "5.00",
+        "under_45": "1.14"
+      },
+      "h2h_odds": null,
+      "alerta_odds": null,
+      "jogadores": {
+        "destaques_casa": [],
+        "destaques_fora": [],
+        "titulares_casa": null,
+        "titulares_fora": null,
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Manchester United é favorito com odd de 1.36, enfrentando Hull City que tem retrospecto recente de 4 jogos sem derrota, mas com dados de gols zerados. O favoritismo do United é claro.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 75% para a vitória do Manchester United, com fair odd de 1.33. A odd mínima de entrada é 1.53, e a odd de mercado de 1.36 não oferece valor.",
+      "mercado_secundario": "Vitória Manchester United",
+      "odd_minima_secundaria": "1.53",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "11",
+          "posicao_geral": "11",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "16",
+          "posicao_geral": "16",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times estão na mesma posição geral e de casa/fora, com 0 pontos e 0 jogos disputados. O Hull City tem 4 jogos sem derrota recente, mas os dados de gols são zerados. O Manchester United tem 6 jogos sem derrota recente. O favoritismo do United é baseado na odd de mercado.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": null,
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "momento_gols": null,
+      "jogadores_chave": null,
+      "placares_provaveis": null,
+      "momento_entrada": "pre_jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro do Manchester United com odd de mercado inferior à odd mínima de entrada.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "odd_favorito_1.40_a_1.80"
+        ],
+        "criterios_total": 8,
+        "modo": "pre_jogo",
+        "favorito": "Manchester United",
+        "odd_alvo": "1.36",
+        "razao": "Manchester United é o favorito claro com odd de 1.36, enfrentando o Hull City.",
+        "ponderacao_odds": "A odd de mercado de 1.36 para o Manchester United está abaixo da odd mínima de entrada de 1.53, indicando falta de valor.",
+        "risco_principal": "Hull City tem 4 jogos sem derrota recente, o que pode indicar uma defesa sólida.",
+        "stake_recomendada": "2%"
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "modo": null,
+        "indice_over05ht": null,
+        "gols_1t_faixas": null,
+        "media_gols_1t": null,
+        "razao": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "odd_favorito_<=1.40"
+        ],
+        "criterios_total": 6,
+        "candidato": "Manchester United",
+        "razao": "Manchester United é favorito extremo com odd de 1.36, e o Hull City tem dados de gols zerados, o que pode indicar uma defesa frágil.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Manchester United marca 4+ e vence",
+        "ponderacao_odds": "A odd de 1.36 para o Manchester United confirma o favoritismo extremo. A odd de Over 2.5 de 1.66 sugere que o mercado espera gols.",
+        "risco_principal": "Hull City tem 4 jogos sem derrota recente.",
+        "odd_esperada": "3.50 a 7.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null,
+      "_dados_faltantes": [
+        "retrospecto H2H",
+        "jogadores (aba Jogadores)",
+        "momento dos gols"
+      ],
+      "_ev_pct": 2,
+      "_ev_odd": 1.36,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8557847?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:00",
+      "liga": "Arábia Saudita - Primeira Divisão (Professional League)",
+      "jogo": "Al Ahli x Abha",
+      "metodos_aplicados": [
+        "back_goleada"
+      ],
+      "mercado_principal": "Vitória Al Ahli",
+      "probabilidade_estimada": "85%",
+      "fair_odd": "1.18",
+      "odd_minima_entrada": "1.32",
+      "media_gols_casa": null,
+      "media_gols_fora": null,
+      "media_sofridos_casa": null,
+      "media_sofridos_fora": null,
+      "odds_mercado": {
+        "casa": "1.16",
+        "empate": "6.25",
+        "fora": "11.00",
+        "dupla_chance_1x": "1.04",
+        "dupla_chance_12": "1.10",
+        "dupla_chance_x2": "4.50",
+        "over_05": "1.01",
+        "under_05": "17.50",
+        "over_15": "1.12",
+        "under_15": "5.75",
+        "over_25": "1.40",
+        "under_25": "2.87",
+        "over_35": "2.07",
+        "under_35": "1.73",
+        "over_45": "3.39",
+        "under_45": "1.29",
+        "over_05_ht": "1.17",
+        "under_05_ht": "4.50",
+        "over_15_ht": "2.07",
+        "under_15_ht": "1.69",
+        "over_25_ht": "4.00",
+        "under_25_ht": "1.20",
+        "over_05_2t": "1.14",
+        "under_05_2t": "5.00",
+        "over_15_2t": "1.65",
+        "under_15_2t": "2.05",
+        "over_25_2t": "3.00",
+        "under_25_2t": "1.30",
+        "ambas_marcam_yes": "1.90",
+        "ambas_marcam_no": "1.80",
+        "ambas_marcam_1t_yes": "4.50",
+        "ambas_marcam_1t_no": "1.18",
+        "ambas_marcam_2t_yes": "3.50",
+        "ambas_marcam_2t_no": "1.28"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: 2V 0E 0D | Favorito: 0V 0E 0D | Parelho: 0V 0E 0D | Não Fav: 0V 0E 0D",
+        "resumo_favorito_fora": null,
+        "leitura": "Al Ahli tem histórico recente impecável como favorito em casa, vencendo todos os jogos com odd baixa.",
+        "jogos_relevantes": [
+          {
+            "data": "17/08/26",
+            "confronto": "Al Anwar x Al Ahli",
+            "time_analisado": "Al Ahli",
+            "papel": "super_favorito",
+            "odd": "1.11",
+            "placar": "1 - 2",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "13/08/26",
+            "confronto": "Al Draih x Al Ahli",
+            "time_analisado": "Al Ahli",
+            "papel": "favorito",
+            "odd": "1.57",
+            "placar": "0 - 1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": true
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Al Ahli",
+        "texto": "Al Ahli entrega como super favorito: 2V 0E 0D nos últimos jogos cotado abaixo de 1.11."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Eduard Spertsyan — 1 gol em 1 jogo, decisivo no ataque."
+        ],
+        "destaques_fora": [
+          "Mohammed Al Doseri — 1 gol em 1 jogo, referência no ataque."
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Al Ahli é favorito absoluto com odd baixa e retrospecto recente impecável em casa. Abha vem de derrota e tem histórico fraco.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 85% para a vitória do Al Ahli, com fair odd de 1.18. Odd mínima de entrada de 1.32.",
+      "mercado_secundario": "Vitória Al Ahli (marcar 4+ gols)",
+      "odd_minima_secundaria": "4.00",
+      "desempenho_1t": null,
+      "desempenho_2t": null,
+      "contexto_times": {
+        "casa": {
+          "posicao": "5º",
+          "posicao_geral": "5º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "13º",
+          "posicao_geral": "13º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Al Ahli está na 5ª posição geral e em 5º como mandante, brigando por título. Abha está em 13º geral e 13º como visitante, sem objetivos claros.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Al Ahli tem 100% de aproveitamento em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": null,
+      "placares_provaveis": "2x0, 3x0, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e odds favoráveis.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "modo": null,
+        "indice_over05ht": null,
+        "gols_1t_faixas": null,
+        "media_gols_1t": null,
+        "razao": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "prob_favorito_>=70",
+          "odd_favorito_<=1.40",
+          "ataque_>=2.5",
+          "adversario_sofre_>=2.0"
+        ],
+        "criterios_total": 3,
+        "candidato": "Al Ahli",
+        "razao": "Favoritismo extremo do Al Ahli, que tem ataque forte e enfrenta defesa frágil do Abha.",
+        "modo": "pre_jogo",
+        "mercado_sugerido": "Al Ahli marca 4+ gols e vence",
+        "ponderacao_odds": "Odd de 1.16 para o Al Ahli e 1.40 para Over 2.5 confirmam cenário de goleada.",
+        "risco_principal": "Abha pode se fechar e dificultar a goleada.",
+        "odd_esperada": "4.00",
+        "stake_recomendada": "1%"
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_dados_faltantes": [
+        "momento dos gols"
+      ],
+      "_ev_pct": -1,
+      "_ev_odd": 1.16,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8620377?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "13:15",
+      "liga": "Bélgica - Primeira Divisão (Pro League)",
+      "jogo": "Sporting Charleroi x KV Mechelen",
+      "metodos_aplicados": [
+        "over_ht_05",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "70%",
+      "fair_odd": "1.43",
+      "odd_minima_entrada": "1.64",
+      "media_gols_casa": 2.5,
+      "media_gols_fora": 0.5,
+      "media_sofridos_casa": "1.00",
+      "media_sofridos_fora": "2.00",
+      "odds_mercado": {
+        "casa": "1.70",
+        "empate": "3.60",
+        "fora": "4.50",
+        "dupla_chance_1x": "1.17",
+        "dupla_chance_12": "1.25",
+        "dupla_chance_x2": "1.95",
+        "over_05": "1.07",
+        "under_05": "8.00",
+        "over_15": "1.44",
+        "under_15": "2.70",
+        "over_25": "1.80",
+        "under_25": "2.00"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: 2V 0E 0D | Favorito: 0V 0E 0D | Parelho: 0V 0E 0D | Não Fav: 0V 0E 0D",
+        "resumo_favorito_fora": null,
+        "leitura": "Sporting Charleroi tem histórico positivo como Super Favorito em casa, vencendo 2 jogos sem sofrer gols.",
+        "jogos_relevantes": [
+          {
+            "data": "16/08/26",
+            "confronto": "Lommel United x Sporting Charleroi",
+            "time_analisado": "Sporting Charleroi",
+            "papel": "super_favorito",
+            "odd": "1.75",
+            "placar": "0-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "09/08/26",
+            "confronto": "Sporting Charleroi x OH Leuven",
+            "time_analisado": "Sporting Charleroi",
+            "papel": "super_favorito",
+            "odd": "1.72",
+            "placar": "3-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Sporting Charleroi",
+        "texto": "Sporting Charleroi entrega como Super Favorito: 2V 0E 0D nos últimos jogos cotado abaixo de 1.75."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Kevin Van Den Kerkhof - 1 gol",
+          "Amine Boukamir - 1 gol",
+          "Parfait Guiagon - 1 gol",
+          "Thérence Koudou - 1 gol"
+        ],
+        "destaques_fora": [
+          "Myron van Brederode - 2 gols"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Sporting Charleroi em excelente forma como mandante, com 100% de vitórias e gols marcados. KV Mechelen com 0% de vitórias fora.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 70% para a vitória do Sporting Charleroi, com fair odd de 1.43. Odd mínima de entrada de 1.64.",
+      "mercado_secundario": "Mais 0.5 gols HT",
+      "odd_minima_secundaria": "1.40",
+      "desempenho_1t": "Sporting Charleroi marcou 2 gols no 1ºT.",
+      "desempenho_2t": "KV Mechelen sofreu 2 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "4º",
+          "posicao_geral": "4º",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "16º",
+          "posicao_geral": "16º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Sporting Charleroi está em 4º lugar, brigando pelo título, com 100% de aproveitamento em casa e 3 gols marcados em 1 jogo. KV Mechelen está em 16º, com 0% de aproveitamento fora e 0 gols marcados.",
+      "coeficiente_regularidade": "Casa: CV alto | Visitante: CV baixo",
+      "mando_de_campo": "Sporting Charleroi: 100% de aproveitamento em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Sporting Charleroi marca cedo e amplia. KV Mechelen sofre gols no 2º tempo.",
+      "placares_provaveis": "2x0, 3x0, 2x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out em caso de gol do KV Mechelen ou placar desfavorável.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e dados ofensivos fortes do mandante.",
+        "gatilho_saida_parcial": "Gol do KV Mechelen.",
+        "hard_stop": "Placar desfavorável ou gol do KV Mechelen."
+      },
+      "back_favorito": null,
+      "lay_zebra": null,
+      "over_limite_70": null,
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "ataques_iniciam_forte",
+          "mercado_confirma",
+          "sem_perfil_estudado"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "100%",
+        "gols_1t_faixas": "Sporting Charleroi Marcado 1ºT: 33% | KV Mechelen Sofrido 1ºT: 100%",
+        "media_gols_1t": "3.00",
+        "razao": "Ambos os times têm alta probabilidade de gols no primeiro tempo, com Sporting Charleroi marcando 2 gols e KV Mechelen sofrendo 1 gol no primeiro tempo.",
+        "ponderacao_odds": "Over 0.5 HT a 1.40 indica que o mercado espera gols cedo.",
+        "risco_principal": "KV Mechelen pode ter um primeiro tempo defensivo.",
+        "condicao_entrada": "Pré-jogo na odd de abertura.",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=65",
+          "btts_>=65",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Jogo com alto potencial de gols de ambos os lados, com Sporting Charleroi marcando muito e KV Mechelen sofrendo muitos gols.",
+        "indice_over_2_5": "100%",
+        "indice_ambas_marcam": "100%",
+        "indice_over_ht": "100%",
+        "ponderacao_odds": "Over 2.5 a 1.80 confirma a expectativa de gols.",
+        "risco_principal": "KV Mechelen pode não conseguir marcar.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": null,
+      "lay_1x0": null,
+      "lay_0x1": null,
+      "confirmacao_visual": null,
+      "_media_casa_bruta": "3.00",
+      "_media_fora_bruta": "0.00",
+      "_dados_faltantes": [
+        "momento dos gols"
+      ],
+      "_mercado_original_incoerente": "Vitória Sporting Charleroi",
+      "_ev_pct": -25,
+      "_ev_odd": 1.07,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8562321?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:45",
+      "liga": "Bélgica - Primeira Divisão (Pro League)",
+      "jogo": "Royal Antwerp FC x KRC Genk",
+      "metodos_aplicados": [
+        "over_ht_05",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "media_gols_casa": 2.0,
+      "media_gols_fora": 1.0,
+      "media_sofridos_casa": "1.00",
+      "media_sofridos_fora": "2.00",
+      "odds_mercado": {
+        "casa": "3.10",
+        "empate": "3.40",
+        "fora": "2.10",
+        "dupla_chance_1x": "1.30",
+        "dupla_chance_12": "1.33",
+        "dupla_chance_x2": "1.62",
+        "over_05": "1.07",
+        "under_05": "8.00",
+        "over_15": "1.44",
+        "under_15": "2.70",
+        "over_25": "1.85",
+        "under_25": "1.95",
+        "ambas_marcam": "1.70",
+        "ambas_marcam_1t": "4.33",
+        "ambas_marcam_2t": "3.25"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Super Fav: 2V 0E 0D (+3.1U)",
+        "resumo_favorito_fora": null,
+        "leitura": "Royal Antwerp FC tem histórico positivo como Super Favorito em casa, com odd média de 2.75.",
+        "jogos_relevantes": [
+          {
+            "data": "15/08/26",
+            "confronto": "KV Kortrijk x Royal Antwerp FC",
+            "time_analisado": "Royal Antwerp FC",
+            "papel": "super_favorito",
+            "odd": "2.75",
+            "placar": "0-3",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": true,
+            "nao_sofreu": true
+          },
+          {
+            "data": "09/08/26",
+            "confronto": "Royal Antwerp FC x Waasland-Beveren",
+            "time_analisado": "Royal Antwerp FC",
+            "papel": "favorito",
+            "odd": "2.35",
+            "placar": "2-1",
+            "resultado": "V",
+            "marcou_primeiro": true,
+            "gol_1t": true,
+            "gol_2t": false,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Royal Antwerp FC",
+        "texto": "Royal Antwerp FC entrega como Super Favorito: 2V 0E 0D (+3.1U) em jogos cotados abaixo de 2.75."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Michael Frey - 2 gols em 2 jogos",
+          "Anthony Valencia - 2 gols em 2 jogos"
+        ],
+        "destaques_fora": [
+          "Rafiu Durosinmi - 2 gols em 2 jogos",
+          "Bryan Heynen - 1 gol em 2 jogos"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Royal Antwerp FC em casa com 100% de aproveitamento e média de 2 gols marcados, contra KRC Genk que perdeu seu único jogo fora. Favoritismo claro.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 60% para a vitória do Royal Antwerp FC resulta em uma fair odd de 1.67. A odd mínima de entrada é 1.92, indicando valor.",
+      "mercado_secundario": "Mais 0.5 gols HT",
+      "odd_minima_secundaria": "1.40",
+      "desempenho_1t": "Royal Antwerp FC marcou 100% dos seus gols no 1º tempo.",
+      "desempenho_2t": "KRC Genk sofreu 100% dos seus gols no 2º tempo.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "2",
+          "posicao_geral": "3",
+          "objetivo": "titulo"
+        },
+        "fora": {
+          "posicao": "12",
+          "posicao_geral": "9",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Royal Antwerp FC lidera a liga com 100% de aproveitamento em casa, marcando 2 gols por jogo e sofrendo apenas 1. KRC Genk perdeu seu único jogo fora de casa, sofrendo 2 gols. O Royal Antwerp FC tem um ataque forte e uma defesa sólida em casa, enquanto o KRC Genk demonstra fragilidade defensiva fora.",
+      "coeficiente_regularidade": "Casa: CV alto | Visitante: CV baixo",
+      "mando_de_campo": "Royal Antwerp FC: 100% de vitórias em casa, marcando 2 gols por jogo.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Royal Antwerp FC marca no 1º e 2º tempo, KRC Genk marca no 2º tempo.",
+      "momento_gols": "Royal Antwerp FC: 31-45 (100%), 61-75 (50%), 76-90 (50%). KRC Genk: 16-30 (100%), 76-90 (100%).",
+      "jogadores_chave": "Michael Frey, Anthony Valencia (Antwerp); Rafiu Durosinmi, Bryan Heynen (Genk)",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out parcial em 2x1 ou 1x2.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro e dados estatísticos favoráveis.",
+        "gatilho_saida_parcial": "Placar 2x1 ou 1x2.",
+        "hard_stop": "Se o KRC Genk abrir o placar."
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "ataques_iniciam_forte",
+          "mercado_confirma",
+          "sem_perfil_estudado"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "100%",
+        "gols_1t_faixas": "Royal Antwerp FC Marcado 1ºT: 100% | KRC Genk Sofrido 1ºT: 0%",
+        "media_gols_1t": "2.00",
+        "razao": "Royal Antwerp FC marca 100% dos seus gols no 1º tempo, com média de 2.00 gols no primeiro tempo. O mercado confirma com odd de 1.07 para Over 0.5 HT.",
+        "ponderacao_odds": "Odd de 1.07 para Over 0.5 HT é muito baixa, indicando que o mercado espera gol cedo. O Royal Antwerp FC tem um forte desempenho no primeiro tempo.",
+        "risco_principal": "KRC Genk sofreu 0% dos seus gols no 1º tempo.",
+        "condicao_entrada": "Pré-jogo na odd de abertura.",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=65",
+          "btts_>=65",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Ambos os times têm alto índice de Over 2.5 (100%) e Ambas Marcam (100%). O Royal Antwerp FC marca 2.00 gols/jogo e sofre 1.00, enquanto o KRC Genk marca 1.00 e sofre 2.00. O mercado espera gols com Over 2.5 a 1.85.",
+        "indice_over_2_5": "100%",
+        "indice_ambas_marcam": "100%",
+        "indice_over_ht": "100%",
+        "ponderacao_odds": "Over 2.5 a 1.85 indica que o mercado espera um jogo com gols. Ambos os times têm 100% de Ambas Marcam.",
+        "risco_principal": "KRC Genk pode ter dificuldades em marcar fora de casa.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null,
+      "_media_casa_bruta": "2.00",
+      "_media_fora_bruta": "1.00",
+      "_mercado_original_incoerente": "Vitória Royal Antwerp FC",
+      "_ev_pct": -36,
+      "_ev_odd": 1.07,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8562317?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "11:00",
+      "liga": "Bélgica - Primeira Divisão (Pro League)",
+      "jogo": "Zulte-Waregem x Waasland-Beveren",
+      "metodos_aplicados": [
+        "over_ht_05",
+        "back_2x2",
+        "lay_1x0"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "58%",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.98",
+      "media_gols_casa": 2.0,
+      "media_gols_fora": 1.0,
+      "media_sofridos_casa": "1.00",
+      "media_sofridos_fora": "2.00",
+      "odds_mercado": {
+        "casa": "1.95",
+        "empate": "3.50",
+        "fora": "3.30",
+        "dupla_chance_1x": "1.30",
+        "dupla_chance_12": "1.33",
+        "dupla_chance_x2": "1.62",
+        "over_05": "1.07",
+        "under_05": "8.00",
+        "over_15": "1.44",
+        "under_15": "2.70",
+        "over_25": "1.85",
+        "under_25": "1.95"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": "O H2H não apresenta dados relevantes para esta partida.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Marley Ake - atacante, 1 gol",
+          "Serxho Ujka - atacante, 1 gol",
+          "Anosike Ementa - meio-campista, 1 assistência"
+        ],
+        "destaques_fora": [
+          "Chris Lokesa - atacante, 1 gol",
+          "Ferre Slegers - meio-campista, 1 assistência",
+          "Christian Brüls - meio-campista, 1 assistência"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Zulte-Waregem em casa com 100% de aproveitamento e média de 2 gols. Waasland-Beveren com defesa frágil fora. Jogo com potencial de gols.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 58% para Over 0.5 HT, com fair odd de 1.72. Odd mínima de entrada de 1.98. O mercado oferece 1.85, indicando um leve valor.",
+      "mercado_secundario": "Ambas Marcam",
+      "odd_minima_secundaria": "1.95",
+      "desempenho_1t": "Zulte-Waregem marca 0% no 1ºT, Waasland-Beveren marca 100% no 1ºT.",
+      "desempenho_2t": "Zulte-Waregem marca 100% no 2ºT, Waasland-Beveren marca 0% no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "6º",
+          "posicao_geral": "6º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "8º",
+          "posicao_geral": "8º",
+          "objetivo": "meio_tabela"
+        }
+      },
+      "motivacao_tecnica": "Ambos os times iniciaram a temporada com 100% de aproveitamento em seus jogos. Zulte-Waregem tem um ataque produtivo em casa, enquanto Waasland-Beveren demonstra força no primeiro tempo. A odd de Over 2.5 está atrativa.",
+      "coeficiente_regularidade": "Casa: CV alto / Visitante: CV alto",
+      "mando_de_campo": "Zulte-Waregem: 100% de aproveitamento em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Zulte-Waregem marca no 2º tempo, Waasland-Beveren marca no 1º tempo.",
+      "momento_gols": "Zulte-Waregem: 76-90 (100%); Waasland-Beveren: 16-30 (100%).",
+      "jogadores_chave": "Marley Ake, Serxho Ujka (Zulte-Waregem); Chris Lokesa, Ferre Slegers (Waasland-Beveren).",
+      "placares_provaveis": "2x1, 3x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out em 1-1 ou se o placar atingir 3+ gols.",
+      "stake_recomendada": "1.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Jogo com potencial de gols e ambos os times marcando em tempos diferentes.",
+        "gatilho_saida_parcial": "Chegada em 1-1.",
+        "hard_stop": "Se o placar atingir 3+ gols."
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 8,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "ataques_iniciam_forte",
+          "mercado_confirma",
+          "sem_perfil_estudado"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "80%",
+        "gols_1t_faixas": "Zulte-Waregem Marcado 1ºT: 0% | Waasland-Beveren Marcado 1ºT: 100%",
+        "media_gols_1t": "1.0",
+        "razao": "Waasland-Beveren tem 100% de gols no 1º tempo, e o mercado confirma com odd de Over 0.5 HT a 1.44.",
+        "ponderacao_odds": "Odd de Over 0.5 HT a 1.44, que está dentro da faixa esperada.",
+        "risco_principal": "Zulte-Waregem não marca no 1º tempo.",
+        "condicao_entrada": "Pré-jogo na odd de abertura.",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=65",
+          "btts_>=65",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Ambos os times têm alto índice de Over 2.5 e Ambas Marcam, com defesas frágeis e ataques produtivos. O mercado de Over 2.5 está a 1.85.",
+        "indice_over_2_5": "100%",
+        "indice_ambas_marcam": "100%",
+        "indice_over_ht": "100%",
+        "ponderacao_odds": "Over 2.5 a 1.85, indicando que o mercado espera um jogo com gols.",
+        "risco_principal": "O Zulte-Waregem não marca no 1º tempo.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "mandante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "8%",
+        "ponderacao_odds": "Under 1.5 a 2.70, indicando que o mercado espera mais de 1 gol.",
+        "risco_principal": "Waasland-Beveren marca no 1º tempo.",
+        "visitante_over_0_5": "100%",
+        "visitante_marca_pct": "100%",
+        "media_gols_total": "3.00",
+        "btts_medio": "100%",
+        "razao": "O jogo tem média de 3.00 gols, ambos marcam 100% e o visitante tem alta capacidade de marcar. Improvável que termine 1x0.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [
+          "p_0x1_com_margem",
+          "mand_over05_>65",
+          "visitante_produtivo_>=1.5",
+          "media_total_>=2.5",
+          "btts_>50"
+        ],
+        "criterios_total": 5,
+        "modo": "pre_jogo",
+        "prob_0_1_estimada": "4%",
+        "ponderacao_odds": "Under 1.5 a 2.70, indicando que o mercado espera mais de 1 gol.",
+        "risco_principal": "Zulte-Waregem não marca no 1º tempo.",
+        "mandante_over_0_5": "0%",
+        "mandante_marca_pct": "0%",
+        "media_gols_total": "3.00",
+        "btts_medio": "100%",
+        "razao": "O jogo tem média de 3.00 gols, ambos marcam 100%. O Zulte-Waregem não marca no 1º tempo, mas o Waasland-Beveren tem alta capacidade de marcar. Improvável que termine 0x1.",
+        "odd_alvo": "11.00",
+        "regra_saida": "Cash-out se 1-0, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%",
+        "razao_reprovacao": "mandante marca em 0% dos jogos (precisa >65%); mandante marca 0% (precisa >60%)"
+      },
+      "confirmacao_visual": {
+        "aplicavel": null,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_media_casa_bruta": "2.00",
+      "_media_fora_bruta": "1.00",
+      "_ev_pct": -38,
+      "_ev_odd": 1.07,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8562318?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "11:30",
+      "liga": "Holanda - Primeira Divisão (Eredivisie)",
+      "jogo": "Fortuna Sittard x AZ",
+      "metodos_aplicados": [
+        "over_ht_05",
+        "back_2x2"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "media_gols_casa": 2.0,
+      "media_gols_fora": 2.5,
+      "media_sofridos_casa": "1.00",
+      "media_sofridos_fora": "1.00",
+      "odds_mercado": {
+        "casa": "5.25",
+        "empate": "4.20",
+        "fora": "1.60",
+        "dupla_chance_1x": "2.30",
+        "dupla_chance_12": "1.20",
+        "dupla_chance_x2": "1.17",
+        "over_05": "1.01",
+        "under_05": "17.00",
+        "over_15": "1.14",
+        "under_15": "5.71",
+        "over_25": "1.47",
+        "under_25": "2.60",
+        "over_35": "2.20",
+        "under_35": "1.70",
+        "over_45": "3.71",
+        "under_45": "1.28"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": null,
+        "resumo_favorito_fora": null,
+        "leitura": "O AZ tem um retrospecto recente forte como visitante, com vitórias expressivas e sem derrotas.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "AZ",
+        "texto": "AZ tem histórico positivo como visitante, com vitórias expressivas e sem derrotas recentes."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Ole Romeny - 1 gol",
+          "Philip Brittijn - 1 gol",
+          "Lequincio Zeefuik - 1 gol"
+        ],
+        "destaques_fora": [
+          "Peer Koopmeiners - 1 gol",
+          "Weslley Pinto Batista - 1 gol",
+          "Ro-Zangelo Daal - 1 gol",
+          "Mexx Meerdink - 1 gol"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "AZ é favorito com odd 1.60, invicto e com ataque forte (4 gols/jogo). Fortuna Sittard também tem bom ataque (3 gols/jogo) e ambos marcam em 100% dos jogos. Cenário de gols.",
+      "alerta_geral": null,
+      "valor_esperado": "Probabilidade estimada de 60% para a vitória do AZ, com fair odd de 1.67. A odd mínima de entrada é 1.92, indicando valor se a odd de mercado for superior.",
+      "mercado_secundario": "Mais 0.5 gols HT",
+      "odd_minima_secundaria": "1.30",
+      "desempenho_1t": "Fortuna Sittard marcou 2 gols no 1ºT (média 2.00); AZ marcou 1 gol no 1ºT (média 1.00).",
+      "desempenho_2t": "Fortuna Sittard sofreu 0 gols no 2ºT (média 0.00); AZ sofreu 1 gol no 2ºT (média 1.00).",
+      "contexto_times": {
+        "casa": {
+          "posicao": "5º",
+          "posicao_geral": "5º",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "2º",
+          "posicao_geral": "2º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "AZ é vice-líder e busca a ponta, enquanto Fortuna Sittard está em 5º, buscando se manter bem posicionado. Ambos os times têm 100% de aproveitamento em gols marcados e sofridos, indicando jogos abertos.",
+      "coeficiente_regularidade": "Casa: CV alto | Visitante: CV alto",
+      "mando_de_campo": "Fortuna Sittard tem 100% de aproveitamento em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Ambos os times marcam e sofrem gols com frequência.",
+      "momento_gols": "Fortuna Sittard marca mais no início e final do jogo; AZ marca mais no meio do jogo.",
+      "jogadores_chave": [
+        "Ole Romeny (Fortuna Sittard)",
+        "Peer Koopmeiners (AZ)"
+      ],
+      "placares_provaveis": "2x1, 3x1, 3x2",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out parcial em 2x1 ou 1x2.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro do AZ e potencial de gols de ambos os lados.",
+        "gatilho_saida_parcial": "Placar 2x1 ou 1x2.",
+        "hard_stop": "Se o placar chegar a 1x1."
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "mercado_confirma"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "100%",
+        "gols_1t_faixas": "Fortuna Sittard Marcado 0-15: 67%, 31-45: 25%; AZ Marcado 16-30: 100%.",
+        "media_gols_1t": "3.00",
+        "razao": "Ambos os times têm alta probabilidade de marcar no primeiro tempo, com média de gols de 3.00.",
+        "ponderacao_odds": "A odd de 1.20 para Over 0.5 HT confirma a expectativa de gols cedo.",
+        "risco_principal": "AZ marcou 0% dos seus gols no primeiro tempo em jogos recentes.",
+        "condicao_entrada": "Pré-jogo.",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over25_>=65",
+          "btts_>=65",
+          "defesas_frageis",
+          "ataques_produtivos",
+          "over_ht_>=70",
+          "mercado_espera_gols"
+        ],
+        "criterios_total": 6,
+        "razao": "Ambos os times têm alto índice de Over 2.5 (100%), Ambas Marcam (100%), defesas frágeis (1 gol sofrido/jogo) e ataques produtivos (3 e 4 gols marcados/jogo).",
+        "indice_over_2_5": "100%",
+        "indice_ambas_marcam": "100%",
+        "indice_over_ht": "100%",
+        "ponderacao_odds": "A odd de 1.47 para Over 2.5 Gols indica que o mercado também espera um jogo com muitos gols.",
+        "risco_principal": "O AZ marcou 0% dos seus gols no primeiro tempo em jogos recentes.",
+        "modo": "pre_jogo",
+        "odd_alvo": "12.00",
+        "regra_saida": "Cash-out total ao chegar em 1x1; cash-out parcial em 2x1 ou 1x2. NUNCA segurar nesses placares.",
+        "stake_recomendada": "0.5%"
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": null,
+      "_media_casa_bruta": "3.00",
+      "_media_fora_bruta": "4.00",
+      "_mercado_original_incoerente": "Vitória AZ",
+      "_ev_pct": -39,
+      "_ev_odd": 1.01,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8547630?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "13:45",
+      "liga": "Holanda - Primeira Divisão (Eredivisie)",
+      "jogo": "Sparta Rotterdam x Utrecht",
+      "metodos_aplicados": [
+        "over_ht_05"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "60%",
+      "fair_odd": "1.67",
+      "odd_minima_entrada": "1.92",
+      "media_gols_casa": 1.0,
+      "media_gols_fora": 1.0,
+      "media_sofridos_casa": "1.00",
+      "media_sofridos_fora": "2.00",
+      "odds_mercado": {
+        "casa": "2.62",
+        "empate": "3.40",
+        "fora": "2.62",
+        "dupla_chance_1x": "1.50",
+        "dupla_chance_12": "1.25",
+        "dupla_chance_x2": "1.50",
+        "over_05": "1.02",
+        "under_05": "13.00",
+        "over_15": "1.22",
+        "under_15": "4.27",
+        "over_25": "1.70",
+        "under_25": "2.10",
+        "over_35": "2.77",
+        "under_35": "1.44",
+        "over_45": "5.00",
+        "under_45": "1.17",
+        "over_05_ht": "1.29",
+        "under_05_ht": "3.30",
+        "over_15_ht": "2.55",
+        "under_15_ht": "1.45",
+        "over_25_ht": "6.50",
+        "under_25_ht": "1.08",
+        "over_05_2t": "1.20",
+        "under_05_2t": "4.33",
+        "over_15_2t": "1.85",
+        "under_15_2t": "1.85",
+        "over_25_2t": "3.80",
+        "under_25_2t": "1.22",
+        "ambas_marcam": "1.57",
+        "ambas_marcam_1t": "4.00",
+        "ambas_marcam_2t": "2.75",
+        "mandante_nao_sofre": "3.70",
+        "visitante_nao_sofre": "3.70"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Como o MANDANTE performa nos papéis (ex: 'Super Fav: 4V 1E 0D | Favorito: 6V 2E 7D | Parelho: 3V 3E 2D'); null se não tiver",
+        "resumo_favorito_fora": "Mesmo formato para o VISITANTE; null se não tiver",
+        "leitura": "O Utrecht tem um histórico recente de sofrer gols no primeiro tempo (100% dos gols sofridos foram no 1º tempo), enquanto o Sparta Rotterdam tem um padrão de marcar gols no final do jogo. A odd de Over 0.5 HT a 1.29 sugere que o mercado espera poucos gols no início.",
+        "jogos_relevantes": []
+      },
+      "alerta_odds": {
+        "tipo": null,
+        "time": null,
+        "texto": null
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Marvin Young — 1 gol em 2 jogos"
+        ],
+        "destaques_fora": [
+          "Nökkvi Þeyr Þórisson — 1 gol e 1 assistência em 2 jogos",
+          "Artem Stepanov — 1 gol em 1 jogo"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Utrecht sofre 100% dos seus gols no 1º tempo, enquanto Sparta Rotterdam tem um padrão de gols tardios. A odd de Over 0.5 HT a 1.29 é baixa, mas o histórico de gols do Utrecht no início justifica a entrada.",
+      "alerta_geral": null,
+      "valor_esperado": "Apesar da odd baixa, o histórico de gols do Utrecht no primeiro tempo justifica a entrada no Over 0.5 HT.",
+      "mercado_secundario": null,
+      "odd_minima_secundaria": null,
+      "desempenho_1t": "Utrecht sofre 100% dos seus gols no 1º tempo.",
+      "desempenho_2t": "Sparta Rotterdam marca 100% dos seus gols no 2º tempo.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "10",
+          "posicao_geral": "11",
+          "objetivo": "meio_tabela"
+        },
+        "fora": {
+          "posicao": "14",
+          "posicao_geral": "15",
+          "objetivo": "rebaixamento"
+        }
+      },
+      "motivacao_tecnica": "Sparta Rotterdam está na 11ª posição geral, com um objetivo de meio de tabela. Utrecht está em 15º, lutando contra o rebaixamento. O Utrecht tem um histórico preocupante de sofrer gols no primeiro tempo (100% dos gols sofridos ocorreram nesta faixa), o que pode ser explorado.",
+      "coeficiente_regularidade": null,
+      "mando_de_campo": "Sparta Rotterdam tem 0 pontos em 1 jogo em casa.",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Utrecht sofre gols no 1º tempo; Sparta Rotterdam marca no 2º tempo.",
+      "momento_gols": "Utrecht: 31-45 (100%), 46-60 (50%); Sparta Rotterdam: 76-90 (100%).",
+      "jogadores_chave": [
+        "Marvin Young (Sparta Rotterdam)",
+        "Nökkvi Þeyr Þórisson (Utrecht)",
+        "Artem Stepanov (Utrecht)"
+      ],
+      "placares_provaveis": "1-1, 2-1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": null,
+      "stake_recomendada": "1.5%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "O histórico de gols do Utrecht no primeiro tempo justifica a entrada.",
+        "gatilho_saida_parcial": null,
+        "hard_stop": null
+      },
+      "back_favorito": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 8,
+        "modo": null,
+        "favorito": null,
+        "odd_alvo": null,
+        "razao": "Não há favoritismo claro nas odds (ambos a 2.62).",
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "stake_recomendada": null
+      },
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": "As odds são iguais para ambos os times, não configurando uma zebra clara.",
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "100%",
+        "gols_1t_faixas": "Utrecht 31-45: 100%",
+        "media_gols_1t": "1.00",
+        "razao": "Utrecht sofre 100% dos seus gols no 1º tempo, indicando vulnerabilidade inicial. A odd de Over 0.5 HT a 1.29 é baixa, mas o padrão de sofrer gols cedo é consistente.",
+        "ponderacao_odds": "A odd de Over 0.5 HT a 1.29 é baixa, mas o histórico de sofrer gols no 1º tempo pelo Utrecht é um fator relevante.",
+        "risco_principal": "O Sparta Rotterdam marca 100% dos seus gols no 2º tempo, o que pode limitar o potencial de gols no 1º tempo.",
+        "condicao_entrada": "Pré-jogo na odd de abertura.",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": "O índice de Over 2.5 Gols é de 50% para ambos os times, abaixo do mínimo de 65%.",
+        "indice_over_2_5": "50%",
+        "indice_ambas_marcam": "100%",
+        "indice_over_ht": "100%",
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": "Não há favoritismo extremo nas odds (ambos a 2.62).",
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_1_0_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "visitante_over_0_5": null,
+        "visitante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": "A média de gols total é de 2.00, abaixo do mínimo de 2.5. Além disso, o Utrecht marca apenas 1.00 gol por jogo.",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": "A média de gols total é de 2.00, abaixo do mínimo de 2.5. O Sparta Rotterdam marca 0.00 gol por jogo.",
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_media_casa_bruta": "0.00",
+      "_media_fora_bruta": "1.00",
+      "_ev_pct": -39,
+      "_ev_odd": 1.02,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8547687?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "20:30",
+      "liga": "Brasil - Primeira Divisão (Serie A)",
+      "jogo": "Cruzeiro x Flamengo",
+      "metodos_aplicados": [
+        "over_ht_05",
+        "lay_1x0"
+      ],
+      "mercado_principal": "Mais 0.5 gols HT",
+      "probabilidade_estimada": "58% (probabilidade estimada de vitória do Flamengo)",
+      "fair_odd": "1.72",
+      "odd_minima_entrada": "1.98",
+      "media_gols_casa": 1.25,
+      "media_gols_fora": 1.62,
+      "media_sofridos_casa": "1.17",
+      "media_sofridos_fora": "0.92",
+      "odds_mercado": {
+        "casa": "3.10",
+        "empate": "3.25",
+        "fora": "2.35",
+        "dupla_chance_1x": "1.57",
+        "dupla_chance_12": "1.30",
+        "dupla_chance_x2": "1.36",
+        "over_05": "1.05",
+        "under_05": "9.00",
+        "over_15": "1.31",
+        "under_15": "3.49",
+        "over_25": "2.00",
+        "under_25": "1.80"
+      },
+      "h2h_odds": {
+        "resumo_favorito_casa": "Como o MANDANTE performa nos papéis (ex: 'Super Fav: 4V 1E 0D | Favorito: 6V 2E 7D | Parelho: 3V 3E 2D'); null se não tiver",
+        "resumo_favorito_fora": "Mesmo formato para o VISITANTE; null se não tiver",
+        "leitura": "Flamengo tem retrospecto positivo como visitante contra o Cruzeiro, com 2 vitórias e 1 empate nos últimos 3 confrontos diretos.",
+        "jogos_relevantes": [
+          {
+            "data": "19/08/26",
+            "confronto": "Flamengo x Cruzeiro",
+            "time_analisado": "Cruzeiro",
+            "papel": "zebra",
+            "odd": "5.25",
+            "placar": "2 - 1",
+            "resultado": "D",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "12/08/26",
+            "confronto": "Cruzeiro x Flamengo",
+            "time_analisado": "Flamengo",
+            "papel": "favorito",
+            "odd": "3.00",
+            "placar": "1 - 1",
+            "resultado": "E",
+            "marcou_primeiro": false,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          },
+          {
+            "data": "11/03/26",
+            "confronto": "Flamengo x Cruzeiro",
+            "time_analisado": "Cruzeiro",
+            "papel": "zebra",
+            "odd": "6.50",
+            "placar": "2 - 0",
+            "resultado": "D",
+            "marcou_primeiro": true,
+            "gol_1t": false,
+            "gol_2t": true,
+            "nao_sofreu": false
+          }
+        ]
+      },
+      "alerta_odds": {
+        "tipo": "positivo",
+        "time": "Flamengo",
+        "texto": "Flamengo tem bom retrospecto como visitante contra o Cruzeiro, com 2V e 1E nos últimos 3 confrontos diretos."
+      },
+      "jogadores": {
+        "destaques_casa": [
+          "Matheus Pereira — criação e finalização, artilheiro do time com 5 gols",
+          "Lucas Romero — referência no meio-campo, 3 assistências"
+        ],
+        "destaques_fora": [
+          "Pedro — artilheiro do time com 14 gols",
+          "Arrascaeta — principal criador, 3 gols e 2 assistências"
+        ],
+        "titulares_casa": "4-3-3",
+        "titulares_fora": "4-3-3",
+        "ausencias_impacto": []
+      },
+      "explicacao_curta": "Flamengo é favorito com melhor ataque e defesa. Cruzeiro tem bom desempenho em casa, mas Flamengo é mais consistente.",
+      "alerta_geral": null,
+      "valor_esperado": "Flamengo tem maior probabilidade de vitória e melhor desempenho geral. A odd de 2.35 oferece valor.",
+      "mercado_secundario": "Mais 0.5 gols HT",
+      "odd_minima_secundaria": "1.50",
+      "desempenho_1t": "Flamengo marca 0.83 gols no 1ºT, Cruzeiro marca 0.75 gols no 1ºT.",
+      "desempenho_2t": "Flamengo marca 1.08 gols no 2ºT, Cruzeiro marca 1.00 gols no 2ºT.",
+      "contexto_times": {
+        "casa": {
+          "posicao": "5º (posição como MANDANTE/em casa)",
+          "posicao_geral": "5º",
+          "objetivo": "libertadores"
+        },
+        "fora": {
+          "posicao": "1º (posição como VISITANTE/fora)",
+          "posicao_geral": "2º",
+          "objetivo": "titulo"
+        }
+      },
+      "motivacao_tecnica": "Flamengo, 2º colocado geral e líder como visitante, busca manter a ponta contra o Cruzeiro, 5º colocado geral e 7º em casa. Ambos brigam por objetivos importantes (título e Libertadores).",
+      "coeficiente_regularidade": "Casa: CV moderado | Visitante: CV baixo",
+      "mando_de_campo": "Cruzeiro: 5 vitórias em 12 jogos em casa (42%). Flamengo: 7 vitórias em 12 jogos fora (58%).",
+      "condicoes_campo": "sem fatores relevantes",
+      "desfalques_chave": "elenco completo",
+      "especificidades_gols": "Flamengo tem ataque mais prolífico e defesa mais sólida.",
+      "placares_provaveis": "1x2, 1x1, 0x1",
+      "momento_entrada": "Pré-jogo",
+      "situacao_saida": "Cash-out se o placar for desfavorável ou se o jogo estagnar.",
+      "stake_recomendada": "2%",
+      "plano_execucao": {
+        "abordagem": "propor",
+        "justificativa_abordagem": "Favoritismo claro do Flamengo e bom retrospecto.",
+        "gatilho_saida_parcial": "Gol do Cruzeiro ou placar desfavorável.",
+        "hard_stop": "Se o Flamengo sofrer 2 gols."
+      },
+      "back_favorito": null,
+      "lay_zebra": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 7,
+        "modo": null,
+        "zebra": null,
+        "favorito_do_jogo": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "razao": null,
+        "gatilho_ao_vivo": null,
+        "stake_recomendada": null
+      },
+      "over_limite_70": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "favorito_ou_motivacao": null,
+        "indices_gols_faixas": null,
+        "qual_condicao_atende": null,
+        "motivo_motivacao": null,
+        "condicao_entrada": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null,
+        "alerta_armadilha": null
+      },
+      "over_ht_05": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "over05ht_>=75",
+          "gols_1t_no_momento",
+          "media_1t_>=1.1",
+          "mercado_confirma"
+        ],
+        "criterios_total": 6,
+        "modo": "pre_jogo",
+        "indice_over05ht": "83% (Cruzeiro 83%, Flamengo 83%)",
+        "gols_1t_faixas": "Cruzeiro Marcado 1ºT: 20% | Flamengo Marcado 1ºT: 9%",
+        "media_gols_1t": "1.58 (Cruzeiro) + 2.08 (Flamengo) = 3.66 / 2 = 1.83",
+        "razao": "Ambos os times têm alta média de gols no primeiro tempo e o mercado confirma com odd de 1.36 para Over 0.5 HT.",
+        "ponderacao_odds": "Odd de 1.36 para Over 0.5 HT confirma a expectativa de gols no primeiro tempo.",
+        "risco_principal": "Jogo pode começar mais estudado devido à importância.",
+        "condicao_entrada": "Pré-jogo na odd de abertura.",
+        "mercado_sugerido": "Mais 0.5 gols HT",
+        "odd_esperada": "1.30 a 1.55",
+        "stake_recomendada": "1.5%"
+      },
+      "back_2x2": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 6,
+        "razao": null,
+        "indice_over_2_5": null,
+        "indice_ambas_marcam": null,
+        "indice_over_ht": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "modo": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "back_goleada": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 3,
+        "candidato": null,
+        "razao": null,
+        "modo": null,
+        "mercado_sugerido": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "odd_esperada": null,
+        "stake_recomendada": null
+      },
+      "lay_1x0": {
+        "aplicavel": true,
+        "criterios_atendidos": [
+          "p_1x0_com_margem",
+          "visit_over05_>65",
+          "media_total_>=2.5",
+          "btts_>50",
+          "under15_caro"
+        ],
+        "criterios_total": 7,
+        "modo": "pre_jogo",
+        "prob_1_0_estimada": "8%",
+        "ponderacao_odds": "Under 1.5 a 3.49 indica que o mercado espera mais de 1 gol. BTTS a 1.75 sugere que ambos marcam.",
+        "risco_principal": "Flamengo tem ataque forte e pode ampliar o placar.",
+        "visitante_over_0_5": "92%",
+        "visitante_marca_pct": "92%",
+        "media_gols_total": "2.75",
+        "btts_medio": "67%",
+        "razao": "Jogo com média de gols alta, ambos marcam com frequência e o mercado não espera um placar de 0 ou 1 gol.",
+        "odd_alvo": "10.50",
+        "regra_saida": "Cash-out se 0-1, 1-1 ou após 60min sem gol",
+        "stake_recomendada": "2%"
+      },
+      "lay_0x1": {
+        "aplicavel": false,
+        "criterios_atendidos": [],
+        "criterios_total": 5,
+        "modo": null,
+        "prob_0_1_estimada": null,
+        "ponderacao_odds": null,
+        "risco_principal": null,
+        "mandante_over_0_5": null,
+        "mandante_marca_pct": null,
+        "media_gols_total": null,
+        "btts_medio": null,
+        "razao": null,
+        "odd_alvo": null,
+        "regra_saida": null,
+        "stake_recomendada": null
+      },
+      "confirmacao_visual": {
+        "aplicavel": false,
+        "perfil_tatico": null,
+        "gatilhos_aceleracao": null,
+        "alerta_armadilha": null,
+        "mercado_recomendado": null,
+        "momento_observacao": null
+      },
+      "_media_casa_bruta": "1.58",
+      "_media_fora_bruta": "2.08",
+      "_dados_faltantes": [
+        "momento dos gols"
+      ],
+      "_mercado_original_incoerente": "Vitória Flamengo",
+      "_ev_pct": -39,
+      "_ev_odd": 1.05,
+      "_ev_base": "mercado",
+      "_url_fonte": "https://clube.theoborges.com/game/8409678?dia=amanha&mode=ha&modo=detalhado"
+    }
+  ],
+  "evitar": [
+    {
+      "horario": "08:30",
+      "jogo": "Hull City x Manchester United",
+      "liga": "England Premier League",
+      "motivo": "Odd de mercado inferior à odd mínima de entrada para o mercado principal.",
+      "motivos_por_metodo": {
+        "back_favorito": "Odd de mercado (1.36) inferior à odd mínima de entrada (1.53).",
+        "lay_zebra": "Não se aplica, pois o Manchester United é o favorito claro.",
+        "over_limite_70": "Dados de gols por período ausentes no PDF.",
+        "back_2x2": "Dados de Over 2.5 (1.66) e Ambas Marcam (1.95) não atingem os limiares necessários.",
+        "back_goleada": "A odd de mercado de 1.36 para o Manchester United está abaixo da odd mínima de entrada de 1.53, mas o método Back Goleada é aplicável devido ao favoritismo extremo.",
+        "lay_1x0": "Dados insuficientes para calcular probabilidade de 1x0 e outros critérios.",
+        "lay_0x1": "Dados insuficientes para calcular probabilidade de 0x1 e outros critérios."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8557847?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "11:00",
+      "jogo": "Asyut Petroleum x Petrojet",
+      "liga": "Egito Primeira Divisão",
+      "motivo": "Dados insuficientes no material para análise.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no material para análise.",
+        "lay_zebra": "Dados insuficientes no material para análise.",
+        "over_limite_70": "Dados insuficientes no material para análise.",
+        "over_ht_05": "Dados insuficientes no material para análise.",
+        "back_2x2": "Dados insuficientes no material para análise.",
+        "back_goleada": "Dados insuficientes no material para análise.",
+        "lay_1x0": "Dados insuficientes no material para análise.",
+        "lay_0x1": "Dados insuficientes no material para análise."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8670535?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "11:00",
+      "jogo": "El Geish x Al Mokawloon",
+      "liga": "Egito Primeira Divisão",
+      "motivo": "Dados insuficientes no material para análise.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no material para análise.",
+        "lay_zebra": "Dados insuficientes no material para análise.",
+        "over_limite_70": "Dados insuficientes no material para análise.",
+        "over_ht_05": "Dados insuficientes no material para análise.",
+        "back_2x2": "Dados insuficientes no material para análise.",
+        "back_goleada": "Dados insuficientes no material para análise.",
+        "lay_1x0": "Dados insuficientes no material para análise.",
+        "lay_0x1": "Dados insuficientes no material para análise."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8670029?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "11:00",
+      "jogo": "Nottingham Forest x Leeds United",
+      "liga": "Inglaterra - Primeira Divisão (Premier League)",
+      "motivo": "Dados insuficientes para análise",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF para aplicar os critérios.",
+        "lay_zebra": "Dados insuficientes no PDF para aplicar os critérios.",
+        "over_limite_70": "Dados insuficientes no PDF para aplicar os critérios.",
+        "over_ht_05": "Dados insuficientes no PDF para aplicar os critérios.",
+        "back_2x2": "Dados insuficientes no PDF para aplicar os critérios.",
+        "back_goleada": "Dados insuficientes no PDF para aplicar os critérios.",
+        "lay_1x0": "Dados insuficientes no PDF para aplicar os critérios.",
+        "lay_0x1": "Dados insuficientes no PDF para aplicar os critérios."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8558033?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "11:00",
+      "jogo": "Ipswich Town x Sunderland",
+      "liga": "Inglaterra - Primeira Divisão (Premier League)",
+      "motivo": "Dados insuficientes para análise de desempenho recente.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados de desempenho recentes ausentes no PDF.",
+        "lay_zebra": "Dados de desempenho recentes ausentes no PDF.",
+        "over_limite_70": "Dados de desempenho recentes ausentes no PDF.",
+        "over_ht_05": "Dados de desempenho recentes ausentes no PDF.",
+        "back_2x2": "Dados de desempenho recentes ausentes no PDF.",
+        "back_goleada": "Dados de desempenho recentes ausentes no PDF.",
+        "lay_1x0": "Dados de desempenho recentes ausentes no PDF.",
+        "lay_0x1": "Dados de desempenho recentes ausentes no PDF."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8558086?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "11:00",
+      "jogo": "Everton x Crystal Palace",
+      "liga": "Inglaterra - Primeira Divisão (Premier League)",
+      "motivo": "Dados insuficientes para análise",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "lay_zebra": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "over_limite_70": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "over_ht_05": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "back_2x2": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "back_goleada": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "lay_1x0": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "lay_0x1": "Dados de desempenho e retrospecto ausentes no PDF."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8557840?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "12:00",
+      "jogo": "Athletic Club Bilbao x Sevilla FC",
+      "liga": "Espanha - Primeira Divisão (La Liga)",
+      "motivo": "Dados insuficientes para análise",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF para aplicar os critérios.",
+        "lay_zebra": "Dados insuficientes no PDF para aplicar os critérios.",
+        "over_limite_70": "Dados insuficientes no PDF para aplicar os critérios.",
+        "over_ht_05": "Dados insuficientes no PDF para aplicar os critérios.",
+        "back_2x2": "Dados insuficientes no PDF para aplicar os critérios.",
+        "back_goleada": "Dados insuficientes no PDF para aplicar os critérios.",
+        "lay_1x0": "Dados insuficientes no PDF para aplicar os critérios.",
+        "lay_0x1": "Dados insuficientes no PDF para aplicar os critérios."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8570554?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "13:10",
+      "jogo": "Al Kholood x Al Taawon",
+      "liga": "Arábia Saudita - Primeira Divisão (Professional League)",
+      "motivo": "Dados insuficientes para análise de desempenho e histórico.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados de desempenho e H2H insuficientes para avaliar favoritismo.",
+        "lay_zebra": "Dados de desempenho e H2H insuficientes para avaliar zebra.",
+        "over_limite_70": "Dados de gols por período ausentes no PDF.",
+        "over_ht_05": "Dados de gols no 1º tempo ausentes no PDF.",
+        "back_2x2": "Dados de Over 2.5 e Ambas Marcam ausentes no PDF.",
+        "back_goleada": "Dados de desempenho ofensivo e defensivo insuficientes.",
+        "lay_1x0": "Dados de placares prováveis e H2H insuficientes.",
+        "lay_0x1": "Dados de placares prováveis e H2H insuficientes."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8620361?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "13:15",
+      "jogo": "Al Najma x Al-Jndal",
+      "liga": "Arábia Saudita - Segunda Divisão (First Division)",
+      "motivo": "Dados insuficientes para análise estatística.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF para calcular probabilidade estimada, odd real, retrospecto e desempenho dos times.",
+        "lay_zebra": "Dados insuficientes no PDF para calcular probabilidade estimada, odd real, retrospecto e desempenho dos times.",
+        "over_limite_70": "Dados insuficientes no PDF para calcular médias de gols por período e momento dos gols.",
+        "over_ht_05": "Dados insuficientes no PDF para calcular médias de gols no primeiro tempo e momento dos gols.",
+        "back_2x2": "Dados insuficientes no PDF para calcular índices de Over 2.5, Ambas Marcam e Over HT.",
+        "back_goleada": "Dados insuficientes no PDF para calcular probabilidade estimada, odd real e desempenho ofensivo/defensivo.",
+        "lay_1x0": "Dados insuficientes no PDF para calcular probabilidade estimada de 1x0, médias de gols e BTTS.",
+        "lay_0x1": "Dados insuficientes no PDF para calcular probabilidade estimada de 0x1, médias de gols e BTTS."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8621875?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "13:20",
+      "jogo": "Al Ta'ee x Al Akhdoud",
+      "liga": "Arábia Saudita Segunda Divisão (First Division)",
+      "motivo": "Dados insuficientes para análise estatística confiável.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "lay_zebra": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "over_limite_70": "Dados de gols por período e motivação ausentes no PDF.",
+        "over_ht_05": "Dados de gols no primeiro tempo e média de gols ausentes no PDF.",
+        "back_2x2": "Dados de Over 2.5, Ambas Marcam e Over HT ausentes no PDF.",
+        "back_goleada": "Dados de favoritismo e desempenho ofensivo/defensivo ausentes no PDF.",
+        "lay_1x0": "Dados de probabilidade de placar e médias de gols ausentes no PDF.",
+        "lay_0x1": "Dados de probabilidade de placar e médias de gols ausentes no PDF."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8621992?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "13:30",
+      "jogo": "Brentford x Tottenham Hotspur",
+      "liga": "Inglaterra Primeira Divisão (Premier League)",
+      "motivo": "Dados insuficientes para análise estatística.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF para calcular probabilidade estimada, odd mínima de entrada e avaliar retrospecto.",
+        "lay_zebra": "Dados insuficientes no PDF para calcular probabilidade estimada e avaliar retrospecto.",
+        "over_limite_70": "Dados insuficientes no PDF para avaliar 'MOMENTO DOS GOLS' e média de gols.",
+        "over_ht_05": "Dados insuficientes no PDF para calcular índice de Over 0.5 HT e média de gols no 1º tempo.",
+        "back_2x2": "Dados insuficientes no PDF para avaliar Over 2.5, Ambas Marcam e Over HT.",
+        "back_goleada": "Dados insuficientes no PDF para avaliar favoritismo extremo e desempenho ofensivo/defensivo.",
+        "lay_1x0": "Dados insuficientes no PDF para calcular probabilidade de 1x0 e avaliar retrospecto.",
+        "lay_0x1": "Dados insuficientes no PDF para calcular probabilidade de 0x1 e avaliar retrospecto."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8558032?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "13:30",
+      "jogo": "Udinese x Como",
+      "liga": "Itália - Primeira Divisão (Serie A)",
+      "motivo": "Dados insuficientes para análise",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados de desempenho e aproveitamento ausentes no PDF.",
+        "lay_zebra": "Dados de desempenho e aproveitamento ausentes no PDF.",
+        "over_limite_70": "Dados de gols por período ausentes no PDF.",
+        "over_ht_05": "Dados de gols por período ausentes no PDF.",
+        "back_2x2": "Dados de Over 2.5 e Ambas Marcam ausentes no PDF.",
+        "back_goleada": "Dados de desempenho ofensivo e defensivo ausentes no PDF.",
+        "lay_1x0": "Dados de média de gols e BTTS ausentes no PDF.",
+        "lay_0x1": "Dados de média de gols e BTTS ausentes no PDF."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8545062?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "13:45",
+      "jogo": "Sparta Rotterdam x Utrecht",
+      "liga": "Holanda - Primeira Divisão (Eredivisie)",
+      "motivo": "Falta de favoritismo claro e dados insuficientes para outros métodos.",
+      "motivos_por_metodo": {
+        "back_favorito": "Odds iguais para ambos os times (2.62), sem favoritismo claro.",
+        "lay_zebra": "Odds iguais para ambos os times (2.62), sem zebra clara.",
+        "over_limite_70": "Não há dados suficientes sobre gols por faixa de tempo para ambos os times.",
+        "back_2x2": "Índice de Over 2.5 Gols é de 50%, abaixo do mínimo de 65%.",
+        "back_goleada": "Não há favoritismo extremo nas odds (ambos a 2.62).",
+        "lay_1x0": "Média de gols total de 2.00 (abaixo de 2.5) e Sparta Rotterdam marca 0.00 gol por jogo.",
+        "lay_0x1": "Média de gols total de 2.00 (abaixo de 2.5) e Sparta Rotterdam marca 0.00 gol por jogo."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8547687?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "14:00",
+      "jogo": "Al Masry x Smouha SC",
+      "liga": "Egito Primeira Divisão (Premier League)",
+      "motivo": "Dados insuficientes para análise",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "lay_zebra": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "over_limite_70": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "over_ht_05": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "back_2x2": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "back_goleada": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "lay_1x0": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "lay_0x1": "Dados de desempenho e retrospecto ausentes no PDF."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8670538?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "14:00",
+      "jogo": "Ghazl El Mehalla x Pyramids FC",
+      "liga": "Egito Egito - Primeira Divisão (Premier League)",
+      "motivo": "Dados insuficientes para análise",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "lay_zebra": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "over_limite_70": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "over_ht_05": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "back_2x2": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "back_goleada": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "lay_1x0": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "lay_0x1": "Dados de desempenho e retrospecto ausentes no PDF."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8670033?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "14:50",
+      "jogo": "Al Orubah x Al Raed",
+      "liga": "Arábia Saudita Segunda Divisão (First Division)",
+      "motivo": "Dados insuficientes para análise estatística.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF para calcular probabilidade estimada e avaliar retrospecto.",
+        "lay_zebra": "Dados insuficientes no PDF para calcular probabilidade estimada e avaliar retrospecto.",
+        "over_limite_70": "Dados insuficientes no PDF sobre momentos dos gols e média de gols.",
+        "over_ht_05": "Dados insuficientes no PDF sobre média de gols no 1º tempo e momentos dos gols.",
+        "back_2x2": "Dados insuficientes no PDF sobre Over 2.5, Ambas Marcam e Over HT.",
+        "back_goleada": "Dados insuficientes no PDF para calcular probabilidade estimada e avaliar retrospecto.",
+        "lay_1x0": "Dados insuficientes no PDF para calcular probabilidade estimada e avaliar retrospecto.",
+        "lay_0x1": "Dados insuficientes no PDF para calcular probabilidade estimada e avaliar retrospecto."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8621874?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:00",
+      "jogo": "Al Khaleej x Al Shabab",
+      "liga": "Saudi Arabia Professional League",
+      "motivo": "Dados insuficientes para análise de desempenho e gols.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados de desempenho e gols ausentes no PDF.",
+        "lay_zebra": "Dados de desempenho e gols ausentes no PDF.",
+        "over_limite_70": "Dados de desempenho e gols ausentes no PDF.",
+        "over_ht_05": "Dados de desempenho e gols ausentes no PDF.",
+        "back_2x2": "Dados de desempenho e gols ausentes no PDF.",
+        "back_goleada": "Dados de desempenho e gols ausentes no PDF.",
+        "lay_1x0": "Dados de desempenho e gols ausentes no PDF.",
+        "lay_0x1": "Dados de desempenho e gols ausentes no PDF."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8620360?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Troyes x Paris",
+      "liga": "França - Primeira Divisão (Ligue 1)",
+      "motivo": "Dados insuficientes para outros métodos e odd mínima de entrada não atingida para Back Favorito.",
+      "motivos_por_metodo": {
+        "back_favorito": "Odd mínima de entrada (1.98) não atingida pela odd de mercado (2.30).",
+        "lay_zebra": "Não há zebra com odd >= 5.00.",
+        "over_limite_70": "Dados de gols por período ausentes no PDF.",
+        "back_2x2": "Índices de Over 2.5 e Ambas Marcam não disponíveis ou insuficientes.",
+        "back_goleada": "Favoritismo não é extremo (probabilidade estimada 58%, precisa >= 70%).",
+        "lay_1x0": "Probabilidade estimada de 1-0 não calculável com dados disponíveis.",
+        "lay_0x1": "Probabilidade estimada de 0-1 não calculável com dados disponíveis."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8548570?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Le Mans x Brest",
+      "liga": "França - Primeira Divisão (Ligue 1)",
+      "motivo": "Dados insuficientes para análise de desempenho e histórico.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados de desempenho e H2H ausentes no PDF.",
+        "lay_zebra": "Dados de desempenho e H2H ausentes no PDF.",
+        "over_limite_70": "Dados de desempenho e H2H ausentes no PDF.",
+        "over_ht_05": "Dados de desempenho e H2H ausentes no PDF.",
+        "back_2x2": "Dados de desempenho e H2H ausentes no PDF.",
+        "back_goleada": "Dados de desempenho e H2H ausentes no PDF.",
+        "lay_1x0": "Dados de desempenho e H2H ausentes no PDF.",
+        "lay_0x1": "Dados de desempenho e H2H ausentes no PDF."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8548629?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Toulouse x Olympique Lyonnais",
+      "liga": "França França Primeira Divisão (Ligue 1)",
+      "motivo": "Dados insuficientes no PDF para análise estatística.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF para análise estatística.",
+        "lay_zebra": "Dados insuficientes no PDF para análise estatística.",
+        "over_limite_70": "Dados insuficientes no PDF para análise estatística.",
+        "over_ht_05": "Dados insuficientes no PDF para análise estatística.",
+        "back_2x2": "Dados insuficientes no PDF para análise estatística.",
+        "back_goleada": "Dados insuficientes no PDF para análise estatística.",
+        "lay_1x0": "Dados insuficientes no PDF para análise estatística.",
+        "lay_0x1": "Dados insuficientes no PDF para análise estatística."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8548654?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Nice x Lorient",
+      "liga": "França Ligue 1",
+      "motivo": "Dados insuficientes no material para análise.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no material para análise.",
+        "lay_zebra": "Dados insuficientes no material para análise.",
+        "over_limite_70": "Dados insuficientes no material para análise.",
+        "over_ht_05": "Dados insuficientes no material para análise.",
+        "back_2x2": "Dados insuficientes no material para análise.",
+        "back_goleada": "Dados insuficientes no material para análise.",
+        "lay_1x0": "Dados insuficientes no material para análise.",
+        "lay_0x1": "Dados insuficientes no material para análise."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8548656?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Parma x Cagliari",
+      "liga": "Itália - Primeira Divisão (Serie A)",
+      "motivo": "Dados insuficientes para análise",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "lay_zebra": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "over_limite_70": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "over_ht_05": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "back_2x2": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "back_goleada": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "lay_1x0": "Dados de desempenho e retrospecto ausentes no PDF.",
+        "lay_0x1": "Dados de desempenho e retrospecto ausentes no PDF."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8545087?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "15:45",
+      "jogo": "Genoa x Napoli",
+      "liga": "Itália - Primeira Divisão (Serie A)",
+      "motivo": "Dados insuficientes no PDF para análise.",
+      "motivos_por_metodo": {
+        "back_favorito": "Dados insuficientes no PDF para análise.",
+        "lay_zebra": "Dados insuficientes no PDF para análise.",
+        "over_limite_70": "Dados insuficientes no PDF para análise.",
+        "over_ht_05": "Dados insuficientes no PDF para análise.",
+        "back_2x2": "Dados insuficientes no PDF para análise.",
+        "back_goleada": "Dados insuficientes no PDF para análise.",
+        "lay_1x0": "Dados insuficientes no PDF para análise.",
+        "lay_0x1": "Dados insuficientes no PDF para análise."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8545089?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "18:00",
+      "jogo": "Ceará x Londrina",
+      "liga": "Brasil - Segunda Divisão (Serie B)",
+      "motivo": "Odd da zebra abaixo do mínimo para Lay Zebra, mas Ceará é favorito com valor.",
+      "motivos_por_metodo": {
+        "back_favorito": "Odd de mercado (1.80) acima da odd mínima de entrada (1.77), com valor positivo.",
+        "lay_zebra": "Odd da zebra (Londrina) é 4.50, abaixo do mínimo de 5.00 para lay zebra. No entanto, o Londrina tem um retrospecto muito ruim como visitante, com 7 jogos sem vitória e 100% de gols sofridos.",
+        "over_limite_70": "Não há dados suficientes sobre momentos de gols por faixa de tempo para aplicar o método.",
+        "back_2x2": "Índice de Over 2.5 (42%) e Ambas Marcam (50%) abaixo dos 65% necessários.",
+        "back_goleada": "Favoritismo do Ceará não é extremo o suficiente (odd 1.80, precisa < 1.40).",
+        "lay_1x0": "Média de gols total (2.25) e BTTS (50%) abaixo dos mínimos necessários.",
+        "lay_0x1": "Média de gols total (2.25) e BTTS (50%) abaixo dos mínimos necessários."
+      },
+      "_url_fonte": "https://clube.theoborges.com/game/8469672?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "11:30",
+      "jogo": "CS Marítimo x Academico Viseu",
+      "liga": "Portugal Primeira Divisão (Liga NOS)",
+      "motivo": "Reprovado na validação numérica dos critérios do lay: lay_1x0: BLOQUEADO: 1x0 está entre os 4 placares mais prováveis por Poisson (12% > 10%) — fazer lay do placar mais provável contradiz a análise",
+      "_url_fonte": "https://clube.theoborges.com/game/8574400?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "14:00",
+      "jogo": "GD Estoril Praia x Rio Ave FC",
+      "liga": "Portugal Primeira Divisão (Liga NOS)",
+      "motivo": "Reprovado na validação numérica dos critérios do lay: lay_1x0: visitante marca em 0% dos jogos (precisa >65%); visitante marca 0% (precisa >60%); média de gols total 1 (precisa ≥2.5); ambas marcam 0% (precisa >50%); BLOQUEADO: 1x0 está entre os 4 placares mais prováveis por Poisson (22% > 10%) — fazer lay do placar mais provável contradiz a análise | lay_0x1: média de gols total 1 (precisa ≥2.5); ambas marcam 0% (precisa >50%); BLOQUEADO: 0x1 está entre os 4 placares mais prováveis por Poisson (11% > 10%) — fazer lay do placar mais provável contradiz a análise",
+      "_url_fonte": "https://clube.theoborges.com/game/8574371?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "14:30",
+      "jogo": "Valencia CF x Celta de Vigo",
+      "liga": "Espanha - Primeira Divisão (La Liga)",
+      "motivo": "Reprovado na validação numérica dos critérios do lay: lay_1x0: média de gols total 0 (precisa ≥2.5); ambas marcam 0% (precisa >50%) | lay_0x1: média de gols total 0 (precisa ≥2.5); ambas marcam 0% (precisa >50%)",
+      "_url_fonte": "https://clube.theoborges.com/game/8570478?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "18:30",
+      "jogo": "Internacional x Atlético Mineiro",
+      "liga": "Brasil Brasil",
+      "motivo": "Reprovado na validação numérica dos critérios do lay: lay_1x0: visitante marca em 50% dos jogos (precisa >65%); visitante marca 50% (precisa >60%); média de gols total 2.25 (precisa ≥2.5); BLOQUEADO: 1x0 está entre os 4 placares mais prováveis por Poisson (12% > 10%) — fazer lay do placar mais provável contradiz a análise",
+      "_url_fonte": "https://clube.theoborges.com/game/8409840?dia=amanha&mode=ha&modo=detalhado"
+    },
+    {
+      "horario": "18:30",
+      "jogo": "Cuiabá x Goiás",
+      "liga": "Brasil - Segunda Divisão (Serie B)",
+      "motivo": "Reprovado na validação numérica dos critérios do lay: lay_1x0: média de gols total 2.33 (precisa ≥2.5); ambas marcam 50% (precisa >50%); BLOQUEADO: 1x0 está entre os 4 placares mais prováveis por Poisson (16% > 10%) — fazer lay do placar mais provável contradiz a análise",
+      "_url_fonte": "https://clube.theoborges.com/game/8469554?dia=amanha&mode=ha&modo=detalhado"
+    }
+  ],
+  "pdfs": [
+    {
+      "jogo": "Al Kholood x Al Taawon",
+      "arquivo": "pdfs/2026-08-22/Arábia_Saudita_Arábia_Saudita_-_Primeira_Divisão_Professiona/002_13h10_Al_Kholood_x_Al_Taawon.pdf"
+    },
+    {
+      "jogo": "Al Khaleej x Al Shabab",
+      "arquivo": "pdfs/2026-08-22/Arábia_Saudita_Arábia_Saudita_-_Primeira_Divisão_Professiona/003_15h00_Al_Khaleej_x_Al_Shabab.pdf"
+    },
+    {
+      "jogo": "Al Ahli x Abha",
+      "arquivo": "pdfs/2026-08-22/Arábia_Saudita_Arábia_Saudita_-_Primeira_Divisão_Professiona/004_15h00_Al_Ahli_x_Abha.pdf"
+    },
+    {
+      "jogo": "Al Najma x Al-Jndal",
+      "arquivo": "pdfs/2026-08-22/Arábia_Saudita_Arábia_Saudita_-_Segunda_Divisão_First_Divisi/005_13h15_Al_Najma_x_Al-Jndal.pdf"
+    },
+    {
+      "jogo": "Al Ta'ee x Al Akhdoud",
+      "arquivo": "pdfs/2026-08-22/Arábia_Saudita_Arábia_Saudita_-_Segunda_Divisão_First_Divisi/006_13h20_Al_Taee_x_Al_Akhdoud.pdf"
+    },
+    {
+      "jogo": "Al Orubah x Al Raed",
+      "arquivo": "pdfs/2026-08-22/Arábia_Saudita_Arábia_Saudita_-_Segunda_Divisão_First_Divisi/007_14h50_Al_Orubah_x_Al_Raed.pdf"
+    },
+    {
+      "jogo": "Zulte-Waregem x Waasland-Beveren",
+      "arquivo": "pdfs/2026-08-22/Bélgica_Bélgica_-_Primeira_Divisão_Pro_League/008_11h00_Zulte-Waregem_x_Waasland-Beveren.pdf"
+    },
+    {
+      "jogo": "Sporting Charleroi x KV Mechelen",
+      "arquivo": "pdfs/2026-08-22/Bélgica_Bélgica_-_Primeira_Divisão_Pro_League/009_13h15_Sporting_Charleroi_x_KV_Mechelen.pdf"
+    },
+    {
+      "jogo": "Royal Antwerp FC x KRC Genk",
+      "arquivo": "pdfs/2026-08-22/Bélgica_Bélgica_-_Primeira_Divisão_Pro_League/010_15h45_Royal_Antwerp_FC_x_KRC_Genk.pdf"
+    },
+    {
+      "jogo": "Fluminense x Remo",
+      "arquivo": "pdfs/2026-08-22/Brasil_Brasil_-_Primeira_Divisão_Serie_A/011_16h00_Fluminense_x_Remo.pdf"
+    },
+    {
+      "jogo": "Internacional x Atlético Mineiro",
+      "arquivo": "pdfs/2026-08-22/Brasil_Brasil_-_Primeira_Divisão_Serie_A/012_18h30_Internacional_x_Atlético_Mineiro.pdf"
+    },
+    {
+      "jogo": "Cruzeiro x Flamengo",
+      "arquivo": "pdfs/2026-08-22/Brasil_Brasil_-_Primeira_Divisão_Serie_A/013_20h30_Cruzeiro_x_Flamengo.pdf"
+    },
+    {
+      "jogo": "Ceará x Londrina",
+      "arquivo": "pdfs/2026-08-22/Brasil_Brasil_-_Segunda_Divisão_Serie_B/014_18h00_Ceará_x_Londrina.pdf"
+    },
+    {
+      "jogo": "Cuiabá x Goiás",
+      "arquivo": "pdfs/2026-08-22/Brasil_Brasil_-_Segunda_Divisão_Serie_B/015_18h30_Cuiabá_x_Goiás.pdf"
+    },
+    {
+      "jogo": "AB x Hvidovre",
+      "arquivo": "pdfs/2026-08-22/Dinamarca_Dinamarca_-_Segunda_Divisão_1st_Division/016_13h30_AB_x_Hvidovre.pdf"
+    },
+    {
+      "jogo": "Asyut Petroleum x Petrojet",
+      "arquivo": "pdfs/2026-08-22/Egito_Egito_-_Primeira_Divisão_Premier_League/017_11h00_Asyut_Petroleum_x_Petrojet.pdf"
+    },
+    {
+      "jogo": "El Geish x Al Mokawloon",
+      "arquivo": "pdfs/2026-08-22/Egito_Egito_-_Primeira_Divisão_Premier_League/018_11h00_El_Geish_x_Al_Mokawloon.pdf"
+    },
+    {
+      "jogo": "Al Masry x Smouha SC",
+      "arquivo": "pdfs/2026-08-22/Egito_Egito_-_Primeira_Divisão_Premier_League/019_14h00_Al_Masry_x_Smouha_SC.pdf"
+    },
+    {
+      "jogo": "Ghazl El Mehalla x Pyramids FC",
+      "arquivo": "pdfs/2026-08-22/Egito_Egito_-_Primeira_Divisão_Premier_League/020_14h00_Ghazl_El_Mehalla_x_Pyramids_FC.pdf"
+    },
+    {
+      "jogo": "Athletic Club Bilbao x Sevilla FC",
+      "arquivo": "pdfs/2026-08-22/Espanha_Espanha_-_Primeira_Divisão_La_Liga/021_12h00_Athletic_Club_Bilbao_x_Sevilla_FC.pdf"
+    },
+    {
+      "jogo": "Valencia CF x Celta de Vigo",
+      "arquivo": "pdfs/2026-08-22/Espanha_Espanha_-_Primeira_Divisão_La_Liga/022_14h30_Valencia_CF_x_Celta_de_Vigo.pdf"
+    },
+    {
+      "jogo": "RCD Espanyol x Real Madrid",
+      "arquivo": "pdfs/2026-08-22/Espanha_Espanha_-_Primeira_Divisão_La_Liga/023_16h30_RCD_Espanyol_x_Real_Madrid.pdf"
+    },
+    {
+      "jogo": "Lens x Auxerre",
+      "arquivo": "pdfs/2026-08-22/França_França_-_Primeira_Divisão_Ligue_1/024_12h15_Lens_x_Auxerre.pdf"
+    },
+    {
+      "jogo": "Troyes x Paris",
+      "arquivo": "pdfs/2026-08-22/França_França_-_Primeira_Divisão_Ligue_1/025_15h45_Troyes_x_Paris.pdf"
+    },
+    {
+      "jogo": "Le Mans x Brest",
+      "arquivo": "pdfs/2026-08-22/França_França_-_Primeira_Divisão_Ligue_1/026_15h45_Le_Mans_x_Brest.pdf"
+    },
+    {
+      "jogo": "Toulouse x Olympique Lyonnais",
+      "arquivo": "pdfs/2026-08-22/França_França_-_Primeira_Divisão_Ligue_1/027_15h45_Toulouse_x_Olympique_Lyonnais.pdf"
+    },
+    {
+      "jogo": "Nice x Lorient",
+      "arquivo": "pdfs/2026-08-22/França_França_-_Primeira_Divisão_Ligue_1/028_15h45_Nice_x_Lorient.pdf"
+    },
+    {
+      "jogo": "Fortuna Sittard x AZ",
+      "arquivo": "pdfs/2026-08-22/Holanda_Holanda_-_Primeira_Divisão_Eredivisie/029_11h30_Fortuna_Sittard_x_AZ.pdf"
+    },
+    {
+      "jogo": "Sparta Rotterdam x Utrecht",
+      "arquivo": "pdfs/2026-08-22/Holanda_Holanda_-_Primeira_Divisão_Eredivisie/030_13h45_Sparta_Rotterdam_x_Utrecht.pdf"
+    },
+    {
+      "jogo": "Heerenveen x PEC Zwolle",
+      "arquivo": "pdfs/2026-08-22/Holanda_Holanda_-_Primeira_Divisão_Eredivisie/031_16h00_Heerenveen_x_PEC_Zwolle.pdf"
+    },
+    {
+      "jogo": "Hull City x Manchester United",
+      "arquivo": "pdfs/2026-08-22/Inglaterra_Inglaterra_-_Primeira_Divisão_Premier_League/032_08h30_Hull_City_x_Manchester_United.pdf"
+    },
+    {
+      "jogo": "Nottingham Forest x Leeds United",
+      "arquivo": "pdfs/2026-08-22/Inglaterra_Inglaterra_-_Primeira_Divisão_Premier_League/033_11h00_Nottingham_Forest_x_Leeds_United.pdf"
+    },
+    {
+      "jogo": "Ipswich Town x Sunderland",
+      "arquivo": "pdfs/2026-08-22/Inglaterra_Inglaterra_-_Primeira_Divisão_Premier_League/034_11h00_Ipswich_Town_x_Sunderland.pdf"
+    },
+    {
+      "jogo": "Everton x Crystal Palace",
+      "arquivo": "pdfs/2026-08-22/Inglaterra_Inglaterra_-_Primeira_Divisão_Premier_League/035_11h00_Everton_x_Crystal_Palace.pdf"
+    },
+    {
+      "jogo": "Brentford x Tottenham Hotspur",
+      "arquivo": "pdfs/2026-08-22/Inglaterra_Inglaterra_-_Primeira_Divisão_Premier_League/036_13h30_Brentford_x_Tottenham_Hotspur.pdf"
+    },
+    {
+      "jogo": "Udinese x Como",
+      "arquivo": "pdfs/2026-08-22/Itália_Itália_-_Primeira_Divisão_Serie_A/037_13h30_Udinese_x_Como.pdf"
+    },
+    {
+      "jogo": "Inter Milan x Monza",
+      "arquivo": "pdfs/2026-08-22/Itália_Itália_-_Primeira_Divisão_Serie_A/038_13h30_Inter_Milan_x_Monza.pdf"
+    },
+    {
+      "jogo": "Parma x Cagliari",
+      "arquivo": "pdfs/2026-08-22/Itália_Itália_-_Primeira_Divisão_Serie_A/039_15h45_Parma_x_Cagliari.pdf"
+    },
+    {
+      "jogo": "Genoa x Napoli",
+      "arquivo": "pdfs/2026-08-22/Itália_Itália_-_Primeira_Divisão_Serie_A/040_15h45_Genoa_x_Napoli.pdf"
+    },
+    {
+      "jogo": "CS Marítimo x Academico Viseu",
+      "arquivo": "pdfs/2026-08-22/Portugal_Portugal_-_Primeira_Divisão_Liga_NOS/041_11h30_CS_Marítimo_x_Academico_Viseu.pdf"
+    },
+    {
+      "jogo": "GD Estoril Praia x Rio Ave FC",
+      "arquivo": "pdfs/2026-08-22/Portugal_Portugal_-_Primeira_Divisão_Liga_NOS/042_14h00_GD_Estoril_Praia_x_Rio_Ave_FC.pdf"
+    },
+    {
+      "jogo": "Sporting CP x Alverca",
+      "arquivo": "pdfs/2026-08-22/Portugal_Portugal_-_Primeira_Divisão_Liga_NOS/043_16h30_Sporting_CP_x_Alverca.pdf"
+    },
+    {
+      "jogo": "Örgryte x Halmstad",
+      "arquivo": "pdfs/2026-08-22/Suécia_Suécia_-_Primeira_Divisão_Allsvenskan/044_10h00_Örgryte_x_Halmstad.pdf"
+    }
+  ]
+}
